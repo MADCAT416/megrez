@@ -1,0 +1,23 @@
+state = {
+	id = 992
+	name = "STATE_992"
+	manpower = 109013
+	resources = {
+		oil = 15
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SAU
+		add_core_of = JBS
+		add_claim_by = SAU
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		10892 10923
+	}
+}

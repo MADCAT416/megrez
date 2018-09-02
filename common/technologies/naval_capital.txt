@@ -1,0 +1,468 @@
+technologies = {
+
+	##### 전함 #####
+	early_battleship = {
+		enable_equipments = { 
+			battleship_1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.75
+		start_year = 1945
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	### 항공모함 ###
+	carrier_1 = {
+		enable_equipments = { 
+			carrier_1
+		}
+		
+		path = {
+			leads_to_tech = carrier_2
+			research_cost_coeff = 1
+		}
+		dependencies = {
+		}
+		
+		research_cost = 0.8
+		start_year = 1945
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	carrier_2 = {
+		enable_equipments = { 
+			carrier_2
+		}
+		
+		path = {
+			leads_to_tech = carrier_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = super_carrier_1
+			research_cost_coeff = 1
+		}
+		dependencies = {
+		}
+		
+		research_cost = 1.1
+		start_year = 1950
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	carrier_3 = {
+		enable_equipments = { 
+			carrier_3
+		}
+		
+		path = {
+			leads_to_tech = carrier_4
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		research_cost = 1.1
+		start_year = 1955
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	carrier_4 = {
+		enable_equipments = { 
+			carrier_3
+		}
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		research_cost = 1.1
+		start_year = 1955
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	### 대형 항공모함
+	
+	super_carrier_1 = {
+		enable_equipments = { 
+			super_carrier_1
+		}
+		
+		path = {
+			leads_to_tech = super_carrier_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.8
+		start_year = 1955
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	super_carrier_2 = {
+		enable_equipments = { 
+			super_carrier_2
+		}
+
+		
+		path = {
+			leads_to_tech = super_carrier_3
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.8
+		start_year = 1960
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	super_carrier_3 = {
+		enable_equipments = { 
+			super_carrier_3
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.8
+		start_year = 1970
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	### 강습상륙함 ###
+	amphibious_assault_carrier_1 = {
+		enable_equipments = { 
+			light_carrier_1
+		}
+
+		path = {
+			leads_to_tech = amphibious_assault_carrier_2
+			research_cost_coeff = 1
+		}
+		dependencies = {
+		}
+		
+		research_cost = 0.7
+		start_year = 1945
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	amphibious_assault_carrier_2 = {
+		enable_equipments = { 
+			light_carrier_2
+		}
+
+		path = {
+			leads_to_tech = amphibious_assault_carrier_3
+			research_cost_coeff = 1
+		}
+		dependencies = {
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	amphibious_assault_carrier_3 = {
+		enable_equipments = { 
+			light_carrier_3
+		}
+
+		path = {
+			leads_to_tech = amphibious_assault_carrier_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				tag = ENG
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	amphibious_assault_carrier_4 = {
+		enable_equipments = { 
+			light_carrier_4
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				tag = ENG
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+}

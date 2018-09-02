@@ -1,0 +1,1105 @@
+﻿l_english:
+
+### Opinion Modifiers ###
+mon_demanded_states:0 "영토 요구"
+RUS_JAP_ally_1:0 "동맹 체결에 동의"
+RUS_JAP_ally_2:0 "공모하는 돼지들"
+RUS_JAP_ally_3:0 "공모하는 돼지들"
+RUS_JAP_ally_4:0 "동맹 거부"
+RUS_JAP_ally_5:0 "일본을 무시함"
+didnt_invite_rus:0 "우리를 무시함"
+extridate_ungern_bad:0 "운게른을 인도함"
+extridate_ungern_good:0 "운게른을 인도함"
+baron_leave_bad:0 "운게른의 운명"
+baron_leave_good:0 "운게른의 운명"
+RUS_took_rail_no:0 "손해 배상 청구"
+RUS_took_rail:0 "시베리아 철도를 압류함"
+invited_to_mon_war_refuse:0 "조약을 거부함"
+invited_to_mon_war:0 "외교 접촉"
+GER_support_RUS_bad:0 "러시아 사업"
+GER_support_RUS_good:0 "우리를 지원함"
+NOT_expell_japs:0 "우리 이주민들을 포용함"
+expelled_japs:0 "우리 이주민들을 추방함"
+JAP_KOR_VOL_BAD:0 "한국에 개입"
+JAP_KOR_VOL_GOOD:0 "한국에 개입"
+TRM_prt_crackdown:0 "한국인 문제"
+TRM_no_crackdown:0 "한국인 문제"
+SUP_KOR:0 "한국 망명자들을 지원함"
+SUP_KOR_FULL:0 "완전히 한국 망명자들을 지원함"
+JAP_threat:0 "일본이 우리를 배신함"
+JAP_FNG_exploit:0 "경제적 착취"
+JAP_railway_demand:0 "오만한 요구"
+JAP_GER_QIE_QIE:0 "원조를 해주었다!"
+JAP_GER_QIE_JAP:0 "지독한 개떼들"
+QIE_GER_ABANDON:0 "우리를 배신함"
+GER_QIE_NO_ALLY:0 "배신자"
+JAP_ALLIANCE:0 "동맹에 초대됨"
+JAP_ALLIANCE_BAD:0 "공모하는 돼지들"
+SIAM_refused:0 "우리의 제안을 거부함"
+SIAM_refused_GER:0 "일본을 거부함"
+SNUBBED_JAPAN:0 "우리를 무시했다!"
+TRM_crackdown:0 "한국 문제"
+vladivostok_puppet:0 "우리의 괴뢰국"
+
+### World Tension ###
+backed_down:0 "일보 후퇴"
+sakoku:0 "제 2차 쇄국"
+jap_rus_peace_2_no:0 "페름 회담"
+jap_rus_peace_2:0 "페름 조약"
+jap_rus_peace_1_no:0 "오호츠크 회담"
+jap_rus_peace_1:0 "오호츠크 조약"
+jap_rus_coa:0 "블라디보스토크 회담"
+kor_block_end:0 "봉쇄 중단"
+kor_block:0 "한반도 봉쇄"
+invade_hawaii:0 "하와이 침공"
+JAP_SUN_THREAT:0 "욱일 승천!"
+JAP_FNG_exploit_threat:0 "만주 개발"
+JAP_railway_demand_land:0 "영토 요구"
+JAP_railway_demand_money:0 "통화 개혁 요구"
+JAP_railway_war:0 "철도 분쟁"
+jap_back_down:0 "일보 후퇴"
+JAP_accepted_offer:0 "중재 수락"
+QIE_COMPROMISE:0 "베이징 합의"
+JAP_treaty_signed_qin:0 "칭다오 조약"
+JAP_treaty_refuse_qin:0 "조약 파기"
+
+### Factions ###
+co_prosperity_sphere:0 "공영권"
+japan_research_name:0 "이화학 연구소"
+japan_research_desc:0 "이화학 연구소는 공영권 내의 식민지와 동맹국의 질적 향상을 꾀하는 과학기관입니다."
+
+### Tooltips ###
+can_blockade_kor:0 "We should consider moving our fleets to our Korean bases to blockade the rebels"
+JAP_russia_trigger1:0 "You must not puppet or be in faction with the Russian state"
+JAP_russia_trigger2:0 "Our path to the Russian state must be clear"
+JAP_SUN_SIA_trigger:0 "Siam exists, has a friendly government and isn't at war with us"
+JAP_is_CA_strong_enough:0 "§RWe will attempt to integrate Fengtian, however if support for the Concordia Association is not high enough this could lead to war and waste the effort we have put in so far.§!"
+
+### Ideas ###
+JAP_rising_sun:0 "떠오르는 해"
+JAP_rising_sun_desc:0 "It is time for Japan to finally seize its place among the empires, and liberate the east from the evil clutches of the white devils! The sun has risen!"
+fengtian_exploitation:0 "만철 배당금"
+fengtian_exploitation_desc:0 "With its de-facto monopoly on large portions of Fengtian's economy, Mantetsu creates enormous profits, and benefits Japan both through dividends from government-owned shares and direct tax revenue."
+GER_KOR_support:0 "독일 군사고문"
+GER_KOR_support_desc:0 "German officers have been sent to instruct our armies in our war against Japan."
+kor_blocked:0 "일본의 봉쇄"
+kor_blocked_desc:0 "Japanese ships are blockading our ports, making sea trade impossible, and preventing us from getting foreign aid"
+KOR_expell_japs:0 "추방된 이주민"
+KOR_expell_japs_desc:0 "Ever since the Japanese imperialists have ravaged our homeland in 1910 tens of thousands of Japanese settlers have colonised our home. While most of them left after the war, some stubborn pigs remained, and we have decided to expel them."
+KOR_integrate_japs:0 "통합된 일본인 이주민"
+KOR_integrate_japs_desc:0 "We have decided to integrate Japanese settlers to our fragile economy."
+JAP_fengtian_bailout:0 "봉천 구제금융"
+JAP_fengtian_bailout_desc:0 "We are bailing out the Fengtian Government by purchasing sufficient silver to fill their reserve."
+JAP_MANTETSU_COLLAPSE:0 "만철 붕괴"
+JAP_MANTETSU_COLLAPSE_desc:0 "With Mantetsu's considerable profits being a major driver in the Japanese economy, and a source for nearly a quarter of the government's yearly revenue, the wholesale seizure and destruction of its operations in China has left the country reeling."
+
+### Focuses - Foreign - Base ###
+JAP_SUN_RISE:0 "떠오르는 해"
+JAP_SUN_RISE_desc:0 "With the political problems at home suppressed, it is time for the Land of the Rising Sun to look beyond her borders. We have many choices, each with their own rewards and challenges. Once we decide which path to take, we can later go more into depth on how to obtain it."
+JAP_fight_giants:0 "팔굉일우"
+JAP_fight_giants_desc:0 "Japan's correct direction on the world stage has long been debated between military scholars and ideologues alike but all agree, is all the world not better when it is under one roof? With this in mind we must choose: Nanshin-ron and Hokushin-ron? To strike North, or to strike South?"
+
+### Focuses - Foreign - Germany/China ###
+JAP_SUN_GERMAN:0 "거대한 독일을 물러내자!"
+JAP_SUN_GERMAN_desc:0 "The German Empire stands atop the world and occupies lands in Asia exploiting its peoples and threatening our own possessions on the mainland! We must bring down the German Goliath!"
+JAP_SUN_RAILROAD:0 "대 철도 사건"
+JAP_SUN_RAILROAD_desc:0 "The prosperous growth of the Legation Cities has lead to the extreme importance of the Beijing-Tianjin Railway. Some of our generals suggest that our garrison in the Tianjin Concession stage an incident to give us a legitimate reason to attack Qing."
+JAP_CHI_puppet:0 "청 괴뢰화"
+JAP_CHI_puppet_desc:0 "The Qing, once one of our mightiest of adversaries, is a nation in shambles. But they have a large population, which could be hard to rule from Tokyo. We could make them mighty again, with their leaders, under our rule."
+JAP_CHI_WAR:0 "청나라와 전쟁"
+JAP_CHI_WAR_desc:0 "With China torn apart into several warring factions, the Qing are easy pickings. Their lands should be turned into ours, as they are rich with resources and manpower."
+JAP_SUN_SIA:0 "시암과의 동맹?"
+JAP_SUN_SIA_desc:0 "In order to secure pathways for our expansionism against German Empire and its allies it is imperative to secure alliance with Siam as it is located nearby many German key positions in Pacific, namely Singapore, Indochina and Brunei. We can promise them territorial gain on account of German Empire in order to get them to join our alliance."
+JAP_SUN_GERMAN_COL:0 "식민지를 요구하자!"
+JAP_SUN_GERMAN_COL_desc:0 "Every single island in the Pacific not held by the Japanese could act as a staging point to invade our home Islands. The German empire has no right to any of these islands, and should it come to this the Japanese Imperial Navy will send them running home to the Kaiser!"
+JAP_SUN_GERMAN_ULT:0 "식민지 문제 최후통첩"
+JAP_SUN_GERMAN_ULT_desc:0 "With the recent war that sparked between Germany and the Internationale, we could use the opportunity to claim our rightful role as the sole great power in Asia and in the Pacific: we must demand all German Pacific possessions as well as their Chinese concessions. If they don't meet our demands... Well... They just can't fight a war in Europe and Asia at the same time, can they?"
+JAP_SUN_AOG:0 "총 동아시아 회사 공격"
+JAP_SUN_AOG_desc:0 "Allgemeine Ostasien-Gesellschaft is nothing more than a puppet of Germany and as such is a threat to our control of China, it is time to remove them."
+
+### Focuses - Foreign - Factions ###
+JAP_own_faction:0 "공영권 설립"
+JAP_own_faction_desc:0 "An alliance of Asian nations to oppose Western Imperialism is not a new idea, but now we cannot afford to stand alone. We must found the Co-prosperity Sphere in order to strengthen our position."
+JAP_create_riken:0 "이화학 연구소 설립"
+JAP_create_riken_desc:0 "Rikagaku Kenkyusho, often shortened to 'Riken', has long been among Japan's leading Research and Development institutes. If we provide the funding, it can begin overseas initiatives, and function as a scientific wing of the Co-prosperity sphere aimed at aiding our colonies and allies."
+JAP_FNG_start_talk:0 "봉천 사업 확장"
+JAP_FNG_start_talk_desc:0 "It is time to expand the operations of the Concordia Association. By giving them significant resources we may, in the long run, do away with the need of Fengtian completely."
+JAP_FNG_talk_1:0 "Idea 1"
+JAP_FNG_talk_1_desc:0 ""
+JAP_FNG_talk_2:0 "Idea 2"
+JAP_FNG_talk_2_desc:0 ""
+JAP_FNG_talk_3:0 "Idea 3"
+JAP_FNG_talk_3_desc:0 ""
+JAP_FNG_talk_4:0 "Idea 4"
+JAP_FNG_talk_4_desc:0 ""
+JAP_FNG_talk_5:0 "Idea 5"
+JAP_FNG_talk_5_desc:0 ""
+JAP_FNG_talk_6:0 "Idea 6"
+JAP_FNG_talk_6_desc:0 ""
+JAP_FNG_talk_7:0 "Idea 7"
+JAP_FNG_talk_7_desc:0 ""
+JAP_FNG_talk_8:0 "Idea 8"
+JAP_FNG_talk_8_desc:0 ""
+JAP_FNG_final_talk:0 "봉천정부 해산"
+JAP_FNG_final_talk_desc:0 "우리는 할만큼 했으며, 이제는 봉천 정부를 해산할 시간입니다. 콩코르디아 협회를 충분히 강하게 만듭시다."
+
+### Focuses - Foreign - Colonialism ###
+JAP_SUN_COLONY:0 "남진론"
+JAP_SUN_COLONY_desc:0 "For all its strengths, Japan has a key strategic disadvantage in its dependency on foreign oil. In the pursuit of self-reliance and security against ever-encroaching Western imperialism, surely it would be both wise and just to acquire these resources for ourselves, and in so-doing widen our sphere of security?"
+JAP_demand_indonesia:0 "인도네시아 요구!"
+JAP_demand_indonesia_desc:0 "For centuries Indonesia has toiled under the oppression of Dutch colonial rule, and its vast resources lining European pockets. This injustice must end, we must liberate these resources for the co-prosperity sphere, where they rightfully belong!"
+JAP_SUN_HAW_annex:0 "하와이 합병!"
+JAP_SUN_HAW_annex_desc:0 "Now that the American position in the pacific is weakened we can make our move to annex Hawaii and open a path to the Americas."
+JAP_SUN_HAW_alliance:0 "하와이와의 동맹?"
+JAP_SUN_HAW_alliance_desc:0 "After the secession of Hawaii in the wake of the American civil war new opportunities were opened for us in the east. Let us offer an alliance to the Hawaiian government."
+JAP_SUN_PHIL_fold:0 "필리핀을 집어삼키자!"
+JAP_SUN_PHIL_fold_desc:0 "이제 제국주의자들은 떠나버렸습니다. 포함을 보내서 공영권의 해상 교두보 마련을 위해 섬들을 확보할 수 있습니다. 물론, 필리핀인들이 가만히 지켜보고만 있지는 않을겁니다."
+JAP_SUN_PHIL_invite:0 "필리핀과의 동맹?"
+JAP_SUN_PHIL_invite_desc:0 "Now that the Philippines are independent from western imperialism we can invite them to join our prosperity sphere to liberate the rest of Asia from the Western barbarians!"
+
+### Focuses - Foreign - Russia/Mongolia ###
+JAP_go_north:0 "북진론"
+JAP_go_north_desc:0 "The Russian bear has loomed in the north for decades, and it is only a matter of time before the Mad Baron spreads destruction once again. It is time to push forward, and end the facade of peace."
+JAP_SUN_RUSSIA:0 "쿠마 작전"
+JAP_SUN_RUSSIA_desc:0 "On the Northern frontier lies Russia. It is a land ruled by fools and defended by peasants, but dangerous nonetheless. We must incorporate the North and defeat our old enemy once and for all!"
+#JAP_SUN_RUSSIA_desc:0 "To the north of us there is a great untamed land, ripe for the taking. It is a land ruled by warlords, with bandits and criminals sowing chaos amid rich provinces. We must bring order to the north to protect our influence."
+#JAP_SIBERIA:0 "Invade Siberia"
+#JAP_SIBERIA_desc:0 "The lands of Siberia have seceded from Russia, and are now standing alone and isolated. It would be the perfect time to launch an invasion to secure the north."
+JAP_Mongolia:0 "카미카제 작전"
+JAP_Mongolia_desc:0 "The Mongolian steppes are controlled by the mad baron, a bloodthirsty butcher who threatens the stability of the region."
+
+#Don't know where the hell this is from: jap_ino_demand:0 "After the end of the Dutch colonial regime, Indonesia became a 'free' nation, trying to navigate the cruel ocean that is sovereignty. In reality, Indonesia is nothing more than an artificial byproduct of western imperialism. Let us end this pointless charade and bring the Indonesians into the fold!"
+
+### Events ###
+japfor.1.t:0 "만철이 역대 최고 수입을 기록하다"
+japfor.1.d:0 "After the conclusion of the last phase of the Chinese Civil Wars in 1928, and our intervention to protect our sphere of influence against German encroachment, Zhang Zuolin's Fengtian Clique proclaimed itself as the sole legitimate republican government of all China. Following the promulgation of an Imperial Ordinance ordering the development of "indivisible relations with the Japanese Empire", the government has supported a number of programs impressing our influence over its government so as to its role as an effective proxy in China. As a result, we maintain a great deal of influence over Fengtian, further reinforced by garrisons. \n\n The core of our efforts is the South Manchuria Railway Company, or "Mantetsu" for short, which has been operating in Manchuria since 1906. While a powerful symbol of our interests in China prior to the intervention, the company has since become responsible for developing and exploiting virtually every important aspect of the Manchurian economy, propelling China's Northeast to become Japan's primary source of coal and steel, as well as the producer of over half the world's soybean supply. Today, Mantetsu has announced its highest profits to date."
+japfor.1.a:0 "Great!"
+
+japfor.2.t:0 "봉천의 경제적 개발이 더이상 불가능하다."
+japfor.2.d:0 "Terrible news! Due to our loss of control over the Fengtian Government, we can no longer exploit its resources and industry to support our own."
+japfor.2.a:0 "Drat!"
+
+japfor.3.t:0 "대 철도 사건"
+japfor.3.d:0 "China has long been in the eyes of Japan. To the south of the Fengtian Government lies the Qing Empire, one of our most powerful opponents on the continent, and the key to influence over all China. As part of a diplomatic treaty, we have allowed a major railway to run between the two nations as a symbol of unity. Ironically, the railway is now serving to justify war. The colonel of the Japanese garrison protecting the railway has staged an incident resulting in the deaths of 25 Manchurians and 12 Japanese, claiming Qing aggression as the cause."
+japfor.3.a:0 "Worrying..."
+japfor.3.b:0 "Territory will be fitting compensation"
+japfor.3.c:0 "Demand financial sanctions and monetary compensation"
+japfor.3.e:0 "A show of force is the only course of action!"
+
+japfor.4.t:0 "영토 요구"
+japfor.4.d:0 "Japan has claimed that our garrison has fired upon and killed 25 Manchurians and 12 Japanese and, as a result, they are demanding that we turn over our northern border with them for safety of their Manchurian allies."
+japfor.4.a:0 "Give in to the demands of the Japanese"
+japfor.4.b:0 "Put our fate in Berlin's hands, appeal to Germany for intervention"
+japfor.4.c:0 "Reject their demands outright."
+
+japfor.5.t:0 "청제국이 우리의 요구에 숙이다"
+japfor.5.d:0 "The threat of Japanese power was enough to bend the so-called Qing Emperor to our will."
+japfor.5.a:0 "Glory to the Land of the Rising Sun!"
+
+japfor.6.t:0 "청이 중재를 요청하다"
+japfor.6.d:0 "The Qing Empire has appealed to us to arbitrate over a dispute involving the death of 25 Manchurians and 12 Japanese."
+japfor.6.a:0 "The Japanese claims are fabricated, reject them"
+japfor.6.b:0 "Offer a compromise to appease the Japanese"
+japfor.6.c:0 "Back Japan in their demands."
+
+japfor.7.t:0 "독일이 일본을 지지하다!"
+japfor.7.d:0 "Our decision to let German Empire mediate dispute between us and Japan ended in disaster. The German Empire, not wishing for another conflict in the Far East decided to back up Japanese claims. What shall we do?"
+japfor.7.a:0 "Give into the demands of the Japanese"
+japfor.7.b:0 "Reject their demands outright."
+
+japfor.8.t:0 "청이 우리 요구를 거부하다!"
+japfor.8.d:0 "Despite the Germans acknowledging our claims and backing us on this crisis the insolent Qing empire have refused our rightful demands! It is time for us to crush them and teach them the price of disobedience!"
+japfor.8.a:0 "They want war!"
+japfor.8.b:0 "We can't win this!"
+
+japfor.9.t:0 "독일의 지지를 받은 청이 우리 요구를 거부하다"
+japfor.9.d:0 "The German lapdogs, the Qing have gained their master's support and they have rejected the generous offer put forth by our government"
+japfor.9.a:0 "We will push onward, we must defend the nation's honour!"
+japfor.9.b:0 "The stakes are too high, we must back down."
+
+japfor.10.t:0 "일본이 청과 독일 제국을 공격하다"
+japfor.10.d:0 "Following the railway incident with the Qing Empire, Japan declared war on us and the Qing and the Fengtian soon followed suit."
+japfor.10.a:0 "We must Ally with the Qing"
+japfor.10.b:0 "They will stand separately."
+
+japfor.11.t:0 "양보 제의"
+japfor.11.d:0 "The cowardly Qing, fearing Japanese military might, appealed to Germany for help. Germany put forward a compromise offer to Japan. The Qing Empire will be forced to adjust its borders slightly, but we must accept its independence and existing borders."
+japfor.11.a:0 "Their offer is fair, we accept the German compromise"
+japfor.11.b:0 "This is offer is not worth the paper it is written on!"
+
+japfor.12.t:0 "타협"
+japfor.12.d:0 "The Germans have offered both sides a compromise: we give our portion of Inner Mongolia to the Japanese in exchange for peace and, afterwards, we sign a Non-Aggression Pact to ensure peace in the future."
+japfor.12.a:0 "One worthless state in exchange for peace? It's a deal!"
+japfor.12.b:0 "We won't give them an inch!"
+
+japfor.13.t:0 "청제국이 타협을 받아들이다"
+japfor.13.d:0 "The Qing have accepted the German engineered compromise, and we have received the Qing held territory in the Inner Mongolia region, along with a Pact of Non-Aggression."
+japfor.13.a:0 "Huzzah! Our Fengtian allies will administrate the new territory!"
+japfor.13.b:0 "Banzai!"
+
+japfor.14.t:0 "청이 독일의 타협을 거부하다"
+japfor.14.d:0 "The Qing have arrogantly refused the German engineered Compromise."
+japfor.14.a:0 "Then what they shall not give, we shall take!"
+
+japfor.15.t:0 "협상이 결렬되다; 전쟁이 시작되다"
+japfor.15.d:0 "After the Qing Empire refused the compromise we carefully engineered, Japan declared war and Fengtian followed suit."
+japfor.15.a:0 "We must protect the Qing, declare War on Japan!"
+japfor.15.b:0 "We tried to solve the conflict peacefully, we cannot afford war."
+
+japfor.16.t:0 "제재와 금전적 보상"
+japfor.16.d:0 "Japan has claimed that our garrison has fired upon and killed 25 Manchurians and 12 Japanese and as a result, they have placed sanctions on us and demanded monetary compensation."
+japfor.16.a:0 "Give into the demands of the Japanese"
+japfor.16.b:0 "Reject their demands outright."
+
+japfor.18.t:0 "청이 지원을 호소하다"
+japfor.18.d:0 "Japan has launched a series of strikes along the Qing border. The Qing have called for our aid in repelling the Japanese attack."
+japfor.18.a:0 "Japanese expansion into Asia must be stopped at all costs!"
+japfor.18.b:0 "We must help the Qing, but we cannot get militarily involved"
+japfor.18.c:0 "Japan is justified, we refuse to get involved."
+
+japfor.19.t:0 "저무는 해"
+japfor.19.d:0 "After the utter defeat of the Imperial Japanese Army, our imperial army controls huge swathes of land in Manchuria and Korea whilst the IJN are reduced to attempting mere blockades. Our spies in Tokyo report severe dissent and war weariness among the populace. In light of this, the government has called a conference in occupied Port Arthur to determine our war aims."
+japfor.19.a:0 "Humiliate the Empire of the Setting Sun!"
+japfor.19.b:0 "총제적 승리를 위해 압박한다!"
+
+japfor.20.t:0 "저무는 해"
+japfor.20.d:0 "This is a dark day for the Empire of the Sun. Chinese forces have ousted our men from their vital bases in Manchuria and Korea. On top of this, a declaration has been sent out from Port Arthur by the imperial government offering terms that demand our surrender of all territories on the Chinese mainland as well as the return of Taiwan and independence of Korea."
+japfor.20.a:0 "선택의 여지가 없으니 굴복한다"
+japfor.20.b:0 "일본은 항복하지 않는다! 반자이!"
+
+japfor.21.t:0 "일본이 패배하고 한국이 해방되다"
+japfor.21.d:0 "우리는 우리 조상의 고향인 만주를 되찾았으며, 한국이 우리의 지배하에 들어오게 되었습니다!"
+japfor.21.a:0 "만세!"
+
+japfor.22.t:0 "트란스아무르가 고립되다"
+japfor.22.d:0 "After the Chinese pushed the Japanese back to their Home Islands, Transamur has been in chaos. The Japanese elite have fled back to their home and orders is beginning to break down. The people are ready to depose of Kolchak and return to the Motherland's embrace."
+japfor.22.a:0 "Move in and bring Transamur back under our control."
+japfor.22.b:0 "Move in and bring Transamur back under our control."
+
+japfor.23.t:0 "저무는 해"
+japfor.23.d:0 "The Japanese empire has been utterly defeated by their mortal enemies and forced to surrender all of their mainland territory. We may be able to force them to make a similar deal with us."
+japfor.23.a:0 "Demand all territory outside Japan itself"
+japfor.23.b:0 "The war will continue until we see fit."
+
+japfor.24.t:0 "독일이 우리의 해외 영토를 요구하다"
+japfor.24.d:0 "After being defeated by our mortal enemies, the Germans are now demanding that we turn over all our remaining territory outside our own sacred soil to them."
+japfor.24.a:0 "We Give up! As long as our sacred homeland is intact!"
+japfor.24.b:0 "Never! Banzai!"
+
+#japfor.25.t:0 "청제국이 패배하다"
+#japfor.25.d:0 "The war with the Empire of Japan and their lackeys now seems hopeless. It may be time to sue for peace."
+#japfor.25.a:0 "How humiliating! Sue for peace."
+#japfor.25.b:0 "Our empire shall fight to the bitter end!"
+
+japfor.25.t:0 "청제국이 패배하다"
+japfor.25.d:0 "The Qing Empire is no more; Japan is victorious. Perhaps it is time to cut out loses and leave before our own colonies are threatened..."
+japfor.25.a:0 "이제 청나라를 버릴 때가 왔다"
+japfor.25.b:0 "동맹을 저버리지 않을 것이다!"
+
+japfor.26.t:0 "청제국이 패배하다"
+japfor.26.d:0 "Following a series of bloody battles along the Qing border, the Qing government had realised that they were too weak to defend against the might of the Japanese Empire and capitulated. Now with Japanese forces occupying the Qing capital, it must be decided what shall be done with the Qing."
+japfor.26.a:0 "우리는 중국을 그림자로 부터 통제할 것이다.."
+japfor.26.b:0 "봉천이 중국인들을 통치할 것이다"
+japfor.26.c:0 "점령한 중국에 새로운 정권을 수립한다!"
+japfor.26.e:0 "전체점령이 바람직하다."
+
+japfor.27.t:0 "중국의 이전"
+japfor.27.d:0 "After the surrender of the Qing Empire, Japan has given us their former territory and expects us to keep it under our control for them."
+japfor.27.a:0 "We won't let them down!"
+
+japfor.28.t:0 "일본의 제안"
+japfor.28.d:0 "Japanese Empire has approached us with interesting proposal. Since Japan plans war with German Empire and its allies in Pacific it needs us in its alliance bloc, since we are located near many crucial German colonies in Pacific. In order to gain our approval, Japan promise us entire Malay peninsula together with Indochina after end of victorious war against German Empire. Do we want to join Co-Prosperity Sphere and risk potentially lethal conflict with German Empire?"
+japfor.28.a:0 "그래, 우리는 독일을 아시아에서 몰아낼 것이다!"
+japfor.28.b:0 "거부한다!"
+
+japfor.29.t:0 "시암아 공영권에 합류하다!"
+japfor.29.d:0 "Siam accepted our offer to drive the Germans and their lackeys from Asia and joined the Co-Prosperity Sphere!"
+japfor.29.a:0 "환영한다!"
+
+japfor.30.t:0 "독일의 제안"
+japfor.30.d:0 "The recent Japanese diplomatic offensive has claimed great success, and our old rival Siam has entered into an alliance with Japan. This radical move directly threatens our national sovereignty, since Siam is determined to gain control over all of Burma! Fortunately, since German colonies are also greatly endangered by this latest Japanese initiative, the German Empire has decided to invite us to join the Reichspakt to counter rising Japanese influence. In order to gain our acceptance, the German Empire promises us territories lost to Siam in 1925 after the end of the war against Japan and its allies. Do we want to join the Reichspakt and risk potentially lethal conflict with Japan and its Co-Prosperity Sphere?"
+japfor.30.a:0 "우리의 독립을 보전할 유일한 방법이다!"
+japfor.30.b:0 "제안을 거부한다!"
+
+japfor.31.t:0 "버마가 제국협정에 가입하다!"
+japfor.31.d:0 "Burma accepted our offer to stop expansion of Japan and its lackeys in Indochina and joined the Reichspakt!"
+japfor.31.a:0 "환영한다!"
+
+japfor.32.t:0 "총 동아시아 회사의 개입!"
+japfor.32.d:0 "With the eruption of the grand military conflict in Asia, some important members of our general staff have suggested the direct involvement of our colony the A.O.G. in the ongoing conflict, since its vast armies and strategic location could decisively turn the tide in our favour. Still, the A.O.G. board of directors warns us that, although they are willing to help the fatherland, this effort could seriously destabilise the already fragile situation in their colony..."
+japfor.32.a:0 "총 동아시아 회사는 조국과 함께 싸울 것이다!"
+japfor.32.b:0 "불필요하다, 총 동아시아 회사의 리스크를 감수할 수 없다"
+
+japfor.33.t:0 "극동에서의 전쟁!"
+japfor.33.d:0 "With the eruption of widespread military conflict in East Asia, the German Empire, despite our pleas, decided to involve our colony in the war. There is not much to decide on this matter, as we can not disobey a direct order from Berlin......"
+japfor.33.a:0 "This is the only way to preserve our existence!"
+japfor.33.b:0 "Use this opportunity to declare independence from Berlin!"
+
+japfor.34.t:0 "총 동아시아 회사가 동아시아에서의 우리의 전쟁에 참여하다!"
+japfor.34.d:0 "The A.O.G. board of directors accepted our order and its vast, albeit untrained, armies are finally involved into war conflict in Asia!"
+japfor.34.a:0 "Wikommen!"
+
+japfor.35.t:0 "독일이 전쟁에서 지고 있다"
+japfor.35.d:0 "Our mortal enemy, the German Empire, is losing its war. This may be an opportune moment to issue an ultimatum demanding all German lands in Asia. The time to cast off the yoke of Western imperialism may be at hand!"
+japfor.35.a:0 "Issue the ultimatum. Banzai!"
+japfor.35.b:0 "Do Nothing."
+
+japfor.36.t:0 "일본이 최후 통첩을 보내다"
+japfor.36.d:0 "The Japanese Consul in Saigon has delivered a letter from Tokyo. The news is dire; since we have lost the war and were forced to capitulate, we have lost all might and power in Asia, and the Japanese like hungry vultures are going to incorporate our Asian colonies into their Co-Prosperity Sphere."
+japfor.36.a:0 "Submit to their demands."
+japfor.36.b:0 "Declare War."
+
+japfor.38.t:0 "독일이 최후 통첩을 거부하다"
+japfor.38.d:0 "The stubborn and foolish Germans will pay for their arrogance. Let the war begin!"
+japfor.38.a:0 "BANZAI!"
+japfor.38.b:0 "Now is not the time for war."
+
+japfor.39.t:0 "독일이 지배했던 식민지는 우리 손에 있다"
+japfor.39.d:0 "Our glorious armed forces have successfully captured every corner of the German colonial possessions in Asia. Imperial General Headquarters is convinced that our grand victories should allow us to dictate terms of peace with German Empire favourable to us..."
+japfor.39.a:0 "We have achieved all our goals!"
+japfor.39.b:0 "Continue our armed struggle."
+
+japfor.40.t:0 "일본이 평화를 제안하다"
+japfor.40.d:0 "After series of crushing land and naval defeats, our forces were completely pushed from the East Asian theatre. The victorious Empire of the Rising sun, achieving all its goals, has offered us a peace treaty in which we will recognise their territorial gains and withdraw all our remaining forces from Asia...."
+japfor.40.a:0 "We have no choice..."
+japfor.40.b:0 "Continue our armed struggle."
+
+japfor.41.t:0 "일본의 최후 통첩"
+japfor.41.d:0 "For months already, the Japanese have expressed their aggressive ambitions towards our Chinese and Pacific holdings, as part of their expansionist policies. Today, the Japanese ambassador to Berlin has presented us an ultimatum: they demand that we surrender our possessions in China and the Pacific, or else we will face the full might of the Imperial Japanese Military..."
+japfor.41.a:0 "대답 조차 하지마라."
+japfor.41.b:0 "요구를 수용한다."
+
+japfor.42.t:0 "우리의 최후 통첩이 무시당하다!"
+japfor.42.d:0 "We did not receive any answer to our ultimatum. We must mobilise for war and secure our place as the sole great power in East Asia!"
+japfor.42.a:0 "전쟁을 선포한다!"
+japfor.42.b:0 "물러나자, 전쟁을 감수 할 수 없다."
+
+japfor.43.t:0 "독일이 우리의 조건을 받아들이다"
+japfor.43.d:0 "Germany has accepted our conditions. This is not so surprising after all: they wouldn't dare face the might of the Emperor's armies!"
+japfor.43.a:0 "Great!"
+
+japfor.44.t:0 "일본이 청제국을 공격하다!"
+japfor.44.d:0 "With the eruption of the grand military conflict in Asia, some important members of our general staff have suggested the direct involvement of our colony the A.O.G. in the ongoing conflict, since its vast armies and strategic location could decisively turn the tide in our favour. Still, the A.O.G. board of directors warns us that, although they are willing to help the fatherland, this effort could seriously destabilise the already fragile situation in their colony..."
+japfor.44.a:0 "대청제국은 지지않을 것이다!"
+japfor.44.b:0 "우리가 할 수 있는건 없다..."
+
+japfor.45.t:0 "독일의 제안"
+japfor.45.d:0 "A German diplomatic ambassador on behalf of the Kaiser has offered our homeland the military support of the German Empire in our struggle with Japan and its lackeys. How shall we react?"
+japfor.45.a:0 "This is the only way to preserve our existence!"
+japfor.45.b:0 "We will win this war on our own!"
+japfor.46.t:0 "Qing Empire joins our war effort in Asia!"
+japfor.46.d:0 "Qing Empire accepted our offer and now they are part of our grand the Reichspakt alliance!"
+japfor.46.a:0 "훌륭하군"
+
+japfor.47.t:0 "일본의 요구"
+japfor.47.d:0 "Since the eruption of the conflict in Western Europe, Germany's position in Asia has seriously weakened. Japan has decided to use this opportunity to force us into submission. Their ambassador has brought us an official demand regarding a total political and economic restructuring of our state. Accepting this would mean an end of our status as an independent state. However, fighting an obviously strong Japan could mean complete disaster for us and the entirety of China. How shall we react?"
+japfor.47.a:0 "Accept them. We cannot hope to fight against Japan."
+japfor.47.b:0 "Refuse them outright!"
+
+japfor.48.t:0 "청제국의 굴복"
+japfor.48.d:0 "The Qing Empire was forced to accept all of our economic and political demands. We have successfully secured Qing territory as part of the Great Co-Prosperity Sphere!"
+
+japfor.49.t:0 "청제국이 우리 요구를 거부하다"
+japfor.49.d:0 "In a show of absolute arrogance, government of the Qing Empire outright refused our reasonable demands, calling them insane and absurd. How shall we react to this slight against the Japanese nation?"
+japfor.49.a:0 "We can't afford this war right now."
+japfor.49.b:0 "Declare war outright!"
+
+japfor.50.t:0 "일본이 우리를 대동아공영권에 초대하다"
+japfor.50.d:0 "The Japanese, seeing an empty space now that the Americans have decided to leave, invited us to join their alliance. This could be chance to make our nation rich and prosperous, but it could be deadly as Japan needs new markets and wants to spread its political influence."
+japfor.50.a:0 "Yes, we gladly accept."
+japfor.50.b:0 "Turn to Entente for protection."
+japfor.50.c:0 "We prefer isolation."
+
+japfor.51.t:0 "필리핀이 협상국에 가입하기를 원하다!"
+japfor.51.d:0 "Due to Japanese expansion, the Philippines has decided to forge an alliance with us. We are far from them and we have different goals, but we need as many allies as we can find."
+japfor.51.a:0 "Yes, we will both become stronger."
+japfor.51.b:0 "We can't trust them."
+
+japfor.52.t:0 "우리의 제안이 거절되다!"
+japfor.52.d:0 "We have to face the truth - Japan or dangerous isolation. The choice is ours"
+japfor.52.a:0 "The Japanese are trustworthy allies."
+japfor.52.b:0 "Isolation is better."
+
+japfor.53.t:0 "필리핀이 제국협정에 가입하기를 원하다!"
+japfor.53.d:0 "Due to Japanese expansion, the Philippines has decided to forge an alliance with us. We are far from them and we have different goals, but we need as many allies, as we can find."
+japfor.53.a:0 "Yes, they can be our allies."
+
+japfor.54.t:0 "필리핀이 우리의 제안을 거절하다"
+japfor.54.d:0 "The Philippines have refused our offer to become a member of Co-Prosperity Sphere. Their position threatens our security, and cannot not be tolerated!"
+japfor.54.a:0 "We will destroy them!"
+japfor.54.b:0 "Back down, we can return later."
+
+japfor.55.t:0 "일본이 우리를 위협하다!"
+japfor.55.d:0 "A large Japanese task force has sailed into the islands and is threatening to attack us if we do not bow to their demand of full surrender!"
+japfor.55.a:0 "Resist them and call for help!"
+japfor.55.b:0 "Surrender is our only option."
+
+japfor.56.t:0 "필리핀이 도움을 요청하다"
+japfor.56.d:0 "Japan is pounding at the door of Philippines and they have come to us begging for assistance. Should we respond?"
+japfor.56.a:0 "Offer our protection."
+japfor.56.b:0 "We cannot stretch ourselves so far."
+
+japfor.57.t:0 "필리핀이 캐나다의 지지와 함께 저항하다"
+japfor.57.d:0 "The Philippines are resisting our demands and the Canadian state is backing their claim to independence"
+japfor.57.a:0 "We will destroy them regardless."
+japfor.57.b:0 "Back down, we can return later"
+
+japfor.58.t:0 "필리핀이 캐나다의 지지없이 저항하다"
+japfor.58.d:0 "The Philippines are resisting our demands and the Canadian state is refusing to send aid. We should make them pay for this in blood."
+japfor.58.a:0 "We will destroy them."
+japfor.58.b:0 "Back down, we can return later."
+
+japfor.59.t:0 "필리핀이 항복하다!"
+japfor.59.d:0 "Seeing the might of our forces, the Philippines had no chance but to submit before the brave sons of the empire!"
+japfor.59.a:0 "Victory."
+
+japfor.60.t:0 "일본의 외교적 노력"
+japfor.60.d:0 "A high level envoy from Japan has brought a plan that would guarantee our independence while giving Japan the military bases it needs to secure the Pacific Ocean. It is unlikely a negative answer will be taken well..."
+japfor.60.a:0 "Accept."
+japfor.60.b:0 "Refuse and hope for the best."
+
+japfor.61.t:0 "하와이가 우리의 제안을 거절하다"
+japfor.61.d:0 "Our envoy in Hawaii reports the government have refused our generous offer to join the Co-Prosperity Sphere. Should we press this any further?"
+japfor.61.a:0 "This was a silly idea. Invade!"
+japfor.61.b:0 "Hmph. Their loss!"
+
+japfor.62.t:0 "일본이 우리를 위협하다!"
+japfor.62.d:0 "A large Japanese task force has sailed into the islands and is threatening to attack us if we do not bow to their demand of full surrender!"
+japfor.62.a:0 "Resist them and call for help!"
+japfor.62.b:0 "Surrender is our only option."
+
+japfor.63.t:0 "하와이가 항복하다!"
+japfor.63.d:0 "A victory!"
+japfor.63.a:0 "Banzai!"
+
+japfor.64.t:0 "하와이가 도움을 요청하다"
+japfor.64.d:0 "Japan is pounding at the door of Hawaii and they have come to us begging for assistance. Should we respond?"
+japfor.64.a:0 "Offer our protection."
+japfor.64.b:0 "They left us, remember."
+
+japfor.65.t:0 "하와이가 미국의 지지와 함께 저항하다"
+japfor.65.d:0 "Hawaii is resisting our demands and the Pacific States of America are backing their claim to independence."
+japfor.65.a:0 "어떻게든 그들을 파괴하고야 말겠다!"
+japfor.65.b:0 "물러나라, 언젠가 돌아 올 수 있을 것이다."
+
+japfor.66.t:0 "하와이가 미국의 지지없이 저항하다"
+japfor.66.d:0 "Hawaii is resisting our demands and the Pacific States of America are refusing to send aid. We should make them pay for this in blood."
+
+japfor.68.t:0 "한국 망명 정부가 해외의 지지를 찾고 있다"
+japfor.68.d:0 "The Korean government-in-exile has trudged along for a long time alone building up minor support. However, the Prince has seen growing instability as a chance to return to Korea. He has begun to put out feelers for a strong ally to help against Japan."
+japfor.68.a:0 "Interesting."
+
+japfor.69.t:0 "한국이 지원을 요청하다"
+japfor.69.d:0 "한국 망명 정부가 독일 정부에게 일본이 빼앗아간 영토를 탈환하기 위한 군사적,정치적 지원을 요청해왔습니다. 우리가 그들의 전쟁을 돕는다면 일본을 아주 큰 곤경에 빠뜨릴 수 있습니다만, 한국이 성급하게 행동한다면 우리에게도 문제가 생길 수 있습니다."
+japfor.69.a:0 "재고로 쌓여있는 장비를 처리하기 아주 좋은 기회다."
+japfor.69.b:0 "전폭적인 지원과 원조를 제공해야 한다."
+japfor.69.c:0 "우리는 관심이 없다."
+
+japfor.70.d:0 "The Korean government in exile has asked us for military and political aid against Japan. It might be wise to send them aid to keep the Japanese off balanced. But it could mean that Japan comes for us sooner rather than lat"
+
+japfor.73.t:0 "한국 문제"
+japfor.73.d:0 "한국 망명 정부는 조국 해방 운동을 진행 중이며 자신들의 독립을 지지해줄 세력을 찾고 있습니다."
+japfor.73.a:0 "눈을 뜨고 귀를 기울이자" 
+
+japfor.74.t:0 "트랜스아무르에서 한국 민족주의가 대두되다"
+japfor.74.d:0 "트랜스아무르에서 제법 큰 규모의 한국 독립운동이 확산되고 있으며 이것을 방치한다면 후환이 될 수 있습니다..."
+japfor.74.a:0 "엄중히 단속해라."
+japfor.74.b:0 "그냥 놔둬라. 그들은 우리를 밀어낼 수 없다."
+
+japfor.751.t:0 "일본의 압력"
+japfor.751.d:0 "우리 지역에서의 한국 민족주의의 대두는 일본에게 약간 불안감을 심어줬으며 일본은 우리에게 이 신생 운동을 단속하라고 요구하고 있습니다. 이 요구를 거절한다면 일본의 분노를 사겠지만, 요구를 수용하고 한국인들을 단속한다면 특히 한국인이 많은 비율을 차지하는 중산층들이 반발할 것입니다."
+japfor.751.a:0 "우리는 선택권이 없다..."
+japfor.751.b:0 "주동자들만 체포해라."
+japfor.751.c:0 "참견 마라."
+
+japfor.75.t:0 "트랜스아무르가 우리 요구를 거절하다!"
+japfor.75.d:0 "우리의 단속 요구가 거절당했으며, 우리 정부의 구성원들은 우리의 통제 하에 놓여있다고 생각하던 우리의 젊은 동맹국이 우리 나라의 안보에 관련된 요구를 이렇게 노골적으로 무시한 것에 놀라고 있습니다. 이 반항에 대해선 어떻게 대처해야 할까요?"
+japfor.75.a:0 "그들의 주권을 존중하자."
+japfor.75.b:0 "우리 방식대로 해결하겠다."
+japfor.75.c:0 "그들이 감히, 군대를 보내라!"
+
+japfor.76.t:0 "일본군이 한국인들을 단속하다"
+japfor.76.d:0 "무력 시위의 뜻으로, 일본은 단속을 위해 트랜스아무르 전역에 그들의 군대를 배치했습니다. 그들은 우리의 국가로서의 주권을 무시하는 듯 합니다."
+japfor.76.a:0 "그들은 우리의 믿음을 배반했다."
+japfor.76.b:0 "우리가 할 수 있는 건 없다..."
+
+japfor.77.t:0 "일본군이 블라디보스토크로 진격하다"
+japfor.77.d:0 "일본군은 우리에게 무력을 행사하기 위해 우리 수도로 진격해서 우리를 포위했습니다. 전면적인 대치 속에서 그들을 제압할 만큼 우리 군이 강하진 않습니다."
+japfor.77.a:0 "항복하고 단속을 명령해라."
+japfor.77.b:0 "도쿄로부터 독립을 선언한다!"
+
+japfor.78.t:0 "트랜스아무르에서의 갈등"
+japfor.78.d:0 "처음에는 한국인들과의 갈등이였던 것이 이제는 트랜스아무르 전체와의 갈등이 되었습니다. 우리의 동맹국이 우리를 떠나기로 결정할 경우를 대비해 대책을 마련해야 할 것 같습니다."
+japfor.78.a:0 "아직 호들갑 떨 필요까지는 없다..."
+japfor.78.b:0 "콜차크의 대체자를 준비해야겠군."
+
+japfor.79.t:0 "일본군이 콜차크를 체포하려 한다!"
+japfor.79.d:0 "우리가 일본에 의해 추방된 한국 망명 정부와의 문제에 있어 일본에게 전적으로 협력할 것을 거부하자, 일본은 우리의 친애하는 지도자인 콜차크 제독 겸 대통령을 체포하고 다른 이로 대체하기로 결정했습니다!"
+japfor.79.a:0 "항복하고 그를 넘겨라."
+japfor.79.b:0 "도쿄로부터 독립을 선언한다!"
+
+japfor.80.t:0 "한국 문제"
+japfor.80.d:0 "한국 망명 정부는 조국 해방 운동을 진행 중이며 자신들의 독립을 지지해줄 세력을 찾고 있습니다."
+japfor.80.a:0 "일본은 이를 지지하지 않을 것이다."
+japfor.80.b:0 "대화로 해결하자."
+
+japfor.81.t:0 "한국과의 협상"
+japfor.81.d:0 "만약 한반도에서 대규모 봉기가 일어난다면 우리의 강력한 영향력과 미래의 팽창 계획을 위협할 수 있기에, 우리는 한국 망명 정부와 한국의 미래에 대해 대화하기 위해서 그들을 초대했습니다!"
+japfor.81.a:0 "독립을 인정한다."
+japfor.81.b:0 "이 협상은 결렬되었다."
+
+japfor.82.t:0 "한국 독립!"
+japfor.82.d:0 "일본은 품위 있게 우리의 주권을 반환하고 독립을 인정했습니다!"
+japfor.82.a:0 "우리는 우리의 일본 형제들을 지지할 것이다!"
+
+japfor.83.t:0 "한국에서의 반란 기도!"
+japfor.83.d:0 "한국 반군이 오늘 한국 전역의 주요 거점들을 점령하려 했지만 한국 괴뢰군과 일본군에 의해 진압되었습니다."
+japfor.83.a:0 "우리는 언제나 경계중이다."
+
+japfor.84.t:0 "한국에서의 반란!"
+japfor.84.d:0 "외제 장비로 무장한 한국 반군이 우리 군대를 공격하는 중이며 한국 전역의 전략적 거점을 차지하려고 하는 중입니다. 우리는 이미 큰 손실을 입었고 이 반란을 진압하기 위해 지원을 보내야만 합니다!"
+japfor.84.a:0 "그들을 박살내고야 말겠다!"
+
+japfor.85.t:0 "반란!"
+japfor.85.d:0 "외세의 지원을 받아 우리는 혁명을 일으켰고 우리 미래를 위해 투쟁할 것입니다!"
+japfor.85.a:0 "우리는 자유의 투사들이다!"
+
+japfor.88.t:0 "한국은 우리를 몰아냈다"
+japfor.88.d:0 "한국군은 여러 주요 전략적 거점을 차지했고 우리를 본토로 밀어내고 있습니다. 트랜스아무르와 펑톈 정부도 이 사실을 인식하고 있으며, 그들도 반란을 일으킬 지 모릅니다. 평화를 요청해야 할까요?"
+japfor.88.a:0 "우리는 우리 섬으로 철수해야만 한다."
+japfor.88.b:0 "우리는 한국을 우리 손 안에 두어야만 한다!"
+
+japfor.89.t:0 "일본은 한국에게 약점을 보이고 있다"
+japfor.89.d:0 "일본은 한국을 포기하기로 결정했고 이제 우리는 선택권이 생겼습니다. 우리의 전 주인이 패배했으니 우리는 떠나서 우리 자신의 길을 가야 할까요?"
+japfor.89.a:0 "우리는 일본을 계속 지지해야 한다."
+japfor.89.b:0 "평화로운 방법으로 독립을 선언하자."
+japfor.89.c:0 "우리는 떠날 것이며 한국을 복종시킬 것이다!"
+japfor.89.e:0 "중국을 Pu Yi 아래 통일시킬 시간이다."
+
+japfor.90.e:0 "러시아와 재회할 시간이 왔다."
+
+japfor.91.t:0 "한국의 반란"
+japfor.91.d:0 "한국인들이 마침내 일본의 지배자들로부터의 해방을 위해 그들에 맞서 들고일어났습니다. 이것은 우리에게 한국 독립 운동을 지지함으로써 일본 제국을 약화시키는 선택지를 줬습니다..."
+japfor.91.a:0 "한국인들에게 지원을 보내라!"
+japfor.91.b:0 "우리가 할 수 있는 건 없다..."
+
+japfor.92.t:0 "러시아의 원조"
+japfor.92.d:0 "러시아는 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+japfor.92.a:0 "훌륭해!"
+
+japfor.94.t:0 "청나라의 원조"
+japfor.94.d:0 "청 제국은 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+
+japfor.96.t:0 "소련의 원조"
+japfor.96.d:0 "소비에트 연방은 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+
+japfor.98.t:0 "A.O.G의 원조"
+japfor.98.d:0 "A.O.G. 독일 자치주는 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+
+japfor.100.t:0 "중화민국의 원조"
+japfor.100.d:0 "중화민국은 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+
+japfor.102.t:0 "독일 제국의 원조"
+japfor.102.d:0 "독일 제국은 우리가 일본에 대항하는 것을 돕기 위해 엄청난 수의 보급 물자와 자원병을 보내왔습니다!"
+
+japfor.103.t:0 "한국에서의 전쟁 종결"
+japfor.103.d:0 "좋건 나쁘건 간에, 한국에서의 전쟁은 이제 끝났습니다. 장군의 보고에 따르면, 그들은 이 전쟁에서 현대전의 교리에 관련한 귀중한 교훈들을 배웠다고 합니다."
+japfor.103.a:0 "훌륭해!"
+
+japfor.104.t:0 "한반도 해상 봉쇄"
+japfor.104.d:0 "한반도가 혁명의 불길에 휩싸여 있는 상황에서, 우리의 적성국들은 이 저주받을 혁명가들을 지원해서 태평양에서의 우리 영향력을 약화시키기 위한 기회로 사용하고 있습니다. 우리는 한반도 연안 전체를 봉쇄해 버려야만 이것을 해결할 수 있습니다."
+japfor.104.a:0 "해상 봉쇄를 실시하라!"
+
+japfor.105.t:0 "일본의 해상 봉쇄"
+japfor.105.d:0 "우리의 필연적인 승리를 필사적으로 막기 위해 일본 해군은 한반도 연안 전체를 둘러싸 막아서고 있습니다."
+japfor.105.a:0 "그들은 우리를 멈출 수 없다!"
+
+japfor.106.t:0 "해상 봉쇄 강요"
+japfor.106.d:0 "우리의 영광스러운 해군은 반란군들이 필요로 하는 외세의 지원을 막기 위해서 한반도 주변에 완전한 해군 봉쇄를 유지하고 있습니다. 그러나 일부 참모들은 어차피 곧 진압될 반란군을 봉쇄하는 데에 너무 많은 비용을 쓰고 있다며 효율이 떨어진다고 주장했습니다..."
+japfor.106.a:0 "봉쇄를 계속하라!"
+japfor.106.b:0 "봉쇄를 해제해라."
+
+japfor.107.t:0 "해상 봉쇄가 해제되다!"
+japfor.107.d:0 "한반도를 둘러싼 싸움이 명백하게 끝나고 있는 시점에서, 우리 해군은 이 길고 값비싼 봉쇄를 끝내야 할 때입니다."
+japfor.107.a:0 "봉쇄를 해제하라."
+
+japfor.108.t:0 "해상 봉쇄가 해제되다!"
+japfor.108.d:0 "심각한 문제에 직면한 일본 제국 해군은 한반도에서의 해상 봉쇄를 취소했습니다."
+japfor.108.a:0 "우리는 승리한다!"
+
+japfor.109.t:0 "한국 반란이 진압되다"
+japfor.109.d:0 "우리의 영광스러운 군대는 결정적으로 한국 반군들을 패배시켰고 그들로 하여금 무익한 투쟁을 포기하도록 강요했습니다!"
+japfor.109.a:0 "훌륭해!"
+
+japfor.110.t:0 "한국의 일본인 이주민들"
+japfor.110.d:0 "일본 제국에 의해 한국이 점령되었던 그동안, 수천명의 일본인들이 한반도에 정착하여 많은 농장과 마을들을 세웠습니다. 하지만, 우리가 해방되면서, 우리는 그 땅들을 압류하고 우리 국민들에게 재분배할 수 있습니다! 하지만, 많은 농업 생산량이 이들의 농장들로부터 나오고 있기 때문에 섣부른 정치적 움직임은 우리의 빈약한 경제에 해를 끼칠 수 있습니다."
+japfor.110.a:0 "농장을 압류하고 일본인들을 추방하라."
+japfor.110.b:0 "그들은 우리 경제에 중요하다."
+
+japfor.111.t:0 "한국에서 온 난민들"
+japfor.111.d:0 "우리가 한국을 점령하는 동안, 수천명의 일본 정착민들이 한반도 지역으로 이주했습니다. 그들의 신생 독립국 정부는 그들을 추방하기로 결정했습니다..."
+japfor.111.a:0 "유감이군..."
+
+japfor.112.t:0 "극동 지역 보고서"
+japfor.112.d:0 "일본이 시베리아를 점유하기 위해 러시아 침공을 검토하고 있다고 첩보국이 보고해왔습니다. 그러한 행동은 현재 우리가 추진하고 있는 동아시아 협약의 정체성에 대한 직접적인 위협을 의미합니다."
+japfor.112.a:0 "일본은 멈춰야만 한다."
+japfor.112.b:0 "우리는 러시아에 신경 쓰지 않는다."
+
+japfor.113.t:0 "독일에서의 보고서"
+japfor.113.d:0 "독일의 황제는 만약 어떤 나라라도 러시아를 침공하려고 한다면 자신의 제국이 러시아를 전적으로 지원할 것이라고 공식적으로 선언했습니다. 그들이 본토에서 곤경에 처해 있긴 하지만, 그들을 과소평가하는 것은 현명하지 못합니다. 우리는 이 선언에 대해 어떻게 반응할까요?."
+japfor.113.a:0 "우리는 상관 않는다."
+
+japfor.114.t:0 "쿠마 작전"
+japfor.114.d:0 "우리 군이 우리 동맹국과 러시아의 국경에 배치되어 있으며, 침공 준비가 되었습니다. 우리는 러시아의 태평양 연안을 우리 손에 넣는 동시에 국경을 야쿠츠크와 노보시비르스크까지 밀어붙일 것입니다."
+japfor.114.a:0 "전쟁을 선포해라."
+
+japfor.115.t:0 "Invite the Russians to join us against Mongolia?"
+japfor.115.d:0 "In 1921 Mongolia occupied part of the Russian Siberian provinces. A section of the crucial Trans-Siberian railroad is located in these same provinces, and Russia takes a great interest in regaining their land and control of these portions of the railroad. Until now only their internal and military weakness discouraged them from do so by force. But now, with Russia stable, their interests shifted here once more. We can greatly hasten our invasion if we allow Russia to take part in our plans to remove the Mongolian state as threat to stability in Eastern Asia"
+japfor.115.a:0 "Invite the Russians."
+japfor.115.b:0 "Leave the Russians out."
+
+japfor.116.t:0 "카미카제 작전"
+japfor.116.d:0 "일본군이 몽골국경에서 명령을 기다리고 있습니다. 이제 몽골을 침략하여 이 지역에 안정을 가져와야할 때입니다!"
+japfor.116.a:0 "몽골에 전쟁을 선포한다."
+
+japfor.117.t:0 "일본의 제안"
+japfor.117.d:0 "In 1921 treacherous Mongolians occupied part of our Siberian provinces. Across these provinces, a large section of the critically important Trans-Siberian railroad is located. Until now only our internal and military weakness discouraged us from retaking them by force. But now the Japanese Empire, which views Mongolian state as a threat to stability in Eastern Asia, has offered to participate in their plans to conquer Mongolia."
+japfor.117.a:0 "훌륭한 제안이다."
+japfor.117.b:0 "아직은 두고봐야한다."
+
+japfor.118.t:0 "블라디보스토크 협약이 체결되다"
+japfor.118.d:0 "In Vladivostok, at the behest of their heads of state, a Russian and Japanese delegation signed an agreement to invade Mongolia together. After the defeat of Mongolia, Russia will reclaim their former land. In turn, Russia will give Japan free reign within Mongolia."
+japfor.118.a:0 "훌륭하군."
+
+japfor.120.t:0 "러시아가 제안을 거부하다"
+japfor.120.d:0 "러시아가 몽골을 함께 침공하자는 제안을 거부했습니다. 다시한번 러시아는 전세계에 자신들이 약하다는 것을 보여주었습니다."
+japfor.120.a:0 "혼자서 해야겠군."
+
+#japfor.121.t:0 "카미카제 작전"
+#japfor.121.d:0 "The Pact of Vladivostok has been signed. On the Mongolian borders, Russian and Japanese troops are waiting for orders. It's time to invade this rogue state and bring stability to this part of world!"
+#japfor.121.a:0 "몽골에 전쟁을 선포한다."
+
+japfor.121.t:0 "배신이다!"
+japfor.121.d:0 "일본이 우리를 배신하고 전쟁을 선포했습니다! 우리가 놀라 있는동안, 우리 군대는 곧 다시 모일 것입니다."
+japfor.121.a:0 "후회하게 될거다!"
+
+japfor.122.t:0 "몽골이 패배하다"
+japfor.122.d:0 "The joint armed forces of Japan and Russia forced the Mongolians to cease futile resistance and sign an unconditional surrender before representatives of both nations. The fate of Mongolia is now in our hands."
+japfor.122.a:0 "몽골은 우리 것이다!"
+japfor.122.b:0 "몽골로는 충분하지 않다, 러시아를 배신하자!"
+
+japfor.123.t:0 "몽골이 패배하다"
+japfor.123.d:0 "The armed forces of the Japanese Empire forced Mongolia to cease its futile resistance and sign an unconditional surrender before representatives of our nation. The fate of Mongolia is now in our hands."
+japfor.123.a:0 "몽골은 우리 것이다!"
+
+japfor.124.t:0 "혼란에 빠진 몽골"
+japfor.124.d:0 "With Mongolia in turmoil, we have a great opportunity to seize control over stolen parts of the Trans-Siberian railway. There is very little that either Mongolia or Japan can do to stop us at this point."
+japfor.124.a:0 "Seize Northern Mongolia!"
+japfor.124.b:0 "Rather not."
+
+japfor.125.t:0 "러시아가 북몽골을 점령하다!"
+japfor.125.d:0 "With newly conquered Mongolia in chaos, the Russians used this opportunity to seize control over disputed territory around the Trans-Siberian railway. Currently there is very little that we can do to stop the Russian state at this point."
+japfor.125.a:0 "There is nothing we can do."
+japfor.125.b:0 "This means war!"
+
+japfor.126.t:0 "몽골이 패배하다"
+japfor.126.d:0 "The joint armed forces of Japan and Russia has forced the Mongolians to cease futile resistance and sign an unconditional surrender before representatives of both nations. The fate of Mongolia is now in our hands."
+japfor.126.a:0 "We are victorious!"
+
+japfor.127.t:0 "새로운 종주국"
+japfor.127.d:0 "몽골이 일본의 동맹이 됩니다"
+japfor.127.a:0 "최소한 살아남았군..."
+
+japfor.129.t:0 "몽골의 지위"
+japfor.129.d:0 "We have kept the territory of Mongolia under direct military control for some time. But some members of our general staff are suggesting we release independent Mongolia as a new member of the Co-Prosperity Sphere."
+japfor.129.a:0 "군사점령을 끝낸다."
+japfor.129.b:0 "직속통치를 유지한다."
+
+japfor.130.t:0 "미친 남작의 운명"
+japfor.130.d:0 "With the defeat of the Mongolia state, Baron Roman Nikolai Maximilian von Ungern-Sternberg, known as the mad baron, has fallen into our hands. What shall we do with this dangerous lunatic?"
+japfor.130.a:0 "그에게 딱히 원한은 없다. 풀어줘라"
+japfor.130.b:0 "그를 러시아에 넘겨라."
+japfor.130.c:0 "그는 너무 위험하다. 투옥해라."
+japfor.130.e:0 "목을 매달아버려라!"
+
+japfor.131.t:0 "슈테른베르크가 도착하다"
+japfor.131.d:0 "The Japanese Empire - after conquering Mongolia - sent us this dangerous enemy of Russia as a gift. What should we do to this madman and traitor to mother Russia?"
+japfor.131.a:0 "Hang him high!"
+japfor.131.b:0 "Exile him to the worst part of Siberia."
+
+japfor.132.t:0 "미친 남작이 탈출하다!"
+japfor.132.d:0 "A fanatic supporter of the overthrown mad baron was able to free him. We should have open eyes in Mongolia for he might try to return..."
+japfor.132.a:0 "제기랄!"
+
+japfor.133.t:0 "새로운 동맹?"
+japfor.133.d:0 "Recent cooperation with Russian state in the conquest of Mongolia proved the dramatic resurrection of the Russian armed forces. Conquest of Siberia would be extremely difficult if we are to face this united and strong Russian army, fighting on its own soil. Perhaps we should use this change in relations as signal to re-orientate our expansions towards safer goals, such as fragmented China or the unstable pacific. And, perhaps we could try and bring belligerent Russia, whose ambitions are clearly aimed against German hegemony in Pacific and Europe, into our block in order to secure our northern flank."
+japfor.133.a:0 "러시아를 우리 동맹에 초대한다!"
+japfor.133.b:0 "우린 러시아가 필요없다!"
+
+japfor.134.t:0 "일본과의 동맹?"
+japfor.134.d:0 "Recent cooperation with Japan in the conquest of Mongolia greatly strengthened mutual relations between two great nations. Japan decided to offer us participation in their alliance bloc, which is clearly aimed against German dominance in the Pacific and Asia, and want to form an alliance with us. How we shall respond?"
+japfor.134.a:0 "제안을 수락한다!"
+japfor.134.b:0 "수락하지만, 프리모스크와 북사할린을 요구한다!"
+japfor.134.c:0 "절대로 그럴수없다!"
+
+japfor.135.t:0 "러시아가 공영권에 가입하다"
+japfor.135.d:0 "러시아가 우리의 제안을 받아들이고 모든 공영권 가맹국과 군사동맹을 체결했습니다."
+japfor.135.a:0 "훌륭하군."
+
+japfor.136.t:0 "러시아가 요구하다"
+japfor.136.d:0 "The Russians have agreed in principle to an alliance aimed against German Empire and its allies in Asia, but as a precondition of their direct military support they want the return of territories taken by Japan during the Russian civil war, namely northern Sakhalin and Primorsk."
+japfor.136.a:0 "This is reasonable, accept."
+japfor.136.b:0 "Never!"
+
+japfor.137.t:0 "협상이 결렬되다"
+japfor.137.d:0 "Despite hours of negotiations, an agreement between the two parties could not be reached and the Russo-Japanese alliance never came to be."
+japfor.137.a:0 "Oh well..."
+
+japfor.138.t:0 "트란스아무르는 러시아의 것이다!"
+japfor.138.d:0 "Facing the threat of Russian military force and deprived of the support of the local capitalists and the Japanese, Transamur's government is ready to collapse in the face of popular discontent. We can now do what we like with Transamur, but it has been independent for a long time and will be difficult to integrate into our country. Perhaps some sort of compromise is needed?"
+japfor.138.a:0 "No compromise - put the leadership on trial and incorporate Transamur"
+japfor.138.b:0 "Administer Transamur as an autonomous zone. For now."
+
+japfor.139.t:0 "일본 제국과의 평화?"
+japfor.139.d:0 "Our military campaign against the Japanese Empire has been a military catastrophe so far. Nearly the whole of East-Siberia has fallen. Many politicians are demanding a peace treaty with Japan to end this war, even if at great expense..."
+japfor.139.a:0 "Offer them the Pacific Coast."
+japfor.139.b:0 "No! No surrender!"
+
+japfor.140.t:0 "러시아의 평화 제안"
+japfor.140.d:0 "Nearly the whole of East-Siberia has been taken. Now Russia begs for peace and offers us the Russian pacific coast. Shall we accept this offer?"
+japfor.140.a:0 "Better than we expected, accept the conditions."
+japfor.140.b:0 "No peace with the Russians!"
+
+japfor.141.t:0 "일본이 우리의 평화 제안을 거절하다"
+japfor.141.d:0 "Japan refused our offer. Let them regret their foolish decision."
+japfor.141.a:0 "The war goes on."
+
+japfor.142.t:0 "일본이 우리의 평화 제안을 받아들이다"
+japfor.142.d:0 "Now we have to fulfil the harsh conditions of the peace treaty we have signed, but later we will take our provinces back!"
+japfor.142.a:0 "Transfer territories."
+
+japfor.143.t:0 "승리!"
+japfor.143.d:0 "Now the Russian pacific coast is in our hands. We can either keep it for ourselves or hand it over to our loyal puppet, Transamur."
+japfor.143.a:0 "트란스아무르에게 주어라."
+japfor.143.b:0 "계속 소유한다."
+
+japfor.144.t:0 "일본 제국과의 평화?"
+japfor.144.d:0 "Japanese troops reached the Urals and are currently directly threatening the European part of our motherland. To prevent a total defeat, we should try to appease Japan by offering them entire Siberia."
+japfor.144.a:0 "Offer them Siberia."
+japfor.144.b:0 "The turning point is near."
+
+japfor.145.t:0 "러시아가 시베리아 할양을 조건으로 평화를 제안하다"
+japfor.145.d:0 "Our glorious troops have reached the Ural mountains. The humiliated Russian leadership is offering us control over whole Siberia if we sign peace with the broken Russian state. On the other hand, we have reached our main target to bring Siberia under direct military control and continuing this military struggle would serve little purpose."
+japfor.145.a:0 "Better than we expected, accept the conditions."
+japfor.145.b:0 "No Peace with the Russians!"
+
+japfor.148.t:0 "시베리아의 운명"
+japfor.148.d:0 "Now Siberia is under our direct control. We can either release it as independent state, turn it over to Transamur, or keep it for ourselves."
+japfor.148.a:0 "독립된 시베리아를 만들어라."
+japfor.148.b:0 "트란스아무르에게 주어라."
+japfor.148.c:0 "시베리아 동부와 서부를 나눠라"
+japfor.148.e:0 "계속 소유한다."
+
+japfor.149.t:0 "트란스-시베리아 전쟁 발발"
+japfor.149.d:0 "A minor conflict over a section of the Trans-Siberian railroad culminated in war between Russia and Mongolia. This thwarts our plans of expansion. Maybe this is a good opportunity for us to launch our long-prepared military operations."
+japfor.149.a:0 "기회로 삼아 러시아에 전쟁을 선포한다."
+japfor.149.b:0 "아직 준비가 안됐다."
+
+japfor.150.t:0 "러시아가 선양을 점령하다"
+japfor.150.d:0 "The Russian state has launched a successful invasion of our country and there is nothing we can do to stop their relentless advance. Most of our commanders suggest we surrender to prevent pointless deaths..."
+japfor.150.a:0 "항복한다."
+japfor.150.b:0 "죽을 때까지 싸운다!"
+
+japfor.151.t:0 "봉천의 패배"
+japfor.151.d:0 "Now that our troops have reached Shenyang, the Fengtian Government has been forced to sign an unconditional surrender."
+japfor.151.a:0 "괴뢰화 한다."
+japfor.151.b:0 "합병한다."
+
+japfor.152.t:0 "트란스아무르의 패전"
+japfor.152.d:0 "The remnants of Kolchak's pseudo-state have realised that further resistance is hopeless. They were left no choice but to sign an unconditional surrender."
+japfor.152.a:0 "괴뢰화한다."
+japfor.152.b:0 "합병한다."
+
+japfor.153.t:0 "저무는 해"
+japfor.153.d:0 "We have lost the control of our continental provinces and now our homeland is directly threatened. Maybe we could appease the Russians with offering Korea, Port Arthur, Karafuto and the Chishima Retto."
+japfor.153.a:0 "Offer territories for peace."
+japfor.153.b:0 "Fight on."
+
+japfor.154.t:0 "일본이 평화를 제안하다"
+japfor.154.d:0 "Now that we have brought their continental provinces under our control Japan begs for peace. Therefore, they offer us Korea, Port Arthur, Sakhalin and the Kuril Islands in exchange for the cessation of hostilities between our states."
+japfor.154.a:0 "Finally the shame of 1905 is put to rest!"
+japfor.154.b:0 "No peace with Tokyo!"
+
+japfor.155.t:0 "제2 포트 아서 조약"
+japfor.155.d:0 "Now it is time to fulfil our conditions."
+japfor.155.a:0 "Transfer territories."
+
+japfor.156.t:0 "Japan Down for the Count"
+japfor.156.d:0 "After this great defeat we have to go other ways."
+japfor.156.a:0 "We must return to our old ways of isolationism, Japan is a world in herself."
+
+japfor.157.t:0 "The Fate of Korea"
+japfor.157.d:0 "The Korean people have suffered for a very long time under Japan dominance. It is now in our power to grant them desired independence, if it is in accordance with our plans."
+japfor.157.a:0 "Puppet them."
+japfor.157.b:0 "Grant them full independence."
+japfor.157.c:0 "Occupy Korea."
+
+japfor.158.t:0 "포트 아서"
+japfor.158.d:0 "After our defeat in the First Russo-Japanese-War in 1905 we had to relinquish Port Arthur to the Japanese empire. Now it is under our control once again."
+japfor.158.a:0 "Keep it."
+japfor.158.b:0 "Give it to Fengtian."
+japfor.158.c:0 "Give it to the Chinese Republic."
+japfor.158.e:0 "Give it to the Qing Empire."
+japfor.158.f:0 "Give it to the Reorganised Government of China."
+
+japfor.159.t:0 "포트 아서는 이제 우리 것이다"
+japfor.159.d:0 "After the Russians beat the Japanese they gained control of Port Arthur. Deciding that they have no use for it, they have given it to us."
+japfor.159.a:0 "Splendid!"
+
+japfor.160.t:0 "몽골이 선양을 지배한다"
+japfor.160.d:0 "Shenyang is in Mongolian hands. We have to surrender."
+japfor.160.a:0 "Surrender."
+japfor.160.b:0 "Fight to death!"
+
+japfor.161.t:0 "봉천의 패배"
+japfor.161.d:0 "Now that our glorious troops have reached Shenyang a Fengtian delegation has signed an unconditional surrender."
+japfor.161.a:0 "Puppet them and annex inner Mongolia"
+japfor.161.b:0 "Annex them"
+
+japfor.162.t:0 "봉천이 항복하다"
+japfor.162.d:0 "After the defeat of Fengtian by Mongolia we have to take the opportunity to save our heads as long as we can. But this means breaking all agreements with Japan."
+japfor.162.a:0 "Propose white peace."
+japfor.162.b:0 "Propose alliance."
+japfor.162.c:0 "Propose to become puppet."
+japfor.162.e:0 "Fight on."
+
+japfor.163.t:0 "트란스아무르가 평화를 제안하다"
+japfor.163.d:0 "Kolchak offers peace. How we will react?"
+japfor.163.a:0 "Accept white peace."
+japfor.163.b:0 "Refuse."
+
+japfor.164.t:0 "사격 중지"
+japfor.164.d:0 "The war is over."
+japfor.164.a:0 "Okay."
+
+japfor.165.t:0 "트란스아무르가 동맹을 제안하다"
+japfor.165.d:0 "Kolchak offers an alliance. How we will react?"
+japfor.165.a:0 "Accept."
+japfor.165.b:0 "Refuse."
+
+japfor.166.t:0 "동맹이 맺어지다"
+japfor.166.d:0 "Welcome to our new ally."
+japfor.166.a:0 "We are stronger together!"
+
+japfor.167.t:0 "트란스아무르가 우리의 보호령이 되기를 제안하다"
+japfor.167.d:0 "Kolchak offers to become our puppet. How shall we react?"
+japfor.167.a:0 "Accept."
+japfor.167.b:0 "We only want annex them."
+
+japfor.169.t:0 "저무는 해"
+japfor.169.d:0 "We have lost control of our continental provinces and now our homeland is threatened. Maybe we could appease the Mongolians with offering Korea and Port Arthur."
+japfor.169.a:0 "Beg for peace."
+japfor.169.b:0 "Fight until the end."
+
+japfor.170.t:0 "일본이 평화를 제안하다"
+japfor.170.d:0 "Now that we have brought their continental provinces under our control, Japan begs for peace. Therefore they offer us Korea and Port Arthur."
+japfor.170.a:0 "Accept"
+japfor.170.b:0 "No. We want total victory!"
+
+japfor.171.t:0 "몽골과의 평화"
+japfor.171.d:0 "Now it is time to fulfil the conditions of the peace treaty we signed with Mongolia."
+
+japfor.176.t:0 "일본이 요구하다"
+japfor.176.d:0 "The Japanese consulate came to us this morning with a simple demand - hand over the East Indies or face the consequences. There is no way for us to face their fleets on our own, what can we possibly do?"
+japfor.176.a:0 "Beg the Kaiser to help us!"
+japfor.176.b:0 "Comply with their demands!"
+japfor.176.c:0 "Ignore the demands! We can take them on!"
+
+japfor.177.t:0 "네덜란드가 도움을 요청하다!"
+japfor.177.d:0 "Last week the Japanese have demanded Holland to give them the East Indies. The Dutch have come begging to us to protect them from the Japanese agression. Should the Japanese get what they want they would be dangerously close to our holdings in Malaya and Papua new Guinea. What should we do?"
+japfor.177.a:0 "We stand with our Dutch brethren!"
+japfor.177.b:0 "We can't afford to antagonise the Japanese."
+
+japfor.178.t:0 "독일이 네덜란드를 지지하다!"
+japfor.178.d:0 "The cowardly Dutch ran to the Germans for protection and are now part of their alliance. This insolence cannot go unpunished!"
+japfor.178.a:0 "We will crush them both!"
+japfor.178.b:0 "Back down for now."
+
+japfor.179.t:0 "일본이 물러나다!"
+japfor.179.d:0 "After facing the threat of war with the German empire the cowardly Japanese backed down with their demands. This is a glorious victory for all of the Reichspakt!"
+japfor.179.a:0 "!"
+
+japfor.180.t:0 "독일이 거절하다!"
+japfor.180.d:0 "Despite our desperate calls for help the Germans have refused to protect us from Japan. We now stand alone against the might of the Japanese empire. What should we do?"
+japfor.180.a:0 "We must surrender."
+japfor.180.b:0 "We must fight!"
+
+japfor.181.t:0 "네덜란드가 굽히다!"
+japfor.181.d:0 "The pitiful Dutch have folded in the face of our glorious armies and surrendered to our demands! Indonesia is now under our full control, and the transfer of the colonial regime has started."
+japfor.181.a:0 "Banzai!"
+
+japfor.182.t:0 "네덜란드가 저항하다!"
+japfor.182.d:0 "The insolent Dutch have refused our demands, and are now preparing to face our mighty armies alone! We must send forth our navies and put them back in their place!"
+japfor.182.a:0 "They won't be saying much after this..!"
+japfor.182.b:0 "Actually, going to war wasn't our intention..."
+
+japfor.183.t:0 "일본이 물러나다!"
+japfor.183.d:0 "A miracle has happened! The Japanese, startled by our adamant refusal have decided to withdraw their demands and leave us alone! This is cause for celebration!"
+japfor.183.a:0 "Hoera!"
+
+japfor.184.t:0 "인도네시아 함락"
+japfor.184.d:0 "The Japanese occupy the majority of our colonies in the East Indies and our colonial garrison is defeated. We can't hope to win against the Japanese navy and victory seems impossible. Some in our diplomatic corps have suggested we draft a peace treaty and surrender to the Japanese."
+japfor.184.a:0 "We cannot win..."
+japfor.184.b:0 "Victory is within our reach!"
+
+japfor.185.t:0 "네덜란드가 평화를 요청하다!"
+japfor.185.d:0 "Overwhelmed by our superior army the Dutch come to us begging for peace. They offer us the entirety of their colonial possessions in Indonesia in return. How should we respond?"
+japfor.185.a:0 "Very good! A great victory!"
+japfor.185.b:0 "No peace until we march in Amsterdam!"
+
+japfor.186.t:0 "일본이 거절하다!"
+japfor.186.d:0 "The Japanese refused to sign a peace treaty and have made it clear their goal is total victory! We are doomed!"
+japfor.186.a:0 "Damn it!"
+
+japfor.187.t:0 "일본이 승리하다"
+japfor.187.d:0 "The Japanese defeated our colonial garrison and now occupy both our and the Dutch's colonies. While we can potentially fight them off, doing so would be very costly and would require diversion of war assets. We can offer them some land in return for peace."
+japfor.187.a:0 "Draft a peace treaty."
+japfor.187.b:0 "We can fight them off."
+
+japfor.188.t:0 "독일이 평화를 요청하다!"
+japfor.188.d:0 "Overwhelmed by our superior army the Germans come to us begging for peace. They offer us the entirety of the Dutch colonial possessions in Indonesia and some of their own in return. How should we respond?"
+japfor.188.a:0 "Very good! A great victory!"
+japfor.188.b:0 "We can accept only total surrender!"
+
+japfor.189.t:0 "일본이 거절하다!"
+japfor.189.d:0 "The Japanese refused to sign a peace treaty and have made it clear their goal is total victory!"
+japfor.189.a:0 "Damn it!"
+
+japfor.190.t:0 "일본이 요구하다"
+japfor.190.d:0 "We have received a message from the Japanese demanding our full surrender to their armed forces and transfer of administration of our territories to their military high command. We've received reports their navy is being deployed to our shores. There is no way we can fight them off on our own, what should we do?"
+
+japfor.191.t:0 "인도네시아가 지지를 요청하다!"
+japfor.191.d:0 "Last week the Japanese have demanded Indonesia to fully capitulate to them in formal annexation. The Indonesians have come begging to us to protect them from the Japanese agression. Should the Japanese get what they want they would be dangerously close to our holdings in Malaya and Papua new Guinea. What should we do?"
+
+japfor.192.t:0 "독일이 인도네시아를 지지하다"
+japfor.192.d:0 "The cowardly Indonesians have run to the Germans for protection and they are now part of their alliance. This insolence cannot go unpunished!"
+
+japfor.195.t:0 "인도네시아가 굽히다!"
+japfor.195.d:0 "The pitiful Indonesians have folded in the face of our glorious armies and surrendered to our demands! Indonesia is now under our full control, and the transfer of the local administration has begun."
+
+japfor.196.t:0 "인도네시아가 저항하다!"
+japfor.196.d:0 "The insolent Indonesians have refused our demands, and are now preparing to face our mighty armies alone! We must send forth our navies and put them back in their place!"
+japfor.196.a:0 "Destroy them!"
+
+japfor.199.t:0 "일본이 승리하다"
+japfor.199.d:0 "The Japanese defeated both our colonial garrison and the Indonesian armies and now occupy our lands. While we can potentially fight them off, doing so would be very costly and would require diversion of war assets. We can offer them some land in return for peace."
+
+japfor.200.t:0 "독일이 평화를 요청하다!"
+japfor.200.d:0 "Overwhelmed by our superior army the Germans come to us begging for peace. They offer us the entirety of Indonesia and some of their own colonies in return. How should we respond?"
+
+japfor.202.t:0 "봉천 은 위기"
+japfor.202.d:0 "When the Bank of Japan and Mitsui Bank, two of the largest in our country, requested payment on their loans in quick succession, Fengtian's Central Bank defaulted due to a sudden and supposedly inexplicably insufficient silver reserve. Whether this was merely gross incompetence and mismanagement, or something more sinister, is unclear, but there is little doubt that the Fengtian Government finds itself in a dire economic situation and has requested our help. \n\n While our influence will ensure that both Mitsui and the Bank of Japan are paid what they are due before anything else, a failing Fengtian Government would severely upset their claims to legitimacy and our claims to benevolence. We have the option of bailing them out."
+japfor.202.a:0 "We have no choice"
+japfor.202.b:0 "This is of their own making"
+
+japfor.203.t:0 "봉천이 은 위기에 대해 우리를 비난하다!"
+japfor.203.d:0 "Fengtian has loudly denounced our government, citing what they say is a deliberate plot to destabilise their government through the eruption of their recent Silver Crisis, citing the incidental requests from both the Bank of Japan and Mitsui Bank for repayment on loans backed by Fengtian's silver reserve. With the reserve apparently containing far less than the Fengtian government claimed, its economy has spiralled out of control as the government loses credibility by the hour, and it seems likely that this crass and foolish attempt to deflect blame is mostly a reaction to their internal political situation. \n\n All the same, we can deny these ridiculous assertions, but can we also let this grave insolence go unpunished?"
+japfor.203.a:0 "False accusations!"
+japfor.203.b:0 "Punish this insolence!"
+
+japfor.204.t:0 "봉천이 우리의 군사고문을 추방하다"
+japfor.204.d:0 "Fengtian has expelled our military mission, giving them twenty four hours to leave the country, taking with them all equipment and other property. Contrary to our expectations, however, this was accompanied by a diplomatic letter explaining that the Mission had achieved its goals, and that Fengtian is now sufficient in its command capacity. Fengtian's ambassador has also spent the last several hours attempting to convince the Foreign Ministry, in private of course, that this was merely a necessity of internal politics, and that no ill-will is intended toward Japan. \n\n While this may, or may not, be the case, there is little question as to whether this reduces our influence over Fengtian, and in turn could compromise the security of the Korean peninsula. Who is to say what these Chinese will do next?"
+japfor.204.d_mantetsu:0 "Fengtian has expelled our military mission, giving them twenty four hours to leave the country, taking with them all equipment and other property. Contrary to our expectations, however, this was accompanied by a diplomatic letter explaining that the Mission had achieved its goals, and that Fengtian is now sufficient in its command capacity. \n\n Fortunately, our control over Fengtian via Mantetsu is extensive, and we can almost certainly force their government to reverse its decision. This may force the more patriotic and militaristic elements of the government to independently declare war, and the consequences of such a situation should also be considered."
+japfor.204.a:0 "Declare war"
+japfor.204.b:0 "Force Fengtian to reconsider"
+japfor.204.c:0 "Punish Fengtian"
+japfor.204.e:0 "Do nothing"
+
+japfor.205.t:0 "봉천이 우리의 군사고문을 추방하다"
+japfor.205.d:0 "Fengtian has expelled our military mission, giving them twenty four hours to leave the country, taking with them all equipment and other property. This not only severely threatens to upset our control over the Fengtian Government, but also potentially exposes Korea and thereby Japan to attack. This is thoroughly unacceptable, both to our generals, and to the Japanese sense of honour. Such an act of ungrateful insubordination must be met with an appropriate response!"
+japfor.205.a:0 "Send an Ultimatum"
+japfor.205.b:0 "Do nothing"
+
+japfor.206.t:0 "봉천이 우리를 비난하다!"
+japfor.206.d:0 "The iron ore deposits at Anshan have been worked by a Japanese-owned subsidiary of Mantetsu since 1918, known as "Anshan Iron and Steel", serving as one of Japan's most valuable sources of steel outside the Home Islands. Now that the company wants to expand, it has apparently begun digging without a permit, destroying farmland in the process, and triggering protests by the native Chinese. These protests escalated into violence, and lead to some regrettable actions by our local garrison. \n\n The Fengtian Government has released a long-winded and not at all atypical denouncement of our actions. How should we respond?"
+japfor.206.a:0 "Punish this insolence!"
+japfor.206.b:0 "Denounce Fengtian"
+japfor.206.c:0 "Stay silent"
+
+japfor.207.t:0 "저무는 해"
+japfor.207.d:0 "Our glorious army has fully pushed the imperialist Japanese invaders from the mainland, whilst the IJN are reduced to attempting mere blockades. Our spies in Tokyo report severe dissent and war weariness among the populace. In light of this, the government has called a conference in occupied Dairen to determine our war aims."
+japfor.207.a:0 "Our goals have been achieved"
+japfor.207.b:0 "Push on"
+
+japfor.208.t:0 "저무는 해"
+japfor.208.d:0 "This is a dark day for the Empire of the Sun. Fengtian Government forces have ousted our men from their vital bases in Manchuria and Korea. On top of this, a declaration has been sent out from Dairen by the Grand Marshal offering terms that demand our surrender of all territories on the Chinese mainland as well as the return of Taiwan and the independence of Korea."
+japfor.208.a:0 "Surrender is the only option"
+japfor.208.b:0 "Surrender is never an option. Banzai!"
+
+japfor.209.t:0 "일본이 패배하고 한국이 해방되다"
+japfor.209.d:0 "We have retaken our ancestral homeland of Manchuria, and now Korea is under our control!"
+japfor.209.a:0 "Huzzah!"
+
+japfor.210.t:0 "트란스아무르가 고립되다"
+japfor.210.d:0 "After the Chinese pushed the Japanese back to their Home Islands, Transamur has been in chaos. The Japanese elite have fled back to their home and orders is beginning to break down. The people are ready to depose of Kolchak and return to the Motherland's embrace."
+japfor.210.a:0 "Move in and bring Transamur back under our control."
+
+japfor.211.t:0 "저무는 해"
+japfor.211.d:0 "The Japanese empire has been utterly defeated by their mortal enemies and forced to surrender all of their mainland territory. We may be able to force them to make a similar deal with us."
+japfor.211.a:0 "Demand all territory outside Japan itself"
+japfor.211.b:0 "The war will continue until we see fit."
+
+japfor.212.t:0 "독일이 우리의 해외영토를 요구하다"
+japfor.212.d:0 "After being defeated by our mortal enemies, the Germans are now demanding that we turn over all our remaining territory outside our own sacred soil to them."
+japfor.212.a:0 "We Give up! As long as our sacred homeland is intact!"
+japfor.212.b:0 "Never! Banzai!"
+
+japfor.213.t:0 "We Are Beaten"
+japfor.213.d:0 "Despite our great armies and the courage of our men, Japanese troops are now bearing down on Russian heartland, perhaps it is time to do the unthinkable, and offer them peace."
+japfor.213.a:0 "Give them an offer."
+japfor.213.b:0 "We shall never surrender!"
+
+japfor.214.t:0 "러시아가 평화를 제안하다"
+japfor.214.d:0 "Russia has offered us Siberia in return for peace, it is a generous offer indeed, do we accept?"
+japfor.214.a:0 "Enough of this war; we accept!"
+japfor.214.b:0 "Nothing but total victory!"
+
+japfor.215.t:0 "필리핀이 우리의 제안을 받아들이다"
+japfor.215.d:0 "The Philippines have chosen to join us, they wisely saw that resistance would be futile and instead opted to become our ally."
+japfor.215.a:0 "That is good to hear."
+
+japfor.216.t:0 "필리핀이 협상국에 가입하다"
+japfor.216.d:0 "The Philippines have chosen to join the Entente; they have snubbed out offer of friendship. This must not go unpunished, but the Entente is strong, so we must bid our time."
+japfor.216.a:0 "Soon, soon."
+
+japfor.217.t:0 "필리핀이 제국협정에 가입하다"
+japfor.217.d:0 "The Philippines have chosen to join the Reichspakt; they have snubbed out offer of friendship. This must not go unpunished, but the Entente is strong, so we must bid our time."
+japfor.217.a:0 "Soon, soon."
+
+japfor.218.t:0 "하와이가 우리의 제안을 받아들이다"
+japfor.218.d:0 "Hawaii has chosen to join us, they wisely saw that resistance would be futile and instead opted to become our ally."
+japfor.218.a:0 "That is good to hear."
+
+japfor.219.t:0 "#Explain to the player WTF the Concordia Association is"
+japfor.219.d:0 ""
+japfor.219.a:0 ""
+
+japfor.220.t:0 "#Explain to Fengtian that Japan is going to start messing with you"
+japfor.220.d:0 ""
+japfor.220.a:0 ""
+
+japfor.221.t:0 "#Game over Fengtian - Concordia Association IS strong enough"
+japfor.221.d:0 ""
+japfor.221.a:0 ""
+
+japfor.222.t:0 "#Game over Fengtian - Concordia Association IS NOT strong enough"
+japfor.222.d:0 ""
+japfor.222.a:0 ""
+
+japfor.223.t:0 "#Japan tries to annex Fengtian; time for war"
+japfor.223.d:0 ""
+japfor.223.a:0 ""
+
+japfor.224.t:0 "#Japan finally gets cores"
+japfor.224.d:0 ""
+japfor.224.a:0 ""

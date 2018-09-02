@@ -1,0 +1,597 @@
+technologies = {
+	##### 호위함 #####
+	frigate_1 = {	# 2차대전, 냉전 초, 냉전 중, 냉전 후, 냉전 말, 21세기
+		enable_equipments = {
+			frigate_1
+		}
+		
+		path = {
+			leads_to_tech = frigate_2 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1945
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	frigate_2 = {	
+		enable_equipments = { 
+			frigate_2
+		}
+		
+		path = {
+			leads_to_tech = frigate_3 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1950
+
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	frigate_3 = {
+		enable_equipments = { 
+			frigate_3
+		}
+		
+		path = {
+			leads_to_tech = frigate_4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1955
+
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	frigate_4 = {
+		enable_equipments = { 
+			frigate_4
+		}
+		
+		path = {
+			leads_to_tech = frigate_5 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.7
+		start_year = 1960
+
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	frigate_5 = {
+		enable_equipments = { 
+			frigate_5
+		}
+		
+		path = {
+			leads_to_tech = frigate_6 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.7
+		start_year = 1970
+
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	frigate_6 = {
+		enable_equipments = { 
+			frigate_6
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.75
+		start_year = 1980
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	##### 구축함 #####
+	destroyer_1 = {
+		enable_equipments = { 
+			destroyer_1
+		}
+		
+		path = {
+			leads_to_tech = destroyer_2 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1945
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	destroyer_2 = {
+		enable_equipments = { 
+			destroyer_2
+		}
+		
+		path = {
+			leads_to_tech = destroyer_3 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1950
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	destroyer_3 = {
+		enable_equipments = { 
+			destroyer_3
+		}
+		
+		path = {
+			leads_to_tech = destroyer_4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1955
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	destroyer_4 = {
+		enable_equipments = { 
+			destroyer_4
+		}
+		
+		path = {
+			leads_to_tech = destroyer_5 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.85
+		start_year = 1960
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	destroyer_5 = {
+		enable_equipments = { 
+			destroyer_5
+		}
+		
+		path = {
+			leads_to_tech = destroyer_6 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.85
+		start_year = 1970
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	destroyer_6 = {
+		enable_equipments = { 
+			destroyer_6
+		}	
+
+		dependencies = {
+		}
+		
+		research_cost = 0.85
+		start_year = 1980
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	##### 순양함 #####
+	cruiser_1 = {
+		enable_equipments = { 
+			light_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = cruiser_2 
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			heavy_cruiser_1
+			aircraft_cruiser_1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.7
+		start_year = 1945
+		
+		folder = {
+			name = naval_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	cruiser_2 = {
+		enable_equipments = { 
+			light_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = cruiser_3 
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			heavy_cruiser_2
+			aircraft_cruiser_2
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.7
+		start_year = 1950
+		
+		folder = {
+			name = naval_folder
+			position = { x = 5 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	cruiser_3 = {
+		enable_equipments = { 
+			light_cruiser_3
+		}
+		
+		path = {
+			leads_to_tech = cruiser_4 
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			heavy_cruiser_3
+			aircraft_cruiser_3
+		}
+		
+		research_cost = 0.7
+		start_year = 1955
+		
+		folder = {
+			name = naval_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	cruiser_4 = {
+		enable_equipments = { 
+			light_cruiser_4
+		}
+		
+		path = {
+			leads_to_tech = destroyer_4
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			heavy_cruiser_4
+			aircraft_cruiser_4
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.9
+		start_year = 1960
+		
+		folder = {
+			name = naval_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+
+	##### 전투순양함 #####
+	battlecruiser_1 = {
+		enable_equipments = { 
+			battle_cruiser_1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+}

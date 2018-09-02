@@ -1,0 +1,451 @@
+technologies = {
+
+	helicopter_1 = {
+		
+		path = {
+			leads_to_tech = recon_helicopter_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heliborne_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	recon_helicopter_1 = {
+	
+		path = {
+			leads_to_tech = attack_helicopter_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_1 = {
+
+		enable_equipments = {
+			heliborne_vehicle_1
+		}
+		
+		enable_subunits = {
+			heliborne
+		}
+		
+		path = {
+			leads_to_tech = heliborne_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = attack_helicopter_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = maritime_helicopter_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rescue_helicopter_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_2 = {
+
+		enable_equipments = {
+			heliborne_vehicle_2
+		}
+		
+		path = {
+			leads_to_tech = heliborne_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1970
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_3 = {
+
+		enable_equipments = {
+			heliborne_vehicle_3
+		}
+		
+		path = {
+			leads_to_tech = heliborne_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1975
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_4 = {
+
+		enable_equipments = {
+			heliborne_vehicle_4
+		}
+
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	attack_helicopter_1 = { # 1964 공격 헬기
+
+		enable_equipments = {
+			attack_helicopter_equipment_1
+		}
+		path = {
+			leads_to_tech = attack_helicopter_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	attack_helicopter_2 = { # 1970 공격 헬기
+
+		enable_equipments = {
+			attack_helicopter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = attack_helicopter_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1936.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				is_major = yes
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	attack_helicopter_3 = { # 1975 공격 헬기
+
+		enable_equipments = {
+			attack_helicopter_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = attack_helicopter_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1940.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				is_major = yes
+				date > "1944.1.1"
+			}
+		}
+	}
+	
+	attack_helicopter_4 = { # 1980 공격 헬기
+
+		enable_equipments = {
+			attack_helicopter_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = attack_helicopter_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1944.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1945.1.1"
+			}
+		}
+	}
+	
+	maritime_helicopter_1 = { # 해상작전헬기
+
+		path = {
+			leads_to_tech = maritime_helicopter_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	maritime_helicopter_2 = { # 해상 헬기
+
+		path = {
+			leads_to_tech = maritime_helicopter_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	maritime_helicopter_3 = { # 해상 헬기
+
+		path = {
+			leads_to_tech = maritime_helicopter_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	maritime_helicopter_4 = { # 해상 헬기
+	
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rescue_helicopter_1 = { # 의무 헬기
+
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 7 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

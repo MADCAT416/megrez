@@ -1,0 +1,206 @@
+bookmarks = {
+	bookmark = {
+		name = "KR_SCENARIO_NAME"
+		desc = "KR_SCENARIO_DESC"
+		date = 1968.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+		"GER" = {
+			history = "GER_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				GER_victors_of_wwi
+				GER_quenched_militarism
+				ZO_idea
+			}
+
+			focuses = {
+				GER_black_monday_aftermath
+				GER_easter_promises
+				GER_tirpitzprogramm
+			}
+		}
+
+		"FRA" = {
+			history = "FRA_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				FRA_communard_spirit
+				FRA_bad_intel
+			}
+
+			focuses = {
+			}
+		}
+
+		"CSA" = {
+			history = "CSA_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				
+			}
+
+			focuses = {
+			}
+		}
+
+		"CAN" = {
+			history = "CAN_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				CAN_divided_nation
+				anglo_french_tensions
+			}
+
+			focuses = {
+				CAN_kingly_prerogative
+				CAN_constitution_act
+				CAN_united_kingdom
+			}
+		}
+
+		"RUS" = {
+			history = "RUS_KR_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				soviet_worker_soldier
+				rus_divided_staff
+				rus_divided_marine
+			}
+
+			focuses = {
+				RUS_TSAR_KYR
+				RUS_DEM_REP
+				RUS_expansionism
+
+			}
+		}
+		"CAL" = {
+			history = "CAL_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+
+			}
+			focuses = {
+
+
+			}
+		}
+
+		"JAP" = {
+			history = "JAP_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				JAP_bad_start
+				JAP_no_army_focus
+				JAP_narrow_rail
+			}
+
+			focuses = {
+				JAP_democratic_path
+				JAP_chuou
+				JAP_ishinha
+			}
+		}
+
+		"---" = {
+			history = "OTHER_KR_GATHERING_STORM_DESC"
+		}
+
+		"OTT" = {
+			minor = yes
+			history = "OTT_KR_GATHERING_STORM_DESC"
+			ideology = national_populist
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		"ENG" = {
+			minor = yes
+			history = "ENG_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		"BHC" = {
+			minor = yes
+			history = "BHC_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"SAF" = {
+			minor = yes
+			history = "SAF_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"AST" = {
+			minor = yes
+			history = "AST_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		"BRA" = {
+			minor = yes
+			history = "BRA_KR_GATHERING_STORM_DESC"
+			ideology = social_progressive
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		"SQI" = {
+			minor = yes
+			history = "SQI_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		"KOR" = {
+			minor = yes
+			history = "KOR_KR_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

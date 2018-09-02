@@ -1,0 +1,743 @@
+technologies = {
+	
+	##### 잠수함 #####
+	submarine_1 = {
+		enable_equipments = { 
+			submarine_1
+		}
+		
+		path = {
+			leads_to_tech = submarine_2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1945
+		
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	submarine_2 = {
+		enable_equipments = { 
+			submarine_2
+		}
+		
+		path = {
+			leads_to_tech = submarine_3 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_submarine_2
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1950
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	submarine_3 = {
+		enable_equipments = { 
+			submarine_3
+		}
+		
+		path = {
+			leads_to_tech = submarine_4 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_submarine_3
+			research_cost_coeff = 0.75
+		}
+		
+		research_cost = 0.5
+		start_year = 1955
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	submarine_4 = {
+		enable_equipments = { 
+			submarine_4
+		}
+		
+		path = {
+			leads_to_tech = submarine_5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_submarine_4
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1960
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	submarine_5 = {
+		enable_equipments = { 
+			submarine_5
+		}
+		
+		path = {
+			leads_to_tech = submarine_6 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_submarine_5
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	##### 잠수함 #####
+	large_submarine_1 = {
+		enable_equipments = { 
+			large_submarine_1
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nuclear_attack_submarine_1 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nuclear_cruise_missile_submarine_1 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1945
+		
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	large_submarine_2 = {
+		enable_equipments = { 
+			large_submarine_2
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_3 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_2
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.5
+		start_year = 1950
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	large_submarine_3 = {
+		enable_equipments = { 
+			large_submarine_3
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_4 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_3
+			research_cost_coeff = 0.75
+		}
+		
+		research_cost = 0.5
+		start_year = 1955
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	large_submarine_4 = {
+		enable_equipments = { 
+			large_submarine_4
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_4
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1960
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	large_submarine_5 = {
+		enable_equipments = { 
+			large_submarine_5
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_6 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_5
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	################# 핵추진 공격 잠수함###############
+	
+	nuclear_attack_submarine_1 = {
+		enable_equipments = { 
+			nuclear_attack_submarine_1
+		}
+		
+		path = {
+			leads_to_tech = nuclear_attack_submarine_2 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1955
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_attack_submarine_2 = {
+		enable_equipments = { 
+			nuclear_attack_submarine_2
+		}
+		
+		path = {
+			leads_to_tech = nuclear_attack_submarine_3 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1960
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_attack_submarine_3 = {
+		enable_equipments = { 
+			nuclear_attack_submarine_3
+		}
+		
+		path = {
+			leads_to_tech = nuclear_attack_submarine_4 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_attack_submarine_4 = {
+		enable_equipments = { 
+			nuclear_attack_submarine_4
+		}
+		
+		path = {
+			leads_to_tech = nuclear_attack_submarine_5
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1980
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_attack_submarine_5 = {
+		enable_equipments = { 
+			nuclear_attack_submarine_5
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1980
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+		########## 핵추진 순항 미사일 잠수함 #############
+	
+	nuclear_cruise_missile_submarine_1 = {
+		enable_equipments = { 
+			nuclear_cruise_missile_submarine_1
+		}
+		
+		path = {
+			leads_to_tech = nuclear_cruise_missile_submarine_2 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1955
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 15 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_cruise_missile_submarine_2 = {
+		enable_equipments = { 
+			nuclear_cruise_missile_submarine_2
+		}
+		
+		path = {
+			leads_to_tech = nuclear_cruise_missile_submarine_3 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1960
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 15 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_cruise_missile_submarine_3 = {
+		enable_equipments = { 
+			nuclear_cruise_missile_submarine_3
+		}
+		
+		path = {
+			leads_to_tech = nuclear_cruise_missile_submarine_4 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 15 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_cruise_missile_submarine_4 = {
+		enable_equipments = { 
+			nuclear_cruise_missile_submarine_4
+		}
+		
+		path = {
+			leads_to_tech = nuclear_cruise_missile_submarine_5
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1980
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 15 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	nuclear_cruise_missile_submarine_5 = {
+		enable_equipments = { 
+			nuclear_cruise_missile_submarine_5
+		}
+
+		dependencies = {
+			nuclear_reactor = 1
+		}
+		
+		research_cost = 0.65
+		start_year = 1980
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 15 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+}

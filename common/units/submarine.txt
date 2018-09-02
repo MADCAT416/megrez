@@ -1,0 +1,54 @@
+sub_units = {
+	submarine = {
+		sprite = submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { submarine = 1 }
+		
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+	large_submarine = {
+		sprite = large_submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { large_submarine = 1 }
+		
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+	nuclear_attack_submarine = {
+		sprite = nuclear_attack_submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { nuclear_attack_submarine = 1 }
+		
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+	nuclear_cruise_missile_submarine = {
+		sprite = nuclear_cruise_missile_submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { nuclear_cruise_missile_submarine = 1 }
+		
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+}

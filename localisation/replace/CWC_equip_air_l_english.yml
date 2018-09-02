@@ -1,0 +1,87 @@
+﻿l_english:
+ ### Equipment names and descriptions ###
+ fighter_equipment_1:0 "전투기 1세대"
+ fighter_equipment_2:0 "전투기 2세대"
+ fighter_equipment_3:0 "전투기 3세대"
+ fighter_equipment_4:0 "전투기 4세대"
+ fighter_equipment_5:0 "전투기 4.5세대"
+ fighter_equipment_6:0 "전투기 5세대"
+ cv_nav_bomber_equipment_1:0 "함재 전폭기 1세대"
+ cv_nav_bomber_equipment_2:0 "함재 전폭기 2세대"
+ cv_nav_bomber_equipment_3:0 "함재 전폭기 3세대"
+ cv_nav_bomber_equipment_4:0 "함재 전폭기 4세대"
+ cv_nav_bomber_equipment_5:0 "함재 전폭기 4.5세대"
+ cv_nav_bomber_equipment_6:0 "함재 전폭기 5세대"
+ heavy_fighter_equipment_1:0 "중 전투기 1세대"
+ heavy_fighter_equipment_2:0 "중 전투기 2세대"
+ heavy_fighter_equipment_3:0 "중 전투기 3세대"
+ heavy_fighter_equipment_4:0 "중 전투기 4세대"
+ heavy_fighter_equipment_5:0 "중 전투기 4.5세대"
+ heavy_fighter_equipment_6:0 "중 전투기 5세대"
+ cv_fighter_equipment_1:0 "함재 전투기 1세대"
+ cv_fighter_equipment_2:0 "함재 전투기 2세대"
+ cv_fighter_equipment_3:0 "함재 전투기 3세대"
+ cv_fighter_equipment_4:0 "함재 전투기 4세대"
+ cv_fighter_equipment_5:0 "함재 전투기 4.5세대"
+ cv_fighter_equipment_6:0 "함재 전투기 5세대"
+ light_fighter_equipment_1:0 "경 전투기 1"
+ light_fighter_equipment_2:0 "경 전투기 2"
+ CAS_equipment_1:0 "지상공격기 1"
+ CAS_equipment_2:0 "지상공격기 2"
+ CAS_equipment_3:0 "지상공격기 3"
+ nav_bomber_equipment_1:0 "대잠초계기 1"
+ nav_bomber_equipment_2:0 "대잠초계기 2"
+ nav_bomber_equipment_3:0 "대잠초계기 3"
+ 
+ strat_bomber_equipment_1:0 "프롭 전략폭격기"
+ strategic_bomber_2:0 "프롭 전략폭격기 공학 1"
+ strategic_bomber_3:0 "프롭 전략폭격기 공학 2"
+ strategic_bomber_4:0 "프롭 전략폭격기 공학 3"
+ jet_strat_bomber_equipment_1:0 "제트 전략폭격기 1"
+ jet_strategic_bomber_2:0 "제트 전략폭격기 공학 1"
+ jet_strategic_bomber_3:0 "제트 전략폭격기 공학 2"
+ jet_strat_bomber_equipment_2:0 "제트 전략폭격기 2"
+ jet_strategic_bomber_5:0 "제트 전략폭격기 공학 3"
+ 
+ supersonic_strat_bomber_equipment_1:0 "초음속 전략폭격기 1"
+ supersonic_strategic_bomber_2:0 "초음속 전략폭격기 공학 1"
+ supersonic_strat_bomber_equipment_2:0 "초음속 전략폭격기 2"
+ supersonic_strategic_bomber_4:0 "초음속 전략폭격기 공학 2"
+ 
+ stealth_strat_bomber_equipment_1:0 "스텔스 전략폭격기 1"
+ stealth_strategic_bomber_2:0 "스텔스 전략폭격기 공학 1"
+ stealth_strat_bomber_equipment_2:0 "스텔스 전략폭격기 2"
+ stealth_strategic_bomber_4:0 "스텔스 전략폭격기 공학 2"
+ 
+ helicopter_1:0 "헬기 공학"
+ recon_helicopter_1:0 "정찰헬기"
+ attack_helicopter_equipment_1:0 "공격헬기 1"
+ attack_helicopter_equipment_2:0 "공격헬기 2"
+ attack_helicopter_equipment_3:0 "공격헬기 3"
+ attack_helicopter_equipment_4:0 "공격헬기 4"
+ maritime_helicopter_1:0 "해상작전헬기 1"
+ maritime_helicopter_2:0 "해상작전헬기 2"
+ maritime_helicopter_3:0 "해상작전헬기 3"
+ maritime_helicopter_4:0 "해상작전헬기 4"
+ rescue_helicopter_1:0 "의무헬기 1"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,12 @@
+﻿l_english:
+
+#This event will show after the opening news options events, lets us easily switch out messages for players without changing the checksum
+
+#Default message:
+#kr.political.27.t:0 "Cornflakes and DLC"
+#kr.political.27.d:0 "Do I need Waking the Tiger? What about Death or Dishonour? Will the universe end in vacuum decay?\n\nNo, you do not need Waking the Tiger or any other DLC to play Kaiserreich Alpha 0.6 - 'Garibaldi's Nightmare', though yes the universe will end in vacuum decay.\n\nWe have been thinking and talking a lot about DLC within the team and what our policy should be surrounding it. We have not yet reached a conclusion and thus we may change things for 0.7, we may not. But until then, enjoy Kaiserreich with all, some or no DLC. That being said, if you do have DLC by all means use it and enjoy those shiny unit models and associated features!\n\nPlease also note that work with 1.5 'Cornflakes' is no where near done, so many nations are not yet fully making use of stability, decisions etc. This is something we will be working on for next patch."
+#kr.political.27.a:0 "Thanks for all the info, but can I please play now?"
+
+kr.political.27.t:0 "카이저라이히 한국어 번역관련 안내"
+kr.political.27.d:0 "간혹 플레이 하시다보시면, 문맥이 맞지 않거나, 단어가 잘못된 경우를 종종 목격하신적이 있으실겁니다. 카이저라이히는 워낙 이벤트나 국가중점등이 방대하기 때문에 저희가 직접 플레이하며 검수하기에는 시간이 턱없이 부족한 상황입니다. 만약 오역이나 번역에 관해 제안을 하시고 싶으시다면 창작마당 페이지에서 코멘트 혹은 포럼에 글을 남겨주시거나, 창작마당 페이지 설명에 올려놓은 Github페이지에서 직접 번역수정을 해주시면 감사드리겠습니다."
+kr.political.27.a:0 "알겠습니다!"

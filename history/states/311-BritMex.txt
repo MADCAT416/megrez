@@ -1,0 +1,27 @@
+state = {
+	id = 311
+	name = "STATE_311"
+
+	history = {
+		owner = GUA
+		buildings = {
+			infrastructure = 4
+			2077 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = GUA
+		add_claim_by = CAF
+		victory_points = {
+			2077 1
+		}
+	}
+
+	provinces = {
+		2077 13447
+	}
+	manpower = 60342
+	buildings_max_level_factor = 1
+	state_category = rural
+}

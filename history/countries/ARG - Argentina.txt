@@ -1,0 +1,369 @@
+﻿capital = 278
+oob = "empty"
+set_convoys = 40
+set_research_slots = 3
+set_technology = {
+
+
+### Navy ###
+	shipbuild_basics = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+	####Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons_1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_cosmetic_tag = ARG_LAP
+
+add_ideas = {
+	ARG_interservice_rivalry_navy_dominant
+	ARG_Military_Cliques
+	ARG_Military_Apparatus
+	partial_economic_mobilisation
+}
+
+set_stability = -0.10
+set_war_support = 0
+set_variable = { arg_im_factor = 100 }
+
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 4
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_progressive = {
+			popularity = 7
+		}
+		social_liberal = {
+			popularity = 15
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 9
+		}
+		authoritarian_democrat = {
+			popularity = 18
+		}
+		paternal_autocrat = {
+			popularity = 8
+		}
+		national_populist = {
+			popularity = 27
+		}
+	}
+
+	ruling_party = national_populist
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manuel Carlés"
+	desc = "POLITICS_CARLES_DESC"
+	picture = "Portrait_ARG_Manuel_Carles.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Juan Domingo Peron"
+	desc = "POLITICS_DOMINGO_PERON_DESC"
+	picture = "Portrait_Argentine_Domingo_Peron.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Alicia Moreau de Justo"
+	desc = "POLITICS_ALICIA_JUSTO_DESC"
+	picture = "Portrait_Argentine_Alicia_Justo.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Pedro Pablo Ramirez"
+	desc = "POLITICS_PABLO_RAMIREZ_DESC"
+	picture = "Portrait_Argentine_Pablo_Ramirez.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "José Pascual Tamborini"
+	desc = "POLITICS_JOSE_TAMBORINI_DESC"
+	picture = "Portrait_Argentine_Pascual_Tamborini.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Robustiano Patron Costas"
+	desc = "POLITICS_ROBUSTIANO_COSTAS_DESC"
+	picture = "Portrait_Argentine_Robustiano_Costas.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Nicolas Repetto"
+	desc = "POLITICS_NICOLAS_REPETTO_DESC"
+	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
+	expire = "1965.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hipólito Yrigoyen"
+	desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
+	picture = "Portrait_Argentine_Hipolito_Yrigoyen.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Jose Peter"
+	desc = "POLITICS_JOSE_PETER_DESC"
+	picture = "Portrait_Argentine_Jose_Peter.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Angel Borlenghi"
+	desc = "POLITICS_ANGEL_BORLENGHI_DESC"
+	picture = "Portrait_Argentine_Angel_Borlenghi.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+### Field Marshal
+create_field_marshal = {
+	name = "Augustin P. Justo"
+	desc = "ARG_Agustin_P_Justo_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Agustin_Justo.tga"
+	traits = {
+		war_hero
+		trait_cautious
+		fast_planner
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1500
+}
+
+create_field_marshal = {
+	name = "Pedro Pablo Ramirez"
+	desc = "ARG_Pedro_Pablo_Ramirez_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Pablo_Ramirez.tga"
+	traits = {
+		cavalry_officer
+		politically_connected
+		swamp_fox
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Juan Pistarini"
+	desc = "ARG_Juan_Pistarini_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Juan_Pistarini.tga"
+	traits = {
+		career_officer
+		harsh_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = { #Auto-Generated
+	name = "Pedro Eugenio Aramburu"
+	desc = "ARG_Pedro_Eugenio_Aramburu_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Aramburu.tga"
+	traits = {
+		infantry_officer
+		inflexible_strategist
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Enrique Mosconi"
+	desc = "ARG_Enrique_Mosconi_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Mosconi.tga"
+	traits = {
+		infantry_officer
+		career_officer
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Manuel Savio"
+	desc = "ARG_Manuel_Savio_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Manuel_Savio.tga"
+	traits = {
+		career_officer
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Humberto Sosa Molina"
+	desc = "ARG_Humberto_Sosa_Molina_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Soza_Molina.tga"
+	traits = {
+		career_officer
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Juan Domingo Peron"
+	desc = "ARG_Juan_Domingo_Peron_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Peron_General.tga"
+	traits = {
+		media_personality
+		politically_connected
+		fortress_buster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Arturo Rawson"
+	desc = "ARG_Arturo_Rawson_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Arturo_Rawson.tga"
+	traits = {
+		cavalry_officer
+		career_officer
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Bernardo Alberte"
+	desc = "ARG_Bernardo_Alberte_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Alberte.tga"
+	traits = {
+		infantry_officer
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Manuel Domecq Garcia"
+	desc = "ARG_Manuel_Domecq_Garcia_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Domecq_Garcia.tga"
+	traits = {
+		old_guard
+		career_officer
+		trait_engineer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Edelmiro Julián Farrell"
+	desc = "ARG_Edelmiro_Julian_Farrel_desc"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Edelmiro_Farrell.tga"
+	traits = {
+		infantry_officer
+		harsh_leader
+		trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+### Navy Leader
+create_navy_leader = {
+	name = "Eleazar Videla"
+	picture = "Portrait_Argentine_Eleazar_Videla.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Isaac Francisco Rojas"
+	picture = "Portrait_ARG_Isaac_Rojas.tga"
+	traits = {
+	}
+	skill = 1
+}
+

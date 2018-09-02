@@ -1,0 +1,21 @@
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 5000
+
+	state_category = rural
+
+	history = {
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+		}
+
+		add_core_of = USA
+	}
+
+	provinces = {
+		3834 7920 5044 10783
+
+	}
+}

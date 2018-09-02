@@ -1,0 +1,23 @@
+###########################
+# Generic Focus Tree
+# Minor changes by Zankoas
+###########################
+
+focus_tree = {
+	id = SAF_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	
+
+	}
