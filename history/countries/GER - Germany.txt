@@ -323,6 +323,7 @@ add_to_faction = DEN
 add_to_faction = GEA
 add_to_faction = AOG
 add_to_faction = LYB
+add_to_faction = YEM
 
 
 
