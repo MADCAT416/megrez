@@ -60,10 +60,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_autonomy = {
-	target = FOP
-	autonomous_state = kr_autonomous_puppet
-}
 
 set_convoys = 30
 set_research_slots = 3

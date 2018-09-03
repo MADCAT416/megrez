@@ -91,23 +91,6 @@ set_politics = {
 
 set_convoys = 50
 
-set_autonomy = {
-	target = HUN
-	autonomous_state = kr_autonomous_puppet
-}
-set_autonomy = {
-	target = BOM
-	autonomous_state = kr_integrated_puppet
-}
-set_autonomy = {
-	target = ILL
-	autonomous_state = kr_integrated_puppet
-}
-set_autonomy = {
-	target = GAL
-	autonomous_state = kr_integrated_puppet
-}
-
 add_namespace = {
 	name = "ger_unit_leader"
 	type = unit_leader

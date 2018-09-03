@@ -37,12 +37,7 @@ add_ideas = {
 	DEI_Lubbertus_Goetzen_eco_ade
 	DEI_Peter_J_Koets_sec_ade
 }
-HOL = {
-	set_autonomy = {
-		target = DEI
-		autonomous_state = kr_default_puppet
-	}
-}
+
 set_politics = {
 
 	parties = {

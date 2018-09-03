@@ -57,15 +57,6 @@ set_technology = {
 
 set_convoys = 300
 
-set_autonomy = {
-	target = FNG
-	autonomous_state = kr_special_autonomous_dependency
-}
-set_autonomy = {
-	target = TRM
-	autonomous_state = kr_default_puppet
-}
-
 add_ideas = {
 	#medium_economy
 	JAP_Inukai_Tsuyoshi_hog_sco
