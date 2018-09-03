@@ -99,8 +99,8 @@ add_opinion_modifier = { target = AOG modifier = colonial_master }
 add_opinion_modifier = { target = GEA modifier = colonial_master }
 
 set_politics = {
-
-totalist = { 
+parties = {
+	totalist = { 
       popularity = 0
     }
 
@@ -139,7 +139,7 @@ totalist = {
     national_populist = {
       popularity = 5
     }
-
+}
 	ruling_party = authoritarian_democrat
 	last_election = "1932.3.8"
 	election_frequency = 60
