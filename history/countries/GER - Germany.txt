@@ -75,8 +75,6 @@ give_guarantee = LEC
 set_research_slots = 4
 set_convoys = 400
 set_stability = 0.6
-defensive_war_stability_factor = 0.3
-offensive_war_stability_factor = 0.3
 
 set_country_flag = LEC_profit_for_you
 
