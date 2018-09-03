@@ -300,7 +300,7 @@ AOG = {
 	}
 }
 
-create_faction = Mittelmacht
+create_faction = Heilige_Liga
 
 add_to_faction = GER
 add_to_faction = BEL
@@ -308,11 +308,25 @@ add_to_faction = LIT
 add_to_faction = BAT
 add_to_faction = WHR
 add_to_faction = UKR
+add_to_faction = PAP
+add_to_faction = BOM
+add_to_faction = SVK
+add_to_faction = HUN
+add_to_faction = POL
+add_to_faction = RRM
+add_to_faction = FIN
+add_to_faction = YUG
+add_to_faction = BUL
+add_to_faction = ALB
+add_to_faction = GRE
+add_to_faction = OTT
+add_to_faction = SWI
 add_to_faction = MOR
 add_to_faction = MAF
 add_to_faction = DEN
 add_to_faction = GEA
 add_to_faction = AOG
+add_to_faction = LYB
 
 
 
