@@ -638,10 +638,7 @@ POLITICS_PAUL_HENRI_SPAAK_DESC:0 "Paul Henri Spaak, once a prominent lawyer, bel
 POLITICS_PAUL_EMILE_JANSON_DESC:0 "Paul-Émile Janson and his Liberal Party has achieved victory in Belgium's latest national elections. Janson is an advocate of laissez faire economics and free trade; all aspects of society, to Janson, have been far too regulated by past administrations. Belgium, under Janson, is quickly becoming one of the most economically free nations in Europe and the world."
 
 ### Tech Sharing ###
-belgian_research_name:0 "Koninklijke Academie"
-belgian_research_desc:0 "A cooperative academic research group consisting of all Belgian and Dutch Universities sponsored by King Albert I and Queen Wilhelmina"
-belgian_german_joint_research:0 "German Joint Doctrine Group"
-belgian_german_naval_program:0 "Flemish-Wallonian-German Naval Cooperation Program"
+
 
 ### Events ###
 belmil.1.t:0 "Revising the Army Budget"

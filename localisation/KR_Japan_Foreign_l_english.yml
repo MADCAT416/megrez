@@ -65,8 +65,6 @@ JAP_treaty_refuse_qin:0 "조약 파기"
 
 ### Factions ###
 co_prosperity_sphere:0 "공영권"
-japan_research_name:0 "이화학 연구소"
-japan_research_desc:0 "이화학 연구소는 공영권 내의 식민지와 동맹국의 질적 향상을 꾀하는 과학기관입니다."
 
 ### Tooltips ###
 can_blockade_kor:0 "We should consider moving our fleets to our Korean bases to blockade the rebels"
