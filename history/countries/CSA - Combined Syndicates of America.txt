@@ -129,6 +129,48 @@ create_country_leader = {
 	traits = {}
 }
 
+create_country_leader = {
+	name = "민주당 지도부"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "공화당 지도부"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헌법당 지도부"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "군사 위원장"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "미국 우선당 지도부"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "미국 우선당 지도부"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
 add_ideas = {
 	CSA_militia_idea
 	#medium_economy
