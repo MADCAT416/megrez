@@ -40,8 +40,8 @@ set_technology = {
 
 set_research_slots = 4
 set_convoys = 50
-set_stability = 0.55
-set_war_support = 0.65
+set_stability = 0.60
+set_war_support = 0.50
 
 
 add_opinion_modifier = { target = CAL modifier = embargo }
@@ -59,16 +59,16 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 12
+			popularity = 10
 		}
 		democratic_socialist = {
-			popularity = 14
+			popularity = 15
 		}
 		syndicalist = {
-			popularity = 62
+			popularity = 60
 		}
 		social_progressive = {
-			popularity = 12
+			popularity = 15
 		}
 		social_liberal = {
 			popularity = 0
@@ -97,27 +97,35 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jack Reed"
-	desc = "POLITICS_JACK_REED_DESC"
-	picture = "Portrait_CSA_Jack_Reed.tga"
-	expire = "1965.1.1"
+	name = "조지 미니"
+	desc = "George_Meany_DESC"
+	picture = "Portrait_CSA_George_Meany.tga"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Jack Reed"
-	desc = "POLITICS_JACK_REED_DESC"
-	picture = "Portrait_CSA_Jack_Reed.tga"
-	expire = "1965.1.1"
+	name = "조지 미니"
+	desc = "George_Meany_DESC"
+	picture = "Portrait_CSA_George_Meany.tga"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Jack Reed"
-	desc = "POLITICS_JACK_REED_DESC"
-	picture = "Portrait_CSA_Jack_Reed.tga"
-	expire = "1965.1.1"
+	name = "조지 미니"
+	desc = "George_Meany_DESC"
+	picture = "Portrait_CSA_George_Meany.tga"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "퍼렐 돕스"
+	desc = "Farrell_Dobbs_DESC"
+	picture = "Portrait_CSA_Farrell_Dobbs.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
 	traits = {}
 }
 
