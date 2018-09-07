@@ -73,65 +73,145 @@ add_ideas = {
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }
-add_opinion_modifier = { target = TRM modifier = vladivostok_puppet }
 add_opinion_modifier = { target = LEC modifier = LEC_member }
 give_military_access = LEC
 give_guarantee = LEC
-# diplomatic_relation = { country = LEC relation = non_aggression_pact }
 set_country_flag = LEC_profit_for_you
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
-			banned = yes
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
-			banned = yes
+			popularity = 1
 		}
 		syndicalist = {
-			popularity = 2
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 2
 		}
 		social_liberal = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
-			popularity = 8
+			popularity = 30
 		}
 		market_liberal = {
-			popularity = 27
-		}
-		social_conservative = {
-			popularity = 51
-		}
-		paternal_autocrat = {
 			popularity = 3
 		}
+		social_conservative = {
+			popularity = 7
+		}
+		paternal_autocrat = {
+			popularity = 15
+		}
 		national_populist = {
-			popularity = 1
+			popularity = 35
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 ### Head of States ###
+
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "중앙위원회"
+	desc = "Centcom_DESC"
+	picture = "Portrait_Japan_Centcom.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카츠마타 세이이치"
+	desc = "Seiichi_Katsumata_DESC"
+	picture = "Portrait_Japan_Seiichi_Katsumata.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "구로다 간이치"
+	desc = "Kuroda_DESC"
+	picture = "Portrait_Japan_Kuroda.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아키히토"
+	desc = "Akihito_DESC"
+	picture = "Portrait_Japan_Akihito.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+
 
 ### Leaders ###
 

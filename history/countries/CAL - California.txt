@@ -56,22 +56,22 @@ set_politics = {
 			popularity = 5
 		}
 		syndicalist = {
-			popularity = 2
+			popularity = 5
 		}
 		social_progressive = {
-			popularity = 29
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 10
 		}
 		market_liberal = {
-			popularity = 26
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 33
+			popularity = 60
 		}
 		authoritarian_democrat = {
-			popularity = 2
+			popularity = 10
 		}
 		paternal_autocrat = {
 			popularity = 0
@@ -99,25 +99,33 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Frank Merriam"
-	desc = "MERRIMAM_DESC"
-	picture = "Portrait_CAL_Frank_Merrimam.tga"
+	name = "하워드 휴즈"
+	desc = "Howard_Hughes_DESC"
+	picture = "Portrait_CAL_Howard_Hughes.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Culbert Levy Olson"
-	desc = "OLSON_DESC"
-	picture = "Portrait_CAL_Levy_olson.tga"
+	name = "글렌 H. 타일러"
+	desc = "Glen_H_Taylor_DESC"
+	picture = "Portrait_CAL_Glen_H_Taylor.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Hiram Johnson"
-	desc = "JOHNSON_DESC"
-	picture = "Portrait_CAL_Hiram_Johnson.tga"
+	name = "팻 브라운"
+	desc = "Pat_Brown_DESC"
+	picture = "Portrait_CAL_Pat_Brown.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "팻 브라운"
+	desc = "Pat_Brown_DESC"
+	picture = "Portrait_CAL_Pat_Brown.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
