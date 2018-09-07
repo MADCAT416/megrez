@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Alexander Duala Bell"
 	desc = "POLITICS_DUALABELL_DESC"
 	picture = "gfx/leaders/Generic/Portrait_German_Africa_Generic_land_7.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 

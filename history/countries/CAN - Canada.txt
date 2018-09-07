@@ -65,6 +65,7 @@ add_to_faction = DOM
 add_to_faction = RUS
 add_to_faction = SAF
 add_to_faction = MLY
+add_to_faction = PHI
 add_to_faction = CAM
 add_to_faction = VIE
 add_to_faction = LAO
@@ -82,7 +83,7 @@ add_to_faction = MAN
 
 set_autonomy = {
 	target = NEE
-	autonomous_state = kr_default_puppet
+	autonomous_state = kr_occupied_puppet
 }
 
 give_guarantee = LEC

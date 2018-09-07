@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = "CROATIA_STJEPAN_RADIC_DESC"
 
 		picture = "Portrait_Croatia_Stjepan_Radic.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -97,7 +97,7 @@ create_country_leader = {
 #	desc = "ANTE_PAVELIC_DESC"
 #
 #	picture = "Portrait_Croatia_Alojzije_Stepinac.tga"
-#	expire = "1965.1.1"
+#	expire = "2000.1.1"
 #	ideology = authoritarian_democrat_subtype
 #	traits = {}
 #}

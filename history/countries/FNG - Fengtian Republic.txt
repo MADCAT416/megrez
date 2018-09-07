@@ -145,7 +145,7 @@ create_country_leader = {
 	name = "Zhang Zuolin"
 	desc = "FNG_zhang_zuolin_desc"
 	picture = "Portrait_FNG_Zhang_Zuolin.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

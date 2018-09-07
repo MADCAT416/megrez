@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Henry Alexander Baldwin"
 	desc = "BALDWIN_DESC"
 	picture = "Portrait_HAW_Alexander_Baldwin.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -77,7 +77,7 @@ create_country_leader = {
 	name = "James Dole"
 	desc = "JAMES_DOLE_DESC"
 	picture = "Portrait_HAW_james_dole.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Samuel Wilder King"
 	desc = "SAMUEL_WILDER_KING_DESC"
 	picture = "Portrait_HAW_samuel_king.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Lawrence M. Judd"
 	desc = "LAWRENCE_JUDD_DESC"
 	picture = "Portrait_HAW_lawrence_judd.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -104,7 +104,7 @@ create_country_leader = {
 	name = "People's Council of Hawai'i"
 	desc = "POLITICS_HAWAIIAN_COUNCIL_DESC"
 	picture = "Portrait_HAW_peoples_council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 	}
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "People's Council of Hawai'i"
 	desc = "POLITICS_HAWAIIAN_COUNCIL_DESC"
 	picture = "Portrait_HAW_peoples_council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 	}
@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "People's Council of Hawai'i"
 	desc = "POLITICS_HAWAIIAN_COUNCIL_DESC"
 	picture = "Portrait_HAW_peoples_council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 	}

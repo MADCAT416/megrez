@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Sun Chuanfang"
 	desc = ""
 	picture = "Portrait_LEP_Sun_Chuanfang.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

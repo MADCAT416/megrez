@@ -35,7 +35,7 @@ create_country_leader = {
 	name = "Bonaventura Ferrazzutto"
 	desc = "POLITICS_BONAVENTURA_FERRAZZUTTO_DESC"
 	picture = "Portrait_VNC_Bonaventura_Ferrazzutto.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -43,7 +43,7 @@ create_country_leader = {
 	name = "Alessandro Marcello Del Majno"
 	desc = "POLITICS_FERRUCCIO_MORTERRA_DESC"
 	picture = "Portrait_VNC_Alessandro_Marcello.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -51,7 +51,7 @@ create_country_leader = {
 	name = "Umberto Merlin"
 	desc = "POLITICS_UMBERTO_MERLIN_DESC"
 	picture = "Portrati_VNC_Umberto_Merlin.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }

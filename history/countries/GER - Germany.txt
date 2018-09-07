@@ -374,6 +374,7 @@ add_to_faction = YUG
 add_to_faction = BUL
 add_to_faction = ALB
 add_to_faction = GRE
+add_to_faction = POR
 add_to_faction = OTT
 add_to_faction = SWI
 add_to_faction = MOR
@@ -383,6 +384,8 @@ add_to_faction = GEA
 add_to_faction = AOG
 add_to_faction = LYB
 add_to_faction = YEM
+add_to_faction = SOM
+add_to_faction = ETH
 
 
 

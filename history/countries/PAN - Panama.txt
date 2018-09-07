@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Juan Demostenes Arosemena"
 	desc = "POLITICS_JUAN_AROSEMENA_DESC"
 	picture = "Portrait_PAN_Juan_Demostenes_Arosemena.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }

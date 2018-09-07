@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Farabundo Martí"
 	desc = "POLITICS_FARABUNDO_MARTI_DESC"
 	picture = "Portrait_GUA_Marti.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -92,7 +92,7 @@ create_country_leader = {
 	name = "Augusto César Sandino"
 	desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 	picture = "Portrait_GUA_Sandino.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -101,7 +101,7 @@ create_country_leader = {
 	name = "Jacobo Guzman Árbenz"
 	desc = "POLITICS_JACOBO_GUZMAN_ARBENZ_DESC"
 	picture = "Portrait_GUA_Arbenz.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }

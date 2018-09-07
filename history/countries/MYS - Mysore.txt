@@ -66,7 +66,7 @@ set_politics = {
 create_country_leader = {
 	name = "Krishna Raja Wadiyar IV"
 	picture = "Portrait_MYS_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -74,7 +74,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Krishna Raja Wadiyar IV"
 	picture = "Portrait_MYS_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -82,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Krishna Raja Wadiyar IV"
 	picture = "Portrait_MYS_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -90,7 +90,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kaka Kalelkar"
 	picture = "Portrait_MYS_Kaka_Kalekar.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }

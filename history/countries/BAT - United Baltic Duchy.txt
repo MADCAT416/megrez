@@ -114,7 +114,7 @@ create_country_leader = {
 	name = "Adolf Friedrich of Mecklenburg"
 	desc = "POLITICS_ADOLF_FRIEDRICH_DESC"
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 
@@ -124,7 +124,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Viktor Kingissepp"
 	picture = "Portrait_Baltic_Kingiessepp.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 
@@ -134,7 +134,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Viktor Kingissepp"
 	picture = "Portrait_Baltic_Kingiessepp.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 
@@ -144,7 +144,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Augusts Kirhenšteins"
 	picture = "Portrait_Baltic_Kirhensteins.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 
@@ -154,7 +154,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Martynas Yčas"
 	picture = "Portrait_Baltic_Kirhensteins.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
 
@@ -164,7 +164,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kārlis Ulmanis"
 	picture = "Portrait_Baltic_Karlis_Ulmanis.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 
@@ -174,7 +174,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "August Rei"
 	picture = "Portrait_Baltic_August_Rei.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
 
@@ -184,7 +184,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jaan Tõnisson"
 	picture = "Portrait_Baltic_Jaan_Tonisson.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 
@@ -194,7 +194,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alfred Fletcher"
 	picture = "Portrait_Baltic_Alfred_Fletcher.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 

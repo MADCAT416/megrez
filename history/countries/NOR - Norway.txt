@@ -75,7 +75,7 @@ set_politics = {
 	ruling_party = social_liberal
 	last_election = "1933.10.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 
@@ -97,7 +97,7 @@ create_country_leader = {
 	name = "Martin Tranmæl"
 	desc = "POLITICS_Martin_Tranmel_DESC"
 	picture = "Portrait_Norway_Martin_Tranmel.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Haakon VII"
 	desc = "POLITICS_Haakon_VII_DESC"
 	picture = "Portrait_Norway_Haakon_VII.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -115,7 +115,7 @@ create_country_leader = {
 	name = "Vidkun Quisling"
 	desc = "POLITICS_Vidkun_Quisling_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling_KR.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

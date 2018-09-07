@@ -57,7 +57,7 @@ set_politics = {
 create_country_leader = {
 	name = "Oliver Ernest Goonetilleke"
 	picture = "Oliver_Ernest_Goonetilleke_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

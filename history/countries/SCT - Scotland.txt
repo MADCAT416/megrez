@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Henry McGrew"
 	desc = "POLITICS_HENRY_MCGREW_DESC"
 	picture = ""
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

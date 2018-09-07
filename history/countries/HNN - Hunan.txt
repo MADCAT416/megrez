@@ -73,7 +73,7 @@ create_country_leader = {
 	name = "Zhao Hengti"
 	desc = ""
 	picture = "Portrait_Hunan_Zhao_Hengti.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -82,7 +82,7 @@ create_country_leader = {
 	name = "Zhang Jingyao"
 	desc = ""
 	picture = "Portrait_Hunan_Zhang_Jingyao.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

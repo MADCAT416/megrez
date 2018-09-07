@@ -81,7 +81,7 @@ create_country_leader = {
 	name = "Habsburg–Lotaringiai IV. Károly"
 	desc = "POLITICS_KARL_DESC"
 	picture = "Portrait_Austria_Karl_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 
@@ -92,7 +92,7 @@ create_country_leader = {
 	name = "Habsburg–Lotaringiai IV. Károly"
 	desc = "POLITICS_KARL_DESC"
 	picture = "Portrait_Austria_Karl_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 

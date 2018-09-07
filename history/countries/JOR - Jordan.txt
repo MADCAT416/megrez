@@ -62,7 +62,7 @@ create_country_leader = {# Zeid I Hashmid
 	name = "Zeid I Hashmid"
 	desc = "POLITICS_ZEID_HASHEMITE_DESC"
 	picture = "Portrait_JOR_Zeid_Hashmid.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -70,7 +70,7 @@ create_country_leader = {# Zeid I Hashmid
 	name = "Zeid I Hashmid"
 	desc = "POLITICS_ZEID_HASHEMITE_DESC"
 	picture = "Portrait_JOR_Zeid_Hashmid.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = { warmonger }
 }
@@ -78,7 +78,7 @@ create_country_leader = {# Zeid I Hashmid
 	name = "Zeid I Hashmid"
 	desc = "POLITICS_ZEID_HASHEMITE_DESC"
 	picture = "Portrait_JOR_Zeid_Hashmid.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {# Jafar al-Askari
 	name = "Jafar al-Askari"
 	desc = "POLITICS_JAFAR_ASKARI_DESC"
 	picture = "Portrait_JOR_Jafar_Askari.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -94,7 +94,7 @@ create_country_leader = {# Yasin al-Hashimi
 	name = "Yasin al-Hashimi"
 	desc = "POLITICS_SULTAN_ATRASH_DESC"
 	picture = "Portrait_JOR_Yasin_Hashimi.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {# Hamdi al-Pachachi
 	name = "Hamdi al-Pachachi"
 	desc = "POLITICS_AL_PACHACHI_DESC"
 	picture = "Portrait_JOR_Hamid_Pacha.jpg"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -110,7 +110,7 @@ create_country_leader = {# Salih Jabr
 	name = "Salih Jabr"
 	desc = "POLITICS_SALI_JABR_DESC"
 	picture = "Portrait_JOR_Salih_Jabr"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -119,7 +119,7 @@ create_country_leader = {# Yusuf Salman Yusuf
 	name = "Yusuf Salman Yusuf"
 	desc = "POLITICS_SALMAN_YUSUF_DESC"
 	picture = "Portrait_JOR_Yusuf.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -128,7 +128,7 @@ create_country_leader = {# Yusuf Salman Yusuf
 	name = "Yusuf Salman Yusuf"
 	desc = "POLITICS_SALMAN_YUSUF_DESC"
 	picture = ""
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -137,7 +137,7 @@ create_country_leader = {# Yusuf Salman Yusuf
 	name = "Yusuf Salman Yusuf"
 	desc = "POLITICS_SALMAN_YUSUF_DESC"
 	picture = ""
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

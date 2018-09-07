@@ -116,7 +116,7 @@ set_politics = {
 create_country_leader = {# Benito Mussolini
 	name = "Benito Mussolini"
 	picture = "Portrait_Italy_Benito_Mussolini.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 		warmonger
@@ -125,14 +125,14 @@ create_country_leader = {# Benito Mussolini
 create_country_leader = {# Palmiro Toglitti
 	name = "Palmiro Togliatti"
 	picture = "Portrait_Italy_Palmiro_Togliatti.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 create_country_leader = {# Giacomo Matteotti
 	name = "Giacomo Matteotti"
 	picture = "Portrait_Italy_Giacomo_Matteotti.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

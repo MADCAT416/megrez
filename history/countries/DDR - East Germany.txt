@@ -95,7 +95,7 @@ set_politics = {
 create_country_leader = {
 	name = "Karl Liebknecht"
 	picture = "Portrait_Prussia_Karl_Liebknecht.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 
@@ -105,7 +105,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Liebknecht"
 	picture = "Portrait_Prussia_Karl_Liebknecht.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 
@@ -115,7 +115,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Liebknecht"
 	picture = "Portrait_Prussia_Karl_Liebknecht.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 

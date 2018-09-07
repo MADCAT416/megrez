@@ -65,7 +65,7 @@ create_country_leader = {
 	name = "Tiburcio Carias Andino"
 	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
 	picture = "Portrait_Honduraz_Tiburcio_Carias_Andino.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

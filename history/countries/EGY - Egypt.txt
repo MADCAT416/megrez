@@ -62,7 +62,7 @@ set_politics = {
 	ruling_party = social_conservative
 	last_election = "1931.10.16"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 50
@@ -73,7 +73,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -81,7 +81,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -89,7 +89,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -97,7 +97,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_FUAD_I_DESC"
 	picture = "Portrait_Egypt_Fuad_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

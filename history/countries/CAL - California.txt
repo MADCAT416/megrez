@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Frank Merriam"
 	desc = "MERRIMAM_DESC"
 	picture = "Portrait_CAL_Frank_Merrimam.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Culbert Levy Olson"
 	desc = "OLSON_DESC"
 	picture = "Portrait_CAL_Levy_olson.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -118,7 +118,7 @@ create_country_leader = {
 	name = "Hiram Johnson"
 	desc = "JOHNSON_DESC"
 	picture = "Portrait_CAL_Hiram_Johnson.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }

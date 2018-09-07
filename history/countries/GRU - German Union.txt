@@ -95,7 +95,7 @@ set_politics = {
 create_country_leader = {
 	name = "Wilhelm Pieck"
 	picture = "Wilhelm_Pieck_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ernst Thälmann"
 	picture = "Ernst_Thalmann_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Rudolf Rocker"
 	picture = "Rudolf_Rocker_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -119,7 +119,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Heinrich Brüning"
 	picture = "Portrait_Germany_Heinrich_Bruning.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -127,7 +127,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Gustav Krupp"
 	picture = "Portrait_Germany_Gustav_Krupp.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -135,7 +135,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Paul von Lettow-Vorbeck"
 	picture = "Portrait_Germany_Paul_von_Lettow_Vorbeck"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -143,7 +143,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Walter von Rathenau"
 	picture = "Portrait_Germany_Walter_von_Rathenau.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -151,7 +151,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wilhelm Ritter Von Leeb"
 	picture = "Wilhelm_Ritter_von_Leeb_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -159,7 +159,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wilhelm Ritter Von Leeb"
 	picture = "Wilhelm_Ritter_von_Leeb_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -167,7 +167,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wilhelm Ritter Von Leeb"
 	picture = "Wilhelm_Ritter_von_Leeb_I.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }

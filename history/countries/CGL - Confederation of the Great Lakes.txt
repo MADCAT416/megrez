@@ -88,7 +88,7 @@ create_country_leader = {
 	name = "Dwight H. Green"
 	desc = "POLITICS_DWIGHT_GREEN_DESC"
 	picture = "Portrait_CGL_Dwight_Green.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 

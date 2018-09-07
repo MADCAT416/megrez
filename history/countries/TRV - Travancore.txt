@@ -66,7 +66,7 @@ set_politics = {
 create_country_leader = {
 	name = "Chithira Thirunal Balarama Varma"
 	picture = "Portrait_TRV_Balarma_Varna.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -74,7 +74,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Chithira Thirunal Balarama Varma"
 	picture = "Portrait_TRV_Balarma_Varna.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -82,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Chithira Thirunal Balarama Varma"
 	picture = "Portrait_TRV_Balarma_Varna.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ if = {
 		name = "P. Krishna Pillai"
 		desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
 		picture = "GFX_RAJ_krishna_pillai"
-		expire = "1965.1.1"
+		expire = "2000.1.1"
 		ideology = syndicalist_subtype
 		traits = {}
 	}
@@ -101,7 +101,7 @@ if = {
 		create_country_leader = {
 			name = "Pattom A. Thanu Pillai"
 			picture = "Portrait_TRV_Pattom_Pillai.tga"
-			expire = "1965.1.1"
+			expire = "2000.1.1"
 			ideology = syndicalist_subtype
 			traits = {}
 		}

@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }

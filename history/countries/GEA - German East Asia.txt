@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "Hellmuth von Mücke"
 	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
-	expire = "1965.1.1" # 1957.7.30
+	expire = "2000.1.1" # 1957.7.30
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Hellmuth von Mücke"
 	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
-	expire = "1965.1.1" # 1957.7.30
+	expire = "2000.1.1" # 1957.7.30
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

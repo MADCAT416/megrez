@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "Yang Sen"
 	desc = ""
 	picture = "Portrait_SZC_Yang_Sen.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

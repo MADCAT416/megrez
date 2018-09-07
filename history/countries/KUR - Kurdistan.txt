@@ -59,7 +59,7 @@ create_country_leader = {
 	name = "Bakr Sidqi"
 	desc = "POLITICS_BAKR_SIDIQI_DESC"
 	picture = "Portrait_KUR_Bakr.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Mehmûd Berzincî"
 	desc = "POLITICS_BARZANJI_DESC"
 	picture = "Portrait_KUR_Mahmud_Barzanji.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -77,7 +77,7 @@ create_country_leader = {
 	name = "Haji Baba Sheikh"
 	desc = "POLITICS_BABA_SHEIKH_DESC"
 	picture = "Portrait_KUR_Haji_Baba.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Qazî Mihemed"
 	desc = "POLITICS_MIHEMED_DESC"
 	picture = "Portrait_KUR_Mihemed.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Qazî Mihemed"
 	desc = "POLITICS_MIHEMED_DESC"
 	picture = "Portrait_KUR_Mihemed.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -104,7 +104,7 @@ create_country_leader = {
 	name = "Qazî Mihemed"
 	desc = "POLITICS_MIHEMED_DESC"
 	picture = "Portrait_KUR_Mihemed.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "Mustafa Berzincî"
 	desc = "POLITICS_MUSTAFA_BARZANI_DESC"
 	picture = "Portrait_KUR_Mustafa.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "Sheikh Said"
 	desc = "POLITICS_SHEIKH_SAID_DESC"
 	picture = "Portrait_KUR_Riza_Dershimi.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -131,7 +131,7 @@ create_country_leader = {
 	name = "Kâmuran Ali Bedirxan"
 	desc = "POLITICS_RIZA_DERSHIMI_DESC"
 	picture = "Portrait_KUR_Kamuran.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }

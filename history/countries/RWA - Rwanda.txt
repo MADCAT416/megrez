@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Yuhi V"
 	desc = "POLITICS_YUHIV_DESC"
 	picture = "Portrait_RWA_Yuhi_V.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

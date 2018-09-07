@@ -74,7 +74,7 @@ create_country_leader = {
 	name = "Federal Council"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Federal Council"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Federal Council"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 	name = "Federal Council"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}

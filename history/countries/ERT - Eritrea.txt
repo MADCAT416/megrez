@@ -69,7 +69,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Wolde 'Mondelli' Sellassie"
 	picture = "Portrait_ERT_Sellasie.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {  }
 }

@@ -95,7 +95,7 @@ set_politics = {
 create_country_leader = {
 	name = "Bernhard Bästlein"
 	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bernhard Bästlein"
 	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 	}
@@ -113,7 +113,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bernhard Bästlein"
 	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
-	expire = "1965.1.1"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 	}
