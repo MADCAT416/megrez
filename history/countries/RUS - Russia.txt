@@ -33,31 +33,6 @@ give_military_access = LEC
 # diplomatic_relation = { country = LEC relation = non_aggression_pact }
 set_country_flag = no_LEC_profit_for_you
 
-
-set_autonomy = {
-	target = AFG
-	autonomous_state = kr_occupied_puppet
-}
-set_autonomy = {
-	target = MON
-	autonomous_state = kr_occupied_puppet
-}
-set_autonomy = {
-	target = SIK
-	autonomous_state = kr_occupied_puppet
-}
-set_autonomy = {
-	target = TIB
-	autonomous_state = kr_occupied_puppet
-}
-set_autonomy = {
-	target = MAN
-	autonomous_state = kr_occupied_puppet
-}
-set_autonomy = {
-	target = KOR
-	autonomous_state = kr_occupied_puppet
-}
 set_cosmetic_tag = RTS
 
 set_convoys = 60
@@ -105,10 +80,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-
 add_ideas = {
 	#medium_economy
-	soviet_worker_soldier
 	rus_divided_staff
 	rus_divided_marine
 	RUS_Pavel_N_Milyukov_hog_mli
