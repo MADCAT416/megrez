@@ -10,8 +10,6 @@ add_ideas = {
 	SAF_Charles_T_te_Water_eco_sco
 	SAF_N_J_van_der_Merwe_sec_ade
 	#medium_economy
-	SAF_segregation_3
-	SAF_divided_government_1
 }
 
 set_technology = {
@@ -41,31 +39,31 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 20
 		}
 		syndicalist = {
-			popularity = 2
-		}
-		social_progressive = {
-			popularity = 11
-		}
-		social_liberal = {
 			popularity = 0
 		}
+		social_progressive = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 10
+		}
 		market_liberal = {
-			popularity = 3
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 32
+			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 41
+			popularity = 50
 		}
 		paternal_autocrat = {
-			popularity = 6
+			popularity = 3
 		}
 		national_populist = {
 			popularity = 2
@@ -78,6 +76,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_stability = 0.4
+set_war_support = 0.4
+
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = CAN modifier = embargo }
 add_opinion_modifier = { target = CAF modifier = embargo }
@@ -88,8 +89,9 @@ add_opinion_modifier = { target = NFA modifier = embargo }
 
 
 create_country_leader = {
-	name = "Moses M. Kotane"
-	picture = "Moses_Kotane_I.tga"
+	name = "넬슨 만델라"
+	picture = "Portrait_SAF_Nelson_Mandela.tga"
+	desc = "Nelson_Mandela_DESC"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -98,8 +100,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yusuf Mohamed Dadoo"
-	picture = "Yusuf_Dadoo_I.tga"
+	name = "넬슨 만델라"
+	picture = "Portrait_SAF_Nelson_Mandela.tga"
+	desc = "Nelson_Mandela_DESC"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -108,8 +111,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Henry Andrews"
-	picture = "William_H._Andrews_I.tga"
+	name = "넬슨 만델라"
+	picture = "Portrait_SAF_Nelson_Mandela.tga"
+	desc = "Nelson_Mandela_DESC"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -118,8 +122,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Henry Andrews"
-	picture = "William_H._Andrews_I.tga"
+	name = "알란 헨드릭스"
+	picture = "Portrait_SAF_Allan_Hendrickse.tga"
+	desc = "Allan_Hendrickse_DESC"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -128,8 +133,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hubert Winthrop Young"
-	picture = "Hubert_Winthrop_Young_I.tga"
+	name = "콜린 에글린"
+	desc = "Colin_Eglin_DESC"
+	picture = "Portrait_SAF_Colin_Eglin.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -137,9 +143,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "James Hertzog"
-	desc = "POLITICS_JAMES_HERTZOG_DESC"
-	picture = "J._B._M._Hertzog_I.tga"
+	name = "야코부스 요하네스 포우체"
+	desc = "Jacobus_Johannes_Fouche_DESC"
+	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -148,9 +154,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Christiaan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "Portrait_SAF_Jan_Smuts.tga"
+	name = "래드클리프 캐드먼"
+	desc = "Radclyffe_Cadman_DESC"
+	picture = "Portrait_SAF_Radclyffe_Cadman.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -159,20 +165,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nicolaas Havenga"
-	desc = "POLITICS_NICOLAAS_HAVENGA_DESC"
-	picture = "Portrait_SAF_Nicolaas_Havenga.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Daniel François Malan"
-	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "Daniel_Francois_Malan_I.tga"
+	name = "야코부스 요하네스 포우체"
+	desc = "Jacobus_Johannes_Fouche_DESC"
+	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -181,9 +176,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Daniel François Malan"
-	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "Daniel_Francois_Malan_I.tga"
+	name = "야코부스 요하네스 포우체"
+	desc = "Jacobus_Johannes_Fouche_DESC"
+	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {

@@ -82,19 +82,19 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 22
+			popularity = 10
 		}
 		syndicalist = {
-			popularity = 51
+			popularity = 60
 		}
 		democratic_socialist = {
-			popularity = 15
+			popularity = 20
 		}
 		social_progressive = {
 			popularity = 10
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 0
 		}
 		market_liberal = {
 			popularity = 0
@@ -120,35 +120,28 @@ set_politics = {
 }
 
 ### Starting Political Leaders ###
-create_country_leader = {# Oswald Mosley
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_England_Oswald_Mosley.tga"
+create_country_leader = {
+	name = "제프리 햄"
+	desc = "Jeffrey_Hamm_DESC"
+	picture = "Portrait_Britain_Jeffrey_Hamm.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = { }
 }
-create_country_leader = {# Niclas Y Glais
-	name = "Niclas y Glais"
-	desc = "POLITICS_NICLAS_GLAIS_DESC"
-	picture = "Portrait_England_Niclas_y_Glais.tga"
+
+create_country_leader = {
+	name = "그윈포 에반스"
+	desc = "Gwynfor_Evans_DESC"
+	picture = "Portrait_Britain_Gwynfor_Evans.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = { }
 }
-# Put Horner here so we can retire Snowden as head of the Syndicalists even if Glais or Mosley win
+
 create_country_leader = {
-	name = "Arthur Horner"
-	desc = "POLITICS_ARTHUR_HORNER_DESC"
-	picture = "Portrait_England_Arthur_Horner.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = { }
-}
-create_country_leader = {# Philip Snowden
-	name = "Philip Snowden"
-	desc = "POLITICS_PHILIP_SNOWDEN_DESC"
-	picture = "Portrait_England_Philip_Snowden.tga"
+	name = "해럴드 윌슨"
+	desc = "Harold_Wilson_DESC"
+	picture = "Portrait_Britain_Harold_Wilson.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {

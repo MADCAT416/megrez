@@ -122,8 +122,8 @@ set_politics = {
 ### Head of States ###
 
 create_country_leader = {
-	name = "중앙위원회"
-	desc = "Centcom_DESC"
+	name = "하야시 히로요시"
+	desc = "hayashi_hiroyoshi_DESC"
 	picture = "Portrait_Japan_Centcom.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
@@ -131,9 +131,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "카츠마타 세이이치"
-	desc = "Seiichi_Katsumata_DESC"
-	picture = "Portrait_Japan_Seiichi_Katsumata.tga"
+	name = "니시카제 이사오"
+	desc = "Isao_Nishikaze_DESC"
+	picture = "Portrait_Japan_Centcom.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}

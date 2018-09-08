@@ -40,19 +40,19 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 50
+			popularity = 70
 		}
 		democratic_socialist = {
-			popularity = 20
-		}
-		syndicalist = {
-			popularity = 30
-		}
-		social_progressive = {
 			popularity = 10
 		}
+		syndicalist = {
+			popularity = 20
+		}
+		social_progressive = {
+			popularity = 0
+		}
 		social_liberal = {
-			popularity = 2
+			popularity = 0
 		}
 		market_liberal = {
 			popularity = 0
@@ -78,68 +78,32 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lala Lajpat Rai"
-	desc = "POLITICS_LALA_LAJPAT_RAI_DESC"
-	picture = "Portrait_Bengal_Lala_Lajpat_Rai.tga"
+	name = "인디라 간디"
+	desc = "indira gandhi_DESC"
+	picture = "Portrait_BHC_indira_gandhi.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "A. K. Fazlul Huq"
-	desc = "POLITICS_FAZLUL_HUQ_DESC"
-	picture = "Portrait_BHC_A_K_Fazlul_Huq.tga"
+	name = "인디라 간디"
+	desc = "indira gandhi_DESC"
+	picture = "Portrait_BHC_indira_gandhi.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	create_country_leader = {
-		name = "Subhas Chandra Bose"
-		desc = "POLITICS_CHANDRA_BOSE_DESC"
-		picture = GFX_RAJ_subhas_chandra_bose
-		expire = "2000.1.1"
-		ideology = totalist_subtype
-		traits = {}
-	}
-	else = {
-		create_country_leader = {
-			name = "Subhas Chandra Bose"
-			desc = "POLITICS_CHANDRA_BOSE_DESC"
-			picture = "Portrait_BHC_Chandra_Bose.tga"
-			expire = "2000.1.1"
-			ideology = totalist_subtype
-			traits = {}
+create_country_leader = {
+	name = "인디라 간디"
+	desc = "indira gandhi_DESC"
+	picture = "Portrait_BHC_indira_gandhi.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
 		}
 	}
-}
-
-create_country_leader = {
-	name = "Iskander Mirza"
-	picture = "Portrait_BHC_Iskander_Mirza.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Nawab Khwaja Habibullah"
-	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Nawab Khwaja Habibullah"
-	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
 
 add_ideas = {
 	#medium_economy
