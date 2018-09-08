@@ -45,7 +45,7 @@ set_politics = {
 			popularity = 20
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 3
 		}
 		social_progressive = {
 			popularity = 0
@@ -63,7 +63,7 @@ set_politics = {
 			popularity = 50
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 0
 		}
 		national_populist = {
 			popularity = 2
