@@ -58,7 +58,7 @@ set_politics = {
     }
     
     democratic_socialist = {
-      popularity = 
+      popularity = 0
     }
     
     social_progressive = {
