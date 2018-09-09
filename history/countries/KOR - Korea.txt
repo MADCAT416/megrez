@@ -17,47 +17,139 @@ set_technology = {
 	#### AIR ####
 	early_fighter = 1
 }
+set_stability = 0.5
+set_war_support = 0.4
 set_research_slots = 2
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 10
-		}
-		syndicalist = {
-			popularity = 15
-		}
-		social_progressive = {
-			popularity = 47
-		}
-		social_liberal = {
-			popularity = 11
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
 			popularity = 2
 		}
+		democratic_socialist = {
+			popularity = 2
+		}
+		syndicalist = {
+			popularity = 2
+		}
+		social_progressive = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 5
+		}
+		market_liberal = {
+			popularity = 5
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 30
+		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 50
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+create_country_leader = {
+	name = "박헌영"
+	desc = "Pak_Hon_Yong_DESC"
+	picture = "Pak_Hon_Yong.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "윤세주"
+	desc = "Yoon_Se_ju_DESC"
+	picture = "Yoon_Se_ju.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "허정숙"
+	desc = "Ho_Jong_Suk_DESC"
+	picture = "Ho_Jong_Suk.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "김철"
+	desc = "Kim_Chol_DESC"
+	picture = "Kim_Chol.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "김대중"
+	desc = "Kim_Dae_Jung_DESC"
+	picture = "Kim_Dae_Jung.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "김영삼"
+	desc = "Kim_Young_Sam_DESC"
+	picture = "Kim_Young_Sam.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "이철승"
+	desc = "Lee_Chul_Seung_DESC"
+	picture = "Lee_Chul_Seung.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "이구"
+	desc = "Yi_Gu_DESC"
+	picture = "Yi_Gu.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "정일권"
+	desc = "Chung_Il_kwon_DESC"
+	picture = "Chung_Il_kwon.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "정일권"
+	desc = "Chung_Il_kwon_DESC"
+	picture = "Chung_Il_kwon.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = { }
 }
 
 ### Field Marshal

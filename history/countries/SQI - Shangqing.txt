@@ -27,22 +27,22 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 11
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 13
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 17
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 51
+			popularity = 100
 		}
 	}
 
@@ -78,9 +78,9 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Zhang Tianran"
-	desc = "POLITICS_ZHANG_TIANRAN_DESC"
-	picture = "Portrait_SQI_Zhang_Tianran.tga"
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}

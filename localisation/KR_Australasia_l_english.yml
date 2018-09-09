@@ -122,3 +122,8 @@ AST_AFM_economy_2:0 "국가 주도 경제"
 AST_war_timer:0 "협상국의 전쟁 기록계"
 AST_massive_strikes:0 "막대한 파업"
 
+### 인물 소개 ###
+Richard_Casey_DESC:0 ""
+Laurie_Aarons_DESC:0 ""
+Jock_Barnes_DESC:0 ""
+Bill_Andersen_DESC:0 ""
