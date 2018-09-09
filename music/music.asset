@@ -22,6 +22,18 @@ music = {
 	volume = 0.65
 }
 
+music = {
+	name = "internationale_instrumental"
+	file = "internationale_instrumental.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "We'll_Never_Let_The_Old_Flag_Fall"
+	file = "We'll_Never_Let_The_Old_Flag_Fall.ogg"
+	volume = 0.65
+}
+
 # General Peace:
 music = {
 	name = "general_peace_1"

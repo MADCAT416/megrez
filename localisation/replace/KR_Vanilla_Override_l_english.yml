@@ -71,8 +71,10 @@ chief_of_air_force:0 "공군 참모"
 theorist:0 "이념운동가"
 
 ### music_l_english
-maintheme:0 "메인 테마"
+maintheme:0 "사랑하는 조국이여"
 Die_Wacht_am_Rhein:0 "라인의 수비"
+internationale_instrumental:0 "인터내셔널가 (기악)"
+We'll_Never_Let_The_Old_Flag_Fall:0 "우린 결코 오랜 깃발을 내리지 않으리"
 
 ### politics_l_english
 RELEASE_NATION_TITLE:0 "경고"
