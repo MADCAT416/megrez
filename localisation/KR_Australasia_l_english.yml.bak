@@ -1,23 +1,23 @@
 ﻿l_english:
 
 ### Parties ###
-AST_totalist_party:0 "공산당"
+AST_totalist_party:0 "CP"
 AST_totalist_party_long:0 "공산당" #
-AST_syndicalist_party:0 "아나르코 생디칼리스트 연맹"
+AST_syndicalist_party:0 "ASF"
 AST_syndicalist_party_long:0 "아나르코 생디칼리스트 연맹" #
-AST_democratic_socialist_party:0 "오스트랄라시아 사회주의 통합당"
+AST_democratic_socialist_party:0 "SUPA"
 AST_democratic_socialist_party_long:0 "오스트랄라시아 사회주의 통합당" #
-AST_social_progressive_party:0 "오스트랄라시아 노동당"
+AST_social_progressive_party:0 "ALP"
 AST_social_progressive_party_long:0 "오스트랄라시아 노동당" #
-AST_social_liberal_party:0 "오스트랄라시아 민주당"
+AST_social_liberal_party:0 "AD"
 AST_social_liberal_party_long:0 "오스트랄라시아 민주당" #
-AST_market_liberal_party:0 "자유당-국민당 연립"
+AST_market_liberal_party:0 "Coalition"
 AST_market_liberal_party_long:0 "자유당-국민당 연립" #
-AST_social_conservative_party:0 "민주노동당"
+AST_social_conservative_party:0 "DLP"
 AST_social_conservative_party_long:0 "민주노동당" #
-AST_authoritarian_democrat_party:0 "기독민주당"
+AST_authoritarian_democrat_party:0 "CDP"
 AST_authoritarian_democrat_party_long:0 "기독민주당" #
-AST_national_populist_party:0 "오스트랄리사아 우익연맹"
+AST_national_populist_party:0 "ALR"
 AST_national_populist_party_long:0 "오스트랄리사아 우익연맹" #
 
 ### Tooltips ###

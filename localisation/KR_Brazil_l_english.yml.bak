@@ -100,13 +100,3 @@ BRA_industrial_transition:0 "Industrial Transition"
 BRA_togolese_trade:0 "Togolese Trade"
 BRA_nigerian_trade:0 "Nigerian Trade"
 BRA_brazilian_trade:0 "Brazilian Trade"
-
-### 인물 소개 ###
-Luis_Carlos_Prestes_DESC:0 ""
-Carlos_Marighella_DESC:0 ""
-Leonel_Brizola_DESC:0 ""
-Janio_Quadros_DESC:0 ""
-Juscelino_Kubitschek_DESC:0 ""
-Tancredo_Neves_DESC:0 ""
-Emilio_Garrastazu_Medici_DESC:0 ""
-Augusto_Hamann_Rademaker_Grunewald_DESC:0 ""

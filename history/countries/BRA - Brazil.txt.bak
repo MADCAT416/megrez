@@ -65,7 +65,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = syndicalist
+	ruling_party = social_conservative
 	last_election = "1932.11.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,79 +87,86 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "주셀리누 쿠비트스셰크"
-	desc = "Juscelino_Kubitschek_DESC"
-	picture = "Portrait_BRA_Juscelino_Kubitschek.tga"
+	name = "Otávio Mangabeira"
+	desc = "POLITICS_OTAVIO_MANGABEIRA_DESC"
+	picture = "Portrait_BRA_Otavio_Mangabeira.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "아우구스투 아망 하데마케르 그루네왈드"
-	desc = "Augusto_Hamann_Rademaker_Grunewald_DESC"
-	picture = "Portrait_BRA_Augusto_Hamann_Rademaker_Grunewald.tga"
+	name = "Gustavo Dodt Barroso"
+	desc = "POLITICS_GUSTAVO_DODT_DESC"
+	picture = "Portrait_BRA_Gustavo_Dodt_Barroso.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "이밀리우 가하스타주 메디시"
-	desc = "Emilio_Garrastazu_Medici_DESC"
-	picture = "Portrait_BRA_Emilio_Garrastazu_Medici.tga"
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_BRA_DESC"
+	picture = "Portrait_BRA_Getulio_Vargas.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Eurico Gaspar Dutra"
+	desc = "POLITICS_EURICO_DUTRA_BRA_DESC"
+	picture = "Portrait_BRA_Eurico_Gaspar_Dutra.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "자니우 쿠아드루스"
-	desc = "Janio_Quadros_DESC"
-	picture = "Portrait_BRA_Janio_Quadros.tga"
+	name = "Júlio Prestes"
+	desc = "POLITICS_JULIO_PRESTES_DESC"
+	picture = "Portrait_BRA_Julio_Prestes.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "카를루스 마리겔라"
-	desc = "Carlos_Marighella_DESC"
-	picture = "Portrait_BRA_Carlos_Marighella.tga"
+	name = "Edgard Leuenroth"
+	desc = "POLITICS_EDGARD_LEUENROTH_DESC"
+	picture = "Portrait_BRA_Edgard_Leuenroth.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "루이 카를루스 프레스치스"
-	desc = "Luis_Carlos_Prestes_DESC"
-	picture = "Portrait_BRA_Luis_Carlos_Prestes.tga"
+	name = "Abilio de Nequete"
+	desc = "POLITICS_ABILIO_NEQUETE_DESC"
+	picture = "gfx/leaders/PIR/Portrait_PIR_Abilio_de_Nequete.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "카를루스 마리겔라"
-	desc = "Carlos_Marighella_DESC"
-	picture = "Portrait_BRA_Carlos_Marighella.tga"
+	name = "Minervino de Oliveira"
+	desc = "POLITICS_MINERVINO_OLIVEIRA_DESC"
+	picture = "Portrait_BRA_Minervino_Oliveira.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "탕크레두 네베스"
-	desc = "Tancredo_Neves_DESC"
-	picture = "Portrait_BRA_Tancredo_Neves.tga"
+	name = "Francisco Prestes Maia"
+	desc = "POLITICS_PRESTES_MAIA_BRA_DESC"
+	picture = "Portrait_BRA_Francisco_Prestes_Maia.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레오넬 브리졸라"
-	desc = "Leonel_Brizola_DESC"
-	picture = "Portrait_BRA_Leonel_Brizola.tga"
+	name = "João Mangabeira"
+	desc = "POLITICS_JOAO_MANGABEIRA_BRA_DESC"
+	picture = "Portrait_BRA_Joao_Mangabeira.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
