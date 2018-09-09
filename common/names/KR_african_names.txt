@@ -1,7 +1,7 @@
 ﻿MAF = {
 	male = {
 		names = {
-			"Maximilian"
+			"막시밀리안"
 			"Felix"
 			"Erich"
 			"Gerhard"
@@ -39,10 +39,10 @@
 	}
 	surnames = {
 		"Muller"
-		"Schmidt"
-		"Schneider"
+		"슈미트"
+		"슈나이더"
 		"Fischer"
-		"Meyer"
+		"마이어"
 		"Weber"
 		"Schulz"
 		"Wagner"
