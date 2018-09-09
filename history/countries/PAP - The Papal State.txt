@@ -47,48 +47,59 @@ set_cosmetic_tag = PAP_ITA
 
 set_politics = {
 
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 6
-		}
-		social_progressive = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 8
-		}
-		paternal_autocrat = {
-			popularity =  42
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
+  parties = {
+    totalist = { 
+      popularity = 2
+    }
 
-	ruling_party = paternal_autocrat
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
+    syndicalist = {
+      popularity = 7
+    }
+    
+    democratic_socialist = {
+      popularity = 5
+    }
+    
+    social_progressive = {
+      popularity = 20
+    }
+    
+    social_liberal = {
+      popularity = 5
+    }
+    
+    market_liberal = {
+      popularity = 2
+    }
+    
+    social_conservative = {
+      popularity = 5
+    }
+    
+    authoritarian_democrat = {
+      popularity = 8
+    }
+    
+    paternal_autocrat = {
+      popularity = 40
+    }
+    
+    national_populist = {
+      popularity = 8
+    }
+  }
+
+  ruling_party = paternal_autocrat
+  last_election = "1932.5.1"
+  election_frequency = 48
+  elections_allowed = no
 }
+
+
 ### Political Leaders ###
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -96,8 +107,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -105,8 +116,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -114,8 +125,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -123,8 +134,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -132,8 +143,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -141,14 +152,44 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
 
 	}
 }
+
+create_country_leader = {
+	name = "엔리코 베를링구에르"
+	picture = "Portrait_Enrico_Berlinguer.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "엔리코 베를링구에르"
+	picture = "Portrait_Enrico_Berlinguer.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "엔리코 베를링구에르"
+	picture = "Portrait_Enrico_Berlinguer.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+
 ### Generals ###
 create_field_marshal = {
 	name = "Angelo Cerica"
