@@ -859,7 +859,7 @@ set_autonomy = {
 	autonomous_state = kr_default_puppet
 }
 
-#set_autonomy = {
+set_autonomy = {
 	target = KOR
 	autonomous_state = kr_default_puppet
 }
@@ -1089,7 +1089,7 @@ set_war_support = 0.4
 			popularity = 2
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 3
 		}
 		syndicalist = {
 			popularity = 2

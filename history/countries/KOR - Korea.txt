@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 2
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 3
 		}
 		syndicalist = {
 			popularity = 2
