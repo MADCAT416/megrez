@@ -11,21 +11,43 @@ music = {
 music = {
 	song = "Die_Wacht_am_Rhein"
 		chance = {
-		modifier = {
+	chance = {
+			modifier = {
 			factor = 0
 			NOT = {
 				OR = {
 				is_in_faction_with = GER
 				}
+				OR = {
+				has_government = social_progressive
+				has_government = social_liberal
+				has_government = market_liberal
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				}
 			}
 		}
 		modifier = {
 			factor = 2
-
+			AND = {
+			OR = {
+				has_government = social_progressive
+				has_government = social_liberal
+				has_government = market_liberal
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				}
 			OR = {
 				is_in_faction_with = GER
+				}
+				
 			}
 		}
+	}
 	}
 }
 
@@ -67,12 +89,33 @@ music = {
 				OR = {
 				is_in_faction_with = CAN
 				}
+				OR = {
+				has_government = social_progressive
+				has_government = social_liberal
+				has_government = market_liberal
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			AND = {
+			OR = {
+				has_government = social_progressive
+				has_government = social_liberal
+				has_government = market_liberal
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				}
+			OR = {
 				is_in_faction_with = CAN
+				}
+				
 			}
 		}
 	}

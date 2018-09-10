@@ -36,6 +36,9 @@ add_opinion_modifier = { target = POR modifier = embargo }
 add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
 
+set_stability = 0.5
+set_war_support = 0.3
+
 set_politics = {
 
 	parties = {
@@ -43,10 +46,10 @@ set_politics = {
 			popularity = 8
 		}
 		democratic_socialist = {
-			popularity = 55
+			popularity = 12
 		}
 		syndicalist = {
-			popularity = 12
+			popularity = 55
 		}
 		social_progressive = {
 			popularity = 3
@@ -71,7 +74,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = democratic_socialist
+	ruling_party = syndicalist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,74 +82,82 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Comité Central de la C.N.T.-F.A.I."
-	picture = "Portrait_Switzerland_Council.tga"
+	name = "조안 레벤토스"
+	picture = "Portrait_SPR_Joan_Reventos.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Manuel Azaña Díaz"
-	picture = "Portrait_CNT_Manuel_Azana_Diaz.tga"
+	name = "호세 말도나도 곤살레스"
+	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Augusto Barcia Trelles"
-	picture = "Portrait_CNT_Augusto_Barcia_Trelles.tga"
+	name = "호세 말도나도 곤살레스"
+	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Niceto Alcalá-Zamora"
-	picture = "Portrait_CNT_Niceto_Alcala_Zamora.tga"
+	name = "아돌포 수아레스"
+	picture = "Portrait_SPR_Adolfo_Suarez.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Julián Besteiro Fernández"
-	picture = "Portrait_CNT_Julian_Besteiro_Fernandez.tga"
+	name = "헤르미날 에스글레아스"
+	picture = "Portrait_SPR_Germinal_Esgleas.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Dolores Ibáurri Gómez"
-	picture = "Portrait_CNT_Dolores_Ibaurri_Gomez.tga"
+	name = "산티아고 카리요"
+	picture = "Portrait_SPR_Santiago_Carrillo.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Josep Tarradellas"
-	picture = "Portrait_CNT_Josep_Tarradellas.tga"
+	name = "아돌포 수아레스"
+	picture = "Portrait_SPR_Adolfo_Suarez.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Juan III"
-	picture = "Portrait_SPR_Juan_III.tga"
+	name = "후안 카를로스 1세"
+	picture = "Portrait_SPR_Juan_Carlos_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Francesc Sureda i Blanes"
-	picture = "Portrait_CNT_Francesc_Sureda_i_Blanes.tga"
+	name = "카를로스 우고 데 보르본파르마"
+	picture = "Portrait_SPR_Carlos_Hugo.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 카를로스 1세"
+	picture = "Portrait_SPR_Juan_Carlos_I.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
