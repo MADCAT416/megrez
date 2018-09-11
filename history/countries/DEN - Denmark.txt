@@ -29,53 +29,138 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 3
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 2
 		}
 		syndicalist = {
-			popularity = 15
+			popularity = 5
 		}
 		social_progressive = {
-			popularity = 47
+			popularity = 20
 		}
 		social_liberal = {
-			popularity = 11
+			popularity = 15
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 20
 		}
 		social_conservative = {
-			popularity = 5
+			popularity = 20
 		}
 		authoritarian_democrat = {
 			popularity = 2
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 7
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 8
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = market_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_stability = 0.5
+set_war_support = 0.4
+
 set_convoys = 40
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "크누드 예스페르센"
+	desc = "Knud_Jespersen_DESC"
+	picture = "Portrait_Denmark_Knud_Jespersen.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "시구르드 외만"
+	desc = "Sigurd_Omann_DESC"
+	picture = "Portrait_Denmark_Sigurd_Omann.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카이 몰트케"
+	desc = "Kai_Moltke_DESC"
+	picture = "Portrait_Denmark_Kai_Moltke.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "프레데리크 9세"
+	desc = "Frederick_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쇠렌 캄"
+	desc = "Soren_Kam_DESC"
+	picture = "Portrait_Denmark_Soren_Kam.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
 
 add_ideas = {
 	#medium_economy
