@@ -21,38 +21,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 1
 		}
 		syndicalist = {
 			popularity = 3
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 3
 		}
 		social_progressive = {
-			popularity = 29
+			popularity = 25
 		}
 		social_liberal = {
-			popularity = 7
-		}
-		market_liberal = {
-			popularity = 1
-		}
-		social_conservative = {
-			popularity = 14
-		}
-		authoritarian_democrat = {
-			popularity = 4
-		}
-		paternal_autocrat = {
 			popularity = 30
 		}
+		market_liberal = {
+			popularity = 10
+		}
+		social_conservative = {
+			popularity = 15
+		}
+		authoritarian_democrat = {
+			popularity = 3
+		}
+		paternal_autocrat = {
+			popularity = 3
+		}
 		national_populist = {
-			popularity = 12
+			popularity = 7
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -78,11 +78,94 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Fredrik Kaarle I"
-	desc = "POLITICS_FREDRIK_KAARLE_DESC"
-	picture = "Portrait_Finland_Fredrik_Kaarle_I.tga"
+	name = "헤르타 쿠시넨"
+	desc = "Hertta_Kuusinen_DESC"
+	picture = "Portrait_Finland_Hertta_Kuusinen.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "마우노 코이비스토"
+	desc = "Mauno_Koivisto_DESC"
+	picture = "Portrait_Finland_Mauno_Koivisto.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마우노 코이비스토"
+	desc = "Mauno_Koivisto_DESC"
+	picture = "Portrait_Finland_Mauno_Koivisto.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "볼프강 1세"
+	desc = "Wolfgang_I_DESC"
+	picture = "Portrait_Finland_Wolfgang_I.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
