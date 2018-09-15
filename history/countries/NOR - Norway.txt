@@ -32,7 +32,8 @@ set_technology = {
 	early_bomber = 1
 }
 
-
+set_stability = 0.5
+set_war_support = 0.2
 
 set_research_slots = 3
 set_convoys = 500 # Biggest Merchant Marines in the World - copied from Vanilla
@@ -44,35 +45,35 @@ set_politics = {
 			popularity = 2
 		}
 		syndicalist = {
-			popularity = 5
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 2
 		}
 		social_progressive = {
-			popularity = 23
+			popularity = 40
 		}
 		social_liberal = {
-			popularity = 20
-		}
-		market_liberal = {
-			popularity = 15
-		}
-		social_conservative = {
 			popularity = 10
 		}
+		market_liberal = {
+			popularity = 10
+		}
+		social_conservative = {
+			popularity = 20
+		}
 		authoritarian_democrat = {
-			popularity = 8
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 5
+			popularity = 3
 		}
 		national_populist = {
 			popularity = 2
 		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = social_progressive
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -94,29 +95,92 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Martin Tranmæl"
-	desc = "POLITICS_Martin_Tranmel_DESC"
-	picture = "Portrait_Norway_Martin_Tranmel.tga"
+	name = "레이다르 토랄프 라르센"
+	desc = "Reidar_Thoralf_Larsen_DESC"
+	picture = "Portrait_Norway_Reidar_Thoralf_Larsen.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올레 안드레아스 코프레이탄"
+	desc = "Ole_Kopreitan_DESC"
+	picture = "Portrait_Norway_Ole_Kopreitan.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Haakon VII"
-	desc = "POLITICS_Haakon_VII_DESC"
-	picture = "Portrait_Norway_Haakon_VII.tga"
+	name = "토롤프 솔헤임"
+	desc = "Torolv_Solheim_DESC"
+	picture = "Portrait_Norway_Torolv_Solheim.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Vidkun Quisling"
-	desc = "POLITICS_Vidkun_Quisling_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling_KR.tga"
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "올라프 5세"
+	desc = "Olav_V_DESC"
+	picture = "Portrait_Norway_Olav_V.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에길 홀스트 토르킬센"
+	desc = "Egil_Holst_Torkildsen_DESC"
+	picture = "Portrait_Norway_Egil_Holst_Torkildsen.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 

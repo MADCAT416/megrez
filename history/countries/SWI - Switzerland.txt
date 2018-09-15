@@ -20,6 +20,7 @@ set_technology = {
 }
 
 set_stability = 0.6
+set_war_support = 0.1
 set_research_slots = 3
 
 add_ideas = {
@@ -39,34 +40,34 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 1
-		}
-		syndicalist = {
-			popularity = 4
-		}
-		social_progressive = {
-			popularity = 8
-		}
-		social_liberal = {
-			popularity = 9
-		}
-		market_liberal = {
-			popularity = 51
-		}
-		social_conservative = {
-			popularity = 13
-		}
-		authoritarian_democrat = {
 			popularity = 3
 		}
-		paternal_autocrat = {
+		syndicalist = {
 			popularity = 1
 		}
-		national_populist = {
+		social_progressive = {
+			popularity = 25
+		}
+		social_liberal = {
+			popularity = 5
+		}
+		market_liberal = {
+			popularity = 25
+		}
+		social_conservative = {
 			popularity = 10
+		}
+		authoritarian_democrat = {
+			popularity = 25
+		}
+		paternal_autocrat = {
+			popularity = 3
+		}
+		national_populist = {
+			popularity = 2
 		}
 	}
 
@@ -80,8 +81,8 @@ set_politics = {
 activate_mission = SWI_peace_mission_ongoing
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 노동자 의회"
+	desc = "SWITZERLAND_Workers_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
@@ -89,8 +90,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 노동자 의회"
+	desc = "SWITZERLAND_Workers_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
@@ -98,8 +99,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 노동자 의회"
+	desc = "SWITZERLAND_Workers_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
@@ -107,8 +108,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
@@ -116,8 +117,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
@@ -125,8 +126,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
@@ -134,8 +135,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
@@ -143,8 +144,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -152,8 +153,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	name = "스위스 연방 의회"
+	desc = "SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
@@ -161,9 +162,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Council.tga"
+	name = "가스통-아르망드 아마우두르즈"
+	desc = "Gaston_Armand_Amaudruz_DESC"
+	picture = "Portrait_Switzerland_Gaston_Armand_Amaudruz.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
