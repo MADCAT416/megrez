@@ -256,7 +256,6 @@ add_to_faction = ALB
 add_to_faction = GRE
 add_to_faction = POR
 add_to_faction = OTT
-add_to_faction = SWI
 add_to_faction = MOR
 add_to_faction = MAF
 add_to_faction = DEN
