@@ -78,9 +78,86 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Habsburg–Lotaringiai IV. Károly"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "에르뇌 게뢰"
+	desc = "Erno_Gero_DESC"
+	picture = "Portrait_HUN_Erno_Gero.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "언너 케티"
+	desc = "Anna_Ktehly_DESC"
+	picture = "Portrait_HUN_Anna_Ktehly.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "카다르 야노시"
+	desc = "Janos_Kadar_DESC"
+	picture = "Portrait_HUN_Janos_Kadar.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -89,11 +166,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Habsburg–Lotaringiai IV. Károly"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "팔 1세"
+	desc = "Pal_I_DESC"
+	picture = "Portrait_HUN_Pal_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "아르파드 헨네이"
+	desc = "Anna_Ktehly_DESC"
+	picture = "Portrait_HUN_Anna_Ktehly.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {
 
 	}

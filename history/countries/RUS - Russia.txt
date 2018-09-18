@@ -63,13 +63,13 @@ SIK = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {
@@ -106,13 +106,13 @@ TIB = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {
@@ -149,13 +149,13 @@ AFG = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {
@@ -192,13 +192,13 @@ MON = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {
@@ -235,13 +235,13 @@ MAN = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {

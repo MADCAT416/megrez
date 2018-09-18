@@ -1,7 +1,6 @@
 ﻿capital = 202
 set_convoys = 30
 set_stability = 0.5
-set_war_support = 0.3
 oob = "empty"
 
 set_technology = {
@@ -33,6 +32,8 @@ add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
 
+set_war_support = 0.4
+
 set_politics = {
 
 	parties = {
@@ -43,28 +44,28 @@ set_politics = {
 			popularity = 0
 		}
 		syndicalist = {
-			popularity = 19
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 1
+			popularity = 0
 		}
 		social_liberal = {
 			popularity = 0
 		}
 		market_liberal = {
-			popularity = 1
+			popularity = 2
 		}
 		social_conservative = {
-			popularity = 13
+			popularity = 3
 		}
 		authoritarian_democrat = {
-			popularity = 36
+			popularity = 50
 		}
 		paternal_autocrat = {
 			popularity = 15
 		}
 		national_populist = {
-			popularity = 15
+			popularity = 30
 		}
 	}
 
@@ -90,90 +91,90 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Vasyl I von Habsburg-Lothringen"
-	desc = "POLITICS_VASYL_DESC"
-	picture = "Portrait_Ukraine_Vasyl.tga"
+	name = "바실 합스부르흐"
+	desc = "Vasyl_I_DESC"
+	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Nikita Kruschev"
-	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
-	picture = "Portrait_UKR_Nikita_Kruschev.tga"
+	name = "볼로디미르 셰르비츠키"
+	desc = "Volodymyr_Shcherbytsky_DESC"
+	picture = "Portrait_Ukraine_Volodymyr_Shcherbytsky.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Nikita Kruschev"
-	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
-	picture = "Portrait_UKR_Nikita_Kruschev.tga"
+	name = "페트로 그리고렌코"
+	desc = "Petro_Grigorenko_DESC"
+	picture = "Portrait_Ukraine_Petro_Grigorenko.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Nikita Kruschev"
-	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
-	picture = "Portrait_UKR_Nikita_Kruschev.tga"
+	name = "페트로 그리고렌코"
+	desc = "Petro_Grigorenko_DESC"
+	picture = "Portrait_Ukraine_Petro_Grigorenko.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Vladimir Vynnychenko"
-	desc = "POLITICS_VLADIMIR_VYNNYCHENKO_DESC"
-	picture = "Portrait_Ukraine_Vladimir_Vynnychenko.tga"
+	name = "바실 합스부르흐"
+	desc = "Vasyl_I_DESC"
+	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Boris Martos"
-	desc = "POLITICS_BORIS_MARTOS_DESC"
-	picture = "Portrait_Ukraine_Boris_Martos.tga"
+	name = "바실 합스부르흐"
+	desc = "Vasyl_I_DESC"
+	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Dmitri Doroshenko"
-	desc = "POLITICS_DMITRI_DOROSHENKO_DESC"
-	picture = "Portrait_Ukraine_Dmitri_Doroshenko.tga"
+	name = "바실 합스부르흐"
+	desc = "Vasyl_I_DESC"
+	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mikhail Bulgakov"
-	desc = "POLITICS_MIKHAIL_BULGAKOV_DESC"
-	picture = "Portrait_Ukraine_Mikhail_Bulgakov.tga"
+	name = "바실 합스부르흐"
+	desc = "Vasyl_I_DESC"
+	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Vasyl I von Habsburg-Lothringen"
-	desc = "POLITICS_VASYL_DESC"
-	picture = "Portrait_Ukraine_Vasyl.tga"
+	name = "다닐로 스코로파드스키"
+	desc = "Danylo_DESC"
+	picture = "Portrait_Ukraine_Danylo.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Dmitri Dontsov"
-	desc = "POLITICS_DMITRI_DONTSOV_DESC"
-	picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
+	name = "스테판 반데라"
+	desc = "Stepan_Bandera_DESC"
+	picture = "Portrait_Ukraine_Stepan_Bandera.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}

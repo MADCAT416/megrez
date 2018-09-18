@@ -33,38 +33,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 6
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 3
 		}
 		syndicalist = {
-			popularity = 11
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 13
+			popularity = 2
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 3
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 20
+			popularity = 55
 		}
 		authoritarian_democrat = {
-			popularity = 30
+			popularity = 7
 		}
 		paternal_autocrat = {
-			popularity = 15
+			popularity = 3
 		}
 		national_populist = {
-			popularity = 5
+			popularity = 20
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -86,11 +86,101 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Uladzimir I von Hohenzollern"
-	desc = "POLITICS_VLADIMIR_DESC"
-	picture = "Portrait_Belarus_Vladimir_I.tga"
+	name = "니콜라이 파톨리체프"
+	desc = "Nikolai_Patolichev_DESC"
+	picture = "Portrait_Belarus_Nikolai_Patolichev.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "메이어 빌너"
+	desc = "Meir_Vilner_DESC"
+	picture = "Portrait_Belarus_Meir_Vilner.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "시몬 페르스키"
+	desc = "Szymon_Perski_DESC"
+	picture = "Portrait_Belarus_Szymon_Perski.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "쥐이먼트 1세"
+	desc = "Sigismund_I_DESC"
+	picture = "Portrait_Belarus_Sigismund_I.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "미하우 비투쉬카"
+	desc = "Michal_Vituska_DESC"
+	picture = "Portrait_Belarus_Michal_Vituska.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

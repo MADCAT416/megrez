@@ -36,7 +36,7 @@ set_technology = {
 	early_fighter = 1
 	early_bomber = 1
 }
-set_stability = 0.5
+set_stability = 0.3
 set_war_support = 0.4
 set_research_slots = 3
 set_convoys = 30
@@ -75,19 +75,19 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 15
-		}
-		social_conservative = {
-			popularity = 23
-		}
-		authoritarian_democrat = {
 			popularity = 5
 		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+			popularity = 50
+		}
 		paternal_autocrat = {
-			popularity = 41
+			popularity = 30
 		}
 		national_populist = {
 			popularity = 10
@@ -111,8 +111,8 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Adolf Friedrich of Mecklenburg"
-	desc = "POLITICS_ADOLF_FRIEDRICH_DESC"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
@@ -122,8 +122,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Viktor Kingissepp"
-	picture = "Portrait_Baltic_Kingiessepp.tga"
+	name = "아르비츠 펠셰"
+	picture = "Portrait_Baltic_Arvis_Pelse.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -132,8 +132,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Viktor Kingissepp"
-	picture = "Portrait_Baltic_Kingiessepp.tga"
+	name = "아르비츠 펠셰"
+	picture = "Portrait_Baltic_Arvis_Pelse.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -142,8 +142,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Augusts Kirhenšteins"
-	picture = "Portrait_Baltic_Kirhensteins.tga"
+	name = "아르비츠 펠셰"
+	picture = "Portrait_Baltic_Arvis_Pelse.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -152,8 +152,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Martynas Yčas"
-	picture = "Portrait_Baltic_Kirhensteins.tga"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
+	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -162,8 +163,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kārlis Ulmanis"
-	picture = "Portrait_Baltic_Karlis_Ulmanis.tga"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
+	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -172,8 +174,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "August Rei"
-	picture = "Portrait_Baltic_August_Rei.tga"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
+	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -182,8 +185,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaan Tõnisson"
-	picture = "Portrait_Baltic_Jaan_Tonisson.tga"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
+	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -192,10 +196,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfred Fletcher"
-	picture = "Portrait_Baltic_Alfred_Fletcher.tga"
+	name = "아돌프 프리드리히 추 메클렌부르크 공작"
+	desc = "ADOLF_FRIEDRICH_DESC"
+	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "한스 칼름"
+	picture = "Portrait_Baltic_Hans_Kalm.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {
 
 	}

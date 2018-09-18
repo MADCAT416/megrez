@@ -133,13 +133,13 @@ YEM = {
             totalist = {
                 popularity = 0
             }
-            radical_socialist = {
+            democratic_socialist = {
                 popularity = 0
             }
             syndicalist = {
                 popularity = 2
             }
-            social_democrat = {
+            social_progressive = {
                 popularity = 4
             }
             social_liberal = {
