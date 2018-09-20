@@ -35,19 +35,19 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 51
+			popularity = 80
 		}
 		democratic_socialist = {
-			popularity = 15
+			popularity = 5
 		}
 		syndicalist = {
-			popularity = 22
+			popularity = 15
 		}
 		social_progressive = {
-			popularity = 10
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 0
 		}
 		market_liberal = {
 			popularity = 0
@@ -73,11 +73,29 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Grigol Ordzhonikidze"
-	desc = "POLITICS_GRIGOL_DESC"
-	picture = "Portrait_Georgia_Grigol_Ordzhonikikdze.tga"
+	name = "헤이다르 알리예프"
+	desc = "Heydar_Aliyev_DESC"
+	picture = "Portrait_Georgia_Heydar_Aliyev.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "예두아르트 셰바르드나제"
+	desc = "Eduard_Shevardnadze_DESC"
+	picture = "Portrait_Georgia_Eduard_Shevardnadze.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "예두아르트 셰바르드나제"
+	desc = "Eduard_Shevardnadze_DESC"
+	picture = "Portrait_Georgia_Eduard_Shevardnadze.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
