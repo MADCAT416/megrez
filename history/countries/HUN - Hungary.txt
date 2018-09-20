@@ -62,7 +62,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "Anna_Ktehly_DESC"
 	picture = "Portrait_HUN_Anna_Ktehly.tga"
 	expire = "2000.1.1"
-	ideology = totalist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 
 	}

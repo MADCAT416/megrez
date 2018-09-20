@@ -41,125 +41,127 @@ add_ideas = {
 add_opinion_modifier = { target = BUL modifier = embargo }
 add_opinion_modifier = { target = OTT modifier = embargo }
 
-
-
+set_cosmetic_tag = GRE_kingdom
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 5
+			popularity = 15
 		}
 		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 14
-		}
-		social_liberal = {
-			popularity = 36
-		}
-		market_liberal = {
 			popularity = 10
 		}
+		social_progressive = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 2
+		}
+		market_liberal = {
+			popularity = 3
+		}
 		social_conservative = {
-			popularity = 21
-		}
-		authoritarian_democrat = {
-			popularity = 6
-		}
-		paternal_autocrat = {
 			popularity = 5
 		}
+		authoritarian_democrat = {
+			popularity = 50
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
 		national_populist = {
-			popularity = 1
+			popularity = 10
 		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1934.1.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_stability = 0.4
+set_war_support = 0.4
+
 create_country_leader = {
-	name = "Aris Velouchiotis"
-	picture = "Portrait_GRE_Athanasios_Klaras.tga"
+	name = "니코스 자하리아디스"
+	picture = "Portrait_GRE_Nikos_Zachariadis.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Nikos Zachariadis"
-	picture = "Portrait_GRE_Nikos_Zachariadis.tga"
+	name = "하릴라오스 플로라키스"
+	picture = "Portrait_GRE_Charilaos_Florakis.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Kostas Gavriilides"
-	picture = "Portrait_GRE_Kostas_Gavriilides.tga"
+	name = "레오니다스 키르코스"
+	picture = "Portrait_GRE_Leonidas_Kyrkos.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Alexandros Papanastasiou"
-	picture = "Portrait_GRE_Alexandros_Papanastasiou.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Themistoklis Sofoulis"
-	picture = "Portrait_GRE_Themistoklis_Sofoulis.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Geórgios Papandreou"
-	picture = "Portrait_GRE_Georgios_Papandreou.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Panagis Tsaldaris"
-	picture = "Portrait_GRE_Pangalis_Tsaldaris.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	picture = "Portrait_GRE_Ioannis_Metaxas_KR.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Aléxandros I"
-	picture = "Portrait_GRE_Alexander.tga"
+	name = "콘스탄티노스 2세"
+	picture = "Portrait_GRE_Konstantinos_II.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Georgios Mercouris"
-	picture = "Portrait_GRE_Georgios_Mercouris.tga"
+	name = "요르요스 파파도풀로스"
+	picture = "Portrait_GRE_Georgios_Papadopoulos.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {

@@ -88,92 +88,92 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Corneliu Zelea Codreanu"
-	desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
-	picture = "Portrait_Romania_Corneliu_Zelea_Codreanu.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "A.C. Cuza"
-	desc = "POLITICS_AC_CUZA_DESC"
-	picture = "Portrait_Romania_A._C._Cuza_I.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Nicolae I"
-	desc = "POLITICS_NICOLAE_I_DESC"
-	picture = "Portrait_Romania_Nicolae_I.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Sever Bocu"
-	desc = "POLITICS_SEVER_BOCU_DESC"
-	picture = "Portrait_Romania_Sever_Bocu.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Ion Mihalache"
-	desc = "POLITICS_ION_MIHALACHE_DESC"
-	picture = "Portrait_Romania_Ion_Mihalache.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Alexandru Averescu"
-	desc = "POLITICS_ALEXANDRU_AVERESCU_DESC"
-	picture = "Portrait_Romania_Alexandru_Averescu.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Ion Gheorghe Duca"
-	desc = "POLITICS_ION_GHEORGHE_DUCA_DESC"
-	picture = "Portrait_Romania_Ion_Gheorghe_Duca.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Gheorghe Gheorghiu-Dej"
-	desc = "POLITICS_GHEORGHE_GHEORGHIU_DEJ_DESC"
-	picture = "Portrait_Romania_Gheorghe_Gheorghiu_Dej.tga"
+	name = "니콜라에 차우셰스쿠"
+	desc = "Nicolae_Ceausescu_DESC"
+	picture = "Portrait_RRM_Nicolae_Ceausescu.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Teohari Georgescu"
-	desc = "POLITICS_TEOHARI_GEORGESCU_DESC"
-	picture = "Portrait_Romania_Teohari_Georgescu.tga"
+	name = "세르제 모스코비치"
+	desc = "Serge_Moscovici_DESC"
+	picture = "Portrait_RRM_Serge_Moscovici.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "게오르게 아포스톨"
+	desc = "Gheorghe_Apostol_DESC"
+	picture = "Portrait_RRM_Gheorghe_Apostol.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Lucretiu Patrascanu"
-	desc = "POLITICS_LUCRETIU_PATRASCANU_DESC"
-	picture = "Portrait_Romania_Lucretiu_Patrascanu.tga"
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
 	expire = "2000.1.1"
-	ideology = syndicalist_subtype
+	ideology = paternal_autocrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "미하이 1세"
+	desc = "Michael_I_DESC"
+	picture = "Portrait_RRM_Michael_I.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "호리아 시마"
+	desc = "Horia_Sima_DESC"
+	picture = "Portrait_RRM_Horia_Sima.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = { }
 }
 

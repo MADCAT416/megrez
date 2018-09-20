@@ -33,38 +33,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 20
 		}
 		democratic_socialist = {
 			popularity = 0
 		}
 		syndicalist = {
-			popularity = 4
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 38
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 7
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 4
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 42
+			popularity = 5
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 50
 		}
 		national_populist = {
-			popularity = 3
+			popularity = 20
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = paternal_autocrat
 	last_election = "1932.6.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -72,72 +72,90 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Enver Hoxha"
-	desc = "POLITICS_ENVER_HOXHA_DESC"
-	picture = "Portrait_Albania_Enver_Hoxha.tga"
+	name = "엔베르 호자"
+	desc = "ENVER_HOXHA_DESC"
+	picture = "Portrait_ALB_Enver_Hoxha.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ali Kelmendi"
-	desc = "POLITICS_ALI_KELMENDI_DESC"
-	picture = "Portrait_Albania_Ali_Kelmendi.tga"
+	name = "고고 누시"
+	desc = "Gogo_Nushi_DESC"
+	picture = "Portrait_ALB_Gogo_Nushi.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Avni Rrustemi"
-	desc = "POLITICS_AVNI_RRUSTEMI_DESC"
-	picture = "Portrait_Albania_Avni_Rustemi.tga"
+	name = "투크 야코바"
+	desc = "Tuk_Jakova_DESC"
+	picture = "Portrait_ALB_Tuk_Jakova.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Xhafer Ypi"
-	desc = "POLITICS_XHAFER_YPI_DESC"
-	picture = "Portrait_Albania_Xhafer_Ypi.tga"
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Shefqet Vërlaci"
-	desc = "POLITICS_SHEFQET_VËRLACI_DESC"
-	picture = "Portrait_Albania_Shefqet_Verlaci.tga"
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Luigj Bumçi"
-	desc = "POLITICS_LUIGJ_BUMCI_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Eshref Frashëri"
-	desc = "POLITICS_ESHREF_FRASHERI_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+	name = "레카 1세"
+	desc = "Leka_I_DESC"
+	picture = "Portrait_ALB_Leka_I.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mid'hat Frashëri"
-	desc = "POLITICS_MID'HAT_FRASHERI_DESC"
-	picture = "Portrait_ALB_Midhat_Frasheri.tga"
+	name = "아바스 에르메니"
+	desc = "Abas_Ermenji_DESC"
+	picture = "Portrait_ALB_Abas_Ermenji.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}

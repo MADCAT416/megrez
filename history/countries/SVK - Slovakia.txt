@@ -9,46 +9,159 @@ set_technology = {
 	infantry_weapons_1 = 1
 }
 set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.4
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 3
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 15
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 47
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 11
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
 			popularity = 5
 		}
+		market_liberal = {
+			popularity = 10
+		}
+		social_conservative = {
+			popularity = 10
+		}
 		authoritarian_democrat = {
-			popularity = 2
+			popularity = 40
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 15
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "바실 빌랴크"
+	desc = "Vasil_Bilak_DESC"
+	picture = "Portrait_SVK_Vasil_Bilak.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "알렉산더 둡체크"
+	desc = "Alexander_Dubcek_DESC"
+	picture = "Portrait_SVK_Alexander_Dubcek.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "알렉산더 둡체크"
+	desc = "Alexander_Dubcek_DESC"
+	picture = "Portrait_SVK_Alexander_Dubcek.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "키릴 1세"
+	desc = "Kyril_I_DESC"
+	picture = "Portrait_SVK_Kyril_I.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "알렉산데르 마흐"
+	desc = "Alexander_Mach_DESC"
+	picture = "Portrait_SVK_Alexander_Mach.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
 }
 
 ### Field Marshal
