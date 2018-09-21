@@ -26,38 +26,41 @@ add_ideas = {
 	AFG_Muhammed_Ghobar_sec_ade
 }
 
+set_stability = 0.4
+set_war_support = 0.4
+
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 7
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 3
 		}
 		social_progressive = {
 			popularity = 2
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 2
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 3
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 3
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 20
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 40
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 10
 		}
 	}
 
@@ -69,18 +72,90 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Amanullah Khan"
-	desc = "POLITICS_AMANULLAH_KHAN_DESC"
-	picture = "Portrait_Afghan_Amanullah_Khan.tga"
+	name = "누르 무함마드 타라키"
+	desc = ""
+	picture = "Portrait_Afghan_Nur_Muhammad_Taraki.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "바브락 카르말"
+	desc = ""
+	picture = "Portrait_Afghan_Babrak_Karmal.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "바브락 카르말"
+	desc = ""
+	picture = "Portrait_Afghan_Babrak_Karmal.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 자히르 샤"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 자히르 샤"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 자히르 샤"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 자히르 샤"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "다우드 칸"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Daoud.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 자히르 샤"
+	desc = ""
+	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Habibullah Kalakani"
+	name = "부르하누딘 라바니"
 	desc = ""
-	picture = "Portrait_Afghan_Habibullah_Kalakani.tga"
+	picture = "Portrait_Afghan_Burhanuddin_Rabbani.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
