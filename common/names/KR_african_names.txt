@@ -1393,8 +1393,8 @@ MAL = {
 		}
 	}
 	surnames = {
-		"Keita"
-		"Traoré"
+		"케이타"
+		"트라오레"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -1483,8 +1483,8 @@ NER = {
 		}
 	}
 	surnames = {
-		"Keita"
-		"Traoré"
+		"케이타"
+		"트라오레"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -1554,8 +1554,8 @@ MRT = {
 		}
 	}
 	surnames = {
-		"Keita"
-		"Traoré"
+		"케이타"
+		"트라오레"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -3785,8 +3785,8 @@ BFA = {
 		}
 	}
 	surnames = {
-		"Keita"
-		"Traoré"
+		"케이타"
+		"트라오레"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -3922,8 +3922,8 @@ GNE = {
 		}
 	}
 	surnames = {
-		"Keita"
-		"Traoré"
+		"케이타"
+		"트라오레"
 		"Konare"
 		"Deo"
 		"Moussa"
