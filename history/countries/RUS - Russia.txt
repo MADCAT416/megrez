@@ -159,13 +159,13 @@ AFG = {
 			popularity = 2
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 6
 		}
 		market_liberal = {
 			popularity = 3
 		}
 		social_conservative = {
-			popularity = 3
+			popularity = 7
 		}
 		authoritarian_democrat = {
 			popularity = 20

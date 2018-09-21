@@ -45,13 +45,13 @@ set_politics = {
 			popularity = 2
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 6
 		}
 		market_liberal = {
 			popularity = 3
 		}
 		social_conservative = {
-			popularity = 3
+			popularity = 7
 		}
 		authoritarian_democrat = {
 			popularity = 20
@@ -126,9 +126,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "무함마드 자히르 샤"
+	name = "부르하누딘 라바니"
 	desc = ""
-	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
+	picture = "Portrait_Afghan_Burhanuddin_Rabbani.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
@@ -153,9 +153,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "부르하누딘 라바니"
+	name = "샤이크 유누스 칼리스"
 	desc = ""
-	picture = "Portrait_Afghan_Burhanuddin_Rabbani.tga"
+	picture = "Portrait_Afghan_Mohammad_Yunus_Khalis.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
