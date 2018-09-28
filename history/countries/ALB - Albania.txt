@@ -29,6 +29,8 @@ add_ideas = {
 	ALB_Muharrem_Bajraktari_sec_sco
 }
 
+set_cosmetic_tag = ALB_kingdom
+
 set_politics = {
 
 	parties = {
