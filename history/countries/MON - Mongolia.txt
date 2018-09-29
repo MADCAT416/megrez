@@ -26,26 +26,26 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 11
+			popularity = 60
 		}
 		authoritarian_democrat = {
 			popularity = 20
 		}
 		paternal_autocrat = {
-			popularity = 51
+			popularity = 20
 		}
 		national_populist = {
-			popularity = 10
+			popularity = 0
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,16 +57,100 @@ add_ideas = {
 	MON_Ferdynand_Ossendowski_for_ade
 	MON_Mikhail_Diterikhs_eco_pau
 	MON_The_7th_Changkya_Khutukhtu_sec_pau
-	partial_economic_mobilisation
-	limited_conscription
-	scourge_of_the_steppes
-	limited_exports
 }
 
 create_country_leader = {
-	name = "Roman von Ungern-Sternberg"
-	desc = "POLITICS_STERNBERG_DESC"
-	picture = "Portrait_Mongolia_Sternberg.tga"
+	name = "욤자깅 체뎅발"
+	desc = "Yumjaagiin_Tsedenbal_DESC"
+	picture = "Portrait_Mongolia_Yumjaagiin_Tsedenbal.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "다신 담바"
+	desc = "Dashiin_Damba_DESC"
+	picture = "Portrait_Mongolia_Dashiin_Damba.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "다신 담바"
+	desc = "Dashiin_Damba_DESC"
+	picture = "Portrait_Mongolia_Dashiin_Damba.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -74,7 +158,27 @@ create_country_leader = {
 	}
 }
 
-set_country_flag = Ungern_HoS
+create_country_leader = {
+	name = "9대 젭춘담바 후툭투"
+	desc = "Jebtsundamba_Khutughtu_IX_DESC"
+	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "다라민 퇴뫼르-오치르"
+	desc = "Daramyn_Tomor_Ochir_DESC"
+	picture = "Portrait_Mongolia_Daramyn_Tomor_Ochir.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+}
 
 ### Field Marshal
 create_field_marshal = {
