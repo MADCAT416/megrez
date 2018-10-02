@@ -25,8 +25,8 @@ ANG = {
 	color_ui = rgb { 99 60 139 }
 }
 ANQ = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 231 255 0 }
+	color_ui = rgb { 231 255 0 }
 }
 AOG = {
 	color = rgb { 128 128 128 }
@@ -397,8 +397,8 @@ HAW = {
 	color_ui = rgb { 239 239 0 }
 }
 HNN = {
-	color = rgb { 137 48 63 }
-	color_ui = rgb { 249 126 98 }
+	color = rgb { 0 132 255 }
+	color_ui = rgb { 0 132 255 }
 }
 HOL = {
 	color = rgb { 200 127 45 }
