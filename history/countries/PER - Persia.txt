@@ -27,59 +27,68 @@ add_opinion_modifier = { target = OTT modifier = embargo }
 
 set_politics = {
 
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 9
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 41
-		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_conservative = {
-			popularity = 4
-		}
-		authoritarian_democrat = {
-			popularity = 26
-		}
-		paternal_autocrat = {
-			popularity = 14
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
+  parties = {
+    totalist = { 
+      popularity = 1
+    }
 
-	ruling_party = social_progressive
-	last_election = "1888.15.6"
-	election_frequency = 48
-	elections_allowed = no
+    syndicalist = {
+      popularity = 1
+    }
+    
+    democratic_socialist = {
+      popularity = 8
+    }
+    
+    social_progressive = {
+      popularity = 5
+    }
+    
+    social_liberal = {
+      popularity = 15
+    }
+    
+    market_liberal = {
+      popularity = 10
+    }
+    
+    social_conservative = {
+      popularity = 20
+    }
+    
+    authoritarian_democrat = {
+      popularity = 20
+    }
+    
+    paternal_autocrat = {
+      popularity = 10
+    }
+    
+    national_populist = {
+      popularity = 10
+    }
+  }
+
+  ruling_party = authoritarian_democrat
+  last_election = "1932.5.1"
+  election_frequency = 48
+  elections_allowed = no
 }
 
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_AHMAD_QAJAR_DESC"
-	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_AHMAD_QAJAR_DESC"
-	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
@@ -87,72 +96,72 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_AHMAD_QAJAR_DESC"
-	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mohammad Mosaddegh"
-	desc = "POLITICS_MOSADDEGH_DESC"
-	picture = "Portrait_Persia_Mohammad_Mosaddegh.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mohammad Ali Foroughi Zoka-ol-Molk"
-	desc = "POLITICS_ALI_FOROUGHI_DESC"
-	picture = "Portrait_Persia_Mohammad_Ali_Foroughi.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_AHMAD_QAJAR_DESC"
-	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	name = "하미드 샤 카자르"
+	desc = "Hamid_Mirza_DESC"
+	picture = "Portrait_Persia_Hamid_Mirza.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Iraj Eskandari"
-	desc = "POLITICS_IRAJ_ESKENDARI_DESC"
-	picture = "Portrait_Persia_Iraj_Eskandari.tga"
+	name = "비잔 자자니"
+	desc = "Bijan_Jazani_DESC"
+	picture = "Portrait_Persia_Bijan_Jazani.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ja'far Pishevari"
-	desc = "POLITICS_IRANIAN_JAFAR_DESC"
-	picture = "Portrait_Persia_Ja'far_Pishevari.tga"
+	name = "알리 하바리"
+	desc = "Ali_Khavari_DESC"
+	picture = "Portrait_Persia_Ali_Khavari.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Resta Rouza"
-	desc = "POLITICS_RESTA_ROUZA_DESC"
-	picture = "Portrait_Persia_Resta_Rouza.tga"
+	name = "모하마드 하니프네자드"
+	desc = "Mohammad_Hanifnejad_DESC"
+	picture = "Portrait_Persia_Mohammad_Hanifnejad.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Bahram Ariana"
-	desc = "POLITICS_RESTA_ROUZA_DESC"
-	picture = "Portrait_Persia_Bahram_Aryiana.tga"
+	name = "아야톨라 루홀라 호메이니"
+	desc = "Ruhollah_Khomeini_DESC"
+	picture = "Portrait_Persia_Ruhollah_Khomeini.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
