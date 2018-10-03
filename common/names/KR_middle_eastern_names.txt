@@ -144,7 +144,7 @@ OMA = { # Muscat
 			"Abd al-Qadir"
 			"Abd al-Rahman"
 			"Ahmad"
-			"Ali"
+			"알리"
 			"Fawzi"
 			"Fuad"
 			"Halil"
