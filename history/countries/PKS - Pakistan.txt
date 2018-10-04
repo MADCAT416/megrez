@@ -31,92 +31,126 @@ add_ideas = {
 	#medium_economy
 }
 
+set_stability = 0.4
+
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 3
+			popularity = 5
 		}
 		syndicalist = {
 			popularity = 5
 		}
 		social_progressive = {
-			popularity = 13
+			popularity = 20
 		}
 		social_liberal = {
-			popularity = 41
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 21
+			popularity = 5
 		}
 		social_conservative = {
 			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 3
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 30
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 5
 		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Paramasiva Subbarayan"
-	picture = "Portrait_Madras_Paramasiva_Subbarayan.tga"
+	name = "아스가르 칸"
+	picture = "Portrait_Pakistan_Asghar_Khan.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Periyar Ramasavy"
-	picture = "Portrait_Madras_Periyar_Ramasavy.tga"
+	name = "아스가르 칸"
+	picture = "Portrait_Pakistan_Asghar_Khan.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "피르 파가로 7세"
+	picture = "Portrait_Pakistan_Pir_of_Pagaro.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "C. Rajagopalachari"
-	picture = "Portrait_Madras_C_Rajagopalachari.tga"
+	name = "줄피카르 알리 부토"
+	picture = "Portrait_Pakistan_Zulfikar_Ali_Bhutto.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Sri Ramakrishna Ranga Rao"
-	picture = "Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
+	name = "아유브 칸"
+	picture = "Portrait_Pakistan_Ayub_Khan.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Sri Ramakrishna Ranga Rao"
-	picture = "Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
+	name = "아유브 칸"
+	picture = "Portrait_Pakistan_Ayub_Khan.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Rettamalai Srinivasan"
-	picture = "Portrait_Madras_Rettamalai_Srinivasan.tga"
+	name = "칸 압둘 왈리 칸"
+	picture = "Portrait_Pakistan_Khan_Abdul_Wali_Khan.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "애찰 방가쉬"
+	picture = "Portrait_Pakistan_Afzal_Bangash.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "파이즈 아마드 파이즈"
+	picture = "Portrait_Pakistan_Faiz_Ahmad_Faiz.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아불 알라 마우두디"
+	picture = "Portrait_Pakistan_Abul_Ala_Maududi.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 

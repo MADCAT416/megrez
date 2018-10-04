@@ -93,7 +93,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -126,7 +126,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -137,7 +137,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -148,7 +148,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
@@ -159,7 +159,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "9대 젭춘담바 후툭투"
+	name = "젭춘담바 후툭투 9세"
 	desc = "Jebtsundamba_Khutughtu_IX_DESC"
 	picture = "Portrait_Mongolia_Jebtsundamba_Khutughtu_IX.tga"
 	expire = "2000.1.1"
