@@ -25,31 +25,31 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 4
+			popularity = 5
 		}
 		syndicalist = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 4
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 7
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 45
+			popularity = 95
 		}
 		national_populist = {
-			popularity = 10
+			popularity = 0
 		}
 	}
 
@@ -61,18 +61,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said ibn Taimur"
-	desc = "POLITICS_SAID_TAIMUR_DESC"
-	picture = "Portrait_Oman_Said_Ibn_Taimur.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Said ibn Taimur"
-	desc = "POLITICS_SAID_TAIMUR_DESC"
-	picture = "Portrait_Oman_Said_Ibn_Taimur.tga"
+	name = "카부스 빈 사이드 알사이드"
+	desc = "Qaboos_bin_Said_al_Said_DESC"
+	picture = "Portrait_Oman_Qaboos_bin_Said_al_Said.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
