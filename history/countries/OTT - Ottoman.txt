@@ -680,43 +680,45 @@ set_autonomy = {
 #}
 LYB = {
 	set_politics = {
-		parties = {
-			totalist = {
-				popularity = 0
-			}
-			democratic_socialist = {
-				popularity = 0
-			}
-			syndicalist = {
-				popularity = 2
-			}
-			social_progressive = {
-				popularity = 4
-			}
-			social_liberal = {
-				popularity = 6
-			}
-			market_liberal = {
-				popularity = 8
-			}
-			social_conservative = {
-				popularity = 12
-			}
-			authoritarian_democrat = {
-				popularity = 41
-			}
-			paternal_autocrat = {
-				popularity = 19
-			}
-			national_populist = {
-				popularity = 8
-			}
+
+	parties = {
+		totalist = {
+			popularity = 5
 		}
-		ruling_party = authoritarian_democrat
-		last_election = "1930.11.9"
-		election_frequency = 48
-		elections_allowed = no
+		democratic_socialist = {
+			popularity = 5
+		}
+		syndicalist = {
+			popularity = 5
+		}
+		social_progressive = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 30
+		}
+		paternal_autocrat = {
+			popularity = 50
+		}
+		national_populist = {
+			popularity = 5
+		}
 	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 
