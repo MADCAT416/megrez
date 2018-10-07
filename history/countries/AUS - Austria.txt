@@ -34,6 +34,8 @@ set_technology = {
 
 }
 
+set_cosmetic_tag = AUS_kingdom
+
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
