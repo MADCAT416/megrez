@@ -8,7 +8,7 @@ state = {
 	buildings_max_level_factor = 1
 
 	history = {
-		owner = MAF
+		owner = CEA
 		add_core_of = MAF
 		add_core_of = CNR
 		buildings = {
