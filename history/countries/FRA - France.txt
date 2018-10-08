@@ -121,21 +121,12 @@ create_faction = Third_International
 add_to_faction = SRI
 add_to_faction = ENG
 add_to_faction = IRE
-add_to_faction = ENG
 add_to_faction = CNT
-add_to_faction = ENG
 add_to_faction = CSA
-add_to_faction = MEX
-add_to_faction = CUB
-add_to_faction = GUA
-add_to_faction = BRA
 add_to_faction = MAH
 add_to_faction = WAF
 add_to_faction = SYE
-add_to_faction = BHC
-add_to_faction = BUR
-add_to_faction = SIA
-add_to_faction = INC
+add_to_faction = MEX
 
 
 add_ideas = {

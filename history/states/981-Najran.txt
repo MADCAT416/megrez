@@ -16,5 +16,5 @@ state = {
 		owner = SAU
 		add_core_of = YEM
 	}
-	impassable = yes
+	
 }

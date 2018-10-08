@@ -12,7 +12,7 @@ state = {
 		13419
 	}
 	manpower = 1870
-	impassable = yes
+	
 	buildings_max_level_factor = 1
 	state_category = wasteland
 }
