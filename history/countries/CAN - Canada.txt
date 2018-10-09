@@ -56,6 +56,8 @@ add_to_faction = RYU
 add_to_faction = VIE
 add_to_faction = CAM
 add_to_faction = TAI
+add_to_faction = INS
+add_to_faction = MLY
 
 set_autonomy = {
 	target = NEE
