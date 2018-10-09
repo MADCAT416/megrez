@@ -36,6 +36,13 @@ add_opinion_modifier = { target = OTT modifier = embargo }
 add_opinion_modifier = { target = TIB modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
 
+create_faction = Fourth_International
+add_to_faction = BHC
+add_to_faction = BUR 
+add_to_faction = SIA
+add_to_faction = LAO
+add_to_faction = INC
+
 set_politics = {
 
 	parties = {

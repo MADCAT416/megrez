@@ -12,11 +12,10 @@ opinion_modifiers = {
 
 	###Gamestart###
 
-	KR_different_ideology = { value = -30 }
-	KR_similar_ideology = { value = 20 }
-	KR_same_ideology = { value = 40 }
+	KR_different_ideology = { value = -60 }
+	KR_similar_ideology = { value = 60 }
+	KR_same_ideology = { value = 80 }
 	KR_factional_rivalry = { value = -30 }
-
 	colonial_master = { value = 100 }
 	FNG_COMMON_ALIGNMENT = { value = 70 }
 	vladivostok_puppet = {value = 50}

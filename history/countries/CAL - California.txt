@@ -38,6 +38,17 @@ set_technology = {
 	cv_CAS1 = 1
 }
 
+create_faction = NAFTA
+add_to_faction = CAL
+add_to_faction = COL 
+add_to_faction = ECU
+add_to_faction = NIC
+add_to_faction = PRU
+add_to_faction = CHL
+add_to_faction = ARG
+add_to_faction = PHI
+add_to_faction = DOM
+
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.5

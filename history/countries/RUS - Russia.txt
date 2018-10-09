@@ -26,6 +26,19 @@ set_technology = {
 	shipbuild_basics = 1
 }
 
+create_faction = Irkutsk_Pact
+add_to_faction = RUS
+add_to_faction = SIK 
+add_to_faction = TIB
+add_to_faction = AFG
+add_to_faction = MON
+add_to_faction = MAN
+add_to_faction = KOR
+add_to_faction = NEP
+add_to_faction = BHU
+add_to_faction = INS
+add_to_faction = MLY
+
 set_autonomy = {
 	target = SIK
 	autonomous_state = kr_occupied_puppet

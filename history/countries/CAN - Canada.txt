@@ -50,8 +50,12 @@ add_to_faction = DEH
 add_to_faction = AST
 add_to_faction = SRD
 add_to_faction = NEE
+add_to_faction = PKS
 add_to_faction = SAF
 add_to_faction = RYU
+add_to_faction = VIE
+add_to_faction = CAM
+add_to_faction = TAI
 
 set_autonomy = {
 	target = NEE
