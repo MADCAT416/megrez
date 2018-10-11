@@ -16,42 +16,46 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 5
+			popularity = 10
 		}
 		democratic_socialist = {
-			popularity = 5
+			popularity = 30
 		}
 		syndicalist = {
-			popularity = 5
+			popularity = 40
 		}
 		social_progressive = {
-			popularity = 8
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 13
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 24
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 7
+			popularity = 0
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = syndicalist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_stability = 0.4
+set_war_support = 0.3
+
 add_ideas = {
 	MOR_Thami_El_Glaoui_hog_pau
 	MOR_Mansour_Fahmi_for_pau
@@ -61,71 +65,46 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
+	name = "펠릭스 우푸에부아니"
+	picture = "Portrait_WAF_Felix_Houphouet_Boigny.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
+
 create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
+	name = "존슨 아그이이론시"
+	picture = "Portrait_WAF_Johnson_Aguiyi_Ironsi.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
+
 create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
+	name = "오바페미 아월로워"
+	picture = "Portrait_WAF_Obafemi_Awolowo.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
+
 create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Mohammed V"
-	picture = "Mohammed_V.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Ali Yata"
-	picture = "Portrait_MOR_Ali_Yata.tga"
+	name = "레오폴 세다르 상고르"
+	picture = "Portrait_WAF_Leopold_Sedar_Senghor.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Abdallah Ibrahim"
-	picture = "Portrait_MOR_Abdallah_Ibrahim.tga"
+	name = "아메드 세쿠 투레"
+	picture = "Portrait_WAF_Ahmed_Sekou_Toure.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Abdelkrim Benabdalla"
-	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_new_1.tga"
+	name = "콰메 은크루마"
+	picture = "Portrait_WAF_Kwame_Nkrumah.tga"
 	expire = "2000.1.1"
 	ideology = Totalist_subtype
 	traits = {}

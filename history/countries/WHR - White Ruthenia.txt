@@ -185,26 +185,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
- name = "Vaclaŭ Lastoŭski"
- desc = "POLITICS_VACLAU_LASTOUSKI_DESC"
- picture = "Portrait_Belarus_Vaclau_Lastouski.tga"
- expire = "2000.1.1"
- ideology = syndicalist_subtype
- traits = {
- }
-}
-
-create_country_leader = {
- name = "Branislaŭ Taraškievič"
- desc = "POLITICS_BRANISLAU_TARASKIEVIC_DESC"
- picture = "Portrait_Belarus_Branislau_Taraskievic.tga"
- expire = "2000.1.1"
- ideology = totalist_subtype
- traits = {
- }
-}
-
 create_field_marshal = {
 	name = "Stanisław Bułak-Bałachowicz"
 	picture = "Portrait_Belarus_Stanislaw_Bulak_Balachowicz.tga"
