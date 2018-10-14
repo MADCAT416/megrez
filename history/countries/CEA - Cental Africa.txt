@@ -22,16 +22,16 @@ set_politics = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 47
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 15
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -40,31 +40,25 @@ set_politics = {
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 24
+			popularity = 100
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
-create_country_leader = {
-	name = "Ben Aissa"
-	desc = "POLITICS_NOTYETEMIR_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_2.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
+
+set_stability = 0.4
+set_war_support = 0.4
 
 create_country_leader = {
-	name = "Barthélemy Boganda"
-	desc = "POLITICS_BOGANDA_CFA_DESC"
-	picture = "Portrait_CEA_Boganda.tga"
+	name = "보카사 1세"
+	picture = "Portrait_CEA_Bokassa.tga"
 	expire = "2000.1.1"
-	ideology = social_liberal_subtype
+	ideology = national_populist_subtype
 	traits = {}
 }
 

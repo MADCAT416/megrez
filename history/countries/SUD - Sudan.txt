@@ -22,61 +22,88 @@ set_politics = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 40
 		}
 		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
 			popularity = 15
 		}
+		authoritarian_democrat = {
+			popularity = 35
+		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 3
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 2
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = market_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
+
+set_stability = 0.3
+set_war_support = 0.3
+
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	name = "유수프 압드 알마지드"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "압델 칼리크 마흐주브"
+	picture = "Portrait_SUD_Abdel_Khaliq_Mahjub.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "토비 마둣"
+	picture = "Portrait_SUD_Toby_Maduot.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "이스마일 알아즈하리"
+	picture = "Portrait_SUD_Gaafar_Nimeiry.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "사디크 알마흐디"
+	picture = "Portrait_SUD_Sadiq_al_Mahdi.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 	}
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	name = "가파르 니메이리"
+	picture = "Portrait_SUD_Gaafar_Nimeiry.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	name = "핫산 알투라비"
+	picture = "Portrait_SUD_Hassan_Al_Turabi.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {

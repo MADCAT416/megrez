@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = WAF
+		add_core_of = MAF
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 3
