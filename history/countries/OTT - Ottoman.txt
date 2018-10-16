@@ -121,54 +121,6 @@ set_politics = {
 
 }
 
-set_autonomy = {
-	target = YEM
-	autonomous_state = kr_autonomous_puppet
-}
-
-YEM = {
-set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 1
-		}
-		democratic_socialist = {
-			popularity = 1
-		}
-		syndicalist = {
-			popularity = 3
-		}
-		social_progressive = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 75
-		}
-		paternal_autocrat = {
-			popularity = 10
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
-
-	ruling_party = authoritarian_democrat
-	last_election = "1888.15.6"
-	election_frequency = 48
-	elections_allowed = no
-}
-}
-
 create_country_leader = {
 	name = "이스마일 빌렌"
 	desc = "Ismail_Bilen_DESC"

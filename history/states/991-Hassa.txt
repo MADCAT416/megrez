@@ -3,10 +3,14 @@ state = {
 	name = "STATE_991"
 	manpower = 102129
 
+	resources = {
+		oil = 20
+	}
+
 	state_category = rural
 
 	history = {
-		owner = SAU
+		owner = JBS
 		add_core_of = JBS
 		add_claim_by = SAU
 		buildings = {

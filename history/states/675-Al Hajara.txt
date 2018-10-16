@@ -2,8 +2,12 @@ state = {
 	id = 675
 	name = "STATE_675"
 
+	resources = {
+		oil = 15
+	}
+
 	history = {
-		owner = SAU
+		owner = JBS
 		buildings = {
 			infrastructure = 1
 

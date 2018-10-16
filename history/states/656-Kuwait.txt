@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = SAU
+		owner = JBS
 		buildings = {
 			infrastructure = 4
 			8085 = {

@@ -262,10 +262,9 @@ add_to_faction = DEN
 add_to_faction = GEA
 add_to_faction = AOG
 add_to_faction = LYB
-add_to_faction = YEM
 add_to_faction = SOM
 add_to_faction = ETH
-
+add_to_faction = JBS
 
 
 add_namespace = {
