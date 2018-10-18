@@ -127,6 +127,7 @@ add_to_faction = MAH
 add_to_faction = WAF
 add_to_faction = SYE
 add_to_faction = MEX
+add_to_faction = CUB
 
 
 add_ideas = {

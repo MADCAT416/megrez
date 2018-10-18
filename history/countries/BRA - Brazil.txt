@@ -70,7 +70,6 @@ set_politics = {
 
 create_faction = Sao_Paulo_Forum
 add_to_faction = BRA
-add_to_faction = CUB 
 add_to_faction = BOL
 add_to_faction = GUA
 

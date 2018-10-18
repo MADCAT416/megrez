@@ -42,7 +42,7 @@ set_technology = {
 add_opinion_modifier = { target = CSA modifier = embargo }
 add_opinion_modifier = { target = TEX modifier = embargo }
 set_stability = 0.5
-set_war_support = 0.5
+set_war_support = 0.3
 
 set_politics = {
 
@@ -51,25 +51,25 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 1
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 2
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 27
+			popularity = 20
 		}
 		social_liberal = {
-			popularity = 4
+			popularity = 50
 		}
 		market_liberal = {
-			popularity = 28
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 37
+			popularity = 20
 		}
 		authoritarian_democrat = {
-			popularity = 1
+			popularity = 0
 		}
 		paternal_autocrat = {
 			popularity = 0
@@ -79,18 +79,42 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Percival P. Baxter"
-	desc = "BAXTER_DESC"
-	picture = "Portrait_NEE_Percival_P_Baxter.tga"
+	name = "제임스 L. 버클리"
+	desc = "James_L_Buckley_DESC"
+	picture = "Portrait_NEE_James_L_Buckley.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "윌리엄 H. 메이어"
+	desc = "William_H_Meyer_DESC"
+	picture = "Portrait_NEE_William_H_Meyer.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "존 F. 케네디"
+	desc = "John_F_Kennedy_DESC"
+	picture = "Portrait_NEE_John_F_Kennedy.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "넬슨 록펠러"
+	desc = "Nelson_Rockefeller_DESC"
+	picture = "Portrait_NEE_Nelson_Rockefeller.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
 	traits = {}
 }
 
