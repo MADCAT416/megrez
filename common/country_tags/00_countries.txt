@@ -260,7 +260,8 @@ RYU = "countries/Ryuku.txt"
 WAF = "countries/WAF.txt"
 MAH = "countries/MAH.txt"
 PKS = "countries/PKS.txt"
-
+CEN = "countries/Central America.txt"
+PUA = "countries/PUA.txt"
 #### Unimportant for now
 TAJ = "countries/TAJ.txt"
 PRI = "countries/PRI.txt"

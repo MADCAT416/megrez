@@ -30,38 +30,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
+			popularity = 1
+		}
+		syndicalist = {
 			popularity = 3
 		}
 		democratic_socialist = {
-			popularity = 67
-		}
-		syndicalist = {
-			popularity = 10
+			popularity = 15
 		}
 		social_progressive = {
-			popularity = 20
+			popularity = 12
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 1
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 1
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 18
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 30
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 19
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = democratic_socialist
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no

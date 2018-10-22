@@ -377,8 +377,12 @@ GRU = {
 	color_ui = rgb { 159 157 108 }
 }
 GUA = {
-	color = rgb { 159 39 43 }
-	color_ui = rgb { 159 39 43 }
+	color = rgb { 43 82 188 }
+	color_ui = rgb { 43 82 188 }
+}
+CEA = {
+	color = rgb { 130 31 72 }
+	color_ui = rgb { 130 31 72 }
 }
 GXC = {
 	color = rgb { 227 207 142 }
@@ -387,6 +391,10 @@ GXC = {
 HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
+}
+PUA = {
+	color = rgb { 234 219 79 }
+	color_ui = rgb { 234 219 79 }
 }
 HAU = {
 	color = rgb { 48 169 96 }
@@ -633,8 +641,8 @@ NGR = {
 	color_ui = rgb { 0 204 0 }
 }
 NIC = {
-	color = rgb { 146 179 191 }
-	color_ui = rgb { 146 179 191 }
+	color = rgb { 189 35 53 }
+	color_ui = rgb { 189 25 53 }
 }
 NOR = {
 	color = rgb { 135 178 192 }
