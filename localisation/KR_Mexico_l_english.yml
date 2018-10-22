@@ -33,25 +33,25 @@ MEX_Railway:0 "Fulfilled Railway Worker's Union Demands"
 MEX_Miner:0 "Fulfilled Miner's Union Demands"
 
 ### Parties ###
-MEX_totalist_party:0 "PCM"
+MEX_totalist_party:0 "멕시코 공산당"
 MEX_totalist_party_long:0 "멕시코 공산당" #
 MEX_syndicalist_party:0 "사파티스타"
 MEX_syndicalist_party_long:0 "사파티스타" #
-MEX_syndicalist_political_party:0 "PPS"
+MEX_syndicalist_political_party:0 "대중사회당"
 MEX_syndicalist_political_party_long:0 "대중사회당" #
-MEX_democratic_socialist_party:0 "FAM"
+MEX_democratic_socialist_party:0 "멕시코 아나키스트 협회"
 MEX_democratic_socialist_party_long:0 "멕시코 아나키스트 협회" #
-MEX_social_progressive_party:0 "PARM"
+MEX_social_progressive_party:0 "진정한 멕시코 혁명당"
 MEX_social_progressive_party_long:0 "진정한 멕시코 혁명당" #
-MEX_social_liberal_party:0 "PRI"
+MEX_social_liberal_party:0 "제도혁명당"
 MEX_social_liberal_party_long:0 "제도혁명당" #
-MEX_market_liberal_party:0 "PRI"
+MEX_market_liberal_party:0 "제도혁명당"
 MEX_market_liberal_party_long:0 "제도혁명당" #
-MEX_social_conservative_party:0 "PAN"
+MEX_social_conservative_party:0 "국민행동당"
 MEX_social_conservative_party_long:0 "국민행동당" #
-MEX_authoritarian_democrat_party:0 "PRUN"
+MEX_authoritarian_democrat_party:0 "국가단결혁명당"
 MEX_authoritarian_democrat_party_long:0 "국가단결혁명당" #
 MEX_paternal_autocrat_party:0 "군사 정부"
 MEX_paternal_autocrat_party_long:0 "군사 정부" #
 MEX_national_populist_party:0 "시나르키스타"
-MEX_national_populist_party_long:0 "국민공동통치연합" #
+MEX_national_populist_party_long:0 "시나르키스타" #
