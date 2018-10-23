@@ -15,59 +15,147 @@ set_technology = {
 	early_fighter = 1
 }
 
-add_opinion_modifier = { target = MEX modifier = embargo }
-
 set_stability = 0.5
-
+set_war_support = 0.3
 set_politics = {
 
-	parties = {
-		totalist = {
-			popularity = 2
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		syndicalist = {
-			popularity = 4
-		}
-		social_progressive = {
-			popularity = 8
-		}
-		social_liberal = {
-			popularity = 16
-		}
-		market_liberal = {
-			popularity = 52
-		}
-		social_conservative = {
-			popularity = 7
-		}
-		authoritarian_democrat = {
-			popularity = 4
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 1
-		}
-	}
+parties = {
+    totalist = { 
+      popularity = 10
+    }
 
-	ruling_party = market_liberal
-	last_election = "1888.15.6"
-	election_frequency = 48
-	elections_allowed = no
+    syndicalist = {
+      popularity = 45
+    }
+    
+    democratic_socialist = {
+      popularity = 15
+    }
+    
+    social_progressive = {
+      popularity = 10
+    }
+    
+    social_liberal = {
+      popularity = 2
+    }
+    
+    market_liberal = {
+      popularity = 2
+    }
+    
+    social_conservative = {
+      popularity = 2
+    }
+    
+    authoritarian_democrat = {
+      popularity = 0
+    }
+    
+    paternal_autocrat = {
+      popularity = 10
+    }
+    
+    national_populist = {
+      popularity = 4
+    }
+  }
+
+  ruling_party = syndicalist
+  last_election = "1932.5.1"
+  election_frequency = 48
+  elections_allowed = no
 }
 
 set_convoys = 20
 
 create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_BARNET_DESC"
-	picture = "Portrait_Cuba_Jose_Agripino_Barnet.tga"
+	name = "훌리오 안토니오 메야"
+	desc = "Julio_Antonio_Mella_DESC"
+	picture = "Portrait_Cuba_Julio_Antonio_Mella.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "블라스 로카 칼데리오"
+	desc = "Blas_Roca_Calderio_DESC"
+	picture = "Portrait_Cuba_Blas_Roca_Calderio.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "파우레 초몬"
+	desc = "Faure_Chomon_DESC"
+	picture = "Portrait_Cuba_Faure_Chomon.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에두아르도 치바스"
+	desc = "Eduardo_Chibas_DESC"
+	picture = "Portrait_Cuba_Eduardo_Chibas.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카를로스 마르케스 스털링"
+	desc = "Carlos_Marquez_Sterling_DESC"
+	picture = "Portrait_Cuba_Carlos_Marquez_Sterling.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카를로스 마르케스 스털링"
+	desc = "Carlos_Marquez_Sterling_DESC"
+	picture = "Portrait_Cuba_Carlos_Marquez_Sterling.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호세 이그나시오 라스코"
+	desc = "Jose_Ignacio_Rasco_DESC"
+	picture = "Portrait_Cuba_Jose_Ignacio_Rasco.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오를란도 보쉬"
+	desc = "Orlando_Bosch_DESC"
+	picture = "Portrait_Cuba_Orlando_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오를란도 보쉬"
+	desc = "Orlando_Bosch_DESC"
+	picture = "Portrait_Cuba_Orlando_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오를란도 보쉬"
+	desc = "Orlando_Bosch_DESC"
+	picture = "Portrait_Cuba_Orlando_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
