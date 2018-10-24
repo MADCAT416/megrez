@@ -29,8 +29,8 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 50
 
-set_stability = 0.53
-set_war_support = 0.45
+set_stability = 0.40
+set_war_support = 0.30
 
 add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = ENG modifier = embargo }
@@ -65,11 +65,11 @@ set_politics = {
     }
     
     social_conservative = {
-      popularity = 7
+      popularity = 20
     }
     
     authoritarian_democrat = {
-      popularity = 20
+      popularity = 7
     }
     
     paternal_autocrat = {
@@ -81,7 +81,7 @@ set_politics = {
     }
   }
 
-  ruling_party = authoritarian_democrat
+  ruling_party = social_conservative
   last_election = "1932.5.1"
   election_frequency = 48
   elections_allowed = no
