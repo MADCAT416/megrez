@@ -286,20 +286,20 @@ MAN = {
 KOR = {
 set_stability = 0.5
 set_war_support = 0.4
-    set_politics = {
+set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 1
 		}
 		democratic_socialist = {
 			popularity = 3
 		}
 		syndicalist = {
-			popularity = 2
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 5
 		}
 		social_liberal = {
 			popularity = 5
@@ -308,7 +308,7 @@ set_war_support = 0.4
 			popularity = 5
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		authoritarian_democrat = {
 			popularity = 30
@@ -317,7 +317,7 @@ set_war_support = 0.4
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 50
+			popularity = 45
 		}
 	}
 

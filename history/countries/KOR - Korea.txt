@@ -24,16 +24,16 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 1
 		}
 		democratic_socialist = {
 			popularity = 3
 		}
 		syndicalist = {
-			popularity = 2
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 5
 		}
 		social_liberal = {
 			popularity = 5
@@ -42,7 +42,7 @@ set_politics = {
 			popularity = 5
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		authoritarian_democrat = {
 			popularity = 30
@@ -51,7 +51,7 @@ set_politics = {
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 50
+			popularity = 45
 		}
 	}
 
@@ -63,9 +63,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "박헌영"
-	desc = "Pak_Hon_Yong_DESC"
-	picture = "Pak_Hon_Yong.tga"
+	name = "서만술"
+	desc = "So_Man_Sul_DESC"
+	picture = "So_Man_Sul.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = { }
@@ -90,9 +90,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "김철"
-	desc = "Kim_Chol_DESC"
-	picture = "Kim_Chol.tga"
+	name = "김종필"
+	desc = "Kim_Jong_Pil_DESC"
+	picture = "Kim_Jong_Pil.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = { }
@@ -135,18 +135,18 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "정일권"
-	desc = "Chung_Il_kwon_DESC"
-	picture = "Chung_Il_kwon.tga"
+	name = "장준하"
+	desc = "Chang_Chun_Ha_DESC"
+	picture = "Chang_Chun_Ha.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "정일권"
-	desc = "Chung_Il_kwon_DESC"
-	picture = "Chung_Il_kwon.tga"
+	name = "장준하"
+	desc = "Chang_Chun_Ha_DESC"
+	picture = "Chang_Chun_Ha.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = { }

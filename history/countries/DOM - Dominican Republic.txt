@@ -15,6 +15,7 @@ set_technology = {
 }
 
 set_stability = 0.5
+set_war_support = 0.2
 
 set_politics = {
 
@@ -29,25 +30,25 @@ set_politics = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 47
+			popularity = 60
 		}
 		paternal_autocrat = {
-			popularity = 15
+			popularity = 10
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 10
 		}
 	}
 
@@ -69,12 +70,94 @@ add_ideas = {
 	extensive_conscription
 
 }
+
 create_country_leader = {
-	name = "Rafael Trujillo"
-	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
-	picture = "Portrait_Dominican_Rafael_Trujillo.tga"
+	name = "후안 보슈 가비뇨"
+	desc = "Juan_Bosch_DESC"
+	picture = "Portrait_Dominican_Juan_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 보슈 가비뇨"
+	desc = "Juan_Bosch_DESC"
+	picture = "Portrait_Dominican_Juan_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 보슈 가비뇨"
+	desc = "Juan_Bosch_DESC"
+	picture = "Portrait_Dominican_Juan_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 보슈 가비뇨"
+	desc = "Juan_Bosch_DESC"
+	picture = "Portrait_Dominican_Juan_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 보슈 가비뇨"
+	desc = "Juan_Bosch_DESC"
+	picture = "Portrait_Dominican_Juan_Bosch.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "안토니오 구스만 페르난데스"
+	desc = "Antonio_Guzman_Fernandez_DESC"
+	picture = "Portrait_Dominican_Antonio_Guzman_Fernandez.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "안토니오 구스만 페르난데스"
+	desc = "Antonio_Guzman_Fernandez_DESC"
+	picture = "Portrait_Dominican_Antonio_Guzman_Fernandez.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호아킨 발라게르"
+	desc = "Joaquin_Balaguer_DESC"
+	picture = "Portrait_Dominican_Joaquin_Balaguer.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호아킨 발라게르"
+	desc = "Joaquin_Balaguer_DESC"
+	picture = "Portrait_Dominican_Joaquin_Balaguer.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호아킨 발라게르"
+	desc = "Joaquin_Balaguer_DESC"
+	picture = "Portrait_Dominican_Joaquin_Balaguer.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
