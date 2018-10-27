@@ -417,9 +417,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "그리고리 로마노프"
-	desc = "Grigory_Romanov_DESC"
-	picture = "Portrait_Russia_Grigory_Romanov.tga"
+	name = "이고르 리가초프"
+	desc = "Yegor_Ligachyov_DESC"
+	picture = "Portrait_Russia_Yegor_Ligachyov.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -428,9 +428,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "이고르 리가초프"
-	desc = "Yegor_Ligachyov_DESC"
-	picture = "Portrait_Russia_Yegor_Ligachyov.tga"
+	name = "그리고리 로마노프"
+	desc = "Grigory_Romanov_DESC"
+	picture = "Portrait_Russia_Grigory_Romanov.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
