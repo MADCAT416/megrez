@@ -24,42 +24,45 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 10
 		}
 		democratic_socialist = {
-			popularity = 15
+			popularity = 5
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 5
 		}
 		social_progressive = {
-			popularity = 33
+			popularity = 20
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 10
 		}
 		market_liberal = {
-			popularity = 3
+			popularity = 20
 		}
 		social_conservative = {
-			popularity = 29
+			popularity = 20
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 3
 		}
 		paternal_autocrat = {
-			popularity = 11
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 7
+			popularity = 2
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_stability = 0.3
+set_war_support = 0.3
 
 set_convoys = 30
 add_ideas = {
@@ -72,91 +75,91 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Alfonso López Pumarejo"
-	desc = "POLITICS_ALFONSO?PUMAREJO_DESC"
-	picture = "Portrait_Columbia_Alfonso_Pumarejo.tga"
+	name = "알폰소 로페스 미첼센"
+	desc = "Alfonso_Lopez_Michelsen_DESC"
+	picture = "Portrait_Columbia_Alfonso_Lopez_Michelsen.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Jorge Eliecer Gaitan"
-	desc = "POLITICS_JORGE_GAITAN_DESC"
-	picture = "Portrait_Columbia_Jorge_Gaitan.tga"
+	name = "카를루스 톨레두 플라타"
+	desc = "Carlos_Toledo_Plata_DESC"
+	picture = "Portrait_Columbia_Carlos_Toledo_Plata.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Elíseo Arango Ramos"
-	desc = "POLITICS_ELISEO_RAMOS_DESC"
-	picture = "Portrait_Columbia_Eliseo_Arango.tga"
+	name = "가브리엘 파리스 고르디요"
+	desc = "Gabriel_París_Gordillo_DESC"
+	picture = "Portrait_Columbia_Gabriel_París_Gordillo.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Gustavo Rojas Pinilla"
-	desc = "POLITICS_GUSTAVO_PINILLA_DESC"
-	picture = "Portrait_Columbia_Rojas_Pinilla.tga"
+	name = "가브리엘 파리스 고르디요"
+	desc = "Gabriel_París_Gordillo_DESC"
+	picture = "Portrait_Columbia_Gabriel_París_Gordillo.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "José María Villarreal"
-	desc = "POLITICS_GUSTAVO_PINILLA_DESC"
-	picture = "Portrait_Columbia_Jose_Villarreal.tga"
+	name = "가브리엘 파리스 고르디요"
+	desc = "Gabriel_París_Gordillo_DESC"
+	picture = "Portrait_Columbia_Gabriel_París_Gordillo.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alfredo Vazquez Cobo"
-	desc = "POLITICS_VAZQUEZ_COBO_DESC"
-	picture = "Portrait_Columbia_Alfredo_Cobo.tga"
+	name = "미사엘 파스트라나 보레로"
+	desc = "Misael_Pastrana_Borrero_DESC"
+	picture = "Portrait_Columbia_Misael_Pastrana_Borrero.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mariano Ospina Pérez"
-	desc = "POLITICS_MARIANO_OSPINA_DESC"
-	picture = "Portrait_Columbia_Mariano_Ospina.tga"
+	name = "미사엘 파스트라나 보레로"
+	desc = "Misael_Pastrana_Borrero_DESC"
+	picture = "Portrait_Columbia_Misael_Pastrana_Borrero.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Eduardo Santos Montejo"
-	desc = "POLITICS_SANTOS_MONTEJO_DESC"
-	picture = "Portrait_Columbia_Eduardo_Montejo.tga"
+	name = "훌리오 세사르 투르바이 아얄라"
+	desc = "Julio_Cesar_Turbay_Ayala_DESC"
+	picture = "Portrait_Columbia_Julio_Cesar_Turbay_Ayala.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Gilberto Vieira"
-	desc = "POLITICS_GILBERTO_VIEIRA_DESC"
-	picture = "Portrait_Columbia_Gilberto_Vieira.tga"
+	name = "마누엘 마룰란다"
+	desc = "Manuel_Marulanda_DESC"
+	picture = "Portrait_Columbia_Manuel_Marulanda.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Pedro Nel Gomez Agudelo"
-	desc = "POLITICS_EUTIQUIO_TIM_DESC"
+	name = "질베르투 비에이라"
+	desc = "Gilberto_Vieira_DESC"
 	expire = "2000.1.1"
-	picture = "Portrait_Columbia_Pedro_Nel_Gomez.tga"
+	picture = "Portrait_Columbia_Gilberto_Vieira.tga"
 	ideology = syndicalist_subtype
 	traits = {}
 }

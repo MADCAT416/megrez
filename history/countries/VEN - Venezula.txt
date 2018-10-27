@@ -2,6 +2,10 @@
 oob = "empty"
 set_convoys = 30
 set_research_slots = 3
+
+set_stability = 0.40
+set_war_support = 0.30
+
 set_technology = {
 	### Navy ###
 	shipbuild_basics = 1
@@ -27,38 +31,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 1
 		}
 		syndicalist = {
-			popularity = 8
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 33
+			popularity = 2
 		}
 		social_liberal = {
-			popularity = 24
+			popularity = 40
 		}
 		market_liberal = {
-			popularity = 12
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 9
+			popularity = 30
 		}
 		authoritarian_democrat = {
 			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 5
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 2
+			popularity = 0
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = social_liberal
 	last_election = "1934.5.15"
 	election_frequency = 60
 	elections_allowed = no
@@ -78,72 +82,92 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Eleazar López Contreras"
-	desc = "POLITICS_ELEAZAR_CONTRERAS_DESC"
-	picture = "Portrait_Venezuela_Eleazar_Contreraz.tga"
+	name = "라파엘 칼데라"
+	desc = "Rafael_Caldera_DESC"
+	picture = "Portrait_Venezuela_Rafael_Caldera.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Rómulo Betancourt"
-	desc = "POLITICS_ROMULO_BETANCOURT_DESC"
-	picture = "Portrait_Venezuela_Romulo_Betancourt.tga"
+	name = "루이스 벨트란 프리에토 피구에로아"
+	desc = "Luis_Beltran_Prieto_Figueroa_DESC"
+	picture = "Portrait_Venezuela_Luis_Beltran_Prieto_Figueroa.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Isaías Medina Angarita"
-	desc = "POLITICS_ISAIAS_MEDINA_DESC"
-	picture = "Portrait_Venezuela_Isaias_Medina.tga"
+	name = "미겔 앙헬 부레이 리바스"
+	desc = "Miguel_Angel_Burelli_Rivas_DESC"
+	picture = "Portrait_Venezuela_Miguel_Angel_Burelli_Rivas.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
+
 create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_FUNEMAYOR_DESC"
-	picture = "Portrait_Venezuela_Juan_Funemayor.tga"
+	name = "헤수스 파리아"
+	desc = "Jesus_Faria_DESC"
+	picture = "Portrait_Venezuela_Jesus_Faria.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "알프레도 마네이로 곤살레스"
+	desc = "Alfredo_Maneiro_DESC"
+	picture = "Portrait_Venezuela_Alfredo_Maneiro.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "테오도로 페트코프 말렉"
+	desc = "Teodoro_Petkoff_DESC"
+	picture = "Portrait_Venezuela_Teodoro_Petkoff.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Tomas Contreras Villalobos"
-	desc = "POLITICS_TOMAS_VILLALOBOS_DESC"
-	picture = "Portrait_Venezuela_Tomas_Villalobos.tga"
+	name = "펠릭스 디아스 오르테가"
+	desc = "Felix_Diaz_Ortega_DESC"
+	picture = "Portrait_Venezuela_Felix_Diaz_Ortega.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Isidoro Ruiz Tuerro"
-	desc = "POLITICS_ISIDORO_TUERRO_DESC"
-	picture = "Portrait_Venezuela_Isidoro_Tuerro.tga"
+	name = "마르코스 페레스 히메네스"
+	desc = "Marcos_Perez_Jimenez_DESC"
+	picture = "Portrait_Venezuela_Marcos_Perez_Jimenez.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Diogenes Escalante"
-	desc = "POLITICS_DIOGENES_ESCALANTE_DESC"
-	picture = "Portrait_Venezuela_Diogenes_Escalante.tga"
+	name = "헤르만 보레갈레스"
+	desc = "German_Borregales_DESC"
+	picture = "Portrait_Venezuela_German_Borregales.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Elías Toro"
-	desc = "POLITICS_ELIAS_TORO_DESC"
-	picture = "Portrait_Venezuela_Elias_Toro.tga"
+	name = "카를로스 안드레스 페레스"
+	desc = "Carlos_Andres_Perez_DESC"
+	picture = "Portrait_Venezuela_Carlos_Andres_Perez.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
