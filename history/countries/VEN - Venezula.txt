@@ -40,7 +40,7 @@ set_politics = {
 			popularity = 1
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 7
 		}
 		social_liberal = {
 			popularity = 40
