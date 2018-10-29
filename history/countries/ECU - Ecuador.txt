@@ -23,31 +23,31 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 1
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 1
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 13
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 8
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 20
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 37
+			popularity = 50
 		}
 		authoritarian_democrat = {
-			popularity = 16
+			popularity = 20
 		}
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 10
 		}
 		national_populist = {
 			popularity = 0
@@ -60,6 +60,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_stability = 0.4
+set_war_support = 0.2
+
 set_convoys = 30
 
 add_ideas = {
@@ -71,81 +74,90 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Isidro Ayora"
-	desc = "POLITICS_ISIDORO_AYORA_DESC"
-	picture = "Portrait_Ecuador_Isidoro_Ayora.tga"
+	name = "카를로스 훌리오 아로세메나 몬로이"
+	desc = "Carlos_Julio_Arosemena_Monroy_DESC"
+	picture = "Portrait_ECU_Carlos_Julio_Arosemena_Monroy.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alfredo Baquerizo Moreno"
-	desc = "POLITICS_ALFREDO_MORENO_DESC"
-	picture = "Portrait_Ecuador_Alfredo_Baquerizo_Moreno.tga"
+	name = "안드레스 코르도바"
+	desc = "Andres_Cordova_Nieto_DESC"
+	picture = "Portrait_ECU_Andres_Cordova_Nieto.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Federico Páez Chiriboaga"
-	desc = "POLITICS_FREDERICO_PAEZ_CHIRBOGA_DESC"
-	picture = "Portrait_Ecuador_Fedrerico_Chiriboaga.tga"
+	name = "엘리아스 가예고스"
+	desc = "Elias_Gallegos_DESC"
+	picture = "Portrait_ECU_Elias_Gallegos.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "José María Velasco Ibarra"
-	desc = "POLITICS_JOSE_IBARRA_DESC"
-	picture = "Portrait_ECU_Jose_Ibarra.tga"
+	name = "호세 마리아 벨라스코 이바라"
+	desc = "Jose_Maria_Velasco_Ibarra_DESC"
+	picture = "Portrait_ECU_Jose_Maria_Velasco_Ibarra.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alberto Enríquez Gallo"
-	desc = "POLITICS_Alberto_GALLO_DESC"
-	picture = "Portrait_Ecuador_Alberto_Gallo.tga"
+	name = "카밀로 폰세 엔리케스"
+	desc = "Camilo_Ponce_Enriquez_DESC"
+	picture = "Portrait_ECU_Camilo_Ponce_Enriquez.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Carlos Mancheno Cajas"
-	desc = "POLITICS_CARLOS_CAJAS_DESC"
-	picture = "Portrait_Ecuador_Carlos_Cajas.tga"
+	name = "기예르모 로드리게스"
+	desc = "Guillermo_Rodriguez_DESC"
+	picture = "Portrait_ECU_Guillermo_Rodriguez.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "기예르모 로드리게스"
+	desc = "Guillermo_Rodriguez_DESC"
+	picture = "Portrait_ECU_Guillermo_Rodriguez.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ricardo Paredes Romero"
-	desc = "POLITICS_RICARDO_PAREDES_DESC"
-	picture = "Portrait_Ecuador_Ricardo_Paredes.tga"
+	name = "페드로 사드"
+	desc = "Pedro_Saad_DESC"
+	picture = "Portrait_ECU_Pedro_Saad.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Dolores Cacuango"
-	desc = "POLITICS_Dolores_Cacuango_DESC"
-	picture = "Portrait_Ecuador_Dolores_Caucango.tga"
+	name = "페드로 사드"
+	desc = "Pedro_Saad_DESC"
+	picture = "Portrait_ECU_Pedro_Saad.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Nela Martínez Espinosa"
-	desc = "POLITICS_NELA_MARTINEZ_DESC"
-	picture = "Portrait_Ecuador_Nela_Martinez.tga"
+	name = "페드로 사드"
+	desc = "Pedro_Saad_DESC"
+	picture = "Portrait_ECU_Pedro_Saad.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
