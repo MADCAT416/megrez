@@ -54,7 +54,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = syndicalist
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -163,6 +163,8 @@ create_country_leader = {
 	traits = {}
 }
 
+set_stability = 0.4
+set_war_support = 0.3
 
 ### Field Marshal
 create_field_marshal = { #Auto-Generated
