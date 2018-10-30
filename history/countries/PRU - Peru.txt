@@ -27,19 +27,19 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 10
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 20
+			popularity = 5
 		}
 		syndicalist = {
-			popularity = 10
+			popularity = 5
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 25
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 5
 		}
 		market_liberal = {
 			popularity = 5
