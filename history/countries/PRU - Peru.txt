@@ -26,47 +26,42 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 4
-		}
-		democratic_socialist = {
-			popularity = 1
-		}
-		syndicalist = {
-			popularity = 7
-		}
-		social_progressive = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 40
-		}
-		paternal_autocrat = {
 			popularity = 10
 		}
+		democratic_socialist = {
+			popularity = 20
+		}
+		syndicalist = {
+			popularity = 10
+		}
+		social_progressive = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 2
+		}
+		market_liberal = {
+			popularity = 5
+		}
+		social_conservative = {
+			popularity = 40
+		}
+		authoritarian_democrat = {
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 3
+		}
 		national_populist = {
-			popularity = 8
+			popularity = 2
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	election_frequency = 48
 	elections_allowed = no
 
 }
-
-
-
-
-
 
 
 add_ideas = {
@@ -82,9 +77,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Oscar Benavides Larrea"
-	desc = "POLITICS_OSCAR_BENAVIDES_LARREA_DESC"
-	picture = "Portrait_Peru_Oscar_Benavides_Larrea.tga"
+	name = "루이스 베도야 레예스"
+	desc = "Luis_Bedoya_Reyes_DESC"
+	picture = "Portrait_Peru_Luis_Bedoya_Reyes.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
@@ -92,81 +87,81 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Manuel Vicente Villarán"
-	desc = "POLITICS_VILLARAN_DESC"
-	picture = "Portrait_Peru_Manuel_Villaran.tga"
+	name = "페르난도 벨라운데 테리"
+	desc = "Fernando_Belaunde_Terry_DESC"
+	picture = "Portrait_Peru_Fernando_Belaunde_Terry.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "José de la Riva Agüero"
-	desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
-	picture = "Portrait_Peru_Jose_Aguero.tga"
+	name = "훌리오 데 라 피에드라"
+	desc = "Julio_de_la_Piedra_DESC"
+	picture = "Portrait_Peru_Julio_de_la_Piedra.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Luis Antonio Eguiguren"
-	desc = "POLITICS_EGUIGUREN_DESC"
-	picture = "Portrait_Peru_Luis_Antonio_Eguiguren.tga"
+	name = "빅토르 라울 아야 데 라 토레"
+	desc = "Victor_Raul_Haya_de_la_Torre_DESC"
+	picture = "Portrait_Peru_Victor_Raul_Haya_de_la_Torre.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Jorge Prado Ugarteche"
-	desc = "POLITICS_UGARTECHE_DESC"
-	picture = "Portrait_PRU_Jorge_Ugarteche.tga"
+	name = "빅토르 라울 아야 데 라 토레"
+	desc = "Victor_Raul_Haya_de_la_Torre_DESC"
+	picture = "Portrait_Peru_Victor_Raul_Haya_de_la_Torre.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Victor R. Haya de la Torre"
-	desc = "POLITICS_HAYA_TORRE_DESC"
-	picture = "Portrait_PRU_Victor_Raul_Haya.tga"
+	name = "호르헤 델 프라도 차베스"
+	desc = "Jorge_del_Prado_Chavez_DESC"
+	picture = "Portrait_Peru_Jorge_del_Prado_Chavez.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Gamaliel Churata"
-	desc = "POLITICS_CHURATA_DESC"
-	picture = "Portrait_PRU_Gamaliel_Churata.tga"
+	name = "아비마엘 구스만"
+	desc = "Abimael_Guzman_DESC"
+	picture = "Portrait_Peru_Abimael_Guzman.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alfredo González Prada"
-	desc = "POLITICS_GONZALEA_PRADA_DESC"
-	picture = "Portrait_Peru_Eudocio_Ravines.tga"
+	name = "루시아노 카스티요 콜로나"
+	desc = "Luciano_Castillo_Colonna_DESC"
+	picture = "Portrait_Peru_Luciano_Castillo_Colonna.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Jorge Prado Ugarteche"
-	desc = "POLITICS_UGARTECHE_DESC"
-	picture = "Portrait_PRU_Jorge_Ugarteche.tga"
+	name = "하비에르 오르티스 데 세바요스"
+	desc = "Javier_Ortiz_de_Zevallos_DESC"
+	picture = "Portrait_Peru_Javier_Ortiz_de_Zevallos.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Oscar Benavides Larrea"
-	desc = "POLITICS_OSCAR_BENAVIDES_LARREA_DESC"
-	picture = "Portrait_Peru_Oscar_Benavides_Larrea.tga"
+	name = "니콜라스 린들레이 로페스"
+	desc = "Nicolas_Lindley_Lopez_DESC"
+	picture = "Portrait_Peru_Nicolas_Lindley_Lopez.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
