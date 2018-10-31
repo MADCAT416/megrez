@@ -33,9 +33,8 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-set_stability = -0.10
-set_war_support = 0
-set_variable = { arg_im_factor = 100 }
+set_stability = 0.4
+set_war_support = 0.4
 
 set_politics = {
 
@@ -44,118 +43,119 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 4
+			popularity = 0
 		}
 		syndicalist = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 7
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 15
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 12
+			popularity = 7
 		}
 		social_conservative = {
-			popularity = 9
+			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 18
+			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 8
+			popularity = 40
 		}
 		national_populist = {
-			popularity = 27
+			popularity = 30
 		}
 	}
 
-	ruling_party = national_populist
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Manuel Carlés"
-	desc = "POLITICS_CARLES_DESC"
-	picture = "Portrait_ARG_Manuel_Carles.tga"
+	name = "아우구스토 반도르"
+	desc = "Augusto_Vandor_DESC"
+	picture = "Portrait_ARG_Augusto_Vandor.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후안 페론"
+	desc = "Juan_Peron_DESC"
+	picture = "Portrait_ARG_Juan_Peron.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Juan Domingo Peron"
-	desc = "POLITICS_DOMINGO_PERON_DESC"
-	picture = "Portrait_Argentine_Domingo_Peron.tga"
+	name = "후안 카를로스 옹가니아"
+	desc = "Juan_Carlos_Ongania_DESC"
+	picture = "Portrait_ARG_Juan_Carlos_Ongania.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alicia Moreau de Justo"
-	desc = "POLITICS_ALICIA_JUSTO_DESC"
-	picture = "Portrait_Argentine_Alicia_Justo.tga"
+	name = "호르헤 에네아 스필림베르고"
+	desc = "Jorge_Enea_Spilimbergo_DESC"
+	picture = "Portrait_ARG_Jorge_Enea_Spilimbergo.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Pedro Pablo Ramirez"
-	desc = "POLITICS_PABLO_RAMIREZ_DESC"
-	picture = "Portrait_Argentine_Pablo_Ramirez.tga"
+	name = "페드로 에우헤니오 아람부루"
+	desc = "Pedro_Eugenio_Aramburu_DESC"
+	picture = "Portrait_ARG_Pedro_Eugenio_Aramburu.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "José Pascual Tamborini"
-	desc = "POLITICS_JOSE_TAMBORINI_DESC"
-	picture = "Portrait_Argentine_Pascual_Tamborini.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Robustiano Patron Costas"
-	desc = "POLITICS_ROBUSTIANO_COSTAS_DESC"
-	picture = "Portrait_Argentine_Robustiano_Costas.tga"
+	name = "아르투로 프론디시"
+	desc = "Arturo_Frondizi_DESC"
+	picture = "Portrait_ARG_Arturo_Frondizi.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Nicolas Repetto"
-	desc = "POLITICS_NICOLAS_REPETTO_DESC"
-	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
+	name = "알프레도 브라보"
+	desc = "Alfredo_Bravo_DESC"
+	picture = "Portrait_ARG_Alfredo_Bravo.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Hipólito Yrigoyen"
-	desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
-	picture = "Portrait_Argentine_Hipolito_Yrigoyen.tga"
+	name = "리카르도 발빈"
+	desc = "Ricardo_Balbin_DESC"
+	picture = "Portrait_ARG_Ricardo_Balbin.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Jose Peter"
-	desc = "POLITICS_JOSE_PETER_DESC"
-	picture = "Portrait_Argentine_Jose_Peter.tga"
+	name = "파니 에델만"
+	desc = "Fanny_Edelman_DESC"
+	picture = "Portrait_ARG_Fanny_Edelman.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Angel Borlenghi"
-	desc = "POLITICS_ANGEL_BORLENGHI_DESC"
-	picture = "Portrait_Argentine_Angel_Borlenghi.tga"
+	name = "아구스틴 토스코"
+	desc = "Agustin_Tosco_DESC"
+	picture = "Portrait_ARG_Agustin_Tosco.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
