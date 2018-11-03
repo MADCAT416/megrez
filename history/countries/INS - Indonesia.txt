@@ -37,7 +37,7 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 17
+			popularity = 2
 		}
 		syndicalist = {
 			popularity = 0
@@ -46,99 +46,120 @@ set_politics = {
 			popularity = 3
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 28
+			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 47
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 60
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 5
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_stability = 0.4
+set_war_support = 0.3
+
 create_country_leader = {
-	name = "Sukarno"
-	desc = "POLITICS_SUKARNO_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.tga"
-	expire = "1965.10.1"
+	name = "수하르토"
+	desc = "Suharto_DESC"
+	picture = "Portrait_Indonesia_Suharto.tga"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Tan Malaka"
-	desc = "POLITICS_TAN_MALAKA_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Tan_Malaka.tga"
-	expire = "1965.10.1"
+	name = "수탄 스자흐리르"
+	desc = "Sutan_Sjahrir_DESC"
+	picture = "Portrait_Indonesia_Sutan_Sjahrir.tga"
+	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = "POLITICS_SUTAN_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.tga"
-	expire = "1965.10.1"
+	name = "수카르니"
+	desc = "Sukarni_DESC"
+	picture = "Portrait_Indonesia_Sukarni.tga"
+	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Hashim As'yari"
-	desc = "POLITICS_HASHIM_ASYARI_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.tga"
-	expire = "1965.10.1"
-	ideology = social_conservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Munawar Musso"
-	desc = "POLITICS_MUNAWAR_MUSSO_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Munawar_Musso.tga"
-	expire = "1965.10.1"
+	name = "D. N. 아이디트"
+	desc = "D_N_Aidit_DESC"
+	picture = "Portrait_Indonesia_D_N_Aidit.tga"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = { }
 }
 
 create_country_leader = { #No portrait yet
-	name = "Semaun"
-	desc = "POLITICS_SEMAUN_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Semaun.tga"
-	expire = "1965.10.1"
+	name = "세탸드지트 쇠곤도"
+	desc = "Setyadjit_Soegondo_DESC"
+	picture = "Portrait_Indonesia_Setyadjit_Soegondo.tga"
+	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Sekarmadji Kartosuwirjo"
-	desc = "POLITICS_SEMAUN_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Kartosoewirjo.tga"
-	expire = "1965.10.1"
+	name = "수하르토"
+	desc = "Suharto_DESC"
+	picture = "Portrait_Indonesia_Suharto.tga"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = { }
 }
 
 create_country_leader = {
-	name = "Raymond Westerling"
-	desc = "POLITICS_WESTERLING_DESC"
-	picture = "gfx/leaders/INS/Portrait_Indonesia_Westerling.tga"
-	expire = "1965.10.1"
+	name = "압둘 하리스 나수티온"
+	desc = "Abdul_Haris_Nasution_DESC"
+	picture = "Portrait_Indonesia_Abdul_Haris_Nasution.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "모하마드 이스나에니"
+	desc = "Mohammad_Isnaeni_DESC"
+	picture = "Portrait_Indonesia_Mohammad_Isnaeni.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "모하마드 이스나에니"
+	desc = "Mohammad_Isnaeni_DESC"
+	picture = "Portrait_Indonesia_Mohammad_Isnaeni.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "모하마드 나트시르"
+	desc = "Mohammad_Natsir_DESC"
+	picture = "Portrait_Indonesia_Mohammad_Natsir.tga"
+	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = { }
 }
