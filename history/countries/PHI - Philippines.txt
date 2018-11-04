@@ -152,9 +152,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "레나토 데 비야"
-	desc = "Renato_de_Villa_DESC"
-	picture = "Portrait_Philippines_Renato_de_Villa.tga"
+	name = "발렌틴 데 로스 산토스"
+	desc = "Valentin_de_los_Santos_DESC"
+	picture = "Portrait_Philippines_Valentin_de_los_Santos.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
