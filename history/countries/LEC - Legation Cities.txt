@@ -24,20 +24,23 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 300
 
+set_stability = 0.4
+set_war_support = 0.2
+
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
 			popularity = 2
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 1
 		}
 		social_progressive = {
-			popularity = 5
+			popularity = 3
 		}
 		social_liberal = {
 			popularity = 4
@@ -46,10 +49,10 @@ set_politics = {
 			popularity = 12
 		}
 		social_conservative = {
-			popularity = 39
+			popularity = 20
 		}
 		authoritarian_democrat = {
-			popularity = 20
+			popularity = 35
 		}
 		paternal_autocrat = {
 			popularity = 22
@@ -59,7 +62,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -106,10 +109,91 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Cecil Clementi"
-	desc = "POLITICS_Cecil_Clementi_DESC"
-	picture = "Portrait_LEC_Cecil_Clementi.tga"
+	name = "량웨이린"
+	desc = "Liang_Weilin_DESC"
+	picture = "Portrait_LEC_Liang_Weilin.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "융퀑"
+	desc = "Yeung_Kwong_DESC"
+	picture = "Portrait_LEC_Yeung_Kwong.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "융퀑"
+	desc = "Yeung_Kwong_DESC"
+	picture = "Portrait_LEC_Yeung_Kwong.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "데이비드 트렌치"
+	desc = "David_Trench_DESC"
+	picture = "Portrait_LEC_David_Trench.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장칭"
+	desc = "Jiang_Qing_DESC"
+	picture = "Portrait_LEC_Jiang_Qing.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
