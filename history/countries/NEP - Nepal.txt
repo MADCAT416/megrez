@@ -17,13 +17,13 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 5
+			popularity = 3
 		}
 		syndicalist = {
-			popularity = 3
+			popularity = 1
 		}
 		social_progressive = {
 			popularity = 5
@@ -44,11 +44,11 @@ set_politics = {
 			popularity = 60
 		}
 		national_populist = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
