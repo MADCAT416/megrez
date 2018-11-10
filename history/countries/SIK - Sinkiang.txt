@@ -49,6 +49,97 @@ set_politics = {
 
 }
 
+create_country_leader = {
+	name = "사이푸딘 아지지"
+	desc = "Saifuddin_Azizii_DESC"
+	picture = "Portrait_SIK_Saifuddin_Azizii.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에흐멧잔 카심"
+	desc = "Ehmetjan_Qasim_DESC"
+	picture = "Portrait_SIK_Ehmetjan_Qasim.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에흐멧잔 카심"
+	desc = "Ehmetjan_Qasim_DESC"
+	picture = "Portrait_SIK_Ehmetjan_Qasim.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이사 유수프 알프테킨"
+	desc = "Isa_Alptekin_DESC"
+	picture = "Portrait_SIK_Isa_Alptekin.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이사 유수프 알프테킨"
+	desc = "Isa_Alptekin_DESC"
+	picture = "Portrait_SIK_Isa_Alptekin.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이사 유수프 알프테킨"
+	desc = "Isa_Alptekin_DESC"
+	picture = "Portrait_SIK_Isa_Alptekin.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "부르한 샤히디"
+	desc = "Burhan_Shahidi_DESC"
+	picture = "Portrait_SIK_Burhan_Shahidi.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "부르한 샤히디"
+	desc = "Burhan_Shahidi_DESC"
+	picture = "Portrait_SIK_Burhan_Shahidi.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "부르한 샤히디"
+	desc = "Burhan_Shahidi_DESC"
+	picture = "Portrait_SIK_Burhan_Shahidi.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무함마드 하비불라"
+	desc = "Muhammad_Habibullah_DESC"
+	picture = "Portrait_SIK_Muhammad_Habibullah.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+
 ### Field Marshal
 create_field_marshal = { #Auto-Generated
 	name = "Sheng Shih-tsai"

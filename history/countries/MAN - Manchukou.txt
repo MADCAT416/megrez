@@ -45,8 +45,98 @@ set_politics = {
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "우란푸"
+	desc = "Ulanhu_DESC"
+	picture = "Portrait_MAN_Ulanhu.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "우란푸"
+	desc = "Ulanhu_DESC"
+	picture = "Portrait_MAN_Ulanhu.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "우란푸"
+	desc = "Ulanhu_DESC"
+	picture = "Portrait_MAN_Ulanhu.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아이신기오로 푸이"
+	desc = "Puyi_DESC"
+	picture = "Portrait_MAN_Puyi.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장커후이"
+	desc = "Zhang_Kehui_DESC"
+	picture = "Portrait_TAI_Zhang_Kehui.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
 }

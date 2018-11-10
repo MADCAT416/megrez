@@ -76,6 +76,86 @@ add_ideas = {
 	SQI_Xie_Juezai_sec_npo
 }
 
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "덩샤오핑"
+	desc = "Deng_Xiaoping_DESC"
+	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
 
 create_country_leader = {
 	name = "덩샤오핑"

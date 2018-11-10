@@ -17,34 +17,34 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
 			popularity = 2
 		}
+		democratic_socialist = {
+			popularity = 5
+		}
+		syndicalist = {
+			popularity = 3
+		}
 		social_progressive = {
-			popularity = 4
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 8
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 10
 		}
 		authoritarian_democrat = {
-			popularity = 41
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 19
+			popularity = 60
 		}
 		national_populist = {
-			popularity = 8
+			popularity = 5
 		}
 	}
 
@@ -53,160 +53,95 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-### Leader Spam 3 - Chanderlier Guy No.2 ###
+
 create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = national_populist_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = social_conservative_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Mahendra"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-	expire = "1972.1.31"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-### Leader Spam 2 - Still Chanderlier Guy No.1 ###
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = social_conservative_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-### Leader Spam ###
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = national_populist_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Tribhuvana"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar"
-	expire = "1942.3.29"
-	ideology = social_conservative_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar"
-	expire = "1942.3.29"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar"
-	expire = "1942.3.29"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh"
-	expire = "1982.10.4"
-	ideology = social_progressive_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh"
-	expire = "1982.10.4"
-	ideology = democratic_socialist_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh"
-	expire = "1982.10.4"
-	ideology = syndicalist_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh"
-	expire = "1982.10.4"
+	name = "푸시파 랄 쉬레스타"
+	desc = "Pushpa_Lal_Shrestha_DESC"
+	picture = "Portrait_Nepal_Pushpa_Lal_Shrestha.tga"
+	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {
-	}
+	traits = {}
+}
+
+create_country_leader = {
+	name = "케샤르 중 라야마지"
+	desc = "Keshar_Jung_Rayamajhi_DESC"
+	picture = "Portrait_Nepal_Keshar_Jung_Rayamajhi.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "케샤르 중 라야마지"
+	desc = "Keshar_Jung_Rayamajhi_DESC"
+	picture = "Portrait_Nepal_Keshar_Jung_Rayamajhi.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마헨드라"
+	desc = "Mahendra_DESC"
+	picture = "Portrait_Nepal_Mahendra.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
 }
 
 add_ideas = {
