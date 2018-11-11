@@ -19,6 +19,8 @@ set_technology = {
 	early_bomber = 1
 }
 
+set_cosmetic_tag = ALO_KAZ
+
 set_politics = {
 
 	parties = {
