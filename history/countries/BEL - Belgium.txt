@@ -130,9 +130,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Adalbert I von Preußen"
-	desc = "POLITICS_ADALBERT_I_DESC"
-	picture = "Portrait_Belgium_Adalbert_I.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -141,9 +141,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joris Van Severen"
-	desc = "POLITICS_JORIS_SEVEREN_DESC"
-	picture = "Portrait_Belgium_Joris_Van_Severen.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -152,8 +152,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Léon Degrelle"
-	picture = "Portrait_Belgium_LEON_DEGRELLE.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -162,9 +163,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hendrik De Man"
-	desc = "POLITICS_HENRIK_MAN_DESC"
-	picture = "Portrait_Belgium_Hendrik_De_Man.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -173,20 +174,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Xavier Relecom"
-	desc = "POLITICS_XAVIER_RELECOM_DESC"
-	picture = "Portrait_Belgium_Xavier_Relecom.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Paul-Emile Janson"
-	desc = "POLITICS_PAUL_EMILE_JANSON_DESC"
-	picture = "Portrait_Belgium_Paul_Emile_Janson.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -195,20 +185,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Jacquemotte"
-	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Paul Van Zeeland"
-	desc = "POLITICS_PAUL_ZEELAND_DESC"
-	picture = "Portrait_Belgium_Paul_van_Zeeland.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -217,21 +196,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul-Henri Spaak"
-	desc = "POLITICS_PAUL_HENRI_SPAAK_DESC"
-	picture = "Portrait_Belgium_Paul_Henri_Spaak.tga"
+	name = "빌헬름 1세"
+	desc = "Wilhelm_I_DESC"
+	picture = "Portrait_Belgium_Wilhelm_I.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Julien Lahaut"
-	picture = "Portrait_Belgium_Julien_Lahaut.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
 	traits = {
 
 	}
