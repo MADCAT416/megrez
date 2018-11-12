@@ -34,7 +34,7 @@ set_technology = {
 
 }
 
-set_cosmetic_tag = AUS_kingdom
+set_cosmetic_tag = AUS_REP
 
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }
@@ -54,38 +54,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 1
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 4
+			popularity = 3
 		}
 		social_progressive = {
-			popularity = 37
+			popularity = 40
 		}
 		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 4
-		}
-		social_conservative = {
-			popularity = 47
-		}
-		authoritarian_democrat = {
-			popularity = 3
-		}
-		paternal_autocrat = {
 			popularity = 2
 		}
+		market_liberal = {
+			popularity = 3
+		}
+		social_conservative = {
+			popularity = 30
+		}
+		authoritarian_democrat = {
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 5
+		}
 		national_populist = {
-			popularity = 0
+			popularity = 10
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = social_progressive
 	last_election = "1930.3.9"
 	election_frequency = 72
 	elections_allowed = no
@@ -102,10 +102,6 @@ add_namespace = {
 add_ideas = {
 	#medium_economy
 
-	AUS_financial_ties_broken
-	AUS_k_u_k_armee_bonus
-	AUS_vienna_circle
-
 	### Minister
 	AUS_Albert_von_Mensdorff_Pouilly_Dietrichstein_hog_ade
 	AUS_Edmund_Glaise_von_Horstenau_for_ade
@@ -115,12 +111,46 @@ add_ideas = {
 
 }
 
-set_stability = 0.55
+set_stability = 0.5
+set_war_support = 0.3
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "프란츠 무리"
+	desc = "Franz_Muhri_DESC"
+	picture = "Portrait_Austria_Franz_Muhri.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 무리"
+	desc = "Franz_Muhri_DESC"
+	picture = "Portrait_Austria_Franz_Muhri.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 무리"
+	desc = "Franz_Muhri_DESC"
+	picture = "Portrait_Austria_Franz_Muhri.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "브루노 크라이스키"
+	desc = "Bruno_Kreisky_DESC"
+	picture = "Portrait_Austria_Bruno_Kreisky.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -129,9 +159,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "브루노 크라이스키"
+	desc = "Bruno_Kreisky_DESC"
+	picture = "Portrait_Austria_Bruno_Kreisky.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -140,9 +170,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "요셉 클라우스"
+	desc = "Josef_Klaus_DESC"
+	picture = "Portrait_Austria_Josef_Klaus.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -151,9 +181,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "요셉 클라우스"
+	desc = "Josef_Klaus_DESC"
+	picture = "Portrait_Austria_Josef_Klaus.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -162,9 +192,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "요셉 클라우스"
+	desc = "Josef_Klaus_DESC"
+	picture = "Portrait_Austria_Josef_Klaus.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -173,11 +203,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl I von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_DESC"
-	picture = "Portrait_Austria_Karl_I.tga"
+	name = "쿠르트 발트하임"
+	desc = "Kurt_Waldheim_DESC"
+	picture = "Portrait_Austria_Kurt_Waldheim.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "쿠르트 발트하임"
+	desc = "Kurt_Waldheim_DESC"
+	picture = "Portrait_Austria_Kurt_Waldheim.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {
 
 	}
