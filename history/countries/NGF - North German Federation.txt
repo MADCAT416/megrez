@@ -1,4 +1,4 @@
-﻿capital = 58
+﻿capital = 59
 
 oob = "empty"
 # Starting tech

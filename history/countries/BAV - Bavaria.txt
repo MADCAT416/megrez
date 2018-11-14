@@ -1,5 +1,8 @@
 ﻿capital = 52
 
+set_stability = 0.5
+set_war_support = 0.3
+
 oob = "empty"
 # Starting tech
 set_technology = {
@@ -93,9 +96,86 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Eugen Levine"
-	desc = "EUGEN_LEVINE_DESC"
-	picture = "Portrait_Bavaria_Eugen_Levine.tga"
+	name = "프란츠 요제프 슈트라우스"
+	desc = "Franz_Josef_Strauss_DESC"
+	picture = "Portrait_Bavaria_Franz_Josef_Strauss.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 요제프 슈트라우스"
+	desc = "Franz_Josef_Strauss_DESC"
+	picture = "Portrait_Bavaria_Franz_Josef_Strauss.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 요제프 슈트라우스"
+	desc = "Franz_Josef_Strauss_DESC"
+	picture = "Portrait_Bavaria_Franz_Josef_Strauss.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "요제프 에르틀"
+	desc = "Josef_Ertl_DESC"
+	picture = "Portrait_Bavaria_Josef_Ertl.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "요제프 에르틀"
+	desc = "Josef_Ertl_DESC"
+	picture = "Portrait_Bavaria_Josef_Ertl.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "요제프 에르틀"
+	desc = "Josef_Ertl_DESC"
+	picture = "Portrait_Bavaria_Josef_Ertl.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "클라우스 레슈"
+	desc = "Klaus_Resch_DESC"
+	picture = "Portrait_Bavaria_Klaus_Resch.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "폴크마어 가베르트"
+	desc = "Volkmar_Gabert_DESC"
+	picture = "Portrait_Bavaria_Volkmar_Gabert.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -104,9 +184,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eugen Levine"
-	desc = "EUGEN_LEVINE_DESC"
-	picture = "Portrait_Bavaria_Eugen_Levine.tga"
+	name = "폴크마어 가베르트"
+	desc = "Volkmar_Gabert_DESC"
+	picture = "Portrait_Bavaria_Volkmar_Gabert.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -115,9 +195,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eugen Levine"
-	desc = "EUGEN_LEVINE_DESC"
-	picture = "Portrait_Bavaria_Eugen_Levine.tga"
+	name = "폴크마어 가베르트"
+	desc = "Volkmar_Gabert_DESC"
+	picture = "Portrait_Bavaria_Volkmar_Gabert.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
