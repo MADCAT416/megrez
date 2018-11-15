@@ -1,0 +1,29 @@
+﻿l_english:
+
+### Parties ###
+BOS_totalist_party:0 "보스니아 공산주의자 연맹"
+BOS_totalist_party_long:0 "보스니아 공산주의자 연맹"
+BOS_democratic_socialist_party:0 "보스니아 사회민주당"
+BOS_democratic_socialist_party_long:0 "보스니아 사회민주당"
+BOS_syndicalist_party:0 "보스니아 사회당"
+BOS_syndicalist_party_long:0 "보스니아 사회당"
+BOS_social_progressive_party:0 "독립민주당"
+BOS_social_progressive_party_long:0 "독립민주당"
+BOS_social_liberal_party:0 "민주당"
+BOS_social_liberal_party_long:0 "민주당"
+BOS_market_liberal_party:0 "민주행동당"
+BOS_market_liberal_party_long:0 "민주행동당"
+BOS_social_conservative_party:0 "민주행동당"
+BOS_social_conservative_party_long:0 "민주행동당"
+BOS_authoritarian_democrat_party:0 "인민급진당"
+BOS_authoritarian_democrat_party_long:0 "인민급진당"
+BOS_paternal_autocrat_party:0 "세르비아 국민당"
+BOS_paternal_autocrat_party_long:0 "세르비아 국민당"
+BOS_national_populist_party:0 "국민운동"
+BOS_national_populist_party_long:0 "국민운동"
+
+
+### 인물 소개 ###
+Branko_Mikulic_DESC:0 ""
+Alija_Izetbegovic_DESC:0 ""
+Radovan_Karadzic_DESC:0 ""
