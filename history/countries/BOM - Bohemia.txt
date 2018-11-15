@@ -141,12 +141,33 @@ create_country_leader = {
 	desc = "Walter_Reder_DESC"
 	picture = "Portrait_Bohemia_Walter_Reder.tga"
 	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "발터 레더"
+	desc = "Walter_Reder_DESC"
+	picture = "Portrait_Bohemia_Walter_Reder.tga"
+	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 
 	}
 }
 
+create_country_leader = {
+	name = "발터 레더"
+	desc = "Walter_Reder_DESC"
+	picture = "Portrait_Bohemia_Walter_Reder.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+}
 
 ### Field Marshall
 create_field_marshal = {
