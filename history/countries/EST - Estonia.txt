@@ -31,6 +31,9 @@ set_technology = {
 	early_bomber = 1
 }
 
+set_stability = 0.5
+set_war_support = 0.3
+
 set_politics = {
 
 	parties = {
@@ -74,8 +77,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Artur Sirk"
-	picture = "Portait_Estonia_Artur_Sirk.tga"
+	name = "한스 칼름"
+	picture = "Portrait_Baltic_Hans_Kalm.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -84,8 +87,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konstantin Päts"
-	picture = "Portrait_Estonia_Konstantin_Pats.tga"
+	name = "아르놀드 뤼텔"
+	picture = "Portait_Estonia_Arnold_Ruutel.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -94,8 +97,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Andres Larka"
-	picture = "Portrait_Estonia_Andres_Larka.tga"
+	name = "아르놀드 뤼텔"
+	picture = "Portait_Estonia_Arnold_Ruutel.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -104,8 +107,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hjalmar Mäe"
-	picture = "Portrait_Estonia_Hjalmar_Mae.tga"
+	name = "렌나르트 메리"
+	picture = "Portait_Estonia_Lennart_Meri.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -114,8 +117,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaan Tõnisson"
-	picture = "Portrait_Estonia_Jaan_Tonisson.tga"
+	name = "헤인리크 마르크"
+	picture = "Portait_Estonia_Heinrich_Mark.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {	
+	}
+}
+
+create_country_leader = {
+	name = "헤인리크 마르크"
+	picture = "Portait_Estonia_Heinrich_Mark.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -124,8 +136,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "August Rei"
-	picture = "Portrait_Estonia_August_Rei.tga"
+	name = "카를 바이노"
+	picture = "Portait_Estonia_Karl_Vaino.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -134,8 +146,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Säre"
-	picture = "Portrait_Estonia_Karl_Sare.tga"
+	name = "올가 라우리스틴"
+	picture = "Portait_Estonia_Olga_Lauristin.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -144,8 +156,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Säre"
-	picture = "Portrait_Estonia_Karl_Sare.tga"
+	name = "올가 라우리스틴"
+	picture = "Portait_Estonia_Olga_Lauristin.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -154,8 +166,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaan Anvelt"
-	picture = "Portrait_Estonia_Jaan_Anvelt.tga"
+	name = "바이노 밸랴스"
+	picture = "Portait_Estonia_Vaino_Valjas.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {

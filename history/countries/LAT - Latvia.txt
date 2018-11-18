@@ -30,6 +30,10 @@ set_technology = {
 	early_fighter = 1
 	early_bomber = 1
 }
+
+set_stability = 0.5
+set_war_support = 0.3
+
 set_research_slots = 3
 set_politics = {
 
@@ -74,8 +78,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Alberts Kviesis"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Alberts_Kviesis.tga"
+	name = "에두아르즈 베르클레브스"
+	picture = "Portrait_LAT_Eduards_Berklavs.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 
@@ -85,8 +89,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hans Heinrich Lohse"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Hans_Heinrich_Lohse.tga"
+	name = "빅토르스 아라이스"
+	picture = "Portrait_LAT_Viktors_Arajs.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -94,8 +98,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kārlis Ulmanis"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Karlis_Ulmanis.tga"
+	name = "에두아르즈 베르클레브스"
+	picture = "Portrait_LAT_Eduards_Berklavs.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -104,9 +108,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kārlis Ulmanis"
+	name = "아나톨스 딘베르그스"
 	expire = "2000.1.1"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Karlis_Ulmanis.tga"
+	picture = "Portrait_LAT_Anatols_Dinbergs.tga"
 	ideology = social_conservative_subtype
 	traits = {
 
@@ -114,35 +118,35 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pēteris Juraševskis"
+	name = "아나톨스 딘베르그스"
 	expire = "2000.1.1"
-	picture = "gfx/leaders/LAT/Portrait_LAT_Peteris_Jurasevskis.tga"
+	picture = "Portrait_LAT_Anatols_Dinbergs.tga"
 	ideology = market_liberal_subtype
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Pēteris Juraševskis"
+	name = "아나톨스 딘베르그스"
 	expire = "2000.1.1"
-	picture = "gfx/leaders/LAT/Portrait_LAT_Peteris_Jurasevskis.tga"
+	picture = "Portrait_LAT_Anatols_Dinbergs.tga"
 	ideology = social_liberal_subtype
 	traits = {	
 	}
 }
 
 create_country_leader = {
-	name = "Marģers Skujenieks"
+	name = "세르게이스 돌고폴롭스"
 	expire = "2000.1.1"
-	picture = "gfx/leaders/LAT/Portrait_LAT_Margers_Skujenieks.tga"
+	picture = "Portrait_LAT_Sergejs_Dolgopolovs.tga"
 	ideology = social_progressive_subtype
 	traits = {	
 	}
 }
 
 create_country_leader = {
-	name = "Augusts Kirchensteins"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Kirhensteins.tga"
+	name = "브루노 칼린쉬"
+	picture = "Portrait_LAT_Bruno_Kalnins.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -150,8 +154,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Augusts Kirchensteins"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Kirhensteins.tga"
+	name = "브루노 칼린쉬"
+	picture = "Portrait_LAT_Bruno_Kalnins.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {	
@@ -160,8 +164,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Augusts Kirchensteins"
-	picture = "gfx/leaders/LAT/Portrait_Latvia_Kirhensteins.tga"
+	name = "아우구스츠 보스"
+	picture = "Portrait_LAT_Augusts_Voss.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
