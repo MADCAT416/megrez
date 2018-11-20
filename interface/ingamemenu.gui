@@ -94,7 +94,7 @@ guiTypes = {
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "http://kaiserreich.wikia.com/wiki/The_Kaiserreich_Wiki"
+			web_link = "https://twitter.com/megrez_"
 		}
 		ButtonType = {
 			name = "forum_button"
@@ -102,7 +102,7 @@ guiTypes = {
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			web_link = "https://twitter.com/megrez_"
 		}
 #		ButtonType = {
 #			name = "facebook_button"
@@ -119,7 +119,7 @@ guiTypes = {
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/kaisermod"
+			web_link = "https://twitter.com/megrez_"
 		}
 		
 		ButtonType = {
