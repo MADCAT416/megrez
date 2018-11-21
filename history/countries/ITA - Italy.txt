@@ -83,8 +83,8 @@ set_politics = {
 
 ### Political Leaders ###
 create_country_leader = {# Gabriele D'Annunzio
-	name = "Gabriele D'Annunzio"
-	picture = "Portrait_ITA_Gabriele_Anunnzio.tga"
+	name = "바오로 6세"
+	picture = "Portrait_Paul_VI.tga"
 	expire = "1938.3.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -92,45 +92,84 @@ create_country_leader = {# Gabriele D'Annunzio
 	}
 }
 create_country_leader = {# Alcide De Gasperi
-	name = "Alcide De Gasperi"
-	picture = "Portrait_Italy_Alcide_de_Gasperi.tga"
+	name = "고프레도"
+	picture = "Portrait_ITA_Goffredo.tga"
 	expire = "2000.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 
 	}
 }
+
+create_country_leader = {# Alcide De Gasperi
+	name = "조반니 레오네"
+	picture = "Portrait_ITA_Giovanni_Leone.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
 create_country_leader = {# Ivanoe Bonomi
-	name = "Ivanoe Bonomi"
-	picture = "Portrait_Italy_Ivanoe_Bonomi.tga"
+	name = "마르코 판넬라"
+	picture = "Portrait_ITA_Marco_Pannella.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {		}
 }
 create_country_leader = {# Carlo Rossi
-	name = "Carlo Rossi"
-	picture = "Portrait_Italy_Carlo_Rossi.tga"
+	name = "마리오 타나씨"
+	picture = "Portrait_ITA_Mario_Tanassi.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
 	}
 }
 create_country_leader = {# Alcide De Gasperi
-	name = "Alcide De Gasperi"
-	picture = "Portrait_Italy_Alcide_de_Gasperi.tga"
+	name = "조반니 말라고디"
+	picture = "Portrait_ITA_Giovanni_Malagodi.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 	}
 }
 create_country_leader = {# Luigi Einaudi
-	name = "Luigi Einaudi"
-	picture = "Portrait_ITA_Luigi_Einaudi.tga"
+	name = "조반니 스파돌리니"
+	picture = "Portrait_ITA_Giovanni_Spadolini.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 	}
 }
+
+create_country_leader = {# Luigi Einaudi
+	name = "피노 라우티"
+	picture = "Portrait_ITA_Pino_Rauti.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {# Luigi Einaudi
+	name = "피노 라우티"
+	picture = "Portrait_ITA_Enrico_Berlinguer.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {# Luigi Einaudi
+	name = "산드로 페르티니"
+	picture = "Portrait_ITA_Sandro_Pertini.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+	}
+}
+
 add_ideas = {
 	#medium_economy
 	ITA_Carlo_Rosselli_hog_sde
