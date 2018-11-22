@@ -41,6 +41,7 @@ add_to_faction = BHC
 add_to_faction = BUR 
 add_to_faction = SIA
 add_to_faction = INC
+add_to_faction = LAO
 
 set_politics = {
 
