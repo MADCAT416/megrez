@@ -93,8 +93,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Bernhard Bästlein"
-	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
+	name = "알프레트 쿠벨"
+	picture = "Portrait_NGF_Alfred_Kubel.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -102,8 +102,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bernhard Bästlein"
-	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
+	name = "알프레트 쿠벨"
+	picture = "Portrait_NGF_Alfred_Kubel.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -111,10 +111,73 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bernhard Bästlein"
-	picture = "Portrait_NGF_Bernhard_Bastlein.tga"
+	name = "프리츠 에베르트"
+	picture = "Portrait_NGF_Friedrich_Ebert_Jr.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "페터 슐츠"
+	picture = "Portrait_NGF_Peter_Schulz.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "빌프리트 하셀만"
+	picture = "Portrait_NGF_Wilfried_Hasselmann.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "빌프리트 하셀만"
+	picture = "Portrait_NGF_Wilfried_Hasselmann.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "하인리히 헬베게"
+	picture = "Portrait_NGF_Heinrich_Hellwege.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "게르하르트 슈톨텐베르크"
+	picture = "Portrait_NGF_Gerhard_Stoltenberg.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "빈프리트 헤더고트"
+	picture = "Portrait_NGF_Winfrid_Hedergott.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "빈프리트 헤더고트"
+	picture = "Portrait_NGF_Winfrid_Hedergott.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
 	traits = {
 	}
 }
