@@ -16,5 +16,5 @@ default = {
 	#	callsigns = { "하늘의 여왕" "붉은 공주" }
 	#}
 	surnames = { "스미스" "존스" "테일러" "브라운" "윌리엄스" "윌슨" "에반스" "워커" "화이트" "로버츠" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "멋쟁이" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "멋쟁이" "무스" "Mouse" "Pebbles" "Sunshine" Demon}
 }
