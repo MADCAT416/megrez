@@ -68,12 +68,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ideology_syndicalist.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_radical_socialist"
-		texturefile = "gfx/interface/goals/goal_ideology_radical_socialist.dds"
+		name = "GFX_goal_ideology_democratic_socialist"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic_socialist.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_social_democrat"
-		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
+		name = "GFX_goal_ideology_social_progressive"
+		texturefile = "gfx/interface/goals/goal_ideology_social_progressive.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_social_liberal"

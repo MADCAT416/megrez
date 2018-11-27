@@ -391,11 +391,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_radical_socialist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_radical_socialist.dds"
+		name = "GFX_goal_ideology_democratic_socialist_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic_socialist.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_radical_socialist.dds"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_democratic_socialist.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -408,7 +408,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_radical_socialist.dds"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_democratic_socialist.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -423,11 +423,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_social_democrat_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
+		name = "GFX_goal_ideology_social_progressive_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_social_progressive.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_social_progressive.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -440,7 +440,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_social_progressive.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
