@@ -1157,9 +1157,14 @@ focus_tree = {
 
 	focus = {
 		id = mrz_demo_social
-		prerequisite = { focus = mrz_revolution }
+		prerequisite = { focus = mrz_revolution focus = mrz_free_elect }
 		mutually_exclusive = { focus = mrz_totalism }
 		mutually_exclusive = { focus = mrz_sandicalism }
+		mutually_exclusive = { focus = mrz_jinbo }
+		mutually_exclusive = { focus = mrz_social_free }
+		mutually_exclusive = { focus = mrz_market_free }
+		mutually_exclusive = { focus = mrz_social_bosu }
+		mutually_exclusive = { focus = mrz_gwoni }
 		x = 2
 		y = 1
 		relative_position_id = mrz_revolution
@@ -1433,9 +1438,14 @@ focus_tree = {
 	
 	focus = {
 		id = mrz_gwoni
-		prerequisite = { focus = mrz_no_revolution }
+		prerequisite = { focus = mrz_no_revolution focus = mrz_free_elect }
 		mutually_exclusive = { focus = mrz_feudal }
 		mutually_exclusive = { focus = mrz_populism }
+		mutually_exclusive = { focus = mrz_jinbo }
+		mutually_exclusive = { focus = mrz_social_free }
+		mutually_exclusive = { focus = mrz_market_free }
+		mutually_exclusive = { focus = mrz_social_bosu }
+		mutually_exclusive = { focus = mrz_demo_social }
 		x = -2
 		y = 1
 		relative_position_id = mrz_no_revolution
@@ -1717,6 +1727,444 @@ focus_tree = {
 		y = 1
 		mutually_exclusive = { focus = mrz_real_pol }
 		relative_position_id = mrz_feudal_3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_free_elect
+		prerequisite = { focus = mrz_politic }
+		x = 0
+		y = 2
+		relative_position_id = mrz_politic
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = mrz_jinbo
+		prerequisite = { focus = mrz_free_elect }
+		mutually_exclusive = { focus = mrz_social_free }
+		mutually_exclusive = { focus = mrz_market_free }
+		mutually_exclusive = { focus = mrz_social_bosu }
+		x = -3
+		y = 1
+		relative_position_id = mrz_free_elect
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_free
+		prerequisite = { focus = mrz_free_elect }
+		mutually_exclusive = { focus = mrz_jinbo }
+		mutually_exclusive = { focus = mrz_market_free }
+		mutually_exclusive = { focus = mrz_social_bosu }
+		x = -1
+		y = 1
+		relative_position_id = mrz_free_elect
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_market_free
+		prerequisite = { focus = mrz_free_elect }
+		mutually_exclusive = { focus = mrz_jinbo }
+		mutually_exclusive = { focus = mrz_social_free }
+		mutually_exclusive = { focus = mrz_social_bosu }
+		x = 1
+		y = 1
+		relative_position_id = mrz_free_elect
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_bosu
+		prerequisite = { focus = mrz_free_elect }
+		mutually_exclusive = { focus = mrz_jinbo }
+		mutually_exclusive = { focus = mrz_social_free }
+		mutually_exclusive = { focus = mrz_market_free }
+		x = 3
+		y = 1
+		relative_position_id = mrz_free_elect
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_jinbo_1
+		prerequisite = { focus = mrz_jinbo }
+		x = 0
+		y = 1
+		relative_position_id = mrz_jinbo
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_jinbo_2
+		prerequisite = { focus = mrz_jinbo_1 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_jinbo_1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_jinbo_3
+		prerequisite = { focus = mrz_jinbo_2 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_jinbo_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_free_1
+		prerequisite = { focus = mrz_social_free }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_free
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_free_2
+		prerequisite = { focus = mrz_social_free_1 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_free_1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_free_3
+		prerequisite = { focus = mrz_social_free_2 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_free_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_market_free_1
+		prerequisite = { focus = mrz_market_free }
+		x = 0
+		y = 1
+		relative_position_id = mrz_market_free
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_market_free_2
+		prerequisite = { focus = mrz_market_free_1 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_market_free_1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_market_free_3
+		prerequisite = { focus = mrz_market_free_2 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_market_free_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_bosu_1
+		prerequisite = { focus = mrz_social_bosu }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_bosu
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_bosu_2
+		prerequisite = { focus = mrz_social_bosu_1 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_bosu_1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_social_bosu_3
+		prerequisite = { focus = mrz_social_bosu_2 }
+		x = 0
+		y = 1
+		relative_position_id = mrz_social_bosu_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_crusader
+		prerequisite = { focus = mrz_jinbo_3 focus = mrz_social_free_3 focus = mrz_market_free_3 focus = mrz_social_bosu_3 }
+		x = -1
+		y = 1
+		mutually_exclusive = { focus = mrz_neutral }
+		mutually_exclusive = { focus = mrz_moral_dip }
+		relative_position_id = mrz_social_free_3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_neutral
+		prerequisite = { focus = mrz_jinbo_3 focus = mrz_social_free_3 focus = mrz_market_free_3 focus = mrz_social_bosu_3 }
+		x = 1
+		y = 1
+		mutually_exclusive = { focus = mrz_crusader }
+		mutually_exclusive = { focus = mrz_moral_dip }
+		relative_position_id = mrz_social_free_3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = mrz_moral_dip
+		prerequisite = { focus = mrz_jinbo_3 focus = mrz_social_free_3 focus = mrz_market_free_3 focus = mrz_social_bosu_3 }
+		x = 3
+		y = 1
+		mutually_exclusive = { focus = mrz_neutral }
+		mutually_exclusive = { focus = mrz_crusader }
+		relative_position_id = mrz_social_free_3
 		cost = 10
 
 		available_if_capitulated = yes
