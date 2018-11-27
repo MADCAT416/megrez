@@ -1501,11 +1501,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_total_1
-		prerequisite = { focus = mrz_totalism }
+		id = mrz_gwoni_1
+		prerequisite = { focus = mrz_gwoni }
 		x = 0
 		y = 1
-		relative_position_id = mrz_totalism
+		relative_position_id = mrz_gwoni
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1522,11 +1522,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_total_2
-		prerequisite = { focus = mrz_total_1 }
+		id = mrz_gwoni_2
+		prerequisite = { focus = mrz_gwoni_1 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_total_1
+		relative_position_id = mrz_gwoni_1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1543,11 +1543,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_total_3
-		prerequisite = { focus = mrz_total_2 }
+		id = mrz_gwoni_3
+		prerequisite = { focus = mrz_gwoni_2 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_total_2
+		relative_position_id = mrz_gwoni_2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1564,11 +1564,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_sandi_1
-		prerequisite = { focus = mrz_sandicalism }
+		id = mrz_feudal_1
+		prerequisite = { focus = mrz_feudal }
 		x = 0
 		y = 1
-		relative_position_id = mrz_sandicalism
+		relative_position_id = mrz_feudal
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1585,11 +1585,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_sandi_2
-		prerequisite = { focus = mrz_sandi_1 }
+		id = mrz_feudal_2
+		prerequisite = { focus = mrz_feudal_1 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_sandi_1
+		relative_position_id = mrz_feudal_1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1606,11 +1606,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_sandi_3
-		prerequisite = { focus = mrz_sandi_2 }
+		id = mrz_feudal_3
+		prerequisite = { focus = mrz_feudal_2 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_sandi_2
+		relative_position_id = mrz_feudal_2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1627,11 +1627,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_social_1
-		prerequisite = { focus = mrz_demo_social }
+		id = mrz_populism_1
+		prerequisite = { focus = mrz_populism }
 		x = 0
 		y = 1
-		relative_position_id = mrz_demo_social
+		relative_position_id = mrz_populism
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1648,11 +1648,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_social_2
-		prerequisite = { focus = mrz_social_1 }
+		id = mrz_populism_2
+		prerequisite = { focus = mrz_populism_1 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_social_1
+		relative_position_id = mrz_populism_1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1669,11 +1669,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_social_3
-		prerequisite = { focus = mrz_social_2 }
+		id = mrz_populism_3
+		prerequisite = { focus = mrz_populism_2 }
 		x = 0
 		y = 1
-		relative_position_id = mrz_social_2
+		relative_position_id = mrz_populism_2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1690,12 +1690,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = mrz_rev_trade
-		prerequisite = { focus = mrz_social_3 focus = mrz_total_3 focus = mrz_sandi_3 }
+		id = mrz_real_pol
+		prerequisite = { focus = mrz_gwoni_3 focus = mrz_feudal_3 focus = mrz_populism_3 }
 		x = -1
 		y = 1
 		mutually_exclusive = { focus = mrz_rev_solo }
-		relative_position_id = mrz_sandi_3
+		relative_position_id = mrz_feudal_3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1711,12 +1711,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mrz_rev_solo
-		prerequisite = { focus = mrz_social_3 focus = mrz_total_3 focus = mrz_sandi_3 }
+		id = mrz_world_pol
+		prerequisite = { focus = mrz_gwoni_3 focus = mrz_feudal_3 focus = mrz_populism_3 }
 		x = 1
 		y = 1
 		mutually_exclusive = { focus = mrz_rev_trade }
-		relative_position_id = mrz_sandi_3
+		relative_position_id = mrz_feudal_3
 		cost = 10
 
 		available_if_capitulated = yes
