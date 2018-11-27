@@ -1114,7 +1114,7 @@ focus_tree = {
 		prerequisite = { focus = mrz_revolution }
 		mutually_exclusive = { focus = mrz_sandicalism }
 		mutually_exclusive = { focus = mrz_demo_social }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = mrz_revolution
 		cost = 10
@@ -1160,7 +1160,7 @@ focus_tree = {
 		prerequisite = { focus = mrz_revolution }
 		mutually_exclusive = { focus = mrz_totalism }
 		mutually_exclusive = { focus = mrz_sandicalism }
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = mrz_revolution
 		cost = 10
@@ -1431,7 +1431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mrz_rev_trade
-		prerequisite = { focus = mrz_social_4 mrz_total_4 mrz_sandi_4 }
+		prerequisite = { focus = mrz_social_4 focus = mrz_total_4 focus = mrz_sandi_4 }
 		x = -1
 		y = 1
 		mutually_exclusive = { focus = mrz_rev_solo }
@@ -1452,7 +1452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mrz_rev_solo
-		prerequisite = { focus = mrz_social_4 mrz_total_4 mrz_sandi_4 }
+		prerequisite = { focus = mrz_social_4 focus = mrz_total_4 focus = mrz_sandi_4 }
 		x = 1
 		y = 1
 		mutually_exclusive = { focus = mrz_rev_trade }
