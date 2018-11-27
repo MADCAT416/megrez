@@ -1694,7 +1694,7 @@ focus_tree = {
 		prerequisite = { focus = mrz_gwoni_3 focus = mrz_feudal_3 focus = mrz_populism_3 }
 		x = -1
 		y = 1
-		mutually_exclusive = { focus = mrz_rev_solo }
+		mutually_exclusive = { focus = mrz_world_pol }
 		relative_position_id = mrz_feudal_3
 		cost = 10
 
@@ -1715,7 +1715,7 @@ focus_tree = {
 		prerequisite = { focus = mrz_gwoni_3 focus = mrz_feudal_3 focus = mrz_populism_3 }
 		x = 1
 		y = 1
-		mutually_exclusive = { focus = mrz_rev_trade }
+		mutually_exclusive = { focus = mrz_real_pol }
 		relative_position_id = mrz_feudal_3
 		cost = 10
 
