@@ -41,10 +41,10 @@ set_politics = {
 			popularity = 4
 		}
 		social_progressive = {
-			popularity = 30
+			popularity = 14
 		}
 		social_liberal = {
-			popularity = 14
+			popularity = 30
 		}
 		market_liberal = {
 			popularity = 24
@@ -71,7 +71,34 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Federal Council"
+	name = "칼-헨리크 헤르만손"
+	picture = "Portrait_Scandinavia_C_H_Hermansson.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "핀 구스타프센"
+	picture = "Portrait_Scandinavia_Finn_Gustavsen.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "핀 구스타프센"
+	picture = "Portrait_Scandinavia_Finn_Gustavsen.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "연방 의회"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
 	expire = "2000.1.1"
@@ -81,7 +108,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Federal Council"
+	name = "연방 의회"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
 	expire = "2000.1.1"
@@ -91,7 +118,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Federal Council"
+	name = "연방 의회"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
 	expire = "2000.1.1"
@@ -101,7 +128,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Federal Council"
+	name = "연방 의회"
+	desc = "SCA_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Scandinavia_Royal_Council.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "연방 의회"
 	desc = "SCA_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Scandinavia_Royal_Council.tga"
 	expire = "2000.1.1"
@@ -110,3 +147,22 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "연방 의회"
+	desc = "SCA_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Scandinavia_Royal_Council.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "연방 의회"
+	desc = "SCA_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Scandinavia_Royal_Council.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+	}
+}
