@@ -836,6 +836,8 @@ mrz_neutral:0 "영세 중립"
 mrz_neutral_desc:0 ""
 mrz_moral_dip:0 "도덕적 외교"
 mrz_moral_dip_desc:0 ""
+mrz_share_research:0 "연구 공유"
+mrz_share_research_desc:0 ""
 
 generic_extra_tech_slot:0 "연구 위원회"
 generic_extra_tech_slot_desc:0 "우리의 산업 성장은 일자리를 찾는 국내외 과학자들을 포함한 많은 지식인들을 끌어들였습니다. 우리는 우리의 산업 기반이 충분히 성장하여 민간 연구 기관을 유치할 수 있을 때까지 그들이 일할 과제를 찾도록 연구 위원회를 후원해야 합니다."
