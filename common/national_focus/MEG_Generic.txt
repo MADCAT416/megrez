@@ -739,7 +739,6 @@ focus_tree = {
 			industrial_capacity_factory = 0.20
 			}
 		}
-	}
 
 	focus = {
 		id = mrz_plastic
@@ -753,14 +752,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_resource = {
-					type = aluminium
-					amount = 12
-				}
+				consumer_goods_factor = -0.05
 			}
 		}
-	}
 
 	focus = {
 		id = mrz_international
