@@ -73,6 +73,105 @@ set_politics = {
 }
 
 
+set_stability = 0.5
+set_war_support = 0.3
 
-set_stability = 0.50
+create_country_leader = {
+	name = "미하 마린코"
+	picture = "Portrait_SLO_Miha_Marinko.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
 
+	}
+}
+
+create_country_leader = {
+	name = "프란체 포피트"
+	picture = "Portrait_SLO_France_Popit.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "프란체 포피트"
+	picture = "Portrait_SLO_France_Popit.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "조제 푸츠니크"
+	picture = "Portrait_SLO_Joze_Pucnik.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "조제 푸츠니크"
+	picture = "Portrait_SLO_Joze_Pucnik.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "조제 푸츠니크"
+	picture = "Portrait_SLO_Joze_Pucnik.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "마르코 크렘자르"
+	picture = "Portrait_SLO_Marko_Kremzar.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "부크 루프니크"
+	picture = "Portrait_SLO_Vuk_Rupnik.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "부크 루프니크"
+	picture = "Portrait_SLO_Vuk_Rupnik.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "부크 루프니크"
+	picture = "Portrait_SLO_Vuk_Rupnik.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+}
