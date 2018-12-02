@@ -153,8 +153,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "알버트"
-	picture = "Portrait_Wales_Albrecht.tga"
+	name = "맥스"
+	picture = "Portrait_Wales_Max.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -163,8 +163,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "알버트"
-	picture = "Portrait_Wales_Albrecht.tga"
+	name = "맥스"
+	picture = "Portrait_Wales_Max.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -173,8 +173,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "알버트"
-	picture = "Portrait_Wales_Albrecht.tga"
+	name = "맥스"
+	picture = "Portrait_Wales_Max.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {
