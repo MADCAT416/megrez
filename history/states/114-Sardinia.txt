@@ -7,7 +7,6 @@ state = {
 
 	history = {
 		owner = PAP
-		add_core_of = SRD
 		victory_points = { 11773 3 } #Cagliari
 		buildings = {
 			infrastructure = 5

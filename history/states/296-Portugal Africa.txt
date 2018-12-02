@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = WAF
-		add_core_of = CVG
+		add_core_of = WAF
 		victory_points = {
 			12747 1 # Bolama
 		}

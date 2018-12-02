@@ -17,6 +17,7 @@ state = {
 		victory_points = {
 			13604 3
 		}
+		add_core_of = WAF
 		add_core_of = LIB
 	}
 	provinces = {

@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = WAF
+		add_core_of = WAF
 		add_core_of = LIB
 		buildings = {
 			infrastructure = 2

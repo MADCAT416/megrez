@@ -10,7 +10,7 @@ state = {
 
 	history = {
 		owner = MAH
-		add_core_of = NFA
+		add_core_of = MAH
 
 		victory_points = {	#Alger
 			1145 30

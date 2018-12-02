@@ -8,7 +8,7 @@ state = {
 
 	history = {
 		owner = PAP
-		add_core_of = SIC
+		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

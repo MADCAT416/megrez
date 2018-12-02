@@ -14,7 +14,7 @@ state = {
 	history = {
 		owner = BHC
 		add_core_of = PRF
-		add_core_of = DEH
+		
 		add_core_of = BHC
 		victory_points = { 10088 1 } #Cuttack
 		buildings = {
