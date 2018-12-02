@@ -1152,13 +1152,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_political_power = 150
 		}
 	}
 
@@ -1176,19 +1170,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			country_event = mrz_gen_politic.1
 		}
 	}
 	
 	focus = {
 		id = mrz_totalism
 		icon = GFX_goal_ideology_totalist
+		available = { always = no }
 		prerequisite = { focus = mrz_revolution }
 		x = -2
 		y = 1
@@ -1198,19 +1187,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = totalist_influence
 		}
 	}
 
 	focus = {
 		id = mrz_sandicalism
 		icon = GFX_goal_ideology_syndicalist
+		available = { always = no }
 		prerequisite = { focus = mrz_revolution }
 		x = 0
 		y = 1
@@ -1220,19 +1204,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = syndicalist_influence
 		}
 	}
 
 	focus = {
 		id = mrz_demo_social
 		icon = GFX_goal_ideology_democratic_socialist
+		available = { always = no }
 		prerequisite = { focus = mrz_revolution focus = mrz_free_elect }
 		x = 2
 		y = 1
@@ -1242,13 +1221,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = democratic_socialist_influence
 		}
 	}
 
@@ -1509,19 +1482,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			country_event = mrz_gen_politic.2
 		}
 	}
 	
 	focus = {
 		id = mrz_gwoni
 		icon = GFX_goal_ideology_authoritarian_democrat
+		available = { always = no }
 		prerequisite = { focus = mrz_no_revolution focus = mrz_free_elect }
 		x = -2
 		y = 1
@@ -1531,19 +1499,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = authoritarian_democrat_influence
 		}
 	}
 
 	focus = {
 		id = mrz_feudal
 		icon = GFX_goal_ideology_paternal_autocrat
+		available = { always = no }
 		prerequisite = { focus = mrz_no_revolution }
 		x = 0
 		y = 1
@@ -1553,19 +1516,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = paternal_autocrat_influence
 		}
 	}
 
 	focus = {
 		id = mrz_populism
 		icon = GFX_goal_ideology_national_populist
+		available = { always = no }
 		prerequisite = { focus = mrz_no_revolution }
 		x = 2
 		y = 1
@@ -1575,13 +1533,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = national_populist_influence
 		}
 	}
 
@@ -1842,19 +1794,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			country_event = mrz_gen_politic.3
 		}
 	}
 	
 	focus = {
 		id = mrz_jinbo
 		icon = GFX_goal_ideology_social_progressive
+		available = { always = no }
 		prerequisite = { focus = mrz_free_elect }
 		x = -3
 		y = 1
@@ -1864,19 +1811,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = social_progressive_influence
 		}
 	}
 
 	focus = {
 		id = mrz_social_free
 		icon = GFX_goal_ideology_social_liberal
+		available = { always = no }
 		prerequisite = { focus = mrz_free_elect }
 		x = -1
 		y = 1
@@ -1886,19 +1828,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = social_liberal_influence
 		}
 	}
 
 	focus = {
 		id = mrz_market_free
 		icon = GFX_goal_ideology_market_liberal
+		available = { always = no }
 		prerequisite = { focus = mrz_free_elect }
 		x = 1
 		y = 1
@@ -1908,19 +1845,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = market_liberal_influence
 		}
 	}
 
 	focus = {
 		id = mrz_social_bosu
 		icon = GFX_goal_ideology_social_conservative
+		available = { always = no }
 		prerequisite = { focus = mrz_free_elect }
 		x = 3
 		y = 1
@@ -1930,13 +1862,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cas_bomber
-			}
+			add_ideas = social_conservative_influence
 		}
 	}
 
