@@ -5,7 +5,7 @@ state = {
 	state_category = town
 	history = {
 		owner = SQI
-		add_core_of = AOG
+		
 		add_core_of = SQI
 		add_core_of = QIE
 		add_core_of = FNG

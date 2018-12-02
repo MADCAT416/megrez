@@ -4,7 +4,7 @@ state = {
 
 	history = {
 		owner = WAF
-		add_core_of = GHA
+		add_core_of = WAF
 		victory_points = { 10862 1 } #Accra
 		buildings = {
 			air_base = 1

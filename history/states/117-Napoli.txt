@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		owner = PAP
-		add_core_of = SIC
+		
 		victory_points = { 819 15 } #Naples
 		buildings = {
 			infrastructure = 6

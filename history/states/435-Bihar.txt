@@ -8,7 +8,7 @@ state = {
 	history = {
 		owner = BHC
 		add_core_of = PRF
-		add_core_of = DEH
+		
 		add_core_of = BHC
 		
 		victory_points = { 4516 5 } #Patna

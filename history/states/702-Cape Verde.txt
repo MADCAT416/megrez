@@ -14,7 +14,7 @@ state = {
 			}
 		}
 		add_core_of = POR
-		add_core_of = CVG
+		add_core_of = WAF
 	}
 
 	provinces = {

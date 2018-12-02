@@ -25,7 +25,7 @@ state = {
 
 			}
 		}
-		add_core_of = TRM
+		add_core_of = RUS
 	}
 
 	provinces = {

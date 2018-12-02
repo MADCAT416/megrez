@@ -6,7 +6,7 @@ state = { #Ordos
 		owner = MON
 		add_core_of = QIE
 		add_core_of = SQI
-		add_core_of = XSM
+		
 		add_core_of = MON
 		add_core_of = FNG
 		buildings = {
