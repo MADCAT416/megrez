@@ -396,6 +396,197 @@ ideas = {
 			}
 		}
 
+		mrz_gen_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic_socialist
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				democratic_socialist_drift = 0.1
+			}
+		}
+
+		mrz_gen_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = syndicalist
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				syndicalist_drift = 0.1
+			}
+		}
+
+		mrz_gen_3 = {
+
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = totalist
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				totalist_drift = 0.1
+			}
+		}
+
+		mrz_gen_4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_progressive
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				social_progressive_drift = 0.1
+			}
+		}
+
+		mrz_gen_5 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				social_liberal_drift = 0.1
+			}
+		}
+
+		mrz_gen_6 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				market_liberal_drift = 0.1
+			}
+		}
+
+		mrz_gen_7 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_conservative
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				social_conservative_drift = 0.1
+			}
+		}
+
+		mrz_gen_8 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = authoritarian_democrat
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				authoritarian_democrat_drift = 0.1
+			}
+		}
+
+		mrz_gen_9 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				paternal_autocrat_drift = 0.1
+			}
+		}
+
+		mrz_gen_10 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = national_populist
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				national_populist_drift = 0.1
+			}
+		}
+
 		### Generic Focus Tree Ideas ###
 
 		generic_liberty_idea = {
