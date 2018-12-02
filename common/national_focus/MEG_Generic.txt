@@ -1190,8 +1190,6 @@ focus_tree = {
 		id = mrz_totalism
 		icon = GFX_goal_ideology_totalist
 		prerequisite = { focus = mrz_revolution }
-		mutually_exclusive = { focus = mrz_sandicalism }
-		mutually_exclusive = { focus = mrz_demo_social }
 		x = -2
 		y = 1
 		relative_position_id = mrz_revolution
@@ -1214,8 +1212,6 @@ focus_tree = {
 		id = mrz_sandicalism
 		icon = GFX_goal_ideology_syndicalist
 		prerequisite = { focus = mrz_revolution }
-		mutually_exclusive = { focus = mrz_totalism }
-		mutually_exclusive = { focus = mrz_demo_social }
 		x = 0
 		y = 1
 		relative_position_id = mrz_revolution
@@ -1238,13 +1234,6 @@ focus_tree = {
 		id = mrz_demo_social
 		icon = GFX_goal_ideology_democratic_socialist
 		prerequisite = { focus = mrz_revolution focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_totalism }
-		mutually_exclusive = { focus = mrz_sandicalism }
-		mutually_exclusive = { focus = mrz_jinbo }
-		mutually_exclusive = { focus = mrz_social_free }
-		mutually_exclusive = { focus = mrz_market_free }
-		mutually_exclusive = { focus = mrz_social_bosu }
-		mutually_exclusive = { focus = mrz_gwoni }
 		x = 2
 		y = 1
 		relative_position_id = mrz_revolution
@@ -1534,13 +1523,6 @@ focus_tree = {
 		id = mrz_gwoni
 		icon = GFX_goal_ideology_authoritarian_democrat
 		prerequisite = { focus = mrz_no_revolution focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_feudal }
-		mutually_exclusive = { focus = mrz_populism }
-		mutually_exclusive = { focus = mrz_jinbo }
-		mutually_exclusive = { focus = mrz_social_free }
-		mutually_exclusive = { focus = mrz_market_free }
-		mutually_exclusive = { focus = mrz_social_bosu }
-		mutually_exclusive = { focus = mrz_demo_social }
 		x = -2
 		y = 1
 		relative_position_id = mrz_no_revolution
@@ -1563,8 +1545,6 @@ focus_tree = {
 		id = mrz_feudal
 		icon = GFX_goal_ideology_paternal_autocrat
 		prerequisite = { focus = mrz_no_revolution }
-		mutually_exclusive = { focus = mrz_gwoni_demo }
-		mutually_exclusive = { focus = mrz_populism }
 		x = 0
 		y = 1
 		relative_position_id = mrz_no_revolution
@@ -1587,8 +1567,6 @@ focus_tree = {
 		id = mrz_populism
 		icon = GFX_goal_ideology_national_populist
 		prerequisite = { focus = mrz_no_revolution }
-		mutually_exclusive = { focus = mrz_gwoni }
-		mutually_exclusive = { focus = mrz_feudal }
 		x = 2
 		y = 1
 		relative_position_id = mrz_no_revolution
@@ -1878,9 +1856,6 @@ focus_tree = {
 		id = mrz_jinbo
 		icon = GFX_goal_ideology_social_progressive
 		prerequisite = { focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_social_free }
-		mutually_exclusive = { focus = mrz_market_free }
-		mutually_exclusive = { focus = mrz_social_bosu }
 		x = -3
 		y = 1
 		relative_position_id = mrz_free_elect
@@ -1903,9 +1878,6 @@ focus_tree = {
 		id = mrz_social_free
 		icon = GFX_goal_ideology_social_liberal
 		prerequisite = { focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_jinbo }
-		mutually_exclusive = { focus = mrz_market_free }
-		mutually_exclusive = { focus = mrz_social_bosu }
 		x = -1
 		y = 1
 		relative_position_id = mrz_free_elect
@@ -1928,9 +1900,6 @@ focus_tree = {
 		id = mrz_market_free
 		icon = GFX_goal_ideology_market_liberal
 		prerequisite = { focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_jinbo }
-		mutually_exclusive = { focus = mrz_social_free }
-		mutually_exclusive = { focus = mrz_social_bosu }
 		x = 1
 		y = 1
 		relative_position_id = mrz_free_elect
@@ -1953,9 +1922,6 @@ focus_tree = {
 		id = mrz_social_bosu
 		icon = GFX_goal_ideology_social_conservative
 		prerequisite = { focus = mrz_free_elect }
-		mutually_exclusive = { focus = mrz_jinbo }
-		mutually_exclusive = { focus = mrz_social_free }
-		mutually_exclusive = { focus = mrz_market_free }
 		x = 3
 		y = 1
 		relative_position_id = mrz_free_elect
