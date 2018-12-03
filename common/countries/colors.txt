@@ -1044,6 +1044,14 @@ PKS = {
 	color = rgb { 1 65 28 }
 	color_ui = rgb { 1 65 28 }
 }
+MOS = {
+	color = rgb { 168 0 44 }
+	color_ui = rgb { 168 0 44 }
+}
+URA = {
+	color = rgb { 0 57 166 }
+	color_ui = rgb { 0 57 166 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
