@@ -1052,6 +1052,10 @@ URA = {
 	color = rgb { 0 57 166 }
 	color_ui = rgb { 0 57 166 }
 }
+TRA = {
+	color = rgb { 135 206 234 }
+	color_ui = rgb { 135 206 234 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
