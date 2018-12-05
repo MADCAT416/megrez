@@ -131,18 +131,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "덩샤오핑"
-	desc = "Deng_Xiaoping_DESC"
-	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	name = "아이신기오로 푸이"
+	picture = "Portrait_MAN_Puyi.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "덩샤오핑"
-	desc = "Deng_Xiaoping_DESC"
-	picture = "Portrait_SQI_Deng_Xiaoping.tga"
+	name = "아이신기오로 푸이"
+	picture = "Portrait_MAN_Puyi.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
