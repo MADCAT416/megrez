@@ -112,24 +112,19 @@ add_ideas = {
 	GEA_Dr_Wilhelm_Heinrich_Solf_eco_pau
 	GEA_Charles_August_Polack_sec_pau
 }
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 4000 producer = GER }
-add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = GER }
-add_equipment_to_stockpile = { type = gw_tank_equipment amount = 220 producer = GER }
-add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 600 producer = GER }
+
 add_manpower = 35000
 ### Country Leader
 create_country_leader = {
-	name = "Hellmuth von Mücke"
-	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
-	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
+	name = "하인츠 퀴늘레"
+	picture = "Portrait_GEA_Heinz_Kuhnle.tga"
 	expire = "2000.1.1" # 1957.7.30
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Hellmuth von Mücke"
-	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
-	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
+	name = "하인츠 퀴늘레"
+	picture = "Portrait_GEA_Heinz_Kuhnle.tga"
 	expire = "2000.1.1" # 1957.7.30
 	ideology = paternal_autocrat_subtype
 	traits = {}
