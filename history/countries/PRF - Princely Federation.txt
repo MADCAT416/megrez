@@ -78,28 +78,26 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Osman Ali Khan"
-	desc = "POLITICS_OSMAN_ALI_KHAN_DESC"
-	picture = "Portrait_Princely_Osman_Ali_Khan.tga"
+	name = "치티라 티루날 발라라마 바르마"
+	picture = "Portrait_PRF_Chithira_Thirunal_Balarama_Varma.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "무카람 자"
+	picture = "Portrait_PRF_Mukarram_Jah.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Krishna Raja Wadiyar IV"
-	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
-	picture = "Portrait_PRF_Raja_Wadiyar_IV.tga"
+	name = "자야차마라젠드라 와디야르"
+	picture = "Portrait_PRF_Jayachamarajendra_Wadiyar.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Madapati Hanumantha Rao"
-	picture = "Portrait_Princely_Madapati_Hanumantha_Rao.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
 	traits = {}
 }
 
