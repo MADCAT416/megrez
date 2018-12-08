@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = NEE
 		add_core_of = USA
+		add_core_of = NEE
 		buildings = {
 
 			infrastructure = 8

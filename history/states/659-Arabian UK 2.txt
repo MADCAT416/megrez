@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = SYE
+		add_core_of = SYE
 		add_core_of = YEM
 		buildings = {
 			infrastructure = 3

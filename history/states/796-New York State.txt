@@ -9,6 +9,7 @@ state = {
 
 	history = {
 		owner = NEE
+		add_core_of = NEE
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1

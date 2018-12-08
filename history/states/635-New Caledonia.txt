@@ -10,7 +10,7 @@ state = {
 	history = {
 		owner = AST
 		add_core_of = GEA
-
+add_core_of = AST
 		victory_points = {
 			4268 1
 		}

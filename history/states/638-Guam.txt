@@ -12,6 +12,7 @@ state = {
 			}
 		}
 		add_claim_by = JAP
+		add_core_of = CAL
 		victory_points = {
 			12140 1
 		}

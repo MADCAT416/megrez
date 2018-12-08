@@ -11,6 +11,7 @@ state = {
 
 	history = {
 		owner = SAF
+		add_core_of = SAF
 		victory_points = { 8214 1 } #Mafikeng
 		buildings = {
 			infrastructure = 1

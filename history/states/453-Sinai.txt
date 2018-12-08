@@ -6,6 +6,7 @@ state = {
 		owner = OTT
 		add_claim_by = OTT
 		add_core_of = EGY
+		add_core_of = OTT
 		buildings = {
 			infrastructure = 2
 

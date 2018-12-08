@@ -10,6 +10,7 @@ state = {
 
 	history = {
 		owner = CEN
+		add_core_of = CEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

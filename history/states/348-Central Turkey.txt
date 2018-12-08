@@ -4,7 +4,7 @@ state = { #Ningxia
 
 	history = {
 		owner = MON
-		
+		add_core_of = MON
 		add_core_of = SQI
 		add_core_of = QIE
 		add_core_of = FNG

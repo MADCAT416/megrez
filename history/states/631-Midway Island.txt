@@ -13,6 +13,7 @@ state = {
 			}
 		}
 		add_core_of = USA
+		add_core_of = CAL
 		add_claim_by = JAP
 		victory_points = {
 			13052 1
