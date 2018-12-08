@@ -85,18 +85,16 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "인디라 간디"
-	desc = "indira gandhi_DESC"
-	picture = "Portrait_BHC_indira_gandhi.tga"
+	name = "야쉬완트라오 차반"
+	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "인디라 간디"
-	desc = "indira gandhi_DESC"
-	picture = "Portrait_BHC_indira_gandhi.tga"
+	name = "야쉬완트라오 차반"
+	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}

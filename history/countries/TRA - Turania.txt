@@ -1,4 +1,4 @@
-﻿capital = 405
+﻿capital = 617
 
 oob = "empty"
 
@@ -31,25 +31,25 @@ set_politics = {
 			popularity = 0
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 100
 		}
 	}
 
@@ -63,11 +63,10 @@ set_politics = {
 set_country_flag = mohammed_alim_khan_hog
 
 create_country_leader = {
-	name = "Mohammed Alim Khan"
-	desc = "POLITICS_MOHAMMED_ALIM_DESC"
-	picture = "Portrait_Turkestan_Mohammed_Alim.tga"
+	name = "쿠릴타이"
+	picture = "Portrait_Turania_Tengri_Order.tga"
 	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

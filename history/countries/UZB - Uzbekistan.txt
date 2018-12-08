@@ -64,8 +64,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Usman Yusupov"
-	desc = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
+	name = "샤로프 라시도프"
+	desc = "Portrait_UZB_Sharof_Rashidov.tga"
 	picture = ""
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
@@ -73,81 +73,72 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Usman Yusupov"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
+	name = "샤로프 라시도프"
+	desc = "Portrait_UZB_Sharof_Rashidov.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Usman Yusupov"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
+	name = "샤로프 라시도프"
+	desc = "Portrait_UZB_Sharof_Rashidov.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "누릿딘 무힛디노프"
+	picture = "Portrait_UZB_Nuritdin_Mukhitdinov.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "누릿딘 무힛디노프"
+	picture = "Portrait_UZB_Nuritdin_Mukhitdinov.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "누릿딘 무힛디노프"
+	picture = "Portrait_UZB_Nuritdin_Mukhitdinov.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "누릿딘 무힛디노프"
+	picture = "Portrait_UZB_Nuritdin_Mukhitdinov.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "이슬람 카리모프"
+	picture = "Portrait_UZB_Islam_Karimov.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "이슬람 카리모프"
+	picture = "Portrait_UZB_Islam_Karimov.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Yoldashbay Babayev"
-	desc = ""
-	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
+	name = "이슬람 카리모프"
+	picture = "Portrait_UZB_Islam_Karimov.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}

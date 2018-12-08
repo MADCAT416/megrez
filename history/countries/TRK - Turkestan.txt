@@ -63,9 +63,8 @@ set_politics = {
 set_country_flag = mohammed_alim_khan_hog
 
 create_country_leader = {
-	name = "Mohammed Alim Khan"
-	desc = "POLITICS_MOHAMMED_ALIM_DESC"
-	picture = "Portrait_Turkestan_Mohammed_Alim.tga"
+	name = "샤무라드 칸"
+	picture = "Portrait_Turkestan_Shahmurad.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

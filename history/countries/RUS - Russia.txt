@@ -407,9 +407,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "미하일 수스로프"
-	desc = "Mikhail_Suslov_DESC"
-	picture = "Portrait_Russia_Mikhail_Suslov.tga"
+	name = "알렉산드르 솔제니친"
+	desc = "Aleksandr_Solzhenitsyn_DESC"
+	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -418,9 +418,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "이고르 리가초프"
-	desc = "Yegor_Ligachyov_DESC"
-	picture = "Portrait_Russia_Yegor_Ligachyov.tga"
+	name = "알렉산드르 솔제니친"
+	desc = "Aleksandr_Solzhenitsyn_DESC"
+	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -429,9 +429,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "그리고리 로마노프"
-	desc = "Grigory_Romanov_DESC"
-	picture = "Portrait_Russia_Grigory_Romanov.tga"
+	name = "알렉산드르 솔제니친"
+	desc = "Aleksandr_Solzhenitsyn_DESC"
+	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {

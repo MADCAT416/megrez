@@ -61,35 +61,73 @@ set_politics = {
 }
 ######## Starting Leader Spam ########
 create_country_leader = {
-	name = "Sao Shwe Thaik"
-	desc = "POLITICS_SAO_SHWE_THAIK_DESC"
-	picture = "gfx/leaders/SHA/Portrait_Shan_Sao_Shwe_Thaik.tga"
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = national_populist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
 	expire = "1962.11.21"
 	ideology = paternal_autocrat_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Sao Shwe Thaik"
-	desc = "POLITICS_SAO_SHWE_THAIK_DESC"
-	picture = "gfx/leaders/SHA/Portrait_Shan_Sao_Shwe_Thaik.tga"
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
 	expire = "1962.11.21"
 	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Sao Shwe Thaik"
-	desc = "POLITICS_SAO_SHWE_THAIK_DESC"
-	picture = "gfx/leaders/SHA/Portrait_Shan_Sao_Shwe_Thaik.tga"
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
 	expire = "1962.11.21"
 	ideology = social_conservative_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Sao Shwe Thaik"
-	desc = "POLITICS_SAO_SHWE_THAIK_DESC"
-	picture = "gfx/leaders/SHA/Portrait_Shan_Sao_Shwe_Thaik.tga"
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
 	expire = "1962.11.21"
 	ideology = market_liberal_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = social_progressive_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = democratic_socialist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = syndicalist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "상 낭 헌 함"
+	picture = "Portrait_Shan_Sao_Nang_Hearn_Kham.tga"
+	expire = "1962.11.21"
+	ideology = totalist_subtype
 	traits = { }
 }
 ### Corps Commander
