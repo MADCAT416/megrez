@@ -4,6 +4,8 @@ state = {
 
 	history = {
 		owner = PAP
+		add_core_of = PAP
+		add_core_of = ITA
 		add_core_of = SRI
 		buildings = {
 			infrastructure = 7

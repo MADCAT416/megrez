@@ -7,6 +7,9 @@ state = {
 
 	history = {
 		owner = PAP
+		add_core_of = PAP
+		add_core_of = ITA
+		add_core_of = SRI
 		add_core_of = FRA
 		add_core_of = NFA
 		victory_points = { 3838 1 }

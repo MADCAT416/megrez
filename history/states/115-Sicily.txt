@@ -6,7 +6,9 @@ state = {
 	state_category = city
 	history = {
 		owner = PAP
-		
+		add_core_of = PAP
+		add_core_of = ITA
+		add_core_of = SRI		
 		victory_points = { 10074 8 } #Palermo
 		victory_points = { 4159 4 } #Messina
 		victory_points = { 4014 1 } #Catania
