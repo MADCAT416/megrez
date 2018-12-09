@@ -20,6 +20,7 @@ state = {
 			3672 1
 		}
 		add_core_of = RUS # SOV
+		add_core_of = DKB
 	}
 
 	provinces = {
