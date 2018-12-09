@@ -9,7 +9,8 @@ state = {
 		owner = PKS
 		add_core_of = PKS
 		add_core_of = PRF
-		
+		add_core_of = DEH
+		add_core_of = RAJ
 		add_core_of = BHC
 		victory_points = { 8098 1 } #Quetta
 		buildings = {

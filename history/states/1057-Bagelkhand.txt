@@ -8,7 +8,8 @@ state = {
 	history = {
 		owner = BHC
 		add_core_of = PRF
-		
+		add_core_of = DEH
+		add_core_of = RAJ
 		add_core_of = BHC
 		victory_points = { 4953 1 } #Jubbalpur
 		victory_points = { 7938 2 } #Allahabad
