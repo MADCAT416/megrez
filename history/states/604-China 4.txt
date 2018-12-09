@@ -6,8 +6,8 @@ state = { #Qinghai
 		owner = TIB
 		
 		add_core_of = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		
+		
 		add_core_of = TIB
 		victory_points = {
 			4888 10

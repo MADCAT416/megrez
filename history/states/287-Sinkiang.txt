@@ -7,10 +7,10 @@ state = {
 
 	history = {
 		owner = SIK
-		add_core_of = QIE
+		
 		add_core_of = SQI
 		add_core_of = SIK
-		add_core_of = FNG
+		
 		buildings = {
 			infrastructure = 1
 

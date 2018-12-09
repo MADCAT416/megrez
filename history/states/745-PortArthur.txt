@@ -9,8 +9,8 @@ state = { #Dairen
 	history = {
 		owner = MAN
 		add_core_of = MAN
-		add_core_of = FNG
-		add_core_of = QIE
+		
+		
 		buildings = {
 			infrastructure = 4
 			dockyard = 1

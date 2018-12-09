@@ -11,11 +11,11 @@ state = {
 
 	history = {
 		owner = SQI
-		add_core_of = QIE
+		
 		add_core_of = SQI
 		
 		add_claim_by = TIB
-		add_core_of = FNG
+		
 		buildings = {
 			infrastructure = 1
 		}

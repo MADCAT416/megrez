@@ -4,8 +4,8 @@ state = { #Jinxi #Western Shanxi
 	state_category = rural
 	history = {
 		owner = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		
+		
 		add_core_of = SQI
 
 		buildings = {

@@ -11,9 +11,9 @@ state = { #Shaanxi
 
 	history = {
 		owner = SQI
-		add_core_of = QIE
+		
 		add_core_of = SQI
-		add_core_of = FNG
+		
 		victory_points = {
 			4174 10
 		}

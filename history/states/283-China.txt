@@ -7,10 +7,10 @@ state = { #Gansu
 
 	history = {
 		owner = SQI
-		add_core_of = QIE
+		
 		add_core_of = SQI
 		
-		add_core_of = FNG
+		
 		victory_points = {
 			1630 3
 		}

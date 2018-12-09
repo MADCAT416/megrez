@@ -4,9 +4,9 @@ state = { #Southern Chahar
 
 	history = {
 		owner = SQI
-		add_core_of = QIE
+		
 		add_core_of = SQI
-		add_core_of = FNG
+		
 		buildings = {
 			infrastructure = 2
 

@@ -5,10 +5,10 @@ state = {
 	state_category = rural
 	history = {
 		owner = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		
+		
 		add_core_of = SQI
-		add_core_of = QIE
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

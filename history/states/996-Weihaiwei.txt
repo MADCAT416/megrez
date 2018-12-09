@@ -20,7 +20,7 @@ state = {
 			13670 2 # Weihaiwei
 		}
 		add_core_of = GEA
-		add_core_of = QIE
+		
 		add_core_of = SQI
 		
 	}

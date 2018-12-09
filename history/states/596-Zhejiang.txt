@@ -5,10 +5,10 @@ state = { #Qiantang
 	state_category = town
 	history = {
 		owner = SQI
-		add_core_of = QIE
+		
 		add_core_of = SQI
 		
-		add_core_of = FNG
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
