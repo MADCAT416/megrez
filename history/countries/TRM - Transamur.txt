@@ -80,25 +80,25 @@ set_politics = {
 			popularity = 17
 		}
 		authoritarian_democrat = {
-			popularity = 20
+			popularity = 47
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 20
 		}
 		national_populist = {
 			popularity = 2
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "이타가키 다다시"
-	picture = "Portrait_Transamur_Itakaki_tatashi.tga"
+	name = "율리 보리소비치 브리네르"
+	picture = "Portrait_Transamur_Yuliy_Borisovich_Briner.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
