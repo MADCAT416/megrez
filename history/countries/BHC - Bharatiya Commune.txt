@@ -25,8 +25,6 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 40
 
-set_cosmetic_tag = BHC_TOT
-
 add_opinion_modifier = { target = DEH modifier = embargo }
 add_opinion_modifier = { target = PRF modifier = embargo }
 add_opinion_modifier = { target = GER modifier = embargo }
