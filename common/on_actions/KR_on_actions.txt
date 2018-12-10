@@ -14,18 +14,27 @@ on_actions = {
 					}
 				}
 				country_event = kr.political.50
+				country_event = kr.political.56
 			}
 			every_country = {
 				limit = {
 					is_in_faction_with = CAN
 				}
 				country_event = kr.political.52
+				country_event = kr.political.57
 			}
 			every_country = {
 				limit = {
 					is_in_faction_with = FRA
 				}
 				country_event = kr.political.54
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = BHC
+				}
+				country_event = kr.political.58
+				country_event = kr.political.59
 			}
 		}
 	}
