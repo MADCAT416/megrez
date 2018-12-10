@@ -64,8 +64,6 @@ set_research_slots = 3
 
 add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
 reverse_add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
-diplomatic_relation = { country = GER relation = non_aggression_pact }
-give_military_access = GER
 
 add_ideas = {
 	#medium_economy

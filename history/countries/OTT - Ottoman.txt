@@ -587,6 +587,10 @@ set_autonomy = {
 	target = LYB
 	autonomous_state = kr_default_puppet
 }
+set_autonomy = {
+	target = JBS
+	autonomous_state = kr_default_puppet
+}
 
 # Resetting politics for all puppets which come earlier in the load order
 #Making sure they aren't puppets for Iran and eventual integration for 0.7 (akamber)
@@ -674,7 +678,48 @@ LYB = {
 }
 
 
+JBS = {
+set_politics = {
 
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 2
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_progressive = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 7
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 15
+		}
+		authoritarian_democrat = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 40
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
 
 
 

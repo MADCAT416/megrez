@@ -72,8 +72,6 @@ set_war_support = 0.3
 
 set_country_flag = LEC_profit_for_you
 
-diplomatic_relation = { country = AUS relation = non_aggression_pact }
-
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = BHC modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }
@@ -140,23 +138,7 @@ parties = {
 }
 
 set_autonomy = {
-	target = BEL
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = LIT
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
 	target = BAT
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = WHR
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = UKR
 	autonomous_state = kr_default_puppet
 }
 set_autonomy = {
@@ -164,56 +146,13 @@ set_autonomy = {
 	autonomous_state = kr_default_puppet
 }
 set_autonomy = {
-	target = SVK
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
 	target = POL
 	autonomous_state = kr_default_puppet
 }
 set_autonomy = {
-	target = AUS
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = GAL
-	autonomous_state = kr_default_puppet
-}
-
-set_autonomy = {
 	target = BOM
 	autonomous_state = kr_default_puppet
 }
-
-set_autonomy = {
-	target = HUN
-	autonomous_state = kr_default_puppet
-}
-
-set_autonomy = {
-	target = RRM
-	autonomous_state = kr_default_puppet
-}
-
-set_autonomy = {
-	target = FIN
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = YUG
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = BUL
-	autonomous_state = kr_default_puppet
-}set_autonomy = {
-	target = ALB
-	autonomous_state = kr_default_puppet
-}set_autonomy = {
-	target = GRE
-	autonomous_state = kr_default_puppet
-}
-
 set_autonomy = {
 	target = MAF
 	autonomous_state = kr_autonomous_puppet
@@ -224,10 +163,6 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = GEA
-	autonomous_state = kr_autonomous_puppet
-}
-set_autonomy = {
-	target = MOR
 	autonomous_state = kr_autonomous_puppet
 }
 
