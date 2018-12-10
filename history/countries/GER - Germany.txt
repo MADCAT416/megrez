@@ -136,7 +136,10 @@ parties = {
 	elections_allowed = no
 
 }
-
+set_autonomy = {
+	target = BEL
+	autonomous_state = kr_default_puppet
+}
 set_autonomy = {
 	target = BAT
 	autonomous_state = kr_default_puppet
