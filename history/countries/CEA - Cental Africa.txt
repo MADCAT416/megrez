@@ -54,9 +54,6 @@ set_politics = {
 set_stability = 0.4
 set_war_support = 0.4
 
-create_faction = Holy_Africa_Empire
-add_to_faction = CEA
-
 create_country_leader = {
 	name = "보카사 1세"
 	picture = "Portrait_CEA_Bokassa.tga"
