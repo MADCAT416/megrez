@@ -24,9 +24,6 @@ set_technology = {
 
 add_opinion_modifier = { target = OTT modifier = embargo }
 
-create_faction = Arab_League
-add_to_faction = EGY
-
 set_politics = {
 
   parties = {
