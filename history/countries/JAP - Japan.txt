@@ -119,10 +119,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = Co_Prosperity_Sphere
-add_to_faction = JAP
-add_to_faction = SQI
-
 ### Head of States ###
 
 create_country_leader = {
