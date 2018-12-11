@@ -48,19 +48,8 @@ add_to_faction = CAN
 add_to_faction = CAF
 add_to_faction = DEH
 add_to_faction = AST
-add_to_faction = SRD
 add_to_faction = NEE
-add_to_faction = PKS
-add_to_faction = SAF
-add_to_faction = RYU
-add_to_faction = VIE
-add_to_faction = CAM
-add_to_faction = TAI
-add_to_faction = INS
-add_to_faction = MLY
-add_to_faction = SAU
-add_to_faction = OMA
-add_to_faction = YEM
+
 
 set_autonomy = {
 	target = NEE

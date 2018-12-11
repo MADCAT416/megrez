@@ -189,17 +189,10 @@ add_to_faction = BUL
 add_to_faction = ALB
 add_to_faction = GRE
 add_to_faction = POR
-add_to_faction = OTT
-add_to_faction = MOR
 add_to_faction = MAF
 add_to_faction = DEN
 add_to_faction = GEA
 add_to_faction = AOG
-add_to_faction = LYB
-add_to_faction = SOM
-add_to_faction = ETH
-add_to_faction = JBS
-
 
 add_namespace = {
 	name = "ger_unit_leader"
