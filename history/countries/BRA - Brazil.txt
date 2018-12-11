@@ -68,6 +68,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Sao_Paulo_Forum
+add_to_faction = BRA
+add_to_faction = BOL
+add_to_faction = CEN
+
 set_convoys = 50
 
 add_ideas = {

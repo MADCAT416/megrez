@@ -26,6 +26,310 @@ set_technology = {
 	shipbuild_basics = 1
 }
 
+create_faction = Irkutsk_Pact
+add_to_faction = RUS
+add_to_faction = SIK 
+add_to_faction = TIB
+add_to_faction = AFG
+add_to_faction = MON
+add_to_faction = MAN
+add_to_faction = KOR
+add_to_faction = NEP
+add_to_faction = BHU
+
+set_autonomy = {
+	target = SIK
+	autonomous_state = kr_occupied_puppet
+}
+
+set_autonomy = {
+	target = TIB
+	autonomous_state = kr_occupied_puppet
+}
+
+set_autonomy = {
+	target = AFG
+	autonomous_state = kr_occupied_puppet
+}
+
+set_autonomy = {
+	target = MON
+	autonomous_state = kr_occupied_puppet
+}
+
+set_autonomy = {
+	target = MAN
+	autonomous_state = kr_occupied_puppet
+}
+
+set_autonomy = {
+	target = KOR
+	autonomous_state = kr_occupied_puppet
+}
+
+SIK = {
+    set_politics = {
+
+        parties = {
+            totalist = {
+                popularity = 0
+            }
+            democratic_socialist = {
+                popularity = 0
+            }
+            syndicalist = {
+                popularity = 2
+            }
+            social_progressive = {
+                popularity = 4
+            }
+            social_liberal = {
+                popularity = 6
+            }
+            market_liberal = {
+                popularity = 8
+            }
+            social_conservative = {
+                popularity = 12
+            }
+            authoritarian_democrat = {
+                popularity = 41
+            }
+            paternal_autocrat = {
+                popularity = 19
+            }
+            national_populist = {
+                popularity = 8
+            }
+        }
+
+        ruling_party = authoritarian_democrat
+        last_election = "1930.11.9"
+        election_frequency = 48
+        elections_allowed = no
+    }
+}
+
+TIB = {
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 2
+		}
+		social_progressive = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 8
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 19
+		}
+		paternal_autocrat = {
+			popularity = 41
+		}
+		national_populist = {
+			popularity = 8
+		}
+	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+}
+
+AFG = {
+    set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 5
+		}
+		democratic_socialist = {
+			popularity = 7
+		}
+		syndicalist = {
+			popularity = 3
+		}
+		social_progressive = {
+			popularity = 2
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 3
+		}
+		social_conservative = {
+			popularity = 7
+		}
+		authoritarian_democrat = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 40
+		}
+		national_populist = {
+			popularity = 10
+		}
+	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+}
+
+MON = {
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_progressive = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 60
+		}
+		authoritarian_democrat = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 20
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = social_conservative
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+    }
+}
+
+MAN = {
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_progressive = {
+			popularity = 2
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 15
+		}
+		paternal_autocrat = {
+			popularity = 47
+		}
+		national_populist = {
+			popularity = 12
+		}
+	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+
+KOR = {
+set_stability = 0.5
+set_war_support = 0.4
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 1
+		}
+		democratic_socialist = {
+			popularity = 3
+		}
+		syndicalist = {
+			popularity = 1
+		}
+		social_progressive = {
+			popularity = 5
+		}
+		social_liberal = {
+			popularity = 5
+		}
+		market_liberal = {
+			popularity = 5
+		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+			popularity = 30
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 45
+		}
+	}
+
+	ruling_party = national_populist
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+}
+
 add_opinion_modifier = { target = SOV modifier = embargo }
 add_opinion_modifier = { target = TRM modifier = embargo }
 add_opinion_modifier = { target = LEC modifier = LEC_member }
