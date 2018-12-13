@@ -9,6 +9,7 @@ state = {
 		owner = MAH
 
 		add_core_of = MAH
+		add_core_of = MOR
 		buildings = {
 			infrastructure = 2
 		}

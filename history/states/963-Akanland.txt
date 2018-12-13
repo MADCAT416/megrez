@@ -6,6 +6,7 @@ state = {
 		owner = WAF
 		add_core_of = MAF
 		add_core_of = WAF
+		add_Core_of = GNE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

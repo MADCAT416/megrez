@@ -5,7 +5,7 @@ state = {
 	history = {
 		owner = WAF
 		add_core_of = WAF
-
+		add_core_of = TUA
 		buildings = {
 
 			infrastructure = 2

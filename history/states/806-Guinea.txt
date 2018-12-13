@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = WAF
 		add_core_of = WAF
+		add_core_of = GNE
 		victory_points = {
 			1909 1 #Conakry
 		}

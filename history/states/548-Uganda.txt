@@ -11,6 +11,7 @@ state = {
 		owner = CEA
 		add_core_of = CEA 
 		add_core_of = MAF
+		add_core_of = TNZ
 		victory_points = { 12989 3 } #Kampala
 		buildings = {
 			infrastructure = 3

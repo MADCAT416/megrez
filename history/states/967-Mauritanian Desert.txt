@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = MAH
 		add_core_of = MAH
+		add_core_of = TUA
 		buildings = {
 			infrastructure = 1
 

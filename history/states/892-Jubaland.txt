@@ -10,6 +10,7 @@ state = {
 		add_core_of = MAF
 		add_core_of = CEA
 		add_core_of = SOM
+		add_core_of = TNZ
 		buildings = {
 			infrastructure = 3
 		}

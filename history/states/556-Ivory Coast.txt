@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = WAF
 		add_core_of = WAF
+		add_core_of = TUA
 		victory_points = { 12751 1 } #Bamako
 		buildings = {
 			infrastructure = 3
