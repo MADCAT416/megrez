@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = SAF
 		add_core_of = SAF
+		add_core_of = MLW
 		buildings = {
 			infrastructure = 3
 		}

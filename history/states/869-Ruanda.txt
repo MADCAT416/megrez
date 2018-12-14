@@ -8,7 +8,7 @@ state = {
 		owner = CEA
 		add_core_of = MAF
 		add_core_of = CEA
-		add_core_of = TNZ
+		add_core_of = RWA
 		buildings = {
 			infrastructure = 2
 
