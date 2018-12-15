@@ -53,6 +53,87 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "마누엘 모라"
+	picture = "Portrait_COS_Manuel_Mora.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마누엘 모라"
+	picture = "Portrait_COS_Manuel_Mora.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마누엘 모라"
+	picture = "Portrait_COS_Manuel_Mora.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "다니엘 오두베르 키로스"
+	picture = "Portrait_COS_Daniel_Oduber_Quiros.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "다니엘 오두베르 키로스"
+	picture = "Portrait_COS_Daniel_Oduber_Quiros.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호세 호아킨 트레호스 페르난데스"
+	picture = "Portrait_COS_Jose_Joaquin_Trejos_Fernandez.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호세 호아킨 트레호스 페르난데스"
+	picture = "Portrait_COS_Jose_Joaquin_Trejos_Fernandez.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호르헤 곤살레스 마르텐"
+	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호르헤 곤살레스 마르텐"
+	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호르헤 곤살레스 마르텐"
+	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+
 ### Corps Commander
 create_corps_commander = { #Auto-Generated
 	name = "Tinoco"

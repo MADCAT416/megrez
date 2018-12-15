@@ -9,7 +9,7 @@ state = {
 		owner = CEA
 		add_core_of = MAF
 		add_core_of = CEA
-		add_core_of = KAM
+		add_core_of = GAB
 		victory_points = {
 			5139 1
 		}
