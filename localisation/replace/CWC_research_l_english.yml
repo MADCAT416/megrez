@@ -343,7 +343,7 @@
  INDUSTRIAL_ESTATE:0 "공단 계획"
  LOGISTIC_INDUSTRY:0 "군수산업단지"
  
- streamlined_line_a:0 "현대형 유연라인"
+ flexible_line_a:0 "현대형 유연라인"
  streamlined_line_a:0 "현대형 간결라인"
  streamlined_line_b:0 "현대형 조립라인 1"
  streamlined_line_c:0 "현대형 조립라인 2"
