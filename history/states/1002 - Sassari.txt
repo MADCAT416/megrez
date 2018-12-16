@@ -17,6 +17,7 @@ state = {
 		add_core_of = PAP
 		add_core_of = ITA
 		add_core_of = SRI
+		add_core_of = SRD
 	provinces = {
 		6891 9772 9863 11755
 	}

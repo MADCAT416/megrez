@@ -91,50 +91,50 @@ set_politics = {
 }
 
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
-	name = "Ferdinando III Borbone"
-	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
+	name = "라니엘리 디 부르보네"
+	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}

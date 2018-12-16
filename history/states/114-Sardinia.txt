@@ -10,6 +10,7 @@ state = {
 		add_core_of = PAP
 		add_core_of = ITA
 		add_core_of = SRI
+		add_core_of = SRD
 		victory_points = { 11773 3 } #Cagliari
 		buildings = {
 			infrastructure = 5
