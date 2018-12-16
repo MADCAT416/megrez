@@ -11,8 +11,8 @@
 ################
 
 ### wtt_decisions_l_english
-improved_worker_conditions:0 "Improved Worker Conditions"
-improved_worker_conditions_desc:0 "Factory work is hard and fraught with many hazards. Improving the conditions for our factory workers will reduce output in the short term, but the long term benefits are worth it."
+improved_worker_conditions:0 "노동 환경 개선"
+improved_worker_conditions_desc:0 "공장 일은 고되고 위험천만합니다. 우리의 공장 노동자들이 일하는 환경을 개선한다면 단기적으로는 생산량이 줄겠지만, 장기적으로는 충분한 가치가 입증될 것입니다."
 
 ### deployment_l_english
 DIVISION_EQUIPMENT:0 "사단 장비"
@@ -75,4 +75,4 @@ maintheme:0 "사랑하는 조국이여"
 #RELEASE_NATION_TITLE:0 "Release nation"
 #RELEASE_NATION_DESC:0 "Do you want to liberate $COUNTRY|H$ in $LIST|H$?"
 RELEASE_NATION_TITLE:0 "경고"
-RELEASE_NATION_DESC:0 "§R국가 수동해방에 관련하여 발생하는 오류에 대해서 카이저라이히는 책임지지 않습니다!§!"
+RELEASE_NATION_DESC:0 "§R국가 수동해방에 관련하여 발생하는 오류에 대해서 카이저라이히와 메그레즈는 책임지지 않습니다!§!"
