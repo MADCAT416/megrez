@@ -37,7 +37,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1960
+		start_year = 1955
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 0 }
@@ -81,7 +81,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 2 }
@@ -129,7 +129,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 4 }
@@ -171,7 +171,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 6 }
@@ -212,7 +212,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 8 }
@@ -253,7 +253,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 10 }
@@ -294,7 +294,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 12 }
@@ -331,7 +331,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = -2 y = 14 }
@@ -374,7 +374,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 2 }
@@ -428,7 +428,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 4 }
@@ -474,7 +474,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 6 }
@@ -520,7 +520,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 8 }
@@ -566,7 +566,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 10 }
@@ -612,7 +612,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 12 }
@@ -654,7 +654,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 14 }
@@ -697,7 +697,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 2 }
@@ -756,7 +756,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 4 }
@@ -788,7 +788,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 6 }
@@ -819,7 +819,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 8 }
@@ -850,7 +850,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 10 }
@@ -881,7 +881,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 12 }
@@ -908,7 +908,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 14 }
@@ -941,7 +941,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 2 }
@@ -985,7 +985,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 4 }
@@ -1027,7 +1027,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 6 }
@@ -1068,7 +1068,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 8 }
@@ -1109,7 +1109,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 10 }
@@ -1150,7 +1150,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 12 }
@@ -1187,7 +1187,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 14 }
@@ -1237,7 +1237,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 2 }
@@ -1285,7 +1285,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 4 }
@@ -1333,7 +1333,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 6 }
@@ -1380,7 +1380,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 8 }
@@ -1427,7 +1427,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 10 }
@@ -1474,7 +1474,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 12 }
@@ -1516,7 +1516,7 @@ technologies = {
 			motorised_infantry = 1
 		}
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 14 }
@@ -1567,7 +1567,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 2 }
@@ -1614,7 +1614,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 4 }
@@ -1661,7 +1661,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 6 }
@@ -1707,7 +1707,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 8 }
@@ -1753,7 +1753,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 10 }
@@ -1799,7 +1799,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 12 }
@@ -1840,7 +1840,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 14 }
@@ -1890,7 +1890,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 2 }
@@ -1925,7 +1925,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 4 }
@@ -1973,7 +1973,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 6 }
@@ -2020,7 +2020,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 8 }
@@ -2067,7 +2067,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 10 }
@@ -2114,7 +2114,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 12 }
@@ -2157,7 +2157,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 2000
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 14 }

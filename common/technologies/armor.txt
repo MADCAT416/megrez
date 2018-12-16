@@ -12,7 +12,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1980
+		start_year = 1970
 		
 		folder = {
 			name = armour_folder
@@ -46,7 +46,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1990
+		start_year = 1980
 		
 		folder = {
 			name = armour_folder
@@ -80,7 +80,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1995
+		start_year = 1990
 		
 		folder = {
 			name = armour_folder
@@ -114,7 +114,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2000
+		start_year = 1995
 		
 		folder = {
 			name = armour_folder
@@ -148,7 +148,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2005
+		start_year = 2000
 		
 		folder = {
 			name = armour_folder
@@ -177,7 +177,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2010
+		start_year = 2005
 		
 		folder = {
 			name = armour_folder
@@ -211,7 +211,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1960
+		start_year = 1955
 		
 		folder = {
 			name = armour_folder
@@ -249,7 +249,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1965
+		start_year = 1960
 		
 		folder = {
 			name = armour_folder
@@ -297,7 +297,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1970
+		start_year = 1965
 		
 		folder = {
 			name = armour_folder
@@ -341,7 +341,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1980
+		start_year = 1975
 		
 		folder = {
 			name = armour_folder
@@ -384,7 +384,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1990
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
@@ -423,7 +423,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1995
+		start_year = 1990
 		
 		folder = {
 			name = armour_folder
@@ -493,7 +493,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1960
+		start_year = 1955
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 0 }
@@ -593,7 +593,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1970
+		start_year = 1965
 		
 		ai_will_do = {
 			factor = 1
@@ -627,7 +627,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1970
+		start_year = 1965
 		
 		folder = {
 			name = armour_folder
@@ -675,7 +675,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1975
+		start_year = 1970
 		
 		ai_will_do = {
 			factor = 1
@@ -711,7 +711,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }
@@ -753,7 +753,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 2 }
@@ -790,7 +790,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 4 }
@@ -827,7 +827,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 6 }
@@ -864,7 +864,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 8 }
@@ -901,7 +901,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 10 }
@@ -932,7 +932,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 2 }
@@ -963,7 +963,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 4 }
@@ -994,7 +994,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 6 }
@@ -1024,7 +1024,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 8 }
@@ -1050,7 +1050,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 10 }
@@ -1084,7 +1084,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 2 }
@@ -1117,7 +1117,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 4 }
@@ -1150,7 +1150,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 6 }
@@ -1182,7 +1182,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
@@ -1210,7 +1210,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 10 }
@@ -1239,7 +1239,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 0 }
@@ -1273,7 +1273,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1970
+		start_year = 1965
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 2 }
@@ -1307,7 +1307,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 4 }
@@ -1341,7 +1341,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1990
+		start_year = 1985
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 6 }
@@ -1375,7 +1375,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1995
+		start_year = 1990
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 8 }
@@ -1409,7 +1409,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 2000
+		start_year = 1995
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 10 }
