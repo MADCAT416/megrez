@@ -3,51 +3,27 @@ spriteTypes = {
 	### 보병 무장
 	SpriteType = {
 		name = "GFX_infantry_weapons_1_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_1.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_2_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_2.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_3_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_3.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_4_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_4.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_5_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_5.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_6_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_7_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_7.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_8_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_8.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_9_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_9.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_10_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_10.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_11_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_11.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_weapons_12_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/infantry_weapons_12.dds"
+		texturefile = "gfx/interface/technologies/01_infantry/infantry_equipment_6.dds"
 	}
 
 	SpriteType = {
@@ -75,6 +51,10 @@ spriteTypes = {
 		name = "GFX_night_vision_4_medium"
 		texturefile = "gfx/interface/technologies/01_infantry/night_vision_4.dds"
 	}
+	SpriteType = {
+		name = "GFX_night_vision_5_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/night_vision_5.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_Bulletproof_vest_1_medium"
@@ -93,6 +73,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/01_infantry/Bulletproof_vest_4.dds"
 	}
 	SpriteType = {
+		name = "GFX_Bulletproof_vest_5_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/Bulletproof_vest_5.dds"
+	}
+	SpriteType = {
 		name = "GFX_etc_infantry_equipments_1_medium"
 		texturefile = "gfx/interface/technologies/01_infantry/etc_infantry_equipments_1.dds"
 	}
@@ -103,6 +87,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_etc_infantry_equipments_3_medium"
 		texturefile = "gfx/interface/technologies/01_infantry/etc_infantry_equipments_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_etc_infantry_equipments_4_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/etc_infantry_equipments_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_etc_infantry_equipments_5_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/etc_infantry_equipments_5.dds"
 	}
 	
 	SpriteType = {
@@ -120,6 +112,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_support_weapons_4_medium"
 		texturefile = "gfx/interface/technologies/01_infantry/support_weapons_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_5_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/support_weapons_equipment_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_elite_forces_2_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/elite_forces_2.dds"
 	}
 	
 	SpriteType = {
@@ -142,52 +143,16 @@ spriteTypes = {
 		name = "GFX_airborne_5_medium"
 		texturefile = "gfx/interface/technologies/01_infantry/airborne_5.dds"
 	}
+	### 차량
 	SpriteType = {
-		name = "GFX_airborne_6_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/airborne_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_airborne_7_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/airborne_7.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_heliborne_1_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_2_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_3_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_4_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_4.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_5_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_5.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_6_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_7_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_7.dds"
-	}
-	SpriteType = {
-		name = "GFX_heliborne_8_medium"
-		texturefile = "gfx/interface/technologies/01_infantry/heliborne_8.dds"
+		name = "GFX_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/01_infantry/motorized_equipment_1.dds"
 	}
 	
 	### 지원 중대
 	SpriteType = {
 		name = "GFX_tech_support_medium"
-		texturefile = "gfx/interface/technologies/02_support/tech_support.dds"
+		texturefile = "gfx/interface/technologies/02_support/support_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -393,96 +358,92 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/02_support/tech_signal_company_7.dds"
 	}
 	
-	### 지원 중대
+	### 기갑 테크
+	SpriteType = {
+		name = "GFX_active_protection_system_1_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_active_protection_system_2_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_active_protection_system_3_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_active_protection_system_4_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_active_protection_system_5_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_active_protection_system_6_medium"
+		texturefile = "gfx/interface/technologies/03_armor/active_protection_system_6.dds"
+	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_1_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_1.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_2_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_2.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_3_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_3.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_4_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_4.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_5_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_5.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_main_battle_tank_6_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_6.dds"
+		texturefile = "gfx/interface/technologies/03_armor/modern_tank_equipment_6.dds"
 	}
-	SpriteType = {
-		name = "GFX_main_battle_tank_7_medium"
-		texturefile = "gfx/interface/technologies/03_armor/main_battle_tank_7.dds"
-	}
-	
+	### 경전차 장비
 	SpriteType = {
 		name = "GFX_light_tank_1_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_1.dds"
+		texturefile = "gfx/interface/technologies/03_armor/light_tank_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_light_tank_2_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_2.dds"
+		texturefile = "gfx/interface/technologies/03_armor/light_tank_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_light_tank_3_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_tank_4_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_4.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_tank_5_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_5.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_tank_6_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_tank_7_medium"
-		texturefile = "gfx/interface/technologies/03_armor/light_tank_7.dds"
+		texturefile = "gfx/interface/technologies/03_armor/light_tank_equipment_3.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry_1_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_1.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_2_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_2.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_3_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_3.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_4_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_4.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_5_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_5.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_6_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_mechanised_infantry_7_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_7.dds"
-	}
-	SpriteType = {
-		name = "GFX_mechanised_infantry_8_medium"
-		texturefile = "gfx/interface/technologies/03_armor/mechanised_infantry_8.dds"
+		texturefile = "gfx/interface/technologies/03_armor/mechanized_equipment_6.dds"
 	}
 	
 	SpriteType = {
@@ -501,53 +462,538 @@ spriteTypes = {
 		name = "GFX_armored_personnel_carrier_4_medium"
 		texturefile = "gfx/interface/technologies/03_armor/armored_personnel_carrier_4.dds"
 	}
+	SpriteType = {
+		name = "GFX_armored_personnel_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/03_armor/armored_personnel_carrier_5.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_airborne_ifv_1_medium"
-		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_1.dds"
+		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_airborne_ifv_2_medium"
-		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_2.dds"
+		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_airborne_ifv_3_medium"
-		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_3.dds"
+		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_airborne_ifv_4_medium"
-		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_4.dds"
+		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_airborne_ifv_5_medium"
+		texturefile = "gfx/interface/technologies/03_armor/airborne_ifv_equipment_5.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_1_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_1.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_2_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_2.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_3_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_3.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_4_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_4.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_5_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_5.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_amphibious_assault_vehicle_6_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_6.dds"
-	}
-	SpriteType = {
-		name = "GFX_amphibious_assault_vehicle_7_medium"
-		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_7.dds"
+		texturefile = "gfx/interface/technologies/03_armor/amphibious_assault_vehicle_equipment_6.dds"
 	}
 	
+	##### 화력지원 테크
+	## 야포
+	SpriteType = {
+		name = "GFX_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_6_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_equipment_6.dds"
+	}
+	
+	### 자주포
+	SpriteType = {
+		name = "GFX_spa_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_artillery_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_spa_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_artillery_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_spa_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_artillery_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_spa_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_artillery_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_spa_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_artillery_equipment_5.dds"
+	}
+	
+	### 야포공학
+	SpriteType = {
+		name = "GFX_artillery_engineering_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_engineering_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_engineering_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_engineering_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_engineering_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_engineering_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_engineering_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_engineering_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_engineering_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/artillery_engineering_5.dds"
+	}
+	### 자주로켓포
+	SpriteType = {
+		name = "GFX_motorized_rocket_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_6_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/motorized_rocket_equipment_6.dds"
+	}
+	###대전차로켓 공학
+	SpriteType = {
+		name = "GFX_antitank_engineering_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/antitank_engineering_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_engineering_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/antitank_engineering_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_engineering_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/antitank_engineering_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_engineering_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/antitank_engineering_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_engineering_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/antitank_engineering_5.dds"
+	}
+	###대전차로켓
+	SpriteType = {
+		name = "GFX_infantry_at_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_6_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_rocket_equipment_6.dds"
+	}
+	###대전차미사일
+	SpriteType = {
+		name = "GFX_antitank_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_antitank_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_tank_equipment_5.dds"
+	}
+	### 휴대용 대공 미사일
+	SpriteType = {
+		name = "GFX_manpads_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/manpads_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_manpads_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/manpads_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_manpads_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/manpads_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_manpads_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/manpads_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_manpads_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/manpads_equipment_5.dds"
+	}
+	### 대공미사일 차량
+	SpriteType = {
+		name = "GFX_antiair_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiair_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiair_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiair_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiair_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiair_6_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/modern_tank_aa_equipment_6.dds"
+	}
+	### 자주대공포 장비
+	SpriteType = {
+		name = "GFX_SPAAG_1_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPAAG_2_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPAAG_3_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPAAG_4_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPAAG_5_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPAAG_6_medium"
+		texturefile = "gfx/interface/technologies/04_artillery/anti_air_equipment_6.dds"
+	}
+	##### 해군 테크
+	## 기본함
+	SpriteType = {
+		name = "GFX_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_5_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_6_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_frigate_7_medium"
+		texturefile = "gfx/interface/technologies/06_naval/frigate_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_1_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_2_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_3_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_4_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_5_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_6_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_7_medium"
+		texturefile = "gfx/interface/technologies/06_naval/destroyer_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_1_medium"
+		texturefile = "gfx/interface/technologies/06_naval/light_cruiser_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_2_medium"
+		texturefile = "gfx/interface/technologies/06_naval/light_cruiser_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_3_medium"
+		texturefile = "gfx/interface/technologies/06_naval/light_cruiser_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_4_medium"
+		texturefile = "gfx/interface/technologies/06_naval/light_cruiser_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_5_medium"
+		texturefile = "gfx/interface/technologies/06_naval/light_cruiser_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_battle_cruiser_1_medium"
+		texturefile = "gfx/interface/technologies/06_naval/battle_cruiser_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_battle_cruiser_2_medium"
+		texturefile = "gfx/interface/technologies/06_naval/battle_cruiser_2.dds"
+	}
+	## 대형함
+	SpriteType = {
+		name = "GFX_battleship_1_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/battleship_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_1_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_2_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_3_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_4_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_assault_carrier_6_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/light_carrier_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_1_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_2_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_3_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_4_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_6_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/carrier_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_carrier_1_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/super_carrier_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_carrier_2_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/super_carrier_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_carrier_3_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/super_carrier_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_carrier_4_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/super_carrier_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/07_naval_capital/super_carrier_5.dds"
+	}
+	## 잠수함
+	SpriteType = {
+		name = "GFX_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/submarine_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_large_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/large_submarine_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_attack_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_attack_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_attack_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_attack_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_attack_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_attack_submarine_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_attack_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_attack_submarine_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_attack_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_attack_submarine_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_cruise_missile_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_cruise_missile_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_cruise_missile_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_cruise_missile_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_cruise_missile_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_cruise_missile_submarine_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_cruise_missile_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_cruise_missile_submarine_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_nuclear_cruise_missile_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/08_naval_submarine/nuclear_cruise_missile_submarine_5.dds"
+	}
 	##### 해병 테크
 	## 해병
 	SpriteType = {
@@ -665,55 +1111,104 @@ spriteTypes = {
 	# 전투기
 	SpriteType = {
 		name = "GFX_jet_fighter_1_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_fighter_2_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_fighter_3_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_fighter_4_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_fighter_5_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_5.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_fighter_6_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/jet_fighter_equipment_6.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/fighter_equipment_6.dds"
+	}
+	# 함재 전투기
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_2_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_3_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_4_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_5_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_jet_fighter_6_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_fighter_equipment_6.dds"
 	}
 	
 	# 중 전투기
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_1_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_2_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_3_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_4_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_5_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_5.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_jet_fighter_6_medium"
-		texturefile = "gfx/interface/technologies/11_air_techs/heavy_jet_fighter_equipment_6.dds"
+		texturefile = "gfx/interface/technologies/11_air_techs/heavy_fighter_equipment_6.dds"
 	}
-
+	# 함재 중 전투기
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_2_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_3_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_4_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_5_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_cv_heavy_jet_fighter_6_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/cv_CAS_equipment_6.dds"
+	}
 	# 경 전투기
 	SpriteType = {
 		name = "GFX_light_fighter_1_medium"
@@ -727,7 +1222,10 @@ spriteTypes = {
 		name = "GFX_light_fighter_3_medium"
 		texturefile = "gfx/interface/technologies/11_air_techs/light_fighter_equipment_3.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_light_fighter_4_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/light_fighter_equipment_4.dds"
+	}
 	# 공격기
 	SpriteType = {
 		name = "GFX_CAS_1_medium"
@@ -741,7 +1239,10 @@ spriteTypes = {
 		name = "GFX_CAS_3_medium"
 		texturefile = "gfx/interface/technologies/11_air_techs/CAS_equipment_3.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_CAS_4_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/CAS_equipment_4.dds"
+	}
 	# 대잠초계기
 	SpriteType = {
 		name = "GFX_naval_bomber_1_medium"
@@ -755,23 +1256,114 @@ spriteTypes = {
 		name = "GFX_naval_bomber_3_medium"
 		texturefile = "gfx/interface/technologies/11_air_techs/nav_bomber_equipment_3.dds"
 	}
+	SpriteType = {
+		name = "GFX_naval_bomber_4_medium"
+		texturefile = "gfx/interface/technologies/11_air_techs/nav_bomber_equipment_4.dds"
+	}
 	
+	# 전략 폭격기
+	SpriteType = {
+		name = "GFX_strategic_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_bomber_4_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_bomber_5_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_bomber_6_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/strat_bomber_equipment_6.dds"
+	}
 	# 제트 전략 폭격기
 	SpriteType = {
 		name = "GFX_jet_strategic_bomber_1_medium"
-		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strategic_bomber_1.dds"
-	}	
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_4_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_5_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_6_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/jet_strat_bomber_equipment_6.dds"
+	}
 	# 초음속 전략 폭격기
 	SpriteType = {
 		name = "GFX_supersonic_strategic_bomber_1_medium"
-		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strategic_bomber_1.dds"
-	}	
+		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strat_bomber_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_supersonic_strategic_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strat_bomber_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_supersonic_strategic_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strat_bomber_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_supersonic_strategic_bomber_4_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strat_bomber_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_supersonic_strategic_bomber_5_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/supersonic_strat_bomber_equipment_5.dds"
+	}
 	# 스텔스 전략 폭격기
 	SpriteType = {
 		name = "GFX_stealth_strategic_bomber_1_medium"
-		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strategic_bomber_1.dds"
-	}	
+		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strat_bomber_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_stealth_strategic_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strat_bomber_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_stealth_strategic_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strat_bomber_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_stealth_strategic_bomber_4_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strat_bomber_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_stealth_strategic_bomber_5_medium"
+		texturefile = "gfx/interface/technologies/12_air_bomber/stealth_strat_bomber_equipment_5.dds"
+	}
 
+	# 헬기이론
+	SpriteType = {
+		name = "GFX_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/helicopter_1.dds"
+	}
+	# 정찰헬기
+	SpriteType = {
+		name = "GFX_recon_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/recon_helicopter_1.dds"
+	}
 	# 공격 헬기
 	SpriteType = {
 		name = "GFX_attack_helicopter_1_medium"
@@ -788,6 +1380,57 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_attack_helicopter_4_medium"
 		texturefile = "gfx/interface/technologies/13_air_helicopter/attack_helicopter_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_helicopter_5_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/attack_helicopter_equipment_5.dds"
+	}
+	### 수송헬기
+	SpriteType = {
+		name = "GFX_heliborne_1_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heliborne_2_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heliborne_3_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heliborne_4_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_heliborne_5_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_heliborne_6_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/heliborne_equipment_6.dds"
+	}
+	# 대잠 헬기
+	SpriteType = {
+		name = "GFX_maritime_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/maritime_helicopter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_maritime_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/maritime_helicopter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_maritime_helicopter_3_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/maritime_helicopter_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_maritime_helicopter_4_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/maritime_helicopter_4.dds"
+	}
+	# 의무헬기
+	SpriteType = {
+		name = "GFX_rescue_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/13_air_helicopter/rescue_helicopter_1.dds"
 	}
 	
 	# super Carriers #
@@ -892,11 +1535,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_nuke_rocket_engines_medium"
-		texturefile = "gfx/interface/technologies/14_electronics/nukes_icbm.dds"
-	}
-	
-	SpriteType = {
 		name = "GFX_icbm_missile_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/14_electronics/nuke_missile.dds"
 	}
@@ -941,6 +1579,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_jet_engines_6_medium"
 		texturefile = "gfx/interface/technologies/14_electronics/jet_engines_6.dds"
+	}
+	# 중 로켓 엔진
+	SpriteType = {
+		name = "GFX_heavy_rocket_engine_1_medium"
+		texturefile = "gfx/interface/technologies/14_electronics/heavy_rocket_engine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_rocket_engine_2_medium"
+		texturefile = "gfx/interface/technologies/14_electronics/heavy_rocket_engine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_rocket_engine_3_medium"
+		texturefile = "gfx/interface/technologies/14_electronics/heavy_rocket_engine_3.dds"
 	}
 	# 전역 탄도 미사일
 	SpriteType = {
@@ -994,38 +1645,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_rdf6_medium"
 		texturefile = "gfx/interface/technologies/14_electronics/rdf6.dds"
-	}
-	
-	
-	# 전역 탄도 미사일
-	SpriteType = {
-		name = "GFX_theatre_ballistic_missile_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_1.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_theatre_ballistic_missile_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_theatre_ballistic_missile_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_3.dds"
-	}
-	# 대륙간 탄도 미사일
-	SpriteType = {
-		name = "GFX_intercontinental_ballistic_missile_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_1.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_intercontinental_ballistic_missile_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_intercontinental_ballistic_missile_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/guided_missile_3.dds"
 	}
 	
 

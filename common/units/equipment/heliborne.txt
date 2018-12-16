@@ -38,15 +38,15 @@ equipments = {
 		}
 	}
 
-	heliborne_vehicle_1 = {
+	heliborne_equipment_1 = {
 		archetype = heliborne_equipment
 		priority = 40
 		visual_level = 0
 	}
 
-	heliborne_vehicle_2 = {
+	heliborne_equipment_2 = {
 		archetype = heliborne_equipment
-		parent = heliborne_vehicle_1
+		parent = heliborne_equipment_1
 		priority = 50
 		visual_level = 1
 
@@ -71,9 +71,9 @@ equipments = {
 		}
 	}
 
-	heliborne_vehicle_3 = {
+	heliborne_equipment_3 = {
 		archetype = heliborne_equipment
-		parent = heliborne_vehicle_2
+		parent = heliborne_equipment_2
 		priority = 60
 		visual_level = 2
 		
@@ -98,9 +98,9 @@ equipments = {
 		}
 	}
 	
-	heliborne_vehicle_4 = {
+	heliborne_equipment_4 = {
 		archetype = heliborne_equipment
-		parent = heliborne_vehicle_3
+		parent = heliborne_equipment_3
 		priority = 70
 		visual_level = 3
 		
@@ -125,9 +125,36 @@ equipments = {
 		}
 	}
 	
-	heliborne_vehicle_5 = {
+	heliborne_equipment_5 = {
 		archetype = heliborne_equipment
-		parent = heliborne_vehicle_4
+		parent = heliborne_equipment_4
+		priority = 80
+		visual_level = 4
+		
+		maximum_speed = 14
+
+		#Defensive Abilities
+		defense = 54
+		breakthrough = 11
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+		
+		build_cost_ic = 23
+		resources = {
+			steel = 5
+			oil = 4
+			tungsten = 3
+		}
+	}
+	
+	heliborne_equipment_6 = {
+		archetype = heliborne_equipment
+		parent = heliborne_equipment_5
 		priority = 80
 		visual_level = 4
 		

@@ -8,36 +8,36 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
 
 ### Generic French division and brigade names for French-speaking minors and releasable nations
 
-FREN_INF_01 =
+FREN_INF_01 = 
 {
 	name = "Infantry Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -48,11 +48,11 @@ FREN_INF_01 =
 
 	fallback_name = "%dème Division d'Infanterie"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dère Division d'Infanterie" }
+		1 = { "%dème Division d'Infanterie" }
 		2 = { "%dème Division d'Infanterie" }
 		3 = { "%dème Division d'Infanterie" }
 		4 = { "%dème Division d'Infanterie" }
@@ -75,11 +75,11 @@ FREN_INF_01 =
 	}
 }
 
-FREN_INFB_01 =
+FREN_INFB_01 = 
 {
 	name = "Infantry Brigade"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -90,11 +90,11 @@ FREN_INFB_01 =
 
 	fallback_name = "%dème Brigade d'Infanterie"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dère Brigade d'Infanterie" }
+		1 = { "%dème Brigade d'Infanterie" }
 		2 = { "%dème Brigade d'Infanterie" }
 		3 = { "%dème Brigade d'Infanterie" }
 		4 = { "%dème Brigade d'Infanterie" }
@@ -117,11 +117,11 @@ FREN_INFB_01 =
 	}
 }
 
-FREN_CAV_01 =
+FREN_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -132,7 +132,7 @@ FREN_CAV_01 =
 
 	fallback_name = "%dème Division de Cavalerie"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -149,11 +149,11 @@ FREN_CAV_01 =
 	}
 }
 
-FREN_MOT_01 =
+FREN_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -164,7 +164,7 @@ FREN_MOT_01 =
 
 	fallback_name = "%dème Div. d'Infanterie Motorisée"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -181,11 +181,11 @@ FREN_MOT_01 =
 	}
 }
 
-FREN_MEC_01 =
+FREN_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -194,30 +194,30 @@ FREN_MEC_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { FREN_INF_01 }
 
-	fallback_name = "%dème Div. d'Infanterie Mécanisée"
+	fallback_name = "%dème Div. d'Infanterie Mécanique"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dère Div. d'Infanterie Mécanisée" }
-		2 = { "%dème Div. d'Infanterie Mécanisée" }
-		3 = { "%dème Div. d'Infanterie Mécanisée" }
-		4 = { "%dème Div. d'Infanterie Mécanisée" }
-		5 = { "%dème Div. d'Infanterie Mécanisée" }
-		6 = { "%dème Div. d'Infanterie Mécanisée" }
-		7 = { "%dème Div. d'Infanterie Mécanisée" }
-		8 = { "%dème Div. d'Infanterie Mécanisée" }
-		9 = { "%dème Div. d'Infanterie Mécanisée" }
-		10 = { "%dème Div. d'Infanterie Mécanisée" }
+		1 = { "%dère Div. d'Infanterie Mécanique" }
+		2 = { "%dème Div. d'Infanterie Mécanique" }
+		3 = { "%dème Div. d'Infanterie Mécanique" }
+		4 = { "%dème Div. d'Infanterie Mécanique" }
+		5 = { "%dème Div. d'Infanterie Mécanique" }
+		6 = { "%dème Div. d'Infanterie Mécanique" }
+		7 = { "%dème Div. d'Infanterie Mécanique" }
+		8 = { "%dème Div. d'Infanterie Mécanique" }
+		9 = { "%dème Div. d'Infanterie Mécanique" }
+		10 = { "%dème Div. d'Infanterie Mécanique" }
 	}
 }
 
-FREN_ARM_01 =
+FREN_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -226,30 +226,62 @@ FREN_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { FREN_INF_01 }
 
-	fallback_name = "%dème Division de Chars de Combat"
+	fallback_name = "%dème Division Cuirassée"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dère Division de Chars de Combat" }
-		2 = { "%dème Division de Chars de Combat" }
-		3 = { "%dème Division de Chars de Combat" }
-		4 = { "%dème Division de Chars de Combat" }
-		5 = { "%dème Division de Chars de Combat" }
-		6 = { "%dème Division de Chars de Combat" }
-		7 = { "%dème Division de Chars de Combat" }
-		8 = { "%dème Division de Chars de Combat" }
-		9 = { "%dème Division de Chars de Combat" }
-		10 = { "%dème Division de Chars de Combat" }
+		1 = { "%dère Division Cuirassée" }
+		2 = { "%dème Division Cuirassée" }
+		3 = { "%dème Division Cuirassée" }
+		4 = { "%dème Division Cuirassée" }
+		5 = { "%dème Division Cuirassée" }
+		6 = { "%dème Division Cuirassée" }
+		7 = { "%dème Division Cuirassée" }
+		8 = { "%dème Division Cuirassée" }
+		9 = { "%dème Division Cuirassée" }
+		10 = { "%dème Division Cuirassée" }
 	}
 }
 
-FREN_PAR_01 =
+FREN_ARM_02 = 
+{
+	name = "Tank Division"
+
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
+
+	can_use = { always = yes }
+
+	division_types = { "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { FREN_ARM_01 }
+
+	fallback_name = "%dème Division Blindée"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dère Division Blindée" }
+		2 = { "%dème Division Blindée" }
+		3 = { "%dème Division Blindée" }
+		4 = { "%dème Division Blindée" }
+		5 = { "%dème Division Blindée" }
+		6 = { "%dème Division Blindée" }
+		7 = { "%dème Division Blindée" }
+		8 = { "%dème Division Blindée" }
+		9 = { "%dème Division Blindée" }
+		10 = { "%dème Division Blindée" }
+	}
+}
+
+FREN_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -258,30 +290,62 @@ FREN_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { FREN_INF_01 }
 
-	fallback_name = "%dème Division de Parachutistes"
+	fallback_name = "%dème Division Parachutiste"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dère Division de Parachutistes" }
-		2 = { "%dème Division de Parachutistes" }
-		3 = { "%dème Division de Parachutistes" }
-		4 = { "%dème Division de Parachutistes" }
-		5 = { "%dème Division de Parachutistes" }
-		6 = { "%dème Division de Parachutistes" }
-		7 = { "%dème Division de Parachutistes" }
-		8 = { "%dème Division de Parachutistes" }
-		9 = { "%dème Division de Parachutistes" }
-		10 = { "%dème Division de Parachutistes" }
+		1 = { "%dère Division Parachutiste" }
+		2 = { "%dème Division Parachutiste" }
+		3 = { "%dème Division Parachutiste" }
+		4 = { "%dème Division Parachutiste" }
+		5 = { "%dème Division Parachutiste" }
+		6 = { "%dème Division Parachutiste" }
+		7 = { "%dème Division Parachutiste" }
+		8 = { "%dème Division Parachutiste" }
+		9 = { "%dème Division Parachutiste" }
+		10 = { "%dème Division Parachutiste" }
 	}
 }
 
-FREN_MAR_01 =
+FREN_PAR_02 = 
+{
+	name = "Airborne Division"
+
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { FREN_PAR_01 }
+
+	fallback_name = "%dème Division Aéroportée"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dère Division Aéroportée" }
+		2 = { "%dème Division Aéroportée" }
+		3 = { "%dème Division Aéroportée" }
+		4 = { "%dème Division Aéroportée" }
+		5 = { "%dème Division Aéroportée" }
+		6 = { "%dème Division Aéroportée" }
+		7 = { "%dème Division Aéroportée" }
+		8 = { "%dème Division Aéroportée" }
+		9 = { "%dème Division Aéroportée" }
+		10 = { "%dème Division Aéroportée" }
+	}
+}
+
+FREN_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -292,7 +356,7 @@ FREN_MAR_01 =
 
 	fallback_name = "%dème Div. d'Infanterie de Marine"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -309,11 +373,11 @@ FREN_MAR_01 =
 	}
 }
 
-FREN_MTN_01 =
+FREN_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
@@ -322,41 +386,41 @@ FREN_MTN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { FREN_INF_01 }
 
-	fallback_name = "%dème Division d'Infanterie de Montagne"
+	fallback_name = "%dème Division d'Infanterie Montagne"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dème Division d'Infanterie de Montagne" }
-		2 = { "%dème Division d'Infanterie de Montagne" }
-		3 = { "%dème Division d'Infanterie de Montagne" }
-		4 = { "%dème Division d'Infanterie de Montagne" }
-		5 = { "%dème Division d'Infanterie de Montagne" }
-		6 = { "%dème Division d'Infanterie de Montagne" }
-		7 = { "%dème Division d'Infanterie de Montagne" }
-		8 = { "%dème Division d'Infanterie de Montagne" }
-		9 = { "%dème Division d'Infanterie de Montagne" }
-		10 = { "%dème Division d'Infanterie de Montagne" }
+		1 = { "%dème Division d'Infanterie Montagne" }
+		2 = { "%dème Division d'Infanterie Montagne" }
+		3 = { "%dème Division d'Infanterie Montagne" }
+		4 = { "%dème Division d'Infanterie Montagne" }
+		5 = { "%dème Division d'Infanterie Montagne" }
+		6 = { "%dème Division d'Infanterie Montagne" }
+		7 = { "%dème Division d'Infanterie Montagne" }
+		8 = { "%dème Division d'Infanterie Montagne" }	
+		9 = { "%dème Division d'Infanterie Montagne" }
+		10 = { "%dème Division d'Infanterie Montagne" }
 	}
 }
 
-FREN_GAR_01 =
+FREN_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { HAI COG LAO CAM }					# Includes names for Haiti and French-speaking releasable nations
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FREN_INF_01 }
+	link_numbering_with = { FREN_INF_01 }
 
-	fallback_name = "%dème Div. d'Inf. de Garnison"
+	fallback_name = "%dème Division de Garnison"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -373,34 +437,4 @@ FREN_GAR_01 =
 	}
 }
 
-FREN_MIL_01 =
-{
-	name = "Militia Division"
 
-	for_countries = { HAI QUE MRT NER MAL SEN CIV GNE BFA WAD GAB NRM OCC BRI FRP KTG WLL}	# Includes names for Haiti and French-speaking releasable nations
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { FREN_INF_01 }
-
-	fallback_name = "%dème Division de Milice"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%dère Division de Milice" }
-		2 = { "%dème Division de Milice" }
-		3 = { "%dème Division de Milice" }
-		4 = { "%dème Division de Milice" }
-		5 = { "%dème Division de Milice" }
-		6 = { "%dème Division de Milice" }
-		7 = { "%dème Division de Milice" }
-		8 = { "%dème Division de Milice" }
-		9 = { "%dème Division de Milice" }
-		10 = { "%dème Division de Milice" }
-	}
-}

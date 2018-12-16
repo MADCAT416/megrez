@@ -182,12 +182,6 @@ spriteTypes = {
 		noOfFrames = 2		
 	}
 
-	spriteType = {
-		name = "GFX_techtree_tabs"
-		textureFile = "gfx//interface//techtree//techtree_tabs.dds"
-		noOfFrames = 2		
-	}
-
 	corneredTileSpriteType = {
 		name = "GFX_tiled_plain_bg"
 		size= { x=192 y=192 }
@@ -1120,7 +1114,8 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-	}	
+	}
+	
     ##############
 
 		#### artillery tech #####		# artillery has a special small override	

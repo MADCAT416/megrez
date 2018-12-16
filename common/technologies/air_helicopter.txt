@@ -1,6 +1,9 @@
 technologies = {
 
 	helicopter_1 = {
+		recon = {
+			recon = 1
+		}
 		
 		path = {
 			leads_to_tech = recon_helicopter_1
@@ -15,7 +18,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -2 }
 		}
 		
 		categories = {
@@ -27,6 +30,9 @@ technologies = {
 		}
 	}
 	recon_helicopter_1 = {
+		recon = {
+			recon = 1
+		}
 	
 		path = {
 			leads_to_tech = attack_helicopter_1
@@ -37,7 +43,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = air_helicopter_folder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = 1 }
 		}
 		
 		categories = {
@@ -52,7 +58,7 @@ technologies = {
 	heliborne_1 = {
 
 		enable_equipments = {
-			heliborne_vehicle_1
+			heliborne_equipment_1
 		}
 		
 		enable_subunits = {
@@ -80,7 +86,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 2 y = 2 }
+			position = { x = 2 y = 1 }
 		}
 		
 		categories = {
@@ -95,7 +101,7 @@ technologies = {
 	heliborne_2 = {
 
 		enable_equipments = {
-			heliborne_vehicle_2
+			heliborne_equipment_2
 		}
 		
 		path = {
@@ -107,7 +113,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 5 }
 		}
 		
 		categories = {
@@ -122,7 +128,7 @@ technologies = {
 	heliborne_3 = {
 
 		enable_equipments = {
-			heliborne_vehicle_3
+			heliborne_equipment_3
 		}
 		
 		path = {
@@ -134,7 +140,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 2 y = 7 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -149,14 +155,70 @@ technologies = {
 	heliborne_4 = {
 
 		enable_equipments = {
-			heliborne_vehicle_4
+			heliborne_equipment_4
 		}
-
+		
+		path = {
+			leads_to_tech = heliborne_5
+			research_cost_coeff = 1
+		}
 		research_cost = 1.5
 		start_year = 1980
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 11 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_5 = {
+
+		enable_equipments = {
+			heliborne_equipment_5
+		}
+
+		path = {
+			leads_to_tech = heliborne_6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heliborne_6 = {
+
+		enable_equipments = {
+			heliborne_equipment_6
+		}
+
+		path = {
+			leads_to_tech = heliborne_7
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = air_helicopter_folder
+			position = { x = 2 y = 17 }
 		}
 		
 		categories = {
@@ -177,12 +239,15 @@ technologies = {
 			leads_to_tech = attack_helicopter_2
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			experimental_rockets = 1
+		}
 		
 		research_cost = 2
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = -4 y = 4 }
+			position = { x = -4 y = 5 }
 		}
 		
 		categories = {
@@ -212,7 +277,7 @@ technologies = {
 
 		folder = {
 			name = air_helicopter_folder
-			position = { x = -4 y = 6 }
+			position = { x = -4 y = 8 }
 		}
 		
 		categories = {
@@ -259,7 +324,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = air_helicopter_folder
-			position = { x = -4 y = 8 }
+			position = { x = -4 y = 11 }
 		}
 		
 		categories = {
@@ -306,7 +371,48 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = air_helicopter_folder
-			position = { x = -4 y = 10 }
+			position = { x = -4 y = 14 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1944.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1945.1.1"
+			}
+		}
+	}
+	
+	attack_helicopter_5 = { # 공격 헬기
+
+		enable_equipments = {
+			attack_helicopter_equipment_5
+		}
+		
+		path = {
+			leads_to_tech = attack_helicopter_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_helicopter_folder
+			position = { x = -4 y = 17 }
 		}
 		
 		categories = {
@@ -343,7 +449,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 5 y = 4 }
+			position = { x = 4 y = 5 }
 		}
 		
 		categories = {
@@ -368,7 +474,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 5 y = 6 }
+			position = { x = 4 y = 8 }
 		}
 		
 		categories = {
@@ -393,7 +499,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 5 y = 8 }
+			position = { x = 4 y = 11 }
 		}
 		
 		categories = {
@@ -413,7 +519,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 5 y = 10 }
+			position = { x = 4 y = 14 }
 		}
 		
 		categories = {
@@ -434,7 +540,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_helicopter_folder
-			position = { x = 7 y = 4 }
+			position = { x = 5 y = 5 }
 		}
 		
 		categories = {
@@ -443,6 +549,9 @@ technologies = {
 			air_equipment
 		}
 		
+		category_all_infantry = {
+			casualty_trickleback = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 		}

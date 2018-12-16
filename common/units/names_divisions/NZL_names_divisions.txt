@@ -8,30 +8,31 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
 
-NZL_INF_01 = {
+NZL_INF_01 = 
+{
 	name = "Infantry Divisions"
 
 	for_countries = { NZL }
@@ -43,16 +44,14 @@ NZL_INF_01 = {
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d. NZ Infantry Division"
+	fallback_name = "%d Infantry Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%dst NZ Infantry Division" }
+	ordered =
+	{
 		2 = { "%dnd NZ Infantry Division" }
 		3 = { "%drd NZ Infantry Division" }
-		4 = { "%dth NZ Infantry Division" }
-		5 = { "%dth NZ Infantry Division" }
 		6 = { "%dth NZ Infantry Division" }
 		7 = { "%dth NZ Infantry Division" }
 		8 = { "%dth NZ Infantry Division" }
@@ -105,7 +104,8 @@ NZL_INF_01 = {
 	}
 }
 
-NZL_CAV_01 = {
+NZL_CAV_01 = 
+{
 	name = "Cavalry Divisions"
 
 	for_countries = { NZL }
@@ -119,9 +119,10 @@ NZL_CAV_01 = {
 
 	fallback_name = "%d Cavalry Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Cavalry Division" }
 		2 = { "%dnd NZ Cavalry Division" }
 		3 = { "%drd NZ Cavalry Division" }
@@ -179,7 +180,8 @@ NZL_CAV_01 = {
 	}
 }
 
-NZL_MOT_01 = {
+NZL_MOT_01 = 
+{
 	name = "Motorised Divisions"
 
 	for_countries = { NZL }
@@ -189,13 +191,14 @@ NZL_MOT_01 = {
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { NZL_CAV_01 }
+	link_numbering_with = { NZL_CAV_01  }
 
-	fallback_name = "%d. NZ Motor Division"
+	fallback_name = "%d Motor Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Motor Division" }
 		2 = { "%dnd NZ Motor Division" }
 		3 = { "%drd NZ Motor Division" }
@@ -224,7 +227,8 @@ NZL_MOT_01 = {
 	}
 }
 
-NZL_ARM_01 = {
+NZL_ARM_01 = 
+{
 	name = "Armoured Divisions"
 
 	for_countries = { NZL }
@@ -234,13 +238,14 @@ NZL_ARM_01 = {
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { NZL_CAV_01 }
+	link_numbering_with = { NZL_CAV_01  }
 
-	fallback_name = "%d. NZ Armoured Division"
+	fallback_name = "%d Armoured Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Armoured Division" }
 		2 = { "%dnd NZ Armoured Division" }
 		3 = { "%drd NZ Armoured Division" }
@@ -269,7 +274,8 @@ NZL_ARM_01 = {
 	}
 }
 
-NZL_MEC_01 = {
+NZL_MEC_01 = 
+{
 	name = "Mechanised Divisions"
 
 	for_countries = { NZL }
@@ -283,9 +289,10 @@ NZL_MEC_01 = {
 
 	fallback_name = "%d Mechanised Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Mechanised Division" }
 		2 = { "%dnd NZ Mechanised Division" }
 		3 = { "%drd NZ Mechanised Division" }
@@ -314,7 +321,8 @@ NZL_MEC_01 = {
 	}
 }
 
-NZL_GAR_01 = {
+NZL_GAR_01 = 
+{
 	name = "Garrison Divisions"
 
 	for_countries = { NZL }
@@ -324,91 +332,92 @@ NZL_GAR_01 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { NZL_INF_01 }
+	link_numbering_with = { NZL_INF_01 }
 
-	fallback_name = "%d. Garrison Division"
+	fallback_name = "%d Infantry Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%dst 'Northern' Garrison Division" }
-		2 = { "%dnd 'Central' Garrison Division" }
-		3 = { "%drd 'Southern' Garrison Division" }
-		4 = { "%dth Garrison Division" }
-		5 = { "%dth Garrison Division" }
-		6 = { "%dth Garrison Division" }
-		7 = { "%dth Garrison Division" }
-		8 = { "%dth Garrison Division" }
-		9 = { "%dth Garrison Division" }
-		10 = { "%dth Garrison Division" }
-		11 = { "%dth Garrison Division" }
-		12 = { "%dth Garrison Division" }
-		13 = { "%dth Garrison Division" }
-		14 = { "%dth Garrison Division" }
-		15 = { "%dth Garrison Division" }
-		16 = { "%dth Garrison Division" }
-		17 = { "%dth Garrison Division" }
-		18 = { "%dth Garrison Division" }
-		19 = { "%dth Garrison Division" }
-		20 = { "%dth Garrison Division" }
-		21 = { "%dst Garrison Division" }
-		22 = { "%dnd Garrison Division" }
-		23 = { "%drd Garrison Division" }
-		24 = { "%dth Garrison Division" }
-		25 = { "%dth Garrison Division" }
-		26 = { "%dth Garrison Division" }
-		27 = { "%dth Garrison Division" }
-		28 = { "%dth Garrison Division" }
-		29 = { "%dth Garrison Division" }
-		30 = { "%dth Garrison Division" }
-		31 = { "%dst Garrison Division" }
-		32 = { "%dnd Garrison Division" }
-		33 = { "%drd Garrison Division" }
-		34 = { "%dth Garrison Division" }
-		35 = { "%dth Garrison Division" }
-		36 = { "%dth Garrison Division" }
-		37 = { "%dth Garrison Division" }
-		38 = { "%dth Garrison Division" }
-		39 = { "%dth Garrison Division" }
-		40 = { "%dth Garrison Division" }
-		41 = { "%dst Garrison Division" }
-		42 = { "%dnd Garrison Division" }
-		43 = { "%drd Garrison Division" }
-		44 = { "%dth Garrison Division" }
-		45 = { "%dth Garrison Division" }
-		46 = { "%dth Garrison Division" }
-		47 = { "%dth Garrison Division" }
-		48 = { "%dth Garrison Division" }
-		49 = { "%dth Garrison Division" }
-		51 = { "%dst Garrison Division" }
-		52 = { "%dnd Garrison Division" }
-		53 = { "%drd Garrison Division" }
+	ordered =
+	{
+		1 = { "%dst 'Northern' Infantry Division" }
+		4 = { "%dth 'Central' Infantry Division" }
+		5 = { "%dth 'Southern' Infantry Division" }
+		6 = { "%dth Infantry Division" } # Historically a 'fake' division
+		7 = { "%dth Infantry Division" }
+		8 = { "%dth Infantry Division" }
+		9 = { "%dth Infantry Division" }
+		10 = { "%dth Infantry Division" }
+		11 = { "%dth Infantry Division" }
+		12 = { "%dth Infantry Division" }
+		13 = { "%dth Infantry Division" }
+		14 = { "%dth Infantry Division" }
+		15 = { "%dth Infantry Division" }
+		16 = { "%dth Infantry Division" }
+		17 = { "%dth Infantry Division" }
+		18 = { "%dth Infantry Division" }
+		19 = { "%dth Infantry Division" }
+		20 = { "%dth Infantry Division" }
+		21 = { "%dst Infantry Division" }
+		22 = { "%dnd Infantry Division" }
+		23 = { "%drd Infantry Division" }
+		24 = { "%dth Infantry Division" }
+		25 = { "%dth Infantry Division" }
+		26 = { "%dth Infantry Division" }
+		27 = { "%dth Infantry Division" }
+		28 = { "%dth Infantry Division" }
+		29 = { "%dth Infantry Division" }
+		30 = { "%dth Infantry Division" }
+		31 = { "%dst Infantry Division" }
+		32 = { "%dnd Infantry Division" }
+		33 = { "%drd Infantry Division" }
+		34 = { "%dth Infantry Division" }
+		35 = { "%dth Infantry Division" }
+		36 = { "%dth Infantry Division" }
+		37 = { "%dth Infantry Division" }
+		38 = { "%dth Infantry Division" }
+		39 = { "%dth Infantry Division" }
+		40 = { "%dth Infantry Division" }
+		41 = { "%dst Infantry Division" }
+		42 = { "%dnd Infantry Division" }
+		43 = { "%drd Infantry Division" }
+		44 = { "%dth Infantry Division" }
+		45 = { "%dth Infantry Division" }
+		46 = { "%dth Infantry Division" }
+		47 = { "%dth Infantry Division" }
+		48 = { "%dth Infantry Division" }
+		49 = { "%dth Infantry Division" }
+		51 = { "%dst Infantry Division" }
+		52 = { "%dnd Infantry Division" }
+		53 = { "%drd Infantry Division" }
 
 		# These division names represent the formation of the divisions in Nov-1941 from the Military District Forces in those areas previously, which are covered by NZL_MIL_01.  The idea is that switching the template from NZL_MIL_01 to NZL_GAR_01 will give these divisions their historic names.
 	}
 }
 
-NZL_MIL_01 = {
+NZL_MIL_01 = 
+{
 	name = "Militia Divisions"
 
 	for_countries = { NZL }
 
 	can_use = { always = yes }
 
-	division_types = { "militia" }
+	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NZL_INF_01 }
 
-	fallback_name = "%d. Military District"
+	fallback_name = "%d Military District"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Northern Military District" }
 		4 = { "Central Military District" }
 		5 = { "Southern Military District" }
-		6 = { "%dth Military District" }
+		6 = { "%dth Military District" } # Historically a 'fake' division
 		7 = { "%dth Military District" }
 		8 = { "%dth Military District" }
 		9 = { "%dth Military District" }
@@ -461,7 +470,8 @@ NZL_MIL_01 = {
 	}
 }
 
-NZL_MAR_01 = {
+NZL_MAR_01 = 
+{
 	name = "Marine Divisions"
 
 	for_countries = { NZL }
@@ -473,11 +483,12 @@ NZL_MAR_01 = {
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NZL_GAR_01 }
 
-	fallback_name = "%d. NZ Marine Division"
+	fallback_name = "%d Marine Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Marine Division" }
 		2 = { "%dnd NZ Marine Division" }
 		3 = { "%drd NZ Marine Division" }
@@ -513,7 +524,8 @@ NZL_MAR_01 = {
 	}
 }
 
-NZL_MTN_01 = {
+NZL_MTN_01 = 
+{
 	name = "Mountain Divisions"
 
 	for_countries = { NZL }
@@ -525,70 +537,69 @@ NZL_MTN_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NZL_INF_01 }
 
-	fallback_name = "%d. NZ Special Forces Division"
+	fallback_name = "%d Infantry Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%dst NZ Special Forces Division" }
-		2 = { "%dnd NZ Special Forces Division" }
-		3 = { "%drd NZ Special Forces Division" }
-		4 = { "%dth NZ Special Forces Division" }
-		5 = { "%dth NZ Special Forces Division" }
-		6 = { "%dth NZ Special Forces Division" }
-		7 = { "%dth NZ Special Forces Division" }
-		8 = { "%dth NZ Special Forces Division" }
-		9 = { "%dth NZ Special Forces Division" }
-		10 = { "%dth NZ Special Forces Division" }
-		11 = { "%dth NZ Special Forces Division" }
-		12 = { "%dth NZ Special Forces Division" }
-		13 = { "%dth NZ Special Forces Division" }
-		14 = { "%dth NZ Special Forces Division" }
-		15 = { "%dth NZ Special Forces Division" }
-		16 = { "%dth NZ Special Forces Division" }
-		17 = { "%dth NZ Special Forces Division" }
-		18 = { "%dth NZ Special Forces Division" }
-		19 = { "%dth NZ Special Forces Division" }
-		20 = { "%dth NZ Special Forces Division" }
-		21 = { "%dst NZ Special Forces Division" }
-		22 = { "%dnd NZ Special Forces Division" }
-		23 = { "%drd NZ Special Forces Division" }
-		24 = { "%dth NZ Special Forces Division" }
-		25 = { "%dth NZ Special Forces Division" }
-		26 = { "%dth NZ Special Forces Division" }
-		27 = { "%dth NZ Special Forces Division" }
-		28 = { "%dth NZ Special Forces Division" }
-		29 = { "%dth NZ Special Forces Division" }
-		30 = { "%dth NZ Special Forces Division" }
-		31 = { "%dst NZ Special Forces Division" }
-		32 = { "%dnd NZ Special Forces Division" }
-		33 = { "%drd NZ Special Forces Division" }
-		34 = { "%dth NZ Special Forces Division" }
-		35 = { "%dth NZ Special Forces Division" }
-		36 = { "%dth NZ Special Forces Division" }
-		37 = { "%dth NZ Special Forces Division" }
-		38 = { "%dth NZ Special Forces Division" }
-		39 = { "%dth NZ Special Forces Division" }
-		40 = { "%dth NZ Special Forces Division" }
-		41 = { "%dst NZ Special Forces Division" }
-		42 = { "%dnd NZ Special Forces Division" }
-		43 = { "%drd NZ Special Forces Division" }
-		44 = { "%dth NZ Special Forces Division" }
-		45 = { "%dth NZ Special Forces Division" }
-		46 = { "%dth NZ Special Forces Division" }
-		47 = { "%dth NZ Special Forces Division" }
-		48 = { "%dth NZ Special Forces Division" }
-		49 = { "%dth NZ Special Forces Division" }
-		50 = { "%dth NZ Special Forces Division" }
-		51 = { "%dst NZ Special Forces Division" }
-		52 = { "%dnd NZ Special Forces Division" }
-		53 = { "%drd NZ Special Forces Division" }
+	ordered =
+	{
+		2 = { "%dnd NZ Infantry Division" }
+		3 = { "%drd NZ Infantry Division" }
+		6 = { "%dth NZ Infantry Division" }
+		7 = { "%dth NZ Infantry Division" }
+		8 = { "%dth NZ Infantry Division" }
+		9 = { "%dth NZ Infantry Division" }
+		10 = { "%dth NZ Infantry Division" }
+		11 = { "%dth NZ Infantry Division" }
+		12 = { "%dth NZ Infantry Division" }
+		13 = { "%dth NZ Infantry Division" }
+		14 = { "%dth NZ Infantry Division" }
+		15 = { "%dth NZ Infantry Division" }
+		16 = { "%dth NZ Infantry Division" }
+		17 = { "%dth NZ Infantry Division" }
+		18 = { "%dth NZ Infantry Division" }
+		19 = { "%dth NZ Infantry Division" }
+		20 = { "%dth NZ Infantry Division" }
+		21 = { "%dst NZ Infantry Division" }
+		22 = { "%dnd NZ Infantry Division" }
+		23 = { "%drd NZ Infantry Division" }
+		24 = { "%dth NZ Infantry Division" }
+		25 = { "%dth NZ Infantry Division" }
+		26 = { "%dth NZ Infantry Division" }
+		27 = { "%dth NZ Infantry Division" }
+		28 = { "%dth NZ Infantry Division" }
+		29 = { "%dth NZ Infantry Division" }
+		30 = { "%dth NZ Infantry Division" }
+		31 = { "%dst NZ Infantry Division" }
+		32 = { "%dnd NZ Infantry Division" }
+		33 = { "%drd NZ Infantry Division" }
+		34 = { "%dth NZ Infantry Division" }
+		35 = { "%dth NZ Infantry Division" }
+		36 = { "%dth NZ Infantry Division" }
+		37 = { "%dth NZ Infantry Division" }
+		38 = { "%dth NZ Infantry Division" }
+		39 = { "%dth NZ Infantry Division" }
+		40 = { "%dth NZ Infantry Division" }
+		41 = { "%dst NZ Infantry Division" }
+		42 = { "%dnd NZ Infantry Division" }
+		43 = { "%drd NZ Infantry Division" }
+		44 = { "%dth NZ Infantry Division" }
+		45 = { "%dth NZ Infantry Division" }
+		46 = { "%dth NZ Infantry Division" }
+		47 = { "%dth NZ Infantry Division" }
+		48 = { "%dth NZ Infantry Division" }
+		49 = { "%dth NZ Infantry Division" }
+		50 = { "%dth NZ Infantry Division" }
+		51 = { "%dst NZ Infantry Division" }
+		52 = { "%dnd NZ Infantry Division" }
+		53 = { "%drd NZ Infantry Division" }
 
 		# NZL didn't have any Mountain divisions, have created an overlapping identical namelist with infantry - not sure if necessary or something else desired?
 	}
 }
 
-NZL_PAR_01 = {
+NZL_PAR_01 = 
+{
 	name = "Airborne Divisions"
 
 	for_countries = { NZL }
@@ -598,13 +609,14 @@ NZL_PAR_01 = {
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { NZL_INF_01 }
+	#link_numbering_with = { NZL_GAR_01 }
 
-	fallback_name = "%d. NZ Airborne Division"
+	fallback_name = "%d Airborne Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%dst NZ Airborne Division" }
 		2 = { "%dnd NZ Airborne Division" }
 		3 = { "%drd NZ Airborne Division" }
@@ -639,4 +651,3 @@ NZL_PAR_01 = {
 		# NZL didn't have any Marine divisions, these are all fictional.
 	}
 }
-

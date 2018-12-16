@@ -5,14 +5,6 @@ technologies = {
 			sub_detection = 0.1
 			sub_attack = 0.2
 		}
-		escort_destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
-		heavy_destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
 		light_cruiser = {
 			sub_detection = 0.1
 			sub_attack = 0.2
@@ -53,14 +45,6 @@ technologies = {
 
 	improved_asw = {
 		destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
-		escort_destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
-		heavy_destroyer = {
 			sub_detection = 0.1
 			sub_attack = 0.2
 		}
@@ -107,14 +91,6 @@ technologies = {
 			sub_detection = 0.1
 			sub_attack = 0.2
 		}
-		escort_destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
-		heavy_destroyer = {
-			sub_detection = 0.1
-			sub_attack = 0.2
-		}
 		light_cruiser = {
 			sub_detection = 0.1
 			sub_attack = 0.2
@@ -151,12 +127,6 @@ technologies = {
 	##### ANTI-AIRCRAFT #####
 	basic_aa = {
 		destroyer = {
-			anti_air_attack = 0.2
-		}
-		escort_destroyer = {
-			anti_air_attack = 0.2
-		}
-		heavy_destroyer = {
 			anti_air_attack = 0.2
 		}
 		light_cruiser = {
@@ -217,12 +187,6 @@ technologies = {
 
 	improved_aa = {
 		destroyer = {
-			anti_air_attack = 0.2
-		}
-		escort_destroyer = {
-			anti_air_attack = 0.2
-		}
-		heavy_destroyer = {
 			anti_air_attack = 0.2
 		}
 		light_cruiser = {
@@ -286,12 +250,6 @@ technologies = {
 		destroyer = {
 			anti_air_attack = 0.2
 		}
-		escort_destroyer = {
-			anti_air_attack = 0.2
-		}
-		heavy_destroyer = {
-			anti_air_attack = 0.2
-		}
 		light_cruiser = {
 			anti_air_attack = 0.2
 		}
@@ -349,12 +307,6 @@ technologies = {
 		destroyer = {
 			torpedo_attack = 0.2
 		}
-		escort_destroyer = {
-			torpedo_attack = 0.2
-		}
-		heavy_destroyer = {
-			torpedo_attack = 0.2
-		}
 		light_cruiser = {
 			torpedo_attack = 0.2
 		}
@@ -395,12 +347,6 @@ technologies = {
 
 	improved_torpedo = {
 		destroyer = {
-			torpedo_attack = 0.2
-		}
-		escort_destroyer = {
-			torpedo_attack = 0.2
-		}
-		heavy_destroyer = {
 			torpedo_attack = 0.2
 		}
 		light_cruiser = {
@@ -446,12 +392,6 @@ technologies = {
 		destroyer = {
 			torpedo_attack = 0.2
 		}
-		escort_destroyer = {
-			torpedo_attack = 0.2
-		}
-		heavy_destroyer = {
-			torpedo_attack = 0.2
-		}
 		light_cruiser = {
 			torpedo_attack = 0.2
 		}
@@ -489,14 +429,6 @@ technologies = {
 	##### RADAR & SONAR #####
 	early_radar = {
 		destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		escort_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
 			surface_detection = 0.2
 			sub_detection = 0.2
 		}
@@ -570,14 +502,6 @@ technologies = {
 			surface_detection = 0.2
 			sub_detection = 0.2
 		}
-		escort_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
 		light_cruiser = {
 			surface_detection = 0.2
 			sub_detection = 0.2
@@ -648,14 +572,6 @@ technologies = {
 			surface_detection = 0.2
 			sub_detection = 0.2
 		}
-		escort_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
 		light_cruiser = {
 			surface_detection = 0.2
 			sub_detection = 0.2
@@ -723,14 +639,6 @@ technologies = {
 
 	advanced_radar = {
 		destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		escort_destroyer = {
-			surface_detection = 0.2
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
 			surface_detection = 0.2
 			sub_detection = 0.2
 		}

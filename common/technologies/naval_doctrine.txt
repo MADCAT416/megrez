@@ -164,14 +164,6 @@ technologies = {
 			max_organisation = 20
 			sub_detection = 0.2
 		}
-		escort_destroyer = {
-			max_organisation = 20
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
-			max_organisation = 20
-			sub_detection = 0.2
-		}
 		light_cruiser = {
 			max_organisation = 10
 			sub_detection = 0.2
@@ -353,14 +345,6 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.1
 		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
-		heavy_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
 		convoy_escort_efficiency = 0.10
 		#####
 		
@@ -405,14 +389,6 @@ technologies = {
 		
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
-			sub_detection = 0.2
-		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
 			max_organisation = 10
 			sub_detection = 0.2
 		}
@@ -503,12 +479,6 @@ technologies = {
 		
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 20
-		}
-		escort_destroyer = {
-			max_organisation = 20
-		}
-		heavy_destroyer = {
 			max_organisation = 20
 		}
 		convoy_escort_efficiency = 0.25
@@ -1325,14 +1295,6 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.1
 		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
-		heavy_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
 		convoy_escort_efficiency = 0.10
 		#####
 		
@@ -1995,14 +1957,6 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.2
 		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.2
-		}
-		heavy_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.2
-		}
 		convoy_escort_efficiency = 0.15
 		#####
 		
@@ -2041,14 +1995,6 @@ technologies = {
 		
 		# EFFECT ##############
 		destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
-		heavy_destroyer = {
 			max_organisation = 10
 			sub_detection = 0.1
 		}
@@ -2102,14 +2048,6 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.1
 		}
-		escort_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
-		heavy_destroyer = {
-			max_organisation = 10
-			sub_detection = 0.1
-		}
 		convoy_escort_efficiency = 0.10
 		#####
 		
@@ -2148,12 +2086,6 @@ technologies = {
 		#same as integrated_convoy_defence
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 20
-		}
-		escort_destroyer = {
-			max_organisation = 20
-		}
-		heavy_destroyer = {
 			max_organisation = 20
 		}
 		convoy_escort_efficiency = 0.25

@@ -155,6 +155,32 @@ equipments = {
 			oil = 2
 		}
 	}
+	mechanized_equipment_6 = {
+		year = 1944
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_5
+		priority = 40
+		visual_level = 2
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 6
+		hardness = 0.7
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+		
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			oil = 2
+		}
+	}
 
 	##############
 	# 강습상륙장갑차
@@ -502,6 +528,35 @@ equipments = {
 
 		archetype = airborne_ifv_equipment
 		parent = airborne_ifv_equipment_3
+		priority = 70
+		visual_level = 3
+		
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 46
+		breakthrough = 11
+		armor_value = 43
+
+		#Offensive Abilities
+		soft_attack = 16
+		hard_attack = 7
+		ap_attack = 46
+		air_attack = 5
+		
+		build_cost_ic = 19
+		resources = {
+			steel = 9
+			oil = 4
+			tungsten = 2
+		}
+	}
+	
+	airborne_ifv_equipment_5 = {
+		year = 2000
+
+		archetype = airborne_ifv_equipment
+		parent = airborne_ifv_equipment_4
 		priority = 70
 		visual_level = 3
 		

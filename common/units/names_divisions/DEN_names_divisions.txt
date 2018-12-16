@@ -8,32 +8,33 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%d. (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
-DEN_INF_01 = {
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %d. (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+DEN_INF_01 = 
+{
 	name = "Infantry Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -44,9 +45,10 @@ DEN_INF_01 = {
 
 	fallback_name = "%d. Infanteri Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%d. Jydske Division" }
 		2 = { "%d. Sjællandske Division" }
 		3 = { "%d. Fynske Division" }
@@ -69,14 +71,15 @@ DEN_INF_01 = {
 		17 = { "%d. Infanteri Division" }
 		18 = { "%d. Infanteri Division" }
 		19 = { "%d. Infanteri Division" }
-		20 = { "%d. Infanteri Division" }
+		20 = { "%d. Infanteri Division" }		
 	}
 }
 
-DEN_CAV_01 = {
+DEN_CAV_01 = 
+{
 	name = "Cavalry Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -87,9 +90,10 @@ DEN_CAV_01 = {
 
 	fallback_name = "%d. Dragondivision"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		21 = { "Livgarden til Hest" }
 		1 = { "%d. Sjællandske Dragondivision" }
 		2 = { "%d. Jydske Dragondivision" }
@@ -104,10 +108,11 @@ DEN_CAV_01 = {
 	}
 }
 
-DEN_MOT_01 = {
+DEN_MOT_01 = 
+{
 	name = "Motorized Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -118,9 +123,10 @@ DEN_MOT_01 = {
 
 	fallback_name = "%d. Motor Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%d. Sjællandske Motor Division" }
 		2 = { "%d. Jydske Motor Division" }
 		3 = { "%d. Fynske Motor Division" }
@@ -135,10 +141,11 @@ DEN_MOT_01 = {
 	}
 }
 
-DEN_MEC_01 = {
+DEN_MEC_01 = 
+{
 	name = "Mechanized Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -149,9 +156,10 @@ DEN_MEC_01 = {
 
 	fallback_name = "%d. Bælte Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%d. Sjællandske Bælte Division" }
 		2 = { "%d. Jydske Bælte Division" }
 		3 = { "%d. Fynske Bælte Division" }
@@ -166,10 +174,11 @@ DEN_MEC_01 = {
 	}
 }
 
-DEN_ARM_01 = {
+DEN_ARM_01 = 
+{
 	name = "Armored Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -180,9 +189,10 @@ DEN_ARM_01 = {
 
 	fallback_name = "%d. Panser Korps"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%d. Panser Korps" }
 		2 = { "%d. Panser Korps" }
 		3 = { "%d. Panser Korps" }
@@ -196,10 +206,11 @@ DEN_ARM_01 = {
 	}
 }
 
-DEN_PAR_01 = {
+DEN_PAR_01 = 
+{
 	name = "Paratrooper Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -210,9 +221,10 @@ DEN_PAR_01 = {
 
 	fallback_name = "%d. Faldskærmsdivision"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		21 = { "Faldskærmsdivisionen 'Ørnene'" }
 		1 = { "%d. Faldskærmsdivision" }
 		2 = { "%d. Faldskærmsdivision" }
@@ -227,10 +239,11 @@ DEN_PAR_01 = {
 	}
 }
 
-DEN_MAR_01 = {
+DEN_MAR_01 = 
+{
 	name = "Marine Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -241,9 +254,10 @@ DEN_MAR_01 = {
 
 	fallback_name = "%d. Marinedivision"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		21 = { "Frømandskorpset" }
 		1 = { "%d. Marinedivision" }
 		2 = { "%d. Marinedivision" }
@@ -258,40 +272,11 @@ DEN_MAR_01 = {
 	}
 }
 
-DEN_MIL_01 = {
-	name = "Militia Division"
-
-	for_countries = { DEN ICE }
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { DEN_INF_01 }
-
-	fallback_name = "%d. Militsdivision"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%d. Militsdivision" }
-		2 = { "%d. Militsdivision" }
-		3 = { "%d. Militsdivision" }
-		4 = { "%d. Militsdivision" }
-		5 = { "%d. Militsdivision" }
-		6 = { "%d. Militsdivision" }
-		7 = { "%d. Militsdivision" }
-		8 = { "%d. Militsdivision" }
-		9 = { "%d. Militsdivision" }
-		10 = { "%d. Militsdivision" }
-	}
-}
-
-DEN_MTN_01 = {
+DEN_MNT_01 = 
+{
 	name = "Mountain Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -302,9 +287,10 @@ DEN_MTN_01 = {
 
 	fallback_name = "%d. Bjergjægerdivision"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		25 = { "Jægerkorpset" }
 		26 = { "Sirius" }
 		1 = { "%d. Bjergjægerdivision" }
@@ -320,10 +306,11 @@ DEN_MTN_01 = {
 	}
 }
 
-DEN_GAR_01 = {
+DEN_GAR_01 = 
+{
 	name = "Garrison Division"
 
-	for_countries = { DEN ICE }
+	for_countries = { DEN }
 
 	can_use = { always = yes }
 
@@ -332,14 +319,15 @@ DEN_GAR_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { DEN_INF_01 }
 
-	fallback_name = "%d. Garnisonregiment"
+	fallback_name = "%d. Infanteri Division"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%d. Jydske Division" }
 		2 = { "%d. Sjællandske Division" }
-		3 = { "%d. Bornholms Værn" }
+		3 = { "%d. Fynske Division" }
 		21 = { "Prinsens Division" }
 		27 = { "Livgarden" }
 		22 = { "Dronningens Livgardedivision" }
@@ -347,9 +335,9 @@ DEN_GAR_01 = {
 		5 = { "%d. Nørrejydske Division" }
 		6 = { "%d. Slesvigske Division" }
 		7 = { "%d. Bornholmske Forsvars Div." }
-		8 = { "%d. Garnisonregiment" }
-		9 = { "%d. Garnisonregiment" }
-		10 = { "%d. Garnisonregiment" }
+		8 = { "%d. Infanteri Division" }
+		9 = { "%d. Infanteri Division" }
+		10 = { "%d. Infanteri Division" }
 	}
 }
 

@@ -8,32 +8,33 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
-GRE_INF_01 = {
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+GRE_INF_01 = 
+{
 	name = "Infantry Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -44,9 +45,10 @@ GRE_INF_01 = {
 
 	fallback_name = "%s Merarchía Pezikoú"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%s Merarchía Pezikoú" }
 		2 = { "%s Merarchía Pezikoú" }
 		3 = { "%s Merarchía Pezikoú" }
@@ -66,24 +68,25 @@ GRE_INF_01 = {
 		17 = { "%s Merarchía Pezikoú" }
 		18 = { "%s Merarchía Pezikoú" }
 		19 = { "%s Merarchía Pezikoú" }
-		20 = { "%s Merarchía Pezikoú" }
-		21 = { "%s Merarchía Pezikoú" }
-		22 = { "%s Merarchía Pezikoú" }
-		23 = { "%s Merarchía Pezikoú" }
-		24 = { "%s Merarchía Pezikoú" }
-		25 = { "%s Merarchía Pezikoú" }
-		26 = { "%s Merarchía Pezikoú" }
-		27 = { "%s Merarchía Pezikoú" }
-		28 = { "%s Merarchía Pezikoú" }
-		29 = { "%s Merarchía Pezikoú" }
-		30 = { "%s Merarchía Pezikoú" }
+		20 = { "%s Merarchía Pezikoú" }		
+		21 = { "%s Merarchía Pezikoú" }		
+		22 = { "%s Merarchía Pezikoú" }		
+		23 = { "%s Merarchía Pezikoú" }		
+		24 = { "%s Merarchía Pezikoú" }		
+		25 = { "%s Merarchía Pezikoú" }		
+		26 = { "%s Merarchía Pezikoú" }		
+		27 = { "%s Merarchía Pezikoú" }		
+		28 = { "%s Merarchía Pezikoú" }		
+		29 = { "%s Merarchía Pezikoú" }		
+		30 = { "%s Merarchía Pezikoú" }		
 	}
 }
 
-GRE_CAV_01 = {
+GRE_CAV_01 = 
+{
 	name = "Cavalry Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -94,9 +97,10 @@ GRE_CAV_01 = {
 
 	fallback_name = "%s Merarchía Ippikoú"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%s Merarchía Ippikoú" }
 		2 = { "%s Merarchía Ippikoú" }
 		3 = { "%s Merarchía Ippikoú" }
@@ -110,10 +114,11 @@ GRE_CAV_01 = {
 	}
 }
 
-GRE_MOT_01 = {
+GRE_MOT_01 = 
+{
 	name = "Motorized Infantry Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -124,9 +129,10 @@ GRE_MOT_01 = {
 
 	fallback_name = "%s Michanopoiiméni Merarchía Pezikoú"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		19 = { "%s Michanopoiiméni Merarchía Pezikoú" }
 		1 = { "%s Michanopoiiméni Merarchía Pezikoú" }
 		2 = { "%s Michanopoiiméni Merarchía Pezikoú" }
@@ -141,10 +147,11 @@ GRE_MOT_01 = {
 	}
 }
 
-GRE_MEC_01 = {
+GRE_MEC_01 = 
+{
 	name = "Mechanized Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -155,9 +162,10 @@ GRE_MEC_01 = {
 
 	fallback_name = "%s Michanokíniti Merarchía"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		19 = { "%s Michanokíniti Merarchía" }
 		1 = { "%s Michanokíniti Merarchía" }
 		2 = { "%s Michanokíniti Merarchía" }
@@ -172,10 +180,11 @@ GRE_MEC_01 = {
 	}
 }
 
-GRE_ARM_01 = {
+GRE_ARM_01 = 
+{
 	name = "Armored Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -184,29 +193,31 @@ GRE_ARM_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GRE_INF_01 }
 
-	fallback_name = "%s Tethorakisméni Taxiarchia"
+	fallback_name = "%s Tethorakisméni Merarchía"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		20 = { "%s Tethorakisméni Taxiarchia" }
-		1 = { "%s Tethorakisméni Taxiarchia" }
-		2 = { "%s Tethorakisméni Taxiarchia" }
-		3 = { "%s Tethorakisméni Taxiarchia" }
-		4 = { "%s Tethorakisméni Taxiarchia" }
-		5 = { "%s Tethorakisméni Taxiarchia" }
-		6 = { "%s Tethorakisméni Taxiarchia" }
-		7 = { "%s Tethorakisméni Taxiarchia" }
-		8 = { "%s Tethorakisméni Taxiarchia" }
-		9 = { "%s Tethorakisméni Taxiarchia" }
-		10 = { "%s Tethorakisméni Taxiarchia" }
+	ordered =
+	{
+		20 = { "%s Tethorakisméni Merarchía" }
+		1 = { "%s Tethorakisméni Merarchía" }
+		2 = { "%s Tethorakisméni Merarchía" }
+		3 = { "%s Tethorakisméni Merarchía" }
+		4 = { "%s Tethorakisméni Merarchía" }
+		5 = { "%s Tethorakisméni Merarchía" }
+		6 = { "%s Tethorakisméni Merarchía" }
+		7 = { "%s Tethorakisméni Merarchía" }
+		8 = { "%s Tethorakisméni Merarchía" }
+		9 = { "%s Tethorakisméni Merarchía" }
+		10 = { "%s Tethorakisméni Merarchía" }
 	}
 }
 
-GRE_PAR_01 = {
+GRE_PAR_01 = 
+{
 	name = "Paratrooper Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -217,9 +228,10 @@ GRE_PAR_01 = {
 
 	fallback_name = "%s Merarchía Alexiptotiston"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%s Merarchía Alexiptotiston" }
 		2 = { "%s Merarchía Alexiptotiston" }
 		3 = { "%s Merarchía Alexiptotiston" }
@@ -233,10 +245,11 @@ GRE_PAR_01 = {
 	}
 }
 
-GRE_MAR_01 = {
+GRE_MAR_01 = 
+{
 	name = "Marine Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -247,9 +260,10 @@ GRE_MAR_01 = {
 
 	fallback_name = "%s Merarchía Pezonavton"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%s Merarchía Pezonavton" }
 		2 = { "%s Merarchía Pezonavton" }
 		3 = { "%s Merarchía Pezonavton" }
@@ -263,10 +277,11 @@ GRE_MAR_01 = {
 	}
 }
 
-GRE_MTN_01 = {
+GRE_MNT_01 = 
+{
 	name = "Mountain Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -277,9 +292,10 @@ GRE_MTN_01 = {
 
 	fallback_name = "%s Merarchía Pezikoú"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "%s Merarchía Pezikoú" }
 		2 = { "%s Merarchía Pezikoú" }
 		3 = { "%s Merarchía Pezikoú" }
@@ -299,24 +315,25 @@ GRE_MTN_01 = {
 		17 = { "%s Merarchía Pezikoú" }
 		18 = { "%s Merarchía Pezikoú" }
 		19 = { "%s Merarchía Pezikoú" }
-		20 = { "%s Merarchía Pezikoú" }
-		21 = { "%s Merarchía Pezikoú" }
-		22 = { "%s Merarchía Pezikoú" }
-		23 = { "%s Merarchía Pezikoú" }
-		24 = { "%s Merarchía Pezikoú" }
-		25 = { "%s Merarchía Pezikoú" }
-		26 = { "%s Merarchía Pezikoú" }
-		27 = { "%s Merarchía Pezikoú" }
-		28 = { "%s Merarchía Pezikoú" }
-		29 = { "%s Merarchía Pezikoú" }
-		30 = { "%s Merarchía Pezikoú" }
+		20 = { "%s Merarchía Pezikoú" }		
+		21 = { "%s Merarchía Pezikoú" }		
+		22 = { "%s Merarchía Pezikoú" }		
+		23 = { "%s Merarchía Pezikoú" }		
+		24 = { "%s Merarchía Pezikoú" }		
+		25 = { "%s Merarchía Pezikoú" }		
+		26 = { "%s Merarchía Pezikoú" }		
+		27 = { "%s Merarchía Pezikoú" }		
+		28 = { "%s Merarchía Pezikoú" }		
+		29 = { "%s Merarchía Pezikoú" }		
+		30 = { "%s Merarchía Pezikoú" }		
 	}
 }
 
-GRE_GAR_01 = {
+GRE_GAR_01 = 
+{
 	name = "Garrison Division"
 
-	for_countries = { GRE CYP }
+	for_countries = { GRE }
 
 	can_use = { always = yes }
 
@@ -327,9 +344,20 @@ GRE_GAR_01 = {
 
 	fallback_name = "%s Merarchía Pezikoú"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
+		21 = { "%s Merarchía Pezikoú" }		
+		22 = { "%s Merarchía Pezikoú" }		
+		23 = { "%s Merarchía Pezikoú" }		
+		24 = { "%s Merarchía Pezikoú" }		
+		25 = { "%s Merarchía Pezikoú" }		
+		26 = { "%s Merarchía Pezikoú" }		
+		27 = { "%s Merarchía Pezikoú" }		
+		28 = { "%s Merarchía Pezikoú" }		
+		29 = { "%s Merarchía Pezikoú" }		
+		30 = { "%s Merarchía Pezikoú" }		
 		1 = { "%s Merarchía Pezikoú" }
 		2 = { "%s Merarchía Pezikoú" }
 		3 = { "%s Merarchía Pezikoú" }
@@ -349,47 +377,7 @@ GRE_GAR_01 = {
 		17 = { "%s Merarchía Pezikoú" }
 		18 = { "%s Merarchía Pezikoú" }
 		19 = { "%s Merarchía Pezikoú" }
-		20 = { "%s Merarchía Pezikoú" }
-	}
-}
-
-GRE_MIL_01 = {
-	name = "Militia Division"
-
-	for_countries = { GRE CYP }
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { GRE_INF_01 }
-
-	fallback_name = "%s Ethnofrourá Pezikoú"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%s Ethnofrourá Pezikoú" }
-		2 = { "%s Ethnofrourá Pezikoú" }
-		3 = { "%s Ethnofrourá Pezikoú" }
-		4 = { "%s Ethnofrourá Pezikoú" }
-		5 = { "%s Ethnofrourá Pezikoú" }
-		6 = { "%s Ethnofrourá Pezikoú" }
-		7 = { "%s Ethnofrourá Pezikoú" }
-		8 = { "%s Ethnofrourá Pezikoú" }
-		9 = { "%s Ethnofrourá Pezikoú" }
-		10 = { "%s Ethnofrourá Pezikoú" }
-		11 = { "%s Ethnofrourá Pezikoú" }
-		12 = { "%s Ethnofrourá Pezikoú" }
-		13 = { "%s Ethnofrourá Pezikoú" }
-		14 = { "%s Ethnofrourá Pezikoú" }
-		15 = { "%s Ethnofrourá Pezikoú" }
-		16 = { "%s Ethnofrourá Pezikoú" }
-		17 = { "%s Ethnofrourá Pezikoú" }
-		18 = { "%s Ethnofrourá Pezikoú" }
-		19 = { "%s Ethnofrourá Pezikoú" }
-		20 = { "%s Ethnofrourá Pezikoú" }
+		20 = { "%s Merarchía Pezikoú" }		
 	}
 }
 

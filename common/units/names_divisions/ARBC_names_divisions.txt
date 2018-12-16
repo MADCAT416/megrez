@@ -8,40 +8,48 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
 
-EGY_INF_01 = {
+EGY_INF_01 = 
+{
 	name = "Infantry Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "infantry" }
+
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { EGY_GAR_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "al-Mushati al-%di" }
 		2 = { "al-Mushati al-%di" }
 		3 = { "al-Mushati al-%di" }
@@ -64,17 +72,26 @@ EGY_INF_01 = {
 
 	}
 }
-EGY_CAV_01 = {
+
+EGY_CAV_01 = 
+{
 	name = "Cavalry Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "cavalry" }
+
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
+
 	fallback_name = "Sipahis al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Sipahis al-%di" }
 		2 = { "Sipahis al-%di" }
 		3 = { "Sipahis al-%di" }
@@ -93,17 +110,26 @@ EGY_CAV_01 = {
 
 	}
 }
-EGY_MOT_01 = {
+
+EGY_MOT_01 = 
+{
 	name = "Motorised Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "motorized" }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "al-Mushati al-%di" }
 		2 = { "al-Mushati al-%di" }
 		3 = { "al-Mushati al-%di" }
@@ -126,17 +152,26 @@ EGY_MOT_01 = {
 
 	}
 }
-EGY_ARM_01 = {
+
+EGY_ARM_01 = 
+{
 	name = "Armoured Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_CAV_01 }
+
 	fallback_name = "Sipahis al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Sipahis al-%di" }
 		2 = { "Sipahis al-%di" }
 		3 = { "Sipahis al-%di" }
@@ -155,17 +190,26 @@ EGY_ARM_01 = {
 
 	}
 }
-EGY_MEC_01 = {
+
+EGY_MEC_01 = 
+{
 	name = "Mechanised Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "mechanized"  }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "al-Mushati al-%di" }
 		2 = { "al-Mushati al-%di" }
 		3 = { "al-Mushati al-%di" }
@@ -188,17 +232,26 @@ EGY_MEC_01 = {
 
 	}
 }
-EGY_GAR_01 = {
+
+EGY_GAR_01 = 
+{
 	name = "Garrison Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "infantry" }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "al-Mushati al-%di" }
 		2 = { "al-Mushati al-%di" }
 		3 = { "al-Mushati al-%di" }
@@ -221,17 +274,26 @@ EGY_GAR_01 = {
 
 	}
 }
-EGY_MAR_01 = {
+
+EGY_MAR_01 = 
+{
 	name = "Marine Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "marine" }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		20 = { "al-Mushati al-%dr" }
 		21 = { "al-Mushati al-%dr" }
 		22 = { "al-Mushati al-%dr" }
@@ -246,41 +308,26 @@ EGY_MAR_01 = {
 
 	}
 }
-EGY_MTN_01 = {
+
+EGY_MTN_01 = 
+{
 	name = "Mountain Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
 	division_types = { "mountaineers" }
+
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
+
 	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		20 = { "al-Mushati al-%dr" }
-		21 = { "al-Mushati al-%dr" }
-		22 = { "al-Mushati al-%dr" }
-		23 = { "al-Mushati al-%dr" }
-		24 = { "al-Mushati al-%dr" }
-		25 = { "al-Mushati al-%dr" }
-		26 = { "al-Mushati al-%dr" }
-		27 = { "al-Mushati al-%dr" }
-		28 = { "al-Mushati al-%dr" }
-		29 = { "al-Mushati al-%dr" }
-		30 = { "al-Mushati al-%dr" }
-	}
-}
-EGY_PAR_01 = {
-	name = "Paratrooper Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
-	can_use = { always = yes }
-	division_types = { "paratrooper" }
-	# Number reservation system will tie to another group.
-	link_numbering_with = { EGY_INF_01 }
-	fallback_name = "al-Mushati al-%dr"
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		20 = { "al-Mushati al-%dr" }
 		21 = { "al-Mushati al-%dr" }
 		22 = { "al-Mushati al-%dr" }
@@ -295,25 +342,37 @@ EGY_PAR_01 = {
 
 	}
 }
-EGY_MIL_01 = {
-	name = "Militia Divisions"
-	for_countries = { EGY SUD JOR LYB LBA LEB MOR ALG TUN PAL SYR PAK TUA }
+
+EGY_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { EGY JOR LBA LEB PAL SYR }
+
 	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
 	# Number reservation system will tie to another group.
-	division_types = { "militia" }
-	fallback_name = "al-Milishiyai al-%dr"
-	# Names with numbers (only one number per entry).
+	link_numbering_with = { EGY_INF_01 }
+
+	fallback_name = "al-Mushati al-%dr"
+
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		20 = { "al-Milishiyai al-%dr" }
-		21 = { "al-Milishiyai al-%dr" }
-		22 = { "al-Milishiyai al-%dr" }
-		23 = { "al-Milishiyai al-%dr" }
-		24 = { "al-Milishiyai al-%dr" }
-		25 = { "al-Milishiyai al-%dr" }
-		26 = { "al-Milishiyai al-%dr" }
-		27 = { "al-Milishiyai al-%dr" }
-		28 = { "al-Milishiyai al-%dr" }
+	ordered =
+	{
+		20 = { "al-Mushati al-%dr" }
+		21 = { "al-Mushati al-%dr" }
+		22 = { "al-Mushati al-%dr" }
+		23 = { "al-Mushati al-%dr" }
+		24 = { "al-Mushati al-%dr" }
+		25 = { "al-Mushati al-%dr" }
+		26 = { "al-Mushati al-%dr" }
+		27 = { "al-Mushati al-%dr" }
+		28 = { "al-Mushati al-%dr" }
+		29 = { "al-Mushati al-%dr" }
+		30 = { "al-Mushati al-%dr" }
 
 	}
 }

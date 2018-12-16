@@ -1,7 +1,7 @@
 technologies = {
 
 	##### 전함 #####
-	early_battleship = {
+	battleship_1 = {
 		enable_equipments = { 
 			battleship_1
 		}
@@ -157,12 +157,94 @@ technologies = {
 	
 	carrier_4 = {
 		enable_equipments = { 
-			carrier_3
+			carrier_4
 		}
 		
+		path = {
+			leads_to_tech = carrier_5
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = naval_capital_folder
 			position = { x = 0 y = 6 }
+		}
+		
+		research_cost = 1.1
+		start_year = 1955
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	carrier_5 = {
+		enable_equipments = { 
+			carrier_5
+		}
+		
+		path = {
+			leads_to_tech = carrier_6
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		research_cost = 1.1
+		start_year = 1955
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	carrier_6 = {
+		enable_equipments = { 
+			carrier_6
+		}
+		
+		path = {
+			leads_to_tech = carrier_7
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 10 }
 		}
 		
 		research_cost = 1.1
@@ -201,6 +283,9 @@ technologies = {
 			leads_to_tech = super_carrier_2
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			nuke_naval = 1
+		}
 		
 		research_cost = 0.8
 		start_year = 1955
@@ -236,13 +321,12 @@ technologies = {
 			super_carrier_2
 		}
 
-		
 		path = {
 			leads_to_tech = super_carrier_3
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.8
@@ -279,8 +363,12 @@ technologies = {
 			super_carrier_3
 		}
 
+		path = {
+			leads_to_tech = super_carrier_4
+			research_cost_coeff = 1
+		}
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.8
@@ -289,6 +377,90 @@ technologies = {
 		folder = {
 			name = naval_capital_folder
 			position = { x = 6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	super_carrier_4 = {
+		enable_equipments = { 
+			super_carrier_4
+		}
+
+		path = {
+			leads_to_tech = super_carrier_5
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		research_cost = 0.8
+		start_year = 1970
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	super_carrier_5 = {
+		enable_equipments = { 
+			super_carrier_5
+		}
+
+		path = {
+			leads_to_tech = super_carrier_6
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		research_cost = 0.8
+		start_year = 1970
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 6 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -399,7 +571,6 @@ technologies = {
 			leads_to_tech = amphibious_assault_carrier_4
 			research_cost_coeff = 1
 		}
-		
 		research_cost = 1
 		start_year = 1955
 		
@@ -435,12 +606,94 @@ technologies = {
 			light_carrier_4
 		}
 		
+		path = {
+			leads_to_tech = amphibious_assault_carrier_5
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1955
 		
 		folder = {
 			name = naval_capital_folder
 			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				tag = ENG
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	amphibious_assault_carrier_5 = {
+		enable_equipments = { 
+			light_carrier_5
+		}
+		
+		path = {
+			leads_to_tech = amphibious_assault_carrier_6
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				tag = ENG
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	amphibious_assault_carrier_6 = {
+		enable_equipments = { 
+			light_carrier_6
+		}
+		
+		path = {
+			leads_to_tech = amphibious_assault_carrier_7
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 10 }
 		}
 		
 		ai_will_do = {

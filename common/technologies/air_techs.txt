@@ -1,6 +1,6 @@
 technologies = {
 	
-	jet_fighter_1 = { # 2차 대전기 제트 전투기
+	jet_fighter_1 = { #
 
 		enable_equipments = {
 			fighter_equipment_1
@@ -16,7 +16,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1960
 
 		folder = {
 			name = air_techs_folder
@@ -49,7 +49,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 1960
 		
 		categories = {
 			naval_air
@@ -74,7 +74,7 @@ technologies = {
 		}
 	}
 	
-	jet_fighter_2 = { # 1950 제트 전투기
+	jet_fighter_2 = { #
 
 		enable_equipments = {
 			fighter_equipment_2
@@ -91,7 +91,7 @@ technologies = {
 				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1970
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -143,7 +143,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 1970
 		
 		categories = {
 			naval_air
@@ -168,7 +168,7 @@ technologies = {
 		}
 	}
 	
-	jet_fighter_3 = { # 1955 제트 전투기
+	jet_fighter_3 = { #
 
 		enable_equipments = {
 			fighter_equipment_3
@@ -184,7 +184,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1980
 
 		folder = {
 			name = air_techs_folder
@@ -237,7 +237,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 1980
 		
 		categories = {
 			naval_air
@@ -260,7 +260,7 @@ technologies = {
 		}
 	}
 	
-	jet_fighter_4 = { # 1960 제트 전투기
+	jet_fighter_4 = { #
 
 		enable_equipments = {
 				fighter_equipment_4
@@ -276,7 +276,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 1990
 
 		folder = {
 			name = air_techs_folder
@@ -302,7 +302,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 1990
 		
 		categories = {
 			naval_air
@@ -324,7 +324,7 @@ technologies = {
 		}
 	}
 	
-	jet_fighter_5 = { # 1970 제트 전투기
+	jet_fighter_5 = { #
 
 		enable_equipments = {
 			fighter_equipment_5
@@ -339,7 +339,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2000
 
 		folder = {
 			name = air_techs_folder
@@ -365,7 +365,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 2000
 		
 		categories = {
 			naval_air
@@ -387,18 +387,18 @@ technologies = {
 		}
 	}
 	
-	jet_fighter_6 = { # 1970 제트 전투기
+	jet_fighter_6 = { #
 
 		enable_equipments = {
 			fighter_equipment_6
 		}
 
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2010
 
 		folder = {
 			name = air_techs_folder
@@ -424,7 +424,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
+		start_year = 2010
 		
 		categories = {
 			naval_air
@@ -441,7 +441,7 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_1 = { # 2차 대전 제트 대형 전투기
+	heavy_jet_fighter_1 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_1
@@ -457,7 +457,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1960
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 0 }
@@ -485,11 +485,11 @@ technologies = {
 	cv_heavy_jet_fighter_1 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_1
+			cv_CAS_equipment_1
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1933
+		start_year = 1960
 		
 		categories = {
 			naval_air
@@ -506,7 +506,7 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_2 = { # 1950 제트 대형 전투기
+	heavy_jet_fighter_2 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_2
@@ -522,7 +522,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1970
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -549,11 +549,11 @@ technologies = {
 	cv_heavy_jet_fighter_2 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_2
+			cv_CAS_equipment_2
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1936
+		start_year = 1970
 		
 		categories = {
 			naval_air
@@ -570,7 +570,7 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_3 = { # 1955 제트 대형 전투기
+	heavy_jet_fighter_3 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_3
@@ -586,7 +586,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1980
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -613,11 +613,11 @@ technologies = {
 	cv_heavy_jet_fighter_3 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_3
+			cv_CAS_equipment_3
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1936
+		start_year = 1980
 		
 		categories = {
 			naval_air
@@ -634,7 +634,7 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_4 = { # 1960 제트 대형 전투기
+	heavy_jet_fighter_4 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_4
@@ -650,7 +650,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1990
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -677,11 +677,11 @@ technologies = {
 	cv_heavy_jet_fighter_4 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_4
+			cv_CAS_equipment_4
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1936
+		start_year = 1990
 		
 		categories = {
 			naval_air
@@ -698,7 +698,7 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_5 = { # 1970 제트 대형 전투기
+	heavy_jet_fighter_5 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_5
@@ -714,7 +714,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 2000
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
@@ -741,11 +741,11 @@ technologies = {
 	cv_heavy_jet_fighter_5 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_5
+			cv_CAS_equipment_5
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1936
+		start_year = 2000
 		
 		categories = {
 			naval_air
@@ -762,18 +762,18 @@ technologies = {
 		}
 	}
 	
-	heavy_jet_fighter_6 = { # 1970 제트 대형 전투기
+	heavy_jet_fighter_6 = { #
 
 		enable_equipments = {
 			heavy_fighter_equipment_6
 		}
 
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 2010
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 10 }
@@ -800,11 +800,11 @@ technologies = {
 	cv_heavy_jet_fighter_6 = {
 
 		enable_equipments = {
-			cv_heavy_fighter_equipment_6
+			cv_CAS_equipment_6
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1936
+		start_year = 2010
 		
 		categories = {
 			naval_air
@@ -824,7 +824,7 @@ technologies = {
 	
 	light_fighter_1 = {
 
-		enable_equipments = { # 1945 지상 공격기
+		enable_equipments = { #
 			light_fighter_equipment_1
 		}
 	
@@ -834,11 +834,89 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_1 = 1
+			jet_engines_2 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1980
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	light_fighter_2 = {
+
+		enable_equipments = { #
+			light_fighter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = light_fighter_3
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines_3 = 1
+		}
+		
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	light_fighter_3 = {
+
+		enable_equipments = { #
+			light_fighter_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = light_fighter_4
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines_4 = 1
+		}
+		
+		research_cost = 2
+		start_year = 2000
 
 		folder = {
 			name = air_techs_folder
@@ -861,66 +939,27 @@ technologies = {
 		}
 	}
 	
-	light_fighter_2 = {
+	light_fighter_4 = {
 
-		enable_equipments = { # 1955 지상 공격기
-			light_fighter_equipment_2
+		enable_equipments = { #
+			light_fighter_equipment_4
 		}
 	
 		path = {
-			leads_to_tech = light_fighter_3
+			leads_to_tech = light_fighter_5
 			research_cost_coeff = 1
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2000
 
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-	
-	light_fighter_3 = {
-
-		enable_equipments = { # 1955 지상 공격기
-			light_fighter_equipment_3
-		}
-	
-		path = {
-			leads_to_tech = light_fighter_4
-			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			jet_engines_2 = 1
-		}
-		
-		research_cost = 2
-		start_year = 1940
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 10 }
 		}
 		
 		categories = {
@@ -942,7 +981,7 @@ technologies = {
 	
 	CAS_1 = {
 
-		enable_equipments = { # 1945 지상 공격기
+		enable_equipments = { #
 			CAS_equipment_1
 		}
 	
@@ -952,15 +991,15 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_1 = 1
+			jet_engines_2 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1980
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 2 }
 		}
 		
 		categories = {
@@ -981,7 +1020,7 @@ technologies = {
 	
 	CAS_2 = {
 
-		enable_equipments = { # 1955 지상 공격기
+		enable_equipments = { #
 			CAS_equipment_2
 		}
 	
@@ -991,15 +1030,15 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_3 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1990
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -1020,20 +1059,64 @@ technologies = {
 	
 	CAS_3 = {
 
-		enable_equipments = { # 1955 지상 공격기
+		enable_equipments = { #
 			CAS_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = CAS_4
+			research_cost_coeff = 1
 		}
 		
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_4 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2000
 
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	CAS_4 = {
+
+		enable_equipments = { #
+			CAS_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = CAS_5
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines_5 = 1
+		}
+		
+		research_cost = 2
+		start_year = 2000
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {
@@ -1052,7 +1135,7 @@ technologies = {
 		}
 	}
 
-	naval_bomber_1 = { # 1950 대잠 초계기
+	naval_bomber_1 = { #
 
 		enable_equipments = {
 			nav_bomber_equipment_1
@@ -1064,10 +1147,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1980
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 2 }
 		}
 		
 		categories = {
@@ -1086,7 +1169,7 @@ technologies = {
 		}
 	}
 	
-	naval_bomber_2 = { # 1960 대잠 초계기
+	naval_bomber_2 = { #
 
 		enable_equipments = {
 			nav_bomber_equipment_2
@@ -1098,10 +1181,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1990
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -1120,17 +1203,60 @@ technologies = {
 		}
 	}
 	
-	naval_bomber_3 = { # 1960 대잠 초계기
+	naval_bomber_3 = { #
 
 		enable_equipments = {
 			nav_bomber_equipment_3
 		}
+	
+		path = {
+			leads_to_tech = naval_bomber_4
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2000
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	naval_bomber_4 = { #
+
+		enable_equipments = {
+			nav_bomber_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = naval_bomber_5
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines_5 = 1
+		}
+		
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {

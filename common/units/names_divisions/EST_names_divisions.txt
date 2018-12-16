@@ -8,29 +8,29 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
-EST_INF_01 =
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+EST_INF_01 = 
 {
 	name = "Infantry Division"
 
@@ -43,36 +43,36 @@ EST_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Jagunemine"
+	fallback_name = "%s Jalaväediviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Jagunemine" }
-		2 = { "%s. Jagunemine" }
-		3 = { "%s. Jagunemine" }
-		4 = { "%s. Jagunemine" }
-		5 = { "%s. Jagunemine" }
-		6 = { "%s. Jagunemine" }
-		7 = { "%s. Jagunemine" }
-		8 = { "%s. Jagunemine" }
-		9 = { "%s. Jagunemine" }
-		10 = { "%s. Jagunemine" }
-		11 = { "%s. Jagunemine" }
-		12 = { "%s. Jagunemine" }
-		13 = { "%s. Jagunemine" }
-		14 = { "%s. Jagunemine" }
-		15 = { "%s. Jagunemine" }
-		16 = { "%s. Jagunemine" }
-		17 = { "%s. Jagunemine" }
-		18 = { "%s. Jagunemine" }
-		19 = { "%s. Jagunemine" }
-		20 = { "%s. Jagunemine" }
+		1 = { "%s Jalaväediviisi" }
+		2 = { "%s Jalaväediviisi" }
+		3 = { "%s Jalaväediviisi" }
+		4 = { "%s Jalaväediviisi" }
+		5 = { "%s Jalaväediviisi" }
+		6 = { "%s Jalaväediviisi" }
+		7 = { "%s Jalaväediviisi" }
+		8 = { "%s Jalaväediviisi" }
+		9 = { "%s Jalaväediviisi" }
+		10 = { "%s Jalaväediviisi" }
+		11 = { "%s Jalaväediviisi" }
+		12 = { "%s Jalaväediviisi" }
+		13 = { "%s Jalaväediviisi" }
+		14 = { "%s Jalaväediviisi" }
+		15 = { "%s Jalaväediviisi" }
+		16 = { "%s Jalaväediviisi" }
+		17 = { "%s Jalaväediviisi" }
+		18 = { "%s Jalaväediviisi" }
+		19 = { "%s Jalaväediviisi" }
+		20 = { "%s Jalaväediviisi" }		
 	}
 }
 
-EST_CAV_01 =
+EST_CAV_01 = 
 {
 	name = "Cavalry Division"
 
@@ -83,28 +83,28 @@ EST_CAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Kavalerija Jagunemine"
+	fallback_name = "%s Ratsaväediviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Kavalerija Jagunemine" }
-		2 = { "%s. Kavalerija Jagunemine" }
-		3 = { "%s. Kavalerija Jagunemine" }
-		4 = { "%s. Kavalerija Jagunemine" }
-		5 = { "%s. Kavalerija Jagunemine" }
-		6 = { "%s. Kavalerija Jagunemine" }
-		7 = { "%s. Kavalerija Jagunemine" }
-		8 = { "%s. Kavalerija Jagunemine" }
-		9 = { "%s. Kavalerija Jagunemine" }
-		10 = { "%s. Kavalerija Jagunemine" }
+		1 = { "%s Ratsaväediviisi" }
+		2 = { "%s Ratsaväediviisi" }
+		3 = { "%s Ratsaväediviisi" }
+		4 = { "%s Ratsaväediviisi" }
+		5 = { "%s Ratsaväediviisi" }
+		6 = { "%s Ratsaväediviisi" }
+		7 = { "%s Ratsaväediviisi" }
+		8 = { "%s Ratsaväediviisi" }
+		9 = { "%s Ratsaväediviisi" }
+		10 = { "%s Ratsaväediviisi" }
 	}
 }
 
-EST_MOT_01 =
+EST_MOT_01 = 
 {
 	name = "Motorized Division"
 
@@ -115,28 +115,28 @@ EST_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Motorizavimas Jagunemine"
+	fallback_name = "%s Motoriseeritud diviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Motorizavimas Jagunemine" }
-		2 = { "%s. Motorizavimas Jagunemine" }
-		3 = { "%s. Motorizavimas Jagunemine" }
-		4 = { "%s. Motorizavimas Jagunemine" }
-		5 = { "%s. Motorizavimas Jagunemine" }
-		6 = { "%s. Motorizavimas Jagunemine" }
-		7 = { "%s. Motorizavimas Jagunemine" }
-		8 = { "%s. Motorizavimas Jagunemine" }
-		9 = { "%s. Motorizavimas Jagunemine" }
-		10 = { "%s. Motorizavimas Jagunemine" }
+		1 = { "%s Motoriseeritud diviisi" }
+		2 = { "%s Motoriseeritud diviisi" }
+		3 = { "%s Motoriseeritud diviisi" }
+		4 = { "%s Motoriseeritud diviisi" }
+		5 = { "%s Motoriseeritud diviisi" }
+		6 = { "%s Motoriseeritud diviisi" }
+		7 = { "%s Motoriseeritud diviisi" }
+		8 = { "%s Motoriseeritud diviisi" }
+		9 = { "%s Motoriseeritud diviisi" }
+		10 = { "%s Motoriseeritud diviisi" }
 	}
 }
 
-EST_MEC_01 =
+EST_MEC_01 = 
 {
 	name = "Mechanized Division"
 
@@ -147,30 +147,30 @@ EST_MEC_01 =
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Mechanizavimas Jagunemine"
+	fallback_name = "%s Mehhaniseeritud diviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Mechanizavimas Jagunemine" }
-		2 = { "%s. Mechanizavimas Jagunemine" }
-		3 = { "%s. Mechanizavimas Jagunemine" }
-		4 = { "%s. Mechanizavimas Jagunemine" }
-		5 = { "%s. Mechanizavimas Jagunemine" }
-		6 = { "%s. Mechanizavimas Jagunemine" }
-		7 = { "%s. Mechanizavimas Jagunemine" }
-		8 = { "%s. Mechanizavimas Jagunemine" }
-		9 = { "%s. Mechanizavimas Jagunemine" }
-		10 = { "%s. Mechanizavimas Jagunemine" }
+		1 = { "%s Mehhaniseeritud diviisi" }
+		2 = { "%s Mehhaniseeritud diviisi" }
+		3 = { "%s Mehhaniseeritud diviisi" }
+		4 = { "%s Mehhaniseeritud diviisi" }
+		5 = { "%s Mehhaniseeritud diviisi" }
+		6 = { "%s Mehhaniseeritud diviisi" }
+		7 = { "%s Mehhaniseeritud diviisi" }
+		8 = { "%s Mehhaniseeritud diviisi" }
+		9 = { "%s Mehhaniseeritud diviisi" }
+		10 = { "%s Mehhaniseeritud diviisi" }
 	}
 }
 
-EST_ARM_01 =
+EST_ARM_01 = 
 {
-	name = "Armored Division"
+	name = "Tank Division"
 
 	for_countries = { EST }
 
@@ -179,28 +179,28 @@ EST_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Apsisarvavimas Jagunemine"
+	fallback_name = "%s Tankidiviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Apsisarvavimas Jagunemine" }
-		2 = { "%s. Apsisarvavimas Jagunemine" }
-		3 = { "%s. Apsisarvavimas Jagunemine" }
-		4 = { "%s. Apsisarvavimas Jagunemine" }
-		5 = { "%s. Apsisarvavimas Jagunemine" }
-		6 = { "%s. Apsisarvavimas Jagunemine" }
-		7 = { "%s. Apsisarvavimas Jagunemine" }
-		8 = { "%s. Apsisarvavimas Jagunemine" }
-		9 = { "%s. Apsisarvavimas Jagunemine" }
-		10 = { "%s. Apsisarvavimas Jagunemine" }
+		1 = { "%s Tankidiviisi" }
+		2 = { "%s Tankidiviisi" }
+		3 = { "%s Tankidiviisi" }
+		4 = { "%s Tankidiviisi" }
+		5 = { "%s Tankidiviisi" }
+		6 = { "%s Tankidiviisi" }
+		7 = { "%s Tankidiviisi" }
+		8 = { "%s Tankidiviisi" }
+		9 = { "%s Tankidiviisi" }
+		10 = { "%s Tankidiviisi" }
 	}
 }
 
-EST_PAR_01 =
+EST_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
@@ -211,28 +211,28 @@ EST_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Gabenamas Jagunemine"
+	fallback_name = "%s Õhudessantdiviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Gabenamas Jagunemine" }
-		2 = { "%s. Gabenamas Jagunemine" }
-		3 = { "%s. Gabenamas Jagunemine" }
-		4 = { "%s. Gabenamas Jagunemine" }
-		5 = { "%s. Gabenamas Jagunemine" }
-		6 = { "%s. Gabenamas Jagunemine" }
-		7 = { "%s. Gabenamas Jagunemine" }
-		8 = { "%s. Gabenamas Jagunemine" }
-		9 = { "%s. Gabenamas Jagunemine" }
-		10 = { "%s. Gabenamas Jagunemine" }
+		1 = { "%s Õhudessantdiviisi" }
+		2 = { "%s Õhudessantdiviisi" }
+		3 = { "%s Õhudessantdiviisi" }
+		4 = { "%s Õhudessantdiviisi" }
+		5 = { "%s Õhudessantdiviisi" }
+		6 = { "%s Õhudessantdiviisi" }
+		7 = { "%s Õhudessantdiviisi" }
+		8 = { "%s Õhudessantdiviisi" }
+		9 = { "%s Õhudessantdiviisi" }
+		10 = { "%s Õhudessantdiviisi" }
 	}
 }
 
-EST_MAR_01 =
+EST_MAR_01 = 
 {
 	name = "Marine Division"
 
@@ -243,28 +243,28 @@ EST_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { EST_INF_01 }
+	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Juras Peizazas Jagunemine"
+	fallback_name = "%s Merejalaväediviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Juras Peizazas Jagunemine" }
-		2 = { "%s. Juras Peizazas Jagunemine" }
-		3 = { "%s. Juras Peizazas Jagunemine" }
-		4 = { "%s. Juras Peizazas Jagunemine" }
-		5 = { "%s. Juras Peizazas Jagunemine" }
-		6 = { "%s. Juras Peizazas Jagunemine" }
-		7 = { "%s. Juras Peizazas Jagunemine" }
-		8 = { "%s. Juras Peizazas Jagunemine" }
-		9 = { "%s. Juras Peizazas Jagunemine" }
-		10 = { "%s. Juras Peizazas Jagunemine" }
+		1 = { "%s Merejalaväediviisi" }
+		2 = { "%s Merejalaväediviisi" }
+		3 = { "%s Merejalaväediviisi" }
+		4 = { "%s Merejalaväediviisi" }
+		5 = { "%s Merejalaväediviisi" }
+		6 = { "%s Merejalaväediviisi" }
+		7 = { "%s Merejalaväediviisi" }
+		8 = { "%s Merejalaväediviisi" }
+		9 = { "%s Merejalaväediviisi" }
+		10 = { "%s Merejalaväediviisi" }
 	}
 }
 
-EST_MTN_01 =
+EST_MNT_01 = 
 {
 	name = "Mountain Division"
 
@@ -277,26 +277,26 @@ EST_MTN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s Bjeshkë Jagunemine"
+	fallback_name = "%s Mägidiviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Alpinistinė Jagunemine" }
-		2 = { "%s. Alpinistinė Jagunemine" }
-		3 = { "%s. Alpinistinė Jagunemine" }
-		4 = { "%s. Alpinistinė Jagunemine" }
-		5 = { "%s. Alpinistinė Jagunemine" }
-		6 = { "%s. Alpinistinė Jagunemine" }
-		7 = { "%s. Alpinistinė Jagunemine" }
-		8 = { "%s. Alpinistinė Jagunemine" }
-		9 = { "%s. Alpinistinė Jagunemine" }
-		10 = { "%s. Alpinistinė Jagunemine" }
+		1 = { "%s Mägidiviisi" }
+		2 = { "%s Mägidiviisi" }
+		3 = { "%s Mägidiviisi" }
+		4 = { "%s Mägidiviisi" }
+		5 = { "%s Mägidiviisi" }
+		6 = { "%s Mägidiviisi" }
+		7 = { "%s Mägidiviisi" }
+		8 = { "%s Mägidiviisi" }
+		9 = { "%s Mägidiviisi" }
+		10 = { "%s Mägidiviisi" }
 	}
 }
 
-EST_GAR_01 =
+EST_GAR_01 = 
 {
 	name = "Garrison Division"
 
@@ -309,76 +309,32 @@ EST_GAR_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s. Įgulos Jagunemine"
+	fallback_name = "%s Jalaväediviisi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Įgulos Jagunemine" }
-		2 = { "%s. Įgulos Jagunemine" }
-		3 = { "%s. Įgulos Jagunemine" }
-		4 = { "%s. Įgulos Jagunemine" }
-		5 = { "%s. Įgulos Jagunemine" }
-		6 = { "%s. Įgulos Jagunemine" }
-		7 = { "%s. Įgulos Jagunemine" }
-		8 = { "%s. Įgulos Jagunemine" }
-		9 = { "%s. Įgulos Jagunemine" }
-		10 = { "%s. Įgulos Jagunemine" }
-		11 = { "%s. Įgulos Jagunemine" }
-		12 = { "%s. Įgulos Jagunemine" }
-		13 = { "%s. Įgulos Jagunemine" }
-		14 = { "%s. Įgulos Jagunemine" }
-		15 = { "%s. Įgulos Jagunemine" }
-		16 = { "%s. Įgulos Jagunemine" }
-		17 = { "%s. Įgulos Jagunemine" }
-		18 = { "%s. Įgulos Jagunemine" }
-		19 = { "%s. Įgulos Jagunemine" }
-		20 = { "%s. Įgulos Jagunemine" }
-	}
-}
-
-
-
-EST_MIL_01 =
-{
-	name = "Militia Division"
-
-	for_countries = { EST }
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { EST_INF_01 }
-
-	fallback_name = "%s. Milicijos Jagunemine"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%s. Milicijos Jagunemine" }
-		2 = { "%s. Milicijos Jagunemine" }
-		3 = { "%s. Milicijos Jagunemine" }
-		4 = { "%s. Milicijos Jagunemine" }
-		5 = { "%s. Milicijos Jagunemine" }
-		6 = { "%s. Milicijos Jagunemine" }
-		7 = { "%s. Milicijos Jagunemine" }
-		8 = { "%s. Milicijos Jagunemine" }
-		9 = { "%s. Milicijos Jagunemine" }
-		10 = { "%s. Milicijos Jagunemine" }
-		11 = { "%s. Milicijos Jagunemine" }
-		12 = { "%s. Milicijos Jagunemine" }
-		13 = { "%s. Milicijos Jagunemine" }
-		14 = { "%s. Milicijos Jagunemine" }
-		15 = { "%s. Milicijos Jagunemine" }
-		16 = { "%s. Milicijos Jagunemine" }
-		17 = { "%s. Milicijos Jagunemine" }
-		18 = { "%s. Milicijos Jagunemine" }
-		19 = { "%s. Milicijos Jagunemine" }
-		20 = { "%s. Milicijos Jagunemine" }
+		1 = { "%s Jalaväediviisi" }
+		2 = { "%s Jalaväediviisi" }
+		3 = { "%s Jalaväediviisi" }
+		4 = { "%s Jalaväediviisi" }
+		5 = { "%s Jalaväediviisi" }
+		6 = { "%s Jalaväediviisi" }
+		7 = { "%s Jalaväediviisi" }
+		8 = { "%s Jalaväediviisi" }
+		9 = { "%s Jalaväediviisi" }
+		10 = { "%s Jalaväediviisi" }
+		11 = { "%s Jalaväediviisi" }
+		12 = { "%s Jalaväediviisi" }
+		13 = { "%s Jalaväediviisi" }
+		14 = { "%s Jalaväediviisi" }
+		15 = { "%s Jalaväediviisi" }
+		16 = { "%s Jalaväediviisi" }
+		17 = { "%s Jalaväediviisi" }
+		18 = { "%s Jalaväediviisi" }
+		19 = { "%s Jalaväediviisi" }
+		20 = { "%s Jalaväediviisi" }		
 	}
 }
 

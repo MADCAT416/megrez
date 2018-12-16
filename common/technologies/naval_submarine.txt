@@ -189,6 +189,45 @@ technologies = {
 		}
 	}
 	
+	submarine_6 = {
+		enable_equipments = { 
+			submarine_6
+		}
+		
+		path = {
+			leads_to_tech = submarine_7 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_submarine_6
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
 	##### 잠수함 #####
 	large_submarine_1 = {
 		enable_equipments = { 
@@ -209,6 +248,7 @@ technologies = {
 		}
 
 		dependencies = {
+			experimental_rockets = 1
 		}
 		
 		research_cost = 0.5
@@ -386,6 +426,45 @@ technologies = {
 		}
 	}
 	
+	large_submarine_6 = {
+		enable_equipments = { 
+			large_submarine_6
+		}
+		
+		path = {
+			leads_to_tech = large_submarine_7 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_6
+			research_cost_coeff = 0.75
+		}
+
+		dependencies = {
+		}
+		
+		research_cost = 0.65
+		start_year = 1970
+
+		folder = {
+			name = naval_submarine_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
 	################# 핵추진 공격 잠수함###############
 	
 	nuclear_attack_submarine_1 = {
@@ -399,7 +478,8 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
+			experimental_rockets = 1
 		}
 		
 		research_cost = 0.65
@@ -435,7 +515,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -471,7 +551,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -507,7 +587,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -538,7 +618,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -576,7 +656,8 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
+			experimental_rockets = 1
 		}
 		
 		research_cost = 0.65
@@ -612,7 +693,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -648,7 +729,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -684,7 +765,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65
@@ -715,7 +796,7 @@ technologies = {
 		}
 
 		dependencies = {
-			nuclear_reactor = 1
+			nuke_naval = 1
 		}
 		
 		research_cost = 0.65

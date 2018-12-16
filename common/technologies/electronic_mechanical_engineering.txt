@@ -14,7 +14,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1970
 		folder = {
 			name = electronics_folder
 			position = { x = 1 y = 0 }
@@ -56,7 +56,7 @@ technologies = {
 		
 		folder = {
 			name = support_folder
-			position = { x = 11 y = 9 } # x = 12 y = 0
+			position = { x = 10 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -90,6 +90,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = rdf1 
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 		
@@ -140,6 +144,164 @@ technologies = {
 		}
 	}
 	
+###------> Radio Finders <><> <><> <><> <><> <><>
+
+	rdf1 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+		path = {
+			leads_to_tech = rdf2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1939
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+
+	rdf2 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+		path = {
+			leads_to_tech = rdf3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1941
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+
+	rdf3 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+		path = {
+			leads_to_tech = rdf4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1943
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+
+	rdf4 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+		path = {
+			leads_to_tech = rdf5
+			research_cost_coeff = 1
+		}
+		
+     	research_cost = 1.5
+		start_year = 1945
+	
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	rdf5 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+		path = {
+			leads_to_tech = rdf6 
+			research_cost_coeff = 1
+		}
+		
+     	research_cost = 1.5
+		start_year = 1949
+	
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
+	rdf6 = {
+
+		static_anti_air_hit_chance_factor = 0.02
+		
+     	research_cost = 1.5
+		start_year = 1953
+	
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
 	
 	improved_decimetric_radar = {
 
@@ -445,7 +607,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = nuke_rocket_engines
+			leads_to_tech = ballistic_missile_1
 			research_cost_coeff = 1
 		}
 		
@@ -970,7 +1132,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = ballistic_missile_1 
+			leads_to_tech = heavy_rocket_engine_1 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -995,24 +1157,63 @@ technologies = {
 		}
 	}
 	
-	ballistic_missile_1 = {
+	heavy_rocket_engine_1 = {
 
 		show_equipment_icon = yes
 
 		research_time_factor = -0.02
 		
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		
 		path = {
-			leads_to_tech = ballistic_missile_2 
+			leads_to_tech = heavy_rocket_engine_2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 12 y = 6 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}		
+	}
+	
+	heavy_rocket_engine_2 = {
+
+		show_equipment_icon = yes
+
+		research_time_factor = -0.02
+		
+		rocket_artillery = {
+			soft_attack = 0.02
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.02
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.02
+		}
+		
+		path = {
+			leads_to_tech = heavy_rocket_engine_3 
 			research_cost_coeff = 1
 		}
 		
@@ -1034,27 +1235,27 @@ technologies = {
 		}		
 	}
 	
-	ballistic_missile_2 = {
+	heavy_rocket_engine_3 = {
 
 		show_equipment_icon = yes
 
 		research_time_factor = -0.02
 		
 		rocket_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 		}
 		#path = {
 		#	leads_to_tech = aerospace_engineering_1 
 		#	research_cost_coeff = 1
 		#}
 		path = {
-			leads_to_tech = nuke_rocket_engines 
+			leads_to_tech = ballistic_missile_1 
 			research_cost_coeff = 1
 		}
 		
@@ -1076,15 +1277,42 @@ technologies = {
 		}		
 	}
 	
-	ballistic_missile_3 = {
+	ballistic_missile_1 = {
 
 		show_equipment_icon = yes
-
-		# can build v1s/rocket planes
+		
 		enable_equipments = {
 			guided_missile_equipment_1
-			theatre_ballistic_missile_equipment_1
-			intercontinental_ballistic_missile_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = ballistic_missile_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1959
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 9 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	ballistic_missile_2 = {
+
+		show_equipment_icon = yes
+		
+		enable_equipments = {
+			guided_missile_equipment_2
 		}
 		
 		rocket_artillery = {
@@ -1098,7 +1326,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = ballistic_missile_4 
+			leads_to_tech = ballistic_missile_3 
 			research_cost_coeff = 1
 		}
 		
@@ -1120,30 +1348,16 @@ technologies = {
 		}		
 	}
 	
-	ballistic_missile_4 = {
+	ballistic_missile_3 = {
 
 		show_equipment_icon = yes
 		
-		# can build v2s
-		
 		enable_equipments = {
-			guided_missile_equipment_2
-			theatre_ballistic_missile_equipment_2
-			intercontinental_ballistic_missile_equipment_2
-		}
-		
-		rocket_artillery = {
-			soft_attack = 0.05
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.05
+			guided_missile_equipment_3
 		}
 		
 		path = {
-			leads_to_tech = ballistic_missile_5 
+			leads_to_tech = ballistic_missile_4 
 			research_cost_coeff = 1
 		}
 		
@@ -1164,27 +1378,19 @@ technologies = {
 		}
 	}
 	
-	ballistic_missile_5 = {
+	ballistic_missile_4 = {
 
 		show_equipment_icon = yes
+		enable_equipments = {
+			guided_missile_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = ballistic_missile_5 
+			research_cost_coeff = 1
+		}
 
 		# can build ICBMs?
-		
-		enable_equipments = {
-			guided_missile_equipment_3
-			theatre_ballistic_missile_equipment_3
-			intercontinental_ballistic_missile_equipment_3
-		}
-		
-		rocket_artillery = {
-			soft_attack = 0.05
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.05
-		}
 		
 		research_cost = 1.5
 		start_year = 1946
@@ -1192,6 +1398,37 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 9 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	ballistic_missile_5 = {
+
+		show_equipment_icon = yes
+		enable_equipments = {
+			guided_missile_equipment_5
+		}
+		
+		path = {
+			leads_to_tech = ballistic_missile_6 
+			research_cost_coeff = 1
+		}
+
+		# can build ICBMs?
+		
+		research_cost = 1.5
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 9 y = 20 }
 		}
 		
 		ai_will_do = {
@@ -1564,16 +1801,24 @@ technologies = {
 		start_year = 1945
 		research_cost = 5
 		
+		enable_building = {
+			building = nuclear_reactor
+			level = 2
+		}
+		
 		path = {
 			leads_to_tech = nukes_2
 			research_cost_coeff = 1
 		}
 		
+		nuclear_production = 1
+
 		folder = {
 			name = electronics_folder
 			position = { x = 10 y = 8 }
 		}
 		
+
 		ai_will_do = {
 			factor = 10
 		}
@@ -1589,7 +1834,10 @@ technologies = {
 		start_year = 1951
 		research_cost = 5
 		
-		research_time_factor = -0.03
+		enable_building = {
+			building = nuclear_reactor
+			level = 3
+		}
 		
 		folder = {
 			name = electronics_folder
@@ -1597,10 +1845,11 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = nuke_rocket_engines 
+			leads_to_tech = ballistic_missile_1 
 			research_cost_coeff = 1
 		}
 		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1628,36 +1877,6 @@ technologies = {
 		
 		categories = {
 			nuclear
-		}
-	}
-	
-	nuke_rocket_engines = {
-
-		show_equipment_icon = yes
-		
-		enable_equipments = {
-			icbm_missile_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = ballistic_missile_3 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1959
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 9 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			rocketry
 		}
 	}
 }

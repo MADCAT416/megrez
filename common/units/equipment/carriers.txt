@@ -1,209 +1,992 @@
 equipments = {
 
+	### Subunit archetypes ###
 	carrier = {
-		year = 1922
+		year = 1926
 
 		is_archetype = yes
 		is_buildable = no
 		type = carrier
 		sprite = carrier
 		group_by = archetype
-
+		
 		interface_category = interface_category_capital_ships
-
+		
 		upgrades = {
 			ship_deckspace_upgrade
 			carrier_armor_upgrade
 			ship_engine_upgrade
-			ship_reliability_upgrade
+			ship_reliability_upgrade			
 		}
-
+		
 		ap_attack = 0
 		attack = 1
 		fire_range = 14
 		torpedo_attack = 0
-		carrier_size = 45
-
+		carrier_size = 70
+		
 		anti_air_attack = 8
-
+		
 		armor_value = 7
 		evasion = 8
-
+		
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 26
 		reliability = 0.70
-
-		naval_range = 3000
-
-		max_strength = 250
-
+		
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
 		port_capacity_usage = 2
 
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
-
-		build_cost_ic = 8750
+		
+		build_cost_ic = 28610.96
 		resources = {
 			oil = 1
-			steel = 3
-			chromium = 1
+			steel = 1
+			
+			
 		}
-
+		
 		manpower = 4500
 	}
 
-	carrier_pre = {
-		year = 1922
-		archetype = carrier
+	light_carrier = {
+		year = 1926
+
+		is_archetype = yes
 		is_buildable = no
-		priority = 70
-
+		sprite = carrier
+		type = carrier
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade			
+		}
+		
 		ap_attack = 0
 		attack = 1
-		fire_range = 10
+		fire_range = 14
 		torpedo_attack = 0
-		carrier_size = 10
-
-		anti_air_attack = 4
-
-		armor_value = 3
+		carrier_size = 70
+		
+		anti_air_attack = 8
+		
+		armor_value = 7
 		evasion = 8
-
-		surface_detection = 10
-		sub_detection = 5
-		surface_visibility = 40
-		naval_speed = 20
-		reliability = 0.4
-
-		naval_range = 2000
-
-		max_strength = 100
-
-		port_capacity_usage = 2
-	}
-
-	carrier_1 = {
-		year = 1930
-		archetype = carrier
-		priority = 70
-	}
-
-	carrier_2 = {
-		year = 1936
-		archetype = carrier
-		parent = carrier_1
-		priority = 70
-
-		ap_attack = 0
-		attack = 1
-		fire_range = 15
-		torpedo_attack = 0
-		carrier_size = 55
-
-		anti_air_attack = 10
-
-		armor_value = 9
-		evasion = 10
-
+		
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 28
-		reliability = 0.80
-
-		naval_range = 4000
-
-		max_strength = 325
-
+		reliability = 0.70
+		
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
 		port_capacity_usage = 2
 
-		build_cost_ic = 9500
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 23451.61
 		resources = {
 			oil = 1
-			steel = 4
-			chromium = 1
+			steel = 1
+			
+			
 		}
+		
+		manpower = 4500
+		
+	}
+
+	super_carrier = {
+		is_archetype = yes
+		is_buildable = no
+		sprite = carrier
+		type = carrier
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade			
+		}
+		
+		ap_attack = 0
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 0
+		carrier_size = 70
+		
+		anti_air_attack = 8
+		
+		armor_value = 7
+		evasion = 8
+		
+		surface_detection = 10
+		sub_detection = 5
+		surface_visibility = 30
+		reliability = 0.70
+		
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 4500
+	}
+
+	### 1965 ###
+	carrier_1 = {
+		year = 1965
+		
+		archetype = carrier
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.00
+		anti_air_attack = 9.63
+		carrier_size = 55.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 25.40
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 10.00
+		armor_value = 5.00
+
+		#radar
+		fire_range = 14.00
+		surface_detection = 15.00
+
+		#stealth/size
+		surface_visibility = 40.00
+
+		#engine
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 28610.96
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	carrier_2 = {
+		year = 1975
+
+		archetype = carrier
+		parent = carrier_1
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.12
+		anti_air_attack = 11.56
+		carrier_size = 60.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 28.45
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 11.20
+		armor_value = 5.60
+
+		#radar
+		fire_range = 15.68
+		surface_detection = 16.80
+
+		#stealth/size
+		surface_visibility = 34.00
+
+		#engine
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 28610.96
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
 		manpower = 5000
 	}
 
 	carrier_3 = {
-		year = 1940
+		year = 1985
 
 		archetype = carrier
 		parent = carrier_2
-		priority = 70
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.25
+		anti_air_attack = 13.87
+		carrier_size = 65.00
 
-		ap_attack = 0
-		attack = 2
-		fire_range = 16
-		torpedo_attack = 0
-		carrier_size = 70
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 31.86
 
-		anti_air_attack = 12
+		#ground support
+		shore_bombardment = 0.5
 
-		armor_value = 11
-		evasion = 12
+		#countermeasures/ECM
+		evasion = 12.54
+		armor_value = 6.27
 
-		surface_detection = 20
-		sub_detection = 5
-		surface_visibility = 30
-		naval_speed = 30
-		reliability = 0.85
+		#radar
+		fire_range = 17.56
+		surface_detection = 18.82
 
-		naval_range = 5000
+		#stealth/size
+		surface_visibility = 28.90
 
-		max_strength = 350
-
+		#engine
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
 		port_capacity_usage = 2
 
-		build_cost_ic = 10250
+		build_cost_ic = 28610.96
 		resources = {
-			oil = 2
-			steel = 4
-			chromium = 2
+			oil = 1
+			steel = 1
+			
+			
 		}
-		manpower = 5500
+		
+		manpower = 5000
 	}
 
 	carrier_4 = {
-		year = 1944
+		year = 2005
 
 		archetype = carrier
 		parent = carrier_3
-		priority = 70
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.40
+		anti_air_attack = 16.64
+		carrier_size = 70.00
 
-		ap_attack = 0
-		attack = 2
-		fire_range = 17
-		torpedo_attack = 0
-		carrier_size = 85
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 35.69
 
-		anti_air_attack = 14
+		#ground support
+		shore_bombardment = 0.5
 
-		armor_value = 13
-		evasion = 14
+		#countermeasures/ECM
+		evasion = 14.05
+		armor_value = 7.02
 
-		surface_detection = 30
-		sub_detection = 5
-		surface_visibility = 30
+		#radar
+		fire_range = 19.67
+		surface_detection = 21.07
+
+		#stealth/size
+		surface_visibility = 24.57
+
+		#engine
 		naval_speed = 32
-		reliability = 0.90
-
-		naval_range = 6000
-
-		max_strength = 400
-
+		naval_range = 19300
+		max_strength = 600
+		
 		port_capacity_usage = 2
 
-		build_cost_ic = 11000
+		build_cost_ic = 28610.96
 		resources = {
-			oil = 2
-			steel = 5
-			chromium = 2
+			oil = 1
+			steel = 1
+			
+			
 		}
-		manpower = 6000
+		
+		manpower = 5000
+	}
+	carrier_5 = {
+		year = 2005
+
+		archetype = carrier
+		parent = carrier_4
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.40
+		anti_air_attack = 16.64
+		carrier_size = 70.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 35.69
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 14.05
+		armor_value = 7.02
+
+		#radar
+		fire_range = 19.67
+		surface_detection = 21.07
+
+		#stealth/size
+		surface_visibility = 24.57
+
+		#engine
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 28610.96
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	carrier_6 = {
+		year = 2005
+
+		archetype = carrier
+		parent = carrier_5
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.40
+		anti_air_attack = 16.64
+		carrier_size = 70.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 35.69
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 14.05
+		armor_value = 7.02
+
+		#radar
+		fire_range = 19.67
+		surface_detection = 21.07
+
+		#stealth/size
+		surface_visibility = 24.57
+
+		#engine
+		naval_speed = 32
+		naval_range = 19300
+		max_strength = 600
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 28610.96
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+
+	### 경 항공모함 ###
+	light_carrier_1 = {
+		year = 1975
+
+		archetype = light_carrier
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.12
+		anti_air_attack = 11.56
+		carrier_size = 15.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 28.45
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 11.20
+		armor_value = 5.60
+
+		#radar
+		fire_range = 15.68
+		surface_detection = 16.80
+
+		#stealth/size
+		surface_visibility = 34.00
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	light_carrier_2 = {
+		year = 1939
+
+		archetype = light_carrier
+		parent = light_carrier_1
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.25
+		anti_air_attack = 13.87
+		carrier_size = 20.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 31.86
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 12.54
+		armor_value = 6.27
+
+		#radar
+		fire_range = 17.56
+		surface_detection = 18.82
+
+		#stealth/size
+		surface_visibility = 28.90
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	light_carrier_3 = {
+		year = 1942
+
+		archetype = light_carrier
+		parent = light_carrier_2
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.57
+		anti_air_attack = 19.97
+		carrier_size = 25.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 39.97
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 15.74
+		armor_value = 7.87
+
+		#radar
+		fire_range = 22.03
+		surface_detection = 23.60
+
+		#stealth/size
+		surface_visibility = 20.88
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	light_carrier_4 = {
+		year = 1945
+
+		archetype = light_carrier
+		parent = light_carrier_3
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.57
+		anti_air_attack = 19.97
+		carrier_size = 30.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 39.97
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 15.74
+		armor_value = 7.87
+
+		#radar
+		fire_range = 22.03
+		surface_detection = 23.60
+
+		#stealth/size
+		surface_visibility = 20.88
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	light_carrier_5 = {
+		year = 1945
+
+		archetype = light_carrier
+		parent = light_carrier_4
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.57
+		anti_air_attack = 19.97
+		carrier_size = 30.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 39.97
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 15.74
+		armor_value = 7.87
+
+		#radar
+		fire_range = 22.03
+		surface_detection = 23.60
+
+		#stealth/size
+		surface_visibility = 20.88
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	light_carrier_6 = {
+		year = 1945
+
+		archetype = light_carrier
+		parent = light_carrier_5
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.57
+		anti_air_attack = 19.97
+		carrier_size = 30.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 39.97
+
+		#ground support
+		shore_bombardment = 2
+
+		#countermeasures/ECM
+		evasion = 15.74
+		armor_value = 7.87
+
+		#radar
+		fire_range = 22.03
+		surface_detection = 23.60
+
+		#stealth/size
+		surface_visibility = 20.88
+
+		#engine
+		naval_speed = 24
+		naval_range = 17600
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 23451.61
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	### 대형 항공모함 ###
+	super_carrier_1 = {
+		year = 1965
+		
+		archetype = super_carrier
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.00
+		anti_air_attack = 9.63
+		carrier_size = 85.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 17.50
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 10.00
+		armor_value = 5.00
+
+		#radar
+		fire_range = 14.00
+		surface_detection = 15.00
+
+		#stealth/size
+		surface_visibility = 60.00
+
+		#engine
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	super_carrier_2 = {
+		year = 1975
+		
+		archetype = super_carrier
+		parent = super_carrier_1
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.12
+		anti_air_attack = 11.56
+		carrier_size = 90.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 25.40
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 11.2
+		armor_value = 5.6
+
+		#radar
+		fire_range = 15.68
+		surface_detection = 16.80
+
+		#stealth/size
+		surface_visibility = 51.00
+
+		#engine
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+
+	super_carrier_3 = {
+		year = 1985
+		
+		archetype = super_carrier
+		parent = super_carrier_2
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.25
+		anti_air_attack = 13.87
+		carrier_size = 90.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 28.45
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 12.54
+		armor_value = 6.27
+
+		#radar
+		fire_range = 17.56
+		surface_detection = 18.82
+
+		#stealth/size
+		surface_visibility = 43.35
+
+		#engine
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	super_carrier_4 = {
+		year = 1985
+		
+		archetype = super_carrier
+		parent = super_carrier_3
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.25
+		anti_air_attack = 13.87
+		carrier_size = 90.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 28.45
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 12.54
+		armor_value = 6.27
+
+		#radar
+		fire_range = 17.56
+		surface_detection = 18.82
+
+		#stealth/size
+		surface_visibility = 43.35
+
+		#engine
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
+	}
+	super_carrier_5 = {
+		year = 1985
+		
+		archetype = super_carrier
+		parent = super_carrier_4
+		priority = 5
+		
+		#Displacement
+		ap_attack = 0.00
+		attack = 1.25
+		anti_air_attack = 13.87
+		carrier_size = 90.00
+
+		#ASW
+		sub_attack = 0.00
+		sub_detection = 28.45
+
+		#ground support
+		shore_bombardment = 0.5
+
+		#countermeasures/ECM
+		evasion = 12.54
+		armor_value = 6.27
+
+		#radar
+		fire_range = 17.56
+		surface_detection = 18.82
+
+		#stealth/size
+		surface_visibility = 43.35
+
+		#engine
+		naval_speed = 32
+		naval_range = 99999
+		max_strength = 700
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 82653.88
+		resources = {
+			oil = 1
+			steel = 1
+			
+			
+		}
+		
+		manpower = 5000
 	}
 
 }

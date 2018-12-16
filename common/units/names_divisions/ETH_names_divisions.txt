@@ -8,29 +8,30 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
-ETH_INF_01 = {
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+ETH_INF_01 = 
+{
 	name = "Infantry Division"
 
 	for_countries = { ETH }
@@ -44,9 +45,10 @@ ETH_INF_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -83,7 +85,8 @@ ETH_INF_01 = {
 	}
 }
 
-ETH_CAV_01 = {
+ETH_CAV_01 = 
+{
 	name = "Cavalry Division"
 
 	for_countries = { ETH }
@@ -97,9 +100,10 @@ ETH_CAV_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -136,7 +140,8 @@ ETH_CAV_01 = {
 	}
 }
 
-ETH_MOT_01 = {
+ETH_MOT_01 = 
+{
 	name = "Motorized Division"
 
 	for_countries = { ETH }
@@ -150,9 +155,10 @@ ETH_MOT_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -189,7 +195,8 @@ ETH_MOT_01 = {
 	}
 }
 
-ETH_MEC_01 = {
+ETH_MEC_01 = 
+{
 	name = "Mechanized Division"
 
 	for_countries = { ETH }
@@ -203,9 +210,10 @@ ETH_MEC_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -242,7 +250,8 @@ ETH_MEC_01 = {
 	}
 }
 
-ETH_ARM_01 = {
+ETH_ARM_01 = 
+{
 	name = "Armored Division"
 
 	for_countries = { ETH }
@@ -256,9 +265,10 @@ ETH_ARM_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -295,7 +305,8 @@ ETH_ARM_01 = {
 	}
 }
 
-ETH_PAR_01 = {
+ETH_PAR_01 = 
+{
 	name = "Paratrooper Division"
 
 	for_countries = { ETH }
@@ -309,9 +320,10 @@ ETH_PAR_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -348,7 +360,8 @@ ETH_PAR_01 = {
 	}
 }
 
-ETH_MAR_01 = {
+ETH_MAR_01 = 
+{
 	name = "Marine Division"
 
 	for_countries = { ETH }
@@ -362,9 +375,10 @@ ETH_MAR_01 = {
 
 	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		1 = { "Kebur Zabagna" }
 		2 = { "1 Gojjam Sefari" }
 		3 = { "2 Gojjam Sefari" }
@@ -401,7 +415,8 @@ ETH_MAR_01 = {
 	}
 }
 
-ETH_MTN_01 = {
+ETH_MNT_01 = 
+{
 	name = "Mountain Division"
 
 	for_countries = { ETH }
@@ -413,25 +428,50 @@ ETH_MTN_01 = {
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ETH_INF_01 }
 
-	fallback_name = "%d Terarama Wetaderochi"
+	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%d Terarama Wetaderochi" }
-		2 = { "%d Terarama Wetaderochi" }
-		3 = { "%d Terarama Wetaderochi"}
-		4 = { "%d Terarama Wetaderochi"}
-		5 = { "%d Terarama Wetaderochi" }
-		6 = { "%d Terarama Wetaderochi" }
-		7 = { "%d Terarama Wetaderochi" }
-		8 = { "%d Terarama Wetaderochi" }
-		9 = { "%d Terarama Wetaderochi" }
-		10 = { "%d Terarama Wetaderochi" }
+	ordered =
+	{
+		1 = { "Kebur Zabagna" }
+		2 = { "1 Gojjam Sefari" }
+		3 = { "2 Gojjam Sefari" }
+		4 = { "Wolqayt-Semien Sefari" }
+		5 = { "Walega-Ardjo Sefari" }
+		6 = { "1 Tigray Sefari" }
+		7 = { "2 Tigray Sefari" }
+		8 = { "1 Begemder Sefari" }
+		9 = { "2 Begemder Sefari" }
+		10 = { "Wag Sefari" }
+		11 = { "Ogaden Sefari" }
+		12 = { "Arusi Sefari" }
+		13 = { "Illubabor Sefari" }
+		14 = { "1 Sidamo Sefari" }
+		15 = { "2 Sidamo Sefari" }
+		16 = { "Amino Sefari" }
+		17 = { "Gubba Sefari" }
+		18 = { "Jimma Sefari" }
+		19 = { "Mui Sefari" }
+		20 = { "Om Hajer Sefari" }
+		21 = { "Sela Sefari" }
+		22 = { "Sodo Sefari" }
+		23 = { "Welega Sefari" }
+		24 = { "Yejju Sefari" }
+		25 = { "Danakil Sefari" }
+		26 = { "Ifrata Sefari" }
+		27 = { "Kaffa Sefari" }
+		28 = { "Wollo Sefari" }
+		29 = { "Hararghe Sefari" }
+		30 = { "Gemu Gofa Sefari" }
+		31 = { "Kula Sefari" }
+		32 = { "Bale Sefari" }
+		33 = { "Mahel Sefari" }
 	}
 }
 
-ETH_GAR_01 = {
+ETH_GAR_01 = 
+{
 	name = "Garrison Division"
 
 	for_countries = { ETH }
@@ -443,38 +483,45 @@ ETH_GAR_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { ETH_INF_01 }
 
-	fallback_name = "%d Gosa Lalī"
+	fallback_name = "%d Yekilili Sefari"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Gosa Lalī 'Asamara Sefari'" }
-		2 = { "%d Gosa Lalī 'Harar Sefari'" }
-		3 = { "%d Gosa Lalī 'Oromia Sefari'" }
-	}
-}
-
-ETH_MIL_01 = {
-	name = "Militia Division"
-
-	for_countries = { ETH }
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { ETH_INF_01 }
-
-	fallback_name = "%d Miliša Sefari"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "%d Miliša Sefari" }
-		2 = { "%d Miliša Sefari" }
-		3 = { "%d Miliša Sefari" }
+		1 = { "Kebur Zabagna" }
+		2 = { "1 Gojjam Sefari" }
+		3 = { "2 Gojjam Sefari" }
+		4 = { "Wolqayt-Semien Sefari" }
+		5 = { "Walega-Ardjo Sefari" }
+		6 = { "1 Tigray Sefari" }
+		7 = { "2 Tigray Sefari" }
+		8 = { "1 Begemder Sefari" }
+		9 = { "2 Begemder Sefari" }
+		10 = { "Wag Sefari" }
+		11 = { "Ogaden Sefari" }
+		12 = { "Arusi Sefari" }
+		13 = { "Illubabor Sefari" }
+		14 = { "1 Sidamo Sefari" }
+		15 = { "2 Sidamo Sefari" }
+		16 = { "Amino Sefari" }
+		17 = { "Gubba Sefari" }
+		18 = { "Jimma Sefari" }
+		19 = { "Mui Sefari" }
+		20 = { "Om Hajer Sefari" }
+		21 = { "Sela Sefari" }
+		22 = { "Sodo Sefari" }
+		23 = { "Welega Sefari" }
+		24 = { "Yejju Sefari" }
+		25 = { "Danakil Sefari" }
+		26 = { "Ifrata Sefari" }
+		27 = { "Kaffa Sefari" }
+		28 = { "Wollo Sefari" }
+		29 = { "Hararghe Sefari" }
+		30 = { "Gemu Gofa Sefari" }
+		31 = { "Kula Sefari" }
+		32 = { "Bale Sefari" }
+		33 = { "Mahel Sefari" }
 	}
 }
 

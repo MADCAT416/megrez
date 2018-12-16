@@ -8,30 +8,30 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
 
-TIB_INF_01 =
+TIB_INF_01 = 
 {
 	name = "Infantry Divisions"
 
@@ -44,59 +44,56 @@ TIB_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { TIB_GAR_01 }
 
-	fallback_name = "%d Xi'zang Shi"
+	fallback_name = "Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xi'zang Shi" }
-		2 = { "%d Xi'zang Shi" }
-		3 = { "%d Xi'zang Shi" }
-		4 = { "%d Xi'zang Shi" }
-		5 = { "%d Xi'zang Shi" }
-		6 = { "%d Xi'zang Shi" }
-		7 = { "%d Xi'zang Shi" }
-		8 = { "%d Xi'zang Shi" }
-		9 = { "%d Xi'zang Shi" }
-		10 = { "%d Xi'zang Shi" }
-	}
-}
-
-TIB_INF_02 =
-{
-	name = "Infantry Divisions"
-
-	for_countries = { TIB }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" "militia" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { TIB_INF_01 }
-
-	fallback_name = "%d Xi'zang Lü"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%d Xi'zang Lü" }
-		2 = { "%d Xi'zang Lü" }
-		3 = { "%d Xi'zang Lü" }
-		4 = { "%d Xi'zang Lü" }
-		5 = { "%d Xi'zang Lü" }
-		6 = { "%d Xi'zang Lü" }
-		7 = { "%d Xi'zang Lü" }
-		8 = { "%d Xi'zang Lü" }
-		9 = { "%d Xi'zang Lü" }
-		10 = { "%d Xi'zang Lü" }
+		1 = { "Di'%d Shi" }
+		2 = { "Di'%d Shi" }
+		3 = { "Di'%d Shi" }
+		4 = { "Di'%d Shi" }
+		5 = { "Di'%d Shi" }
+		6 = { "Di'%d Shi" }
+		7 = { "Di'%d Shi" }
+		8 = { "Di'%d Shi" }
+		9 = { "Di'%d Shi" }
+		10 = { "Di'%d Shi" }
+		12 = { "Di'%d Shi" }
+		14 = { "Di'%d Shi" }
+		15 = { "Di'%d Shi" }
+		17 = { "Di'%d Shi" }
+		19 = { "Di'%d Shi" }
+		21 = { "Di'%d Shi" }
+		22 = { "Di'%d Shi" }
+		25 = { "Di'%d Shi" }
+		28 = { "Di'%d Shi" }
+		29 = { "Di'%d Shi" }
+		30 = { "Di'%d Shi" }
+		35 = { "Di'%d Shi" }
+		38 = { "Di'%d Shi" }
+		40 = { "Di'%d Shi" }
+		42 = { "Di'%d Shi" }
+		46 = { "Di'%d Shi" }
+		47 = { "Di'%d Shi" }
+		49 = { "Di'%d Shi" }
+		50 = { "Di'%d Shi" }
+		51 = { "Di'%d Shi" }
+		57 = { "Di'%d Shi" }
+		58 = { "Di'%d Shi" }
+		61 = { "Di'%d Shi" }
+		62 = { "Di'%d Shi" }
+		63 = { "Di'%d Shi" }
+		64 = { "Di'%d Shi" }
+		65 = { "Di'%d Shi" }
+		66 = { "Di'%d Shi" }
+		69 = { "Di'%d Shi" }
 
 	}
 }
 
-TIB_CAV_01 =
+TIB_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
@@ -111,7 +108,7 @@ TIB_CAV_01 =
 
 	fallback_name = "Qibing Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -129,7 +126,7 @@ TIB_CAV_01 =
 	}
 }
 
-TIB_MOT_01 =
+TIB_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
@@ -144,7 +141,7 @@ TIB_MOT_01 =
 
 	fallback_name = "Motuohua Bubing Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -191,7 +188,7 @@ TIB_MOT_01 =
 	}
 }
 
-TIB_ARM_01 =
+TIB_ARM_01 = 
 {
 	name = "Armored Divisions"
 
@@ -206,7 +203,7 @@ TIB_ARM_01 =
 
 	fallback_name = "Zhuangjiabing Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -224,7 +221,7 @@ TIB_ARM_01 =
 	}
 }
 
-TIB_MEC_01 =
+TIB_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 
@@ -239,7 +236,7 @@ TIB_MEC_01 =
 
 	fallback_name = "Jixiehua Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -286,7 +283,7 @@ TIB_MEC_01 =
 	}
 }
 
-TIB_GAR_01 =
+TIB_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
@@ -301,7 +298,7 @@ TIB_GAR_01 =
 
 	fallback_name = "Xi'zang Juntuan %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -319,7 +316,7 @@ TIB_GAR_01 =
 	}
 }
 
-TIB_MAR_01 =
+TIB_MAR_01 = 
 {
 	name = "Marine Divisions"
 
@@ -334,7 +331,7 @@ TIB_MAR_01 =
 
 	fallback_name = "Luzhan Dui Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -352,7 +349,7 @@ TIB_MAR_01 =
 	}
 }
 
-TIB_MTN_01 =
+TIB_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
@@ -367,7 +364,7 @@ TIB_MTN_01 =
 
 	fallback_name = "Pabing Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
@@ -414,7 +411,7 @@ TIB_MTN_01 =
 	}
 }
 
-TIB_PAR_01 =
+TIB_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
@@ -429,7 +426,7 @@ TIB_PAR_01 =
 
 	fallback_name = "Jiangluo Sanbu Di'%d Shi"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{

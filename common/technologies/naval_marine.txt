@@ -16,7 +16,7 @@ technologies = {
 		}
 		
 		research_cost = 0.5
-		start_year = 1945
+		start_year = 1980
 
 		show_equipment_icon = yes
 		
@@ -62,7 +62,7 @@ technologies = {
 		}
 		
 		research_cost = 0.85
-		start_year = 1970
+		start_year = 1990
 		
 		folder = {
 			name = naval_marine_folder
@@ -101,7 +101,7 @@ technologies = {
 		naval_invasion_capacity = 100
 
 		research_cost = 0.85
-		start_year = 1980
+		start_year = 2000
 		
 		folder = {
 			name = naval_marine_folder
@@ -158,7 +158,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1980
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 0 }
@@ -196,7 +196,7 @@ technologies = {
 		
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1990
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 2 }
@@ -232,7 +232,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1960
+		start_year = 1995
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 4 }
@@ -268,7 +268,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1970
+		start_year = 2000
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 6 }
@@ -304,7 +304,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1980
+		start_year = 2010
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 8 }
@@ -340,8 +340,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		doctrine = yes	
 		research_cost = 2.0
-		start_year = 1980
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 2 }
@@ -380,8 +380,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 4 }
@@ -420,8 +420,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 6 }
@@ -456,8 +456,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 8 }
@@ -495,8 +495,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 6 }
@@ -531,8 +531,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 8 }
@@ -571,9 +571,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 10 }
@@ -611,8 +610,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 12 }
@@ -643,8 +642,8 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 14 }
@@ -682,8 +681,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 12 }
@@ -714,8 +713,8 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 14 }
@@ -757,8 +756,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		doctrine = yes
 		research_cost = 2.0
-		start_year = 1980
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 2 }
@@ -793,8 +792,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 4 }
@@ -829,8 +828,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 4 }
@@ -869,8 +868,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 6 }
@@ -908,8 +907,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 8 }
@@ -944,8 +943,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 10 }
@@ -983,8 +982,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 8 }
@@ -1019,8 +1018,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 10 }
@@ -1059,8 +1058,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 0 y = 12 }
@@ -1091,8 +1090,8 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = -2 y = 14 }
@@ -1123,8 +1122,8 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
-		start_year = 1980
+		doctrine = yes
+		research_cost = 3
 		folder = {
 			name = naval_marine_folder
 			position = { x = 2 y = 14 }

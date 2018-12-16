@@ -8,29 +8,29 @@
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, becSWIe
-#			for example the current one is no longer available due to the can_use trigger saying so).
-#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, becSWIe
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#			mechanics to be used for fallbacks, then just skip this option.
+#                 mechanics to be used for fallbacks, then just skip this option.
 #
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#			this option is available here mainly for a mods.
+#             this option is available here mainly for a mods.
 #
-# ordered - Is a list of all historical names.
-#			Numbers must start from 1 and up.
-#			Numbers can't repeat in one scope.
-#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#			1st argument = The name. It must contain either:
-#						%d (for decimal number placement)
-#						%s (for string number placement - ROMAN numbers like XIV).
-#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#									where you choose the historical division name.
-#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#									the current game version.
-SWI_INF_01 =
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+SWI_INF_01 = 
 {
 	name = "Infantry Division"
 
@@ -43,48 +43,36 @@ SWI_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Division"
+	fallback_name = "Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		8 = { "%d. Division" }
-		10 = { "%d. Division" }
-		11 = { "%d. Division" }
-		12 = { "%d. Division" }
-		13 = { "%d. Division" }
-		14 = { "%d. Division" }
-		15 = { "%d. Division" }
-		16 = { "%d. Division" }
-		17 = { "%d. Division" }
-		18 = { "%d. Division" }
-		19 = { "%d. Division" }
-		20 = { "%d. Division" }
-		21 = { "%d. Division" }
-		22 = { "%d. Division" }
-		23 = { "%d. Division" }
-		24 = { "%d. Division" }
-		25 = { "%d. Division" }
-		26 = { "%d. Division" }
-		27 = { "%d. Division" }
-		28 = { "%d. Division" }
-		29 = { "%d. Division" }
-		30 = { "%d. Division" }
-		31 = { "%d. Division" }
-		32 = { "%d. Division" }
-		33 = { "%d. Division" }
-		34 = { "%d. Division" }
-		35 = { "%d. Division" }
-		36 = { "%d. Division" }
-		37 = { "%d. Division" }
-		38 = { "%d. Division" }
-		39 = { "%d. Division" }
-		40 = { "%d. Division" }
+		1 = { "Division %d" }
+		2 = { "Division %d" }
+		3 = { "Division %d" }
+		4 = { "Division %d" }
+		5 = { "Division %d" }
+		6 = { "Division %d" }
+		7 = { "Division %d" }
+		8 = { "Division %d" }
+		9 = { "Division %d" }
+		10 = { "Division %d" }
+		11 = { "Division %d" }
+		12 = { "Division %d" }
+		13 = { "Division %d" }
+		14 = { "Division %d" }
+		15 = { "Division %d" }
+		16 = { "Division %d" }
+		17 = { "Division %d" }
+		18 = { "Division %d" }
+		19 = { "Division %d" }
+		20 = { "Division %d" }
 	}
 }
 
-SWI_CAV_01 =
+SWI_CAV_01 = 
 {
 	name = "Cavalry Unit"
 
@@ -97,26 +85,26 @@ SWI_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Leichte-Brigade"
+	fallback_name = "Leichte-Brigade %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Leichte-Brigade" }
-		2 = { "%d. Leichte-Brigade" }
-		3 = { "%d. Leichte-Brigade" }
-		4 = { "%d. Leichte-Brigade" }
-		5 = { "%d. Leichte-Brigade" }
-		6 = { "%d. Leichte-Brigade" }
-		7 = { "%d. Leichte-Brigade" }
-		8 = { "%d. Leichte-Brigade" }
-		9 = { "%d. Leichte-Brigade" }
-		10 = { "%d. Leichte-Brigade" }
+		1 = { "Leichte-Brigade %d" }
+		2 = { "Leichte-Brigade %d" }
+		3 = { "Leichte-Brigade %d" }
+		4 = { "Leichte-Brigade %d" }
+		5 = { "Leichte-Brigade %d" }
+		6 = { "Leichte-Brigade %d" }
+		7 = { "Leichte-Brigade %d" }
+		8 = { "Leichte-Brigade %d" }
+		9 = { "Leichte-Brigade %d" }
+		10 = { "Leichte-Brigade %d" }
 	}
 }
 
-SWI_MOT_01 =
+SWI_MOT_01 = 
 {
 	name = "Motorized Division"
 
@@ -129,48 +117,26 @@ SWI_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Motorfeld-Division"
+	fallback_name = "Motorfeld-Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		8 = { "%d. Motorfeld-Division" }
-		10 = { "%d. Motorfeld-Division" }
-		11 = { "%d. Motorfeld-Division" }
-		12 = { "%d. Motorfeld-Division" }
-		13 = { "%d. Motorfeld-Division" }
-		14 = { "%d. Motorfeld-Division" }
-		15 = { "%d. Motorfeld-Division" }
-		16 = { "%d. Motorfeld-Division" }
-		17 = { "%d. Motorfeld-Division" }
-		18 = { "%d. Motorfeld-Division" }
-		19 = { "%d. Motorfeld-Division" }
-		20 = { "%d. Motorfeld-Division" }
-		21 = { "%d. Motorfeld-Division" }
-		22 = { "%d. Motorfeld-Division" }
-		23 = { "%d. Motorfeld-Division" }
-		24 = { "%d. Motorfeld-Division" }
-		25 = { "%d. Motorfeld-Division" }
-		26 = { "%d. Motorfeld-Division" }
-		27 = { "%d. Motorfeld-Division" }
-		28 = { "%d. Motorfeld-Division" }
-		29 = { "%d. Motorfeld-Division" }
-		30 = { "%d. Motorfeld-Division" }
-		31 = { "%d. Motorfeld-Division" }
-		32 = { "%d. Motorfeld-Division" }
-		33 = { "%d. Motorfeld-Division" }
-		34 = { "%d. Motorfeld-Division" }
-		35 = { "%d. Motorfeld-Division" }
-		36 = { "%d. Motorfeld-Division" }
-		37 = { "%d. Motorfeld-Division" }
-		38 = { "%d. Motorfeld-Division" }
-		39 = { "%d. Motorfeld-Division" }
-		40 = { "%d. Motorfeld-Division" }
+		1 = { "Motorfeld-Division %d" }
+		2 = { "Motorfeld-Division %d" }
+		3 = { "Motorfeld-Division %d" }
+		4 = { "Motorfeld-Division %d" }
+		5 = { "Motorfeld-Division %d" }
+		6 = { "Motorfeld-Division %d" }
+		7 = { "Motorfeld-Division %d" }
+		8 = { "Motorfeld-Division %d" }
+		9 = { "Motorfeld-Division %d" }
+		10 = { "Motorfeld-Division %d" }
 	}
 }
 
-SWI_MEC_01 =
+SWI_MEC_01 = 
 {
 	name = "Mechanized Division"
 
@@ -183,26 +149,26 @@ SWI_MEC_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_CAV_01 }
 
-	fallback_name = "%d. Grenadierfeld-Division"
+	fallback_name = "Grenadierfeld-Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Grenadierfeld-Division" }
-		2 = { "%d. Grenadierfeld-Division" }
-		3 = { "%d. Grenadierfeld-Division" }
-		4 = { "%d. Grenadierfeld-Division" }
-		5 = { "%d. Grenadierfeld-Division" }
-		6 = { "%d. Grenadierfeld-Division" }
-		7 = { "%d. Grenadierfeld-Division" }
-		8 = { "%d. Grenadierfeld-Division" }
-		9 = { "%d. Grenadierfeld-Division" }
-		10 = { "%d. Grenadierfeld-Division" }
+		1 = { "Grenadierfeld-Division %d" }
+		2 = { "Grenadierfeld-Division %d" }
+		3 = { "Grenadierfeld-Division %d" }
+		4 = { "Grenadierfeld-Division %d" }
+		5 = { "Grenadierfeld-Division %d" }
+		6 = { "Grenadierfeld-Division %d" }
+		7 = { "Grenadierfeld-Division %d" }
+		8 = { "Grenadierfeld-Division %d" }
+		9 = { "Grenadierfeld-Division %d" }
+		10 = { "Grenadierfeld-Division %d" }
 	}
 }
 
-SWI_ARM_01 =
+SWI_ARM_01 = 
 {
 	name = "Armored Division"
 
@@ -215,26 +181,26 @@ SWI_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Panzer-Division"
+	fallback_name = "Panzer-Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Panzer-Division" }
-		2 = { "%d. Panzer-Division" }
-		3 = { "%d. Panzer-Division" }
-		4 = { "%d. Panzer-Division" }
-		5 = { "%d. Panzer-Division" }
-		6 = { "%d. Panzer-Division" }
-		7 = { "%d. Panzer-Division" }
-		8 = { "%d. Panzer-Division" }
-		9 = { "%d. Panzer-Division" }
-		10 = { "%d. Panzer-Division" }
+		1 = { "Panzer-Division %d" }
+		2 = { "Panzer-Division %d" }
+		3 = { "Panzer-Division %d" }
+		4 = { "Panzer-Division %d" }
+		5 = { "Panzer-Division %d" }
+		6 = { "Panzer-Division %d" }
+		7 = { "Panzer-Division %d" }
+		8 = { "Panzer-Division %d" }
+		9 = { "Panzer-Division %d" }
+		10 = { "Panzer-Division %d" }
 	}
 }
 
-SWI_PAR_01 =
+SWI_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
@@ -247,26 +213,26 @@ SWI_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Fallschirmjäger-Division"
+	fallback_name = "Fallschirmjäger-Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Fallschirmjäger-Division" }
-		2 = { "%d. Fallschirmjäger-Division" }
-		3 = { "%d. Fallschirmjäger-Division" }
-		4 = { "%d. Fallschirmjäger-Division" }
-		5 = { "%d. Fallschirmjäger-Division" }
-		6 = { "%d. Fallschirmjäger-Division" }
-		7 = { "%d. Fallschirmjäger-Division" }
-		8 = { "%d. Fallschirmjäger-Division" }
-		9 = { "%d. Fallschirmjäger-Division" }
-		10 = { "%d. Fallschirmjäger-Division" }
+		1 = { "Fallschirmjäger-Division %d" }
+		2 = { "Fallschirmjäger-Division %d" }
+		3 = { "Fallschirmjäger-Division %d" }
+		4 = { "Fallschirmjäger-Division %d" }
+		5 = { "Fallschirmjäger-Division %d" }
+		6 = { "Fallschirmjäger-Division %d" }
+		7 = { "Fallschirmjäger-Division %d" }
+		8 = { "Fallschirmjäger-Division %d" }
+		9 = { "Fallschirmjäger-Division %d" }
+		10 = { "Fallschirmjäger-Division %d" }
 	}
 }
 
-SWI_MAR_01 =
+SWI_MAR_01 = 
 {
 	name = "Marine Division"
 
@@ -279,82 +245,26 @@ SWI_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Marineinfanterie-Division"
+	fallback_name = "Marineinfanterie-Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Marineinfanterie-Division" }
-		2 = { "%d. Marineinfanterie-Division" }
-		3 = { "%d. Marineinfanterie-Division" }
-		4 = { "%d. Marineinfanterie-Division" }
-		5 = { "%d. Marineinfanterie-Division" }
-		6 = { "%d. Marineinfanterie-Division" }
-		7 = { "%d. Marineinfanterie-Division" }
-		8 = { "%d. Marineinfanterie-Division" }
-		9 = { "%d. Marineinfanterie-Division" }
-		10 = { "%d. Marineinfanterie-Division" }
+		1 = { "Marineinfanterie-Division %d" }
+		2 = { "Marineinfanterie-Division %d" }
+		3 = { "Marineinfanterie-Division %d" }
+		4 = { "Marineinfanterie-Division %d" }
+		5 = { "Marineinfanterie-Division %d" }
+		6 = { "Marineinfanterie-Division %d" }
+		7 = { "Marineinfanterie-Division %d" }
+		8 = { "Marineinfanterie-Division %d" }
+		9 = { "Marineinfanterie-Division %d" }
+		10 = { "Marineinfanterie-Division %d" }
 	}
 }
 
-SWI_MIL_01 =
-{
-	name = "Militia Division"
-
-	for_countries = { SWI }
-
-	can_use = { always = yes }
-
-	division_types = { "militia" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SWI_INF_01 }
-
-	fallback_name = "%d. Landwehr"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		7 = { "%d. Landwehr" }
-		8 = { "%d. Landwehr" }
-		9 = { "%d. Landwehr" }
-		10 = { "%d. Landwehr" }
-		11 = { "%d. Landwehr" }
-		12 = { "%d. Landwehr" }
-		13 = { "%d. Landwehr" }
-		14 = { "%d. Landwehr" }
-		15 = { "%d. Landwehr" }
-		16 = { "%d. Landwehr" }
-		17 = { "%d. Landwehr" }
-		18 = { "%d. Landwehr" }
-		19 = { "%d. Landwehr" }
-		20 = { "%d. Landwehr" }
-		21 = { "%d. Landwehr" }
-		22 = { "%d. Landwehr" }
-		23 = { "%d. Landwehr" }
-		24 = { "%d. Landwehr" }
-		25 = { "%d. Landwehr" }
-		26 = { "%d. Landwehr" }
-		27 = { "%d. Landwehr" }
-		28 = { "%d. Landwehr" }
-		29 = { "%d. Landwehr" }
-		30 = { "%d. Landwehr" }
-		31 = { "%d. Landwehr" }
-		32 = { "%d. Landwehr" }
-		33 = { "%d. Landwehr" }
-		34 = { "%d. Landwehr" }
-		35 = { "%d. Landwehr" }
-		36 = { "%d. Landwehr" }
-		37 = { "%d. Landwehr" }
-		38 = { "%d. Landwehr" }
-		39 = { "%d. Landwehr" }
-		40 = { "%d. Landwehr" }
-	}
-}
-
-SWI_MTN_01 =
+SWI_MNT_01 = 
 {
 	name = "Mountain Division"
 
@@ -367,33 +277,36 @@ SWI_MTN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Gebirgsdivision"
+	fallback_name = "Division %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		4 = { "%d. Gebirgsdivision" }
-		5 = { "%d. Gebirgsdivision" }
-		6 = { "%d. Gebirgsdivision" }
-		7 = { "%d. Gebirgsdivision" }
-		8 = { "%d. Gebirgsdivision" }
-		9 = { "%d. Gebirgsdivision" }
-		10 = { "%d. Gebirgsdivision" }
-		11 = { "%d. Gebirgsdivision" }
-		12 = { "%d. Gebirgsdivision" }
-		13 = { "%d. Gebirgsdivision" }
-		14 = { "%d. Gebirgsdivision" }
-		15 = { "%d. Gebirgsdivision" }
-		16 = { "%d. Gebirgsdivision" }
-		17 = { "%d. Gebirgsdivision" }
-		18 = { "%d. Gebirgsdivision" }
-		19 = { "%d. Gebirgsdivision" }
-		20 = { "%d. Gebirgsdivision" }
+		1 = { "Division %d" }
+		2 = { "Division %d" }
+		3 = { "Division %d" }
+		4 = { "Division %d" }
+		5 = { "Division %d" }
+		6 = { "Division %d" }
+		7 = { "Division %d" }
+		8 = { "Division %d" }
+		9 = { "Division %d" }
+		10 = { "Division %d" }
+		11 = { "Division %d" }
+		12 = { "Division %d" }
+		13 = { "Division %d" }
+		14 = { "Division %d" }
+		15 = { "Division %d" }
+		16 = { "Division %d" }
+		17 = { "Division %d" }
+		18 = { "Division %d" }
+		19 = { "Division %d" }
+		20 = { "Division %d" }
 	}
 }
 
-SWI_GAR_01 =
+SWI_GAR_01 = 
 {
 	name = "Garrison Unit"
 
@@ -406,42 +319,22 @@ SWI_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SWI_INF_01 }
 
-	fallback_name = "%d. Grenzbrigade"
+	fallback_name = "Grenzbrigade %d"
 
-	# Names with numbers (only one number per entry).
+	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Grenzbrigade" }
-		2 = { "%d. Grenzbrigade" }
-		3 = { "%d. Grenzbrigade" }
-		4 = { "%d. Grenzbrigade" }
-		5 = { "%d. Grenzbrigade" }
-		6 = { "%d. Grenzbrigade" }
-		7 = { "%d. Grenzbrigade" }
-		8 = { "%d. Grenzbrigade" }
-		9 = { "%d. Grenzbrigade" }
-		10 = { "%d. Grenzbrigade" }
-		11 = { "%d. Grenzbrigade" }
-		12 = { "%d. Grenzbrigade" }
-		13 = { "%d. Grenzbrigade" }
-		14 = { "%d. Grenzbrigade" }
-		15 = { "%d. Grenzbrigade" }
-		16 = { "%d. Grenzbrigade" }
-		17 = { "%d. Grenzbrigade" }
-		18 = { "%d. Grenzbrigade" }
-		19 = { "%d. Grenzbrigade" }
-		20 = { "%d. Grenzbrigade" }
-		21 = { "%d. Grenzbrigade" }
-		22 = { "%d. Grenzbrigade" }
-		23 = { "%d. Grenzbrigade" }
-		24 = { "%d. Grenzbrigade" }
-		25 = { "%d. Grenzbrigade" }
-		26 = { "%d. Grenzbrigade" }
-		27 = { "%d. Grenzbrigade" }
-		28 = { "%d. Grenzbrigade" }
-		29 = { "%d. Grenzbrigade" }
-		30 = { "%d. Grenzbrigade" }
+		1 = { "Grenzbrigade %d" }
+		2 = { "Grenzbrigade %d" }
+		3 = { "Grenzbrigade %d" }
+		4 = { "Grenzbrigade %d" }
+		5 = { "Grenzbrigade %d" }
+		6 = { "Grenzbrigade %d" }
+		7 = { "Grenzbrigade %d" }
+		8 = { "Grenzbrigade %d" }
+		9 = { "Grenzbrigade %d" }
+		10 = { "Grenzbrigade %d" }		
 	}
 }
 
