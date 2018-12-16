@@ -88,6 +88,17 @@
  tech_maintenance_company_6:0 "정비중대 6"
  tech_maintenance_company_7:0 "정비중대 7"
  
+ artillery_engineering_1:0 "야포 공학"
+ artillery_engineering_2:0 "야포 공학"
+ artillery_engineering_3:0 "야포 공학"
+ artillery_engineering_4:0 "야포 공학"
+ artillery_engineering_5:0 "야포 공학"
+ 
+ antitank_engineering_1:0 "대전차 공학"
+ antitank_engineering_2:0 "대전차 공학"
+ antitank_engineering_3:0 "대전차 공학"
+ antitank_engineering_4:0 "대전차 공학"
+ antitank_engineering_5:0 "대전차 공학"
 # 지원중대 폴더
 # 기갑 폴더
  ARMOUR_TITLE_MBT:0 "주력전차"
@@ -289,6 +300,33 @@
  AIR_TITLE_AIR_NAVIGATION:0 "Air Navigation Equipment"
  
 # 공학 폴더
+ 
+ future_computing_machine:0 "현대형 컴퓨터 공학1"
+ future_computing_machine_2:0 "현대형 컴퓨터 공학2"
+ future_computing_machine_3:0 "현대형 컴퓨터 공학3"
+ future_computing_machine_4:0 "현대형 컴퓨터 공학4"
+ future_encryption:0 "현대형 암호화 1"
+ future_encryption_2:0 "현대형 암호화 2"
+ future_encryption_3:0 "현대형 암호화 3"
+ future_encryption_4:0 "현대형 암호화 4"
+ future_decryption:0 "현대형 복호화 1"
+ future_decryption_2:0 "현대형 복호화 2"
+ future_decryption_3:0 "현대형 복호화 3"
+ future_decryption_4:0 "현대형 복호화 4"
+ 
+ rdf1:0 "방공관제 체계1"
+ rdf2:0 "방공관제 체계2"
+ rdf3:0 "방공관제 체계3"
+ rdf4:0 "방공관제 체계4"
+ rdf5:0 "방공관제 체계5"
+ rdf6:0 "방공관제 체계6"
+ rdf7:0 "방공관제 체계7"
+ rdf8:0 "방공관제 체계8"
+ 
+ nukes:0 "핵폭탄"
+ nukes_2:0 "핵폭탄 소형화"
+ nuke_naval:0 "군함 원자로"
+ 
  heavy_rocket_engine_1:0 "중 로켓 엔진1"
  heavy_rocket_engine_2:0 "중 로켓 엔진2"
  heavy_rocket_engine_3:0 "중 로켓 엔진3"
@@ -304,3 +342,53 @@
  INDUSTRIAL_PRODUCTION:0 "생산"
  INDUSTRIAL_ESTATE:0 "공단 계획"
  LOGISTIC_INDUSTRY:0 "군수산업단지"
+ 
+ streamlined_line_a:0 "현대형 유연라인"
+ streamlined_line_a:0 "현대형 간결라인"
+ streamlined_line_b:0 "현대형 조립라인 1"
+ streamlined_line_c:0 "현대형 조립라인 2"
+ streamlined_line_d:0 "현대형 조립라인 3"
+ 
+ concentrated_industry_a:0 "현대형 산업집중 1"
+ concentrated_industry_b:0 "현대형 산업집중 2"
+ concentrated_industry_c:0 "현대형 산업집중 3"
+ concentrated_industry_d:0 "현대형 산업집중 4"
+ 
+ dispersed_industry_a:0 "현대형 산업분산 1"
+ dispersed_industry_b:0 "현대형 산업분산 2"
+ dispersed_industry_c:0 "현대형 산업분산 3"
+ dispersed_industry_d:0 "현대형 산업분산 4"
+ 
+ construction_a:0 "현대형 건설 1"
+ construction_b:0 "현대형 건설 2"
+ construction_c:0 "현대형 건설 3"
+ construction_d:0 "현대형 건설 4"
+ 
+ excavation_a:0 "현대형 채굴 1"
+ excavation_b:0 "현대형 채굴 2"
+ excavation_c:0 "현대형 채굴 3"
+ excavation_d:0 "현대형 채굴 4"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

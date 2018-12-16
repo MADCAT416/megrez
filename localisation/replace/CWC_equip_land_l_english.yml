@@ -40,7 +40,7 @@
  support_weapons_equipment_4_short:0 "지원 화기 장비 4"
  support_weapons_equipment_5_short:0 "지원 화기 장비 5"
  
- motorized_equipment:0 "차량 장비"
+ motorized_equipment:0 "차량"
  motorized_equipment_1:0 "차량 장비"
  motorized_equipment_1_short:0 "차량 장비"
  # 주력 전차
@@ -118,6 +118,7 @@
  mechanized_equipment_5_short:0 "보병전투차 5"
  mechanized_equipment_6_short:0 "보병전투차 6"
  
+ amphibious_assault_vehicle:0 "기계화해병"
  amphibious_assault_vehicle_equipment:0 "상륙장갑차"
  amphibious_assault_vehicle_equipment_desc:0 "상륙장갑차는 해병 강습에 도움 됩니다."
  amphibious_assault_vehicle_equipment_1:0 "상륙장갑차 1"
