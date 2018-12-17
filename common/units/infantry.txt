@@ -42,7 +42,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 100
-			support_weapons_equipment = 20
 		}
 	}
 	militia = {
@@ -51,7 +50,7 @@ sub_units = {
 		
 		priority = 600
 		ai_priority = 200
-		active = yes
+		active = no
 
 		type = {
 			infantry

@@ -2,6 +2,11 @@ technologies = {
 
 	infantry_weapons_1 = {
 
+		enable_subunits = {
+			infantry
+			militia
+		}
+
 		enable_equipments = {
 			infantry_equipment_1
 		}
@@ -1118,9 +1123,6 @@ technologies = {
 			position = { x = 8 y = 2 }
 		}
 		
-		enable_subunits = {
-			infantry
-		}
 
 		categories = {
 			infantry_weapons
