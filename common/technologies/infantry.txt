@@ -350,7 +350,7 @@ technologies = {
 		}	
 
 		research_cost = 2
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 2 }
@@ -400,7 +400,7 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1975
+		start_year = 1965
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 4 }
@@ -450,7 +450,7 @@ technologies = {
 		}	
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 6 }
@@ -500,7 +500,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1995
+		start_year = 1985
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 8 }
@@ -546,7 +546,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 2000
+		start_year = 1990
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 10 }
