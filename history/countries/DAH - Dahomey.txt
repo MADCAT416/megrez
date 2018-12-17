@@ -54,91 +54,57 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Agoli-Agbo"
-	desc = "POLITICS_ANGOLI_AGBO_DESC"
-	picture = "Portrait_Dahomey_Angoli.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Agoli-Agbo"
-	desc = "POLITICS_ANGOLI_AGBO_DESC"
-	picture = "Portrait_Dahomey_Angoli.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Christophe Soglo"
-	desc = "POLITICS_CRISTOPHE_SOGLO_DESC"
-	picture = "Portrait_Dahomey_Soglo.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Basile Adjou Moumouni"
-	desc = "POLITICS_BASILE_ADJOU_DESC"
-	picture = "Portrait_Dahomey_Soglo.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Sourou-Migan M.J Apithy"
-	desc = "POLITICS_MIGAN_APITHY_DESC"
-	picture = "Portrait_Dahomey_Apithy.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Hubert Maga"
-	desc = "POLITICS_HUBERT_MAGA_DESC"
-	picture = "Portrait_Dahomey_Maga.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Émile Derlin Zinsou"
-	desc = "POLITICS_MAJOR_DERLIN_DESC"
-	picture = "Portrait_Dahomey_Derlin.tga"
+	name = "조세프 란가핀"
+	picture = "Portrait_Dahomey_Joseph_Langanfin.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Édouard Dunglas"
-	desc = "POLITICS_ED_DUNGLAS_DESC"
-	picture = "Portrait_Dahomey_Dunglas.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Justin Ahomadegbé-Tomêtin"
-	desc = "POLITICS_JAT_DESC"
-	picture = "Portrait_Dahomey_J_A_T.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Paul Darboux"
-	desc = "POLITICS_PDABROUX_DESC"
-	picture = "Portrait_Dahomey_Darboux.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
 	traits = {}
 }

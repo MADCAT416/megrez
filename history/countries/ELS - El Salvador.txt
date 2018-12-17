@@ -54,6 +54,101 @@ set_politics = {
 
 }
 
+create_country_leader = {
+	name = "샤픽 한델"
+	picture = "Portait_ELS_Schafik_Handal.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "샤픽 한델"
+	picture = "Portait_ELS_Schafik_Handal.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "샤픽 한델"
+	picture = "Portait_ELS_Schafik_Handal.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "호세 나폴레온 두아르테"
+	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "호세 나폴레온 두아르테"
+	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "호세 나폴레온 두아르테"
+	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "호세 나폴레온 두아르테"
+	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "피델 산체스 에르난데스"
+	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "피델 산체스 에르난데스"
+	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "피델 산체스 에르난데스"
+	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+}
+
 ### Field Marshal
 ### Corps Commander
 create_corps_commander = { #Auto-Generated
