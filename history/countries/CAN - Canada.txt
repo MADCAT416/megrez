@@ -43,8 +43,9 @@ set_technology = {
 
 set_research_slots = 4
 
-create_faction = British_Commonwealth
+create_faction = Entente
 add_to_faction = CAN
+add_to_faction = NAF
 add_to_faction = CAF
 add_to_faction = DEH
 add_to_faction = AST

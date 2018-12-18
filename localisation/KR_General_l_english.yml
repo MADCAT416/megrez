@@ -68,6 +68,7 @@ sec_cannot_be_replaced:0 "내무부 장관 재임명 불가"
 ministers_cannot_be_replaced:0 "장관 재임명 불가"
 
 ### Factions ###
+Entente:0 "협상국"
 British_Commonwealth:0 "영연방"
 Heilige_Liga:0 "신성동맹"
 Co_Prosperity_Sphere:0 "대동아공영권"
