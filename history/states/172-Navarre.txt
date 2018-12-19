@@ -25,7 +25,7 @@ state = {
 		}
 		add_core_of = SPR
 		add_core_of = CNT
-		add_core_of = BAS
+		#add_core_of = BAS
 	}
 
 	provinces = {
