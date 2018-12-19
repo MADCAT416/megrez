@@ -90,6 +90,26 @@ set_politics = {
 	elections_allowed = no
 }
 
+		create_country_leader = {
+			name = "레니에 3세"
+			picture = "Portrait_Occitany_Rainier_III.tga"
+			expire = "2000.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = {
+
+			}
+		}
+		create_country_leader = {
+			name = "레니에 3세"
+			picture = "Portrait_Occitany_Rainier_III.tga"
+			expire = "2000.1.1"
+			ideology = paternal_autocrat_subtype
+			traits = {
+
+			}
+		}
+
+
 ### Field Marshal
 ### Corps Commander
 create_corps_commander = { #Auto-Generated

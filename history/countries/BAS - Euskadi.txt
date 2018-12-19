@@ -73,3 +73,75 @@ set_politics = {
 	elections_allowed = no
 
 }
+
+create_country_leader = {
+	name = "라몬 루비알 캄비아"
+	picture = "Portrait_BAS_Ramon_Rubial.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "라몬 루비알 캄비아"
+	picture = "Portrait_BAS_Ramon_Rubial.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "라몬 루비알 캄비아"
+	picture = "Portrait_BAS_Ramon_Rubial.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카를로스 가라이코트시아"
+	picture = "Portrait_BAS_Carlos_Garaikoetxea.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카를로스 가라이코트시아"
+	picture = "Portrait_BAS_Carlos_Garaikoetxea.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤수스 마리아 데 라이자 올라"
+	picture = "Portrait_BAS_Jesus_Maria_de_Leizaola.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤수스 마리아 데 라이자 올라"
+	picture = "Portrait_BAS_Jesus_Maria_de_Leizaola.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤수스 마리아 데 라이자 올라"
+	picture = "Portrait_BAS_Jesus_Maria_de_Leizaola.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤수스 마리아 데 라이자 올라"
+	picture = "Portrait_BAS_Jesus_Maria_de_Leizaola.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}

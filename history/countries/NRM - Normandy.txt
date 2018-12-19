@@ -92,6 +92,26 @@ set_politics = {
 	elections_allowed = no
 }
 
+		create_country_leader = {
+			name = "바이에른 공작 루트비히"
+			picture = "Portrait_Normandy_Ludwig_Bayern.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = {
+
+			}
+		}
+		create_country_leader = {
+			name = "바이에른 공작 루트비히"
+			picture = "Portrait_Normandy_Ludwig_Bayern.tga"
+			expire = "1965.1.1"
+			ideology = paternal_autocrat_subtype
+			traits = {
+
+			}
+		}
+
+
 ### Field Marshal
 ### Corps Commander
 
