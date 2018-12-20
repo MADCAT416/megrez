@@ -49,6 +49,7 @@ add_to_faction = NAF
 add_to_faction = CAF
 add_to_faction = DEH
 add_to_faction = AST
+add_to_faction = SRD
 add_to_faction = NEE
 
 
