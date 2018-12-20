@@ -31,10 +31,10 @@ set_politics = {
 			popularity = 6
 		}
 		social_conservative = {
-			popularity = 47
+			popularity = 15
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 47
 		}
 		paternal_autocrat = {
 			popularity = 12
@@ -44,7 +44,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,11 +52,34 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Gabriel Léon M'ba"
-	desc = "POLITICS_GABRIEL_LEON_DESC"
-	picture = "Portrait_GAB_Leon.tga"
+	name = "오마르 봉고"
+	picture = "Portrait_GAB_Omar_Bongo.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오마르 봉고"
+	picture = "Portrait_GAB_Omar_Bongo.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오마르 봉고"
+	picture = "Portrait_GAB_Omar_Bongo.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오마르 봉고"
+	picture = "Portrait_GAB_Omar_Bongo.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
