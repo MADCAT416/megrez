@@ -92,24 +92,73 @@ set_politics = {
 	elections_allowed = no
 }
 
-		create_country_leader = {
-			name = "앙주 공작 알폰소"
-			picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
-			expire = "2000.1.1"
-			ideology = authoritarian_democrat_subtype
-			traits = {
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = social_progressive_subtype
+traits = {
 
-			}
-		}
-		create_country_leader = {
-			name = "앙주 공작 알폰소"
-			picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
-			expire = "2000.1.1"
-			ideology = paternal_autocrat_subtype
-			traits = {
+}
+}
 
-			}
-		}
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = social_liberal_subtype
+traits = {
+
+}
+}
+
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = market_liberal_subtype
+traits = {
+
+}
+}
+
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = social_conservative_subtype
+traits = {
+
+}
+}
+
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = authoritarian_democrat_subtype
+traits = {
+
+}
+}
+
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = paternal_autocrat_subtype
+traits = {
+}
+}
+
+create_country_leader = {
+name = "앙주 공작 알폰소"
+picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
+expire = "2000.1.1"
+ideology = national_populist_subtype
+traits = {
+}
+}
 
 ### Field Marshal
 ### Corps Commander
