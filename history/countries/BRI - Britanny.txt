@@ -93,8 +93,8 @@ set_politics = {
 }
 
 		create_country_leader = {
-			name = "헤센 방백 모리츠"
-			picture = "Portrait_Britanny_Moritz_Hesse.tga"
+			name = "앙주 공작 알폰소"
+			picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
 			expire = "2000.1.1"
 			ideology = authoritarian_democrat_subtype
 			traits = {
@@ -102,8 +102,8 @@ set_politics = {
 			}
 		}
 		create_country_leader = {
-			name = "헤센 방백 모리츠"
-			picture = "Portrait_Britanny_Moritz_Hesse.tga"
+			name = "앙주 공작 알폰소"
+			picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
 			expire = "2000.1.1"
 			ideology = paternal_autocrat_subtype
 			traits = {
