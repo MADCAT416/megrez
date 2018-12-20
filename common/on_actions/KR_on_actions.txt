@@ -33,6 +33,12 @@ on_actions = {
 				}
 				country_event = kr.political.56
 			}
+			every_country = {
+				limit = {
+					is_in_faction_with = BRA
+				}
+				country_event = kr.political.58
+			}
 		}
 	}
 
