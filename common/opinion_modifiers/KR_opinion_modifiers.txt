@@ -16,7 +16,7 @@ opinion_modifiers = {
 	KR_similar_ideology = { value = 40 }
 	KR_same_ideology = { value = 80 }
 	KR_factional_rivalry = { value = -60 }
-   revolutionary_rivalry = { value = -20 }
+   revolutionary_rivalry = { value = -30 }
 	colonial_master = { value = 100 }
 	FNG_COMMON_ALIGNMENT = { value = 70 }
 	vladivostok_puppet = {value = 50}
