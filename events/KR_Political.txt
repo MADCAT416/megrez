@@ -1864,7 +1864,7 @@ country_event = {
 
 country_event = {
 	id = kr.political.58
-	immediate = {log = "[GetDateText]: [Root.GetName]: event kr.political.57"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event kr.political.58"}
 
 	hidden = yes
 
