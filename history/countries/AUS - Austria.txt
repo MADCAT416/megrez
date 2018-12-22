@@ -143,7 +143,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -154,7 +154,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -165,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -176,7 +176,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -187,7 +187,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -198,7 +198,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
@@ -209,7 +209,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "브루노 크라이스키"
+	name = "오토 폰 합스부르크-로트링겐"
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
