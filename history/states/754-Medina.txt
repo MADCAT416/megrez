@@ -12,6 +12,8 @@ state = {
 			industrial_complex = 1
 		}
 		add_claim_by = OTT
+		add_core_of = SAU
+		add_core_of = JBS
 
 	}
 

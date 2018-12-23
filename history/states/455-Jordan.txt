@@ -11,8 +11,8 @@ state = {		#Ma'an
 		victory_points = {
 			7151 1
 		}
-		add_claim_by = OTT
-		add_core_of = JOR
+		add_core_of = OTT
+		add_core_of = PAL
 	}
 
 	provinces = {
