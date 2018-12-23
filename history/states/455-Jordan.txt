@@ -12,6 +12,7 @@ state = {		#Ma'an
 			7151 1
 		}
 		add_claim_by = OTT
+		add_core_of = JOR
 	}
 
 	provinces = {

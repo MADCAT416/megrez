@@ -5,6 +5,7 @@ state = {		#Jerusalem
 	history = {
 		owner = OTT
 		add_core_of = OTT
+		add_core_of = PAL
 		buildings = {
 			infrastructure = 3
 			air_base = 1
