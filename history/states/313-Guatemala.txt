@@ -22,6 +22,7 @@ state = {
 			}
 		}
 		add_core_of = CEN
+		add_core_of = GUA
 		victory_points = {
 			10886 6
 		}

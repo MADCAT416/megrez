@@ -62,11 +62,83 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tiburcio Carias Andino"
-	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
-	picture = "Portrait_Honduraz_Tiburcio_Carias_Andino.tga"
+	name = "디오니시오 베라하노"
+	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "디오니시오 베라하노"
+	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "디오니시오 베라하노"
+	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "미겔 안도니에 페르난데스"
+	picture = "Portrait_Honduraz_Miguel_Andonie_Fernandez.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호르헤 부에소 아리아스"
+	picture = "Portrait_Honduraz_Jorge_Bueso_Arias.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호르헤 부에소 아리아스"
+	picture = "Portrait_Honduraz_Jorge_Bueso_Arias.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에르난 코랄레스 파디야"
+	picture = "Portrait_Honduraz_Hernan_Corrales_Padilla.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "라몬 에르네스토 크루스 우클레스"
+	picture = "Portrait_Honduraz_Ramon_Ernesto_Cruz_Ucles.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오솰도 로페스 아레야노"
+	picture = "Portrait_Honduraz_Oswaldo_Lopez_Arellano.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "오솰도 로페스 아레야노"
+	picture = "Portrait_Honduraz_Oswaldo_Lopez_Arellano.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 

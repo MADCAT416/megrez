@@ -2628,6 +2628,10 @@ BHC_TOT:0 "바라트 코뮌"
 BHC_TOT_ADJ:0 "바라트"
 BHC_TOT_DEF:0 "바라트 코뮌"
 
+BHC_AGR:0 "바라트 코뮌"
+BHC_AGR_ADJ:0 "바라트"
+BHC_AGR_DEF:0 "바라트 코뮌"
+
 LYB_ITA_subject:0 "이탈리아령 북아프리카"
 LYB_ITA_subject_DEF:0 "이탈리아령 북아프리카"
 LYB_ITA_subject_ADJ:0 "리비아"

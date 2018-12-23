@@ -79,30 +79,84 @@ add_ideas = {
 
 	GUA_Hostile_Natives
 }
+
 create_country_leader = {
-	name = "Farabundo Martí"
-	desc = "POLITICS_FARABUNDO_MARTI_DESC"
-	picture = "Portrait_GUA_Marti.tga"
+	name = "호세 마누엘 포르투니"
+	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "호세 마누엘 포르투니"
+	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Augusto César Sandino"
-	desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
-	picture = "Portrait_GUA_Sandino.tga"
+	name = "호세 마누엘 포르투니"
+	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Jacobo Guzman Árbenz"
-	desc = "POLITICS_JACOBO_GUZMAN_ARBENZ_DESC"
-	picture = "Portrait_GUA_Arbenz.tga"
+	name = "리카르도 페랄타 멘데스"
+	picture = "Portrait_GUA_Ricardo_Peralta_Mendez.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "리카르도 페랄타 멘데스"
+	picture = "Portrait_GUA_Ricardo_Peralta_Mendez.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마리오 푸엔테스 피에룩시니"
+	picture = "Portrait_GUA_mario_fuentes_pieruccini.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "마리오 푸엔테스 피에룩시니"
+	picture = "Portrait_GUA_mario_fuentes_pieruccini.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에프라인 리오스 몬트"
+	picture = "Portrait_GUA_Efraín_Ríos_Montt.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "에프라인 리오스 몬트"
+	picture = "Portrait_GUA_Efraín_Ríos_Montt.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카를로스 마누엘 아라나 오소리오"
+	picture = "Portrait_GUA_Carlos_Manuel_Arana_Osorio.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 

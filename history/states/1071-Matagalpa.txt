@@ -6,6 +6,7 @@ state = {
 	history = {
 		owner = PUA
 		add_core_of = PUA
+		add_core_of = NIC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -22,7 +22,7 @@ set_politics = {
 			popularity = 15
 		}
 		social_progressive = {
-			popularity = 47
+			popularity = 1
 		}
 		social_liberal = {
 			popularity = 11
@@ -37,14 +37,14 @@ set_politics = {
 			popularity = 2
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 47
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,89 +52,79 @@ set_politics = {
 }
 
 create_country_leader = {# Saūd bin Abd al-Azīz
-	name = "Abdulaziz bin Saud Al Rashid"
-	desc = "POLITICS_AZIZ_JBS_DESC"
-	picture = "Portrait_IRQ_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
+	name = "잇삼 알앗타르"
+	picture = "Portrait_IRQ_Issam_al_Attar.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {# Saūd bin Abd al-Azīz
-	name = "Abdulaziz bin Saud Al Rashid"
-	desc = "POLITICS_AZIZ_JBS_DESC"
-	picture = "Portrait_IRQ_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
+	name = "파이살 2세"
+	picture = "Portrait_IRQ_Faisal_II.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ghazi bin Faisal Hashmid"
-	desc = "POLITICS_GHAZI_DESC"
-	picture = "portrait_irq_ghazi.dds"
+	name = "하페즈 알아사드"
+	picture = "Portrait_IRQ_Hafez_al_Assad.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saeed bin Maktoum bin Hasher Al Maktoum"
-	desc = "POLITICS_SAEED_DUBAI_DESC"
-	picture = "Portrait_IRQ_maktoum.tga"
+	name = "파이살 2세"
+	picture = "Portrait_IRQ_Faisal_II.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Shakhbut bin Sultan Al Nahyan"
-	desc = "POLITICS_SHAKBUT_IRQ_DESC"
-	picture = "Portrait_IRQ_Shakhbut_bin_Sultan_Al_Nahyan.tga"
+	name = "파이살 2세"
+	picture = "Portrait_IRQ_Faisal_II.tga""
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Abtan Ibn Jazi"
-	desc = "POLITICS_ABTAN_IRQ_DESC"
-	picture = "Portrait_IRQ_Abtan_ibn_Jazi.tga"
+	name = "파이살 2세"
+	picture = "Portrait_IRQ_Faisal_II.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ahmad Al-Jaber Al-Sabah"
-	desc = "POLITICS_SABAH_IRQ_DESC"
-	picture = "Portrait_IRQ_Ahmad_Al-Jaber_Al-Sabah.tga"
+	name = "파이살 2세"
+	picture = "Portrait_IRQ_Faisal_II.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mishaal bin Saud Al Rashid"
-	desc = "POLITICS_SYNDIE_JBS_DESC"
-	picture = "Portrait_IRQ_synd.tga"
+	name = "할리드 박다시"
+	picture = "Portrait_IRQ_Khalid_Bakdash.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mishaal bin Saud Al Rashid"
-	desc = "POLITICS_SYNDIE_JBS_DESC"
-	picture = "Portrait_IRQ_synd.tga"
+	name = "할리드 박다시"
+	picture = "Portrait_IRQ_Khalid_Bakdash.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Mishaal bin Saud Al Rashid"
-	desc = "POLITICS_SYNDIE_JBS_DESC"
-	picture = "Portrait_IRQ_synd.tga"
+	name = "할리드 박다시"
+	picture = "Portrait_IRQ_Khalid_Bakdash.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}

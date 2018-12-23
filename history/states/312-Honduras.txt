@@ -13,6 +13,7 @@ state = {
 			}
 		}
 		add_core_of = CEN
+		add_core_of = HON
 		victory_points = {
 			13696 3
 		}
