@@ -12,7 +12,7 @@ state = {		#Ma'an
 			7151 1
 		}
 		add_core_of = OTT
-		add_core_of = PAL
+		add_core_of = JOR
 	}
 
 	provinces = {
