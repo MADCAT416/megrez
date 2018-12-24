@@ -58,87 +58,77 @@ add_ideas = {
 	JOR_Taha_al_Hashimi_sec_ade
 }
 
-create_country_leader = {# Zeid I Hashmid
-	name = "Zeid I Hashmid"
-	desc = "POLITICS_ZEID_HASHEMITE_DESC"
-	picture = "Portrait_JOR_Zeid_Hashmid.tga"
+create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
+	name = "푸아드 나사르"
+	picture = "Portrait_Fuad_Nassar.tga"
 	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {# Zeid I Hashmid
-	name = "Zeid I Hashmid"
-	desc = "POLITICS_ZEID_HASHEMITE_DESC"
-	picture = "Portrait_JOR_Zeid_Hashmid.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = { warmonger }
-}
-create_country_leader = {# Zeid I Hashmid
-	name = "Zeid I Hashmid"
-	desc = "POLITICS_ZEID_HASHEMITE_DESC"
-	picture = "Portrait_JOR_Zeid_Hashmid.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-create_country_leader = {# Jafar al-Askari
-	name = "Jafar al-Askari"
-	desc = "POLITICS_JAFAR_ASKARI_DESC"
-	picture = "Portrait_JOR_Jafar_Askari.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {# Yasin al-Hashimi
-	name = "Yasin al-Hashimi"
-	desc = "POLITICS_SULTAN_ATRASH_DESC"
-	picture = "Portrait_JOR_Yasin_Hashimi.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {# Hamdi al-Pachachi
-	name = "Hamdi al-Pachachi"
-	desc = "POLITICS_AL_PACHACHI_DESC"
-	picture = "Portrait_JOR_Hamid_Pacha.jpg"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {# Salih Jabr
-	name = "Salih Jabr"
-	desc = "POLITICS_SALI_JABR_DESC"
-	picture = "Portrait_JOR_Salih_Jabr"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = totalist_subtype
 	traits = {}
 }
 
-create_country_leader = {# Yusuf Salman Yusuf
-	name = "Yusuf Salman Yusuf"
-	desc = "POLITICS_SALMAN_YUSUF_DESC"
-	picture = "Portrait_JOR_Yusuf.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {# Yusuf Salman Yusuf
-	name = "Yusuf Salman Yusuf"
-	desc = "POLITICS_SALMAN_YUSUF_DESC"
-	picture = ""
+create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
+	name = "주르지 '알 하킴' 하바시"
+	picture = "Portrait_George_Habash.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
-create_country_leader = {# Yusuf Salman Yusuf
-	name = "Yusuf Salman Yusuf"
-	desc = "POLITICS_SALMAN_YUSUF_DESC"
-	picture = ""
+create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
+	name = "주르지 '알 하킴' 하바시"
+	picture = "Portrait_George_Habash.tga"
 	expire = "2000.1.1"
-	ideology = totalist_subtype
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "압둘라 리마위"
+	picture = "Portrait_Arabia_Abdullah_Rimawi.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "후세인 1세"
+	picture = "Portrait_JOR_Hussein_of_Jordan.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = { }
+}
+create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
+	name = "무함마드 압드 알 라흐만 할리파"
+	picture = "Portrait_Muhammad_Abd_al_Rahman_Khalifa.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "후세인 1세"
+	picture = "Portrait_JOR_Hussein_of_Jordan.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "후세인 1세"
+	picture = "Portrait_JOR_Hussein_of_Jordan.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "후세인 1세"
+	picture = "Portrait_JOR_Hussein_of_Jordan.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {# Saūd bin Abd al-Azīz
+	name = "후세인 1세"
+	picture = "Portrait_JOR_Hussein_of_Jordan.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
 	traits = {}
 }
 
