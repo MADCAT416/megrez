@@ -58,22 +58,6 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "베니 디 워너"
-	expire = "2000.1.1"
-picture = ""
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "제임스 에드워드 그린"
-	expire = "2000.1.1"
-picture = ""
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
 	name = "윌리엄 톨버트"
 	picture = "Portrait_LIB_William_Tolbert.tga"
 	expire = "2000.1.1"
