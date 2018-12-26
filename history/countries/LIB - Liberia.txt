@@ -61,6 +61,23 @@ create_country_leader = {
 	name = "윌리엄 톨버트"
 	picture = "Portrait_LIB_William_Tolbert.tga"
 	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "윌리엄 톨버트"
+	picture = "Portrait_LIB_William_Tolbert.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "윌리엄 톨버트"
+	picture = "Portrait_LIB_William_Tolbert.tga"
+	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
