@@ -1056,6 +1056,10 @@ TRA = {
 	color = rgb { 135 206 234 }
 	color_ui = rgb { 135 206 234 }
 }
+HJZ = {
+	color = rgb { 196 181 122 }
+	color_ui = rgb { 196 181 122 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -265,6 +265,7 @@ PUA = "countries/PUA.txt"
 MOS = "countries/MOS.txt"
 URA = "countries/URA.txt"
 TRA = "countries/TRA.txt"
+HJZ = "countries/HJZ.txt"
 
 #### Unimportant for now
 TAJ = "countries/TAJ.txt"
