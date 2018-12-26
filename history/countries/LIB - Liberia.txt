@@ -58,15 +58,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "베니 디 와너"
+	name = "베니 디 워너"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "베니 디 와너"
-	expire = "2000.1.1"
+picture = ""
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -74,6 +68,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "제임스 에드워드 그린"
 	expire = "2000.1.1"
+picture = ""
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -89,20 +84,21 @@ create_country_leader = {
 create_country_leader = {
 	name = "나다니엘 마사쿼이"
 	expire = "2000.1.1"
+picture = ""
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "해리슨 페노"
-	expire = "2000.1.1"
+	name = "윌리엄 톨버트"
+	picture = "Portrait_LIB_William_Tolbert.tga"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "해리슨 페노"
-	expire = "2000.1.1"
+	name = "윌리엄 톨버트"
+	picture = "Portrait_LIB_William_Tolbert.tga"
 	ideology = national_populist_subtype
 	traits = {}
 }
