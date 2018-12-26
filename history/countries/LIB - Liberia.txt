@@ -59,7 +59,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "세실 데니스"
-	picture = ""
+	picture = "Portrait_LIB_Cecil_Dennis.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
@@ -67,7 +67,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "세실 데니스"
-	picture = ""
+	picture = "Portrait_LIB_Cecil_Dennis.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
@@ -83,9 +83,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "나다니엘 마사쿼이"
+	name = "한스 마사쿼이"
 	expire = "2000.1.1"
-picture = ""
+	picture = "Portrait_LIB_Hans_Massaquoi.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
