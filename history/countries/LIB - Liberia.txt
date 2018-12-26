@@ -94,8 +94,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "윌리엄 톨버트"
-	picture = "Portrait_LIB_William_Tolbert.tga"
+	name = "해리슨 페노"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
