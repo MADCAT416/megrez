@@ -52,36 +52,80 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hastings Banda"
-	desc = "POLITICS_BANDAMLW_DESC"
-	picture = "Portrait_MLW_Banda.tga"
+	name = "야투타 치시자"
+	picture = "Portrait_MLW_Yatuta_Chisiza.tga"
 	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Elliott Kenan Kamwana Achirwa"
-	desc = "POLITICS_ELLIOT_KENAN_DESC"
-	picture = "Portrait_MLW_Eliot_Kenan.tga"
+	name = "야투타 치시자"
+	picture = "Portrait_MLW_Yatuta_Chisiza.tga"
 	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "James Frederick Sangala"
-	desc = "POLITICS_SANGALA_DESC"
-	picture = "Portrait_MLW_Sangala.tga"
+	name = "야투타 치시자"
+	picture = "Portrait_MLW_Yatuta_Chisiza.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카냐마 치우메"
+	picture = "Portrait_MLW_Kanyama_Chiume.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카냐마 치우메"
+	picture = "Portrait_MLW_Kanyama_Chiume.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카냐마 치우메"
+	picture = "Portrait_MLW_Kanyama_Chiume.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "카냐마 치우메"
+	picture = "Portrait_MLW_Kanyama_Chiume.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "John Chilembwe"
-	desc = "POLITICS_CHILEBWE_DESC"
-	picture = "Portrait_MLW_Chilembwe.tga"
+	name = "헤이스팅스 반다"
+	picture = "Portrait_MLW_Hastings_Banda.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤이스팅스 반다"
+	picture = "Portrait_MLW_Hastings_Banda.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "헤이스팅스 반다"
+	picture = "Portrait_MLW_Hastings_Banda.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}
