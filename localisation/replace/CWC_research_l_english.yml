@@ -143,7 +143,7 @@
  NAVAL_TITLE_FRIGATES_desc:0 "프리깃은 곧 호위함으로도 사용되는 용어다. 규모는 구축함보다 아래이며 고속정 보다는 높다. \n 우수한 방공,대잠성능의 위상배열레이더탑재 구축함이 작전을 주도하고 자함방공과 균형잡힌 대잠성능을 지닌 호위함이 보조 하였다."
  NAVAL_TITLE_CRUISER:0 "순양함"
  NAVAL_TITLE_CRUISER_desc:0 "순양함은 주로 항공모함 전투단 및 수송선단에 대한 함대방공 임무를 주로 수행하며, 대량의 대함미사일을 이용한 대함전 및 강력한 소나시스템을 이용한 대잠전 등의 다양한 임무를 수행 할 수 있다."
- NAVAL_TITLE_battle_cruiser:0 "순양전함"
+ NAVAL_TITLE_battle_cruiser:0 "유도탄순양함"
  NAVAL_TITLE_battle_cruiser_desc:0 "단단한 장갑과 초장거리 대함 미사일과 방공 미사일들로 무장하고 있다."
  
  naval_capital_folder:0 "주력함"
