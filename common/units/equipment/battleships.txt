@@ -68,10 +68,44 @@ equipments = {
 	}
 
 	battleship_1 = {
-		year = 1922
+		year = 1945
 
 		archetype = battleship
-		priority = 60
+		parent = battleship_81
+		priority = 92
+		visual_level = 7
+
+		ap_attack = 44 #16 in mk3.1 guns
+		attack = 80
+		fire_range = 22
+		torpedo_attack = 0
+		shore_bombardment = 16
+
+		anti_air_attack = 21
+
+		armor_value = 55
+		evasion = 1
+
+		surface_detection = 40
+		surface_visibility = 40
+
+		naval_speed = 24
+		reliability = 0.80
+
+		naval_range = 5250
+
+		max_strength = 2200
+		port_capacity_usage = 4
+
+		build_cost_ic = 13000
+		resources = {
+			oil = 2
+			steel = 4
+			chromium = 2
+		}
+
+		manpower = 3000
+	}
 	}
 	
 	battleship_2 = {
