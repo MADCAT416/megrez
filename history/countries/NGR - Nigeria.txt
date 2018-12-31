@@ -54,8 +54,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Humphrey Chukwuka"
-	desc = "POLITICS_HUMPHREY_DESC"
+	name = "험프리 추쿠카"
 	picture = "Portrait_NGR_Humpfrey.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -63,8 +62,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Benjamin Nnamdi Azikiwe"
-	desc = "POLITICS_NNAMDI_DESC"
+	name = "벤저민 은남디 아지키웨"
 	picture = "Portrait_NGR_Benjamin_Azikiwe.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
@@ -72,44 +70,39 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Funmilayo Ransome Kuti"
-	desc = "POLITICS_RANSOMEKUTI_DESC"
-	picture = "Portrait_NGR_Ransome.tga"
+	name = "오바페미 아월로우오"
+	picture = "Portrait_NGR_Obafemi.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Obafemi Awolowo"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
+	name = "푼밀라요 란솜-쿠티"
+	picture = "Portrait_NGR_Ransome.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Christopher Earle Welby-Everard"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+	name = "푼밀라요 란솜-쿠티"
+	picture = "Portrait_NGR_Ransome.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Michael Athokhamien Imoudu"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
+	name = "마이클 임우두"
+	picture = "Portrait_NGR_Imoudu.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Hezekiah Oladipo Davies"
-	desc = "POLITICS_OLDADIPO_DESC"
+	name = "H. O. 데이비스"
 	picture = "Portrait_NGR_Oladipo.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
@@ -117,8 +110,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Samuel Akisanya"
-	desc = "POLITICS_OBAFEMI_DESC"
+	name = "사무엘 애키산야"
 	picture = "Portrait_NGR_Obafemi.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
@@ -126,9 +118,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francis Akanu Ibiam"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
+	name = "아카누 이브리암"
+	picture = "Portrait_NGR_Ibiam.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {}

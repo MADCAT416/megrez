@@ -6,6 +6,7 @@ state = {
 		owner = MAH
 		add_core_of = MAH
 		add_core_of = TUA
+		add_claim_by = ALG
 		buildings = {
 			infrastructure = 1
 

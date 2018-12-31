@@ -94,31 +94,28 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "Portrait_Quebec_Maurice_Duplessis.tga"
+	name = "장-자끄 베르트랑"
+	picture = "Portrait_Quebec_Jean_Jacques_Bertrand.tga"
 	expire = "2000.1.1"
-	ideology = market_liberal_subtype
+	ideology = national_populist_subtype
 	traits = {
 
 	}
 }
 
 create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "Portrait_Quebec_Maurice_Duplessis.tga"
+	name = "장-자끄 베르트랑"
+	picture = "Portrait_Quebec_Jean_Jacques_Bertrand.tga"
 	expire = "2000.1.1"
-	ideology = social_conservative_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 
 	}
 }
 
 create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "Portrait_Quebec_Maurice_Duplessis.tga"
+	name = "장-자끄 베르트랑"
+	picture = "Portrait_Quebec_Jean_Jacques_Bertrand.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -127,9 +124,28 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "Portrait_Quebec_Maurice_Duplessis.tga"
+	name = "카밀 삼송"
+	picture = "Portrait_Quebec_Camil_Samson.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "로베르 부라사"
+	picture = "Portrait_Quebec_Robert_Bourassa.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "로베르 부라사"
+	picture = "Portrait_Quebec_Robert_Bourassa.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -138,9 +154,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "Portrait_Quebec_Maurice_Duplessis.tga"
+	name = "르네 레베스크"
+	picture = "Portrait_Quebec_Rene_Levesque.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -149,9 +164,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "Portrait_Quebec_Fred_Rose.tga"
+	name = "장 폴 아르네이"
+	picture = "Portrait_Quebec_John_Paul_Harney.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -160,9 +174,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "Portrait_Quebec_Fred_Rose.tga"
+	name = "미셸 샤르트랑"
+	picture = "Portrait_Quebec_Michel_Chartrand.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -172,9 +185,8 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "Portrait_Quebec_Fred_Rose.tga"
+	name = "샘 월시"
+	picture = "Portrait_Quebec_Sam_Walsh.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {

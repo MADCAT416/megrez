@@ -49,9 +49,40 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sayyid Khalifa II bin Harub Al-Said"
-	desc = "PAK_KHALIFA_DESC"
-	picture = "Portrait_Zanzibar_Sultan_Khalifa.tga"
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
@@ -59,11 +90,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sayyid Khalifa II bin Harub Al-Said"
-	desc = "PAK_KHALIFA_DESC"
-	picture = "Portrait_Zanzibar_Sultan_Khalifa.tga"
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {}
+
+}
+
+create_country_leader = {
+	name = "잠시드 빈 압둘라 알 사이드"
+	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 
 }
