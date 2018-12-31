@@ -10,6 +10,7 @@ state = {
 	history = {
 		owner = MAH
 		add_core_of = MAH
+		add_core_of = TUN
 		victory_points = {	#Tunis
 			11969 20
 		}

@@ -8,6 +8,7 @@ state = {
 	history = {
 		owner = MAH
 		add_core_of = MAH
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

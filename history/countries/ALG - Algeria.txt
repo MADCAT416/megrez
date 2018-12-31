@@ -17,42 +17,117 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 5
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 10
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 35
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 10
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 30
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = syndicalist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+create_country_leader = {
+	name = "페르하트 아바스"
+	picture = "Portrait_MAH_Ferhat_Abbas.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "페르하트 아바스"
+	picture = "Portrait_MAH_Ferhat_Abbas.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "우아리 부메디엔"
+	picture = "Portrait_MAH_Houari_Boumediene.tga"
+	expire = "2000.1.1"
+	ideology = Totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "압바시 마다니"
+	picture = "Portrait_MAH_Abbassi_Madani.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
 }
 
 ### Leaders

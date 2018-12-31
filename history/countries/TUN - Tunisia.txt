@@ -136,7 +136,53 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
 
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "후사인 베이"
+	picture = "Portrait_Tunisia_Husain_Bey.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
 
 ### Navy Leader
 create_navy_leader = {
