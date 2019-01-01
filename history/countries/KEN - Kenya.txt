@@ -51,30 +51,6 @@ set_politics = {
 
 }
 
-create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
-	name = "줄리어스 니에레레"
-	picture = "Portrait_Kenya_Julius_Nyerere.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
-	name = "줄리어스 니에레레"
-	picture = "Portrait_Kenya_Julius_Nyerere.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
-	name = "줄리어스 니에레레"
-	picture = "Portrait_Kenya_Julius_Nyerere.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
 create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "대니얼 아랍 모이"
 	picture = "Daniel_arap_Moi.tga"
