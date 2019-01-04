@@ -97,7 +97,7 @@ set_politics = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
-			popularity = 30
+			popularity = 35
 		}
 		market_liberal = {
 			popularity = 3
@@ -109,11 +109,11 @@ set_politics = {
 			popularity = 15
 		}
 		national_populist = {
-			popularity = 35
+			popularity = 30
 		}
 	}
 
-	ruling_party = national_populist
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
