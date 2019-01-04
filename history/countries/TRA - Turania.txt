@@ -46,10 +46,10 @@ set_politics = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 100
+			popularity = 95
 		}
 	}
 

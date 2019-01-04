@@ -52,11 +52,20 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Akhemuk ag Ihemma"
-	desc = "POLITICS_AKHEMUK_IHEMMA_DESC"
-	picture = "Portrait_TUA_Akhemuk_ag_Ihemma.tga"
+	name = "베이 악 아카무크"
+	picture = "Portrait_TUA_Bey_ag_Akhamouk.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "베이 악 아카무크"
+	picture = "Portrait_TUA_Bey_ag_Akhamouk.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
 
 	}
