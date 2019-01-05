@@ -10,57 +10,43 @@ country_event = {
 	option = {
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 1562
-					}
+					province = 1562
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 12374
-					}
+					province = 12374
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 7986
-					}
+					province = 7986
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-					  	id = 10783
-					}
+					province = 10783
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 3834
-					}
+					province = 3834
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 7920
-					}
+					province = 7920
 					level = 10
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = {
-						id = 5044
-					}
+					province = 5044
 					level = 10
 					instant_build = yes
 				}
