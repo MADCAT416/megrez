@@ -24,10 +24,10 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 41
+			popularity = 19
 		}
 		democratic_socialist = {
-			popularity = 19
+			popularity = 41
 		}
 		syndicalist = {
 			popularity = 12
@@ -55,7 +55,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = totalist
+	ruling_party = democratic_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
