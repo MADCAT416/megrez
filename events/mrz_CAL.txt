@@ -12,14 +12,54 @@ country_event = {
 					type = bunker
 					province = {
 						id = 1562
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 12374
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 7986
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 					  	id = 10783
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 3834
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 7920
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 5044
-						limit_to_border = yes
-						level <10
 					}
 					level = 10
 					instant_build = yes
@@ -61,23 +101,126 @@ country_event = {
 					type = bunker
 					province = {
 						id = 12791
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 3867
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 12720
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 10867
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 2102
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 1738
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 1809
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 12642
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 7780
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 4723
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 4794
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 4820
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 10587
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 1767
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 10706
+					}
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
 						id = 7883
-						limit_to_border = yes
-						level <10
 					}
 					level = 10
 					instant_build = yes
