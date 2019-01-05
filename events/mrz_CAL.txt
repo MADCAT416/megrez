@@ -1,0 +1,115 @@
+add_namespace = mrz_CAL
+
+#width_wall
+country_event = {
+	id = mrz_CAL.1
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	option = {
+				add_building_construction = {
+					type = bunker
+					province = {
+						id = 1562
+						id = 12374
+						id = 7986
+					  	id = 10783
+						id = 3834
+						id = 7920
+						id = 5044
+						limit_to_border = yes
+						level <10
+					}
+					level = 10
+					instant_build = yes
+				}
+				798 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+				829 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+				834 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+
+	}
+}
+
+#length_wall
+country_event = {
+	id = mrz_CAL.2
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	option = {
+				add_building_construction = {
+					type = bunker
+					province = {
+						id = 12791
+						id = 3867
+						id = 12720
+						id = 10867
+						id = 2102
+						id = 1738
+						id = 1809
+						id = 12642
+						id = 7780
+						id = 4723
+						id = 4794
+						id = 4820
+						id = 10587
+						id = 1767
+						id = 10706
+						id = 7883
+						limit_to_border = yes
+						level <10
+					}
+					level = 10
+					instant_build = yes
+				}
+				376 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+				382 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+				381 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+				388 = {	
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+
+	}
+}
