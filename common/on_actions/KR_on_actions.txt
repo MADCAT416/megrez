@@ -5,6 +5,9 @@ on_actions = {
 			every_country = { country_event = kr.political.40 }
 			#Party Popularity Setup
 			every_country = { country_event = kr.political.11 }
+			#California Fort
+			CAL = { country_event = mrz_CAL.1 }
+			CAL = { country_event = mrz_CAL.2 }
 			#Faction Opinion Modifiers
 			every_country = {
 				limit = {
