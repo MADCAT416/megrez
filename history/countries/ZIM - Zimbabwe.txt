@@ -51,4 +51,86 @@ set_politics = {
 
 }
 
+set_cosmetic_tag = ZIM_RHO
+
 ### NO DH LEADERS
+
+create_country_leader = {
+	name = "로이 웰렌스키"
+	picture = "Portrait_Zimbabwe_Roy_Welensky.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아벨 무조레와"
+	picture = "Portrait_Zimbabwe_Abel_Muzorewa.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "아벨 무조레와"
+	picture = "Portrait_Zimbabwe_Abel_Muzorewa.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "로이 웰렌스키"
+	picture = "Portrait_Zimbabwe_Roy_Welensky.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이안 스미스"
+	picture = "Portrait_Zimbabwe_Ian_Smith.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이안 스미스"
+	picture = "Portrait_Zimbabwe_Ian_Smith.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "조슈아 은코모"
+	picture = "Portrait_Zimbabwe_Joshua_Nkomo.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "조슈아 은코모"
+	picture = "Portrait_Zimbabwe_Joshua_Nkomo.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "로버트 무가베"
+	picture = "Portrait_Zimbabwe_Robert_Mugabe.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "이안 스미스"
+	picture = "Portrait_Zimbabwe_Ian_Smith.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}

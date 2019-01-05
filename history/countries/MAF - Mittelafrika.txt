@@ -54,7 +54,6 @@ add_opinion_modifier = { target = GEO modifier = embargo }
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.55
-add_political_power = -200
 
 set_politics = {
 

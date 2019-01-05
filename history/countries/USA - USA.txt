@@ -52,7 +52,6 @@ set_country_flag = LEC_profit_for_you
 set_research_slots = 4
 set_convoys = 250
 set_global_flag = monroe_doctrine
-add_political_power = -320
 set_stability = 0.45
 set_war_support = 0.25
 
@@ -97,88 +96,73 @@ set_politics = {
 	elections_allowed = no
 }
 
-# Resetting politics for all puppets which come earlier in the load order
-"PHI" = {
-	set_politics = {
-		parties = {
-			totalist = {
-				popularity = 2
-			}
-			democratic_socialist = {
-				popularity = 3
-			}
-			syndicalist = {
-				popularity = 5
-			}
-			social_progressive = {
-				popularity = 13
-			}
-			social_liberal = {
-				popularity = 41
-			}
-			market_liberal = {
-				popularity = 21
-			}
-			social_conservative = {
-				popularity = 10
-			}
-			authoritarian_democrat = {
-				popularity = 3
-			}
-			paternal_autocrat = {
-				popularity = 2
-			}
-			national_populist = {
-				popularity = 0
-			}
-		}
-		ruling_party = social_liberal
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
-	}
+create_country_leader = {
+	name = "클립톤 디베리"
+	picture = "Portrait_USA_Clifton_DeBerry.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Jack Reed"
-	desc = "POLITICS_JACK_REED_DESC"
-	picture = "Portrait_USA_Jack_Reed.tga"
+	name = "클립톤 디베리"
+	picture = "Portrait_USA_Clifton_DeBerry.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
+
 create_country_leader = {
-	name = "John Nance Garner"
-	desc = "POLITICS_JOHN_NANCE_GARNER_DESC"
-	picture = "Portrait_USA_John_Nance_Garner.tga"
+	name = "클립톤 디베리"
+	picture = "Portrait_USA_Clifton_DeBerry.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "휴버트 호레이쇼 험프리"
+	picture = "Portrait_USA_Hubert_Humphrey.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "휴버트 호레이쇼 험프리"
+	picture = "Portrait_USA_Hubert_Humphrey.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "Portrait_USA_Herbert_Hoover.tga"
+	name = "조지 W. 롬니"
+	picture = "Portrait_USA_George_W_Romney.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Douglas MacArthur"
-	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	picture = "Portrait_USA_gen_douglas_macarthur.tga"
+	name = "조지 W. 롬니"
+	picture = "Portrait_USA_George_W_Romney.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "맥스웰 D. 테일러"
+	picture = "Portrait_USA_Maxwell_D_Taylor.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Huey Long"
-	desc = "POLITICS_HUEY_LONG_DESC"
-	picture = "Portrait_USA_Huey_Long.tga"
+	name = "스트롬 서먼드"
+	picture = "Portrait_TEX_Strom_Thurmond.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
+
 add_ideas = {
 	### Head of Government
 	USA_Charles_Curtis_hog_mli
