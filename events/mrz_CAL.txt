@@ -89,6 +89,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+			376 = {
 				add_building_construction = {
 					type = bunker
 					province = {
@@ -129,6 +130,8 @@ country_event = {
 					level = 10
 					instant_build = yes
 				}
+			}
+			382 = {
 				add_building_construction = {
 					type = bunker
 					province = {
@@ -161,6 +164,8 @@ country_event = {
 					level = 10
 					instant_build = yes
 				}
+			}
+			381 = {
 				add_building_construction = {
 					type = bunker
 					province = {
@@ -185,6 +190,8 @@ country_event = {
 					level = 10
 					instant_build = yes
 				}
+			}
+			388 = {
 				add_building_construction = {
 					type = bunker
 					province = {
@@ -217,6 +224,7 @@ country_event = {
 					level = 10
 					instant_build = yes
 				}
+			}
 				376 = {	
 					add_building_construction = {
 						type = anti_air_building
