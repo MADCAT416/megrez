@@ -92,6 +92,8 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
+	width_wall
+	length_wall
 	### Head of Government
 	CAL_Henry_H_Arnold_hog_sco
 	### Foreign Minister
