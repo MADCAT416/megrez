@@ -15,6 +15,6 @@ add_core_of = GER
 	provinces = {
 		599 11735 11595
 	}
-	manpower = 557500
+	manpower = 641125
 	state_category = "city"
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 777 # Woiwodschaft Schlesien
 	name = "STATE_777"
-	manpower = 1533500
+	manpower = 1763525
 	state_category = large_city
 
 	history = {
