@@ -12,11 +12,13 @@ state = {
 			infrastructure = 6
 			industrial_complex = 1
 			dockyard = 4
+			radar_station = 1
+			nuclear_reactor = 1
 			11360 = {
-				naval_base = 8
+				naval_base = 10
 
 			}
-			air_base = 3
+			air_base = 4
 
 		}
 	}

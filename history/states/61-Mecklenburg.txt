@@ -14,12 +14,14 @@ state = {
 		}
 		buildings = {
 			infrastructure = 6
+			radar_station = 1
+			rocket_site = 1
 			321 = {
-				naval_base = 6
+				naval_base = 10
 
 			}
 			air_base = 3
-			dockyard = 1
+			dockyard = 3
 		}
 	}
 

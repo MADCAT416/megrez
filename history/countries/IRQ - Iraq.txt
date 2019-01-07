@@ -4,7 +4,7 @@ oob = "empty"
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+	
 	### INF ###
 	infantry_weapons_1 = 1
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "파이살 2세"
-	picture = "Portrait_IRQ_Faisal_II.tga""
+	picture = "Portrait_IRQ_Faisal_II.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}

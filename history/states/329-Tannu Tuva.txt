@@ -21,6 +21,7 @@ state = {
 			10627 1.0
 		}
 		add_claim_by = MON
+		add_claim_by = SQI
 
 	}
 

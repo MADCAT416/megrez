@@ -5,7 +5,7 @@ oob = "empty"
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+	
 	### INF ###
 	infantry_weapons_1 = 1
 }

@@ -12,7 +12,7 @@ state = {
 				naval_base = 10
 
 			}
-			dockyard = 2
+			dockyard = 8
 
 		}
 	}

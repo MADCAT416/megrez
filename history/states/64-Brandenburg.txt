@@ -21,11 +21,13 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 8
-			arms_factory = 3
-			industrial_complex = 4
-			anti_air_building = 2
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 6
+			radar_station = 4
+			anti_air_building = 5
 			air_base = 6
+			nuclear_reactor = 1
 
 		}
 	}

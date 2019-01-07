@@ -5,16 +5,16 @@ set_research_slots = 3
 set_technology = {
 ### MOD ###
 	### General ###
-	shipbuild_basics = 1
+	
 	### Navy ###
-	early_submarine = 1
-	early_destroyer = 1
-	transport = 1
+	
+	
+	
 	### Tanks ###
 	### INF ###
 	infantry_weapons_1 = 1
 	### AIR ###
-	early_fighter = 1
+	
 }
 
 create_country_leader = {

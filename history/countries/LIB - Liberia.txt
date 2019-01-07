@@ -6,10 +6,10 @@ set_convoys = 20
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+	
 	### INF ###
 	infantry_weapons_1 = 1
-	gw_artillery = 1
+	
 }
 
 set_research_slots = 2

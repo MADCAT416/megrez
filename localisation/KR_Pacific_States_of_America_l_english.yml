@@ -11,10 +11,10 @@ CAL_social_progressive_party:0 "태평양 진보당"
 CAL_social_progressive_party_long:0 "태평양 진보당" #
 CAL_social_liberal_party:0 "태평양 민주당"
 CAL_social_liberal_party_long:0 "태평양 민주당" #
-CAL_market_liberal_party:0 "태평양 민주당"
-CAL_market_liberal_party_long:0 "태평양 민주당" #
-CAL_social_conservative_party:0 "태평양 공화당"
-CAL_social_conservative_party_long:0 "태평양 공화당" #
+CAL_market_liberal_party:0 "태평양 공화당"
+CAL_market_liberal_party_long:0 "태평양 공화당" #
+CAL_social_conservative_party:0 "우르신당"
+CAL_social_conservative_party_long:0 "우르신당" #
 CAL_authoritarian_democrat_party:0 "군사정부"
 CAL_authoritarian_democrat_party_long:0 "군사정부" #
 CAL_paternal_autocrat_party:0 "태평양 우선당"
@@ -26,3 +26,4 @@ CAL_national_populist_party_long:0 "태평양 우선당" #
 Howard_Hughes_DESC:0 ""
 Pat_Brown_DESC:0 ""
 Glen_H_Taylor_DESC:0 ""
+Caspar_Weinberger_DESC:0 ""
