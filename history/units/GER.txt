@@ -1,5 +1,58 @@
 ﻿division_template = {
+	name = "근위사단"
+	template_counter = 48
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "기갑교도사단"
+	template_counter = 31
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 1 y = 3 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		modern_armor = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
 	name = "향토방위사단" # Miliztruppe
+	template_counter = 7
 
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -30,19 +83,41 @@ division_template = {
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
 	}
 }
 
 division_template = {
-	name = "포병사단"
+	name = "차량화보병사단"
 
 	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		artillery_brigade = { x = 1 y = 1 }
-		artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "기갑척탄병사단"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		modern_armor = { x = 3 y = 0 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
 	}
 }
 
@@ -54,13 +129,14 @@ division_template = {
 		modern_armor = { x = 0 y = 1 }
 		modern_armor = { x = 1 y = 0 }
 		modern_armor = { x = 1 y = 1 }
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
 	}
 }
 
@@ -79,78 +155,41 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 		modern_armor = { x = 3 y = 0 }
 	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
 }
 
 division_template = {
-	name = "근위보병사단"
+	name = "포병사단"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 0 }
 	}
 }
 
 division_template = {
-	name = "기갑지원 차량화사단"
-
+	name = "산악엽병사단"
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
 	}
-}
-
-division_template = {
-	name = "기갑척탄병사단"
-
-	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-		modern_armor = { x = 2 y = 0 }
-	}
-}
-
-division_template = {
-	name = "해외주둔군"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "해병돌격사단"
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
 	}
 	priority = 2
 }
@@ -164,18 +203,44 @@ division_template = {
 		paratrooper = { x = 1 y = 0 }
 		paratrooper = { x = 1 y = 1 }
 	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
 	priority = 2
 }
 
 division_template = {
-	name = "산악엽병사단"
+	name = "해병돌격사단"
+
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
 	}
 	priority = 2
+}
+
+division_template = {
+	name = "해외주둔군"
+	template_counter = 6
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	priority = 0
 }
 
 
@@ -183,8 +248,184 @@ division_template = {
 units = {
 
 	division = {
+		name = "제1근위사단"
+		location = 6521
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2근위사단"
+		location = 3499
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3근위사단"
+		location = 9294
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4근위사단"
+		location = 9560
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제5근위사단"
+		location = 6524
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1기갑교도사단"
+		location = 349
+		division_template = "기갑교도사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2기갑교도사단"
+		location = 514
+		division_template = "기갑교도사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3기갑교도사단"
+		location = 3572
+		division_template = "기갑교도사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1향토방위사단"
+		location = 11666
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2향토방위사단"
+		location = 9648
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3향토방위사단"
+		location = 13575
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4향토방위사단"
+		location = 9665
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제5향토방위사단"
+		location = 3703
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제6향토방위사단"
+		location = 673
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제7향토방위사단"
+		location = 688
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제8향토방위사단"
+		location = 11612
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제9향토방위사단"
+		location = 6534 # 슐레지엔
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제10향토방위사단"
+		location = 3438 # 슐레지엔
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제11향토방위사단"
+		location = 11467 # 슐레지엔
+		division_template = "향토방위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제1보병사단"
 		location = 3530
+		division_template = "보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2보병사단"
+		location = 11372 # 프로이센
+		division_template = "보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3보병사단"
+		location = 11260 # 프로이센
+		division_template = "보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4보병사단"
+		location = 3380 # 단치히 옆
 		division_template = "보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -215,54 +456,6 @@ units = {
 	}
 
 	division = {
-		name = "제1기갑사단"
-		location = 6444
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2기갑사단"
-		location = 9557
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1강하엽병사단"
-		location = 11531
-		division_template = "강하엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1포병사단"
-		location = 6488
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3기갑사단"
-		location = 6488
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2포병사단"
-		location = 11494
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
 		name = "제4기갑척탄병사단"
 		location = 563
 		division_template = "기갑척탄병사단"
@@ -274,30 +467,6 @@ units = {
 		name = "제5기갑척탄병사단"
 		location = 11560
 		division_template = "기갑척탄병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제4기갑사단"
-		location = 11560
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3포병사단"
-		location = 9517
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제5기갑사단"
-		location = 11529
-		division_template = "기갑사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -319,6 +488,233 @@ units = {
 	}
 
 	division = {
+		name = "제8기갑척탄병사단"
+		location = 3299
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제9기갑척탄병사단"
+		location = 309
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제10기갑척탄병사단"
+		location = 3514
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제11기갑척탄병사단"
+		location = 6501
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제12기갑척탄병사단"
+		location = 9560
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제13기갑척탄병사단"
+		location = 9456
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제14기갑척탄병사단"
+		location = 11276
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제15기갑척탄병사단"
+		location = 6690
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제16기갑척탄병사단"
+		location = 9398 # 프로이센
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제17기갑척탄병사단"
+		location = 3572 # 노이마르크
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제17기갑척탄병사단"
+		location = 6282 # 슈테틴
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1기갑사단"
+		location = 6444
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2기갑사단"
+		location = 9557
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3기갑사단"
+		location = 6488
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4기갑사단"
+		location = 11560
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제5기갑사단"
+		location = 11529
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제6기갑사단"
+		location = 11529
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "제7기갑사단"
+		location = 9238
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "제8기갑사단"
+		location = 6377
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "제9기갑사단"
+		location = 3398
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "제10기갑사단"
+		location = 3395
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제11기갑사단"
+		location = 6535
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "제12기갑사단"
+		location = 405
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제13기갑사단"
+		location = 529
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제14기갑사단"
+		location = 3444
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제15기갑사단"
+		location = 6595 # 슐레지엔
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1포병사단"
+		location = 6488
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2포병사단"
+		location = 11494
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3포병사단"
+		location = 9517
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제4포병사단"
 		location = 3690
 		division_template = "포병사단"
@@ -335,9 +731,17 @@ units = {
 	}
 
 	division = {
-		name = "제8기갑척탄병사단"
-		location = 3299
-		division_template = "기갑척탄병사단"
+		name = "제6포병사단"
+		location = 405
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제7포병사단"
+		location = 587
+		division_template = "포병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -351,8 +755,16 @@ units = {
 	}
 
 	division = {
+		name = "제1강하엽병사단"
+		location = 9388
+		division_template = "강하엽병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제2강하엽병사단"
-		location = 11486
+		location = 11531
 		division_template = "강하엽병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -367,10 +779,60 @@ units = {
 	}
 
 	division = {
-		name = "제6기갑사단"
-		location = 11529
-		division_template = "기갑사단"
+		name = "제4강하엽병사단"
+		location = 11486
+		division_template = "강하엽병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
+
+	division = {
+		name = "제5강하엽병사단"
+		location = 3398
+		division_template = "강하엽병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1해병돌격사단"
+		location = 11360
+		division_template = "해병돌격사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+	division = {
+		name = "제2해병돌격사단"
+		location = 6389
+		division_template = "해병돌격사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3해병돌격사단"
+		location = 321
+		division_template = "해병돌격사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4해병돌격사단"
+		location = 362
+		division_template = "해병돌격사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제5해병돌격사단"
+		location = 6626
+		division_template = "해병돌격사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
 	}
