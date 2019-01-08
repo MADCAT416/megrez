@@ -16,12 +16,8 @@ add_ideas = {
 set_technology = {
 	### MOD ###
 	### General ###
-	
-	electronic_mechanical_engineering = 1
 	synth_oil_experiments = 1
 	radio = 1
-	mechanical_computing = 1
-	atomic_research = 1
 	experimental_rockets = 1
 	nuclear_reactor = 1
 
@@ -42,6 +38,7 @@ set_technology = {
 	main_battle_tank_1 = 1
 	light_tank_1 = 1
 	mechanised_infantry_1 = 1
+
 	
 	
 	### INF ###
