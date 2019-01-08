@@ -32,31 +32,31 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 1
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 1
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 83
+			popularity = 100
 		}
 		market_liberal = {
-			popularity = 1
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 7
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 1
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 0
 		}
 		national_populist = {
 			popularity = 0
