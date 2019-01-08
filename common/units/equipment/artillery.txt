@@ -8,7 +8,7 @@ equipments = {
 		type = {
 			artillery
 			infantry #adding infantry type
-			#motorized #Removing motorized type
+			motorized
 		}
 		group_by = archetype
 		
