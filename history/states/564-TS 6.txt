@@ -18,6 +18,7 @@ state = {
 
 		}
 		add_claim_by = MON
+		add_core_of = RUS
 	}
 
 	provinces = {

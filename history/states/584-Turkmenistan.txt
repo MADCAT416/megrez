@@ -10,6 +10,7 @@ state = {
 			arms_factory = 1
 		}
 		add_core_of = TRK
+		add_core_of = RUS
 		victory_points = {
 			12465 1
 		}

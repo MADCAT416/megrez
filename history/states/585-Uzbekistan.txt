@@ -8,6 +8,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = TRK # SOV
+		add_core_of = RUS
 		victory_points = {
 			10353 1
 		}

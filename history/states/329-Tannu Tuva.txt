@@ -20,6 +20,7 @@ state = {
 		victory_points = {
 			10627 1.0
 		}
+		add_core_of = RUS
 		add_claim_by = MON
 		add_claim_by = SQI
 

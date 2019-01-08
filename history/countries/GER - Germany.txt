@@ -39,7 +39,7 @@ set_technology = {
 	
 	### INF ###
 	infantry_weapons_1 = 1
-	
+	artillery_1 = 1
 	
 	
 	

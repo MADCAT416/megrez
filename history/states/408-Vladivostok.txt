@@ -26,6 +26,8 @@ state = {
 			}
 		}
 		add_core_of = RUS
+		add_claim_by = MAN
+		add_claim_by = SQI
 	}
 
 	provinces = {
