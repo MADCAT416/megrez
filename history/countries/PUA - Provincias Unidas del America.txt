@@ -4,19 +4,11 @@ set_convoys = 20
 set_research_slots = 3
 set_technology = {
 	### Navy ###
-	submarine_one = 1
-	destroyer_one = 1
-	destroyer_two = 1
-	destroyer_three = 1
-	light_cruiser_one = 1
-	heavy_cruiser_one = 1
-	battleship_one = 1
 	
 	### Tanks ###
 	
 	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+infantry_weapons_1 = 1
 	
 	
 	
