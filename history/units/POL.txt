@@ -1,0 +1,146 @@
+﻿division_template = {
+	name = "영토방어사단" # Obrona Terytorium 
+	template_counter = 7
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "보병사단"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "차량화보병사단"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "기갑사단"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "포병사단"
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "공중강습사단"
+
+	regiments = {
+		heliborne = { x = 0 y = 0 }
+		heliborne = { x = 0 y = 1 }
+		heliborne = { x = 1 y = 0 }
+		heliborne = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "제1보병사단"
+		location = 524 # 바르샤바
+		division_template = "보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1영토방어사단"
+		location = 3559 # 루블린
+		division_template = "영토방어사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2영토방어사단"
+		location = 9468 # 리비우
+		division_template = "영토방어사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3영토방어사단"
+		location = 17 # 포젠
+		division_template = "영토방어사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1포병사단"
+		location = 3230
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1공중강습사단"
+		location = 9427 # 크라쿠프
+		division_template = "공중강습사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	}

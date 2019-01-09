@@ -1,5 +1,5 @@
 ﻿capital = 71
-oob = "empty"
+oob = "SVK"
 
 set_technology = {
 	### MOD ###
@@ -7,6 +7,7 @@ set_technology = {
 	
 	### INF ###
 	infantry_weapons_1 = 1
+	artillery_1 = 1
 }
 set_research_slots = 3
 

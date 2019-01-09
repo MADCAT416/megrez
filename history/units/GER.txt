@@ -18,7 +18,7 @@
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 1 }
 		signal_company = { x = 0 y = 2 }
 		engineer = { x = 0 y = 3 }
 	}
@@ -45,7 +45,7 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 2 }
 		signal_company = { x = 0 y = 3 }
 	}
 }
@@ -101,6 +101,7 @@ division_template = {
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
 	}
 }
 
@@ -110,14 +111,15 @@ division_template = {
 	regiments = {
 		mechanized = { x = 0 y = 0 }
 		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2}
-		mechanized = { x = 1 y = 0 }
 		mechanized = { x = 1 y = 1 }
 		mechanized = { x = 1 y = 2 }
-		modern_armor = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		modern_armor = { x = 3 y = 0 }
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
 	}
 }
 
@@ -134,9 +136,8 @@ division_template = {
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
 	}
 }
 
@@ -376,56 +377,8 @@ units = {
 	}
 
 	division = {
-		name = "제9향토방위사단"
-		location = 6534 # 슐레지엔
-		division_template = "향토방위사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제10향토방위사단"
-		location = 3438 # 슐레지엔
-		division_template = "향토방위사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제11향토방위사단"
-		location = 11467 # 슐레지엔
-		division_template = "향토방위사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
 		name = "제1보병사단"
 		location = 3530
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2보병사단"
-		location = 11372 # 프로이센
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3보병사단"
-		location = 11260 # 프로이센
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제4보병사단"
-		location = 3380 # 단치히 옆
 		division_template = "보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -553,7 +506,7 @@ units = {
 
 	division = {
 		name = "제16기갑척탄병사단"
-		location = 9398 # 프로이센
+		location = 6534 # 슐레지엔
 		division_template = "기갑척탄병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -561,15 +514,39 @@ units = {
 
 	division = {
 		name = "제17기갑척탄병사단"
-		location = 3572 # 노이마르크
+		location = 3438 # 슐레지엔
 		division_template = "기갑척탄병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제17기갑척탄병사단"
-		location = 6282 # 슈테틴
+		name = "제18기갑척탄병사단"
+		location = 11467 # 슐레지엔
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제19기갑척탄병사단"
+		location = 11372 # 프로이센
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제20기갑척탄병사단"
+		location = 11260 # 프로이센
+		division_template = "기갑척탄병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제21기갑척탄병사단"
+		location = 3380 # 단치히 옆
 		division_template = "기갑척탄병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -685,6 +662,30 @@ units = {
 	division = {
 		name = "제15기갑사단"
 		location = 6595 # 슐레지엔
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제16기갑사단"
+		location = 9398 # 프로이센
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제17기갑사단"
+		location = 3572 # 노이마르크
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제18기갑사단"
+		location = 6282 # 슈테틴
 		division_template = "기갑사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0

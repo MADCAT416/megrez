@@ -11,10 +11,11 @@ state = {
 		buildings = {
 			infrastructure = 6
 			radar_station = 1
-			dockyard = 4
+			dockyard = 2
 			air_base = 5
 			rocket_site = 2
 			anti_air_building = 4
+			synthetic_refinery = 2
 			6389 = {
 				naval_base = 10
 

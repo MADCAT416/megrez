@@ -1,5 +1,5 @@
 ﻿capital = 525 #South Korea - Seoul or Busan
-oob = "empty"
+oob = "KOR"
 
 set_technology = {
 	#### MOD ####
@@ -12,6 +12,7 @@ set_technology = {
 	#### Tanks ####
 	#### INF ####
 	infantry_weapons_1 = 1
+	artillery_1 = 1
 	
 	
 	#### AIR ####
