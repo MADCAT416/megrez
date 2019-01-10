@@ -171,6 +171,22 @@ division_template = {
 units = {
 
 	division = {
+		name = "수도사단"
+		location = 7125
+		division_template = "보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "수도기계화사단"
+		location = 7125
+		division_template = "기계화보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제1경찰기동대"
 		location = 7125
 		division_template = "백골단"
