@@ -177,6 +177,30 @@ create_country_leader = {
 	traits = {}
 }
 
+create_country_leader = {
+	name = "푀른 엥홀름"
+	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "푀른 엥홀름"
+	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "푀른 엥홀름"
+	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
 ### Field Marshals ###
 create_field_marshal = {
 	name = "Hermann von Göring"
