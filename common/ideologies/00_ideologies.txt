@@ -114,7 +114,7 @@ ideologies = {
 			"FACTION_NAME_social_progressive_5"
 			"FACTION_NAME_social_progressive_6"
 		}
-		color = { 128 0 128 }
+		color = { 194 30 86 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
