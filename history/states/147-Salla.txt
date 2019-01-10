@@ -3,12 +3,13 @@ state = {
 	name = "STATE_147"
 	manpower = 4630
 
-	state_category = enclave
+	state_category = pastoral
 
 	history = {
 		owner = FIN
 		buildings = {
 			infrastructure = 3
+			radar_station = 2
 		}
 		add_core_of = FIN
 

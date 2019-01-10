@@ -1,6 +1,6 @@
-state = {
+ï»¿state = {
 	id = 865
-	name = "STATE_865" # Länsi-Karjala
+	name = "STATE_865" # Lï¿½nsi-Karjala
 	manpower = 251902
 
 	state_category = rural
@@ -9,6 +9,8 @@ state = {
 		owner = FIN
 		buildings = {
 			infrastructure = 4
+			air_base = 5
+			anti_air_building = 2
 		}
 		add_core_of = FIN
 	}
