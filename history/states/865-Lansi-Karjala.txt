@@ -1,6 +1,6 @@
-﻿state = {
+state = {
 	id = 865
-	name = "STATE_865" # L�nsi-Karjala
+	name = "STATE_865"
 	manpower = 251902
 
 	state_category = rural
