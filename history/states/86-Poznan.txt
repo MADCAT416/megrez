@@ -27,7 +27,6 @@ state = {
 				bunker = 1
 
 			}
-			air_base = 3
 		}
 	}
 

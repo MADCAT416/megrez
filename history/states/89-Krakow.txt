@@ -9,7 +9,6 @@ state = {
 		owner = POL
 		buildings = {
 			infrastructure = 5
-			air_base = 3
 
 		}
 		add_core_of = POL
