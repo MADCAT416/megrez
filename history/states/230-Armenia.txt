@@ -18,6 +18,7 @@ state = {
 		}
 		add_core_of = ARM
 		add_core_of = GEO
+		add_claim_by = RUS
 
 	}
 

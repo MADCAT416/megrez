@@ -10,6 +10,8 @@ state = {
 
 	history = {
 		owner = BAT
+		add_claim_by = RUS
+		add_core_of = LAT
 		victory_points = {
 			9340 20
 		}

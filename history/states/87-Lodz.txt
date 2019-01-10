@@ -16,6 +16,7 @@ state = {
 			9508 3
 		}
 		add_core_of = POL
+		add_claim_by = RUS
 
 	}
 

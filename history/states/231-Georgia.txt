@@ -23,6 +23,7 @@ state = {
 			}
 		}
 		add_core_of = GEO
+		add_claim_by = RUS
 
 	}
 

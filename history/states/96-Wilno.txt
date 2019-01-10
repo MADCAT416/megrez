@@ -13,6 +13,7 @@ state = {
 
 		}
 		add_core_of = WHR
+		add_core_of = RUS
 
 	}
 

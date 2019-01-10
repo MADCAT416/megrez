@@ -12,6 +12,7 @@ state = {
 
 		}
 		add_core_of = UKR # SOV
+		add_claim_by = RUS
 	}
 
 	provinces = {
