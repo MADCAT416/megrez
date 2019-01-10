@@ -1,6 +1,5 @@
 ﻿division_template = {
 	name = "영토방어사단" # Obrona Terytorium 
-	template_counter = 7
 
 	regiments = {
 		militia = { x = 0 y = 0 }
