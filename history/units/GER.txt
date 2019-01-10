@@ -52,7 +52,6 @@ division_template = {
 
 division_template = {
 	name = "향토방위사단" # Miliztruppe
-	template_counter = 7
 
 	regiments = {
 		militia = { x = 0 y = 0 }
