@@ -9,6 +9,7 @@ state = { #Jindong #Eastern Shanxi
 		owner = SQI
 		
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		buildings = {
 			infrastructure = 2

@@ -6,6 +6,7 @@ state = { #Central Shanxi
 	history = {
 		owner = SQI
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		
 		buildings = {

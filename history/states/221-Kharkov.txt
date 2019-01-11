@@ -19,6 +19,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 5
+			radar_station = 1
 		}
 		add_core_of = UKR # SOV
 		add_core_of = RUS

@@ -11,6 +11,7 @@ state = {
 			infrastructure = 5
 			arms_factory = 2
 			air_base = 3
+			anti_air_building = 1
 		}
 		add_core_of = UKR # SOV
 		add_claim_by = RUS

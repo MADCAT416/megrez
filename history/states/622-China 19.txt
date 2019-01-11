@@ -13,6 +13,7 @@ state = { #Shaanxi
 		owner = SQI
 		
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		victory_points = {
 			4174 10
