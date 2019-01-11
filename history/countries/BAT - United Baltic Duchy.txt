@@ -135,9 +135,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -176,9 +174,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -187,9 +183,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -198,9 +192,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -209,9 +201,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -220,9 +210,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
@@ -230,9 +218,7 @@ create_country_leader = {
 	picture = "Portrait_Baltic_Hans_Kalm.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
-	traits = {
-
-	}
+	traits = {sec_prince_of_terror for_iron_fisted_brute}
 }
 
 create_field_marshal = {

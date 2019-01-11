@@ -152,7 +152,7 @@ create_country_leader = {
 	picture = "Portrait_CAL_Howard_Hughes.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {atlas_standing}
 }
 
 ###Field Commander####

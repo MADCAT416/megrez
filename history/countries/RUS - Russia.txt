@@ -130,7 +130,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {
+	traits = {closet_anti_democrat
 
 	}
 }
@@ -141,7 +141,7 @@ create_country_leader = {
 	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {
+	traits = {for_biased_intellectual
 
 	}
 }
@@ -152,7 +152,7 @@ create_country_leader = {
 	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {
+	traits = {for_biased_intellectual
 
 	}
 }
@@ -163,7 +163,7 @@ create_country_leader = {
 	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {
+	traits = {for_biased_intellectual
 
 	}
 }
@@ -174,7 +174,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {
+	traits = {closet_anti_democrat
 
 	}
 }
@@ -185,7 +185,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {
+	traits = {closet_anti_democrat
 
 	}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {
+	traits = {closet_anti_democrat
 
 	}
 }
@@ -207,7 +207,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
+	traits = {closet_anti_democrat
 
 	}
 }
@@ -218,9 +218,7 @@ create_country_leader = {
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
+	traits = {closet_anti_democrat}
 }
 
 create_country_leader = {

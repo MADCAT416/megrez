@@ -170,10 +170,42 @@ leader_traits = {
 	}
 
 	#### Megrez added
+
+	atlas_standing = {
+		random = no
+		political_power_gain = -0.1
+		stability_factor = -0.05
+		research_time_factor = -0.075
+		supply_consumption_factor = -0.1
+		trade_opinion_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.15
+		industrial_capacity_factory = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	beloved_monarch = {
 		random = no
 		political_power_gain = 0.05
 		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	closet_anti_democrat = {
+		random = no
+
+		paternal_autocrat_drift = 0.1
+		authoritarian_democrat = 0.05
+		social_liberal_drift = -0.1
+		social_progressive_drift = -0.1
+		national_populist_drift = -0.1
+		political_power_gain = -0.2
 
 		ai_will_do = {
 			factor = 1
@@ -207,6 +239,17 @@ leader_traits = {
 		}
 	}
 
+	honeysuckle = {
+		random = no
+		consumer_goods_factor = -0.1
+		ai_focus_peaceful_factor = 0.5
+		drift_defence_factor = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	hoodlum = {
 		random = no
 
@@ -214,7 +257,61 @@ leader_traits = {
 		stability_factor = 0.05
 		consumer_goods_factor = 0.05
 		conscription_factor = 0.05
-		production_speed_buildings_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	living_buddha = {
+		random = no
+		paternal_autocrat_drift = 0.15
+		social_conservative_drift = 0.1
+		political_power_gain = 0.05
+		stability_factor = 0.1
+		consumer_goods_factor = -0.02
+		ai_focus_peaceful_factor = 0.99
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	phantom_of_past = {
+		random = no
+		paternal_autocrat_drift = -0.1
+		political_power_gain = -0.1
+		drift_defence_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	shindon = {
+		random = no
+		democratic_socialist_drift = 0.2
+		political_power_gain = -0.05
+		stability_factor = 0.1
+		consumer_goods_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	stone_underhead = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = -0.1
+		production_speed_buildings_factor = 0.075
+
+		ai_strategy = {
+			type = antagonize
+			id = "JAP"			
+			value = 100
+		}
 
 		ai_will_do = {
 			factor = 1

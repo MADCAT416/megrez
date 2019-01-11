@@ -131,7 +131,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_Gendun_Chophel.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {shindon}
 }
 
 create_country_leader = {
@@ -140,7 +140,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
@@ -149,7 +149,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
@@ -158,7 +158,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
@@ -167,7 +167,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
@@ -176,7 +176,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
@@ -185,7 +185,7 @@ create_country_leader = {
 	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {beloved_monarch}
+	traits = {living_buddha}
 }
 
 create_country_leader = {
