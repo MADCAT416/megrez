@@ -238,6 +238,18 @@ leader_traits = {
 		}
 	}
 
+	former_royal = {
+		random = no
+		paternal_autocrat_drift = -0.2
+		opinion_gain_monthly_same_ideology_factor = 0.25
+		stability_factor = 0.2
+		resistance_tick = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	hetman_forever = {
 		random = no
 		cavalry_attack_factor = 0.1

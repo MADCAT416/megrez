@@ -146,7 +146,7 @@ create_country_leader = {
 	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
@@ -155,7 +155,7 @@ create_country_leader = {
 	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
@@ -164,7 +164,7 @@ create_country_leader = {
 	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
@@ -177,12 +177,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "다우드 칸"
+	name = "무함마드 다우드 칸"
 	desc = ""
 	picture = "Portrait_Afghan_Mohammed_Daoud.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {former_royal}
 }
 
 create_country_leader = {
@@ -191,7 +191,7 @@ create_country_leader = {
 	picture = "Portrait_Afghan_Mohammed_Zahir_Shah.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {

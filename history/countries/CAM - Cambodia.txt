@@ -113,7 +113,7 @@ create_country_leader = {
 	picture = "Portrait_Cambodia_Norodom_Sihanouk.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {barking_buffoon puppet_of_india}
+	traits = {barking_buffoon former_royal}
 }
 
 create_country_leader = {
