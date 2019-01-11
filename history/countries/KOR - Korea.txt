@@ -104,7 +104,7 @@ create_country_leader = {
 	picture = "So_Man_Sul.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = { }
+	traits = {hog_local_tyrant}
 }
 
 create_country_leader = {
@@ -113,7 +113,7 @@ create_country_leader = {
 	picture = "Yoon_Se_ju.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = { }
+	traits = {hog_spiritual_leader}
 }
 
 create_country_leader = {
@@ -122,7 +122,7 @@ create_country_leader = {
 	picture = "Ho_Jong_Suk.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
-	traits = { }
+	traits = {for_biased_intellectual}
 }
 
 create_country_leader = {

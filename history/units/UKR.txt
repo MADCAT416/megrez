@@ -1,0 +1,373 @@
+﻿division_template = {
+	name = "코자크 친위대"
+	template_counter = 16
+
+	regiments = {
+		modern_sp_artillery_brigade = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		modern_armor = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "코자크 헌병대"
+	template_counter = 13
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "코자크 용기병대"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "코자크 검기병대"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "코자크 기마포병대"
+
+	regiments = {
+		modern_sp_artillery_brigade = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "코자크 기마척탄병대"
+
+	regiments = {
+		motorized_rocket_brigade = { x = 0 y = 0 }
+		motorized_rocket_brigade = { x = 0 y = 1 }
+		motorized_rocket_brigade = { x = 0 y = 2 }
+		motorized_rocket_brigade = { x = 1 y = 0 }
+		motorized_rocket_brigade = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "코자크 엽기병대"
+
+	regiments = {
+		heliborne = { x = 0 y = 0 }
+		heliborne = { x = 0 y = 1 }
+		heliborne = { x = 0 y = 2 }
+		heliborne = { x = 1 y = 0 }
+		heliborne = { x = 1 y = 1 }
+		heliborne = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "코자크 창기병대"
+
+	regiments = {
+		airborne = { x = 0 y = 0 }
+		airborne = { x = 0 y = 1 }
+		airborne = { x = 0 y = 2 }
+		airborne = { x = 1 y = 0 }
+		airborne = { x = 1 y = 1 }
+		airborne = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "코자크 해병대"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "제1코자크 친위대"
+		location = 525
+		division_template = "코자크 친위대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 친위대"
+		location = 11557
+		division_template = "코자크 친위대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 헌병대"
+		location = 11561
+		division_template = "코자크 헌병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 헌병대"
+		location = 11405
+		division_template = "코자크 헌병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 헌병대"
+		location = 489
+		division_template = "코자크 헌병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 용기병대"
+		location = 11229
+		division_template = "코자크 용기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 검기병대"
+		location = 315
+		division_template = "코자크 검기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 기마포병대"
+		location = 6589
+		division_template = "코자크 기마포병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 기마척탄병대"
+		location = 3542
+		division_template = "코자크 기마척탄병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+
+
+	division = {
+		name = "제2코자크 용기병대"
+		location = 559
+		division_template = "코자크 용기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 검기병대"
+		location = 9413
+		division_template = "코자크 검기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 기마포병대"
+		location = 9519
+		division_template = "코자크 기마포병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 기마척탄병대"
+		location = 6495
+		division_template = "코자크 기마척탄병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+
+
+	division = {
+		name = "제3코자크 용기병대"
+		location = 3531
+		division_template = "코자크 용기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 검기병대"
+		location = 6559
+		division_template = "코자크 검기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 기마포병대"
+		location = 3508
+		division_template = "코자크 기마포병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 기마척탄병대"
+		location = 11461
+		division_template = "코자크 기마척탄병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+
+	division = {
+		name = "제4코자크 용기병대"
+		location = 3479
+		division_template = "코자크 용기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4코자크 검기병대"
+		location = 6505
+		division_template = "코자크 검기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4코자크 기마포병대"
+		location = 502
+		division_template = "코자크 기마포병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제4코자크 기마척탄병대"
+		location = 3466
+		division_template = "코자크 기마척탄병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+	division = {
+		name = "제1코자크 해병대"
+		location = 11670
+		division_template = "코자크 해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 해병대"
+		location = 3686
+		division_template = "코자크 해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+}

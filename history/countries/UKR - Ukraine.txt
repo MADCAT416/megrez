@@ -1,7 +1,7 @@
 ﻿capital = 202
 set_convoys = 30
 set_stability = 0.5
-oob = "empty"
+oob = "UKR"
 
 set_technology = {
 infantry_weapons_1 = 1
@@ -126,7 +126,7 @@ create_country_leader = {
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {beloved_monarch}
+	traits = {hetman_forever}
 }
 
 create_country_leader = {
