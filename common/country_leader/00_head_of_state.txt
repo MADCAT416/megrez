@@ -179,9 +179,21 @@ leader_traits = {
 
 	comprador = {
 		random = no
-		local_resources_factor = -0.2
-		consumer_goods_factor = -0.1
-		stability_factor = -0.2
+		trade_opinion_factor = 0.2
+		local_resources_factor = -0.1
+		consumer_goods_factor = +0.1
+		stability_factor = -0.1
+		political_power_gain = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	union_chair = {
+		random = no
+		industrial_capacity_factory = 0.05
+		political_power_gain = 0.08
 
 		ai_will_do = {
 			factor = 1
