@@ -121,12 +121,12 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "바실 합스부르흐"
+	name = "바실 비시바니 합스부르흐"
 	desc = "Vasyl_I_DESC"
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
@@ -157,39 +157,39 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "바실 합스부르흐"
+	name = "바실 비시바니 합스부르흐"
 	desc = "Vasyl_I_DESC"
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
-	name = "바실 합스부르흐"
+	name = "바실 비시바니 합스부르흐"
 	desc = "Vasyl_I_DESC"
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
-	name = "바실 합스부르흐"
+	name = "바실 비시바니 합스부르흐"
 	desc = "Vasyl_I_DESC"
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
-	name = "바실 합스부르흐"
+	name = "바실 비시바니 합스부르흐"
 	desc = "Vasyl_I_DESC"
 	picture = "Portrait_Ukraine_Vasyl_I.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {beloved_monarch}
 }
 
 create_country_leader = {
@@ -198,7 +198,7 @@ create_country_leader = {
 	picture = "Portrait_Ukraine_Danylo.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {comprador}
 }
 
 create_country_leader = {
