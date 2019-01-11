@@ -201,7 +201,6 @@ leader_traits = {
 		mechanized_attack_factor = 0.1
 		political_power_gain = 0.05
 		stability_factor = 0.1
-		}
 		
 		ai_will_do = {
 			factor = 1
