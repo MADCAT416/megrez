@@ -8,6 +8,7 @@ state = { # Xiamen
 		owner = SQI
 		
 		add_core_of = SQI
+add_core_of = AOG
 		
 		
 		victory_points = {

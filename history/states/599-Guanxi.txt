@@ -13,6 +13,7 @@ state = { #Guilin
 		owner = SQI
 		
 		add_core_of = SQI
+add_core_of = AOG
 		
 		
 		buildings = {
