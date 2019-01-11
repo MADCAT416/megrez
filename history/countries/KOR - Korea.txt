@@ -159,7 +159,7 @@ create_country_leader = {
 	picture = "Lee_Chul_Seung.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = { }
+	traits = {hoodlum}
 }
 
 create_country_leader = {
