@@ -138,7 +138,7 @@ create_country_leader = {
 	picture = "Portrait_Japan_Centcom.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {union_chair}
 }
 
 create_country_leader = {

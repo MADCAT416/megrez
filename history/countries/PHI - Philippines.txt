@@ -187,7 +187,7 @@ create_country_leader = {
 	picture = "Portrait_Philippines_Ferdinand_Marcos.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {eco_corrupt_kleptocrat}
 }
 
 create_country_leader = {

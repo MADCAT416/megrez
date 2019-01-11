@@ -134,7 +134,7 @@ create_country_leader = {
 	picture = "Portrait_INC_Vo_Nguyen_Giap.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {hochiminh_lover}
+	traits = {hochiminh_lover hog_respected_war_hero}
 }
 
 create_country_leader = {
