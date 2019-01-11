@@ -202,14 +202,6 @@ units = {
 
 	division = {
 		name = "제1코자크 헌병대"
-		location = 504
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2코자크 헌병대"
 		location = 11438
 		division_template = "코자크 헌병대"
 		start_experience_factor = 0.3
@@ -217,7 +209,7 @@ units = {
 	}
 
 	division = {
-		name = "제3코자크 헌병대"
+		name = "제2코자크 헌병대"
 		location = 11561
 		division_template = "코자크 헌병대"
 		start_experience_factor = 0.3
@@ -225,15 +217,7 @@ units = {
 	}
 
 	division = {
-		name = "제4코자크 헌병대"
-		location = 11546
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제5코자크 헌병대"
+		name = "제3코자크 헌병대"
 		location = 11514
 		division_template = "코자크 헌병대"
 		start_experience_factor = 0.3
@@ -241,7 +225,7 @@ units = {
 	}
 
 	division = {
-		name = "제6코자크 헌병대"
+		name = "제4코자크 헌병대"
 		location = 6480
 		division_template = "코자크 헌병대"
 		start_experience_factor = 0.3
@@ -249,65 +233,8 @@ units = {
 	}
 
 	division = {
-		name = "제7코자크 헌병대"
-		location = 458
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제8코자크 헌병대"
-		location = 11546
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제9코자크 헌병대"
-		location = 9698
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제10코자크 헌병대"
-		location = 9423
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제11코자크 헌병대"
-		location = 462
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제12코자크 헌병대"
+		name = "제5코자크 헌병대"
 		location = 572
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제13코자크 헌병대"
-		location = 3392
-		division_template = "코자크 헌병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-
-	division = {
-		name = "제14코자크 헌병대"
-		location = 6724
 		division_template = "코자크 헌병대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -469,104 +396,6 @@ units = {
 	division = {
 		name = "제5코자크 기마척탄병대"
 		location = 3466
-		division_template = "코자크 기마척탄병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6코자크 용기병대"
-		location = 11489
-		division_template = "코자크 용기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6코자크 검기병대"
-		location = 11425
-		division_template = "코자크 검기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6코자크 기마포병대"
-		location = 9437
-		division_template = "코자크 기마포병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6코자크 기마척탄병대"
-		location = 6458
-		division_template = "코자크 기마척탄병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-
-	division = {
-		name = "제7코자크 용기병대"
-		location = 559
-		division_template = "코자크 용기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제7코자크 검기병대"
-		location = 9413
-		division_template = "코자크 검기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제7코자크 기마포병대"
-		location = 9519
-		division_template = "코자크 기마포병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제7코자크 기마척탄병대"
-		location = 6495
-		division_template = "코자크 기마척탄병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-
-	division = {
-		name = "제8코자크 용기병대"
-		location = 9479
-		division_template = "코자크 용기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제8코자크 검기병대"
-		location = 11452
-		division_template = "코자크 검기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제8코자크 기마포병대"
-		location = 9463
-		division_template = "코자크 기마포병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제8코자크 기마척탄병대"
-		location = 453
 		division_template = "코자크 기마척탄병대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
