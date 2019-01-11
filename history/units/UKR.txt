@@ -193,6 +193,14 @@ units = {
 	}
 
 	division = {
+		name = "제3코자크 친위대"
+		location = 489
+		division_template = "코자크 친위대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제1코자크 헌병대"
 		location = 504
 		division_template = "코자크 헌병대"
