@@ -28,6 +28,7 @@ mechanised_infantry_1 = 1
 artillery_1 = 1
 motorized_rocket_1 = 1
 infantry_at_1 = 1
+spa_1 = 1
 
 frigate_1 = 1
 frigate_2 = 1
