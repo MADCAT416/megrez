@@ -75,9 +75,10 @@ leader_traits = {
 
 	spirit_of_genghis = {
 		random = no
-		cavalry_attack_factor = 0.05
-		armor_attack_factor = 0.05
-		mechanized_attack_factor = 0.05
+		cavalry_attack_factor = 0.1
+		army_armor_attack_factor = 0.1
+		motorized_attack_factor = 0.1
+		mechanized_attack_factor = 0.1
 		equipment_bonus = {
 			nav_bomber_equipment = {
 				air_range = 0.1 naval_strike_attack = 0.1
@@ -195,7 +196,8 @@ leader_traits = {
 	hetman_forever = {
 		random = no
 		cavalry_attack_factor = 0.1
-		armor_attack_factor = 0.1
+		army_armor_attack_factor = 0.1
+		motorized_attack_factor = 0.1
 		mechanized_attack_factor = 0.1
 		political_power_gain = 0.05
 		stability_factor = 0.1
