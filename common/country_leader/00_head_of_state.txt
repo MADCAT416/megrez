@@ -183,7 +183,18 @@ leader_traits = {
 		local_resources_factor = -0.1
 		consumer_goods_factor = +0.1
 		stability_factor = -0.1
+		political_power_gain = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	treacherous = {
+		random = no
 		political_power_gain = -0.05
+		encryption = 1
+		decryption = 1
 
 		ai_will_do = {
 			factor = 1

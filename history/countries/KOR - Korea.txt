@@ -131,7 +131,7 @@ create_country_leader = {
 	picture = "Kim_Jong_Pil.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = { }
+	traits = {treacherous}
 }
 
 create_country_leader = {
@@ -149,7 +149,7 @@ create_country_leader = {
 	picture = "Kim_Young_Sam.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = { }
+	traits = {hog_flamboyant_tough_guy}
 }
 
 create_country_leader = {
