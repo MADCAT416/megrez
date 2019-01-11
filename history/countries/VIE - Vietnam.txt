@@ -116,7 +116,7 @@ create_country_leader = {
 	picture = "Portrait_INC_Le_Duan.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {puppet_of_india}
 }
 
 create_country_leader = {
@@ -125,7 +125,7 @@ create_country_leader = {
 	picture = "Portrait_INC_Vo_Nguyen_Giap.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {hochiminh_lover}
 }
 
 create_country_leader = {
@@ -188,7 +188,7 @@ create_country_leader = {
 	picture = "Portrait_INC_Bao_Dai.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {

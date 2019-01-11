@@ -119,7 +119,7 @@ create_country_leader = {
 	picture = "Portrait_Burma_Thakin_Soe.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {puppet_of_india}
 }
 
 create_country_leader = {
