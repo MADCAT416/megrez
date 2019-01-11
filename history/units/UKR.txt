@@ -653,5 +653,62 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
+	division = {
+		name = "제3코자크 해병대"
+		location = 3755
+		division_template = "코자크 해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+	division = {
+		name = "제1코자크 엽기병대"
+		location = 3543
+		division_template = "코자크 엽기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1코자크 창기병대"
+		location = 3543
+		division_template = "코자크 창기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+
+	division = {
+		name = "제2코자크 엽기병대"
+		location = 11397
+		division_template = "코자크 엽기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2코자크 창기병대"
+		location = 11397
+		division_template = "코자크 창기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 엽기병대"
+		location = 429
+		division_template = "코자크 엽기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제3코자크 창기병대"
+		location = 429
+		division_template = "코자크 창기병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
 
 }
