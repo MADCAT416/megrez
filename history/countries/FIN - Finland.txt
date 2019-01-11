@@ -18,9 +18,12 @@ light_tank_1 = 1
 light_tank_2 = 1
 mechanised_infantry_1 = 1
 artillery_1 = 1
+modern_tank_artillery_equipment = 1
 modern_tank_artillery_equipment_1 = 1
 motorized_rocket_1 = 1
+manpads_equipment = 1
 manpads_equipment_1 = 1
+anti_tank_rocket_equipment = 1
 anti_tank_rocket_equipment_1 = 1
 infantry_at_1 = 1
 
