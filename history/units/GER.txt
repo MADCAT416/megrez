@@ -173,9 +173,9 @@ division_template = {
 		motorized_rocket_brigade = { x = 1 y = 0 }
 		motorized_rocket_brigade = { x = 1 y = 1 }
 		motorized_rocket_brigade = { x = 1 y = 2 }
-		modern_sp_artillery_brigade = { x = 1 y = 0 }
-		modern_sp_artillery_brigade = { x = 1 y = 1 }
-		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
