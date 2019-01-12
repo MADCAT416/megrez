@@ -135,6 +135,14 @@ units = {
 	}
 
 	division = {
+		name = "제2기계화보병사단"
+		location = 161
+		division_template = "기계화보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "제1기갑사단"
 		location = 11078
 		division_template = "기갑사단"
