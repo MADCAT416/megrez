@@ -135,7 +135,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
@@ -144,7 +144,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
@@ -153,7 +153,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
@@ -162,7 +162,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
@@ -171,7 +171,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
@@ -180,7 +180,7 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Frederick_IX.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {sec_compassionate_gentleman}
 }
 
 create_country_leader = {
