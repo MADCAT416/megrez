@@ -132,7 +132,7 @@ create_country_leader = {
 	picture = "Kim_Jong_Pil.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
-	traits = {treacherous}
+	traits = {treacherous political_dancer}
 }
 
 create_country_leader = {

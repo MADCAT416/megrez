@@ -205,6 +205,19 @@ leader_traits = {
 		random = no
 		political_power_gain = 0.05
 		stability_factor = 0.1
+		social_conservative_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	business_monarch = {
+		trade_opinion_factor = 0.1
+		political_power_gain = -0.1
+		production_speed_industrial_complex_factor = 0.1
+		market_liberal_drift = 0.1
+		social_liberal_drift = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -340,6 +353,20 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+
+	self-protecting-isolationist = {
+		random = no
+
+		stability_factor = 0.15
+		consumer_goods_factor = -0.25
+		ai_focus_peaceful_factor = 0.50
+		ai_get_ally_desire_factor = -75
+
+		ai_will_do = {
+			factor = 1
+		}
+
 	}
 
 	shindon = {
