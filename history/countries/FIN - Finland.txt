@@ -125,7 +125,7 @@ create_country_leader = {
 	picture = "Portrait_Finland_Hertta_Kuusinen.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {hog_totalist_chairman}
 }
 
 
