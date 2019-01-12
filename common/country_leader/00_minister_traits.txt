@@ -1,4 +1,4 @@
-leader_traits = {
+﻿leader_traits = {
 
 	undistinguished_suit = {
 		random = yes
@@ -272,6 +272,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.15
 		industrial_capacity_factory = 0.05
 		local_resources_factor = 0.05
+		totalist_drift = 0.1
 
 		random = no
 	}
