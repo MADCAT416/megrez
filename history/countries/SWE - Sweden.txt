@@ -1,5 +1,5 @@
 ﻿capital = 141
-oob = "empty"
+oob = "SWE"
 
 add_ideas = {
 #medium_economy

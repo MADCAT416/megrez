@@ -215,7 +215,7 @@ leader_traits = {
 		random = no
 
 		paternal_autocrat_drift = 0.1
-		authoritarian_democrat = 0.05
+		authoritarian_democrat_drift = 0.05
 		social_liberal_drift = -0.1
 		social_progressive_drift = -0.1
 		national_populist_drift = -0.1
@@ -283,6 +283,8 @@ leader_traits = {
 		consumer_goods_factor = -0.1
 		ai_focus_peaceful_factor = 0.5
 		drift_defence_factor = 0.5
+		social_liberal_drift = 0.1
+		democratic_acceptance = 75
 		
 		ai_will_do = {
 			factor = 1

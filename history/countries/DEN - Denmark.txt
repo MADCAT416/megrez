@@ -1,5 +1,6 @@
 ﻿capital = 37
-oob = "empty"
+oob = "DEN"
+
 set_research_slots = 3
 set_technology = {
 infantry_weapons_1 = 1

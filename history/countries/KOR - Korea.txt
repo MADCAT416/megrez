@@ -114,7 +114,7 @@ create_country_leader = {
 	picture = "Yoon_Se_ju.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {hog_spiritual_leader}
+	traits = {hog_spiritual_leader hog_respected_war_hero}
 }
 
 create_country_leader = {
@@ -244,3 +244,9 @@ create_corps_commander = { #Auto-Generated
 }
 
 ### Navy Leader
+
+
+add_opinion_modifier = {
+	target = JAP
+	modifier = NEMESIS
+		}

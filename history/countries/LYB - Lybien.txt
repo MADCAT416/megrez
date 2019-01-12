@@ -121,7 +121,7 @@ create_country_leader = {
 	picture = "Portrait_Libya_Muammar_Gaddafi.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {barking_buffoon}
 }
 
 create_country_leader = {
