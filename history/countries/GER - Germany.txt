@@ -170,6 +170,10 @@ set_autonomy = {
 	target = GEA
 	autonomous_state = kr_autonomous_puppet
 }
+set_autonomy = {
+	target = AOG
+	autonomous_state = kr_autonomous_puppet
+}
 
 # Resetting all puppet political setups which come earlier in the load order
 
