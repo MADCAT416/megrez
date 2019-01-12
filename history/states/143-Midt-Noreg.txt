@@ -11,6 +11,7 @@ state = {
 			infrastructure = 4
 			arms_factory = 0
 			industrial_complex = 0
+			radar_station = 1
 		}
 		add_core_of = NOR
 	}

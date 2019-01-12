@@ -3,7 +3,7 @@ state = {
 	name = "STATE_138"
 	manpower = 1047701
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = SWE
@@ -17,6 +17,7 @@ state = {
 			infrastructure = 5
 			industrial_complex = 3
 			dockyard = 1
+			synthetic_refinery = 1
 			11215 = {
 				naval_base = 5
 				coastal_bunker = 3
