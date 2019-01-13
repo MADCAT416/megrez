@@ -61,7 +61,7 @@
 		}
 	}
 	surnames = {
-		"Anthoine"
+		"앙투안"
 		"Baraguey d'Hilliers"
 		"Bazaine"
 		"Billot"
@@ -290,7 +290,7 @@ USA = {
 		"백스터"
 		"비티"
 		"Belknap"
-		"Benton"
+		"벤턴"
 		"블레어"
 		"블런트"
 		"브래들리"
@@ -307,7 +307,7 @@ USA = {
 		"클레이턴"
 		"Coburn"
 		"코너"
-		"Conrad"
+		"콘래드"
 		"쿡"
 		"쿠퍼"
 		"Crittenden"
@@ -338,20 +338,20 @@ USA = {
 		"잭슨"
 		"존슨"
 		"존스"
-		"Keyes"
-		"Kimball"
+		"키스"
+		"킴볼"
 		"Lyon"
 		"맥아더"
 		"매클렐런"
 		"McCook"
 		"McDowell"
-		"Meade"
+		"미드"
 		"미첼"
 		"모건"
 		"페인"
 		"펠프스"
-		"Porter"
-		"Potter"
+		"포터"
+		"포터"
 		"레이놀즈"
 		"라이스"
 		"로즈"
@@ -359,8 +359,8 @@ USA = {
 		"Rosencrans"
 		"Saloman"
 		"Schenck"
-		"Schofield"
-		"Scott"
+		"스코필드"
+		"스콧"
 		"Sedgwick"
 		"Seward"
 		"셰리든"
@@ -386,7 +386,7 @@ USA = {
 		"보러가드"
 		"스튜어트"
 		"롱스트리트"
-		"Forrest"
+		"포레스트"
 		"Pickett"
 		"모스비"
 		"Cleburne"
@@ -429,9 +429,9 @@ USA = {
 		"Heth"
 		"Pender"
 		"Trimble"
-		"Kershaw"
+		"커쇼"
 		"Wofford"
-		"Kemper"
+		"켐퍼"
 		"로"
 		"로버트슨"
 		"베닝"
@@ -669,7 +669,7 @@ CSA = {
 		"백스터"
 		"비티"
 		"Belknap"
-		"Benton"
+		"벤턴"
 		"블레어"
 		"블런트"
 		"브래들리"
@@ -686,7 +686,7 @@ CSA = {
 		"클레이턴"
 		"Coburn"
 		"코너"
-		"Conrad"
+		"콘래드"
 		"쿡"
 		"쿠퍼"
 		"Crittenden"
@@ -717,20 +717,20 @@ CSA = {
 		"잭슨"
 		"존슨"
 		"존스"
-		"Keyes"
-		"Kimball"
+		"키스"
+		"킴볼"
 		"Lyon"
 		"맥아더"
 		"매클렐런"
 		"McCook"
 		"McDowell"
-		"Meade"
+		"미드"
 		"미첼"
 		"모건"
 		"페인"
 		"펠프스"
-		"Porter"
-		"Potter"
+		"포터"
+		"포터"
 		"레이놀즈"
 		"라이스"
 		"로즈"
@@ -738,8 +738,8 @@ CSA = {
 		"Rosencrans"
 		"Saloman"
 		"Schenck"
-		"Schofield"
-		"Scott"
+		"스코필드"
+		"스콧"
 		"Sedgwick"
 		"Seward"
 		"셰리든"
@@ -765,7 +765,7 @@ CSA = {
 		"보러가드"
 		"스튜어트"
 		"롱스트리트"
-		"Forrest"
+		"포레스트"
 		"Pickett"
 		"모스비"
 		"Cleburne"
@@ -808,9 +808,9 @@ CSA = {
 		"Heth"
 		"Pender"
 		"Trimble"
-		"Kershaw"
+		"커쇼"
 		"Wofford"
-		"Kemper"
+		"켐퍼"
 		"로"
 		"로버트슨"
 		"베닝"
@@ -1049,7 +1049,7 @@ TEX = {
 		"백스터"
 		"비티"
 		"Belknap"
-		"Benton"
+		"벤턴"
 		"블레어"
 		"블런트"
 		"브래들리"
@@ -1066,7 +1066,7 @@ TEX = {
 		"클레이턴"
 		"Coburn"
 		"코너"
-		"Conrad"
+		"콘래드"
 		"쿡"
 		"쿠퍼"
 		"Crittenden"
@@ -1097,20 +1097,20 @@ TEX = {
 		"잭슨"
 		"존슨"
 		"존스"
-		"Keyes"
-		"Kimball"
+		"키스"
+		"킴볼"
 		"Lyon"
 		"맥아더"
 		"매클렐런"
 		"McCook"
 		"McDowell"
-		"Meade"
+		"미드"
 		"미첼"
 		"모건"
 		"페인"
 		"펠프스"
-		"Porter"
-		"Potter"
+		"포터"
+		"포터"
 		"레이놀즈"
 		"라이스"
 		"로즈"
@@ -1118,8 +1118,8 @@ TEX = {
 		"Rosencrans"
 		"Saloman"
 		"Schenck"
-		"Schofield"
-		"Scott"
+		"스코필드"
+		"스콧"
 		"Sedgwick"
 		"Seward"
 		"셰리든"
@@ -1145,7 +1145,7 @@ TEX = {
 		"보러가드"
 		"스튜어트"
 		"롱스트리트"
-		"Forrest"
+		"포레스트"
 		"Pickett"
 		"모스비"
 		"Cleburne"
@@ -1188,9 +1188,9 @@ TEX = {
 		"Heth"
 		"Pender"
 		"Trimble"
-		"Kershaw"
+		"커쇼"
 		"Wofford"
-		"Kemper"
+		"켐퍼"
 		"로"
 		"로버트슨"
 		"베닝"
@@ -1429,7 +1429,7 @@ CAL = {
 		"백스터"
 		"비티"
 		"Belknap"
-		"Benton"
+		"벤턴"
 		"블레어"
 		"블런트"
 		"브래들리"
@@ -1446,7 +1446,7 @@ CAL = {
 		"클레이턴"
 		"Coburn"
 		"코너"
-		"Conrad"
+		"콘래드"
 		"쿡"
 		"쿠퍼"
 		"Crittenden"
@@ -1477,20 +1477,20 @@ CAL = {
 		"잭슨"
 		"존슨"
 		"존스"
-		"Keyes"
-		"Kimball"
+		"키스"
+		"킴볼"
 		"Lyon"
 		"맥아더"
 		"매클렐런"
 		"McCook"
 		"McDowell"
-		"Meade"
+		"미드"
 		"미첼"
 		"모건"
 		"페인"
 		"펠프스"
-		"Porter"
-		"Potter"
+		"포터"
+		"포터"
 		"레이놀즈"
 		"라이스"
 		"로즈"
@@ -1498,8 +1498,8 @@ CAL = {
 		"Rosencrans"
 		"Saloman"
 		"Schenck"
-		"Schofield"
-		"Scott"
+		"스코필드"
+		"스콧"
 		"Sedgwick"
 		"Seward"
 		"셰리든"
@@ -1525,7 +1525,7 @@ CAL = {
 		"보러가드"
 		"스튜어트"
 		"롱스트리트"
-		"Forrest"
+		"포레스트"
 		"Pickett"
 		"모스비"
 		"Cleburne"
@@ -1568,9 +1568,9 @@ CAL = {
 		"Heth"
 		"Pender"
 		"Trimble"
-		"Kershaw"
+		"커쇼"
 		"Wofford"
-		"Kemper"
+		"켐퍼"
 		"로"
 		"로버트슨"
 		"베닝"
@@ -1808,7 +1808,7 @@ NEE = {
 		"백스터"
 		"비티"
 		"Belknap"
-		"Benton"
+		"벤턴"
 		"블레어"
 		"블런트"
 		"브래들리"
@@ -1825,7 +1825,7 @@ NEE = {
 		"클레이턴"
 		"Coburn"
 		"코너"
-		"Conrad"
+		"콘래드"
 		"쿡"
 		"쿠퍼"
 		"Crittenden"
@@ -1856,20 +1856,20 @@ NEE = {
 		"잭슨"
 		"존슨"
 		"존스"
-		"Keyes"
-		"Kimball"
+		"키스"
+		"킴볼"
 		"Lyon"
 		"맥아더"
 		"매클렐런"
 		"McCook"
 		"McDowell"
-		"Meade"
+		"미드"
 		"미첼"
 		"모건"
 		"페인"
 		"펠프스"
-		"Porter"
-		"Potter"
+		"포터"
+		"포터"
 		"레이놀즈"
 		"라이스"
 		"로즈"
@@ -1877,8 +1877,8 @@ NEE = {
 		"Rosencrans"
 		"Saloman"
 		"Schenck"
-		"Schofield"
-		"Scott"
+		"스코필드"
+		"스콧"
 		"Sedgwick"
 		"Seward"
 		"셰리든"
@@ -1904,7 +1904,7 @@ NEE = {
 		"보러가드"
 		"스튜어트"
 		"롱스트리트"
-		"Forrest"
+		"포레스트"
 		"Pickett"
 		"모스비"
 		"Cleburne"
@@ -1947,9 +1947,9 @@ NEE = {
 		"Heth"
 		"Pender"
 		"Trimble"
-		"Kershaw"
+		"커쇼"
 		"Wofford"
-		"Kemper"
+		"켐퍼"
 		"로"
 		"로버트슨"
 		"베닝"
@@ -2238,7 +2238,7 @@ MEX = {
 COS = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2294,7 +2294,7 @@ COS = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2351,7 +2351,7 @@ COS = {
 ELS = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2407,7 +2407,7 @@ ELS = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2464,7 +2464,7 @@ ELS = {
 GUA = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2520,7 +2520,7 @@ GUA = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2577,7 +2577,7 @@ GUA = {
 HON = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2633,7 +2633,7 @@ HON = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2691,7 +2691,7 @@ HON = {
 NIC = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2747,7 +2747,7 @@ NIC = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2804,7 +2804,7 @@ NIC = {
 PAN = {
 	male = {
 		names = {
-			"Alejandro"
+			"알레한드로"
 			"안드레스"
 			"Aniceto"
 			"Arturo"
@@ -2860,7 +2860,7 @@ PAN = {
 		names = {}
 	}
 	surnames = {
-		"Aguilar"
+		"아길라르"
 		"Andino"
 		"Araujo"
 		"Arbenz"
@@ -2918,7 +2918,7 @@ CUB = {
 	male = {
 		names = {
 			"Alberto"
-			"Alejandro"
+			"알레한드로"
 			"Alfredo"
 			"Ambrosio"
 			"Anselmo"
@@ -3032,7 +3032,7 @@ DOM = {
 	male = {
 		names = {
 			"Alberto"
-			"Alejandro"
+			"알레한드로"
 			"Alfredo"
 			"Ambrosio"
 			"Anselmo"
@@ -3887,8 +3887,8 @@ SPO = {
 		Carla
 		Josefina
 		Sinha
-		
-		
+
+
 		}
 	}
 	surnames = {
@@ -3953,7 +3953,7 @@ SPO = {
 	"Italiano"
 	"Nipones"
 	"Gaivota Brava"
-	
+
 	}
 }
 
@@ -5347,7 +5347,7 @@ VEN = {
 	}
 	female = {
 		names = {
-		
+
 		}
 	}
 	surnames = {
@@ -5422,7 +5422,7 @@ VEN = {
 QCH = {
 	male = {
 		names = {
-        "Agustín" 
+        "Agustín"
 		"알레한드로"
 		"Antauro"
 		"안토니오"
@@ -5437,7 +5437,7 @@ QCH = {
 		"Hilario"
 		"Inca"
 		"Isaac"
-		"호세 María" 
+		"호세 María"
 		"훌리오"
 		"Lorenzo"
 		"Manuel"
@@ -5459,7 +5459,7 @@ QCH = {
 		names = {
 		"마리아"
 		"Luisita"
-		"Isabella"	
+		"Isabella"
 		}
 	}
 	surnames = {
@@ -5478,16 +5478,16 @@ QCH = {
 	"구티에레스"
 	"Heredia"
 	"Humala"
-	"Iturri" 
+	"Iturri"
 	"Lazarte"
-	"Ludueña" 
+	"Ludueña"
 	"Melgarejo"
 	"Palacios"
 	"Patiño"
 	"Quispe"
 	"로드리게스"
-	"Roncaglia" 
-	"산타 크루스" 
+	"Roncaglia"
+	"산타 크루스"
 	"Sosa"
 	"Sumac"
 	"Toledo"
@@ -5495,7 +5495,7 @@ QCH = {
 	"사파타"
 	"Amaru"
 	"de Cuzco"
-	
+
 	}
 	callsigns = {
 	"Inti"
