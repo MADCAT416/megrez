@@ -54,24 +54,17 @@ construction1 = 1
 excavation1 = 1
 synth_oil_experiments = 1
 }
+
 set_stability = 0.5
 set_war_support = 0.4
 set_research_slots = 2
 
+add_opinion_modifier = { target = SQI modifier = nemesis }
+add_opinion_modifier = { target = JAP modifier = nemesis }
+
 add_ideas = {
-	
-	kor_hate_japs
-	korean_turanism
-}
-
-add_opinion_modifier = { #반일
-	target = JAP
-	modifier = NEMESIS
-}
-
-add_opinion_modifier = { #환독
-	target = SQI
-	modifier = NEMESIS
+kor_hate_japs
+korean_turanism
 }
 
 set_politics = {
