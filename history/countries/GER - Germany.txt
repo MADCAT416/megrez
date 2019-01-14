@@ -3,9 +3,8 @@
 oob = "GER"
 
 add_ideas = {
-	GER_victors_of_wwi
-	ZO_idea
-	GER_imperial_pride
+	GER_heilige_liga
+
 	PROFF_LEG_CITIES
 
 	limited_conscription

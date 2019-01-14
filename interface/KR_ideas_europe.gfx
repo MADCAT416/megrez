@@ -680,4 +680,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/YUG/Ideas/Prince_Paul.dds"
 	}
 
+### added by Megrez ###
+
+	### GER ###
+	
+	spriteType = {
+		name = "GFX_idea_GER_heilige_liga"
+		texturefile = "gfx/interface/ideas/ideas/ME_Idea.tga"
+	}
+
 }
