@@ -9,6 +9,7 @@ state = { # Fuzhou
 		owner = SQI
 		
 		add_core_of = SQI
+		add_core_of = QIE
 		add_core_of = LEC
 		add_core_of = CHI
 		buildings = {

@@ -6,6 +6,7 @@ state = { #Ningxia
 		owner = MON
 		add_core_of = MON
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		
 		buildings = {

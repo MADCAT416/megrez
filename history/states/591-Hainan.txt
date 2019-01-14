@@ -13,6 +13,7 @@ state = { #Qiongya
 		add_core_of = GEA
 		
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		buildings = {
 			infrastructure = 2

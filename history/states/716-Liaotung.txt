@@ -14,6 +14,7 @@ state = {
 		add_core_of = MAN
 		
 		add_core_of = SQI
+		add_core_of = QIE
 
 		buildings = {
 			infrastructure = 5
