@@ -57,6 +57,13 @@ synth_oil_experiments = 1
 set_stability = 0.5
 set_war_support = 0.4
 set_research_slots = 2
+
+add_ideas = {
+	
+	korhatejaps
+}
+
+
 set_politics = {
 
 	parties = {
@@ -245,8 +252,3 @@ create_corps_commander = { #Auto-Generated
 
 ### Navy Leader
 
-
-add_opinion_modifier = {
-	target = JAP
-	modifier = NEMESIS
-		}

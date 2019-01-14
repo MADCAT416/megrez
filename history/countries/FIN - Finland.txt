@@ -117,6 +117,8 @@ add_ideas = {
 	FIN_Bruno_Salmiala_sec_pau
 	extensive_conscription
 	#ZO_idea
+	
+	sisu_spirit
 }
 
 create_country_leader = {

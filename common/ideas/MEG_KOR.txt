@@ -1,0 +1,34 @@
+ideas = {
+
+	country = {
+		korhatejaps = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = KOR_hate_japs
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				add_opinion_modifier = {
+				target = JAP
+				modifier = NEMESIS
+				}
+			
+			}
+			rule = {
+				
+			}
+		}
+
+
+
+	}
+	
+}
