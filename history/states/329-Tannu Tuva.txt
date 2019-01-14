@@ -23,6 +23,7 @@ state = {
 		add_core_of = RUS
 		add_core_of = MON
 		add_claim_by = SQI
+		add_core_of = QIE
 
 	}
 

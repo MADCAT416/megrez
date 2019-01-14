@@ -10,6 +10,7 @@ state = {
 		add_core_of = MAN
 		add_claim_by = KOR
 		add_core_of = SQI
+		add_core_of = QIE
 		
 		buildings = {
 			infrastructure = 4

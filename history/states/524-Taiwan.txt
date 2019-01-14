@@ -8,6 +8,7 @@ state = {
 		owner = TAI
 		
 		add_core_of = SQI
+		add_core_of = QIE
 		add_core_of = TAI
 		buildings = {
 			infrastructure = 5
