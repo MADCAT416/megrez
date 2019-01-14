@@ -61,8 +61,8 @@ set_research_slots = 2
 add_ideas = {
 	
 	kor_hate_japs
+	korean_turanism
 }
-
 
 set_politics = {
 

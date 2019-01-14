@@ -330,5 +330,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/KOR_hate_japs.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_korean_turanism"
+		texturefile = "gfx/interface/ideas/ideas/MON_scourge_of_the_steppes.dds"
+	}
+	
 	
 }

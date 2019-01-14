@@ -4,7 +4,7 @@ ideas = {
 		kor_hate_japs = {
 			
 			allowed = {
-				always = yes
+				always = no
 			}
 
 			picture = KOR_hate_japs
@@ -18,20 +18,60 @@ ideas = {
 			modifier = { }
 			
 			on_add = {
-				add_opinion_modifier = {
-				target = JAP
-				modifier = NEMESIS
+				if = {
+				    limit = { has_country_flag = kor_hate_japs }
+					add_opinion_modifier = { 
+						target = JAP
+						modifier = NEMESIS
+					}
+					set_country_flag = kor_hate_japs
 				}
+			}
+				
+			rule = {
+				
+			}
+		}
+
+		korean_turanism = {
 			
+			allowed = {
+				always = no
+			}
+
+			picture = korean_turanism
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				national_populist_drift = 0.05
+				ai_strategy = {
+						type = antagonize
+						id = "MAN"	
+						value = 100
+					}
+			}
+			
+			on_add = {
+				if = {
+				    limit = { has_country_flag = korean_turanism }
+					add_opinion_modifier = { 
+						target = SQI
+						modifier = NEMESIS
+					}
+					
+					set_country_flag = korean_turanism
+				}
 			}
 			
 			rule = {
 				
 			}
 		}
-
-
-
 	}
 	
 }
