@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		korhatejaps = {
+		kor_hate_japs = {
 			
 			allowed = {
 				always = yes
@@ -15,13 +15,16 @@ ideas = {
 
 			removal_cost = -1
 			
-			modifier = {
+			modifier = { }
+			
+			on_add= {
 				add_opinion_modifier = {
 				target = JAP
 				modifier = NEMESIS
 				}
 			
 			}
+			
 			rule = {
 				
 			}

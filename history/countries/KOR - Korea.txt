@@ -60,7 +60,7 @@ set_research_slots = 2
 
 add_ideas = {
 	
-	korhatejaps
+	kor_hate_japs
 }
 
 

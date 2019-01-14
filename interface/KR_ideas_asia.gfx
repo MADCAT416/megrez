@@ -326,7 +326,7 @@ spriteTypes = {
 	
 	### KOR ###
 	spriteType = {
-		name = "KOR_hate_japs"
+		name = "GFX_KOR_hate_japs"
 		texturefile = "gfx/interface/ideas/ideas/KOR_hate_japs.dds"
 	}
 	
