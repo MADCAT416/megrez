@@ -64,6 +64,16 @@ add_ideas = {
 	korean_turanism
 }
 
+	add_opinion_modifier = { #반일
+		target = JAP
+		modifier = NEMESIS
+	}
+
+	add_opinion_modifier = { #환독
+		target = SQI
+		modifier = NEMESIS
+	}
+
 set_politics = {
 
 	parties = {

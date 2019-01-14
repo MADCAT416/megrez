@@ -72,6 +72,8 @@ add_ideas = {
 	free_trade
 	limited_conscription
 	PROFF_LEG_CITIES
+	
+	JAP_unfinished_restoration
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }

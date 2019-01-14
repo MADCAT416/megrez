@@ -324,6 +324,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/INC_female_vetcong.tga"
 	}
 	
+	### added by Megrez ###
+	
+	### JAP ###
+	spriteType = {
+		name = "GFX_idea_JAP_unfinished_restoration"
+		texturefile = "gfx/interface/ideas/ideas/JAP_toseiha.dds"
+	}
+	
 	### KOR ###
 	spriteType = {
 		name = "GFX_idea_KOR_hate_japs"

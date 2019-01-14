@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+		JAP_unfinished_restoration = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = JAP_unfinished_restoration
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = 0.1
+			
+			}
+			rule = {
+				
+			}
+		}
+
+
+
+	}
+
+}

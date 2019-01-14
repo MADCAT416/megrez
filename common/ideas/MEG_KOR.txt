@@ -18,14 +18,7 @@ ideas = {
 			modifier = { }
 			
 			on_add = {
-				if = {
-				    limit = { has_country_flag = kor_hate_japs }
-					add_opinion_modifier = { 
-						target = JAP
-						modifier = NEMESIS
-					}
-					set_country_flag = kor_hate_japs
-				}
+			
 			}
 				
 			rule = {
@@ -57,15 +50,7 @@ ideas = {
 			}
 			
 			on_add = {
-				if = {
-				    limit = { has_country_flag = korean_turanism }
-					add_opinion_modifier = { 
-						target = SQI
-						modifier = NEMESIS
-					}
-					
-					set_country_flag = korean_turanism
-				}
+			
 			}
 			
 			rule = {
