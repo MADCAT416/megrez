@@ -11,14 +11,14 @@
 ################
 
 ### wtt_decisions_l_english
-improved_worker_conditions:0 "노동 환경 개선"
+improved_worker_conditions:0 "노동환경 개선"
 improved_worker_conditions_desc:0 "공장 일은 고되고 위험천만합니다. 우리의 공장 노동자들이 일하는 환경을 개선한다면 단기적으로는 생산량이 줄겠지만, 장기적으로는 충분한 가치가 입증될 것입니다."
 
 ### deployment_l_english
 DIVISION_EQUIPMENT:0 "사단 장비"
 
 ### diplomacy_l_english
-claims_on_us:0 "저들이 우리의 영토를 요구함"
+claims_on_us:0 "저 놈들이 우리 영토를 요구함"
 
 ### goals_l_english
 take_state:0 "정복"
@@ -33,10 +33,10 @@ liberate_wargoal_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점�
 puppet_wargoal_focus:0 "괴뢰화 (중점)"
 puppet_wargoal_focus_desc:0 "괴뢰화 (중점)"
 puppet_wargoal_focus_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점수로 국가를 괴뢰화 할 수 있게 합니다."
-take_claimed_state:0 "주장한 지역 획득"
+take_claimed_state:0 "영유권 주장 지역 획득"
 take_claimed_state_desc:0 "$STATE|Y$(으)로부터 $TARGET|Y$(을)를 빼앗음"
 take_claimed_state_short_desc:0 "이 전쟁명분은 선택한 주를 평화 회담에서 저렴한 점수로 얻을 수 있게 합니다."
-take_core_state:0 "핵심 주 재탈환"
+take_core_state:0 "핵심주 탈환"
 take_core_state_desc:0 "$STATE|Y$(으)로부터 $TARGET|Y$(을)를 다시 빼앗음"
 take_core_state_short_desc:0 "이 전쟁명분은 선택한 주를 평화 회담에서 저렴한 점수로 얻을 수 있게 합니다."
 annex_everything:0 "합병"
@@ -50,18 +50,38 @@ topple_government_desc:0 "집권 정부를 전복시킵니다."
 topple_government_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점수로 정부를 전복시킬 수 있습니다."
 
 ### ideas_l_english
-military_staff:0 "군사참모"
-political_advisor:0 "정치고문"
-mobilization_laws:0 "징병법"
-trade_laws:0 "무역법"
-KR_trade_laws:0 "무역법"
-economy:0 "경제법"
-KR_economy:0 "경제법"
-EFFECT_CHANGE_LAW_KR_economy:0 "경제법을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
-EFFECT_CHANGE_LAW_KR_trade_laws:0 "무역법을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
-aircraft_manufacturer:0 "항공기 설계사"
-materiel_manufacturer:0 "군수품 설계사"
-industry_concern:0 "산업 관계자"
+minister:0 "각료진"
+head_of_state:0 "국가원수"
+head_of_government:0 "정부수반"
+foreign_minister:0 "외무장관"
+economy_minister:0 "경제장관"
+security_minister:0 "내무장관"
+head_of_intel:0 "정보총수"
+
+government:1 "행정정책"
+mobilization_laws:0 "동원정책"
+KR_mobilization_laws:0 "동원정책"
+trade_laws:0 "무역정책"
+KR_trade_laws:0 "무역정책"
+economy:0 "경제정책"
+KR_economy:0 "경제정책"
+EFFECT_CHANGE_LAW_KR_economy:0 "경제정책을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
+EFFECT_CHANGE_LAW_KR_trade_laws:0 "무역정책을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
+
+research_production:0 "연구개발"
+tank_manufacturer:0 "자동차업체"
+generic_artillery_company:0 "대포업체"
+generic_tank_company:0 "전차업체"
+air_naval_manufacturer:0 "중공업체"
+generic_fighter_company:0 "전투기업체"
+generic_naval_company:0 "조선업체"
+weapons_manufacturer:0 "무기업체"
+industrial_concern:0 "산업체"
+industrial_manufacturer:0 "산업체"
+chemical_producer:0 "화공업체"
+electronics_manufacturer:0 "전기전자업체"
+
+military_staff:0 "총참모부"
 chief_of_staff:0 "장군참모장"
 chief_of_army:0 "육군참모장"
 chief_of_navy:0 "해군참모장"
