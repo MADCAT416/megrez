@@ -43,11 +43,6 @@ ideas = {
 			modifier = {
 				national_populist_drift = 0.05
 				war_support_factor = 0.1
-				ai_strategy = {
-						type = antagonize
-						id = "MAN"	
-						value = 100
-					}
 			}
 			
 			on_add = {
