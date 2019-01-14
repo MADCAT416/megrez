@@ -61,6 +61,8 @@ add_ideas = {
 	LAO_Sasorith_Kataydon_for_sli
 	LAO_HRH_Souvanna_Rath_eco_ade
 	LAO_Phetsarath_Mahaouphatat_sec_ade
+	
+	LAO_buddhist_socialism
 }
 
 set_stability = 0.3
