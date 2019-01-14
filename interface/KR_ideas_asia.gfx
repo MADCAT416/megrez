@@ -343,5 +343,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/MON_scourge_of_the_steppes.dds"
 	}
 	
+	### LAO ###
+	spriteType = {
+		name = "GFX_idea_LAO_buddhist_socialism"
+		texturefile = "gfx/interface/ideas/ideas/SIA_buddhisttraditions_idea.dds"
+	}
+	
 	
 }

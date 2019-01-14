@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		JAP_unfinished_restoration = {
+		LAO_buddhist_socialism = {
 			
 			allowed = {
 				always = no
 			}
 
-			picture = JAP_unfinished_restoration
+			picture = LAO_buddhist_socialism
 
 			allowed_civil_war = {
 				always = yes
@@ -16,8 +16,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.1
-				political_power_gain = 0.1
+				stability_factor = 0.1
+				democratic_socialist_drift = 0.05
+				drift_defence_factor = 0.25
 			
 			}
 			rule = {
