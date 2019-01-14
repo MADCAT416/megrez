@@ -16,7 +16,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_weekly = -0.7
 				political_power_gain = 0.1
 			
 			}
