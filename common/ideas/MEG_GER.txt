@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+		GER_heilige_liga = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = GER_heilige_liga
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			rule = {
+				
+			}
+		}
+
+	}
+
+}
