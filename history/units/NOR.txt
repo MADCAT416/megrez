@@ -192,7 +192,7 @@ units = {
 
 	division = {
 		name = "제2포병사단"
-		location = 142
+		location = 11063
 		division_template = "포병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
