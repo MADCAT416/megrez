@@ -62,8 +62,6 @@ synth_oil_experiments = 1
 
 
 add_ideas = {
-	ALB_polarised_nation_idea
-	ALB_illiteracy
 	ALB_Ahmet_Zogu_hog_sco
 	ALB_Pandeli_Evangjeli_for_sco
 	ALB_Myfid_Libohova_eco_sco

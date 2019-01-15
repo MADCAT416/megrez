@@ -135,10 +135,6 @@ set_stability = 0.6
 set_war_support = 0.4
 
 add_ideas = {
-	#medium_economy
-	CAN_divided_nation
-	anglo_french_tensions
-	MINOR_PROFF_LEG_CITIES
 	## Starting Cabinet ##
 	CAN_Mackenzie_King_hog_mli
 	CAN_Lester_B_Pearson_for_mli

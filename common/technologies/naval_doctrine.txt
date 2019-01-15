@@ -5,9 +5,6 @@ technologies = {
 		#Bonus org for BB/BC/CA
 		
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 10			
-		}
 		battleship = {
 			max_organisation = 10			
 		}
@@ -64,10 +61,6 @@ technologies = {
 	
 	battlefleet_concentration = {
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 10
-			search_and_destroy_coordination = 0.5
-		}
 		battleship = {
 			max_organisation = 10
 			search_and_destroy_coordination = 0.5
@@ -210,9 +203,6 @@ technologies = {
 		#Large, powerful gun armed ships are clearly the best ships
 		
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 20
-		}
 		battleship = {
 			max_organisation = 20
 		}
@@ -297,9 +287,6 @@ technologies = {
 		#Top tech for the Battlefleet tree. 
 		
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 20
-		}
 		battleship = {
 			max_organisation = 20
 		}
@@ -1019,12 +1006,7 @@ technologies = {
 			convoy_raiding_coordination = 0.3
 			surface_detection = 0.25
 		}
-		SH_battleship = {
-			max_organisation = 10
-			surface_visibility = -0.25
-			convoy_raiding_coordination = 0.3
-			surface_detection = 0.25
-		}
+
 		#######
 
 		path = {
@@ -1073,12 +1055,7 @@ technologies = {
 			convoy_raiding_coordination = 0.6
 			surface_detection = 0.25
 		}
-		SH_battleship = {
-			max_organisation = 10
-			surface_visibility = -0.5
-			convoy_raiding_coordination = 0.6
-			surface_detection = 0.25
-		}
+
 		#######
 		
 		path = {
@@ -1115,10 +1092,7 @@ technologies = {
 
 		#same as battlefleet_concentration
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 10
-			search_and_destroy_coordination = 0.5
-		}
+
 		battleship = {
 			max_organisation = 10
 			search_and_destroy_coordination = 0.5
@@ -1166,9 +1140,7 @@ technologies = {
 
 		#same as floating_fortress
 		# EFFECT #############
-		SH_battleship = {
-			max_organisation = 20
-		}
+
 		battleship = {
 			max_organisation = 20
 		}
@@ -1699,9 +1671,6 @@ technologies = {
 		#same as floating_fortress
 		# EFFECT #############
 		battleship = {
-			max_organisation = 20
-		}
-		SH_battleship = {
 			max_organisation = 20
 		}
 		navy_capital_ship_defence_factor = 0.10

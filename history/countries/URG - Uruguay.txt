@@ -100,7 +100,6 @@ set_politics = {
 
 
 add_ideas = {
-	URG_neutrality_idea
 	URG_Gabriel_Terra_hog_sde
 	URG_Hector_Alberto_Gerona_Sapello_for_sli
 	URG_Leopoldo_Carlos_Artucio_eco_sli

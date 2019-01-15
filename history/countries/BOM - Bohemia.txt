@@ -70,7 +70,6 @@ add_ideas = {
 	BOM_Emil_Hacha_eco_mli
 	BOM_Jan_Sramek_sec_mli
 
-	AUS_part_of_the_Empire
 }
 
 set_politics = {

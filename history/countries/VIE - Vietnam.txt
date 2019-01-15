@@ -64,8 +64,6 @@ add_ideas = {
 	VIE_Tran_Van_Huu_for_sco
 	VIE_Nguyen_Van_Vinh_sec_mli
 	VIE_Ho_Dac_Trung_eco_sco
-	VIE_Ineffective_Army_idea
-	VIE_Rural_Insurgency_idea
 }
 
 set_politics = {

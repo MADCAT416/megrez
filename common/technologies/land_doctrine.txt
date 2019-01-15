@@ -1421,10 +1421,6 @@ technologies = {
 			modifier = { factor = 2.0 amount_research_slots > 2 }
 			modifier = { factor = 1.5 amount_research_slots > 3 }
 			modifier = { factor = 1.7 amount_research_slots > 4 }
-			modifier = {
-				factor = 0.25
-				has_idea = FRA_victors_of_wwi
-			}
 		}
 		
 		ai_research_weights = {

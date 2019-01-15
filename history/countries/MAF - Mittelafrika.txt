@@ -1,4 +1,4 @@
-﻿capital = 965
+﻿capital = 543
 
 oob = "empty"
 
@@ -114,10 +114,6 @@ add_ideas = {
 	MAF_Arthur_Zimmermann_for_pau
 	MAF_August_Stauch_eco_ade
 	MAF_Hans_Albert_von_Lettow_Vorbeck_sec_pau
-
-	MAF_Colonial_Nation
-	MAF_British_Settlers
-	MAF_Belgian_Investors
 
 	#low_popularity
 	#low_stability

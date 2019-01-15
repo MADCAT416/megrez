@@ -126,10 +126,6 @@ add_opinion_modifier = { target = RUS modifier = LEC_member }
 add_opinion_modifier = { target = NFA modifier = LEC_member }
 
 add_ideas = {
-	LEC_economic_meltdown
-	LEC_recruitment_crisis
-	LEC_gates_of_china
-	LEC_paying_out
 	#medium_economy
 	free_trade
 	#low_popularity

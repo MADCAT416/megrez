@@ -147,7 +147,6 @@ create_country_leader = {
 }
 
 add_ideas = {
-	CSA_militia_idea
 	#medium_economy
 	### Head of Government
 	CSA_Max_Shachtman_hog_rso

@@ -7,7 +7,6 @@ oob = "empty"
 add_ideas = {
 	#medium_economy
 	limited_conscription
-	SER_jingoism
 }
 
 set_technology = {

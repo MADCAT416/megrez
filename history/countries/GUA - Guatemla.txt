@@ -112,8 +112,6 @@ add_ideas = {
 	GUA_Froylan_Turcios_for_rso
 	GUA_Juan_Arevalo_Bermejo_eco_rso
 	GUA_Yank_Levy_sec_rso
-
-	GUA_Hostile_Natives
 }
 
 create_country_leader = {

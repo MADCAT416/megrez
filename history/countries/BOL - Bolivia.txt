@@ -8,10 +8,6 @@ add_ideas = {
 	BOL_Enrique_Baldivieso_Aparicio_for_pau
 	BOL_Jose_David_Toro_Ruilova_eco_pau
 	BOL_Julian_V_Montellano_Carrasco_sec_npo
-
-	#starting modifiers
-	BOL_Trash_Army
-	BOL_Struggling_Economy
 }
 
 set_technology = {
@@ -318,4 +314,4 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
-add_equipment_to_stockpile = { type = gw_tank_equipment amount = 3 producer = USA }
+

@@ -1,4 +1,4 @@
-﻿capital = 286
+﻿capital = 671
 oob = "empty"
 set_research_slots = 2
 set_technology = {
@@ -115,8 +115,6 @@ add_ideas = {
 	INC_Nguyen_Tuong_Tam_for_sde
 	INC_Nguyen_Duy_Thai_eco_syn
 	INC_Phan_Van_Chanh_sec_syn
-	INC_Guerilla_Tradition
-	INC_vietminh
 }
 ### Leader Spam ###
 create_country_leader = {

@@ -1,4 +1,4 @@
-﻿capital = 112
+﻿capital = 540
 oob = "empty"
 
 set_technology = {
@@ -112,7 +112,6 @@ add_ideas = {
 	POR_Afonso_Lopes_Vieira_for_npo
 	POR_Alberto_Monsaraz_eco_pau
 	POR_Jose_Hipolito_Vaz_Raposo_sec_pau
-	POR_integralist_ethos
 	POR_Luis_Carlos_de_Lima_de_Almeida_Braga_int_npo
 
 	#medium_economy

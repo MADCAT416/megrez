@@ -106,9 +106,6 @@ add_ideas = WLL_Henri_Denis_for_mli
 add_ideas = WLL_Baron_de_Launoit_eco_pau
 add_ideas = WLL_Georges_Thone_sec_ade
 
-add_ideas = WLL_ECONOMIC_TROUBLE
-add_ideas = WLL_ARMY_RUINED
-
 create_country_leader = {
 	name = "Adalbert I von Hohenzollern"
 	desc = "POLITICS_ADALBERT_I_DESC"

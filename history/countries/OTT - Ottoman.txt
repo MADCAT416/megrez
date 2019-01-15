@@ -62,8 +62,6 @@ set_research_slots = 3
 add_ideas = {
 	#medium_economy
 	limited_conscription
-	ott_decline
-	ott_opda_idea
 	#very_low_stability
 
 	OTT_Hueseyin_Avni_Pasa_hog_pau
@@ -96,15 +94,7 @@ give_military_access = BUL
 give_military_access = GER
 
 set_convoys = 50
-add_equipment_to_stockpile = { type = gw_tank_equipment amount = 28 producer = NFA }
-add_equipment_to_stockpile = { type = gw_tank_equipment amount = 6 producer = GBR }
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 producer = GER }
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1000 producer = RUS }
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 800 producer = GBR }
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 300 producer = NFA }
-add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 50 producer = GER }
-add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 35 producer = GER }
-add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 15 producer = OTT }
+
 
 set_politics = {
 

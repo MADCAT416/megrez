@@ -134,7 +134,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "인디라 간디"
-	desc = "indira gandhi_DESC"
+	desc = "indira_gandhi_DESC"
 	picture = "Portrait_BHC_indira_gandhi.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
@@ -148,8 +148,6 @@ add_ideas = {
 	BHC_Subhas_Chandra_Bose_for_tot
 	BHC_Lal_Bahadur_Shastri_eco_syn
 	BHC_Rafi_Ahmed_Kidwai_sec_rso
-	BHC_divided_government
-	BHC_backwards_economy_1
 }
 
 ### Field Marshal

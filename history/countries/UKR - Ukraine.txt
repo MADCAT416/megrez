@@ -108,8 +108,6 @@ set_politics = {
 
 add_ideas = {
 	#medium_economy
-	Hetman_Army
-	language_issue
 }
 
 add_ideas = {

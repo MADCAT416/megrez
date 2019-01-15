@@ -69,7 +69,6 @@ add_ideas = {
 	ENG_Niclas_y_Glais_for_rso
 	ENG_Oswald_Mosley_eco_tot
 	ENG_Helen_Crawfurd_sec_rso
-	ENG_militia_idea
 }
 
 add_opinion_modifier = { target = GER modifier = embargo }

@@ -101,87 +101,123 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "İsmet İnönü"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_TUR_Ismet_Inonu.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Nihâl Atsız"
-	desc = "POLITICS_NIHAL_ATSIZ_DESC"
-	picture = "gfx/leaders/TUR/Portrait_TUR_Nihal_Atsiz.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Şefik Hüsnü Deymer"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/TUR/Portrait_TUR_Sefik_Husnu.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Reşat Fuat Baraner"
-	picture = "Portrait_TUR_Resad_Fuad.tga"
+	name = "이스마일 빌렌"
+	desc = "Ismail_Bilen_DESC"
+	picture = "Picture_Ottoman_Ismail_Bilen.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
 	traits = {
+
 	}
+
 }
 
 create_country_leader = {
-	name = "Hikmet Kıvılcımlı"
-	picture = "Portrait_TUR_Hikmet_Kivilcimli.tga"
+	name = "케말 튀르켈레르"
+	desc = "Kemal_Turkler_DESC"
+	picture = "Picture_Ottoman_Kemal_Turkler.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+
+}
+
+create_country_leader = {
+	name = "메흐메트 알리 아이바르"
+	desc = "Mehmet_Ali_Aybar_DESC"
+	picture = "Picture_Ottoman_Mehmet_Ali_Aybar.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
+
 	}
+
 }
 
 create_country_leader = {
-	name = "Hasan Âli Yücel"
-	picture = "Portrait_TUR_Hasan_Ali.tga"
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
+
 	}
+
 }
 
 create_country_leader = {
-	name = "Fethi Okyar"
-	picture = "Portrait_TUR_Fethi_Okyar.tga"
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
+
 	}
+
 }
 
 create_country_leader = {
-	name = "Adnan Menderes"
-	picture = "Portrait_TUR_Adnan_Menderes.tga"
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
+
 	}
+
 }
 
 create_country_leader = {
-	name = "Yusuf Hikmet Bayur"
-	picture = "Portrait_TUR_Yusuf_Hikmet_Bayur.tga"
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
+
 	}
+
+}
+
+create_country_leader = {
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+
+}
+
+create_country_leader = {
+	name = "오스만 4세"
+	desc = "Osman_IV_DESC"
+	picture = "Picture_Ottoman_Osman_IV.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+
+}
+
+create_country_leader = {
+	name = "알파슬란 튀르케시"
+	desc = "Alparslan_Turkes_DESC"
+	picture = "Portrait_Alparslan_Turkes.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {
+
+	}
+
 }
 
 

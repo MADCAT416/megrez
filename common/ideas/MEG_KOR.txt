@@ -3,40 +3,21 @@ ideas = {
 	country = {
 		kor_hate_japs = {
 			
-			allowed = {
-				always = no
-			}
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea KOR_hate_japs"}
 
 			picture = KOR_hate_japs
-
-			allowed_civil_war = {
-				always = yes
-			}
 
 			removal_cost = -1
 			
 			modifier = { }
 			
-			on_add = {
-			
-			}
-				
-			rule = {
-				
-			}
 		}
 
 		korean_turanism = {
 			
-			allowed = {
-				always = no
-			}
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea korean_turanism"}
 
 			picture = korean_turanism
-
-			allowed_civil_war = {
-				always = yes
-			}
 
 			removal_cost = -1
 			
@@ -44,14 +25,7 @@ ideas = {
 				national_populist_drift = 0.05
 				war_support_factor = 0.1
 			}
-			
-			on_add = {
-			
-			}
-			
-			rule = {
-				
-			}
+
 		}
 	}
 	

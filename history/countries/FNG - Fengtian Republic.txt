@@ -128,16 +128,6 @@ add_ideas = {
 	FNG_Yuan_Jinkai_sec_pau
 	### Intel Minister
 	FNG_Zang_Shiyi_int_pau
-	### Backward Industry
-	FNG_Backward_Industry
-	### Unscrupulous_Governance
-	FNG_Unscrupulous_Governance
-	### Investment Dearth
-	FNG_Investment_Dearth
-	### Japanese Military Mission
-	FNG_Japanese_Military_Mission
-	### Preservation of the Xinhai Order
-	FNG_informal_empire_2
 }
 
 create_country_leader = {
