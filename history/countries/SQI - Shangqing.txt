@@ -1,6 +1,11 @@
 ﻿capital = 613
 oob = "empty"
 
+reverse_add_opinion_modifier = {
+    target = KOR
+    modifier = nemesis
+}
+
 set_technology = {
 infantry_weapons_1 = 1
 support_weapons_1 = 1

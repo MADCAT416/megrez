@@ -3,6 +3,11 @@ oob = "empty"
 set_stability = 0.6
 set_research_slots = 4
 
+reverse_add_opinion_modifier = {
+    target = KOR
+    modifier = nemesis
+}
+
 set_technology = {
 infantry_weapons_1 = 1
 support_weapons_1 = 1
@@ -68,8 +73,6 @@ add_ideas = {
 	civilian_economy
 	free_trade
 	limited_conscription
-	
-	JAP_unfinished_restoration
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }
@@ -215,9 +218,6 @@ create_country_leader = {
 
 ### Leaders ###
 
-if = { #JAP_samurai_lineage GFX doesn't show up without Waking the Tiger, hence the IF statement used here
-	limit = { has_dlc = "Waking the Tiger" }
-
 	create_field_marshal = {
 		name = "Hisaichi Terauchi"
 		picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
@@ -310,102 +310,7 @@ if = { #JAP_samurai_lineage GFX doesn't show up without Waking the Tiger, hence 
 		logistics_skill = 1
 	}
 
-	else = {
-
-		create_field_marshal = {
-			name = "Hisaichi Terauchi"
-			picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
-			traits = {
-				offensive_doctrine
-				politically_connected
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 2
-		}
-
-		create_field_marshal = {
-			name = "Shunroku Hata"
-			picture = "Portrait_Japan_Shunroku_Hata.dds"
-			traits = { offensive_doctrine }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 4
-		}
-
-		create_corps_commander = {
-			name = "Kanji Ishiwara"
-			picture = "Portrait_Japan_Kanji_Ishiwara.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-
-		create_corps_commander = {
-			name = "Naruhiko Higashikuni"
-			picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
-			traits = { politically_connected }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-
-		create_corps_commander = {
-			name = "Seishiro Itagaki"
-			picture = "Portrait_Japan_Seishiro_Itagaki.dds"
-			traits = { inflexible_strategist trait_reckless }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-
-		create_corps_commander = {
-			name = "Hatazo Adachi"
-			picture = "Portrait_Japan_Hatazo_Adachi.dds"
-			traits = { trickster trait_reckless infantry_officer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-
-		create_corps_commander = {
-			name = "Sadao Araki"
-			picture = "Portrait_Japan_Sadao_Araki.dds"
-			traits = { }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-
-		create_corps_commander = {
-			name = "Kuniaki Koiso"
-			picture = "Portrait_Japan_Kuniaki_Koiso.dds"
-			traits = { old_guard politically_connected }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-		}
-
-	}
-}
-
+	
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
 	picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
