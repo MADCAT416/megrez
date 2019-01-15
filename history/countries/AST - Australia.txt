@@ -62,14 +62,6 @@ add_ideas = {
 	AST_James_Mitchell_eco_ade
 	AST_Thomas_W_White_sec_ade
 
-	#starting modifiers
-	AST_oversized_fleet
-	AST_depression_1
-	AST_bled_dry
-	AST_anzac_spirit_1
-
-	#Reduced profits from Legation Cities
-	MINOR_PROFF_LEG_CITIES
 }
 
 set_research_slots = 3

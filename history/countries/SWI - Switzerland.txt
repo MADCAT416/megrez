@@ -67,9 +67,6 @@ add_ideas = {
 	SWI_Johannes_Baumann_sec_mli
 	extensive_conscription
 	free_trade
-	SWI_neutrality_idea
-	SWI_national_conscription
-	SWI_geneva_memories
 }
 
 set_politics = {

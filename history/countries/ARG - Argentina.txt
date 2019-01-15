@@ -59,10 +59,6 @@ synth_oil_experiments = 1
 set_cosmetic_tag = ARG_LAP
 
 add_ideas = {
-	ARG_interservice_rivalry_navy_dominant
-	ARG_Military_Cliques
-	ARG_Military_Apparatus
-	partial_economic_mobilisation
 }
 
 set_stability = 0.4

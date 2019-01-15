@@ -104,9 +104,6 @@ set_politics = {
 add_ideas = {
 	#medium_economy
 	limited_conscription
-	VEN_army_dominance
-	VEN_oil_addiction
-	VEN_foreign_oil_companies
 	### Cabinet
 	VEN_Lisandro_Alvarado_hog_sde
 	VEN_Jose_Antonio_Ramos_Sucre_for_sde

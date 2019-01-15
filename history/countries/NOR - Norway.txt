@@ -3,8 +3,7 @@
 oob = "NOR"
 
 add_ideas = {
-	NOR_divided_airforce_idea
-	NOR_weak_economy_1
+
 }
 
 set_technology = {

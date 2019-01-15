@@ -114,8 +114,6 @@ add_ideas = {
 	SPR_Francisco_de_Asis_Serrat_y_Bonastre_for_pau
 	SPR_German_Gil_y_Yuste_eco_pau
 	SPR_Miguel_Ponte_Manso_de_Zuniga_sec_ade
-	SPR_social_breakdown
-	SPR_memories_of_the_republic
 
 }
 

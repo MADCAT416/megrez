@@ -1,7 +1,0 @@
-PRU_totalist_decisions = {
-	allowed = {	original_tag = PRU }
-	visible = {
-		PRU = { has_government = totalist
-		}
-	}
-}

@@ -62,10 +62,6 @@ set_convoys = 40
 set_stability = 0.35
 
 add_ideas = {
-	GRE_foreign_industry_GER1
-	GRE_foreign_industry_AUS1
-	GRE_memories_of_king
-	GRE_legacy_of_alexander_idea
 	GRE_Georgios_Papandreou_hog_sli
 	GRE_Themistoklis_Sofoulis_for_mli
 	GRE_Georgios_Athanasiadis_Novas_eco_sli

@@ -5,8 +5,7 @@ oob = "POL"
 add_ideas = {
 	#medium_economy
 	limited_conscription
-	POL_eternal_regency
-	POL_german_industry
+
 	#ZO_idea
 	#low_popularity
 }

@@ -68,7 +68,6 @@ add_ideas = {
 	IRE_Kevin_O'Higgins_for_ade
 	IRE_Ernest_Blythe_eco_ade
 	IRE_Gearoid_O_Cuinnegain_sec_pau
-	IRE_DEFENCE
 	limited_conscription
 	#ZO_idea
 }

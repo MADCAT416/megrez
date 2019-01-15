@@ -66,10 +66,6 @@ add_ideas = {
 	TRM_Dmitry_Lebedev_eco_pau
 	TRM_Arkady_Udintsev_sec_pau
 	extensive_conscription
-	TRM_kolchak
-	TRM_anti_kolchak
-	TRM_dream
-	TRM_JAP_INF_START
 }
 
 diplomatic_relation = { country = FNG relation = non_aggression_pact }

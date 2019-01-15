@@ -114,10 +114,7 @@ set_politics = {
 
 add_opinion_modifier = { target = ENG modifier = embargo }
 
-add_ideas = NFA_anti_communard
 add_ideas = limited_conscription
-add_ideas = NFA_french_in_exile
-add_ideas = NFA_political_unrest
 
 add_ideas = {
 	#medium_economy

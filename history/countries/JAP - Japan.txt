@@ -65,13 +65,9 @@ add_ideas = {
 	JAP_Yoshizawa_Kenkichi_for_sco
 	JAP_Mitsuchi_Chuzo_eco_sco
 	JAP_Suzuki_Kisaburo_sec_sco
-	JAP_bad_start
-	JAP_no_army_focus
-	JAP_narrow_rail
 	civilian_economy
 	free_trade
 	limited_conscription
-	PROFF_LEG_CITIES
 	
 	JAP_unfinished_restoration
 }

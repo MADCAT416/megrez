@@ -59,19 +59,8 @@ set_stability = 0.3
 set_war_support = 0.4
 set_research_slots = 3
 set_convoys = 30
-set_variable = {
-	var = germanisation_var
-	value = 0
-}
-set_variable = {
-	var = balts_resistance_var
-	value = 0
-}
 
 add_ideas = {
-	BAT_multi_ling
-	BAT_start_crisis
-	#ZO_idea
 	}
 
 add_opinion_modifier = { target = FRA modifier = embargo }

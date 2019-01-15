@@ -117,8 +117,6 @@ add_ideas = {
 	AOG_John_Rabe_eco_ade
 	### Security Minister
 	AOG_Lei_Zhong_sec_ade
-
-	AOG_Colonial_Nation
 }
 
 create_country_leader = {

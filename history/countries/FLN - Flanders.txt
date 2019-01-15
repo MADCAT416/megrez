@@ -101,10 +101,7 @@ set_politics = {
 
 }
 
-add_ideas = BEL_Flemish_Lion
-add_ideas = FLN_Severed_Trade
-add_ideas = FLN_Liberation_Army
-add_ideas = FLN_Succesion_Crisis
+
 add_ideas = FLN_Camille_Huysmans_hog_sde
 add_ideas = FLN_Eugene_Soudan_for_sli
 add_ideas = FLN_Albert_de_Vleeschauwer_eco_sco

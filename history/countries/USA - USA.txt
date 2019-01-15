@@ -188,12 +188,7 @@ add_ideas = {
 	USA_Roy_D_Chapin_eco_mli
 	### Security Minister
 	USA_Frank_Murphy_sec_mli
-	USA_great_depression
-	USA_political_crisis
 	free_trade
-	#low_popularity
-	#very_low_stability
-	PROFF_LEG_CITIES
 }
 
 ### Field Marshal

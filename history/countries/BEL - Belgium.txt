@@ -105,31 +105,7 @@ set_politics = {
 
 set_convoys = 30
 
-add_equipment_to_stockpile = {
-	type = gw_tank_equipment
-	amount = 48
-	producer = FRA
-}
-add_equipment_to_stockpile = {
-	type = infantry_equipment_1
-	amount = 4000
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 400
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-	amount = 150
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = light_tank_destroyer_equipment_1
-	amount = 50
-	producer = BEL
-}
+
 
 #add_opinion_modifier = { target = LEC modifier = LEC_member }
 #give_military_access = LEC
@@ -137,10 +113,7 @@ add_equipment_to_stockpile = {
 #set_country_flag = no_LEC_profit_for_you
 
 add_ideas = {
-	BEL_King_Exile
-	BEL_Language_Trouble
-	BEL_Antwerp_Harbor
-	BEL_anti_german_sentiment3
+
 	BEL_Paul_Van_Zeeland_hog_sco
 	BEL_Charles_d'Aspremont_Lynden_for_ade
 	BEL_Alexandre_Galopin_eco_mli
@@ -364,14 +337,3 @@ create_navy_leader = {
 	skill = 2
 }
 
-create_equipment_variant = {
-	name = "Jan van Gent Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 0
-	}
-}

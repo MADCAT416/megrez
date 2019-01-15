@@ -107,10 +107,6 @@ add_ideas = {
 	PRU_Alberto_Ulloa_Sotomayor_for_ade
 	PRU_Nicolas_Lindley_Lopez_eco_pau
 	PRU_Ernesto_Montagne_Markholz_sec_pau
-
-	PRU_caudillo_rip
-	PRU_militant_socialists
-	PRU_guardia_monotera
 }
 
 create_country_leader = {

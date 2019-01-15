@@ -70,8 +70,6 @@ give_guarantee = PAP
 
 add_ideas = {
 	#medium_economy
-	SIC_shipyard_profits
-	SIC_pretty_much_feudalism
 	SIC_Luigi_Sturzo_hog_sde
 	SIC_Gaetano_Martino_for_sde
 	SIC_Rocco_Gullo_eco_sde

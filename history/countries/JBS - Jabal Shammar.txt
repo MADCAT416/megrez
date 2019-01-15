@@ -179,8 +179,6 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 
 add_ideas = {
 	#medium_economy
-	JBS_backwards_economy
-	JBS_illiterate_populace
 	extensive_conscription
 	JBS_Talal_bin_Mohammed_Al_Rashid_hog_pau
 	JBS_Talal_bin_Mohammed_Al_Rashid_for_pau
@@ -189,7 +187,7 @@ add_ideas = {
 }
 
 
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 producer = OTT }
+
 
 
 

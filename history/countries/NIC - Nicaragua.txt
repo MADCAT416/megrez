@@ -105,7 +105,6 @@ set_politics = {
 
 add_ideas = {
 	#medium_economy
-	NIC_Guardia
 	NIC_Anastasio_Somoza_Garcia_hog_ade
 	NIC_Leonardo_Arguello_Vargas_for_sco
 	NIC_Anastasio_Somoza_Garcia_eco_ade

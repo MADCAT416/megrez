@@ -199,12 +199,10 @@ create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
 
 add_ideas = {
 	#medium_economy
-	SAU_backwards_economy
-	SAU_illiterate_populace
 	extensive_conscription
 }
 
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 producer = ENG }
+
 
 
 ### Field Marshal

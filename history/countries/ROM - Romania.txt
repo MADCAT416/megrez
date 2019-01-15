@@ -5,8 +5,6 @@ oob = "empty"
 set_research_slots = 3
 
 add_ideas = {
-	#medium_economy
-	ROM_royalist_threat
 	free_trade
 	limited_conscription
 }
