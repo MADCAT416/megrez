@@ -1811,14 +1811,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		nuclear_production = 1
-
 		folder = {
 			name = electronics_folder
 			position = { x = 10 y = 8 }
 		}
 		
-
 		ai_will_do = {
 			factor = 10
 		}
@@ -1849,7 +1846,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-
 		ai_will_do = {
 			factor = 1
 		}

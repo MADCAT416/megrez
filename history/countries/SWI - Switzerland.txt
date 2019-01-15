@@ -111,8 +111,6 @@ set_politics = {
 
 }
 
-activate_mission = SWI_peace_mission_ongoing
-
 create_country_leader = {
 	name = "스위스 노동자 의회"
 	desc = "SWITZERLAND_Workers_COUNCIL_DESC"

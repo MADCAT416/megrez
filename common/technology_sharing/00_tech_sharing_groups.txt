@@ -8,7 +8,7 @@ technology_sharing_group = { #Phalanstere (International)
 
 	available = {
 		OR = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 			has_government = social_democrat
@@ -34,7 +34,7 @@ technology_sharing_group = { #ISAC (Canada)
 			is_subject_of = CAN
 		}
 		NOT = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -56,7 +56,7 @@ technology_sharing_group = { #Kaiser Wilhelm Society (Germany)
 			tag = GER
 		}
 		NOT = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -73,7 +73,7 @@ technology_sharing_group = { #School of Americas (USA/AUS/CAL)
 
 	available = {
 		NOT = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -159,7 +159,7 @@ technology_sharing_group = { #Koninklijke Academie (Belgium-Netherlands)
 
 	available = {
 		NOT = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
