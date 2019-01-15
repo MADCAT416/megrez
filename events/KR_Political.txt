@@ -1970,3 +1970,27 @@ country_event = {
 		clr_country_flag = BRA_faction
 	}
 }
+
+country_event = {
+	id = kr.political.60
+	hidden = yes
+
+	trigger = {
+
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+	add_opinion_modifier = {
+   	target = JAP
+   	 modifier = nemesis
+	}
+
+	add_opinion_modifier = {
+    	target = SQI
+   	modifier = nemesis
+	}
+}
