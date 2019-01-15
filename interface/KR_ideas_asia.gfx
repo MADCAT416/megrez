@@ -340,7 +340,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_korean_turanism"
-		texturefile = "gfx/interface/ideas/ideas/MON_scourge_of_the_steppes.dds"
+		texturefile = "gfx/interface/ideas/ideas/KOR_turanism.dds"
 	}
 	
 	### LAO ###

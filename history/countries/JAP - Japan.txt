@@ -68,6 +68,7 @@ add_ideas = {
 	civilian_economy
 	free_trade
 	limited_conscription
+	JAP_unfinished_restoration
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }

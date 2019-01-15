@@ -55,6 +55,11 @@ excavation1 = 1
 synth_oil_experiments = 1
 }
 
+add_ideas = {
+kor_hate_japs
+korean_turanism
+}
+
 set_stability = 0.5
 set_war_support = 0.4
 
