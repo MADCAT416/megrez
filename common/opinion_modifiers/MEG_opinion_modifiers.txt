@@ -25,5 +25,5 @@ opinion_modifiers = {
 		years = 3
 	}
 	LEC_member = {value = 50}
-	nemesis = {value = -150}
+	nemesis = {value = -100}
 }

@@ -42,9 +42,6 @@ on_actions = {
 				}
 				country_event = kr.political.58
 			}
-			#KOR = {
-				#country_event = kr.political.60
-			#}
 		}
 	}
 
