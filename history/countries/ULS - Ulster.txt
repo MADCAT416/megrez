@@ -104,11 +104,31 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "James Craig"
-	desc = "POLITICS_JAMES_CRAIG_DESC"
-	picture = "Portrait_Ulster_James_Craig.tga"
+	name = "마틴 스미스"
+	desc = "Portrait_Ireland_Martin_Smith_DESC"
+	picture = "Portrait_Ireland_Martin_Smith.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "이언 페이즐리"
+	picture = "Portrait_Ulster_Ian_Paisley.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "이언 페이즐리"
+	picture = "Portrait_Ulster_Ian_Paisley.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {
 
 	}
