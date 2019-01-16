@@ -927,6 +927,26 @@ set_politics = {
 
 KOR = {
 
+add_opinion_modifier = {
+target = JAP
+modifier = nemesis
+}
+
+add_opinion_modifier = {
+target = JAP
+modifier = KOR_to_JAP
+}
+
+add_opinion_modifier = {
+target = SQI
+modifier = nemesis
+}
+
+add_opinion_modifier = {
+target = SQI
+modifier = KOR_to_SQI
+}
+
 set_politics = {
 
 	parties = {

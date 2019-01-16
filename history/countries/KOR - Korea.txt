@@ -60,16 +60,6 @@ kor_hate_japs
 korean_turanism
 }
 
-add_opinion_modifier = {
-target = JAP
-modifier = nemesis
-}
-
-add_opinion_modifier = {
-target = SQI
-modifier = nemesis
-}
-
 set_stability = 0.5
 set_war_support = 0.4
 

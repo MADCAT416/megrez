@@ -26,4 +26,6 @@ opinion_modifiers = {
 	}
 	LEC_member = {value = 50}
 	nemesis = {value = -100}
+	KOR_to_JAP = {value = -70}
+	KOR_to_SQI = {value = -70}
 }
