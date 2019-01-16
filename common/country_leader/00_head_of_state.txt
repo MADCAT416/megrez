@@ -387,6 +387,12 @@ leader_traits = {
 		stability_factor = -0.1
 		production_speed_buildings_factor = 0.075
 
+		ai_strategy = {
+			type = antagonize
+			id = "JAP"			
+			value = 100
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
