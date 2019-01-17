@@ -5,8 +5,8 @@ state = {
 	state_category = town
 	history = {
 		owner = SQI
-		
-		
+		add_core_of = SQI
+		add_core_of = QIE
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
