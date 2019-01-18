@@ -1,4 +1,4 @@
-﻿capital = 613
+﻿capital = 597
 oob = "empty"
 
 set_technology = {

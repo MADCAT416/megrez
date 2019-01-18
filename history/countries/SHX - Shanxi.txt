@@ -1,4 +1,4 @@
-﻿capital = 615
+﻿capital = 799
 oob = "empty"
 
 set_technology = {
@@ -59,34 +59,34 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 10
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 10
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 10
 		}
 		social_progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 15
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 70
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 0
 		}
 	}
 
