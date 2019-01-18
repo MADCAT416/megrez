@@ -55,8 +55,6 @@ excavation1 = 1
 synth_oil_experiments = 1
 }
 
-diplomatic_relation = { country = AOG relation = non_aggression_pact }
-
 set_politics = {
 
 	parties = {
