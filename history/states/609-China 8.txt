@@ -19,12 +19,12 @@ state = { #Tianjin
 			infrastructure = 5
 			arms_factory = 1
 			10068 = {
-				naval_base = 2
+				naval_base = 4
 			}
 		}
 	}
 
 	provinces = {
-		10068
+		10068 4137
 	}
 }
