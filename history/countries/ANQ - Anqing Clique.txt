@@ -1,4 +1,4 @@
-﻿capital = 606
+﻿capital = 1044
 oob = "empty"
 set_research_slots = 2
 set_technology = {
