@@ -1,4 +1,4 @@
-﻿capital = 605
+﻿capital = 788
 
 oob = "empty"
 

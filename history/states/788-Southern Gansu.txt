@@ -9,6 +9,9 @@ state = { #Northern Sichuan
 
 
 	history = {
+		victory_points = {
+			10903 1
+		}
 		owner = SQI
 		
 		add_core_of = SQI
