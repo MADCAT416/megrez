@@ -9,8 +9,8 @@ state = { # Xiamen
 		
 		add_core_of = SQI
 		add_core_of = QIE
-add_core_of = AOG
-		add_core_of = CHI
+
+		add_core_of = AOG
 		
 		victory_points = {
 			7071 1

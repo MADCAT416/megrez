@@ -10,7 +10,7 @@ state = { #Qiongya
 
 	history = {
 		owner = SQI
-		add_core_of = GEA
+		add_core_of = AOG
 		
 		add_core_of = SQI
 		add_core_of = QIE

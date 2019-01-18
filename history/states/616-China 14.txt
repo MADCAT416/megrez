@@ -3,12 +3,13 @@ state = { #Ordos
 	name = "STATE_616"
 
 	history = {
-		owner = MON
+		owner = SQI
 		
 		add_core_of = SQI
 		add_core_of = QIE
 		
 		add_core_of = MON
+		add_core_of = XSM
 		
 		buildings = {
 			infrastructure = 1
@@ -16,7 +17,7 @@ state = { #Ordos
 	}
 
 	provinces = {
-		1959 3427 4960 4986 10451 10854 12706
+		1959 3427 4960 4986 8081 10451 10854 12706
 	}
 	manpower = 1342290
 	buildings_max_level_factor = 1

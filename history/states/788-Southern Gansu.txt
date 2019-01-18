@@ -13,8 +13,7 @@ state = { #Northern Sichuan
 		
 		add_core_of = SQI
 		add_core_of = QIE
-		add_core_of = PRC
-		
+		add_core_of = SZC
 		add_claim_by = TIB
 		buildings = {
 			infrastructure = 1
