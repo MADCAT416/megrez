@@ -16,6 +16,9 @@ state = {
 		owner = TIB
 		add_core_of = TIB
 		add_core_of = BHU
+		
+		add_claim_by = SQI
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
