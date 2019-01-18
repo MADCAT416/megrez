@@ -6,6 +6,7 @@ state = {
 		owner = NEE
 		add_core_of = NEE
 		add_core_of = USA
+		add_core_of = CSA
 
 		buildings = {
 			infrastructure = 4
@@ -19,5 +20,5 @@ state = {
 
 	manpower = 528300
 	buildings_max_level_factor = 1
-	state_category = "pastoral"
+	state_category = "rural"
 }
