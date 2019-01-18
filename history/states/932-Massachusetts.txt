@@ -6,6 +6,7 @@ state = {
 		owner = NEE
 		add_core_of = NEE
 		add_core_of = USA
+		add_core_of = CSA
 
 		buildings = {
 			infrastructure = 8
@@ -30,5 +31,5 @@ state = {
 
 	manpower = 4421300
 	buildings_max_level_factor = 1
-	state_category = "city"
+	state_category = "megalopolis"
 }

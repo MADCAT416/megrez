@@ -2,7 +2,7 @@ state = {
 	id = 798
 	name = "STATE_798"
 
-	state_category = metropolis
+	state_category = megalopolis
 
 	history = {
 		owner = CAL
@@ -23,6 +23,7 @@ state = {
 		}
 		add_core_of = USA
 		add_core_of = CAL
+		add_claim_by = CSA
 
 		victory_points = {
 			1562 15

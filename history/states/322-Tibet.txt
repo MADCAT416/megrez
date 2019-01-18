@@ -12,8 +12,9 @@ state = {
 
 	history = {
 		owner = TIB
+		add_core_of = TIB
 		
-		add_core_of = SQI
+		add_claim_by = SQI
 		add_core_of = QIE
 		
 		buildings = {
@@ -22,9 +23,12 @@ state = {
 			industrial_complex = 3
 		}
 		victory_points = {
-			5033 5
+			5033 10
 		}
-		add_core_of = TIB
+		victory_points = {
+			2098 3
+		}
+		
 	}
 
 	provinces = {

@@ -12,7 +12,7 @@ state = {
 	history = {
 		owner = SAU
 		add_core_of = SAU
-		add_claim_by = JBS
+		add_core_of = JBS
 		buildings = {
 			infrastructure = 2
 		}
