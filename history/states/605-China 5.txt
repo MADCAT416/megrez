@@ -14,7 +14,8 @@ state = { #Sichuan
 		
 		add_core_of = SQI
 		add_core_of = QIE
-		add_core_of = SZC
+		add_core_of = PRC
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
