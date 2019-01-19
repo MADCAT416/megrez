@@ -4,12 +4,12 @@
 #New Cosmetic tags
 ########################
 
-PRC_proclaimed_totalist:0 "중화인민공화국"
+PRC_proclaimed_totalist:0 "중화소유애공화국"
 PRC_proclaimed_totalist_ADJ:0 "중국"
-PRC_proclaimed_totalist_DEF:0 "중화인민공화국"
-PRC_proclaimed_syndicalist:0 "중화인민공화국"
+PRC_proclaimed_totalist_DEF:0 "중화소유애공화국"
+PRC_proclaimed_syndicalist:0 "중화평의회공화국"
 PRC_proclaimed_syndicalist_ADJ:0 "중국"
-PRC_proclaimed_syndicalist_DEF:0 "중화인민공화국"
+PRC_proclaimed_syndicalist_DEF:0 "중화평의회공화국"
 PRC_proclaimed_democratic_socialist:0 "중화인민공화국"
 PRC_proclaimed_democratic_socialist_ADJ:0 "중국"
 PRC_proclaimed_democratic_socialist_DEF:0 "중화인민공화국"

@@ -10,7 +10,7 @@ state = {
 		
 		add_core_of = SQI
 		add_core_of = QIE
-		add_core_of = ANQ
+		add_claim_by = ANQ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

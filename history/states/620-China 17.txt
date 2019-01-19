@@ -10,7 +10,7 @@ state = { #Hubei
 		
 		add_core_of = SQI
 		add_core_of = QIE
-		add_core_of = HNN
+		add_claim_by = HNN
 
 		
 		
