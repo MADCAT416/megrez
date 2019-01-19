@@ -3,12 +3,12 @@
 ### Parties ###
 IRE_totalist_party:0 "혁명노동자집단"
 IRE_totalist_party_long:0 "혁명노동자집단" #5
-IRE_syndicalist_party:0 "에이레 노동조합협의회"
+IRE_syndicalist_party:0 "노동조합협의회"
 IRE_syndicalist_party_long:0 "에이레 노동조합협의회" #40 - 집권
-IRE_democratic_socialist_party:0 "에이레 사회민주노동당"
+IRE_democratic_socialist_party:0 "사회민주노동당"
 IRE_democratic_socialist_party_long:0 "에이레 사회민주노동당" #10
-IRE_social_progressive_party:0 "사회주의 노동자 네트워크"
-IRE_social_progressive_party_long:0 "사회주의 노동자 네트워크" #5
+IRE_social_progressive_party:0 "노동자 네트워크"
+IRE_social_progressive_party_long:0 "사회주의노동자 네트워크" #5
 IRE_social_liberal_party:0 "여성평의회"
 IRE_social_liberal_party_long:0 "여성평의회" # 10
 IRE_market_liberal_party:0 "피어너 팔"
@@ -17,7 +17,7 @@ IRE_social_conservative_party:0 "농민납세자동맹"
 IRE_social_conservative_party_long:0 "농민납세자동맹" #2
 IRE_authoritarian_democrat_party:0 "피너 게일"
 IRE_authoritarian_democrat_party_long:0 "피너 게일" #15
-IRE_paternal_autocrat_party:0 "충의 오렌지단"
+IRE_paternal_autocrat_party:0 "오렌지단"
 IRE_paternal_autocrat_party_long:0 "충의 오렌지단" #1
 IRE_national_populist_party:0 "부활설계당"
 IRE_national_populist_party_long:0 "부활설계당" #2

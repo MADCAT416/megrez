@@ -1,25 +1,25 @@
 ﻿l_english:
 
 ### Parties ###
-CAL_totalist_party:0 "태평양 노동 연합"
-CAL_totalist_party_long:0 "태평양 노동 연합" #
-CAL_syndicalist_party:0 "태평양 노동 연합"
-CAL_syndicalist_party_long:0 "태평양 노동 연합" #
-CAL_democratic_socialist_party:0 "태평양 노동 연합"
-CAL_democratic_socialist_party_long:0 "태평양 노동 연합" #
-CAL_social_progressive_party:0 "태평양 진보당"
+CAL_totalist_party:0 "노동연합"
+CAL_totalist_party_long:0 "태평양 노동연합" #
+CAL_syndicalist_party:0 "노동연합"
+CAL_syndicalist_party_long:0 "태평양 노동연합" #
+CAL_democratic_socialist_party:0 "노동연합"
+CAL_democratic_socialist_party_long:0 "태평양 노동연합" #
+CAL_social_progressive_party:0 "진보당"
 CAL_social_progressive_party_long:0 "태평양 진보당" #
-CAL_social_liberal_party:0 "태평양 민주당"
+CAL_social_liberal_party:0 "민주당"
 CAL_social_liberal_party_long:0 "태평양 민주당" #
-CAL_market_liberal_party:0 "태평양 공화당"
+CAL_market_liberal_party:0 "공화당"
 CAL_market_liberal_party_long:0 "태평양 공화당" #
 CAL_social_conservative_party:0 "우르신당"
 CAL_social_conservative_party_long:0 "우르신당" #
-CAL_authoritarian_democrat_party:0 "군사정부"
+CAL_authoritarian_democrat_party:0 "군부"
 CAL_authoritarian_democrat_party_long:0 "군사정부" #
-CAL_paternal_autocrat_party:0 "태평양 주권당"
+CAL_paternal_autocrat_party:0 "주권당"
 CAL_paternal_autocrat_party_long:0 "태평양 주권당" #
-CAL_national_populist_party:0 "태평양 우선당"
+CAL_national_populist_party:0 "우선당"
 CAL_national_populist_party_long:0 "태평양 우선당" #
 
 ### 인물 설명 ###
@@ -27,3 +27,9 @@ Howard_Hughes_DESC:0 ""
 Pat_Brown_DESC:0 ""
 Glen_H_Taylor_DESC:0 ""
 Caspar_Weinberger_DESC:0 ""
+
+### 국민정신 ###
+width_wall:0 "횡단장벽"
+width_wall_desc:0 "멕시코와 USPA 사이에는 가로로 국경을 가로지르는 거대한 장벽이 건설되어 있습니다. 지금은 이 장벽이 두 국가 사이의 전쟁을 막고 있지만, 언제 무너질지, 언제 전쟁이 발발할지는 아무도 알 수 없습니다..."
+length_wall:0 "종단장벽"
+length_wall_desc:0 "신련과 USPA 사이에는 세로로 국경을 가로지르는 거대한 장벽이 건설되어 있습니다. 지금은 이 장벽이 두 국가 사이의 전쟁을 막고 있지만, 언제 무너질지, 언제 전쟁이 발발할지는 아무도 알 수 없습니다..."
