@@ -8,7 +8,7 @@ state = {
 		add_core_of = TUA
 		victory_points = { 12751 1 } #Bamako
 		victory_points = { 2044 1 }
-		}
+		
 		buildings = {
 			infrastructure = 3
 
