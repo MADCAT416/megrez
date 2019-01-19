@@ -139,8 +139,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "장징궈"
-	picture = "CHI_portrait_Chiang_Ching_kuo.tga"
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {}

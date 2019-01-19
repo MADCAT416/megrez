@@ -105,19 +105,57 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Zhao Hengti"
-	desc = ""
-	picture = "Portrait_Hunan_Zhao_Hengti.tga"
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Zhang Jingyao"
-	desc = ""
-	picture = "Portrait_Hunan_Zhang_Jingyao.tga"
+	name = "루주즈"
+	picture = "Portrait_HNN_Lu_Zu_Ze.tga"
 	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = national_populist_subtype
 	traits = {}
 }

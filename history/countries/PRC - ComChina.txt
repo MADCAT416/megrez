@@ -121,8 +121,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "천윈"
-	picture = "Portrait_PRC_Chen_Yun.tga"
+	name = "장징궈"
+	picture = "CHI_portrait_Chiang_Ching_kuo.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
 	traits = {
