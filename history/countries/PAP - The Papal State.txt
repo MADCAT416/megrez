@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "empty"
+oob = "PAP"
 
 set_research_slots = 3
 
