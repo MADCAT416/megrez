@@ -105,11 +105,58 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Chen Tiaoyuan"
-	desc = ""
-	picture = "Portrait_LEP_Sun_Chuanfang.tga"
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "쑨리런"
+	picture = "ANQ_Sun_Li_jen.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
