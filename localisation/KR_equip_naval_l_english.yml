@@ -6,6 +6,6 @@
 ### General Naval Equipment ###
 ###############################
 
-naval_equipment:0 "함선"
- convoy_1:0 "수송선"
- convoy_desc:0 "수송선"
+naval_equipment:0 "함정"
+ convoy_1:0 "수송선단"
+ convoy_desc:0 "수송선단"

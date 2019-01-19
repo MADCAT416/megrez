@@ -3,7 +3,7 @@ state = {
 	name = "STATE_580" # Tobolsk
 	manpower = 88126
 
-	state_category = wasteland
+	state_category = pastoral
 	
 
 	history = {
