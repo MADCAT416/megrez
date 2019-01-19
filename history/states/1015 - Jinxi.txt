@@ -8,6 +8,7 @@ state = { #Jinxi #Western Shanxi
 		
 		add_core_of = SQI
 		add_core_of = QIE
+		add_core_of = SHX
 
 		buildings = {
 			infrastructure = 2

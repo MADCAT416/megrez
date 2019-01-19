@@ -7,7 +7,7 @@ state = { #Central Shanxi
 		owner = SQI
 		add_core_of = SQI
 		add_core_of = QIE
-		
+		add_core_of = SHX
 		
 		buildings = {
 			infrastructure = 4
