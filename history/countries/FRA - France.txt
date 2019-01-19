@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "empty"
+oob = "FRA"
 
 set_research_slots = 4
 
