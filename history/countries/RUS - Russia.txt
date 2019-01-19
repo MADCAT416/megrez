@@ -884,6 +884,17 @@ create_navy_leader = {
 }
 
 MON = {
+
+add_opinion_modifier = {
+	target = MAN
+	modifier = MAN_and_MON
+}
+
+add_opinion_modifier = {
+	target = TIB
+	modifier = MON_and_TIB
+}
+
 set_politics = {
 
 	parties = {
@@ -929,23 +940,23 @@ set_politics = {
 KOR = {
 
 add_opinion_modifier = {
-target = JAP
-modifier = nemesis
+	target = JAP
+	modifier = nemesis
 }
 
 add_opinion_modifier = {
-target = JAP
-modifier = KOR_to_JAP
+	target = JAP
+	modifier = KOR_to_JAP
 }
 
 add_opinion_modifier = {
-target = SQI
-modifier = nemesis
+	target = SQI
+	modifier = nemesis
 }
 
 add_opinion_modifier = {
-target = SQI
-modifier = KOR_to_SQI
+	target = SQI
+	modifier = KOR_to_SQI
 }
 
 set_politics = {
@@ -992,6 +1003,12 @@ set_politics = {
 }
 
 MAN = {
+
+add_opinion_modifier = {
+	target = MON
+	modifier = MAN_and_MON
+}
+
 set_politics = {
 
 	parties = {
@@ -1035,6 +1052,12 @@ set_politics = {
 }
 
 TIB = {
+
+add_opinion_modifier = {
+target = MON
+modifier = MON_and_TIB
+}
+
 set_politics = {
 
 	parties = {
