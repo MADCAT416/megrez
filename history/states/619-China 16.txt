@@ -18,8 +18,13 @@ state = {
 		add_core_of = QIE
 		add_core_of = SIK
 		
+		
+		victory_points = {
+			2015 1
+		}
+		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 	}
 

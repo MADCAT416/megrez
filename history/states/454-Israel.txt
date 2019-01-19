@@ -17,6 +17,9 @@ state = {		#Jerusalem
 		victory_points = {
 			1086 5
 		}
+		victory_points = {
+			4206 1
+		}
 	}
 
 	provinces = {

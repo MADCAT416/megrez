@@ -13,6 +13,9 @@ state = {
 		victory_points = {
 			10177 1 # Battambang/Phra Tabong
 		}
+		victory_points = {
+			4302 1 
+		}
 		buildings = {
 			infrastructure = 3
 		}
