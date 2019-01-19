@@ -108,6 +108,7 @@ add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = AOG modifier = embargo }
 add_opinion_modifier = { target = YUN modifier = embargo }
 add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = nemesis }
 
 add_ideas = {
 	#medium_economy
