@@ -12,7 +12,10 @@ state = {
 
 		}
 		add_core_of = CAN
-
+		
+		victory_points = {
+			1426 1
+		}
 	}
 
 	provinces = {

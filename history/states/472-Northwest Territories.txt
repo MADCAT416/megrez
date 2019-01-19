@@ -11,6 +11,10 @@ state = {
 			infrastructure = 1
 
 		}
+		victory_points = {
+			3691 1
+		}
+		
 		add_core_of = CAN
 
 	}
