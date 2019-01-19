@@ -279,7 +279,7 @@ units = {
 	
 	division = {
 		name = "아오스타 차량화보병사단"
-		location = 9990
+		location = 4159
 		division_template = "차량화보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -335,7 +335,7 @@ units = {
 	
 	division = {
 		name = "칼라브리아 총기병대"
-		location = 12066
+		location = 9990
 		division_template = "총기병대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
