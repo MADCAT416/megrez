@@ -11,9 +11,6 @@ state = {
 		add_core_of = SRI
 		buildings = {
 			infrastructure = 8
-			6862 = {
-				bunker = 2
-			}
 		}
 	}
 

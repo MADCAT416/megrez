@@ -18,12 +18,10 @@ state = {
 			infrastructure = 6
 			industrial_complex = 4
 			air_base = 3
+			anti_air_building = 1
+			synthetic_refinery = 1
 			11584 = {
 				naval_base = 6
-				bunker = 1
-			}
-			9582 = {
-				bunker = 3
 			}
 		}
 		add_core_of = PAP

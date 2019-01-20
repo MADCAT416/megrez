@@ -22,23 +22,19 @@ state = {
 			infrastructure = 7
 			arms_factory = 4
 			industrial_complex = 2
-			11721 = {
-				bunker = 1
-			}
-			9738 = {
-				bunker = 1
-			}
-			6780 = {
-				bunker = 1
-			}
-			6635 = {
+			radar_station = 2
+			anti_air_building = 1
+			770 = {
 				bunker = 2
 			}
-			776 = {
-				bunker = 3
+			11721 = {
+				bunker = 2
 			}
-			11726 = {
-				bunker = 3
+			9738 = {
+				bunker = 2
+			}
+			6780 = {
+				bunker = 2
 			}
 		}
 	}

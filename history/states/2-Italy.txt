@@ -3,7 +3,7 @@ state = {
 	name = "STATE_2" # Latium
 	manpower = 2418200
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = PAP
@@ -15,19 +15,17 @@ state = {
 		buildings = {
 			infrastructure = 6
 			air_base = 5
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 2
+			dockyard = 2
 			industrial_complex = 2
+			anti_air_building = 2
 			11751 = {
 				naval_base = 5
-				bunker = 1
 			}
 			11846 = {
 				naval_base = 2
-				bunker = 1
 			}
 			9904 = {
-				bunker = 4
 				coastal_bunker = 1
 			}
 		}
