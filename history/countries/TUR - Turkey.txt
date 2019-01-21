@@ -63,38 +63,38 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 1
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 10
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 4
+			popularity = 0
 		}
 		social_progressive = {
-			popularity = 3
+			popularity = 40
 		}
 		social_liberal = {
-			popularity = 18
+			popularity = 5
 		}
 		market_liberal = {
-			popularity = 1
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 16
+			popularity = 30
 		}
 		authoritarian_democrat = {
-			popularity = 26
+			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 8
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 10
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = social_progressive
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -138,9 +138,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "뷜렌트 에제비트"
+	picture = "Portrait_Turhan_Bulent_Ecevit.tga"
 	expire = "2000.1.1"
 	ideology = social_progressive_subtype
 	traits = {
@@ -150,9 +149,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "투르한 페이지오을루"
+	picture = "Portrait_Turhan_Feyzioglu.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -162,9 +160,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "에크렘 알리잔"
+	picture = "Portrait_Ekrem_Alican.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -174,9 +171,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "쉴레이만 데미렐"
+	picture = "Portrait_Suleyman_Demirel.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -186,9 +182,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "네즈메틴 에르바칸"
+	picture = "Portrait_Turhan_Necmettin_Erbakan.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -198,9 +193,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "오스만 4세"
-	desc = "Osman_IV_DESC"
-	picture = "Picture_Ottoman_Osman_IV.tga"
+	name = "멤두 타으마츠"
+	picture = "Portrait_Turhan_Memduh_Tagmac.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
