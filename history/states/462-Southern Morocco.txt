@@ -10,6 +10,8 @@ state = {
 
 		add_core_of = MAH
 		add_core_of = MOR
+		add_claim_by = SPR
+		
 		buildings = {
 			infrastructure = 2
 		}

@@ -9,6 +9,8 @@ state = {
 		owner = MAH
 		add_core_of = MAH
 		add_core_of = MOR
+		add_claim_by = SPR
+		
 		victory_points = {
 			7069 1
 		}
