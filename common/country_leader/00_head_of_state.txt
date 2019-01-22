@@ -216,8 +216,8 @@ leader_traits = {
 		trade_opinion_factor = 0.1
 		political_power_gain = -0.1
 		production_speed_industrial_complex_factor = 0.1
-		market_liberal_drift = 0.1
-		social_liberal_drift = 0.1
+		market_liberal_drift = 0.05
+		social_liberal_drift = 0.05
 
 		ai_will_do = {
 			factor = 1
