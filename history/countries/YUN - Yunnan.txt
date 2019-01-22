@@ -57,6 +57,8 @@ synth_oil_experiments = 1
 	
 }
 
+set_cosmetic_tag = YUN_KMT
+
 set_politics = {
 
 	parties = {
