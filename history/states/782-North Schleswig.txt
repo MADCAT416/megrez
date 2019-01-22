@@ -9,7 +9,7 @@ state = {
 		add_core_of = GER
 		add_core_of = DEN
 		buildings = {
-		radar_station = 1
+		
 		anti_air_building = 1
 			infrastructure = 6
 
