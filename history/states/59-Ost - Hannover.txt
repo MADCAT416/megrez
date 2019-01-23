@@ -27,7 +27,7 @@ state = {
 			infrastructure = 7
 			air_base = 5
 			dockyard = 8
-			radar_station = 1
+			
 			anti_air_building = 1
 			synthetic_refinery = 2
 			9347 = {
