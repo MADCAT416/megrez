@@ -1281,6 +1281,12 @@ technologies = {
 
 		show_equipment_icon = yes
 		
+		dependencies = {
+            heavy_rocket_engine_3 = 1
+            nukes_2 = 1
+            improved_computing_machine = 1
+        }
+
 		enable_equipments = {
 			guided_missile_equipment_1
 		}
