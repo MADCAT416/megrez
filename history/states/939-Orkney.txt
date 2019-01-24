@@ -6,10 +6,12 @@ state = {
 		owner = ENG
 		add_core_of = ENG
 		add_core_of = SCT
+		victory_points = { 13631 5 }
+		
 		buildings = {
 			infrastructure = 3
 			13631 = {
-				naval_base = 1
+				naval_base = 10
 			}
 		}
 	}
@@ -19,6 +21,5 @@ state = {
 	}
 
 	manpower = 21230
-	buildings_max_level_factor = 1
-	state_category = "wasteland"
+	state_category = "small_island"
 }
