@@ -12,6 +12,7 @@ state = {
 		add_core_of = FRA
 		add_core_of = OCC
 		buildings = {
+			radar_station = 2
 			infrastructure = 7
 			arms_factory = 2
 

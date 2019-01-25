@@ -8,7 +8,6 @@ state = {
 		add_claim_by = RUS
 		buildings = {
 			infrastructure = 6
-			radar_station = 1
 
 		}
 	}

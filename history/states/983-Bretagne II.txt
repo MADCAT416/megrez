@@ -21,6 +21,7 @@ state = {
 			6536 5
 		}
 		buildings = {
+			radar_station = 2
 			infrastructure = 6
 			dockyard = 3
 			air_base = 5

@@ -10,6 +10,8 @@ state = {
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
+			radar_station = 2
+			
 			7394 = {
 				naval_base = 3
 			}
