@@ -105,6 +105,34 @@ add_ideas = {
 	MON_The_7th_Changkya_Khutukhtu_sec_pau
 }
 
+### 몽장조약 ###
+diplomatic_relation = {
+	country = TIB
+	relation = guarantee
+	active = yes
+}
+
+diplomatic_relation = {
+	country = TIB
+	relation = non_aggression_pact
+	active = yes
+}
+
+### 만몽조약 ###
+diplomatic_relation = {
+	country = MAN
+	relation = guarantee
+	active = yes
+}
+
+diplomatic_relation = {
+	country = MAN
+	relation = non_aggression_pact
+	active = yes
+}
+
+### 국가원수 ###
+
 create_country_leader = {
 	name = "욤자깅 체뎅발"
 	desc = "Yumjaagiin_Tsedenbal_DESC"
