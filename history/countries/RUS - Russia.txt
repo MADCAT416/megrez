@@ -888,14 +888,21 @@ create_navy_leader = {
 
 MON = {
 
-add_opinion_modifier = {
-	target = MAN
-	modifier = MAN_and_MON
-}
 
+### 몽장조약 ###
+give_guarantee = TIB
+diplomatic_relation = { country = TIB relation = non_aggression_pact }
 add_opinion_modifier = {
 	target = TIB
 	modifier = MON_and_TIB
+}
+
+### 만몽조약 ###
+give_guarantee = MAN
+diplomatic_relation = { country = MAN relation = non_aggression_pact }
+add_opinion_modifier = {
+	target = MAN
+	modifier = MAN_and_MON
 }
 
 set_politics = {
@@ -1007,6 +1014,10 @@ set_politics = {
 
 MAN = {
 
+
+### 만몽조약 ###
+give_guarantee = MON
+diplomatic_relation = { country = MON relation = non_aggression_pact }
 add_opinion_modifier = {
 	target = MON
 	modifier = MAN_and_MON
@@ -1056,10 +1067,13 @@ set_politics = {
 
 TIB = {
 
+### 몽장조약 ###
+give_guarantee = MON
+diplomatic_relation = { country = MON relation = non_aggression_pact }
 add_opinion_modifier = {
-target = MON
-modifier = MON_and_TIB
-}
+	target = MON
+	modifier = MON_and_TIB
+	}
 
 set_politics = {
 
