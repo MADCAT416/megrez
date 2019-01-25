@@ -15,6 +15,11 @@ state = {
 
 			}
 		}
+		
+		victory_points = {
+			13475 1
+		}
+		
 		add_core_of = MEX
 
 	}

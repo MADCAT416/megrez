@@ -16,6 +16,10 @@ state = {
 		
 		add_core_of = MEX
 		add_claim_by = CSA
+		
+		victory_points = {
+			3834 3
+		}
 	}
 
 	provinces = {

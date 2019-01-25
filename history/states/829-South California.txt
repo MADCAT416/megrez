@@ -20,6 +20,10 @@ state = {
 		add_core_of = USA
 		add_core_of = CAL
 		add_claim_by = CSA
+		
+		victory_points = {
+			4518 3
+		}
 	}
 
 	provinces = {
