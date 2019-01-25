@@ -98,11 +98,8 @@ set_politics = {
 }
 
 add_ideas = {
-	#medium_economy
-	MON_Toegs_Ochiryn_Namnansueren_hog_ade
-	MON_Ferdynand_Ossendowski_for_ade
-	MON_Mikhail_Diterikhs_eco_pau
-	MON_The_7th_Changkya_Khutukhtu_sec_pau
+	mon_tib_treaty
+	man_mon_treaty
 }
 
 ### 국가원수 ###
