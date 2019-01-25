@@ -12,11 +12,11 @@ opinion_modifiers = {
 
 	###Gamestart###
 
-	KR_different_ideology = { value = -60 }
+	KR_different_ideology = { value = -50 }
 	KR_similar_ideology = { value = 20 }
 	KR_same_ideology = { value = 40 }
 	KR_factional_rivalry = { value = -60 }
-   revolutionary_rivalry = { value = -30 }
+	revolutionary_rivalry = { value = -30 }
 	colonial_master = { value = 100 }
 	FNG_COMMON_ALIGNMENT = { value = 70 }
 	vladivostok_puppet = {value = 50}
@@ -26,8 +26,8 @@ opinion_modifiers = {
 	}
 	LEC_member = {value = 50}
 	nemesis = {value = -100}
-	KOR_to_JAP = {value = -70}
-	KOR_to_SQI = {value = -70}
-	MAN_and_MON = {value = 75}
-	MON_and_TIB = {value = 75}
+	KOR_to_JAP = {value = -80}
+	KOR_to_SQI = {value = -80}
+	MAN_and_MON = {value = 80}
+	MON_and_TIB = {value = 80}
 }
