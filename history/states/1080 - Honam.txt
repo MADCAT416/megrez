@@ -1,0 +1,22 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+	manpower = 6675000
+
+	state_category = town
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 4
+			
+		}
+		victory_points = {
+			12085 1 #광주
+		}
+		
+	}
+	provinces = {
+		11948 10110 12085 4126 11977 1054
+	}
+}

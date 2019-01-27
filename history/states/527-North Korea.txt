@@ -1,8 +1,8 @@
 state = {
 	id = 527
 	name = "STATE_527"
-	manpower = 6774200
-	state_category = metropolis
+	manpower = 9780000
+	state_category = large_city
 	resources = {
 		steel = 30
 		tungsten = 52
@@ -18,29 +18,21 @@ state = {
 			4052 = {
 				naval_base = 3
 			}
-			6928 = {
-				naval_base = 3
-			}
-			6944 = {
-				naval_base = 3
-			}
+			
+			
 			radar_station = 2
 			air_base = 3
 			anti_air_building = 2
 		}
 
 		victory_points = {
-			4052 3
+			4052 3 #평양
 		}
-		victory_points = {
-			6928 1
-		}
-		victory_points = {
-			6944 1
-		}
+		
+		
 	}
 
 	provinces = {
-		848 852 898 906 912 959 978 1003 3803 3852 3860 3904 3912 3981 4052 4107 6822 6922 6928 6944 6963 7070 7155 7171 9790 9795 9899 9918 9981 10065 10083 11770 11775 11828 11835 11878 11896 11915 12040
+		912 978 3912 4052 7171 9790 9795 9918 11770 11835 11896 
 	}
 }

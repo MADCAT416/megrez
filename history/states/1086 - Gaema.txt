@@ -1,0 +1,26 @@
+state = {
+	id = 1086
+	name = "STATE_1086"
+	manpower = 2020000
+
+	state_category = pastoral
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 1
+			
+			
+		}
+		victory_points = {
+			3860 1 #삼수갑산
+		}
+		victory_points = {
+			6963 1 #강계
+		}
+		
+	}
+	provinces = {
+		3860 3803 11878 9899 3904 906 6963 11775 11828 
+	}
+}
