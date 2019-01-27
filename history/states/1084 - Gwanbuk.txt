@@ -4,11 +4,16 @@ state = {
 	manpower = 5320000
 
 	state_category = city
+	resources = {
+		tungsten = 20
+	}
+	
 	history = {
 		owner = KOR
 		add_core_of = KOR
 		buildings = {
 			infrastructure = 6
+			arms_factory = 4
 			
 			6928 = {
 				naval_base = 3

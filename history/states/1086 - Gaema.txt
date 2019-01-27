@@ -2,7 +2,9 @@ state = {
 	id = 1086
 	name = "STATE_1086"
 	manpower = 2020000
-
+	resources = {
+		tungsten = 15
+	}
 	state_category = pastoral
 	history = {
 		owner = KOR
@@ -10,7 +12,8 @@ state = {
 		buildings = {
 			infrastructure = 1
 			
-			
+			radar_station = 2
+
 		}
 		victory_points = {
 			3860 1 #삼수갑산

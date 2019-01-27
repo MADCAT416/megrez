@@ -2,14 +2,16 @@ state = {
 	id = 1085
 	name = "STATE_1085"
 	manpower = 4420000
-
+	resources = {
+		tungsten = 10
+	}
 	state_category = town
 	history = {
 		owner = KOR
 		add_core_of = KOR
 		buildings = {
 			infrastructure = 4
-			
+			industrial_complex = 3
 			
 		}
 		victory_points = {

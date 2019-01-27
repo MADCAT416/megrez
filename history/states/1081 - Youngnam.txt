@@ -9,7 +9,10 @@ state = {
 		add_core_of = KOR
 		buildings = {
 			infrastructure = 4
-			
+			industrial_complex = 2
+			dockyard = 1
+
+
 		}
 		victory_points = {
 			12089 1 #머구
