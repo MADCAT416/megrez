@@ -104,7 +104,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "제임스 L. 버클리"
+	name = "제임스 레인 버클리"
 	desc = "James_L_Buckley_DESC"
 	picture = "Portrait_NEE_James_L_Buckley.tga"
 	expire = "2000.1.1"
@@ -112,7 +112,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "윌리엄 H. 메이어"
+	name = "윌리엄 헨리 메이어"
 	desc = "William_H_Meyer_DESC"
 	picture = "Portrait_NEE_William_H_Meyer.tga"
 	expire = "2000.1.1"
@@ -120,7 +120,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "존 F. 케네디"
+	name = "존 피츠제럴드 케네디"
 	desc = "John_F_Kennedy_DESC"
 	picture = "Portrait_NEE_John_F_Kennedy.tga"
 	expire = "2000.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "넬슨 록펠러"
+	name = "넬슨 앨드리치 록펠러"
 	desc = "Nelson_Rockefeller_DESC"
 	picture = "Portrait_NEE_Nelson_Rockefeller.tga"
 	expire = "2000.1.1"
