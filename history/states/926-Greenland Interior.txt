@@ -6,7 +6,7 @@ state = {
 		owner = DEN
 		buildings = {
 			infrastructure = 0
-			radar_station = 4
+			
 
 		}
 		add_core_of = DEN
@@ -14,7 +14,7 @@ state = {
 	}
 
 	provinces = {
-		13607 13613 13621 13623
+		13607 13613 13621
 	}
 	manpower = 1060
 	buildings_max_level_factor = 1
