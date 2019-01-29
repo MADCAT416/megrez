@@ -9,6 +9,10 @@ state = {
 		owner = FIN
 		add_core_of = FIN
 		add_claim_by = RUS
+		victory_points = {
+			9140 1
+		}
+		
 		buildings = {
 			infrastructure = 3
 			9140 = {
