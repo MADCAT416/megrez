@@ -5,6 +5,8 @@ state = {
 	history = {
 		owner = NOR
 		add_core_of = NOR
+		victory_points = { 64 1 }
+
 		buildings = {
 			infrastructure = 3
 			radar_station = 2

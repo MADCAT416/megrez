@@ -23,7 +23,7 @@ state = {		#Jerusalem
 	}
 
 	provinces = {
-		1086 4088 4206
+		1086 1015 4088 4206 1201 7107 1065 7176 11970
 	}
 	manpower = 674168
 	buildings_max_level_factor = 1

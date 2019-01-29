@@ -3,22 +3,22 @@ state = {		#Ma'an
 	name = "STATE_455"
 
 	history = {
-		owner = OTT
+		owner = JBS
 		buildings = {
 			infrastructure = 3
 
 		}
 		victory_points = {
-			7151 1
+			7151 5
 		}
-		add_core_of = OTT
-		add_core_of = JOR
+		add_core_of = JBS
+		add_claim_by = SAU
 	}
 
 	provinces = {
-		1 1015 4017 4115 7176 10089 11970
+		1 4017 7151 7001 7170 1544 4440 4574 4562 4591 4603 11976 10089
 	}
 	manpower = 97820
 	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = town
 }

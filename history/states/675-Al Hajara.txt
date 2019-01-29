@@ -12,8 +12,10 @@ state = {
 			infrastructure = 1
 
 		}
-		add_core_of = JBS
-		add_core_of = SAU
+		add_claim_by = JBS
+		add_claim_by = SAU
+		add_core_of = SYR
+
 	}
 
 	provinces = {

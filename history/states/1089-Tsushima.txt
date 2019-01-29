@@ -1,0 +1,27 @@
+state = {
+	id = 1089
+	name = "STATE_1089" 
+	manpower = 32000
+	state_category = small_island
+	resources = {
+		
+	}
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		add_claim_by = KOR
+		buildings = {
+			infrastructure = 1
+			
+		}
+		
+		victory_points = {
+			10011 1
+		}
+	}
+
+	provinces = {
+		10011
+	}
+}
