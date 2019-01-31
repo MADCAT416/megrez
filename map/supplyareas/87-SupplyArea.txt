@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 supply_area={
 	id=87
@@ -6,13 +5,5 @@ supply_area={
 	value=2
 	states={
 		101 926 1087 
-=======
-supply_area = {
-	id = 87
-	name = "SUPPLYAREA_87"
-	value = 2
-	states = {
-		101 926 1087
->>>>>>> 063762f8e911c60e833c03e5028b184fe57ea143
 	}
 }
