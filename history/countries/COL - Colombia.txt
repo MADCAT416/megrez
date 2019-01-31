@@ -130,8 +130,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "가브리엘 파리스 고르디요"
-	desc = "Gabriel_París_Gordillo_DESC"
-	picture = "Portrait_Columbia_Gabriel_París_Gordillo.tga"
+	desc = "Gabriel_Paris_Gordillo_DESC"
+	picture = "Portrait_Columbia_Gabriel_Paris_Gordillo.tga"
 	expire = "2000.1.1"
 	ideology = national_populist_subtype
 	traits = {}

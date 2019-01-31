@@ -173,7 +173,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "에프라인 리오스 몬트"
-	picture = "Portrait_GUA_Efraín_Ríos_Montt.tga"
+	picture = "Portrait_GUA_Efrain_Rios_Montt.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
@@ -181,7 +181,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "에프라인 리오스 몬트"
-	picture = "Portrait_GUA_Efraín_Ríos_Montt.tga"
+	picture = "Portrait_GUA_Efrain_Rios_Montt.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
