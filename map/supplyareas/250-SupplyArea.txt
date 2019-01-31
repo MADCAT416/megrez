@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 supply_area={
 	id=250
@@ -5,5 +6,13 @@ supply_area={
 	value=10
 	states={
 		528 530 529 1089 
+=======
+supply_area = {
+	id = 250
+	name = "SUPPLYAREA_250"
+	value = 10
+	states = {
+		528 530 529 1089
+>>>>>>> 063762f8e911c60e833c03e5028b184fe57ea143
 	}
 }

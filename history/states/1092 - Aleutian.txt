@@ -1,16 +1,12 @@
 state = {
-	id = 463
-	name = "STATE_463"
+	id = 1092
+	name = "STATE_1092"
 
 	history = {
 		owner = CAN
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			13091 = {
-				naval_base = 1
-
-			}
+			infrastructure = 0
+			
 		}
 		add_core_of = USA
 		add_core_of = CAN
@@ -31,9 +27,9 @@ state = {
 	}
 
 	provinces = {
-		1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13091 13202 13203
+		1135 13090 
 	}
-	manpower = 67500
+	manpower = 500
 	
-	state_category = "rural"
+	state_category = "small_island"
 }
