@@ -1,19 +1,25 @@
-﻿news_event = {
+﻿add_namespace =  NewsEvents
 
-	id = Lise_Meitner_dead
-    title = Lise_Meitner_dead.t 
-    desc = Lise_Meitner_dead.d 
+news_event = {
+
+	id = NewsEvents.681027
+    title = NewsEvents.681027.t 
+    desc = NewsEvents.681027.d 
 	picture = GFX_report_event_Lise_Meitner_dead
 	major = yes 
 	fire_only_once = yes
 
 	trigger = {
-		date > 1968.01.02
-		always = yes
+		date > 1968.1.2
 	}
+	
+	mean_time_to_happen = {
+        days = 1
+    }
 
 	option = { 
-		name = Lise_Meitner_dead_option.1.a 
+		name = NewsEvents.681027.a 
+		set_country_flag = Lise_Meitner_dead
 	}
 }
 
