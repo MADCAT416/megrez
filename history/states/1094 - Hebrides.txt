@@ -1,0 +1,29 @@
+state = {
+	id = 1094
+	name = "STATE_1094"
+	manpower = 15300
+
+	state_category = small_island
+
+	resources = {
+		
+	}
+
+	history = {
+		owner = ENG
+		add_core_of = SCT
+		
+		buildings = {
+			infrastructure = 1
+			anti_air_building = 1
+			radar_station = 3
+			air_base = 1
+			
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		3373 11266 3178 6062 
+	}
+}
