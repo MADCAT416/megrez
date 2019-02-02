@@ -4,7 +4,7 @@
 undistinguished_suit:0 "평범한 중역"
 grand_protector:0 "위대한 호국경"
 
-### Head of Government ###
+### 정부수반 ###
 hog_ambitious_union_boss:0 "야심찬 노조위원장"
 hog_backroom_backstabber:0 "막후 중상가"
 hog_corporate_suit:0 "기업 중역"
@@ -34,7 +34,7 @@ hog_totalist_chairman:0 "전체주의 주석"
 hog_gentleman_politician:0 "신사 정치인"
 hog_supreme_ruler:0 "최고존엄"
 
-### Economy Minister ###
+### 경제장관 ###
 eco_administrative_genius:0 "행정의 천재"
 eco_army_reform_committee:0 "육군개혁위원회"
 eco_balanced_budget_economy:0 "균형예산경제"
@@ -69,7 +69,7 @@ eco_army_reform_committee:0 "육군개혁위원회"
 eco_the_minister_for_everything:0 "모든 것을 위한 각료"
 eco_vernacular_industrialiser:0 "토착 기업가"
 
-### Foreign Minister ###
+### 외무장관 ###
 for_biased_intellectual:0 "편향된 지식인"
 for_ideological_crusader:0 "이념십자군"
 for_apologetic_clerk:0 "변명하는 사무직원"
@@ -78,7 +78,7 @@ for_great_compromiser:0 "위대한 협상가"
 for_general_staffer:0 "군 참모 출신"
 for_the_cloak_n_dagger_schemer:0 "염탐하는 책략가"
 
-### Security Minister ###
+### 내무장관 ###
 sec_back_stabber:0 "중상가"
 sec_compassionate_gentleman:0 "연민어린 신사"
 sec_crime_fighter:0 "범죄와의 전쟁"
@@ -93,7 +93,7 @@ sec_secret_police_chief:0 "비밀경찰총수"
 sec_silent_lawyer:0 "조용한 율사"
 sec_preserver_of_culture:0 "문화의 수호자"
 
-### Intelligence Minister ###
+### 정보총수 ###
 int_technical_specialist:0 "기술 전문가"
 int_logistics_specialist:0 "물류 전문가"
 int_political_specialist:0 "정치 전문가"
@@ -150,8 +150,7 @@ war_industrialist:0 "전시 기업가"
 captain_of_industry:0 "대실업가"
 armaments_organizer:0 "군비 조직가"
 quartermaster_general:0 "병참감"
-rocket_scientist:0 "로켓과학자"
-nuclear_scientist:0 "핵과학자"
+
 blitzkrieg_theorist:0 "전격전 이론가"
 military_theorist:0 "군사이론가"
 air_warfare_theorist:0 "공중전 이론가"
@@ -437,3 +436,10 @@ shindon:0 "성난 중"
 stone_underhead:0 "민족중흥의 사명"
 treacherous:0 "음흉한 인물"
 union_chair:0 "노총 주석"
+
+### 이론가 ###
+military_theorist:0 "군사이론가"
+industry_theorist:0 "산업이론가"
+nuclear_theorist:0 "핵물리학자"
+rocket_theorist:0 "로켓공학자"
+electronic_theorist:0 "전자공학자"

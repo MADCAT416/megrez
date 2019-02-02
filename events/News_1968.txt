@@ -29,7 +29,7 @@ news_event = {
     title = News_1968.10272.title
     desc = News_1968.10272.desc
 	
-	picture = GFX_report_event_Lise_Meitner_dead
+	picture = GFX_event_Lise_Meitner_dead
 	major = yes 
     is_triggered_only = yes
 	
@@ -38,13 +38,28 @@ news_event = {
 
 	option = { 
 		name = News_1968.10272.a 
-		trigger = { tag = GER }
+		trigger = { 
+			tag = GER 
+			NOT = { tag = RUS }
+		}
 		set_country_flag = Lise_Meitner_dead
 	}
 	
 	option = { 
 		name = News_1968.10272.b
-		trigger = { NOT = { tag = GER } }
+		trigger = { 
+			NOT = { tag = GER } 
+			NOT = { tag = RUS } 
+		}
+		set_country_flag = Lise_Meitner_dead
+	}
+	
+	option = { 
+		name = News_1968.10272.c 
+		trigger = { 
+			tag = RUS 
+			NOT = { tag = GER }
+		}
 		set_country_flag = Lise_Meitner_dead
 	}
 }
