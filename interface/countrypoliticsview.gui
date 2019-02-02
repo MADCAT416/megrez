@@ -95,7 +95,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "ruling_party_info"
 			position = { x = 88 y = 305 }
-			size = { width = 175 height = 60 }
+			size = { width = 255 height = 60 }
 			clipping = no
 					
 #			instantTextboxType = {
@@ -389,7 +389,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 471 }
+			position = { x = 0 y = 500 }
 			size = { width=100%% height=95%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 14 bottom = 13}
