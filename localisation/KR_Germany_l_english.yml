@@ -170,6 +170,23 @@ Adolf_von_Thadden_desc:0 ""
 Ferdinand_I_desc:0 ""
 Augustin_Souchy_desc:0 ""
 
+### 내각 ###
+
+### 군부 ###
+GER_Walter_Model_cos_mli:0 "발터 모델"
+GER_Hans_Speidel_cos_sco:0 "한스 슈파이델"
+GER_Adolf_Heusinger_cos_ade:0 "아돌프 호이징거"
+GER_Eberhard_Von_Mackensen_cos_pau:0 "에버하르트 폰 마켄젠"
+    
+GER_Karl_Doenitz_cnav_sco:0 "카를 되니츠"
+   
+GER_Wolfram_Freiherr_von_Richthofen_cair_mil:0 "볼프람 폰 리히트호펜 남작"
+GER_Hans_Juergen_Stumpff_cair_npo:0 "한스위르겐 슈툼프"
+GER_Hans_Jeschonnek_mil:0 "한스 예쇼네크"
+GER_Johannes_Steinhoff_cair_mli:0 "요하네스 슈타인호프"
+GER_Gunther_Rall_cair_mli:0 "귄터 랄"
+GER_HansUlrich_Rudel_cair_mil:0 "한스울리히 루델"
+
 ### 국민정신 ###
 
 GER_heilige_liga:0 "신성동맹"

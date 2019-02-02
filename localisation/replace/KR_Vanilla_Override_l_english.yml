@@ -111,3 +111,10 @@ nuclear_reactor:0 "원자로"
 nuclear_reactors:0 "원자로"
 infrastructure:0 "기반시설"
 radar_station:0 "레이다"
+
+
+### 인명
+GER_Hans_Speidel_cos_sco:0 "한스 슈파이델"
+GER_Adolf_Heusinger_cos_ade:0 "아돌프 호이징거"
+GER_Hans_Juergen_Stumpff_cair_npo:0 "한스위르겐 슈툼프"
+GER_Karl_Doenitz_cnav_sco:0 "카를 되니츠"
