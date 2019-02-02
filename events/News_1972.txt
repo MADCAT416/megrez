@@ -1,0 +1,87 @@
+add_namespace =  News_1972
+
+### 1972년 11월 21일...
+
+news_event = {
+
+	id = News_1972.11211
+	hidden = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 1 }
+	trigger = {
+		date > 1972.11.21
+		OR = {
+			KOR = { has_government = national_populist }
+			KOR = { has_government = authoritarian_democrat }
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { tag = KOR }
+			country_event = { id = korea.7211 }
+		}
+		else = {
+			news_event = { id = News_1972.11212 }
+		}
+	}
+
+	option = { 
+		name = News_1972.11211.a 
+	}
+}
+
+news_event = {
+
+	id = News_1972.11212	
+    title = News_1972.11212.title
+    desc = News_1972.11212.desc
+	
+	picture = GFX_yaninshidae
+	major = yes 
+    is_triggered_only = yes
+	
+	immediate = {
+		}
+
+	option = { 
+		name = News_1972.11212.a
+		trigger = { 
+			NOT = { tag = KOR } 
+			OR = {
+			has_government = social_progressive 
+			has_government = social_liberal 
+			has_government = market_liberal 
+			has_government = social_conservative 
+			has_government = authoritarian_democrat 
+			}
+		}
+	}
+	
+	option = { 
+		name = News_1972.11212.b
+		trigger = { 
+			NOT = { tag = KOR } 
+			OR = {
+			has_government = totalist
+			has_government = syndicalist
+			has_government = democratic_socialist
+			}
+		}
+	}
+
+	option = { 
+		name = News_1972.11212.c
+		trigger = { 
+			NOT = { tag = KOR } 
+			OR = {
+			has_government = national_populist
+			has_government = paternal_autocrat
+			}
+		}
+	}
+
+}
+

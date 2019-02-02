@@ -1,0 +1,35 @@
+﻿add_namespace = korea
+
+country_event = {
+	id = korea.7211
+	title = News_1972.11212.title
+	desc = News_1972.11212.desc
+	picture = GFX_yaninshidae
+    is_triggered_only = yes
+
+	option = { 
+		name = korea.7211.a 
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+	}
+	option = { 
+		name = korea.7211.b
+		add_political_power = -10
+		add_stability = -0.05
+		add_popularity = {
+			ideology = national_populist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.05
+		}
+	}
+	
+}
