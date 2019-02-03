@@ -829,7 +829,7 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 9667 6710  }
+	required_provinces = { 9667 9711 }
 
 	icon = 9667
 	offset = { 0 0 0 }
@@ -869,7 +869,7 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 9724 9711  }
+	required_provinces = { 9724 6710 }
 
 	icon = 9724
 	offset = { 0 0 0 }
