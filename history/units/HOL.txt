@@ -1,0 +1,202 @@
+﻿division_template = {
+	name = "근위척탄엽병사단"
+
+	regiments = {
+		heliborne = { x = 0 y = 0 }
+		heliborne = { x = 0 y = 1 }
+		heliborne = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "경보병사단"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "기계화보병사단"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "기갑사단"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "포병사단"
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		motorized_rocket_brigade = { x = 1 y = 0 }
+		motorized_rocket_brigade = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "공수사단"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "해병대"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "근위척탄엽병사단"
+		location = 391
+		division_template = "근위척탄엽병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1공수사단"
+		location = 9363
+		division_template = "공수사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1경보병사단"
+		location = 6496
+		division_template = "경보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1기계화보병사단"
+		location = 9403
+		division_template = "기계화보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2기계화보병사단"
+		location = 13660
+		division_template = "기계화보병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1기갑사단"
+		location = 6446
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1포병사단"
+		location = 9574
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제2포병사단"
+		location = 13659
+		division_template = "포병사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1해병여단"
+		location = 9431
+		division_template = "해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+}
