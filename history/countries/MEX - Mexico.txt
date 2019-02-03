@@ -1,5 +1,5 @@
 ﻿capital = 277
-oob = "empty"
+oob = "MEX"
 set_convoys = 40
 
 set_technology = {

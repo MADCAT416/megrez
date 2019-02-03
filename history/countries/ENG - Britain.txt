@@ -1,6 +1,6 @@
 ﻿capital = 126
 
-oob = "empty"
+oob = "ENG"
 
 set_research_slots = 4
 

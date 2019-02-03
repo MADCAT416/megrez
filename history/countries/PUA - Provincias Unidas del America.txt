@@ -1,5 +1,5 @@
 ﻿capital = 317
-#OOB = "empty"
+#OOB = "PUA"
 set_convoys = 20
 set_research_slots = 3
 set_technology = {

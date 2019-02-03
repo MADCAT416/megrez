@@ -1,5 +1,5 @@
 ﻿capital = 272
-oob = "empty"
+oob = "WAF"
 set_research_slots = 2
 # Starting tech #same as GER
 set_technology = {

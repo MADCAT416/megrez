@@ -1,5 +1,5 @@
 ﻿capital = 303
-oob = "empty"
+oob = "PRU"
 set_convoys = 30
 set_research_slots = 3
 set_technology = {

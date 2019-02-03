@@ -1,4 +1,5 @@
 ﻿capital = 1020 #Jakara
+oob = "INS"
 
 set_research_slots = 2
 

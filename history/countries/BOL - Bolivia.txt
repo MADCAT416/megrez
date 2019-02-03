@@ -1,5 +1,5 @@
 ﻿capital = 302
-oob = "empty"
+oob = "BOL"
 set_research_slots = 2
 
 add_ideas = {

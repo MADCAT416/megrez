@@ -1,5 +1,5 @@
 ﻿capital = 113
-oob = "empty"
+oob = "IRE"
 set_convoys = 30
 set_stability = 0.5
 set_war_support = 0.4

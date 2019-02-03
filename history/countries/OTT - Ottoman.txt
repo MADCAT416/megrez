@@ -1,5 +1,5 @@
 ﻿capital = 773
-oob = "empty"
+oob = "OTT"
 set_stability = 0.4
 
 set_technology = {

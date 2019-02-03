@@ -1,5 +1,6 @@
 ﻿capital = 305
-oob = "empty"
+oob = "ECU"
+
 set_research_slots = 3
 set_technology = {
 infantry_weapons_1 = 1

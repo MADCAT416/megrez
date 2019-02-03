@@ -1,6 +1,6 @@
 ﻿capital = 46
 
-oob = "empty"
+oob = "RRM"
 
 set_research_slots = 3
 

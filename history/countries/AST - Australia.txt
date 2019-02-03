@@ -1,5 +1,5 @@
 ﻿capital = 985
-oob = "empty"
+oob = "AST"
 
 set_technology = {
 infantry_weapons_1 = 1

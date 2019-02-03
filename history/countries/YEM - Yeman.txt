@@ -1,6 +1,6 @@
 ﻿capital = 293
 
-oob = "empty"
+oob = "YEM"
 
 add_ideas = {
 

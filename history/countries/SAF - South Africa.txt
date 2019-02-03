@@ -1,5 +1,5 @@
 ﻿capital = 275
-oob = "empty"
+oob = "SAF"
 
 set_convoys = 40
 set_research_slots = 3

@@ -1,6 +1,6 @@
 ﻿capital = 689 #Jamaica
 
-oob = "empty"
+oob = "CAF"
 
 set_technology = {
 infantry_weapons_1 = 1

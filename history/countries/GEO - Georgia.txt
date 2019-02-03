@@ -1,6 +1,6 @@
 ﻿capital = 231
 
-oob = "empty"
+oob = "GEO"
 
 set_technology = {
 infantry_weapons_1 = 1
