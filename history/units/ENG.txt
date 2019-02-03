@@ -325,7 +325,7 @@ units = {
 	division = {
 		name = "제1공정단"
 		location = 9239
-		division_template = "공수사단"
+		division_template = "공정부대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}	
@@ -333,7 +333,7 @@ units = {
 	division = {
 		name = "제2공정단"
 		location = 3589
-		division_template = "공수사단"
+		division_template = "공정부대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}	
