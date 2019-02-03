@@ -1,0 +1,229 @@
+﻿division_template = {
+	name = "IRA"
+	template_counter = 60
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+	
+	support = {
+		military_police  = { x = 0 y = 0 }
+		logistics_company  = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "케헤른"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "갈로글라"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "전차대"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "포병대"
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		anti_air_brigade = { x = 1 y = 0 }
+		anti_air_brigade = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "피어노글라"
+	template_counter = 37
+
+	regiments = {
+		heliborne = { x = 0 y = 0 }
+		heliborne = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "해병대"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "피어너 울라"
+		location = 3242
+		division_template = "IRA"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "피어너 라긴"
+		location = 3342
+		division_template = "IRA"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "피어너 무운"
+		location = 11267
+		division_template = "IRA"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "피어너 코나크타"
+		location = 11287
+		division_template = "IRA"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "피어노글라"
+		location = 11293
+		division_template = "피어노글라"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제1해병여단"
+		location = 11834
+		division_template = "해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1케헤른"
+		location = 3961
+		division_template = "케헤른"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제2케헤른"
+		location = 6784
+		division_template = "케헤른"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제1갈로글라"
+		location = 3655
+		division_template = "갈로글라"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제2갈로글라"
+		location = 3589
+		division_template = "갈로글라"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제1전차사단"
+		location = 11611
+		division_template = "전차대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제1포병사단"
+		location = 956
+		division_template = "포병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}

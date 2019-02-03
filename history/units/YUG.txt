@@ -16,15 +16,15 @@
 }
 
 division_template = {
-	name = "기계화소총병사단"
+	name = "차량화소총병사단"
 
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
 		light_armor = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 1 }
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
@@ -105,7 +105,7 @@ units = {
 
 	division = {
 		name = "제1차량화소총병사단"
-		location = 935
+		location = 11899
 		division_template = "차량화소총병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -113,15 +113,7 @@ units = {
 
 	division = {
 		name = "제2차량화소총병사단"
-		location = 6952
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3차량화소총병사단"
-		location = 907
+		location = 11581
 		division_template = "차량화소총병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -129,7 +121,7 @@ units = {
 
 	division = {
 		name = "제1포병사단"
-		location = 649
+		location = 11586
 		division_template = "포병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -137,7 +129,7 @@ units = {
 
 	division = {
 		name = "제2포병사단"
-		location = 3882
+		location = 11887
 		division_template = "포병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -145,17 +137,10 @@ units = {
 
 	division = {
 		name = "제1해병사단"
-		location = 9783
+		location = 3868
 		division_template = "해병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "제2해병사단"
-		location = 9635
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 }

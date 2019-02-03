@@ -264,7 +264,7 @@ units = {
 
 	division = {
 		name = "프로방스 인민위병"
-		location = 11834
+		location = 911
 		division_template = "인민위병"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -429,4 +429,85 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
+	
+	division = {
+		name = "제21경기갑사단"
+		location = 3646
+		division_template = "경기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제22경기갑사단"
+		location = 9590
+		division_template = "경기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제23경기갑사단"
+		location = 3509
+		division_template = "경기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제24경기갑사단"
+		location = 11720
+		division_template = "경기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제25경기갑사단"
+		location = 3669
+		division_template = "경기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제26낙하산사단"
+		location = 3534
+		division_template = "낙하산사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제27강습사단"
+		location = 11463
+		division_template = "헬기강습사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제28기갑사단"
+		location = 6644
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제29기갑사단"
+		location = 11606
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "제30기갑사단"
+		location = 629
+		division_template = "기갑사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
 }

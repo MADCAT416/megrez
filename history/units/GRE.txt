@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "소총병사단"
+	name = "보병사단"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -16,15 +16,15 @@
 }
 
 division_template = {
-	name = "기계화소총병사단"
+	name = "기계화보병사단"
 
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
 		light_armor = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 1 }
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
@@ -34,7 +34,7 @@ division_template = {
 }
 
 division_template = {
-	name = "전차사단"
+	name = "기갑사단"
 
 	regiments = {
 		modern_armor = { x = 0 y = 0 }
@@ -54,11 +54,11 @@ division_template = {
 
 	regiments = {
 		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		motorized_rocket_brigade = { x = 1 y = 0 }
+		motorized_rocket_brigade = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
 		motorized_rocket_brigade = { x = 1 y = 1 }
-		motorized_rocket_brigade = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
 	}
 	support = {
 		signal_company = { x = 0 y = 0 }
@@ -68,7 +68,7 @@ division_template = {
 }
 
 division_template = {
-	name = "공수사단"
+	name = "공수부대"
 
 	regiments = {
 		paratrooper = { x = 0 y = 0 }
@@ -85,76 +85,78 @@ division_template = {
 }
 
 division_template = {
-	name = "해병사단"
-
+	name = "해병대"
+	
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
 		marine = { x = 1 y = 0 }
 		marine = { x = 1 y = 1 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
-}
 
+}
 units = {
 
 	division = {
-		name = "제1차량화소총병사단"
-		location = 935
-		division_template = "차량화소총병사단"
+		name = "제1보병사단"
+		location = 966
+		division_template = "보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제2차량화소총병사단"
-		location = 6952
-		division_template = "차량화소총병사단"
+		name = "제2기계화보병사단"
+		location = 936
+		division_template = "기계화보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제3차량화소총병사단"
-		location = 907
-		division_template = "차량화소총병사단"
+		name = "제3기계화보병사단"
+		location = 13633
+		division_template = "기계화보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제1포병사단"
-		location = 649
-		division_template = "포병사단"
+		name = "제4기계화보병사단"
+		location = 11905
+		division_template = "기계화보병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제2포병사단"
-		location = 3882
-		division_template = "포병사단"
+		name = "제5기갑사단"
+		location = 9930
+		division_template = "기갑사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제1해병사단"
-		location = 9783
-		division_template = "해병사단"
+		name = "제1해병여단"
+		location = 8435
+		division_template = "해병대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제2해병사단"
-		location = 9635
-		division_template = "해병사단"
+		name = "제2해병여단"
+		location = 3401
+		division_template = "해병대"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "제1공수여단"
+		location = 7193
+		division_template = "공수부대"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
