@@ -45,16 +45,14 @@ ideas = {
 					tooltip = minister_available
 					national_populist_allowed = yes
 					NOT = { has_country_flag = Chang_Chun_Ha_dead }
-					NOT = { has_government = authoritarian_democrat }
-					NOT = { has_government = national_populist }
+					NOT = { has_country_leader = { name = "장준하" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				national_populist_allowed = yes
 				NOT = { has_country_flag = Chang_Chun_Ha_dead }
-				NOT = { has_government = authoritarian_democrat }
-				NOT = { has_government = national_populist }
+				NOT = { has_country_leader = { name = "장준하" } }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Chang_Chun_Ha_hog_nat"
@@ -67,7 +65,195 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 
-	
+		KOR_Kim_Dae_Jung_hog_lib = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Kim_Dae_Jung_dead }
+					NOT = { has_country_leader = { name = "김대중" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Kim_Dae_Jung_dead }
+				NOT = { has_country_leader = { name = "김대중" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Dae_Jung_hog_lib"
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				honeysuckle
+			}
+			cancel_if_invalid = yes
+		}
+
+		KOR_Kim_Young_Sam_hog_mar = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					market_liberal_allowed = yes
+					NOT = { has_country_flag = Kim_Young_Sam_dead }
+					NOT = { has_country_leader = { name = "김영삼" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = { has_country_flag = Kim_Young_Sam_dead }
+				NOT = { has_country_leader = { name = "김영삼" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Young_Sam_hog_mar"
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		KOR_Kim_Jong_Pil_hog_pro = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_progressive_allowed = yes
+					NOT = { has_country_flag = Kim_Jong_Pil_dead }
+					NOT = { has_country_leader = { name = "김종필" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_progressive_allowed = yes
+				NOT = { has_country_flag = Kim_Jong_Pil_dead }
+				NOT = { has_country_leader = { name = "김종필" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Jong_Pil_hog_pro"
+			}
+			traits = {
+				head_of_government
+				social_progressive
+				treacherous
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Lee_Chul_Seung_hog_con = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_conservative_allowed = yes
+					NOT = { has_country_flag = Lee_Chul_Seung_dead }
+					NOT = { has_country_leader = { name = "이철승" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = { has_country_flag = Lee_Chul_Seung_dead }
+				NOT = { has_country_leader = { name = "이철승" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Lee_Chul_Seung_hog_con"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hoodlum
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Yoon_Se_ju_hog_syn = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Yoon_Se_ju_dead }
+					NOT = { has_country_leader = { name = "윤세주" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Yoon_Se_ju_dead }
+				NOT = { has_country_leader = { name = "윤세주" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yoon_Se_ju_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_respected_war_hero
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Ho_Jong_Suk_hog_dem = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Ho_Jong_Suk_dead }
+					NOT = { has_country_leader = { name = "허정숙" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Ho_Jong_Suk_dead }
+				NOT = { has_country_leader = { name = "허정숙" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Ho_Jong_Suk_hog_dem"
+			}
+			traits = {
+				head_of_government
+				democratic_socialist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_So_Man_Sul_hog_tot = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					totalist_allowed = yes
+					NOT = { has_country_flag = So_Man_Sul_dead }
+					NOT = { has_country_leader = { name = "서만술" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				totalist_allowed = yes
+				NOT = { has_country_flag = So_Man_Sul_dead }
+				NOT = { has_country_leader = { name = "서만술" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_So_Man_Sul_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_local_tyrant
+			}
+			cancel_if_invalid = yes
+		}
+		
 		KOR_Kim_HongIl_hog_nat = {
 			allowed = { original_tag = KOR }
 			available = {
@@ -343,6 +529,33 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
+		KOR_Choi_Sunyoung_hog_syn = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Choi_Sunyoung_dead }
+					NOT = { has_country_leader = { name = "최순영" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Choi_Sunyoung_dead }
+				NOT = { has_country_leader = { name = "최순영" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Sunyoung_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				triumphant_revolutionary
+			}
+			cancel_if_invalid = yes
+		}
+		
 		KOR_Yeo_Jeongnam_hog_syn = {
 			allowed = { original_tag = KOR }
 			available = {
@@ -350,12 +563,14 @@ ideas = {
 					tooltip = minister_available
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Yeo_Jeongnam_dead }
+					NOT = { has_country_leader = { name = "여정남" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Yeo_Jeongnam_dead }
+				NOT = { has_country_leader = { name = "여정남" } }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yeo_Jeongnam_hog_syn"
@@ -375,12 +590,14 @@ ideas = {
 					tooltip = minister_available
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Kim_Moonsu_dead }
+					NOT = { has_country_leader = { name = "김문수" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Kim_Moonsu_dead }
+				NOT = { has_country_leader = { name = "김문수" } }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Moonsu_hog_syn"
@@ -413,7 +630,7 @@ ideas = {
 			traits = {
 				head_of_government
 				totalist
-				hog_ambitious_union_boss
+				hog_backroom_backstabber
 			}
 			cancel_if_invalid = yes
 		}
