@@ -21,7 +21,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_KOR_Yi_Yoonyeong_hog_nat"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Yoonyeong.dds"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Yoonyeong.tga"
 	}
 
 	spriteType = {
