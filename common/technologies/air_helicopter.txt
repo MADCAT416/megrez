@@ -15,7 +15,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1965
+		start_year = 1950
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 0 y = -2 }
@@ -40,7 +40,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1965
+		start_year = 1960
 		folder = {
 			name = air_helicopter_folder
 			position = { x = -2 y = 1 }
@@ -244,7 +244,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1965
 		folder = {
 			name = air_helicopter_folder
 			position = { x = -4 y = 5 }
@@ -273,7 +273,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1970
 
 		folder = {
 			name = air_helicopter_folder
@@ -321,7 +321,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1975
 		folder = {
 			name = air_helicopter_folder
 			position = { x = -4 y = 11 }
@@ -368,7 +368,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1980
 		folder = {
 			name = air_helicopter_folder
 			position = { x = -4 y = 14 }
@@ -409,7 +409,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1990
 		folder = {
 			name = air_helicopter_folder
 			position = { x = -4 y = 17 }
@@ -446,7 +446,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1970
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 4 y = 5 }
@@ -471,7 +471,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1980
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 4 y = 8 }
@@ -496,7 +496,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1990
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 4 y = 11 }
@@ -516,7 +516,7 @@ technologies = {
 	maritime_helicopter_4 = { # 해상 헬기
 	
 		research_cost = 2
-		start_year = 1933
+		start_year = 2000
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 4 y = 14 }
@@ -537,7 +537,7 @@ technologies = {
 
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1970
 		folder = {
 			name = air_helicopter_folder
 			position = { x = 5 y = 5 }

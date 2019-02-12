@@ -14,7 +14,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1970
+		start_year = 1910
 		folder = {
 			name = electronics_folder
 			position = { x = 1 y = 0 }
@@ -48,7 +48,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		
+		start_year = 1920
 		folder = {
 			name = electronics_folder
 			position = { x = -1 y = 2 }
@@ -96,7 +96,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		
+		start_year = 1935
 		folder = {
 			name = electronics_folder
 			position = { x = -1 y = 4 }
@@ -524,7 +524,8 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		
+		start_year = 1920
+
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 2 }
@@ -1141,7 +1142,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1920
 		
 		folder = {
 			name = electronics_folder
@@ -1179,7 +1180,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -1218,7 +1219,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1947
 		
 		folder = {
 			name = electronics_folder
@@ -1260,7 +1261,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1951
 		
 		folder = {
 			name = electronics_folder
@@ -1297,7 +1298,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1959
+		start_year = 1955
 		
 		folder = {
 			name = electronics_folder
@@ -1337,7 +1338,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1960
 		
 		folder = {
 			name = electronics_folder
@@ -1368,7 +1369,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1970
 		
 		folder = {
 			name = electronics_folder
@@ -1399,7 +1400,7 @@ technologies = {
 		# can build ICBMs?
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1980
 		
 		folder = {
 			name = electronics_folder
@@ -1430,7 +1431,7 @@ technologies = {
 		# can build ICBMs?
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1990
 		
 		folder = {
 			name = electronics_folder
@@ -1489,7 +1490,7 @@ technologies = {
 			position = { x = 14 y = 8 }
 		}
 		
-		start_year = 1944
+		start_year = 1950
 		research_cost = 2
 		
 		desc = "JET_ENGINES_SPECIAL"
@@ -1520,7 +1521,7 @@ technologies = {
 			position = { x = 14 y = 10 }
 		}
 		
-		start_year = 1944
+		start_year = 1960
 		research_cost = 2
 		
 		desc = "JET_ENGINES_SPECIAL"
@@ -1551,7 +1552,7 @@ technologies = {
 			position = { x = 14 y = 12 }
 		}
 		
-		start_year = 1944
+		start_year = 1970
 		research_cost = 2
 		
 		desc = "JET_ENGINES_SPECIAL"
@@ -1582,7 +1583,7 @@ technologies = {
 			position = { x = 14 y = 14 }
 		}
 		
-		start_year = 1944
+		start_year = 1980
 		research_cost = 2
 		
 		desc = "JET_ENGINES_SPECIAL"
@@ -1601,14 +1602,14 @@ technologies = {
 		}
 	}
 	
-	jet_engines_6 = { #1980년대 제트 엔진
+	jet_engines_6 = { #1990년대 제트 엔진
 	
 		folder = {
 			name = electronics_folder
 			position = { x = 14 y = 16 }
 		}
 		
-		start_year = 1944
+		start_year = 1990
 		research_cost = 2
 		
 		desc = "JET_ENGINES_SPECIAL"

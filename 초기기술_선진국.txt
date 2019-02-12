@@ -1,0 +1,280 @@
+set_technology = {
+
+### 보병
+	infantry_weapons_1 = 1 # 1955
+	infantry_weapons_2 = 1 # 1960
+	infantry_weapons_3 = 1 # 1965
+	
+	etc_infantry_equipments_1 = 1 # 1960
+	etc_infantry_equipments_2 = 1 # 1965
+	
+	night_vision_1 = 1 # 1960
+	night_vision_2 = 1 # 1965
+	
+	Bulletproof_vest_1 = 1 # 1960
+	Bulletproof_vest_2 = 1 # 1965
+	
+	support_weapons_1 = 1 # 1960
+	support_weapons_2 = 1 # 1965
+	
+	tech_special_forces = 1 # 1960
+	
+	airborne_1 = 1 # 1960
+	airborne_2 = 1 # 1965
+	
+	motorised_infantry = 1 # 1955
+
+### 지원
+	tech_support = 1 # 1955
+	
+	tech_recon_1 = 1 # 1960
+	tech_recon_2 = 1 # 1965
+	
+	tech_engineers_1 = 1 # 1960
+	tech_engineers_2 = 1 # 1965
+	
+	tech_military_police_1 = 1 # 1960
+	tech_military_police_2 = 1 # 1065
+	
+	tech_maintenance_company_1 = 1 # 1960
+	tech_maintenance_company_2 = 1 # 1965
+	
+	tech_field_hospital_1 = 1 # 1960
+	tech_field_hospital_2 = 1 # 1965
+	
+	tech_logistics_company_1 = 1 # 1960
+	tech_logistics_company_2 = 1 # 1965
+	
+	tech_signal_company_1 = 1 # 1960
+	tech_signal_company_2 = 1 # 1965
+
+### 기갑 
+	main_battle_tank_1 = 1 # 1955
+	main_battle_tank_2 = 1 # 1960
+	main_battle_tank_3 = 1 # 1965
+	
+	light_tank_1 = 1 # 1955
+	light_tank_2 = 1 # 1960
+	light_tank_3 = 1 # 1965
+	
+	light_airborne_1 = 1 # 1965
+	
+	mechanised_infantry_1 = 1 # 1960
+	mechanised_infantry_2 = 1 # 1965
+	
+	armored_personnel_carrier_1 = 1 # 1965
+	
+	airborne_ifv_1 = 1 # 1965
+	
+	amphibious_assault_vehicle_1 = 1 # 1960
+	amphibious_assault_vehicle_2 = 1 # 1965
+
+### 포병
+	artillery_1 = 1 # 1955
+	artillery_2 = 1 # 1965
+	
+	spa_1 = 1 # 1960
+	
+	artillery_engineering_1 = 1 # 1965
+	
+	motorized_rocket_1 = 1 # 1955
+	motorized_rocket_2 = 1 # 1965
+	
+	antitank_engineering_1 = 1 # 1965
+	
+	infantry_at_1 = 1 # 1955
+	infantry_at_2 = 1 # 1965
+	
+	antitank_1 = 1 # 1965
+	
+	manpads_1 = 1 # 1965
+	
+	antiair_1 = 1 # 1960
+	antiair_2 = 1 # 1965
+	
+	SPAAG_1 = 1 # 1955
+	SPAAG_2 = 1 # 1965
+
+### 수상함
+	frigate_1 = 1 # 1945
+	frigate_2 = 1 # 1950
+	frigate_3 = 1 # 1955
+	frigate_4 = 1 # 1960
+	
+	destroyer_1 = 1 # 1945
+	destroyer_2 = 1 # 1950
+	destroyer_3 = 1 # 1955
+	destroyer_4 = 1 # 1960
+
+	cruiser_1 = 1 # 1945
+	cruiser_2 = 1 # 1950
+	cruiser_3 = 1 # 1955
+	cruiser_4 = 1 # 1960
+	
+	battle_cruiser_1 = 1 # 1955
+	
+### 대형함
+	battleship_1 = 1 # 1945
+	
+	carrier_1 = 1 # 1945
+	carrier_2 = 1 # 1950
+	carrier_3 = 1 # 1955
+	carrier_4 = 1 # 1960
+	
+	super_carrier_1 = 1 # 1955
+	super_carrier_2 = 1 # 1960
+	
+	amphibious_assault_carrier_1 = 1 # 1945
+	amphibious_assault_carrier_2 = 1 # 1950
+	amphibious_assault_carrier_3 = 1 # 1955
+	amphibious_assault_carrier_4 = 1 # 1960
+
+### 잠수함
+	submarine_1 = 1 # 1945
+	submarine_2 = 1 # 1950
+	submarine_3 = 1 # 1955
+	submarine_4 = 1 # 1960
+
+	large_submarine_1 = 1 # 1945
+	large_submarine_2 = 1 # 1950
+	large_submarine_3 = 1 # 1955
+	large_submarine_4 = 1 # 1960
+	
+	nuclear_attack_submarine_1 = 1 # 1955
+	nuclear_attack_submarine_2 = 1 # 1960
+	
+	nuclear_cruise_missile_submarine_1 = 1 # 1955
+	nuclear_cruise_missile_submarine_2 = 1 # 1960
+
+### 항공기
+	jet_fighter_1 = 1 # 1960
+	
+	cv_jet_fighter_1 = 1 # 1960
+	
+	heavy_jet_fighter_1 = 1 # 1960
+	
+	cv_heavy_jet_fighter_1 = 1 # 1960
+
+### 폭격기
+	strategic_bomber_1 = 1 # 1945
+	strategic_bomber_2 = 1 # 1950
+	strategic_bomber_3 = 1 # 1955
+	strategic_bomber_4 = 1 # 1960
+	
+	jet_strategic_bomber_1 = 1 # 1950
+	jet_strategic_bomber_2 = 1 # 1955
+	jet_strategic_bomber_3 = 1 # 1960
+	
+	supersonic_strategic_bomber_1 = 1 # 1955
+	supersonic_strategic_bomber_2 = 1 # 1960
+
+### 헬기
+	helicopter_1 = 1 # 1950
+	recon_helicopter_1 = 1 # 1960
+	
+	heliborne_1 = 1 # 1965
+	
+	attack_helicopter_1 = 1 # 1965
+
+### 공학
+	electronic_mechanical_engineering = 1 # 1910
+	radio = 1 # 1920
+
+	radio_detection = 1 # 1935
+	decimetric_radar = 1 # 1938
+	improved_decimetric_radar = 1 # 1939
+	centimetric_radar = 1 # 1940
+	improved_centimetric_radar = 1 # 1941
+	advanced_centimetric_radar = 1 # 1942
+	future_radar = 1 # 1945
+	future_radar_2 = 1 # 1949
+	future_radar_3 = 1 # 1953
+	
+	rdf1 = 1 # 1939
+	rdf2 = 1 # 1941
+	rdf3 = 1 # 1943
+	rdf4 = 1 # 1945
+	rdf5 = 1 # 1949
+	rdf6 = 1 # 1953
+	
+	mechanical_computing = 1 # 1920
+	computing_machine = 1 # 1938
+	improved_computing_machine = 1 # 1940
+	advanced_computing_machine = 1 # 1942
+	future_computing_machine = 1 # 1944
+	future_computing_machine_2 = 1 # 1947
+	future_computing_machine_3 = 1 # 1951
+	future_computing_machine_4 = 1 # 1955
+	
+	basic_encryption = 1 # 1938
+	improved_encryption = 1 # 1940
+	advanced_encryption = 1 # 1942
+	future_encryption = 1 # 1944
+	future_encryption_2 = 1 # 1947
+	future_encryption_3 = 1 # 1951
+	
+	basic_decryption = 1 # 1938
+	improved_decryption = 1 # 1940
+	advanced_decryption = 1 # 1942
+	future_decryption = 1 # 1944
+	future_decryption_2 = 1 # 1947
+	future_decryption_3 = 1 # 1951
+	
+	experimental_rockets = 1 # 1920
+	heavy_rocket_engine_1 = 1 # 1943
+	heavy_rocket_engine_2 = 1 # 1947
+	heavy_rocket_engine_3 = 1 # 1951
+	
+	ballistic_missile_1 = 1 # 1955
+	ballistic_missile_2 = 1 # 1960
+	
+	jet_engines_1 = 1 # 1940
+	jet_engines_2 = 1 # 1950
+	jet_engines_3 = 1 # 1960
+	
+	atomic_research = 1 # 1940
+	nuclear_reactor = 1 # 1943
+	nukes = 1 # 1945
+	nukes_2 = 1 # 1951
+	nuke_naval = 1 # 1948
+
+### 산업
+	basic_machine_tools = 1 # 1936
+	improved_machine_tools = 1 # 1937
+	advanced_machine_tools = 1 # 1939
+	assembly_line_production = 1 # 1941
+	
+	improved_equipment_conversion = 1 # 1937
+	advanced_equipment_conversion = 1 # 1941
+	
+	synth_oil_experiments = 1 # 1936
+	oil_processing = 1 # 1937
+	improved_oil_processing = 1 # 1939
+	advanced_oil_processing = 1 # 1941
+	modern_oil_processing = 1 # 1943
+	rubber_processing = 1 # 1937
+	improved_rubber_processing = 1 # 1939
+	advanced_rubber_processing = 1 # 1941
+	modern_rubber_processing = 1 # 1943
+
+	construction1 = 1 # 1936
+	construction2 = 1 # 1937
+	construction3 = 1 # 1939
+	construction4 = 1 # 1941
+	construction5 = 1 # 1943
+	construction_a = 1 # 1945
+	construction_b = 1 # 1948
+	construction_c = 1 # 1951
+	construction_d = 1 # 1954
+	
+	excavation1 = 1 # 1936
+	excavation2 = 1 # 1937
+	excavation3 = 1 # 1939
+	excavation4 = 1 # 1941
+	excavation5 = 1 # 1943
+	excavation_a = 1 # 1945
+	excavation_b = 1 # 1948
+	excavation_c = 1 # 1951
+	excavation_d = 1 # 1954
+
+}

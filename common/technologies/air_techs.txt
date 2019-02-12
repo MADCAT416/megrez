@@ -12,7 +12,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_1 = 1
+			jet_engines_2 = 1
 		}
 		
 		research_cost = 2
@@ -86,7 +86,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_3 = 1
 		}
 				
 
@@ -180,7 +180,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_3 = 1
+			jet_engines_4 = 1
 		}
 		
 		research_cost = 2
@@ -272,7 +272,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_4 = 1
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
@@ -335,7 +335,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
@@ -453,7 +453,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_1 = 1
+			jet_engines_2 = 1
 		}
 		
 		research_cost = 2
@@ -518,7 +518,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_3 = 1
 		}
 		
 		research_cost = 2
@@ -582,7 +582,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_3 = 1
+			jet_engines_4 = 1
 		}
 
 		research_cost = 2
@@ -646,7 +646,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_4 = 1
+			jet_engines_5 = 1
 		}
 
 		research_cost = 2
@@ -710,7 +710,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 
 		research_cost = 2
@@ -834,7 +834,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_4 = 1
 		}
 		
 		research_cost = 2
@@ -873,7 +873,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_3 = 1
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
@@ -912,7 +912,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_4 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
@@ -951,7 +951,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
@@ -991,7 +991,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_4 = 1
 		}
 		
 		research_cost = 2
@@ -1030,7 +1030,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_3 = 1
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
@@ -1069,7 +1069,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines_4 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
@@ -1108,7 +1108,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines_5 = 1
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
@@ -1146,6 +1146,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			jet_engines_4 = 1
+		}
+		
 		research_cost = 2
 		start_year = 1980
 		folder = {
@@ -1178,6 +1182,10 @@ technologies = {
 		path = {
 			leads_to_tech = naval_bomber_3
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
@@ -1214,6 +1222,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			jet_engines_6 = 1
+		}
+		
 		research_cost = 2
 		start_year = 2000
 		folder = {
@@ -1246,6 +1258,10 @@ technologies = {
 		path = {
 			leads_to_tech = naval_bomber_5
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines_6 = 1
 		}
 		
 		dependencies = {

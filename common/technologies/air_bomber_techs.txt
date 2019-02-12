@@ -54,7 +54,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1950
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 2 }
@@ -92,7 +92,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1955
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 4 }
@@ -130,7 +130,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 6 }
@@ -167,7 +167,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1945
+		start_year = 1970
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 8 }
@@ -204,7 +204,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1945
+		start_year = 1980
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 10 }
@@ -257,7 +257,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1950
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 0 }
@@ -301,7 +301,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1955
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 2 }
@@ -340,11 +340,11 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_3 = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1960
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 4 }
@@ -382,11 +382,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_4 = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1970
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 6 }
@@ -424,11 +424,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_5 = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1980
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 8 }
@@ -466,11 +466,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			jet_engines_2 = 1
+			jet_engines_6 = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1990
 		folder = {
 			name = air_bomber_folder
 			position = { x = 0 y = 10 }
@@ -514,7 +514,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1955
 
 		folder = {
 			name = air_bomber_folder
@@ -547,7 +547,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1960
 
 		folder = {
 			name = air_bomber_folder
@@ -577,10 +577,11 @@ technologies = {
 		}
 
 		dependencies = {
+			jet_engines_3 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1970
 
 		folder = {
 			name = air_bomber_folder
@@ -609,10 +610,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
+			jet_engines_4 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1980
 
 		folder = {
 			name = air_bomber_folder
@@ -641,10 +643,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
+			jet_engines_5 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1990
 
 		folder = {
 			name = air_bomber_folder
@@ -679,7 +682,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1970
 
 		folder = {
 			name = air_bomber_folder
@@ -713,7 +716,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1980
 
 		folder = {
 			name = air_bomber_folder
@@ -741,10 +744,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies = {
+			jet_engines_6 = 1
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1990
 
 		folder = {
 			name = air_bomber_folder
@@ -774,7 +778,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 2000
 
 		folder = {
 			name = air_bomber_folder
@@ -804,7 +808,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 2010
 
 		folder = {
 			name = air_bomber_folder

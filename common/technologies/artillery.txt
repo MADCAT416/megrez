@@ -20,7 +20,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1955
 		
 		folder = {
 			name = artillery_folder
@@ -274,7 +274,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1965
+		start_year = 1960
 		
 		folder = {
 			name = artillery_folder
@@ -673,7 +673,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1960
+		start_year = 1955
 		
 		folder = {
 			name = artillery_folder
@@ -1153,7 +1153,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1955
 		folder = {
 			name = artillery_folder
 			position = { x = 8 y = 0 }
@@ -2108,7 +2108,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1960
+		start_year = 1955
 		
 		folder = {
 			name = artillery_folder
