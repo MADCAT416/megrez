@@ -1,0 +1,67 @@
+set_technology = {
+
+### 보병
+	infantry_weapons_1 = 1 # 1955
+	
+	motorised_infantry = 1 # 1955
+
+### 지원
+	tech_support = 1 # 1955
+	
+### 기갑 
+	main_battle_tank_1 = 1 # 1955
+	
+	light_tank_1 = 1 # 1955
+
+### 포병
+	artillery_1 = 1 # 1955
+	
+	motorized_rocket_1 = 1 # 1955
+		
+	infantry_at_1 = 1 # 1955
+	
+	SPAAG_1 = 1 # 1955
+
+### 수상함
+	frigate_1 = 1 # 1945
+	
+	destroyer_1 = 1 # 1945
+
+	cruiser_1 = 1 # 1945
+		
+### 대형함
+	battleship_1 = 1 # 1945
+	
+	amphibious_assault_carrier_1 = 1 # 1945
+
+### 잠수함
+	submarine_1 = 1 # 1945
+
+	large_submarine_1 = 1 # 1945
+	
+### 항공기
+
+### 폭격기
+
+### 헬기
+
+### 공학
+	electronic_mechanical_engineering = 1 # 1910
+	radio = 1 # 1920
+
+	radio_detection = 1 # 1935
+	decimetric_radar = 1 # 1938
+		
+	mechanical_computing = 1 # 1920
+	computing_machine = 1 # 1938
+
+### 산업
+	basic_machine_tools = 1 # 1936
+		
+	construction1 = 1 # 1936
+	construction2 = 1 # 1937
+	
+	excavation1 = 1 # 1936
+	excavation2 = 1 # 1937
+
+}
