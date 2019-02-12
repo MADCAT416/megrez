@@ -34,6 +34,21 @@ Ho_Jong_Suk_DESC:0 ""
 Yi_Gu_DESC:0 ""
 
 # 내각
+KOR_Chang_Chun_Ha_hog_nat:0 "장준하"
+KOR_Kim_HongIl_hog_nat:0 "김홍일"
+KOR_Yi_Yoonyeong_hog_nat:0 "이윤영"
+KOR_Son_Wonil_hog_aut:0 "손원일"
+KOR_Baek_Doojin_hog_aut:0 "백두진"
+KOR_Jeong_Ilhyeong_hog_lib:0 "정일형"
+KOR_Yi_Minwoo_hog_mar:0 "이민우"
+KOR_Yi_Jaehyeong_hog_mar:0 "이재형"
+KOR_Yi_Joongjae_hog_con:0 "이중재"
+KOR_Jang_Giyong_hog_con:0 "장기영"
+KOR_Yeo_Yeongoo_hog_pro:0 "여연구"
+KOR_Yoon_Giljoong_hog_dem:0 "윤길중"
+KOR_Yeo_Jeongnam_hog_syn:0 "여정남"
+KOR_Kim_Moonsu_hog_syn:0 "김문수"
+KOR_Yi_Seungyeob_hog_tot:0 "리승엽"
 
 # 군부
 
