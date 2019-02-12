@@ -555,7 +555,33 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-		
+		KOR_Bang_Baechu_hog_syn = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Bang_Baechu_dead }
+					NOT = { has_country_leader = { name = "방배추" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Bang_Baechu_dead }
+				NOT = { has_country_leader = { name = "방배추" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Bang_Baechu_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
 		KOR_Yeo_Jeongnam_hog_syn = {
 			allowed = { original_tag = KOR }
 			available = {
