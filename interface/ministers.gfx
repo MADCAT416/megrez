@@ -81,7 +81,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_KOR_Yi_Seungyeob_hog_tot"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Lee_Sungyeop.dds.dds"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Lee_Sungyeop.dds"
 	}
 
 
