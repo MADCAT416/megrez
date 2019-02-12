@@ -70,12 +70,32 @@ has_same_government_as_ROOT = {
 	}
 }
 
-# checks for these three government types for the country in scope
+# 공산독재 - checks for these two government types for the country in scope
+has_communist_dictatorship_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_communist
+		OR = {
+			has_government = totalist
+			has_government = syndicalist
+		}
+	}
+}
+
+not_has_communist_dictatorship_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_communist
+		NOT = {
+			has_government = totalist
+			has_government = syndicalist
+		}
+	}
+}
+
+# 사회주의 - checks for these two government types for the country in scope
 has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_socialist
 		OR = {
-			has_government = totalist
 			has_government = syndicalist
 			has_government = democratic_socialist
 		}
@@ -86,18 +106,127 @@ not_has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_not_socialist
 		NOT = {
-			has_government = totalist
 			has_government = syndicalist
 			has_government = democratic_socialist
 		}
 	}
 }
 
-# checks for these four government types for the country in scope
+# 개혁주의 - checks for these three government types for the country in scope
+has_reformal_progressive_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_progressive
+		OR = {
+			has_government = democratic_socialist
+			has_government = social_progressive
+			has_government = social_liberal
+		}
+	}
+}
+
+not_has_reformal_progressive_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_progressive
+		NOT = {
+			has_government = democratic_socialist
+			has_government = social_progressive
+			has_government = social_liberal
+		}
+	}
+}
+
+# 자유주의 - checks for these three government types for the country in scope
+has_classic_liberal_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_liberal
+		OR = {
+			has_government = social_progressive
+			has_government = social_liberal
+			has_government = market_liberal
+		}
+	}
+}
+
+not_has_classic_liberal_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_liberal
+		NOT = {
+			has_government = social_progressive
+			has_government = social_liberal
+			has_government = market_liberal
+		}
+	}
+}
+
+# 보수주의 - checks for these three government types for the country in scope
+has_classic_conservative_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_conservative
+		OR = {
+			has_government = social_conservative
+			has_government = authoritarian_democrat
+		}
+	}
+}
+
+not_has_classic_conservative_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_conservative
+		NOT = {
+			has_government = social_conservative
+			has_government = authoritarian_democrat
+		}
+	}
+}
+
+# 권위주의 - checks for these two government types for the country in scope
+has_authoritarian_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_authoritarian
+		OR = {
+			has_government = authoritarian_democrat
+			has_government = paternal_autocrat
+		}
+	}
+}
+
+not_has_authoritarian_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_authoritarian
+		NOT = {
+			has_government = authoritarian_democrat
+			has_government = paternal_autocrat
+		}
+	}
+}
+
+# 대항혁명 - checks for these two government types for the country in scope
+has_antirevolutionary_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_antirevolutionary
+		OR = {
+			has_government = authoritarian_democrat
+			has_government = national_populist
+		}
+	}
+}
+
+not_has_antirevolutionary_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_antirevolutionary
+		NOT = {
+			has_government = authoritarian_democrat
+			has_government = national_populist
+		}
+	}
+}
+
+# 의회주의 - checks for these five government types for the country in scope
 has_elected_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_elected
 		OR = {
+			has_government = democratic_socialist
 			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
@@ -110,6 +239,7 @@ not_has_elected_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_not_elected
 		NOT = {
+			has_government = democratic_socialist
 			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
@@ -118,11 +248,12 @@ not_has_elected_government = {
 	}
 }
 
-# checks for these five government types for the country in scope
+# 민주주의 - checks for these six government types for the country in scope
 has_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_democratic
 		OR = {
+			has_government = democratic_socialist
 			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
@@ -136,55 +267,12 @@ not_has_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_not_democratic
 		NOT = {
+			has_government = democratic_socialist
 			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
 			has_government = authoritarian_democrat
-		}
-	}
-}
-
-# checks for these two government types for the country in scope
-has_authoritarian_government = {
-	custom_trigger_tooltip = {
-		tooltip = KR_is_authoritarian
-		OR = {
-			has_government = authoritarian_democrat
-			has_government = paternal_autocrat
-			has_government = national_populist
-		}
-	}
-}
-
-not_has_authoritarian_government = {
-	custom_trigger_tooltip = {
-		tooltip = KR_is_not_authoritarian
-		NOT = {
-			has_government = authoritarian_democrat
-			has_government = paternal_autocrat
-			has_government = national_populist
-		}
-	}
-}
-
-# checks for these two government types for the country in scope
-has_dictatorship_government = {
-	custom_trigger_tooltip = {
-		tooltip = KR_is_dictatorship
-		OR = {
-			has_government = paternal_autocrat
-			has_government = national_populist
-		}
-	}
-}
-
-not_has_dictatorship_government = {
-	custom_trigger_tooltip = {
-		tooltip = KR_is_not_dictatorship
-		NOT = {
-			has_government = paternal_autocrat
-			has_government = national_populist
 		}
 	}
 }
@@ -202,8 +290,8 @@ same_government_type_as_ROOT = {
 			ROOT = { has_democratic_government = yes }
 		}
 		AND = {
-			has_dictatorship_government = yes
-			ROOT = { has_dictatorship_government = yes }
+			has_elected_government = yes
+			ROOT = { has_elected_government = yes }
 		}
 	}
 }

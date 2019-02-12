@@ -54,8 +54,9 @@ has_unsupported_manpower_law = {
 		}
 		has_idea = service_by_requirement
 		has_war_support < 0.6
-		NOT = { has_dictatorship_government = yes }
-		NOT = { has_socialist_government = yes }
+		NOT = { has_authoritarian_government = yes }
+		NOT = { has_antirevolutionary_government = yes }
+		NOT = { has_communist_dictatorship_government = yes }
 	}
 	else_if = {
 		limit = {
