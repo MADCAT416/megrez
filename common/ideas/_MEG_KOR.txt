@@ -46,7 +46,7 @@ ideas = {
 					national_populist_allowed = yes
 					NOT = { has_country_flag = Chang_Chun_Ha_dead }
 					NOT = { has_country_leader = { name = "장준하" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -73,7 +73,7 @@ ideas = {
 					social_liberal_allowed = yes
 					NOT = { has_country_flag = Kim_Dae_Jung_dead }
 					NOT = { has_country_leader = { name = "김대중" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -100,7 +100,7 @@ ideas = {
 					market_liberal_allowed = yes
 					NOT = { has_country_flag = Kim_Young_Sam_dead }
 					NOT = { has_country_leader = { name = "김영삼" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -127,7 +127,7 @@ ideas = {
 					social_progressive_allowed = yes
 					NOT = { has_country_flag = Kim_Jong_Pil_dead }
 					NOT = { has_country_leader = { name = "김종필" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -154,7 +154,7 @@ ideas = {
 					social_conservative_allowed = yes
 					NOT = { has_country_flag = Lee_Chul_Seung_dead }
 					NOT = { has_country_leader = { name = "이철승" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -181,7 +181,7 @@ ideas = {
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Yoon_Se_ju_dead }
 					NOT = { has_country_leader = { name = "윤세주" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -208,7 +208,7 @@ ideas = {
 					democratic_socialist_allowed = yes
 					NOT = { has_country_flag = Ho_Jong_Suk_dead }
 					NOT = { has_country_leader = { name = "허정숙" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -235,7 +235,7 @@ ideas = {
 					totalist_allowed = yes
 					NOT = { has_country_flag = So_Man_Sul_dead }
 					NOT = { has_country_leader = { name = "서만술" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -261,7 +261,7 @@ ideas = {
 					tooltip = minister_available
 					national_populist_allowed = yes
 					NOT = { has_country_flag = Kim_HongIl_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -286,7 +286,7 @@ ideas = {
 					tooltip = minister_available
 					national_populist_allowed = yes
 					NOT = { has_country_flag = Yi_Yoonyeong_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -311,7 +311,7 @@ ideas = {
 					tooltip = minister_available
 					authoritarian_democrat_allowed = yes
 					NOT = { has_country_flag = Son_Wonil_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -336,7 +336,7 @@ ideas = {
 					tooltip = minister_available
 					authoritarian_democrat_allowed = yes
 					NOT = { has_country_flag = Baek_Doojin_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -361,7 +361,7 @@ ideas = {
 					tooltip = minister_available
 					social_liberal_allowed = yes
 					NOT = { has_country_flag = Jeong_Ilhyeong_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -386,7 +386,7 @@ ideas = {
 					tooltip = minister_available
 					market_liberal_allowed = yes
 					NOT = { has_country_flag = Yi_Minwoo_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -411,7 +411,7 @@ ideas = {
 					tooltip = minister_available
 					market_liberal_allowed = yes
 					NOT = { has_country_flag = Yi_Jaehyeong_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -436,7 +436,7 @@ ideas = {
 					tooltip = minister_available
 					social_conservative_allowed = yes
 					NOT = { has_country_flag = Yi_Joongjae_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -461,7 +461,7 @@ ideas = {
 					tooltip = minister_available
 					social_conservative_allowed = yes
 					NOT = { has_country_flag = Jang_Giyong_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -486,7 +486,7 @@ ideas = {
 					tooltip = minister_available
 					social_progressive_allowed = yes
 					NOT = { has_country_flag = Yeo_Yeongoo_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -511,7 +511,7 @@ ideas = {
 					tooltip = minister_available
 					democratic_socialist_allowed = yes
 					NOT = { has_country_flag = Yoon_Giljoong_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -537,7 +537,7 @@ ideas = {
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Choi_Sunyoung_dead }
 					NOT = { has_country_leader = { name = "최순영" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -564,7 +564,7 @@ ideas = {
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Yeo_Jeongnam_dead }
 					NOT = { has_country_leader = { name = "여정남" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -591,7 +591,7 @@ ideas = {
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Kim_Moonsu_dead }
 					NOT = { has_country_leader = { name = "김문수" } }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
@@ -617,7 +617,7 @@ ideas = {
 					tooltip = minister_available
 					totalist_allowed = yes
 					NOT = { has_country_flag = Yi_Seungyeob_dead }
-					has_country_flag = can_replace_hog
+					
 				}
 			}
 			visible = {
