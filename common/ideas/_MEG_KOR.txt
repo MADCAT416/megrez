@@ -1,5 +1,10 @@
+  ################################################################################################################################################################################################
+  ### KOR
+  ################################################################################################################################################################################################
+
 ideas = {
 
+### 국민정신
 	country = {
 		kor_hate_japs = {
 			
@@ -27,6 +32,269 @@ ideas = {
 			}
 
 		}
+	}
+	
+### 장관진
+
+	head_of_government = { ### 정부수반 ###
+		KOR_Park_Hyong_Yong_hog_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Park_Hyong_Yong_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Park_Hyong_Yong_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Park_Hyong_Yong_hog_rso"
+			}
+			traits = {
+				head_of_government
+				democratic_socialist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	foreign_minister = { ### 외무장관 ###
+		KOR_Kim_Kyu_joon_for_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Kim_Kyu_joon_dead }
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Kim_Kyu_joon_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Kyu_joon_for_rso"
+			}
+			traits = {
+				foreign_minister
+				democratic_socialist
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	economy_minister = { ### 경제장관 ###
+		KOR_Yi_Tong_whi_eco_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Yi_Tong_whi_dead }
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Yi_Tong_whi_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Tong_whi_eco_rso"
+			}
+			traits = {
+				economy_minister
+				democratic_socialist
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	security_minister = { ### 내무장관 ###
+		KOR_Nam_Suk_Lee_sec_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Nam_Suk_Lee_dead }
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Nam_Suk_Lee_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Nam_Suk_Lee_sec_rso"
+			}
+			traits = {
+				security_minister
+				democratic_socialist
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	head_of_intel = { ### 정보총수 ###
+		KOR_Kim_Chang_Kim_int_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					democratic_socialist_allowed = yes
+					NOT = { has_country_flag = Kim_Chang_Kim_dead }
+				}
+			}
+			visible = {
+				democratic_socialist_allowed = yes
+				NOT = { has_country_flag = Kim_Chang_Kim_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Chang_Kim_int_rso"
+			}
+			traits = {
+				head_of_intel
+				democratic_socialist
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_staff = { ### 총참모장 ###
+		KOR_Chi_Chun_Chung_cos_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Chi_Chun_Chung_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Chi_Chun_Chung_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Chi_Chun_Chung_cos_rso"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_army = { ### 육군참모장 ###
+		KOR_Kim_Won_Bong_carm_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Kim_Won_Bong_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Kim_Won_Bong_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Won_Bong_carm_rso"
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_navy = { ### 해군참모장 ###
+		KOR_Jong_Dong_ju_cnav_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Jong_Dong_ju_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Jong_Dong_ju_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Jong_Dong_ju_cnav_rso"
+			}
+			traits = {
+				chief_of_navy
+				cnav_open_seas_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+
+	}
+
+	chief_of_air_force = { ### 공군참모장 ###
+		KOR_Ri_Jae_Sun_cair_rso = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ri_Jae_Sun_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ri_Jae_Sun_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Ri_Jae_Sun_cair_rso"
+			}
+			traits = {
+				chief_of_air_force
+				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	theorist = {
+		KOR_Yi_Hyso = {
+   			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yi_Hyso_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yi_Hyso_dead }
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Hyso"
+			}
+          
+            research_bonus = {
+                nuclear = 0.1
+            }
+          
+            traits = { nuclear_theorist }
+			cancel_if_invalid = yes
+
+        }
+	
 	}
 	
 }
