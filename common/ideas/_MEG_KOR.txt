@@ -551,7 +551,7 @@ ideas = {
 			traits = {
 				head_of_government
 				syndicalist
-				triumphant_revolutionary
+				hog_flamboyant_tough_guy
 			}
 			cancel_if_invalid = yes
 		}
