@@ -274,7 +274,7 @@ ideas = {
 			traits = {
 				head_of_government
 				national_populist
-				hog_respected_war_hero
+				hog_old_general
 			}
 			cancel_if_invalid = yes
 		}
@@ -350,6 +350,58 @@ ideas = {
 				head_of_government
 				authoritarian_democrat
 				hog_political_protege
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Kim_Doohan_hog_aut = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					authoritarian_democrat_allowed = yes
+					NOT = { has_country_flag = Kim_Doohan_dead }
+					NOT = { has_country_flag = JP_beaten }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = { has_country_flag = Kim_Doohan_dead }
+				NOT = { has_country_flag = JP_beaten }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Doohan_hog_aut"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hoodlum
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Kim_Shin_hog_nat = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					national_populist_allowed = yes
+					NOT = { has_country_flag = Kim_Shin_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				national_populist_allowed = yes
+				NOT = { has_country_flag = Kim_Shin_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Shin_hog_nat"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_old_air_marshal
 			}
 			cancel_if_invalid = yes
 		}
@@ -711,25 +763,46 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
-		KOR_Yi_Seunggi_eco_syn = {
+		KOR_Yi_Seunggi_eco = {
 			allowed = { original_tag = KOR }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Yi_Seunggi_dead }
-					syndicalist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Yi_Seunggi_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Seunggi_eco_syn"
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Seunggi_eco"
 			}
 			traits = {
 				economy_minister
 				syndicalist
 				eco_industrial_chemist
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Yi_Taegyu_eco = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yi_Taegyu_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yi_Taegyu_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Taegyu_eco"
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_theoretical_scientist
 			}
 			cancel_if_invalid = yes
 		}
@@ -905,10 +978,10 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Hyso_the"
 			}
 			
-			production_speed_industrial_complex_factor = 0.1
-			production_speed_infrastructure_factor = 0.1
-			production_speed_synthetic_refinery_factor = 0.1
-			
+			research_bonus = {
+                nuclear = 0.1
+            }
+						
             traits = { 
 				nuclear_theorist 
 				social_liberal
@@ -933,11 +1006,7 @@ ideas = {
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Hyeongseob_the"
 			}
-          
-            research_bonus = {
-                nuclear = 0.1
-            }
-          
+			
             traits = { 
 				industry_theorist 
 				authoritarian_democrat

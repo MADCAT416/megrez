@@ -13,7 +13,14 @@ leader_traits = {
 		}
 	}
 	
-	industry_theorist = { random = no }
+	industry_theorist = { 
+		random = no 
+		sprite = 14
+		
+		production_speed_buildings_factor = 0.15
+		local_resources_factor = 0.05
+
+	}
 	
 	nuclear_theorist = {
 		random = no

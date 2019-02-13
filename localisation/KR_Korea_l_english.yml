@@ -59,13 +59,16 @@ KOR_Choi_Sunyoung_hog_syn:0 "최순영"
 KOR_Bang_Baechu_hog_syn:0 "방배추"
 KOR_Kim_Moonsu_hog_syn:0 "김문수"
 KOR_Yi_Seungyeob_hog_tot:0 "리승엽"
+KOR_Kim_Doohan_hog_aut:0 "김두한"
+KOR_Kim_Shin_hog_nat:0 "김신"
 
 ## 외무장관
 KOR_Choi_Gyuha_for:0 "최규하"
 
 ## 경제장관 
 KOR_O_Woncheol_eco:0 "오원철"
-KOR_Yi_Seunggi_eco_syn:0 "리승기"
+KOR_Yi_Seunggi_eco:0 "리승기"
+KOR_Yi_Taegyu_eco:0 "이태규"
 
 ## 내무장관
 

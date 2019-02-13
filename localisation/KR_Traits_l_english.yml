@@ -12,7 +12,7 @@ hog_flamboyant_tough_guy:0 "화려한 터프가이"
 hog_happy_amateur:0 "행복한 아마추어"
 hog_local_tyrant:0 "지방 토호"
 hog_naive_optimist:0 "순진한 낙천주의자"
-hog_old_admiral:0 "늙은 제독"
+hog_old_admiral:0 "늙은 수사제독"
 hog_old_air_marshal:0 "늙은 공군장성"
 hog_old_general:0 "늙은 육군장성"
 hog_political_protege:0 "정치적 피후견인"
@@ -67,7 +67,7 @@ eco_tank_proponent:0 "기갑 지지자"
 
 eco_army_reform_committee:0 "육군개혁위원회"
 eco_the_minister_for_everything:0 "모든 것을 위한 각료"
-eco_vernacular_industrialiser:0 "토착 기업가"
+eco_vernacular_industrialiser:0 "향토기업가"
 
 ### 외무장관 ###
 for_biased_intellectual:0 "편향된 지식인"
