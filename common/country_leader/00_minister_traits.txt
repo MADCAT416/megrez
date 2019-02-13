@@ -86,7 +86,7 @@ leader_traits = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
-			tac_bomber_equipment = {
+			jet_strat_bomber_equipment = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
@@ -213,7 +213,7 @@ leader_traits = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
-			tac_bomber_equipment = {
+			jet_strat_bomber_equipment = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
@@ -474,7 +474,7 @@ leader_traits = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
-			tac_bomber_equipment = {
+			jet_strat_bomber_equipment = {
 				build_cost_ic = -0.05
 				instant = yes
 			}
