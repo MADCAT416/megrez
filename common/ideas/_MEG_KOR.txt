@@ -590,12 +590,14 @@ ideas = {
 					NOT = { has_country_flag = Choi_Sunyoung_dead }
 					NOT = { has_country_leader = { name = "최순영" } }
 					has_country_flag = can_replace_hog
+					has_country_flag = Euyeoldan_has_back
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Choi_Sunyoung_dead }
 				NOT = { has_country_leader = { name = "최순영" } }
+				has_country_flag = Euyeoldan_has_back
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Sunyoung_hog_syn"
@@ -616,12 +618,14 @@ ideas = {
 					NOT = { has_country_flag = Bang_Baechu_dead }
 					NOT = { has_country_leader = { name = "방배추" } }
 					has_country_flag = can_replace_hog
+					has_country_flag = Euyeoldan_has_back
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Bang_Baechu_dead }
 				NOT = { has_country_leader = { name = "방배추" } }
+				has_country_flag = Euyeoldan_has_back
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Bang_Baechu_hog_syn"
@@ -643,12 +647,14 @@ ideas = {
 					NOT = { has_country_flag = Yeo_Jeongnam_dead }
 					NOT = { has_country_leader = { name = "여정남" } }
 					has_country_flag = can_replace_hog
+					has_country_flag = Euyeoldan_has_back
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Yeo_Jeongnam_dead }
 				NOT = { has_country_leader = { name = "여정남" } }
+				has_country_flag = Euyeoldan_has_back
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yeo_Jeongnam_hog_syn"
@@ -670,12 +676,14 @@ ideas = {
 					NOT = { has_country_flag = Kim_Moonsu_dead }
 					NOT = { has_country_leader = { name = "김문수" } }
 					has_country_flag = can_replace_hog
+					has_country_flag = Euyeoldan_has_back
 				}
 			}
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Kim_Moonsu_dead }
 				NOT = { has_country_leader = { name = "김문수" } }
+				has_country_flag = Euyeoldan_has_back
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Moonsu_hog_syn"
