@@ -602,7 +602,7 @@ ideas = {
 			traits = {
 				head_of_government
 				syndicalist
-				union_chair
+				hog_spiritual_leader
 			}
 			cancel_if_invalid = yes
 		}
