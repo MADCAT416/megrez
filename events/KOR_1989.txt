@@ -1,0 +1,22 @@
+add_namespace = KOR_1989
+
+country_event = { # 이재형 은퇴
+
+	id = KOR_1989.1107
+	hidden = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		date > 1989.11.07
+	}
+	
+	immediate = {
+		set_country_flag = Yi_Jaehyeong_retired
+	}
+
+	option = { 
+		name = KOR_1989.1107.a 
+	}
+}

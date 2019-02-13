@@ -1,0 +1,35 @@
+﻿add_namespace = KOR_1972
+
+country_event = {
+	id = KOR_1972.1121
+	title = News_1972.11212.title
+	desc = News_1972.11212.desc
+	picture = GFX_yaninshidae
+    is_triggered_only = yes
+
+	option = { 
+		name = KOR_1972.1121.a 
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+	}
+	option = { 
+		name = KOR_1972.1121.b
+		add_political_power = -10
+		add_stability = -0.05
+		add_popularity = {
+			ideology = national_populist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.05
+		}
+	}
+	
+}

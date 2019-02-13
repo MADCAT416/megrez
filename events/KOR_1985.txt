@@ -1,0 +1,22 @@
+add_namespace = KOR_1985
+
+country_event = { # 박차정 은퇴
+
+	id = KOR_1985.0507
+	hidden = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		date > 1985.05.07
+	}
+	
+	immediate = {
+		set_country_flag = Park_Chajeong_retired
+	}
+
+	option = { 
+		name = KOR_1985.0507.a 
+	}
+}
