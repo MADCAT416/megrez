@@ -745,6 +745,286 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
+		KOR_Yi_Beomsuck_for = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yi_Beomsuck_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yi_Beomsuck_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Beomsuck_for"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Yi_Dongone_for = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yi_Dongone_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yi_Dongone_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Dongone_for"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Kim_Yongsick_for = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Kim_Yongsick_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Kim_Yongsick_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Yongsick_for"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Park_Dongjin_for = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Park_Dongjin_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Park_Dongjin_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Park_Dongjin_for"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Cho_Yunhyeong_for_aut = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Cho_Yunhyeong_dead }
+					authoritarian_democrat_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Cho_Yunhyeong_dead }
+				authoritarian_democrat_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Cho_Yunhyeong_for_aut"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Choi_Deoksin_for_nat = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Choi_Deoksin_dead }
+					national_populist_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Choi_Deoksin_dead }
+				national_populist_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Deoksin_for_nat"
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Cheon_Gyuhong_for_con = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Cheon_Gyuhong_dead }
+					social_conservative_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Cheon_Gyuhong_dead }
+				social_conservative_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Cheon_Gyuhong_for_con"
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Choi_Gyeongrock_for_con = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Choi_Gyeongrock_dead }
+					social_conservative_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Choi_Gyeongrock_dead }
+				social_conservative_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Gyeongrock_for_con"
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Min_Gwansick_for_mar = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Min_Gwansick_dead }
+					market_liberal_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Min_Gwansick_dead }
+				market_liberal_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Min_Gwansick_for_mar"
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Yang_Ildong_for_lib = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yang_Ildong_dead }
+					social_liberal_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yang_Ildong_dead }
+				social_liberal_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yang_Ildong_for_lib"
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Kim_Sangdon_for_lib = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Kim_Sangdon_dead }
+					social_liberal_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Kim_Sangdon_dead }
+				social_liberal_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Sangdon_for_lib"
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+		
+		KOR_Kim_Cheol_for_pro = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Kim_Cheol_dead }
+					social_progressive_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Kim_Cheol_dead }
+				social_progressive_allowed = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Cheol_for_pro"
+			}
+			traits = {
+				foreign_minister
+				social_progressive
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
 
 	}
 
