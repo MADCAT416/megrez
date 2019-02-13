@@ -1,5 +1,7 @@
 ﻿l_english:
 
+blandist:0 "무이념"
+
 ### From DH ###
 undistinguished_suit:0 "평범한 중역"
 grand_protector:0 "위대한 호국경"
@@ -443,3 +445,4 @@ industry_theorist:0 "산업이론가"
 nuclear_theorist:0 "핵물리학자"
 rocket_theorist:0 "로켓공학자"
 electronic_theorist:0 "전자공학자"
+reptile_entertainer:0 "어용 연예인"

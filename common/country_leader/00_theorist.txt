@@ -4,6 +4,11 @@
 
 leader_traits = {
 	#### Diffrent stuff ####
+	blandist = {
+		random = no
+
+	}
+	
 	military_theorist = {
 		sprite = 14
 		experience_gain_army = 0.05
@@ -35,6 +40,16 @@ leader_traits = {
 		random = no
 		sprite = 14
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reptile_entertainer = {
+		random = no
+
+		drift_defence_factor = 0.1
+		stability_weekly = 0.01
 		ai_will_do = {
 			factor = 1
 		}
