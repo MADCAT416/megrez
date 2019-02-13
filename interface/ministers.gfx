@@ -15,6 +15,41 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_KOR_Kim_Dae_Jung_hog_lib"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Dae_Jung.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Kim_Young_Sam_hog_mar"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Young_Sam.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Kim_Jong_Pil_hog_pro"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Jong_Pil.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Lee_Chul_Seung_hog_con"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Lee_Chul_Seung.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Yoon_Se_ju_hog_syn"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yoon_Se_ju.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Ho_Jong_Suk_hog_dem"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Ho_Jong_Suk.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_So_Man_Sul_hog_tot"
+		texturefile = "gfx/interface/ministers/KOR/KOR_So_Man_Sul.tga"
+	}
+
+	spriteType = {
 		name = "GFX_idea_KOR_Kim_HongIl_hog_nat"
 		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_HongIl.dds"
 	}
@@ -84,88 +119,117 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/KOR/KOR_Lee_Sungyeop.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_KOR_Kim_Shin_hog_nat"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Shin.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Kim_Doohan_hog_aut"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Doohan.tga"
+	}
 
 	#Foreign Minister
 	spriteType = {
-		name = "GFX_idea_AFG_Ghulam_Mohammad_Farhad_for_sde"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Ghulam_Mohammad_Farhad.dds"
+		name = "GFX_idea_KOR_Choi_Gyuha_for"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Gyuha.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Mohammed_Hashim_Maiwandwal_for_sde"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Hashim_Maiwandwal.dds"
+		name = "GFX_idea_KOR_Yi_Beomsuck_for"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Beomsuck.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Ali_Muhammed_Khan_for_sco"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Ali_Muhammed_Khan.dds"
+		name = "GFX_idea_KOR_Yi_Dongone_for"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Dongone.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Habibullah_Khan_Tarzi_for_sco"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Habibullah_Khan_Tarzi.dds"
+		name = "GFX_idea_KOR_Kim_Yongsick_for"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Yongsick.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Abdul_Hadi_Dawai_for_ade"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Abdul_Hadi_Dawai.dds"
+		name = "GFX_idea_KOR_Park_Dongjin_for"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Park_Dongjin.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Asadullah_Seraj_Khan_for_ade"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Asadullah_Seraj_Khan.dds"
+		name = "GFX_idea_KOR_Cho_Yunhyeong_for_aut"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Cho_Yunhyeong.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Ghulam_Nabi_Charkhi_for_ade"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Ghulam_Nabi_Charkhi.dds"
+		name = "GFX_idea_KOR_Choi_Deoksin_for_nat"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Deoksin.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Mohammed_Etemadi_Khan_for_ade"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Etemadi_Khan.dds"
+		name = "GFX_idea_KOR_Cheon_Gyuhong_for_con"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Cheon_Gyuhong.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Mohammed_Kabir_Ludin_for_ade"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Kabir_Ludin.dds"
+		name = "GFX_idea_KOR_Choi_Gyeongrock_for_con"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Gyeongrock.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Amanullah_Khan_for_pau"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Amanullah_Khan.dds"
+		name = "GFX_idea_KOR_Min_Gwansick_for_mar"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Min_Gwansick.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_KOR_Yang_Ildong_for_lib"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yang_Ildong.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Haji_Faiz_Muhammed_Zikeria_for_pau"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Haji_Faiz_Muhammed_Zikeria.dds"
+		name = "GFX_idea_KOR_Kim_Sangdon_for_lib"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Sangdon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Mohammed_Daoud_for_pau"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Daoud.dds"
+		name = "GFX_idea_KOR_Kim_Cheol_for_pro"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Cheol.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Muhammad_Nauruz_for_pau"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Muhammad_Nauruz.dds"
+		name = "GFX_idea_KOR_Yi_Ganguk_for_dem"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Ganguk.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_KOR_Hwang_Taeseong_for_dem"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Hwang_Taeseong.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Yu_Suckhyeon_for_syn"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yu_Suckhyeon.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Park_Seongcheol_for_tot"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Park_Seongcheol.tga"
+	}
 
 	#Economy Minister
 	spriteType = {
-		name = "GFX_idea_AFG_Ghulam_Mohammad_Farhad_eco_sde"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Ghulam_Mohammad_Farhad.dds"
+		name = "GFX_idea_KOR_O_Woncheol_eco"
+		texturefile = "gfx/interface/ministers/KOR/KOR_O_Woncheol.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Mohammed_Hashim_Maiwandwal_eco_sde"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Hashim_Maiwandwal.dds"
+		name = "GFX_idea_KOR_Yi_Seunggi_eco"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Seunggi.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_AFG_Abdul_Majid_Zabuli_eco_sli"
-		texturefile = "gfx/interface/ministers/KOR/KOR_Abdul_Majid_Zabuli.dds"
+		name = "GFX_idea_KOR_Yi_Taegyu_eco"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Taegyu.tga"
 	}
 
 	spriteType = {
@@ -500,5 +564,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/KOR/KOR_Mohammed_Daoud.dds"
 	}
 
+
+	spriteType = {
+		name = "GFX_idea_KOR_Yi_Hyso_the"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Yi_Hyso.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Choi_Hyeongseob_the"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Hyeongseob.tga"
+	}
 
 }
