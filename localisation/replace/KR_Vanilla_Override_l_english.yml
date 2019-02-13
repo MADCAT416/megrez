@@ -51,7 +51,7 @@ topple_government_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴�
 
 ### ideas_l_english
 minister:0 "내각"
-head_of_state:0 "국가원수"
+country_leader:0 "국가원수"
 head_of_government:0 "정부수반"
 foreign_minister:0 "외무장관"
 economy_minister:0 "경제장관"

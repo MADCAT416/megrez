@@ -664,25 +664,23 @@ ideas = {
 	}
 
 	foreign_minister = { ### 외무장관 ###
-		KOR_Kim_Kyu_joon_for_rso = {
+		KOR_Choi_Gyuha_for = {
 			allowed = { original_tag = KOR }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					democratic_socialist_allowed = yes
-					NOT = { has_country_flag = Kim_Kyu_joon_dead }
+					NOT = { has_country_flag = Choi_Gyuha_dead }
 				}
 			}
 			visible = {
-				democratic_socialist_allowed = yes
-				NOT = { has_country_flag = Kim_Kyu_joon_dead }
+				NOT = { has_country_flag = Choi_Gyuha_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Kyu_joon_for_rso"
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Gyuha_for"
 			}
 			traits = {
 				foreign_minister
-				democratic_socialist
+				authoritarian_democrat
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = yes
@@ -691,29 +689,51 @@ ideas = {
 	}
 
 	economy_minister = { ### 경제장관 ###
-		KOR_Yi_Tong_whi_eco_rso = {
+		KOR_O_Woncheol_eco = {
 			allowed = { original_tag = KOR }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					democratic_socialist_allowed = yes
-					NOT = { has_country_flag = Yi_Tong_whi_dead }
+					NOT = { has_country_flag = O_Woncheol_dead }
 				}
 			}
 			visible = {
-				democratic_socialist_allowed = yes
-				NOT = { has_country_flag = Yi_Tong_whi_dead }
+				NOT = { has_country_flag = O_Woncheol_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Tong_whi_eco_rso"
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_O_Woncheol_eco"
 			}
 			traits = {
 				economy_minister
-				democratic_socialist
-				eco_infantry_proponent
+				authoritarian_democrat
+				eco_industrialiser
 			}
 			cancel_if_invalid = yes
 		}
+		
+		KOR_Yi_Seunggi_eco_syn = {
+			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yi_Seunggi_dead }
+					syndicalist_allowed = yes
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yi_Seunggi_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Seunggi_eco_syn"
+			}
+			traits = {
+				economy_minister
+				syndicalist
+				eco_industrial_chemist
+			}
+			cancel_if_invalid = yes
+		}
+
 
 	}
 
@@ -869,7 +889,7 @@ ideas = {
 	}
 
 	theorist = {
-		KOR_Yi_Hyso = {
+		KOR_Yi_Hyso_the = {
    			allowed = { original_tag = KOR }
 			available = {
 				custom_trigger_tooltip = {
@@ -882,17 +902,50 @@ ideas = {
 			}
 
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Hyso"
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Hyso_the"
+			}
+			
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			production_speed_synthetic_refinery_factor = 0.1
+			
+            traits = { 
+				nuclear_theorist 
+				social_liberal
+				}
+				
+			cancel_if_invalid = yes
+
+        }
+		
+		KOR_Choi_Hyeongseob_the = {
+   			allowed = { original_tag = KOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Choi_Hyeongseob_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Choi_Hyeongseob_dead }
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Hyeongseob_the"
 			}
           
             research_bonus = {
                 nuclear = 0.1
             }
           
-            traits = { nuclear_theorist }
+            traits = { 
+				industry_theorist 
+				authoritarian_democrat
+				}
 			cancel_if_invalid = yes
 
         }
+
 	
 	}
 	

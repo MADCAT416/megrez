@@ -34,6 +34,7 @@ Ho_Jong_Suk_DESC:0 ""
 Yi_Gu_DESC:0 ""
 
 # 내각
+## 정부수반
 KOR_Chang_Chun_Ha_hog_nat:0 "장준하"
 KOR_Kim_Dae_Jung_hog_lib:0 "김대중"
 KOR_Kim_Young_Sam_hog_mar:0 "김영삼"
@@ -59,10 +60,30 @@ KOR_Bang_Baechu_hog_syn:0 "방배추"
 KOR_Kim_Moonsu_hog_syn:0 "김문수"
 KOR_Yi_Seungyeob_hog_tot:0 "리승엽"
 
+## 외무장관
+KOR_Choi_Gyuha_for:0 "최규하"
+
+## 경제장관 
+KOR_O_Woncheol_eco:0 "오원철"
+KOR_Yi_Seunggi_eco_syn:0 "리승기"
+
+## 내무장관
+
+## 정보총수
+
 # 군부
 
-# 학자
-KOR_Yi_Hyso:0 "이휘소"
+## 총참모장
+
+## 육군참모장
+
+## 해군참모장
+
+## 공군참모장
+
+## 학자
+KOR_Yi_Hyso_the:0 "이휘소"
+KOR_Choi_Hyeongseob_the:0 "최형섭"
 
 ### 국민정신 ###
 kor_hate_japs:0 "반일감정"
