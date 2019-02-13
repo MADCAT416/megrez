@@ -64,6 +64,18 @@ KOR_Kim_Shin_hog_nat:0 "김신"
 
 ## 외무장관
 KOR_Choi_Gyuha_for:0 "최규하"
+KOR_Yi_Beomsuck_for:0 "이범석"
+KOR_Yi_Dongone_for:0 "이동원"
+KOR_Kim_Yongsick_for:0 "김용식"
+KOR_Park_Dongjin_for:0 "박동진"
+KOR_Cho_Yunhyeong_for_aut:0 "조윤형"
+KOR_Choi_Deoksin_for_nat:0 "최덕신"
+KOR_Cheon_Gyuhong_for_con:0 "전규홍"
+KOR_Choi_Gyeongrock_for_con:0 "최경록"
+KOR_Min_Gwansick_for_mar:0 "민관식"
+KOR_Yang_Ildong_for_lib:0 "양일동"
+KOR_Kim_Sangdon_for_lib:0 "김상돈"
+KOR_Kim_Cheol_for_pro:0 "김철"
 
 ## 경제장관 
 KOR_O_Woncheol_eco:0 "오원철"
