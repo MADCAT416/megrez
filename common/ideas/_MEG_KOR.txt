@@ -222,7 +222,7 @@ ideas = {
 			traits = {
 				head_of_government
 				democratic_socialist
-				hog_happy_amateur
+				hog_naive_optimist
 			}
 			cancel_if_invalid = yes
 		}
