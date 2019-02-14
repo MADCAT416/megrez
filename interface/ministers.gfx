@@ -575,4 +575,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Hyeongseob.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_KOR_Saint_Bulguza_the"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Saint_Bulguza.tga"
+	}
+
 }
