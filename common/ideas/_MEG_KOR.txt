@@ -1522,7 +1522,7 @@ ideas = {
 			
             traits = { 
 				reptile_entertainer
-				blandist
+				
 				}
 			cancel_if_invalid = yes
 
