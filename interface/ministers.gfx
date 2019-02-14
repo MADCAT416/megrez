@@ -129,6 +129,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/KOR/KOR_Kim_Doohan.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_KOR_Park_Chajeong_hog_syn"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Park_Chajeong.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Choi_Sunyoung_hog_syn"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Choi_Sunyoung.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_Bang_Baechu_hog_syn"
+		texturefile = "gfx/interface/ministers/KOR/KOR_Bang_Baechu.tga"
+	}
+
 	#Foreign Minister
 	spriteType = {
 		name = "GFX_idea_KOR_Choi_Gyuha_for"
