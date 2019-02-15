@@ -207,7 +207,7 @@ ideas = {
 					tooltip = minister_available
 					democratic_socialist_allowed = yes
 					NOT = { has_country_flag = Ho_Jong_Suk_dead }
-					NOT = { has_country_flag = 1977_retire }
+					NOT = { has_country_flag = retire_1977 }
 					NOT = { has_country_leader = { name = "허정숙" } }
 					has_country_flag = can_replace_hog
 				}
@@ -215,7 +215,7 @@ ideas = {
 			visible = {
 				democratic_socialist_allowed = yes
 				NOT = { has_country_flag = Ho_Jong_Suk_dead }
-				NOT = { has_country_flag = 1977_retire }
+				NOT = { has_country_flag = retire_1977 }
 				NOT = { has_country_leader = { name = "허정숙" } }
 			}
 			on_add = {
@@ -263,7 +263,7 @@ ideas = {
 					tooltip = minister_available
 					national_populist_allowed = yes
 					NOT = { has_country_flag = Kim_HongIl_dead }
-					NOT = { has_country_flag = 1973_retire }
+					NOT = { has_country_flag = retire_1973 }
 					has_country_flag = can_replace_hog
 					
 				}
@@ -271,7 +271,7 @@ ideas = {
 			visible = {
 				national_populist_allowed = yes
 				NOT = { has_country_flag = Kim_HongIl_dead }
-				NOT = { has_country_flag = 1973_retire }
+				NOT = { has_country_flag = retire_1973 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_HongIl_hog_nat"
@@ -341,14 +341,14 @@ ideas = {
 					tooltip = minister_available
 					authoritarian_democrat_allowed = yes
 					NOT = { has_country_flag = Baek_Doojin_dead }
-					NOT = { has_country_flag = 1983_retire }
+					NOT = { has_country_flag = retire_1983 }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				authoritarian_democrat_allowed = yes
 				NOT = { has_country_flag = Baek_Doojin_dead }
-				NOT = { has_country_flag = 1983_retire }
+				NOT = { has_country_flag = retire_1983 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Baek_Doojin_hog_aut"
@@ -422,14 +422,14 @@ ideas = {
 					tooltip = minister_available
 					social_liberal_allowed = yes
 					NOT = { has_country_flag = Jeong_Ilhyeong_dead }
-					NOT = { has_country_flag = 1979_retire }
+					NOT = { has_country_flag = retire_1979 }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				social_liberal_allowed = yes
 				NOT = { has_country_flag = Jeong_Ilhyeong_dead }
-				NOT = { has_country_flag = 1979_retire }
+				NOT = { has_country_flag = retire_1979 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Jeong_Ilhyeong_hog_lib"
@@ -476,14 +476,14 @@ ideas = {
 					tooltip = minister_available
 					market_liberal_allowed = yes
 					NOT = { has_country_flag = Yi_Jaehyeong_dead }
-					NOT = { has_country_flag = 1989_retire }
+					NOT = { has_country_flag = retire_1989 }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				market_liberal_allowed = yes
 				NOT = { has_country_flag = Yi_Jaehyeong_dead }
-				NOT = { has_country_flag = 1989_retire }
+				NOT = { has_country_flag = retire_1989 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Jaehyeong_hog_mar"
@@ -584,14 +584,14 @@ ideas = {
 					tooltip = minister_available
 					democratic_socialist_allowed = yes
 					NOT = { has_country_flag = Yoon_Giljoong_dead }
-					NOT = { has_country_flag = 1991_retire }
+					NOT = { has_country_flag = retire_1991 }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				democratic_socialist_allowed = yes
 				NOT = { has_country_flag = Yoon_Giljoong_dead }
-				NOT = { has_country_flag = 1991_retire }
+				NOT = { has_country_flag = retire_1991 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yoon_Giljoong_hog_dem"
@@ -610,7 +610,7 @@ ideas = {
 					tooltip = minister_available
 					syndicalist_allowed = yes
 					NOT = { has_country_flag = Park_Chajeong_dead }
-					NOT = { has_country_flag = 1985_retire }
+					NOT = { has_country_flag = retire_1985 }
 					has_country_flag = can_replace_hog
 					has_country_flag = Euyeoldan_returned
 				}
@@ -618,7 +618,7 @@ ideas = {
 			visible = {
 				syndicalist_allowed = yes
 				NOT = { has_country_flag = Park_Chajeong_dead }
-				NOT = { has_country_flag = 1985_retire }
+				NOT = { has_country_flag = retire_1985 }
 				has_country_flag = Euyeoldan_returned
 			}
 			on_add = {
@@ -761,14 +761,14 @@ ideas = {
 					tooltip = minister_available
 					totalist_allowed = yes
 					NOT = { has_country_flag = Yi_Seungyeob_dead }
-					NOT = { has_country_flag = 1980_retire }
+					NOT = { has_country_flag = retire_1980 }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				totalist_allowed = yes
 				NOT = { has_country_flag = Yi_Seungyeob_dead }
-				NOT = { has_country_flag = 1980_retire }
+				NOT = { has_country_flag = retire_1980 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Yi_Seungyeob_hog_tot"
@@ -862,12 +862,12 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Kim_Yongsick_dead }
-					NOT = { has_country_flag = 1988_retire }
+					NOT = { has_country_flag = retire_1988 }
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Kim_Yongsick_dead }
-				NOT = { has_country_flag = 1988_retire }
+				NOT = { has_country_flag = retire_1988 }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Kim_Yongsick_for"
@@ -936,13 +936,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Choi_Deoksin_dead }
-					NOT = { has_country_flag = 1989_retire }
+					NOT = { has_country_flag = retire_1989 }
 					national_populist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Choi_Deoksin_dead }
-				NOT = { has_country_flag = 1989_retire }
+				NOT = { has_country_flag = retire_1989 }
 				national_populist_allowed = yes
 			}
 			on_add = {
@@ -962,13 +962,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Cheon_Gyuhong_dead }
-					NOT = { has_country_flag = 1981_retire }
+					NOT = { has_country_flag = retire_1981 }
 					social_conservative_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Cheon_Gyuhong_dead }
-				NOT = { has_country_flag = 1981_retire }
+				NOT = { has_country_flag = retire_1981 }
 				social_conservative_allowed = yes
 			}
 			on_add = {
@@ -1040,13 +1040,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Yang_Ildong_dead }
-					NOT = { has_country_flag = 1987_retire }
+					NOT = { has_country_flag = retire_1987 }
 					social_liberal_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Yang_Ildong_dead }
-				NOT = { has_country_flag = 1987_retire }
+				NOT = { has_country_flag = retire_1987 }
 				social_liberal_allowed = yes
 			}
 			on_add = {
@@ -1066,13 +1066,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Kim_Sangdon_dead }
-					NOT = { has_country_flag = 1976_retire }
+					NOT = { has_country_flag = retire_1976 }
 					social_liberal_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Kim_Sangdon_dead }
-				NOT = { has_country_flag = 1976_retire }
+				NOT = { has_country_flag = retire_1976 }
 				social_liberal_allowed = yes
 			}
 			on_add = {
@@ -1118,13 +1118,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Yi_Ganguk_dead }
-					NOT = { has_country_flag = 1981_retire }
+					NOT = { has_country_flag = retire_1981 }
 					democratic_socialist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Yi_Ganguk_dead }
-				NOT = { has_country_flag = 1981_retire }
+				NOT = { has_country_flag = retire_1981 }
 				democratic_socialist_allowed = yes
 			}
 			on_add = {
@@ -1144,13 +1144,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Hwang_Taeseong_dead }
-					NOT = { has_country_flag = 1981_retire }
+					NOT = { has_country_flag = retire_1981 }
 					democratic_socialist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Hwang_Taeseong_dead }
-				NOT = { has_country_flag = 1981_retire }
+				NOT = { has_country_flag = retire_1981 }
 				democratic_socialist_allowed = yes
 			}
 			on_add = {
@@ -1198,13 +1198,13 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Park_Seongcheol_dead }
-					NOT = { has_country_flag = 1988_retire }
+					NOT = { has_country_flag = retire_1988 }
 					totalist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Park_Seongcheol_dead }
-				NOT = { has_country_flag = 1988_retire }
+				NOT = { has_country_flag = retire_1988 }
 				totalist_allowed = yes
 			}
 			on_add = {
