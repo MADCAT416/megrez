@@ -97,7 +97,7 @@ news_event = {
 
 	option = { 
 		name = News_1968.12321.a 
-		set_country_flag = retire_1980
+		set_country_flag = retire_1968
 		set_country_flag = emerge_1969
 	}
 

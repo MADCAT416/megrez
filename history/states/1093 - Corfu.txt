@@ -19,5 +19,5 @@ state = {
 	}
 	manpower = 3500
 	
-	state_category = "tiny_island"
+	state_category = "small_island"
 }
