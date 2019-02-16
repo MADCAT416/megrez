@@ -32,23 +32,52 @@ country_event = {
     is_triggered_only = yes
 
 	option = { 
-	name = KOR_1981.06031.a 
+		name = KOR_1981.06031.a 
+		create_country_leader = {
+			name = "최순영"
+			desc = "Choi_Sunyoung_DESC"
+			picture = "Choi_Sunyoung.tga"
+			expire = "2000.1.1"
+			ideology = syndicalist_subtype
+			traits = {}
+		}
 
 	}
 	
 	option = { 
-	name = KOR_1981.06031.b
-
+		name = KOR_1981.06031.b
+		create_country_leader = {
+			name = "방배추"
+			desc = "Bang_Baechu_DESC"
+			picture = "Bang_Baechu.tga"
+			expire = "2000.1.1"
+			ideology = syndicalist_subtype
+			traits = {hog_flamboyant_tough_guy}
+		}
 	}
 
 	option = { 
-	name = KOR_1981.06031.c 
-
+		name = KOR_1981.06031.c 
+		create_country_leader = {
+			name = "여정남"
+			desc = "Yeo_Jeongnam_DESC"
+			picture = "Yeo_Jeongnam.tga"
+			expire = "2000.1.1"
+			ideology = syndicalist_subtype
+			traits = {hog_spiritual_leader}
+		}
 	}
 	
 	option = { 
-	name = KOR_1981.06031.d 
-
+		name = KOR_1981.06031.d 
+		create_country_leader = {
+			name = "김문수"
+			desc = "Kim_Moonsu_DESC"
+			picture = "Kim_Moonsu.tga"
+			expire = "2000.1.1"
+			ideology = syndicalist_subtype
+			traits = {hog_ambitious_union_boss}
+		}
 	}
 	
 }
