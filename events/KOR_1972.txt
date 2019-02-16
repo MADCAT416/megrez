@@ -1,25 +1,42 @@
 ﻿add_namespace = KOR_1972
 
-country_event = { # 의열단 귀환 - 전태일 포커스 달성 600일 후 자동발생
+country_event = { # 의열단 귀환 - 전태일 포커스 달성 이후 600일 후 자동발생
 
-country_event = {
-	id = KOR_1972.1017
-	title = KOR_1972.1017.title
-	desc = KOR_1972.1017.desc
-	picture = GFX_Euyeoldan_returned
-    is_triggered_only = yes
+	id = KOR_1972.10170
+	hidden = yes
+	
+	fire_only_once = yes
 
 	mean_time_to_happen = { days = 600 }
 	trigger = {
 		
 	}
+	
+	immediate = {
+		country_event = { id = KOR_1972.10171 }
+	}
 
 	option = { 
-		name = KOR_1972.1017.a 
+		name = KOR_1972.10170.a 
+	}
+}
+
+country_event = {
+	id = KOR_1972.10171
+	title = KOR_1972.10171.title
+	desc = KOR_1972.10171.desc
+	picture = GFX_Euyeoldan_returned
+    is_triggered_only = yes
+
+	immediate = {
 		set_country_flag = Euyeoldan_returned
+	}
+
+	option = { 
+		name = KOR_1972.10171.a 
 		add_popularity = {
 			ideology = syndicalist
-			popularity = 10
+			popularity = 0.1
 		}
 		add_stability = -0.1
 	}
