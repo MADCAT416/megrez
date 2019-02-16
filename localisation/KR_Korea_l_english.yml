@@ -1,97 +1,95 @@
 ﻿l_english:
 
-### Parties ###
-KOR_totalist_party:0 "조선공산당"
-KOR_totalist_party_long:0 "조선공산당"
-KOR_syndicalist_party:0 "의열단"
-KOR_syndicalist_party_long:0 "의열단"
-KOR_democratic_socialist_party:0 "조선인민당"
-KOR_democratic_socialist_party_long:0 "조선인민당"
-KOR_social_progressive_party:0 "사회공화당"
-KOR_social_progressive_party_long:0 "사회공화당"
-KOR_social_liberal_party:0 "신한민주당"
-KOR_social_liberal_party_long:0 "신한민주당"
-KOR_market_liberal_party:0 "자유당"
-KOR_market_liberal_party_long:0 "자유당"
-KOR_social_conservative_party:0 "한국민주당"
-KOR_social_conservative_party_long:0 "한국민주당"
-KOR_authoritarian_democrat_party:0 "한국독립당"
-KOR_authoritarian_democrat_party_long:0 "한국독립당"
-KOR_paternal_autocrat_party:0 "대한제국 황실"
-KOR_paternal_autocrat_party_long:0 "대한제국 황실"
-KOR_national_populist_party:0 "일민정우회"
-KOR_national_populist_party_long:0 "일민정우회"
+ ### 국가원수 ###
+    Chang_Chun_Ha_DESC:0 ""
+    Lee_Chul_Seung_DESC:0 ""
+    Kim_Young_Sam_DESC:0 ""
+    Kim_Dae_Jung_DESC:0 ""
+    Kim_Jong_Pil_DESC:0 ""
+    So_Man_Sul_DESC:0 ""
+    Yoon_Se_ju_DESC:0 ""
+    Ho_Jong_Suk_DESC:0 ""
+    Yi_Gu_DESC:0 ""
 
-### 인물 소개 ###
-Chang_Chun_Ha_DESC:0 ""
-Lee_Chul_Seung_DESC:0 ""
-Kim_Young_Sam_DESC:0 ""
-Kim_Dae_Jung_DESC:0 ""
-Kim_Jong_Pil_DESC:0 ""
-So_Man_Sul_DESC:0 ""
-Yoon_Se_ju_DESC:0 ""
-Ho_Jong_Suk_DESC:0 ""
-Yi_Gu_DESC:0 ""
+ ### 정당 ###
+    KOR_totalist_party:0 "조선공산당"
+    KOR_totalist_party_long:0 "조선공산당"
+    KOR_syndicalist_party:0 "의열단"
+    KOR_syndicalist_party_long:0 "의열단"
+    KOR_democratic_socialist_party:0 "조선인민당"
+    KOR_democratic_socialist_party_long:0 "조선인민당"
+    KOR_social_progressive_party:0 "사회공화당"
+    KOR_social_progressive_party_long:0 "사회공화당"
+    KOR_social_liberal_party:0 "신한민주당"
+    KOR_social_liberal_party_long:0 "신한민주당"
+    KOR_market_liberal_party:0 "자유당"
+    KOR_market_liberal_party_long:0 "자유당"
+    KOR_social_conservative_party:0 "한국민주당"
+    KOR_social_conservative_party_long:0 "한국민주당"
+    KOR_authoritarian_democrat_party:0 "한국독립당"
+    KOR_authoritarian_democrat_party_long:0 "한국독립당"
+    KOR_paternal_autocrat_party:0 "대한제국 황실"
+    KOR_paternal_autocrat_party_long:0 "대한제국 황실"
+    KOR_national_populist_party:0 "일민정우회"
+    KOR_national_populist_party_long:0 "일민정우회"
 
-# 내각
-## 정부수반
-KOR_Chang_Chun_Ha_hog_nat:0 "장준하" # 1918-08-27생 
-KOR_Kim_Dae_Jung_hog_lib:0 "김대중" # 1924-01-06생 
-KOR_Kim_Young_Sam_hog_mar:0 "김영삼" # 1927-12-20생 
-KOR_Kim_Jong_Pil_hog_pro:0 "김종필" # 1926-01-17생 
-KOR_Lee_Chul_Seung_hog_con:0 "이철승" # 1922-05-15생
-KOR_Yoon_Se_ju_hog_syn:0 "윤세주" # 1901-06-24생 1981-06-03몰
-KOR_Ho_Jong_Suk_hog_dem:0 "허정숙" # 1902-07-16생 1977-07-16은퇴
-KOR_So_Man_Sul_hog_tot:0 "서만술" # 1927-04-17생 
-KOR_Kim_HongIl_hog_nat:0 "김홍일" # 1898-09-23생 1973-09-23은퇴
-KOR_Yi_Yoonyeong_hog_nat:0 "이윤영" # 1890-08-19생 1968-08-19몰
-KOR_Son_Wonil_hog_aut:0 "손원일" # 1909-05-05생 1980-02-15몰
-KOR_Baek_Doojin_hog_aut:0 "백두진" # 1908-10-07생 1983-10-07은퇴
-KOR_Jeong_Ilhyeong_hog_lib:0 "정일형" # 1904-02-23생 1979-02-23은퇴
-KOR_Yi_Minwoo_hog_mar:0 "이민우" # 1915-09-05생 1990-09-05은퇴
-KOR_Yi_Jaehyeong_hog_mar:0 "이재형" # 1914-11-07생 1989-11-07 은퇴
-KOR_Yi_Joongjae_hog_con:0 "이중재" # 1925-01-20생 
-KOR_Jang_Giyong_hog_con:0 "장기영" # 1916-05-02생 1977-04-11몰
-KOR_Yeo_Yeongoo_hog_pro:0 "여연구" # 1927-08-01생 
-KOR_Yoon_Giljoong_hog_dem:0 "윤길중" # 1916-08-14생 1991-08-14 은퇴
-KOR_Yeo_Jeongnam_hog_syn:0 "여정남" # 1944-05-07생 1981-06-03출현
-KOR_Park_Chajeong_hog_syn:0 "박차정" # 1910-05-07생 1985-05-07은퇴
-KOR_Choi_Sunyoung_hog_syn:0 "최순영" # 1953-09-15생 1981-06-03출현
-KOR_Bang_Baechu_hog_syn:0 "방배추" # 1935생 1981-06-03출현
-KOR_Kim_Moonsu_hog_syn:0 "김문수" # 1951-08-27생 1981-06-03출현
-KOR_Yi_Seungyeob_hog_tot:0 "리승엽" # 1905-02-08생 1980-02-08은퇴
-KOR_Kim_Doohan_hog_aut:0 "김두한" # 1918-05-15생
-KOR_Kim_Shin_hog_nat:0 "김신" # 1922-09-21생
+ # 내각
+    ## 정부수반
+        KOR_Chang_Chun_Ha_hog_nat:0 "장준하" # 1918-08-27생 
+        KOR_Kim_Dae_Jung_hog_lib:0 "김대중" # 1924-01-06생 
+        KOR_Kim_Young_Sam_hog_mar:0 "김영삼" # 1927-12-20생 
+        KOR_Kim_Jong_Pil_hog_pro:0 "김종필" # 1926-01-17생 
+        KOR_Lee_Chul_Seung_hog_con:0 "이철승" # 1922-05-15생
+        KOR_Yoon_Se_ju_hog_syn:0 "윤세주" # 1901-06-24생 1981-06-03몰
+        KOR_Ho_Jong_Suk_hog_dem:0 "허정숙" # 1902-07-16생 1977-07-16은퇴
+        KOR_So_Man_Sul_hog_tot:0 "서만술" # 1927-04-17생 
+        KOR_Kim_HongIl_hog_nat:0 "김홍일" # 1898-09-23생 1973-09-23은퇴
+        KOR_Yi_Yoonyeong_hog_nat:0 "이윤영" # 1890-08-19생 1968-08-19몰
+        KOR_Son_Wonil_hog_aut:0 "손원일" # 1909-05-05생 1980-02-15몰
+        KOR_Baek_Doojin_hog_aut:0 "백두진" # 1908-10-07생 1983-10-07은퇴
+        KOR_Jeong_Ilhyeong_hog_lib:0 "정일형" # 1904-02-23생 1979-02-23은퇴
+        KOR_Yi_Minwoo_hog_mar:0 "이민우" # 1915-09-05생 1990-09-05은퇴
+        KOR_Yi_Jaehyeong_hog_mar:0 "이재형" # 1914-11-07생 1989-11-07 은퇴
+        KOR_Yi_Joongjae_hog_con:0 "이중재" # 1925-01-20생 
+        KOR_Jang_Giyong_hog_con:0 "장기영" # 1916-05-02생 1977-04-11몰
+        KOR_Yeo_Yeongoo_hog_pro:0 "여연구" # 1927-08-01생 
+        KOR_Yoon_Giljoong_hog_dem:0 "윤길중" # 1916-08-14생 1991-08-14 은퇴
+        KOR_Yeo_Jeongnam_hog_syn:0 "여정남" # 1944-05-07생 1981-06-03출현
+        KOR_Park_Chajeong_hog_syn:0 "박차정" # 1910-05-07생 1985-05-07은퇴
+        KOR_Choi_Sunyoung_hog_syn:0 "최순영" # 1953-09-15생 1981-06-03출현
+        KOR_Bang_Baechu_hog_syn:0 "방배추" # 1935생 1981-06-03출현
+        KOR_Kim_Moonsu_hog_syn:0 "김문수" # 1951-08-27생 1981-06-03출현
+        KOR_Yi_Seungyeob_hog_tot:0 "리승엽" # 1905-02-08생 1980-02-08은퇴
+        KOR_Kim_Doohan_hog_aut:0 "김두한" # 1918-05-15생
+        KOR_Kim_Shin_hog_nat:0 "김신" # 1922-09-21생
+    ## 외무장관
+        KOR_Choi_Gyuha_for:0 "최규하" # 1919-07-16생 
+        KOR_Yi_Beomsuck_for:0 "이범석" # 1925-09-14생
+        KOR_Yi_Dongone_for:0 "이동원" # 1926-09-08생 
+        KOR_Kim_Yongsick_for:0 "김용식" # 1913-11-11생 1988-11-11은퇴
+        KOR_Park_Dongjin_for:0 "박동진" # 1922-10-11생
+        KOR_Cho_Yunhyeong_for_aut:0 "조윤형" # 1932-11-26생
+        KOR_Choi_Deoksin_for_nat:0 "최덕신" # 1914-09-17생 1989-09-17은퇴
+        KOR_Cheon_Gyuhong_for_con:0 "전규홍" # 1906-04-14생 1981-04-14은퇴
+        KOR_Choi_Gyeongrock_for_con:0 "최경록" # 1920-09-21생
+        KOR_Min_Gwansick_for_mar:0 "민관식" # 1918-05-03생
+        KOR_Yang_Ildong_for_lib:0 "양일동" # 1912-12-30생 1987-12-30은퇴
+        KOR_Kim_Sangdon_for_lib:0 "김상돈" # 1901-06-09생 1976-06-09은퇴
+        KOR_Kim_Cheol_for_pro:0 "김철" # 1926-07-01생
+        KOR_Yi_Ganguk_for_dem:0 "이강국" # 1906-02-07생 1981-02-07은퇴
+        KOR_Hwang_Taeseong_for_dem:0 "황태성" # 1906-04-27생 1981-04-27은퇴
+        KOR_Yu_Suckhyeon_for_syn:0 "유석현" # 1900-05-14생 1987-08-28몰
+        KOR_Park_Seongcheol_for_tot:0 "박성철" # 1913-09-02생 1988-09-02은퇴
+    ## 경제장관 
+        KOR_O_Woncheol_eco:0 "오원철" # 1928년생
+        KOR_Yi_Seunggi_eco:0 "리승기" # 1905년생 
+        KOR_Yi_Taegyu_eco:0 "이태규" # 1902년생
+    ## 내무장관
+        
+    ## 정보총수
+        
 
-## 외무장관
-KOR_Choi_Gyuha_for:0 "최규하" # 1919-07-16생 
-KOR_Yi_Beomsuck_for:0 "이범석" # 1925-09-14생 
-KOR_Yi_Dongone_for:0 "이동원" # 1926-09-08생 
-KOR_Kim_Yongsick_for:0 "김용식" # 1913-11-11생 1988-11-11은퇴
-KOR_Park_Dongjin_for:0 "박동진" # 1922-10-11생
-KOR_Cho_Yunhyeong_for_aut:0 "조윤형" # 1932-11-26생
-KOR_Choi_Deoksin_for_nat:0 "최덕신" # 1914-09-17생 1989-09-17은퇴
-KOR_Cheon_Gyuhong_for_con:0 "전규홍" # 1906-04-14생 1981-04-14은퇴
-KOR_Choi_Gyeongrock_for_con:0 "최경록" # 1920-09-21생
-KOR_Min_Gwansick_for_mar:0 "민관식" # 1918-05-03생
-KOR_Yang_Ildong_for_lib:0 "양일동" # 1912-12-30생 1987-12-30은퇴
-KOR_Kim_Sangdon_for_lib:0 "김상돈" # 1901-06-09생 1976-06-09은퇴
-KOR_Kim_Cheol_for_pro:0 "김철" # 1926-07-01생
-KOR_Yi_Ganguk_for_dem:0 "이강국" # 1906-02-07생 1981-02-07은퇴
-KOR_Hwang_Taeseong_for_dem:0 "황태성" # 1906-04-27생 1981-04-27은퇴
-KOR_Yu_Suckhyeon_for_syn:0 "유석현" # 1900-05-14생 1987-08-28몰
-KOR_Park_Seongcheol_for_tot:0 "박성철" # 1913-09-02생 1988-09-02은퇴
-
-## 경제장관 
-KOR_O_Woncheol_eco:0 "오원철" # 1928년생
-KOR_Yi_Seunggi_eco:0 "리승기" # 1905년생 
-KOR_Yi_Taegyu_eco:0 "이태규" # 1902년생
-
-## 내무장관
-
-## 정보총수
-
-# 군부
+ # 군부
 
 ## 총참모장
 
@@ -101,14 +99,27 @@ KOR_Yi_Taegyu_eco:0 "이태규" # 1902년생
 
 ## 공군참모장
 
-## 학자
-KOR_Yi_Hyso_the:0 "이휘소" # 1935년생
-KOR_Choi_Hyeongseob_the:0 "최형섭" # 1920년생
-KOR_Saint_Bulguza_the:0 "심영" # 1910-09-03생 1971-07-24몰
+    ## 학자
+        KOR_Yi_Hyso_the:0 "이휘소" # 1935년생
+        KOR_Choi_Hyeongseob_the:0 "최형섭" # 1920년생
+        KOR_Saint_Bulguza_the:0 "심영" # 1910-09-03생 1971-07-24몰
 
-### 국민정신 ###
-kor_hate_japs:0 "반일감정"
-kor_hate_japs_desc:0 "36년간의 식민지배는 비록 다른 나라들에 비해 짧았지만, 스스로를 문명인이라 자부하던 조선인들의 자존심에 크나큰 상처를 입혔습니다. 옛 종주국이었던 일본에 대한 증오는 가까운 시일 내에 사라질 것 같지 않습니다..."
+ ### 국민정신 ###
+    kor_hate_japs:0 "반일감정"
+    kor_hate_japs_desc:0 "36년간의 식민지배는 비록 다른 나라들에 비해 짧았지만, 스스로를 문명인이라 자부하던 조선인들의 자존심에 크나큰 상처를 입혔습니다. 옛 종주국이었던 일본에 대한 증오는 가까운 시일 내에 사라질 것 같지 않습니다..."
+    korean_turanism:0 "신시배달의 민족"
+    korean_turanism_desc:0 "독립 이래 한국에서는 초대 문교부 장관 신채호의 학설이 정설로 인정받고 있습니다. 이 '대륙조선' 사관은 국제적으로는 아무에게도 인정받지 못하지만, 20년 넘는 공교육을 통해 한국인의 정신에 뿌리깊게 자리잡았습니다..."
 
-korean_turanism:0 "신시배달의 민족"
-korean_turanism_desc:0 "독립 이래 한국에서는 초대 문교부 장관 신채호의 학설이 정설로 인정받고 있습니다. 이 '대륙조선' 사관은 국제적으로는 아무에게도 인정받지 못하지만, 20년 넘는 공교육을 통해 한국인의 정신에 뿌리깊게 자리잡았습니다..."
+ ### 이벤트 ###
+    ### 1972년
+        KOR_1972.10171.title:0 "의열단의 귀환"
+        KOR_1972.10171.desc:0 "심각한 소식입니다! 지난 1949년 김구 초대 주석님을 시해하고 국외로 사라졌던 의열단이 "
+        KOR_1972.1121.a:0 "꼴 좋다!"
+        KOR_1972.1121.b:0 "아니, 너무하잖아..."
+    ### 1981년
+        KOR_1981.06031.title:0 "윤세주의 사망"
+        KOR_1981.06031.desc:0 "테러조직 의열단의 수괴 윤세주가 지난 주에 죽었다는 첩보가 입수되었습니다. 사인은 고령으로 인한 자연사라 합니다. 김원봉의 아내 박차정이 주관한 총회에서 차기 단장을 선출했다는데, 첩보에 의하면 차기 단장은 놀랍게도..."
+        KOR_1981.06031.a:0 "20대의 젊은 여자라고 합니다!"
+        KOR_1981.06031.b:0 "개성 출신의 40대 건달이라고 합니다!"
+        KOR_1981.06031.c:0 "잠적했던 영남총학연합회장이라고 합니다!"
+        KOR_1981.06031.d:0 "서울대학교에서 제적된 학생이라고 합니다!"
