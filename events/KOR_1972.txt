@@ -15,7 +15,7 @@ country_event = {
 	}
 
 	option = { 
-		name = KOR_1972.1121.a 
+		name = KOR_1972.1017.a 
 		set_country_flag = Euyeoldan_returned
 		add_popularity = {
 			ideology = syndicalist
