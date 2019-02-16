@@ -1,6 +1,6 @@
 ﻿add_namespace = KOR_1972
 
-country_event = { # 의열단 귀환
+country_event = { # 의열단 귀환 - 전태일 포커스 달성 600일 후 자동발생
 
 country_event = {
 	id = KOR_1972.1017
@@ -9,7 +9,7 @@ country_event = {
 	picture = GFX_Euyeoldan_returned
     is_triggered_only = yes
 
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 600 }
 	trigger = {
 		
 	}
