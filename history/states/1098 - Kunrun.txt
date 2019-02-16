@@ -1,6 +1,6 @@
 state = {
-	id = 287
-	name = "STATE_287" # Taklamakan
+	id = 1098
+	name = "STATE_1098" 
 	manpower = 239000
 
 	state_category = wasteland
@@ -11,11 +11,7 @@ state = {
 		add_claim_by = SQI
 		add_core_of = QIE
 		add_core_of = SIK
-		
-		victory_points = {
-			5736 1
-		}
-		
+				
 		buildings = {
 			infrastructure = 0
 
@@ -23,6 +19,6 @@ state = {
 	}
 
 	provinces = {
-		4947 8042 8086 10885 12864 5736 5016 7790 7949 4682 7702 7792 
+		4973 10911 1943 10315 2074 1698 
 	}
 }
