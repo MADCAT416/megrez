@@ -1,4 +1,4 @@
-﻿capital = 1044
+﻿capital = 606
 oob = "empty"
 set_research_slots = 2
 set_technology = {
@@ -160,7 +160,7 @@ set_technology = {
 
 }
 
-set_cosmetic_tag = ANQ_KMT
+
 
 set_politics = {
 

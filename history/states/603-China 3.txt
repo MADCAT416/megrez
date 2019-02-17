@@ -7,7 +7,7 @@ state = { #Qianzhong
 		
 		add_core_of = SQI
 		add_core_of = QIE
-		add_core_of = GXC
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
