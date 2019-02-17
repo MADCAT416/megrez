@@ -1060,6 +1060,10 @@ HJZ = {
 	color = rgb { 196 181 122 }
 	color_ui = rgb { 196 181 122 }
 }
+KMT = {
+	color = rgb { 0 0 149 }
+	color_ui = rgb { 0 0 216 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

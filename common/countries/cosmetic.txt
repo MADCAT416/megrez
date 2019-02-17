@@ -170,7 +170,3 @@ MEX_CON = {
 	color = rgb { 198 219 124 }
 	color_ui = rgb { 198 219 124 }
 }
-CHI_KMT = {
-	color = rgb { 0 0 149 }
-	color_ui = rgb { 0 0 216 }
-}

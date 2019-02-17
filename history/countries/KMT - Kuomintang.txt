@@ -1,0 +1,348 @@
+﻿capital = 592
+oob = "empty"
+
+set_technology = {
+infantry_weapons_1 = 1
+support_weapons_1 = 1
+motorised_infantry = 1
+tech_support = 1
+tech_recon_1 = 1
+tech_engineers_1 = 1
+tech_military_police_1 = 1
+tech_maintenance_company_1 = 1
+tech_field_hospital_1 = 1
+tech_logistics_company_1 = 1
+tech_signal_company_1 = 1
+main_battle_tank_1 = 1
+light_tank_1 = 1
+light_tank_2 = 1
+mechanised_infantry_1 = 1
+artillery_1 = 1
+motorized_rocket_1 = 1
+infantry_at_1 = 1
+spa_1 = 1
+SPAAG_1 = 1
+
+frigate_1 = 1
+frigate_2 = 1
+destroyer_1 = 1
+destroyer_2 = 2
+cruiser_1 = 1
+cruiser_2 = 1
+battleship_1 = 1
+submarine_1 = 1
+submarine_2 = 1
+
+jet_fighter_1 = 1
+heavy_jet_fighter_1 = 1
+strategic_bomber_1 = 1
+jet_strategic_bomber_1 = 1
+helicopter_1 = 1
+recon_helicopter_1 = 1
+heliborne_1 = 1
+
+electronic_mechanical_engineering = 1
+synth_oil_experiments = 1
+radio = 1
+radio_detection = 1
+mechanical_computing = 1
+experimental_rockets = 1
+atomic_research = 1
+jet_engines_1 = 1
+basic_machine_tools = 1
+improved_machine_tools = 1
+construction1 = 1
+excavation1 = 1
+synth_oil_experiments = 1
+	
+}
+
+add_opinion_modifier = { target = SQI modifier = embargo }
+add_opinion_modifier = { target = QIE modifier = embargo }
+add_opinion_modifier = { target = AOG modifier = embargo }
+
+set_stability = 0.50
+set_war_support = 0.40
+set_cosmetic_tag = CHI_KMT
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_progressive = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 100
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = social_liberal
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "장웨이궈"
+	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
+	expire = "2000.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+set_research_slots = 3
+set_convoys = 70
+
+### Field Marshal
+create_field_marshal = { #Auto-Generated
+	name = "Tai Chi-tao"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Tai_Chi_tao.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_field_marshal = { #Auto-Generated
+	name = "Sun Li-Gen"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Sun_Li_Gen.tga"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Zhang Zhizhong"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zhizhong.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Zhang Fakui"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Fakui.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Chen Jitang"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Chen_Jitang.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Li Mi"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Li_Mi.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Xu Yuanquan"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Xu_Yuanquan.tga"
+	traits = {
+		commando
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Gu Zhutong"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Gu_Zhutong.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Li Chunnong"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Li_Chunnong.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Liu Chih"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Liu_Chih.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Gu Zhenglun"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Gu_Zhenglun.tga"
+	traits = {
+		trickster
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Pang Bingxun"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Pang_Bingxun.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Navy Leader
