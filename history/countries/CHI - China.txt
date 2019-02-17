@@ -1,4 +1,4 @@
-﻿capital = 592
+﻿capital = 613
 oob = "empty"
 
 set_technology = {
@@ -63,7 +63,6 @@ add_opinion_modifier = { target = AOG modifier = embargo }
 
 set_stability = 0.50
 set_war_support = 0.40
-set_cosmetic_tag = CHI_KMT
 set_politics = {
 
 	parties = {
