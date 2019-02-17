@@ -492,6 +492,7 @@ KTG = {
 	color = rgb { 128 0 39 }
 	color_ui = rgb { 128 0 39 }
 }
+
 KUR = {
 	color = rgb { 80 120 230 }
 	color_ui = rgb { 80 120 230 }
@@ -1059,10 +1060,6 @@ TRA = {
 HJZ = {
 	color = rgb { 196 181 122 }
 	color_ui = rgb { 196 181 122 }
-}
-KMT = {
-	color = rgb { 0 0 149 }
-	color_ui = rgb { 0 0 216 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

@@ -56,7 +56,7 @@ excavation1 = 1
 synth_oil_experiments = 1
 }
 
-set_cosmetic_tag = LEP_KMT
+
 
 set_politics = {
 

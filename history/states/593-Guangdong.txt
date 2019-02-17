@@ -15,7 +15,7 @@ state = { #Yuehai
 		add_core_of = SQI
 		add_core_of = QIE
 
-add_core_of = KMT
+add_core_of = CHI
 		
 		
 		buildings = {
