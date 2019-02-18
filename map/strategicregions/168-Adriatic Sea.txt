@@ -2,7 +2,7 @@ strategic_region = {
 	id = 168
 	name = "STRATEGICREGION_168"
 	provinces = {
-		10203 5786 5812 5838 5864 3868
+		10203 5786 5812 5838 5864 3868 6626 
 	}
 	weather = {
 		period = {

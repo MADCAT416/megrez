@@ -15,12 +15,10 @@ state = { #Jindong #Eastern Shanxi
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		victory_points = {
-			12432 1
-		}
+		
 	}
 
 	provinces = {
-		1027 1180 1203 1438 1519 4469 4538 10421 10480 12078 12344 12432
+		1027 1180 1203 1438 1519 4469 4538 10421 10480 12078 12344
 	}
 }

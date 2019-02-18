@@ -2,9 +2,9 @@ state = {
 	id = 978
 	name = "STATE_978"
 	provinces = {
-		6500 11562 13662
+		6500 9574 11562 13660 13662
 	}
-	manpower = 589473
+	manpower = 976675
 	buildings_max_level_factor = 1
 
 	state_category = town
@@ -19,5 +19,6 @@ state = {
 		}
 
 		victory_points = { 11562 1 }
+		victory_points = { 13660 1 }
 	}
 }

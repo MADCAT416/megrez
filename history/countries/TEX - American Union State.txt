@@ -60,7 +60,7 @@ set_research_slots = 4
 set_convoys = 80
 set_stability = 0.5
 set_war_support = 0.5
-set_cosmetic_tag = TEX_SALTIRE
+
 add_opinion_modifier = { target = CAL modifier = embargo }
 add_opinion_modifier = { target = CSA modifier = embargo }
 add_opinion_modifier = { target = USA modifier = embargo }
