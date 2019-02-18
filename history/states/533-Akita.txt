@@ -1,7 +1,7 @@
 state = {
 	id = 533
 	name = "STATE_533" # Tohoku
-	manpower = 6575000
+	manpower = 9006729
 	state_category = large_city
 	resources = {
 		steel = 35
@@ -26,7 +26,9 @@ state = {
 		victory_points = {
 			6994 5
 		}
-
+		victory_points = {
+			4118 1
+		}
 		victory_points = {
 			7169 15
 		}

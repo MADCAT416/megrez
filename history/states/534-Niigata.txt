@@ -1,7 +1,7 @@
 state = {
 	id = 534
 	name = "STATE_534" # Hokuriku
-	manpower = 1933000
+	manpower = 5041744
 
 	state_category = city
 
@@ -17,9 +17,13 @@ state = {
 		victory_points = {
 			1117 10
 		}
+		
+		victory_points = {
+			11908 1
+		}
 	}
 
 	provinces = {
-		1117 9952 10128 11930 11989 12007
+		1117 9952 10128 11908 11930 11989 12007
 	}
 }
