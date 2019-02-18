@@ -1,7 +1,7 @@
 state = {
 	id = 6
 	name = "STATE_6" # Flanders
-	manpower = 5578548
+	manpower = 5678869
 	resources = {
 		steel = 12 ##Was 48 for Flanders, split with wallonia
 	}
@@ -14,7 +14,7 @@ state = {
 		victory_points = { 6598 30 }
 		victory_points = { 6560 5 }
 		victory_points = { 13659 1 }
-		victory_points = { 13660 1 }
+		
 		buildings = {
 			infrastructure = 9
 			arms_factory = 2
@@ -42,7 +42,7 @@ add_core_of = HOL
 	}
 
 	provinces = {
-		516 3576 6446 6560 6598 9574 11419 13068 13659 13660
+		480 516 3576 6446 6560 6598 13068 13659
 
 	}
 }
