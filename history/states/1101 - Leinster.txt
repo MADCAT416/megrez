@@ -1,0 +1,24 @@
+state = {
+	id = 1101
+	name = "STATE_1101" # Leinster
+	manpower = 1456500
+	resources = {
+	}
+
+	state_category = "city"
+
+	history = {
+		owner = IRE
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		285 303 3342 7377 
+	}
+}
