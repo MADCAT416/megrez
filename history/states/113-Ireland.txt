@@ -1,7 +1,7 @@
 state = {
 	id = 113
-	name = "STATE_113" # Leinster
-	manpower = 1456500
+	name = "STATE_113" # Mide
+	manpower = 1172619
 	resources = {
 		aluminium = 2
 		steel = 3
@@ -12,7 +12,7 @@ state = {
 	history = {
 		owner = IRE
 		victory_points = {
-			11293 5
+			11293 10
 		}
 		buildings = {
 			infrastructure = 6
@@ -29,6 +29,6 @@ state = {
 	}
 
 	provinces = {
-		285 303 369 3342 3359 7377 11293 11303
+		369 3359 11293
 	}
 }
