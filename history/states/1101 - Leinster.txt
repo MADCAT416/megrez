@@ -1,11 +1,11 @@
 state = {
 	id = 1101
 	name = "STATE_1101" # Leinster
-	manpower = 1456500
+	manpower = 354637
 	resources = {
 	}
 
-	state_category = "city"
+	state_category = "town"
 
 	history = {
 		owner = IRE
