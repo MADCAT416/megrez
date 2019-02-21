@@ -263,7 +263,7 @@ create_country_leader = {
 	picture = "Kim_Young_Sam.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {hog_flamboyant_tough_guy}
+	traits = {highway_without_tollgate}
 }
 
 create_country_leader = {

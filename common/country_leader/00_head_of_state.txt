@@ -277,6 +277,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	highway_without_tollgate = {
+		random = no
+		war_support_factor = 0.1
+		stability_factor = 0.1
+		political_power_gain = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	hochiminh_lover = {
 		random = no
