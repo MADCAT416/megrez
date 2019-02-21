@@ -114,7 +114,7 @@ ideas = {
 			traits = {
 				head_of_government
 				market_liberal
-				hog_flamboyant_tough_guy
+				highway_without_tollgate
 			}
 			cancel_if_invalid = yes
 		}
