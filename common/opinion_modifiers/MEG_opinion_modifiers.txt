@@ -28,6 +28,5 @@ opinion_modifiers = {
 	nemesis = {value = -100}
 	KOR_to_JAP = {value = -80}
 	KOR_to_SQI = {value = -80}
-	MAN_and_MON = {value = 80}
-	MON_and_TIB = {value = 80}
+	MAN_and_MON_and_TIB = {value = 80}
 }

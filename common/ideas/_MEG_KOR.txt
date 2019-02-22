@@ -37,7 +37,7 @@ ideas = {
 			
 		on_add = {log = "[GetDateText]: [Root.GetName]: add idea korean_syndicalsim"}
 
-			picture = korean_syndicalsim
+			picture = KOR_korean_syndicalsim
 
 			removal_cost = -1
 			
