@@ -354,7 +354,7 @@ spriteTypes = {
 	
 	### MON ###
 	spriteType = {
-		name = "GFX_idea_MON_man_mon_tib_treaty"
+		name = "GFX_idea_man_mon_tib_treaty"
 		texturefile = "gfx\interface\ideas\ideas\man_mon_tib_treaty.dds"
 	}
 	
