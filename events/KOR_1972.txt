@@ -39,7 +39,6 @@ country_event = {
 			popularity = 0.1
 		}
 		add_stability = -0.1
-		
 		add_ideas = korean_syndicalism
 	}
 

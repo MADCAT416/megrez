@@ -33,16 +33,17 @@ ideas = {
 
 		}
 		
-		korean_syndicalsim = {
+		korean_syndicalism = {
 			
-		on_add = {log = "[GetDateText]: [Root.GetName]: add idea korean_syndicalsim"}
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea korean_syndicalism"}
 
-			picture = KOR_korean_syndicalsim
+			picture = KOR_korean_syndicalism
 
 			removal_cost = -1
 			
 			modifier = {
 				syndicalist_drift = 0.05
+				stability_factor = -0.1
 				
 			}
 
