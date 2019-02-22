@@ -4,7 +4,8 @@ oob = "GER"
 
 add_ideas = {
 	GER_heilige_liga
-	
+
+	GER_Lise_Meitner
 }
 
 # Starting tech
