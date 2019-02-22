@@ -43,7 +43,7 @@ ideas = {
 			
 			modifier = {
 				syndicalist_drift = 0.05
-				stability_factor = -0.1
+				stability_factor = -0.05
 				
 			}
 
