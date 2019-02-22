@@ -98,8 +98,7 @@ set_politics = {
 }
 
 add_ideas = {
-	mon_tib_treaty
-	man_mon_treaty
+	man_mon_tib_treaty
 }
 
 ### 국가원수 ###

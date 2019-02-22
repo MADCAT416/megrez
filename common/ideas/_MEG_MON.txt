@@ -1,35 +1,14 @@
 ideas = {
 
 	country = {
-		man_mon_treaty = {
-			
-			allowed = {
-				always = no
-			}
-
-			picture = MON_scourge_of_the_steppes
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-			
-			}
-			rule = {
-				
-			}
-		}
 		
-		mon_tib_treaty = {
+		man_mon_tib_treaty = {
 			
 			allowed = {
 				always = no
 			}
 
-			picture = LAO_buddhist_socialism
+			picture = man_mon_tib_treaty
 
 			allowed_civil_war = {
 				always = yes

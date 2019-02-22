@@ -101,7 +101,7 @@ set_politics = {
 }
 
 add_ideas = {
-	man_mon_treaty
+	man_mon_tib_treaty
 }
 
 create_country_leader = {

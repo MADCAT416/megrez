@@ -160,6 +160,7 @@ set_technology = {
 
 }
 
+### 국민정신
 add_ideas = {
 	kor_hate_japs
 	korean_turanism
