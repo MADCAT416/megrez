@@ -337,7 +337,10 @@ spriteTypes = {
 		name = "GFX_idea_KOR_hate_japs"
 		texturefile = "gfx/interface/ideas/ideas/KOR_hate_japs.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_KOR_korean_syndicalism"
+		texturefile = "gfx\interface\ideas\ideas\korean_syndicalism.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_korean_turanism"
 		texturefile = "gfx/interface/ideas/ideas/KOR_turanism.dds"
@@ -349,5 +352,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/SIA_buddhisttraditions_idea.dds"
 	}
 	
+	### MON ###
+	spriteType = {
+		name = "GFX_idea_MON_man_mon_tib_treaty"
+		texturefile = "gfx\interface\ideas\ideas\man_mon_tib_treaty.dds"
+	}
 	
 }
