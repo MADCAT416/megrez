@@ -91,10 +91,10 @@ set_politics = {
 			popularity = 35
 		}
 		paternal_autocrat = {
-			popularity = 22
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 17
 		}
 	}
 
@@ -213,9 +213,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "데이비드 트렌치"
-	desc = "David_Trench_DESC"
-	picture = "Portrait_LEC_David_Trench.tga"
+	name = "장칭"
+	desc = "Jiang_Qing_DESC"
+	picture = "Portrait_LEC_Jiang_Qing.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
