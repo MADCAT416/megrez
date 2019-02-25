@@ -130,7 +130,7 @@ country_event = {
 	option = {}
 }
 
-#Add totalist
+#Add popularity
 country_event = {
 	id = mrz_gen_politic.6
 	
