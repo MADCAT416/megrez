@@ -33,74 +33,71 @@ country_event = {
 			}
 			AND = {
 				has_idea = party_pop_0_90
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 90 compare = less_than }
+				check_variable = { var = ROOT.goverment_popularity value = 90 compare = less_than }
 			}
 			AND = {
 				has_idea = party_pop_0_80
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 90 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 80 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 90 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 80 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_70
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 80 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 70 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 80 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 70 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_60
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 70 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 60 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 70 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 60 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_50
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 60 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 50 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 60 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 50 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_40
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 50 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 40 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 50 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 40 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_30
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 40 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 30 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 40 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 30 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_20
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 30 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 20 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 30 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 20 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_10
 				OR = {
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 20 compare = greater_than_or_equals }
-					check_variable = { var = ROOT.party_popularity@ruling_party value = 10 compare = less_than }
+					check_variable = { var = ROOT.goverment_popularity value = 20 compare = greater_than_or_equals }
+					check_variable = { var = ROOT.goverment_popularity value = 10 compare = less_than }
 				}
 			}
 			AND = {
 				has_idea = party_pop_0_00
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 10 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 10 compare = greater_than_or_equals }
 			}
 		}
 	}
 
-	mean_time_to_happen = {
-		months = 1
-	}
 
 	immediate = {
 		remove_ideas = party_pop_0_90
@@ -116,55 +113,55 @@ country_event = {
 
 		if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 90 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 90 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_90
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 80 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 80 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_80
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 70 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 70 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_70
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 60 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 60 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_60
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 50 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 50 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_50
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 40 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 40 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_40
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 30 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 30 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_30
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 20 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 20 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_20
 		}
 		else_if = {
 			limit = {
-				check_variable = { var = ROOT.party_popularity@ruling_party value = 10 compare = greater_than_or_equals }
+				check_variable = { var = ROOT.goverment_popularity value = 10 compare = greater_than_or_equals }
 			}
 			add_ideas = party_pop_0_10
 		}

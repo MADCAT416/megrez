@@ -1,16 +1,16 @@
 ﻿l_english:
 
 ### Popularity ###
-party_pop_0_00:0 "정당 지지율 0-10%"
-party_pop_0_10:0 "정당 지지율 10-20%"
-party_pop_0_20:0 "정당 지지율 20-30%"
-party_pop_0_30:0 "정당 지지율 30-40%"
-party_pop_0_40:0 "정당 지지율 40-50%"
-party_pop_0_50:0 "정당 지지율 50-60%"
-party_pop_0_60:0 "정당 지지율 60-70%"
-party_pop_0_70:0 "정당 지지율 70-80%"
-party_pop_0_80:0 "정당 지지율 80-90%"
-party_pop_0_90:0 "정당 지지율 90-100%"
+party_pop_0_00:0 "정부 지지율 0-10%"
+party_pop_0_10:0 "정부 지지율 10-20%"
+party_pop_0_20:0 "정부 지지율 20-30%"
+party_pop_0_30:0 "정부 지지율 30-40%"
+party_pop_0_40:0 "정부 지지율 40-50%"
+party_pop_0_50:0 "정부 지지율 50-60%"
+party_pop_0_60:0 "정부 지지율 60-70%"
+party_pop_0_70:0 "정부 지지율 70-80%"
+party_pop_0_80:0 "정부 지지율 80-90%"
+party_pop_0_90:0 "정부 지지율 90-100%"
 
 ### Economic Health ###
 boom_economy:0 "WIP" #Boom Economy WIP!!!
