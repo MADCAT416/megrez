@@ -120,7 +120,7 @@ country_event = {
 	hidden = yes
 
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 	}
 
 	immediate = {
@@ -128,13 +128,17 @@ country_event = {
   		 var = goverment_popularity
    		 value = party_popularty@ruling_party
 		}
+		set_variable = {
+  		 var = coalition_desc
+   		 value = ""
+		}
 		country_event = { id = mrz_gen_politic.6 }
 	}
 
 	option = {}
 }
 
-#Add Ideology
+#Add totalist
 country_event = {
 	id = mrz_gen_politic.6
 	
@@ -142,11 +146,18 @@ country_event = {
 
 	hidden = yes
 	is_triggered_only = yes
+	trigger = {
+		has_country_flag = totalist_coalition
+		}
 
 	immediate = {
 		add_to_variable = {
                     var = goverment_popularty
-                    value = party_popularity@ideology
+                    value = party_popularity@totalist
+                }
+		add_to_variable = {
+                    var = coalition_desc
+                    value = "[Root.GetTotalistParty] (전체주의)\n"
                 }
 	}
 
