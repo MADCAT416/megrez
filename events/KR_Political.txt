@@ -102,7 +102,7 @@ country_event = {
 		months = 1
 	}
 
-	option = {
+	immediate = {
 		remove_ideas = party_pop_0_90
 		remove_ideas = party_pop_0_80
 		remove_ideas = party_pop_0_70
@@ -172,6 +172,8 @@ country_event = {
 			add_ideas = party_pop_0_00
 		}
 	}
+
+	option = {}
 }
 
 #### Ruling Party Support ####
