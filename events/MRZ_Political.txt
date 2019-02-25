@@ -124,7 +124,7 @@ country_event = {
   		 var = goverment_popularity
    		 value = ROOT.party_popularity@ruling_party
 		}
-		country_event = { id = mrz_gen_politic.6 }
+		set_global_flag = coalition_flag
 	}
 
 	option = {}
@@ -133,83 +133,98 @@ country_event = {
 #Add popularity
 country_event = {
 	id = mrz_gen_politic.6
-	
+	is_triggered_only = yes
+	trigger = {has_global_flag = coalition_flag}
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.6"}
 
 	hidden = yes
 
-	immediate = {
-		if = {
-			limit = { has_country_flag = totalist_coalition }
+immediate = {
+	if = {
+		limit = { ROOT = { has_country_flag = totalist_coalition } }
+		ROOT = {
 			add_to_variable = {
-                 	   var = goverment_popularty
-                	    value = ROOT.party_popularity@totalist
-               	 	}
-		}
+				var = goverment_popularity
+				value = ROOT.party_popularity@totalist
+					}
+			}
+	}
 		if = {
-			limit = { has_country_flag = syndicalist_coalition }
+		limit = { ROOT = { has_country_flag = syndicalist_coalition } }
+		ROOT = {
 			add_to_variable = {
-                 	   var = goverment_popularty
-                	    value = ROOT.party_popularity@syndicalist
-               	 	}
-		}
+				var = goverment_popularity
+				value = ROOT.party_popularity@totalist
+					}
+			}
+	}
+
 		if = {
-			limit = { has_country_flag = democratic_socialist_coalition }
-			add_to_variable = {
-                 	   var = goverment_popularty
+			limit = { ROOT = { has_country_flag = democratic_socialist_coalition } }
+		ROOT = {	add_to_variable = {
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@democratic_socialist
                	 	}
 		}
+		}
 		if = {
-			limit = { has_country_flag = social_progressive_coalition }
-			add_to_variable = {
-                 	   var = goverment_popularty
+			limit = { ROOT = { has_country_flag = social_progressive_coalition }}
+			ROOT = { add_to_variable = {
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@social_progressive
                	 	}
 		}
+		}
 		if = {
-			limit = { has_country_flag = social_liberal_coalition }
+			limit = { ROOT = { has_country_flag = social_liberal_coalition } }
+			ROOT = {
 			add_to_variable = {
-                 	   var = goverment_popularty
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@social_liberal
                	 	}
+			}
 		}
 		if = {
-			limit = { has_country_flag = market_liberal_coalition }
+			limit = { ROOT = { has_country_flag = market_liberal_coalition } }
+			ROOT = {
 			add_to_variable = {
-                 	   var = goverment_popularty
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@market_liberal
                	 	}
+			}
 		}
 		if = {
-			limit = { has_country_flag = social_conservative_coalition }
+			limit = { ROOT = { has_country_flag = social_conservative_coalition } }
 			add_to_variable = {
-                 	   var = goverment_popularty
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@social_conservative
                	 	}
 		}
 		if = {
-			limit = { has_country_flag = authoritarian_democrat_coalition }
-			add_to_variable = {
-                 	   var = goverment_popularty
+			limit = { ROOT = { has_country_flag = authoritarian_democrat_coalition } }
+			ROOT = { add_to_variable = {
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@authoritarian_democrat
-               	 	}
+               	 	} }
 		}
 		if = {
-			limit = { has_country_flag = paternal_autocrat_coalition }
-			add_to_variable = {
-                 	   var = goverment_popularty
+			limit = { ROOT = { has_country_flag = paternal_autocrat_coalition } }
+			ROOT = { add_to_variable = {
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@paternal_autocrat
                	 	}
+			}
 		}
 		if = {
-			limit = { has_country_flag = national_populist_coalition }
+			limit = { ROOT = { has_country_flag = national_populist_coalition } }
+			ROOT = {
 			add_to_variable = {
-                 	   var = goverment_popularty
+                 	   var = goverment_popularity
                 	    value = ROOT.party_popularity@national_populist
                	 	}
+			}
 		}
-		country_event = { id = mrz_gen_politic.5 days = 1 }
+		clr_global_flag = coalition_flag
 	}
 
 	option = {}

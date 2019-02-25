@@ -4,6 +4,7 @@ on_actions = {
 			#Opinion Modifiers Setup
 			every_country = { country_event = kr.political.40 }
 			every_country = { country_event = mrz_gen_politic.5 }
+			every_country = { country_event = mrz_gen_politic.6 }
 			#Party Popularity Setup
 			every_country = { country_event = kr.political.11 }
 			#California Fort
@@ -45,6 +46,11 @@ on_actions = {
 			}
 		}
 	}
+
+   on_daily = {
+   			every_country = { country_event = mrz_gen_politic.5 }
+			every_country = { country_event = mrz_gen_politic.6 }
+   }
 
 	#ROOT is subject FROM is previous overlord
 	on_subject_free = {
