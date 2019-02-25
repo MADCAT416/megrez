@@ -110,3 +110,45 @@ country_event = {
 		complete_national_focus = mrz_social_bosu
 	}
 }
+
+#Set Variable
+country_event = {
+	id = mrz_gen_politic.5
+	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.5"}
+
+	hidden = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_variable = {
+  		 var = goverment_popularity
+   		 value = party_popularty@ruling_party
+		}
+		country_event = { id = mrz_gen_politic.6 }
+	}
+
+	option = {}
+}
+
+#Add Ideology
+country_event = {
+	id = mrz_gen_politic.6
+	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.6"}
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		add_to_variable = {
+                    var = goverment_popularty
+                    value = party_popularity@ideology
+                }
+	}
+
+	option = {}
+}
