@@ -122,7 +122,7 @@ country_event = {
 	immediate = {
 		set_variable = {
   		 var = goverment_popularity
-   		 value = ROOT.party_popularity@ruling_party
+   		 value = party_popularity@ruling_party
 		}
 		set_variable = {
   		 var = totalist_popularity
@@ -195,9 +195,9 @@ immediate = {
 			add_to_variable = {
 				var = goverment_popularity
 				value = ROOT.party_popularity@totalist
-					}
+				}
 			}
-	}
+		}
 
 		if = {
 			limit = { ROOT = { has_country_flag = democratic_socialist_coalition } }
@@ -210,8 +210,8 @@ immediate = {
 		if = {
 			limit = { ROOT = { has_country_flag = social_progressive_coalition }}
 			ROOT = { add_to_variable = {
-                 	   var = ROOT.goverment_popularity
-                	    value = ROOT.social_progressive_popularity
+                 	   var = goverment_popularity
+                	    value = social_progressive_popularity
                	 	}
 		}
 		}
