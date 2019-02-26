@@ -340,8 +340,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_country_flag = social_progressive_coalition
-
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
