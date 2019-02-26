@@ -124,6 +124,46 @@ country_event = {
   		 var = goverment_popularity
    		 value = ROOT.party_popularity@ruling_party
 		}
+		set_variable = {
+  		 var = totalist_popularity
+   		 value = ROOT.party_popularity@totalist
+		}
+		set_variable = {
+  		 var = syndicalist_popularity
+   		 value = ROOT.party_popularity@syndicalist
+		}
+		set_variable = {
+  		 var = democratic_socialist_popularity
+   		 value = ROOT.party_popularity@democratic_socialist
+		}
+		set_variable = {
+  		 var = social_progressive_popularity
+   		 value = ROOT.party_popularity@social_progressive
+		}
+		set_variable = {
+  		 var = social_liberal_popularity
+   		 value = ROOT.party_popularity@social_liberal
+		}
+		set_variable = {
+  		 var = market_liberal_popularity
+   		 value = ROOT.party_popularity@market_liberal
+		}
+		set_variable = {
+  		 var = social_conservative_popularity
+   		 value = ROOT.party_popularity@social_conservative
+		}
+		set_variable = {
+  		 var = authoritarian_democrat_popularity
+   		 value = ROOT.party_popularity@authoritarian_democrat
+		}
+		set_variable = {
+  		 var = paternal_autocrat_popularity
+   		 value = ROOT.party_popularity@paternal_autocrat
+		}
+		set_variable = {
+  		 var = national_populist_popularity
+   		 value = ROOT.party_popularity@national_populist
+		}
 		set_global_flag = coalition_flag
 	}
 
@@ -134,7 +174,7 @@ country_event = {
 country_event = {
 	id = mrz_gen_politic.6
 	is_triggered_only = yes
-	trigger = {has_global_flag = coalition_flag}
+	trigger = { has_global_flag = coalition_flag }
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.6"}
 
 	hidden = yes
@@ -171,7 +211,7 @@ immediate = {
 			limit = { ROOT = { has_country_flag = social_progressive_coalition }}
 			ROOT = { add_to_variable = {
                  	   var = goverment_popularity
-                	    value = ROOT.party_popularity@social_progressive
+                	    value = social_progressive_popularity
                	 	}
 		}
 		}
