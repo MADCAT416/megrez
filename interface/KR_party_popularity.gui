@@ -8,7 +8,7 @@ guiTypes = {
 			name ="party_pop_text"
 			position = { x= 1 y = 4 }
 			font = "hoi_18mbs"
-			text = "[?ROOT.goverment_popularity|0]%"
+			text = "[?ROOT.goverment_popularity|2]%"
 			format = right
 			maxWidth = 60
 			maxHeight = 24
