@@ -138,7 +138,7 @@ country_event = {
 		}
 		set_variable = {
   		 var = social_progressive_popularity
-   		 value = ROOT.party_popularity@social_progressive
+   		 value = party_popularity@social_progressive
 		}
 		set_variable = {
   		 var = social_liberal_popularity
