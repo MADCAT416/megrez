@@ -122,11 +122,11 @@ country_event = {
 	immediate = {
 		set_variable = {
   		 var = goverment_popularity
-   		 value = ROOT.party_popularity@totalist #party_popularity@ruling_party
+   		 value = party_popularity@ruling_party
 		}
 		set_variable = {
   		 var = totalist_popularity
-   		 value = ROOT.party_popularity@totalist
+   		 value = ROOT.party_popularity@totalist_subtype
 		}
 		set_variable = {
   		 var = syndicalist_popularity
