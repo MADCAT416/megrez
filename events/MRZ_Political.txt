@@ -126,7 +126,7 @@ country_event = {
 		}
 		set_variable = {
   		 var = totalist_popularity
-   		 value = party_popularity@totalist
+   		 value = ROOT.party_popularity@totalist
 		}
 		set_variable = {
   		 var = syndicalist_popularity
