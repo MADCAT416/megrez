@@ -138,7 +138,7 @@ country_event = {
 		}
 		set_variable = {
   		 var = social_progressive_popularity
-   		 value = party_popularity@social_progressive
+   		 value = ROOT.party_popularity@social_progressive
 		}
 		set_variable = {
   		 var = social_liberal_popularity
@@ -211,7 +211,7 @@ immediate = {
 			limit = { ROOT = { has_country_flag = social_progressive_coalition }}
 			ROOT = { add_to_variable = {
                  	   var = goverment_popularity
-                	    value = social_progressive_popularity
+                	    value = var:social_progressive_popularity
                	 	}
 		}
 		}
