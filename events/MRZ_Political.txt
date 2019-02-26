@@ -124,7 +124,6 @@ country_event = {
   		 var = goverment_popularity
    		 value = ROOT.party_popularity@ruling_party
 		}
-		set_global_flag = coalition_flag
 	}
 
 	option = {}
@@ -133,8 +132,6 @@ country_event = {
 #Add popularity
 country_event = {
 	id = mrz_gen_politic.6
-	is_triggered_only = yes
-	trigger = {has_global_flag = coalition_flag}
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.6"}
 
 	hidden = yes
@@ -143,126 +140,87 @@ immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = totalist_coalition } }
 		ROOT = {
-		set_temp_variable = { tot = ROOT.party_popularity@totalist }
-		multiply_temp_variable = { tot = 100 }
-		set_variable = { totalist_popularity = tot }
-			add_to_variable = {
-				var = goverment_popularity
-				value = totalist_popularity
-					}
+		set_variable = { totalist_popularity = ROOT.party_popularity@totalist }
+		multiply_variable = { totalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = totalist_popularity } 
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = syndicalist_coalition } }
 		ROOT = {
-		set_temp_variable = { syn = ROOT.party_popularity@syndicalist }
-		multiply_temp_variable = { syn = 100 }
-		set_variable = { syndicalist_popularity = syn }
-			add_to_variable = {
-				var = goverment_popularity
-				value = syndicalist_popularity
-					}
+		set_variable = { syndicalist_popularity = ROOT.party_popularity@syndicalist }
+		multiply_variable = { syndicalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = syndicalist_popularity }
 			}
 	}
 
 	if = {
 		limit = { ROOT = { has_country_flag = democratic_socialist_coalition } }
 		ROOT = {
-		set_temp_variable = { demsoc = ROOT.party_popularity@democratic_socialist }
-		multiply_temp_variable = { demsoc = 100 }
-		set_variable = { democratic_socialist_popularity = demsoc }
-			add_to_variable = {
-				var = goverment_popularity
-				value = democratic_socialist_popularity
-					}
+		set_variable = { democratic_socialist_popularity = ROOT.party_popularity@democratic_socialist }
+		multiply_variable = { democratic_socialist_popularity = 100 }
+		add_to_variable = { goverment_popularity = democratic_socialist_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = social_progressive_coalition } }
 		ROOT = {
-		set_temp_variable = { socpro = ROOT.party_popularity@social_progressive }
-		multiply_temp_variable = { socpro = 100 }
-		set_variable = { social_progressive_popularity = socpro }
-			add_to_variable = {
-				var = goverment_popularity
-				value = social_progressive_popularity
-					}
+		set_variable = { social_progressive_popularity = ROOT.party_popularity@social_progressive }
+		multiply_variable = { social_progressive_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_progressive_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = social_liberal_coalition } }
 		ROOT = {
-		set_temp_variable = { soclib = ROOT.party_popularity@social_liberal }
-		multiply_temp_variable = { soclib = 100 }
-		set_variable = { social_liberal_popularity = soclib }
-			add_to_variable = {
-				var = goverment_popularity
-				value = social_liberal_popularity
-					}
+		set_variable = { social_liberal_popularity = ROOT.party_popularity@social_liberal }
+		multiply_variable = { social_liberal_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_liberal_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = market_liberal_coalition } }
 		ROOT = {
-		set_temp_variable = { marklib = ROOT.party_popularity@market_liberal }
-		multiply_temp_variable = { marklib = 100 }
-		set_variable = { social_liberal_popularity = marklib }
-			add_to_variable = {
-				var = goverment_popularity
-				value = market_liberal_popularity
-					}
+		set_variable = { market_liberal_popularity = ROOT.party_popularity@market_liberal }
+		multiply_variable = { market_liberal_popularity = 100 }
+		add_to_variable = { goverment_popularity = market_liberal_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = social_conservative_coalition } }
 		ROOT = {
-		set_temp_variable = { soccon = ROOT.party_popularity@social_conservative }
-		multiply_temp_variable = { soccon = 100 }
-		set_variable = { social_conservative_popularity = soccon }
-			add_to_variable = {
-				var = goverment_popularity
-				value = social_conservative_popularity
-					}
+		set_variable = { authoritarian_democra_popularity = ROOT.party_popularity@social_conservative }
+		multiply_variable = { social_conservative_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_conservative_popularity }			
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = authoritarian_democrat_coalition } }
 		ROOT = {
-		set_temp_variable = { authdem = ROOT.party_popularity@authoritarian_democrat }
-		multiply_temp_variable = { authdem = 100 }
-		set_variable = { social_liberal_popularity = authdem }
-			add_to_variable = {
-				var = goverment_popularity
-				value = authoritarian_democrat_popularity
+		set_variable = { authoritarian_democra_popularity = ROOT.party_popularity@authoritarian_democrat 
 					}
+		multiply_variable = { authoritarian_democrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = authoritarian_democrat_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = paternal_autocrat_coalition } }
 		ROOT = {
-		set_temp_variable = { pataut = ROOT.party_popularity@paternal_autocrat }
-		multiply_temp_variable = { pataut = 100 }
-		set_variable = { social_liberal_popularity = pataut }
-			add_to_variable = {
-				var = goverment_popularity
-				value = paternal_autocrat_popularity
+		set_variable = { paternal_autocrat_popularity = ROOT.party_popularity@paternal_autocrat 
 					}
+		multiply_variable = { paternal_autocrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = paternal_autocrat_popularity }
 			}
 	}
 	if = {
 		limit = { ROOT = { has_country_flag = national_populist_coalition } }
 		ROOT = {
-		set_temp_variable = { natpop = ROOT.party_popularity@national_populist }
-		multiply_temp_variable = { natpop = 100 }
-		set_variable = { social_liberal_popularity = natpop }
-			add_to_variable = {
-				var = goverment_popularity
-				value = national_populist_popularity
-					}
+		set_variable = { national_populist_popularity = ROOT.party_popularity@national_populist }
+		multiply_variable = { national_populist_popularity = 100 }
+		add_to_variable = { goverment_popularity = national_populist_popularity }
 			}
 	}
-		clr_global_flag = coalition_flag
 	}
-
 	option = {}
+
 }
