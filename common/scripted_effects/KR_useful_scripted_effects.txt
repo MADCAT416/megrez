@@ -98,10 +98,10 @@ get_current_government_type = {
 	clr_country_flag = was_paternal_autocrat
 	clr_country_flag = was_national_populist
 
-	set_variable = { var = radsoc value = party_popularity@democratic_socialist }
+	set_variable = { var = demsoc value = party_popularity@democratic_socialist }
 	set_variable = { var = synd value = party_popularity@syndicalist }
 	set_variable = { var = tot value = party_popularity@totalist }
-	set_variable = { var = socdem value = party_popularity@social_progressive }
+	set_variable = { var = socpro value = party_popularity@social_progressive }
 	set_variable = { var = soclib value = party_popularity@social_liberal }
 	set_variable = { var = marklib value = party_popularity@market_liberal }
 	set_variable = { var = soccon value = party_popularity@social_conservative }
