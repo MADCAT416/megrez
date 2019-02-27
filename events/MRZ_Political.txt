@@ -197,7 +197,7 @@ immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = authoritarian_democrat_coalition } }
 		ROOT = {
-		set_variable = { authoritarian_democra_popularity = ROOT.party_popularity@authoritarian_democrat 
+		set_variable = { authoritarian_democrat_popularity = ROOT.party_popularity@authoritarian_democrat 
 					}
 		multiply_variable = { authoritarian_democrat_popularity = 100 }
 		add_to_variable = { goverment_popularity = authoritarian_democrat_popularity }

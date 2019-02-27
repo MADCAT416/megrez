@@ -111,6 +111,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = authoritarian_democrat_coalition
+
 create_country_leader = {
 	name = "아스가르 칸"
 	picture = "Portrait_Pakistan_Asghar_Khan.tga"
