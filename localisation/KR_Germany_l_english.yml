@@ -1,156 +1,16 @@
 ﻿l_english:
 
-# Crete stuff at the bottom
-
-
-### Ideas ###
-black_guarantee:0 "개인의 재산 보장"
-black_guarantee_desc:0 "시민들의 은행 예금을 보장함으로써 우리는 어느 정도 충격에서 벗어났습니다. 그러나 그 비용은 막대했습니다."
-
-GER_political_uncertainty:0 "정치적 불확실"
-GER_political_uncertainty_desc:0 "루덴도르프의 독재 정권은 우리 정부에 몇 가지 심각한 문제점을 드러냈습니다. 그럼에도 불구하고 1871년 이후 우리 헌법에는 거의 변화가 없었습니다. 개헌에 대한 점점 더 큰 요구들이 답변되거나 무시되거나 침묵할 것인지는 아직 밝혀지지 않았습니다."
-
-GER_imperial_pride:0 "제국의 긍지"
-GER_imperial_pride_desc:0 "독일 제국은 세계의 위계 질서의 최고위에 올라와 있으며 이는 세계 대전 종결 이후부터 누려왔던 것입니다. 그들에게 다가올 전쟁에서 패배를 인정하는 것은 아주 큰 일일 것 입니다...... 독일의 회복력은 보기보다 더 취약하다고 말하는 사람들이 있지만 말입니다. 생각지도 못한 일이 일어나서 베를린이 함락되거나 독일이 주요 도시의 통제권을 잃어도 대다수의 지역이 실제로 점령되기 전까지는 항복하기에 오래 걸릴 것입니다."
-
-GER_black_monday:0 "검은 월요일"
-GER_black_monday_desc:0 "베를린의 주식 시장은 붕괴되었고, 그에 따라 독일의 경기가 침체되었습니다. 독일의 패권을 계속 유지하려면 '검은 월요일' 위기를 해결해야 합니다."
-
-GER_black_monday1:0 "샤흐트 계획"
-GER_black_monday1_desc:0 "독일국가은행 총재 알마르 샤흐트는 논란 속에서 경기 부양책을 추진했습니다. 그의 노력은 검은 월요일 위기를 최소한 완화하는데 성공한 듯 보이며 공개 시장은 서서히 상승세를 타기 시작했습니다."
-
-GER_black_monday2:0 "그뢰네 계획"
-GER_black_monday2_desc:0 "빌헬름 그뢰너의 제안으로 징집자들은 일년 동안 노동으로 대체복무를 할 수 있게 되었고, 검은 월요일 위기는 완화되었습니다."
-
-GER_address_reichstag:0 "국가 의회 연설"
-GER_address_reichstag_desc:0 "우리는 검은 월요일 위기를 해결하기 위한 예비 수순들을 시행하고 있지만, 상황은 여전히 심각합니다. 그의 불안정한 건강 상태에도 불과하고, 카이저 빌헬름 2세께서는 국가 의회에게 그들의 첫번째 우선 순위는 가능한 빨리 경제를 바로잡는 것이라고 말씀하셨습니다. 어떤 제안이 받아들여질지는 아직 알 수 없습니다..."																																																																																															  
-
-german_eco_finished:0 "경기 회복"
-german_eco_finished_desc:0 "우리 경제는 새로운 자극을 받아들였고, 자금이 유입되기 시작했습니다. 그러한 흐름이 계속되지 않겠지만, 당분간은 지금 우리 손에 놓인 예기치 않은 선물을 받아들여야 합니다."
-
-GER_bunkrupt_fact:0 "주요 기업체 파산 선언"
-
-GER_rhine_unrest:0 "라인란트 노동자 파업"
-GER_rhine_unrest_desc:0 "우리는 라인란트에서 노동 계급에게 엄청난 파업을 경험하고 있습니다."
-
-GER_kill_workers:0 "라인란트 노동자 탄압"
-GER_kill_workers_desc:0 "우리 군대는 망나니를 다루는 가장 좋은 방법을 알고 있습니다."
-
-GER_strike_negot:0 "라인란트 파업 협상"
-GER_strike_negot_desc:0 "우리는 파업 참가자들과 협상하는데 성공했습니다. 그것이 유일한 방법이었습니다."
-
-GER_col:0 "식민지 유지비용"
-GER_col_desc:0 "한때 식민지에서 수익이 나오던 시절이 있긴 했지만, 더 이상은 아닙니다. 이제 독일은 식민지를 지키기 위해 유지비를 지출하고 있습니다."
-
-GER_mil_mis:0 "독일 군사 사절단"
-
-GER_quenched_militarism:0 "사그라든 군국주의"
-GER_quenched_militarism_desc:0 "승리에는 언제나 대가가 따르지만, 세계대전의 대가는 그 전과는 사뭇 달랐습니다. 독일은 분명 승리했지만, 수많은 병사들이 집으로 돌아오지 못했습니다. 독일의 가족들은 여전히 그 고통을 기억하고 있고, 다시는 경험하고 싶어 하지 않을 것입니다."
-
-GER_quenched_militarism2:0 "움츠러든 군국주의"
-GER_quenched_militarism2_desc:0 "승리에는 언제나 대가가 따르지만, 세계대전의 대가는 그 전과는 사뭇 달랐습니다. 독일은 분명 승리했지만, 수많은 병사들이 집으로 돌아오지 못했습니다. 독일의 가족들은 여전히 그 고통을 기억하고 있고, 다시는 경험하고 싶어 하지 않을 것입니다. 우리가 징집 수를 증가시켰음에도, 많은 청년들은 전쟁을 원치 않으며 준비 또한 되어 있지 않습니다."																																																																																														   
-
-GER_renwed_militarism:0 "일신된 군국주의"
-GER_renwed_militarism_desc:0 "독일 민족은 언제나 군인다웠지만, 세계 대전과 그 이후의 전쟁 동안 우리가 피로 치른 대가는 터무니 없이 높았습니다. 그럼에도 불구하고 더 이상 안주하고만 있을 수는 없습니다. 독일인들의 애국심은 미덕이며 사람들은 이 사실을 기억할 것입니다."
-
-GER_research_boost:0 "연구 기금"
-GER_research_boost_desc:0 "과학자들을 강의실 밖으로 끌어내 실험실 안으로 넣는 유일한 방법은 그들에게 돈을 던져 주는 것뿐입니다. 국가적인 자금 지원은 이를 어떤 방법으로든 도울 것입니다."
-
-GER_victors_of_wwi:0 "세계 대전의 승리자"
-GER_victors_of_wwi_desc:0 "독일은 명백히 세계대전의 승리자이며, 그 위치는 확고했습니다. 하지만 그것은 20년 전 일이고, 그때부터 우리는 오만에 사로잡힌 것일지도 모릅니다."
-
-GER_tank_idea:0 "장갑 투자"
-GER_tank_idea_desc:0 "어떤 이들은 전차가 미래의 모든 전쟁이 결정할 무기라고 봅니다. 독일의 패권이 계속되기 위해서는 이 분야에 더 많은 투자가 필요합니다."
-
-GER_tirpitz_idea:0 "티르피츠 계획"
-GER_tirpitz_idea_desc:0 "대제독 티르피츠는 그 시대의 거인이었으며, 티르피츠 제독이 세계 대전 이전에 제국 해군에 투자 한 결과 우리는 함대가 왕립 해군에 대항 할 수 있었습니다. 그러한 비전이 다시 필요합니다."
-
-GER_junkers_lost_idea:0 "곡물 공급 문제"
-GER_junkers_lost_idea_desc:0 "세계 대전 이후의 티츠피츠 황금 시대에 독일 인구가 확대됨에 따라 우리는 제국 협정 동맹국의 곡물에 의지하게 되었습니다. 현재 동부 완충 지대에 구멍이있어 식량 공급이 줄었습니다."
-
-GER_easter_promises_idea:0 "부활절 약속"
-GER_easter_promises_idea_desc:0 "1916년에서 1917년 독일이 순무 겨울 이후 최악의 상태에 놓여 있을 때, 황제는 세계 대전이 끝난 후 헌법 개정을 약속했습니다. 독일의 불황이 점점 분명해짐에 따라, 아마도 지금은 상황이 바뀔 것입니다."
-
-GER_bundesrat_idea:0 "연방의회 복권"
-GER_bundesrat_idea_desc:0 "루덴도르프 정권은 독일 국가들이 세계 대전 이전에 가지고 있던 특권들 중 다수를 짓밟았는데, 그 중 하나가 연방 의회 구성으로 나타났습니다. 이 예전의 권리를 회복하는 것은 장차 일어날 일들의 좋은 징조입니다."
-
-GER_post_idea:0 "독일 우체국"
-GER_post_idea_desc:0 "우습게 보일 수도 있지만, 제국 하에서의 완전한 연방 통합에 반대하는 마지막 방해물 중 하나는 별도의 우편 서비스가 있다는 것이었습니다. 이것이 바로잡혀가면서, 독일은 진정으로 통합했습니다."
-
-GER_embrace_FAUD_idea:0 "독일 자유 노동조합"
-GER_embrace_FAUD_idea_desc:0 "생디칼리스트들의 위협을 무력화하는 가장 좋은 방법은 덜 이념적인 좌익과 협력하는 것입니다. 주요 노동 조합을 용인하는 것은 독일의 빨갱이들에게 작은 도움을 줄 것입니다."
-
-GER_dcgb_idea:0 "독일 기독교 노동조합총연맹"
-GER_dcgb_idea_desc:0 "국가가 후원하는 새로운 노동 조합은 노동 계급의 에너지를 올바른 방향으로 이끌 수 있습니다."
-
-GER_institut_idea:0 "항공 공학 연구원"
-GER_institut_idea_desc:0 "새로운 항공 연구소로 독일의 공군은 현대화될 수 있으며, 유럽 최고 수준에서 논란의 여지 없는 세계적 강군으로 바뀔 수 있습니다."
-
-GER_cult_of_aviation_idea:0 "항공 추종"
-GER_cult_of_aviation_idea_desc:0 "세이버를 휘두르는 전사는 독일의 젊은이들의 우상이 아닙니다. 우리 모두에게 영감을주는 것은 현대의 결투하는 조종사입니다."
-
-ZO_idea:0 "미틀오이로파"
-ZO_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_zollverein_idea:0 "미틀오이로파"
-ZO_zollverein_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_europarat_idea:0 "미틀오이로파"
-ZO_europarat_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_EEP_idea:0 "미틀오이로파"
-ZO_EEP_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_europakomm_idea:0 "미틀오이로파"
-ZO_europakomm_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_europabrigad_idea:0 "미틀오이로파"
-ZO_europabrigad_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-ZO_europamark_idea:0 "미틀오이로파"
-ZO_europamark_idea_desc:0 "우리는 미틀오이로파의 지도국으로, 미틀오이로파는 독일의 세력투사에 도움을 주는 경제 협력 조약입니다."
-
-GER_mil_support_idea:0 "독일의 군사 지원"
-GER_mil_support_idea_desc:0 "독일 제국과의 강력한 조약에 따라 독일은 전폭적인 군사 지원을 약속했습니다."
-
-GER_eco_support_idea:0 "독일의 경제 지원"
-GER_eco_support_idea_desc:0 "독일과의 조약에 따라 우리는 경제 무역 지역에 동의했습니다. 이는 우리 나라를 산업화하는 데 도움을 줄 것입니다."
-
-GER_two_front_idea:0 "양면 전쟁"
-GER_two-front_idea_desc:0 "우리는 프랑스와 러시아, 양국과 전쟁 중입니다. 이는 우리가 무슨 일이 있어도 피하려고 했던 악몽 같은 상황입니다. 그러나 우리는 한 번 승리한 것처럼, 또 다시 승리할 것입니다!"
-
-AUS_Integration:0 "오스트리아 통합"
-AUS_Integration_desc:0 "오스트리아 통합에는 시간이 걸릴 것입니다. 통합이 끝날 때까지는 통제력 행사에 장애가 있을 것입니다."
-
-GER_FVP1:0 "주 40시간 노동"
-GER_FVP1_desc:0 "주 40시간 근무의 시행은 고용주들로 하여금 그들의 노동자들을 끝없이 일하게 함으로써 더 이상 성공을 기대할 수 없는 상황을 만들었습니다. 이 새로운 규정의 결과는 혁신성과 생산성의 경쟁이 되었으며, 우리는 인프라 투자를 병렬로 증가시켜 수익을 창출할 수 있습니다."
-
-GER_NLP2:0 "이지머니 정책"
-GER_NLP2_desc:0 "일반 대중과 기업 모두의 신용에 대한 단순하고 위험성이 낮은 접근은 민간 부문의 경제 성장을 야기하고 있습니다."
-
-GER_DKP2:0 "농업 보조금"
-GER_DKP2_desc:0 "농업에 보조금을 지원하는것은 농부들로 하여금 우리 정부를 좋아하게 만들며 식량 공급을 증가시킬 수 있습니다. 사랑하지 말아야 할 것은 무엇일까요?"
-
-GER_ZEN2:0 "침체"
-GER_ZEN2_desc:0 "검은 월요일의 여파로 인해 기업들은 문을 닫고 통합되어가고 있으며, 이로 인해 단기적인 혼란이 발생하고 있습니다."
-
-GER_ZEN1:0 "독일식 긴축"
-GER_ZEN1_desc:0 "낭비가 없으면 부족이 없습니다. 우리가 할 수 있는 모든 부분에서 정부 지출을 줄이고 예산에 대한 신뢰를 확보함으로서 우리는 위기 상황에서도 안정성을 보장받을 수 있습니다."
-
-GER_ZEN22:0 "산업 통폐합"
-GER_ZEN22_desc:0 "독일의 산업이 최소한의 개입만으로 자리를 잡을 수 있도록 한 브뢰닝의 계획에 따라, 효율성과 생산성이 증가한 것 같아 보입니다."				
-
 ### Parties ###
-GER_totalist_party:0 "독일 사회주의통일당"
-GER_totalist_party_long:0 "독일 사회주의통일당"
+GER_totalist_party:0 "적색전선전사동맹"
+GER_totalist_party_long:0 "적색전선전사동맹"
 GER_syndicalist_party:0 "독일자유노동자동맹"
 GER_syndicalist_party_long:0 "독일자유노동자동맹"
-GER_democratic_socialist_party:0 "독일 사회민주당(스파르타쿠스단)"
-GER_democratic_socialist_party_long:0 "독일 사회민주당(스파르타쿠스단)"
+GER_democratic_socialist_party:0 "독일 사회민주당"
+GER_democratic_socialist_party_long:0 "독일 사회민주당"
 GER_social_progressive_party:0 "동맹'56"
 GER_social_progressive_party_long:0 "동맹'56"
-GER_social_progressive_SPD_party:0 "독일 사회민주당(중도파)"
-GER_social_progressive_SPD_party_long:0 "독일 사회민주당(중도파)"
+GER_social_progressive_SPD_party:0 "독일 사회민주당"
+GER_social_progressive_SPD_party_long:0 "독일 사회민주당"
 GER_social_liberal_party:0 "자유당"
 GER_social_liberal_party_long:0 "자유당"
 GER_market_liberal_party:0 "자유당"
