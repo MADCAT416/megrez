@@ -12,7 +12,7 @@ country_event = {
 	immediate = {
 		set_variable = {
   		 var = goverment_popularity
-   		 value = ROOT.party_popularity@ruling_party
+   		 value = 0
 		}
 	}
 
@@ -28,7 +28,7 @@ country_event = {
 
 immediate = {
 	if = {
-		limit = { ROOT = { has_country_flag = totalist_coalition } }
+		limit = { ROOT = { has_country_flag = totalist_in_gov } }
 		ROOT = {
 		set_variable = { totalist_popularity = ROOT.party_popularity@totalist }
 		multiply_variable = { totalist_popularity = 100 }
@@ -36,7 +36,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = syndicalist_coalition } }
+		limit = { ROOT = { has_country_flag = syndicalist_in_gov } }
 		ROOT = {
 		set_variable = { syndicalist_popularity = ROOT.party_popularity@syndicalist }
 		multiply_variable = { syndicalist_popularity = 100 }
@@ -45,7 +45,7 @@ immediate = {
 	}
 
 	if = {
-		limit = { ROOT = { has_country_flag = democratic_socialist_coalition } }
+		limit = { ROOT = { has_country_flag = democratic_socialist_in_gov } }
 		ROOT = {
 		set_variable = { democratic_socialist_popularity = ROOT.party_popularity@democratic_socialist }
 		multiply_variable = { democratic_socialist_popularity = 100 }
@@ -53,7 +53,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = social_progressive_coalition } }
+		limit = { ROOT = { has_country_flag = social_progressive_in_gov } }
 		ROOT = {
 		set_variable = { social_progressive_popularity = ROOT.party_popularity@social_progressive }
 		multiply_variable = { social_progressive_popularity = 100 }
@@ -61,7 +61,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = social_liberal_coalition } }
+		limit = { ROOT = { has_country_flag = social_liberal_in_gov } }
 		ROOT = {
 		set_variable = { social_liberal_popularity = ROOT.party_popularity@social_liberal }
 		multiply_variable = { social_liberal_popularity = 100 }
@@ -69,7 +69,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = market_liberal_coalition } }
+		limit = { ROOT = { has_country_flag = market_liberal_in_gov } }
 		ROOT = {
 		set_variable = { market_liberal_popularity = ROOT.party_popularity@market_liberal }
 		multiply_variable = { market_liberal_popularity = 100 }
@@ -77,7 +77,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = social_conservative_coalition } }
+		limit = { ROOT = { has_country_flag = social_conservative_in_gov } }
 		ROOT = {
 		set_variable = { authoritarian_democra_popularity = ROOT.party_popularity@social_conservative }
 		multiply_variable = { social_conservative_popularity = 100 }
@@ -85,7 +85,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = authoritarian_democrat_coalition } }
+		limit = { ROOT = { has_country_flag = authoritarian_democrat_in_gov } }
 		ROOT = {
 		set_variable = { authoritarian_democrat_popularity = ROOT.party_popularity@authoritarian_democrat 
 					}
@@ -94,7 +94,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = paternal_autocrat_coalition } }
+		limit = { ROOT = { has_country_flag = paternal_autocrat_in_gov } }
 		ROOT = {
 		set_variable = { paternal_autocrat_popularity = ROOT.party_popularity@paternal_autocrat 
 					}
@@ -103,7 +103,7 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = national_populist_coalition } }
+		limit = { ROOT = { has_country_flag = national_populist_in_gov } }
 		ROOT = {
 		set_variable = { national_populist_popularity = ROOT.party_popularity@national_populist }
 		multiply_variable = { national_populist_popularity = 100 }
