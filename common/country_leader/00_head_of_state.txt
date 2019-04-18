@@ -181,6 +181,14 @@ leader_traits = {
 		production_speed_buildings_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.15
 		industrial_capacity_factory = 0.2
+		targeted_modifier = {
+			tag = MEX
+			generate_wargoal_tension_against = 1.00
+		}
+		targeted_modifier = {
+			tag = CSA
+			generate_wargoal_tension_against = 1.00
+		}
 
 		ai_will_do = {
 			factor = 1
