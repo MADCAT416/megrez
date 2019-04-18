@@ -213,7 +213,7 @@ set_politics = {
 
 }
 
-set_country_flag = authoritarian_democrat_coalition
+set_country_flag = coalition_authoritarian_democrat
 
 create_country_leader = {
 	name = "서만술"
