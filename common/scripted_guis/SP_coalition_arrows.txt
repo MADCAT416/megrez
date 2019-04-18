@@ -1,0 +1,335 @@
+scripted_gui = {
+	coalition_totalist_arrow = {
+		window_name = "coalition_totalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_totalist
+				has_government = totalist
+			}
+		}
+	}
+	coalition_syndicalist_arrow = {
+		window_name = "coalition_syndicalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_syndicalist
+				has_government = syndicalist
+			}
+		}
+	}
+	coalition_democratic_socialist_arrow = {
+		window_name = "coalition_democratic_socialist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_democratic_socialist
+				has_government = democratic_socialist
+			}
+		}
+	}
+	coalition_social_progressive_arrow = {
+		window_name = "coalition_social_progressive_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_social_progressive
+				has_government = social_progressive
+			}
+		}
+	}
+	coalition_social_liberal_arrow = {
+		window_name = "coalition_social_liberal_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_social_liberal
+				has_government = social_liberal
+			}
+		}
+	}
+	coalition_market_liberal_arrow = {
+		window_name = "coalition_market_liberal_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_market_liberal
+				has_government = market_liberal
+			}
+		}
+	}
+	coalition_social_conservative_arrow = {
+		window_name = "coalition_social_conservative_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_social_conservative
+				has_government = social_conservative
+			}
+		}
+	}
+	coalition_authoritarian_democrat_arrow = {
+		window_name = "coalition_authoritarian_democrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_authoritarian_democrat
+				has_government = authoritarian_democrat
+			}
+		}
+	}
+	coalition_paternal_autocrat_arrow = {
+		window_name = "coalition_paternal_autocrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_paternal_autocrat
+				has_government = paternal_autocrat
+			}
+		}
+	}
+	coalition_national_populist_arrow = {
+		window_name = "coalition_national_populist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_national_populist
+				has_government = national_populist
+			}
+		}
+	}
+
+	opposition_totalist_arrow = {
+		window_name = "opposition_totalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_totalist
+					has_government = totalist
+				}
+				has_country_flag = banned_totalist
+			}
+		}
+	}
+	opposition_syndicalist_arrow = {
+		window_name = "opposition_syndicalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_syndicalist
+					has_government = syndicalist
+				}
+				has_country_flag = banned_syndicalist
+			}
+		}
+	}
+	opposition_democratic_socialist_arrow = {
+		window_name = "opposition_democratic_socialist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_democratic_socialist
+					has_government = democratic_socialist
+				}
+				has_country_flag = banned_democratic_socialist
+			}
+		}
+	}
+	opposition_social_progressive_arrow = {
+		window_name = "opposition_social_progressive_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_social_progressive
+					has_government = social_progressive
+				}
+				has_country_flag = banned_social_progressive
+			}
+		}
+	}
+	opposition_social_liberal_arrow = {
+		window_name = "opposition_social_liberal_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_social_liberal
+					has_government = social_liberal
+				}
+				has_country_flag = banned_social_liberal
+			}
+		}
+	}
+	opposition_market_liberal_arrow = {
+		window_name = "opposition_market_liberal_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_market_liberal
+					has_government = market_liberal
+				}
+				has_country_flag = banned_market_liberal
+			}
+		}
+	}
+	opposition_social_conservative_arrow = {
+		window_name = "opposition_social_conservative_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_social_conservative
+					has_government = social_conservative
+				}
+				has_country_flag = banned_social_conservative
+			}
+		}
+	}
+	opposition_authoritarian_democrat_arrow = {
+		window_name = "opposition_authoritarian_democrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_authoritarian_democrat
+					has_government = authoritarian_democrat
+				}
+				has_country_flag = banned_authoritarian_democrat
+			}
+		}
+	}
+	opposition_paternal_autocrat_arrow = {
+		window_name = "opposition_paternal_autocrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_paternal_autocrat
+					has_government = paternal_autocrat
+				}
+				has_country_flag = banned_paternal_autocrat
+			}
+		}
+	}
+	opposition_national_populist_arrow = {
+		window_name = "opposition_national_populist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_national_populist
+					has_government = national_populist
+				}
+				has_country_flag = banned_national_populist
+			}
+		}
+	}
+
+	banned_totalist_x = {
+		window_name = "banned_totalist_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_totalist
+		}
+	}
+	banned_syndicalist_x = {
+		window_name = "banned_syndicalist_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_syndicalist
+		}
+	}
+	banned_democratic_socialist_x = {
+		window_name = "banned_democratic_socialist_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_democratic_socialist
+		}
+	}
+	banned_social_progressive_x = {
+		window_name = "banned_social_progressive_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_social_progressive
+		}
+	}
+	banned_social_liberal_x = {
+		window_name = "banned_social_liberal_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_social_liberal
+		}
+	}
+	banned_market_liberal_x = {
+		window_name = "banned_market_liberal_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_market_liberal
+		}
+	}
+	banned_social_conservative_x = {
+		window_name = "banned_social_conservative_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_social_conservative
+		}
+	}
+	banned_authoritarian_democrat_x = {
+		window_name = "banned_authoritarian_democrat_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_authoritarian_democrat
+		}
+	}
+	banned_paternal_autocrat_x = {
+		window_name = "banned_paternal_autocrat_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_paternal_autocrat
+		}
+	}
+	banned_national_populist_x = {
+		window_name = "banned_national_populist_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_national_populist
+		}
+	}
+
+}

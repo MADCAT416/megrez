@@ -1,0 +1,282 @@
+defined_text = {
+	name = GetRulingCoalition
+	text = {
+		trigger = {
+			has_government = totalist
+		}
+		localization_key = totalist_desc
+	}
+	text = {
+		trigger = {
+			has_government = syndicalist
+		}
+		localization_key = syndicalist_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = democratic_socialist
+		}
+		localization_key = democratic_socialist_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = social_progressive
+		}
+		localization_key = social_progressive_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = social_liberal
+		}
+		localization_key = social_liberal_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = market_liberal
+		}
+		localization_key = market_liberal_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = social_conservative
+		}
+		localization_key = social_conservative_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = authoritarian_democrat
+		}
+		localization_key = authoritarian_democrat_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = paternal_autocrat
+		}
+		localization_key = paternal_autocrat_desc
+	}
+	
+	text = {
+		trigger = {
+			has_government = national_populist
+		}
+		localization_key = national_populist_desc
+	}
+	
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltiptotalist
+	text = {
+		trigger = {
+			has_government = totalist
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = totalist
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipsyndicalist
+	text = {
+		trigger = {
+			has_government = syndicalist
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = syndicalist
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipDemocraticsocialist
+	text = {
+		trigger = {
+			has_government = democratic_socialist
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = democratic_socialist
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipSocialProgressive
+	text = {
+		trigger = {
+			has_government = social_progressive
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_progressive
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipSocialLiberal
+	text = {
+		trigger = {
+			has_government = social_liberal
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipMarketLiberal
+	text = {
+		trigger = {
+			has_government = market_liberal
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = market_liberal
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipSocialConservative
+	text = {
+		trigger = {
+			has_government = social_conservative
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_conservative
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipAuthoritarianDemocrat
+	text = {
+		trigger = {
+			has_government = authoritarian_democrat
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian_democrat
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipPaternalAutocrat
+	text = {
+		trigger = {
+			has_government = paternal_autocrat
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = paternal_autocrat
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipNationalPopulist
+	text = {
+		trigger = {
+			has_government = national_populist
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = national_populist
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
