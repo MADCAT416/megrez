@@ -48,8 +48,8 @@ on_actions = {
 	}
 
    on_daily = {
-   			every_country = { country_event = mrz_gen_politic.5 }
-			every_country = { country_event = mrz_gen_politic.6 }
+   			every_country = { country_event = mrz_gen_coalition.1 }
+			every_country = { country_event = mrz_gen_coalition.2 }
    }
 
 	#ROOT is subject FROM is previous overlord

@@ -10,8 +10,8 @@ coalition_party_authoritarian_democrat_tt:0 "[GetCoalitionStarTooltipAuthoritari
 coalition_party_paternal_autocrat_tt:0 "[GetCoalitionStarTooltipPaternalAutocrat]"
 coalition_party_national_populist_tt:0 "[GetCoalitionStarTooltipNationalPopulist]"
 
-coalition_party_ruling:0 "This party leads your ruling coalition"
-coalition_party_nonruling:0 "This party is a member of your ruling coalition"
-no_coalition_ruling_party:0 "This is your ruling party"
-opposition_party_tt:0 "This party does not participate in your government"
-banned_party_tt:0 "This party is banned"
+coalition_party_ruling:0 "이 정당은 연정을 주도하고 있습니다."
+coalition_party_nonruling:0 "이 정당은 연정에 참여하고 있습니다."
+no_coalition_ruling_party:0 "이 정당은 여당입니다."
+opposition_party_tt:0 "이 정당은 야당입니다."
+banned_party_tt:0 "이 정당은 금지되었습니다."
