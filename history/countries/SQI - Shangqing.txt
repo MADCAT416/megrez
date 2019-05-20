@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "Deng_Xiaoping_DESC"
 	picture = "Portrait_SQI_Deng_Xiaoping.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

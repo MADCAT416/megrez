@@ -73,7 +73,7 @@ parties = {
       popularity = 0
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 5
     }
     
@@ -182,7 +182,7 @@ create_country_leader = {
 	desc = "Manfred_Gerlach_desc"
 	picture = "Portrait_DDR_Manfred_Gerlach.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 	}
 }

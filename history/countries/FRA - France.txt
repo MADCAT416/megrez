@@ -327,7 +327,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 50
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 20
 		}
 		social_liberal = {

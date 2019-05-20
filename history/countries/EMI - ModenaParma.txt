@@ -79,7 +79,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 8
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 8
 		}
 		social_liberal = {
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Archduke Roberto I D'Asburgo-Este"
 	picture = "Portrait_EMI_Duke_Roberto.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

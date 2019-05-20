@@ -72,7 +72,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 25
 		}
 		social_liberal = {
@@ -143,7 +143,7 @@ create_country_leader = {
 	desc = "Victor_Raul_Haya_de_la_Torre_DESC"
 	picture = "Portrait_Peru_Victor_Raul_Haya_de_la_Torre.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

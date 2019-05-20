@@ -75,7 +75,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 5
 		}
 		social_liberal = {
@@ -143,7 +143,7 @@ create_country_leader = {
 	desc = "Raul_Manglapus_DESC"
 	picture = "Portrait_Philippines_Raul_Manglapus.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

@@ -76,7 +76,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 1
 		}
 		social_liberal = {
@@ -179,7 +179,7 @@ create_country_leader = {# 파이살 빈 압둘아지즈 알사우드
 	desc = "Abdulaziz_DESC"
 	picture = "Portrait_Arabia_Faisal_bin_Abdulaziz_Al_Saud.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 create_country_leader = {# 파이살 빈 압둘아지즈 알사우드

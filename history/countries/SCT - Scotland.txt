@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 13
 		}
 		social_liberal = {
@@ -125,7 +125,7 @@ create_country_leader = {
 	name = "윌리엄 울프"
 	picture = "Portrait_Scotland_William_Wolfe.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

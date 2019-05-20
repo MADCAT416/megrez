@@ -331,7 +331,7 @@ parties = {
       popularity = 0
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 5
     }
     
@@ -507,7 +507,7 @@ create_country_leader = {
 	desc = "Ferdinand_I_desc"
 	picture = "Portrait_Germany_Ferdinand_I.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 	}
 }

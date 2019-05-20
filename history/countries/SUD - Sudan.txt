@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 5
 		}
 		social_liberal = {
@@ -120,7 +120,7 @@ create_country_leader = {# Abd al-Rahman al-Mahdi
 	name = "토비 마둣"
 	picture = "Portrait_SUD_Toby_Maduot.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 	}
 }

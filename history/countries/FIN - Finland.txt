@@ -73,7 +73,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 3
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 25
 		}
 		social_liberal = {
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "Wolfgang_I_DESC"
 	picture = "Portrait_Finland_Wolfgang_I.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {business_monarch}
 }
 

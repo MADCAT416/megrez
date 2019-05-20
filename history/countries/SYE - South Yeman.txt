@@ -78,7 +78,7 @@ set_politics = {
       popularity = 0
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 0
     }
     

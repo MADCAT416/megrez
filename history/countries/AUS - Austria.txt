@@ -310,7 +310,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 3
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 40
 		}
 		social_liberal = {
@@ -333,7 +333,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = social_democrat
 	last_election = "1930.3.9"
 	election_frequency = 72
 	elections_allowed = no
@@ -400,7 +400,7 @@ create_country_leader = {
 	desc = "Otto_DESC"
 	picture = "Portrait_Austria_Otto.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 2
 		}
 		social_liberal = {
@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_KATANGA_KING_I_DESC"
 	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

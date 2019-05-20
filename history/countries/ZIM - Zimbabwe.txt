@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 2
 		}
 		social_liberal = {
@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "아벨 무조레와"
 	picture = "Portrait_Zimbabwe_Abel_Muzorewa.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

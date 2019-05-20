@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 20
 		}
 		social_liberal = {
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "Alfonso_Lopez_Michelsen_DESC"
 	picture = "Portrait_Columbia_Alfonso_Lopez_Michelsen.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

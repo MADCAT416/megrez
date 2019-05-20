@@ -67,7 +67,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 2
 		}
 		social_liberal = {
@@ -100,7 +100,7 @@ create_country_leader = {
 	name = "잠시드 빈 압둘라 알 사이드"
 	picture = "Portrait_Zanzibar_Sultan_Jamshid.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

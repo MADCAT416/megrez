@@ -81,7 +81,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 23
 		}
 		social_liberal = {
@@ -113,7 +113,7 @@ create_country_leader = {# King Amadeo I
 	name = "움베르토 2세"
 	picture = "Portrait_SRD_Umberto_II.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 }
 create_country_leader = {# King Amadeo I
 	name = "움베르토 2세"

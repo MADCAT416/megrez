@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 13
 		}
 		social_liberal = {
@@ -134,7 +134,7 @@ create_country_leader = {
 	name = "그윈포 에반스"
 	picture = "Portrait_Britain_Gwynfor_Evans.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

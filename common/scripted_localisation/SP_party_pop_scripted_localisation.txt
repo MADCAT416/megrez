@@ -22,11 +22,18 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			has_government = social_progressive
+			has_government = social_democrat
 		}
-		localization_key = social_progressive_desc
+		localization_key = social_democrat_desc
 	}
-	
+
+	text = {
+		trigger = {
+			has_government = new_left
+		}
+		localization_key = new_left_desc
+	}
+
 	text = {
 		trigger = {
 			has_government = social_liberal
@@ -135,17 +142,59 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetCoalitionStarTooltipSocialProgressive
+	name = GetCoalitionStarTooltipSocialDemocrat
 	text = {
 		trigger = {
-			has_government = social_progressive
+			has_government = social_democrat
 			NOT = { has_coalition = yes }
 		}
 		localization_key = no_coalition_ruling_party
 	}
 	text = {
 		trigger = {
-			has_government = social_progressive
+			has_government = social_democrat
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipNewLeft
+	text = {
+		trigger = {
+			has_government = new_left
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = new_left
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipSocialLiberal
+	text = {
+		trigger = {
+			has_government = social_liberal
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
 			has_coalition = yes
 		}
 		localization_key = coalition_party_ruling

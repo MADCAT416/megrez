@@ -72,7 +72,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 10
 		}
 		social_liberal = {
@@ -164,7 +164,7 @@ create_country_leader = {
 	name = "세르게이스 돌고폴롭스"
 	expire = "2000.1.1"
 	picture = "Portrait_LAT_Sergejs_Dolgopolovs.tga"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {	
 	}
 }

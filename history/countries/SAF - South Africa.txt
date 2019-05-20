@@ -79,7 +79,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 3
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -158,7 +158,7 @@ create_country_leader = {
 	picture = "Portrait_SAF_Allan_Hendrickse.tga"
 	desc = "Allan_Hendrickse_DESC"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

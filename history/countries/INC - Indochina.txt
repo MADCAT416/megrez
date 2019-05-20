@@ -76,7 +76,7 @@ set_politics = {
       popularity = 10
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 5
     }
     
@@ -151,7 +151,7 @@ create_country_leader = {
 	desc = "Hoang_Minh_Chinh_DESC"
 	picture = "Portrait_INC_Hoang_Minh_Chinh.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

@@ -69,7 +69,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 2
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 4
 		}
 		social_liberal = {
@@ -126,7 +126,7 @@ create_country_leader = {
 	name = "윌리엄 데 실바"
 	picture = "CEY_William_de_Silva.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

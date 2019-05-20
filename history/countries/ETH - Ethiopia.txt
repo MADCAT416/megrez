@@ -69,7 +69,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -169,7 +169,7 @@ create_country_leader = {
 	name = "하일레 셀라시에 1세"
 	picture = "Portrait_Ethiopia_KR_Haile_Selassie.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}

@@ -79,7 +79,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 2
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 40
 		}
 		social_liberal = {
@@ -102,7 +102,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = social_democrat
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -155,7 +155,7 @@ create_country_leader = {
 	desc = "Olav_V_DESC"
 	picture = "Portrait_Norway_Olav_V.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {beloved_monarch}
 }
 

@@ -53,11 +53,19 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = coalition_social_progressive } }
+		limit = { ROOT = { has_country_flag = coalition_social_democrat } }
 		ROOT = {
-		set_variable = { social_progressive_popularity = ROOT.party_popularity@social_progressive }
-		multiply_variable = { social_progressive_popularity = 100 }
-		add_to_variable = { goverment_popularity = social_progressive_popularity }
+		set_variable = { social_democrat_popularity = ROOT.party_popularity@social_democrat }
+		multiply_variable = { social_democrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_democrat_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { has_country_flag = coalition_new_left } }
+		ROOT = {
+		set_variable = { social_liberal_popularity = ROOT.party_popularity@new_left }
+		multiply_variable = { new_left_popularity = 100 }
+		add_to_variable = { goverment_popularity = new_left_popularity }
 			}
 	}
 	if = {

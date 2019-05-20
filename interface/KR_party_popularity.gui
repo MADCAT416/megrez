@@ -62,16 +62,30 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "social_progressive_container"
+		name = "social_democrat_container"
 		position = { x = 174 y = 4 }
 		
 		iconType = {
-			name ="social_progressive_icon"
-			spriteType = "GFX_social_progressive_small"
+			name ="social_democrat_icon"
+			spriteType = "GFX_social_democrat_small"
 			position = { x=-2 y=0 }
 			
-			pdx_tooltip = "social_progressive_topbar_tooltip"
-			pdx_tooltip_delayed = "social_progressive_subtype_desc"
+			pdx_tooltip = "social_democrat_topbar_tooltip"
+			pdx_tooltip_delayed = "social_democrat_subtype_desc"
+		}
+	}
+
+	containerWindowType = {
+		name = "new_left_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="new_left_icon"
+			spriteType = "GFX_new_left_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "new_left_topbar_tooltip"
+			pdx_tooltip_delayed = "new_left_subtype_desc"
 		}
 	}
 

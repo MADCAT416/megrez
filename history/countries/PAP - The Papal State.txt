@@ -90,7 +90,7 @@ set_politics = {
       popularity = 0
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 0
     }
     
@@ -185,7 +185,7 @@ create_country_leader = {
 	name = "교황 바오로 6세"
 	picture = "Portrait_Paul_VI.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

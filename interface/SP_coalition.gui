@@ -39,7 +39,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "coalition_social_progressive_arrow"
+		name = "coalition_social_democrat_arrow"
 		position = { x=341 y=357 }	
 		size = { width=330 height=18 }
 		
@@ -48,7 +48,20 @@ guiTypes = {
 			spriteType = "GFX_coalition_arrow"
 			position = { x= 0 y = 0 }
 			
-			pdx_tooltip = "coalition_party_social_progressive_tt"
+			pdx_tooltip = "coalition_party_social_democrat_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_new_left_arrow"
+		position = { x=341 y=373 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_new_left_tt"
 		}
 	}
 	containerWindowType = {
@@ -170,8 +183,21 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "opposition_social_progressive_arrow"
+		name = "opposition_social_democrat_arrow"
 		position = { x=341 y=357 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_new_left_arrow"
+		position = { x=341 y=373 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -301,8 +327,21 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "banned_social_progressive_x"
+		name = "banned_social_democrat_x"
 		position = { x=341 y=357 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_new_left_x"
+		position = { x=341 y=373 }	
 		size = { width=330 height=18 }
 		
 		iconType = {

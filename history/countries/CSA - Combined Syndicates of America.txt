@@ -311,7 +311,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 60
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 15
 		}
 		social_liberal = {
@@ -369,7 +369,7 @@ create_country_leader = {
 	desc = "Farrell_Dobbs_DESC"
 	picture = "Portrait_CSA_Farrell_Dobbs.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

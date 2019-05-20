@@ -174,7 +174,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "쑨리런"
 	picture = "ANQ_Sun_Li_jen.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

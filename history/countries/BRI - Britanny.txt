@@ -302,7 +302,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 5
 		}
 		social_liberal = {
@@ -335,7 +335,7 @@ create_country_leader = {
 name = "앙주 공작 알폰소"
 picture = "Portrait_Britanny_Alfonso_Duke_of_Anjou.tga"
 expire = "2000.1.1"
-ideology = social_progressive_subtype
+ideology = social_democrat_subtype
 traits = {
 
 }

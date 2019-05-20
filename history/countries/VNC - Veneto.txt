@@ -102,7 +102,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 8
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 30
 		}
 		social_liberal = {

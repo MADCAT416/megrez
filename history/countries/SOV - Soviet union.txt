@@ -88,7 +88,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 23
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 7
 		}
 		social_liberal = {
@@ -176,7 +176,7 @@ create_country_leader = {
 	desc = "Vladimir_I_DESC"
 	picture = "Portrait_Russia_Vladimir_I.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

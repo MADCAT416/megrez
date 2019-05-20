@@ -76,7 +76,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 5
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 9
 		}
 		social_liberal = {
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "호세 말도나도 곤살레스"
 	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

@@ -68,7 +68,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 3
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 5
 		}
 		social_liberal = {
@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "Sisowath_Monipong_DESC"
 	picture = "Portrait_Cambodia_Sisowath_Monipong.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

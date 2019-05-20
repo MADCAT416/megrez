@@ -73,7 +73,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 7
 		}
 		social_liberal = {
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDRU_VAIDAVOEVOD_DESC"
 	picture = "Alexandru_Vaida-Voevod.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

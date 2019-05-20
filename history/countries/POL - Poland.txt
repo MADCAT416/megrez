@@ -84,7 +84,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 1
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 2
 		}
 		social_liberal = {
@@ -175,7 +175,7 @@ create_country_leader = {
 	desc = "Maria_Emanuel_DESC"
 	picture = "Portrait_POL_Maria_Emanuel.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

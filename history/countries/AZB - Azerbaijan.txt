@@ -183,7 +183,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 1
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 3
 		}
 		social_liberal = {
@@ -240,7 +240,7 @@ create_country_leader = {
 	name = "매햄매드 아재르 아란"
 	picture = "Portrait_Azerbaijan_Mehemmed_Azer_Aran.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

@@ -89,7 +89,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 8
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 30
 		}
 		social_liberal = {
@@ -112,7 +112,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = social_progressive
+	ruling_party = social_democrat
 	last_election = "1932.5.5"
 	election_frequency = 60
 	elections_allowed = no
@@ -122,7 +122,7 @@ create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
 	name = "라라니엘리 디 부르보네"
 	picture = "Portrait_SIC_Ranieri.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie

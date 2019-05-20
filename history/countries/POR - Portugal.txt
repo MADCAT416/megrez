@@ -73,7 +73,7 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -158,7 +158,7 @@ create_country_leader = {
 	name = "마리우 소아르스"
 	picture = "Portrait_POR_Mario_Soares.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 	}
 }

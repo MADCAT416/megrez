@@ -15,8 +15,12 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = democratic_socialist }
 		}
 		AND = {
-			has_government = social_progressive
-			ROOT = { has_government = social_progressive }
+			has_government = social_democrat
+			ROOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = new_left
+			ROOT = { has_government = new_left }
 		}
 		AND = {
 			has_government = social_liberal
@@ -61,12 +65,16 @@ has_same_government_as_PREV = {
 			PREV = { has_government = democratic_socialist }
 		}
 		AND = {
-			has_government = social_progressive
-			PREV = { has_government = social_progressive }
+			has_government = social_democrat
+			PREV = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = new_left
+			ROOT = { has_government = new_left }
 		}
 		AND = {
 			has_government = social_liberal
-			PREV = { has_government = social_liberal }
+			ROOT = { has_government = social_liberal }
 		}
 		AND = {
 			has_government = market_liberal
@@ -140,8 +148,9 @@ has_reformal_progressive_government = {
 		tooltip = KR_is_progressive
 		OR = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 		}
 	}
 }
@@ -151,8 +160,9 @@ not_has_reformal_progressive_government = {
 		tooltip = KR_is_not_progressive
 		NOT = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 		}
 	}
 }
@@ -162,8 +172,9 @@ has_classic_liberal_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_liberal
 		OR = {
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 		}
 	}
@@ -173,8 +184,9 @@ not_has_classic_liberal_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_is_not_liberal
 		NOT = {
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 		}
 	}
@@ -249,8 +261,9 @@ has_elected_government = {
 		tooltip = KR_is_elected
 		OR = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
 		}
@@ -262,8 +275,9 @@ not_has_elected_government = {
 		tooltip = KR_is_not_elected
 		NOT = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
 		}
@@ -276,8 +290,9 @@ has_democratic_government = {
 		tooltip = KR_is_democratic
 		OR = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
 			has_government = authoritarian_democrat
@@ -290,8 +305,9 @@ not_has_democratic_government = {
 		tooltip = KR_is_not_democratic
 		NOT = {
 			has_government = democratic_socialist
-			has_government = social_progressive
-			has_government = social_liberal
+			has_government = social_democrat
+			has_government = new_left
+has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
 			has_government = authoritarian_democrat
@@ -499,12 +515,13 @@ has_coalition = {
 			NOT = { has_government = democratic_socialist }
 		}
 		AND = {
-			has_country_flag = coalition_social_progressive
-			NOT = { has_government = social_progressive }
+			has_country_flag = coalition_social_democrat
+			NOT = { has_government = social_democrat }
 		}
 		AND = {
 			has_country_flag = coalition_social_liberal
-			NOT = { has_government = social_liberal }
+			NOT = { has_government = new_left
+has_government = social_liberal }
 		}
 		AND = {
 			has_country_flag = coalition_market_liberal

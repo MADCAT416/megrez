@@ -72,7 +72,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 14
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 10
 		}
 		social_liberal = {
@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "다비드 사무디오 아빌라"
 	picture = "Portrait_PAN_David_Samudio_Avila.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

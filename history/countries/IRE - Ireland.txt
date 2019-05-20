@@ -94,7 +94,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 40
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 5
 		}
 		social_liberal = {
@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "Joe_Higgins_DESC"
 	picture = "Portrait_Ireland_Joe_Higgins.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

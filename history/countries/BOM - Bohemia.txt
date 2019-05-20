@@ -310,7 +310,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		social_progressive = {
+		social_democrat = {
 			popularity = 0
 		}
 		social_liberal = {
@@ -379,7 +379,7 @@ create_country_leader = {
 	desc = "Rudolf_Battek_DESC"
 	picture = "Portrait_Bohemia_Rudolf_Battek.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {
 
 	}

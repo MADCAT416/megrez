@@ -102,19 +102,47 @@ ideologies = {
 
 	}
 
-	social_progressive = {
+	social_democrat = {
 		types = {
-			social_progressive_subtype = {}
+			social_democrat_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_social_progressive_1"
-			"FACTION_NAME_social_progressive_2"
-			"FACTION_NAME_social_progressive_3"
-			"FACTION_NAME_social_progressive_4"
-			"FACTION_NAME_social_progressive_5"
-			"FACTION_NAME_social_progressive_6"
+			"FACTION_NAME_social_democrat_1"
+			"FACTION_NAME_social_democrat_2"
+			"FACTION_NAME_social_democrat_3"
+			"FACTION_NAME_social_democrat_4"
+			"FACTION_NAME_social_democrat_5"
+			"FACTION_NAME_social_democrat_6"
 		}
 		color = { 194 30 86 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
+	new_left = {
+		types = {
+			new_left_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_new_left_1"
+			"FACTION_NAME_new_left_2"
+			"FACTION_NAME_new_left_3"
+			"FACTION_NAME_new_left_4"
+			"FACTION_NAME_new_left_5"
+			"FACTION_NAME_new_left_6"
+		}
+		color = { 128 0 128 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

@@ -75,7 +75,7 @@ parties = {
       popularity = 15
     }
     
-    social_progressive = {
+    social_democrat = {
       popularity = 10
     }
     
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "Eduardo_Chibas_DESC"
 	picture = "Portrait_Cuba_Eduardo_Chibas.tga"
 	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 
