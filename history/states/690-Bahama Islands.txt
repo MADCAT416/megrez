@@ -1,14 +1,15 @@
+
 state = {
 	id = 690
 	name = "STATE_690"
-	manpower = 62160
-
-	state_category = small_island
 
 	history = {
 		owner = CAF
+		victory_points = {
+			13607 3
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			10254 = {
 				naval_base = 1
 			}
@@ -23,6 +24,8 @@ state = {
 	}
 
 	provinces = {
-		4647 7245 10254
+		4647 7245 10254 13607 13621
 	}
+	manpower = 62160
+	state_category = tiny_island
 }

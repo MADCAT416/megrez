@@ -3,21 +3,19 @@ state = {
 	name = "STATE_537"
 	manpower = 295196
 	resources = {
-		oil = 4
+		oil = 3
 	}
 
 	state_category = rural
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
-		add_claim_by = JAP
+		owner = JAP
+		add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
 			infrastructure = 3
 			12446 = {
 				naval_base = 1
-
 			}
 		}
 		victory_points = {

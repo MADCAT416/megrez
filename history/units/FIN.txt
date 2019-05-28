@@ -1,73 +1,7 @@
-﻿division_template = {
-	name = "근위엽병사단"
-	template_counter = 48
-
-	regiments = {
-		anti_air_manpads_company  = { x = 0 y = 0 }
-		anti_air_manpads_company  = { x = 0 y = 1 }
-		anti_tank_rocket_company = { x = 0 y = 2 }
-		anti_tank_rocket_company = { x = 0 y = 3 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-		mechanized = { x = 1 y = 3 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-		engineer = { x = 0 y = 3 }
-	}
-	priority = 2
-}
-
+﻿##### Division Templates #####
 division_template = {
-	name = "엽병사단"
-	template_counter = 49
-
-	regiments = {
-		anti_air_manpads_company  = { x = 0 y = 0 }
-		anti_tank_rocket_company = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-		engineer = { x = 0 y = 3 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "시민위병대" # white guard
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
-		militia = { x = 2 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "보병사단"
-
+	name = "Divisioona"		# Infantry Division
+	division_names_group = FIN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -75,292 +9,233 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	#support = {
+		#engineer = { x = 0 y = 0 }
+	#}
+}
+division_template = {
+	name = "Divisioona Tykistö"		# Infantry Division
+	division_names_group = FIN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
 	}
 }
-
 division_template = {
-	name = "기계화보병사단"
-
+	name = "Vuoristojääkäridivisioona"
+	division_names_group = FIN_MTN_01
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-		modern_armor = { x = 2 y = 0 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
 	}
 	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "기갑사단"
-
-	regiments = {
-		modern_sp_artillery_brigade = { x = 0 y = 0 }
-		modern_sp_artillery_brigade = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 2 y = 0 }
-		modern_armor = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		motorized_rocket_brigade = { x = 0 y = 1 }
-		modern_sp_artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		modern_sp_artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "강습엽병대"
-
-	regiments = {
-		heliborne = { x = 0 y = 0 }
-		heliborne = { x = 0 y = 1 }
-		heliborne = { x = 1 y = 0 }
-		heliborne = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		artillery = { x = 0 y = 0 }
 	}
 	priority = 2
 }
 
-division_template = {
-	name = "해안엽병대"
 
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-	priority = 2
-}
 
+##### OOB #####
 units = {
-
+	##### LAND UNITS #####
 	division = {
-		name = "제1근위엽병사단"
-		location = 11105
-		division_template = "근위엽병사단"
-		start_experience_factor = 0.3
+		#name = "3. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3158 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "7. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 197 # Tampere
+		division_template = "Vuoristojääkäridivisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "2. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6134 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "12. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6210 # Tampere
+		division_template = "Divisioona Tykistö"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "13. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 6210 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "1. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9176 # Tampere
+		division_template = "Divisioona Tykistö"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "4. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9206 # Tampere
+		division_template = "Divisioona Tykistö"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "5. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9206 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "21. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9206 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "8. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9206 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "10. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9206 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "6. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11105 # Tampere
+		division_template = "Divisioona Tykistö"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "22. Divisioona"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 11105 # Tampere
+		division_template = "Divisioona"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "제2근위엽병사단"
-		location = 11105
-		division_template = "근위엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
+	##### NAVAL UNITS #####
+}
 
-	division = {
-		name = "제3근위엽병사단"
-		location = 11105
-		division_template = "근위엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_3
+			creator = "BAT"
+			version_name = "Riga Class"
+		}
+		requested_factories = 2
+		progress = 0.7
+		amount = 2
 	}
-
-	division = {
-		name = "제1엽병사단"
-		location = 9150
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
 	}
-
-	division = {
-		name = "제2엽병사단"
-		location = 6153
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 100
 	}
-
-	division = {
-		name = "제3엽병사단"
-		location = 6210
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 100
 	}
-
-	division = {
-		name = "제4엽병사단"
-		location = 3185
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제5엽병사단"
-		location = 6134
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6엽병사단"
-		location = 197
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제7엽병사단"
-		location = 6012
-		division_template = "엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1해안엽병대"
-		location = 9206
-		division_template = "해안엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2해안엽병대"
-		location = 3083
-		division_template = "해안엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3해안엽병대"
-		location = 3122
-		division_template = "해안엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제4해안엽병사단"
-		location = 158
-		division_template = "해안엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제5해안엽병대"
-		location = 9140
-		division_template = "해안엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "포흐얀마 시민위병대"
-		location = 11065
-		division_template = "시민위병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "사보 시민위병대"
-		location = 11141
-		division_template = "시민위병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "카리알라 시민위병대"
-		location = 6150
-		division_template = "시민위병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "라피 시민위병대"
-		location = 6087
-		division_template = "시민위병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1강습엽병대"
-		location = 3025
-		division_template = "강습엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2강습엽병대"
-		location = 11043
-		division_template = "강습엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3강습엽병대"
-		location = 9181
-		division_template = "강습엽병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1기갑사단"
-		location = 67
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2기갑사단"
-		location = 9160
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	}
+}

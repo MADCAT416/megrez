@@ -1,0 +1,101 @@
+﻿VEN = {
+	submarine = {
+		prefix = "FNV"
+		generic = { "Submarino" }
+		unique = {
+			"Coronel Eduardo Blanco"
+			"Almirante San Pablo"
+			"Caracas"
+			"Maracay"
+			"Barquisimeto"
+			"Valencia"
+			"Petare Teques"
+			"Puerto de la Cruz"
+			"Cumana"
+			"Maturin"
+			"Sotavento"
+			"Isla de Tortuga"
+			"Pedregal"
+			"Maracay"
+			"Barquisimeto"
+			"Valencia"
+			"Petare Teques"
+			"Puerto de la Cruz"
+			"Cumana"
+			"Maturin"
+			"Sotavento"
+			"Isla de Tortuga"
+			"Pedregal"
+			"Nueva Esparta"
+			"Zulia"
+			"Aragua"
+			"Almirante Clemente"
+			"General Flores"
+			"General Moran"
+			"Almirante Brión"
+			"General Austria"
+			"Almirante Garcia"
+			"Sabalo"
+			"Caribe"
+			"Totumo"
+			"23 de Mayo"
+			"General Crespo"
+			"Margarita"
+			"Jose Felix Ribas"
+			"Zumbador"
+			"Augusto"
+			"29 de enero"
+			"Antonio Díaz"
+			"Restauración"
+			"Salias"
+			"Naricual"
+			"Las Aves"
+			"2 de diciembre"
+			"Capana"
+			"Felipe Larrazabal"
+			"Esteban Rojas"
+			"Fernando Gómez"
+			"Arismendi"
+			"Carabobo"
+			"Libertad"
+			"Patria"
+			"Victoria"
+		}
+	}
+	destroyer = {
+		prefix = "FNV"
+		generic = { "Destructor" }
+		unique = {
+		}
+	}
+	light_cruiser = {
+		prefix = "FNV"
+		generic = { "Crucero Ligero" }
+		unique = {
+		}
+	}
+	heavy_cruiser = {
+		prefix = "FNV"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "FNV"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "FNV"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "FNV"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

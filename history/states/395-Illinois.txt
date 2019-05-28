@@ -1,20 +1,25 @@
 state = {
 	id = 395
 	name = "STATE_395"
-	manpower = 7630651
+	manpower = 7840000
 	state_category = megalopolis
+	resources = {
+		oil = 5
+	}
 
 	history = {
-		owner = CSA
+		owner = USA
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 3
+			industrial_complex = 11
 			air_base = 3
 		}
 		add_core_of = USA
-		add_core_of = CSA
 		victory_points = {
-			9450 25
+			9450 40
+		}
+		victory_points = {
+			12497 3
 		}
 	}
 

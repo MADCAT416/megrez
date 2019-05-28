@@ -1,7 +1,7 @@
 state = {
 	id = 772
 	name = "STATE_772" # Dobrudzha
-	manpower = 861400
+	manpower = 559910
 
 
 	state_category = city
@@ -9,14 +9,12 @@ state = {
 	history = {
 		owner = BUL
 
-		victory_points = { 9635 3 }
+		victory_points = { 9635 5 }
 
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
-			dockyard = 1
-			synthetic_refinery = 1
-			radar_station = 1
+			industrial_complex = 2
 			air_base = 3
 			9635 = {
 				naval_base = 1
@@ -24,7 +22,7 @@ state = {
 		}
 
 		add_core_of = BUL
-		add_core_of = RRM
+		add_core_of = ROM
 	}
 
 	provinces = {

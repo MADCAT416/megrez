@@ -5,10 +5,9 @@ state = {
 	history = {
 		owner = CAF
 		add_core_of = CAF
-		add_core_of = VEN
+		add_claim_by = VEN
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
 
@@ -16,7 +15,6 @@ state = {
 		13429 13425
 	}
 	manpower = 1567
-	
-	buildings_max_level_factor = 1
+	impassable = yes
 	state_category = wasteland
 }

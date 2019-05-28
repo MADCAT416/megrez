@@ -1,71 +1,175 @@
-﻿capital = 543
+﻿capital = 965
 
 oob = "MAF"
+set_naval_oob = "MAF_naval"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+	### General ###
+	electronic_mechanical_engineering = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		torpedo_tech_three = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		gunnery_tech_three = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		fbb_gunnery_tech_two = 1
+		fbb_gunnery_tech_three = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_gunnery_tech_one = 1
+		dn_gunnery_tech_two = 1
+		dn_gunnery_tech_three = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		carrier_armoured_deck = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
 }
 
 add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
 add_opinion_modifier = { target = GEO modifier = embargo }
-
+country_event = { id = mittel.167 days = 1 } #Intro event
 
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.55
+set_war_support = 0.10
+add_political_power = -200
 
 set_politics = {
 
@@ -73,7 +177,7 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 1
 		}
 		syndicalist = {
@@ -108,6 +212,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+country_event = { id = mittel.1 days = 1 }
+
+set_country_flag = MAF_NKR
+set_country_flag = Franz_Ritter_von_Epp_dead
+set_country_flag = Fritz_Thyssen_dead
+
 add_ideas = {
 	#medium_economy
 
@@ -116,86 +226,73 @@ add_ideas = {
 	MAF_August_Stauch_eco_ade
 	MAF_Hans_Albert_von_Lettow_Vorbeck_sec_pau
 
+	MAF_Colonial_Nation
+	MAF_British_Settlers
+	MAF_Belgian_Investors
+
 	#low_popularity
 	#low_stability
 }
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "칼 구스타프 폰 로젠"
-	picture = "Portrait_Mittelafrika_Carl_Gustaf_von_Rosen.tga"
-	expire = "2000.1.1"
+	name = "Georg Kraut"
+	desc = "POLITICS_KRAUT_DESC"
+	picture = "Portrait_Mittelafrika_Georg_Kraut.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "알베르트 괴링"
-	picture = "Portrait_Mittelafrika_Albert_Goring.tga"
-	expire = "2000.1.1"
+	name = "Hermann von Göring"
+	desc = "POLITICS_GOERING_DESC"
+	picture = "Portrait_Mittelafrika_Hermann_Goering.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "알베르트 괴링"
-	picture = "Portrait_Mittelafrika_Albert_Goring.tga"
-	expire = "2000.1.1"
+	name = "Hermann von Göring"
+	desc = "POLITICS_GOERING_DESC"
+	picture = "Portrait_Mittelafrika_Hermann_Goering.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "카이-우베 폰 하셀"
-	picture = "Portrait_Mittelafrika_Kai_Uwe_von_Hassel.tga"
-	expire = "2000.1.1"
+	name = "Theodor von Hassel"
+	desc = "POLITICS_HASSEL_DESC"
+	picture = "Portrait_Mittelafrika_Theodor_von_Hassel.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "헨드릭 코르넬리스"
-	picture = "Portrait_Mittelafrika_Hendrik_Cornelis.tga"
-	expire = "2000.1.1"
+	name = "Jules Cousin"
+	desc = "POLITICS_COUSIN_DESC"
+	picture = "Portrait_Mittelafrika_Jules_Cousin.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레아 리키"
-	picture = "Portrait_Mittelafrika_Rea_Leakey.tga"
-	expire = "2000.1.1"
+	name = "Nigel Leaky"
+	desc = "POLITICS_LEAKY_DESC"
+	picture = "Portrait_Mittelafrika_Nigel_Leaky.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "푀른 엥홀름"
-	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
-	expire = "2000.1.1"
+	name = "Albert von Göring"
+	desc = "POLITICS_EPSTEIN_DESC"
+	picture = "Portrait_Mittelafrika_Albert_Goering.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "푀른 엥홀름"
-	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "푀른 엥홀름"
-	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "푀른 엥홀름"
-	picture = "Portrait_Mittelafrika_Bjorn_Engholm.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
 	traits = {}
 }
 
@@ -228,9 +325,9 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -242,9 +339,9 @@ create_corps_commander = {
 		fortress_buster
 	}
 	skill = 3
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 
@@ -259,11 +356,11 @@ create_corps_commander = {
 		camouflage_expert
 		guerilla_fighter
 	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -275,9 +372,9 @@ create_corps_commander = {
 		panzer_leader
 	}
 	skill = 3
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -290,9 +387,9 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -302,9 +399,9 @@ create_corps_commander = {
 		harsh_leader
 	}
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 
@@ -316,8 +413,8 @@ create_corps_commander = {
 		trait_engineer
 	}
 	skill = 3
-	attack_skill = 4
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
 }
@@ -330,12 +427,19 @@ create_navy_leader = {
 		spotter
 	}
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Reinhard Heydrich"
 	picture = "Portrait_Mittelafrika_Reinhard_Heydrich.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

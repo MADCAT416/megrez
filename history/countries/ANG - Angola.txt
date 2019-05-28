@@ -1,82 +1,19 @@
 ﻿capital = 540
-oob = "empty"
 
-set_technology = {
-
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	
-	motorised_infantry = 1 # 1955
-
-### 지원
-	tech_support = 1 # 1955
-	
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	
-	light_tank_1 = 1 # 1955
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	
-	destroyer_1 = 1 # 1945
-
-	cruiser_1 = 1 # 1945
-		
-### 대형함
-	battleship_1 = 1 # 1945
-	
-	amphibious_assault_carrier_1 = 1 # 1945
-
-### 잠수함
-	submarine_1 = 1 # 1945
-
-	large_submarine_1 = 1 # 1945
-	
-### 항공기
-
-### 폭격기
-
-### 헬기
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-		
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-
-### 산업
-	basic_machine_tools = 1 # 1936
-		
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-
-}
+OOB = "empty"
 
 set_research_slots = 2
-set_politics = {
+set_technology = {
+	### INF ###
+	infantry_weapons = 1
+}
 
+set_politics = {
 	parties = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 		}
 		syndicalist = {
@@ -104,95 +41,11 @@ set_politics = {
 			popularity = 12
 		}
 	}
-
 	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
-
-
-create_country_leader = {
-	name = "아고스티뉴 네투"
-	picture = "Agostinho_Neto.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아고스티뉴 네투"
-	picture = "Agostinho_Neto.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아고스티뉴 네투"
-	picture = "Agostinho_Neto.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아고스티뉴 네투"
-	picture = "Agostinho_Neto.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "홀덴 호베르투"
-	picture = "Holden_Roberto.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "홀덴 호베르투"
-	picture = "Holden_Roberto.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "홀덴 호베르투"
-	picture = "Holden_Roberto.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "조나스 사빔비"
-	picture = "Jonas_Savimbi.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "조나스 사빔비"
-	picture = "Jonas_Savimbi.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "조나스 사빔비"
-	picture = "Jonas_Savimbi.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-
 
 ### Corps Commander
 create_corps_commander = { #Auto-Generated
@@ -204,8 +57,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -217,6 +70,10 @@ create_navy_leader = { #Auto-Generated
 		superior_tactician
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -227,6 +84,10 @@ create_navy_leader = { #Auto-Generated
 		seawolf
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -237,4 +98,8 @@ create_navy_leader = { #Auto-Generated
 		blockade_runner
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

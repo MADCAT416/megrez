@@ -3,7 +3,7 @@ state = {
 	name = "STATE_110"
 	manpower = 1410219
 
-	state_category = large_city
+	state_category = city
 
 	resources = {
 		aluminium = 8
@@ -13,17 +13,17 @@ state = {
 		victory_points = {
 			6115 15
 		}
+		victory_points = {
+			11151 1
+		}
 
 		owner = NOR
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 3
-			synthetic_refinery = 1
+			arms_factory = 2
+			industrial_complex = 2
 			dockyard = 1
-			air_base = 3
-			anti_air_building = 2
-
+			air_base = 4
 			6115 = {
 				naval_base = 6
 				coastal_bunker = 3

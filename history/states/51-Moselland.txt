@@ -9,10 +9,10 @@ state = {
 		owner = GER
 		add_core_of = GER
 		victory_points = {
-			6469 20
+			6469 35
 		}
 		victory_points = {
-			6570 10
+			6570 20
 		}
 
 
@@ -22,8 +22,7 @@ state = {
 			industrial_complex = 9
 			air_base = 3
 			3512 = {
-				bunker = 2
-
+				bunker = 3
 			}
 		}
 	}
@@ -31,7 +30,6 @@ state = {
 	provinces = {
 		529 3512 6469 6570 9482
 	}
-	manpower = 3977403
-	buildings_max_level_factor = 1
+	manpower = 3458612
 	state_category = megalopolis
 }

@@ -1,224 +1,280 @@
 ﻿capital = 317
-oob = "empty"
+OOB = "NIC"
 set_convoys = 20
-set_research_slots = 3
+set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
 }
 
-set_stability = 0.45
-set_war_support = 0.47
+### Navy - MtG ###
 
-add_opinion_modifier = { target = GUA modifier = embargo }
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+add_opinion_modifier = { target = USA modifier = embargo }
+add_opinion_modifier = { target = USA modifier = NIC_watching_every_move }
+USA = {
+	add_opinion_modifier = { target = NIC modifier = NIC_revolutionary_threat }
+}
+add_opinion_modifier = { target = TEX modifier = embargo }
+add_opinion_modifier = { target = TEX modifier = NIC_watching_every_move }
+TEX = {
+	add_opinion_modifier = { target = NIC modifier = NIC_revolutionary_threat }
+}
+add_opinion_modifier = { target = MEX modifier = NIC_revolutionary_allies }
+add_opinion_modifier = { target = HON modifier = NIC_holding_military }
+
+country_event = {
+	id = nic.1 days = 1
+}
+country_event = {
+	id = cafla.18 days = 258
+}
+
+set_stability = 0.52
+set_war_support = 0.24
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 1
-		}
-		democratic_socialist = {
 			popularity = 2
 		}
 		syndicalist = {
-			popularity = 27
+			popularity = 7
+		}
+		radical_socialist = {
+			popularity = 36
 		}
 		social_democrat = {
-			popularity = 3
+			popularity = 19
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 22
 		}
 		market_liberal = {
-			popularity = 3
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 3
+			popularity = 8
 		}
 		authoritarian_democrat = {
-			popularity = 14
+			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 42
+			popularity = 6
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = paternal_autocrat
-	last_election = "1888.15.6"
+	ruling_party = radical_socialist
+	last_election = "1932.4.6"
 	election_frequency = 48
-	elections_allowed = no
-
+	elections_allowed = yes
 }
-
 add_ideas = {
 	#medium_economy
-	NIC_Anastasio_Somoza_Garcia_hog_ade
-	NIC_Leonardo_Arguello_Vargas_for_sco
-	NIC_Anastasio_Somoza_Garcia_eco_ade
-	NIC_Alcacio_Trelles_Mendoza_sec_mli
+	limited_conscription
+	CEN_monroe_doctrine
+	NIC_revolution
+	NIC_remaining_UFC_influence
 
+	NIC_Carlos_Salgado_hog_rso
+	NIC_Juan_Pablo_Umanzor_for_rso
+	NIC_Francisco_Estrada_eco_rso
+	NIC_Carmen_Torres_sec_rso
 }
 
 create_country_leader = {
-	name = "페르난도 아궤로"
-	picture = "Portrait_NIC_Fernando_Aguero.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "페르난도 아궤로"
-	picture = "Portrait_NIC_Fernando_Aguero.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "페르난도 아궤로"
-	picture = "Portrait_NIC_Fernando_Aguero.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "페르난도 아궤로"
-	picture = "Portrait_NIC_Fernando_Aguero.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "페르난도 아궤로"
-	picture = "Portrait_NIC_Fernando_Aguero.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "루이스 소모사 데바일레"
-	picture = "Portrait_NIC_Luis_Somoza_Debayle.tga"
-	expire = "2000.1.1"
+	name = "Anastasio Somoza García"
+	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+	picture = "Portrait_NIC_Anastasio_Somoza_Garcia_2.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "루이스 소모사 데바일레"
-	picture = "Portrait_NIC_Luis_Somoza_Debayle.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Adolfo Díaz"
+	desc = "POLITICS_ADOLFO_DIAZ_DESC"
+	picture = "Portrait_NIC_Adolfo_Diaz.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "토마스 보르헤"
-	picture = "Portrait_NIC_Tomas_Borge.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
+	name = "Emiliano Chamorro Vargas"
+	desc = "POLITICS_ELILIANO_CHAMORRO_VARGAS_DESC"
+	picture = "Portrait_NIC_Emiliano_Chamorro_Vargas.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "토마스 보르헤"
-	picture = "Portrait_NIC_Tomas_Borge.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "Portrait_NIC_Juan_Bautista_Sacasa.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "토마스 보르헤"
-	picture = "Portrait_NIC_Tomas_Borge.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
+	name = "Francisco Sequeira Moreno"
+	desc = "POLITICS_FRANCISCO_SEQUEIRA_MORENO_DESC"
+	picture = "Portrait_NIC_Francisco_Sequeria_Moreno.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Augusto César Sandino"
+	desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
+	picture = "Portrait_NIC_Augusto_Cesar_Sandino.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 ### Field Marshal
 create_field_marshal = {
-	name = "Jorge Ubico Castañeda"
-	picture = "Portrait_NIC_Jorge_Ubico_Casteneda.tga"
+	name = "Augusto César Sandino"
+	desc = "ARMY_NIC_AUGUSTO_CESAR_SANDINO_DESC"
+	picture = "Portrait_NIC_Augusto_Cesar_Sandino_general.tga"
 	traits = {
-		organisational_leader
-		commando
+		inspirational_leader
+		guerilla_fighter
 	}
-	skill = 2
+
+	skill = 3
+	id = 1601
 	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
 }
 
 ### Corps Commander
 create_corps_commander = {
-	name = "Anastasio Somoza García"
-	picture = "Portrait_NIC_Anastasio_Somoza_Garcia_2.tga"
+	name = "Yank Levy"
+	desc = "ARMY_NIC_YANK_LEVY_DESC"
+	picture = "Portrait_NIC_Yank_Levy.tga"
 	traits = {
-		jungle_rat
-		adaptable
+		guerilla_fighter
+		commando
+		camouflage_expert
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 3
+	id = 1600
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 1
+	logistics_skill = 3
 }
+
+create_corps_commander = {
+	name = "Francisco Sequeira Moreno"
+	desc = "ARMY_NIC_FRANCISCO_SEQUEIRA_MORENO_DESC"
+	picture = "Portrait_NIC_Francisco_Sequeria_Moreno.tga"
+	traits = {
+		guerilla_fighter
+		commando
+	}
+	skill = 2
+	id = 1602
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+#create_corps_commander = {#Created in event
+#	name = "Abelardo Cuadra"
+#	desc = "ARMY_NIC_ABELARDO_CUADRA_DESC"
+#	picture = "Portrait_NIC_Abelardo_Cuadra.tga"
+#	traits = {
+#		
+#	}
+#	skill = 3
+#	id = 1604
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#}
+
+#create_corps_commander = {#Created in event
+#	name = "Emiliano Chamorro Vargas"
+#	desc = "ARMY_NIC_EMILIANO_CHAMORRO_VARGAS_DESC"
+#	picture = "Portrait_NIC_Emiliano_Chamorro_Vargas.tga"
+#	traits = {
+#		
+#	}
+#	skill = 2
+#	id = 1605
+#	attack_skill = 1
+#	defense_skill = 3
+#	planning_skill = 3
+#	logistics_skill = 1
+#}
+
+#create_corps_commander = {#In Honduras
+#	name = "Federico Davidson Blanco"
+#	picture = "Portrait_NIC_Federico_Davidson_Blanco.tga"
+#	traits = {
+#		
+#	}
+#	skill = 1
+#	id = 1606
+#	attack_skill = 3
+#	defense_skill = 1
+#	planning_skill = 1
+#	logistics_skill = 2
+#}

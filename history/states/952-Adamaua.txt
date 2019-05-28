@@ -3,10 +3,8 @@ state = {
 	name = "STATE_952"
 
 	history = {
-		owner = CEA
-		add_core_of = CEA
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = KAM
 		victory_points = {
 			2080 1
 		}
@@ -20,6 +18,5 @@ state = {
 	}
 
 	manpower = 571670
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

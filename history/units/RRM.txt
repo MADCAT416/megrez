@@ -1,5 +1,7 @@
-﻿division_template = {
-	name = "소총병사단"
+﻿##### Division Templates #####
+division_template = {
+	name = "Divizie Infanterie"			# Rifle Division
+	division_names_group = ROM_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -8,147 +10,250 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	#support = {
+		#recon = { x = 0 y = 0 }		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		#engineer = { x = 0 y = 1 }		# (semi-mot) Engineer bn
+		#artillery = { x = 0 y = 0 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+	#}
+}
+
+division_template = {
+	name = "Divizie Infanterie II"			# Rifle Division Art
+	division_names_group = ROM_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+		#recon = { x = 0 y = 0 }		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and #they seem rather OP. Could revisit if balance changes
+		#engineer = { x = 0 y = 1 }		# (semi-mot) Engineer bn
+		artillery = { x = 0 y = 0 }		# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 	}
 }
 
 division_template = {
-	name = "기계화소총병사단"
+	name = "Divizie Cavalerie"	# Kavaleriyskaya Diviziya
+	division_names_group = ROM_CAV_01
 
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
+		#support = {
+		#light_armor = { x = 0 y = 0 }	# Tank "rgt" of 64 light tanks, 28 ACs - (removed)
+		#artillery = { x = 0 y = 0 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+		#}
+}
+division_template = {
+	name = "Divizie Cavalerie II"	# Kavaleriyskaya Diviziya fire support
+	division_names_group = ROM_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+
 	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		#	light_armor = { x = 0 y = 0 }	# Tank "rgt" of 64 light tanks, 28 ACs - (removed)
+		artillery = { x = 0 y = 0 }		# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 	}
 }
 
 division_template = {
-	name = "전차사단"
+	name = "Divizie Infanterie Motorizata"	# Kavaleriyskaya Diviziya
+	division_names_group = ROM_MOT_01
 
 	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 }
 
 division_template = {
-	name = "포병사단"
+	name = "Divizie Vanatori de Munte"
+	division_names_group = ROM_MTN_01
 
 	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		motorized_rocket_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		motorized_rocket_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "공수사단"
-
-	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
 	}
 	priority = 2
 }
 
 division_template = {
-	name = "해병사단"
-
+	name = "Armored-Division"
+	division_names_group = ROM_ARM_01
 	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
 }
+
+##### OOB #####
 
 units = {
 
 	division = {
-		name = "제1전차사단"
-		location = 9617
-		division_template = "전차사단"
-		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9716
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제2전차사단"
-		location = 11588
-		division_template = "전차사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제1기계화사단"
-		location = 9606
-		division_template = "기계화소총병사단"
-		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9716
+		division_template = "Divizie Infanterie II"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제2기계화사단"
-		location = 6652
-		division_template = "기계화소총병사단"
-		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9716
+		division_template = "Divizie Infanterie II"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9716
+		division_template = "Divizie Cavalerie II"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제3기계화사단"
-		location = 6682
-		division_template = "기계화소총병사단"
-		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6706
+		division_template = "Divizie Cavalerie"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "제1해병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6706
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 723
+		division_template = "Divizie Infanterie II"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 723
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 723
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 723
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
 		location = 6727
-		division_template = "해병사단"
-		start_experience_factor = 0.3
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6727
+		division_template = "Divizie Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
 }

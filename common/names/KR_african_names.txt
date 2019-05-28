@@ -1,31 +1,31 @@
 ﻿MAF = {
 	male = {
 		names = {
-			"막시밀리안"
-			"펠릭스"
-			"에리히"
-			"게르하르트"
-			"귄터"
-			"오토"
-			"발터"
-			"빌헬름"
-			"하인츠"
-			"헤르만"
-			"하인리히"
-			"테오도어"
-			"한스"
-			"안톤"
-			"요아힘"
-			"막스"
-			"에밀"
-			"페터"
-			"프리츠"
-			"오토"
-			"아돌프"
-			"토비아스"
-			"슈타판"
-			"마르코"
-			"카를"
+			"Maximilian"
+			"Felix"
+			"Erich"
+			"Gerhard"
+			"Gunther"
+			"Otto"
+			"Walter"
+			"Wilhelm"
+			"Heinz"
+			"Hermann"
+			"Heinrich"
+			"Theodor"
+			"Hans"
+			"Anton"
+			"Joachim"
+			"Max"
+			"Emil"
+			"Peter"
+			"Fritz"
+			"Otto"
+			"Adolf"
+			"Tobias"
+			"Staffan"
+			"Marco"
+			"Karl"
 		}
 	}
 	female = {
@@ -39,13 +39,13 @@
 	}
 	surnames = {
 		"Muller"
-		"슈미트"
-		"슈나이더"
+		"Schmidt"
+		"Schneider"
 		"Fischer"
-		"마이어"
-		"베버"
+		"Meyer"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -131,27 +131,27 @@ LIB = {
 			"Benton"
 			"Caesar"
 			"Cathay"
-			"찰스"
-			"콜린"
+			"Charles"
+			"Colin"
 			"Ebenezer"
 			"Edgar"
-			"에드워드"
+			"Edward"
 			"Frederick"
-			"조지"
-			"헨리"
-			"제임스"
+			"George"
+			"Henry"
+			"James"
 			"Joseph"
 			"Lewis"
-			"로이드"
+			"Lloyd"
 			"Matin"
-			"마이클"
+			"Michael"
 			"Milton"
 			"Osborne"
 			"Robert"
 			"Samuel"
 			"Stewart"
 			"Thomas"
-			"윌리엄"
+			"William"
 			"Wilson"
 		}
 	}
@@ -293,6 +293,49 @@ SAF = {
 	callsigns = {}
 }
 
+SFR = {
+	male = {
+		names = {
+			"Sarel"
+			"Rudolf"
+			"Andries"
+			"Hendrik"
+			"Piet"
+			"Racheltjie"
+			"Dirkie"
+			"Siener"
+			"Koos"
+			"Danie"
+			"Christiaan"
+			"Louis"
+			"Petrus"
+			"Paul"
+			"Eugene"
+			"Joubert"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Cilliers"
+		"Botha"
+		"Joubert"
+		"Kruger"
+		"Duquesne"
+		"Potgieter"
+		"van Rensburg"
+		"de la Rey"
+		"Theron"
+		"de Wet"
+		"Pretorius"
+		"Retief"
+		"de Beer"
+		"Uys"
+	}
+	callsigns = {}
+}
+
 ANG = {
 	male = {
 		names = {
@@ -365,7 +408,6 @@ ANG = {
 			"Vicente"
 			"Vitorino"
 			"Vitório"
-
 		}
 	}
 	female = {
@@ -529,7 +571,6 @@ MOZ = {
 			"Vicente"
 			"Vitorino"
 			"Vitório"
-
 		}
 	}
 	female = {
@@ -691,7 +732,6 @@ CVG = {
 			"Vicente"
 			"Vitorino"
 			"Vitório"
-
 		}
 	}
 	female = {
@@ -848,7 +888,6 @@ ALG = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {
 		"Ibadi"
@@ -856,7 +895,7 @@ ALG = {
 	}
 }
 
-LYB = {
+"LBA" = {
 	male = {
 		names = {
 			"Abd Allah"
@@ -924,7 +963,6 @@ LYB = {
 		"al-Tarablus"
 		"al-Ghadames"
 		"al-Tobruk"
-
 	}
 	callsigns = {
 		"Senoussi"
@@ -1074,7 +1112,6 @@ MOR = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {
 		"Almohad"
@@ -1150,7 +1187,6 @@ WAD = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {
 		"Mahdi"
@@ -1224,7 +1260,6 @@ SUD = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {
 		"Mahdi"
@@ -1298,7 +1333,6 @@ TUN = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {
 		"Cartaghe"
@@ -1393,8 +1427,8 @@ MAL = {
 		}
 	}
 	surnames = {
-		"케이타"
-		"트라오레"
+		"Keita"
+		"Traoré"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -1483,8 +1517,8 @@ NER = {
 		}
 	}
 	surnames = {
-		"케이타"
-		"트라오레"
+		"Keita"
+		"Traoré"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -1554,8 +1588,8 @@ MRT = {
 		}
 	}
 	surnames = {
-		"케이타"
-		"트라오레"
+		"Keita"
+		"Traoré"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -1571,7 +1605,7 @@ MRT = {
 	}
 }
 
-BLR = {
+KBR = {
 	male = {
 		names = {
 			"Dunama"
@@ -1642,26 +1676,26 @@ BLR = {
 	}
 }
 
-KAZ = {
+KIV = {
 	male = {
 		names = {
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 			"Louis"
 			"Henri"
@@ -1713,7 +1747,7 @@ KAZ = {
 	}
 }
 
-PAK = {
+ZZB = {
 	male = {
 		names = {
 			"Abd Allah"
@@ -1793,7 +1827,6 @@ PAK = {
 		"ibn Yusuf"
 		"al-Najdi"
 		"al-Hijazi"
-
 	}
 	callsigns = {}
 }
@@ -1901,7 +1934,6 @@ SOM = {
 		"Leta"
 		"Lemn"
 		"Teka"
-
 	}
 	callsigns = {}
 }
@@ -1971,7 +2003,6 @@ HAU = {
 		"Bandele"
 		"Kanu"
 		"Kuti"
-
 	}
 	callsigns = {
 		"Zazzau"
@@ -2089,7 +2120,6 @@ BOT = {
 		"Batsapong"
 		"Bakgalakgadi"
 		"Bakalaka"
-
 	}
 	callsigns = {}
 }
@@ -2365,7 +2395,7 @@ TUA = {
 	callsigns = {}
 }
 
-MNT = {
+KIK = {
 	male = {
 		names = {
 			"Gacoki"
@@ -2650,9 +2680,9 @@ MZB = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -2695,14 +2725,14 @@ TOG = {
 			"Silvio"
 			"José"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Charles"
 			"Wilhelm"
 			"Carlos"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Pedro"
 			"Adika"
@@ -2717,10 +2747,10 @@ TOG = {
 			"Coblah"
 			"Atsu"
 			"Ametefe"
-			"아돌프"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -2739,7 +2769,7 @@ TOG = {
 		"Schneider"
 		"Rocha"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
 		"Oliveira"
 		"Hartmann"
@@ -2916,7 +2946,7 @@ COG = {
 	}
 }
 
-AZR = {
+TKE = {
 	male = {
 		names = {
 			"Ntinu"
@@ -2971,25 +3001,25 @@ CNR = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Joachim"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -3008,9 +3038,9 @@ CNR = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -3172,25 +3202,25 @@ CIV = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Joachim"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -3209,9 +3239,9 @@ CIV = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -3268,25 +3298,25 @@ BRD = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Joachim"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -3301,9 +3331,9 @@ BRD = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -3481,25 +3511,25 @@ KAM = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Joachim"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -3518,9 +3548,9 @@ KAM = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -3562,25 +3592,25 @@ TNZ = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Theodor"
-			"한스"
+			"Hans"
 			"Anton"
 			"Joachim"
 			"Max"
 			"Emil"
 			"Peter"
 			"Fritz"
-			"오토"
-			"아돌프"
+			"Otto"
+			"Adolf"
 			"Tobias"
 			"Staffan"
-			"마르코"
+			"Marco"
 			"Karl"
 		}
 	}
@@ -3599,9 +3629,9 @@ TNZ = {
 		"Schneider"
 		"Fischer"
 		"Meyer"
-		"베버"
+		"Weber"
 		"Schulz"
-		"바그너"
+		"Wagner"
 		"Hartmann"
 		"Rall"
 		"Barkhorn"
@@ -3785,8 +3815,8 @@ BFA = {
 		}
 	}
 	surnames = {
-		"케이타"
-		"트라오레"
+		"Keita"
+		"Traoré"
 		"Konare"
 		"Deo"
 		"Moussa"
@@ -3810,7 +3840,7 @@ BFA = {
 	}
 }
 
-VIN = {
+NBL = {
 	male = {
 		names = {
 			"Maximilian"
@@ -3818,12 +3848,12 @@ VIN = {
 			"Erich"
 			"Gerhard"
 			"Gunther"
-			"오토"
+			"Otto"
 			"Walter"
 			"Wilhelm"
-			"하인츠"
+			"Heinz"
 			"Hermann"
-			"하인리히"
+			"Heinrich"
 			"Samuel"
 		}
 	}
@@ -3851,11 +3881,8 @@ VIN = {
 		"Hakawona"
 		"vaKuvale"
 		"vaZemba"
-
-
 	}
-	callsigns = {
-	}
+	callsigns = {}
 }
 GNE = {
 	male = {
@@ -3922,8 +3949,8 @@ GNE = {
 		}
 	}
 	surnames = {
-		"케이타"
-		"트라오레"
+		"Keita"
+		"Traoré"
 		"Konare"
 		"Deo"
 		"Moussa"

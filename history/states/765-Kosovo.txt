@@ -6,16 +6,17 @@ state = {
 	state_category = town
 
 	history = {
-		owner = ALB
+		owner = SER
 
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
 		}
 
 		add_core_of = SER
-		add_core_of = YUG
 		add_core_of = ALB
+		victory_points = {
+			9874 3
+		}
 	}
 
 	provinces = {

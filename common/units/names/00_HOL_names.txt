@@ -54,14 +54,7 @@
 			"Torpedobootjager"
 		}
 		unique = {
-			"Piet Hein"
 			"Eversten"
-			"Van Ghent"
-			"Kortenaer"
-			"Van Galen"
-			"Witte de With"
-			"Banckert"
-			"Van Nes"
 			"Gerard Callenburgh"
 			"Isaac Sweers"
 			"Tjerk Hiddes"
@@ -73,13 +66,9 @@
 			"Noord-Brabant"
 			"Gelderland"
 			"Friesland"
-			"Groningen"
 			"Limburg"
 			"Overijssel"
 			"Drenthe"
-			"Utrecht"
-			"Rotterdam"
-			"Amsterdam"
 			"Wolf"
 			"Fret"
 			"Bulhond"
@@ -96,20 +85,10 @@
 			"Lichte Kruiser"
 		}
 		unique = {
-			"Java"
-			"Sumatra"
-			"De Ruyter"
 			"Tromp"
 			"Jacob van Heemskerck"
 			"De Zeven Provinciën"
 			"Kijkduin"
-			"Gelderland"
-			"Zeeland"
-			"Friesland"
-			"Gelderland"
-			"Noord-Brabant"
-			"Utrecht"
-			"Drenthe"
 			"Brabant"
 			"Limburg"
 		}
@@ -120,10 +99,6 @@
 			"Zware Kruiser"
 		}
 		unique = {
-			"Hertog Hendrik"
-			"Jacob van Heemskerck"
-			"Soerabaja"
-			"Celebes"
 			"Batjan"
 			"Ceram"
 			"Ambon"
@@ -131,33 +106,24 @@
 			"Ternate"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "HrMs"
 		generic = {
 			"Slagkruiser"
 		}
 		unique = {
 			"Van Speijk"
-			"Witte de With"
-			"Piet Hein"
-			"Kortenaer"
 			"Koningin Regentes"
 			"Hertog Hendrik"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "HrMs"
 		generic = {
 			"Slagschip"
 		}
 		unique = {
 			"Reinier Claeszen"
-			"Evertsen"
-			"Piet Hein"
-			"Kortenaer"
-			"Koningin Regentes"
-			"Hertog Hendrik"
-			"Van Speijk"
 			"Witte de With"
 		}
 	}
@@ -167,7 +133,6 @@
 			"Vliegdekschip"
 		}
 		unique = {
-			"Gouden Leeuw"
 			"Gouden Draak"
 			"Gouden Tijger"
 			"Onoverwinnelijk"

@@ -1,203 +1,145 @@
 ﻿capital = 316
-oob = "empty"
+OOB = "COS"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	### AIR ###
 }
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
 set_research_slots = 2
+set_war_support = 0
+add_political_power = 10
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 10
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 15
-		}
-		social_democrat = {
-			popularity = 47
-		}
-		social_liberal = {
-			popularity = 11
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
 			popularity = 5
 		}
+		radical_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 21
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 53
+		}
 		authoritarian_democrat = {
-			popularity = 2
+			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 0
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = social_democrat
-	last_election = "1888.15.6"
+	ruling_party = social_conservative
+	last_election = "1932.02.02"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+country_event = {
+	id = cos.1
+	days = 2
+}
+country_event = {
+	id = cafla.18 days = 258
+}
+
+add_ideas = {
+	disarmed_nation
+	free_trade
+	CEN_monroe_doctrine
+	COS_beacon_democracy
+	COS_labour_conflicts
+	COS_Leon_Cortes_Castro_hog_sco
+	COS_Juan_Rafael_Arias_Borilla_for_sco
+	COS_Julio_Acosta_Garcia_eco_sco
+	COS_Edgar_Cardona_sec_sco
 }
 
 create_country_leader = {
-	name = "마누엘 모라"
-	picture = "Portrait_COS_Manuel_Mora.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마누엘 모라"
-	picture = "Portrait_COS_Manuel_Mora.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마누엘 모라"
-	picture = "Portrait_COS_Manuel_Mora.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "다니엘 오두베르 키로스"
-	picture = "Portrait_COS_Daniel_Oduber_Quiros.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "다니엘 오두베르 키로스"
-	picture = "Portrait_COS_Daniel_Oduber_Quiros.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 호아킨 트레호스 페르난데스"
-	picture = "Portrait_COS_Jose_Joaquin_Trejos_Fernandez.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 호아킨 트레호스 페르난데스"
-	picture = "Portrait_COS_Jose_Joaquin_Trejos_Fernandez.tga"
-	expire = "2000.1.1"
+	name = "Ricardo Jiménez Oreamuno"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "Portrait_COS_Ricardo_Oreamuno.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "호르헤 곤살레스 마르텐"
-	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
+	name = "Manuel Mora Valverde"
+	desc = "POLITICS_MORA_VALVERDE_DESC"
+	picture = "Portrait_COS_Manuel_Mora_Valverde.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
 	traits = {}
 }
-
-create_country_leader = {
-	name = "호르헤 곤살레스 마르텐"
-	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호르헤 곤살레스 마르텐"
-	picture = "Portrait_COS_Jorge_Gonzalez_Marten.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-
 
 ### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Tinoco"
-	portrait_path = "gfx/leaders/COS/Portrait_COS_Tinoco.tga"
+create_corps_commander = {
+	name = "Fernando Figuls Quiros"
+	desc = "ARMY_COS_FERNANDO_FIGULS_QUIROS_DESC"
+	portrait_path = "gfx/leaders/COS/Portrait_COS_Fernando_Figuls_Quiros.tga"
 	traits = {
 		career_officer
 	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 }
 
 ### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Vaqueza Cortes"
-	portrait_path = "gfx/leaders/COS/Portrait_COS_Vaqueza_Cortes.tga"
-	traits = {
-		seawolf
-	}
-	skill = 2
-}

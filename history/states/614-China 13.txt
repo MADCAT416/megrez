@@ -4,16 +4,18 @@ state = { # Jidong
 	manpower = 2964470
 	state_category = town
 	history = {
-		owner = SQI
-
-		add_core_of = SQI
+		owner = QIE
 		add_core_of = QIE
+		add_core_of = FNG
+		add_core_of = SQI
 		buildings = {
 			infrastructure = 3
 		}
-
+		victory_points = {
+			11886 3
+		}
 	}
 	provinces = {
-		900 1052 6969 11822 12043
+		900 1052 3830 3900 6969 9905 11822 11886 12043
 	}
 }

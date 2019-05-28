@@ -8,7 +8,6 @@ state = {
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			radar_station = 2
 		}
 	}
 
@@ -17,6 +16,5 @@ state = {
 	}
 
 	manpower = 135922
-	buildings_max_level_factor = 1
 	state_category = "pastoral"
 }

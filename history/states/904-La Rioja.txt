@@ -5,9 +5,13 @@ state = {
 	history = {
 		owner = ARG
 		add_core_of = ARG
-		
+		add_claim_by = FOP
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
+		}
+		victory_points = {
+			10964 3
 		}
 	}
 
@@ -15,6 +19,5 @@ state = {
 		2158 2136 2179 10964 11022 12928 13237 13238 13500 13501 13503
 	}
 	manpower = 296500
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

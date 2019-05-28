@@ -6,23 +6,25 @@ state = {
 	}
 
 	history = {
-		owner = GER
+		owner = AUS
 		buildings = {
 			infrastructure = 6
-
+			6675 = {
+				bunker = 1
+			}
+			656 = {
+				bunker = 1
+			}
 		}
 		add_core_of = AUS
-		add_core_of = GER
-		add_claim_by = PAP
-		add_claim_by = ITA
-		add_claim_by = SRI
-
+		victory_points = {
+			6675 2
+		}
 	}
 
 	provinces = {
-		656 671 6675 9630 11615
+		656 6675 9630 11615
 	}
-	manpower = 401988
-	buildings_max_level_factor = 1
+	manpower = 462243
 	state_category = town
 }

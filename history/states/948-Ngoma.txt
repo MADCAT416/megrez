@@ -5,13 +5,10 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = CNR
 		buildings = {
 			infrastructure = 2
-
 		}
 		victory_points = {
 			13641 5
@@ -21,5 +18,4 @@ state = {
 	provinces = {
 		13641
 		}	manpower = 210100
-	buildings_max_level_factor = 1
 }

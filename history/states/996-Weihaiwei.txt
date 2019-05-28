@@ -6,7 +6,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = SQI
+		owner = GEA
 		buildings = {
 			dockyard = 2
 			infrastructure = 4
@@ -20,10 +20,9 @@ state = {
 			13670 2 # Weihaiwei
 		}
 		add_core_of = GEA
-		
-		add_core_of = SQI
 		add_core_of = QIE
-		
+		add_core_of = SQI
+		add_core_of = FNG
 	}
 
 	provinces = {

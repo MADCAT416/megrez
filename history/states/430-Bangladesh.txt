@@ -7,10 +7,9 @@ state = {
 
 	history = {
 		owner = BHC
-		add_core_of = PRF
-		add_core_of = DEH
-		add_core_of = RAJ
 		add_core_of = BHC
+		add_claim_by = PRF
+		add_claim_by = DEH
 		victory_points = { 11929 3 } #Dacca
 		victory_points = { 9991 1 } #Chittagong
 		buildings = {
@@ -19,7 +18,6 @@ state = {
 			arms_factory = 2
 			11968 = {
 				naval_base = 3
-
 			}
 		}
 	}

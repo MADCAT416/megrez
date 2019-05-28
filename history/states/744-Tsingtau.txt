@@ -6,14 +6,11 @@ state = {
 	state_category = city
 
 	history = {
-		owner = SQI
-		
-		
-		add_core_of = SQI
-		add_core_of = QIE
+		owner = AOG
 		add_core_of = AOG
-
-		
+		add_core_of = QIE
+		add_core_of = SQI
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 4
 			13669 = {

@@ -6,18 +6,22 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = MAN
-		add_core_of = MAN
-		
-		add_core_of = MON
-		add_core_of = SQI
+		owner = FNG
+		add_core_of = FNG
 		add_core_of = QIE
-		
+		add_core_of = SQI
+		add_core_of = FNG
 
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-		
+
+			9768 = {
+				bunker = 1
+			}
+			881 = {
+				bunker = 1
+			}
 			11801 = {
 				bunker = 1
 			}
@@ -43,6 +47,6 @@ state = {
 	}
 
 	provinces = {
-		814 934 972 1508 3814 3828 3881 3934 3978 4514 6837 6852 6898 6937 6988 7575 7633 9873 10331 10426 10429 10499 11801 11855 12469 12478
+		814 881 934 972 1508 3814 3828 3881 3934 3978 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 10331 10426 10429 10499 11801 11855 12469 12478
 	}
 }

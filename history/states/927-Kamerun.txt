@@ -3,10 +3,8 @@ state = {
 	name = "STATE_927"
 
 	history = {
-		owner = CEA
-		add_core_of = CEA
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = KAM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,6 +28,5 @@ state = {
 	}
 
 	manpower = 2575330
-	buildings_max_level_factor = 1
 	state_category = hyvin
 }

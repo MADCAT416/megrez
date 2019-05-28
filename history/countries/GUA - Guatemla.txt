@@ -1,67 +1,55 @@
 ﻿capital = 313
-oob = "empty"
-set_research_slots = 3
+OOB = "GUA"
+set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
-	
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
 }
 
+set_country_flag = soc_dems_are_socialists
 
-set_stability = 0.58
-set_war_support = 0.71
+### Navy - MtG ###
 
-add_opinion_modifier = { target = NIC modifier = embargo }
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1 
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+set_stability = 0.47
+set_war_support = 0.35
 
 set_politics = {
 
@@ -72,7 +60,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 3
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 15
 		}
 		social_democrat = {
@@ -108,136 +96,134 @@ set_convoys = 20
 
 add_ideas = {
 	#medium_economy
+	CEN_monroe_doctrine
+	GUA_socialist_compensation
+	GUA_united_fruit_start_clone
+	limited_conscription
+	GUA_illiteracy
 
-	GUA_Augusto_Cesar_Sandino_hog_rso
-	GUA_Froylan_Turcios_for_rso
-	GUA_Juan_Arevalo_Bermejo_eco_rso
-	GUA_Yank_Levy_sec_rso
+	GUA_Jorge_Ubico_hog_pau
+	GUA_Jose_Maria_Reina_for_ade
+	GUA_R_Felipe_Solares_eco_ade
+	GUA_Manuel_Maria_Orellana_Contreras_sec_ade
 }
 
 create_country_leader = {
-	name = "호세 마누엘 포르투니"
-	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 마누엘 포르투니"
-	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 마누엘 포르투니"
-	picture = "Portrait_GUA_Jose_Manuel_Fortuny.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "리카르도 페랄타 멘데스"
-	picture = "Portrait_GUA_Ricardo_Peralta_Mendez.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "리카르도 페랄타 멘데스"
-	picture = "Portrait_GUA_Ricardo_Peralta_Mendez.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마리오 푸엔테스 피에룩시니"
-	picture = "Portrait_GUA_mario_fuentes_pieruccini.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마리오 푸엔테스 피에룩시니"
-	picture = "Portrait_GUA_mario_fuentes_pieruccini.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "에프라인 리오스 몬트"
-	picture = "Portrait_GUA_Efrain_Rios_Montt.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "에프라인 리오스 몬트"
-	picture = "Portrait_GUA_Efrain_Rios_Montt.tga"
-	expire = "2000.1.1"
+	name = "Jorge Ubico Castañeda"
+	desc = "POLITICS_JORGE_UBICO_CASTANEDA_DESC"
+	picture = "Portrait_NIC_Jorge_Ubico_Casteneda.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "카를로스 마누엘 아라나 오소리오"
-	picture = "Portrait_GUA_Carlos_Manuel_Arana_Osorio.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "José María Orellana"
+	desc = "POLITICS_JOSE_MARIA_ORELLANA_DESC"
+	picture = "Portrait_NIC_Jose_Maria_Orellana.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Lázaro Chacón González"
+	desc = "POLITICS_LAZARO_CHACON_GONZALEZ_DESC"
+	picture = "Portrait_NIC_Lazaro_Chacon_Gonzalez.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Juan José Arévalo Bermejo"
+	desc = "POLITICS_JUAN_JOSE_AREVALO_BERMEJO_DESC"
+	picture = "Portrait_NIC_Juan_Jose_Arevalo_Bermejo.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Silverio Ortiz"
+	desc = "POLITICS_SILVERIO_ORTIZ_DESC"
+	picture = "Portrait_GUA_Silverio_Oritz.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 ### Field Marshal
 create_field_marshal = {
-	name = "Augusto César Sandino"
-	picture = "Portrait_GUA_Sandino.tga"
+	name = "Jorge Ubico Castañeda"
+	desc = "ARMY_GUA_JORGE_UBICO_CASTANEDA_DESC"
+	picture = "Portrait_NIC_Jorge_Ubico_Casteneda.tga"
+	id = 6969
 	traits = {
-		inspirational_leader
-		guerilla_fighter
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 4
-}
-
-### Corps Commander
-create_corps_commander = {
-	name = "Jacobo Árbenz"
-	picture = "Portrait_GUA_Arbenz.tga"
-	traits = {
-		skilled_staffer
-		infantry_leader
+		organisational_leader
+		commando
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 2
+	attack_skill = 4
+	defense_skill = 1
 	planning_skill = 3
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Yank Levy"
-	picture = "Portrait_GUA_Yank_Levy.tga"
+
+create_field_marshal = {
+	name = "Lázaro Chacón González"
+	desc = "ARMY_LAZARO_CHACON_GONZALEZ_DESC"
+	picture = "Portrait_NIC_Lazaro_Chacon_Gonzalez.tga"
+	id = 6968
 	traits = {
-		guerilla_fighter
-		commando
-		camouflage_expert
+		career_officer
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
+
+create_field_marshal = {
+	name = "José María Orellana"
+	desc = "ARMY_JOSE_MARIA_ORELLANA_DESC"
+	picture = "Portrait_NIC_Jose_Maria_Orellana.tga"
+	id = 6967
+	traits = {
+		old_guard
+		politically_connected
+		infantry_officer
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+### Corps Commander
+
+create_corps_commander = {
+	name = "Jacobo Árbenz"
+	desc = "ARMY_JACOBO_ARBENZ_DESC"
+	picture = "Portrait_GUA_Arbenz.tga"
+		id = 6970
+	traits = {
+		infantry_officer
+		career_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+
+
+
 
 ### Navy Leader

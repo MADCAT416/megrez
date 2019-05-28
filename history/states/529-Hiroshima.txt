@@ -1,7 +1,7 @@
 state = {
 	id = 529
 	name = "STATE_529" # Chugoku
-	manpower = 6946707
+	manpower = 5341000
 	state_category = large_city
 
 	history = {
@@ -14,13 +14,12 @@ state = {
 			arms_factory = 1
 			industrial_complex = 2
 			1092 = {
-				naval_base = 10
-
+				naval_base = 10 # Hiroshima City Proper
 			}
 		}
 
 		victory_points = {
-			1092 30
+			1092 20 # Hiroshima City Proper
 		}
 	}
 

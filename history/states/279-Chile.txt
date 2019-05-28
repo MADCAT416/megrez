@@ -15,25 +15,23 @@ state = {
 			air_base = 3
 			8222 = {
 				naval_base = 5
-
 			}
 			650 = {
 				bunker = 1
-
 			}
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 30
+			650 25
 		}
 		victory_points = {
-			13499 15
+			13499 10
 		}
 		victory_points = {
 			8229 1
 		}
 		victory_points = {
-			12984 5
+			12984 3
 		}
 	}
 
@@ -41,6 +39,5 @@ state = {
 		650 5191 8222 8229 8251 12984 13235 13499
 	}
 	manpower = 3146806
-	buildings_max_level_factor = 1
 	state_category = city
 }

@@ -3,15 +3,11 @@ state = {
 	name = "STATE_774"
 
 	history = {
-		owner = SQI
-		
+		owner = XSM
+		add_core_of = XSM
 		add_core_of = SQI
 		add_core_of = QIE
-		
-		victory_points = {
-			12820 5
-		}
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,6 +18,5 @@ state = {
 		1778 2028 5076 5100 7971 12327 12596 12776 12820
 	}
 	manpower = 1687577
-	buildings_max_level_factor = 1
 	state_category = town
 }

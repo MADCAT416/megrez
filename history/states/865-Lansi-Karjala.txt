@@ -1,20 +1,19 @@
 state = {
 	id = 865
-	name = "STATE_865"
+	name = "STATE_865" # Länsi-Karjala
 	manpower = 251902
 
 	state_category = rural
 
 	history = {
 		owner = FIN
-		add_core_of = FIN
-		add_claim_by = RUS
 		buildings = {
 			infrastructure = 4
-			air_base = 5
-			anti_air_building = 2
 		}
 		add_core_of = FIN
+		victory_points = {
+			6082 1
+		}
 	}
 
 	provinces = {

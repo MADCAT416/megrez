@@ -1,215 +1,182 @@
 ﻿capital = 110
 
-oob = "NOR"
+OOB = "NOR"
+set_naval_oob = "NOR_naval"
 
 add_ideas = {
-
+	NOR_divided_airforce_idea
+	NOR_weak_economy_1
 }
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	### Naval ###
+	nav_infra_one = 1
+	nav_infra_two = 1
 }
 
-set_stability = 0.5
-set_war_support = 0.2
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
+
+country_event = { id = norway.1 days = 1 }
 
 set_research_slots = 3
 set_convoys = 500 # Biggest Merchant Marines in the World - copied from Vanilla
+
+set_war_support = 0.10
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 9.6
 		}
 		syndicalist = {
-			popularity = 1
+			popularity = 5
 		}
-		democratic_socialist = {
-			popularity = 2
+		radical_socialist = {
+			popularity = 27.4
 		}
 		social_democrat = {
-			popularity = 40
+			popularity = 8
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 9
 		}
 		market_liberal = {
-			popularity = 10
+			popularity = 13
 		}
 		social_conservative = {
-			popularity = 20
+			popularity = 11
 		}
 		authoritarian_democrat = {
 			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 6.1
 		}
 		national_populist = {
-			popularity = 2
+			popularity = 1.9
 		}
 	}
 
-	ruling_party = social_democrat
+	ruling_party = market_liberal
 	last_election = "1933.10.16"
 	election_frequency = 36
-	elections_allowed = no
-
+	elections_allowed = yes
 }
-
-add_ideas = {
-	#medium_economy
-	limited_conscription
-}
-
 add_ideas = {
 	#medium_economy
 	NOR_Johan_Ludwig_Mowinckel_hog_sli
 	NOR_Jacob_Worm_Mueller_for_sli
 	NOR_Nicolai_Rygg_eco_sco
 	NOR_Arne_Sunde_sec_sli
-	#low_popularity
+	limited_conscription
 }
 
 create_country_leader = {
-	name = "레이다르 토랄프 라르센"
-	desc = "Reidar_Thoralf_Larsen_DESC"
-	picture = "Portrait_Norway_Reidar_Thoralf_Larsen.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "올레 안드레아스 코프레이탄"
-	desc = "Ole_Kopreitan_DESC"
-	picture = "Portrait_Norway_Ole_Kopreitan.tga"
-	expire = "2000.1.1"
+	name = "Martin Tranmæl"
+	desc = "POLITICS_Martin_Tranmel_DESC"
+	picture = "Portrait_Norway_Martin_Tranmel.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "토롤프 솔헤임"
-	desc = "Torolv_Solheim_DESC"
-	picture = "Portrait_Norway_Torolv_Solheim.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "Portrait_Norway_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "올라프 5세"
-	desc = "Olav_V_DESC"
-	picture = "Portrait_Norway_Olav_V.tga"
-	expire = "2000.1.1"
+	name = "Vidkun Quisling"
+	desc = "POLITICS_Vidkun_Quisling_DESC"
+	picture = "Portrait_Norway_Vidkun_Quisling_KR.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {beloved_monarch}
-}
-
-create_country_leader = {
-	name = "에길 홀스트 토르킬센"
-	desc = "Egil_Holst_Torkildsen_DESC"
-	picture = "Portrait_Norway_Egil_Holst_Torkildsen.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
 	traits = {}
 }
 
@@ -224,9 +191,9 @@ create_field_marshal = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 ### Corps Commander
@@ -240,7 +207,7 @@ create_corps_commander = {
 	}
 	skill = 4
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
 }
@@ -254,9 +221,9 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -283,7 +250,7 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -297,8 +264,8 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
+	defense_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -312,8 +279,8 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -327,9 +294,9 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -342,7 +309,7 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -358,7 +325,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 #create_corps_commander = {
@@ -395,10 +362,10 @@ create_corps_commander = {
 		old_guard
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -410,7 +377,7 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -428,15 +395,139 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Henry Diesen"
 	picture = "Portrait_Norway_Henry_Diesen.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 }
 
 create_navy_leader = {
 	name = "Edgar Otto"
 	picture = "Portrait_Norway_Edgar_Otto.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+}
+
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Harald Haarfagre Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+}
+
+create_equipment_variant = {
+	name = "Norge Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+}
+
+create_equipment_variant = {
+	name = "Bjørgvin Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+}
+
+create_equipment_variant = {
+	name = "Trygg Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Draug Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Olav Tryggvason Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "A Class"
+	type = ship_hull_submarine_1
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "B Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+}
+
+set_country_flag = nassau_class_ship_variant
+create_equipment_variant = {
+	name = "Nassau Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
 }

@@ -8,8 +8,6 @@ state = {
 	state_category = town
 	history = {
 		owner = BAT
-		add_claim_by = RUS
-		add_core_of = EST
 		victory_points = {
 			3152 10
 		}
@@ -19,7 +17,6 @@ state = {
 			industrial_complex = 2
 			dockyard = 1
 			air_base = 2
-			anti_air_building = 1
 			3152 = {
 				naval_base = 3
 			}
@@ -28,6 +25,6 @@ state = {
 	}
 
 	provinces = {
-		83 308 496 567 3074 3152 3174 6381 9079 11127 11291 11426
+		83 185 308 496 567 3074 3152 3174 6201 6381 9079 11127 11291 11426
 	}
 }

@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = MLY
+		owner = GEA
 		add_core_of = MLY
 		add_core_of = GEA
 		victory_points = {
@@ -26,7 +26,6 @@ state = {
 			industrial_complex = 2
 			10297 = {
 				naval_base = 5 # Kuala Lumpur
-
 			}
 			7427 = {
 				naval_base = 2 # Malacca

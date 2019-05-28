@@ -6,12 +6,11 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = PKS
-		add_core_of = PKS
-		add_core_of = PRF
+		owner = AFG
+		add_core_of = AFG
 		add_core_of = DEH
-		add_core_of = RAJ
-		add_core_of = BHC
+		add_claim_by = BHC
+		add_claim_by = PRF
 		victory_points = { 12763 1 } #Peshawar
 		buildings = {
 			industrial_complex = 1

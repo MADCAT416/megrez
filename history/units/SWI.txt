@@ -1,5 +1,60 @@
 ﻿division_template = {
-	name = "보병사단"
+	name = "Infanteriedivision"
+	division_names_group = SWI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gebirgsdivision"
+	division_names_group = SWI_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Infanteriedivision mit Artillerie"
+	division_names_group = SWI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	support = {
+
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Grenzbrigade"
+	division_names_group = SWI_GAR_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -9,130 +64,136 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
+	priority = 0
 }
-
-division_template = {
-	name = "기계화보병사단"
-
-	regiments = {
-		mechanized  = { x = 0 y = 0 }
-		mechanized  = { x = 0 y = 1 }
-		mechanized  = { x = 1 y = 0 }
-		mechanized  = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		artillery_brigade = { x = 1 y = 1 }
-		artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "산악사단"
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
-}
-
 units = {
-
 	division = {
-		name = "제1기계화보병사단"
+		name = "3. Divisione di Fanteria"
 		location = 9620
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Infanteriedivision mit Artillerie"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
 	}
-
 	division = {
-		name = "제2기계화보병사단"
+		name = "4. Division"
+		location = 9620
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2. Division de Montagne"
+		location = 9620
+		division_template = "Gebirgsdivision"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "5. Division d'Infanterie"
+		location = 11590
+		division_template = "Infanteriedivision mit Artillerie"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "6. Divisione di Fanteria"
+		location = 11590
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3. Divisione di Montagna"
+		location = 11590
+		division_template = "Gebirgsdivision"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Division"
 		location = 663
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Infanteriedivision mit Artillerie"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
 	}
-	
 	division = {
-		name = "제1산악사단"
+		name = "9. Grenzbrigade Annecy"
+		location = 778
+		division_template = "Grenzbrigade"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "7. Division d'Infanterie"
+		location = 663
+		division_template = "Infanteriedivision mit Artillerie"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2. Division d'Infanterie"
 		location = 658
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Infanteriedivision mit Artillerie"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.9
 	}
-
 	division = {
-		name = "제2산악사단"
-		location = 3660
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "1. Gebirgsdivision"
+		location = 658
+		division_template = "Gebirgsdivision"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.8
 	}
+}
 
-	division = {
-		name = "제3산악사단"
-		location = 636
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 2
+		progress = 0.32
+		efficiency = 100
 	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}
 
-	division = {
-		name = "제4산악사단"
-		location = 3612
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+air_wings = {
+	3 = {
+		tac_bomber_equipment_0 = {
+			owner = "SWI"
+			amount = 25
+		}
+		fighter_equipment_0 = {
+			owner = "SWI"
+			amount = 20
+		}
 	}
-
-	division = {
-		name = "제5산악사단"
-		location = 6666
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제6산악사단"
-		location = 6683
-		division_template = "산악사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	}
+}

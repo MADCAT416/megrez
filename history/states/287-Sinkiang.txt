@@ -1,28 +1,25 @@
 state = {
 	id = 287
 	name = "STATE_287" # Taklamakan
-	manpower = 239000
+	manpower = 454000
 
 	state_category = wasteland
 
 	history = {
-		owner = SIK
-		
-		add_claim_by = SQI
+		owner = XSM
 		add_core_of = QIE
-		add_core_of = SIK
-		
-		victory_points = {
-			5736 1
-		}
-		
+		add_core_of = SQI
+		add_core_of = XSM
+		add_core_of = FNG
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
+		}
+		victory_points = {
+			4973 2
 		}
 	}
 
 	provinces = {
-		4947 8042 8086 10885 12864 5736 5016 7790 7949 4682 7702 7792 
+		1698 1943 2074 4947 4973 5042 5736 10315 10911 13732
 	}
 }

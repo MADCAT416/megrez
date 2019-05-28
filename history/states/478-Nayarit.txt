@@ -10,11 +10,10 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		add_core_of = MEX
 		victory_points = {
-			13089 1
+			13089 5
 		}
 	}
 
@@ -22,6 +21,5 @@ state = {
 		2051 5052 10172 12746 12873 13089 13459 13461 13463 13467
 	}
 	manpower = 2470875
-	buildings_max_level_factor = 1
 	state_category = town
 }

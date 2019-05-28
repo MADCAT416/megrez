@@ -1,6 +1,7 @@
 ﻿capital = 114
 
-oob = "empty"
+oob = "SRD"
+set_naval_oob = "SRD_naval"
 
 set_research_slots = 3
 
@@ -11,63 +12,94 @@ add_ideas = {
 
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+}
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
 }
 
 set_convoys = 100
 set_stability = 0.55
-set_war_support = 0.55
+set_war_support = 0.35
 
 set_politics = {
 
@@ -78,7 +110,7 @@ set_politics = {
 		syndicalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 		}
 		social_democrat = {
@@ -109,48 +141,64 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = { warrior_prince }
 }
 create_country_leader = {# King Amadeo I
-	name = "움베르토 2세"
-	picture = "Portrait_SRD_Umberto_II.tga"
-	expire = "2000.1.1"
+	name = "Amadeo I"
+	picture = "Portrait_SRD_King_Amedeo.tga"
+	desc = "POLITICS_AMADEO_SAVOY_DESC"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
+	traits = { warrior_prince }
 }
+
 add_ideas = {
 	#medium_economy
 	SRD_Giorgio_Bardanzellu_hog_ade
@@ -171,8 +219,8 @@ create_field_marshal = {# Amadeo di Savoia-Aosta
 	skill = 3
 	attack_skill = 4
 	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_field_marshal = {# Giuseppe Valle
 	name = "Giuseppe Valle"
@@ -184,7 +232,7 @@ create_field_marshal = {# Giuseppe Valle
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 ### Corps Commander
@@ -198,10 +246,10 @@ create_corps_commander = {# Annibale Bergonzoli
 		trait_engineer
 	}
 	skill = 4
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {# Vittorio Emanuele di Savoia-Aosta
 	name = "Vittorio Emanuele di Savoia-Aosta"
@@ -212,13 +260,13 @@ create_corps_commander = {# Vittorio Emanuele di Savoia-Aosta
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
 create_corps_commander = {# Cesare Maria De Vecchi
 	name = "Cesare Maria De Vecchi"
-	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Vecchi.tga"
+	portrait_path = "gfx/leaders/SRI/Portrait_SRI_de_Vecchi.tga"
 	traits = {
 		trait_cautious
 		career_officer
@@ -228,7 +276,7 @@ create_corps_commander = {# Cesare Maria De Vecchi
 	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 create_corps_commander = {# Filiberto Duca di Pistoia
 	name = "Filiberto Duca di Pistoia"
@@ -239,8 +287,8 @@ create_corps_commander = {# Filiberto Duca di Pistoia
 		panzer_leader
 	}
 	skill = 2
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -254,10 +302,10 @@ create_corps_commander = {# Amadeo Guillet
 		guerilla_fighter
 	}
 	skill = 4
-	attack_skill = 5
+	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {# Giuseppe Cordero Lanza di Montezemolo
 	name = "Giuseppe Cordero Lanza di Montezemolo"
@@ -270,14 +318,109 @@ create_corps_commander = {# Giuseppe Cordero Lanza di Montezemolo
 	skill = 2
 	attack_skill = 3
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 ##Admirals
 create_navy_leader = {# Aimone di Savoia-Aosta
 	name = "Aimone di Savoia-Aosta"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Aimone.tga"
-	traits = {
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {# Domenico Cavagnari
+	name = "Domenico Cavagnari"
+	portrait_path = "gfx/leaders/SRI/Portrait_SRI_Domenico_Cavagnari.tga"
+	traits = {seawolf  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Olbia Class"
+	type = ship_hull_panzerschiff_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
 	}
-	skill = 2 #naval guy, don't patch
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Sassari Class"
+	type = ship_hull_panzerschiff_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Palelogo Class"
+	type = ship_hull_cruiser_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		hull_specialization_slot = empty
+	}
+}
+
+create_equipment_variant = {
+	name = "Arborea Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Filiberto Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+	}
 }

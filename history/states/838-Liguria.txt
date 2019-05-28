@@ -5,16 +5,13 @@ state = {
 
 	state_category = city
 
-	resources = {
-
-	}
+	resources = {}
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
 		victory_points = {
-			6788 10
+			6788 15
 		}
 
 		buildings = {
@@ -27,15 +24,16 @@ state = {
 				naval_base = 8
 				coastal_bunker = 1
 			}
-			11891 = {
-				bunker = 2
+			3772 = {
+				bunker = 1
 			}
-
+			11891 = {
+				bunker = 1
+			}
 		}
 	}
 
 	provinces = {
 		3772 6788 11891
 	}
-	buildings_max_level_factor = 1
 }

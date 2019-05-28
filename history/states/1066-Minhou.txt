@@ -4,13 +4,11 @@ state = {
 	manpower = 4534240
 	state_category = town
 	history = {
-		owner = SQI
-		
+		owner = AOG
+		add_core_of = AOG
 		add_core_of = SQI
 		add_core_of = QIE
-
-		add_core_of = CHI
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

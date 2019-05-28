@@ -3,22 +3,17 @@ state = { #Jinxi #Western Shanxi
 	name = "STATE_1015"
 	state_category = rural
 	history = {
-		owner = SQI
-		
-		
-		add_core_of = SQI
+		owner = QIE
 		add_core_of = QIE
+		add_core_of = FNG
+		add_core_of = SQI
 
 		buildings = {
 			infrastructure = 2
 		}
-		
-		victory_points = {
-			12432 1
-		}
 	}
 	provinces = {
-		1034 1531 1575 4074 7041 7571 4634 10367 10507 12300 12432
+		1034 1531 1575 4074 7041 7571 4634 10367 10507 12300
 	}
 	manpower = 453500
 }

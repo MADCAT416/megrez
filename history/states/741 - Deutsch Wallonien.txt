@@ -1,16 +1,14 @@
-
 state = {
 	id = 741
 	name = "STATE_741"
-	manpower = 294145
+	manpower = 168786
 	resources = {
 		steel = 4
 	}
-	state_category = large_city
+	state_category = town
 
 	history = {
 		owner = GER
-		add_core_of = GER
 		add_core_of = BEL
 		add_claim_by = GER
 

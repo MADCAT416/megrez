@@ -1,59 +1,54 @@
 ﻿capital = 502
-oob = "empty"
+OOB = "DUM"
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 set_politics = {
@@ -62,7 +57,7 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 2
 		}
 		syndicalist = {
@@ -102,7 +97,7 @@ create_country_leader = {
 	name = "Olímpio Mourão Filho"
 	desc = "POLITICS_BIG_MOURA_JR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Mourao_Filho.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
@@ -111,7 +106,7 @@ create_country_leader = {
 	name = "Belisário Penna"
 	desc = "POLITICS_BELISARIUS_PITY_DESC"
 	picture = "Portrait_RJM_Belisario_Pena.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -120,7 +115,7 @@ create_country_leader = {
 	name = "Araken de Oliveira"
 	desc = "POLITICS_ARAKEN_OLIVEIRA_HOS_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Araken_Oliveira.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -129,7 +124,7 @@ create_country_leader = {
 	name = "Afonso Pena Jr."
 	desc = "POLITICS_AFONSO_FEATHER_JUNIOR_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Afonso_Pena_Jr.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -138,7 +133,7 @@ create_country_leader = {
 	name = "Olegário Maciel"
 	desc = "POLITICS_MACIEL_RJM_DESC"
 	picture = "Portrait_BRA_Olegario_Maciel.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -147,7 +142,7 @@ create_country_leader = {
 	name = "Juscelino Kubitschek"
 	desc = "POLITICS_JK_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -156,7 +151,7 @@ create_country_leader = {
 	name = "Carlos Coimbra da Luz"
 	desc = "POLITICS_CARLOS_LUZ_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Carlos_Coimbra_da_Luz.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -165,7 +160,7 @@ create_country_leader = {
 	name = "Minervino de Oliveira"
 	desc = "POLITICS_MINERVINO_OLIVER_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Minervino_Oliveira.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -174,7 +169,7 @@ create_country_leader = {
 	name = "Carlos Lacerda"
 	desc = "POLITICS_LACERDA_TOT_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Carlos_Lacerda.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -183,8 +178,8 @@ create_country_leader = {
 	name = "Astrojildo Pereira"
 	desc = "POLITICS_ASTROJILDO_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Astrojildo_Pereira.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
@@ -196,8 +191,11 @@ create_country_leader = {
 create_navy_leader = { #Auto-Generated
 	name = "Isaías de Noronha"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Isaias_de_Noronha.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 

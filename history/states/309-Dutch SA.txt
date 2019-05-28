@@ -10,13 +10,11 @@ state = {
 			10906 1
 		}
 		owner = HOL
-		add_core_of = HOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			12828 = {
 				naval_base = 1
-
 			}
 		}
 	}
@@ -25,6 +23,5 @@ state = {
 		10906 12828
 	}
 	manpower = 152000
-	buildings_max_level_factor = 1
 	state_category = rural
 }

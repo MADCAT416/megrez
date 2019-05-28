@@ -3,7 +3,7 @@ state = {
 	name = "STATE_756"
 
 	history = {
-		owner = BUR
+		owner = SIA
 		add_claim_by = SIA
 		add_claim_by = BUR
 		add_core_of = SHA
@@ -19,6 +19,5 @@ state = {
 		4175 7400 7647 7909 7974 12317
 	}
 	manpower = 982521
-	buildings_max_level_factor = 1
 	state_category = "rural"
 }

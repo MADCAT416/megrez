@@ -19,8 +19,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = social_democrat }
 		}
 		AND = {
-			has_government = new_left
-			ROOT = { has_government = new_left }
+			has_government = social_progressive
+			ROOT = { has_government = social_progressive }
 		}
 		AND = {
 			has_government = social_liberal
@@ -69,8 +69,8 @@ has_same_government_as_PREV = {
 			PREV = { has_government = social_democrat }
 		}
 		AND = {
-			has_government = new_left
-			ROOT = { has_government = new_left }
+			has_government = social_progressive
+			ROOT = { has_government = social_progressive }
 		}
 		AND = {
 			has_government = social_liberal
@@ -149,7 +149,7 @@ has_reformal_progressive_government = {
 		OR = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 		}
 	}
@@ -161,7 +161,7 @@ not_has_reformal_progressive_government = {
 		NOT = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 		}
 	}
@@ -173,7 +173,7 @@ has_classic_liberal_government = {
 		tooltip = KR_is_liberal
 		OR = {
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 		}
@@ -185,7 +185,7 @@ not_has_classic_liberal_government = {
 		tooltip = KR_is_not_liberal
 		NOT = {
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 		}
@@ -220,6 +220,7 @@ has_authoritarian_government = {
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 		}
 	}
 }
@@ -230,6 +231,7 @@ not_has_authoritarian_government = {
 		NOT = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 		}
 	}
 }
@@ -240,6 +242,7 @@ has_antirevolutionary_government = {
 		tooltip = KR_is_antirevolutionary
 		OR = {
 			has_government = authoritarian_democrat
+			has_government = clerical_nationalist
 			has_government = national_populist
 		}
 	}
@@ -250,6 +253,7 @@ not_has_antirevolutionary_government = {
 		tooltip = KR_is_not_antirevolutionary
 		NOT = {
 			has_government = authoritarian_democrat
+			has_government = clerical_nationalist
 			has_government = national_populist
 		}
 	}
@@ -262,7 +266,7 @@ has_elected_government = {
 		OR = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -276,7 +280,7 @@ not_has_elected_government = {
 		NOT = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -291,7 +295,7 @@ has_democratic_government = {
 		OR = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -306,7 +310,7 @@ not_has_democratic_government = {
 		NOT = {
 			has_government = democratic_socialist
 			has_government = social_democrat
-			has_government = new_left
+			has_government = social_progressive
 has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -520,7 +524,7 @@ has_coalition = {
 		}
 		AND = {
 			has_country_flag = coalition_social_liberal
-			NOT = { has_government = new_left
+			NOT = { has_government = social_progressive
 has_government = social_liberal }
 		}
 		AND = {
@@ -539,6 +543,12 @@ has_government = social_liberal }
 			has_country_flag = coalition_paternal_autocrat
 			NOT = { has_government = paternal_autocrat }
 		}
+
+		AND = {
+			has_country_flag = coalition_clerical_nationalist
+			NOT = { has_government = clerical_nationalist }
+		}
+
 		AND = {
 			has_country_flag = coalition_national_populist
 			NOT = { has_government = national_populist }

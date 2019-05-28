@@ -3,7 +3,7 @@ state = {
 	name = "STATE_38"
 	manpower = 796033
 	resources = {
-		steel = 62
+		steel = 22
 	}
 
 	state_category = hyvin
@@ -19,7 +19,6 @@ state = {
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 3
-			anti_air_building = 2
 			130 = {
 				naval_base = 1
 			}

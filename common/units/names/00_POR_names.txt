@@ -129,7 +129,7 @@
 	light_cruiser = {
 		prefix = "NRP"
 		generic = {
-			"Light Cruiser"
+			"Cruiser"
 		}
 		unique = { # names of Saints
 			"S. Gabriel"
@@ -161,7 +161,7 @@
 			"S. Frutuoso"
 			"S. Gaudêncio"
 			"S. Ovídio"
-			"S.Berardo"
+			"S. Berardo"
 			"S. Otão"
 			"S. Gonçalo"
 			"S. Lourenço"
@@ -172,10 +172,9 @@
 	heavy_cruiser = {
 		prefix = "NRP"
 		generic = {
-			"Heavy Cruiser"
+			"Armoured Cruiser"
 		}
 		unique = { # Region names
-			"Minho"
 			"Douro Litoral"
 			"Tras os Montes"
 			"Beira Interior"
@@ -202,7 +201,7 @@
 			"Albijarrota"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "NRP"
 		generic = {
 			"Battlecruiser"
@@ -223,7 +222,7 @@
 			"Miguel Corte Real"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "NRP"
 		generic = {
 			"Battleship"
@@ -289,14 +288,4 @@
 			"Mouzinho da Silveira"
 		}
 	}
-
-
-
-
-
 }
-
-
-
-
-

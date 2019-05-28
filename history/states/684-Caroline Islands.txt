@@ -5,9 +5,9 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = AST
+		owner = GEA
 		add_core_of = GEA
-add_core_of = AST
+
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -37,10 +37,10 @@ add_core_of = AST
 			}
 		}
 		victory_points = {
-			2489 1
+			13028 1
 		}
 		victory_points = {
-			13028 1
+			13036 1
 		}
 	}
 

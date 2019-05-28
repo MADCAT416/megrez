@@ -6,10 +6,9 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRD
 		add_core_of = SRD
-		victory_points = { 11773 3 } #Cagliari
+		victory_points = { 11773 5 } #Cagliari
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1

@@ -11,14 +11,14 @@
 ################
 
 ### wtt_decisions_l_english
-improved_worker_conditions:0 "노동환경 개선"
+improved_worker_conditions:0 "노동 환경 개선"
 improved_worker_conditions_desc:0 "공장 일은 고되고 위험천만합니다. 우리의 공장 노동자들이 일하는 환경을 개선한다면 단기적으로는 생산량이 줄겠지만, 장기적으로는 충분한 가치가 입증될 것입니다."
 
 ### deployment_l_english
 DIVISION_EQUIPMENT:0 "사단 장비"
 
 ### diplomacy_l_english
-claims_on_us:0 "저 놈들이 우리 영토를 요구함"
+claims_on_us:0 "저들이 우리의 영토를 요구함"
 
 ### goals_l_english
 take_state:0 "정복"
@@ -33,88 +33,64 @@ liberate_wargoal_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점�
 puppet_wargoal_focus:0 "괴뢰화 (중점)"
 puppet_wargoal_focus_desc:0 "괴뢰화 (중점)"
 puppet_wargoal_focus_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점수로 국가를 괴뢰화 할 수 있게 합니다."
-take_claimed_state:0 "영유권 주장 지역 획득"
+take_claimed_state:0 "주장한 지역 획득"
 take_claimed_state_desc:0 "$STATE|Y$(으)로부터 $TARGET|Y$(을)를 빼앗음"
 take_claimed_state_short_desc:0 "이 전쟁명분은 선택한 주를 평화 회담에서 저렴한 점수로 얻을 수 있게 합니다."
-take_core_state:0 "핵심주 탈환"
+take_core_state:0 "핵심 주 재탈환"
 take_core_state_desc:0 "$STATE|Y$(으)로부터 $TARGET|Y$(을)를 다시 빼앗음"
 take_core_state_short_desc:0 "이 전쟁명분은 선택한 주를 평화 회담에서 저렴한 점수로 얻을 수 있게 합니다."
 annex_everything:0 "합병"
 annex_everything_desc:0 "선택된 국가를 합병합니다."
 annex_everything_short_desc:0 "이 전쟁명분은 선택한 국가를 평화 회담에서 저렴한 점수로 합병 할 수 있게 합니다."
 civil_war:0 "내전"
-civil_war_desc:0 "내전입니다! 국가는 각 세력이 통제하는 지역들로 나뉘게 됩니다."
+civil_war_desc:0 "내전입니다! 국가는 각 세력이 통제하는 지역에 나뉘게 됩니다."
 civil_war_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점수로 합병 할 수 있게 합니다."
 topple_government:0 "정부 전복"
 topple_government_desc:0 "집권 정부를 전복시킵니다."
 topple_government_short_desc:0 "이 전쟁명분은 평화 회담에서 저렴한 점수로 정부를 전복시킬 수 있습니다."
 
 ### ideas_l_english
-minister:0 "내각"
-country_leader:0 "국가원수"
-head_of_government:0 "정부수반"
-foreign_minister:0 "외무장관"
-economy_minister:0 "경제장관"
-security_minister:0 "내무장관"
-head_of_intel:0 "정보총수"
-
-government:1 "정책"
-mobilization_laws:0 "동원정책"
-KR_mobilization_laws:0 "동원정책"
-trade_laws:0 "무역정책"
-KR_trade_laws:0 "무역정책"
-economy:0 "경제정책"
-KR_economy:0 "경제정책"
-EFFECT_CHANGE_LAW_KR_economy:0 "경제정책을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
-EFFECT_CHANGE_LAW_KR_trade_laws:0 "무역정책을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
-
-research_production:0 "연구개발"
-tank_manufacturer:0 "자동차업체"
-generic_artillery_company:0 "대포업체"
-generic_tank_company:0 "전차업체"
-air_naval_manufacturer:0 "중공업체"
-generic_fighter_company:0 "전투기업체"
-generic_naval_company:0 "조선업체"
-weapons_manufacturer:0 "무기업체"
-industrial_concern:0 "산업체"
-industrial_manufacturer:0 "산업체"
-chemical_producer:0 "화공업체"
-electronics_manufacturer:0 "전기전자업체"
-
-military_staff:0 "군부"
-chief_of_staff:0 "총참모장"
-chief_of_army:0 "육군참모장"
-chief_of_navy:0 "해군참모장"
-chief_of_air_force:0 "공군참모장"
-theorist:0 "학자"
+military_staff:0 "군사 참모"
+mobilization_laws:0 "징병법"
+trade_laws:0 "무역법"
+KR_trade_laws:0 "무역법"
+economy:0 "경제법"
+KR_economy:0 "경제법"
+EFFECT_CHANGE_LAW_KR_economy:0 "경제법을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
+EFFECT_CHANGE_LAW_KR_trade_laws:0 "무역법을 '$NAME|Y$'으로 바꾸며 ($DESC$)를 부여합니다."
+aircraft_manufacturer:0 "항공기 설계사"
+materiel_manufacturer:0 "군수품 설계사"
+industry_concern:0 "산업 관계자"
+chief_of_staff:0 "장군 참모"
+chief_of_army:0 "육군 참모"
+chief_of_navy:0 "해군 참모"
+chief_of_air_force:0 "공군 참모"
+theorist:0 "이념운동가"
 
 ### music_l_english
-maintheme:0 "사랑하는 조국이여"
+maintheme:0 "Siegesmarsch von Metz"
 
 ### politics_l_english
+POLITICS_LEADER:0 "§T국가원수: $LEADER|H$§!"
+POLITICS_NEXT_ELECTION:0 "선거: $DATE|H$"
 #RELEASE_NATION_TITLE:0 "Release nation"
 #RELEASE_NATION_DESC:0 "Do you want to liberate $COUNTRY|H$ in $LIST|H$?"
 RELEASE_NATION_TITLE:0 "경고"
-RELEASE_NATION_DESC:0 "§R국가 수동해방에 관련하여 발생하는 오류에 대해서 메그레즈는 책임지지 않습니다!§!"
+RELEASE_NATION_DESC:0 "$COUNTRY|H$을(를) $LIST|H$에 해방시키시겠습니까?\n\n§R국가 수동해방에 관련하여 발생하는 오류에 대해서 카이저라이히는 책임지지 않습니다!§!"
 
-### 산업시설
-air_base:0 "공군비행장"
-naval_base:0 "군항"
-arms_factory:0 "군수공장"
-industrial_complex:0 "민수공장"
-synthetic_refinery:0 "정유공장"
-dockyard:0 "공창"
-anti_air_building:0 "대공포대"
-coastal_bunker:0 "해안포대"
-bunker:0 "엄폐호"
-nuclear_reactor:0 "원자로"
-nuclear_reactors:0 "원자로"
-infrastructure:0 "기반시설"
-radar_station:0 "레이다"
+### peace_l_english
+PEACE_CONFERENCE_WHITE_PEACE:0 "@$ACTOR_TAG$$ACTOR_COUNTRY|Y$ 와(과) $RECIPIENT_COUNTRY|Y$@$RECIPIENT_TAG$ 간의 \n§Y휴전 협정§!이 체결되었습니다.\n이제 서로간의 적대행위를 중단할 것입니다."
 
+### state_l_english
+megalopolis:0 "휘황찬란한 도시 지역"
+hyvin:0 "개발중인 농촌 지역"
+seven:0 "거대한 도시 지역"
+nine:0 "매우 밀집된 도시 지역"
+eleven:0 "초거대 도시 지역"
 
-### 인명
-GER_Hans_Speidel_cos_sco:0 "한스 슈파이델"
-GER_Adolf_Heusinger_cos_ade:0 "아돌프 호이징거"
-GER_Hans_Juergen_Stumpff_cair_npo:0 "한스위르겐 슈툼프"
-GER_Karl_Doenitz_cnav_sco:0 "카를 되니츠"
+### government_l_english
+COUNTRYVIEW_GIE_INFO:0 "Our host ($HOSTNAMEDEF|H$) benefits from higher §HLegitimacy§!\n§HLegitimacy§! affects §HExiled Veteran Manpower§! trickle to host and regular manpower for us.\n\n§HExile Veteran Divisions§! get combat bonuses against $OCCUPIERLIST$\n     - Attack: $ATK_VS_OCCUPIER|%0+$\n     - Defense: $DEF_VS_OCCUPIER|%+0$\nAdditional bonuses when fighting on our cores:\n     - Attack: $ATK_ON_CORE|%+0$\n     - Defense: $DEF_ON_CORE|%+0$"
+COUNTRYVIEW_GIE_INFO_DELAYED:0 "§HLegitimacy§! is improved by fighting in your hosts wars.\n\n§GClick§! §HExile Status§! to see the current effects."
+
+### buildings_l_english
+BUILDING_SLOT_REMOVE_COOLDOWN:0 "전시에는 $DAYS|Y$일에 한 번 건물을 철거할 수 있습니다. 다음 철거는 $DATE|Y$에 가능합니다."

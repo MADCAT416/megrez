@@ -8,7 +8,6 @@ state = {
 	history = {
 		owner = POR
 		add_core_of = MOZ
-		add_core_of = POR
 		buildings = {
 			infrastructure = 3
 			air_base = 1

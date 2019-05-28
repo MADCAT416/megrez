@@ -1,0 +1,55 @@
+﻿GUA = {
+	submarine = {
+		prefix = "ARG"
+		generic = { "Submarino" }
+		unique = {
+			"Tapachula"
+			"Puerto Barrios"
+			"Jacaltenango"
+			"El Estor"
+			"El Progreso"
+		}
+	}
+	destroyer = {
+		prefix = "ARG"
+		generic = {
+			"Destructor"
+		}
+		unique = {
+			"Ciudad de Guatemala"
+			"Quezaltenango"
+		}
+	}
+	light_cruiser = {
+		prefix = "ARG"
+		generic = { "Crucero Ligero" }
+		unique = {
+			"República de Guatemala"
+			"Escuintia"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARG"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "ARG"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "ARG"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "ARG"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

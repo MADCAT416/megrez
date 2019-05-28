@@ -1,7 +1,7 @@
 state = {
 	id = 68
 	name = "STATE_68"
-	manpower = 863466
+	manpower = 750840
 	resources = {
 		aluminium = 24
 	}
@@ -11,10 +11,15 @@ state = {
 	history = {
 		owner = GER
 		add_core_of = GER
+		victory_points = {
+			3473 1
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-			rocket_site = 1
+			537 = {
+				bunker = 1
+			}
 		}
 	}
 

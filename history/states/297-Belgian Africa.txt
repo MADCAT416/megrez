@@ -6,9 +6,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = CEA
-		add_core_of = MAF
-		add_core_of = CEA
+		owner = SPR
 		add_core_of = GAB
 		victory_points = {
 			1903 1 # Malabo

@@ -3,16 +3,16 @@ state = {
 	name = "STATE_580" # Tobolsk
 	manpower = 88126
 
-	state_category = pastoral
-	
+	state_category = wasteland
+	impassable = yes
 
 	history = {
 		owner = RUS
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = RUS
+		add_claim_by = TRM
 	}
 
 	provinces = {

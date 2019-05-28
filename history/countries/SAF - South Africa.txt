@@ -1,5 +1,6 @@
 ﻿capital = 275
-oob = "SAF"
+OOB = "SAF"
+set_naval_oob = "SAF_naval"
 
 set_convoys = 40
 set_research_slots = 3
@@ -10,92 +11,132 @@ add_ideas = {
 	SAF_Charles_T_te_Water_eco_sco
 	SAF_N_J_van_der_Merwe_sec_ade
 	#medium_economy
+	SAF_segregation_3
+	SAF_divided_government_1
+
 }
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	### Naval ###
+	nav_infra_one = 1
+	nav_infra_two = 1
+	nav_av_one = 1
 }
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
+
+set_war_support = 0.1
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 5
+			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 20
+		radical_socialist = {
+			popularity = 2
 		}
 		syndicalist = {
-			popularity = 3
+			popularity = 2
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 11
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 3
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 32
 		}
 		authoritarian_democrat = {
-			popularity = 50
+			popularity = 41
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 6
 		}
 		national_populist = {
 			popularity = 2
@@ -105,11 +146,8 @@ set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1933.5.17"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
-
-set_stability = 0.4
-set_war_support = 0.4
 
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = CAN modifier = embargo }
@@ -118,104 +156,90 @@ add_opinion_modifier = { target = AST modifier = embargo }
 add_opinion_modifier = { target = DEH modifier = embargo }
 add_opinion_modifier = { target = NFA modifier = embargo }
 
-
+country_event = { id = saf.1 days = 2 } # Introduction event
 
 create_country_leader = {
-	name = "넬슨 만델라"
-	picture = "Portrait_SAF_Nelson_Mandela.tga"
-	desc = "Nelson_Mandela_DESC"
-	expire = "2000.1.1"
+	name = "Moses M. Kotane"
+	picture = "Moses_Kotane_I.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "넬슨 만델라"
-	picture = "Portrait_SAF_Nelson_Mandela.tga"
-	desc = "Nelson_Mandela_DESC"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
+	name = "Yusuf Mohamed Dadoo"
+	picture = "Yusuf_Dadoo_I.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "넬슨 만델라"
-	picture = "Portrait_SAF_Nelson_Mandela.tga"
-	desc = "Nelson_Mandela_DESC"
-	expire = "2000.1.1"
+	name = "William Henry Andrews"
+	picture = "William_H._Andrews_I.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "알란 헨드릭스"
-	picture = "Portrait_SAF_Allan_Hendrickse.tga"
-	desc = "Allan_Hendrickse_DESC"
-	expire = "2000.1.1"
+	name = "William Henry Andrews"
+	picture = "William_H._Andrews_I.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "콜린 에글린"
-	desc = "Colin_Eglin_DESC"
-	picture = "Portrait_SAF_Colin_Eglin.tga"
-	expire = "2000.1.1"
+	name = "Hubert Winthrop Young"
+	picture = "Hubert_Winthrop_Young_I.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 create_country_leader = {
-	name = "야코부스 요하네스 포우체"
-	desc = "Jacobus_Johannes_Fouche_DESC"
-	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
-	expire = "2000.1.1"
+	name = "James Hertzog"
+	desc = "POLITICS_JAMES_HERTZOG_DESC"
+	picture = "J._B._M._Hertzog_I.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "래드클리프 캐드먼"
-	desc = "Radclyffe_Cadman_DESC"
-	picture = "Portrait_SAF_Radclyffe_Cadman.tga"
-	expire = "2000.1.1"
+	name = "Jan Christiaan Smuts"
+	desc = "POLITICS_JAN_SMUTS_DESC"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "야코부스 요하네스 포우체"
-	desc = "Jacobus_Johannes_Fouche_DESC"
-	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
-	expire = "2000.1.1"
+	name = "Nicolaas Havenga"
+	desc = "POLITICS_NICOLAAS_HAVENGA_DESC"
+	picture = "Portrait_SAF_Nicolaas_Havenga.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Daniel François Malan"
+	desc = "POLITICS_DANIEL_MALAN_DESC"
+	picture = "Daniel_Francois_Malan_I.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "야코부스 요하네스 포우체"
-	desc = "Jacobus_Johannes_Fouche_DESC"
-	picture = "Portrait_SAF_Jacobus_Johannes_Fouche.tga"
-	expire = "2000.1.1"
+	name = "Daniel François Malan"
+	desc = "POLITICS_DANIEL_MALAN_DESC"
+	picture = "Daniel_Francois_Malan_I.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 add_ideas = {
@@ -253,7 +277,7 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 	id = 971
 }
@@ -266,10 +290,10 @@ create_corps_commander = { #Auto-Generated
 		commando
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 	id = 972
 }
 
@@ -283,9 +307,9 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 	id = 973
 }
 
@@ -297,7 +321,7 @@ create_corps_commander = { #Auto-Generated
 		trait_engineer
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
@@ -312,7 +336,7 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 	id = 975
@@ -340,7 +364,7 @@ create_corps_commander = { #Auto-Generated
 		trickster
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
@@ -370,8 +394,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 	id = 979
 }
@@ -385,4 +409,72 @@ create_navy_leader = { #Auto-Generated
 		blockade_runner
 	}
 	skill = 2
+}
+
+set_country_flag = king_edward_vii_class_ship_variant
+create_equipment_variant = {
+	name = "King Edward VII Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+set_country_flag = carlisle_class_ship_variant
+create_equipment_variant = {
+	name = "Carlisle Class"
+	type = ship_hull_cruiser_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+		hull_specialization_slot = empty
+	}
+	obsolete = yes
+}
+
+set_country_flag = river_class_ship_variant
+create_equipment_variant = {
+	name = "River Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+
+create_equipment_variant = {
+	name = "Diamond Class"
+	type = ship_hull_cruiser_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		hull_specialization_slot = empty
+	}
+	obsolete = yes
 }

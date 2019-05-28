@@ -5,11 +5,8 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
+		owner = MAF
 		add_core_of = MAF
-		add_claim_by = TNZ
-		add_core_of = PAK
 		buildings = {
 			infrastructure = 3
 			13551 = {

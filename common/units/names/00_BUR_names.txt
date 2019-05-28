@@ -1,6 +1,6 @@
 ﻿BUR = {
 	submarine = {
-		prefix = "UBS"
+		prefix = ""
 		generic = {
 			"Submarine"
 		}
@@ -38,231 +38,51 @@
 		}
 	}
 	destroyer = {
-		prefix = "UBS"
+		prefix = "BSYY"
 		generic = {
 			"Destroyer"
 		}
 		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
 		}
 	}
 	light_cruiser = {
-		prefix = "UBS"
+		prefix = "BSYY"
 		generic = {
-			"Light Cruiser"
+			"Cruiser"
 		}
 		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
 		}
 	}
 	heavy_cruiser = {
-		prefix = "UBS"
+		prefix = "BSYY"
 		generic = {
-			"Heavy Cruiser"
+			"Armoured Cruiser"
 		}
 		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
 		}
 	}
-	battle_cruiser = {
-		prefix = "UBS"
+	SH_battleship = {
+		prefix = "BSYY"
 		generic = {
-			"Battlecruiser"
+			"SH_battleship"
 		}
 		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
-		}
-	}
-	battleship = {
-		prefix = "UBS"
-		generic = {
-			"Battleship"
-		}
-		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
 		}
 	}
 	carrier = {
-		prefix = "UBS"
+		prefix = "BSYY"
 		generic = {
-			"Aircraft Carrier"
+			"Carrier"
 		}
 		unique = {
-			"Mayu"
-			"Kyansittha"
-			"Sinbyushin"
-			"Aung Zeya"
-			"Mahar Bandoola"
-			"Mahar Thiha Thura"
-			"Anawratha"
-			"Bayinnaung"
-			"Tabinshwehti"
-			"MaGa"
-			"SaitTra"
-			"DuWa"
-			"HanTha"
-			"BanDa"
-			"Yan Gyi Aung"
-			"Yan Htet Aung"
-			"Yan Nyein Aung"
-			"Yan Khwinn Aung"
-			"Yan Min Aung"
-			"Yan Ye Aung"
-			"Yan Pang Aung"
-			"Yan Win Aung"
-			"Yan Aye Aung"
-			"Yan Zwe Aung"
-			"Indaw"
-			"Inya"
-			"Thutaythi"
-			"Pyi Daw Aye"
-			"Ayidawaya"
-			"ZeyHta"
+		}
+	}
+	heavy_carrier = {
+		prefix = "BSYY"
+		generic = {
+			"Heavy Carrier"
+		}
+		unique = {
 		}
 	}
 }

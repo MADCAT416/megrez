@@ -3,11 +3,11 @@ state = {
 	manpower = 29299
 	name = "STATE_577"
 	resources = {
-		oil = 14
+		oil = 8
 	}
 
-	state_category = pastoral
-	
+	state_category = wasteland
+	impassable = yes
 
 	history = {
 		owner = RUS
@@ -15,6 +15,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = RUS
+		add_claim_by = TRM
 	}
 
 	provinces = {

@@ -1,19 +1,6 @@
 ﻿division_template = {
-	name = "영토방어사단" # Obrona Terytorium 
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "보병사단"
+	name = "Dywizja Piechoty"
+	division_names_group = POL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -22,129 +9,198 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
 	}
 }
-
 division_template = {
-	name = "차량화보병사단"
+	name = "Dywizja Górska"
+	division_names_group = POL_MTN_01
 
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
 	}
 	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "기갑사단"
-
-	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		motorized_rocket_brigade = { x = 0 y = 1 }
-		modern_sp_artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		modern_sp_artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "공중강습사단"
-
-	regiments = {
-		heliborne = { x = 0 y = 0 }
-		heliborne = { x = 0 y = 1 }
-		heliborne = { x = 1 y = 0 }
-		heliborne = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
 	}
 	priority = 2
 }
+division_template = {
+	name = "Brygada Kawalerii"
+	division_names_group = POL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Armored-Division"
+	division_names_group = POL_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
 
 units = {
 
-	division = {
-		name = "제1보병사단"
-		location = 524 # 바르샤바
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
 	division = {
-		name = "제1영토방어사단"
-		location = 3559 # 루블린
-		division_template = "영토방어사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "18 Dywizja Piechoty"
+		location = 3559
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
-
 	division = {
-		name = "제2영토방어사단"
-		location = 9468 # 리비우
-		division_template = "영토방어사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "28 Dywizja Piechoty"
+		location = 3568
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
-
 	division = {
-		name = "제3영토방어사단"
-		location = 17 # 포젠
-		division_template = "영토방어사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "22 Dywizja Piechoty"
+		location = 3559
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
-
 	division = {
-		name = "제1포병사단"
+		name = "2 Dywizja Piechoty"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "10 Dywizja Piechoty"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "29 Dywizja Piechoty"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "6 Dywizja Piechoty"
 		location = 3230
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
-
 	division = {
-		name = "제1공중강습사단"
-		location = 9427 # 크라쿠프
-		division_template = "공중강습사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "24 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
+	division = {
+		name = "11 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "9 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Mazowiecka B.K."
+		location = 3544
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+}
 
+air_wings = {
+
+	10 = {
+		fighter_equipment_0 = {
+			owner = "POL"
+			amount = 50
+		}
+		tac_bomber_equipment_0 = {
+			owner = "POL"
+			amount = 25
+		}
 	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 3
+		progress = 0.82
+		efficiency = 56
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.83
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 84
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.39
+		efficiency = 40
+	}
+}

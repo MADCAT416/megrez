@@ -3,21 +3,23 @@ state = {
 	name = "STATE_354"
 
 	history = {
-		owner = GEO
+		owner = OTT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			11853 = {
+				bunker = 2
+			}
 		}
 		add_core_of = OTT
-		add_core_of = GEO
-		add_claim_by = RUS
-
+		victory_points = {
+			11797 1
+		}
 	}
 
 	provinces = {
-		6976 9868 9886 9954 11797 11853
+		9868 9954 11797 11853
 	}
 	manpower = 708714
-	buildings_max_level_factor = 1
 	state_category = town
 }

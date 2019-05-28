@@ -6,7 +6,7 @@ state = {
 	state_category = tiny_island
 
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			13050 = {
@@ -14,8 +14,6 @@ state = {
 			}
 		}
 		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = CSA
 	}
 
 	provinces = {

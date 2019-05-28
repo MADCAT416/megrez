@@ -3,16 +3,16 @@ state = {
 	name = "STATE_833"
 	manpower = 2329884
 
-	state_category = city
+	state_category = large_city
 
 	resources = {
-		oil = 300
+		oil = 220
 	}
 
 	history = {
-		owner = CSA
+		owner = USA
 		buildings = {
-			industrial_complex = 2
+			industrial_complex = 4
 			infrastructure = 6
 			6785 = {
 				naval_base = 1
@@ -20,15 +20,13 @@ state = {
 		}
 
 		add_core_of = USA
-		add_core_of = CSA
-		add_core_of = TEX
+
 		victory_points = {
-			12782 1
+			12782 10
 		}
 	}
 
 	provinces = {
 		1927 1998 2019 2042 4884 4955 5061 6785 6798 6987 8064 12369 12728 12782
-
 	}
 }

@@ -5,16 +5,13 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = AST
+		owner = GEA
 		add_core_of = GEA
-		add_claim_by = BHC
-		add_claim_by = BUR
-add_core_of = AST
+
 		buildings = {
 			infrastructure = 3
 			12251 = {
 				naval_base = 2
-
 			}
 		}
 	}

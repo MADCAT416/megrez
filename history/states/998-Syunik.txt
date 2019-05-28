@@ -6,17 +6,17 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = GEO
+		owner = ARM
 		victory_points = {
 			6642 1
 		}
 		buildings = {
 			infrastructure = 2
+			4660 = {
+				bunker = 1
+			}
 		}
 		add_core_of = ARM
-		add_core_of = GEO
-		add_claim_by = RUS
-
 	}
 
 	provinces = {

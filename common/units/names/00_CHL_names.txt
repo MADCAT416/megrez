@@ -108,7 +108,6 @@
 			"Destroyer"
 		}
 		unique = {
-			"Santiago"
 			"Puente Alto"
 			"Maipú"
 			"La Florida"
@@ -143,7 +142,7 @@
 	light_cruiser = {
 		prefix = "CSN"
 		generic = {
-			"Light Cruiser"
+			"Cruiser"
 		}
 		unique = {
 			"Punta Arenas"
@@ -156,7 +155,6 @@
 			"Chiloe"
 			"Tamarugal"
 			"Salamanca"
-			"Valparaíso"
 			"Biobío"
 			"Araucanía"
 			"Los Ríos"
@@ -181,22 +179,19 @@
 	heavy_cruiser = {
 		prefix = "CSN"
 		generic = {
-			"Heavy Cruiser"
+			"Armored Cruiser"
 		}
 		unique = {
 			"Cerro"
 			"Rosas"
 			"Rozales"
 			"Ovalle"
-			"Blanco Encalada"
 			"Cuartel"
 			"Presidente"
-			"Philadelphia"
 			"Atenas"
 			"Celta"
 			"Perro"
 			"Jaraquemada"
-			"Eyzaguirre"
 			"Irisarri"
 			"La Lastra"
 			"Freire"
@@ -206,7 +201,6 @@
 			"Prieto"
 			"Zañartu"
 			"María"
-			"Cochrane"
 			"Jorge Montt"
 			"Forza"
 			"Grandeza"
@@ -216,7 +210,7 @@
 			"Balmaceda"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "CSN"
 		generic = {
 			"Battlecruiser"
@@ -243,10 +237,10 @@
 			"Namuncurá"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "CSN"
 		generic = {
-			"Battleship"
+			"SH_battleship"
 		}
 		unique = {
 			"Pratt"
@@ -267,7 +261,6 @@
 			"Las Herras"
 			"Glória"
 			"Baia Caldera"
-			"Cerro"
 			"Andes"
 			"Libertador"
 			"Manuel Montt"

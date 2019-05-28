@@ -3,62 +3,163 @@
 oob = "empty"
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### General ###
+	electronic_mechanical_engineering = 1
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1	
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	motorised_infantry = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
 }
 
-set_stability = 0.5
-set_war_support = 0.3
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		torpedo_tech_three = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		gunnery_tech_three = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		fbb_gunnery_tech_two = 1
+		fbb_gunnery_tech_three = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_gunnery_tech_one = 1
+		dn_gunnery_tech_two = 1
+		dn_gunnery_tech_three = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		carrier_armoured_deck = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
 
 set_research_slots = 3
 set_convoys = 100
@@ -69,7 +170,7 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 		}
 		syndicalist = {
@@ -102,305 +203,129 @@ set_politics = {
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 create_country_leader = {
-	name = "에리히 호네커"
-	picture = "Portrait_GRU_Erich_Honecker.tga"
-	expire = "2000.1.1"
+	name = "Wilhelm Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Wilhelm_Pieck_I.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
-create_country_leader = {
-	name = "아우구스틴 소우취"
-	picture = "Portrait_GRU_Augustin_Souchy.tga"
-	expire = "2000.1.1"
+create_country_leader = { #totalist fits well too
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "Portrait_GRU_Ernst_Thalmann.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "아우구스틴 소우취"
-	picture = "Portrait_GRU_Augustin_Souchy.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	name = "Rudolf Rocker"
+	desc = "POLITICS_RUDOLF_ROCKER_DESC"
+	picture = "Rudolf_Rocker_I.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "구스타프 하이네만"
-	picture = "Portrait_GRU_Gustav_Heinemann.tga"
-	expire = "2000.1.1"
+	name = "Rudolf Hilferding"
+	desc = "POLITICS_RUDOLF_HILFERDING_DESC"
+	picture = "Portrait_Germany_Rudolf_Hilferding.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "발터 셸"
-	picture = "Portrait_GRU_Walter_Scheel.tga"
-	expire = "2000.1.1"
+	name = "Erich Koch-Weser"
+	desc = "POLITICS_ERICH_KOCH_WESER_DESC"
+	picture = "Portrait_Germany_Erich_Koch_Weser.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "발터 셸"
-	picture = "Portrait_GRU_Walter_Scheel.tga"
-	expire = "2000.1.1"
+	name = "Gustav Krupp"
+	desc = "POLITICS_GUSTAV_KRUPP_DESC"
+	picture = "Portrait_Germany_Gustav_Krupp.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "게르하르트 슈뢰더"
-	picture = "Portrait_GRU_Gerhard_Schroder.tga"
-	expire = "2000.1.1"
+	name = "Heinrich Brüning"
+	desc = "POLITICS_HEINRICH_BRUNING_DESC"
+	picture = "Portrait_Germany_Heinrich_Bruning.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "프란츠 요제프 슈트라우스"
-	picture = "Portrait_GRU_Josef_Strauss.tga"
-	expire = "2000.1.1"
+	name = "Franz von Papen"
+	desc = "POLITICS_FRANZE_VON_PAPEN_DESC"
+	picture = "Portrait_Germany_Franz_von_Papen.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "프란츠 요제프 슈트라우스"
-	picture = "Portrait_GRU_Josef_Strauss.tga"
-	expire = "2000.1.1"
+	name = "Erwin von Witzleben"
+	desc = "POLITICS_ERWIN_VON_WITZLEBEN_DESC"
+	picture = "Portrait_Germany_Erwin_von_Witzleben.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "오토 에른스트 레머"
-	picture = "Portrait_GRU_Otto_Ernst_Remer.tga"
-	expire = "2000.1.1"
+	name = "Rudolf Hess"
+	desc = "POLITICS_RUDOLF_HESS_DESC"
+	picture = "Portrait_Germany_Rudolf_Hess.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 ### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "Busch"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Busch.tga"
-	traits = {
-		logistics_wizard
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Korfes"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Korfes.tga"
-	traits = {
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "von Kleist"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_von_Kleist.tga"
-	traits = {
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "von Küchler"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_von_Küchler.tga"
-	traits = {
-		offensive_doctrine
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "von Reichenau"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_von_Reichenau.tga"
-	traits = {
-		offensive_doctrine
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
 ### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Harpe"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Harpe.tga"
-	traits = {
-		panzer_leader
-	}
+create_corps_commander = {
+	name = "Johannes Blaskowitz"
+	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Johannes_Blaskowitz.tga"
+	traits = { skilled_staffer infantry_officer }
 	skill = 4
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
-create_corps_commander = { #Auto-Generated
-	name = "Seydlitz"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Seydlitz.tga"
-	traits = {
-		trickster
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "von Stubenrauch"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_von_Stubenrauch.tga"
-	traits = {
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
+create_corps_commander = {
+	name = "Hasso von Manteuffel"
+	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Hasso_von_Manteuffel.tga"
+	traits = { trickster armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
 }
 
 ### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Bettenhäuser"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Bettenhäuser.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Burchard"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Burchard.tga"
-	traits = {
-	}
-	skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Canaris"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Canaris.tga"
-	traits = {
-		spotter
-	}
-	skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Feldbausch"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Feldbausch.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Fikentscher"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Fikentscher.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Godt"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Godt.tga"
-	traits = {
-	}
-	skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Groos"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Groos.tga"
-	traits = {
-		spotter
-	}
-	skill = 2
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Götting"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Götting.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Heye"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Heye.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Rolf"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Rolf.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Schenck"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Schenck.tga"
-	traits = {
-		spotter
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Schmundt"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Schmundt.tga"
-	traits = {
-	}
-	skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "von Fischel"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_von_Fischel.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Lamprecht"
-	portrait_path = "gfx/leaders/GRU/Portrait_GRU_Lamprecht.tga"
-	traits = {
-		spotter
-	}
-	skill = 1
+create_navy_leader = {
+	name = "Wilhelm Marschall"
+	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Marschall_kr.tga"
+	traits = { superior_tactician }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }

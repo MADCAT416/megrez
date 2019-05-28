@@ -1,0 +1,58 @@
+﻿ECU = {
+	submarine = {
+		prefix = "BAE"
+		generic = { "Submarino" }
+		unique = {
+			"Shyri"
+			"Huancavilca"
+			"Esmeraldas"
+			"Manabí"
+			"Los Ríos"
+			"El Oro"
+			"Loja"
+			"Galápagos"
+		}
+	}
+	destroyer = {
+		prefix = "BAE"
+		generic = {
+			"Destructor"
+		}
+		unique = {
+			"Libertador Bolívar"
+			"Tarqui"
+		}
+	}
+	light_cruiser = {
+		prefix = "BAE"
+		generic = { "Crucero Ligero" }
+		unique = {
+			"Galápagos"
+			"Loja"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "BAE"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "BAE"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "BAE"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "BAE"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

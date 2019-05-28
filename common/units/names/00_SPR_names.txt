@@ -1,0 +1,46 @@
+﻿SPR = {
+	submarine = {
+		prefix = "ARE"
+		generic = { "Submarino" }
+		unique = {
+		}
+	}
+	destroyer = {
+		prefix = "ARE"
+		generic = {
+			"Destructor"
+		}
+		unique = {
+		}
+	}
+	light_cruiser = {
+		prefix = "ARE"
+		generic = { "Crucero Ligero" }
+		unique = {
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARE"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "ARE"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "ARE"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "ARE"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

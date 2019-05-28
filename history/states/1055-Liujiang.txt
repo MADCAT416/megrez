@@ -4,14 +4,11 @@ state = {
 	manpower = 1470000
 	state_category = rural
 	history = {
-		owner = SQI
-		
-		
-		add_core_of = SQI
+		owner = AOG
+		add_core_of = AOG
 		add_core_of = QIE
-		add_core_of = GXC
-
-		
+		add_core_of = SQI
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 		}

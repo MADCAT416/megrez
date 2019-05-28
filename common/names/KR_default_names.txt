@@ -6,15 +6,15 @@
 
 default = {
 	male = {
-		names = { "존" "밥" "루카스" "마커스" "알렉산더" "알렉스" "피터" "Jonas" "짐" "요하네스"}
-		surnames = { }
-		callsigns = { }
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = {}
+		callsigns = {}
 	}
 	#female = {
-	#	names = { "줄리엣" "안나" }
-	#	surnames = { }
-	#	callsigns = { "하늘의 여왕" "붉은 공주" }
+	#	names = { "Juliette" "Anna" }
+	#	surnames = {}
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
 	#}
-	surnames = { "스미스" "존스" "테일러" "브라운" "윌리엄스" "윌슨" "에반스" "워커" "화이트" "로버츠" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "멋쟁이" "무스" "Mouse" "Pebbles" "Sunshine" Demon}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 }

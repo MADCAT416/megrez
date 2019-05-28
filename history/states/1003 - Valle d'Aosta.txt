@@ -3,13 +3,12 @@ state = {
 	name = "STATE_1003"
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
 		buildings = {
 			infrastructure = 7
-		611 = {
-				bunker = 2
+			611 = {
+				bunker = 1
 			}
 		}
 	}
@@ -18,6 +17,5 @@ state = {
 		611
 	}
 	manpower = 83500
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

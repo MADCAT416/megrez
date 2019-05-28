@@ -1,152 +1,242 @@
 ﻿capital = 298
-oob = "empty"
-
-
+OOB = "LIB"
 set_convoys = 20
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
 }
 
 set_research_slots = 2
 
+country_event = { id = LIB.1 days = 1 } #Intro event
 
+set_war_support = 0.1
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 7
 		}
-		democratic_socialist = {
-			popularity = 0
+		radical_socialist = {
+			popularity = 11
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 2
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 15
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 15
 		}
 		social_conservative = {
-			popularity = 90
+			popularity = 40
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 1
 		}
 		paternal_autocrat = {
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 4
 		}
 	}
 
 	ruling_party = social_conservative
 	last_election = "1935.4.4"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "세실 데니스"
-	picture = "Portrait_LIB_Cecil_Dennis.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
+	name = "Frank E. Tolbert"
+	desc = "POLITICS_FRANK_TOLBERT_DESC"
+	picture = "Portrait_LIB_Frank_Tolbert.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "세실 데니스"
-	picture = "Portrait_LIB_Cecil_Dennis.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-
-create_country_leader = {
-	name = "윌리엄 톨버트"
-	picture = "Portrait_LIB_William_Tolbert.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "한스 마사쿼이"
-	expire = "2000.1.1"
-	picture = "Portrait_LIB_Hans_Massaquoi.tga"
+	name = "Momolu Massaquoi"
+	desc = "POLITICS_MOMOLU_MASSAQUOI_DESC"
+	picture = "Portrait_LIB_Momolu_Massaquoi.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "윌리엄 톨버트"
-	picture = "Portrait_LIB_William_Tolbert.tga"
-	ideology = paternal_autocrat_subtype
+	name = "Edwin Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "Portrait_LIB_Edwin_Barclay.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "윌리엄 톨버트"
-	picture = "Portrait_LIB_William_Tolbert.tga"
-	ideology = national_populist_subtype
+	name = "William Tubman"
+	desc = "POLITICS_WILLIAM_TUBMAN_DESC"
+	picture = "Portrait_LIB_William_Tubman.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Louis Arthur Grimes"
+	desc = "POLITICS_LOUIS_GRIMES_DESC"
+	picture = "Portrait_LIB_Louis_Grimes.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Marcus Garvey"
+	desc = "POLITICS_MARCUS_GARVEY_DESC"
+	picture = "Portrait_LIB_Marcus_Garvey.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "James Jenkins Dossen"
+	desc = "POLITICS_JAMES_DOSSEN_DESC"
+	picture = "Portrait_LIB_James_Dossen.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "George Padmore"
+	desc = "POLITICS_GEORGE_PADMORE_DESC"
+	picture = "Portrait_LIB_George_Padmore.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
 	traits = {}
 }
 
@@ -156,6 +246,7 @@ add_ideas = {
 	LIB_Frank_Emmanuel_Tolbert_for_sco
 	LIB_George_S_Padmore_eco_sco
 	LIB_Frank_Emmanuel_Tolbert_sec_sco
+	LIB_massive_debt
 }
 
 ### Field Marshal
@@ -183,7 +274,7 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 3
 }
 
@@ -195,6 +286,10 @@ create_navy_leader = { #Auto-Generated
 		blockade_runner
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -204,4 +299,8 @@ create_navy_leader = { #Auto-Generated
 		superior_tactician
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

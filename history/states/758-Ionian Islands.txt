@@ -7,15 +7,17 @@ state = {
 
 		buildings = {
 			infrastructure = 4
-			
+			10203 = {
+				naval_base = 1
+				bunker = 1
+			}
 		}
 		add_core_of = GRE
 	}
 
 	provinces = {
-		1106
+		1106 10203
 	}
-	manpower = 100000
-	
+	manpower = 103492
 	state_category = "small_island"
 }

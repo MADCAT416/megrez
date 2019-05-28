@@ -33,8 +33,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_democrat_small.dds"
 	}
 	spriteType = {
-		name = "GFX_new_left_small"
-		texturefile = "gfx/interface/ideologies/new_left_small.dds"
+		name = "GFX_social_progressive_small"
+		texturefile = "gfx/interface/ideologies/social_progressive_small.dds"
 	}
 	spriteType = {
 		name = "GFX_social_liberal_small"
@@ -59,6 +59,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_authoritarian_democrat_small"
 		texturefile = "gfx/interface/ideologies/authoritarian_democrat_small.dds"
+	}
+	spriteType = {
+		name = "GFX_clerical_nationalist_small"
+		texturefile = "gfx/interface/ideologies/clerical_nationalist_small.dds"
 	}
 }
 

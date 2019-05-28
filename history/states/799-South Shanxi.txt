@@ -9,10 +9,10 @@ state = {
 		owner = SQI
 		add_core_of = SQI
 		add_core_of = QIE
-		
+		add_core_of = FNG
 
 		victory_points = {
-			7301 5
+			4256 15
 		}
 		buildings = {
 			infrastructure = 3

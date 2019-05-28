@@ -1,7 +1,7 @@
 state = {
 	id = 761
 	name = "STATE_761"
-	manpower = 365976
+	manpower = 243984
 
 
 	state_category = city
@@ -12,13 +12,20 @@ state = {
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+			658 = {
+				bunker = 2
+			}
+			9600 = {
+				bunker = 2
+			}
 		}
-
 		add_core_of = SWI
-
+		victory_points = {
+			9600 2
+		}
 	}
 
 	provinces = {
-		658 3641 3662 9600 3660
+		658 3641 3662 9600
 	}
 }

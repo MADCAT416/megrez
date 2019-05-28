@@ -29,7 +29,6 @@
 			"Jager"
 		}
 		unique = {
-			"Balder"
 			"Brage"
 			"Delling"
 			"Forsete"
@@ -45,8 +44,6 @@
 			"Mime"
 			"Njord"
 			"Od"
-			"Odin"
-			"Tor"
 			"Ty"
 			"Ull"
 			"Vidar"
@@ -72,14 +69,11 @@
 			"Panserskip"
 		}
 		unique = {
-			"Harald Haarfagre"
-			"Norge"
 			"Eidsvoll"
-			"Tordenskjold"
 			"Kristiania"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "KNM"
 		generic = {
 			"Slagkrysser"
@@ -88,7 +82,7 @@
 			"Gjøvik"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "KNM"
 		generic = {
 			"Slagskip"

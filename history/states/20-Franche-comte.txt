@@ -12,14 +12,19 @@ state = {
 		add_core_of = FRA
 		add_core_of = OCC
 		victory_points = {
-			6613 20
+			6613 25
+		}
+		victory_points = {
+			6786 3
 		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 1
 			air_base = 4
-
+			6613 = {
+				bunker = 3
+			}
 		}
 	}
 
@@ -27,6 +32,5 @@ state = {
 		3589 6613 6786 9590 11593
 	}
 	manpower = 1540000
-	buildings_max_level_factor = 1
 	state_category = large_city
 }

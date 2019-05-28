@@ -1,8 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "GFX_event_Lise_Meitner_dead"
-		texturefile = "gfx/event_pictures/news_megrez/event_Lise_Meitner_dead.dds"
-	}
-	
-}

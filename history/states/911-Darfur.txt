@@ -3,12 +3,10 @@ state = {
 	name = "STATE_911"
 
 	history = {
-		owner = WAF
-		add_core_of = WAF
-		add_core_of = TUA
+		owner = NFA
+		add_core_of = NFA
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
 
@@ -16,7 +14,6 @@ state = {
 		1994
 	}
 	manpower = 28000
-	buildings_max_level_factor = 1
 	state_category = wasteland
-	
+	impassable = yes
 }

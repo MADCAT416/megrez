@@ -1,164 +1,139 @@
-﻿capital = 439
+﻿capital = 431
 
 oob = "BHC"
+set_naval_oob = "BHC_naval"
 
 set_technology = {
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+}
 
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
-	
-	etc_infantry_equipments_1 = 1 # 1960
-	
-	night_vision_1 = 1 # 1960
-	
-	Bulletproof_vest_1 = 1 # 1960
-	
-	support_weapons_1 = 1 # 1960
-		
-	airborne_1 = 1 # 1960
-	
-	motorised_infantry = 1 # 1955
+### Navy - MtG ###
 
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	
-	tech_engineers_1 = 1 # 1960
-	
-	tech_military_police_1 = 1 # 1960
-	
-	tech_maintenance_company_1 = 1 # 1960
-	
-	tech_field_hospital_1 = 1 # 1960
-	
-	tech_logistics_company_1 = 1 # 1960
-	
-	tech_signal_company_1 = 1 # 1960
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
 
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
-	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
-	
-	mechanised_infantry_1 = 1 # 1960
-	
-	amphibious_assault_vehicle_1 = 1 # 1960
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
 
-### 포병
-	artillery_1 = 1 # 1955
-	
-	spa_1 = 1 # 1960
-		
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	antitank_1 = 1 # 1965
-		
-	antiair_1 = 1 # 1960
-	
-	SPAAG_1 = 1 # 1955
+### Navy - Non MtG ###
 
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-		
-### 대형함
-	battleship_1 = 1 # 1945
-		
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	
-### 항공기
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	
-	experimental_rockets = 1 # 1920
-	
-	jet_engines_1 = 1 # 1940
-	
-	atomic_research = 1 # 1940
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	
-	improved_equipment_conversion = 1 # 1937
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	rubber_processing = 1 # 1937
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
 }
 
 set_research_slots = 3
@@ -173,30 +148,25 @@ add_opinion_modifier = { target = OTT modifier = embargo }
 add_opinion_modifier = { target = TIB modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
 
-create_faction = Fourth_International
-add_to_faction = BHC
-add_to_faction = BUR 
-add_to_faction = SIA
-add_to_faction = INC
-add_to_faction = LAO
+set_war_support = 0.25
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 70
+			popularity = 22
 		}
-		democratic_socialist = {
-			popularity = 10
+		radical_socialist = {
+			popularity = 51
 		}
 		syndicalist = {
-			popularity = 20
+			popularity = 15
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 2
 		}
 		market_liberal = {
 			popularity = 0
@@ -215,37 +185,65 @@ set_politics = {
 		}
 	}
 
-	ruling_party = totalist
+	ruling_party = radical_socialist
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "야쉬완트라오 차반"
-	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	name = "Nawab Khwaja Habibullah"
+	desc = "POLITICS_NAWAB_KHWAJA_DESC"
+	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "야쉬완트라오 차반"
-	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
-	expire = "2000.1.1"
+	name = "Nawab Khwaja Habibullah"
+	desc = "POLITICS_NAWAB_KHWAJA_DESC"
+	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Iskander Mirza"
+	desc = "POLITICS_ISKANDER_MIRZA_DESC"
+	picture = "Portrait_BHC_Iskander_Mirza.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Lala Lajpat Rai"
+	desc = "POLITICS_LALA_LAJPAT_RAI_DESC"
+	picture = "Portrait_Bengal_Lala_Lajpat_Rai.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "A. K. Fazlul Huq"
+	desc = "POLITICS_FAZLUL_HUQ_DESC"
+	picture = "Portrait_BHC_A_K_Fazlul_Huq.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "인디라 간디"
-	desc = "indira_gandhi_DESC"
-	picture = "Portrait_BHC_indira_gandhi.tga"
-	expire = "2000.1.1"
+	name = "Subhas Chandra Bose"
+	desc = "POLITICS_CHANDRA_BOSE_DESC"
+	picture = "Portrait_BHC_Chandra_Bose.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
-		}
-	}
+}
 
 add_ideas = {
 	#medium_economy
@@ -253,70 +251,49 @@ add_ideas = {
 	BHC_Subhas_Chandra_Bose_for_tot
 	BHC_Lal_Bahadur_Shastri_eco_syn
 	BHC_Rafi_Ahmed_Kidwai_sec_rso
+	BHC_divided_government
+	BHC_backwards_economy_1
 }
 
 ### Field Marshal
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	create_field_marshal = { #Auto-Generated
-		name = "Subhas Chandra Bose"
-		gfx = "GFX_RAJ_subhas_chandra_bose"
-		traits = {
-			politically_connected
-			offensive_doctrine
-		}
-		skill = 4
-		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 2
-		id = 550
+create_field_marshal = { #Auto-Generated
+	name = "Subhas Chandra Bose"
+	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Chandra_Bose.tga"
+	traits = {
+		politically_connected
+		offensive_doctrine
 	}
-	else = {
-		create_field_marshal = { #Auto-Generated
-			name = "Subhas Chandra Bose"
-			portrait_path = "gfx/leaders/BHC/Portrait_BHC_Chandra_Bose.tga"
-			traits = {
-				politically_connected
-				offensive_doctrine
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 2
-			id = 550
-		}
-	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+	id = 550
 }
 
 ### Corps Commander
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	create_corps_commander = {
-		name = "Lakshmi Sahgal"
-		gfx = "GFX_RAJ_lakshmi_sahgal"
-		traits = {
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-		id = 551
-	}
+create_corps_commander = {
+	name = "Lakshmi Sahgal"
+	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Laskshmi_Sahgal.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	id = 551
+	female = yes
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Mohan Singh"
 	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Mohan_Singh.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 	id = 552
@@ -329,9 +306,9 @@ create_corps_commander = { #Auto-Generated
 		career_officer
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 	id = 553
 }
@@ -359,41 +336,9 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 	id = 555
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Gurbachan Singh"
-	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Gurbachan_Singh.tga"
-	traits = {
-		trait_cautious
-		trait_engineer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-	id = 556
-}
-
-if = {
-	limit = { NOT = { has_dlc = "Together for Victory" } }
-	create_corps_commander = { #Auto-Generated
-		name = "Sreedhar Goswami"
-		portrait_path = "gfx/leaders/BHC/Portrait_BHC_Sreedhar_Goswami.tga"
-		traits = {
-			trait_reckless
-		}
-		skill = 2
-		attack_skill = 3
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 2
-		id = 557
-	}
 }
 
 create_corps_commander = { #Auto-Generated
@@ -403,7 +348,7 @@ create_corps_commander = { #Auto-Generated
 		jungle_rat
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
@@ -427,21 +372,41 @@ create_corps_commander = { #Auto-Generated
 
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
-	name = "John Rusch"
-	portrait_path = "gfx/leaders/BHC/Portrait_BHC_John_Rusch.tga"
-	traits = {
-	}
-	skill = 2
+	name = "Kalyani Sen"
+	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Kalyani_Sen.tga"
+	traits = {}
+	skill = 1
 	id = 560
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Gaspar Tattouine"
-	portrait_path = "gfx/leaders/BHC/Portrait_BHC_Gaspar_Tattouine.tga"
-	traits = {
-		superior_tactician
+set_country_flag = arethusa_class_ship_variant
+create_equipment_variant = {
+	name = "Arethusa Class"
+	type = ship_hull_cruiser_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+		hull_specialization_slot = empty
 	}
-	skill = 1
-	id = 561
+	obsolete = yes
 }
 
+set_country_flag = river_class_ship_variant
+create_equipment_variant = {
+	name = "River Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}

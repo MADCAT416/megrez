@@ -5,16 +5,12 @@ state = {
 		5136 10883 10884 12741 12824
 	}
 	manpower = 740796
-	buildings_max_level_factor = 1
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = CNR
 		buildings = {
 			infrastructure = 3
-
 		}
 	}
 

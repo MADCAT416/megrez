@@ -1,7 +1,7 @@
 state = {
 	id = 535
 	name = "STATE_535" # Koshinetsu
-	manpower = 5419084
+	manpower = 3871000
 	state_category = large_city
 
 	resources = {
@@ -18,7 +18,6 @@ state = {
 			industrial_complex = 2
 			infrastructure = 3
 			dockyard = 1
-
 		}
 
 		victory_points = {
@@ -27,6 +26,6 @@ state = {
 	}
 
 	provinces = {
-		998 4172 7102 7187 7217 10015 10032
+		998 7102 7217 10015 10032
 	}
 }

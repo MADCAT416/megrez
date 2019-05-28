@@ -3,17 +3,14 @@ state = {
 	name = "STATE_1038"
 	history = {
 		owner = HOL
-		add_core_of = HOL
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
 	provinces = {
 		13419
 	}
 	manpower = 1870
-	
-	buildings_max_level_factor = 1
+	impassable = yes
 	state_category = wasteland
 }

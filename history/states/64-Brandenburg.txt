@@ -1,8 +1,7 @@
 state = {
 	id = 64
 	name = "STATE_64"
-	manpower = 9504783
-	buildings_max_level_factor = 1
+	manpower = 8265029
 
 	state_category = megalopolis
 
@@ -14,21 +13,18 @@ state = {
 			6521 50
 		}
 		victory_points = {
-			3522 5
+			3522 10
 		}
 		victory_points = {
-			9560 1
+			9560 3
 		}
 
 		buildings = {
-			infrastructure = 10
-			arms_factory = 5
-			industrial_complex = 6
-			radar_station = 4
-			anti_air_building = 5
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 2
 			air_base = 6
-			nuclear_reactor = 1
-
 		}
 	}
 

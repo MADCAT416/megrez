@@ -4,12 +4,12 @@ state = {
 
 	history = {
 		owner = ARG
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
-
 		}
 		add_core_of = ARG
-		
+		add_claim_by = FOP
 		victory_points = {
 			8216 1
 		}
@@ -19,6 +19,5 @@ state = {
 		8216 8253 12978 13240 13505
 	}
 	manpower = 597500
-	buildings_max_level_factor = 1
 	state_category = rural
 }

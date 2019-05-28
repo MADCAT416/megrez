@@ -9,11 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = BHC
+		owner = PRF
 		add_core_of = PRF
-		add_core_of = DEH
-		add_core_of = RAJ
-		add_core_of = BHC
+		add_claim_by = BHC
+		add_claim_by = DEH
 		victory_points = { 1349 5 } #Bombay
 		victory_points = { 12182 1 } #Poona
 		buildings = {

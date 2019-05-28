@@ -6,9 +6,8 @@ state = {
 	state_category = large_town
 
 	history = {
-		owner = MAH
-		add_core_of = MAH
-		add_core_of = ALG
+		owner = NFA
+		add_core_of = NFA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -20,7 +19,7 @@ state = {
 		victory_points = { #Batna
 			9976 2
 		}
-		victory_points = { #B?e
+		victory_points = { #Bône
 			1160 3
 		}
 	}

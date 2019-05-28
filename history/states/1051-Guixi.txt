@@ -4,12 +4,11 @@ state = {
 	manpower = 3429000
 	state_category = pastoral
 	history = {
-		owner = SQI
-		
+		owner = YUN
+		add_core_of = YUN
 		add_core_of = SQI
 		add_core_of = QIE
-
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 1
 		}

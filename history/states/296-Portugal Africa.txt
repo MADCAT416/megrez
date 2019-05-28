@@ -6,9 +6,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = WAF
-		add_core_of = WAF
-		add_core_of = GNE
+		owner = POR
+		add_core_of = CVG
 		victory_points = {
 			12747 1 # Bolama
 		}

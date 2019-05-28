@@ -2,216 +2,150 @@
 
 oob = "POL"
 
-add_ideas = {
-	#medium_economy
-	limited_conscription
-
-	#ZO_idea
-	#low_popularity
-}
-
 set_research_slots = 3
 
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	trench_warfare = 1
 }
 
-
-
 set_convoys = 40
+
+set_war_support = 0.25
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 1
+			popularity = 10
 		}
-		democratic_socialist = {
-			popularity = 1
+		radical_socialist = {
+			popularity = 0
 		}
 		syndicalist = {
-			popularity = 1
-		}
-		social_democrat = {
 			popularity = 2
 		}
+		social_democrat = {
+			popularity = 0
+		}
 		social_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 2
 		}
 		social_conservative = {
-			popularity = 5
+			popularity = 14
 		}
 		authoritarian_democrat = {
-			popularity = 40
+			popularity = 33
 		}
 		paternal_autocrat = {
-			popularity = 30
+			popularity = 22
 		}
 		national_populist = {
-			popularity = 10
+			popularity = 17
 		}
 	}
 
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
-set_stability = 0.5
-set_war_support = 0.6
+add_ideas = {
+	limited_conscription
+	POL_eternal_regency
+	POL_german_industry
+	POL_Zdzislaw_Lubomirski_hog_ade
+	POL_Jan_hr_Szembek_for_ade
+	POL_Andrzej_Wierzbicki_eco_ade
+	POL_Stanislaw_Bukowiecki_sec_ade
+}
 
 create_country_leader = {
-	name = "볼레스와프 피아세츠키"
-	desc = "Boleslaw_Piasecki_DESC"
-	picture = "Portrait_POL_Boleslaw_Piasecki.tga"
-	expire = "2000.1.1"
+	name = "Roman Dmowski"
+	desc = "POLITICS_ROMAN_DWOWSKI_DESC"
+	picture = "Portrait_Poland_Roman_Dmowski.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "Władysław Sikorski"
+	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	picture = "Portrait_Poland_Sikorski.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "Regency Council"
+	desc = "POLITICS_POL_REGENCY_DESC"
+	picture = "Portrait_Poland_Regency_Council.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "The Sejm"
+	desc = "POLITICS_POL_SEJM_DESC"
+	picture = "Portrait_Poland_Sejm.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "The Sejm"
+	desc = "POLITICS_POL_SEJM_DESC"
+	picture = "Portrait_Poland_Sejm.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "The Sejm"
+	desc = "POLITICS_POL_SEJM_DESC"
+	picture = "Portrait_Poland_Sejm.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마리아 에마누엘 1세"
-	desc = "Maria_Emanuel_DESC"
-	picture = "Portrait_POL_Maria_Emanuel.tga"
-	expire = "2000.1.1"
+	name = "The Sejm"
+	desc = "POLITICS_POL_SEJM_DESC"
+	picture = "Portrait_Poland_Sejm.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "브와디스와프 고무우카"
-	desc = "Wladyslaw_Gomulka_DESC"
-	picture = "Portrait_POL_Wladyslaw_Gomulka.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "브와디스와프 고무우카"
-	desc = "Wladyslaw_Gomulka_DESC"
-	picture = "Portrait_POL_Wladyslaw_Gomulka.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "에드바르트 기에레크"
-	desc = "Edward_Gierek_DESC"
-	picture = "Portrait_POL_Edward_Gierek.tga"
-	expire = "2000.1.1"
+	name = "Feliks Dzierzynski"
+	desc = "POLITICS_FELIKIS_DZIERZYNSKI_DESC"
+	picture = "Portrait_Poland_Feliks_Dzierzynski.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
-}
-
-add_ideas = {
-	#medium_economy
-	POL_Zdzislaw_Lubomirski_hog_ade
-	POL_Jan_hr_Szembek_for_ade
-	POL_Andrzej_Wierzbicki_eco_ade
-	POL_Stanislaw_Bukowiecki_sec_ade
 }
 
 ### Field Marshal
@@ -225,10 +159,10 @@ create_field_marshal = {
 		defensive_doctrine
 	}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -242,9 +176,9 @@ create_field_marshal = {
 		inspirational_leader
 	}
 	skill = 3
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -256,7 +190,7 @@ create_field_marshal = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -269,10 +203,10 @@ create_field_marshal = {
 		skilled_staffer
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 ### Corps Commander
@@ -285,7 +219,7 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 4
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -299,7 +233,7 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 5
+	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
 }
@@ -313,9 +247,9 @@ create_corps_commander = {
 		guerilla_fighter
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
 	logistics_skill = 2
 }
 
@@ -328,15 +262,14 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Stanislaw Magnuszewski"
 	portrait_path = "gfx/leaders/POL/Portrait_Poland_Stanislaw_Magnuszewski.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -353,7 +286,7 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -365,10 +298,10 @@ create_corps_commander = {
 		ranger
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -379,8 +312,8 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -392,10 +325,10 @@ create_corps_commander = {
 		panzer_leader
 	}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -405,7 +338,7 @@ create_corps_commander = {
 		old_guard
 	}
 	skill = 1
-	attack_skill = 3
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
@@ -414,12 +347,10 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Wacław Stachiewicz"
 	portrait_path = "gfx/leaders/POL/Portrait_Poland_Waclaw_Stachiewicz.tga"
-	traits = {
-
-	}
+	traits = {}
 	skill = 2
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 2
 }
@@ -441,8 +372,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Bolesaw Wieniawa Dugoszewski"
 	portrait_path = "gfx/leaders/POL/Portrait_Poland_Bolesaw_Wieniawa_Dugoszewski.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -472,7 +402,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Jerzy Świrski"
 	portrait_path = "gfx/leaders/POL/Portrait_POL_Jerzy_Swirski.tga"
-	traits = {	}
+	traits = {}
 	skill = 2
 }
 

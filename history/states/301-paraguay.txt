@@ -3,21 +3,19 @@ state = {
 	name = "STATE_301"
 
 	history = {
-		owner = ARG
+		owner = PAR
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
-
 		}
 		add_core_of = PAR
-		add_core_of = ARG
 		victory_points = {
-			2152 25
+			2152 15
 		}
 		victory_points = {
-			13247 10
+			13247 5
 		}
 	}
 
@@ -25,6 +23,5 @@ state = {
 		2152 2173 2194 11023 12901 13247
 	}
 	manpower = 890100
-	buildings_max_level_factor = 1
 	state_category = town
 }

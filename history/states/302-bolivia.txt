@@ -5,7 +5,7 @@ state = {
 		tungsten = 25
 	}
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = BOL
@@ -14,11 +14,10 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
-
 		}
 		add_core_of = BOL
 		victory_points = {
-			5230 30
+			5230 15
 		}
 	}
 
@@ -26,5 +25,4 @@ state = {
 		13195 5230 8225 5188 13174
 	}
 	manpower = 521500
-	buildings_max_level_factor = 1
 }

@@ -1,0 +1,45 @@
+﻿LAT = {
+	submarine = {
+		prefix = ""
+		generic = { "Zemudene" }
+		unique = {
+			"Ronis"
+			"Spidola"
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Iznicinatajs" }
+		unique = {}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Gaismas Kruizeri" }
+		unique = {
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Smagais Kruizeri" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Linijkreiseris" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = ""
+		generic = { "Linijkugis" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Lidmasinu Parvadatajs" }
+		unique = {
+		}
+	}
+}

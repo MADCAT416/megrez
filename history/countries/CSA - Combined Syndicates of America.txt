@@ -1,291 +1,161 @@
-﻿capital = 361
-oob = "CSA"
+﻿capital = 395
+OOB = "empty"
 
 set_technology = {
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+}
 
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
-	infantry_weapons_3 = 1 # 1965
-	
-	etc_infantry_equipments_1 = 1 # 1960
-	etc_infantry_equipments_2 = 1 # 1965
-	
-	night_vision_1 = 1 # 1960
-	night_vision_2 = 1 # 1965
-	
-	Bulletproof_vest_1 = 1 # 1960
-	Bulletproof_vest_2 = 1 # 1965
-	
-	support_weapons_1 = 1 # 1960
-	support_weapons_2 = 1 # 1965
-	
-	tech_special_forces = 1 # 1960
-	
-	airborne_1 = 1 # 1960
-	airborne_2 = 1 # 1965
-	
-	motorised_infantry = 1 # 1955
+### Navy - MtG ###
 
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	tech_recon_2 = 1 # 1965
-	
-	tech_engineers_1 = 1 # 1960
-	tech_engineers_2 = 1 # 1965
-	
-	tech_military_police_1 = 1 # 1960
-	tech_military_police_2 = 1 # 1065
-	
-	tech_maintenance_company_1 = 1 # 1960
-	tech_maintenance_company_2 = 1 # 1965
-	
-	tech_field_hospital_1 = 1 # 1960
-	tech_field_hospital_2 = 1 # 1965
-	
-	tech_logistics_company_1 = 1 # 1960
-	tech_logistics_company_2 = 1 # 1965
-	
-	tech_signal_company_1 = 1 # 1960
-	tech_signal_company_2 = 1 # 1965
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
 
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
-	main_battle_tank_3 = 1 # 1965
-	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
-	light_tank_3 = 1 # 1965
-	
-	light_airborne_1 = 1 # 1965
-	
-	mechanised_infantry_1 = 1 # 1960
-	mechanised_infantry_2 = 1 # 1965
-	
-	armored_personnel_carrier_1 = 1 # 1965
-	
-	airborne_ifv_1 = 1 # 1965
-	
-	amphibious_assault_vehicle_1 = 1 # 1960
-	amphibious_assault_vehicle_2 = 1 # 1965
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		torpedo_tech_three = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		gunnery_tech_three = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		fbb_gunnery_tech_two = 1
+		fbb_gunnery_tech_three = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_gunnery_tech_one = 1
+		dn_gunnery_tech_two = 1
+		dn_gunnery_tech_three = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		carrier_armoured_deck = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
 
-### 포병
-	artillery_1 = 1 # 1955
-	artillery_2 = 1 # 1965
-	
-	spa_1 = 1 # 1960
-	
-	artillery_engineering_1 = 1 # 1965
-	
-	motorized_rocket_1 = 1 # 1955
-	motorized_rocket_2 = 1 # 1965
-	
-	antitank_engineering_1 = 1 # 1965
-	
-	infantry_at_1 = 1 # 1955
-	infantry_at_2 = 1 # 1965
-	
-	antitank_1 = 1 # 1965
-	
-	manpads_1 = 1 # 1965
-	
-	antiair_1 = 1 # 1960
-	antiair_2 = 1 # 1965
-	
-	SPAAG_1 = 1 # 1955
-	SPAAG_2 = 1 # 1965
+### Navy - Non MtG ###
 
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	frigate_4 = 1 # 1960
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-	destroyer_4 = 1 # 1960
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-	cruiser_4 = 1 # 1960
-	
-	battle_cruiser_1 = 1 # 1955
-	
-### 대형함
-	battleship_1 = 1 # 1945
-	
-	carrier_1 = 1 # 1945
-	carrier_2 = 1 # 1950
-	carrier_3 = 1 # 1955
-	carrier_4 = 1 # 1960
-	
-	super_carrier_1 = 1 # 1955
-	super_carrier_2 = 1 # 1960
-	
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-	amphibious_assault_carrier_4 = 1 # 1960
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-	submarine_4 = 1 # 1960
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	large_submarine_4 = 1 # 1960
-	
-	nuclear_attack_submarine_1 = 1 # 1955
-	nuclear_attack_submarine_2 = 1 # 1960
-	
-	nuclear_cruise_missile_submarine_1 = 1 # 1955
-	nuclear_cruise_missile_submarine_2 = 1 # 1960
-
-### 항공기
-	jet_fighter_1 = 1 # 1960
-	
-	cv_jet_fighter_1 = 1 # 1960
-	
-	heavy_jet_fighter_1 = 1 # 1960
-	
-	cv_heavy_jet_fighter_1 = 1 # 1960
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-	strategic_bomber_2 = 1 # 1950
-	strategic_bomber_3 = 1 # 1955
-	strategic_bomber_4 = 1 # 1960
-	
-	jet_strategic_bomber_1 = 1 # 1950
-	jet_strategic_bomber_2 = 1 # 1955
-	jet_strategic_bomber_3 = 1 # 1960
-	
-	supersonic_strategic_bomber_1 = 1 # 1955
-	supersonic_strategic_bomber_2 = 1 # 1960
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-	
-	heliborne_1 = 1 # 1965
-	
-	attack_helicopter_1 = 1 # 1965
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	future_radar = 1 # 1945
-	future_radar_2 = 1 # 1949
-	future_radar_3 = 1 # 1953
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	rdf4 = 1 # 1945
-	rdf5 = 1 # 1949
-	rdf6 = 1 # 1953
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	future_computing_machine_2 = 1 # 1947
-	future_computing_machine_3 = 1 # 1951
-	future_computing_machine_4 = 1 # 1955
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	future_encryption = 1 # 1944
-	future_encryption_2 = 1 # 1947
-	future_encryption_3 = 1 # 1951
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	future_decryption = 1 # 1944
-	future_decryption_2 = 1 # 1947
-	future_decryption_3 = 1 # 1951
-	
-	experimental_rockets = 1 # 1920
-	heavy_rocket_engine_1 = 1 # 1943
-	heavy_rocket_engine_2 = 1 # 1947
-	heavy_rocket_engine_3 = 1 # 1951
-	
-	ballistic_missile_1 = 1 # 1955
-	ballistic_missile_2 = 1 # 1960
-	
-	jet_engines_1 = 1 # 1940
-	jet_engines_2 = 1 # 1950
-	jet_engines_3 = 1 # 1960
-	
-	atomic_research = 1 # 1940
-	nuclear_reactor = 1 # 1943
-	nukes = 1 # 1945
-	nukes_2 = 1 # 1951
-	nuke_naval = 1 # 1948
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	assembly_line_production = 1 # 1941
-	
-	improved_equipment_conversion = 1 # 1937
-	advanced_equipment_conversion = 1 # 1941
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	improved_oil_processing = 1 # 1939
-	advanced_oil_processing = 1 # 1941
-	modern_oil_processing = 1 # 1943
-	rubber_processing = 1 # 1937
-	improved_rubber_processing = 1 # 1939
-	advanced_rubber_processing = 1 # 1941
-	modern_rubber_processing = 1 # 1943
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	construction_a = 1 # 1945
-	construction_b = 1 # 1948
-	construction_c = 1 # 1951
-	construction_d = 1 # 1954
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-	excavation_a = 1 # 1945
-	excavation_b = 1 # 1948
-	excavation_c = 1 # 1951
-	excavation_d = 1 # 1954
-
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
 }
 
 set_research_slots = 4
 set_convoys = 50
-set_stability = 0.60
-set_war_support = 0.50
+set_stability = 0.55
+set_war_support = 0.65
 
 
 add_opinion_modifier = { target = CAL modifier = embargo }
@@ -303,16 +173,16 @@ set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 10
+			popularity = 12
 		}
-		democratic_socialist = {
-			popularity = 15
+		radical_socialist = {
+			popularity = 14
 		}
 		syndicalist = {
-			popularity = 60
+			popularity = 62
 		}
 		social_democrat = {
-			popularity = 15
+			popularity = 12
 		}
 		social_liberal = {
 			popularity = 0
@@ -335,77 +205,66 @@ set_politics = {
 	}
 
 	ruling_party = syndicalist
-	last_election = "1888.15.6"
+	last_election = "1936.11.08"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "조지 미니"
-	desc = "George_Meany_DESC"
-	picture = "Portrait_CSA_George_Meany.tga"
-	expire = "2000.1.1"
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_CSA_Jack_Reed.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "조지 미니"
-	desc = "George_Meany_DESC"
-	picture = "Portrait_CSA_George_Meany.tga"
-	expire = "2000.1.1"
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_CSA_Jack_Reed.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "조지 미니"
-	desc = "George_Meany_DESC"
-	picture = "Portrait_CSA_George_Meany.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "퍼렐 돕스"
-	desc = "Farrell_Dobbs_DESC"
-	picture = "Portrait_CSA_Farrell_Dobbs.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_CSA_Jack_Reed.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 add_ideas = {
-	#medium_economy
-	### Head of Government
-	CSA_Max_Shachtman_hog_rso
-	### Foreign Minister
+	CSA_Elizabeth_Gurly_Flynn_hog_syn
 	CSA_Ralph_Chaplin_for_syn
-	### Eco minister
-	CSA_Paul_Mattick_eco_syn
-	### Intelligence Minister
-	CSA_Arturo_Giovannitti_sec_syn
+	CSA_Upton_Sinclair_eco_rso
+	CSA_Steve_Nelson_sec_tot
 }
 
 ### Field Marshal
 create_field_marshal = {# Smedley Butler
 	name = "Smedley Butler"
+	desc = "CSA_SMEDLEY_BUTLER_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_G.tga"
 	traits = {
 		war_hero
-		politically_connected
 		offensive_doctrine
 		inspirational_leader
 		commando
 	}
 	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+	id = 960
 }
 
 ### Corps Commander
 create_corps_commander = {# Maurice Rose
 	name = "Maurice Rose"
+	desc = "CSA_MAURICE_ROSE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Maurice_Rose.tga"
 	traits = {
 		armor_officer
@@ -420,104 +279,115 @@ create_corps_commander = {# Maurice Rose
 }
 create_corps_commander = {# Milton Wolff
 	name = "Milton Wolff"
+	desc = "CSA_MILTON_WOLFF_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_milton_wolff.tga"
 	traits = {
 		career_officer
 		infantry_officer
 		trickster
 	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {# Edward A. Carter Jr
 	name = "Edward A. Carter Jr."
+	desc = "CSA_EDWARD_CARTER_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_edward_carter.tga"
 	traits = {
 		trait_reckless
 		armor_officer
 		panzer_leader
 	}
-	skill = 2
-	attack_skill = 4
-	defense_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
-create_corps_commander = {# Joseph Beyrle
-	name = "Joseph Beyrle"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_joseph_beyrle.tga"
-	traits = {
-		inflexible_strategist
-		infantry_officer
-		trait_engineer
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
+
 create_corps_commander = {# George H. Cannon
 	name = "George H. Cannon"
+	desc = "CSA_GEORGE_H_CANNON_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_cannon.tga"
 	traits = {
 		trait_reckless
 		trickster
 		commando
 	}
-	skill = 3
-	attack_skill = 4
+	skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {# Benjamin Katine
 	name = "Benjamin Katine"
+	desc = "CSA_BENJAMIN_KATINE_ARMY_DESC"
 	id = 962
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_benjamin_katine.tga"
 	traits = {}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {# James Patrick Murphy
 	name = "James Patrick Murphy"
+	desc = "CSA_JAMES_PATRICK_MURPHY_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_james_murphy.tga"
 	traits = {
 		trait_reckless
 		armor_officer
 		panzer_leader
 	}
-	skill = 2
-	attack_skill = 4
-	defense_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
 create_corps_commander = {# John Tisa
 	name = "John Tisa"
+	desc = "CSA_JOHN_TISA_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_john_tisa.tga"
 	traits = {}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {# Herbert Holdridge
-	name = "Herbert Holdridge"
+	name = "Herbert Charles Heitke"
+	desc = "CSA_HERBERT_HOLDRIDGE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_herbert_holdridge.tga"
-	traits = {trickster}
-	skill = 2
+	traits = {
+		trickster
+		inflexible_strategist
+	}
+	skill = 3
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 2
+}
+create_corps_commander = {# Oliver Law
+	name = "Oliver Law"
+	desc = "CSA_OLIVER_LAW_ARMY_DESC"
+	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Oliver_Law.tga"
+	traits = {
+		trickster
+		trait_reckless
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 ### Navy Leader
@@ -526,7 +396,11 @@ create_navy_leader = {# George Whelan Anderson Jr.
 	name = "George Whelan Anderson Jr."
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_anderson.tga"
 	traits = {superior_tactician air_controller}
-	skill = 4 #naval guy, don't patch
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 create_navy_leader = {# Hyman G. Rickover
 	name = "Hyman G. Rickover"
@@ -535,35 +409,613 @@ create_navy_leader = {# Hyman G. Rickover
 		seawolf
 		superior_tactician
 	}
-	skill = 4 #naval guy, don't patch
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 create_navy_leader = {# Hugh Mulzac
 	name = "Hugh Mulzac"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_hugh_mulzac.tga"
 	traits = {blockade_runner}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 create_navy_leader = {# Willard J. Smith
 	name = "Willard J. Smith"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_willard_smith.tga"
 	traits = {fly_swatter}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 create_navy_leader = {# Youngblood Nance
 	name = "Youngblood Nance"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_youngblood_nance.tga"
 	traits = {seawolf}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {# Arthur S. Carpender
 	name = "Arthur S. Carpender"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_arthur_carpender.tga"
 	traits = {ironside}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {# William R. Furlong
 	name = "William R. Furlong"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_william_furlong.tga"
 	traits = {}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Wyoming Class" #in service of GRE
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "South Carolina Class" #in service with SWE
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "New York Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Nevada Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Pennsylvania Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "New Mexico Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Tennessee Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Colorado Class"
+	type = ship_hull_dreadnought_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb_2
+		front_1_custom_slot = ship_super_heavy_battery_1
+		mid_1_custom_slot = ship_super_heavy_battery_1
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_super_heavy_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "South Dakota Class"
+	type = ship_hull_dreadnought_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb_2
+		front_1_custom_slot = ship_super_heavy_battery_1
+		mid_1_custom_slot = ship_super_heavy_battery_1
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_super_heavy_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Missouri Class"
+	type = ship_hull_dreadnought_4
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_3
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_shbb_3
+		front_1_custom_slot = ship_super_heavy_battery_2
+		front_2_custom_slot = ship_super_heavy_battery_2
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_super_heavy_battery_2
+	}
+}
+
+create_equipment_variant = {
+	name = "Nebraska Class"
+	type = ship_hull_dreadnought_4
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_3
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_shbb_3
+		front_1_custom_slot = ship_super_heavy_battery_2
+		front_2_custom_slot = ship_super_heavy_battery_2
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_super_heavy_battery_2
+	}
+}
+
+create_equipment_variant = {
+	name = "Yorktown Class"
+	type = ship_hull_heavy_carrier_1
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 =  ship_deck_space
+		fixed_ship_deck_slot_2 =  ship_heavy_secondaries_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		front_1_custom_slot = ship_deck_space
+		rear_1_custom_slot = ship_deck_space
+	}
+}
+
+create_equipment_variant = {
+	name = "Langley Class"
+	type = ship_hull_carrier_2
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space_10
+		fixed_ship_deck_slot_2 = ship_deck_space_10
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = carrier_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		front_1_custom_slot = ship_deck_space_10
+	}
+}
+
+create_equipment_variant = {
+	name = "Lexington Class"
+	type = ship_hull_fast_battleship_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Pennsylvania Class Cruiser"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Tennessee Class Cruiser"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Northampton Class"
+	type = ship_hull_panzerschiff_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Omaha Class"
+	type = ship_hull_cruiser_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		hull_specialization_slot = empty
+	}
+}
+
+create_equipment_variant = {
+	name = "Sampson Class" #in service with GRE
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Smith Class" #in service with EGY
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Caldwell Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Wickes Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Clemson Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Litchfield Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Farragut Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Porter Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Barracuda Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Argonaut Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Narwhal Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "O Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "R Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "S Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Dolphin Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Cachalot Class"
+	type = ship_hull_submarine_4
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Porpoise Class"
+	type = ship_hull_submarine_4
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Shark Class"
+	type = ship_hull_submarine_4
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
 }

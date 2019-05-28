@@ -1,64 +1,63 @@
 ﻿capital = 304
-oob = "empty"
+OOB = "PAN"
 set_convoys = 10
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
 }
 
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+country_event = {
+	id = panama.1 days = 1
+}
+country_event = {
+	id = panama.17 days = 1300
+}
 set_stability = 0.55
-set_war_support = 0.45
+set_war_support = 0.15
 
 set_politics = {
 
@@ -66,142 +65,127 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 5
-		}
 		syndicalist = {
-			popularity = 14
+			popularity = 0
+		}
+		radical_socialist = {
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 2
 		}
 		social_liberal = {
-			popularity = 7
+			popularity = 21
 		}
 		market_liberal = {
-			popularity = 8
+			popularity = 14
 		}
 		social_conservative = {
-			popularity = 15
+			popularity = 3
 		}
 		authoritarian_democrat = {
-			popularity = 6
+			popularity = 37
 		}
 		paternal_autocrat = {
-			popularity = 5
+			popularity = 20
 		}
 		national_populist = {
-			popularity = 30
+			popularity = 3
 		}
 	}
 
-	ruling_party = national_populist
-	last_election = "1888.15.6"
+	ruling_party = authoritarian_democrat
+	last_election = "1932.4.19"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 add_ideas = {
 	#medium_economy
-
-	PAN_Arnulfo_Arias_de_la_Madrid_hog_mli
-	PAN_Narciso_Garay_Diaz_for_sli
-	PAN_Daniel_C_Pinzon_eco_mli
-	PAN_Raoul_Arias_Amador_sec_sco
-
+	CEN_monroe_doctrine
+	PNM_national_police
+	PAN_economic_depression
+	PAN_Harmodio_Arias_de_la_Madrid_hog_ade
+	PAN_Jose_Pezet_Arosemena_eco_ade
+	PAN_Raul_de_Roux_Garcia_for_ade
+	PAN_Samuel_Lewis_Aranga_sec_ade
 }
 
 create_country_leader = {
-	name = "루벤 다리오 소우사 바티스타"
-	picture = "Portrait_PAN_Ruben_Dario_Sousa_Batista.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "루벤 다리오 소우사 바티스타"
-	picture = "Portrait_PAN_Ruben_Dario_Sousa_Batista.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "루벤 다리오 소우사 바티스타"
-	picture = "Portrait_PAN_Ruben_Dario_Sousa_Batista.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "다비드 사무디오 아빌라"
-	picture = "Portrait_PAN_David_Samudio_Avila.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "다비드 사무디오 아빌라"
-	picture = "Portrait_PAN_David_Samudio_Avila.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "안토니오 곤살레스 레비야"
-	picture = "Portrait_PAN_Antonio_Gonzalez_Revilla.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "안토니오 곤살레스 레비야"
-	picture = "Portrait_PAN_Antonio_Gonzalez_Revilla.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아르눌포 아리아스"
-	picture = "Portrait_PAN_Arnulfo_Arias.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아르눌포 아리아스"
-	picture = "Portrait_PAN_Arnulfo_Arias.tga"
-	expire = "2000.1.1"
+	name = "Manuel Pino"
+	desc = "POLITICS_MANUEL_PINO_DESC"
+	picture = "Portrait_PAN_Manuel_Pino.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "오마르 토리요스"
-	picture = "Portrait_PAN_Omar_Torrijos.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Harmodio Arias Madrid"
+	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+	picture = "Portrait_PAN_Harmodio_Arias_Madrid_our.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Juan Demostenes Arosemena"
+	desc = "POLITICS_JUAN_AROSEMENA_DESC"
+	picture = "Portrait_PAN_Juan_Demostenes_Arosemena.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ricardo Alfaro Jované"
+	desc = "POLITICS_RICARDO_JOAQUIN_ALFARO_JOVANE_DESC"
+	picture = "Portrait_PAN_Ricardo_Jovane.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
 	traits = {}
 }
 
 ### Field Marshal
 ### Corps Commander
+create_field_marshal = {
+	name = "Manuel Pino"
+	desc = "ARMY_PAN_MANUEL_PINO_DESC"
+	picture = "Portrait_PAN_Manuel_Pino.tga"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
 create_corps_commander = {
 	name = "Boris Nestor Martinez Salazar"
-	portrait_path = "gfx/leaders/PAN/Portrait_PAN_Boris_Salazar.tga"
+	desc = "ARMY_PAN_BORIS_NESTOR_MARTINEZ_SALAZAR_DESC"
+	picture = "Portrait_PAN_Boris_Salazar.tga"
+	traits = {
+		organizer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jose Antonio Remon Cantera"
+	desc = "ARMY_PAN_JOSE_ANTONIO_REMON_CANTERA_DESC"
+	picture = "Portrait_PAN_Jose_Antonio_Remon_Cantera.tga"
 	traits = {
 		organizer
 	}
 	skill = 2
-	attack_skill = 1
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 3
+	logistics_skill = 2
 }

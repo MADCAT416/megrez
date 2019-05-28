@@ -12,29 +12,32 @@ state = {
 	}
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
 		victory_points = {
-			6780 5
+			6780 20
 		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 4
 			industrial_complex = 2
-			radar_station = 2
-			anti_air_building = 1
-			770 = {
-				bunker = 2
-			}
 			11721 = {
-				bunker = 2
+				bunker = 1
 			}
 			9738 = {
-				bunker = 2
+				bunker = 1
 			}
 			6780 = {
+				bunker = 1
+			}
+			6635 = {
 				bunker = 2
+			}
+			776 = {
+				bunker = 3
+			}
+			11726 = {
+				bunker = 3
 			}
 		}
 	}

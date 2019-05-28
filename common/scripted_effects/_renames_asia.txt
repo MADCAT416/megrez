@@ -1,0 +1,2306 @@
+do_japanese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 336
+				NOT = {
+					has_state_flag = renamed_state_japanese
+				}
+			}
+		}
+		336 = {
+			set_state_name = "쇼난도"
+			set_state_flag = renamed_state_japanese
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 12299
+			name = "쇼난도"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 524
+				has_state_flag = renamed_state_chinese
+			}
+		}
+		524 = {
+			set_state_name = endo_state_524
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 7186
+			name = endo_vp_7186
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 525
+				has_state_flag = renamed_state_korean
+			}
+		}
+		525 = {
+			set_state_name = endo_state_525
+			clr_state_flag = renamed_state_korean
+		}
+		set_province_name = {
+			id = 4056
+			name = endo_vp_4056
+		}
+		set_province_name = {
+			id = 7125
+			name = endo_vp_7125
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 527
+				has_state_flag = renamed_state_korean
+			}
+		}
+		527 = {
+			set_state_name = endo_state_527
+			clr_state_flag = renamed_state_korean
+		}
+		set_province_name = {
+			id = 4052
+			name = endo_vp_4052
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 537
+				has_state_flag = renamed_state_russian
+			}
+		}
+		537 = {
+			set_state_name = endo_state_537
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 12446
+			name = endo_vp_12446
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 555
+				has_state_flag = renamed_state_russian
+			}
+		}
+		555 = {
+			set_state_name = endo_state_555
+			clr_state_flag = renamed_state_russian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 655
+				has_state_flag = renamed_state_russian
+			}
+		}
+		655 = {
+			set_state_name = endo_state_655
+			clr_state_flag = renamed_state_russian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 745
+				OR = {
+					has_state_flag = renamed_state_chinese
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		745 = {
+			set_state_name = endo_state_745
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 1150
+			name = endo_vp_1150
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				NOT = {
+					has_state_flag = renamed_state_japanese
+				}
+			}
+		}
+		822 = {
+			set_state_flag = renamed_state_japanese
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "사바"
+			set_province_name = {
+				id = 10212
+				name = "아피"
+			}
+			set_province_name = {
+				id = 10199
+				name = "산다칸"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 859
+				OR = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		859 = {
+			set_state_name = endo_state_859
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 12068
+			name = endo_vp_12068
+		}
+	}
+}
+
+do_russian_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 405
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		405 = {
+			set_state_name = "카르시"
+			set_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 9605
+			name = "카르시"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 537
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		537 = {
+			set_state_name = "유즈니 사할린"
+			set_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 12446
+			name = "블라디미롭카"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 555
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		555 = {
+			set_state_name = "쿠릴스키예 오스트로바"
+			set_state_flag = renamed_state_russian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 584
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		584 = {
+			set_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 10742
+			name = "차르드주이"
+		}
+		set_province_name = {
+			id = 12333
+			name = "아슈하바트"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 585
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		585 = {
+			set_state_name = "시르다리야"
+			set_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 10353
+			name = "페롭스크"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 655
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		655 = {
+			set_state_name = "사할린"
+			set_state_flag = renamed_state_russian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 745
+				NOT = {
+					has_state_flag = renamed_state_russian
+				}
+			}
+		}
+		745 = {
+			set_state_name = "달니"
+			set_state_flag = renamed_state_russian
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 1150
+			name = "달니"
+		}
+	}
+}
+
+do_chinese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 524
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		524 = {
+			set_state_name = "타이페이"
+			set_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 7186
+			name = "타이페이"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 745
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		745 = {
+			set_state_name = "다롄"
+			set_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 1150
+			name = "다롄"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 859
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		859 = {
+			set_state_name = "가오슝"
+			set_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_TAI
+		}
+		set_province_name = {
+			id = 12068
+			name = "가오슝"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		72 = {
+			set_state_name = "동지"
+			set_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7603
+			name = "동지"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 756
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		756 = {
+			set_state_name = "멩젠"
+			set_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7909
+			name = "징동"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 701
+				NOT = {
+					has_state_flag = renamed_state_chinese
+				}
+			}
+		}
+		701 = {
+			set_state_name = "케친"
+			set_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_kachin
+			clr_state_flag = renamed_state_burmese
+		}
+		set_province_name = {
+			id = 8063
+			name = "미지나"
+		}
+	}
+}
+
+do_korean_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 525
+				NOT = {
+					has_state_flag = renamed_state_korean
+				}
+			}
+		}
+		525 = {
+			set_state_name = "남조선"
+			set_state_flag = renamed_state_korean
+		}
+		set_province_name = {
+			id = 4056
+			name = "부산"
+		}
+		set_province_name = {
+			id = 7125
+			name = "서울"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 527
+				NOT = {
+					has_state_flag = renamed_state_korean
+				}
+			}
+		}
+		527 = {
+			set_state_name = "북조선"
+			set_state_flag = renamed_state_korean
+		}
+		set_province_name = {
+			id = 4052
+			name = "평양"
+		}
+	}
+}
+
+do_german_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 333
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_english
+					has_state_flag = renamed_state_dutch
+				}
+			}
+		}
+		333 = {
+			set_state_name = endo_state_333
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_dutch
+		}
+		set_province_name = {
+			id = 1208
+			name = endo_vp_1208
+		}
+		set_province_name = {
+			id = 7371
+			name = endo_vp_7371
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 334
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		334 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "베스트보어네오"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 335
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		335 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "미틀야바"
+		}
+		set_province_name = {
+			id = 10135
+			name = "요그야카르타"
+		}
+		set_province_name = {
+			id = 7421
+			name = "반둥"
+		}
+		set_province_name = {
+			id = 1413
+			name = "사마랑"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 336
+				OR = {
+					has_state_flag = renamed_state_english
+					has_state_flag = renamed_state_thai
+					has_state_flag = renamed_state_japanese
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		336 = {
+			set_state_name = endo_state_336
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_japanese
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 12299
+			name = endo_vp_12299
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 422
+				has_state_flag = renamed_state_portuguese
+			}
+		}
+		422 = {
+			set_state_name = endo_state_422
+			clr_state_flag = renamed_state_portuguese
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 667
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		667 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "클레인준다"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 668
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		668 = {
+			set_state_name = endo_state_668
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 669
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		669 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "노드베스트노이기니"
+		}
+		set_province_name = {
+			id = 12371
+			name = "게르마니아"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 672
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		672 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "오스트주마트라"
+		}
+		set_province_name = {
+			id = 12181
+			name = "Pakanbaroe"
+		}
+		set_province_name = {
+			id = 12113
+			name = "Tanjung Penang"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 673
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		673 = {
+			set_state_name = endo_state_673
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 738
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		738 = {
+			set_state_name = endo_state_738
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_japanese
+				}
+			}
+		}
+		822 = {
+			set_state_name = endo_state_822
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_japanese
+		}
+		set_province_name = {
+			id = 10212
+			name = endo_vp_10212
+		}
+		set_province_name = {
+			id = 10199
+			name = endo_vp_10199
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 843
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		843 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "쥐트베스트노이기니"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1016
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1016 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "오스트보어네오"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1017
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1017 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "베스트티모르"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1018
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1018 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "Flores-Inseln"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1019
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1019 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "오스트야바"
+		}
+		set_province_name = {
+			id = 4608
+			name = "Soerabaya"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1020
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		1020 = {
+			set_state_name = endo_state_1020
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 7381
+			name = endo_vp_7381
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1021
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1021 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "쥐트주마트라"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1022
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1022 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "Mittelsumatra"
+		}
+		set_province_name = {
+			id = 10354
+			name = "Bukittinggi"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1023
+				NOT = {
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1023 = {
+			set_state_flag = renamed_state_german
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "Nordsumatra"
+		}
+	}
+}
+
+do_english_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 333
+				NOT = {
+					has_state_flag = renamed_state_english
+				}
+			}
+		}
+		333 = {
+			set_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_dutch
+			set_state_name = "사라왁"
+			set_province_name = {
+				id = 1208
+				name = "쿠칭"
+			}
+			set_province_name = {
+				id = 7371
+				name = "브루나이타운"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_japanese
+				}
+			}
+		}
+		822 = {
+			set_state_name = endo_state_822
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_japanese
+		}
+		set_province_name = {
+			id = 10212
+			name = endo_vp_10212
+		}
+		set_province_name = {
+			id = 10199
+			name = endo_vp_10199
+		}
+	}
+}
+
+do_portuguese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 422
+				NOT = {
+					has_state_flag = renamed_state_portuguese
+				}
+			}
+		}
+		422 = {
+			set_state_name = "Ceilão"
+			set_state_flag = renamed_state_portuguese
+		}
+	}
+}
+
+do_insuldian_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 333
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		333 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_dutch
+			set_state_name = "Sarawak"
+			set_province_name = {
+				id = 1208
+				name = "쿠칭"
+			}
+			set_province_name = {
+				id = 7371
+				name = "반다르브루나이"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 334
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		334 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "칼리만탄바랏"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 335
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		335 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "자와틍와"
+		}
+		set_province_name = {
+			id = 10135
+			name = "욕야카르타"
+		}
+		set_province_name = {
+			id = 7421
+			name = "반둥"
+		}
+		set_province_name = {
+			id = 1413
+			name = "세마랑"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 336
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		336 = {
+			set_state_name = "싱가푸라"
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_japanese
+		}
+		set_province_name = {
+			id = 12299
+			name = "싱가푸라"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 667
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		667 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "누사틍가라"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 668
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		668 = {
+			set_state_flag = renamed_state_indonesian
+			set_state_name = "말루쿠"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 669
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		669 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "이랸바랏우타라"
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_government = authoritarian_democrat
+				}
+			}
+			set_province_name = {
+				id = 12371
+				name = "수카르노푸라"
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					NOT = { has_government = authoritarian_democrat }
+				}
+			}
+			set_province_name = {
+				id = 12371
+				name = "자야푸라"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 672
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		672 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "수마테라티무르"
+		}
+		set_province_name = {
+			id = 12181
+			name = "페칸바루"
+		}
+		set_province_name = {
+			id = 12113
+			name = "탄중피낭"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 673
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		673 = {
+			set_state_flag = renamed_state_indonesian
+			set_state_name = "술라웨시"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 738
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		738 = {
+			set_state_flag = renamed_state_indonesian
+			set_state_name = "케풀라완아루"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		822 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_japanese
+			set_state_name = "사바"
+			set_province_name = {
+				id = 10212
+				name = "코타키나발루"
+			}
+			set_province_name = {
+				id = 10199
+				name = "산다칸"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 843
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		843 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "이랸바랏셀라탄"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1016
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1016 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "칼리만탄티무르"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1017
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1017 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "티모르바럇"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1018
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1018 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "케풀라완플로레스"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1019
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1019 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "자와티무르"
+		}
+		set_province_name = {
+			id = 4608
+			name = "수라바야"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1020
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1020 = {
+			set_state_flag = renamed_state_indonesian
+			set_state_name = "자카르타"
+		}
+		set_province_name = {
+			id = 7381
+			name = "자카르타"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1021
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1021 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "수마테라셀라탄"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1022
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1022 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "수마테라틍아"
+		}
+		set_province_name = {
+			id = 10354
+			name = "부키팅기"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1023
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		1023 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+			set_state_name = "수마테라우타라"
+		}
+	}
+}
+
+do_dutch_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 333
+				NOT = {
+					has_state_flag = renamed_state_dutch
+				}
+			}
+		}
+		333 = {
+			set_state_flag = renamed_state_dutch
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_indonesian
+			set_state_name = "Noord-Kalimantan"
+			set_province_name = {
+				id = 1208
+				name = "쿠칭"
+			}
+			set_province_name = {
+				id = 7371
+				name = "브루나이슈타트"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 334
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		334 = {
+			set_state_name = endo_state_334
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 335
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		335 = {
+			set_state_name = endo_state_335
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+		set_province_name = {
+			id = 10135
+			name = endo_vp_10135
+		}
+		set_province_name = {
+			id = 7421
+			name = endo_vp_7421
+		}
+		set_province_name = {
+			id = 1413
+			name = "사마랑"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 667
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		667 = {
+			set_state_name = endo_state_667
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 668
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		668 = {
+			set_state_name = endo_state_668
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 669
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		669 = {
+			set_state_name = endo_state_669
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+		set_province_name = {
+			id = 12371
+			name = endo_vp_12371
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 672
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		672 = {
+			set_state_name = endo_state_672
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+		set_province_name = {
+			id = 12181
+			name = endo_vp_12181
+		}
+		set_province_name = {
+			id = 12113
+			name = endo_vp_12113
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 673
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		673 = {
+			set_state_name = endo_state_673
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 738
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		738 = {
+			set_state_name = endo_state_738
+			clr_state_flag = renamed_state_indonesian
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_japanese
+				}
+			}
+		}
+		822 = {
+			set_state_name = endo_state_822
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_japanese
+		}
+		set_province_name = {
+			id = 10212
+			name = endo_vp_10212
+		}
+		set_province_name = {
+			id = 10199
+			name = endo_vp_10199
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 843
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		843 = {
+			set_state_name = endo_state_843
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1016
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1016 = {
+			set_state_name = endo_state_1016
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1017
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1017 = {
+			set_state_name = endo_state_1017
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1018
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1018 = {
+			set_state_name = endo_state_1018
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1019
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1019 = {
+			set_state_name = endo_state_1019
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+		set_province_name = {
+			id = 4608
+			name = endo_vp_4608
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1020
+				has_state_flag = renamed_state_indonesian
+			}
+		}
+		1020 = {
+			set_state_name = endo_state_1020
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 7381
+			name = endo_vp_7381
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1021
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1021 = {
+			set_state_name = endo_state_1021
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1022
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1022 = {
+			set_state_name = endo_state_1022
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+		set_province_name = {
+			id = 10354
+			name = endo_vp_10354
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 1023
+				OR = {
+					has_state_flag = renamed_state_indonesian
+					has_state_flag = renamed_state_german
+				}
+			}
+		}
+		1023 = {
+			set_state_name = endo_state_1023
+			clr_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_german
+		}
+	}
+}
+
+do_cambodean_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 286
+				NOT = {
+					has_state_flag = renamed_state_CAM
+				}
+			}
+		}
+		286 = {
+			set_state_name = "Prey Nokor"
+			set_state_flag = renamed_state_CAM
+			clr_state_flag = renamed_state_VIE
+			clr_state_flag = renamed_state_INC
+		}
+		set_province_name = {
+			id = 4401
+			name = "Prey Nokor"
+		}
+	}
+}
+
+do_tagalog_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 333
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		333 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_dutch
+			set_state_name = "Sarawak"
+			set_province_name = {
+				id = 1208
+				name = "Kuching"
+			}
+			set_province_name = {
+				id = 7371
+				name = "Bandar Brunei"
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 822
+				NOT = {
+					has_state_flag = renamed_state_indonesian
+				}
+			}
+		}
+		822 = {
+			set_state_flag = renamed_state_indonesian
+			clr_state_flag = renamed_state_japanese
+			set_state_name = "Sabah"
+			set_province_name = {
+				id = 10212
+				name = "Kota Kinabalu"
+			}
+			set_province_name = {
+				id = 10199
+				name = "Sandakan"
+			}
+		}
+	}
+}
+
+do_vietnamese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 286
+				NOT = {
+					has_state_flag = renamed_state_VIE
+				}
+			}
+		}
+		286 = {
+			set_state_name = "찌아딘"
+			set_state_flag = renamed_state_VIE
+			clr_state_flag = renamed_state_CAM
+			clr_state_flag = renamed_state_INC
+		}
+		set_province_name = {
+			id = 4401
+			name = "찌아딘"
+		}
+	}
+}
+
+do_siamese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 336
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+			}
+		}
+		336 = {
+			set_state_name = "Singhanakhon"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_japanese
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 12299
+			name = "Singhanakhon"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 670
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+			}
+		}
+		670 = {
+			set_state_name = "Laos"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_laotian
+		}
+		set_province_name = {
+			id = 1464
+			name = "Viangchan"
+		}
+		set_province_name = {
+			id = 4613
+			name = "Luang Prabang"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 825
+				has_state_flag = renamed_state
+			}
+		}
+		825 = {
+			set_state_name = endo_state_825
+			clr_state_flag = renamed_state
+		}
+		set_province_name = {
+			id = 10177
+			name = endo_vp_10177
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 831
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+			}
+		}
+		831 = {
+			set_state_name = "Morlamaeng"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+		}
+		set_province_name = {
+			id = 1403
+			name = "Morlamaeng"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 882
+				OR = {
+					has_state_flag = renamed_state_laotian
+					has_state_flag = renamed_state_OTH
+				}
+			}
+		}
+		882 = {
+			set_state_name = endo_state_882
+			clr_state_flag = renamed_state_laotian
+			clr_state_flag = renamed_state_OTH
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+			}
+		}
+		72 = {
+			set_state_name = "Thongjee"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7603
+			name = "Thongjee"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 756
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+				72 = { NOT = { is_owned_by = SIA } }
+			}
+		}
+		756 = {
+			set_state_name = "Saharat Thai Doem"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7909
+			name = "Chiang Tung"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 756
+				NOT = {
+					has_state_flag = renamed_state_thai
+				}
+				72 = { is_owned_by = SIA }
+			}
+		}
+		756 = {
+			set_state_name = "Chiang Tung"
+			set_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7909
+			name = "Chiang Tung"
+		}
+	}
+}
+
+do_laotian_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 670
+				NOT = {
+					has_state_flag = renamed_state_laotian
+				}
+			}
+		}
+		670 = {
+			set_state_name = "Laos"
+			set_state_flag = renamed_state_laotian
+			clr_state_flag = renamed_state_thai
+		}
+		set_province_name = {
+			id = 1464
+			name = "Viangchan"
+		}
+		set_province_name = {
+			id = 4613
+			name = "Louangphabang"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 882
+				NOT = {
+					has_state_flag = renamed_state_laotian
+				}
+			}
+		}
+		882 = {
+			set_state_name = "Xaignabouli"
+			set_state_flag = renamed_state_laotian
+			clr_state_flag = renamed_state_OTH
+		}
+	}
+}
+
+do_shan_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_shan
+				}
+				756 = { NOT = { is_owned_by = SHA } }
+			}
+		}
+		72 = {
+			set_state_name = "Moeng Tai"
+			set_state_flag = renamed_state_shan
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 7603
+			name = "Taunggyi"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_shan
+				}
+				756 = { is_owned_by = SHA }
+			}
+		}
+		72 = {
+			set_state_name = "Taunggyi"
+			set_state_flag = renamed_state_shan
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 7603
+			name = "Taunggyi"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 756
+				NOT = {
+					has_state_flag = renamed_state_shan
+				}
+			}
+		}
+		756 = {
+			set_state_name = "Kengtung"
+			set_state_flag = renamed_state_shan
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 7909
+			name = "Kengtung"
+		}
+	}
+}
+
+do_kachin_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 701
+				NOT = {
+					has_state_flag = renamed_state_kachin
+				}
+			}
+		}
+		701 = {
+			set_state_name = "Jingphaw Mungdaw"
+			set_state_flag = renamed_state_kachin
+			clr_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 8063
+			name = "Myitkyina"
+		}
+	}
+}
+
+do_burmese_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 831
+				NOT = {
+					has_state_flag = renamed_state_burmese
+				}
+			}
+		}
+		831 = {
+			set_state_name = "Mawlamyine"
+			set_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_thai
+		}
+		set_province_name = {
+			id = 1403
+			name = "Mawlamyine"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_burmese
+				}
+				756 = { NOT = { is_owned_by = BUR } }
+			}
+		}
+		72 = {
+			set_state_name = "Anya Hram Pranynai"
+			set_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7603
+			name = "Taunggyi"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 72
+				NOT = {
+					has_state_flag = renamed_state_burmese
+				}
+				756 = { is_owned_by = BUR }
+			}
+		}
+		72 = {
+			set_state_name = "Taunggyi"
+			set_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7603
+			name = "Taunggyi"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 756
+				NOT = {
+					has_state_flag = renamed_state_burmese
+				}
+			}
+		}
+		756 = {
+			set_state_name = "Kyaingtong"
+			set_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_chinese
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_shan
+		}
+		set_province_name = {
+			id = 7909
+			name = "Kyaingtong"
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 701
+				NOT = {
+					has_state_flag = renamed_state_burmese
+				}
+			}
+		}
+		701 = {
+			set_state_name = "Wunpawng Mungdan"
+			set_state_flag = renamed_state_burmese
+			clr_state_flag = renamed_state_kachin
+			clr_state_flag = renamed_state_chinese
+		}
+		set_province_name = {
+			id = 8063
+			name = "Myitkyina"
+		}
+	}
+}
+
+do_renames_in_asia_for_everyone_but_siam = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 825
+				NOT = {
+					has_state_flag = renamed_state
+				}
+			}
+		}
+		825 = {
+			set_state_name = "Battambang"
+			set_state_flag = renamed_state
+		}
+		set_province_name = {
+			id = 10177
+			name = "Battambang"
+		}
+	}
+}
+
+do_renames_in_asia_for_everyone_but_siam_and_laos = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 670
+				OR = {
+					has_state_flag = renamed_state_thai
+					has_state_flag = renamed_state_laotian
+				}
+			}
+		}
+		670 = {
+			set_state_name = endo_state_670
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_laotian
+		}
+		set_province_name = {
+			id = 1464
+			name = endo_vp_1464
+		}
+		set_province_name = {
+			id = 4613
+			name = endo_vp_4613
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 882
+				NOT = {
+					has_state_flag = renamed_state_OTH
+				}
+			}
+		}
+		882 = {
+			set_state_name = "Sainyabuli"
+			set_state_flag = renamed_state_OTH
+			clr_state_flag = renamed_state_laotian
+		}
+	}
+}
+
+do_renames_in_asia_for_everyone_but_siam_and_burma = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 831
+				OR = {
+					has_state_flag = renamed_state_thai
+					has_state_flag = renamed_state_burmese
+				}
+			}
+		}
+		831 = {
+			set_state_name = endo_state_831
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_burmese
+		}
+		set_province_name = {
+			id = 1403
+			name = endo_vp_1403
+		}
+	}
+}
+
+do_renames_in_asia_for_saigon = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 286
+				OR = {
+					has_state_flag = renamed_state_CAM
+					has_state_flag = renamed_state_VIE
+				}
+			}
+		}
+		286 = {
+			set_state_name = endo_state_286
+			clr_state_flag = renamed_state_CAM
+			clr_state_flag = renamed_state_VIE
+			clr_state_flag = renamed_state_INC
+		}
+		set_province_name = {
+			id = 4401
+			name = endo_vp_4401
+		}
+	}
+}
+
+do_renames_in_asia_for_singapore = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 336
+				NOT = {
+					has_state_flag = renamed_state_english
+				}
+			}
+		}
+		336 = {
+			set_state_name = "Singapore"
+			set_state_flag = renamed_state_english
+			clr_state_flag = renamed_state_thai
+			clr_state_flag = renamed_state_japanese
+			clr_state_flag = renamed_state_indonesian
+		}
+		set_province_name = {
+			id = 12299
+			name = "Singapore"
+		}
+	}
+}
+
+do_turkish_renames_in_asia = {
+	if = {
+		limit = {
+			FROM.FROM = {
+				state = 405
+				has_state_flag = renamed_state_russian
+			}
+		}
+		405 = {
+			set_state_name = endo_state_585
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 9605
+			name = endo_vp_9605
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 584
+				has_state_flag = renamed_state_russian
+			}
+		}
+		584 = {
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 10742
+			name = endo_vp_10742
+		}
+		set_province_name = {
+			id = 12333
+			name = endo_vp_12333
+		}
+	}
+	else_if = {
+		limit = {
+			FROM.FROM = {
+				state = 585
+				has_state_flag = renamed_state_russian
+			}
+		}
+		585 = {
+			set_state_name = endo_state_585
+			clr_state_flag = renamed_state_russian
+		}
+		set_province_name = {
+			id = 10353
+			name = endo_vp_10353
+		}
+	}
+}

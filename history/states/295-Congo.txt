@@ -6,10 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = CNR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -23,6 +21,5 @@ state = {
 		4128 5117 10025 12896 12945
 	}
 	manpower = 2603965
-	buildings_max_level_factor = 1
 	state_category = rural
 }

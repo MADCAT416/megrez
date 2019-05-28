@@ -1,15 +1,15 @@
 state = {
 	id = 366
 	name = "STATE_366"
-	manpower = 1468210
+	manpower = 1651000
 
-	state_category = city
+	state_category = large_town
 
 	history = {
-		owner = CSA
+		owner = USA
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 4
 			air_base = 8
 			1572 = {
 				naval_base = 2
@@ -25,10 +25,11 @@ state = {
 			}
 		}
 		add_core_of = USA
-		add_core_of = CSA
-		add_core_of = TEX
 		victory_points = {
 			1843 5
+		}
+		victory_points = {
+			10407 5
 		}
 	}
 

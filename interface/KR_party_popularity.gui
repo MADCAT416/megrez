@@ -76,16 +76,16 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "new_left_container"
+		name = "social_progressive_container"
 		position = { x = 174 y = 4 }
 		
 		iconType = {
-			name ="new_left_icon"
-			spriteType = "GFX_new_left_small"
+			name ="social_progressive_icon"
+			spriteType = "GFX_social_progressive_small"
 			position = { x=-2 y=0 }
 			
-			pdx_tooltip = "new_left_topbar_tooltip"
-			pdx_tooltip_delayed = "new_left_subtype_desc"
+			pdx_tooltip = "social_progressive_topbar_tooltip"
+			pdx_tooltip_delayed = "social_progressive_subtype_desc"
 		}
 	}
 
@@ -156,6 +156,20 @@ guiTypes = {
 			
 			pdx_tooltip = "paternal_autocrat_topbar_tooltip"
 			pdx_tooltip_delayed = "paternal_autocrat_subtype_desc"
+		}
+	}
+
+	containerWindowType = {
+		name = "clerical_nationalist_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="clerical_nationalist_icon"
+			spriteType = "GFX_clerical_nationalist_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "clerical_nationalist_topbar_tooltip"
+			pdx_tooltip_delayed = "clerical_nationalist_subtype_desc"
 		}
 	}
 

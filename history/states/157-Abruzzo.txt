@@ -6,15 +6,22 @@ state = {
 	state_category = town
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
-		victory_points = { 925 1 } #Ancona
+		add_core_of = PAP
+		victory_points = { 925 3 } #Ancona
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			925 = {
 				naval_base = 4
+				bunker = 2
+			}
+			11790 = {
+				bunker = 2
+			}
+			11861 = {
+				bunker = 1
 			}
 		}
 	}

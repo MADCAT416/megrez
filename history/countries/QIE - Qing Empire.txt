@@ -1,60 +1,90 @@
 ﻿capital = 608
 
-oob = "empty"
+oob = "QIE"
+set_naval_oob = "QIE_naval"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
 }
 
 add_opinion_modifier = { target = FRA modifier = embargo }
@@ -64,7 +94,11 @@ add_opinion_modifier = { target = CHI modifier = embargo }
 set_stability = 0.50
 set_war_support = 0.40
 
-
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 10000
+	producer = GER
+}
 
 set_research_slots = 3
 set_convoys = 70
@@ -75,7 +109,7 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 		}
 		syndicalist = {
@@ -122,94 +156,45 @@ add_ideas = {
 	QIE_Aisin_Gioro_Pujie_sec_pau
 }
 
+country_event = {
+	id = fengtian.new.0
+	days = 1
+}
+
 set_country_flag = germany_support
 
 create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
+	name = "Puyi"
+	desc = "ANTE_PUYI_DESC"
+	picture = "Portrait_China_Puyi.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
+	name = "Puyi"
+	desc = "ANTE_PUYI_DESC"
+	picture = "Portrait_China_Puyi.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
+	name = "Puyi"
+	desc = "ANTE_PUYI_DESC"
+	picture = "Portrait_China_Puyi.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "선통제 아이신기오로 푸이"
-	desc = "Puyi_DESC"
-	picture = "Portrait_MAN_Puyi.tga"
-	expire = "2000.1.1"
+	name = "Puyi"
+	desc = "ANTE_PUYI_DESC"
+	picture = "Portrait_China_Puyi.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
@@ -225,7 +210,7 @@ create_field_marshal = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -234,9 +219,8 @@ create_field_marshal = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Chang Ching-yao"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Chang_Ching_yao.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Chang_Ching_yao.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -251,7 +235,7 @@ create_corps_commander = { #Auto-Generated
 		trickster
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
@@ -259,7 +243,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Chen Cheng"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Chen_Cheng.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Chen_Cheng.tga"
 	traits = {
 		trait_engineer
 	}
@@ -267,12 +251,12 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Xu Yuanquan"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Xu_Yuanquan.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Xu_Yuanquan.tga"
 	traits = {
 		commando
 		old_guard
@@ -286,9 +270,8 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Gu Zhutong"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Gu_Zhutong.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Gu_Zhutong.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -298,9 +281,8 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Zhang Fakui"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Zhang_Fakui.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Zhang_Fakui.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -311,8 +293,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Aisin-Gioro Pujie"
 	portrait_path = "gfx/leaders/QIE/Portrait_China_Pujie.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -322,7 +303,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Tsai Cheng-hsun"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Tsai_Cheng_hsun.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Tsai_Cheng_hsun.tga"
 	traits = {
 		old_guard
 	}
@@ -330,12 +311,12 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Che Ching-yun"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Che_Ching_yun.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Che_Ching_yun.tga"
 	traits = {
 		old_guard
 	}
@@ -343,12 +324,12 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Chiang Yen-hsing"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Chiang_Yen_hsing.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Chiang_Yen_hsing.tga"
 	traits = {
 		old_guard
 	}
@@ -356,25 +337,25 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Lu Chin"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lu_Chin.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Lu_Chin.tga"
 	traits = {
 		fortress_buster
 	}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Wang Huai-ching"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Wang_Huai_ching.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Wang_Huai_ching.tga"
 	traits = {
 		old_guard
 	}
@@ -387,7 +368,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Wang Ju-chin"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Wang_Ju_chin.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Wang_Ju_chin.tga"
 	traits = {
 		old_guard
 	}
@@ -400,9 +381,8 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Hsiao Yao-nan"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Hsiao_Yao_nan.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Hsiao_Yao_nan.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -412,35 +392,34 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Hsu Shu-cheng"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Hsu_Shu_cheng.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Hsu_Shu_cheng.tga"
 	traits = {
 		trickster
 	}
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Sun Chuanfang"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Sun_Chuanfang.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Sun_Chuanfang.tga"
 	traits = {
 		trickster
 	}
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Aisin-Gioro Zaitao"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Aisin_Gioro_Zaitao.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Aisin_Gioro_Zaitao.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -450,7 +429,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Lu Jinshan"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lu_Jinshan.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Lu_Jinshan.tga"
 	traits = {
 		old_guard
 	}
@@ -464,204 +443,227 @@ create_corps_commander = { #Auto-Generated
 ### Navy Leaders
 create_navy_leader = { #Auto-Generated
 	name = "Tu Hsi-kuei"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Tu_Hsi_kuei.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Tu_Hsi_kuei.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Li Bifan"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Li_Bifan.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Li Yannian"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Li_Yannian.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Krolcheff"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Krolcheff.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Rymakov"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Rymakov.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Streccius"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Streccius.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Sah Chen-ping"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Sah_Chen_ping.tga"
-	traits = {
-		old_guard_navy
-		spotter
-	}
-	skill = 2 #naval guy, don't patch
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Li_Bifan.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Y. L. Woo"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Y._L._Woo.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Y._L._Woo.tga"
 	traits = {
 		blockade_runner
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "T. S. Chu"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_T._S._Chu.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_T._S._Chu.tga"
 	traits = {
 		superior_tactician
 	}
-	skill = 2 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Tang Xiangming"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Tang_Xiangming.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Aisin-Gioro Zaixun"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Aisin_Gioro_Zaixun.tga"
+	#portrait_path = "gfx/leaders/QIE/Portrait_China_Aisin_Gioro_Zaixun.tga"
 	traits = {
 		old_guard_navy
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Shen Kun Chen"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Shen_Kun_Chen.tga"
-	traits = {
-		blockade_runner
+### Ship Variants
+create_equipment_variant = {
+	name = "Hai Yung Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Qu Yangke"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Qu_Yangke.tga"
-	traits = {
+create_equipment_variant = {
+	name = "Fei Hung Class"
+	type = ship_hull_cruiser_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+		hull_specialization_slot = empty
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Xu Jianting"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Xu_Jianting.tga"
-	traits = {
+create_equipment_variant = {
+	name = "Pinghai Class"
+	type = ship_hull_cruiser_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		hull_specialization_slot = empty
 	}
-	skill = 1 #naval guy, don't patch
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Lin Chienchang"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lin_Chienchang.tga"
-	traits = {
-		old_guard_navy
+create_equipment_variant = {
+	name = "Chu Tung Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Liu Chuanshou"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Liu_Chuanshou.tga"
-	traits = {
-		old_guard_navy
+create_equipment_variant = {
+	name = "Tze Kiang Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Chen Jiliang"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Chen_Jiliang.tga"
-	traits = {
-		blockade_runner
+create_equipment_variant = {
+	name = "Kiang Yuan Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Lin Yongmo"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lin_Yongmo.tga"
-	traits = {
-		spotter
+create_equipment_variant = {
+	name = "Lien Ching Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Zhu Tiansen"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Zhu_Tiansen.tga"
-	traits = {
+create_equipment_variant = {
+	name = "Yimen Shan Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
 	}
-	skill = 1 #naval guy, don't patch
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Lin Guogeng"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lin_Guogeng.tga"
-	traits = {
-		blockade_runner
+create_equipment_variant = {
+	name = "Luoxiao Shan Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
 	}
-	skill = 1 #naval guy, don't patch
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Chen Xunyong"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Chen_Xunyong.tga"
-	traits = {
+set_country_flag = braunschweig_class_ship_variant
+create_equipment_variant = {
+	name = "Braunschweig Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
 	}
-	skill = 1 #naval guy, don't patch
+	obsolete = yes
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Lu Deyuan"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Lu_Deyuan.tga"
-	traits = {
+set_country_flag = salamis_class_ship_variant
+create_equipment_variant = {
+	name = "Salamis Class"
+	type = ship_hull_dreadnought_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		mid_2_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
 	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Wu Yu-lin"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Wu_Yu_lin.tga"
-	traits = {
-		old_guard_navy
-	}
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Wen Shude"
-	portrait_path = "gfx/leaders/QIE/Portrait_China_Wen_Shude.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
 }

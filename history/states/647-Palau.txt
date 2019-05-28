@@ -4,20 +4,19 @@ state = {
 	state_category = small_island
 	manpower = 12100
 	history = {
-		owner = AST
+		owner = GEA
 		add_core_of = GEA
-add_core_of = AST
+
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			4357 = {
+			12103 = {
 				naval_base = 1
-
 			}
 		}
 
 		victory_points = {
-			4357 1
+			12103 1
 		}
 	}
 	provinces = {

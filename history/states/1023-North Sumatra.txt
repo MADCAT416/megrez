@@ -6,19 +6,17 @@ state = {
 	}
 	resources = {
 		rubber = 57
-		oil = 24
+		oil = 25
 	}
 	manpower = 2392936
-	buildings_max_level_factor = 1
 
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = DEI
+		add_core_of = DEI
 		buildings = {
 			infrastructure = 3
 			1648 = {
 				naval_base = 1
-
 			}
 		}
 	}

@@ -4,15 +4,15 @@ state = {
 	manpower = 3392800
 	resources = {
 		steel = 4
-		oil = 4
+		oil = 7
 	}
 
 	state_category = large_city
 
 	history = {
-		owner = POL
+		owner = GAL
 		victory_points = {
-			9427 5
+			9427 8
 		}
 		buildings = {
 			infrastructure = 6
@@ -20,7 +20,7 @@ state = {
 			industrial_complex = 2
 			air_base = 4
 		}
-		add_core_of = POL
+		add_core_of = GAL
 	}
 
 	provinces = {

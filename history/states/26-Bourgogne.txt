@@ -7,10 +7,12 @@ state = {
 		add_claim_by = NFA
 		add_core_of = FRA
 		add_core_of = OCC
+		victory_points = {
+			9748 3
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-
 		}
 	}
 
@@ -18,6 +20,5 @@ state = {
 		590 769 3594 3770 6644 6773 6789 9593 9607 9732 9748 11576
 	}
 	manpower = 1621067
-	buildings_max_level_factor = 1
 	state_category = town
 }

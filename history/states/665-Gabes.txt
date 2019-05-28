@@ -3,15 +3,13 @@ state = {
 	name = "STATE_665"
 
 	history = {
-		owner = MAH
-		add_core_of = MAH
-		add_core_of = TUN
+		owner = NFA
+		add_core_of = NFA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
 		}
-		victory_points = { #Gab?
+		victory_points = { #Gabès
 			7005 2
 		}
 	}
@@ -22,5 +20,4 @@ state = {
 		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179
 	}
 	manpower = 427824
-	buildings_max_level_factor = 1
 }

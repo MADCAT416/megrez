@@ -1,0 +1,64 @@
+﻿COL = {
+	submarine = {
+		prefix = "ARC"
+		generic = { "Submarino" }
+		unique = {
+			"20 de Julio"
+			"7 de Agosto"
+			"Santander"
+			"Almirante Padilla"
+			"Almirante Tono"
+			"Almirante Brión"
+			"Cordoba"
+			"Antioquia"
+			"Caldas"
+		}
+	}
+	destroyer = {
+		prefix = "ARC"
+		generic = {
+			"Destructor"
+		}
+		unique = {
+			"Caldas"
+			"Cordoba"
+		}
+	}
+	light_cruiser = {
+		prefix = "ARC"
+		generic = { "Crucero Ligero" }
+		unique = {
+			"Medellín"
+			"Cartagena"
+			"Barranquilla"
+			"Santa Marta"
+			"Bucaramanga"
+			"Tumaco"
+			"Buenaventura"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARC"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "ARC"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "ARC"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "ARC"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

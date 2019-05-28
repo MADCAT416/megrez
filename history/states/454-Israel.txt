@@ -1,11 +1,12 @@
-state = {		#Jerusalem
-	id = 454
-	name = "STATE_454"
 
-	history = {
+state={
+	id=454
+	name="STATE_454"
+
+	history={
 		owner = OTT
 		add_core_of = OTT
-		add_core_of = PAL
+		add_core_of = SYR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -13,19 +14,18 @@ state = {		#Jerusalem
 				naval_base = 1
 
 			}
+
 		}
 		victory_points = {
 			1086 5
 		}
-		victory_points = {
-			4206 1
-		}
+
 	}
 
-	provinces = {
-		1 1086 1015 4088 4206 1201 7107 1065 7176 11970
+	provinces={
+		1015 1086 4088 4206 7176 11970
 	}
-	manpower = 674168
-	buildings_max_level_factor = 1
-	state_category = rural
+	manpower=674168
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

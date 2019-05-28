@@ -10,12 +10,10 @@ state = {
 	state_category = city
 
 	history = {
-		owner = BHC
-		add_core_of = PRF
-		add_core_of = DEH
-		add_core_of = RAJ
-		add_core_of = BHC
-		
+		owner = MAD
+		add_core_of = MAD
+		add_claim_by = BHC
+		add_claim_by = DEH
 		victory_points = { 10278 3 } #Madras
 		victory_points = { 10149 1 } #Pondicherry
 		buildings = {

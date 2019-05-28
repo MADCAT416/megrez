@@ -4,16 +4,9 @@ state = {
 	manpower = 1146293
 	state_category = large_town
 
-	resources = {
-		steel = 10
-	}
-
 
 	history = {
 		owner = SWE
-		victory_points = {
-			11114 1
-		}
 		victory_points = {
 			383 10
 		}
@@ -23,7 +16,6 @@ state = {
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 1
-			anti_air_building = 2
 			383 = {
 				naval_base = 5
 				coastal_bunker = 5

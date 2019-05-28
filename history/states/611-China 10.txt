@@ -3,22 +3,14 @@ state = { #Southern Chahar
 	name = "STATE_611"
 
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
-		add_core_of = MON
+		owner = QIE
 		add_core_of = QIE
-		
+		add_core_of = SQI
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 
 			952 = {
-				bunker = 1
-			}
-			881 = {
-				bunker = 1
-			}
-			9768 = {
 				bunker = 1
 			}
 			3955 = {
@@ -32,9 +24,8 @@ state = { #Southern Chahar
 	}
 
 	provinces = {
-		828 881 952 1590 3955 6904 9768 9776 10397
+		828 952 1137 1590 3955 6904 9776 10397
 	}
 	manpower = 1470000
-	buildings_max_level_factor = 1
 	state_category = "rural"
 }

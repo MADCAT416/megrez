@@ -1,231 +1,243 @@
 ﻿capital = 314
-oob = "empty"
+OOB = "ELS"
 set_research_slots = 2
+set_convoys = 10
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
 }
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+country_event = {
+	id = els.1 days = 1
+}
+country_event = {
+	id = cafla.18 days = 258
+}
+
+set_war_support = 0.15
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 10
-		}
-		syndicalist = {
-			popularity = 15
-		}
-		social_democrat = {
-			popularity = 47
-		}
-		social_liberal = {
-			popularity = 11
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 2
-		}
-		paternal_autocrat = {
-			popularity = 1
-		}
-		national_populist = {
 			popularity = 0
 		}
+		radical_socialist = {
+			popularity = 6
+		}
+		syndicalist = {
+			popularity = 17
+		}
+		social_democrat = {
+			popularity = 15
+		}
+		social_liberal = {
+			popularity = 12
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 1
+		}
+		authoritarian_democrat = {
+			popularity = 10
+		}
+		paternal_autocrat = {
+			popularity = 18
+		}
+		national_populist = {
+			popularity = 21
+		}
 	}
 
-	ruling_party = social_democrat
-	last_election = "1888.15.6"
+	ruling_party = national_populist
+	last_election = "1931.31.3"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_stability = 0.51
+set_war_support = 0.47
+
+add_ideas = {
+	#medium_economy
+	CEN_monroe_doctrine
+	ELS_memories_32
+	ELS_depression_leftovers
+	#low_popularity
+	#low_stability
+	limited_conscription
+	ELS_Maximiliano_Hernandez_Martinez_hog_npo
+	ELS_Salvador_Pena_Trejo_for_pau
+	ELS_Joaquin_Valdez_eco_npo
+	ELS_Fidel_Cristino_Garay_sec_pau
+	ELS_Anibal_Portillo_int_ade
 }
 
 create_country_leader = {
-	name = "샤픽 한델"
-	picture = "Portait_ELS_Schafik_Handal.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "샤픽 한델"
-	picture = "Portait_ELS_Schafik_Handal.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "샤픽 한델"
-	picture = "Portait_ELS_Schafik_Handal.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "호세 나폴레온 두아르테"
-	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "호세 나폴레온 두아르테"
-	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "호세 나폴레온 두아르테"
-	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "호세 나폴레온 두아르테"
-	picture = "Portait_ELS_Jose_Napoleon_Duarte.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "피델 산체스 에르난데스"
-	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "피델 산체스 에르난데스"
-	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "피델 산체스 에르난데스"
-	picture = "Portait_ELS_Fidel_Sanchez_Hernandez.tga"
-	expire = "2000.1.1"
+	name = "Maximiliano Hernandez Martínez"
+	desc = "POLITICS_MAZIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	picture = "Portrait_ELS_Maximiliano_Martinez.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
+	traits = {}
+}
 
-	}
+create_country_leader = {
+	name = "Osmín Aguirre y Salinas"
+	desc = "POLITICS_OSMIN_AGUIRRE_Y_SALINAS_DESC"
+	picture = "Portrait__Osmin_Aguirre_y_Salinas.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Osmín Aguirre y Salinas"
+	desc = "POLITICS_OSMIN_AGUIRRE_Y_SALINAS_DESC"
+	picture = "Portrait__Osmin_Aguirre_y_Salinas.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Alfonso Quiñónez Molina"
+	desc = "POLITICS_ALFONSO_MOLINA_DESC"
+	picture = "Portrait_ELS_Alfonso_Quinonez_Molina.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Arturo Araujo"
+	desc = "POLITICS_ARTURO_ARUAJO_DESC"
+	picture = "Portrait_ELS_Arturo_Araujo.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Feliciano Ama"
+	desc = "POLITICS_FELICIANO_AMA_DESC"
+	picture = "Portrait_ELS_Feliciano_Ama.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Agustín Farabundo Martí"
+	desc = "POLITICS_AGUSTIN_FARABUNDO_MARTI_DESC"
+	picture = "Portrait_ELS_Agustin_Farabundo_Marti.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
 }
 
 ### Field Marshal
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Hernandez Martinez"
-	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
+create_field_marshal = {
+	name = "Maximiliano Martínez"
+	desc = "ELS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	picture = "Portrait_ELS_general_Maximiliano_Martinez.tga"
 	traits = {
+		infantry_officer
+		harsh_leader
+		inflexible_strategist
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	id = 1599
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "Osmín Aguirre Y Salinas"
+	desc = "ELS_OSMIN_AGUIRRE_Y_SALINAS_DESC"
+	picture = "Portrait__Osmin_Aguirre_y_Salinas.tga"
+	traits = {
+		war_hero
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Salvador Castaneda Castro"
+	desc = "ELS_SALVADOR_CASTANEDA_CASTRO_DESC"
+	picture = "Portrait_ELS_Salvador_Castaneda_Castro.tga"
+	traits = {
+		infantry_officer
+		hidden_sympathies
 	}
 	skill = 2
 	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 1598
+}
+
+create_corps_commander = {
+	name = "Andrés Ignacio Menéndez"
+	desc = "ELS_ANDRES_IGNACIO_MENENDEZ_DESC"
+	picture = "Portrait_ELS_Andres_Ignacio_Menendez.tga"
+	traits = {
+		career_officer
+		trait_cautious
+	}
+	skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 3
 }
 
-create_corps_commander = { #Auto-Generated
-	name = "Menéndez"
-	portrait_path = "gfx/leaders/ELS/Portrait_ELS_Menéndez.tga"
-	traits = {
-		old_guard
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
 ### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Carnejo Ibanéz"
-	portrait_path = "gfx/leaders/ELS/Portrait_ELS_Carnejo_Ibanéz.tga"
-	traits = {
-		seawolf
-	}
-	skill = 1
-}

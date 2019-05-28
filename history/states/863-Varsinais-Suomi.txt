@@ -2,24 +2,21 @@ state = {
 	id = 863
 	name = "STATE_863" #"Varsinais-Suomi" #Egentliga Finland
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = FIN
 		add_core_of = FIN
-		add_claim_by = RUS
 
-		victory_points = { 3083 1 }
+		victory_points = { 3083 2 }
 
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			synthetic_refinery = 1
 			dockyard = 1
-			radar_station = 2
+
 			3083 = {
 				coastal_bunker = 1
-				naval_base = 5
+				naval_base = 3
 			}
 		}
 	}
@@ -29,5 +26,4 @@ state = {
 	}
 
 	manpower = 498400
-	buildings_max_level_factor = 1
 }

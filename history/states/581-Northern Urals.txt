@@ -10,17 +10,15 @@ state = {
 		owner = RUS
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = RUS
-
+		add_claim_by = TRM
 	}
 
 	provinces = {
-		10551 10677 12502 13076
+		10551 10677 11098 12393 12502 13076
 	}
 	manpower = 48831
-	buildings_max_level_factor = 1
 	state_category = wasteland
-	
+	impassable = yes
 }

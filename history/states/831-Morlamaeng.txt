@@ -3,7 +3,7 @@ state = {
 	name = "STATE_831"
 
 	history = {
-		owner = BUR
+		owner = SIA
 		add_core_of = BUR
 		buildings = {
 			infrastructure = 3
@@ -18,6 +18,5 @@ state = {
 	}
 
 	manpower = 921600
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

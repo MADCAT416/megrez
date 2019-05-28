@@ -1,97 +1,89 @@
 ﻿capital = 842
-oob = "empty"
+OOB = "HON"
 set_convoys = 10
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1 
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
 }
 
 set_stability = 0.5
-set_war_support = 0.6
+set_war_support = 0.35
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 12
 		}
-		democratic_socialist = {
-			popularity = 0
+		radical_socialist = {
+			popularity = 4
 		}
 		syndicalist = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 4
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 2
 		}
 		market_liberal = {
-			popularity = 8
+			popularity = 11
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 13
 		}
 		authoritarian_democrat = {
-			popularity = 41
+			popularity = 40
 		}
 		paternal_autocrat = {
-			popularity = 19
+			popularity = 2
 		}
 		national_populist = {
-			popularity = 8
+			popularity = 11
 		}
 	}
 
@@ -99,99 +91,153 @@ set_politics = {
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-create_country_leader = {
-	name = "디오니시오 베라하노"
-	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
+add_opinion_modifier = { target = NIC modifier = NIC_revolutionary_threat }
+
+add_ideas = {
+	limited_conscription
+	CEN_monroe_doctrine
+	HON_peasant_republic
+	HON_december_revolution
+	HON_great_purge
+	HON_Jose_Leon_Castro_hog_pau
+	HON_Jose_Ramon_Adolfo_Villeda_Morales_for_sde
+	HON_Juan_Manuel_Galvez_eco_sco
+	HON_Arturo_Martinez_Galindo_sec_tot
 }
-
-create_country_leader = {
-	name = "디오니시오 베라하노"
-	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
+country_event = {
+	id = cafla.18 days = 258
 }
-
 create_country_leader = {
-	name = "디오니시오 베라하노"
-	picture = "Portrait_Honduraz_Dionisio_Bejarano.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "미겔 안도니에 페르난데스"
-	picture = "Portrait_Honduraz_Miguel_Andonie_Fernandez.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호르헤 부에소 아리아스"
-	picture = "Portrait_Honduraz_Jorge_Bueso_Arias.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호르헤 부에소 아리아스"
-	picture = "Portrait_Honduraz_Jorge_Bueso_Arias.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "에르난 코랄레스 파디야"
-	picture = "Portrait_Honduraz_Hernan_Corrales_Padilla.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-
-create_country_leader = {
-	name = "라몬 에르네스토 크루스 우클레스"
-	picture = "Portrait_Honduraz_Ramon_Ernesto_Cruz_Ucles.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "오솰도 로페스 아레야노"
-	picture = "Portrait_Honduraz_Oswaldo_Lopez_Arellano.tga"
-	expire = "2000.1.1"
+	name = "José León Castro"
+	desc = "POLITICS_JOSE_LEON_CASTRO_DESC"
+	picture = "Portrait_HON_Jose_Leon_Castro.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "오솰도 로페스 아레야노"
-	picture = "Portrait_Honduraz_Oswaldo_Lopez_Arellano.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "José Maria Moncada"
+	desc = "POLITICS_JOSE_MARIA_MONCADA_DESC"
+	picture = "Portrait_HON_Jose_Maria_Moncada.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Honduran Council"
+	desc = "POLITICS_HONDURAN_COUNCIL_DESC"
+	picture = "Portrait_HON_Honduran_Council.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "José Ángel Zúñiga Huete"
+	desc = "POLITICS_JOSE_HUETE_DESC"
+	picture = "Portrait_HON_Jose_Angel_Huete.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Juan Manuel Galvez"
+	desc = "POLITICS_JOSE_GALVEZ_DESC"
+	picture = "Portrait_HON_Juan_Manuel_Galvez.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ramon Villeda Morales"
+	desc = "POLITICS_RAMON_MORALES_DESC"
+	picture = "Portrait_HON_Ramon_Villeda_Morales.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Venancio Callejas"
+	desc = "POLITICS_Venancio_Callejas_DESC"
+	picture = "Portrait_HON_Venancio_Callejas.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
 	traits = {}
 }
 
 ### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "Tiburcio Carias Andino"
-	picture = "Portrait_Honduraz_Tiburcio_Carias_Andino.tga"
+create_field_marshal = {
+	name = "José León Castro"
+	picture = "Portrait_HON_Jose_Leon_Castro.tga"
 	traits = {
+		jungle_rat
+		adaptable
 	}
 	skill = 2
+	id = 1603
 	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+### Corps Commanders
+create_corps_commander = {
+	name = "José María Moncada"
+	#desc = "ARMY_HON_JOSE_MARIA_MONCADA_DESC"
+	picture = "Portrait_HON_Jose_Maria_Moncada.tga"
+	traits = {
+		guerilla_fighter
+	}
+	skill = 2
+	id = 16060
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Federico Davidson Blanco"
+	#desc = "ARMY_HON_FEDERICO_DAVIDSON_BLANCO_DESC"
+	picture = "Portrait_HON_Federico_Davidson_Blanco.tga"
+	traits = {}
+	skill = 2
+	id = 1606
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Juan Manuel Galvez"
+	desc = "ARMY_HON_JUAN_GALVEZ_DESC"
+	picture = "Portrait_HON_Juan_Manuel_Galvez.tga"
+	traits = {}
+	skill = 2
+	id = 16200
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Anastasio Somoza Garcia"
+	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
+	picture = "Portrait_HON_Anastasio_Somoza_Garcia_2.tga"
+	traits = {}
+	skill = 2
+	id = 16210
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
 }

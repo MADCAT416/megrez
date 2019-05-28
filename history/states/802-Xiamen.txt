@@ -5,13 +5,11 @@ state = { # Xiamen
 	state_category = town
 
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
+		owner = AOG
 		add_core_of = QIE
-
+		add_core_of = SQI
 		add_core_of = AOG
-		
+		add_core_of = FNG
 		victory_points = {
 			7071 1
 		}

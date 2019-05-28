@@ -9,15 +9,30 @@ state = {
 	state_category = town
 
 	history = {
-		owner = RRM
+		owner = HUN
 		add_core_of = HUN
-		add_core_of = RRM
-		
+		add_core_of = ROM
+
 		buildings = {
 			infrastructure = 4
+			6709 = {
+				bunker = 1
+			}
+			690 = {
+				bunker = 1
+			}
+			3676 = {
+				bunker = 1
+			}
+			11622 = {
+				bunker = 1
+			}
 		}
 		victory_points = {
-			690 1
+			690 5
+		}
+		victory_points = {
+			6679 2
 		}
 	}
 

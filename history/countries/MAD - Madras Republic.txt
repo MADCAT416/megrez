@@ -1,63 +1,22 @@
 ﻿capital = 320
 
-oob = "empty"
+OOB = "MAD"
 
 set_research_slots = 3
 set_convoys = 40
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
 }
 
 add_ideas = {
@@ -65,8 +24,9 @@ add_ideas = {
 	MAD_Paramasiva_Subbarayan_for_sli
 	MAD_R_N_Arogyasamy_Mudaliar_eco_sli
 	MAD_Muthiah_Mudaliar_sec_sli
-	#medium_economy
 }
+
+set_war_support = 0.2
 
 set_politics = {
 
@@ -74,7 +34,7 @@ set_politics = {
 		totalist = {
 			popularity = 2
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 3
 		}
 		syndicalist = {
@@ -110,88 +70,75 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Paramasiva Subbarayan"
-	picture = "Portrait_Madras_Paramasiva_Subbarayan.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Periyar Ramasavy"
-	picture = "Portrait_Madras_Periyar_Ramasavy.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "C. Rajagopalachari"
-	picture = "Portrait_Madras_C_Rajagopalachari.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Sri Ramakrishna Ranga Rao"
+	name = "Ramakrishna Ranga Rao"
+	desc = "POLITICS_RANGA_RAO_DESC"
 	picture = "Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Sri Ramakrishna Ranga Rao"
+	name = "Ramakrishna Ranga Rao"
+	desc = "POLITICS_RANGA_RAO_DESC"
 	picture = "Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
+	name = "Periyar Ramasavy"
+	desc = "POLITICS_PERIYAR_RAMASAVY_DESC"
+	picture = "Portrait_Madras_Periyar_Ramasavy.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Paramasiva Subbarayan"
+	desc = "POLITICS_PARAMASIVE_SUBBARAYAN_DESC"
+	picture = "Portrait_Madras_Paramasiva_Subbarayan.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "C. Rajagopalachari"
+	desc = "POLITICS_RAJAGOPALACHARI_DESC"
+	picture = "Portrait_Madras_C_Rajagopalachari.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
 	name = "Rettamalai Srinivasan"
+	desc = "POLITICS_RETTAMALAI_SRINIVASAN_DESC"
 	picture = "Portrait_Madras_Rettamalai_Srinivasan.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 ### Field Marshal
 
 ### Corps Commander
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	create_corps_commander = {
-		name = "Kodandera Subayya Thimayya"
-		gfx = "GFX_RAJ_kodendera_subayya_thimayya"
-		traits = {
-			jungle_rat
-			adaptable
-		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 4
-		planning_skill = 2
-		logistics_skill = 2
-		id = 1510
+create_corps_commander = { #Auto-Generated
+	name = "Kodandera Subayya Thimayya"
+	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Subayya_Thimayya.tga"
+	traits = {
+		jungle_rat
+		adaptable
 	}
-	else = {
-		create_corps_commander = { #Auto-Generated
-			name = "Kodandera Subayya Thimayya"
-			portrait_path = "gfx/leaders/PRF/Portrait_PRF_Subayya_Thimayya.tga"
-			traits = {
-				jungle_rat
-				adaptable
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 2
-			id = 1510
-		}
-	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	id = 1510
 }
 
 create_corps_commander = { #Auto-Generated
@@ -203,15 +150,14 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Sri Ramakrishna Ranga Rao"
+	name = "Ramakrishna Ranga Rao"
 	portrait_path = "gfx/leaders/MAD/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -228,7 +174,7 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 3
 }
@@ -238,7 +184,10 @@ create_corps_commander = { #Auto-Generated
 create_navy_leader = { #Auto-Generated
 	name = "Ranjid"
 	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

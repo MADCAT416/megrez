@@ -1,222 +1,214 @@
 ﻿capital = 318
-oob = "HAI"
-
+OOB = "HAI"
 set_convoys = 20
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	### AIR ###
 }
 
-set_stability = 0.5
-set_war_support = 0.1
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+add_opinion_modifier = { target = DOM modifier = HAI_border_dispute }
+
+set_stability = 0.4
+set_war_support = 0.25
 
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 2
+			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 5
+		radical_socialist = {
+			popularity = 9
 		}
 		syndicalist = {
-			popularity = 3
+			popularity = 12
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 10
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 5
+			popularity = 19
 		}
 		authoritarian_democrat = {
-			popularity = 5
+			popularity = 34
 		}
 		paternal_autocrat = {
-			popularity = 15
+			popularity = 6
 		}
 		national_populist = {
-			popularity = 50
+			popularity = 7
 		}
 	}
 
-	ruling_party = national_populist
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 add_ideas = {
 	#medium_economy
-	HAI_Stenio_Vincent_hog_ade
-	HAI_Albert_Blanchet_for_sli
-	HAI_Elie_Lescot_eco_ade
-	HAI_Joseph_Louis_Borno_sec_sco
-	extensive_conscription
-
+	free_trade
+	limited_conscription
+	HAI_Joseph_Louis_Borno_hog_ade
+	HAI_Emmanuel_Volel_for_ade
+	HAI_Jules_Faine_eco_ade
+	HAI_Elie_Lescot_sec_ade
 }
-
 create_country_leader = {
-	name = "자끄 뤼맹"
-	desc = "Jacques_Roumain_DESC"
-	picture = "Portrait_HAI_Jacques_Roumain.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "자끄 뤼맹"
-	desc = "Jacques_Roumain_DESC"
-	picture = "Portrait_HAI_Jacques_Roumain.tga"
-	expire = "2000.1.1"
+	name = "Jacques Romain"
+	desc = "POLITICS_JACQUES_ROMAIN_DESC"
+	picture = "Portrait_Haiti_Jacques_Romain.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "자끄 뤼맹"
-	desc = "Jacques_Roumain_DESC"
-	picture = "Portrait_HAI_Jacques_Roumain.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
+	name = "Georges Rigaud"
+	desc = "POLITICS_GEORGES_RIGAUD_DESC"
+	picture = "Portrait_Haiti_Georges_Rigaud.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "피에르외스타슈 다니엘 피뇰레"
-	desc = "Daniel_Fignole_DESC"
-	picture = "Portrait_HAI_Daniel_Fignole.tga"
-	expire = "2000.1.1"
+	name = "Dumarsais Estimé"
+	desc = "POLITICS_DUMARSAIS_ESTIME_DESC"
+	picture = "Portrait_Haiti_Dumarsais_Estime.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "피에르외스타슈 다니엘 피뇰레"
-	desc = "Daniel_Fignole_DESC"
-	picture = "Portrait_HAI_Daniel_Fignole.tga"
-	expire = "2000.1.1"
+	name = "Jean Price-Mars"
+	desc = "POLITICS_JEAN_PRICE_MARS_DESC"
+	picture = "Portrait_Haiti_Jean_Price_Mars.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레슬리 마니가"
-	desc = "Leslie_Manigat_DESC"
-	picture = "Portrait_HAI_Leslie_Manigat.tga"
-	expire = "2000.1.1"
+	name = "Louis Déjoie"
+	desc = "POLITICS_LOUIS_DEJOIE_DESC"
+	picture = "Portrait_Haiti_Louis_Dejoie.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레슬리 마니가"
-	desc = "Leslie_Manigat_DESC"
-	picture = "Portrait_HAI_Leslie_Manigat.tga"
-	expire = "2000.1.1"
+	name = "Stenio Vincent"
+	desc = "POLITICS_STENIO_VINCENT_DESC"
+	picture = "Portrait_Haiti_Stenio_Vincent.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "프랑수아 뒤발리에"
-	desc = "Francois_Duvalier_DESC"
-	picture = "Portrait_HAI_Francois_Duvalier.tga"
-	expire = "2000.1.1"
+	name = "Louis Borno"
+	desc = "POLITICS_LOUIS_BORNO_DESC"
+	picture = "Portrait_Haiti_Louis_Borno.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "프랑수아 뒤발리에"
-	desc = "Francois_Duvalier_DESC"
-	picture = "Portrait_HAI_Francois_Duvalier.tga"
-	expire = "2000.1.1"
+	name = "John Russell"
+	desc = "POLITICS_JOHN_RUSSELL_DESC"
+	picture = "Portrait_Haiti_John_Russell.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "프랑수아 뒤발리에"
-	desc = "Francois_Duvalier_DESC"
-	picture = "Portrait_HAI_Francois_Duvalier.tga"
-	expire = "2000.1.1"
+	name = "Carl Brouard"
+	desc = "POLITICS_CARL_BROUARD_DESC"
+	picture = "Portrait_Haiti_Carl_Brouard.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 ### Field Marshal
-### Corps Commander
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Léger"
-	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Léger.tga"
+create_field_marshal = { #Auto-Generated
+	name = "John Russell"
+	picture = "Portrait_Haiti_John_Russell.tga"
+	id = 1480
 	traits = {
+		politically_connected
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Nemours"
-	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Nemours.tga"
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Franck Lavaud"
+	picture = "Portrait_Haiti_Frank_Lavaud.tga"
+	id = 1481
 	traits = {
+		politically_connected
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
+
+### Navy Leader

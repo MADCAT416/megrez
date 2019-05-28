@@ -1,0 +1,22 @@
+﻿units = {# Navy
+	# Navy
+	fleet = {
+		name = "The Red Navy"
+		naval_base = 3878
+		task_force = {
+			name = "The Red Navy"
+			location = 3878
+			ship = { name = "PLN Marx" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Debs" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Joe Hill" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Liberation" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Haywood" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN DeLeon" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Freedom" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN John Brown" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Engel" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+			ship = { name = "PLN Fielden" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Wickes Class" } } }
+		}
+	}
+
+}

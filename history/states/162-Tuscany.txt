@@ -6,32 +6,33 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
 		victory_points = {
-			9907 3
+			9907 10
 		}
 		victory_points = {
-			6973 1
+			6973 3
 		}
 		victory_points = {
-			11833 1
-		}
-		victory_points = {
-			910 1
+			11833 2
 		}
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 3
 			arms_factory = 3
 			air_base = 2
-			anti_air_building = 1
 			6973 = {
 				naval_base = 10
 			}
 			11833 = {
 				naval_base = 4
+			}
+			9907 = {
+				bunker = 1
+			}
+			6875 = {
+				bunker = 1
 			}
 		}
 	}

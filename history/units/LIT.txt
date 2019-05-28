@@ -1,19 +1,6 @@
 ﻿division_template = {
-	name = "국방의용군" # Miliztruppe
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "경보병사단"
+	name = "Pėstininkas divizija"
+	division_names_group = LIT_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -22,139 +9,91 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Pėstininkas divizija su artilerija"
+	division_names_group = LIT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
 	}
 }
-
 division_template = {
-	name = "차량화보병사단"
-
+	name = "Armored-Division"
+	division_names_group = LIT_ARM_01
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "기계화보병사단"
-
-	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-		modern_armor = { x = 3 y = 0 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "기갑사단"
-
-	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		artillery_brigade = { x = 1 y = 1 }
-		artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 }
 
 units = {
 
-	division = {
-		name = "제1기계화보병사단"
-		location = 327
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
 	division = {
-		name = "제2기계화보병사단"
-		location = 9499
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1경보병사단"
+		name = "I Pestijos Brigada"
 		location = 3320
-		division_template = "경보병사단"
-		start_experience_factor = 0.3
+		division_template = "Pėstininkas divizija"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-
 	division = {
-		name = "제1국방의용군"
-		location = 6281
-		division_template = "국방의용군"
-		start_experience_factor = 0.3
+		name = "II Pestijos Brigada"
+		location = 3320
+		division_template = "Pėstininkas divizija su artilerija"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-
 	division = {
-		name = "제2국방의용군"
-		location = 6296
-		division_template = "국방의용군"
-		start_experience_factor = 0.3
+		name = "III Pestijos Brigada"
+		location = 3320
+		division_template = "Pėstininkas divizija"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-
 	division = {
-		name = "제3국방의용군"
-		location = 9438
-		division_template = "국방의용군"
-		start_experience_factor = 0.3
+		name = "IV Pestijos Brigada"
+		location = 9374
+		division_template = "Pėstininkas divizija su artilerija"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-
 	division = {
-		name = "제4국방의용군"
-		location = 6229
-		division_template = "국방의용군"
-		start_experience_factor = 0.3
+		name = "V Pestijos Brigada"
+		location = 9374
+		division_template = "Pėstininkas divizija"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LIT"
+		}
+		requested_factories = 3
+		progress = 0.32
+		efficiency = 100
 	}
+}

@@ -1,306 +1,187 @@
 ﻿capital = 44
 
-oob = "ALB"
-
+OOB = "ALB"
+set_naval_oob = "ALB_naval"
 set_convoys = 20
+
 set_research_slots = 3
-
 set_technology = {
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	transport = 1
+	### AIR ###
+	early_fighter = 1
+}
 
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
-	
-	etc_infantry_equipments_1 = 1 # 1960
-	
-	night_vision_1 = 1 # 1960
-	
-	Bulletproof_vest_1 = 1 # 1960
-	
-	support_weapons_1 = 1 # 1960
-		
-	airborne_1 = 1 # 1960
-	
-	motorised_infantry = 1 # 1955
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
 
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	
-	tech_engineers_1 = 1 # 1960
-	
-	tech_military_police_1 = 1 # 1960
-	
-	tech_maintenance_company_1 = 1 # 1960
-	
-	tech_field_hospital_1 = 1 # 1960
-	
-	tech_logistics_company_1 = 1 # 1960
-	
-	tech_signal_company_1 = 1 # 1960
+		## Modules##
+		torpedo_tech_one = 1
+		gunnery_tech_one = 1
+		ss_torpedo_module_one = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
 
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
-	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
-	
-	mechanised_infantry_1 = 1 # 1960
-	
-	amphibious_assault_vehicle_1 = 1 # 1960
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	spa_1 = 1 # 1960
-		
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	antitank_1 = 1 # 1965
-		
-	antiair_1 = 1 # 1960
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-		
-### 대형함
-	battleship_1 = 1 # 1945
-		
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	
-### 항공기
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	
-	experimental_rockets = 1 # 1920
-	
-	jet_engines_1 = 1 # 1940
-	
-	atomic_research = 1 # 1940
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	
-	improved_equipment_conversion = 1 # 1937
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	rubber_processing = 1 # 1937
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+	}
 }
 
 add_ideas = {
+	ALB_polarised_nation_idea
+	ALB_illiteracy
 	ALB_Ahmet_Zogu_hog_sco
 	ALB_Pandeli_Evangjeli_for_sco
 	ALB_Myfid_Libohova_eco_sco
 	ALB_Muharrem_Bajraktari_sec_sco
 }
 
-set_cosmetic_tag = ALB_kingdom
+set_war_support = 0.1
+
+country_event = { id = albania.1 days = 1 } #Intro event
 
 set_politics = {
-
 	parties = {
 		totalist = {
-			popularity = 20
+			popularity = 0
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 38
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 7
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 4
 		}
 		social_conservative = {
-			popularity = 5
+			popularity = 42
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 50
+			popularity = 2
 		}
 		national_populist = {
-			popularity = 20
+			popularity = 3
 		}
 	}
-
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1932.6.12"
 	election_frequency = 48
-	elections_allowed = no
-
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "엔베르 호자"
-	desc = "ENVER_HOXHA_DESC"
-	picture = "Portrait_ALB_Enver_Hoxha.tga"
-	expire = "2000.1.1"
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "Portrait_Albania_Enver_Hoxha.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "고고 누시"
-	desc = "Gogo_Nushi_DESC"
-	picture = "Portrait_ALB_Gogo_Nushi.tga"
-	expire = "2000.1.1"
+	name = "Ali Kelmendi"
+	desc = "POLITICS_ALI_KELMENDI_DESC"
+	picture = "Portrait_Albania_Ali_Kelmendi.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "투크 야코바"
-	desc = "Tuk_Jakova_DESC"
-	picture = "Portrait_ALB_Tuk_Jakova.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
+	name = "Avni Rrustemi"
+	desc = "POLITICS_AVNI_RRUSTEMI_DESC"
+	picture = "Portrait_Albania_Avni_Rustemi.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
+	name = "Xhafer Ypi"
+	desc = "POLITICS_XHAFER_YPI_DESC"
+	picture = "Portrait_Albania_Xhafer_Ypi.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
+	name = "Shefqet Vërlaci"
+	desc = "POLITICS_SHEFQET_VERLACI_DESC"
+	picture = "Portrait_Albania_Shefqet_Verlaci.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
+	name = "Luigj Bumçi"
+	desc = "POLITICS_LUIGJ_BUMCI_DESC"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "레카 1세"
-	desc = "Leka_I_DESC"
-	picture = "Portrait_ALB_Leka_I.tga"
-	expire = "2000.1.1"
+	name = "Eshref Frashëri"
+	desc = "POLITICS_ESHREF_FRASHERI_DESC"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "아바스 에르메니"
-	desc = "Abas_Ermenji_DESC"
-	picture = "Portrait_ALB_Abas_Ermenji.tga"
-	expire = "2000.1.1"
+	name = "Mid'hat Frashëri"
+	desc = "POLITICS_MIDHAT_FRASHERI_DESC"
+	picture = "Portrait_ALB_Midhat_Frasheri.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
@@ -316,10 +197,10 @@ create_field_marshal = {
 		infantry_leader
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 1
 }
 
 ### Corps Commander
@@ -333,10 +214,10 @@ create_corps_commander = {
 		hill_fighter
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -351,10 +232,10 @@ create_corps_commander = {
 		skirmisher
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 3
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -368,8 +249,22 @@ create_corps_commander = {
 		commando
 		skirmisher
 	}
-	attack_skill = 4
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
+}
+
+set_country_flag = v1_class_ship_variant
+create_equipment_variant = {
+	name = "V1 Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+	}
+	obsolete = yes
 }

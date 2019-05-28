@@ -9,9 +9,12 @@ state = {
 	state_category = city
 
 	history = {
-		owner = CNT
+		owner = POR
 		victory_points = {
 			11805 20
+		}
+		victory_points = {
+			3798 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -21,10 +24,13 @@ state = {
 			dockyard = 1
 			11805 = {
 				naval_base = 8
+				bunker = 2
+			}
+			3861 = {
+				bunker = 1
 			}
 		}
 		add_core_of = POR
-		add_core_of = CNT
 	}
 
 	provinces = {

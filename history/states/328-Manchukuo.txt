@@ -6,13 +6,11 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = MAN
-		add_core_of = MAN
-		add_claim_by = KOR
-		add_core_of = SQI
+		owner = FNG
 		add_core_of = QIE
+		add_core_of = SQI
 
-		
+		add_core_of = FNG
 
 		buildings = {
 			infrastructure = 4

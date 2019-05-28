@@ -6,18 +6,14 @@ state = { #Chenyuan
 	}
 
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
+		owner = AOG
 		add_core_of = QIE
-		add_core_of = HNN
-
-		
-		
+		add_core_of = SQI
+		add_core_of = AOG
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		victory_points = {
 			7101 5
@@ -34,6 +30,5 @@ state = { #Chenyuan
 		1448 1640 4125 4480 7097 7159 7502 7665 9982 9999 10377 10517 11918 12017 12053 12310 12350 12378 12483 13140 13143
 	}
 	manpower = 21293700
-	buildings_max_level_factor = 1
 	state_category = town
 }

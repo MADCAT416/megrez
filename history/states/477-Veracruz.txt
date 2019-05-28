@@ -6,16 +6,16 @@ state = {
 		owner = MEX
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
+			dockyard = 1
 			12810 = {
 				naval_base = 3
-
 			}
 		}
 		add_core_of = MEX
 		victory_points = {
-			12810 1
+			12810 5
 		}
 	}
 
@@ -23,6 +23,5 @@ state = {
 		8079 8089 10732 12810 13454 13456 13458 13466
 	}
 	manpower = 1951460
-	buildings_max_level_factor = 1
 	state_category = town
 }

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = PAP
+		owner = ITA
 		victory_points = {
 			9613 1
 		}
@@ -15,16 +15,16 @@ state = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
+			13582 = {
+				bunker = 1
+			}
 		}
-		add_core_of = PAP
 		add_core_of = ITA
-
 	}
 
 	provinces = {
 		628 3657 6656 9613 13582
 	}
 	manpower = 938000
-	buildings_max_level_factor = 1
 	state_category = "city"
 }

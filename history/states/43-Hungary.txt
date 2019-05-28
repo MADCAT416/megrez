@@ -7,19 +7,24 @@ state = {
 		aluminium = 112
 	}
 
-	state_category = metropolis
+	state_category = large_city
 
 	history = {
 		owner = HUN
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 4
-			
+			9660 = {
+				bunker = 2
+			}
+			9690 = {
+				bunker = 1
+			}
 		}
 		victory_points = {
-			9660 20
+			9660 40
 		}
 		add_core_of = HUN
 	}

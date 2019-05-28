@@ -1,20 +1,20 @@
 state = {
 	id = 193
 	name = "STATE_193" # Chernihiv
-	manpower = 1373637
+	manpower = 1579682
 
 	state_category = city
 
 	history = {
-		owner = UKR # SOV
-		buildings = {
-			infrastructure = 5
-			air_base = 8
-			industrial_complex = 5
-			anti_air_building = 2
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			3568 3
 		}
-		add_core_of = UKR # SOV
-		add_core_of = RUS
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
 	}
 
 	provinces = {

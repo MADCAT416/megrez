@@ -3,11 +3,10 @@ state = {
 	name = "STATE_663"
 
 	history = {
-		owner = LYB
-		add_core_of = LYB
+		owner = LBA
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
 
@@ -15,6 +14,5 @@ state = {
 		1062 1186 4063 4133 7063 7139 7206 10049 10785 11951 12025 12079 13078
 	}
 	manpower = 8808
-	buildings_max_level_factor = 1
 	state_category = "wasteland"
 }

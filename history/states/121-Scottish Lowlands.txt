@@ -7,7 +7,6 @@ state = {
 
 	history = {
 		owner = ENG
-		add_core_of = SCT
 		victory_points = { 9392 10 }
 		victory_points = { 6300 1 }
 		buildings = {
@@ -20,9 +19,10 @@ state = {
 			}
 		}
 		add_core_of = ENG
+		add_claim_by = CAN
 	}
 
 	provinces = {
-		6300 9314 9383 9392 11378
+		159 6300 9314 9383 9392 11378
 	}
 }

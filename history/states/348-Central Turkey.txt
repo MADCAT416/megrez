@@ -3,16 +3,14 @@ state = { #Ningxia
 	name = "STATE_348"
 
 	history = {
-		owner = MON
-		add_core_of = MON
+		owner = XSM
+		add_core_of = XSM
 		add_core_of = SQI
 		add_core_of = QIE
-		
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-
 		}
 
 		victory_points = {
@@ -21,9 +19,8 @@ state = { #Ningxia
 	}
 
 	provinces = {
-		4783 5031 7727 7803 8055 8102 8127 10724 10770 10899 12750
+		4783 5031 7727 7803 8055 8081 8102 8127 10724 10770 10899 12750
 	}
 	manpower = 1023100
-	buildings_max_level_factor = 1
-	state_category = pastoral
+	state_category = rural
 }

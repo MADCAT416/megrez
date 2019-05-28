@@ -7,16 +7,16 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		add_core_of = PER
-
+		victory_points = {
+			4637 2
+		}
 	}
 
 	provinces = {
 		4580 4609 4637 10385
 	}
 	manpower = 2170904
-	buildings_max_level_factor = 1
 	state_category = rural
 }

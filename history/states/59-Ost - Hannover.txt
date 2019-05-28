@@ -1,7 +1,7 @@
 state = {
 	id = 59
 	name = "STATE_59"
-	manpower = 4529494
+	manpower = 3938691
 	resources = {
 		oil = 4
 	}
@@ -12,26 +12,27 @@ state = {
 		owner = GER
 		add_core_of = GER
 		victory_points = {
-			3326 5
+			3326 10
 		}
 		victory_points = {
 			6377 10
 		}
 		victory_points = {
-			9347 20
+			9347 40
 		}
 		victory_points = {
-			526 5
+			526 2
 		}
 		buildings = {
 			infrastructure = 7
-			air_base = 5
+
 			dockyard = 8
-			
-			anti_air_building = 1
-			synthetic_refinery = 2
 			9347 = {
 				naval_base = 2
+				bunker = 1
+			}
+			6377 = {
+				bunker = 1
 			}
 		}
 	}

@@ -5,23 +5,21 @@ state = {
 	state_category = megalopolis
 
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 8
 			air_base = 10
-			industrial_complex = 3
-			dockyard = 2
+			industrial_complex = 5
+			dockyard = 4
 
 			9671 = {
 				naval_base = 4
 			}
 		}
 		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = CSA
 
 		victory_points = {
-			9671 25
+			9671 20
 		}
 	}
 
@@ -29,5 +27,4 @@ state = {
 		9671 3678 3677 9637
 	}
 	manpower = 700000
-	buildings_max_level_factor = 1
 }

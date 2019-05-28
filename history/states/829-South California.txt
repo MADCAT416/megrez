@@ -3,26 +3,23 @@ state = {
 	name = "STATE_829"
 	manpower = 224546
 
-	state_category = metropolis
+	state_category = megalopolis
 
 	resources = {
-		oil = 350
+		oil = 236
 	}
 
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 8
 			dockyard = 1
 			air_base = 2
 		}
 		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = CSA
-		
 		victory_points = {
-			4518 3
+			4518 1
 		}
 	}
 

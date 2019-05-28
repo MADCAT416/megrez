@@ -39,12 +39,13 @@ leader_traits = {
 	democratic_socialist = {}
 	syndicalist = {}
 	social_democrat = {}
-	new_left = {}
+	social_progressive = {}
 	social_liberal = {}
 	market_liberal = {}
 	social_conservative = {}
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
+	clerical_nationalist = {}
 	national_populist = {}
 
 }

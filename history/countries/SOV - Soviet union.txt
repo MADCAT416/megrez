@@ -1,70 +1,146 @@
 ﻿capital = 219
 
-oob = "empty"
+oob = "SOV"
 
 set_research_slots = 3
 
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
 }
 
+### Navy - MtG ###
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		nav_infra_one = 1
+		nav_infra_two = 1
+		nav_infra_three = 1
+		nav_av_one = 1
+		nav_av_two = 1
+		nav_av_three = 1
+		transport = 1
+	}
+}
 
 set_convoys = 20
 set_stability = 0.4
 set_war_support = 0.5
+set_major = yes
 
 add_opinion_modifier = { target = AST modifier = embargo }
 add_opinion_modifier = { target = CAN modifier = embargo }
@@ -82,7 +158,7 @@ set_politics = {
 		totalist = {
 			popularity = 6
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 41
 		}
 		syndicalist = {
@@ -111,7 +187,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = democratic_socialist
+	ruling_party = radical_socialist
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -119,122 +195,102 @@ set_politics = {
 
 add_ideas = {
 	#medium_economy
-	SOV_Nicolai_Bukharin_hog_syn
+	SOV_Nikolay_Bukharin_hog_syn
 	SOV_Maksim_Litvinov_for_tot
 	SOV_Lazer_Kaganovich_eco_tot
 	SOV_Genrikh_Yagoda_sec_tot
-	SOV_Michail_N_Tuchatjevskij_cos_tot
-	SOV_Michail_V_Frunze_carm_rso
+	SOV_Mikhail_N_Tukhachevskiy_cos_tot
+	SOV_Mikhail_V_Frunze_carm_rso
 }
 
 create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "알렉산드르 솔제니친"
-	desc = "Aleksandr_Solzhenitsyn_DESC"
-	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
-	expire = "2000.1.1"
+	name = "Mikhail Tukhachevskiy"
+	desc = "POLITICS_TUKACHEVSKY_DESC"
+	picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "알렉산드르 솔제니친"
-	desc = "Aleksandr_Solzhenitsyn_DESC"
-	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "알렉산드르 솔제니친"
-	desc = "Aleksandr_Solzhenitsyn_DESC"
-	picture = "portrait_soviet_Aleksandr_Solzhenitsyn.tga"
-	expire = "2000.1.1"
+	name = "SOVNARKOM"
+	desc = "POLITICS_SOVNARKOM_DESC"
+	picture = "portrait_soviet_sovnarkom.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
+	name = "Nikolay Bukharin"
+	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
+	picture = "Portrait_Soviet_Nikolai_Iwanowitsch_Bucharin.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Irakliy Tsereteli"
+	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
+	picture = "Potrait_Soviet_Iraklij_Tsereteliy.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
+	name = "Viktor Chernov"
+	desc = "POLITICS_VIKTOR_CHERNOV_DESC"
+	picture = "Potrait_Soviet_Viktor_Chernov.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "Potrait_Soviet_Pavel_Milyukov.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
+	name = "Nikolay Trubetskoy"
+	desc = "POLITICS_NIKOLAI_TRUBETSKOY_DESC"
+	picture = "Potrait_Soviet_Nikolai_Trubetskoy.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "블라디미르 1세"
-	desc = "Vladimir_I_DESC"
-	picture = "Portrait_Russia_Vladimir_I.tga"
-	expire = "2000.1.1"
+	name = "Anton Denikin"
+	desc = "POLITICS_ANTON_DENIKIN_DESC"
+	picture = "Portrait_Soviet_Anton_Iwanowitsch_Denikin.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "콘스탄틴 로자예프스키"
-	desc = "Konstantin_Rodzaevsky_DESC"
-	picture = "Portrait_Russia_Konstantin_Rodzaevsky.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {
+	name = "Vladimir Purishkevich"
+	desc = "POLITICS_VLADIMIR_PURISHKEVICH_DESC"
+	picture = "Potrait_Soviet_Vladimir_Purishkevich.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
 
-	}
+create_country_leader = {
+	name = "Pyetr Vrangel"
+	desc = "POLITICS_PYOTR_WRANGEL_DESC"
+	picture = "Portrait_Soviet_Pjotr_Nikolajewitsch_Wrangel_3.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {}
 }
 
 add_namespace = { name = "unit_leader_sov"
@@ -242,31 +298,31 @@ add_namespace = { name = "unit_leader_sov"
 }
 
 create_corps_commander = {
-	name = "Georgy Zhukov"
+	name = "Georgiy Zhukov"
 	id = 610
 	picture = "Portrait_Soviet_Gregory_Zhukov.tga"
 	traits = { brilliant_strategist career_officer organizer skilled_staffer }
 	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "Konstantin Rokossovsky"
+	name = "Konstantin Rokossovskiy"
 	id = 602
 	picture = "Portrait_Soviet_Konstantin_Rokossovsky.tga"
 	traits = { cavalry_officer trait_cautious cavalry_leader }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
+	name = "Aleksandr Vasilevskiy"
 	id = 607
 	picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = { panzer_leader politically_connected }
@@ -285,18 +341,18 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Nikolai Vatutin"
+	name = "Nikolay Vatutin"
 	picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_officer trait_reckless winter_specialist politically_connected }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -307,7 +363,7 @@ create_corps_commander = {
 	skill = 5
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 1
+	planning_skill = 3
 	logistics_skill = 3
 }
 
@@ -330,7 +386,7 @@ create_field_marshal = {
 	skill = 5
 	attack_skill = 5
 	defense_skill = 3
-	planning_skill = 5
+	planning_skill = 3
 	logistics_skill = 5
 }
 
@@ -347,19 +403,19 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Mikhail Tukhachevsky"
+	name = "Mikhail Tukhachevskiy"
 	id = 601
 	picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
 	traits = { offensive_doctrine brilliant_strategist infantry_officer trait_reckless }
 	skill = 4
 	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
+	defense_skill = 3
+	planning_skill = 3
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Ivan Chernyakhovsky"
+	name = "Ivan Chernyakhovskiy"
 	picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = { organisational_leader armor_officer  }
 	skill = 1
@@ -385,7 +441,7 @@ create_corps_commander = {
 	picture = "Portrait_Soviet_Leonid_Govorov.dds"
 	traits = { artillery_officer defensive_doctrine harsh_leader	}
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
@@ -408,7 +464,7 @@ create_corps_commander = {
 	traits = { trait_reckless  infantry_officer harsh_leader }
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
 }
@@ -418,8 +474,8 @@ create_corps_commander = {
 	picture = "Portrait_Soviet_Filipp_Golikov.dds"
 	traits = { trait_reckless career_officer harsh_leader }
 	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
 }
@@ -451,7 +507,7 @@ create_corps_commander = {
 	picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { cavalry_officer trait_reckless old_guard }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
@@ -484,9 +540,9 @@ create_corps_commander = {
 	picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
 	traits = { infantry_officer commando }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 
@@ -498,7 +554,7 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -557,7 +613,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alexander Gorbatov"
+	name = "Aleksandr Gorbatov"
 	picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = { career_officer cavalry_officer old_guard }
 	skill = 3
@@ -579,7 +635,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dmitry Lelyushenko"
+	name = "Dmitriy Lelyushenko"
 	picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = { armor_officer trait_reckless }
 	skill = 1
@@ -601,7 +657,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rodion Malinovsky"
+	name = "Rodion Malinovskiy"
 	picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
 	traits = { career_officer old_guard trait_cautious politically_connected }
 	skill = 1
@@ -612,7 +668,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vasily Chuikov"
+	name = "Vasiliy Chuykov"
 	picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { infantry_officer urban_assault_specialist trait_engineer }
 	skill = 1
@@ -626,15 +682,23 @@ create_navy_leader = {
 	name = "Filipp Oktyabrskiy"
 	picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
 	traits = { ironside }
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Sergey Gorshkov"
 	id = 611
 	picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
-	traits = { }
-	skill = 3 #naval guy, don't patch
+	traits = {}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 # Arrested in '41
@@ -642,8 +706,12 @@ create_navy_leader = {
 	name = "Gordey Levchenko"
 	id = 606
 	picture = "Portrait_Soviet_Gordey_Levchenko.dds"
-	traits = { }
-	skill = 2 #naval guy, don't patch
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = {
@@ -651,7 +719,11 @@ create_navy_leader = {
 	id = 609
 	picture = "Portrait_Soviet_Arseniy_Golovko.dds"
 	traits = { spotter }
-	skill = 4 #naval guy, don't patch
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
@@ -659,5 +731,9 @@ create_navy_leader = {
 	id = 603
 	picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
 	traits = { seawolf }
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

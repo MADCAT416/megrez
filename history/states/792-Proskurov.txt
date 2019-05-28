@@ -4,21 +4,20 @@ state = {
 	manpower = 675490
 
 	history = {
-		owner = UKR # SOV
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			air_base = 3
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			11543 3
 		}
-		add_core_of = UKR # SOV
-		add_claim_by = POL
-		add_claim_by = RUS
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+		}
 	}
 
 	provinces = {
-		474 513 572 6435 6520 6557 11543
+		422 474 513 572 3412 6435 6520 6557 9520 11441 11543
 	}
-	manpower = 1985600
-	buildings_max_level_factor = 1
+	manpower = 2370544
 	state_category = "town"
 }

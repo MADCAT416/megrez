@@ -1,0 +1,51 @@
+﻿URG = {
+	submarine = {
+		prefix = "ROU"
+		generic = { "Submarino" }
+		unique = {
+			"Montevideo"
+			"Maldonado"
+			"Rocha"
+			"Colonia"
+			"Colonia"
+			"Rio Negro"
+			"Paysandu"
+		}
+	}
+	destroyer = {
+		prefix = "ROU"
+		generic = { "Destructor" }
+		unique = {
+		}
+	}
+	light_cruiser = {
+		prefix = "ROU"
+		generic = { "Crucero Ligero" }
+		unique = {
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ROU"
+		generic = { "Crucero Pesado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "ROU"
+		generic = { "Crucero de Batalla" }
+		unique = {
+		}
+	}
+	SH_battleship = {
+		prefix = "ROU"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "ROU"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}

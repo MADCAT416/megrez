@@ -3,13 +3,12 @@ state = {
 	name = "STATE_515" #Chad
 
 	history = {
-		owner = WAF
-		add_core_of = WAF
-		add_core_of = TUA
+		owner = NFA
+		add_core_of = NFA
+
 		buildings = {
 
 			infrastructure = 2
-
 		}
 	}
 
@@ -17,6 +16,5 @@ state = {
 		3123 13212 13213 13138
 	}
 	manpower = 482000
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

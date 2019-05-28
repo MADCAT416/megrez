@@ -1,0 +1,93 @@
+﻿###########################
+# Events triggered by Black Monday tree temporary file
+###########################
+# By ~mw~
+###########################
+
+add_namespace = gerdom
+
+country_event = { # Agricultural Crisis in the Völkerbund
+	id = gerdom.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerdom.11"}
+	title = gerdom.11.t
+	desc = gerdom.11.d
+	picture = farming
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+		has_idea = GER_black_monday
+	}
+
+	mean_time_to_happen = {
+		days = 40
+	}
+
+	option = { #refuse aid
+		name = gerdom.11.a
+		ai_chance = {
+			factor = 95
+		}
+		add_political_power = 20
+		reverse_add_opinion_modifier = {
+			target = POL
+			modifier = GER_raised_tarrifs
+		}
+		reverse_add_opinion_modifier = {
+			target = GAL
+			modifier = GER_raised_tarrifs
+		}
+		reverse_add_opinion_modifier = {
+			target = UKR
+			modifier = agriculture_help_denied
+		}
+		UKR = {
+			country_event = {
+				id = ukraine.4
+				days = 40
+			}
+		}
+		custom_effect_tooltip = GER_angry_ukraine
+	}
+
+	option = { #promise aid
+		name = gerdom.11.b
+		ai_chance = {
+			factor = 5
+		}
+		add_political_power = -120
+		reverse_add_opinion_modifier = {
+			target = UKR
+			modifier = agriculture_help_granted
+		}
+		UKR = {
+			set_country_flag = UKR_Our_Future
+		}
+	}
+}
+
+### Gangs
+
+country_event = { #Halbstarke terrorize the cities
+	id = gerdom.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerdom.14"}
+	title = gerdom.14.t
+	desc = gerdom.14.d
+	picture = halbstarke
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+		has_idea = GER_black_monday
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = gerdom.14.a
+		add_stability = -0.2
+		set_country_flag = GER_halbstarke
+	}
+}

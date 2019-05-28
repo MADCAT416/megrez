@@ -3,9 +3,8 @@ state = {
 	name = "STATE_557"
 
 	history = {
-		owner = MAH
-		add_core_of = MAH
-		add_core_of = TUA
+		owner = NFA
+		add_core_of = NFA
 		victory_points = {
 			7992 1 #Port Etienne
 		}
@@ -14,7 +13,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-
 		}
 	}
 
@@ -22,6 +20,5 @@ state = {
 		5034 5077 7992 8058 10771
 	}
 	manpower = 296412
-	buildings_max_level_factor = 1
 	state_category = pastoral
 }

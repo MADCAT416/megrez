@@ -3,10 +3,7 @@ state = {
 	name = "STATE_913"
 
 	history = {
-		owner = WAF
-		add_core_of = MAF
-		add_core_of = WAF
-		add_core_of = NGR
+		owner = MAF
 		buildings = {
 			infrastructure = 3
 		}
@@ -19,6 +16,5 @@ state = {
 		4997 5028 8109
 	}
 	manpower = 1281500
-	buildings_max_level_factor = 1
 	state_category = "pastoral"
 }

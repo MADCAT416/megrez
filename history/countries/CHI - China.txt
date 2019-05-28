@@ -1,191 +1,150 @@
-﻿capital = 592
-oob = "empty"
+﻿capital = 613 # Nanjing
+OOB = "empty"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+}
+### Navy - MtG ###
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
-	
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }
 add_opinion_modifier = { target = QIE modifier = embargo }
 add_opinion_modifier = { target = AOG modifier = embargo }
 
-set_cosmetic_tag = CHI_KMT
-
 set_stability = 0.50
 set_war_support = 0.40
+
 set_politics = {
 
 	parties = {
 		totalist = {
-			popularity = 0
+			popularity = 3
 		}
-		democratic_socialist = {
-			popularity = 0
+		radical_socialist = {
+			popularity = 10
 		}
 		syndicalist = {
-			popularity = 0
+			popularity = 15
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 47
 		}
 		social_liberal = {
-			popularity = 100
+			popularity = 11
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 6
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 2
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 1
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = social_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
 create_country_leader = {
-	name = "리셴녠"
-	picture = "CHI_portrait_Li_Xiannian.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "지팡"
-	picture = "CHI_portrait_Ji_Fang.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "양유즈"
-	picture = "CHI_portrait_Yang_Yu_Ze.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "스량"
-	picture = "CHI_portrait_Shi_Liang.tga"
-	expire = "2000.1.1"
+	name = "Transitional Government"
+	desc = "ANTE_PUJIE_DESC"
+	picture = "Portrait_China_Pujie.tga"
+	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "장웨이궈"
-	picture = "CHI_portrait_Chiang_Wei_kuo.tga"
-	expire = "2000.1.1"
+	name = "Transitional Government"
+	desc = "ANTE_PUJIE_DESC"
+	picture = "Portrait_China_Pujie.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 
 create_country_leader = {
-	name = "쑨치멍"
-	picture = "CHI_portrait_Soon_Chi_Mung.tga"
-	expire = "2000.1.1"
+	name = "Transitional Government"
+	desc = "ANTE_PUJIE_DESC"
+	picture = "Portrait_China_Pujie.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 
 create_country_leader = {
-	name = "리황"
-	picture = "CHI_portrait_Li_Huang.tga"
-	expire = "2000.1.1"
+	name = "Transitional Government"
+	desc = "ANTE_PUJIE_DESC"
+	picture = "Portrait_China_Pujie.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하오보춘"
-	picture = "CHI_portrait_Hau_Pei_tsun.tga"
-	expire = "2000.1.1"
+	name = "Transitional Government"
+	desc = "ANTE_PUJIE_DESC"
+	picture = "Portrait_China_Pujie.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "하오보춘"
-	picture = "CHI_portrait_Hau_Pei_tsun.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "덩샤오핑"
-	picture = "Portrait_SQI_Deng_Xiaoping.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
 	traits = {}
 }
 
@@ -196,8 +155,7 @@ set_convoys = 70
 create_field_marshal = { #Auto-Generated
 	name = "Tai Chi-tao"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Tai_Chi_tao.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -212,8 +170,8 @@ create_field_marshal = { #Auto-Generated
 		offensive_doctrine
 	}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
 }
@@ -222,8 +180,7 @@ create_field_marshal = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Zhang Zhizhong"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zhizhong.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -234,8 +191,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Zhang Fakui"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Fakui.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -263,7 +219,7 @@ create_corps_commander = { #Auto-Generated
 		panzer_leader
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
@@ -286,8 +242,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Gu Zhutong"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Gu_Zhutong.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -337,8 +292,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Pang Bingxun"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Pang_Bingxun.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1

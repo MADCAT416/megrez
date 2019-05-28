@@ -1,7 +1,7 @@
 state = {
 	id = 835
 	name = "STATE_835"
-	manpower = 517300
+	manpower = 439721
 
 	state_category = city
 
@@ -10,15 +10,21 @@ state = {
 	}
 
 	history = {
-		owner = GER
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
+			11612 = {
+				bunker = 2
+			}
+			6673 = {
+				bunker = 1
+			}
 		}
-
 		add_core_of = AUS
-		add_core_of = GER
-		add_core_of = SLO
+		victory_points = {
+			6673 2
+		}
 	}
 
 	provinces = {

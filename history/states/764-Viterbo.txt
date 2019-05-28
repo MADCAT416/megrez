@@ -6,11 +6,14 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = PAP
+		owner = SRI
 		add_core_of = PAP
 		add_core_of = SRI
 		buildings = {
 			infrastructure = 8
+			6862 = {
+				bunker = 2
+			}
 		}
 	}
 

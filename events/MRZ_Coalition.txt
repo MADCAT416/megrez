@@ -61,11 +61,11 @@ immediate = {
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = coalition_new_left } }
+		limit = { ROOT = { has_country_flag = coalition_social_progressive } }
 		ROOT = {
-		set_variable = { social_liberal_popularity = ROOT.party_popularity@new_left }
-		multiply_variable = { new_left_popularity = 100 }
-		add_to_variable = { goverment_popularity = new_left_popularity }
+		set_variable = { social_liberal_popularity = ROOT.party_popularity@social_progressive }
+		multiply_variable = { social_progressive_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_progressive_popularity }
 			}
 	}
 	if = {
@@ -108,6 +108,14 @@ immediate = {
 					}
 		multiply_variable = { paternal_autocrat_popularity = 100 }
 		add_to_variable = { goverment_popularity = paternal_autocrat_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { has_country_flag = coalition_clerical_nationalist } }
+		ROOT = {
+		set_variable = { national_populist_popularity = ROOT.party_popularity@clerical_nationalist }
+		multiply_variable = { clerical_nationalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = clerical_nationalist_popularity }
 			}
 	}
 	if = {

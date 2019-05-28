@@ -6,18 +6,15 @@ state = { #Hubei
 	state_category = town
 
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
+		owner = AOG
 		add_core_of = QIE
-
-		
-		
+		add_core_of = SQI
+		add_core_of = AOG
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
-
 		}
 		victory_points = {
 			1612 1

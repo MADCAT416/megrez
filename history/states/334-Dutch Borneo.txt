@@ -3,12 +3,12 @@ state = {
 	name = "STATE_334"
 	resources = {
 		rubber = 36
-		oil = 10
+		oil = 13
 	}
 
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = DEI
+		add_core_of = DEI
 		victory_points = {
 			10237 1
 		}
@@ -16,7 +16,6 @@ state = {
 			infrastructure = 2
 			1316 = {
 				naval_base = 1
-
 			}
 		}
 	}
@@ -25,6 +24,5 @@ state = {
 		1230 1304 1316 2170 2222 4279 4335 4409 10282 12129
 	}
 	manpower = 981663
-	buildings_max_level_factor = 1
 	state_category = rural
 }

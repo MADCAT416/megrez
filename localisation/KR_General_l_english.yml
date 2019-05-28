@@ -184,11 +184,13 @@ head_of_intel:0 "정보총수"
 totalist:0 "전체주의"
 syndicalist:0 "생디칼리슴"
 democratic_socialist:0 "민주사회주의"
+social_democrat:0 "사회민주주의"
 social_progressive:0 "사회진보주의"
 market_liberal:0 "시장자유주의"
 social_conservative:0 "사회보수주의"
 authoritarian_democrat:0 "권위민주주의"
 paternal_autocrat:0 "가부장적 전제주의"
+clerical_nationalist:0 "교권국민주의"
 national_populist:0 "국민대중주의"
 social_liberal:0 "사회자유주의"
 
@@ -202,6 +204,7 @@ social_conservative_drift:0 "매일 사회보수주의 지원"
 authoritarian_democrat_drift:0 "매일 권위민주주의 지원"
 paternal_autocrat_drift:0 "매일 가부장적 전제주의 지원"
 national_populist_drift:0 "매일 국민대중주의 지원"
+clerical_nationalist_drift:0 "매일 교권국민주의 지원"
 social_liberal_drift:0 "매일 사회자유주의 지원"
 
 ### Banned ###
@@ -214,7 +217,9 @@ social_conservative_banned:0 "사회보수주의 금지됨"
 authoritarian_democrat_banned:0 "권위민주주의 금지됨"
 paternal_autocrat_banned:0 "가부장적 전제주의 금지됨"
 national_populist_banned:0 "국민대중주의 금지됨"
+clerical_nationalist_banned:0 "교권국민주의 금지됨"
 social_liberal_banned:0 "사회자유주의 금지됨"
+
 
 ### Company Traits ###
 

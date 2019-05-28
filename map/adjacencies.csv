@@ -1,5 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
+7683;13613;sea;8642;-1;-1;-1;-1;;Canada
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
@@ -7,24 +8,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;3231;3368;317;6257;6389;KAISER-WILHELM-KANAL;Kaiser-Wilhelm-Kanal
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
-2800;2776;sea;4985;-1;-1;-1;-1;;BAB_EL_MANDEB;수에즈 출구
-2800;2776;;;-1;-1;-1;-1;;BAB_EL_MANDEB;수에즈 출구
-2666;2043;sea;2919;-1;-1;-1;-1;;HORMOZ;호르모즈
-
-8642;13157;sea;4345;-1;-1;-1;-1;;SAINTLAWRENCE;오대호1
-13157;13154;sea;749;-1;-1;-1;-1;;WELLAND_CANAL;오대호2
-13154;13156;sea;276;-1;-1;-1;-1;;DITROIT_RIVER;오대호3
-13156;13199;sea;9724;-1;-1;-1;-1;;STCLAIR_RIVER;오대호4
-13199;13159;sea;12582;-1;-1;-1;-1;;STMARY_RIVER;오대호5
-13199;13155;sea;10233;-1;-1;-1;-1;;MACKINAC;오대호6
-
-
-2332;1434;sea;3151;-1;-1;-1;-1;;NEVA_RIVER;네바강
-2356;2332;sea;6057;-1;-1;-1;-1;;SVIR_RIVER;스비르강
-13194;209;sea;94;-1;-1;-1;-1;;WHITE_SEA_CANAL;백해운하
-8340;3590;sea;3373;-1;-1;-1;-1;;MINCH;민치해협
-
-6801;5913;sea;3988;-1;-1;-1;-1;;CORINTOS_CANAL;
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
@@ -64,6 +47,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4509;7542;sea;2585;-1;-1;-1;-1;;Papua-Japen
 10251;1329;sea;430;5112;550;5122;559;;Papua-New Britain
 7251;4421;sea;7010;-1;-1;-1;-1;;New Britain-Latangai
+10254;13607;sea;7910;-1;-1;-1;-1;;Bahamas
+10254;13621;sea;7006;-1;-1;-1;-1;;Bahamas
+4647;13607;sea;7910;-1;-1;-1;-1;;Bahamas
+7245;13607;sea;7910;-1;-1;-1;-1;;Bahamas
 13021;13022;sea;8673;-1;-1;-1;-1;;Gilbert Islands
 4268;4231;sea;5741;-1;-1;-1;-1;;New Caledonia 1
 1237;12120;sea;5660;-1;-1;-1;-1;;New Caledonia 2
@@ -162,7 +149,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -178,7 +164,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4558;7519;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 12763;10826;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 2084;7519;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
-10821;7519;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 4998;12831;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 4998;5082;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 1978;5082;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
@@ -248,7 +233,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3657;671;impassable;-1;-1;-1;-1;-1;;Alps
 3657;3673;impassable;-1;-1;-1;-1;-1;;Alps
 9613;3673;impassable;-1;-1;-1;-1;-1;;Alps
-9613;11612;impassable;-1;-1;-1;-1;-1;;Alps
 6571;9425;impassable;-1;-1;-1;-1;-1;;Carpathians
 6571;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
 9704;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
@@ -387,30 +371,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1774;4849;impassable;-1;-1;-1;-1;-1;;Dzungaria
 1774;7737;impassable;-1;-1;-1;-1;-1;;Dzungaria
 7737;7870;impassable;-1;-1;-1;-1;-1;;Dzungaria
-7737;7808;impassable;-1;-1;-1;-1;-1;;Dzungaria
 4751;4849;impassable;-1;-1;-1;-1;-1;;Dzungaria
 7866;12601;impassable;-1;-1;-1;-1;-1;;Dzungaria
 7850;7866;impassable;-1;-1;-1;-1;-1;;Dzungaria
 1783;7850;impassable;-1;-1;-1;-1;-1;;Dzungaria
 7850;10674;impassable;-1;-1;-1;-1;-1;;Dzungaria
 4709;10674;impassable;-1;-1;-1;-1;-1;;Dzungaria
-5087;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
-1970;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
-1970;5042;impassable;-1;-1;-1;-1;-1;;Kashmir
-5042;8112;impassable;-1;-1;-1;-1;-1;;Kashmir
-4973;5042;impassable;-1;-1;-1;-1;-1;;Kashmir
-4973;12801;impassable;-1;-1;-1;-1;-1;;Tibet
-4973;8068;impassable;-1;-1;-1;-1;-1;;Tibet
-1943;8068;impassable;-1;-1;-1;-1;-1;;Tibet
-5011;10315;impassable;-1;-1;-1;-1;-1;;Tibet
-8037;10315;impassable;-1;-1;-1;-1;-1;;Tibet
-4973;5042;impassable;-1;-1;-1;-1;-1;;Tibet
+7519;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 4914;10315;impassable;-1;-1;-1;-1;-1;;Tibet
 4914;10865;impassable;-1;-1;-1;-1;-1;;Tibet
-4973;8042;impassable;-1;-1;-1;-1;-1;;Kunrun
-8042;10911;impassable;-1;-1;-1;-1;-1;;Kunrun
-10885;10911;impassable;-1;-1;-1;-1;-1;;Kunrun
-1943;10885;impassable;-1;-1;-1;-1;-1;;Kunrun
 5076;7997;impassable;-1;-1;-1;-1;-1;;Qinghai
 2099;5076;impassable;-1;-1;-1;-1;-1;;Qinghai
 2028;2099;impassable;-1;-1;-1;-1;-1;;Qinghai
@@ -435,4 +404,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13297;13524;impassable;-1;-1;-1;-1;-1;;Acre-Peru
 8191;13524;impassable;-1;-1;-1;-1;-1;;Acre-Peru
 13290;13524;impassable;-1;-1;-1;-1;-1;;Acre-Peru
+10802;12884;impassable;-1;-1;-1;-1;-1;;Tibet-India
+10802;7273;impassable;-1;-1;-1;-1;-1;;Tibet-India
+13732;7273;impassable;-1;-1;-1;-1;-1;;Xinjiang-India
+13730;7273;impassable;-1;-1;-1;-1;-1;;Xinjiang-India
+13731;7273;impassable;-1;-1;-1;-1;-1;;Xinjiang-India
+10802;13732;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
+10802;5042;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
+13733;5042;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
+13733;4973;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
 -1;-1;;-1;-1;-1;-1;-1;-1

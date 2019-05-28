@@ -1,12 +1,12 @@
 state = {
 	id = 365
 	name = "STATE_365"
-	manpower = 2908504
+	manpower = 2978000
 
 	state_category = city
 
 	history = {
-		owner = CSA
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
@@ -17,8 +17,6 @@ state = {
 			}
 		}
 		add_core_of = USA
-		add_core_of = CSA
-		add_core_of = TEX
 		victory_points = {
 			12384 10
 		}

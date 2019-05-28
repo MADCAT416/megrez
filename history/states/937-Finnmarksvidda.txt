@@ -5,25 +5,15 @@ state = {
 	history = {
 		owner = NOR
 		add_core_of = NOR
-		victory_points = {
-			91 1
-		}
 		buildings = {
 			infrastructure = 3
-			radar_station = 2
-		
-		11050 = {
-				naval_base = 2
-			}
 		}
-		
 	}
 
 	provinces = {
-		6079 6107 3082 3058 11050 44 6130 11090 91 
+		128 9128 9191 11169 13630
 	}
 
 	manpower = 2290
-	buildings_max_level_factor = 1
-	state_category = "pastoral"
+	state_category = "wasteland"
 }

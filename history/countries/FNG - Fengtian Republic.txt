@@ -1,61 +1,81 @@
 ﻿capital = 716
-oob = "empty"
+OOB = "FNG"
+set_naval_oob = "FNG_naval"
 set_research_slots = 3
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	#### MOD ####
+	#### Tanks ####
+	gwtank = 1
+	#### INF ####
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_military_police = 1
+	gw_artillery = 1
+	#### AIR ####
+	early_fighter = 1
+	early_bomber = 1
+}
+### Navy - MtG ###
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
 }
 
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
+}
+
+country_event = {
+	id = fengtian.new.151
+	days = 1
+}
+
+country_event = {
+	id = fengtian.new.124
+	days = 28
+}
+
+country_event = {
+	id = fengtian.new.173
+	days = 266
+}
+
+country_event = {
+	id = fngpolitic.0
+	days = 50
+}
 
 add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = AOG modifier = embargo }
@@ -64,9 +84,48 @@ add_opinion_modifier = { target = QIE modifier = embargo }
 add_opinion_modifier = { target = TRM modifier = FNG_COMMON_ALIGNMENT }
 diplomatic_relation = { country = TRM relation = non_aggression_pact }
 
+create_import = {
+	resource = tungsten
+	factories = 1
+	exporter = JAP
+}
 
-set_stability = 0.30
-set_war_support = 0.50
+
+set_stability = 0.40
+set_war_support = 0.45
+
+add_political_power = -20
+
+add_equipment_to_stockpile = {
+	type = gw_tank_equipment
+	amount = 64
+	producer = JAP
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 7000
+	producer = FNG
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 5000
+	producer = JAP
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 250
+	producer = FNG
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 150
+	producer = JAP
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 200
+	producer = JAP
+}
 
 set_politics = {
 
@@ -75,7 +134,7 @@ set_politics = {
 			popularity = 0
 			banned = yes
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			popularity = 0
 			banned = yes
 		}
@@ -103,6 +162,7 @@ set_politics = {
 		}
 		national_populist = {
 			popularity = 0
+			banned = yes
 		}
 	}
 
@@ -129,95 +189,62 @@ add_ideas = {
 	FNG_Yuan_Jinkai_sec_pau
 	### Intel Minister
 	FNG_Zang_Shiyi_int_pau
+	### Backward Industry
+	FNG_Backward_Industry
+	### Unscrupulous_Governance
+	FNG_Unscrupulous_Governance
+	### Investment Dearth
+	FNG_Investment_Dearth
+	### Japanese Military Mission
+	FNG_Japanese_Military_Mission
+	### Preservation of the Xinhai Order
+	FNG_informal_empire_2
 }
 
 create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "우란푸"
-	desc = "Ulanhu_DESC"
-	picture = "Portrait_MAN_Ulanhu.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
+	name = "Zhang Zuolin"
+	desc = "FNG_zhang_zuolin_desc"
+	picture = "Portrait_FNG_Zhang_Zuolin.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "장쉐량"
-	desc = "Zhang_Xueliang_DESC"
+	name = "Zhang Xueliang"
+	desc = "ANTE_ZHANG_XUELIANG_DESC"
 	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2000.1.1"
+	expire = "2001.10.15"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "젱주르자브"
-	picture = "Portrait_FNG_Ganzhuurzhav.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Liang Shiyi"
+	desc = "ANTE_LIANG_SHIYI_DESC"
+	picture = ""
+	expire = "1950.1.1"
+	ideology = social_conservative_subtype
 	traits = {}
+}
+
+create_country_leader = {
+	name = "Ruan Zhenduo"
+	desc = "ANTE_RUAN_ZHENDUO_DESC"
+	picture = ""
+	expire = "1950.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+set_country_flag = JAP_Help
+set_country_flag = unpopular_government
+set_country_flag = fng_war_available
+random_list = {
+	70 = {
+		set_country_flag = Ma_Zhanshan_Defects
+	}
+	30 = {}
 }
 
 set_convoys = 30
@@ -232,11 +259,11 @@ create_field_marshal = {
 		logistics_wizard
 		skilled_staffer
 	}
-	skill = 4
+	skill = 5
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 5
+	logistics_skill = 6
 
 	id = 1100
 }
@@ -255,7 +282,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 
 	id = 1101
 }
@@ -297,9 +324,9 @@ create_corps_commander = {
 		career_officer
 		politically_connected
 	}
-	skill = 3
+	skill = 4
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
 
@@ -313,10 +340,10 @@ create_corps_commander = {
 		career_officer
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
 
 	id = 1104
 }
@@ -328,10 +355,10 @@ create_corps_commander = {
 		trickster
 		trait_reckless
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 1
 	id = 1105
 }
@@ -342,7 +369,7 @@ create_corps_commander = {
 	traits = {
 		infantry_officer
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
@@ -358,8 +385,8 @@ create_corps_commander = {
 		career_officer
 		cavalry_officer
 	}
-	skill = 2
-	attack_skill = 2
+	skill = 4
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
@@ -376,9 +403,9 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 
 	id = 1108
 }
@@ -391,9 +418,9 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 
 	id = 1109
 }
@@ -407,12 +434,112 @@ create_navy_leader = {
 		old_guard_navy
 	}
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
-	name = "Yin Tsuo-chien"
+	name = "Yin Zuojian"
 	picture = "Portrait_FNG_Yin_Ysuo_chien.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### Ship Variants
+create_equipment_variant = {
+	name = "Hai Chi Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Ying Swei Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Chao Ho Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Hu Peng Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Lien Ching Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Chu Tung Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Yung Chien Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+
+	}
 }

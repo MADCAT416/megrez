@@ -4,14 +4,15 @@ state = {
 	manpower = 689800
 	resources = {
 		rubber = 47
-		oil = 12
+		oil = 8
 	}
 
 	state_category = rural
 
 	history = {
-		owner = MLY
+		owner = GEA
 		add_core_of = GEA
+		add_core_of = SAR
 		add_core_of = MLY
 		victory_points = {
 			1208 2

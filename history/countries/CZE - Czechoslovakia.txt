@@ -1,59 +1,41 @@
 ﻿capital = 9
-oob = "empty"
-set_research_slots = 3
+
+oob = "BOM"
+
+set_cosmetic_tag = CZE_habsburg
+
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+set_research_slots = 3
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = SRI modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+add_ideas = {
+	#medium_economy
+	CZE_Jan_Garrigue_Masaryk_hog_sli
+	CZE_Frantisek_Josef_Kinsky_for_sli
+	CZE_Emil_Franke_eco_sli
+	CZE_Prokop_Drtina_sec_sli
+
+	AUS_part_of_the_Empire
 }
 
 set_politics = {
@@ -62,185 +44,166 @@ set_politics = {
 		totalist = {
 			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 0
-		}
 		syndicalist = {
-			popularity = 0
+			popularity = 2
+		}
+		radical_socialist = {
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 12
 		}
 		social_liberal = {
-			popularity = 20
+			popularity = 32
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 22
 		}
 		social_conservative = {
-			popularity = 50
+			popularity = 9
 		}
 		authoritarian_democrat = {
-			popularity = 20
+			popularity = 6
 		}
 		paternal_autocrat = {
-			popularity = 5
+			popularity = 11
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 2
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_war_support = 0.4
+set_stability = 0.60
 
 create_country_leader = {
-	name = "구스타우 후사크"
-	desc = "Gustav_Husak_DESC"
-	picture = "Portrait_Bohemia_Gustav_Husak.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "빌렘 베르나르드"
-	desc = "Vilem_Bernard_DESC"
-	picture = "Portrait_Bohemia_Vilem_Bernard.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "루돌프 바톄크"
-	desc = "Rudolf_Battek_DESC"
-	picture = "Portrait_Bohemia_Rudolf_Battek.tga"
-	expire = "2000.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "보후슬라프 쿠체라"
-	desc = "Bohuslav_Kucera_DESC"
-	picture = "Portrait_Bohemia_Bohuslav_Kucera.tga"
-	expire = "2000.1.1"
+	name = "Johann II zu Schwarzenberg"
+	desc = "POLITICS_JAN_SCHWARZENBERG_DESC"
+	picture = "Portrait_Bohemia_Jan_Nepomuk_Schwarzenberg.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-
-	}
+	traits = {}
 }
-
-create_country_leader = {
-	name = "프란티셰크 토만"
-	desc = "Frantisek_Toman_DESC"
-	picture = "Portrait_Bohemia_Frantisek_Toman.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "발터 레더"
-	desc = "Walter_Reder_DESC"
-	picture = "Portrait_Bohemia_Walter_Reder.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "발터 레더"
-	desc = "Walter_Reder_DESC"
-	picture = "Portrait_Bohemia_Walter_Reder.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "발터 레더"
-	desc = "Walter_Reder_DESC"
-	picture = "Portrait_Bohemia_Walter_Reder.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {
-
-	}
-}
-
 
 ### Field Marshall
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Jan Syrový"
-	portrait_path = "gfx/leaders/BAT/Portrait_BAT_Syrovy.tga"
+create_field_marshal = {
+	name = "Josef Bílý"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	traits = {
-		trait_engineer
+		old_guard
 		organizer
+		organisational_leader
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Josef Votruba"
-	portrait_path = "gfx/leaders/BAT/Portrait_BAT_Votruba.tga"
-	traits = {
-		trait_cautious
-		infantry_leader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Jaroslav Eminger"
-	portrait_path = "gfx/leaders/SLO/Portrait_SLO_Eminger.tga"
-	traits = {
-		career_officer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
 	logistics_skill = 2
 }
 
-create_corps_commander = { #Auto-Generated
-	name = "Emanuel Moravec"
-	portrait_path = "gfx/leaders/SLO/Portrait_SLO_Moravec.tga"
+### Corps Commander
+create_corps_commander = {
+	name = "Jaroslav Eminger"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = {
-		politically_connected
-		commando
+		old_guard
+		organizer
+		trickster
 	}
-	skill = 1
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Josef Votruba"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {
+		old_guard
+		infantry_leader
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "František Bartoš"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = {
+		old_guard
+		infantry_leader
+		organizer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Emil Fiala"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {
+		old_guard
+		infantry_leader
+		organizer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Václav Šára"
+	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
+	traits = {
+		armor_officer
+		trickster
+	}
+	skill = 2
 	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Josef Churavý"
+	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Robert Martinek"
+	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_8_edit.tga"
+	traits = {
+		trait_engineer
+		fortress_buster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
