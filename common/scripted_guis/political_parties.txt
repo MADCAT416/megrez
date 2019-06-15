@@ -14,9 +14,9 @@ scripted_gui = {
 		visible = { has_government = syndicalist }
 	}
 
-	party_radical_socialist = {
-		window_name = "radical_socialist_container"
-		visible = { has_government = radical_socialist }
+	party_democratic_socialist = {
+		window_name = "democratic_socialist_container"
+		visible = { has_government = democratic_socialist }
 	}
 
 	party_social_democrat = {

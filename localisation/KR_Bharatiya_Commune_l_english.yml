@@ -68,10 +68,10 @@ BHC_union_forces:0 "Two units of infantry and three units of militia will join o
 
 ### Parties ###
 BHC_totalist_party:0 "최대주의자"
-BHC_radical_socialist_party:0 "농업주의자"
+BHC_democratic_socialist_party:0 "농업주의자"
 BHC_syndicalist_party:0 "온건주의자"
 BHC_totalist_party_long:0 "바라티야 최대주의파"
-BHC_radical_socialist_party_long:0 "바라티야 농업파"
+BHC_democratic_socialist_party_long:0 "바라티야 농업파"
 BHC_syndicalist_party_long:0 "바라티야 온건파"
 BHC_anarcho_syndicalist_party:0 "아나코생디칼리스트"
 BHC_anarcho_syndicalist_party_long:0 "바라티야 자기문화연합"

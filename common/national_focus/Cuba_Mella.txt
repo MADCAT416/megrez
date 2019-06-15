@@ -483,7 +483,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CUB_melraddeal_2
-	icon = GFX_goal_ideology_radical_socialist
+	icon = GFX_goal_ideology_democratic_socialist
 	x = 13
 	y = 1
 	cost = 6
@@ -491,7 +491,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -528,7 +528,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 		has_country_flag = CUB_melladealtrcomp
@@ -550,7 +550,7 @@ shared_focus = {
 				has_country_flag = CUB_melstrongarmblasag
 			}
 			add_popularity = {ideology = totalist popularity = 0.03}
-			add_popularity = {ideology = radical_socialist popularity = -0.02}
+			add_popularity = {ideology = democratic_socialist popularity = -0.02}
 			swap_ideas = {
 				remove_idea = CUB_extsyndagr_2
 				add_idea = CUB_extsyndagr_3
@@ -558,7 +558,7 @@ shared_focus = {
 		}
 		else = {
 			add_popularity = {ideology = totalist popularity = -0.02}
-			add_popularity = {ideology = radical_socialist popularity = 0.03}
+			add_popularity = {ideology = democratic_socialist popularity = 0.03}
 			swap_ideas = {
 				remove_idea = CUB_extsyndagr_2
 				add_idea = CUB_extsyndagr_4
@@ -577,7 +577,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 		has_country_flag = CUB_melladealtrcomp
@@ -599,12 +599,12 @@ shared_focus = {
 				has_country_flag = CUB_melstrongarmblaspol
 			}
 			add_popularity = {ideology = totalist popularity = 0.03}
-			add_popularity = {ideology = radical_socialist popularity = -0.02}
+			add_popularity = {ideology = democratic_socialist popularity = -0.02}
 			add_stability = 0.05
 		}
 		else = {
 			add_popularity = {ideology = totalist popularity = -0.02}
-			add_popularity = {ideology = radical_socialist popularity = 0.03}
+			add_popularity = {ideology = democratic_socialist popularity = 0.03}
 			add_war_support = 0.05
 		}
 	}
@@ -620,7 +620,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 		has_country_flag = CUB_melladealtrcomp
@@ -643,7 +643,7 @@ shared_focus = {
 				has_idea = CUB_militia_idea
 			}
 			add_popularity = {ideology = totalist popularity = 0.03}
-			add_popularity = {ideology = radical_socialist popularity = -0.02}
+			add_popularity = {ideology = democratic_socialist popularity = -0.02}
 			swap_ideas = {
 				remove_idea = CUB_militia_idea
 				add_idea = CUB_militia_idea_3
@@ -655,7 +655,7 @@ shared_focus = {
 				has_idea = CUB_militia_idea_2
 			}
 			add_popularity = {ideology = totalist popularity = 0.03}
-			add_popularity = {ideology = radical_socialist popularity = -0.02}
+			add_popularity = {ideology = democratic_socialist popularity = -0.02}
 			swap_ideas = {
 				remove_idea = CUB_militia_idea_2
 				add_idea = CUB_militia_idea_4
@@ -669,7 +669,7 @@ shared_focus = {
 				has_idea = CUB_militia_idea
 			}
 			add_popularity = {ideology = totalist popularity = -0.02}
-			add_popularity = {ideology = radical_socialist popularity = 0.03}
+			add_popularity = {ideology = democratic_socialist popularity = 0.03}
 			swap_ideas = {
 				remove_idea = CUB_militia_idea
 				add_idea = CUB_militia_idea_5
@@ -683,7 +683,7 @@ shared_focus = {
 				has_idea = CUB_militia_idea_2
 			}
 			add_popularity = {ideology = totalist popularity = -0.02}
-			add_popularity = {ideology = radical_socialist popularity = 0.03}
+			add_popularity = {ideology = democratic_socialist popularity = 0.03}
 			swap_ideas = {
 				remove_idea = CUB_militia_idea_2
 				add_idea = CUB_militia_idea_6
@@ -711,7 +711,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -751,7 +751,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -791,7 +791,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -824,7 +824,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -855,7 +855,7 @@ shared_focus = {
 				SRI = {
 					exists = yes
 					OR = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						not_has_socialist_government = yes
 					}
 				}
@@ -1400,7 +1400,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -1432,7 +1432,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}
@@ -1465,7 +1465,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = mellaradsocdeal
 	}

@@ -162,7 +162,7 @@ country_event = {
 		}
 		add_stability = -0.02
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_country_flag = ARMY_ANAR
@@ -261,7 +261,7 @@ country_event = {
 		}
 		add_stability = 0.1
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		modify_country_flag = {
@@ -371,7 +371,7 @@ country_event = {
 		add_stability = 0.1
 		add_manpower = 25000
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		modify_country_flag = {
@@ -596,7 +596,7 @@ country_event = {
 		}
 		add_ideas = FRA_economic_reforms_anar
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_country_flag = ECO_ANAR
@@ -990,7 +990,7 @@ country_event = {
 			modifier = FRA_european_socialism
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		modify_country_flag = {
@@ -1119,7 +1119,7 @@ country_event = {
 				desc = "POLITICS_LEON_JOUHAUX_DESC"
 				picture = "Portrait_France_Leon_Jouhaux.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			remove_ideas_with_trait = economy_minister
@@ -1155,7 +1155,7 @@ country_event = {
 				desc = "POLITICS_BENOIT_FRACHON_DESC"
 				picture = "Portrait_France_Benoit_Frachon.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			remove_ideas_with_trait = economy_minister
@@ -1308,7 +1308,7 @@ country_event = {
 				desc = "POLITICS_MARCEL_DEAT_DESC"
 				picture = "Portrait_France_Marcel_Deat.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 			}
 		}
 	}
@@ -1445,7 +1445,7 @@ country_event = {
 	option = {
 		name = comfrance.17.a #Guerin
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -1453,7 +1453,7 @@ country_event = {
 		remove_ideas_with_trait = economy_minister
 		add_ideas = FRA_Benoit_Broutchoux_eco_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.20
 		}
 		set_global_flag = anarchiste_majority_1936
@@ -1494,7 +1494,7 @@ country_event = {
 			desc = "POLITICS_NESTOR_MAKHNO_DESC"
 			picture = "Portrait_France_Nestor_Makhno.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Nestor Makhno"
@@ -1545,7 +1545,7 @@ country_event = {
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
@@ -1570,7 +1570,7 @@ country_event = {
 			desc = "POLITICS_LEON_JOUHAUX_DESC"
 			picture = "Portrait_France_Leon_Jouhaux.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Leon_Blum_hog_rso
@@ -1607,7 +1607,7 @@ country_event = {
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
@@ -1632,7 +1632,7 @@ country_event = {
 			desc = "POLITICS_BENOIT_FRACHON_DESC"
 			picture = "Portrait_France_Benoit_Frachon.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Daniel_Guerin_hog_rso
@@ -1665,7 +1665,7 @@ country_event = {
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		remove_ideas_with_trait = head_of_government
@@ -3860,7 +3860,7 @@ country_event = {
 		tag = ENG
 		date > 1937.4.1
 		OR = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 			has_government = social_democrat
@@ -3905,7 +3905,7 @@ country_event = {
 						has_government = social_democrat
 						has_government = totalist
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 			}
@@ -8100,7 +8100,7 @@ country_event = {
 			desc = "POLITICS_GAMELIN_DESC"
 			picture = "Portrait_France_Maurice_Gamelin_KR.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -8685,7 +8685,7 @@ country_event = {
 		}
 		add_manpower = 50000
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -8797,7 +8797,7 @@ country_event = {
 		}
 		add_ideas = FRA_demo_surete
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -8927,7 +8927,7 @@ country_event = {
 			add_ideas = FRA_peace_renseignements
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -9077,7 +9077,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -9324,7 +9324,7 @@ country_event = {
 			value = 1
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -9372,7 +9372,7 @@ country_event = {
 			desc = "POLITICS_LEON_JOUHAUX_DESC"
 			picture = "Portrait_France_Leon_Jouhaux.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Leon_Blum_hog_rso
@@ -9416,7 +9416,7 @@ country_event = {
 			desc = "POLITICS_BENOIT_FRACHON_DESC"
 			picture = "Portrait_France_Benoit_Frachon.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Leon_Blum_hog_rso
@@ -9476,7 +9476,7 @@ country_event = {
 			desc = "POLITICS_MARCEL_CACHIN_DESC"
 			picture = "Portrait_France_Marcel_Cachin.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Jacques_Duclos_hog_tot
@@ -9521,7 +9521,7 @@ country_event = {
 			desc = "POLITICS_GEORGES_VALOIS_DESC"
 			picture = "Portrait_France_Georges_Valois.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Georges Valois"
@@ -9576,7 +9576,7 @@ country_event = {
 			desc = "POLITICS_NESTOR_MAKHNO_DESC"
 			picture = "Portrait_France_Nestor_Makhno.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Nestor Makhno"
@@ -9593,7 +9593,7 @@ country_event = {
 			ideology = totalist_subtype
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -9605,7 +9605,7 @@ country_event = {
 		remove_ideas_with_trait = security_minister
 		add_ideas = FRA_Maurice_Joyeux_sec_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.20
 		}
 		add_stability = 0.06
@@ -9627,7 +9627,7 @@ country_event = {
 			factor = 50
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 
@@ -9637,7 +9637,7 @@ country_event = {
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
@@ -9664,7 +9664,7 @@ country_event = {
 			desc = "POLITICS_BENOIT_FRACHON_DESC"
 			picture = "Portrait_France_Benoit_Frachon.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 
 		remove_ideas_with_trait = head_of_government
@@ -9718,7 +9718,7 @@ country_event = {
 			desc = "POLITICS_JACQUES_DORIOT_DESC"
 			picture = "Portrait_France_Jacques_Doriot.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Boris_Souvarine_hog_syn
@@ -9749,7 +9749,7 @@ country_event = {
 			desc = "POLITICS_GEORGES_VALOIS_DESC"
 			picture = "Portrait_France_Georges_Valois.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Georges Valois"
@@ -9844,7 +9844,7 @@ country_event = {
 			desc = "POLITICS_LEON_JOUHAUX_DESC"
 			picture = "Portrait_France_Leon_Jouhaux.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Paul_Ramadier_hog_rso
@@ -9888,7 +9888,7 @@ country_event = {
 			desc = "POLITICS_GEORGES_VALOIS_DESC"
 			picture = "Portrait_France_Georges_Valois.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Georges Valois"
@@ -9928,7 +9928,7 @@ country_event = {
 			desc = "POLITICS_NESTOR_MAKHNO_DESC"
 			picture = "Portrait_France_Nestor_Makhno.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Nestor Makhno"
@@ -9945,7 +9945,7 @@ country_event = {
 			ideology = totalist_subtype
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -9957,7 +9957,7 @@ country_event = {
 		remove_ideas_with_trait = security_minister
 		add_ideas = FRA_Maurice_Joyeux_sec_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.30
 		}
 	}
@@ -10009,7 +10009,7 @@ country_event = {
 			desc = "POLITICS_MARCEL_CACHIN_DESC"
 			picture = "Portrait_France_Marcel_Cachin.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Jacques_Duclos_hog_tot
@@ -10082,7 +10082,7 @@ country_event = {
 			desc = "POLITICS_VINCENT_AURIOL_DESC"
 			picture = "Portrait_France_Vincent_Auriol.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Guy_Mollet_hog_syn
@@ -10126,7 +10126,7 @@ country_event = {
 			desc = "POLITICS_GEORGES_VALOIS_DESC"
 			picture = "Portrait_France_Georges_Valois.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Georges Valois"
@@ -10166,7 +10166,7 @@ country_event = {
 			desc = "POLITICS_DANIEL_GUERIN_DESC"
 			picture = "Portrait_France_Daniel_Guerin.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		create_country_leader = {
 			name = "Daniel Guérin"
@@ -10183,7 +10183,7 @@ country_event = {
 			ideology = totalist_subtype
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -10195,7 +10195,7 @@ country_event = {
 		remove_ideas_with_trait = security_minister
 		add_ideas = FRA_Fernand_Despres_sec_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.30
 		}
 	}
@@ -10247,7 +10247,7 @@ country_event = {
 			desc = "POLITICS_MARCEL_CACHIN_DESC"
 			picture = "Portrait_France_Marcel_Cachin.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 		}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = FRA_Jacques_Duclos_hog_tot
@@ -10291,7 +10291,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				kill_country_leader = yes
@@ -10301,7 +10301,7 @@ country_event = {
 				desc = "POLITICS_DANIEL_GUERIN_DESC"
 				picture = "Portrait_France_Daniel_Guerin.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 			}
 			create_country_leader = {
 				name = "Daniel Guérin"

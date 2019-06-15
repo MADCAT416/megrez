@@ -168,7 +168,7 @@ country_event = {
 		name = LIB.3.e
 		add_political_power = -50
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -178,7 +178,7 @@ country_event = {
 			add_ideas = LIB_William_Wade_Harris_sec_ade
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 	}

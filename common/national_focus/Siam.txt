@@ -466,7 +466,7 @@ focus_tree = {
 			add_ideas = SIA_Syndie_1
 			SIA = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.03
 				}
 			}
@@ -492,7 +492,7 @@ focus_tree = {
 					desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 					expire = "1983.5.2"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = { # Pridi Panomyong
@@ -571,7 +571,7 @@ focus_tree = {
 			swap_ideas = { remove_idea = SIA_Syndie_1 add_idea = SIA_Syndie_2 }
 			SIA = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.03
 				}
 			}
@@ -594,7 +594,7 @@ focus_tree = {
 			swap_ideas = { remove_idea = SIA_Syndie_2 add_idea = SIA_Syndie_3 }
 			SIA = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.03
 				}
 			}
@@ -1656,7 +1656,7 @@ focus_tree = {
 					desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 					expire = "1983.5.2"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = { # Pridi Panomyong

@@ -129,15 +129,15 @@ SIA_set_up_RadSoc_government = {
 		desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 		expire = "1983.5.2"
-		ideology = radical_socialist_subtype
+		ideology = democratic_socialist_subtype
 		traits = {}
 	}
 	add_popularity = { ideology = totalist popularity = 0.05 }
 	add_popularity = { ideology = syndicalist popularity = 0.05 }
 	add_popularity = { ideology = social_democrat popularity = 0.03 }
-	add_popularity = { ideology = radical_socialist popularity = 0.20 }
+	add_popularity = { ideology = democratic_socialist popularity = 0.20 }
 	set_politics = {
-		ruling_party = radical_socialist
+		ruling_party = democratic_socialist
 		elections_allowed = no
 	}
 	set_global_flag = SIA_CONSTITUTION_GIVEN_SYNDIE

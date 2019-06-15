@@ -404,7 +404,7 @@ ideas = {
 		}
 		URG_international_relations_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_international_relations_idea"}
-			picture = generic_radical_socialist_revolution
+			picture = generic_democratic_socialist_revolution
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1

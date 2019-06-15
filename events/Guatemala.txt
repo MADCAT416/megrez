@@ -949,12 +949,12 @@ country_event = {
 		}
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_ideas = {
@@ -1039,12 +1039,12 @@ country_event = {
 		}
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		remove_ideas = {
@@ -1158,7 +1158,7 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_ideas = GUA_Julio_Cesar_Mendez_Montenegro_hog_rso
 		add_ideas = GUA_Manuel_Galich_for_rso
@@ -1456,7 +1456,7 @@ country_event = { #Conflicts in the Unionist Party
 		name = guatemala.101.a
 		add_political_power = -10
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 	}
@@ -1499,7 +1499,7 @@ country_event = { #Dealing with Bermejo
 
 	trigger = {
 		tag = GUA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	mean_time_to_happen = {
@@ -1589,7 +1589,7 @@ country_event = { #Phantom Assassins Plot Against Ubico
 		name = guatemala.106.a
 		add_political_power = -10
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.03
 		}
 	}

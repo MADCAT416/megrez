@@ -295,7 +295,7 @@ on_actions = {
 					original_tag = BHC
 					has_civil_war = yes
 					NOT = { tag = BHC }
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					FROM = { tag = BHC }
 				}
 				FROM = { country_event = beng.90 }

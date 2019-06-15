@@ -3,6 +3,17 @@ ideas = {
 ### Country ideas
 	country = {
 	### Civil War ideas ###
+		CSA_righteous_nation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CSA_righteous_nation"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				army_morale_factor = 0.20
+				land_reinforce_rate = 0.10
+				army_speed_factor = 0.20
+			}
+		}
 		CSA_militia_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CSA_militia_idea"}
 			picture = UoB_militia_idea
@@ -298,6 +309,14 @@ ideas = {
 				decryption_factor = 0.05
 				encryption_factor = 0.1
 				enemy_partisan_effect = -0.05
+			}
+		}
+		CSA_lead_revolution_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CSA_lead_revolution_idea"}
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				send_volunteer_divisions_required = -0.5
+				send_volunteer_size = 5		
 			}
 		}
 		CSA_cia_idea = {

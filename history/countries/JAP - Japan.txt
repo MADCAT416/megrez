@@ -114,13 +114,7 @@ if = {
 		catapult_plane_two = 1
 		carrier_armoured_deck = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -154,13 +148,7 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -206,46 +194,23 @@ set_country_flag = LEC_profit_for_you
 set_war_support = 0.65
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-			banned = yes
-		}
-		radical_socialist = {
-			popularity = 0
-			banned = yes
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_democrat = {
-			popularity = 3
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 8
-		}
-		market_liberal = {
-			popularity = 27
-		}
-		social_conservative = {
-			popularity = 51
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 1
-		}
-	}
-
 	ruling_party = social_conservative
 	last_election = "1932.2.20"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 2
+    social_democrat = 3
+    social_liberal = 5
+    authoritarian_democrat = 8
+    market_liberal = 27
+    social_conservative = 51
+    paternal_autocrat = 3
+    national_populist = 1
 }
 
 ### Head of States ###

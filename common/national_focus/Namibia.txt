@@ -4,7 +4,6 @@
 # By Beelzebub
 ###########################
 
-
 ###########################
 #Beginning of civil war focuses
 ###########################
@@ -34,6 +33,7 @@ focus_tree = {
 
 		available = {
 			has_war_with = NBL
+			country_exists = GER
 		}
 
 		completion_reward = {
@@ -55,10 +55,11 @@ focus_tree = {
 		available = {
 			has_country_flag = NAM_GER_volunteers
 			has_war_with = NBL
+			country_exists = GER
 		}
-
-		x = 2
+		x = 0
 		y = 1
+		relative_position_id = NAM_german_support
 		cost = 5
 
 		available_if_capitulated = yes
@@ -79,8 +80,9 @@ focus_tree = {
 			focus = NAM_german_support_2
 		}
 
-		x = 2
+		x = 0
 		y = 2
+		relative_position_id = NAM_german_support
 		cost = 5
 
 		available_if_capitulated = yes
@@ -89,6 +91,7 @@ focus_tree = {
 			has_country_flag = NAM_GER_volunteers_2
 			has_war_with = NBL
 			controls_state = 541
+			country_exists = GER
 		}
 
 		completion_reward = {
@@ -107,8 +110,9 @@ focus_tree = {
 			focus = NAM_fortify_windhoek
 		}
 
-		x = 2
+		x = 0
 		y = 3
+		relative_position_id = NAM_german_support
 		cost = 5
 
 		available_if_capitulated = yes
@@ -132,8 +136,9 @@ focus_tree = {
 			focus = NAM_german_support
 		}
 
-		x = 0
+		x = -2
 		y = 1
+		relative_position_id = NAM_german_support
 		cost = 5
 
 		available_if_capitulated = yes
@@ -157,8 +162,9 @@ focus_tree = {
 			focus = NAM_increase_conscription
 		}
 
-		x = 0
+		x = -2
 		y = 2
+		relative_position_id = NAM_german_support
 		cost = 5
 
 		available_if_capitulated = yes
@@ -185,8 +191,9 @@ focus_tree = {
 			focus = NAM_german_support
 		}
 
-		x = 4
+		x = 2
 		y = 1
+		relative_position_id = NAM_german_support
 		cost = 1
 
 		available_if_capitulated = yes
@@ -210,8 +217,9 @@ focus_tree = {
 			focus = NAM_behind_lines
 		}
 
-		x = 4
+		x = 2
 		y = 2
+		relative_position_id = NAM_german_support
 		cost = 1
 
 		available_if_capitulated = yes
@@ -242,7 +250,7 @@ focus_tree = {
 		id = NAM_recover_civil_war
 		icon = GFX_goal_state_economy
 
-		x = 22
+		x = 23
 		y = 0
 		cost = 10
 
@@ -268,8 +276,9 @@ focus_tree = {
 		id = NAM_industrial_crisis
 		icon = GFX_goal_generic_production
 
-		x = 23
+		x = 1
 		y = 1
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -291,8 +300,9 @@ focus_tree = {
 		id = NAM_work_people
 		icon = GFX_goal_generic_major_alliance
 
-		x = 25
+		x = 3
 		y = 1
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -315,8 +325,9 @@ focus_tree = {
 		id = NAM_promote_OMEG
 		icon = GFX_goal_NFA_Transsaharian_Railroad
 
-		x = 21
+		x = -1
 		y = 1
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -351,8 +362,9 @@ focus_tree = {
 		id = NAM_OMEG_recovery
 		icon = GFX_goal_constitutional_guarantees
 
-		x = 21
+		x = -1
 		y = 2
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -383,8 +395,9 @@ focus_tree = {
 		id = NAM_mineral_processing
 		icon = GFX_focus_generic_steel
 
-		x = 21
+		x = -1
 		y = 3
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -411,8 +424,9 @@ focus_tree = {
 		id = NAM_german_recovery
 		icon = GFX_goal_germany
 
-		x = 23
+		x = 1
 		y = 2
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -441,8 +455,9 @@ focus_tree = {
 		id = NAM_german_industrial_project
 		icon = GFX_goal_generic_construction
 
-		x = 23
+		x = 1
 		y = 3
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -467,8 +482,9 @@ focus_tree = {
 		id = NAM_native_cooperation
 		icon = GFX_goal_LIB_whiter_pale
 
-		x = 25
+		x = 3
 		y = 2
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -501,8 +517,9 @@ focus_tree = {
 		id = NAM_cultural_integration
 		icon = GFX_goal_POR_burden_empire
 
-		x = 25
+		x = 3
 		y = 3
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -526,8 +543,9 @@ focus_tree = {
 		id = NAM_recovery_effort
 		icon = GFX_goal_production
 
-		x = 23
+		x = 1
 		y = 4
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -552,8 +570,9 @@ focus_tree = {
 		id = NAM_revived
 		icon = GFX_goal_construction_engineering
 
-		x = 23
+		x = 1
 		y = 5
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -585,8 +604,9 @@ focus_tree = {
 		id = NAM_search_oil
 		icon = GFX_goal_basic_oil
 
-		x = 19
+		x = -3
 		y = 2
+		relative_position_id = NAM_recover_civil_war
 		cost = 5
 
 		available_if_capitulated = no
@@ -610,8 +630,9 @@ focus_tree = {
 		id = NAM_strike_oil
 		icon = GFX_goal_further_oil
 
-		x = 19
+		x = -3
 		y = 3
+		relative_position_id = NAM_recover_civil_war
 		cost = 10
 
 		available_if_capitulated = no
@@ -683,8 +704,9 @@ focus_tree = {
 		id = NAM_preparing_barotseland
 		icon = GFX_goal_rhineland
 
-		x = 14
+		x = -2
 		y = 1
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -708,8 +730,9 @@ focus_tree = {
 		id = NAM_german_campaign_involvement
 		icon = GFX_goal_new_treaty
 
-		x = 18
+		x = 2
 		y = 1
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -733,8 +756,9 @@ focus_tree = {
 		id = NAM_begin_campaign
 		icon = GFX_goal_national_mobilization
 
-		x = 16
+		x = 0
 		y = 1
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -784,8 +808,9 @@ focus_tree = {
 		id = NAM_calm_barotseland
 		icon = GFX_goal_authoritarian
 
-		x = 16
+		x = 0
 		y = 2
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -819,8 +844,9 @@ focus_tree = {
 		id = NAM_coring_process
 		icon = GFX_goal_generic_alliance
 
-		x = 15
+		x = -1
 		y = 3
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -872,8 +898,9 @@ focus_tree = {
 		id = NAM_BRT_railway_expansion
 		icon = GFX_goal_generic_production
 
-		x = 17
+		x = 1
 		y = 3
+		relative_position_id = NAM_integrate_vin
 		cost = 10
 
 		available_if_capitulated = no
@@ -920,7 +947,7 @@ focus_tree = {
 		id = NAM_german_rule
 		icon = GFX_goal_germany
 
-		x = 10
+		x = 9
 		y = 0
 		cost = 10
 
@@ -973,8 +1000,9 @@ focus_tree = {
 		id = NAM_statthalter
 		icon = GFX_goal_NAM_statthalter
 
-		x = 10
+		x = 0
 		y = 1
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -997,10 +1025,11 @@ focus_tree = {
 
 	focus = {
 		id = NAM_mittelafrika_claim
-		icon = GFX_MAF_focus
+		icon = GFX_goal_mittelafrika
 
-		x = 10
+		x = 0
 		y = 2
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1021,10 +1050,11 @@ focus_tree = {
 
 	focus = {
 		id = NAM_journey_scientists
-		icon = GFX_MAF_focus
+		icon = GFX_goal_mittelafrika
 
-		x = 10
+		x = 0
 		y = 3
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1047,8 +1077,9 @@ focus_tree = {
 		id = NAM_naval_expansion
 		icon = GFX_goal_generic_construct_naval_dockyard
 
-		x = 7
+		x = -3
 		y = 3
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1087,8 +1118,9 @@ focus_tree = {
 		id = NAM_old_MAF_ships
 		icon = GFX_goal_generic_navy_anti_submarine
 
-		x = 6
+		x = -4
 		y = 4
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1115,8 +1147,9 @@ focus_tree = {
 		id = NAM_german_naval_support
 		icon = GFX_goal_BEL_Battleship_Investements
 
-		x = 6
+		x = -4
 		y = 5
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1144,8 +1177,9 @@ focus_tree = {
 		id = NAM_admiral_collection
 		icon = GFX_goal_generic_navy_doctrines_tactics
 
-		x = 8
+		x = -2
 		y = 4
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1182,8 +1216,9 @@ focus_tree = {
 		id = NAM_naval_airforce
 		icon = GFX_goal_generic_air_naval_bomber
 
-		x = 8
+		x = -2
 		y = 5
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1210,8 +1245,9 @@ focus_tree = {
 		id = NAM_first_namibian_marines
 		icon = GFX_goal_generic_navy_cruiser
 
-		x = 8
+		x = -2
 		y = 6
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1238,8 +1274,9 @@ focus_tree = {
 		id = NAM_coastal_reclamation
 		icon = GFX_goal_authority
 
-		x = 7
+		x = -3
 		y = 7
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1269,8 +1306,9 @@ focus_tree = {
 		id = NAM_land_expansion
 		icon = GFX_goal_LEC_police3
 
-		x = 13
+		x = 3
 		y = 3
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1300,8 +1338,9 @@ focus_tree = {
 		id = NAM_native_policy
 		icon = GFX_goal_revolution
 
-		x = 13
+		x = 3
 		y = 4
+		relative_position_id = NAM_german_rule
 		cost = 1
 
 		available_if_capitulated = no
@@ -1324,8 +1363,9 @@ focus_tree = {
 		id = NAM_native_recruitment
 		icon = GFX_goal_KTG_Congolese_Officers2
 
-		x = 11
+		x = 1
 		y = 5
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1356,8 +1396,9 @@ focus_tree = {
 		id = NAM_put_native_work
 		icon = GFX_goal_tax_slave
 
-		x = 11
+		x = 1
 		y = 6
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1384,8 +1425,9 @@ focus_tree = {
 		id = NAM_askari_cooperation
 		icon = GFX_goal_KTG_Belgian_Engineers
 
-		x = 13
+		x = 3
 		y = 5
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1416,8 +1458,9 @@ focus_tree = {
 		id = NAM_askari_resistance
 		icon = GFX_goal_KTG_Educate_natives
 
-		x = 13
+		x = 3
 		y = 6
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1443,8 +1486,9 @@ focus_tree = {
 		id = NAM_german_force
 		icon = GFX_focus_generic_military_mission
 
-		x = 15
+		x = 5
 		y = 5
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1475,8 +1519,9 @@ focus_tree = {
 		id = NAM_loyalty_empire
 		icon = GFX_goal_ideology_paternal_autocrat
 
-		x = 15
+		x = 5
 		y = 6
+		relative_position_id = NAM_german_rule
 		cost = 10
 
 		available_if_capitulated = no
@@ -1502,8 +1547,9 @@ focus_tree = {
 		id = NAM_campaign_ready
 		icon = GFX_goal_generic_territory_or_war
 
-		x = 13
+		x = 3
 		y = 7
+		relative_position_id = NAM_german_rule
 		cost = 1
 
 		available_if_capitulated = no
@@ -1558,8 +1604,9 @@ focus_tree = {
 		id = NAM_first_congress
 		icon = GFX_goal_totalism
 
-		x = 19
-		y = 9
+		x = -2
+		y = 1
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1582,10 +1629,11 @@ focus_tree = {
 
 	focus = {
 		id = NAM_cultural_assimilation
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 
-		x = 19
-		y = 10
+		x = 0
+		y = 1
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1595,7 +1643,7 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = NAM_first_congress
+			focus = NAM_syndicalist_liberation
 		}
 
 		completion_reward = {
@@ -1608,8 +1656,9 @@ focus_tree = {
 		id = NAM_dealing_german
 		icon = GFX_goal_skull_treaty
 
-		x = 19
-		y = 11
+		x = 0
+		y = 2
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1638,8 +1687,9 @@ focus_tree = {
 		id = NAM_end_cultural_divides
 		icon = GFX_goal_tripartite_pact
 
-		x = 19
-		y = 12
+		x = 0
+		y = 3
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available = {
@@ -1662,18 +1712,15 @@ focus_tree = {
 		id = NAM_industry_people
 		icon = GFX_goal_red_star_gold_wreath
 
-		x = 19
-		y = 13
+		x = 0
+		y = 5
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
 
 		prerequisite = {
 			focus = NAM_end_cultural_divides
-		}
-
-		prerequisite = {
-			focus = NAM_expand_swakopmund
 		}
 
 		completion_reward = {
@@ -1702,8 +1749,9 @@ focus_tree = {
 		id = NAM_calm_ovambo
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 21
-		y = 10
+		x = 2
+		y = 2
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1722,8 +1770,9 @@ focus_tree = {
 		id = NAM_windhoek_odajena
 		icon = GFX_goal_generic_construct_infrastructure
 
-		x = 21
-		y = 11
+		x = 2
+		y = 3
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1761,8 +1810,9 @@ focus_tree = {
 		id = NAM_expand_swakopmund
 		icon = GFX_goal_generic_build_airforce
 
-		x = 21
-		y = 12
+		x = 2
+		y = 4
+		relative_position_id = NAM_syndicalist_liberation
 		cost = 10
 
 		available_if_capitulated = no
@@ -1822,8 +1872,9 @@ focus_tree = {
 		id = NAM_first_election
 		icon = GFX_goal_new_treaty
 
-		x = 23
-		y = 9
+		x = 0
+		y = 1
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -1853,8 +1904,9 @@ focus_tree = {
 		id = NAM_freedom_speech
 		icon = GFX_goal_generic_propaganda
 
-		x = 23
-		y = 10
+		x = 0
+		y = 2
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -1882,8 +1934,9 @@ focus_tree = {
 		id = NAM_promote_immigration
 		icon = GFX_focus_generic_self_management
 
-		x = 23
-		y = 11
+		x = 0
+		y = 3
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -1911,8 +1964,9 @@ focus_tree = {
 		id = NAM_end_north_south
 		icon = GFX_goal_support_democracy
 
-		x = 23
-		y = 12
+		x = 0
+		y = 4
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -1939,9 +1993,10 @@ focus_tree = {
 	focus = {
 		id = NAM_namibian_miracle
 		icon = GFX_focus_generic_the_giant_wakes
-
-		x = 23
-		y = 13
+		relative_position_id = NAM_democratic_mandate
+		x = 0
+		y = 5
+		
 		cost = 10
 
 		available_if_capitulated = no
@@ -1987,8 +2042,9 @@ focus_tree = {
 		id = NAM_namibian_defense_corp
 		icon = GFX_focus_generic_military_mission
 
-		x = 25
-		y = 10
+		x = 2
+		y = 2
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -2011,8 +2067,9 @@ focus_tree = {
 		id = NAM_request_masters
 		icon = GFX_focus_generic_concessions
 
-		x = 25
-		y = 11
+		x = 2
+		y = 3
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -2039,8 +2096,9 @@ focus_tree = {
 		id = NAM_prepare_conflict
 		icon = GFX_goal_military_academy
 
-		x = 25
-		y = 12
+		x = 2
+		y = 4
+		relative_position_id = NAM_democratic_mandate
 		cost = 10
 
 		available_if_capitulated = no
@@ -2092,8 +2150,9 @@ focus_tree = {
 		id = NAM_strengthen_state
 		icon = GFX_goal_national_arsenal
 
-		x = 27
-		y = 9
+		x = 0
+		y = 1
+		relative_position_id = NAM_stern_state
 		cost = 10
 
 		available_if_capitulated = no
@@ -2130,8 +2189,9 @@ focus_tree = {
 		id = NAM_silence_opposition
 		icon = GFX_goal_step_on_skull
 
-		x = 27
-		y = 10
+		x = 0
+		y = 2
+		relative_position_id = NAM_stern_state
 		cost = 10
 
 		available_if_capitulated = no
@@ -2184,8 +2244,9 @@ focus_tree = {
 		id = NAM_remove_germans
 		icon = GFX_goal_generic_secret_weapon
 
-		x = 27
-		y = 11
+		x = 0
+		y = 3
+		relative_position_id = NAM_stern_state
 		cost = 10
 
 		available_if_capitulated = no
@@ -2220,8 +2281,9 @@ focus_tree = {
 		id = NAM_close_country
 		icon = GFX_goal_ideology_paternal_autocrat
 
-		x = 27
-		y = 12
+		x = 0
+		y = 4
+		relative_position_id = NAM_stern_state
 		cost = 10
 
 		available_if_capitulated = no
@@ -2251,8 +2313,9 @@ focus_tree = {
 		id = NAM_windhoek_fortress
 		icon = GFX_goal_generic_construct_military
 
-		x = 27
-		y = 13
+		x = 0
+		y = 5
+		relative_position_id = NAM_stern_state
 
 		cost = 10
 
@@ -2290,8 +2353,9 @@ focus_tree = {
 		id = NAM_united_namibia
 		icon = GFX_goal_generic_construct_military
 
-		x = 23
-		y = 14
+		x = -4
+		y = 6
+		relative_position_id = NAM_stern_state
 
 		cost = 10
 

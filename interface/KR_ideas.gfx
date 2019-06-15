@@ -247,8 +247,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/big_entente_idea.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_radical_socialist_revolution"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_radical_socialist_revolution.tga"
+		name = "GFX_idea_generic_democratic_socialist_revolution"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_democratic_socialist_revolution.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_generic_totalist_revolution"

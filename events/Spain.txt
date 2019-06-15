@@ -412,7 +412,7 @@ country_event = {
 			popularity = -0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.03
 		}
 		add_popularity = {
@@ -435,7 +435,7 @@ country_event = {
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.03
 		}
 		add_popularity = {
@@ -453,7 +453,7 @@ country_event = {
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -543,7 +543,7 @@ country_event = {
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -3812,7 +3812,15 @@ country_event = {
 		controls_all_owned_states = yes
 		any_owned_state = {
 			any_neighbor_state = {
-				is_core_of = ANG
+				OR = {
+					state = 540
+					state = 916
+					state = 917
+					state = 959
+					state = 951
+					state = 914
+					is_core_of = ANG
+				}
 				is_owned_and_controlled_by = POR
 			}
 		}
@@ -3836,6 +3844,12 @@ country_event = {
 			every_owned_state = {
 				limit = {
 					OR = {
+						state = 540
+						state = 916
+						state = 917
+						state = 959
+						state = 951
+						state = 914
 						is_core_of = ANG
 						state = 705
 					}
@@ -5085,7 +5099,7 @@ country_event = {
 				desc = "POLITICS_JULIAN_BESTEIRO_DESC"
 				picture = "Portrait_CNT_Julian_Besteiro_Fernandez.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {

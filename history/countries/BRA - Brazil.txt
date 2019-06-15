@@ -17,8 +17,8 @@ set_technology = {
 	naval_bomber1 = 1
 	CAS1 = 1
 	### Naval ###
-	nav_infra_one = 1
-	nav_infra_two = 1
+	
+	
 }
 
 ### Navy - MtG ###
@@ -100,44 +100,23 @@ give_guarantee = URG
 set_war_support = 0.3
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 3
-		}
-		radical_socialist = {
-			popularity = 4
-		}
-		syndicalist = {
-			popularity = 3
-		}
-		social_democrat = {
-			popularity = 13
-		}
-		social_liberal = {
-			popularity = 13
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 33
-		}
-		authoritarian_democrat = {
-			popularity = 7
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 13
-		}
-	}
-
 	ruling_party = social_conservative
 	last_election = "1932.11.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 3
+    democratic_socialist = 4
+    syndicalist = 3
+    social_democrat = 13
+    social_liberal = 13
+    market_liberal = 8
+    social_conservative = 33
+    authoritarian_democrat = 7
+    paternal_autocrat = 3
+    national_populist = 13
 }
 
 set_convoys = 50
@@ -216,7 +195,7 @@ create_country_leader = {
 	desc = "POLITICS_EDGARD_LEUENROTH_DESC"
 	picture = "Portrait_BRA_Edgard_Leuenroth.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {

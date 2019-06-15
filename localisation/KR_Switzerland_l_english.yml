@@ -973,8 +973,8 @@ SWI_paternal_autocrat_party:0 "스위스 국민운동"
 SWI_paternal_autocrat_party_long:0 "스위스 국민운동"
 SWI_totalist_party:0 "전국 연합"
 SWI_totalist_party_long:0 "전국 연합"
-SWI_radical_socialist_party:0 "스위스 노동당"
-SWI_radical_socialist_party_long:0 "스위스 노동당"
+SWI_democratic_socialist_party:0 "스위스 노동당"
+SWI_democratic_socialist_party_long:0 "스위스 노동당"
 
 ### Opinion Modifiers ###
 SWI_austrian_ties:0 "오스트리아-스위스 유대"

@@ -1809,7 +1809,7 @@ focus_tree = {
 				ideology = syndicalist popularity = -0.10
 			}
 			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
+				ideology = democratic_socialist popularity = -0.10
 			}
 		}
 	}
@@ -1972,7 +1972,7 @@ focus_tree = {
 				ideology = syndicalist popularity = -0.10
 			}
 			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
+				ideology = democratic_socialist popularity = -0.10
 			}
 		}
 	}

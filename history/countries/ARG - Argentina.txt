@@ -16,8 +16,8 @@ set_technology = {
 	early_fighter = 1
 	CAS1 = 1
 	### Naval ###
-	nav_infra_one = 1
-	nav_infra_two = 1
+	
+	
 }
 
 ### Navy - MtG ###
@@ -107,43 +107,23 @@ set_war_support = 0
 set_variable = { arg_im_factor = 100 }
 
 set_politics = {
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		radical_socialist = {
-			popularity = 4
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_democrat = {
-			popularity = 7
-		}
-		social_liberal = {
-			popularity = 15
-		}
-		market_liberal = {
-			popularity = 12
-		}
-		social_conservative = {
-			popularity = 9
-		}
-		authoritarian_democrat = {
-			popularity = 18
-		}
-		paternal_autocrat = {
-			popularity = 8
-		}
-		national_populist = {
-			popularity = 27
-		}
-	}
-
 	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 4
+    syndicalist = 0
+    social_democrat = 7
+    social_liberal = 15
+    market_liberal = 12
+    social_conservative = 9
+    authoritarian_democrat = 18
+    paternal_autocrat = 8
+    national_populist = 27
 }
 
 create_country_leader = {
@@ -169,7 +149,7 @@ create_country_leader = {
 	desc = "POLITICS_NICOLAS_REPETTO_DESC"
 	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {

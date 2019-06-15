@@ -472,7 +472,7 @@ ideas = {
 		GRE_planned_industry_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_planned_industry_idea"}
 			allowed = { always = no }
-			available = { has_government = radical_socialist }
+			available = { has_government = democratic_socialist }
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
 			picture = country_focus_efficency
@@ -664,7 +664,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -682,7 +682,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -701,7 +701,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -886,7 +886,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			picture = FRA_scw_intervention_republicans_focus
 			modifier = {
-				ai_focus_aggressive_factor = 0.50
+				ai_focus_aggressive_factor = 0.80
 				army_morale_factor = 0.10
 				war_support_factor = 0.15
 				justify_war_goal_time = -0.50

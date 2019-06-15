@@ -77,44 +77,23 @@ set_stability = 0.52
 set_war_support = 0.24
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 7
-		}
-		radical_socialist = {
-			popularity = 36
-		}
-		social_democrat = {
-			popularity = 19
-		}
-		social_liberal = {
-			popularity = 22
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 8
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 6
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
-	ruling_party = radical_socialist
+	ruling_party = democratic_socialist
 	last_election = "1932.4.6"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 2
+    syndicalist = 7
+    democratic_socialist = 36
+    social_democrat = 19
+    social_liberal = 22
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 0
+    paternal_autocrat = 6
+    national_populist = 0
 }
 add_ideas = {
 	#medium_economy
@@ -179,7 +158,7 @@ create_country_leader = {
 	desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 	picture = "Portrait_NIC_Augusto_Cesar_Sandino.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

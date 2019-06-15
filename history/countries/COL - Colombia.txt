@@ -58,9 +58,7 @@ if = {
 		cruiser_specialisation_module_one = 1
 		cruiser_specialisation_module_two = 1
 		ps_hull_module_one = 1
-		ps_hull_module_two = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
+		ps_hull_module_two = 1
 		transport = 1
 	}
 }
@@ -84,9 +82,7 @@ if = {
 		interwar_submarine_hull_nonmtg = 1
 		improved_submarine_hull_nonmtg = 1
 		weltkrieg_panzerschiff_hull_nonmtg = 1
-		interwar_panzerschiff_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
+		interwar_panzerschiff_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -94,44 +90,23 @@ if = {
 set_war_support = 0.1
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		radical_socialist = {
-			popularity = 15
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_democrat = {
-			popularity = 33
-		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
-			popularity = 3
-		}
-		social_conservative = {
-			popularity = 29
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 11
-		}
-		national_populist = {
-			popularity = 7
-		}
-	}
-
 	ruling_party = social_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 15
+    syndicalist = 0
+    social_democrat = 33
+    social_liberal = 2
+    market_liberal = 3
+    social_conservative = 29
+    authoritarian_democrat = 0
+    paternal_autocrat = 11
+    national_populist = 7
 }
 
 set_convoys = 30
@@ -212,7 +187,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_GAITAN_DESC"
 	picture = "Portrait_Columbia_Jorge_Gaitan.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

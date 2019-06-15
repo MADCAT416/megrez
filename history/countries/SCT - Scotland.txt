@@ -103,13 +103,7 @@ if = {
 		catapult_plane_two = 1
 		carrier_armoured_deck = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -143,56 +137,29 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 2
-		}
-		radical_socialist = {
-			popularity = 3
-		}
-		syndicalist = {
-			popularity = 5
-		}
-		social_democrat = {
-			popularity = 13
-		}
-		social_liberal = {
-			popularity = 41
-		}
-		market_liberal = {
-			popularity = 21
-		}
-		social_conservative = {
-			popularity = 10
-		}
-		authoritarian_democrat = {
-			popularity = 3
-		}
-		paternal_autocrat = {
-			popularity = 2
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 2
+    democratic_socialist = 3
+    syndicalist = 5
+    social_democrat = 13
+    social_liberal = 41
+    market_liberal = 21
+    social_conservative = 10
+    authoritarian_democrat = 3
+    paternal_autocrat = 2
+    national_populist = 0
 }
 
 add_ideas = {

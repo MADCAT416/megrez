@@ -4384,10 +4384,10 @@ country_event = {
 		complete_national_focus = ARG_Free_Elections_of_the_Republic
 		add_stability = 0.35
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.40
 		}
 
@@ -4505,10 +4505,10 @@ country_event = {
 		name = argcar.46.e
 		add_stability = 0.35
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.40
 		}
 
@@ -4916,10 +4916,10 @@ country_event = {
 		}
 		name = argdem.7.f
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.40
 		}
 
@@ -5048,10 +5048,10 @@ country_event = {
 		}
 		name = argdem.71.f
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.40
 		}
 		create_country_leader = {
@@ -5059,7 +5059,7 @@ country_event = {
 			desc = "POLITICS_ALICIA_JUSTO_DESC"
 			picture = "Portrait_Argentine_Alicia_Justo.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		add_ideas = ARG_Domingo_Mercante_hog_rso

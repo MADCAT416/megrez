@@ -135,7 +135,7 @@ country_event = { # An Indochinese Declaration of Independence!
 	option = {
 		name = viet.1.a # Internationalist Declaration
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -293,7 +293,7 @@ country_event = { # Anti-Infiltration
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 	}
@@ -366,7 +366,7 @@ country_event = { # Land Reform
 		}
 		set_country_flag = INC_land_reform_now
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = -0.03
@@ -461,11 +461,11 @@ country_event = { # National Assembly
 		}
 		add_political_power = 50
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		set_country_flag = INC_Anarchist_Revolution
 		country_event = viet.21
@@ -620,7 +620,7 @@ country_event = { # Bring Nguyen Thi Nam to Tribunal
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = -0.05
@@ -973,7 +973,7 @@ country_event = { # Deal with Saigon European settlers
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_stability = -0.05
@@ -1075,7 +1075,7 @@ country_event = { # Our Attitude towards religion
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -1363,7 +1363,7 @@ country_event = {
 		name = viet.16.b # Deserve worse
 		add_war_support = -0.1
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.5
 		}
 		add_popularity = {
@@ -1395,7 +1395,7 @@ country_event = {
 				desc = "POLITICS_VO_NGUYEN_GIAP_DESC"
 				picture = "gfx/leaders/INC/Portrait_INC_Vo_Nguyen_Giap.tga"
 				expire = "1990.10.13"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -1501,7 +1501,7 @@ country_event = { # Assembly election - Gerrymendering in Saigon
 		random_list = {
 			20 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.1
 				}
 			}
@@ -1569,7 +1569,7 @@ country_event = { # Assembly election - Anarchist Cabinet
 	option = {
 		name = viet.21.c # a radical cabinet led by Tran Van Giau, a fervant revolutionary
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_ideas = INC_Tran_Van_Giau_hog_rso
@@ -1784,16 +1784,16 @@ country_event = { # Assembly Election
 		name = viet.6.a # Anarchist
 		if = {
 			limit = {
-				radical_socialist < 0.4
+				democratic_socialist < 0.4
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.1
 			}
 		}
 		add_stability = -0.1
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_ideas = INC_Nguyen_The_Truyen_hog_rso
 		add_ideas = INC_Nguyen_Duy_Trinh_for_tot
@@ -1801,9 +1801,9 @@ country_event = { # Assembly Election
 		add_ideas = INC_Tran_Van_Thach_sec_syn
 		clr_country_flag = INC_new_round_election
 		trigger = {
-			radical_socialist > 0.25
+			democratic_socialist > 0.25
 			NOT = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -2090,9 +2090,9 @@ country_event = { # Preparing for BGP election
 			name = FRA_syndicalist_party
 		}
 		set_party_name = {
-			ideology = radical_socialist
-			long_name = FRA_radical_socialist_party
-			name = FRA_radical_socialist_party
+			ideology = democratic_socialist
+			long_name = FRA_democratic_socialist_party
+			name = FRA_democratic_socialist_party
 		}
 		country_event = {
 			id = viet.31
@@ -2325,7 +2325,7 @@ country_event = {
 		tag = INC
 		OR = {
 			totalist > 0.2
-			radical_socialist > 0.2
+			democratic_socialist > 0.2
 			syndicalist > 0.2
 		}
 		NOT = {
@@ -2422,14 +2422,14 @@ country_event = {
 	option = {
 		name = viet.38.a
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_ideas = INC_Nguyen_The_Truyen_hog_rso
 		add_ideas = INC_Nguyen_Duy_Trinh_for_tot
 		add_ideas = INC_Ngo_Van_eco_syn
 		add_ideas = INC_Tran_Van_Thach_sec_syn
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -2471,7 +2471,7 @@ country_event = {
 		add_ideas = INC_Ngo_Van_eco_syn
 		add_ideas = INC_Tran_Van_Thach_sec_syn
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -2544,7 +2544,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -2867,15 +2867,8 @@ country_event = { #Landlord Resistance
 	title = viet.65.t
 	desc = viet.65.d
 	picture = GFX_report_event_INC_farmers
+	is_triggered_only = yes
 
-	fire_only_once = yes
-	trigger = {
-		tag = INC
-		has_country_flag = INC_landholding_limit
-	}
-	mean_time_to_happen = {
-		months = 2
-	}
 	option = {
 		name = viet.65.a # We have no choice
 		add_war_support = -0.05
@@ -3581,7 +3574,7 @@ country_event = { #The 1900th anniversary of Trung Sister uprising
 		add_political_power = -50
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_completed_focus = INC_Proletarian_Culture
 			}
@@ -3729,11 +3722,11 @@ country_event = {
 		name = viet.94.a # All hail Commune of France, Paradise on the Earth!
 		trigger = {
 			NOT = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -3758,11 +3751,11 @@ country_event = {
 	option = {
 		name = viet.94.c # Absorbing new culture makes us stronger
 		trigger = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		add_political_power = 20
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -3776,15 +3769,7 @@ country_event = {
 	title = viet.94.t
 	desc = viet.94.d
 	picture = GFX_report_event_INC_femalevc
-	fire_only_once = yes
-
-	trigger = {
-		tag = INC
-		has_completed_focus = INC_Journey_to_the_West
-	}
-	mean_time_to_happen = {
-		months = 6
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = viet.94.a # Oui!
@@ -3826,11 +3811,11 @@ country_event = {
 	option = {
 		name = viet.95.a # We must further drill the taste of Indochinese people
 		trigger = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		add_political_power = -25
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.03
 		}
 	}
@@ -3839,11 +3824,11 @@ country_event = {
 		name = viet.95.b # Avant-garde culture seems too advanced for place like Indochina...
 		trigger = {
 			NOT = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.03
 		}
 	}
@@ -3940,7 +3925,7 @@ country_event = {
 		name = viet.98.a # Nonsense, this a good book
 		trigger = {
 			NOT = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		add_political_power = 25
@@ -3958,12 +3943,12 @@ country_event = {
 	option = {
 		name = viet.98.b # Support a comedy film adaptation and Nguyen An Ninh will play the King of Visceral Disease Treatment!
 		trigger = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		add_stability = -0.01
 		add_war_support = -0.01
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}
@@ -4204,7 +4189,7 @@ country_event = { #Deal with Binh Xuyen
 		hidden_effect = {
 			if = {
 				limit = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 				country_event = {
 					id = viet.138
@@ -4259,7 +4244,7 @@ country_event = { #The Integration of Binh Xuyen
 		name = viet.138.a # Excellent
 		add_manpower = 50000
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 	}

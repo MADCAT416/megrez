@@ -101,13 +101,7 @@ if = {
 		catapult_plane_two = 1
 		carrier_armoured_deck = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -141,13 +135,7 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -170,44 +158,23 @@ add_opinion_modifier = { target = OTT modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 12
-		}
-		radical_socialist = {
-			popularity = 14
-		}
-		syndicalist = {
-			popularity = 62
-		}
-		social_democrat = {
-			popularity = 12
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = syndicalist
 	last_election = "1936.11.08"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 12
+    democratic_socialist = 14
+    syndicalist = 62
+    social_democrat = 12
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
 }
 
 create_country_leader = {
@@ -231,7 +198,7 @@ create_country_leader = {
 	desc = "POLITICS_JACK_REED_DESC"
 	picture = "Portrait_CSA_Jack_Reed.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

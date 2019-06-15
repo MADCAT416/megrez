@@ -7,11 +7,12 @@ state = {
 	history = {
 		owner = UKR
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
+			industrial_complex = 1
 		}
 		add_core_of = UKR
 		victory_points = {
-			6580 1
+			9452 1
 		}
 	}
 

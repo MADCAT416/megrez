@@ -92,13 +92,7 @@ if = {
 		dn_sh_gun_module_two = 1
 		catapult_plane_two = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -132,13 +126,7 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -149,44 +137,23 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		radical_socialist = {
-			popularity = 8
-		}
-		social_democrat = {
-			popularity = 8
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 30
-		}
-		paternal_autocrat = {
-			popularity =  12
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    syndicalist = 0
+    democratic_socialist = 8
+    social_democrat = 8
+    social_liberal = 10
+    market_liberal = 10
+    social_conservative = 12
+    authoritarian_democrat = 30
+    paternal_autocrat = 12
+    national_populist = 10
 }
 
 create_country_leader = {

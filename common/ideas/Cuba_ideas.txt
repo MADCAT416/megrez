@@ -271,7 +271,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				radical_socialist_drift = -0.03
+				democratic_socialist_drift = -0.03
 				syndicalist_drift = -0.03
 				totalist_drift = -0.03
 			}

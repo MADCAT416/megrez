@@ -52,7 +52,7 @@ country_event = { #Anniversary of the revolution
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = social_democrat
 			has_government = social_liberal
 		}
@@ -65,7 +65,7 @@ country_event = { #Anniversary of the revolution
 	option = {
 		name = nic.2.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 			add_war_support = 0.02
 		}
@@ -141,7 +141,7 @@ country_event = { #Sandino supporters ENRAGED
 	option = {
 		name = nic.5.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.04
 		}
 	}
@@ -158,7 +158,7 @@ country_event = { #Sandino speaks against enraged supporters
 	option = {
 		name = nic.6.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}
@@ -228,7 +228,7 @@ country_event = { #Elections!
 	title = nic.9.t
 	desc = nic.9.d
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 		date < 1937.1.1
 		is_subject = no
 	}
@@ -247,11 +247,11 @@ country_event = { #Elections!
 			}
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		set_country_flag = NIC_36_election_flag
@@ -335,7 +335,7 @@ country_event = { #Sandinistas acting against Sacasa
 	option = {
 		name = nic.10.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 	}
@@ -486,7 +486,7 @@ country_event = { #Sandino hates Liberalism!(Triggered from focus file)
 		add_stability = -0.02
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}
@@ -655,7 +655,7 @@ country_event = { #Sandino is organizing the Sandinistas(Triggered from focus "R
 			base = 20
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = NIC_sandinistas_bad_one_month
@@ -745,7 +745,7 @@ country_event = { #Sandino and Sacasa congragulate Moreno
 		name = nic.30.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 		add_popularity = {
@@ -923,7 +923,7 @@ country_event = { #Moreno and Sandino meet
 	option = { #Dumb Liberals!
 		name = nic.29.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}
@@ -967,7 +967,7 @@ country_event = { #Sandinistas celebrate
 	}
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -975,7 +975,7 @@ country_event = { #Sandinistas celebrate
 		name = nic.32.a
 		add_stability = -0.02
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}
@@ -988,7 +988,7 @@ country_event = { #Sandino inagurated
 	desc = nic.33.d
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -996,7 +996,7 @@ country_event = { #Sandino inagurated
 		name = nic.33.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 	}
@@ -1017,7 +1017,7 @@ country_event = { #Sandino meets with Sandinistas
 	}
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -1025,7 +1025,7 @@ country_event = { #Sandino meets with Sandinistas
 		name = nic.34.a
 		add_political_power = -20
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.02
 		}
 	}
@@ -1046,7 +1046,7 @@ country_event = { #Liberal protest
 	}
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -1079,14 +1079,14 @@ country_event = { #Sandino and Moreno dicuss Liberalism
 	}
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
 	option = {
 		name = nic.36.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 		add_popularity = {
@@ -1103,7 +1103,7 @@ country_event = { #The Liberal split, Sandino edition
 	desc = nic.37.d
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -1132,7 +1132,7 @@ country_event = { #Sandinistas tamed
 	}
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 	fire_only_once = yes
 
@@ -1144,7 +1144,7 @@ country_event = { #Sandinistas tamed
 		custom_effect_tooltip = NIC_good_sandinistas_deploy
 		set_country_flag = NIC_sandinistas_employed_flag
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}
@@ -1157,7 +1157,7 @@ country_event = { #Sandinistas almost move into DMZ
 	desc = nic.39.d
 	is_triggered_only = yes
 	trigger = {
-		has_government = radical_socialist
+		has_government = democratic_socialist
 		USA = {
 			NOT = {
 				has_global_flag = USA_civil_war_begun_flag
@@ -1170,7 +1170,7 @@ country_event = { #Sandinistas almost move into DMZ
 		name = nic.39.a
 		add_political_power = -20
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.02
 		}
 	}
@@ -1182,21 +1182,7 @@ country_event = { #rumours of American unrest
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nic.40"}
 	title = nic.40.t
 	desc = nic.40.d
-	trigger = {
-		tag = NIC
-		OR = {
-			has_government = radical_socialist
-			has_government = social_democrat
-			has_government = social_liberal
-		}
-		date > 1937.1.10
-		NOT = {
-			has_global_flag = USA_civil_war_begun_flag
-		}
-	}
-	mean_time_to_happen = {
-		days = 5
-	}
+	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
@@ -1209,18 +1195,7 @@ country_event = { #ACW has begun!
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nic.41"}
 	title = nic.41.t
 	desc = nic.41.d
-	trigger = {
-		tag = NIC
-		OR = {
-			has_government = radical_socialist
-			has_government = social_democrat
-			has_government = social_liberal
-		}
-		has_global_flag = USA_civil_war_begun_flag
-	}
-	mean_time_to_happen = {
-		days = 5
-	}
+	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
@@ -1235,25 +1210,7 @@ country_event = { #Sacasa protests the invasion of Democratic Honduras
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nic.42"}
 	title = nic.42.t
 	desc = nic.42.d
-	trigger = {
-		tag = NIC
-		has_war_with = HON
-		OR = {
-			has_government = radical_socialist
-			has_government = social_democrat
-		}
-		has_active_mission = NIC_spread_revolution_mission
-		HON = {
-			OR = {
-				has_government = social_democrat
-				has_government = social_liberal
-				has_government = market_liberal
-			}
-		}
-	}
-	mean_time_to_happen = {
-		days = 15
-	}
+	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
@@ -1273,18 +1230,7 @@ country_event = { #Sandino protests the invasion of Socialist Honduras
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nic.43"}
 	title = nic.43.t
 	desc = nic.43.d
-	trigger = {
-		tag = NIC
-		has_war_with = HON
-		has_government = social_liberal
-		has_active_mission = NIC_spread_revolution_mission
-		HON = {
-			has_socialist_government = yes
-		}
-	}
-	mean_time_to_happen = {
-		days = 15
-	}
+	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
@@ -1293,7 +1239,7 @@ country_event = { #Sandino protests the invasion of Socialist Honduras
 		add_war_support = -0.05
 		add_stability = -0.05
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -1408,7 +1354,7 @@ country_event = { #Socialist protest to "Guardia cooperation"
 				}
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.01
 			}
 		}
@@ -1425,7 +1371,7 @@ country_event = { #Socialist protest to "Guardia cooperation"
 			add_stability = -0.05
 			add_war_support = -0.05
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 		}
@@ -1478,7 +1424,7 @@ country_event = { #Event for Socialist people joining
 				}
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 		}
@@ -1493,7 +1439,7 @@ country_event = { #Event for Socialist people joining
 				}
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 			add_popularity = {
@@ -1522,7 +1468,7 @@ country_event = { #Moreno is indecisive
 			popularity = -0.04
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.01
 		}
 		hidden_effect = {
@@ -1552,7 +1498,7 @@ country_event = { #Protests grow into revolt
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 		add_popularity = {
@@ -1604,7 +1550,7 @@ country_event = { #Demanded to step down
 				has_country_flag = NIC_government_trusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.01
 			}
 			add_popularity = {
@@ -1620,7 +1566,7 @@ country_event = { #Demanded to step down
 				has_country_flag = NIC_government_distrusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.03
 			}
 			add_popularity = {
@@ -1637,7 +1583,7 @@ country_event = { #Demanded to step down
 		set_country_flag = NIC_moreno_sandino_together_flag
 		set_country_flag = NIC_socialist_betrayal
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -1691,7 +1637,7 @@ country_event = { #Demanded to step down
 				has_country_flag = NIC_government_distrusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 			add_popularity = {
@@ -1769,7 +1715,7 @@ country_event = { #Clash at the capital
 				has_country_flag = NIC_government_trusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.02
 			}
 			add_popularity = {
@@ -1782,7 +1728,7 @@ country_event = { #Clash at the capital
 				has_country_flag = NIC_government_distrusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.02
 			}
 			add_popularity = {
@@ -1838,7 +1784,7 @@ country_event = { #Clash at the capital
 				has_country_flag = NIC_government_distrusted_flag
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.03
 			}
 			add_popularity = {
@@ -1860,7 +1806,7 @@ country_event = { #Clash at the capital
 		set_country_flag = NIC_moreno_sandino_together_flag
 		set_country_flag = NIC_socialist_betrayal
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 
 		hidden_effect = {
@@ -2017,6 +1963,14 @@ country_event = { #Election
 			remove_ideas_with_trait = foreign_minister
 			remove_ideas_with_trait = economy_minister
 			remove_ideas_with_trait = security_minister
+			if = {
+				limit = {
+					has_country_flag = NIC_government_trusted_flag
+				}
+				country_event = {
+					id = nic.63 days = 13
+				}
+			}	
 		}
 	}
 	title = nic.57.t
@@ -2189,17 +2143,7 @@ country_event = { #What to do with Moreno?
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nic.63"}
 	title = nic.63.t
 	desc = nic.63.d
-	trigger = {
-		OR = {
-			has_government = social_liberal
-			has_government = social_conservative
-		}
-		has_country_flag = NIC_liberal_revolution_flag
-		has_country_flag = NIC_government_trusted_flag
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = { #Restrict him from politics
@@ -2270,7 +2214,7 @@ country_event = { #Suspicous movements from Sacasa, Sandino
 	trigger = {
 		tag = NIC
 		has_war = no
-		has_government = radical_socialist
+		has_government = democratic_socialist
 		NOT = {
 			has_active_mission = NIC_spread_revolution_mission
 		}
@@ -2306,7 +2250,7 @@ country_event = { #Abelardo Cuadra is hired by Sacasa
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2332,7 +2276,7 @@ country_event = { #Sacasa does a big
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2388,7 +2332,7 @@ country_event = { #Movement ends up dying out
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2434,7 +2378,7 @@ country_event = { #Mercenary conscription, where do they go?
 		}
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2483,7 +2427,7 @@ country_event = { #Movement ends up dying out
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2515,7 +2459,7 @@ country_event = { #Stalemate
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2631,7 +2575,7 @@ country_event = { #Clash at the capital
 	trigger = {
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 	is_triggered_only = yes
@@ -2804,7 +2748,7 @@ country_event = { #Huge Sandinistas rally
 	option = {
 		name = nic.75.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -2833,7 +2777,7 @@ country_event = { #Elections for socialists
 		date > 1937.1.1
 		OR = {
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		has_country_flag = NIC_socialist_revolution_flag
 	}
@@ -2842,11 +2786,11 @@ country_event = { #Elections for socialists
 	option = { #Rad Suc victory
 		name = nic.76.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
 		add_ideas = NIC_Pedro_Altamirano_hog_rso
@@ -2891,7 +2835,7 @@ country_event = { #Rigged Sandino elections
 	option = { #Big oof
 		name = nic.77.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_political_power = -100
@@ -3598,17 +3542,24 @@ country_event = { #Clash at the capital! Sandino completely destroys the opposit
 	option = {
 		name = nic.123.a
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_country_flag = NIC_socialist_revolution_flag
 		set_country_flag = NIC_sandino_bacc
 		clr_country_flag = NIC_national_guard_flag
 		clr_country_flag = NIC_sandino_attack_flag
+
+		HON = {
+			end_puppet = NIC
+			country_event = {
+				id = nic.126 days = 1
+			}
+		}
 
 		every_unit_leader = { #Back to Honduras
 			limit = {
@@ -3747,7 +3698,7 @@ country_event = { #Clash at the capital! Sandino completely destroyed
 		name = nic.124.a
 		clr_country_flag = NIC_sandino_attack_flag
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 
@@ -3810,7 +3761,7 @@ country_event = { #Clash at the capital! Contested
 		}
 		clr_country_flag = NIC_sandino_attack_flag
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		if = { #Deciding how much to hurt
@@ -3915,11 +3866,11 @@ country_event = { #Clash at the capital! Contested
 			}
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_country_flag = NIC_socialist_revolution_flag
@@ -4223,7 +4174,7 @@ country_event = { #First Honduran event for surrendering, only happens if you lo
 			limit = {
 				NIC = {
 					OR = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4237,40 +4188,21 @@ country_event = { #First Honduran event for surrendering, only happens if you lo
 				HON = {
 					set_politics = {
 						ruling_party = totalist
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 31
-							}
-							radical_socialist = {
-								popularity = 13
-							}
-							syndicalist = {
-								popularity = 12
-							}
-							social_democrat = {
-								popularity = 9
-							}
-							social_liberal = {
-								popularity = 7
-							}
-							market_liberal = {
-								popularity = 2
-							}
-							authoritarian_democrat = {
-								popularity = 10
-							}
-							paternal_autocrat = {
-								popularity = 1
-							}
-							paternal_autocrat = {
-								popularity = 2
-							}
-							national_populist = {
-								popularity = 5
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 31
+                        democratic_socialist = 13
+                        syndicalist = 12
+                        social_democrat = 9
+                        social_liberal = 7
+                        market_liberal = 2
+                        social_conservative = 8
+                        authoritarian_democrat = 10
+                        paternal_autocrat = 1
+                        paternal_autocrat = 2
+                        national_populist = 5
+                    }
 					set_country_flag = HON_the_revolution
 				}
 			}
@@ -4291,40 +4223,20 @@ country_event = { #First Honduran event for surrendering, only happens if you lo
 				HON = {
 					set_politics = {
 						ruling_party = social_conservative
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 4
-							}
-							radical_socialist = {
-								popularity = 2
-							}
-							syndicalist = {
-								popularity = 3
-							}
-							social_democrat = {
-								popularity = 5
-							}
-							social_liberal = {
-								popularity = 4
-							}
-							market_liberal = {
-								popularity = 12
-							}
-							social_conservative = {
-								popularity = 54
-							}
-							authoritarian_democrat = {
-								popularity = 7
-							}
-							paternal_autocrat = {
-								popularity = 3
-							}
-							national_populist = {
-								popularity = 6
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 4
+                        democratic_socialist = 2
+                        syndicalist = 3
+                        social_democrat = 5
+                        social_liberal = 4
+                        market_liberal = 12
+                        social_conservative = 54
+                        authoritarian_democrat = 7
+                        paternal_autocrat = 3
+                        national_populist = 6
+                    }
 					set_country_flag = HON_soclib
 				}
 			}
@@ -4386,7 +4298,7 @@ country_event = { #Honduras forced to surrender
 			limit = {
 				NIC = {
 					OR = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4400,40 +4312,20 @@ country_event = { #Honduras forced to surrender
 				HON = {
 					set_politics = {
 						ruling_party = totalist
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 63
-							}
-							radical_socialist = {
-								popularity = 6
-							}
-							syndicalist = {
-								popularity = 11
-							}
-							social_democrat = {
-								popularity = 4
-							}
-							social_liberal = {
-								popularity = 4
-							}
-							market_liberal = {
-								popularity = 2
-							}
-							authoritarian_democrat = {
-								popularity = 1
-							}
-							paternal_autocrat = {
-								popularity = 2
-							}
-							paternal_autocrat = {
-								popularity = 2
-							}
-							national_populist = {
-								popularity = 5
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 63
+                        democratic_socialist = 6
+                        syndicalist = 11
+                        social_democrat = 4
+                        social_liberal = 4
+                        market_liberal = 2
+                        authoritarian_democrat = 1
+                        paternal_autocrat = 2
+                        paternal_autocrat = 2
+                        national_populist = 5
+                    }
 					set_country_flag = HON_the_revolution
 				}
 			}
@@ -4454,40 +4346,20 @@ country_event = { #Honduras forced to surrender
 				HON = {
 					set_politics = {
 						ruling_party = social_conservative
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 8
-							}
-							radical_socialist = {
-								popularity = 2
-							}
-							syndicalist = {
-								popularity = 6
-							}
-							social_democrat = {
-								popularity = 21
-							}
-							social_liberal = {
-								popularity = 4
-							}
-							market_liberal = {
-								popularity = 4
-							}
-							social_conservative = {
-								popularity = 41
-							}
-							authoritarian_democrat = {
-								popularity = 2
-							}
-							paternal_autocrat = {
-								popularity = 3
-							}
-							national_populist = {
-								popularity = 9
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 8
+                        democratic_socialist = 2
+                        syndicalist = 6
+                        social_democrat = 21
+                        social_liberal = 4
+                        market_liberal = 4
+                        social_conservative = 41
+                        authoritarian_democrat = 2
+                        paternal_autocrat = 3
+                        national_populist = 9
+                    }
 					set_country_flag = HON_soclib
 				}
 			}
@@ -4530,7 +4402,7 @@ country_event = { #Honduras occupied, time to release
 			limit = {
 				NIC = {
 					OR = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4540,40 +4412,20 @@ country_event = { #Honduras occupied, time to release
 				HON = {
 					set_politics = {
 						ruling_party = totalist
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 63
-							}
-							radical_socialist = {
-								popularity = 6
-							}
-							syndicalist = {
-								popularity = 11
-							}
-							social_democrat = {
-								popularity = 4
-							}
-							social_liberal = {
-								popularity = 4
-							}
-							market_liberal = {
-								popularity = 2
-							}
-							authoritarian_democrat = {
-								popularity = 1
-							}
-							paternal_autocrat = {
-								popularity = 2
-							}
-							paternal_autocrat = {
-								popularity = 2
-							}
-							national_populist = {
-								popularity = 5
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 63
+                        democratic_socialist = 6
+                        syndicalist = 11
+                        social_democrat = 4
+                        social_liberal = 4
+                        market_liberal = 2
+                        authoritarian_democrat = 1
+                        paternal_autocrat = 2
+                        paternal_autocrat = 2
+                        national_populist = 5
+                    }
 					set_country_flag = HON_the_revolution
 				}
 			}
@@ -4590,40 +4442,20 @@ country_event = { #Honduras occupied, time to release
 				HON = {
 					set_politics = {
 						ruling_party = social_conservative
-						elections_allowed = no
-						parties = {
-							totalist = {
-								popularity = 8
-							}
-							radical_socialist = {
-								popularity = 2
-							}
-							syndicalist = {
-								popularity = 6
-							}
-							social_democrat = {
-								popularity = 21
-							}
-							social_liberal = {
-								popularity = 4
-							}
-							market_liberal = {
-								popularity = 4
-							}
-							social_conservative = {
-								popularity = 41
-							}
-							authoritarian_democrat = {
-								popularity = 2
-							}
-							paternal_autocrat = {
-								popularity = 3
-							}
-							national_populist = {
-								popularity = 9
-							}
-						}
-					}
+						elections_allowed = no                }
+
+                    set_popularities = {
+                        totalist = 8
+                        democratic_socialist = 2
+                        syndicalist = 6
+                        social_democrat = 21
+                        social_liberal = 4
+                        market_liberal = 4
+                        social_conservative = 41
+                        authoritarian_democrat = 2
+                        paternal_autocrat = 3
+                        national_populist = 9
+                    }
 					set_country_flag = HON_soclib
 				}
 			}
@@ -4696,40 +4528,18 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 		NIC = {
 			set_politics = {
 				ruling_party = paternal_autocrat
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 0
-					}
-					syndicalist = {
-						popularity = 3
-					}
-					radical_socialist = {
-						popularity = 27
-					}
-					social_democrat = {
-						popularity = 6
-					}
-					social_liberal = {
-						popularity = 9
-					}
-					market_liberal = {
-						popularity = 0
-					}
-					authoritarian_democrat = {
-						popularity = 11
-					}
-					paternal_autocrat = {
-						popularity = 21
-					}
-					paternal_autocrat = {
-						popularity = 17
-					}
-					national_populist = {
-						popularity = 6
-					}
-				}
-			}
+				elections_allowed = no        }
+
+            set_popularities = {
+                syndicalist = 3
+                democratic_socialist = 27
+                social_democrat = 6
+                social_liberal = 9
+                authoritarian_democrat = 11
+                paternal_autocrat = 21
+                paternal_autocrat = 17
+                national_populist = 6
+            }
 			if = {
 				limit = {
 					has_unit_leader = 1600
@@ -4859,40 +4669,18 @@ country_event = { #Release Nicaragua
 		NIC = {
 			set_politics = {
 				ruling_party = paternal_autocrat
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 0
-					}
-					syndicalist = {
-						popularity = 3
-					}
-					radical_socialist = {
-						popularity = 27
-					}
-					social_democrat = {
-						popularity = 6
-					}
-					social_liberal = {
-						popularity = 9
-					}
-					market_liberal = {
-						popularity = 0
-					}
-					authoritarian_democrat = {
-						popularity = 11
-					}
-					paternal_autocrat = {
-						popularity = 21
-					}
-					paternal_autocrat = {
-						popularity = 17
-					}
-					national_populist = {
-						popularity = 6
-					}
-				}
-			}
+				elections_allowed = no        }
+
+            set_popularities = {
+                syndicalist = 3
+                democratic_socialist = 27
+                social_democrat = 6
+                social_liberal = 9
+                authoritarian_democrat = 11
+                paternal_autocrat = 21
+                paternal_autocrat = 17
+                national_populist = 6
+            }
 			add_ideas = NIC_sandino_resistance_base
 			set_country_flag = NIC_national_guard_flag
 			set_country_flag = NIC_sandino_attack_flag
@@ -4986,40 +4774,18 @@ country_event = { #Release Nicaragua 2: Electric Boogaloo
 		NIC = {
 			set_politics = {
 				ruling_party = paternal_autocrat
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 0
-					}
-					syndicalist = {
-						popularity = 5
-					}
-					radical_socialist = {
-						popularity = 10
-					}
-					social_democrat = {
-						popularity = 7
-					}
-					social_liberal = {
-						popularity = 10
-					}
-					market_liberal = {
-						popularity = 0
-					}
-					social_conservative = {
-						popularity = 17
-					}
-					authoritarian_democrat = {
-						popularity = 13
-					}
-					paternal_autocrat = {
-						popularity = 31
-					}
-					national_populist = {
-						popularity = 7
-					}
-				}
-			}
+				elections_allowed = no        }
+
+            set_popularities = {
+                syndicalist = 5
+                democratic_socialist = 10
+                social_democrat = 7
+                social_liberal = 10
+                social_conservative = 17
+                authoritarian_democrat = 13
+                paternal_autocrat = 31
+                national_populist = 7
+            }
 			set_country_flag = NIC_national_guard_flag
 			if = {
 				limit = {
@@ -5081,40 +4847,20 @@ country_event = { #Honduras occupied after Sandino came back
 			HON = {
 				set_politics = {
 					ruling_party = totalist
-					elections_allowed = no
-					parties = {
-						totalist = {
-							popularity = 63
-						}
-						radical_socialist = {
-							popularity = 6
-						}
-						syndicalist = {
-							popularity = 11
-						}
-						social_democrat = {
-							popularity = 4
-						}
-						social_liberal = {
-							popularity = 4
-						}
-						market_liberal = {
-							popularity = 2
-						}
-						authoritarian_democrat = {
-							popularity = 1
-						}
-						paternal_autocrat = {
-							popularity = 2
-						}
-						paternal_autocrat = {
-							popularity = 2
-						}
-						national_populist = {
-							popularity = 5
-						}
-					}
-				}
+					elections_allowed = no            }
+
+                set_popularities = {
+                    totalist = 63
+                    democratic_socialist = 6
+                    syndicalist = 11
+                    social_democrat = 4
+                    social_liberal = 4
+                    market_liberal = 2
+                    authoritarian_democrat = 1
+                    paternal_autocrat = 2
+                    paternal_autocrat = 2
+                    national_populist = 5
+                }
 				set_country_flag = HON_totalist
 			}
 		}
@@ -5139,7 +4885,7 @@ country_event = { #Nicaragua falling if Socialist invaded Liberals in Honduras
 			}
 			OR = {
 				has_government = social_democrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		date < 1939.01.01
@@ -5164,40 +4910,19 @@ country_event = { #Nicaragua falling if Socialist invaded Liberals in Honduras
 		NIC = {
 			set_politics = {
 				ruling_party = social_liberal
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 3
-					}
-					syndicalist = {
-						popularity = 3
-					}
-					radical_socialist = {
-						popularity = 22
-					}
-					social_democrat = {
-						popularity = 11
-					}
-					social_liberal = {
-						popularity = 35
-					}
-					market_liberal = {
-						popularity = 6
-					}
-					authoritarian_democrat = {
-						popularity = 10
-					}
-					paternal_autocrat = {
-						popularity = 6
-					}
-					paternal_autocrat = {
-						popularity = 3
-					}
-					national_populist = {
-						popularity = 1
-					}
-				}
-			}
+				elections_allowed = no        }
+
+            set_popularities = {
+                totalist = 3
+                syndicalist = 3
+                democratic_socialist = 22
+                social_democrat = 11
+                social_liberal = 35
+                market_liberal = 6
+                authoritarian_democrat = 10
+                paternal_autocrat = 9
+                national_populist = 1
+            }
 			set_country_flag = NIC_liberal_revolution_flag
 			set_country_flag = NIC_liberal_betrayal
 			if = {
@@ -5293,40 +5018,19 @@ country_event = { #Release Nicaragua as Liberal Honduras
 		NIC = {
 			set_politics = {
 				ruling_party = social_liberal
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 3
-					}
-					syndicalist = {
-						popularity = 3
-					}
-					radical_socialist = {
-						popularity = 22
-					}
-					social_democrat = {
-						popularity = 11
-					}
-					social_liberal = {
-						popularity = 35
-					}
-					market_liberal = {
-						popularity = 6
-					}
-					authoritarian_democrat = {
-						popularity = 10
-					}
-					paternal_autocrat = {
-						popularity = 6
-					}
-					paternal_autocrat = {
-						popularity = 3
-					}
-					national_populist = {
-						popularity = 1
-					}
-				}
-			}
+				elections_allowed = no        }
+
+            set_popularities = {
+                totalist = 3
+                syndicalist = 3
+                democratic_socialist = 22
+                social_democrat = 11
+                social_liberal = 35
+                market_liberal = 6
+                authoritarian_democrat = 10
+                paternal_autocrat = 9
+                national_populist = 1
+            }
 			set_country_flag = NIC_liberal_revolution_flag
 			set_country_flag = NIC_liberal_betrayal
 			if = {
@@ -5404,41 +5108,19 @@ country_event = { #Nicaragua falling if Liberals invaded Socialist Honduras
 		}
 		NIC = {
 			set_politics = {
-				ruling_party = radical_socialist
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 1
-					}
-					syndicalist = {
-						popularity = 4
-					}
-					radical_socialist = {
-						popularity = 36
-					}
-					social_democrat = {
-						popularity = 32
-					}
-					social_liberal = {
-						popularity = 11
-					}
-					market_liberal = {
-						popularity = 3
-					}
-					authoritarian_democrat = {
-						popularity = 10
-					}
-					paternal_autocrat = {
-						popularity = 3
-					}
-					paternal_autocrat = {
-						popularity = 0
-					}
-					national_populist = {
-						popularity = 0
-					}
-				}
-			}
+				ruling_party = democratic_socialist
+				elections_allowed = no        }
+
+            set_popularities = {
+                totalist = 1
+                syndicalist = 4
+                democratic_socialist = 36
+                social_democrat = 32
+                social_liberal = 11
+                market_liberal = 3
+                authoritarian_democrat = 10
+                paternal_autocrat = 3
+            }
 			set_country_flag = NIC_socialist_revolution_flag
 			set_country_flag = NIC_moreno_sandino_together_flag
 			set_country_flag = NIC_socialist_betrayal
@@ -5490,41 +5172,19 @@ country_event = { #Release Nicaragua as Socialist Honduras
 		puppet = NIC
 		NIC = {
 			set_politics = {
-				ruling_party = radical_socialist
-				elections_allowed = no
-				parties = {
-					totalist = {
-						popularity = 1
-					}
-					syndicalist = {
-						popularity = 4
-					}
-					radical_socialist = {
-						popularity = 36
-					}
-					social_democrat = {
-						popularity = 32
-					}
-					social_liberal = {
-						popularity = 11
-					}
-					market_liberal = {
-						popularity = 3
-					}
-					authoritarian_democrat = {
-						popularity = 10
-					}
-					paternal_autocrat = {
-						popularity = 3
-					}
-					paternal_autocrat = {
-						popularity = 0
-					}
-					national_populist = {
-						popularity = 0
-					}
-				}
-			}
+				ruling_party = democratic_socialist
+				elections_allowed = no        }
+
+            set_popularities = {
+                totalist = 1
+                syndicalist = 4
+                democratic_socialist = 36
+                social_democrat = 32
+                social_liberal = 11
+                market_liberal = 3
+                authoritarian_democrat = 10
+                paternal_autocrat = 3
+            }
 			set_country_flag = NIC_socialist_revolution_flag
 			set_country_flag = NIC_moreno_sandino_together_flag
 
@@ -5607,7 +5267,7 @@ country_event = { #People celebrate moving into DMZ
 		OR = {
 			has_government = social_liberal
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -5628,7 +5288,7 @@ country_event = { #UFC funds mercanaries
 		OR = {
 			has_government = social_liberal
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -5707,7 +5367,7 @@ country_event = { #Successfully crushed
 		OR = {
 			has_government = social_liberal
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -5756,7 +5416,7 @@ country_event = { #People defend themselves
 		OR = {
 			has_government = social_liberal
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -5778,7 +5438,7 @@ country_event = { #Mercanaries rampant
 		OR = {
 			has_government = social_liberal
 			has_government = social_democrat
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -5817,7 +5477,7 @@ country_event = { #Failed to take Honduras from decision
 		name = nicdec.8.a
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}

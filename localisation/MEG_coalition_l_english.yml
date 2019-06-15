@@ -9,7 +9,7 @@ coalition_party_market_liberal_tt:0 "[GetCoalitionStarTooltipMarketLiberal]"
 coalition_party_social_conservative_tt:0 "[GetCoalitionStarTooltipSocialConservative]"
 coalition_party_authoritarian_democrat_tt:0 "[GetCoalitionStarTooltipAuthoritarianDemocrat]"
 coalition_party_paternal_autocrat_tt:0 "[GetCoalitionStarTooltipPaternalAutocrat]"
-coalition_party_clerical_nationalist_tt:0 "[GetCoalitionStarTooltipClericalNationalist]"
+coalition_party_national_populist_tt:0 "[GetCoalitionStarTooltipClericalNationalist]"
 coalition_party_national_populist_tt:0 "[GetCoalitionStarTooltipNationalPopulist]"
 
 coalition_party_ruling:0 "이 정당은 연정을 주도하고 있습니다."

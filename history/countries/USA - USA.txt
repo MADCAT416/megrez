@@ -105,13 +105,7 @@ if = {
 		catapult_plane_two = 1
 		carrier_armoured_deck = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -145,13 +139,7 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -200,44 +188,23 @@ set_stability = 0.25
 set_war_support = 0.25
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 10
-		}
-		radical_socialist = {
-			popularity = 13
-		}
-		social_democrat = {
-			popularity = 8
-		}
-		social_liberal = {
-			popularity = 18
-		}
-		market_liberal = {
-			popularity = 12
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 13
-		}
-		paternal_autocrat = {
-			popularity = 2
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
-
 	ruling_party = social_liberal
 	last_election = "1932.11.08"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 2
+    syndicalist = 10
+    democratic_socialist = 13
+    social_democrat = 8
+    social_liberal = 18
+    market_liberal = 12
+    social_conservative = 12
+    authoritarian_democrat = 13
+    paternal_autocrat = 2
+    national_populist = 10
 }
 
 set_autonomy = {
@@ -252,43 +219,24 @@ set_autonomy = {
 # Resetting politics for all puppets which come earlier in the load order
 "PHI" = {
 	set_politics = {
-		parties = {
-			totalist = {
-				popularity = 2
-			}
-			radical_socialist = {
-				popularity = 3
-			}
-			syndicalist = {
-				popularity = 5
-			}
-			social_democrat = {
-				popularity = 13
-			}
-			social_liberal = {
-				popularity = 41
-			}
-			market_liberal = {
-				popularity = 21
-			}
-			social_conservative = {
-				popularity = 10
-			}
-			authoritarian_democrat = {
-				popularity = 3
-			}
-			paternal_autocrat = {
-				popularity = 2
-			}
-			national_populist = {
-				popularity = 0
-			}
-		}
 		ruling_party = social_liberal
 		last_election = "1888.15.6"
 		election_frequency = 48
 		elections_allowed = no
-	}
+}
+
+    set_popularities = {
+        totalist = 2
+        democratic_socialist = 3
+        syndicalist = 5
+        social_democrat = 13
+        social_liberal = 41
+        market_liberal = 21
+        social_conservative = 10
+        authoritarian_democrat = 3
+        paternal_autocrat = 2
+        national_populist = 0
+    }
 }
 
 create_country_leader = {# Jack Reed
@@ -312,7 +260,7 @@ create_country_leader = {# Jack Reed
 	desc = "POLITICS_JACK_REED_DESC"
 	picture = "Portrait_USA_Jack_Reed.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {# Floyd Olson
@@ -381,6 +329,7 @@ add_ideas = {
 	# national ideas
 	USA_great_depression
 	USA_political_crisis
+	isolation
 	free_trade
 	PROFF_LEG_CITIES
 }
@@ -404,39 +353,21 @@ create_field_marshal = {# Douglas MacArthur
 	logistics_skill = 2
 	id = 56
 }
-create_field_marshal = {# Dwight D. Eisenhower
-	name = "Dwight D. Eisenhower"
-	desc = "USA_DWIGHT_EISENHOWER_ARMY_DESC"
-	portrait_path = "gfx/leaders/USA/Portrait_USA_gen_Dwight_Eisenhower.tga"
-	traits = { logistics_wizard
+create_field_marshal = {# Malin Craig
+	name = "Malin Craig"
+	desc = "USA_MALIN_CRAIG_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Malin_Craig.tga"
+	traits = { 
+		logistics_wizard
 		organizer
-		offensive_doctrine
 		trait_cautious
-		armor_officer
-		politically_connected
 	}
 	skill = 4
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 5
-}
-create_field_marshal = {# Omar Bradley
-	name = "Omar Bradley"
-	desc = "USA_OMAR_BRADLEY_ARMY_DESC"
-	portrait_path = "gfx/leaders/USA/Portrait_USA_gen_omar_bradley.tga"
-	traits = {
-		trait_engineer
-		trait_cautious
-		brilliant_strategist
-		harsh_leader
-	}
-	skill = 4
-
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	id = 932
 }
 create_field_marshal = {# George Marshall
 	name = "George Marshall"
@@ -485,6 +416,7 @@ create_corps_commander = {# Clarence Huebner
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
+	id = 952
 }
 create_corps_commander = {# Edward H. Brooks
 	name = "Edward H. Brooks"
@@ -500,6 +432,7 @@ create_corps_commander = {# Edward H. Brooks
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+	id = 953
 }
 create_corps_commander = {# Geoffrey Keyes
 	name = "Geoffrey Keyes"
@@ -515,6 +448,7 @@ create_corps_commander = {# Geoffrey Keyes
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+	id = 954
 }
 create_corps_commander = {# Jonathan M. Wainwright
 	name = "Jonathan M. Wainwright"
@@ -529,6 +463,7 @@ create_corps_commander = {# Jonathan M. Wainwright
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+	id = 955
 }
 create_corps_commander = {# Joseph Stilwell
 	name = "Joseph Stilwell"
@@ -545,6 +480,7 @@ create_corps_commander = {# Joseph Stilwell
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+	id = 956 #I dunno but I feel someone in China will thank me for this
 }
 create_corps_commander = {# Leonard Gerow
 	name = "Leonard Gerow"
@@ -556,6 +492,7 @@ create_corps_commander = {# Leonard Gerow
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	id = 957
 }
 create_corps_commander = {# Leslie McNair
 	name = "Leslie McNair"
@@ -572,6 +509,7 @@ create_corps_commander = {# Leslie McNair
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 2
+	id = 958
 }
 create_corps_commander = {# Lloyd Fredendall
 	name = "Lloyd Fredendall"
@@ -588,6 +526,7 @@ create_corps_commander = {# Lloyd Fredendall
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
+	id = 959
 }
 create_corps_commander = {# Lucian Truscott
 	name = "Lucian Truscott"
@@ -604,6 +543,7 @@ create_corps_commander = {# Lucian Truscott
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
+	id = 934
 }
 create_corps_commander = {# Oscar Griswold
 	name = "Oscar Griswold"
@@ -615,6 +555,7 @@ create_corps_commander = {# Oscar Griswold
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+	id = 948
 }
 create_corps_commander = {# Walter Krueger
 	name = "Walter Krueger"
@@ -631,7 +572,58 @@ create_corps_commander = {# Walter Krueger
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
+	id = 961
 }
+create_corps_commander = {# Adna Chaffee
+	name = "Adna R. Chaffee"
+	desc = "USA_ADNA_CHAFFEE_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Adna_Chaffee.tga"
+	traits = {
+		armor_officer
+	}
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 933
+}
+
+create_corps_commander = {# Omar Bradley
+	name = "Omar Bradley"
+	desc = "USA_OMAR_BRADLEY_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_gen_omar_bradley.tga"
+	traits = {
+		trait_engineer
+		trait_cautious
+		brilliant_strategist
+	}
+	skill = 3
+
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 951
+}
+create_corps_commander = {# Dwight D. Eisenhower
+	name = "Dwight D. Eisenhower"
+	desc = "USA_DWIGHT_EISENHOWER_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_gen_Dwight_Eisenhower.tga"
+	traits = { 
+		organizer
+		trait_cautious
+		armor_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 950
+}
+
 create_corps_commander = {# Daniel Van Voorhis
 	name = "Daniel Van Voorhis"
 	desc = "USA_DANIEL_VAN_VOORHIS_ARMY_DESC"
@@ -642,6 +634,7 @@ create_corps_commander = {# Daniel Van Voorhis
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+	id = 647
 }
 create_corps_commander = {# John C. H. Lee
 	name = "John C. H. Lee"
@@ -657,6 +650,7 @@ create_corps_commander = {# John C. H. Lee
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
+	id = 963
 }
 create_corps_commander = {# James Garesche Ord
 	name = "James Garesche Ord"
@@ -672,6 +666,7 @@ create_corps_commander = {# James Garesche Ord
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 2
+	id = 964
 }
 create_corps_commander = {# Edwin F. Harding
 	name = "Edwin F. Harding"
@@ -687,6 +682,7 @@ create_corps_commander = {# Edwin F. Harding
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 4
+	id = 965
 }
 
 create_corps_commander = {# Smedley Butler

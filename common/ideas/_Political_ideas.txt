@@ -196,14 +196,14 @@ ideas = {
 
 	country = {
 
-		radical_socialist_influence = {
+		democratic_socialist_influence = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 
 			removal_cost = -1
@@ -211,8 +211,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 
 			modifier = {
-				radical_socialist_drift = 0.1
-				radical_socialist_acceptance = 85
+				democratic_socialist_drift = 0.1
+				democratic_socialist_acceptance = 85
 			}
 		}
 

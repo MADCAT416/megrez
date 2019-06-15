@@ -986,7 +986,7 @@ focus_tree = {
 	}
 	focus = {
 		id = URG_socialists_in_power
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		x = 7
 		y = 4
 		relative_position_id = URG_continue_council_rule
@@ -1001,7 +1001,7 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		prerequisite = {
 			focus = URG_begin_presidents_policy
@@ -1021,7 +1021,7 @@ focus_tree = {
 			factor = 20
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		prerequisite = {
 			focus = URG_socialists_in_power
@@ -1043,7 +1043,7 @@ focus_tree = {
 			factor = 20
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		prerequisite = {
 			focus = URG_peaceful_transition
@@ -1064,7 +1064,7 @@ focus_tree = {
 			factor = 20
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		prerequisite = {
 			focus = URG_improve_workers_rights
@@ -1707,7 +1707,7 @@ focus_tree = {
 				popularity = 0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.03
 			}
 		}
@@ -1902,7 +1902,7 @@ focus_tree = {
 	}
 	focus = {
 		id = URG_rural_communes
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		x = -2
 		y = 4
 		relative_position_id = URG_uruguayan_revolution
@@ -2108,7 +2108,7 @@ focus_tree = {
 				popularity = 0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.03
 			}
 		}
@@ -2825,7 +2825,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus URG_crack_down_on_syndies"
-			add_popularity = { ideology = radical_socialist popularity = -0.10 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.10 }
 			add_popularity = { ideology = syndicalist popularity = -0.10 }
 			add_popularity = { ideology = totalist popularity = -0.10 }
 			hidden_effect = {

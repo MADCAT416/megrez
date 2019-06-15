@@ -262,7 +262,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HON_anti_syndie_media"}
 			picture = generic_constitutional_guarantees
 			modifier = {
-				radical_socialist_drift = -0.01
+				democratic_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 				stability_weekly = 0.002

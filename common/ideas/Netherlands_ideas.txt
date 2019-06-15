@@ -44,7 +44,7 @@ ideas = {
 			picture = anti_soviet_pact
 			modifier = {
 				stability_factor = -0.05
-				radical_socialist_acceptance = -15
+				democratic_socialist_acceptance = -15
 				syndicalist_acceptance = -15
 				totalist_acceptance = -15
 				national_populist_acceptance = -5
@@ -59,7 +59,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				political_power_gain = 0.1
-				radical_socialist_acceptance = -30
+				democratic_socialist_acceptance = -30
 				syndicalist_acceptance = -30
 				totalist_acceptance = -30
 				national_populist_acceptance = -30
@@ -73,7 +73,7 @@ ideas = {
 			picture = anti_soviet_pact
 			modifier = {
 				stability_factor = -0.05
-				radical_socialist_acceptance = -15
+				democratic_socialist_acceptance = -15
 				syndicalist_acceptance = -15
 				totalist_acceptance = -15
 			}
@@ -129,6 +129,26 @@ ideas = {
 			removal_cost = -1
 			picture = FRA_factory_strikes
 		}
+		
+		HOL_prepare_the_inundation_lines = {
+		
+			picture = hol_prepare_the_inundation_lines
+
+			allowed = {
+				original_tag = HOL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+			}
+		}		
 
 ##############
 # Foreign Policy ideas
@@ -160,7 +180,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -178,7 +198,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -196,7 +216,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -214,7 +234,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -232,7 +252,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -250,7 +270,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -268,7 +288,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -286,7 +306,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -307,7 +327,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = social_democrat
 				}
 			}
@@ -507,7 +527,7 @@ ideas = {
 			picture = HOL_negotiations_succeeded_left
 			modifier = {
 				syndicalist_acceptance = 15
-				radical_socialist_acceptance = 15
+				democratic_socialist_acceptance = 15
 			}
 		}
 
@@ -519,7 +539,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				syndicalist_acceptance = 15
-				radical_socialist_acceptance = 15
+				democratic_socialist_acceptance = 15
 			}
 		}
 
@@ -531,7 +551,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.1
 				syndicalist_acceptance = 15
-				radical_socialist_acceptance = 15
+				democratic_socialist_acceptance = 15
 			}
 		}
 

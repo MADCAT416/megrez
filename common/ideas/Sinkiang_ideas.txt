@@ -19,8 +19,8 @@ ideas = {
 		SIK_Sheng_Shicai_hog_rso = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIK_Sheng_Shicai_hog_rso"}
 			allowed = {original_tag = SIK}
-			available = {has_government = radical_socialist}
-			traits = {head_of_government radical_socialist}
+			available = {has_government = democratic_socialist}
+			traits = {head_of_government democratic_socialist}
 			removal_cost = -1
 			cancel_if_invalid = yes
 		}
@@ -52,8 +52,8 @@ ideas = {
 		SIK_Sheng_Shicai_for_rso = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIK_Sheng_Shicai_for_rso"}
 			allowed = {original_tag = SIK}
-			available = {NOT = {has_country_flag = radical_socialist_banned}}
-			traits = {foreign_minister radical_socialist}
+			available = {NOT = {has_country_flag = democratic_socialist_banned}}
+			traits = {foreign_minister democratic_socialist}
 			cancel_if_invalid = yes
 		}
 	}
@@ -152,7 +152,7 @@ ideas = {
 		SIK_Sheng_Shicai_cos_rso = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIK_Sheng_Shicai_cos_rso"}
 			allowed = {original_tag = SIK}
-			#available = {NOT = {has_country_flag = radical_socialist_banned}}
+			#available = {NOT = {has_country_flag = democratic_socialist_banned}}
 			traits = {chief_of_staff}
 			cancel_if_invalid = yes
 		}
@@ -176,7 +176,7 @@ ideas = {
 		SIK_Sheng_Shicai_carm_rso = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIK_Sheng_Shicai_carm_rso"}
 			allowed = {original_tag = SIK}
-			#available = {NOT = {has_country_flag = radical_socialist_banned}}
+			#available = {NOT = {has_country_flag = democratic_socialist_banned}}
 			traits = {chief_of_army}
 			cancel_if_invalid = yes
 		}

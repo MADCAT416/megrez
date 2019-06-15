@@ -116,7 +116,7 @@ country_event = { # Economic policy
 		set_country_flag = ENG_tuc_economy_glais
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -186,7 +186,7 @@ country_event = { # Internal policy
 			factor = 20
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -258,7 +258,7 @@ country_event = { # Military policy
 			factor = 20
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_country_flag = ENG_tuc_military_glais
@@ -523,7 +523,7 @@ country_event = { # Autonomist Victory
 		name = uob.9.a
 		retire_country_leader = yes
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		hidden_effect = {
 			add_ideas = ENG_Jim_Callaghan_hog_rso
@@ -626,7 +626,7 @@ country_event = { # No majority achieved
 		}
 	}
 	option = { # Compromise between Federalist and Autonomist
-		name = uob.10.a
+		name = uob.10.b
 		retire_country_leader = yes
 		set_politics = {
 			ruling_party = syndicalist
@@ -636,7 +636,7 @@ country_event = { # No majority achieved
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_party_name = {
@@ -3189,7 +3189,7 @@ country_event = {
 	option = {
 		name = uob.84.b
 		trigger = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		ai_chance = {
 			factor = 100
@@ -3232,7 +3232,7 @@ country_event = {
 	option = {
 		name = uob.84.e
 		trigger = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		ai_chance = {
 			factor = 0
@@ -4873,7 +4873,7 @@ country_event = {
 			factor = 25
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		retire_country_leader = yes
 		create_country_leader = {
@@ -4881,7 +4881,7 @@ country_event = {
 			desc = "POLITICS_BARBARA_CASTLE_DESC"
 			picture = "Portrait_England_Barbara_Castle.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		add_political_power = 200
@@ -5831,25 +5831,6 @@ country_event = {
 	}
 }
 
-# Refugees from the Commune of France
-
-news_event = {
-	id = uob.333
-	immediate = {log = "[GetDateText]: [Root.GetName]: event uob.333"}
-	title = uob.333.t
-	desc = uob.333.d
-	picture = GFX_news_event_006
-
-	is_triggered_only = yes
-
-	option = {
-		name = uob.333.a
-		hidden_effect = {
-			load_oob = FRA_refugees
-		}
-	}
-}
-
 # Norway gets invited to International
 
 country_event = {
@@ -6735,7 +6716,7 @@ country_event = {
 			desc = "POLITICS_ERIC_BLAIR_DESC"
 			picture = "Portrait_England_Eric_Blair.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		add_ideas = ENG_Harry_Pollitt_hog_syn
@@ -6744,13 +6725,13 @@ country_event = {
 		add_ideas = ENG_James_Maxton_for_syn
 		add_political_power = -50
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		hidden_effect = {
 			set_party_name = {
-				ideology = radical_socialist
-				long_name = ENG_BLR_radical_socialist_party_long
-				name = ENG_BLR_radical_socialist_party
+				ideology = democratic_socialist
+				long_name = ENG_BLR_democratic_socialist_party_long
+				name = ENG_BLR_democratic_socialist_party
 			}
 		}
 	}
@@ -6820,6 +6801,23 @@ news_event = {
 	option = {
 		name = uob.362.a
 		set_country_flag = Eric_Blair_dead
+	}
+}
+
+# Damn we need oil
+
+country_event = {
+	id = uob.363
+	immediate = {log = "[GetDateText]: [Root.GetName]: event uob.363"}
+	title = uob.363.t
+	desc = uob.363.d
+	picture = GFX_report_event_BUR_oil_fields
+
+	is_triggered_only = yes
+
+	option = {
+		name = uob.363.a
+		add_ideas = ENG_synthetic_oil_lover
 	}
 }
 
@@ -7119,7 +7117,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7149,7 +7147,7 @@ country_event = {
 				factor = 0.5
 			}
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 0
 			}
 		}
@@ -7173,7 +7171,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7199,7 +7197,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7233,7 +7231,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 1.5
 			}
 			modifier = {
@@ -7263,7 +7261,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7872,7 +7870,12 @@ country_event = { # The Crystal Palace?
 			}
 		}
 		add_political_power = -40
-		set_country_flag = crystal_palace
+		hidden_effect = {
+			country_event = {
+				id = uobflavour.28
+				days = 150
+			}
+		}
 	}
 	option = { # Turn it into a park for the people
 		name = uobflavour.27.b
@@ -7899,21 +7902,11 @@ country_event = { # The Worker's Palace
 	title = uobflavour.28.t
 	desc = uobflavour.28.d
 	picture = UoB_workers_palace
-
-	trigger = {
-		tag = ENG
-		has_country_flag = crystal_palace
-	}
-
-	mean_time_to_happen = {
-		months = 5
-	}
-
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = uobflavour.28.a
+
 		add_political_power = 80
-		clr_country_flag = crystal_palace
 	}
 }

@@ -10,7 +10,8 @@ set_technology = {
 	### MOD ###
 	electronic_mechanical_engineering = 1
 	fuel_silos = 1
-
+	synth_oil_experiments = 1
+	fuel_refining = 1
 	### Tanks ###
 	gwtank = 1
 	basic_light_tank = 1
@@ -110,13 +111,7 @@ if = {
 		catapult_plane_two = 1
 		carrier_armoured_deck = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -150,18 +145,13 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
 
 country_event = { id = comfrance.1 days = 1 }
+country_event = { id = uob.363 days = 345 }
 set_convoys = 100
 set_stability = 0.5
 set_war_support = 0.4
@@ -191,44 +181,23 @@ add_opinion_modifier = { target = BAT modifier = embargo }
 add_opinion_modifier = { target = SWI modifier = embargo }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 12
-		}
-		radical_socialist = {
-			popularity = 28
-		}
-		syndicalist = {
-			popularity = 52
-		}
-		social_democrat = {
-			popularity = 6
-		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = syndicalist
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 12
+    democratic_socialist = 28
+    syndicalist = 52
+    social_democrat = 6
+    social_liberal = 2
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
 }
 
 create_faction = Third_International
@@ -277,7 +246,7 @@ create_country_leader = {
 	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
 	picture = "Portrait_France_Sebastien_Faure.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {
 		#faure
 	}

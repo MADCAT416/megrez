@@ -303,7 +303,7 @@ country_event = { # Chaos in the Countryside (Previously: Time to Choose)
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -5523,11 +5523,11 @@ country_event = { # Comrade Dzierzynski passes away
 		kill_country_leader = yes
 
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		set_party_name = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			name = POL_totalist_roza_party
 			long_name = POL_totalist_roza_party_long
 		}
@@ -5537,7 +5537,7 @@ country_event = { # Comrade Dzierzynski passes away
 			desc = "POLITICS_ROZA_LUKSEMBURG_DESC"
 			picture = "Portriat_Poland_Roza_Luksemburg.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -7195,7 +7195,7 @@ country_event = { # Poland demands territory!
 		}
 
 		POL = {
-			transfer_state = 93
+			transfer_state = 1088
 		}
 		add_war_support = -0.1
 	}
@@ -7275,7 +7275,7 @@ country_event = { # No support from Germany!
 		}
 
 		POL = {
-			transfer_state = 93
+			transfer_state = 1088
 		}
 		add_war_support = -.1
 	}
@@ -7473,7 +7473,7 @@ country_event = { # Poland demands territory!
 		}
 
 		POL = {
-			transfer_state = 93
+			transfer_state = 1088
 		}
 		add_stability = -0.15
 	}
@@ -7493,7 +7493,7 @@ country_event = { # Poland demands territory!
 	}
 }
 
-country_event = { # Belarus refused!
+country_event = { # Ukraine refused!
 	id = poland.101
 	immediate = {log = "[GetDateText]: [Root.GetName]: event poland.101"}
 	title = poland.101.t

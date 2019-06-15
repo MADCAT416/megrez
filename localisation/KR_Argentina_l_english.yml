@@ -19,8 +19,8 @@ ARG_syndicalist_party:0 "인터내셔널"
 ARG_syndicalist_party_long:0 "인터내셔널"
 ARG_market_liberal_party:0 "민주국민당"
 ARG_market_liberal_party_long:0 "민주국민당"
-ARG_radical_socialist_party:0 "사회당"
-ARG_radical_socialist_party_long:0 "사회당"
+ARG_democratic_socialist_party:0 "사회당"
+ARG_democratic_socialist_party_long:0 "사회당"
 
 ### Tooltips ###
 ARG_GER_Treaty:0 "§G우리는 이 조약이 부에노스 아이레스에서 비준된 후에 완전한 효력을 갖게 될 것입니다§!"

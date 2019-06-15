@@ -50,11 +50,11 @@ defined_text = {
 	name = CSA_radsoc_name
 	text = {
 		trigger = { has_country_flag = CSA_syndicalism }
-		localization_key = CSA_radical_socialist_syndicalism_party
+		localization_key = CSA_democratic_socialist_syndicalism_party
 	}
 	text = {
 		trigger = { has_country_flag = CSA_socialist }
-		localization_key = CSA_radical_socialist_federalist_party
+		localization_key = CSA_democratic_socialist_federalist_party
 	}
 }
 
@@ -62,11 +62,11 @@ defined_text = {
 	name = CSA_radsoc_name_abbrev
 	text = {
 		trigger = { has_country_flag = CSA_syndicalism }
-		localization_key = CSA_radical_socialist_syndicalism_party_abbrev
+		localization_key = CSA_democratic_socialist_syndicalism_party_abbrev
 	}
 	text = {
 		trigger = { has_country_flag = CSA_socialist }
-		localization_key = CSA_radical_socialist_federalist_party_abbrev
+		localization_key = CSA_democratic_socialist_federalist_party_abbrev
 	}
 }
 

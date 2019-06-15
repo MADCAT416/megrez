@@ -1331,21 +1331,21 @@ ARG_diplomacy_decisions = {
 
 		available = {
 			has_country_flag = ARG_CAN_DEAL
+			is_in_faction = no
+			is_subject = no
 			OR = {
 				has_war = no
-				any_enemy_country = {
-					has_war_with = FROM
-				}
-			}
-			NOT = {
-				any_enemy_country = {
-					is_in_faction_with = FROM
+				custom_trigger_tooltip = {
+					tooltip = GRE_same_wars_as_entente
+					has_war = yes
+					any_enemy_country = { has_war_with = FROM }
 				}
 			}
 		}
 
 		visible = {
 			has_country_flag = ARG_CAN_DEAL
+			country_exists = FROM
 		}
 
 		fire_only_once = yes
@@ -1361,6 +1361,40 @@ ARG_diplomacy_decisions = {
 
 		ai_will_do = {
 			factor = 5
+			modifier = {
+				factor = 0
+				# we have some warring to do first
+				has_authoritarian_government = yes
+				NOT = { has_country_flag = GOU_Control }
+				OR = {
+					AND = {
+						NOT = { has_completed_focus = ARG_Punish_Paraguay }
+						PAR = { is_valid_war_target = yes }
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Uruguay_is_ours }
+						URG = { is_valid_war_target = yes }
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Yacuiba_Dispute }
+						BOL = {
+							owns_state = 848
+							is_valid_war_target = yes
+						}
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Yacuiba_Dispute }
+						PRU = {
+							owns_state = 848
+							is_valid_war_target = yes
+						}
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Ultimate_Confrontation }
+						BRA = { is_valid_war_target = yes }
+					}
+				}
+			}
 		}
 	}
 
@@ -1386,15 +1420,14 @@ ARG_diplomacy_decisions = {
 
 		available = {
 			has_country_flag = ARG_GER_DEAL
+			is_in_faction = no
+			is_subject = no
 			OR = {
 				has_war = no
-				any_enemy_country = {
-					has_war_with = FROM
-				}
-			}
-			NOT = {
-				any_enemy_country = {
-					is_in_faction_with = GER
+				custom_trigger_tooltip = {
+					tooltip = GRE_same_wars_as_germany
+					has_war = yes
+					any_enemy_country = { has_war_with = GER }
 				}
 			}
 		}
@@ -1417,6 +1450,40 @@ ARG_diplomacy_decisions = {
 
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				# we have some warring to do first
+				has_authoritarian_government = yes
+				NOT = { has_country_flag = GOU_Control }
+				OR = {
+					AND = {
+						NOT = { has_completed_focus = ARG_Punish_Paraguay }
+						PAR = { is_valid_war_target = yes }
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Uruguay_is_ours }
+						URG = { is_valid_war_target = yes }
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Yacuiba_Dispute }
+						BOL = {
+							owns_state = 848
+							is_valid_war_target = yes
+						}
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Yacuiba_Dispute }
+						PRU = {
+							owns_state = 848
+							is_valid_war_target = yes
+						}
+					}
+					AND = {
+						NOT = { has_completed_focus = ARG_Ultimate_Confrontation }
+						BRA = { is_valid_war_target = yes }
+					}
+				}
+			}
 		}
 	}
 
@@ -1429,30 +1496,23 @@ ARG_diplomacy_decisions = {
 		}
 
 		available = {
-			has_authoritarian_government = yes
-			URG = {
-				exists = yes
-				NOT = {
-					is_in_faction_with = ARG
-					is_subject = yes
+			ROOT = {
+				is_subject = no
+				has_authoritarian_government = yes
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
 				}
 			}
-			OR = {
-				AND = {
-					BRA = {
-						has_dictatorship_government = yes
-					}
-					URG = {
-						has_democratic_government = yes
-					}
-				}
-				AND = {
-					BRA = {
-						has_socialist_government = yes
-					}
-					URG = {
-						has_democratic_government = yes
-					}
+			URG = {
+				has_democratic_government = yes
+				is_valid_war_target = yes
+				is_subject = no
+			}
+			BRA = {
+				OR = {
+					has_dictatorship_government = yes
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -1469,9 +1529,12 @@ ARG_diplomacy_decisions = {
 			factor = 50
 			modifier = {
 				factor = 10
-				BRA = {
-					has_war = yes
-				}
+				BRA = { has_war = yes }
+			}
+			modifier = {
+				factor = 0
+				URG = { is_guaranteed_by = BRA }
+				BRA = { is_in_faction = yes }
 			}
 		}
 

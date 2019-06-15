@@ -39,7 +39,7 @@ SOV_redcosunit_tt:0 "좌파 코카서스 3사단이 소집될 것입니다."
 ### Ideologies ###
 SOV_totalist_party:0 "국제주의자"
 SOV_syndicalist_party:0 "연방주의자"
-SOV_radical_socialist_party:0 "자치주의자"
+SOV_democratic_socialist_party:0 "자치주의자"
 
 ### Focuses ###
 SOV_FRUNZE:0 "프룬제의 자치주의자를 선출한다!"

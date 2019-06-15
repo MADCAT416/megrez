@@ -85,13 +85,7 @@ if = {
 		dn_sh_gun_module_two = 1
 		catapult_plane_two = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -125,13 +119,7 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -151,44 +139,23 @@ add_opinion_modifier = { target = GBR modifier = embargo }
 set_war_support = 0.25
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 22
-		}
-		radical_socialist = {
-			popularity = 51
-		}
-		syndicalist = {
-			popularity = 15
-		}
-		social_democrat = {
-			popularity = 10
-		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
-	ruling_party = radical_socialist
+	ruling_party = democratic_socialist
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 22
+    democratic_socialist = 51
+    syndicalist = 15
+    social_democrat = 10
+    social_liberal = 2
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
 }
 
 create_country_leader = {
@@ -223,7 +190,7 @@ create_country_leader = {
 	desc = "POLITICS_LALA_LAJPAT_RAI_DESC"
 	picture = "Portrait_Bengal_Lala_Lajpat_Rai.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

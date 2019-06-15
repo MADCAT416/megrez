@@ -190,8 +190,8 @@ FRA_phalanstere_NOR_desc:0 "우리는 현재 노르웨이의 형제들에게 산
 
 FRA_totalist_party:0 "자코뱅/소렐리안"
 FRA_totalist_party_long:0 "자코뱅과 소렐리안들"
-FRA_radical_socialist_party:0 "아나키스트"
-FRA_radical_socialist_party_long:0 "아나키스트"
+FRA_democratic_socialist_party:0 "아나키스트"
+FRA_democratic_socialist_party_long:0 "아나키스트"
 FRA_syndicalist_party:0 "노동파"
 FRA_syndicalist_party_long:0 "노동파"
 FRA_social_democrat_party:0 "사회민주주의자"

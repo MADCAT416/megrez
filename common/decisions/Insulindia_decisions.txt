@@ -141,7 +141,7 @@ INS_silent_revolution_category = {
 		}
 		visible = {
 			original_tag = INS
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		cost = 50
 		complete_effect = {
@@ -157,7 +157,7 @@ INS_silent_revolution_category = {
 		}
 		visible = {
 			original_tag = INS
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		custom_cost_trigger = {
 			has_manpower > 5000

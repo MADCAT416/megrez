@@ -705,12 +705,12 @@ ideas = {
 		####RadSoc Ideas
 		BRA_shrukie_state = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRA_shrukie_state"}
-			picture = generic_radical_socialist_revolution
+			picture = generic_democratic_socialist_revolution
 			allowed = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				political_power_cost = -0.05
@@ -725,7 +725,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
@@ -741,7 +741,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				research_speed_factor = 0.02
@@ -756,7 +756,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				research_speed_factor = 0.05
@@ -771,7 +771,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				conscription = 0.05
@@ -786,7 +786,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			equipment_bonus = {
 				infantry_equipment = {
@@ -804,7 +804,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			modifier = {
 				MONTHLY_POPULATION = 0.1
@@ -837,7 +837,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = syndicalist
 				}
 			}
@@ -1230,7 +1230,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = totalist
 				}
 			}
@@ -1270,7 +1270,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			modifier = {
@@ -1288,7 +1288,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			modifier = {

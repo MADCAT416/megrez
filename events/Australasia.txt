@@ -78,12 +78,7 @@ country_event = {
 	picture = GFX_report_event_AST_jacklang
 
 	fire_only_once = yes
-
-	trigger = {
-		tag = AST
-		date > 1936.2.15
-		has_democratic_government = yes
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = austral.4.a
@@ -104,12 +99,7 @@ country_event = {
 	picture = GFX_report_event_AST_campbell
 
 	fire_only_once = yes
-
-	trigger = {
-		tag = AST
-		date > 1936.2.23
-		has_democratic_government = yes
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = austral.5.a
@@ -130,15 +120,10 @@ country_event = {
 	picture = GFX_report_event_AST_fires
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
-		tag = AST
 		controls_state = 517 #Victoria
-		date > 1936.1.16
-	}
-
-	mean_time_to_happen = {
-		days = 3
 	}
 
 	option = {
@@ -178,15 +163,7 @@ country_event = {
 	picture = GFX_report_event_AST_rajah
 
 	fire_only_once = yes
-
-	trigger = {
-		tag = AST
-		date > 1936.4.10
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = austral.8.a
@@ -521,7 +498,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -529,7 +506,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -537,7 +514,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -545,7 +522,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -553,7 +530,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -561,7 +538,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George of Windsor"
+				name = "Prince George"
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
@@ -1751,13 +1728,10 @@ country_event = {
 	picture = GFX_report_event_AST_football
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
-		tag = AST
-		517 = {
-			is_owned_and_controlled_by = AST
-			} #Victoria
-		date > 1936.09.27
+		517 = { is_owned_and_controlled_by = AST } #Victoria
 	}
 
 	option = {
@@ -2949,11 +2923,11 @@ country_event = {
 			has_completed_focus = AST_australasian_republic
 			has_country_leader = {
 				ruling_only = yes
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "George of Windsor"
+				name = "Prince George"
 			}
 		}
 	}
@@ -2963,7 +2937,7 @@ country_event = {
 		add_stability = 0.05
 		hidden_effect = {
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -2971,7 +2945,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -2979,7 +2953,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -2987,7 +2961,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -2995,7 +2969,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -3003,7 +2977,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -4125,11 +4099,11 @@ country_event = {
 		}
 		set_country_flag = AST_had_second_congress
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_ideas = {
@@ -4184,7 +4158,7 @@ country_event = {
 				factor = 0.5
 				OR = {
 					has_government = totalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 		}
@@ -4286,16 +4260,16 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 3
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		set_country_flag = AST_had_third_congress
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_ideas = {
@@ -8309,10 +8283,9 @@ country_event = {
 	picture = GFX_report_event_AST_aborigine
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
-		tag = AST
-		date > 1938.1.25
 		NOT = {
 			has_country_flag = AST_landing_anno
 		}
@@ -8337,20 +8310,11 @@ country_event = {
 	picture = GFX_report_event_AST_emu
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
-		tag = AST
-		date > 1938.6.3
-		522 = {
-			is_owned_and_controlled_by = AST
-			} #Western Australia
-		NOT = {
-			has_country_flag = AST_emu_war
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 1
+		522 = { is_owned_and_controlled_by = AST } #Western Australia
+		NOT = { has_country_flag = AST_emu_war }
 	}
 
 	option = {
@@ -8490,16 +8454,16 @@ country_event = {
 		clr_country_flag = AST_syndicalists_expelled_labor
 		custom_effect_tooltip = AST_radsoc_ministers_allowed_again
 		set_party_name = {
-			ideology = radical_socialist
-			long_name = AST_radical_socialist_labor_long
-			name = AST_radical_socialist_labor
+			ideology = democratic_socialist
+			long_name = AST_democratic_socialist_labor_long
+			name = AST_democratic_socialist_labor
 		}
 		add_popularity = {
 			ideology = social_democrat
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = 0.02
@@ -8814,7 +8778,7 @@ country_event = {
 		tag = AST
 		has_country_leader = {
 			ruling_only = yes
-			name = "George of Windsor"
+			name = "Prince George"
 		}
 		date > 1942.8.15
 		OR = {
@@ -8836,7 +8800,7 @@ country_event = {
 		add_stability = -0.05
 		hidden_effect = {
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -8844,7 +8808,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -8852,7 +8816,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -8860,7 +8824,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -8868,7 +8832,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -8876,7 +8840,7 @@ country_event = {
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Henry of Windsor"
+				name = "Prince Henry"
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
@@ -10185,3 +10149,4 @@ country_event = {
 		add_political_power = 100
 	}
 }
+

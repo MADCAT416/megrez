@@ -50,8 +50,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = syndicalist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = radical_socialist } }
-		set_politics = { ruling_party = radical_socialist elections_allowed = no }
+		limit = { ROOT = { has_government = democratic_socialist } }
+		set_politics = { ruling_party = democratic_socialist elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = social_democrat } }
@@ -87,7 +87,7 @@ copy_government_of_ROOT = {
 # use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
 # and then the second, also in the scope of the puppet, right after
 get_current_government_type = {
-	clr_country_flag = was_radical_socialist
+	clr_country_flag = was_democratic_socialist
 	clr_country_flag = was_syndicalist
 	clr_country_flag = was_totalist
 	clr_country_flag = was_social_democrat
@@ -98,7 +98,7 @@ get_current_government_type = {
 	clr_country_flag = was_paternal_autocrat
 	clr_country_flag = was_national_populist
 
-	set_variable = { var = radsoc value = party_popularity@radical_socialist }
+	set_variable = { var = radsoc value = party_popularity@democratic_socialist }
 	set_variable = { var = synd value = party_popularity@syndicalist }
 	set_variable = { var = tot value = party_popularity@totalist }
 	set_variable = { var = socdem value = party_popularity@social_democrat }
@@ -110,8 +110,8 @@ get_current_government_type = {
 	set_variable = { var = natpop value = party_popularity@national_populist }
 
 	if = {
-		limit = { has_government = radical_socialist }
-		set_country_flag = was_radical_socialist
+		limit = { has_government = democratic_socialist }
+		set_country_flag = was_democratic_socialist
 	}
 	if = {
 		limit = { has_government = syndicalist }
@@ -154,8 +154,8 @@ get_current_government_type = {
 restore_previous_government_type = {
 	hidden_effect = {
 		if = {
-			limit = { has_country_flag = was_radical_socialist }
-			set_politics = { ruling_party = radical_socialist }
+			limit = { has_country_flag = was_democratic_socialist }
+			set_politics = { ruling_party = democratic_socialist }
 		}
 		if = {
 			limit = { has_country_flag = was_syndicalist }
@@ -194,26 +194,29 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = national_populist }
 		}
 
-		add_popularity = { ideology = radical_socialist popularity = -1.0 }
-		add_popularity = { ideology = radical_socialist popularity = radsoc }
-		add_popularity = { ideology = syndicalist popularity = -1.0 }
-		add_popularity = { ideology = syndicalist popularity = synd }
-		add_popularity = { ideology = totalist popularity = -1.0 }
-		add_popularity = { ideology = totalist popularity = tot }
-		add_popularity = { ideology = social_democrat popularity = -1.0 }
-		add_popularity = { ideology = social_democrat popularity = socdem }
-		add_popularity = { ideology = social_liberal popularity = -1.0 }
-		add_popularity = { ideology = social_liberal popularity = soclib }
-		add_popularity = { ideology = market_liberal popularity = -1.0 }
-		add_popularity = { ideology = market_liberal popularity = marklib }
-		add_popularity = { ideology = social_conservative popularity = -1.0 }
-		add_popularity = { ideology = social_conservative popularity = soccon }
-		add_popularity = { ideology = authoritarian_democrat popularity = -1.0 }
-		add_popularity = { ideology = authoritarian_democrat popularity = authdem }
-		add_popularity = { ideology = paternal_autocrat popularity = -1.0 }
-		add_popularity = { ideology = paternal_autocrat popularity = pataut }
-		add_popularity = { ideology = national_populist popularity = -1.0 }
-		add_popularity = { ideology = national_populist popularity = natpop }
+		multiply_variable = { var = radsoc value = 100 }
+		multiply_variable = { var = synd value = 100 }
+		multiply_variable = { var = tot value = 100 }
+		multiply_variable = { var = socdem value = 100 }
+		multiply_variable = { var = soclib value = 100 }
+		multiply_variable = { var = marklib value = 100 }
+		multiply_variable = { var = soccon value = 100 }
+		multiply_variable = { var = authdem value = 100 }
+		multiply_variable = { var = pataut value = 100 }
+		multiply_variable = { var = natpop value = 100 }
+		
+		set_popularities = {
+			democratic_socialist = radsoc
+			syndicalist = synd
+			totalist = tot
+			social_democrat = socdem
+			social_liberal = soclib
+			market_liberal = marklib
+			social_conservative = soccon
+			authoritarian_democrat = authdem
+			paternal_autocrat = pataut
+			national_populist = natpop
+		}
 
 		clear_variable = radsoc
 		clear_variable = synd

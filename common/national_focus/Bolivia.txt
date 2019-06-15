@@ -1531,7 +1531,7 @@ focus_tree = {
 
 	focus = {
 		id = BOL_Convert_Fishing_Trawlers
-		icon = GFX_GEA_status_of_admirality
+		icon = GFX_goal_navy_hat_ships
 		available = {
 			any_owned_state = {
 				is_coastal = yes
@@ -3395,7 +3395,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_Crack_down_on_Socialists"
 			add_popularity = { ideology = syndicalist popularity = -0.20 }
-			add_popularity = { ideology = radical_socialist popularity = -0.20 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.20 }
 			add_popularity = { ideology = social_democrat popularity = -0.20 }
 		}
 	}

@@ -147,7 +147,7 @@ shared_focus = {
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {

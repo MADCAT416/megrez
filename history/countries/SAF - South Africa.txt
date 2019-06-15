@@ -31,9 +31,9 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 	### Naval ###
-	nav_infra_one = 1
-	nav_infra_two = 1
-	nav_av_one = 1
+	
+	
+	
 }
 
 ### Navy - MtG ###
@@ -109,44 +109,23 @@ if = {
 set_war_support = 0.1
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		radical_socialist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_democrat = {
-			popularity = 11
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 3
-		}
-		social_conservative = {
-			popularity = 32
-		}
-		authoritarian_democrat = {
-			popularity = 41
-		}
-		paternal_autocrat = {
-			popularity = 6
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 2
+    syndicalist = 2
+    social_democrat = 11
+    social_liberal = 0
+    market_liberal = 2
+    social_conservative = 34
+    authoritarian_democrat = 41
+    paternal_autocrat = 6
+    national_populist = 2
 }
 
 add_opinion_modifier = { target = ENG modifier = embargo }
@@ -170,7 +149,7 @@ create_country_leader = {
 	name = "Yusuf Mohamed Dadoo"
 	picture = "Yusuf_Dadoo_I.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

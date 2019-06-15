@@ -58,9 +58,7 @@ if = {
 		cruiser_specialisation_module_one = 1
 		cruiser_specialisation_module_two = 1
 		ps_hull_module_one = 1
-		ps_hull_module_two = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
+		ps_hull_module_two = 1
 		transport = 1
 	}
 }
@@ -84,9 +82,7 @@ if = {
 		interwar_submarine_hull_nonmtg = 1
 		improved_submarine_hull_nonmtg = 1
 		weltkrieg_panzerschiff_hull_nonmtg = 1
-		interwar_panzerschiff_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
+		interwar_panzerschiff_hull_nonmtg = 1
 		transport = 1
 	}
 }
@@ -95,43 +91,22 @@ set_stability = -0.2
 set_war_support = 0.35
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 4
-		}
-		radical_socialist = {
-			popularity = 1
-		}
-		syndicalist = {
-			popularity = 7
-		}
-		social_democrat = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 40
-		}
-		paternal_autocrat = {
-			popularity = 10
-		}
-		national_populist = {
-			popularity = 8
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 4
+    democratic_socialist = 1
+    syndicalist = 7
+    social_democrat = 4
+    social_liberal = 6
+    market_liberal = 8
+    social_conservative = 12
+    authoritarian_democrat = 40
+    paternal_autocrat = 10
+    national_populist = 8
 }
 
 country_event = { id = pru.113 days = 400  }
@@ -221,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_GONZALEA_PRADA_DESC"
 	picture = "Portrait_Peru_Eudocio_Ravines.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

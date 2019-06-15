@@ -14,9 +14,9 @@ set_technology = {
 	early_bomber = 1
 	CAS1 = 1
 		### Naval ###
-	nav_infra_one = 1
-	nav_infra_two = 1
-	nav_av_one = 1
+	
+	
+	
 	transport = 1
 }
 
@@ -99,44 +99,23 @@ country_event = { id = por.4 days = 1 }
 set_war_support = 0.35
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		radical_socialist = {
-			popularity = 1
-		}
-		social_democrat = {
-			popularity = 6
-		}
-		social_liberal = {
-			popularity = 4
-		}
-		market_liberal = {
-			popularity = 4
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 14
-		}
-		paternal_autocrat = {
-			popularity = 19
-		}
-		national_populist = {
-			popularity = 40
-		}
-	}
-
 	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    syndicalist = 0
+    democratic_socialist = 1
+    social_democrat = 6
+    social_liberal = 4
+    market_liberal = 4
+    social_conservative = 12
+    authoritarian_democrat = 14
+    paternal_autocrat = 19
+    national_populist = 40
 }
 
 add_namespace = {
@@ -203,7 +182,7 @@ create_country_leader = {
 	picture = "Portrait_Portugal_Alexandre_Vieira.tga"
 	desc = "POLITICS_ALEXANDRE_VIEIRA_DESC"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

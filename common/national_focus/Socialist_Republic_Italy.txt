@@ -40,7 +40,7 @@ focus_tree = {
 			has_country_flag = SRI_fourth_congress_done
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		prerequisite = {
@@ -49,8 +49,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_streghten_the_chairman
 		}
-		x = 3
+		x = -3
 		y = 1
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 50 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_stregthen_the_republic"
@@ -64,8 +65,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_stregthen_the_republic
 		}
-		x = 1
+		x = -5
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		available_if_capitulated = yes
 		cancel_if_invalid = yes
@@ -81,8 +83,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_liberation_theology
 		}
-		x = 1
+		x = -5
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_priests"
@@ -96,13 +99,14 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_stregthen_the_republic
 		}
-		x = 3
+		x = -3
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_revolutionary_democracy"
 			add_popularity = { ideology = syndicalist popularity = 0.05 }
-			add_popularity = { ideology = radical_socialist popularity = 0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.05 }
 			add_political_power = 90
 		}
 	}
@@ -116,8 +120,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_urbanization
 		}
-		x = 2
+		x = -4
 		y = 3
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_rural_communes"
@@ -134,8 +139,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_rural_communes
 		}
-		x = 4
+		x = -2
 		y = 3
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_urbanization"
@@ -150,8 +156,9 @@ focus_tree = {
 			focus = SRI_rural_communes
 			focus = SRI_urbanization
 		}
-		x = 3
+		x = -3
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_councils"
@@ -165,8 +172,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_stregthen_the_republic
 		}
-		x = 5
+		x = -1
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_industrial_democracy"
@@ -180,8 +188,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_industrial_democracy
 		}
-		x = 5
+		x = -1
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_workers_self_management"
@@ -190,7 +199,7 @@ focus_tree = {
 	}
 	focus = {# Social Welfare
 		id = SRI_social_welfare
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 8.00
 		prerequisite = {
 			focus = SRI_worker_priests
@@ -201,8 +210,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_workers_self_management
 		}
-		x = 2
+		x = -4
 		y = 5
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_social_welfare"
@@ -222,8 +232,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_worker_priests
 		}
-		x = 4
+		x = -2
 		y = 5
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_industrial_enlightenment"
@@ -240,8 +251,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_industrial_enlightenment
 		}
-		x = 3
+		x = -3
 		y = 6
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_congres_authority"
@@ -263,8 +275,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_stregthen_the_republic
 		}
-		x = 9
+		x = 3
 		y = 1
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 70 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_streghten_the_chairman"
@@ -278,8 +291,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_streghten_the_chairman
 		}
-		x = 7
+		x = 1
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_state_atheism"
@@ -293,8 +307,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_streghten_the_chairman
 		}
-		x = 9
+		x = 3
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_rouse_the_people"
@@ -308,8 +323,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_streghten_the_chairman
 		}
-		x = 11
+		x = 5
 		y = 2
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_secret_police"
@@ -329,8 +345,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_rouse_the_people
 		}
-		x = 9
+		x = 3
 		y = 3
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_permanet_revolution"
@@ -344,8 +361,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_permanet_revolution
 		}
-		x = 7
+		x = 1
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_squadrismo"
@@ -359,8 +377,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_squadrismo
 		}
-		x = 7
+		x = 1
 		y = 5
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_ensure_officers_loyalty"
@@ -374,8 +393,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_permanet_revolution
 		}
-		x = 9
+		x = 3
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_futurist_culture"
@@ -389,8 +409,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_futurist_culture
 		}
-		x = 9
+		x = 3
 		y = 5
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_cultural_revolution"
@@ -404,8 +425,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_permanet_revolution
 		}
-		x = 11
+		x = 5
 		y = 4
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_revolutionary_commisars"
@@ -420,13 +442,14 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_revolutionary_commisars
 		}
-		x = 11
+		x = 5
 		y = 5
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_labor_camps"
 			add_popularity = { ideology = syndicalist popularity = -0.03 }
-			add_popularity = { ideology = radical_socialist popularity = -0.03 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.03 }
 			add_political_power = 100
 		}
 	}
@@ -443,8 +466,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_labor_camps
 		}
-		x = 9
+		x = 3
 		y = 6
+		relative_position_id = SRI_4th_congress
 		ai_will_do = { factor = 70 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_chairmans_power"
@@ -482,23 +506,25 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_create_the_iri
 		}
-		x = 14
+		x = -3
 		y = 1
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_communal_syndicalism"
 			add_ideas = SRI_communal_syndicalism_idea
 		}
 	}
-	focus = {# Agrarian Communes
+	focus = {# Collective Farming
 		id = SRI_agrian_communes
 		icon = GFX_focus_AUS_agriculture
 		cost = 8.00
 		prerequisite = {
 			focus = SRI_communal_syndicalism
 		}
-		x = 13
+		x = -4
 		y = 2
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_agrian_communes"
@@ -537,8 +563,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_agrian_communes
 		}
-		x = 13
+		x = -4
 		y = 3
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_ruralism"
@@ -556,36 +583,29 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_communal_syndicalism
 		}
-		x = 15
+		x = -2
 		y = 2
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_decentralized_economy"
 			add_ideas = SRI_decentralized_economy_idea
-			980 = {
-				if = {
-					limit = {
-						is_owned_by = SRI
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
+			random_owned_controlled_state = {
+				limit = { is_core_of = SRI }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
 				}
 			}
-			925 = {
-				if = {
-					limit = {
-						is_owned_by = SRI
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
+			random_owned_controlled_state = {
+				limit = { is_core_of = SRI }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
 				}
 			}
 		}
@@ -597,8 +617,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_decentralized_economy
 		}
-		x = 15
+		x = -2
 		y = 3
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_encourge_worker_cooperatives"
@@ -653,8 +674,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_ruralism
 		}
-		x = 14
+		x = -3
 		y = 4
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_sense_of_dedication"
@@ -669,8 +691,9 @@ focus_tree = {
 			focus = SRI_communal_syndicalism
 			focus = SRI_create_the_iri
 		}
-		x = 17
+		x = 0
 		y = 2
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_revolutionary_education"
@@ -684,8 +707,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_revolutionary_education
 		}
-		x = 17
+		x = 0
 		y = 3
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_expand_universtites"
@@ -699,8 +723,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_expand_universtites
 		}
-		x = 16
+		x = -1
 		y = 4
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_support_uri"
@@ -719,8 +744,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_expand_universtites
 		}
-		x = 18
+		x = 1
 		y = 4
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_synethetic_research"
@@ -745,8 +771,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_communal_syndicalism
 		}
-		x = 20
+		x = 3
 		y = 1
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_create_the_iri"
@@ -760,8 +787,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_create_the_iri
 		}
-		x = 19
+		x = 2
 		y = 2
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_nationalization"
@@ -819,8 +847,9 @@ focus_tree = {
 				}
 			}
 		}
-		x = 19
+		x = 2
 		y = 3
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_expand_railways"
@@ -893,8 +922,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_create_the_iri
 		}
-		x = 21
+		x = 4
 		y = 2
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_modernized_farming"
@@ -912,8 +942,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_modernized_farming
 		}
-		x = 21
+		x = 4
 		y = 3
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_militerized_economy"
@@ -968,15 +999,16 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_militerized_economy
 		}
-		x = 20
+		x = 3
 		y = 4
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_mass_production"
 			add_ideas = SRI_mass_production_idea
 		}
 	}
-	focus = {# Revitalized Economy
+	focus = {# Socialist Economic Miracle
 		id = SRI_revitalized_economy
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 8.00
@@ -993,8 +1025,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_synethetic_research
 		}
-		x = 17
+		x = 0
 		y = 5
+		relative_position_id = SRI_assess_the_economy
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_revitalized_economy"
@@ -1052,8 +1085,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_risorgimento
 		}
-		x = 24
+		x = -2
 		y = 1
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_military_exercises"
@@ -1067,8 +1101,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_risorgimento
 		}
-		x = 26
+		x = 0
 		y = 1
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_reenforce_the_po_line"
@@ -1095,8 +1130,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_risorgimento
 		}
-		x = 28
+		x = 2
 		y = 1
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_naval_exericises"
@@ -1116,8 +1152,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_naval_exericises
 		}
-		x = 27
+		x = 1
 		y = 2
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_reenforce_the_south"
@@ -1164,8 +1201,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_naval_exericises
 		}
-		x = 25
+		x = -1
 		y = 2
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_reenforce_the_coast"
@@ -1247,8 +1285,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reenforce_the_south
 		}
-		x = 23
+		x = -3
 		y = 3
+		relative_position_id = SRI_risorgimento
 		ai_will_do = {
 			factor = 30
 			modifier = {
@@ -1399,8 +1438,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reenforce_the_south
 		}
-		x = 25
+		x = -1
 		y = 3
+		relative_position_id = SRI_risorgimento
 		ai_will_do = {
 			factor = 30
 			modifier = {
@@ -1489,8 +1529,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reenforce_the_south
 		}
-		x = 27
+		x = 1
 		y = 3
+		relative_position_id = SRI_risorgimento
 		ai_will_do = {
 			factor = 30
 			modifier = {
@@ -1584,8 +1625,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reenforce_the_south
 		}
-		x = 29
+		x = 3
 		y = 3
+		relative_position_id = SRI_risorgimento
 		ai_will_do = {
 			factor = 30
 			modifier = {
@@ -1668,8 +1710,9 @@ focus_tree = {
 			focus = SRI_take_the_two_scilies
 			focus = SRI_take_sardinia
 		}
-		x = 26
+		x = 0
 		y = 4
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_fifth_congress"
@@ -1683,8 +1726,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_fifth_congress
 		}
-		x = 25
+		x = -1
 		y = 5
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_fate_of_the_pope"
@@ -1742,8 +1786,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_fifth_congress
 		}
-		x = 27
+		x = 1
 		y = 5
+		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_italian_irredentism"
@@ -1776,8 +1821,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_armata_rossa
 		}
-		x = 35
+		x = -4
 		y = 1
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_guardie_rosse"
@@ -1791,8 +1837,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_guardie_rosse
 		}
-		x = 32
+		x = -7
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -1818,8 +1865,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_artillery_effort
 		}
-		x = 32
+		x = -7
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -1848,8 +1896,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_anti_air
 		}
-		x = 32
+		x = -7
 		y = 4
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -1877,8 +1926,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_mass_assult
 		}
-		x = 34
+		x = -5
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -1904,8 +1954,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_superior_firepower
 		}
-		x = 34
+		x = -5
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_industrial_warfare"
@@ -1928,8 +1979,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_superior_firepower
 		}
-		x = 36
+		x = -3
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -1955,8 +2007,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_mass_assult
 		}
-		x = 36
+		x = -3
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -1984,8 +2037,9 @@ focus_tree = {
 			focus = SRI_industrial_warfare
 			focus = SRI_small_unit_tactics
 		}
-		x = 35
+		x = -4
 		y = 4
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_reform_the_guards"
@@ -2013,8 +2067,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reform_the_guards
 		}
-		x = 33
+		x = -6
 		y = 5
+		relative_position_id = SRI_army
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_home_guard"
 			# add_war_support = 0.1
@@ -2031,8 +2086,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_home_guard
 		}
-		x = 32
+		x = -7
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		available_if_capitulated = yes
 		completion_reward = {
@@ -2052,8 +2108,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reform_the_guards
 		}
-		x = 35
+		x = -4
 		y = 5
+		relative_position_id = SRI_army
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_mobilize_the_people"
 			increase_conscription = yes
@@ -2067,8 +2124,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_mobilize_the_people
 		}
-		x = 34
+		x = -5
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2092,8 +2150,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_mobilize_the_people
 		}
-		x = 36
+		x = -3
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_rossi_cyclists"
@@ -2110,8 +2169,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_reform_the_guards
 		}
-		x = 37
+		x = -2
 		y = 5
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_small_arms_industry"
@@ -2126,8 +2186,9 @@ focus_tree = {
 			focus = SRI_guardie_rosse
 			focus = SRI_armata_rossa
 		}
-		x = 39
+		x = 0
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_prepare_for_liberation"
@@ -2142,8 +2203,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_prepare_for_liberation
 		}
-		x = 38
+		x = -1
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_support_brigades"
@@ -2162,12 +2224,23 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_prepare_for_liberation
 		}
-		x = 40
+		x = 1
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_female_soldiers"
 			add_ideas = SRI_revolutionary_women
+			hidden_effect = {
+				country_event = {
+					id = socitaly.84
+					days = 60
+				}
+				country_event = {
+					id = socitaly.110
+					days = 360
+				}
+			}
 		}
 	}
 	focus = {# Arditi del Popolo
@@ -2180,8 +2253,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_female_soldiers
 		}
-		x = 39
+		x = 0
 		y = 4
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2216,8 +2290,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_guardie_rosse
 		}
-		x = 43
+		x = 4
 		y = 1
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_armata_rossa"
@@ -2234,8 +2309,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_mobile_warfare
 		}
-		x = 42
+		x = 3
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -2261,8 +2337,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_centralized_command
 		}
-		x = 42
+		x = 3
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_integrate_red_guards"
@@ -2285,8 +2362,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_centralized_command
 		}
-		x = 44
+		x = 5
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 20
 			modifier = {
@@ -2311,8 +2389,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_mobile_warfare
 		}
-		x = 44
+		x = 5
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_lighting_warfare"
@@ -2332,8 +2411,9 @@ focus_tree = {
 			focus = SRI_integrate_red_guards
 			focus = SRI_lighting_warfare
 		}
-		x = 43
+		x = 4
 		y = 4
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_disolve_the_guards"
@@ -2354,15 +2434,16 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {# Long Term Planning
+	focus = {# Plan for the Next War
 		id = SRI_long_term_planning
 		icon = GFX_goal_generic_position_armies
 		cost = 5.00
 		prerequisite = {
 			focus = SRI_disolve_the_guards
 		}
-		x = 43
+		x = 4
 		y = 5
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_long_term_planning"
@@ -2376,8 +2457,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_long_term_planning
 		}
-		x = 42
+		x = 3
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_central_logistics"
@@ -2391,8 +2473,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_long_term_planning
 		}
-		x = 44
+		x = 5
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_fronte_militare_clandestino"
@@ -2406,8 +2489,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_disolve_the_guards
 		}
-		x = 41
+		x = 2
 		y = 5
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_military_research"
@@ -2421,8 +2505,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_disolve_the_guards
 		}
-		x = 45
+		x = 6
 		y = 5
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_officer_training"
@@ -2436,8 +2521,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_armata_rossa
 		}
-		x = 46
+		x = 7
 		y = 2
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_italian_auto_industry"
@@ -2451,8 +2537,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_italian_auto_industry
 		}
-		x = 46
+		x = 7
 		y = 3
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_motorized_offensive"
@@ -2469,8 +2556,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_motorized_offensive
 		}
-		x = 46
+		x = 7
 		y = 4
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 20
 		}
@@ -2494,8 +2582,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_tanks
 		}
-		x = 46
+		x = 7
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = {
 			factor = 10
 		}
@@ -2520,8 +2609,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_military_build_up
 		}
-		x = 38
+		x = -1
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_firearm_improvement"
@@ -2539,8 +2629,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_firearm_improvement
 		}
-		x = 40
+		x = 1
 		y = 6
+		relative_position_id = SRI_army
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_military_build_up"
@@ -2595,8 +2686,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_air_supremecy
 		}
-		x = 49
+		x = -1
 		y = 1
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_army_support"
@@ -2615,8 +2707,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_army_support
 		}
-		x = 48
+		x = -2
 		y = 2
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_bomber_efforts"
@@ -2634,8 +2727,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_bomber_efforts
 		}
-		x = 49
+		x = -1
 		y = 3
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_paratroopers"
@@ -2657,8 +2751,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_army_support
 		}
-		x = 51
+		x = 1
 		y = 1
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_air_supremecy"
@@ -2677,8 +2772,9 @@ focus_tree = {
 			focus = SRI_army_support
 			focus = SRI_air_supremecy
 		}
-		x = 50
+		x = 0
 		y = 2
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_female_pilots"
@@ -2695,8 +2791,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_air_supremecy
 		}
-		x = 52
+		x = 2
 		y = 2
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_fighter_efforts"
@@ -2714,8 +2811,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_fighter_efforts
 		}
-		x = 51
+		x = 1
 		y = 3
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_maintance_schools"
@@ -2730,8 +2828,9 @@ focus_tree = {
 			focus = SRI_paratroopers
 			focus = SRI_maintance_schools
 		}
-		x = 50
+		x = 0
 		y = 4
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_radar"
@@ -2749,8 +2848,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_radar
 		}
-		x = 50
+		x = 0
 		y = 5
+		relative_position_id = SRI_aeronautica_rossa
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_red_jets"
@@ -2811,8 +2911,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_defend_the_coasts
 		}
-		x = 55
+		x = -1
 		y = 1
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_grand_navy"
@@ -2831,8 +2932,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_grand_navy
 		}
-		x = 54
+		x = -2
 		y = 2
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_destroy_capitalist"
@@ -2868,8 +2970,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_carriers
 		}
-		x = 53
+		x = -3
 		y = 3
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_battle_ships"
@@ -2891,8 +2994,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_battle_ships
 		}
-		x = 55
+		x = -1
 		y = 3
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_carriers"
@@ -2911,8 +3015,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_carriers
 		}
-		x = 55
+		x = -1
 		y = 4
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_naval_aircraft"
@@ -2934,8 +3039,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_grand_navy
 		}
-		x = 57
+		x = 1
 		y = 1
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_defend_the_coasts"
@@ -2955,8 +3061,9 @@ focus_tree = {
 			focus = SRI_grand_navy
 			focus = SRI_defend_the_coasts
 		}
-		x = 56
+		x = 0
 		y = 2
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_marines"
@@ -2975,8 +3082,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_defend_the_coasts
 		}
-		x = 58
+		x = 2
 		y = 2
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_cut_off_capitalists"
@@ -3012,8 +3120,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_submarines
 		}
-		x = 57
+		x = 1
 		y = 3
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_destroyers"
@@ -3032,8 +3141,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_destroyers
 		}
-		x = 57
+		x = 1
 		y = 4
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_heavy_cruisers"
@@ -3055,8 +3165,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SRI_destroyers
 		}
-		x = 59
+		x = 3
 		y = 3
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_submarines"
@@ -3075,8 +3186,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_battle_ships
 		}
-		x = 53
+		x = -3
 		y = 4
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_battle_cruisers"
@@ -3096,8 +3208,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SRI_submarines
 		}
-		x = 59
+		x = 3
 		y = 4
+		relative_position_id = SRI_navy
 		ai_will_do = { factor = 10 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_light_cruisers"

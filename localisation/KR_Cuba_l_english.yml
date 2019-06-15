@@ -3,8 +3,8 @@
 ### Parties ###
 CUB_totalist_party:0 "사회주의자"
 CUB_totalist_party_long:0 "사회주의 운동-공산주의"
-CUB_radical_socialist_party:0 "사회주의자"
-CUB_radical_socialist_party_long:0 "사회주의 운동-혁명"
+CUB_democratic_socialist_party:0 "사회주의자"
+CUB_democratic_socialist_party_long:0 "사회주의 운동-혁명"
 CUB_syndicalist_party:0 "사회주의자"
 CUB_syndicalist_party_long:0 "사회주의 운동-노동자"
 CUB_social_democrat_party:0 "연합주의자"
@@ -26,8 +26,8 @@ CUB_totalist_party_socrev:0 "공산주의자"
 CUB_totalist_party_long_socrev:0 "공산주의자"
 CUB_syndicalist_party_socrev:0 "노동자"
 CUB_syndicalist_party_long_socrev:0 "노동자"
-CUB_radical_socialist_party_socrev:0 "혁명주의자"
-CUB_radical_socialist_party_long_socrev:0 "혁명주의자"
+CUB_democratic_socialist_party_socrev:0 "혁명주의자"
+CUB_democratic_socialist_party_long_socrev:0 "혁명주의자"
 
 CUB_totalist_party_totemb:0 "전체주의자"
 CUB_totalist_party_long_totemb:0 "전체주의자"
@@ -35,8 +35,8 @@ CUB_totalist_party_long_totemb:0 "전체주의자"
 CUB_paternal_autocrat_party_diazgov:0 "진보당"
 CUB_paternal_autocrat_party_long_diazgov:0 "진보당"
 
-CUB_radical_socialist_party_radsocdem:0 "국민해방당"
-CUB_radical_socialist_party_long_radsocdem:0 "국민해방당"
+CUB_democratic_socialist_party_radsocdem:0 "국민해방당"
+CUB_democratic_socialist_party_long_radsocdem:0 "국민해방당"
 
 ### Focuses ###
 
@@ -1136,7 +1136,7 @@ cuba.13.a:0 "Allow him to return."
 cuba.13.b:0 "Deny his request."
 
 cuba.14.t:0 "Socialist Revolution in Cuba"
-cuba.14.d:0 "Dire news has arrived from Cuba today. After weeks on instability and despite providing the Cuban military with ample equipment and training, Socialist agitators have overthrown the Cuban government. Worse, many American-owned plantations and other enterprises have been taken-over by Socialist hooligans. Already, the staff and Marines at our embassy in Havana are readying themselves to evacuate at a moment's notice. Something... anything must be done to stop this madness."
+cuba.14.d:0 "Dire news has arrived from Cuba today. After weeks of instability and despite providing the Cuban military with ample equipment and training, Socialist agitators have overthrown the Cuban government. Worse, many American-owned plantations and other enterprises have been taken-over by Socialist hooligans. Already, the staff and Marines at our embassy in Havana are readying themselves to evacuate at a moment's notice. Something... anything must be done to stop this madness."
 cuba.14.a:0 "Prepare to intervene."
 cuba.14.b:0 "Be diplomatic."
 

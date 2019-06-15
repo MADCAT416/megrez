@@ -44,9 +44,33 @@ country_event = {
 			remove_state_core = 813
 			remove_state_core = 958
 			remove_state_core = 957
+			remove_state_core = 970
 		}
 		NIC = {
 			remove_state_core = 1071
+		}
+		SPR = {
+			remove_state_core = 297
+		}
+		GER = {
+			remove_state_core = 543
+			remove_state_core = 422
+		}
+		SAF = {
+			remove_state_core = 542
+			remove_state_core = 545
+		}
+		POR = {
+			remove_state_core = 296
+			remove_state_core = 540
+			remove_state_core = 544
+			remove_state_core = 914
+			remove_state_core = 916
+			remove_state_core = 917
+			remove_state_core = 950
+			remove_state_core = 951
+			remove_state_core = 954
+			remove_state_core = 959
 		}
 	}
 }
@@ -354,6 +378,7 @@ country_event = { #Intro Event
 		trigger = {
 			has_global_flag = is_not_mp
 		}
+		add_political_power = 10
 		ROOT = {
 			country_event = kr.political.25
 		}
@@ -375,6 +400,7 @@ country_event = { #FAQ
 
 	option = {
 		name = kr.political.25.a
+		add_political_power = -10
 		country_event = kr.political.26
 	}
 }
@@ -540,9 +566,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
-			set_country_flag = opinion_set_radical_socialist
+			set_country_flag = opinion_set_democratic_socialist
 		}
 		if = {
 			limit = {
@@ -614,9 +640,9 @@ country_event = {
 			}
 			AND = {
 				NOT = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
-				has_country_flag = opinion_set_radical_socialist
+				has_country_flag = opinion_set_democratic_socialist
 			}
 			AND = {
 				NOT = {
@@ -668,7 +694,7 @@ country_event = {
 					has_country_flag = opinion_set_syndicalist
 				}
 				NOT = {
-					has_country_flag = opinion_set_radical_socialist
+					has_country_flag = opinion_set_democratic_socialist
 				}
 				NOT = {
 					has_country_flag = opinion_set_social_democrat
@@ -702,7 +728,7 @@ country_event = {
 	immediate = {
 		clr_country_flag = opinion_set_totalist
 		clr_country_flag = opinion_set_syndicalist
-		clr_country_flag = opinion_set_radical_socialist
+		clr_country_flag = opinion_set_democratic_socialist
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_social_liberal
 		clr_country_flag = opinion_set_market_liberal
@@ -880,9 +906,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
-			set_country_flag = opinion_set_radical_socialist
+			set_country_flag = opinion_set_democratic_socialist
 		}
 		if = {
 			limit = {

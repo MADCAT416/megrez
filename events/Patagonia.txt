@@ -589,11 +589,11 @@ country_event = { # 1938 election
 		}
 		set_country_flag = FOP_jabcovsky_wins_election
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {

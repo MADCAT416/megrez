@@ -88,13 +88,7 @@ if = {
 		dn_sh_gun_module_two = 1
 		catapult_plane_two = 1
 		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		heavy_carrier_armoured_deck = 1
 		transport = 1
 	}
 }
@@ -128,56 +122,29 @@ if = {
 		weltkrieg_dreadnought_hull_nonmtg = 1
 		interwar_dreadnought_hull_nonmtg = 1
 		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		nav_infra_one = 1
-		nav_infra_two = 1
-		nav_infra_three = 1
-		nav_av_one = 1
-		nav_av_two = 1
-		nav_av_three = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
 		transport = 1
 	}
 }
 set_research_slots = 3
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 3
-		}
-		radical_socialist = {
-			popularity = 10
-		}
-		syndicalist = {
-			popularity = 15
-		}
-		social_democrat = {
-			popularity = 47
-		}
-		social_liberal = {
-			popularity = 11
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 2
-		}
-		paternal_autocrat = {
-			popularity = 1
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = social_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 3
+    democratic_socialist = 10
+    syndicalist = 15
+    social_democrat = 47
+    social_liberal = 11
+    market_liberal = 6
+    social_conservative = 5
+    authoritarian_democrat = 2
+    paternal_autocrat = 1
+    national_populist = 0
 }
 
 add_ideas = {
@@ -241,7 +208,7 @@ create_country_leader = {
 	desc = "POLITICS_FINTAN_WALSH_DESC"
 	picture = "Portrait_NZL_Fintan_Walsh.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {

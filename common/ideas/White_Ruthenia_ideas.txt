@@ -396,7 +396,7 @@ ideas = {
 
 		WHR_trade_union = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WHR_trade_union"}
-			picture = generic_radical_socialist_revolution
+			picture = generic_democratic_socialist_revolution
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.05
@@ -556,7 +556,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			modifier = {
 				army_morale_factor = 0.05
-				conscription = 0.03
+				conscription = 0.02
 			}
 		}
 

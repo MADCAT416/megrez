@@ -140,7 +140,7 @@ ideas = {
 		BHC_path_of_defense = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BHC_path_of_defense"}
 			allowed = { always = no }
-			available = { has_government = radical_socialist }
+			available = { has_government = democratic_socialist }
 			modifier = {
 				justify_war_goal_time = 0.5
 				war_support_factor = -0.10
@@ -156,7 +156,7 @@ ideas = {
 		BHC_people_first = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BHC_people_first"}
 			allowed = { always = no }
-			available = { has_government = radical_socialist }
+			available = { has_government = democratic_socialist }
 			modifier = {
 				land_reinforce_rate = 0.25
 				stability_factor = 0.10
@@ -168,7 +168,7 @@ ideas = {
 		BHC_army_reformed = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BHC_army_reformed"}
 			allowed = { always = no }
-			available = { has_government = radical_socialist }
+			available = { has_government = democratic_socialist }
 			modifier = {
 				army_morale_factor = 0.10
 				army_org_factor = 0.05

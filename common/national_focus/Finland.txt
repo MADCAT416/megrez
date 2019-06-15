@@ -1617,7 +1617,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.1
 			}
 		}
@@ -1767,6 +1767,14 @@ focus_tree = {
 			is_subject = no
 			has_government = paternal_autocrat
 			has_country_flag = FIN_monarchist_victory
+			OR = {
+				AND = {
+					owns_state = 215
+					owns_state = 216
+				}
+				date > 1937.02.29
+			}
+				
 			NOT = {
 				is_in_faction = yes
 				has_war_with = RUS
@@ -4143,6 +4151,7 @@ focus_tree = {
 				has_country_flag = FIN_rebellion_prevented
 				has_country_flag = FIN_finland_is_stable
 			}
+			is_in_faction_with = GER
 		}
 		prerequisite = { focus = FIN_the_finnish_economy }
 		x = 2
@@ -4605,9 +4614,15 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			is_in_faction_with = RUS
-			RUS = {
-				exists = no
+			OR = {
+				is_in_faction_with = RUS
+				RUS = {
+					exists = no
+				}
+				owns_state = 722
+				owns_state = 213
+				owns_state = 215
+				owns_state = 216
 			}
 		}
 		prerequisite = { focus = FIN_diplomacy }
@@ -4828,8 +4843,9 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			NOT = {
-				OR = {
+			OR = {
+				owns_state = 937
+				NOT = {
 					has_government = totalist
 					has_government = national_populist
 				}
@@ -4906,8 +4922,9 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			NOT = {
-				OR = {
+			OR = {
+				owns_state = 909
+				NOT = {
 					has_government = totalist
 					has_government = national_populist
 				}
@@ -5092,6 +5109,8 @@ focus_tree = {
 					has_completed_focus = FIN_claim_tornedalen
 					has_completed_focus = FIN_war_with_russia
 					has_completed_focus = FIN_attack_norway
+					owns_state = 909
+					owns_state = 937
 				}
 				else_if = {
 					NOT = {
