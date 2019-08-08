@@ -8,8 +8,8 @@ scripted_gui = {
 			syndicalist_icon_visible = {
 				has_government = syndicalist
 			}
-			radical_socialist_icon_visible = {
-				has_government = radical_socialist
+			democratic_socialist_icon_visible = {
+				has_government = democratic_socialist
 			}
 			social_democrat_icon_visible = {
 				has_government = social_democrat
@@ -28,6 +28,9 @@ scripted_gui = {
 			}
 			paternal_autocrat_icon_visible = {
 				has_government = paternal_autocrat
+			}
+			clerical_nationalist_icon_visible = {
+				has_government = clerical_nationalist
 			}
 			national_populist_icon_visible = {
 				has_government = national_populist
