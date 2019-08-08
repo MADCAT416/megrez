@@ -1,26 +1,26 @@
 ﻿l_english:
 
 ### Parties ###
-GUA_totalist_party_long:0 "과테말라 혁명당"
-GUA_totalist_party:0 "과테말라 혁명당"
-GUA_syndicalist_party_long:0 "혁명주의당"
-GUA_syndicalist_party:0 "혁명주의당"
-GUA_democratic_socialist_party_long:0 "혁명행동당"
-GUA_democratic_socialist_party:0 "혁명행동당"
-GUA_social_democrat_party_long:0 "국민진보당"
-GUA_social_democrat_party:0 "국민진보당"
-GUA_social_liberal_party_long:0 "자유당(사회주의)"
-GUA_social_liberal_party:0 "자유당(사회주의)"
-GUA_market_liberal_party_long:0 "자유당(조합주의)"
-GUA_market_liberal_party:0 "자유당(조합주의)"
-GUA_social_conservative_party_long:0 "통일당"
-GUA_social_conservative_party:0 "통일당"
-GUA_authoritarian_democrat_party_long:0 "자유당(군부)"
-GUA_authoritarian_democrat_party:0 "자유당(군부)"
-GUA_paternal_autocrat_party_long:0 "과테말라 국군"
-GUA_paternal_autocrat_party:0 "과테말라 국군"
-GUA_national_populist_party_long:0 "대중주의당"
-GUA_national_populist_party:0 "대중주의당"
+GUA_totalist_party_long:0 "Partido de la Revolución Guatemalteca"
+GUA_totalist_party:0 "PRG"
+GUA_syndicalist_party_long:0 "Partido Revolucionario"
+GUA_syndicalist_party:0 "PR"
+GUA_radical_socialist_party_long:0 "Partido Acción Revolucionaria"
+GUA_radical_socialist_party:0 "PAR"
+GUA_social_democrat_party_long:0 "Partido del Progreso Nacional"
+GUA_social_democrat_party:0 "PPN"
+GUA_social_liberal_party_long:0 "Partido Liberal(Social)"
+GUA_social_liberal_party:0 "PL(Social)"
+GUA_market_liberal_party_long:0 "Partido Liberal(Corporativista)"
+GUA_market_liberal_party:0 "PL(Corporativista)"
+GUA_social_conservative_party_long:0 "Partido Unionista"
+GUA_social_conservative_party:0 "PU"
+GUA_authoritarian_democrat_party_long:0 "Partido Liberal(Militar)"
+GUA_authoritarian_democrat_party:0 "PL(Militar)"
+GUA_paternal_autocrat_party_long:0 "Fuerzas Armadas de Guatemala"
+GUA_paternal_autocrat_party:0 "FAG"
+GUA_national_populist_party_long:0 "Partido Populista"
+GUA_national_populist_party:0 "PP"
 
 ### Ideas ###
 GUA_socialist_compensation:0 "Socialist Compensation"
@@ -29,27 +29,27 @@ GUA_socialist_compensation_desc:0 "The Socialists within Guatemala have been pro
 GUA_socialist_compensation_2:0 "Socialist Compensation"
 GUA_socialist_compensation_2_desc:0 "The Socialists within Guatemala have been protesting with Mexican funding ever since the Dockyard and Railroad strikes, resulting in the government being forced to compensate the Socialists with empty reforms and changes often."
 
-GUA_united_fruit:0 "유나이티드프루트컴퍼니"
+GUA_united_fruit:0 "United Fruit Company"
 GUA_united_fruit_desc:0 "The United Fruit Company has held a tight grip on Guatemalan politics and economy ever since Cabrera's dictatorship in 1898. While Guatemala has seen significant economic development as a result, it causes the United Fruit Company to hold Guatemala's fate in the balance. It currently controls §Y[?UFC_power]%§! of our land.\n§WThis gives us the following effects:§!\n§WDaily Political Power Gain:§! §R-[?UFC_effect1]§!\n§WConstruction Speed:§! §G+[?UFC_effect2]%§!\n§WConsumer Goods Factories:§! §Y-[?UFC_effect3]%§!\n§WWar Support:§! §R-[?UFC_effect4]%§!"
 
-CEN_united_fruit_land:0 "유나이티드프루트컴퍼니"
+CEN_united_fruit_land:0 "United Fruit Company"
 
-GUA_united_fruit_start_clone:0 "유나이티드프루트컴퍼니"
+GUA_united_fruit_start_clone:0 "United Fruit Company"
 GUA_united_fruit_start_clone_desc:0 "The United Fruit Company has held a tight grip on Guatemalan politics and economy ever since Cabrera's dictatorship in 1898. While Guatemala has seen significant economic development as a result, it causes the United Fruit Company to hold Guatemala's fate in the balance. It currently controls §Y50%§! of our land.\n§WThis gives us the following effects:§!\n§WDaily Political Power Gain:§! §R-0.2§!\n§WConstruction Speed:§! §G+15%§!\n§WConsumer Goods Factories:§! §Y-5%§!\n§WWar Support:§! §R-30%§!"
 
-GUA_illiteracy:0 "문맹"
+GUA_illiteracy:0 "Illiteracy"
 GUA_illiteracy_desc:0 "Illiteracy has deeply affected Guatemala. While at the start of Orellana's regime the illiteracy rate was at 96%, the number has dropped down to 75%, mainly due to the reforms initiated in the country. However, this is still a problem, and it will likely haunt us until severe reforms are made."
 
-GUA_illiteracy_2:0 "문맹"
+GUA_illiteracy_2:0 "Illiteracy"
 GUA_illiteracy_2_desc:0 "Illiteracy has deeply affected Guatemala. While at the start of Orellana's regime the illiteracy rate was at 96%, the number has dropped down to 75%, mainly due to the reforms initiated in the country. However, this is still a problem, and it will likely haunt us until severe reforms are made."
 
-GUA_illiteracy_3:0 "문맹"
+GUA_illiteracy_3:0 "Illiteracy"
 GUA_illiteracy_3_desc:0 "Illiteracy has deeply affected Guatemala. While at the start of Orellana's regime the illiteracy rate was at 96%, the number has dropped down to 75%, mainly due to the reforms initiated in the country. However, this is still a problem, and it will likely haunt us until severe reforms are made."
 
 GUA_compensated_illiteracy:0 "Compensated Illiteracy"
 GUA_compensated_illiteracy_desc:0 "After many educational reforms, heavy investments, and even resorting to inviting foreign intellectuals to work in Guatemala, Orellana managed to bring down our crippling illiteracy to manageable levels."
 
-GUA_BM:0 "검은 월요일"
+GUA_BM:0 "Black Monday"
 GUA_BM_desc:0 "While Black Monday did not affect us that badly, we still need to fill the holes in our economy that were formed in the wake of US companies leaving or downsizing."
 
 GUA_military_state:0 "Militarised State"
@@ -61,9 +61,9 @@ GUA_military_quality_production:0 "Specialised Production"
 
 GUA_more_guns_idea:0 "Streamlined Gun Production"
 
-GUA_more_men_idea:0 "희생 정신"
+GUA_more_men_idea:0 "The Spirit of Sacrifice"
 
-GUA_build_more_ideas:0 "육군 노동자"
+GUA_build_more_ideas:0 "Army Workers"
 
 GUA_more_fighters_idea:0 "Swarm the Skies"
 
@@ -75,9 +75,9 @@ GUA_eternal_president_idea:0 "El Presidente Eterno"
 
 GUA_orellana_loves_school:0 "Heavy Educational Investments"
 
-GUA_faster_building:0 "진정한 과테말라 산업"
+GUA_faster_building:0 "A True Guatemalan Industry"
 
-GUA_ubico_dictator:0 "개성 추종"
+GUA_ubico_dictator:0 "Cult of Personality"
 
 GUA_ubico_constitution:0 "The New Guatemalan Constitution"
 
@@ -108,7 +108,7 @@ guatemala.4.t:0 "The American Civil War"
 guatemala.4.d:0 "The American Civil war has broken out! Our biggest trading partner disappeared almost overnight. UFC officials are scrambling to save as much as they can in the chaos, selling off assets to stabilise their situation. Their support for Orellana has weakened considerably; a dark cloud now looms on the horizon of Guatemala."
 guatemala.4.a:0 "Guatemala will survive."
 guatemala.5.t:0 "Letter of the 311"
-guatemala.5.d:0 "주로 대학생들로 구성된 민주-사회주의자들은 오렐라나 대통령에게 사임을 요청하고 가능한 빨리 자유선거를 시작하라는 편지를 보냈습니다. 오렐라나는 그의 지지가 약화되었고 민주운동세력들이 무장한 것을 알고 있으며, 이 편지가 과테말라에게 자유를 가져오기 위한 반란의 공개 선언이 아니라 단지 긴장감이 정점에 이르렀을 뿐이라는 것을 보여주기 위해 사회주의자들과 대화를 시작했습니다. 정부가 과테말라의 미래를 염려한 이 '정직한' 편지를 거부한다면 내전은 거의 불가피합니다."
+guatemala.5.d:0 "A group of democrats and socialists, mainly composed of university students, wrote a letter designated to President Orellana asking for his resignation and for free elections to start as soon as possible. Orellana knows his support dwindled and the democratic movement militarised and started talks with the socialists to declare open revolt to bring 'freedom' to Guatemala, this letter just being the tipping point of the tensions. If the government rejects this apparently 'heart-felt' letter coming from the future of Guatemala, civil war is all but inevitable."
 guatemala.5.a:0 "Start preparing for elections as soon as possible, to avert disaster."
 guatemala.5.b:0 "This is just a socialist conspiracy! Guatemala will not be corrupted!"
 guatemala.6.t:0 "Ubico's Coup"
@@ -126,7 +126,7 @@ guatemala.9.d:0 "[getgua8], the military staff had to decide their strategy for 
 guatemala.9.a:0 "They will fall like flies, onward to Quetzaltenango!"
 guatemala.9.b:0 "We shouldn't waste honourable Guatemalan lives in vain, starve the rebels into submission."
 gua_8_d1:0 "After we secured our borders"
-gua_8_d2:0 "After Ciudad de Guatemala and other urban centers were cleared of any NPP presence"
+gua_8_d2:0 "After Ciudad de Guatemala and other urban centres were cleared of any NPP presence"
 guatemala.10.t:0 "The Siege of Ciudad de Belize"
 guatemala.10.d:0 "As the rebel defenses are overstretched, the concentrated blow to their main port in Belize went by with no issues. We registered barely any losses, and already started marching to the Mexican border to encircle whatever remains of the rebel forces, as their resources grow scarcer. While it is obvious to all parties involved that Mexico heavily assists the rebellion, the spineless socialists will surely not declare war to protect their proteges, even when their means of supporting the rebels will disappear."
 guatemala.10.a:0 "The rebels know their demise is imminent."
@@ -186,8 +186,8 @@ guatemala.69.a:0 "That’s an... interesting turn of events."
 
 guatemala.100.t:0 "Nobody Had The Guts To Leave The Temple!"
 guatemala.100.d:0 "The legacy of extravagance and hedonism that president Cabrera embodies still remains scattered throughout Guatemala in the form of Minervan Temples. These buildings were used for Fiestas Minervalias, a holiday of Cabrera's own design. There were children singing, dances, and very unchristian attractions to behold in those days. Now the temples are deserted, and local priests ensure that no festivities are held. This would be the end of their use, if not for our inventive government. They have proposed we convert these halls of vice into baseball fields for children, or build them up into housing. The right would prefer to see them as baseball fields, while the left sees our housing issue as important enough to build up."
-guatemala.100.a:0 "Baseball Fields"
-guatemala.100.b:0 "Houses"
+guatemala.100.a:0 "Baseball Fields."
+guatemala.100.b:0 "Houses."
 
 guatemala.101.t:0 "Conflicts in the Unionist Party"
 guatemala.101.d:0 "Today, a faction of the Unionist Party led José Azmitia and another led by Lázaro Chacón González have entered into an open conflict due to disagreements over the power of the President in the country. While González defends a more centralized state that gives more power to the president, Azmitia fears that this will just turn González into just another dictator for Guatemala, and their differences have finally spilled over to their followers that have openly clashed. However, both men had a meeting and have made joint public statement claiming they have reconciled their differences in order to keep the country up and running. It is not clear however if they have truly reconciled or they are just banding together out of necessity..."
@@ -199,21 +199,21 @@ guatemala.102.a:0 "The Unionistas are achieving their goals."
 
 guatemala.103.t:0 "Dealing with Arévalo"
 guatemala.103.d:0 "With our alliance with the PAR now being broken, we have to deal with the remains of the PPN that kept us together. Juan Jose Arévalo, leader of the PPN and the man who tried to keep the PU and the PAR together against authoritarianism now stands questioned by his actions during such times of crisis. While he has certainly helped us to strengthen our position and take over power, he also provided aid for the PAR, even sometimes taking their side on internal arguments during our coalition days, and he might have flocked to their side if they had taken over instead of us. It is for this that many in our party are distrustful of Arévalo, and demand us to exile him from the country as a traitor. What should we do?"
-guatemala.103.a:0 "Exile him, he has no place here"
-guatemala.103.b:0 "We all make mistakes, He is still an Ally"
+guatemala.103.a:0 "Exile him, he has no place here."
+guatemala.103.b:0 "We all make mistakes, He is still an Ally."
 
 guatemala.104.t:0 "Dr. John Cutler Offers to Experiment on Guatemalan Citizens for Cash."
 guatemala.104.d:0 "A call from one Dr. John Cutler came in today requesting a meeting with the president. Seeing no harm a meeting was granted, and what must be one of the most fearful yet interesting propositions to be delivered in Guatemalan history. Dr. Cutler is a senior member of the US Public Health Service, an authority on the prevention of disease. He offers to test the effects of penicillin on preventing syphilis on a select group of Guatemalans. The reason Guatemala was selected, as claimed by Cutler, is because our people live in isolated communities that can be assured to not spread venereal disease very far. While this offer and the payment are attractive, one has to wonder why Cutler is so willing to import medicine at such a great cost."
-guatemala.104.a:0 "Get Down With the Sickness"
+guatemala.104.a:0 "Get Down With the Sickness."
 guatemala.104.b:0 "Outrageous! Get out of here."
 
 guatemala.105.t:0 "Introducing Miss Chiquita"
-guatemala.105.d:0 "The banana as foodstuffs is no longer an exotic good to American buyers. This was expected after several decades of business. What isn't expected is competition from the likes of Dole in Hawaii to stir the pot in his favor. We commissioned Dik Browne to design a mascot for our banana division that will recapture the attention of young people. Her name is Miss Chiquita, and her song and dance now adorn radio broadcasts and newspapers across America. Sales are up as well."
+guatemala.105.d:0 "The banana as foodstuffs is no longer an exotic good to American buyers. This was expected after several decades of business. What isn't expected is competition from the likes of Dole in Hawaii to stir the pot in his favour. We commissioned Dik Browne to design a mascot for our banana division that will recapture the attention of young people. Her name is Miss Chiquita, and her song and dance now adorn radio broadcasts and newspapers across America. Sales are up as well."
 guatemala.105.a:0 "Even the Jingle works."
 
 guatemala.106.t:0 "Phantom Assassins Plot Against Ubico!"
 guatemala.106.d:0 "A plot to assassinate our beloved Ubico has been found out by our intelligence service today. It detailed an extremely elaborate plan to infiltrate the Casa Crema and poison The President. However, our intelligence service hasn't been able to identify the perpetrators yet, and as the rumours of the conspiracy have conveniently reached the press, we need to choose a scapegoat to blame for the scandal."
-guatemala.106.a:0 "The Socialists are behind this"
+guatemala.106.a:0 "The Socialists are behind this."
 guatemala.106.b:0 "The Liberals are behind this."
 
 
@@ -250,13 +250,13 @@ GUA_UFC_wins_flag:0 "§YUbico has been brought to power after the successful rev
 ### Focuses ###
 
 GUA_dont_depose_me:0 "Orellana's Speech"
-GUA_dont_depose_me_desc:0 "새해가 시작되면서, '영원한' 대통령 오렐라나는 산업화, 교육 예산 개편, 그리고 사회주의자들에 대처하기 위한 경찰력 향상과 같은 여러 계획에 대한 국가 투자의 중요성에 대한 연설을 시작했습니다. 그러나 오렐라나는 그 계획 중 어떤것이 우선될지에 대해서는 밝히지 않았습니다..."
+GUA_dont_depose_me_desc:0 "As a new year starts, the 'Eternal' president Orellana has started the year giving a speech on the importance of state investment into several projects, namely industrialisation, improvements on the educational budget and improving the security forces capabilities to deal with socialist extremists. He has, however, not specified which would take priority over the others..."
 GUA_ask_for_favours:0 "Industrial Investments"
-GUA_ask_for_favours_desc:0 "현대 세계에서는 산업화된 국가들만이 성공할 수 있고 과테말라는 오랫동안 단조로운 농경사회였습니다. 우리가 국가 발전을 원한다면, 우리는 산업화 프로그램을 수행해야 합니다. 운 좋게도 우리는 프로젝트를 시작하는 데 필요한 자본을 얻기 위해 과일 회사에 약간의 호의를 베풀 수 있습니다."
+GUA_ask_for_favours_desc:0 "In the modern world, only industrialized countries can be successful, and Guatemala has had for a long time a simple agrarian society. If we wish to move forward as a nation, we need to focus our efforts in an industrialisation program. Luckily, we can grant some small concessions to the UFC in order to get the capital we need to kickstart the project."
 GUA_more_favours:0 "New Development Schemes"
-GUA_more_favours_desc:0 "산업화 프로그램이 우리에게 이익을 가져다 주기 시작하면서, 우리는 산업단지와 기반시설을 건설하는 방식을 바꿀 수 있는 일련의 새로운 개발 계획을 고안했습니다. 과일 회사의 무역 파트너들은 만약 우리가 몇몇 호의를 더 베풀어준다면 그들은 과테말라 발전을 위해 계속 자금을 댈 것이라고 제안했습니다. 우리나라는 과일회사와 같은 관대한 무역 파트너가 있어서 행운입니다!"
+GUA_more_favours_desc:0 "As our industrialisation program starts to bring us profits, we have devised a series of new development schemes that could change the way we construct our industrial parks and infrastructure. Our trade partners in the UFC have informed us that if we grant them a few more concessions, they'd continue to fund the development of Guatemala. Our country is lucky to have such a generous trade partner as the UFC!"
 GUA_attract_migrants:0 "Attract Migrants"
-GUA_attract_migrants_desc:0 "과테말라는 작은 나라입니다. 그리고 우리는 중미에서 가장 많은 인구를 가진 국가 중 하나지만, 산업화 노력은 오래된 농경 계획들과 함께 우리 노동력을 매우 넓은 지역으로 퍼지게 만들었습니다. 야심 찬 경제 계획을 계속 추진하기 위해서 우리는 이민을 홍보할 필요가 있습니다."
+GUA_attract_migrants_desc:0 "Guatemala is a small nation, and while we have one of the largest populations of Central America, our industrialisation efforts paired up with our old agrarian initiatives have stretched our work force very thin. We need to start promoting immigration to our country if we wish to continue our ambitious economic plans."
 GUA_fix_illiteracy:0 "Greatly Increase Education Budget"
 GUA_fix_illiteracy_desc:0 "Despite Orellana's past efforts, illiteracy rates in Guatemala are still cripplingly high. As our country improves, we now lack a professional workforce to operate the many new jobs, and while we can still import professionals from other countries, we have the potential to rely on ourselves if we deal with our illiteracy issues. With this objective in mind, Orellana has decreed a drastic increase in the education budget."
 GUA_teachers_are_good:0 "Promote the Teaching Profession"
@@ -266,12 +266,12 @@ GUA_american_scientists_desc:0 "Our investments are proving to be successful, an
 GUA_border_posts:0 "Tighten the Mexican Border"
 GUA_border_posts_desc:0 "Mexico is one of the main supporters of Syndicalism in Central America, and we cannot allow their support to reach our underground syndicalist adversaries. We shall reinforce the border security procedures, and double the border patrols in order to protect our country from the vile Mexican influence. It will also assure us that the Syndicalist rebels don't cross the border towards Mexico in order to get training or rally support for their cause."
 GUA_clamp_down:0 "Start Revoking Socialist Reforms"
-GUA_clamp_down_desc:0 "Many politicians in the past have introduced socialist reforms that are now hindering our modernization efforts and disrupt the activities of our trade partners, the UFC. We shall start eroding these reforms little by little until we can remove them completely from our work code, giving us greater freedom to carry out reforms without being hindered by such naïve concepts like 'welfare' or 'job security'."
+GUA_clamp_down_desc:0 "Many politicians in the past have introduced socialist reforms that are now hindering our modernisation efforts and disrupt the activities of our trade partners, the UFC. We shall start eroding these reforms little by little until we can remove them completely from our work code, giving us greater freedom to carry out reforms without being hindered by such naïve concepts like 'welfare' or 'job security'."
 GUA_more_propaganda:0 "Intensify Anti-Socialist Propaganda"
 GUA_more_propaganda_desc:0 "As our government continues its efforts to improve our nation, many of our citizens have voiced their opinions against our actions, having being fueled without a doubt by the socialists that hide in our nation. We need to remind our populace who makes our country great and who protects our nation from falling to godless syndicalism, and in order to do so we shall begin a massive propaganda campaign to remind our citizens of our duty to them and our nation."
 
-GUA_death_letter:0 "311자 편지"
-GUA_death_letter_desc:0 "'(...)과테말라는 시대가 필요로 하는 민주주의에서 벗어날 수 없다. 억압과 자유 사이에서의 가장 피비린내 나는 투쟁을 통해 보편적인 양심을 재확인하는 이 관대한 이념에 대한 억누를 수 없는 충동을 힘으로 좌절시키는 것은 불가능하다. 대통령아, 니가 우리를 애국심으로 다스리는 것처럼 우리 또한 너와 같은 애국심으로 대통령직을 확보하리라는 것을 이해하리라고 믿는다.(...)'"
+GUA_death_letter:0 "La Carta de los 311"
+GUA_death_letter_desc:0 "'(...)Guatemala cannot escape the democratic imperatives of our time. It is impossible to frustrate with coercive measures the irrepressible impulses of the generous ideology that is reaffirming itself in the universal conscience through the bloodiest of the struggles between oppression and freedom in America. We are sure, Mr. President, that your understanding spirit will welcome the present management with the same patriotic interest that moves us to direct it(...)'."
 GUA_orellana_holds_on:0 "The Orellanan Government Lives On"
 GUA_orellana_holds_on_desc:0 "Despite all odds, the Orellanan government has survived the popular outrage of the letter of the 311, and has managed to restore control over the nation. Larga Vida al Eterno Presidente!"
 GUA_purge_dissidents:0 "Finish Taking out the Traitors"
@@ -285,7 +285,7 @@ GUA_promote_economy_desc:0 "With the defeat of the rebels, there's no one to opp
 GUA_promote_more_education:0 "Education is the Basis of Success"
 GUA_promote_more_education_desc:0 "One of the main objectives of the Orellana government is to improve the overall education in the nation and reduce the illiteracy rates. Now, with a strengthened government, Orellana has announced a new funding frenzy for University projects, schools and an increase on teacher's wages. This will surely bring us up to speed with the rest of the world!"
 GUA_stop_pestering_me:0 "Stability and Prosperity"
-GUA_stop_pestering_me_desc:0 "The two main axis of the new Orellanan government will be 'Estabilidad y Prosperidad'. The first one, stability, ensured by the recent victory over the dissidents, and the other, prosperity, shall be brought about by Orellana's careful investments program, along with our industrialization efforts."
+GUA_stop_pestering_me_desc:0 "The two main axis of the new Orellanan government will be 'Estabilidad y Prosperidad'. The first one, stability, ensured by the recent victory over the dissidents, and the other, prosperity, shall be brought about by Orellana's careful investments program, along with our industrialisation efforts."
 GUA_on_the_right_path:0 "A Brighter Tomorrow"
 GUA_on_the_right_path_desc:0 "With our reforms passed and our position consolidated, Guatemala's future shines bright as Orellana lights the way for our nation. We can only wish now that he stays forever at the helm."
 
@@ -315,7 +315,7 @@ GUA_scavenge_UFC_desc:0 "The United Fruit Company, the bane of Guatemala for dec
 GUA_complete_nationalisation:0 "Start the Socialist Transformation"
 GUA_complete_nationalisation_desc:0 "With the end of our alliance with the democrats and our victory over their faction, we can now start to turn Guatemala into a proper socialist society. We shall first consolidate our position and start passing a series of reforms to ease our way into a socialist society."
 GUA_empower_workers:0 "Empower the Workers"
-GUA_empower_workers_desc:0 "One of our main pools of support are the industrial workers of our country, which is a group that has greatly expanded in these last few decades with the limited industrialization efforts that have occurred. We shall reward their loyalty by expanding their rights and improving their wages."
+GUA_empower_workers_desc:0 "One of our main pools of support are the industrial workers of our country, which is a group that has greatly expanded in these last few decades with the limited industrialisation efforts that have occurred. We shall reward their loyalty by expanding their rights and improving their wages."
 GUA_execute_bourgeousie:0 "Execute the Bourgeoisie"
 GUA_execute_bourgeousie_desc:0 "The bane of our nation has been the wealthy capitalists that have grown rich at the expense of the common Guatemalan workers and peasants. We shall have no mercy with such scoundrels!"
 GUA_nationalise:0 "Finish Nationalisation"
@@ -343,7 +343,7 @@ GUA_artillery_bonus_desc:0 "Artillery has proven its usefulness during the Weltk
 GUA_support_companies:0 "Increase Division Capabilities"
 GUA_support_companies_desc:0 "Our divisions are currently mostly suited to peacekeeping tasks and anti-insurgency combat, it's not really prepared to deal with modern warfare and that will prove problematic if a conflict arises in Central America where we are drawn into. We shall focus on improving the capabilities of our divisions for modern warfare so that they may be more flexible when the time comes to face the enemy."
 GUA_motorised:0 "Mechanise Our Troops"
-GUA_motorised_desc:0 "Mechanization may seem like a strange thing for a Central American nation, but there's no doubt that it'll be the future of warfare. If our forces are to become the best of the best of Central America, we shall need to invest in mechanized forces so that we can not only hit hard, but also hit fast!"
+GUA_motorised_desc:0 "Mechanisation may seem like a strange thing for a Central American nation, but there's no doubt that it'll be the future of warfare. If our forces are to become the best of the best of Central America, we shall need to invest in mechanized forces so that we can not only hit hard, but also hit fast!"
 GUA_firepower_doctrine:0 "Perfect Our Methods"
 GUA_firepower_doctrine_desc:0 "Warfare is both a science and an art. While we may have some proud and capable officers in our ranks, the truth is that unless we tune our industry to suit their needs, they won't be able to guarantee our victory. Fortunately, we can focus on tweaking our industry in order to be able to supply them with the best equipment our industry can produce whenever they need it!"
 GUA_mass_assault_1:0 "Our Blood Will Flow for Guatemala!"

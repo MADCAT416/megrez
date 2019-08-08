@@ -17,7 +17,7 @@ NIC_freeing_countryside_decisions = {
 			OR = {
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		highlight_states = {
@@ -63,7 +63,7 @@ NIC_freeing_countryside_decisions = {
 			OR = {
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		ai_will_do = {
@@ -134,7 +134,7 @@ NIC_freeing_countryside_decisions = {
 			OR = {
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		ai_will_do = {
@@ -211,7 +211,7 @@ NIC_freeing_countryside_decisions = {
 			OR = {
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		ai_will_do = {
@@ -325,7 +325,7 @@ NIC_spreading_revolution_decisions = {
 					tooltip = NIC_HON_revolutionary_tooltip
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 					HON = {
 						OR = {
@@ -355,7 +355,7 @@ NIC_spreading_revolution_decisions = {
 			OR = {
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 
@@ -364,7 +364,7 @@ NIC_spreading_revolution_decisions = {
 				OR = {
 					has_government = social_liberal
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 		}
@@ -562,7 +562,7 @@ NIC_spreading_revolution_decisions = {
 						tooltip = NIC_HON_revolutionary_tooltip
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 						HON = {
 							OR = {
@@ -642,7 +642,7 @@ NIC_spreading_revolution_decisions = {
 						tooltip = NIC_HON_revolutionary_tooltip
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 						HON = {
 							OR = {
@@ -707,7 +707,7 @@ NIC_spreading_revolution_decisions = {
 						tooltip = NIC_HON_revolutionary_tooltip
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 						HON = {
 							OR = {
@@ -789,7 +789,7 @@ NIC_spreading_revolution_decisions = {
 			else_if = {
 				limit = {
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}

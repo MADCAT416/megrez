@@ -23,7 +23,7 @@ country_event = { # Constitutional Convention begins
 				desc = "CSA_CENTRAL_COMITTEE_DESC"
 				picture = "Portrait_CSA_committee.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -69,6 +69,22 @@ country_event = { # Socialist Constitution - System of Government
 
 	option = {
 		name = csa.2.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_totalists_gain_power
 		add_popularity = {
 			ideology = syndicalist
@@ -92,9 +108,25 @@ country_event = { # Socialist Constitution - System of Government
 	}
 	option = {
 		name = csa.2.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_radsocs_gain_power
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
@@ -175,13 +207,29 @@ country_event = { # Socialist Constitution - Judiciary
 
 	option = {
 		name = csa.5.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_syndicalists_gain_power
 		add_popularity = {
 			ideology = syndicalist
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -199,6 +247,22 @@ country_event = { # Socialist Constitution - Judiciary
 	}
 	option = {
 		name = csa.5.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_totalists_gain_power
 		add_popularity = {
 			ideology = totalist
@@ -251,13 +315,29 @@ country_event = { # Socialist Constitution - Congress and the President
 
 	option = {
 		name = csa.7.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_syndicalists_gain_power
 		add_popularity = {
 			ideology = syndicalist
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -275,6 +355,22 @@ country_event = { # Socialist Constitution - Congress and the President
 	}
 	option = {
 		name = csa.7.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_totalists_gain_power
 		add_popularity = {
 			ideology = totalist
@@ -306,13 +402,29 @@ country_event = { # Socialist Constitution - Centralization or decentralization
 
 	option = {
 		name = csa.8.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_syndicalists_gain_power
 		add_popularity = {
 			ideology = syndicalist
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -346,6 +458,22 @@ country_event = { # Socialist Constitution - Centralization or decentralization
 	}
 	option = {
 		name = csa.8.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
+		}
 		custom_effect_tooltip = CSA_totalists_gain_power
 		add_popularity = {
 			ideology = totalist
@@ -488,9 +616,9 @@ country_event = { # Constitutional Convention over
 					name = CSA_syndicalist_syndicalism_party
 				}
 				set_party_name = {
-					ideology = democratic_socialist
-					long_name = CSA_democratic_socialist_syndicalism_party_long
-					name = CSA_democratic_socialist_syndicalism_party
+					ideology = radical_socialist
+					long_name = CSA_radical_socialist_syndicalism_party_long
+					name = CSA_radical_socialist_syndicalism_party
 				}
 			}
 		}
@@ -510,9 +638,9 @@ country_event = { # Constitutional Convention over
 					name = CSA_syndicalist_federalist_party
 				}
 				set_party_name = {
-					ideology = democratic_socialist
-					long_name = CSA_democratic_socialist_federalist_party_long
-					name = CSA_democratic_socialist_federalist_party
+					ideology = radical_socialist
+					long_name = CSA_radical_socialist_federalist_party_long
+					name = CSA_radical_socialist_federalist_party
 				}
 			}
 		}
@@ -585,7 +713,7 @@ country_event = { # Socialist Constitution - Leader till election
 				desc = "POLITICS_NORMAN_THOMAS_DESC"
 				picture = "Portrait_CSA_Norman_Thomas.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -606,6 +734,26 @@ country_event = { # Socialist Constitution - Leader till election
 				flag = CSA_commonwealth
 				value > 2
 			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
 		}
 		set_country_flag = CSA_constitutional_convention_done
 		set_politics = {
@@ -633,9 +781,29 @@ country_event = { # Socialist Constitution - Leader till election
 				value > 2
 			}
 		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
+		}
 		set_country_flag = CSA_constitutional_convention_done
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			last_election = "1936.11.08"
 			elections_allowed = yes
@@ -658,6 +826,26 @@ country_event = { # Socialist Constitution - Leader till election
 				flag = CSA_usas
 				value > 2
 			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_FOSTER
+					}
+				}
+		  }
 		}
 		set_country_flag = CSA_browder_is_leader
 		set_country_flag = CSA_constitutional_convention_done
@@ -685,6 +873,26 @@ country_event = { # Socialist Constitution - Leader till election
 				flag = CSA_usas
 				value > 2
 			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_SYNDICALIST_FLYNN
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_RADICAL_SOCIALIST_THOMAS
+					}
+				  has_game_rule = {
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_BROWDER
+					}
+				}
+		  }
 		}
 		set_country_flag = CSA_foster_is_leader
 		set_country_flag = CSA_constitutional_convention_done
@@ -1012,7 +1220,7 @@ country_event = { # Dealing with Reactionaries
 	option = { # Exile them
 		name = csa.20.c
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_stability = 0.01
@@ -1141,7 +1349,7 @@ country_event = { # 1940 IWW / Socialist Labor Party Primary
 			has_country_flag = CSA_had_1940_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1183,7 +1391,7 @@ country_event = { # 1940 AFL / Socialist Party Primary
 			has_country_flag = CSA_had_1940_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1225,7 +1433,7 @@ country_event = { # 1940 Election
 			has_country_flag = CSA_had_1940_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1289,7 +1497,7 @@ country_event = { # 1940 Election
 					desc = "POLITICS_MEYER_LONDON_DESC"
 					picture = "Portrait_CSA_Meyer_London.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1302,7 +1510,7 @@ country_event = { # 1940 Election
 					desc = "POLITICS_UPTON_SINCLAIR_DESC"
 					picture = "Portrait_CSA_Upton_Sinclair.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1315,7 +1523,7 @@ country_event = { # 1940 Election
 					desc = "POLITICS_NORMAN_THOMAS_DESC"
 					picture = "Portrait_CSA_Norman_Thomas.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1359,11 +1567,11 @@ country_event = { # 1940 Election
 			set_country_flag = csa_1940_election_cio
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.20
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}
@@ -1413,7 +1621,7 @@ country_event = { # 1944 IWW/SLP Primary
 			has_country_flag = CSA_had_1944_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1443,17 +1651,6 @@ country_event = { # 1944 IWW/SLP Primary
 			set_country_flag = CSA_1944_iww_primary_johns
 		}
 	}
-	option = { # Frank Little
-		name = csa.28.c
-		trigger = {
-			NOT = {
-				has_government = syndicalist
-			}
-		}
-		hidden_effect = {
-			set_country_flag = CSA_1944_iww_primary_little
-		}
-	}
 	option = { # Nominate the President
 		name = csa.28.e
 		trigger = {
@@ -1471,14 +1668,14 @@ country_event = { # 1944 AFL/SPA Primary
 	desc = { # CIO has the Presidency
 		text = csa.29.d.president
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 	}
 	desc = { # CIO does not have the Presidency
 		text = csa.29.d.not_president
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 	}
@@ -1491,7 +1688,7 @@ country_event = { # 1944 AFL/SPA Primary
 			has_country_flag = CSA_had_1944_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1503,7 +1700,7 @@ country_event = { # 1944 AFL/SPA Primary
 		name = csa.29.a
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		hidden_effect = {
@@ -1514,7 +1711,7 @@ country_event = { # 1944 AFL/SPA Primary
 		name = csa.29.b
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		hidden_effect = {
@@ -1525,7 +1722,7 @@ country_event = { # 1944 AFL/SPA Primary
 		name = csa.29.c
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		hidden_effect = {
@@ -1535,7 +1732,7 @@ country_event = { # 1944 AFL/SPA Primary
 	option = { # Nominate the President
 		name = csa.29.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 	}
 }
@@ -1551,7 +1748,7 @@ country_event = { # 1944 Election
 		tag = CSA
 		has_country_flag = CSA_constitutional_convention_done
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 		has_country_flag = CSA_had_1940_election
@@ -1591,19 +1788,6 @@ country_event = { # 1944 Election
 					traits = {}
 				}
 			}
-			if = { # Frank Little
-				limit = {
-					has_country_flag = CSA_1944_iww_primary_little
-				}
-				create_country_leader = {
-					name = "Frank Little"
-					desc = "POLITICS_FRANK_LITTLE_DESC"
-					picture = "Portrait_CSA_Frank_Little.tga"
-					expire = "1965.1.1"
-					ideology = syndicalist_subtype
-					traits = {}
-				}
-			}
 			if = { # Seymour Stedman
 				limit = {
 					has_country_flag = CSA_1944_cio_primary_stedman
@@ -1613,7 +1797,7 @@ country_event = { # 1944 Election
 					desc = "POLITICS_SEYMOUR_STEDMAN_DESC"
 					picture = "Portrait_CSA_Seymour_Stedman.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1626,7 +1810,7 @@ country_event = { # 1944 Election
 					desc = "POLITICS_WILLIAM_RODRIGUEZ_DESC"
 					picture = "Portrait_CSA_William_E_Rodriguez.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1639,7 +1823,7 @@ country_event = { # 1944 Election
 					desc = "POLITICS_MORRIS_HILQUIT_DESC"
 					picture = "Portrait_CSA_Morris_Hillquit.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1683,11 +1867,11 @@ country_event = { # 1944 Election
 			set_country_flag = csa_1944_election_cio
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.20
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}
@@ -1748,7 +1932,7 @@ country_event = { # 1948 IWW/SLP Primary
 			has_country_flag = CSA_had_1948_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1818,7 +2002,7 @@ country_event = { # 1948 AFL/SPA Primary
 	desc = { # CIO won the presidency just last time
 		text = csa.32.d.president
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = {
 				has_country_flag = csa_1940_election_cio
 			}
@@ -1827,7 +2011,7 @@ country_event = { # 1948 AFL/SPA Primary
 	desc = { # CIO won also in 1940
 		text = csa.32.d.president_steps_down
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_country_flag = csa_1940_election_cio
 		}
 	}
@@ -1835,7 +2019,7 @@ country_event = { # 1948 AFL/SPA Primary
 		text = csa.32.d.not_president
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 	}
@@ -1849,7 +2033,7 @@ country_event = { # 1948 AFL/SPA Primary
 			has_country_flag = CSA_had_1948_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1862,7 +2046,7 @@ country_event = { # 1948 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1940_election_cio
 			}
@@ -1876,7 +2060,7 @@ country_event = { # 1948 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1940_election_cio
 			}
@@ -1890,7 +2074,7 @@ country_event = { # 1948 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1940_election_cio
 			}
@@ -1902,7 +2086,7 @@ country_event = { # 1948 AFL/SPA Primary
 	option = { # Nominate the President
 		name = csa.32.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = {
 				has_country_flag = csa_1940_election_cio
 			}
@@ -1926,7 +2110,7 @@ country_event = { # 1948 Election
 			has_country_flag = CSA_had_1948_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1984,7 +2168,7 @@ country_event = { # 1948 Election
 					desc = "POLITICS_DAVID_DUBINSKY_DESC"
 					picture = "Portrait_CSA_David_Dubinsky.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -1997,7 +2181,7 @@ country_event = { # 1948 Election
 					desc = "POLITICS_JOHN_LEWIS_DESC"
 					picture = "Portrait_CSA_John_Lewis.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2010,7 +2194,7 @@ country_event = { # 1948 Election
 					desc = "POLITICS_LUDWIG_KATTERFELD_DESC"
 					picture = "Portrait_CSA_L_E_Katterfeld.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2054,11 +2238,11 @@ country_event = { # 1948 Election
 			set_country_flag = csa_1948_election_cio
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}
@@ -2120,7 +2304,7 @@ country_event = { # 1952 IWW/SLP Primary
 			has_country_flag = CSA_had_1952_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -2190,7 +2374,7 @@ country_event = { # 1952 AFL/SPA Primary
 	desc = { # CIO won the presidency just last time
 		text = csa.35.d.president
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = {
 				has_country_flag = csa_1944_election_cio
 			}
@@ -2199,7 +2383,7 @@ country_event = { # 1952 AFL/SPA Primary
 	desc = { # CIO won also in 1940
 		text = csa.35.d.president_steps_down
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_country_flag = csa_1944_election_cio
 		}
 	}
@@ -2207,7 +2391,7 @@ country_event = { # 1952 AFL/SPA Primary
 		text = csa.35.d.not_president
 		trigger = {
 			NOT = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 	}
@@ -2222,7 +2406,7 @@ country_event = { # 1952 AFL/SPA Primary
 			has_country_flag = CSA_had_1952_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -2235,7 +2419,7 @@ country_event = { # 1952 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1944_election_cio
 			}
@@ -2249,7 +2433,7 @@ country_event = { # 1952 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1944_election_cio
 			}
@@ -2263,7 +2447,7 @@ country_event = { # 1952 AFL/SPA Primary
 		trigger = {
 			OR = {
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				has_country_flag = csa_1944_election_cio
 			}
@@ -2275,7 +2459,7 @@ country_event = { # 1952 AFL/SPA Primary
 	option = { # Nominate the President
 		name = csa.35.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = {
 				has_country_flag = csa_1944_election_cio
 			}
@@ -2300,7 +2484,7 @@ country_event = { # 1952 Election
 			has_country_flag = CSA_had_1952_election
 		}
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -2358,7 +2542,7 @@ country_event = { # 1952 Election
 					desc = "POLITICS_OAKLEY_JOHNSON_DESC"
 					picture = "Portrait_CSA_Oakley_C_Johnson.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2371,7 +2555,7 @@ country_event = { # 1952 Election
 					desc = "POLITICS_BAYARD_RUSTIN_DESC"
 					picture = "Portrait_CSA_Bayard_Rustin.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2384,7 +2568,7 @@ country_event = { # 1952 Election
 					desc = "POLITICS_DARLINGTON_HOOPES_DESC"
 					picture = "Portrait_CSA_Darlington_Hoopes.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2421,11 +2605,11 @@ country_event = { # 1952 Election
 			set_country_flag = csa_1952_election_cio
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}
@@ -2475,11 +2659,11 @@ country_event = { # Head of State Election[1940]
 	option = { # Daniel Hoan
 		name = csa.37.c
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = { has_country_flag = CSA_1940_cio_primary_london }
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Daniel_Hoan_hog_rso
@@ -2487,10 +2671,10 @@ country_event = { # Head of State Election[1940]
 	option = { # Meyer London
 		name = csa.37.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Meyer_London_hog_rso
@@ -2532,10 +2716,10 @@ country_event = { # Head of State Election[1944]
 	option = { # Daniel Hoan
 		name = csa.38.c
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Daniel_Hoan_hog_rso
@@ -2543,10 +2727,10 @@ country_event = { # Head of State Election[1944]
 	option = { # Darlington Hoopes
 		name = csa.38.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Darlington_Hoopes_hog_rso
@@ -2587,10 +2771,10 @@ country_event = { # Head of State Election[1948]
 	option = { # Morris Hillquit
 		name = csa.39.c
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Morris_Hillquit_hog_rso
@@ -2598,10 +2782,10 @@ country_event = { # Head of State Election[1948]
 	option = { # Seymour Stedman
 		name = csa.39.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Seymour_Stedman_hog_rso
@@ -2644,10 +2828,10 @@ country_event = { # Head of State Election[1952]
 	option = { # John L. Lewis
 		name = csa.40.c
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_John_L_Lewis_hog_rso
@@ -2655,11 +2839,11 @@ country_event = { # Head of State Election[1952]
 	option = { # Bayard Rustin
 		name = csa.40.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			NOT = { has_country_flag = CSA_1952_cio_primary_rustin }
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_ideas = CSA_Bayard_Rustin_hog_rso
@@ -3325,11 +3509,11 @@ country_event = { # Butler's Coup
 			desc = "POLITICS_SMEDLY_BUTLER_DESC"
 			picture = "Portrait_CSA_smedly_butler_G.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -3361,7 +3545,7 @@ country_event = { # Restoring Democracy
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic_socialist
+		has_government = radical_socialist
 		has_country_leader = {
 			ruling_only = yes
 			name = "Smedly Butler"
@@ -3376,7 +3560,7 @@ country_event = { # Restoring Democracy
 			clr_country_flag = CSA_had_1948_election
 			clr_country_flag = CSA_had_1952_election
 			set_politics = {
-				ruling_party = democratic_socialist
+				ruling_party = radical_socialist
 				election_frequency = 12
 				elections_allowed = yes
 			}
@@ -3510,7 +3694,7 @@ country_event = { # The International Peace Movement Movement disbanded.
 		name = csa.72.a
 		add_political_power = 10
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = -0.03
 		}
 	}
@@ -3690,7 +3874,7 @@ country_event = { # The Catholic Workers Movement
 	option = {
 		name = csa.77.a
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.03
 		}
 	}
@@ -4005,7 +4189,7 @@ country_event = { # The USA Trilogy by John Dos Passos.
 	option = { # Calm Hemmingway down
 		name = csa.90.a
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.02
 		}
 		add_stability = 0.01

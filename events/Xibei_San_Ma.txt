@@ -94,7 +94,7 @@ country_event = { #Death of Ma Fuxiang, Ma Lin takes control
 
             set_popularities = {
                 totalist = 1
-                democratic_socialist = 8
+                radical_socialist = 8
                 syndicalist = 2
                 social_democrat = 11
                 social_liberal = 0

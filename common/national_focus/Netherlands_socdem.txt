@@ -65,6 +65,19 @@ focus_tree = {
 		cancel = { NOT = { has_country_flag = hol_coalition_sdap_rsap } }
 		ai_will_do = {
 			factor = 100
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = HOL_election_1937
+						option = HOL_ELECTION_1937_SDAP_WIN_RSAP_OVERTHROW_SYSTEM_GERMAN_INTERVENTION
+					}
+					has_game_rule = {
+						rule = HOL_election_1937
+						option = HOL_ELECTION_1937_SDAP_WIN_RSAP_OVERTHROW_SYSTEM_GERMAN_ACQUIESCENCE
+					}
+				}
+		  }
 		}
 		prerequisite = {
 			focus = HOL_SDAP_RSAP
@@ -91,6 +104,13 @@ focus_tree = {
 		cancel = { NOT = { has_country_flag = hol_coalition_sdap_rsap } }
 		ai_will_do = {
 			factor = 100
+			modifier = {
+		    factor = 0
+				has_game_rule = {
+					rule = HOL_election_1937
+					option = HOL_ELECTION_1937_SDAP_WIN_RSAP
+				}
+		  }
 		}
 		prerequisite = {
 			focus = HOL_SDAP_RSAP
@@ -295,7 +315,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_close_pillar_institutions"
 			add_stability = 0.05
 			#add_national_unity = 0.10
-			add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+			add_popularity = { ideology = radical_socialist popularity = 0.1 }
 		}
 	}
 
@@ -319,7 +339,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_national_dutch_broadcasting_station"
 			add_war_support = 0.05
 			#add_national_unity = 0.10
-			add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+			add_popularity = { ideology = radical_socialist popularity = 0.1 }
 		}
 	}
 
@@ -393,7 +413,7 @@ focus_tree = {
 			#add_national_unity = 0.10
 			add_popularity = { ideology = totalist popularity = -0.1 }
 			add_popularity = { ideology = syndicalist popularity = -0.1 }
-			add_popularity = { ideology = democratic_socialist popularity = -0.1 }
+			add_popularity = { ideology = radical_socialist popularity = -0.1 }
 		}
 	}
 
@@ -531,7 +551,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_dissolve_RNF"
 			add_popularity = { ideology = totalist popularity = -0.1 }
 			add_popularity = { ideology = syndicalist popularity = -0.1 }
-			add_popularity = { ideology = democratic_socialist popularity = -0.1 }
+			add_popularity = { ideology = radical_socialist popularity = -0.1 }
 		}
 	}
 

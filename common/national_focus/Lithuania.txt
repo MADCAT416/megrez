@@ -938,6 +938,25 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				has_government = national_populist
+				NOT = {
+					has_game_rule = {
+						rule = LIT_election_1938
+						option = LIT_ELECTION_1938_REVOLT_NATIONAL_POPULIST
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = LIT_election_1938
+						option = LIT_ELECTION_1938_REVOLT_NATIONAL_POPULIST_GERMAN_INTERVENTION
+					}
+					has_game_rule = {
+						rule = LIT_election_1938
+						option = LIT_ELECTION_1938_REVOLT_NATIONAL_POPULIST_GERMAN_ACQUIESCENCE
+					}
+				}
 			}
 		}
 
@@ -1066,10 +1085,10 @@ focus_tree = {
 			add_political_power = -50
 			add_popularity = { ideology = syndicalist popularity = -0.50 }
 			add_popularity = { ideology = totalist popularity = -0.50 }
-			add_popularity = { ideology = democratic_socialist popularity = -0.50 }
+			add_popularity = { ideology = radical_socialist popularity = -0.50 }
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = democratic_socialist_banned
+			set_country_flag = radical_socialist_banned
 			add_manpower = -500
 		}
 	}
@@ -1172,7 +1191,7 @@ focus_tree = {
 			add_political_power = 50
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = democratic_socialist_banned
+			set_country_flag = radical_socialist_banned
 			set_country_flag = national_populist_banned
 			set_country_flag = LIT_voldemaras_arrested
 			add_manpower = -500
@@ -1391,7 +1410,7 @@ focus_tree = {
 			add_political_power = 100
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = democratic_socialist_banned
+			set_country_flag = radical_socialist_banned
 			add_ideas = LIT_corporate_state
 		}
 	}
@@ -1574,6 +1593,13 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = LIT_election_1938
+					option = LIT_ELECTION_1938_LOYALTY_NATIONAL_POPULIST
+				}
+			}
 		}
 
 		cancel_if_invalid = yes

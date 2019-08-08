@@ -703,7 +703,7 @@ country_event = { # Fall of the Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -925,7 +925,7 @@ country_event = { # Tokyo conference
 		tag = JAP
 		NOT = {
 			has_government = totalist
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			country_exists = LEC
 		}
@@ -1436,7 +1436,7 @@ country_event = { # Rebirth of Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -3898,10 +3898,6 @@ country_event = { # Triads Seize Power
 	option = {
 		name = legcities.45.a
 
-		ai_chance = {
-			factor = 100
-		}
-
 		hidden_effect = {
 
 			retire_country_leader = yes
@@ -3948,10 +3944,6 @@ country_event = { # Erroll takes Charge
 
 	option = {
 		name = legcities.46.a
-
-		ai_chance = {
-			factor = 100
-		}
 
 		hidden_effect = {
 
@@ -4000,10 +3992,6 @@ country_event = { # Qing Leader
 	option = {
 		name = legcities.47.a
 
-		ai_chance = {
-			factor = 100
-		}
-
 		hidden_effect = {
 
 			retire_country_leader = yes
@@ -4034,10 +4022,6 @@ country_event = { # Huang Leader
 	option = {
 		name = legcities.48.a
 
-		ai_chance = {
-			factor = 100
-		}
-
 		hidden_effect = {
 
 			retire_country_leader = yes
@@ -4067,10 +4051,6 @@ country_event = { # Big Ears
 
 	option = {
 		name = legcities.49.a
-
-		ai_chance = {
-			factor = 100
-		}
 
 		hidden_effect = {
 

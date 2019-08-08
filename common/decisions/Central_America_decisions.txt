@@ -433,7 +433,7 @@ Forming_Central_America = {
 					set_popularities = {
 							totalist = 1
 							syndicalist = 1
-							democratic_socialist = 7
+							radical_socialist = 7
 							social_democrat = 20
 							social_liberal = 21
 							market_liberal = 18
@@ -727,7 +727,7 @@ Forming_Central_America = {
 					set_popularities = {
 							totalist = 2
 							syndicalist = 4
-							democratic_socialist = 5
+							radical_socialist = 5
 							social_democrat = 6
 							social_liberal = 5
 							market_liberal = 8
@@ -875,7 +875,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -892,7 +892,7 @@ Forming_Central_America = {
 			GUA = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 
@@ -942,7 +942,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -954,7 +954,7 @@ Forming_Central_America = {
 					tag = GUA
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 			}
@@ -1009,7 +1009,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -1021,7 +1021,7 @@ Forming_Central_America = {
 					tag = GUA
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 			}
@@ -1085,7 +1085,7 @@ Forming_Central_America = {
 					tag = GUA
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 			}
@@ -1093,7 +1093,7 @@ Forming_Central_America = {
 			NIC = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 
@@ -1155,7 +1155,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 						has_government = social_liberal
 					}
@@ -1211,7 +1211,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -1262,7 +1262,7 @@ Forming_Central_America = {
 				AND = {
 					tag = GUA
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -1317,7 +1317,7 @@ Forming_Central_America = {
 				AND = {
 					tag = GUA
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -1328,7 +1328,7 @@ Forming_Central_America = {
 			}
 			NIC = {
 				OR = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 				}
 			}
@@ -1390,7 +1390,7 @@ Forming_Central_America = {
 					tag = GUA
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 
@@ -1408,7 +1408,7 @@ Forming_Central_America = {
 					tag = NIC
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 			}
@@ -1473,7 +1473,7 @@ Forming_Central_America = {
 					NIC = {
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 				}
@@ -1598,7 +1598,7 @@ Forming_Central_America = {
 					GUA = {
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 				}
@@ -1658,7 +1658,7 @@ Forming_Central_America = {
 					tag = NIC
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 
@@ -1680,7 +1680,7 @@ Forming_Central_America = {
 					tag = GUA
 					OR = {
 						has_government = social_democrat
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 				}
 			}
@@ -1751,7 +1751,7 @@ Forming_Central_America = {
 			has_country_flag = CEN_revolutionary_pact_founded_country
 			NIC = {
 				OR = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 				}
 				is_in_faction = no
@@ -2330,7 +2330,7 @@ Forming_Central_America = {
 					}
 					NIC = {
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -2453,7 +2453,7 @@ Forming_Central_America = {
 					GUA = {
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 				}
@@ -3190,7 +3190,7 @@ Forming_Central_America = {
 					}
 					NIC = {
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -3317,7 +3317,7 @@ Forming_Central_America = {
 					GUA = {
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 				}
@@ -3686,7 +3686,7 @@ Forming_Central_America = {
 					GUA = {
 						exists = yes
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -3716,7 +3716,7 @@ Forming_Central_America = {
 					NIC = {
 						exists = yes
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -3801,7 +3801,7 @@ Forming_Central_America = {
 						exists = yes
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 					NOT = {
@@ -3849,7 +3849,7 @@ Forming_Central_America = {
 						exists = yes
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 					NOT = {
@@ -4140,7 +4140,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4155,7 +4155,7 @@ Forming_Central_America = {
 				AND = {
 					tag = GUA
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4391,7 +4391,7 @@ Forming_Central_America = {
 				AND = {
 					tag = NIC
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4406,7 +4406,7 @@ Forming_Central_America = {
 				AND = {
 					tag = GUA
 					OR = {
-						has_government = democratic_socialist
+						has_government = radical_socialist
 						has_government = social_democrat
 					}
 				}
@@ -4667,7 +4667,7 @@ Forming_Central_America = {
 					GUA = {
 						exists = yes
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -4697,7 +4697,7 @@ Forming_Central_America = {
 					NIC = {
 						exists = yes
 						OR = {
-							has_government = democratic_socialist
+							has_government = radical_socialist
 							has_government = social_democrat
 						}
 					}
@@ -4782,7 +4782,7 @@ Forming_Central_America = {
 						exists = yes
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 					NOT = {
@@ -4830,7 +4830,7 @@ Forming_Central_America = {
 						exists = yes
 						OR = {
 							has_government = social_democrat
-							has_government = democratic_socialist
+							has_government = radical_socialist
 						}
 					}
 					NOT = {

@@ -92,7 +92,7 @@ INC_the_resistance_decisions = {
 		days_remove = 60
 		modifier = {
 			political_power_gain = -0.05
-			democratic_socialist_drift = 0.05
+			radical_socialist_drift = 0.05
 		}
 
 		days_re_enable = 50
@@ -1693,7 +1693,7 @@ INC_land_reform_decisions = {
 		days_remove = 120
 		modifier = {
 			political_power_gain = -0.05
-			democratic_socialist_drift = 0.05
+			radical_socialist_drift = 0.05
 			stability_weekly = -0.003
 		}
 
@@ -1704,11 +1704,11 @@ INC_land_reform_decisions = {
 			factor = 0
 			modifier = {
 				add = 3
-				democratic_socialist > 0.25
+				radical_socialist > 0.25
 			}
 			modifier = {
 				add = 10
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		complete_effect = {

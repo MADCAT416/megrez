@@ -48,7 +48,7 @@ country_event = {
 
             set_popularities = {
                 totalist = 2
-                democratic_socialist = 4
+                radical_socialist = 4
                 syndicalist = 3
                 social_democrat = 18
                 social_liberal = 4
@@ -84,7 +84,7 @@ country_event = {
 
             set_popularities = {
                 totalist = 2
-                democratic_socialist = 7
+                radical_socialist = 7
                 syndicalist = 6
                 social_democrat = 8
                 social_liberal = 5
@@ -120,7 +120,7 @@ country_event = {
 
         set_popularities = {
             totalist = 9
-            democratic_socialist = 7
+            radical_socialist = 7
             syndicalist = 6
             social_democrat = 6
             social_liberal = 52

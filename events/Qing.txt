@@ -106,7 +106,7 @@ country_event = { # The New Reformation - Political
 		trigger = {
 			NOT = {
 				has_government = totalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -645,7 +645,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -749,7 +749,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -847,7 +847,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1418,7 +1418,7 @@ country_event = { # Intelectualls demand constitutional monarchy!
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1545,7 +1545,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1670,7 +1670,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1774,10 +1774,6 @@ country_event = { # Students uprising
 	option = {
 		name = qing.200.a
 
-		ai_chance = {
-			factor = 30
-		}
-
 		add_political_power = -100
 		clr_country_flag = CSX_sec_REB
 	}
@@ -1808,10 +1804,6 @@ country_event = { # Intellectuals give support to Kuomitang
 
 	option = {
 		name = qing.21.a
-
-		ai_chance = {
-			factor = 30
-		}
 
 		set_country_flag = Shichang_died
 
@@ -1846,10 +1838,6 @@ country_event = { # Intellectuals give support to Kuomitang
 
 	option = {
 		name = qing.22.a
-
-		ai_chance = {
-			factor = 30
-		}
 
 		add_political_power = -100
 	}
@@ -2448,7 +2436,7 @@ country_event = { # The German Coup
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -3970,10 +3958,6 @@ country_event = { # The AoG are joining the Empire
 
 	option = {
 		name = qing.68.a
-
-		ai_chance = {
-			factor = 70
-		}
 
 		add_political_power = 200
 		annex_country = {
@@ -7044,7 +7028,7 @@ country_event = { # Qing Demands
 	}
 
 	option = {
-		name = qing.147.a
+		name = qing.147.b
 
 		ai_chance = {
 			factor = 1

@@ -402,7 +402,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -422,7 +422,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -443,7 +443,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -463,7 +463,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -483,7 +483,7 @@ ideas = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -781,7 +781,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = syndicalist
 					has_government = totalist
 				}
@@ -798,7 +798,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = syndicalist
 					has_government = totalist
 				}
@@ -814,7 +814,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = syndicalist
 					has_government = totalist
 				}
@@ -832,7 +832,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = social_democrat
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = syndicalist
 					has_government = totalist
 				}

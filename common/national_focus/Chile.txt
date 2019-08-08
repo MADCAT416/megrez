@@ -1214,7 +1214,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_helicopter_rides"
 			army_experience = -10
 			add_popularity = {
-				ideology = democratic_socialist popularity = -0.10
+				ideology = radical_socialist popularity = -0.10
 			}
 
 			add_popularity = {
@@ -1264,7 +1264,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1284,7 +1284,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1304,7 +1304,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1324,7 +1324,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1344,7 +1344,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1368,7 +1368,7 @@ focus_tree = {
 		relative_position_id = CHL_the_third_chairman
 		cost = 10
 		available = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_conciliation"
@@ -1387,7 +1387,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1436,7 +1436,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1485,7 +1485,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1505,7 +1505,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -1554,7 +1554,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 			}
 		}
@@ -2762,7 +2762,7 @@ focus_tree = {
 				ideology = syndicalist popularity = -0.10
 			}
 			add_popularity = {
-				ideology = democratic_socialist popularity = -0.10
+				ideology = radical_socialist popularity = -0.10
 			}
 			add_war_support = 0.05
 		}
@@ -3002,7 +3002,7 @@ focus_tree = {
 				ideology = syndicalist popularity = -0.05
 			}
 			add_popularity = {
-				ideology = democratic_socialist popularity = -0.05
+				ideology = radical_socialist popularity = -0.05
 			}
 			add_stability = 0.10
 		}

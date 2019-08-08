@@ -17,9 +17,6 @@ country_event = {
 
 	option = {
 		name = col.1.a
-		ai_chance = {
-			factor = 100
-		}
 	}
 }
 
@@ -112,7 +109,7 @@ country_event = { #elections
 			desc = "POLITICS_JORGE_GAITAN_DESC"
 			picture = "Portrait_Columbia_Jorge_Gaitan.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_ideas = COL_Ismael_Perdomo_Borrero_hog_sde
@@ -120,7 +117,7 @@ country_event = { #elections
 		add_ideas = COL_Colonel_Clemente_Escalona_Labarces_eco_rso
 		add_ideas = COL_Eduardo_Zalamea_Borda_sec_rso
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		add_political_power = -100
@@ -129,7 +126,7 @@ country_event = { #elections
 			set_country_flag = COL_unir
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.08
 		}
 	}

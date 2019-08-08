@@ -76,9 +76,6 @@ country_event = { # Black Monday hit Siam
 
 	option = {
 		name = siamn.4.a # Mein Gott
-		ai_chance = {
-			factor = 100
-		}
 		add_political_power = -100
 		add_stability = -0.40 # WtT
 		add_timed_idea = {
@@ -646,7 +643,7 @@ country_event = { # Pridi and his Yellow Cover Book
 				popularity = 0.10
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.02
 			}
 			add_popularity = {
@@ -718,7 +715,7 @@ country_event = { # Prajadhipok strikes back!
 				popularity = 0.04
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.01
 			}
 			add_popularity = {
@@ -835,7 +832,7 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 		}
@@ -896,7 +893,7 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				popularity = -0.01
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.03
 			}
 		}
@@ -1184,7 +1181,7 @@ country_event = { # War it is then (All)
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			add_stability = 0.10 # WtT - Player's Buff
@@ -1198,11 +1195,11 @@ country_event = { # War it is then (All)
 			}
 			set_cosmetic_tag = SIA_Parliament
 			set_politics = {
-				ruling_party = democratic_socialist
+				ruling_party = radical_socialist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.20
 			}
 			add_ideas = { # Syndie Cabinet
@@ -1310,7 +1307,7 @@ country_event = { # War it is then (All)
 			}
 		}
 		start_civil_war = { # Parliamentarians
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			size = 0.3
 			capital = 824 # Rayong - Parliamentarians
 			states = {
@@ -1341,7 +1338,7 @@ country_event = { # War it is then (All)
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			set_cosmetic_tag = SIA_Parliament
@@ -1409,7 +1406,6 @@ country_event = { # Rebel controling Bangkok (AI event)
 		set_global_flag = SIA_Civil_War_Ended
 
 		SIA = {
-			set_capital = 289 # Bangkok
 			add_stability = 0.05 # WtT
 			set_cosmetic_tag = SIA
 
@@ -1442,6 +1438,7 @@ country_event = { # Rebel controling Bangkok (AI event)
 
 			# CW Template CleanUp
 			SIA_demobilize_forces = yes
+			set_capital = 289 # Bangkok
 		}
 	}
 	option = {
@@ -1452,7 +1449,6 @@ country_event = { # Rebel controling Bangkok (AI event)
 		set_global_flag = SIA_Civil_War_Ended
 
 		SIA = {
-			set_capital = 289 # Bangkok
 			add_stability = 0.05 # WtT
 
 			# Remove Royalist Commander
@@ -1484,6 +1480,7 @@ country_event = { # Rebel controling Bangkok (AI event)
 
 			# CW Template Cleanup
 			SIA_demobilize_forces = yes
+			set_capital = 289 # Bangkok
 		}
 	}
 }
@@ -1626,7 +1623,7 @@ country_event = { # Ultimatum results
 		}
 	}
 	option = {
-		name = siamn.19.b # They surrendered (democratic_socialist)
+		name = siamn.19.b # They surrendered (radical_socialist)
 		trigger = {
 			has_global_flag = SIA_government_surrendered
 			has_global_flag = Plaek_Royalist
@@ -1803,7 +1800,7 @@ country_event = { # Royalist Rebel Surrender (AI side)
 	}
 
 	option = {
-		name = siamn.21.a # They surrendered (democratic_socialist)
+		name = siamn.21.a # They surrendered (radical_socialist)
 		set_global_flag = SIA_Civil_War_Ended
 
 		SIA = {
@@ -2043,7 +2040,7 @@ country_event = { # 1936 General Election
 				popularity = 0.03
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -5184,9 +5181,6 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 
 	option = {
 		name = siamn.62.a # Off to Tarutao they go!
-		ai_chance = {
-			factor = 100
-		}
 
 		set_country_flag = SIA_Tarutao_Active
 		hidden_effect = {
@@ -5233,7 +5227,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.06
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.06
 			}
 			add_popularity = {
@@ -5275,7 +5269,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.07
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.07
 			}
 		}
@@ -6106,9 +6100,6 @@ country_event = { # Death of Rama VIII - xxxxxxx
 
 	option = {
 		name = siam.15.a # RIP for him
-		ai_chance = {
-			factor = 100
-		}
 	}
 }
 
@@ -6186,9 +6177,6 @@ country_event = { # Death of Paribatra Sukhumbhand (Paribatra Line of Sucession)
 
 	option = {
 		name = siam.15.a # RIP for him
-		ai_chance = {
-			factor = 100
-		}
 	}
 }
 country_event = { # Death of Chumbhotbongs Paribatra (Paribatra Line of Sucession) - xxxxxxx
@@ -6265,8 +6253,5 @@ country_event = { # Death of Chumbhotbongs Paribatra (Paribatra Line of Sucessio
 
 	option = {
 		name = siam.15.a # RIP for him
-		ai_chance = {
-			factor = 100
-		}
 	}
 }

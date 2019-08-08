@@ -482,7 +482,7 @@ country_event = { # De-Germanizing the AOG
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -751,7 +751,7 @@ country_event = { # Long live the Republic
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -825,7 +825,7 @@ country_event = { # Long live the Republic
 			create_country_leader = {
 				name = "Huang Xing"
 				desc = "ANTE_PUJIE_DESC"
-				picture = "CHI_Portrait_Huang_Xing.tga"
+				picture = "CHI_portrait_Huang_Xing.tga"
 				expire = "1965.1.1"
 				ideology = authoritarian_democrat_subtype
 				traits = {}

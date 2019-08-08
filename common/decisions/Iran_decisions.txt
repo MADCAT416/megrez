@@ -178,7 +178,7 @@ PER_ottos_are_weak_decision_category = {
 				factor = 100
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 90
 			}
 			modifier = {

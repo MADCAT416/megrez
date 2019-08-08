@@ -355,7 +355,7 @@ ideas = {
 			picture = officers_purged
 			modifier = {
 				syndicalist_drift = -0.05
-				democratic_socialist_drift = -0.05
+				radical_socialist_drift = -0.05
 				totalist_drift = -0.05
 			}
 		}

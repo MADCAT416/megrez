@@ -342,7 +342,7 @@ political_actions = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				any_enemy_country = { has_war_with = FROM }
 			}
 		}

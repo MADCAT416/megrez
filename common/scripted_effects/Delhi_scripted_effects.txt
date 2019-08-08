@@ -498,7 +498,7 @@ DEH_election_unionist = {
 DEH_election_socialist = {
 	if = {
 		limit = {
-			NOT = { has_government = democratic_socialist }
+			NOT = { has_government = radical_socialist }
 			NOT = { has_country_flag = Mohandas_Karamchand_Gandhi_dead }
 		}
 		create_country_leader = {
@@ -506,13 +506,13 @@ DEH_election_socialist = {
 			desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 			picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 	}
 	else_if = {
 		limit = {
-			NOT = { has_government = democratic_socialist }
+			NOT = { has_government = radical_socialist }
 			has_country_flag = Mohandas_Karamchand_Gandhi_dead
 			NOT = { has_country_flag = Nirmal_Kumar_Bose_dead }
 		}
@@ -521,13 +521,13 @@ DEH_election_socialist = {
 			desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 			picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 	}
 	else_if = {
 		limit = {
-			NOT = { has_government = democratic_socialist }
+			NOT = { has_government = radical_socialist }
 			has_country_flag = Mohandas_Karamchand_Gandhi_dead
 			has_country_flag = Nirmal_Kumar_Bose_dead
 		}
@@ -536,17 +536,17 @@ DEH_election_socialist = {
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "Portrait_BHC_Jawaharlal_Nehru.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 	}
 
 	if = {
-		limit = { NOT = { has_government = democratic_socialist } }
+		limit = { NOT = { has_government = radical_socialist } }
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
-	add_popularity = { ideology = democratic_socialist popularity = 0.2 }
+	add_popularity = { ideology = radical_socialist popularity = 0.2 }
 }

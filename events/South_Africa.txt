@@ -3747,7 +3747,7 @@ country_event = {
 		name = saf.100.a
 		add_stability = -0.02
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.1
 		}
 	}
@@ -3780,7 +3780,7 @@ country_event = {
 		name = saf.101.a
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = -0.1
 		}
 	}

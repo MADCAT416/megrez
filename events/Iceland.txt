@@ -1375,7 +1375,6 @@ country_event = { #Canada sent scout planes (ICE)
 
 	option = { #Thanks Canada!
 		name = ice.35.a
-		ai_chance = { factor = 100 }
 		ICE = {
 			add_manpower = 200
 			add_equipment_to_stockpile = {
@@ -1397,7 +1396,6 @@ country_event = { #Canada does not send fighter reinforcements (ICE)
 
 	option = { #Unfortunate
 		name = ice.36.a
-		ai_chance = { factor = 100 }
 	}
 }
 
@@ -2218,7 +2216,7 @@ country_event = { #Iceland's new government (ENG)
 				remove_ideas_with_trait = security_minister
 				add_ideas = ICE_Hedinn_Valdimarsson_sec_syn
 				add_popularity = { ideology = syndicalist popularity = 0.15 }
-				add_popularity = { ideology = democratic_socialist popularity = 0.05 }
+				add_popularity = { ideology = radical_socialist popularity = 0.05 }
 			}
 		}
 		ICE = { clr_country_flag = ICE_cod_war_on }
@@ -3205,7 +3203,6 @@ country_event = { #Iceland wants to join the ISAC (CAN)
 
 	option = {
 		name = ice.112.a
-		ai_chance = { factor = 100 }
 		ICE = {
 			add_to_tech_sharing_group = entente_research
 			set_country_flag = CAN_joined_ISAC
@@ -3266,7 +3263,6 @@ country_event = { #Canada sent fighter reinforcements
 
 	option = { #Thanks Canada!
 		name = ice.115.a
-		ai_chance = { factor = 100 }
 		ICE = {
 			add_manpower = 200
 			add_equipment_to_stockpile = {
@@ -3288,7 +3284,6 @@ country_event = { #Canada does not send fighter reinforcements
 
 	option = { #Unfortunate
 		name = ice.116.a
-		ai_chance = { factor = 100 }
 	}
 }
 
@@ -3324,7 +3319,6 @@ country_event = { #Canada sent bomber reinforcements
 
 	option = { #Thanks Canada!
 		name = ice.118.a
-		ai_chance = { factor = 100 }
 		ICE = {
 			add_manpower = 200
 			add_equipment_to_stockpile = {
@@ -3346,7 +3340,6 @@ country_event = { #Canada does not send bomber reinforcements
 
 	option = { #Unfortunate
 		name = ice.119.a
-		ai_chance = { factor = 100 }
 	}
 }
 
@@ -3367,14 +3360,14 @@ country_event = { #Forming the government
 		ai_chance = { factor = 70 }
 		set_politics = { ruling_party = syndicalist elections_allowed = yes }
 		add_popularity = { ideology = syndicalist popularity = 0.15 }
-		add_popularity = { ideology = democratic_socialist popularity = 0.05 }
+		add_popularity = { ideology = radical_socialist popularity = 0.05 }
 	}
 
 	option = { #Farmers Focus
 		name = ice.130.b
 		ai_chance = { factor = 30 }
-		set_politics = { ruling_party = democratic_socialist elections_allowed = yes }
-		add_popularity = { ideology = democratic_socialist popularity = 0.15 }
+		set_politics = { ruling_party = radical_socialist elections_allowed = yes }
+		add_popularity = { ideology = radical_socialist popularity = 0.15 }
 		add_popularity = { ideology = syndicalist popularity = 0.05 }
 	}
 }
@@ -3391,7 +3384,6 @@ country_event = { #Iceland wants to join the Phalanstere International
 
 	option = {
 		name = ice.131.a
-		ai_chance = { factor = 100 }
 		ICE = {
 			add_to_tech_sharing_group = phalanstere_research
 			set_country_flag = FRA_joined_ISAC
@@ -3739,7 +3731,7 @@ country_event = { #Indepence Victory
 		add_popularity = { ideology = social_conservative popularity = 0.10 }
 		hidden_effect = {
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = democratic_socialist popularity = 0.01 }
+			add_popularity = { ideology = radical_socialist popularity = 0.01 }
 			add_popularity = { ideology = syndicalist popularity = 0.03 }
 			add_popularity = { ideology = national_populist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }

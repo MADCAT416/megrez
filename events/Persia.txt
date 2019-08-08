@@ -755,10 +755,10 @@ country_event = { # radsoc gov
 			remove_unit_leader = 698
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.30
 		}
 		hidden_effect = {
@@ -1370,7 +1370,7 @@ country_event = { # socialist protests
 		name = pers.37.a
 		add_stability = -0.02
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.01
 		}
 	}
@@ -1402,7 +1402,7 @@ country_event = { # 1938 PRESIDENTIAL ELECTION
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -2159,7 +2159,7 @@ country_event = { # EVENT FOR IRAN - germany refused oil and continue guarantee
 	}
 
 	option = { # back down
-		name = pers.51.a
+		name = pers.51.b
 		ai_chance = {
 			factor = 50
 		}
@@ -2231,7 +2231,7 @@ country_event = { # EVENT FOR ARMENIA - iran wants help against azerbaijan
 	}
 
 	option = { # no thx
-		name = pers.58.a
+		name = pers.58.b
 		ai_chance = {
 			factor = 20
 		}
@@ -2267,7 +2267,7 @@ country_event = { # EVENT FOR IRAN - armenia doesnt wanna help
 	}
 
 	option = { # gosh darn, we cant do this, no fighty plz azerbaijan
-		name = pers.59.a
+		name = pers.59.b
 		ai_chance = {
 			factor = 0
 		}

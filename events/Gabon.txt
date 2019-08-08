@@ -21,11 +21,6 @@ country_event = {
 	#has_global_flag = MAF_collapse
 	#}
 
-	#mean_time_to_happen = {
-	#days = 0
-	#}
-
-
 	option = {
 		name = gab.1.a
 		add_stability = 0.1
@@ -37,17 +32,17 @@ country_event = {
 			desc = "POLITICS_CHARLESNTCHORE_DESC"
 			picture = "Portrait_GAB_Tchorere.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_country_flag = GAB_radsoc_collapse
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no    }
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 59
+            radical_socialist = 59
             syndicalist = 6
             social_democrat = 18
             social_liberal = 1
@@ -407,7 +402,7 @@ country_event = { # First Gabon Syndie Convention
 	option = {
 		name = gab.16.a
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		add_political_power = 50

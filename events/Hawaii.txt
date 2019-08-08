@@ -221,7 +221,7 @@ country_event = { # The March onto Honolulu
 		}
 	}
 	option = { # Send in the Police
-		name = hawaii.5.a
+		name = hawaii.5.b
 		ai_chance = {
 			factor = 60
 		}
@@ -243,9 +243,6 @@ country_event = { # The hilo Massacre
 
 	option = { # Fight these syndies
 		name = hawaii.6.a
-		ai_chance = {
-			factor = 20
-		}
 		hidden_effect = {
 			country_event = {
 				id = hawaii.8
@@ -309,7 +306,7 @@ country_event = { # the Hawaiian Revolution
 		remove_ideas = HAW_political_chaos_idea
 		remove_ideas = HAW_great_strike_idea
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			last_election = "1936.11.16"
 			election_frequency = 48
 			elections_allowed = no
@@ -1233,14 +1230,14 @@ country_event = { # Elections of the General Secretary
 	option = { # Radical Socialist
 		name = hawaii.64.c
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
 			add_ideas = HAW_Henry_Alexander_Baldwin_hog_mli
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}

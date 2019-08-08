@@ -40,7 +40,7 @@ country_event = { #First Faction: Partido Nacional Revolucionario
 	option = { #The splits begin to show
 		name = centro.002.a
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.04
 		}
 		hidden_effect = {
@@ -181,7 +181,7 @@ country_event = { #Moreno, Lost and Found
 			factor = 50
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.03
 		}
 	}
@@ -272,7 +272,7 @@ country_event = { #Status of Power
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -310,7 +310,7 @@ country_event = { #Status of the Army
 		}
 		add_political_power = -30
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -408,7 +408,7 @@ country_event = { #Status of Industry
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -472,7 +472,7 @@ country_event = { #Status of the Future Elections
 			popularity = 0.07
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.07
 		}
 		hidden_effect = {
@@ -499,7 +499,7 @@ country_event = { # Calculate who won
 	#If one has 4, ezpz, they win
 	#if one doesnt have 4, but a majority, they win too
 	#else in a draw you choose, but no pop bonus
-	#ai should be democratic_socialist/social_democrat /syndicalist /totalist = 0.33/0.33/0.25/0.083
+	#ai should be radical_socialist/social_democrat /syndicalist /totalist = 0.33/0.33/0.25/0.083
 
 	hidden = yes
 
@@ -711,7 +711,7 @@ country_event = { #Maixmistas Victory
 				desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "Portrait_CEN_Augusto_Cesar_Sandino.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -786,7 +786,7 @@ country_event = { #Sindicalistas Victory
 				desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "Portrait_CEN_Augusto_Cesar_Sandino.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -820,10 +820,10 @@ country_event = { #Revolutionaries Victory
 	option = {
 		name = centro.015.a
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		add_ideas = CEN_Carlos_Salgado_hog_rso
@@ -832,7 +832,7 @@ country_event = { #Revolutionaries Victory
 		add_ideas = CEN_Celestino_Zeledon_sec_sde
 		add_ideas = CEN_Norberto_Salinas_de_Aguilar_int_rso
 		hidden_effect = {
-			set_country_flag = CEN_congress_flag_democratic_socialist
+			set_country_flag = CEN_congress_flag_radical_socialist
 			if = {
 				limit = {
 					has_country_flag = CEN_soc_dem_COS
@@ -861,7 +861,7 @@ country_event = { #Revolutionaries Victory
 				desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "Portrait_CEN_Augusto_Cesar_Sandino.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -936,7 +936,7 @@ country_event = { #Moderados Victory
 				desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "Portrait_CEN_Augusto_Cesar_Sandino.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -997,7 +997,7 @@ country_event = { #Deadlock!
 				desc = "POLITICS_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "Portrait_CEN_Augusto_Cesar_Sandino.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -1079,19 +1079,19 @@ country_event = { #Deadlock!
 		add_ideas = CEN_Esteban_Guardiola_sec_sde
 		add_ideas = CEN_Clemente_Marroquin_int_sde
 	}
-	option = { #democratic_socialist
+	option = { #radical_socialist
 		name = centro.017.e
 		ai_chance = {
 			factor = 50
 		}
 		hidden_effect = {
-			set_country_flag = CEN_congress_flag_democratic_socialist
+			set_country_flag = CEN_congress_flag_radical_socialist
 		}
 		trigger = {
 			has_country_flag = CEN_rad_draw
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		add_ideas = CEN_Vicente_Mejia_Colindres_hog_sde
 		add_ideas = CEN_Manuel_Galich_for_rso
@@ -1130,7 +1130,7 @@ country_event = { #The Capital Debate
 				owns_state = 313
 			}
 			AND = {
-				has_country_flag = CEN_congress_flag_democratic_socialist
+				has_country_flag = CEN_congress_flag_radical_socialist
 				owns_state = 317
 			}
 			AND = {
@@ -1185,7 +1185,7 @@ country_event = { #The Capital Debate
 			factor = 50
 		}
 		trigger = {
-			has_country_flag = CEN_congress_flag_democratic_socialist
+			has_country_flag = CEN_congress_flag_radical_socialist
 			owns_state = 317
 		}
 		set_capital = 317
@@ -1472,7 +1472,7 @@ country_event = { # Mini cult around Sandino
 
 	trigger = {
 		tag = CEN
-		has_government = democratic_socialist
+		has_government = radical_socialist
 		has_country_flag = CEN_ideo_chosen
 	}
 	fire_only_once = yes
@@ -1522,7 +1522,7 @@ country_event = { #Resitance to change, hispanification etc
 			factor = 50
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = -0.03
 		}
 		add_political_power = 70
@@ -1549,7 +1549,7 @@ country_event = { #Mexican respone to hispanification
 		tag = MEX
 		has_socialist_government = yes
 		CEN = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_country_flag = CEN_resistance_flag
 		}
 	}
@@ -1586,7 +1586,7 @@ country_event = { #War with the mexicans
 
 	trigger = {
 		tag = CEN
-		has_government = democratic_socialist
+		has_government = radical_socialist
 		has_country_flag = CEN_ideo_chosen
 		NOT = {
 			has_war = yes
@@ -1856,7 +1856,7 @@ country_event = { #rad soc resistance
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = -0.05
 		}
 	}

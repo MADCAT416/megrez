@@ -161,7 +161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_syndie_support
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = -3
 		y = 4
 		relative_position_id = FOP_the_three_main_issues
@@ -979,7 +979,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_call_on_european_help
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = 1
 		y = 3
 		relative_position_id = FOP_the_population_issue
@@ -1311,7 +1311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_global_call_for_equipment
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = 1
 		y = 2
 		relative_position_id = FOP_modernise_the_army
@@ -2333,7 +2333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_promote_socialism
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = 1
 		y = 1
 		relative_position_id = FOP_victory_for_socialism
@@ -2358,7 +2358,7 @@ focus_tree = {
 				popularity = 0.10
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.10
 			}
 		}
@@ -2590,7 +2590,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_jabcovsky_victory
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = 20
 		y = 0
 		cost = 0
@@ -2883,7 +2883,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.05
 			}
 		}
@@ -2920,7 +2920,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOP_jabcovsky_looks_out
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = 0
 		y = 4
 		relative_position_id = FOP_jabcovsky_victory
@@ -2940,7 +2940,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.1
 			}
 			set_country_flag = FOP_allow_immigration_flag

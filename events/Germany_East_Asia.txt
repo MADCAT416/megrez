@@ -490,7 +490,7 @@ country_event = { # Saigon Uprising
 				transfer_state = 286 # Saigon
 				transfer_state = 856 # Mekong Delta
 				set_politics = {
-					ruling_party = democratic_socialist
+					ruling_party = radical_socialist
 					last_election = "1885.6.9"
 					election_frequency = 48
 					elections_allowed = no
@@ -498,7 +498,7 @@ country_event = { # Saigon Uprising
 
                 set_popularities = {
                     totalist = 18
-                    democratic_socialist = 40
+                    radical_socialist = 40
                     syndicalist = 19
                     social_democrat = 23
                     social_liberal = 0
@@ -865,9 +865,6 @@ country_event = { #
 
 	option = {
 		name = Ostasien.19.a # We will fight forever
-		ai_chance = {
-			factor = 10
-		}
 	}
 }
 country_event = { # Victory
@@ -1161,7 +1158,7 @@ country_event = {
 
                 set_popularities = {
                     totalist = 7
-                    democratic_socialist = 24
+                    radical_socialist = 24
                     syndicalist = 5
                     social_democrat = 18
                     social_liberal = 1
@@ -1930,9 +1927,6 @@ country_event = { # German fleet arrived
 
 	option = { # Mighty Germany!
 		name = Ostasien.67.a
-		ai_chance = {
-			factor = 70
-		}
 		add_political_power = 50
 	}
 }

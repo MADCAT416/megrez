@@ -70,6 +70,19 @@ country_event = { # Economic policy
 		name = uob.2.a
 		ai_chance = {
 			factor = 35
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
 			ideology = totalist
@@ -91,6 +104,19 @@ country_event = { # Economic policy
 		name = uob.2.b
 		ai_chance = {
 			factor = 45
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		set_country_flag = ENG_tuc_economy_fem
 		add_popularity = {
@@ -112,11 +138,24 @@ country_event = { # Economic policy
 		name = uob.2.c
 		ai_chance = {
 			factor = 20
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		set_country_flag = ENG_tuc_economy_glais
 
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -144,6 +183,19 @@ country_event = { # Internal policy
 		name = uob.3.a
 		ai_chance = {
 			factor = 35
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
 			ideology = totalist
@@ -164,6 +216,19 @@ country_event = { # Internal policy
 		name = uob.3.b
 		ai_chance = {
 			factor = 45
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
 			ideology = syndicalist
@@ -184,9 +249,22 @@ country_event = { # Internal policy
 		name = uob.3.c
 		ai_chance = {
 			factor = 20
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -214,6 +292,19 @@ country_event = { # Military policy
 		name = uob.5.a
 		ai_chance = {
 			factor = 35
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
 			ideology = totalist
@@ -235,6 +326,19 @@ country_event = { # Military policy
 		name = uob.5.b
 		ai_chance = {
 			factor = 45
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_RADICAL_SOCIALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
 			ideology = syndicalist
@@ -256,9 +360,22 @@ country_event = { # Military policy
 		name = uob.5.c
 		ai_chance = {
 			factor = 20
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_SYNDICALIST
+					}
+				  has_game_rule = {
+						rule = ENG_start_election
+						option = ENG_START_TOTALIST
+					}
+				}
+		  }
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		set_country_flag = ENG_tuc_military_glais
@@ -523,7 +640,7 @@ country_event = { # Autonomist Victory
 		name = uob.9.a
 		retire_country_leader = yes
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		hidden_effect = {
 			add_ideas = ENG_Jim_Callaghan_hog_rso
@@ -636,7 +753,7 @@ country_event = { # No majority achieved
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		set_party_name = {
@@ -3189,7 +3306,7 @@ country_event = {
 	option = {
 		name = uob.84.b
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		ai_chance = {
 			factor = 100
@@ -3232,7 +3349,7 @@ country_event = {
 	option = {
 		name = uob.84.e
 		trigger = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 		ai_chance = {
 			factor = 0
@@ -4448,6 +4565,27 @@ country_event = {
 	option = {
 		ai_chance = {
 			factor = 1
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		name = uob.150.b
 	}
@@ -4740,6 +4878,23 @@ country_event = {
 		name = uob.158.a
 		ai_chance = {
 			factor = 45
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		custom_effect_tooltip = ENG_will_become_GBR
 
@@ -4839,6 +4994,23 @@ country_event = {
 		name = uob.158.b
 		ai_chance = {
 			factor = 5
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		add_political_power = -400
 	}
@@ -4847,6 +5019,23 @@ country_event = {
 		name = uob.158.c
 		ai_chance = {
 			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
 		}
 		set_politics = {
 			ruling_party = syndicalist
@@ -4871,9 +5060,26 @@ country_event = {
 		name = uob.158.e
 		ai_chance = {
 			factor = 25
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+				}
+		  }
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		retire_country_leader = yes
 		create_country_leader = {
@@ -4881,7 +5087,7 @@ country_event = {
 			desc = "POLITICS_BARBARA_CASTLE_DESC"
 			picture = "Portrait_England_Barbara_Castle.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_political_power = 200
@@ -4909,21 +5115,56 @@ country_event = {
 
 	option = { # Pass repressive laws
 		name = uob.201.a
+		ai_chance = {
+			factor = 33
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
+		}
 		hidden_effect = {
 			if = {
 				limit = {
-					has_completed_focus = ENG_merge
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_SUCCESS
+					}
 				}
-				random_list = {
-					70 = {
-						country_event = uob.204
-						} # Yay
-					30 = {
-						country_event = uob.205
-						} # Yay...?
-				}
+				country_event = uob.204
 				else = {
-					country_event = uob.205 # Yay...?
+					if = {
+						limit = {
+							has_completed_focus = ENG_merge
+						}
+						random_list = {
+							70 = {
+								country_event = uob.204
+							} # Yay
+							30 = {
+								country_event = uob.205
+							} # Yay...?
+						}
+						else = {
+							country_event = uob.205 # Yay...?
+						}
+					}
 				}
 			}
 		}
@@ -4931,21 +5172,56 @@ country_event = {
 
 	option = { # Arrest our enemies
 		name = uob.201.b
+		ai_chance = {
+			factor = 33
+			modifier = {
+		    factor = 0
+		    OR = {
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+					}
+				}
+		  }
+		}
 		hidden_effect = {
 			if = {
 				limit = {
-					has_completed_focus = ENG_purge_militia_remains
+				  has_game_rule = {
+						rule = ENG_revolution
+						option = ENG_REVOLUTION_SUCCESS
+					}
 				}
-				random_list = {
-					70 = {
-						country_event = uob.207
-						} # Yay
-					30 = {
-						country_event = uob.208
-						} # Yay...?
-				}
+				country_event = uob.207
 				else = {
-					country_event = uob.208 # Yay...?
+					if = {
+						limit = {
+							has_completed_focus = ENG_purge_militia_remains
+						}
+						random_list = {
+							70 = {
+								country_event = uob.207
+								} # Yay
+							30 = {
+								country_event = uob.208
+								} # Yay...?
+						}
+						else = {
+							country_event = uob.208 # Yay...?
+						}
+					}
 				}
 			}
 		}
@@ -4953,21 +5229,56 @@ country_event = {
 
 	option = { # Proclaim martial law
 		name = uob.201.c
+		ai_chance = {
+			factor = 33
+			modifier = {
+		    factor = 0
+			  has_game_rule = {
+					rule = ENG_revolution
+					option = ENG_REVOLUTION_SUCCESS
+				}
+		  }
+		}
 		hidden_effect = {
 			if = {
 				limit = {
-					has_country_flag = lawrence_back
+			    OR = {
+					  has_game_rule = {
+							rule = ENG_revolution
+							option = ENG_REVOLUTION_LAWRENCE_COUP_EMPIRE_RETURNS
+						}
+						has_game_rule = {
+							rule = ENG_revolution
+							option = ENG_REVOLUTION_LAWRENCE_COUP_LAWRENCE_LEADER
+						}
+						has_game_rule = {
+							rule = ENG_revolution
+							option = ENG_REVOLUTION_LAWRENCE_COUP_SYNDICALIST
+						}
+						has_game_rule = {
+							rule = ENG_revolution
+							option = ENG_REVOLUTION_LAWRENCE_COUP_RADICAL_SOCIALIST
+						}
+					}
 				}
-				random_list = {
-					30 = {
-						country_event = uob.211
-						} # Yay...?
-					70 = {
-						country_event = uob.212
-						} # Nay
-				}
-				else = {
-					country_event = uob.211 # Yay...?
+				country_event = uob.212
+				else ={
+					if = {
+						limit = {
+							has_country_flag = lawrence_back
+						}
+						random_list = {
+							30 = {
+								country_event = uob.211
+								} # Yay...?
+							70 = {
+								country_event = uob.212
+								} # Nay
+						}
+						else = {
+							country_event = uob.211 # Yay...?
+						}
+					}
 				}
 			}
 		}
@@ -5945,9 +6256,6 @@ country_event = {
 	option = {
 		name = uob.350.a
 		add_political_power = 25
-		ai_chance = {
-			factor = 100
-		}
 		set_country_flag = WK2W
 	}
 }
@@ -6716,7 +7024,7 @@ country_event = {
 			desc = "POLITICS_ERIC_BLAIR_DESC"
 			picture = "Portrait_England_Eric_Blair.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_ideas = ENG_Harry_Pollitt_hog_syn
@@ -6725,13 +7033,13 @@ country_event = {
 		add_ideas = ENG_James_Maxton_for_syn
 		add_political_power = -50
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 		}
 		hidden_effect = {
 			set_party_name = {
-				ideology = democratic_socialist
-				long_name = ENG_BLR_democratic_socialist_party_long
-				name = ENG_BLR_democratic_socialist_party
+				ideology = radical_socialist
+				long_name = ENG_BLR_radical_socialist_party_long
+				name = ENG_BLR_radical_socialist_party
 			}
 		}
 	}
@@ -6940,7 +7248,20 @@ country_event = {
 	id = uobflavour.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event uobflavour.3"}
 	title = uobflavour.3.t
-	desc = uobflavour.3.d
+	desc = {
+		text = uobflavour.3..d_1
+		trigger = {
+			NOT = {
+				has_completed_focus = ENG_bletchley_park
+			}
+		}
+	}
+	desc = {
+		text = uobflavour.3..d_2
+		trigger = {
+			has_completed_focus = ENG_bletchley_park
+		}
+	}
 	picture = GFX_report_event_physics_lab_02
 
 	is_triggered_only = yes
@@ -7117,7 +7438,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7147,7 +7468,7 @@ country_event = {
 				factor = 0.5
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 0
 			}
 		}
@@ -7171,7 +7492,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7197,7 +7518,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7231,7 +7552,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 1.5
 			}
 			modifier = {
@@ -7261,7 +7582,7 @@ country_event = {
 				factor = 1.5
 			}
 			modifier = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				factor = 0.5
 			}
 			modifier = {
@@ -7871,7 +8192,7 @@ country_event = { # The Crystal Palace?
 		}
 		add_political_power = -40
 		hidden_effect = {
-			country_event = {
+			news_event = {
 				id = uobflavour.28
 				days = 150
 			}
@@ -7896,7 +8217,7 @@ country_event = { # The Crystal Palace?
 	}
 }
 
-country_event = { # The Worker's Palace
+news_event = { # The Worker's Palace
 	id = uobflavour.28
 	immediate = {log = "[GetDateText]: [Root.GetName]: event uobflavour.28"}
 	title = uobflavour.28.t

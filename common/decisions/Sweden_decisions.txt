@@ -290,7 +290,7 @@ SWE_geopolitical_actions = {
 				AND = {
 					OR = {
 						has_government = syndicalist
-						has_government = democratic_socialist
+						has_government = radical_socialist
 					}
 					FIN = {
 						has_socialist_government = yes

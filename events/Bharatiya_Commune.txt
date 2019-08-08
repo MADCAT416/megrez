@@ -133,7 +133,7 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -208,7 +208,7 @@ country_event = {
 		}
 		add_political_power = 50
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -387,7 +387,7 @@ country_event = {
 		}
 		add_political_power = -100
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -474,7 +474,7 @@ country_event = {
 			desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 			picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 				mahatma
 			}
@@ -558,7 +558,7 @@ country_event = {
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {
 					mahatma
 				}
@@ -591,7 +591,7 @@ country_event = {
 			desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 			picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 				mahatma
 			}
@@ -634,7 +634,7 @@ country_event = {
 			desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 			picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 				mahatma
 			}
@@ -682,7 +682,7 @@ country_event = {
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {
 					mahatma
 				}
@@ -753,7 +753,7 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 4
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 			modifier = {
 				factor = 0.5
@@ -924,7 +924,7 @@ country_event = {
 				desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 				picture = "Portrait_BHC_Jawaharlal_Nehru.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 			else = {
@@ -933,7 +933,7 @@ country_event = {
 					desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 					picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 					expire = "1965.1.1"
-					ideology = democratic_socialist_subtype
+					ideology = radical_socialist_subtype
 					traits = {}
 				}
 			}
@@ -2410,7 +2410,7 @@ country_event = {
 				popularity = 0.12
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.30
 			}
 			add_popularity = {
@@ -2422,7 +2422,7 @@ country_event = {
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {
 					mahatma
 				}
@@ -2680,7 +2680,7 @@ country_event = {
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = -0.10
 		}
 		if = {
@@ -2699,7 +2699,7 @@ country_event = {
 			desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 			picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 	}
@@ -2748,7 +2748,7 @@ country_event = {
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 		}
@@ -2960,15 +2960,15 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.8
-			democratic_socialist > 0.4
+			radical_socialist > 0.4
 		}
 		modifier = {
 			factor = 0.8
-			democratic_socialist > 0.2
+			radical_socialist > 0.2
 		}
 		modifier = {
 			factor = 1.2
-			democratic_socialist < 0.1
+			radical_socialist < 0.1
 		}
 	}
 
@@ -3002,14 +3002,14 @@ country_event = {
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 		}
 		set_country_flag = BHC_agrarian_war
 		add_stability = -0.10
 		start_civil_war = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			size = 0.5
 			keep_unit_leaders = {
 				550
@@ -3021,7 +3021,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = BHC
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 				set_cosmetic_tag = BHC_AGR
 				add_equipment_to_stockpile = {
@@ -3030,7 +3030,7 @@ country_event = {
 				}
 				add_political_power = 200
 				add_popularity = {
-					ideology = democratic_socialist
+					ideology = radical_socialist
 					popularity = 0.25
 				}
 			}
@@ -3071,7 +3071,7 @@ country_event = {
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 				expire = "1965.1.1"
-				ideology = democratic_socialist_subtype
+				ideology = radical_socialist_subtype
 				traits = {}
 			}
 		}
@@ -3081,7 +3081,7 @@ country_event = {
 			popularity = -0.10
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.10
 		}
 		add_political_power = -300
@@ -3109,7 +3109,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = BHC
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					#controls_state = 431
 				}
 				save_event_target_as = revolter
@@ -3134,15 +3134,15 @@ country_event = {
 			desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 			picture = "Portrait_BHC_Nirmal_Kumar_Bose.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.10
 		}
 		remove_all_ministers = yes
@@ -3365,12 +3365,12 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = 20
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -3510,12 +3510,12 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -60
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -3655,12 +3655,12 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -20
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -3777,12 +3777,12 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -30
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -3967,12 +3967,12 @@ country_event = {
 			factor = 35
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -80
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -4353,7 +4353,7 @@ country_event = {
 		name = beng.107.a
 		add_political_power = 100
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_all_ministers = yes
@@ -4485,7 +4485,7 @@ country_event = {
 		}
 		add_political_power = 50
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_all_ministers = yes
@@ -4548,7 +4548,7 @@ country_event = {
 			factor = 75
 			modifier = {
 				factor = 0
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 			modifier = {
 				factor = 0.5
@@ -4572,7 +4572,7 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 0
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 			modifier = {
 				factor = 0.5
@@ -4596,7 +4596,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 		}
@@ -4792,7 +4792,7 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -100
@@ -4888,7 +4888,7 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 2
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		add_political_power = -100
@@ -5888,7 +5888,7 @@ country_event = {
 		}
 		add_political_power = 20
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6017,7 +6017,7 @@ country_event = {
 		}
 		add_political_power = -40
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6123,7 +6123,7 @@ country_event = {
 		}
 		add_political_power = 20
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6252,7 +6252,7 @@ country_event = {
 		}
 		add_political_power = -60
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6449,7 +6449,7 @@ country_event = {
 		}
 		add_political_power = -40
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6810,7 +6810,7 @@ country_event = {
 		name = beng.133.a
 		add_political_power = 100
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_all_ministers = yes

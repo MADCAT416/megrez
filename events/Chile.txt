@@ -94,7 +94,7 @@ country_event = { #The Third Chairman!
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 20
+            radical_socialist = 20
             syndicalist = 52
             social_democrat = 8
             social_liberal = 1
@@ -116,7 +116,7 @@ country_event = { #The Third Chairman!
 			desc = "POLITICS_SALVADOR_ALLENDE_DESC"
 			picture = "Portrait_Chile_Salvador_Allende.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_country_flag = CHLallende
@@ -126,12 +126,12 @@ country_event = { #The Third Chairman!
 		add_ideas = CHL_Manuel_Salinas_sec_sde
 		add_ideas = CHL_Juan_Rios_Morales_int_sde
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no    }
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 59
+            radical_socialist = 59
             syndicalist = 6
             social_democrat = 18
             social_liberal = 1
@@ -168,7 +168,7 @@ country_event = { #The Third Chairman!
 
         set_popularities = {
             totalist = 39
-            democratic_socialist = 18
+            radical_socialist = 18
             syndicalist = 18
             social_democrat = 14
             social_liberal = 1
@@ -311,7 +311,7 @@ country_event = { #The Fourth Chairman!
 			desc = "POLITICS_GABRIELA_MISTRAL_DESC"
 			picture = "Portrait_Chile_Gabriela.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_ideas = CHL_Salvador_Allende_hog_rso
@@ -321,12 +321,12 @@ country_event = { #The Fourth Chairman!
 		add_ideas = CHL_Julio_Antonio_Gaston_Duran_Neumann_int_rso
 
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no    }
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 34
+            radical_socialist = 34
             syndicalist = 28
             social_democrat = 18
             social_liberal = 1
@@ -362,7 +362,7 @@ country_event = { #The Fourth Chairman!
 
         set_popularities = {
             totalist = 39
-            democratic_socialist = 18
+            radical_socialist = 18
             syndicalist = 18
             social_democrat = 14
             social_liberal = 1
@@ -403,7 +403,7 @@ country_event = { #The Fourth Chairman!
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 20
+            radical_socialist = 20
             syndicalist = 52
             social_democrat = 8
             social_liberal = 1
@@ -461,7 +461,7 @@ country_event = { #The Fifth Chairman!
 			desc = "POLITICS_AURELIO_PALMA_DESC"
 			picture = "Portrait_Chile_Aurelio_Palma.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_country_flag = CHLallende
@@ -471,12 +471,12 @@ country_event = { #The Fifth Chairman!
 		add_ideas = CHL_Cristobal_Saenz_Cerda_sec_rso
 		add_ideas = CHL_Eduardo_Hillman_int_sde
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no    }
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 59
+            radical_socialist = 59
             syndicalist = 6
             social_democrat = 18
             social_liberal = 1
@@ -512,7 +512,7 @@ country_event = { #The Fifth Chairman!
 
         set_popularities = {
             totalist = 39
-            democratic_socialist = 18
+            radical_socialist = 18
             syndicalist = 18
             social_democrat = 14
             social_liberal = 1
@@ -553,7 +553,7 @@ country_event = { #The Fifth Chairman!
 
         set_popularities = {
             totalist = 10
-            democratic_socialist = 20
+            radical_socialist = 20
             syndicalist = 52
             social_democrat = 8
             social_liberal = 1
@@ -1377,7 +1377,7 @@ country_event = { #The Coup Succeeds!
 			desc = "POLITICS_SALVADOR_ALLENDE_DESC"
 			picture = "Portrait_Chile_Salvador_Allende.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_ideas = CHL_Oscar_Schnake_hog_rso
@@ -1386,11 +1386,11 @@ country_event = { #The Coup Succeeds!
 		add_ideas = CHL_Manuel_Salinas_sec_sde
 		add_ideas = CHL_Juan_Rios_Morales_int_sde
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.35
 		}
 		add_stability = 0.10
@@ -1588,7 +1588,7 @@ country_event = { #Lucila agressively responds to Neftalí's claims
 		name = chl.36.a
 		if = {
 			limit = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 			add_stability = 0.02
 		}
@@ -1931,7 +1931,7 @@ country_event = { #1941 Democratic Elections
 
         set_popularities = {
             totalist = 6
-            democratic_socialist = 8
+            radical_socialist = 8
             syndicalist = 9
             social_democrat = 18
             social_liberal = 0
@@ -1968,7 +1968,7 @@ country_event = { #1941 Democratic Elections
 
         set_popularities = {
             totalist = 5
-            democratic_socialist = 13
+            radical_socialist = 13
             syndicalist = 10
             social_democrat = 38
             social_liberal = 0
@@ -2007,7 +2007,7 @@ country_event = { #1941 Democratic Elections
 
         set_popularities = {
             totalist = 5
-            democratic_socialist = 10
+            radical_socialist = 10
             syndicalist = 9
             social_democrat = 13
             social_liberal = 41
@@ -2047,7 +2047,7 @@ country_event = { #1941 Democratic Elections
 
         set_popularities = {
             totalist = 6
-            democratic_socialist = 10
+            radical_socialist = 10
             syndicalist = 11
             social_democrat = 10
             social_liberal = 0
@@ -2116,7 +2116,7 @@ country_event = { #1947 Democratic Elections
 
         set_popularities = {
             totalist = 2
-            democratic_socialist = 3
+            radical_socialist = 3
             syndicalist = 4
             social_democrat = 14
             social_liberal = 0
@@ -2153,7 +2153,7 @@ country_event = { #1947 Democratic Elections
 
         set_popularities = {
             totalist = 3
-            democratic_socialist = 10
+            radical_socialist = 10
             syndicalist = 8
             social_democrat = 47
             social_liberal = 0
@@ -2192,7 +2192,7 @@ country_event = { #1947 Democratic Elections
 
         set_popularities = {
             totalist = 6
-            democratic_socialist = 8
+            radical_socialist = 8
             syndicalist = 7
             social_democrat = 12
             social_liberal = 45
@@ -2232,7 +2232,7 @@ country_event = { #1947 Democratic Elections
 
         set_popularities = {
             totalist = 5
-            democratic_socialist = 8
+            radical_socialist = 8
             syndicalist = 9
             social_democrat = 10
             social_liberal = 0

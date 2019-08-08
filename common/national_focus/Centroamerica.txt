@@ -89,8 +89,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CEN_congress_democratic_socialist
-		icon = GFX_goal_ideology_democratic_socialist
+		id = CEN_congress_radical_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		x = -3
 		y = 1
 		cost = 8
@@ -102,14 +102,14 @@ focus_tree = {
 			always = no
 		}
 		bypass = {
-			has_country_flag = CEN_congress_flag_democratic_socialist
+			has_country_flag = CEN_congress_flag_radical_socialist
 		}
 		prerequisite = {
 			focus = CEN_congress
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CEN_congress_democratic_socialist"
+			log = "[GetDateText]: [Root.GetName]: Focus CEN_congress_radical_socialist"
 		}
 	}
 
@@ -150,7 +150,7 @@ focus_tree = {
 			factor = 1000000
 		}
 		prerequisite = {
-			focus = CEN_congress_suc_dem focus = CEN_congress_democratic_socialist focus = CEN_congress_syndicalist focus = CEN_congress_totalist
+			focus = CEN_congress_suc_dem focus = CEN_congress_radical_socialist focus = CEN_congress_syndicalist focus = CEN_congress_totalist
 		}
 		mutually_exclusive = {
 			focus = CEN_empower_congress
@@ -175,7 +175,7 @@ focus_tree = {
 			factor = 1000000
 		}
 		prerequisite = {
-			focus = CEN_congress_suc_dem focus = CEN_congress_democratic_socialist focus = CEN_congress_syndicalist focus = CEN_congress_totalist
+			focus = CEN_congress_suc_dem focus = CEN_congress_radical_socialist focus = CEN_congress_syndicalist focus = CEN_congress_totalist
 		}
 		mutually_exclusive = {
 			focus = CEN_empower_chairman
@@ -387,6 +387,7 @@ focus_tree = {
 				}
 			}
 			is_subject = no
+			has_war = no
 		}
 		prerequisite = {
 			focus = CEN_congress_elections focus = CEN_into_world
@@ -583,7 +584,7 @@ focus_tree = {
 			factor = 1000000
 		}
 		prerequisite = {
-			focus = CEN_congress_democratic_socialist
+			focus = CEN_congress_radical_socialist
 		}
 
 		completion_reward = {

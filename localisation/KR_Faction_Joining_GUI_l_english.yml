@@ -1,63 +1,63 @@
 ﻿l_english:
-  
-FACTION_JOINING_ALERT_TITLE:0 "외교 변화"
-FACTION_JOINING_ALERT_DESC:0 "[faction_member.GetFlag] §Y[faction_member.GetName]§! 이(가) §Y[faction_leader.GetFactionName]§!에 가입하였습니다."
- 
-FACTION_JOINING_CLOSE:0 "닫기"
- 
-JF_GENERIC_FLAVOUR:0 "그들의 공격적인 행동은 세계 균형의 변화를 초래하었고 유럽과 그 너머의 안정에 심각한 결과를 초래할 수 있습니다."
 
-JF_GENERIC_FLAVOUR_1936:0 "힘의 균형은 변하기 시작하면서, 독일이 오랫동안 구축하려고 애썼던 정교한 세계대전후 질서가 흔들리기 시작했습니다. 이 동맹관계의 중개가 영향을 끼칠 지도 모릅니다."
-JF_GENERIC_FLAVOUR_1937_ACW:0 "북미에서 전쟁이 발발하면서 힘의 균형이 갑자기, 그리고 어쩌면 돌이킬 수 없을 정도로 바뀌었습니다. 이 지역과 그 너머에 영향을 끼칠 것입니다."
-JF_GENERIC_FLAVOUR_1937:0 "힘의 균형이 계속 바뀌고 있습니다. 이 지역과 그 너머에 영향을 끼칠 것입니다."
-JF_GENERIC_FLAVOUR_1938:0 "지정학적 척도는 균형을 바꾸면서 계속 기울어지고 있습니다. 그리고 그들과 함께 많은 전략적 미적분학도 변화하고 있습니다. 지역과 세계에 영향을 끼칠 것입니다."
-JF_GENERIC_FLAVOUR_1939:0 "지정학적 블록이 성장하면서 긴장이 고조되고 다른 많은 나라들이 현재 어느 쪽을 지지해야 하는지 어려운 선택에 직면해 있습니다. 전쟁이 이 지역과 아마도 전 세계를 닥칠 것입니다."
-JF_GENERIC_FLAVOUR_WK:0 "심지어 전쟁 중에도 힘의 균형은 존재하며, 순간적으로 변합니다. 이 협정이 어느 쪽을 더 유리하게 만들지는 오직 시간만이 말해줄 것입니다."   
-JF_GENERIC_FLAVOUR_WK_START:0 "구질서가 산산조각이 나고 전쟁에 휩싸여 있습니다. 동맹관계의 거미줄은 이제 거의 알아볼 수 없을 정도로 변했습니다."
-JF_GENERIC_FLAVOUR_GER_DEFEAT:0 "독일의 지배가 이제 의심할 여지 없이 깨지면서, 많은 사람들은 이미 미래를 내다보고 있습니다. 한 번에 하나의 합의를 거쳐, 새로운 세계 질서가 건설되고 있습니다."
-JF_GENERIC_FLAVOUR_FRA_DEFEAT:0 "독일군의 무기가 유럽에서 다시 승리를 거두었음에도 불구하고, 세계는 제2차 세계대전 이전과 같지 않습니다. 한 번에 하나의 합의를 거쳐, 미래가 펼쳐지고 있습니다."
-JF_GENERIC_FLAVOUR_ENT_VICTORY:0 "협상국의 승리는 모든 역경에도 불구하고 새로운 것들을 구식으로 바꾸었습니다. 지난 세기를 지배했던 세력이 이제 새로운 동맹이 이를 바꾸기 위해 일어났음에도 익숙한 세계질서를 바라보고 있습니다."
-JF_GENERIC_FLAVOUR_OTHER_VICTORY:0 "구세계의 질서가 폐허가 되면서, 새로운 열강이 잿더미에서 일어서고 있습니다. 한 번에 하나의 합의를 거쳐, 세계는 재건되고 있습니다."
- 
+FACTION_JOINING_ALERT_TITLE:0 "Diplomatic Development"
+FACTION_JOINING_ALERT_DESC:0 "[faction_member.GetFlag] §Y[faction_member.GetName]§! has joined the §Y[faction_leader.GetFactionName]§!."
+
+FACTION_JOINING_CLOSE:0 "Close"
+
+JF_GENERIC_FLAVOUR:0 "Their aggressive behaviour has marked a change in global balance and could have dire consequences for the stability in Europe and beyond."
+
+JF_GENERIC_FLAVOUR_1936:0 "The balance of power has begun to shift, straining the delicate post-Weltkrieg order Germany long struggled to build. The brokering of this alliance may have consequences."
+JF_GENERIC_FLAVOUR_1937_ACW:0 "With the eruption of War in North America the balance of power has suddenly and perhaps irrevocably changed. There will be consequences for the region and beyond."
+JF_GENERIC_FLAVOUR_1937:0 "The balance of power continues to shift. There may be consequences for the region and beyond."
+JF_GENERIC_FLAVOUR_1938:0 "The geopolitical scales continue to tip, changing the balance, and with them many a strategic calculus. There will be consequences for the region and the world."
+JF_GENERIC_FLAVOUR_1939:0 "With the growth of geopolitical blocs comes rising tension, and many other countries now face difficult choices of alignment. The spectre of war looms over the region, and perhaps the whole world."
+JF_GENERIC_FLAVOUR_WK:0 "Even in times of war there exists a balance of power, changing by the moment. Whether or not this agreement will shift the conflict in either side's favour, only time will tell."
+JF_GENERIC_FLAVOUR_WK_START:0 "The old world order lies shattered and engulfed by war, its web of alliances now changed almost beyond recognition."
+JF_GENERIC_FLAVOUR_GER_DEFEAT:0 "With German dominance now unquestionably broken, many already look to the future. One agreement at a time, a new world order is being built."
+JF_GENERIC_FLAVOUR_FRA_DEFEAT:0 "Even with German arms yet again victorious in Europe, the world is not as it was before the Second Weltkrieg. One agreement at a time, the future unfolds."
+JF_GENERIC_FLAVOUR_ENT_VICTORY:0 "The Entente's victory, despite all odds, has replaced the new with the old. The dominant powers of last century now overlook a familiar world order, even as new alliances emerge to change it."
+JF_GENERIC_FLAVOUR_OTHER_VICTORY:0 "With the old world order now lying in ruins, new powers are rising from the ashes. One agreement at a time, the world is being rebuilt."
+
 ### Add Custom Localisation Here ###
 
 #North America
-JF_CAN_USA_FLAVOUR:0 "내전의 피해로부터 아직 회복되지는 않았지만, 미국은 [CAN.GetNameDef]와 함께 그들의 조국과 유럽을 생디칼리즘으로부터 해방시키기로 결정했습니다."
-JF_GER_USA_FLAVOUR:0 "내전의 피해로부터 아직 회복되지는 않았지만, 미국은 생디칼리즘에 대한 공통된 적개심을 가진 [GER.GetNameDef]과 함께 하고자 제국 조약에 가입하기로 결정했습니다. "
-JF_FRA_CSA_FLAVOUR:0 "노동연맹이 미국 내전에서 승리한 이후, 노동연맹은 프랑스쪽으로 방향을 틀었고, 공식적으로 생디칼리스트 동맹에 합류하였습니다. 미국의 산업력이 혁명을 위해 쓰이기 시작하면서 세계의 혁명가들은 전율하고 있습니다."
+JF_CAN_USA_FLAVOUR:0 "Though scarcely recovered from the Civil War, the United States has decided to join [CAN.GetNameDef] in their quest to liberate their homeland and Europe from syndicalism."
+JF_GER_USA_FLAVOUR:0 "Though scarcely recovered from the Civil War, the United States has decided to join [GER.GetNameDef] in the Reichspakt, owing to a shared hatred for syndicalism."
+JF_FRA_CSA_FLAVOUR:0 "Now that the Combined Sydnicates stand victorious in America, they have pivoted towards France, formally joining the syndicalist alliance. Reactionaries of the world tremble as America's industrial power is repurposed for the revolution."
 
 #Central America
 JF_COS_GER_FLAVOUR:0 "Intertwined through the ZKG coffee barons, a treaty of military assistance has been signed with the [faction_leader.GetFactionName] together with access to the Puerto Limon naval facilities."
 JF_COS_CAN_FLAVOUR:0 "Abandoned by their trusted ally in Washington, San José was forced to look further north to ensure its protection from its more predatory neighbours. Ottawa, always eager to have friends close to the Canal, has embraced Costa Rica."
 
 #South America
-JF_ARG_GER_FLAVOUR:0 "양국 간의 성공적인 무역 협정과 군사 협력에 따라, [faction_member.GetLeader]은(는) [faction_leader.GetFactionName]에 가입한다고 선언했습니다." 
-JF_ARG_CAN_FLAVOUR:0 "빈틈없는 외교를 통해 [faction_member.GetLeader]와(과) [faction_leader.GetName]은(는) 공동의 위협을 위해 그들의 차이점을 제쳐두고 이슬라스 말비나스 위기를 해결했습니다." 
+JF_ARG_GER_FLAVOUR:0 "Following the successful trade agreement and military cooperation between the two nations, [faction_member.GetLeader] has announced his participation in the [faction_leader.GetFactionName]"
+JF_ARG_CAN_FLAVOUR:0 "Through shrewd diplomacy [faction_member.GetLeader] and the [faction_leader.GetName] have resolved the Islas Malvinas crisis, setting their differences aside for the common threat."
 
 #Western Europe
-JF_BEL_GER_FLAVOUR:0 "아를롱 조약에 동의한 신생국 벨기에는 생디칼리스트 매파들로부터 주권을 수호하기 위해 공식적으로 [faction_leader.GetFactionName]에 재가입 했습니다."
+JF_BEL_GER_FLAVOUR:0 "Agreed upon in the Treaty of Arlon, the newborn nation of Belgium has officially rejoined the [faction_leader.GetFactionName] to protect its sovereignty from Syndicalist hawks."
 JF_BEL_CAN_FLAVOUR:0 "Allies on the Yzer during the Weltkrieg and connected by blood to the British crown, the Van België's have thrown their fate in with their old allies to ensure their survival."
 JF_BEL_FRA_FLAVOUR:0 "The Old Order is crumbling, the [GER.GetName] desintegrating, rise you victims of opression and bring down the Giant in retaliation for 1914!"
 JF_CAN_POR_FLAVOUR:0 "Due to [POR.GetName]'s longstanding ties to the royal family in Ottawa they have officially joined the Entente, giving Canada a springboard in Europe for the planned reconquest of the British Isles."
 JF_GER_IRE_FLAVOUR:0 "Due to British provokation, [IRE.GetName] has joined the German sphere, hoping the Kaiser can protect them from syndicalist machinations."
  
 #Scandinavia
-JF_GER_SWE_FLAVOUR:0 "베를린과의 오랜 경제적인 유대를 가지고 있고, 스칸디나비아에서 급진주의가 대두되면서 [SWE.GetName]은 공식적으로 제국조약에 가입했습니다."
+JF_GER_SWE_FLAVOUR:0 "With a long history of economic ties to Berlin and rising radicalism in the region, [SWE.GetName] has formally joined the Reichspakt."
 JF_FRA_SWE_FLAVOUR:0 "Following [SWE.GetLeader]'s overthrow of Sweden's government, they have formally aligned the [SWE.GetNameDef] with Paris, joining the Third Internationale."
-JF_GER_FIN_FLAVOUR:0 "With the threat of domestic radicalism crushed and Russia seeking to reclaim its European territories, [FIN.GetLeader] has consolidated their relationship with the Reichspakt, hoping they can provide much-needed security for the small nation."
 JF_GER_FIN_FLAVOUR:0 "With the threat of Russia seeking to reclaim its European territories, [FIN.GetLeader] has consolidated their relationship with the Reichspakt, hoping they can provide much-needed security for the small nation."
-JF_FRA_NOR_FLAVOUR:0 "군주제의 전복 이후, 새로운 노르웨이의 생디칼리즘 정부는 제3인터내셔널에 가입했습니다."
+JF_FRA_FIN_FLAVOUR:0 "Following [FIN.GetLeader]'s overthrow of the monarchy, they have aligned themselves with the global syndicalist movement, and formally joined the Third Internationale."
+JF_FRA_NOR_FLAVOUR:0 "Following the overthrow of the monarchy, the new Norwegian syndicalist government has formally aligned itself with the Third Internationale."
 JF_CAN_NOR_FLAVOUR:0 "With the immediate threat of domestic radicalism crushed, [NOR.GetName] has aligned with the Entente."
 
 #Southern Europe
-JF_AUS_ITA_FLAVOUR:0 "With Gabriele D'Annunzio's radicalism contained at the ballot box, the [ITA.GetNameDef] has formally joined Austria's defense pact."
+JF_AUS_ITA_FLAVOUR:0 "With Italo Balbo's radicalism contained at the ballot box, [ITA.GetNameDef] has formally joined Austria's defense pact."
 
 #Eastern Europe
 
 #Balkans
-JF_SER_GRE_FLAVOUR:0 "불가리아의 성장세에 대한 공통된 증오 때문에, 그리스는 불가리아를 완전히 없애기 위해 세르비아와 베오그라드 조약에 가입하기로 결정했습니다. 이것은 발칸 반도의 권력 균형을 아주 잘 흔들어 놓을 것입니다."
-JF_SER_ROM_FLAVOUR:0 "오스트리아와 불가리아의 세력이 커짐에 따라 루마니아는 그들의 힘을 억제하기 위해 베오그라드 조약으로의 초청을 수락했습니다. 오스트리아와 불가리아는 화약통이 다시 한번 폭발할 뻔하자 두려움에 떨며 지켜보고 있습니다."
-JF_CAN_GRE_FLAVOUR:0 "세계대전 때 연합국이였던 [GRE.GetNameDef]가 공식적으로 캐나다에게 협상국 가입을 요청하여 협상국의 발칸 반도 세력 기반을 제공하였습니다."
+JF_SER_GRE_FLAVOUR:0 "Due to a shared hatred for Bulgaria's growing power, Greece has decided to enter the Belgrade Pact with Serbia to take down Bulgaria once and for all. This could very well shake the power balance within the Balkans."
+JF_SER_ROM_FLAVOUR:0 "To contain the growing power of Austria and Bulgaria, Romania has acceded to the Belgrade Pact. Austria and Bulgaria watch with fear as the powderkeg grows close to exploding once again."
+JF_CAN_GRE_FLAVOUR:0 "Allies during the Weltkrieg, [GRE.GetNameDef] has formally requested to rejoin Canada in the Entente, giving the bloc a power base in the Balkans."
 #Middle East
 
 #Africa
@@ -69,7 +69,7 @@ JF_CAN_GRE_FLAVOUR:0 "세계대전 때 연합국이였던 [GRE.GetNameDef]가 �
 #South East Asia
 
 #East Asia
-JF_MON_TIB_FLAVOUR:0 "마가 군벌에 대한 공통의 적개심으로 인해 티베트는 슈테른베르크 남작 세력에 가담하게 되었고, 두 국가는 현재 마가 군벌과의 전쟁을 준비하고 있다. 그러나 이 동맹은 전쟁이 끝난 뒤에도 지속될 것 같는 않아보입니다..."
+JF_MON_TIB_FLAVOUR:0 "A shared hatred for the Ma Clique has led Tibet into joining Baron Sternberg’s faction, and the two are currently preparing for war against the clique. The alliance seems unlikely to last beyond the war, however..."
 
 
 

@@ -1,4 +1,5 @@
 #### Mexican Ideas ####
+
 ideas = {
 	### National Ideas ###
 	country = {
@@ -110,7 +111,7 @@ ideas = {
 		}
 		YUC_cruzoob_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_cruzoob_idea"}
-			picture = generic_democratic_socialist_revolution
+			picture = generic_radical_socialist_revolution
 			modifier = {
 				war_support_factor = 0.05
 				political_power_gain = 0.05
@@ -118,27 +119,11 @@ ideas = {
 		}
 		YUC_compromised_security = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_compromised_security"}
-			picture = generic_democratic_socialist_revolution
+			picture = generic_radical_socialist_revolution
 			modifier = {
 				encryption_factor = -0.05
 				decryption_factor = -0.05
 			}
 		}
 	}
-	### Companies
-	industrial_concern = {# Industrial Manufacturer
-	}
-	weapons_manufacturer = {# Weapons Manufacturer
-		designer = yes
-	}
-	tank_manufacturer = {# Heavy Equipment Manufacturer
-		designer = yes
-	}
-	air_naval_manufacturer = {# Air and Naval Manufacturer
-		designer = yes
-	}
 }
-
-
-
-

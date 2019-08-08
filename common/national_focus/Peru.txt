@@ -2234,9 +2234,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_cutting_the_weed"
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = democratic_socialist_banned
+			set_country_flag = radical_socialist_banned
 			add_popularity = {
-				ideology = democratic_socialist popularity = -0.10
+				ideology = radical_socialist popularity = -0.10
 			}
 			add_popularity = {
 				ideology = totalist popularity = -0.10

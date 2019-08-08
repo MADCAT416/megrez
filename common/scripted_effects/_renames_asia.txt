@@ -9,7 +9,7 @@ do_japanese_renames_in_asia = {
 			}
 		}
 		336 = {
-			set_state_name = "쇼난도"
+			set_state_name = "Shōnan-tō"
 			set_state_flag = renamed_state_japanese
 			clr_state_flag = renamed_state_english
 			clr_state_flag = renamed_state_thai
@@ -17,7 +17,7 @@ do_japanese_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 12299
-			name = "쇼난도"
+			name = "Shōnan-tō"
 		}
 	}
 	else_if = {
@@ -144,14 +144,14 @@ do_japanese_renames_in_asia = {
 		822 = {
 			set_state_flag = renamed_state_japanese
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "사바"
+			set_state_name = "Sabah"
 			set_province_name = {
 				id = 10212
-				name = "아피"
+				name = "Api"
 			}
 			set_province_name = {
 				id = 10199
-				name = "산다칸"
+				name = "Sandakan"
 			}
 		}
 	}
@@ -186,12 +186,12 @@ do_russian_renames_in_asia = {
 			}
 		}
 		405 = {
-			set_state_name = "카르시"
+			set_state_name = "Karshi"
 			set_state_flag = renamed_state_russian
 		}
 		set_province_name = {
 			id = 9605
-			name = "카르시"
+			name = "Karshi"
 		}
 	}
 	else_if = {
@@ -204,12 +204,12 @@ do_russian_renames_in_asia = {
 			}
 		}
 		537 = {
-			set_state_name = "유즈니 사할린"
+			set_state_name = "Yuzhny Sakhalin"
 			set_state_flag = renamed_state_russian
 		}
 		set_province_name = {
 			id = 12446
-			name = "블라디미롭카"
+			name = "Vladimirovka"
 		}
 	}
 	else_if = {
@@ -222,7 +222,7 @@ do_russian_renames_in_asia = {
 			}
 		}
 		555 = {
-			set_state_name = "쿠릴스키예 오스트로바"
+			set_state_name = "Kurilskiye Ostrova"
 			set_state_flag = renamed_state_russian
 		}
 	}
@@ -240,11 +240,11 @@ do_russian_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 10742
-			name = "차르드주이"
+			name = "Chardzhuy"
 		}
 		set_province_name = {
 			id = 12333
-			name = "아슈하바트"
+			name = "Askhabad"
 		}
 	}
 	else_if = {
@@ -257,12 +257,12 @@ do_russian_renames_in_asia = {
 			}
 		}
 		585 = {
-			set_state_name = "시르다리야"
+			set_state_name = "Syrdaria"
 			set_state_flag = renamed_state_russian
 		}
 		set_province_name = {
 			id = 10353
-			name = "페롭스크"
+			name = "Perovsk"
 		}
 	}
 	else_if = {
@@ -275,7 +275,7 @@ do_russian_renames_in_asia = {
 			}
 		}
 		655 = {
-			set_state_name = "사할린"
+			set_state_name = "Sakhalin"
 			set_state_flag = renamed_state_russian
 		}
 	}
@@ -289,13 +289,13 @@ do_russian_renames_in_asia = {
 			}
 		}
 		745 = {
-			set_state_name = "달니"
+			set_state_name = "Dalniy"
 			set_state_flag = renamed_state_russian
 			clr_state_flag = renamed_state_chinese
 		}
 		set_province_name = {
 			id = 1150
-			name = "달니"
+			name = "Dalniy"
 		}
 	}
 }
@@ -311,12 +311,12 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		524 = {
-			set_state_name = "타이페이"
+			set_state_name = "Taipei"
 			set_state_flag = renamed_state_chinese
 		}
 		set_province_name = {
 			id = 7186
-			name = "타이페이"
+			name = "Taipei"
 		}
 	}
 	else_if = {
@@ -329,13 +329,13 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		745 = {
-			set_state_name = "다롄"
+			set_state_name = "Dalian"
 			set_state_flag = renamed_state_chinese
 			clr_state_flag = renamed_state_russian
 		}
 		set_province_name = {
 			id = 1150
-			name = "다롄"
+			name = "Dalian"
 		}
 	}
 	else_if = {
@@ -348,13 +348,13 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		859 = {
-			set_state_name = "가오슝"
+			set_state_name = "Gaoxiong"
 			set_state_flag = renamed_state_chinese
 			clr_state_flag = renamed_state_TAI
 		}
 		set_province_name = {
 			id = 12068
-			name = "가오슝"
+			name = "Gaoxiong"
 		}
 	}
 	else_if = {
@@ -367,7 +367,7 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		72 = {
-			set_state_name = "동지"
+			set_state_name = "Dongzhi"
 			set_state_flag = renamed_state_chinese
 			clr_state_flag = renamed_state_thai
 			clr_state_flag = renamed_state_burmese
@@ -375,7 +375,7 @@ do_chinese_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 7603
-			name = "동지"
+			name = "Dongzhi"
 		}
 	}
 	else_if = {
@@ -388,7 +388,7 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		756 = {
-			set_state_name = "멩젠"
+			set_state_name = "Menggen"
 			set_state_flag = renamed_state_chinese
 			clr_state_flag = renamed_state_thai
 			clr_state_flag = renamed_state_burmese
@@ -396,7 +396,7 @@ do_chinese_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 7909
-			name = "징동"
+			name = "Jingdong"
 		}
 	}
 	else_if = {
@@ -409,14 +409,14 @@ do_chinese_renames_in_asia = {
 			}
 		}
 		701 = {
-			set_state_name = "케친"
+			set_state_name = "Keqin"
 			set_state_flag = renamed_state_chinese
 			clr_state_flag = renamed_state_kachin
 			clr_state_flag = renamed_state_burmese
 		}
 		set_province_name = {
 			id = 8063
-			name = "미지나"
+			name = "Mizhina"
 		}
 	}
 }
@@ -432,16 +432,16 @@ do_korean_renames_in_asia = {
 			}
 		}
 		525 = {
-			set_state_name = "남조선"
+			set_state_name = "Namjoseon"
 			set_state_flag = renamed_state_korean
 		}
 		set_province_name = {
 			id = 4056
-			name = "부산"
+			name = "Pusan"
 		}
 		set_province_name = {
 			id = 7125
-			name = "서울"
+			name = "Gyeongseong"
 		}
 	}
 	else_if = {
@@ -454,12 +454,12 @@ do_korean_renames_in_asia = {
 			}
 		}
 		527 = {
-			set_state_name = "북조선"
+			set_state_name = "Bugjoseon"
 			set_state_flag = renamed_state_korean
 		}
 		set_province_name = {
 			id = 4052
-			name = "평양"
+			name = "Pyongyang"
 		}
 	}
 }
@@ -503,7 +503,7 @@ do_german_renames_in_asia = {
 		334 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "베스트보어네오"
+			set_state_name = "Westborneo"
 		}
 	}
 	else_if = {
@@ -518,19 +518,19 @@ do_german_renames_in_asia = {
 		335 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "미틀야바"
+			set_state_name = "Mitteljava"
 		}
 		set_province_name = {
 			id = 10135
-			name = "요그야카르타"
+			name = "Jogjakarta"
 		}
 		set_province_name = {
 			id = 7421
-			name = "반둥"
+			name = "Bandung"
 		}
 		set_province_name = {
 			id = 1413
-			name = "사마랑"
+			name = "Samarang"
 		}
 	}
 	else_if = {
@@ -581,7 +581,7 @@ do_german_renames_in_asia = {
 		667 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "클레인준다"
+			set_state_name = "Kleine Sunda"
 		}
 	}
 	else_if = {
@@ -608,11 +608,11 @@ do_german_renames_in_asia = {
 		669 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "노르트베스트노이기니"
+			set_state_name = "Nordwestneuguinea"
 		}
 		set_province_name = {
 			id = 12371
-			name = "게르마니아"
+			name = "Germania"
 		}
 	}
 	else_if = {
@@ -627,15 +627,15 @@ do_german_renames_in_asia = {
 		672 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "오스트주마트라"
+			set_state_name = "Ostsumatra"
 		}
 		set_province_name = {
 			id = 12181
-			name = "파칸바로"
+			name = "Pakanbaroe"
 		}
 		set_province_name = {
 			id = 12113
-			name = "탄융페낭"
+			name = "Tanjung Penang"
 		}
 	}
 	else_if = {
@@ -698,7 +698,7 @@ do_german_renames_in_asia = {
 		843 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "쥐트베스트노이기니"
+			set_state_name = "Südwestneuguinea"
 		}
 	}
 	else_if = {
@@ -713,7 +713,7 @@ do_german_renames_in_asia = {
 		1016 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "오스트보어네오"
+			set_state_name = "Ostborneo"
 		}
 	}
 	else_if = {
@@ -728,7 +728,7 @@ do_german_renames_in_asia = {
 		1017 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "베스트티모르"
+			set_state_name = "Westtimor"
 		}
 	}
 	else_if = {
@@ -743,7 +743,7 @@ do_german_renames_in_asia = {
 		1018 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "플로레스 섬"
+			set_state_name = "Flores-Inseln"
 		}
 	}
 	else_if = {
@@ -758,11 +758,11 @@ do_german_renames_in_asia = {
 		1019 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "오스트야바"
+			set_state_name = "Ostjava"
 		}
 		set_province_name = {
 			id = 4608
-			name = "조라바야"
+			name = "Soerabaya"
 		}
 	}
 	else_if = {
@@ -793,7 +793,7 @@ do_german_renames_in_asia = {
 		1021 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "쥐트주마트라"
+			set_state_name = "Südsumatra"
 		}
 	}
 	else_if = {
@@ -808,11 +808,11 @@ do_german_renames_in_asia = {
 		1022 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "미텔주마트라"
+			set_state_name = "Mittelsumatra"
 		}
 		set_province_name = {
 			id = 10354
-			name = "부키팅기"
+			name = "Bukittinggi"
 		}
 	}
 	else_if = {
@@ -827,7 +827,7 @@ do_german_renames_in_asia = {
 		1023 = {
 			set_state_flag = renamed_state_german
 			clr_state_flag = renamed_state_indonesian
-			set_state_name = "노르트주마트라"
+			set_state_name = "Nordsumatra"
 		}
 	}
 }
@@ -846,14 +846,14 @@ do_english_renames_in_asia = {
 			set_state_flag = renamed_state_english
 			clr_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_dutch
-			set_state_name = "사라왁"
+			set_state_name = "Sarawak"
 			set_province_name = {
 				id = 1208
-				name = "쿠칭"
+				name = "Kuching"
 			}
 			set_province_name = {
 				id = 7371
-				name = "브루나이타운"
+				name = "Brunei Town"
 			}
 		}
 	}
@@ -894,7 +894,7 @@ do_portuguese_renames_in_asia = {
 			}
 		}
 		422 = {
-			set_state_name = "실롱"
+			set_state_name = "Ceilão"
 			set_state_flag = renamed_state_portuguese
 		}
 	}
@@ -914,14 +914,14 @@ do_insuldian_renames_in_asia = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_english
 			clr_state_flag = renamed_state_dutch
-			set_state_name = "사라왁"
+			set_state_name = "Sarawak"
 			set_province_name = {
 				id = 1208
-				name = "쿠칭"
+				name = "Kuching"
 			}
 			set_province_name = {
 				id = 7371
-				name = "반다르브루나이"
+				name = "Bandar Brunei"
 			}
 		}
 	}
@@ -937,7 +937,7 @@ do_insuldian_renames_in_asia = {
 		334 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "칼리만탄바랏"
+			set_state_name = "Kalimantan Barat"
 		}
 	}
 	else_if = {
@@ -952,19 +952,19 @@ do_insuldian_renames_in_asia = {
 		335 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "자와틍와"
+			set_state_name = "Jawa Tengah"
 		}
 		set_province_name = {
 			id = 10135
-			name = "욕야카르타"
+			name = "Yogyakarta"
 		}
 		set_province_name = {
 			id = 7421
-			name = "반둥"
+			name = "Bandung"
 		}
 		set_province_name = {
 			id = 1413
-			name = "세마랑"
+			name = "Semarang"
 		}
 	}
 	else_if = {
@@ -977,7 +977,7 @@ do_insuldian_renames_in_asia = {
 			}
 		}
 		336 = {
-			set_state_name = "싱가푸라"
+			set_state_name = "Singapura"
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_english
 			clr_state_flag = renamed_state_thai
@@ -985,7 +985,7 @@ do_insuldian_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 12299
-			name = "싱가푸라"
+			name = "Singapura"
 		}
 	}
 	else_if = {
@@ -1000,7 +1000,7 @@ do_insuldian_renames_in_asia = {
 		667 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "누사틍가라"
+			set_state_name = "Nusa Tenggara"
 		}
 	}
 	else_if = {
@@ -1014,7 +1014,7 @@ do_insuldian_renames_in_asia = {
 		}
 		668 = {
 			set_state_flag = renamed_state_indonesian
-			set_state_name = "말루쿠"
+			set_state_name = "Maluku"
 		}
 	}
 	else_if = {
@@ -1029,7 +1029,7 @@ do_insuldian_renames_in_asia = {
 		669 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "이랸바랏우타라"
+			set_state_name = "Irian Barat Utara"
 		}
 		if = {
 			limit = {
@@ -1039,7 +1039,7 @@ do_insuldian_renames_in_asia = {
 			}
 			set_province_name = {
 				id = 12371
-				name = "수카르노푸라"
+				name = "Sukarnopura"
 			}
 		}
 		else_if = {
@@ -1050,7 +1050,7 @@ do_insuldian_renames_in_asia = {
 			}
 			set_province_name = {
 				id = 12371
-				name = "자야푸라"
+				name = "Djajapura"
 			}
 		}
 	}
@@ -1066,15 +1066,15 @@ do_insuldian_renames_in_asia = {
 		672 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "수마테라티무르"
+			set_state_name = "Sumatera Timur"
 		}
 		set_province_name = {
 			id = 12181
-			name = "페칸바루"
+			name = "Pekanbaru"
 		}
 		set_province_name = {
 			id = 12113
-			name = "탄중피낭"
+			name = "Tanjung Pinang"
 		}
 	}
 	else_if = {
@@ -1088,7 +1088,7 @@ do_insuldian_renames_in_asia = {
 		}
 		673 = {
 			set_state_flag = renamed_state_indonesian
-			set_state_name = "술라웨시"
+			set_state_name = "Sulawesi"
 		}
 	}
 	else_if = {
@@ -1102,7 +1102,7 @@ do_insuldian_renames_in_asia = {
 		}
 		738 = {
 			set_state_flag = renamed_state_indonesian
-			set_state_name = "케풀라완아루"
+			set_state_name = "Kepulauan Aru"
 		}
 	}
 	else_if = {
@@ -1117,14 +1117,14 @@ do_insuldian_renames_in_asia = {
 		822 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_japanese
-			set_state_name = "사바"
+			set_state_name = "Sabah"
 			set_province_name = {
 				id = 10212
-				name = "코타키나발루"
+				name = "Kota Kinabalu"
 			}
 			set_province_name = {
 				id = 10199
-				name = "산다칸"
+				name = "Sandakan"
 			}
 		}
 	}
@@ -1140,7 +1140,7 @@ do_insuldian_renames_in_asia = {
 		843 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "이랸바랏셀라탄"
+			set_state_name = "Irian Barat Selatan"
 		}
 	}
 	else_if = {
@@ -1155,7 +1155,7 @@ do_insuldian_renames_in_asia = {
 		1016 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "칼리만탄티무르"
+			set_state_name = "Kalimantan Timur"
 		}
 	}
 	else_if = {
@@ -1170,7 +1170,7 @@ do_insuldian_renames_in_asia = {
 		1017 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "티모르바럇"
+			set_state_name = "Timor Barat"
 		}
 	}
 	else_if = {
@@ -1185,7 +1185,7 @@ do_insuldian_renames_in_asia = {
 		1018 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "케풀라완플로레스"
+			set_state_name = "Kepulauan Flores"
 		}
 	}
 	else_if = {
@@ -1200,11 +1200,11 @@ do_insuldian_renames_in_asia = {
 		1019 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "자와티무르"
+			set_state_name = "Jawa Timur"
 		}
 		set_province_name = {
 			id = 4608
-			name = "수라바야"
+			name = "Surabaya"
 		}
 	}
 	else_if = {
@@ -1218,11 +1218,11 @@ do_insuldian_renames_in_asia = {
 		}
 		1020 = {
 			set_state_flag = renamed_state_indonesian
-			set_state_name = "자카르타"
+			set_state_name = "Djakarta"
 		}
 		set_province_name = {
 			id = 7381
-			name = "자카르타"
+			name = "Djakarta"
 		}
 	}
 	else_if = {
@@ -1237,7 +1237,7 @@ do_insuldian_renames_in_asia = {
 		1021 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "수마테라셀라탄"
+			set_state_name = "Sumatera Selatan"
 		}
 	}
 	else_if = {
@@ -1252,11 +1252,11 @@ do_insuldian_renames_in_asia = {
 		1022 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "수마테라틍아"
+			set_state_name = "Sumatera Tengah"
 		}
 		set_province_name = {
 			id = 10354
-			name = "부키팅기"
+			name = "Bukittinggi"
 		}
 	}
 	else_if = {
@@ -1271,7 +1271,7 @@ do_insuldian_renames_in_asia = {
 		1023 = {
 			set_state_flag = renamed_state_indonesian
 			clr_state_flag = renamed_state_german
-			set_state_name = "수마테라우타라"
+			set_state_name = "Sumatera Utara"
 		}
 	}
 }
@@ -1293,11 +1293,11 @@ do_dutch_renames_in_asia = {
 			set_state_name = "Noord-Kalimantan"
 			set_province_name = {
 				id = 1208
-				name = "쿠칭"
+				name = "Kuching"
 			}
 			set_province_name = {
 				id = 7371
-				name = "브루나이슈타트"
+				name = "Bruneistad"
 			}
 		}
 	}
@@ -1342,7 +1342,7 @@ do_dutch_renames_in_asia = {
 		}
 		set_province_name = {
 			id = 1413
-			name = "사마랑"
+			name = "Samarang"
 		}
 	}
 	else_if = {
@@ -1630,14 +1630,14 @@ do_cambodean_renames_in_asia = {
 			}
 		}
 		286 = {
-			set_state_name = "프레이노코르"
+			set_state_name = "Prey Nokor"
 			set_state_flag = renamed_state_CAM
 			clr_state_flag = renamed_state_VIE
 			clr_state_flag = renamed_state_INC
 		}
 		set_province_name = {
 			id = 4401
-			name = "프레이노코르"
+			name = "Prey Nokor"
 		}
 	}
 }
@@ -1659,11 +1659,11 @@ do_tagalog_renames_in_asia = {
 			set_state_name = "Sarawak"
 			set_province_name = {
 				id = 1208
-				name = "쿠칭"
+				name = "Kuching"
 			}
 			set_province_name = {
 				id = 7371
-				name = "반다르브루나이"
+				name = "Bandar Brunei"
 			}
 		}
 	}
@@ -1682,11 +1682,11 @@ do_tagalog_renames_in_asia = {
 			set_state_name = "Sabah"
 			set_province_name = {
 				id = 10212
-				name = "코타키나발루"
+				name = "Kota Kinabalu"
 			}
 			set_province_name = {
 				id = 10199
-				name = "산다칸"
+				name = "Sandakan"
 			}
 		}
 	}
@@ -1703,14 +1703,14 @@ do_vietnamese_renames_in_asia = {
 			}
 		}
 		286 = {
-			set_state_name = "찌아딘"
+			set_state_name = "Gia Dinh"
 			set_state_flag = renamed_state_VIE
 			clr_state_flag = renamed_state_CAM
 			clr_state_flag = renamed_state_INC
 		}
 		set_province_name = {
 			id = 4401
-			name = "찌아딘"
+			name = "Gia Dinh"
 		}
 	}
 }

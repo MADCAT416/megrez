@@ -63,7 +63,7 @@ focus_tree = {
 			has_country_flag = CSA_constitutional_convention_done
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		prerequisite = {
@@ -87,7 +87,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					NOT = { has_country_flag = CSA_butlers_counter_coup }
 				}
 				set_cosmetic_tag = CSA_socialist_republic
@@ -103,7 +103,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -129,7 +129,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -155,7 +155,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -178,7 +178,7 @@ focus_tree = {
 		id = CSA_federalism
 		icon = GFX_goal_red_star
 		cost = 7.25
-		available = { has_government = democratic_socialist }
+		available = { has_government = radical_socialist }
 		cancel_if_invalid = yes
 		prerequisite = {
 			focus = CSA_empower_councils
@@ -237,7 +237,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -260,9 +260,9 @@ focus_tree = {
 
 	focus = {# Federalist economics
 		id = CSA_federalist_economics
-		icon = GFX_goal_ideology_democratic_socialist
+		icon = GFX_goal_ideology_radical_socialist
 		cost = 7.25
-		available = { has_government = democratic_socialist }
+		available = { has_government = radical_socialist }
 		prerequisite = {
 			focus = CSA_american_commonwealth
 		}
@@ -918,7 +918,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -945,7 +945,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -971,7 +971,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes
@@ -998,7 +998,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 			}
 		}
 		cancel_if_invalid = yes

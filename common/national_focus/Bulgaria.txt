@@ -1508,7 +1508,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -2045,7 +2045,7 @@ focus_tree = {
 				popularity = -0.2
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.2
 			}
 			add_popularity = {
@@ -2111,7 +2111,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -2458,7 +2458,7 @@ focus_tree = {
 			OR = {
 				NOT = { country_exists = FRA }
 				is_in_faction_with = FRA
-				FRA = { is_faction_leader = no }
+				FRA = { NOT = { is_faction_leader = yes } }
 			}
 		}
 		relative_position_id = BUL_the_rule_of_the_syndicalists
@@ -2731,7 +2731,7 @@ focus_tree = {
 				popularity = 0.2
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.1
 			}
 			add_popularity = {

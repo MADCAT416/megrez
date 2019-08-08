@@ -5,7 +5,7 @@ totalist_allowed = {
 		OR = {
 			has_government = totalist
 			has_government = syndicalist
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			AND = {
 				tag = HOL
 				has_government = social_democrat
@@ -35,7 +35,7 @@ syndicalist_allowed = {
 		OR = {
 			has_government = totalist
 			has_government = syndicalist
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			AND = {
 				has_government = social_democrat
 				OR = {
@@ -68,13 +68,13 @@ syndicalist_allowed = {
 	}
 }
 
-democratic_socialist_allowed = {
+radical_socialist_allowed = {
 	custom_trigger_tooltip = {
 		tooltip = KR_ideology_allowed
 		OR = {
 			has_government = totalist
 			has_government = syndicalist
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			AND = {
 				has_government = social_liberal
 				NOT = { tag = AST }
@@ -143,7 +143,7 @@ social_democrat_allowed = {
 				has_government = syndicalist
 				NOT = { tag = CUB }
 			}
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = social_democrat
 			AND = {
 				has_government = social_liberal
@@ -180,7 +180,7 @@ social_liberal_allowed = {
 		tooltip = KR_ideology_allowed
 		OR = {
 			AND = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				NOT = { tag = AST }
 				NOT = { tag = CEN }
 			}
@@ -342,6 +342,7 @@ national_populist_allowed = {
 				NOT = {
 					tag = AST
 					tag = HAI
+					tag = CUB
 					AND = {
 						tag = MAF
 						NOT = {
@@ -354,6 +355,7 @@ national_populist_allowed = {
 				has_government = paternal_autocrat
 				NOT = {
 					tag = AST
+					tag = CUB
 					AND = {
 						tag = MAF
 						NOT = {

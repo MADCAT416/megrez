@@ -15,7 +15,7 @@ do_mexian_renames_in_america = {
 			}
 		}
 		829 = {
-			set_state_name = "알타캘리포니아"
+			set_state_name = "Alta California"
 			set_state_flag = renamed_state_MEX
 		}
 	}
@@ -29,12 +29,12 @@ do_mexian_renames_in_america = {
 			}
 		}
 		834 = {
-			set_state_name = "투손"
+			set_state_name = "Tucsón"
 			set_state_flag = renamed_state_MEX
 		}
 		set_province_name = {
 			id = 3834
-			name = "투손"
+			name = "Tucsón"
 		}
 	}
 }

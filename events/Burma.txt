@@ -221,11 +221,11 @@ country_event = {
 			desc = "POLITICS_BA_CHO_DESC"
 			picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
 			expire = "1947.7.19" # Same fateful day as Aung San OTL
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_all_ministers = yes
@@ -257,7 +257,7 @@ country_event = {
 				popularity = 0.08
 			}
 			add_popularity = {
-				ideology = democratic_socialist
+				ideology = radical_socialist
 				popularity = 0.16
 			}
 			add_popularity = {

@@ -372,7 +372,7 @@ ideas = {
 			picture = generic_spy_intel
 			modifier = {
 				political_power_factor = 0.05
-				democratic_socialist_drift = -0.01
+				radical_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -386,7 +386,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.05
 				encryption_factor = 0.1
-				democratic_socialist_drift = -0.01
+				radical_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -400,7 +400,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.05
 				decryption_factor = 0.1
-				democratic_socialist_drift = -0.01
+				radical_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -415,7 +415,7 @@ ideas = {
 				political_power_factor = 0.05
 				decryption_factor = 0.1
 				encryption_factor = 0.1
-				democratic_socialist_drift = -0.01
+				radical_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -626,14 +626,6 @@ ideas = {
 				infantry_weapons = 0.1
 			}
 		}
-	}
-
-####################################
-### Heavy Equipment Manufacturer ###
-####################################
-
-	tank_manufacturer = {
-		designer = yes
 
 		daf_dei = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea daf_dei"}
@@ -652,14 +644,40 @@ ideas = {
 				motorized_equipment = 0.05
 			}
 		}
+
+	}
+
+####################################
+### Heavy Equipment Manufacturer ###
+####################################
+
+	tank_manufacturer = {
+		designer = yes
+
+
 	}
 
 ##################################
 ### Air and Naval Manufacturer ###
 ##################################
 
-	air_naval_manufacturer = {
+	naval_manufacturer = {
 		designer = yes
+
+		kn_rotterdamsche_lloyd = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea kn_rotterdamsche_lloyd"}
+			allowed = { original_tag = DEI }
+			traits = { small_ship_producer_mass_1 }
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+		}
+
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
 		fokker_dei = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea fokker_dei"}
 			allowed = { original_tag = DEI }
@@ -678,13 +696,6 @@ ideas = {
 			}
 		}
 
-		kn_rotterdamsche_lloyd = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea kn_rotterdamsche_lloyd"}
-			allowed = { original_tag = DEI }
-			traits = { small_ship_producer_mass_1 }
-			research_bonus = {
-				naval_equipment = 0.05
-			}
-		}
 	}
+
 }

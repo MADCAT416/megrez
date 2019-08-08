@@ -144,7 +144,7 @@ ideas = {
 			available = {
 				OR = {
 					has_elected_government = yes
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 			removal_cost = -1

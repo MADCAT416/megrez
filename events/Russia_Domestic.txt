@@ -370,7 +370,7 @@ country_event = { #Workers' demonstration
 			AND = {
 				syndicalist < 0.01
 				totalist < 0.01
-				democratic_socialist < 0.01
+				radical_socialist < 0.01
 			}
 		}
 		has_war = no
@@ -417,7 +417,7 @@ country_event = { #Workers' strike
 		NOT = {
 			has_country_flag = rus_minor_strike_flag
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 				has_government = syndicalist
 			}
@@ -650,7 +650,7 @@ country_event = { #General strike
 		NOT = {
 			has_country_flag = RUS_POPULAR_FRONT
 			has_country_flag = rus_general_strike_flag
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 			has_idea = rus_fulfilled_strike_general
@@ -814,7 +814,7 @@ country_event = { #Clashes in Tsaritsyn
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -847,7 +847,7 @@ country_event = { #Clashes in Moscow
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -880,7 +880,7 @@ country_event = { #Clashes in Petrograd
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -912,7 +912,7 @@ country_event = { #Clashes in Kiev
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -944,7 +944,7 @@ country_event = { #Clashes in Kharkov
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -976,7 +976,7 @@ country_event = { #Clashes in Minsk
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -1008,7 +1008,7 @@ country_event = { #Clashes in Vladivostok
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -1040,7 +1040,7 @@ country_event = { #Clashes in Wilno
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -1072,7 +1072,7 @@ country_event = { #Clashes in Riga
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -1104,7 +1104,7 @@ country_event = { #Clashes in Tallin
 		has_stability > -1.0
 		has_country_flag = general_strike_clashes
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -2118,7 +2118,7 @@ country_event = { #The patriarch criticises the government secular BUKH
 		has_country_flag = secular
 		OR = {
 			has_country_flag = RUS_BUKH
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = totalist
 			has_government = syndicalist
 		}
@@ -2165,7 +2165,7 @@ country_event = { #Motherland mass secular
 		NOT = {
 			OR = {
 				has_country_flag = RUS_BUKH
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 				has_government = syndicalist
 			}
@@ -2196,7 +2196,7 @@ country_event = { #Motherland mass state religion
 		NOT = {
 			OR = {
 				has_country_flag = RUS_BUKH
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 				has_government = syndicalist
 			}
@@ -2227,7 +2227,7 @@ country_event = { #Motherland mass in capital
 		NOT = {
 			OR = {
 				has_country_flag = RUS_BUKH
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 				has_government = syndicalist
 			}
@@ -2267,7 +2267,7 @@ country_event = { #Prayers for the tsar
 		NOT = {
 			OR = {
 				has_country_flag = RUS_BUKH
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 				has_government = syndicalist
 			}
@@ -2797,7 +2797,7 @@ country_event = { #Kyril the tsar is dead constitutional
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "Portrait_Soviet_Vladimir_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -3546,7 +3546,7 @@ country_event = { #The Presidental Elections of 1937
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "Portrait_Soviet_Viktor_Chernov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -3621,7 +3621,7 @@ country_event = { #The Presidental Elections of 1937
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "portrait_russia_vasily_maklakov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -3701,7 +3701,7 @@ country_event = { #The Presidental Elections of 1937
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "Portrait_Soviet_Dmitri_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -3776,7 +3776,7 @@ country_event = { #The Presidental Elections of 1937
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "portrait_russia_solomon.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -3828,7 +3828,7 @@ country_event = { # SR-Meneshvik coalition breaks up
 			name = RUS_social_rev_party
 		}
 		set_party_name = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			long_name = RUS_mensheviks_party
 			name = RUS_mensheviks_party
 		}
@@ -3860,7 +3860,7 @@ country_event = { # SR-Meneshvik coalition breaks up
 			name = RUS_social_rev_party
 		}
 		set_party_name = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			long_name = RUS_mensheviks_party
 			name = RUS_mensheviks_party
 		}
@@ -4178,11 +4178,11 @@ country_event = { #socialist victory
 		add_ideas = RUS_Maria_A_Spiridonova_sec_rso
 		add_stability = -0.16
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.2
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -4378,11 +4378,11 @@ country_event = { #socialist victory
 		add_ideas = RUS_Maria_A_Spiridonova_sec_rso
 		add_stability = -0.1
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.2
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -4811,7 +4811,7 @@ country_event = { #The Presidental Elections of 1942
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "Portrait_Soviet_Viktor_Chernov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -4887,7 +4887,7 @@ country_event = { #The Presidental Elections of 1942
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "portrait_russia_vasily_maklakov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -4967,7 +4967,7 @@ country_event = { #The Presidental Elections of 1942
 			desc = "POLITICS_ALEXEI_ARCHANGELSKY_DESC"
 			picture = "portrait_alexey_arch.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5043,7 +5043,7 @@ country_event = { #The Presidental Elections of 1942
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "portrait_russia_solomon.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5130,7 +5130,7 @@ country_event = { #The Presidental Elections of 1943
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "Portrait_Soviet_Viktor_Chernov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5205,7 +5205,7 @@ country_event = { #The Presidental Elections of 1943
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "portrait_russia_vasily_maklakov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5284,7 +5284,7 @@ country_event = { #The Presidental Elections of 1943
 			desc = "POLITICS_ALEXEI_ARCHANGELSKY_DESC"
 			picture = "portrait_alexey_arch.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5359,7 +5359,7 @@ country_event = { #The Presidental Elections of 1943
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "portrait_russia_solomon.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -5616,11 +5616,11 @@ country_event = { #socialist victory
 		add_ideas = RUS_Maria_A_Spiridonova_sec_rso
 		add_stability = -0.16
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.2
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -5816,11 +5816,11 @@ country_event = { #socialist victory
 		add_ideas = RUS_Maria_A_Spiridonova_sec_rso
 		add_stability = -0.1
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.2
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -5934,11 +5934,11 @@ country_event = { #The XI Duma Elections Meneshvik
 		remove_ideas_with_trait = security_minister
 		add_ideas = RUS_Maria_A_Spiridonova_sec_rso
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.2
 		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 	}
@@ -6306,7 +6306,7 @@ country_event = { #The Presidental Elections of 1948
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "Portrait_Soviet_Viktor_Chernov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6381,7 +6381,7 @@ country_event = { #The Presidental Elections of 1948
 			desc = "POLITICS_TYRKOVA_WILLIAMS_DESC"
 			picture = "portrait_russia_adriana.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6460,7 +6460,7 @@ country_event = { #The Presidental Elections of 1948
 			desc = "POLITICS_ALEXEI_ARCHANGELSKY_DESC"
 			picture = "portrait_alexey_arch.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6535,7 +6535,7 @@ country_event = { #The Presidental Elections of 1948
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "portrait_russia_solomon.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6623,7 +6623,7 @@ country_event = { #The Presidental Elections of 1949
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "Portrait_Soviet_Viktor_Chernov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6698,7 +6698,7 @@ country_event = { #The Presidental Elections of 1949
 			desc = "POLITICS_TYRKOVA_WILLIAMS_DESC"
 			picture = "portrait_russia_adriana.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6777,7 +6777,7 @@ country_event = { #The Presidental Elections of 1949
 			desc = "POLITICS_ALEXEI_ARCHANGELSKY_DESC"
 			picture = "portrait_alexey_arch.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -6852,7 +6852,7 @@ country_event = { #The Presidental Elections of 1949
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "portrait_russia_solomon.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
@@ -7083,7 +7083,7 @@ country_event = { # Denikin's death DEN_LEADER
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "Portrait_Soviet_Vladimir_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -7715,9 +7715,6 @@ country_event = { #kill dmitry
 
 	option = {
 		name = rusd.103.a
-		ai_chance = {
-			factor = 30
-		}
 		set_country_flag = Dmitri_Pavlovich_Romanov_dead
 		hidden_effect = {
 			remove_ideas = RUS_Dmi_Tri
@@ -7831,7 +7828,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = rusd.104.a
+		name = rusd.104.b
 		trigger = {
 			AND = {
 				OR = {
@@ -7873,7 +7870,7 @@ country_event = {
 			desc = "POLITICS_SENATE_DESC"
 			picture = "Portrait_Soviet_The_Senate.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -8436,7 +8433,7 @@ country_event = { #Churchill Iron Curtain speech
 			OR = {
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = syndicalist
 				has_government = totalist
 			}

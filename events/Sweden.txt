@@ -92,7 +92,7 @@ country_event = { #Rising SSV membership
 	option = {
 		name = swe.3.a
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
-		add_popularity = { ideology = democratic_socialist popularity = 0.01 }
+		add_popularity = { ideology = radical_socialist popularity = 0.01 }
 	}
 }
 
@@ -133,7 +133,7 @@ country_event = { #SAP refuses to rule out cooperation with radicals
 
 	option = {
 		name = swe.5.a
-		add_popularity = { ideology = democratic_socialist popularity = 0.02 }
+		add_popularity = { ideology = radical_socialist popularity = 0.02 }
 		add_stability = -0.05
 	}
 }
@@ -212,7 +212,9 @@ country_event = { #1936 Riksdag Elections
 
 	option = { #The socialdemocrats triumph
 		name = swe.8.a
-		ai_chance = { factor = 70 }
+		ai_chance = {
+			factor = 70
+		}
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		country_event = { id = swe.9 days = 2 }
 		set_country_flag = SWE_elections_over
@@ -224,7 +226,34 @@ country_event = { #1936 Riksdag Elections
 
 	option = { #The conservatives defend their majority
 		name = swe.8.b
-		ai_chance = { factor = 30 }
+		ai_chance = { 
+			factor = 30
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_KING_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+					}
+				}
+			}
+		}
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		country_event = { id = swe.10 days = 2 }
 		set_country_flag = SWE_elections_over
@@ -247,9 +276,18 @@ country_event = { #Cabinet Hansson I
 
 	option = { #We form a coalition with the SSV
 		name = swe.9.a
-		ai_chance = { factor = 64 }
+		ai_chance = {
+			factor = 64
+			modifier = {
+		    factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_CONSERVATIVE
+				}
+			}
+		}
 		set_country_flag = swe_far_left_coalition
-		add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+		add_popularity = { ideology = radical_socialist popularity = 0.1 }
 		set_politics = { ruling_party = social_democrat elections_allowed = yes }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Per_Albin_Hansson_hog_sde
@@ -263,7 +301,34 @@ country_event = { #Cabinet Hansson I
 
 	option = { #We form a coalition with the Böndeforbundet
 		name = swe.9.b
-		ai_chance = { factor = 36 }
+		ai_chance = {
+			factor = 36
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_KING_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+					}
+				}
+			}
+		}
 		set_country_flag = swe_center_left_coalition
 		add_popularity = { ideology = social_liberal popularity = 0.03 }
 		set_politics = { ruling_party = social_democrat elections_allowed = yes }
@@ -406,7 +471,22 @@ country_event = { #Worker's militias form!
 
 	option = { #Whip out the machine guns!
 		name = swe.13.a
-		ai_chance = { factor = 90 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+					}
+				}
+			}
+		}
 		add_manpower = -25
 		141 = {
 			add_manpower = -362
@@ -417,7 +497,26 @@ country_event = { #Worker's militias form!
 
 	option = { #The soldiers revolt against their rogue superiors!
 		name = swe.13.b
-		ai_chance = { factor = 10 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_KING_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+					}
+				}
+			}
+		}
 		add_stability = -0.05
 		hidden_effect = { country_event = { id = swe.15 days = 1 } }
 	}
@@ -442,7 +541,16 @@ country_event = { #Worker's militias slaughtered
 
 	option = { #Carl August Ehrensvärd
 		name = swe.14.a
-		ai_chance = { factor = 30 }
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+				}
+			}
+		}
 		add_manpower = -87
 		138 = {
 			add_manpower = -2037
@@ -459,14 +567,23 @@ country_event = { #Worker's militias slaughtered
 		add_ideas = SWE_Carl_August_Ehrensvaerd_hog_ade
 		add_ideas = SWE_Sven_Hedin_for_ade
 		add_ideas = SWE_Marcus_Wallenberg_eco_pau
-		add_ideas = SWE_Martin_Ekstroem_hog_npo
+		add_ideas = SWE_Martin_Ekstroem_sec_npo
 		clr_country_flag = swe_far_left_coalition
 		remove_ideas = SWE_political_instability_idea
 	}
 
 	option = { #Helge Jung
 		name = swe.14.b
-		ai_chance = { factor = 30 }
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+				}
+			}
+		}
 		add_manpower = -87
 		138 = {
 			add_manpower = -2037
@@ -482,14 +599,30 @@ country_event = { #Worker's militias slaughtered
 		add_ideas = SWE_Helge_Jung_hog_pau
 		add_ideas = SWE_Sven_Hedin_for_ade
 		add_ideas = SWE_Marcus_Wallenberg_eco_pau
-		add_ideas = SWE_Martin_Ekstroem_hog_npo
+		add_ideas = SWE_Martin_Ekstroem_sec_npo
 		clr_country_flag = swe_far_left_coalition
 		remove_ideas = SWE_political_instability_idea
 	}
 
 	option = { #Axel Gyllenkrok
 		name = swe.14.c
-		ai_chance = { factor = 30 }
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_KING_AUTHORITARIAN_DEMOCRAT
+				}
+			}
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_AUTHORITARIAN_DEMOCRAT
+				}
+			}
+		}
 		add_manpower = -87
 		138 = {
 			add_manpower = -2037
@@ -506,7 +639,7 @@ country_event = { #Worker's militias slaughtered
 		add_ideas = SWE_Axel_Gyllenkrok_hog_npo
 		add_ideas = SWE_Sven_Hedin_for_ade
 		add_ideas = SWE_Marcus_Wallenberg_eco_pau
-		add_ideas = SWE_Martin_Ekstroem_hog_npo
+		add_ideas = SWE_Martin_Ekstroem_sec_npo
 		clr_country_flag = swe_far_left_coalition
 		remove_ideas = SWE_political_instability_idea
 	}
@@ -535,12 +668,12 @@ country_event = { #Worker's militias overrun the putschists
 			add_manpower = -842
 		}
 		add_stability = -0.05
-		add_popularity = { ideology = democratic_socialist popularity = 0.2 }
+		add_popularity = { ideology = radical_socialist popularity = 0.2 }
 		add_popularity = { ideology = syndicalist popularity = 0.12 }
 		add_popularity = { ideology = totalist popularity = 0.08 }
 		add_popularity = { ideology = social_democrat popularity = -0.2 }
 		add_popularity = { ideology = social_liberal popularity = -0.1 }
-		set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+		set_politics = { ruling_party = radical_socialist elections_allowed = no }
 		add_ideas = SWE_Karl_Kilbom_hog_rso
 		add_ideas = SWE_Albert_Jensen_for_syn
 		add_ideas = SWE_Sven_Linderot_eco_tot
@@ -666,7 +799,7 @@ country_event = { #Swedish refugees (from socialists)
 
 	trigger = {
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			has_government = totalist
 			AND = {
@@ -879,7 +1012,7 @@ country_event = { #Military tribunals
 		add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
 		add_popularity = { ideology = totalist popularity = -0.1 }
 		add_popularity = { ideology = syndicalist popularity = -0.2 }
-		add_popularity = { ideology = democratic_socialist popularity = -0.05 }
+		add_popularity = { ideology = radical_socialist popularity = -0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.1 }
 		country_event = { id = swe.22 days = 2 }
 	}
@@ -926,13 +1059,37 @@ country_event = { #Return of the king?
 
 	option = { #Let us invite the monarchy back!
 		name = swe.23.a
-		ai_chance = { factor = 60 }
+		ai_chance = {
+			factor = 60
+			modifier = {
+		    factor = 0
+		    OR = {
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_AUTHORITARIAN_DEMOCRAT
+					}
+					has_game_rule = {
+						rule = SWE_riksdag_election
+						option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+					}
+				}
+			}
+		}
 		set_country_flag = SWE_restore_kingdom
 	}
 
 	option = { #The military junta should stay in place for the time being
 		name = swe.23.b
-		ai_chance = { factor = 40 }
+		ai_chance = {
+			factor = 40
+			modifier = {
+		    factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_KING_AUTHORITARIAN_DEMOCRAT
+				}
+			}
+		}
 		set_country_flag = SWE_permanent_junta
 	}
 }
@@ -1170,7 +1327,7 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 		remove_ideas_with_trait = economy_minister
 		add_ideas = SWE_Elof_Eriksson_eco_npo
 		remove_ideas_with_trait = security_minister
-		add_ideas = SWE_Martin_Ekstroem_hog_npo
+		add_ideas = SWE_Martin_Ekstroem_sec_npo
 
 		create_country_leader = {
 			name = "Axel Gyllenkrok"
@@ -1288,7 +1445,7 @@ country_event = { #The reestablished trade unions are rather unsuccessful
 	}
 
 	option = { #Cut our losses, ban them again
-		name = swe.32.a
+		name = swe.32.b
 		ai_chance = { factor = 40 }
 		add_political_power = -75
 		hidden_effect = {
@@ -1418,7 +1575,7 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 		remove_ideas_with_trait = economy_minister
 		add_ideas = SWE_Elof_Eriksson_eco_npo
 		remove_ideas_with_trait = security_minister
-		add_ideas = SWE_Martin_Ekstroem_hog_npo
+		add_ideas = SWE_Martin_Ekstroem_sec_npo
 
 		create_country_leader = {
 			name = "Axel Gyllenkrok"
@@ -1557,7 +1714,7 @@ country_event = { #A statue of Per Albin Hansson
 	trigger = {
 		tag = SWE
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 	}
@@ -1580,7 +1737,7 @@ country_event = { #First Day of the Revolution
 	trigger = {
 		tag = SWE
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -1605,7 +1762,7 @@ country_event = { #Day of the Revolution
 	trigger = {
 		tag = SWE
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -1631,7 +1788,7 @@ country_event = { #Ew, Norway is in the Internationale and threatening. Abandon 
 		tag = SWE
 		is_in_faction = no
 		NOT = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			has_government = totalist
 			has_country_flag = swe_far_left_coalition
@@ -1821,7 +1978,7 @@ country_event = { #We got a nice letter from the king of Sweden
 	}
 
 	option = { #A nice gesture
-		name = swe.51.a
+		name = swe.51.b
 		ai_chance = { factor = 40 }
 		add_opinion_modifier = {
 			target = SWE
@@ -2494,7 +2651,7 @@ country_event = { #Hidden event to fire the yearly situation report of the commi
 					has_country_flag = SWE_black_monday_over
 					has_government = totalist
 					has_government = syndicalist
-					has_government = democratic_socialist
+					has_government = radical_socialist
 				}
 			}
 			country_event = { id = swe.67 }
@@ -2654,7 +2811,7 @@ country_event = { #Sovereign debt crisis
 				}
 				country_exists = yes
 				NOT = {
-					has_government = democratic_socialist
+					has_government = radical_socialist
 					has_government = syndicalist
 					has_government = totalist
 				}
@@ -3018,13 +3175,13 @@ country_event = { #Press control in socialist Sweden
 		ai_chance = { factor = 60 }
 		trigger = {
 			OR = {
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				NOT = {
 					has_completed_focus = SWE_new_sweden
 				}
 			}
 		}
-		add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+		add_popularity = { ideology = radical_socialist popularity = 0.1 }
 		add_political_power = -25
 	}
 }
@@ -3062,14 +3219,14 @@ country_event = { #Establishment of the Stasä
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				NOT = {
 					has_completed_focus = SWE_new_sweden
 				}
 			}
 		}
 		add_popularity = { ideology = syndicalist popularity = 0.05 }
-		add_popularity = { ideology = democratic_socialist popularity = 0.05 }
+		add_popularity = { ideology = radical_socialist popularity = 0.05 }
 		add_political_power = 75
 	}
 }
@@ -3148,7 +3305,6 @@ country_event = { #Totalists gather power
 
 	option = { #Good riddance
 		name = swe.82.a
-		ai_chance = { factor = 100 }
 		add_political_power = 100
 		hidden_effect = { country_event = { id = swe.83 days = 60 } }
 	}
@@ -3168,7 +3324,6 @@ country_event = { #Pacifying the Unions
 
 	option = { #Good riddance
 		name = swe.83.a
-		ai_chance = { factor = 100 }
 		add_stability = -0.05
 		add_popularity = { ideology = totalist popularity = 0.05 }
 		hidden_effect = { country_event = { id = swe.84 days = 30 } }
@@ -3543,7 +3698,9 @@ country_event = { #Appointment of the Politbureau
 
 	option = { #Kilbom's men
 		name = swe.95.b
-		ai_chance = { factor = 40 }
+		ai_chance = { 
+			factor = 40
+		}
 		add_political_power = -25
 		hidden_effect = { country_event = { id = swe.100 days = 2 } }
 	}
@@ -3601,7 +3758,9 @@ country_event = { #Seize power now or wait
 
 	option = { # Wait!
 		name = swe.97.b
-		ai_chance = { factor = 70 }
+		ai_chance = { 
+			factor = 70
+		}
 		set_country_flag = swe_linderot_to_seize_power
 	}
 }
@@ -3626,7 +3785,16 @@ country_event = { #General Secretary Election, oops, Linderot isn't a choice
 
 	option = { # Flyg
 		name = swe.98.a
-		ai_chance = { factor = 50 }
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		hidden_effect = { country_event = { id = swe.99 days = 1 } }
 	}
 
@@ -3634,7 +3802,7 @@ country_event = { #General Secretary Election, oops, Linderot isn't a choice
 		name = swe.98.b
 		ai_chance = { factor = 50 }
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -3650,7 +3818,7 @@ country_event = { #General Secretary Election, oops, Linderot isn't a choice
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -3704,7 +3872,7 @@ country_event = { #Radsoc Politbureau dissolves congress
 	option = { #Excellent!
 		name = swe.100.a
 		add_political_power = 25
-		add_popularity = { ideology = democratic_socialist popularity = 0.2 }
+		add_popularity = { ideology = radical_socialist popularity = 0.2 }
 		hidden_effect = { country_event = { id = swe.101 days = 30 } }
 	}
 }
@@ -3729,9 +3897,18 @@ country_event = { #Recall vote on Nils Flyg
 
 	option = { # Recall vote succeeds
 		name = swe.101.a
-		ai_chance = { factor = 50 }
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -3747,7 +3924,7 @@ country_event = { #Recall vote on Nils Flyg
 			desc = "politics_congress_desc"
 			picture = "Portrait_Sweden_Revolutionary_Committee.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -3782,7 +3959,7 @@ country_event = { #Elect General Secretary
 		name = swe.102.a
 		ai_chance = { factor = 50 }
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -3798,7 +3975,7 @@ country_event = { #Elect General Secretary
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -3825,14 +4002,14 @@ country_event = { #Elect General Secretary
 			desc = "politics_frans_severin_desc"
 			picture = "Portrait_Sweden_Frans_Severin.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
 	}
 
 	option = { # Kilbommare win and abolish the office
-		name = swe.102.b
+		name = swe.102.c
 		ai_chance = { factor = 25 }
 		add_political_power = 25
 	}
@@ -3923,7 +4100,7 @@ country_event = { #Nils Flyg ded, but he didn't matter anymore
 	trigger = {
 		tag = SWE
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 		}
 		has_country_flag = swe_recallvote_succeeded
@@ -3950,7 +4127,7 @@ country_event = { #Nils Flyg ded, but he didn't matter anymore 2
 	is_triggered_only = yes
 	trigger = {
 		tag = SWE
-		has_government = democratic_socialist
+		has_government = radical_socialist
 		NOT = {
 			has_country_flag = Nils_Flyg_dead
 		}
@@ -3976,7 +4153,7 @@ country_event = { #Nils Flyg ded, but he never mattered
 	trigger = {
 		tag = SWE
 		OR = {
-			has_government = democratic_socialist
+			has_government = radical_socialist
 			has_government = syndicalist
 			has_elected_government = yes
 		}
@@ -4076,10 +4253,19 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 
 	option = { # Karl Kilbom
 		name = swe.109.c
-		ai_chance = { factor = 5 }
-		add_popularity = { ideology = democratic_socialist popularity = 0.2 }
+		ai_chance = { 
+			factor = 5
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
+		add_popularity = { ideology = radical_socialist popularity = 0.2 }
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -4095,7 +4281,7 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -4337,7 +4523,7 @@ country_event = { #The Swedes refuse!
 	}
 
 	option = { #Back down at this late stage
-		name = swe.116.a
+		name = swe.116.b
 		ai_chance = { factor = 20 }
 		add_political_power = -100
 		FIN = {
@@ -4646,7 +4832,16 @@ country_event = { #Death of the Riksledare
 
 	option = { #Helge Jung, candidate of the military
 		name = swe.124.c
-		ai_chance = { factor = 30 }
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_JUNTA_NATIONAL_POPULIST
+				}
+			}
+		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.3 }
 		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 		remove_ideas_with_trait = head_of_government
@@ -4683,7 +4878,6 @@ country_event = { #Sweden leaves the Reichspakt
 
 	option = { #traitors!
 		name = swe.125.a
-		ai_chance = { factor = 100 }
 		SWE = {
 			leave_faction = yes
 		}
@@ -4705,7 +4899,6 @@ country_event = { #Sweden leaves the Third Internationale
 
 	option = { #traitors!
 		name = swe.126.a
-		ai_chance = { factor = 100 }
 		SWE = {
 			leave_faction = yes
 		}
@@ -4735,7 +4928,6 @@ country_event = { #Disestablish the Allmanna Sakerhetstjansten
 
 	option = { #Splendid!
 		name = swe.127.a
-		ai_chance = { factor = 100 }
 		remove_ideas = SWE_idea_allmanna_sakerhetstjansten
 	}
 }
@@ -4757,7 +4949,6 @@ country_event = { #Rocket lands too far north
 
 	option = { #Oof...
 		name = swe.128.a
-		ai_chance = { factor = 100 }
 		add_political_power = -25
 		every_country = {
 			limit = {
@@ -4788,7 +4979,6 @@ country_event = { #Rocket lands too far north
 
 	option = { #Keep it.
 		name = swe.129.a
-		ai_chance = { factor = 100 }
 		add_tech_bonus = {
 			bonus = 0.5
 			uses = 1
@@ -5018,6 +5208,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.1.a
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_syndicalistpeople
 		add_popularity = {
@@ -5032,10 +5232,20 @@ country_event = {
 
 	option = {
 		name = swe_syncon.1.b
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = 25
 		add_ideas = SWE_radicalistpeople
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5046,6 +5256,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.1.c
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_totalistpeople
 		add_popularity = {
@@ -5069,6 +5289,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.2.a
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = -25
 		#add_ideas = SWE_syndicalisteconomy
 		add_popularity = {
@@ -5083,10 +5313,20 @@ country_event = {
 
 	option = {
 		name = swe_syncon.2.b
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = 25
 		#add_ideas = SWE_radicalisteconomy
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5098,6 +5338,16 @@ country_event = {
 	option = {
 		name = swe_syncon.2.c
 		add_political_power = -25
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+				}
+			}
+		}
 		#add_ideas = SWE_totalisteconomy
 		add_popularity = {
 			ideology = totalist
@@ -5120,6 +5370,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.3.a
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_syndicalistmilitary
 		add_popularity = {
@@ -5134,10 +5394,20 @@ country_event = {
 
 	option = {
 		name = swe_syncon.3.b
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = 25
 		add_ideas = SWE_radicalistmilitary
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5148,6 +5418,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.3.c
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_totalistmilitary
 		add_popularity = {
@@ -5172,6 +5452,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.4.a
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_syndicalistsociety
 		add_popularity = {
@@ -5185,10 +5475,20 @@ country_event = {
 
 	option = {
 		name = swe_syncon.4.b
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_TOTALIST
+				}
+			}
+		}
 		add_political_power = 25
 		add_ideas = SWE_radicalistsociety
 		add_popularity = {
-			ideology = democratic_socialist
+			ideology = radical_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5199,6 +5499,16 @@ country_event = {
 
 	option = {
 		name = swe_syncon.4.c
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = SWE_riksdag_election
+					option = SWE_RIKSDAG_ELECTION_FAR_LEFT_REVOLUTION_SYNDICALIST
+				}
+			}
+		}
 		add_political_power = -25
 		add_ideas = SWE_totalistsociety
 		add_popularity = {
@@ -5323,7 +5633,7 @@ country_event = {
 		name = swe_syncon.6.a
 		add_political_power = 25
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -5331,7 +5641,7 @@ country_event = {
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -5342,7 +5652,7 @@ country_event = {
 		add_political_power = 25
 		set_country_flag = SWE_boye_rule
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -5350,7 +5660,7 @@ country_event = {
 			desc = "politics_karin_boye_desc"
 			picture = "Portrait_Sweden_Karin_Boye.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -5541,7 +5851,7 @@ country_event = {
 		name = swe_syncon.8.b
 		add_political_power = 25
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -5557,7 +5867,7 @@ country_event = {
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -5646,7 +5956,7 @@ country_event = {
 		name = swe_syncon.9.b
 		add_political_power = 25
 		set_politics = {
-			ruling_party = democratic_socialist
+			ruling_party = radical_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -5662,7 +5972,7 @@ country_event = {
 			desc = "politics_karl_kilblom_desc"
 			picture = "Portrait_Sweden_Karl_Kilbom.tga"
 			expire = "1965.1.1"
-			ideology = democratic_socialist_subtype
+			ideology = radical_socialist_subtype
 			traits = {
 			}
 		}
@@ -5856,7 +6166,7 @@ country_event = {
 	option = {
 		name = swe_flavor.3.a
 		hidden_effect = {
-			add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+			add_popularity = { ideology = radical_socialist popularity = 0.1 }
 			add_popularity = { ideology = syndicalist popularity = 0.05 }
 			add_popularity = { ideology = totalist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.1 } }
@@ -5935,7 +6245,7 @@ country_event = {
 
 	option = {
 		name = swe_flavor.6.b
-		add_popularity = { ideology = democratic_socialist popularity = 0.05 }
+		add_popularity = { ideology = radical_socialist popularity = 0.05 }
 		add_popularity = { ideology = syndicalist popularity = 0.05 }
 		add_popularity = { ideology = totalist popularity = 0.05 }
 	}
@@ -6067,7 +6377,7 @@ country_event = {
 		name = swe_flavor.12.a
 		ai_chance = { factor = 10 }
 		add_political_power = 30
-		add_popularity = { ideology = democratic_socialist popularity  = -0.05 }
+		add_popularity = { ideology = radical_socialist popularity  = -0.05 }
 		add_popularity = { ideology = totalist popularity  = -0.05 }
 		add_popularity = { ideology = syndicalist popularity  = -0.05 }
 	}
@@ -6078,7 +6388,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				has_government = totalist
 			}
 		}
@@ -6110,7 +6420,7 @@ country_event = {
 
 	option = {
 		name = swe_flavor.13.b
-		trigger = { NOT = { has_government = democratic_socialist } }
+		trigger = { NOT = { has_government = radical_socialist } }
 		add_political_power = -20
 	}
 
@@ -6128,7 +6438,7 @@ country_event = {
 		NOT = {
 			has_government = totalist
 			has_government = syndicalist
-			has_government = democratic_socialist
+			has_government = radical_socialist
 		}
 	}
 

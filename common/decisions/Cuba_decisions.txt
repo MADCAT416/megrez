@@ -362,7 +362,7 @@ CUB_socialist_decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -401,7 +401,7 @@ CUB_socialist_decisions = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_government = democratic_socialist
+				has_government = radical_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -568,7 +568,7 @@ CUB_foreign_decisions = {
 								tag = COS
 								tag = "PAN"
 							}
-							has_socialist_government = no
+							not_has_socialist_government = yes
 						}
 					}
 					AND = {
@@ -583,7 +583,7 @@ CUB_foreign_decisions = {
 								tag = COS
 								tag = "PAN"
 							}
-							has_socialist_government = yes
+							not_has_socialist_government = yes
 						}
 					}
 				}
