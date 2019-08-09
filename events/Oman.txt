@@ -140,7 +140,7 @@ country_event = {
             social_conservative = 12
             authoritarian_democrat = 42
             paternal_autocrat = 25
-            national_populist = 5
+            ethnic_populist = 5
         }
 	}
 }

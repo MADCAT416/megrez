@@ -19,8 +19,8 @@ SRI_authoritarian_democrat_party:0 "PMP"
 SRI_authoritarian_democrat_party_long:0 "Partito Monarchico Popolare"
 SRI_paternal_autocrat_party:0 "Lega Monarchica"
 SRI_paternal_autocrat_party_long:0 "Lega Monarchica"
-SRI_national_populist_party:0 "ANI"
-SRI_national_populist_party_long:0 "Associazione Nazionalista Italiana"
+SRI_ethnic_populist_party:0 "ANI"
+SRI_ethnic_populist_party_long:0 "Associazione Nazionalista Italiana"
 
 ### Opinion Modifiers ###
 SRI_did_not_listen_FRA:0 "Italy Disregarded Our Advice"

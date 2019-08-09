@@ -857,7 +857,7 @@ country_event = {
 		name = gre.18.c #The army takes control, promising free and democratic elections
 		trigger = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_socialist_government = yes
 			}
@@ -1820,14 +1820,14 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			create_country_leader = {
 				name = "Pávlos I"
 				desc = "POLITICS_KING_PAVLOS_DESC"
 				picture = "gfx/leaders/GRE/Portrait_GRE_Paul.tga"
 				expire = "1962.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -5902,7 +5902,7 @@ country_event = {
 			factor = 70
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0.5
@@ -5931,7 +5931,7 @@ country_event = {
 			factor = 30
 			modifier = {
 				factor = 2
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0
@@ -6037,7 +6037,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.1
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0.5

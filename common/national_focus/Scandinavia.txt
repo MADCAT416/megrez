@@ -1691,7 +1691,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.1
 			}
 		}

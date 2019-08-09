@@ -45,7 +45,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = MAF_Sov
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		prerequisite = {
@@ -81,7 +81,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = MAF_Sov
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		prerequisite = {
@@ -118,7 +118,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = MAF_Sov
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			has_war = no
 		}
@@ -180,7 +180,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = MAF_Sov
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		prerequisite = {
@@ -229,7 +229,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = MAF_Sov
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			country_exists = GER
 			is_subject_of = GER
@@ -437,7 +437,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -495,7 +495,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -560,7 +560,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -613,7 +613,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -651,7 +651,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -690,7 +690,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -727,7 +727,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -770,7 +770,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -813,7 +813,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -846,7 +846,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -880,7 +880,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -971,7 +971,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -1062,7 +1062,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -1134,7 +1134,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -1173,7 +1173,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -1206,7 +1206,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR
@@ -1239,7 +1239,7 @@ focus_tree = {
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = MAF_Sov
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				custom_trigger_tooltip = {
 					tooltip = MAF_NKR

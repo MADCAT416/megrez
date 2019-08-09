@@ -19,8 +19,8 @@ SPR_authoritarian_democrat_party:0 "Acción Popular"
 SPR_authoritarian_democrat_party_long:0 "The Radical Faction of the Acción Popular"
 SPR_paternal_autocrat_party:0 "Falange Española"
 SPR_paternal_autocrat_party_long:0 "Falange Española"
-SPR_national_populist_party:0 "JONS"
-SPR_national_populist_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
+SPR_ethnic_populist_party:0 "JONS"
+SPR_ethnic_populist_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
 
 ### Ideas ###
 SPR_memories_of_the_republic:0 "Memories of the Republic"

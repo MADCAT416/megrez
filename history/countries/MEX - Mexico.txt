@@ -85,7 +85,7 @@ set_popularities = {
     social_conservative = 0
     authoritarian_democrat = 0
     paternal_autocrat = 0
-    national_populist = 5
+    ethnic_populist = 5
 }
 
 add_ideas = {
@@ -155,7 +155,7 @@ create_country_leader = {# Jose Antonio Urquiza
 	desc = "POLITICS_JOSE_URQUIZA_DESC"
 	picture = "Portrait_Mexico_Urquiza.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

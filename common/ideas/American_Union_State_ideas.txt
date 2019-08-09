@@ -605,7 +605,7 @@ ideas = {
 		TEX_the_silver_legion_idea = {#The Silver Legion
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TEX_the_silver_legion_idea"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = generic_victors_of_ww1
 			modifier = {
@@ -616,7 +616,7 @@ ideas = {
 		TEX_work_camps_idea = {#Work Camps
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TEX_work_camps_idea"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
@@ -626,7 +626,7 @@ ideas = {
 		TEX_jim_crows_america_idea = {#Jim Crows America
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TEX_jim_crows_america_idea"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = saf_history_of_segregation
 			modifier = {
@@ -637,7 +637,7 @@ ideas = {
 		TEX_white_welfare_idea = {#White Welfare
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TEX_white_welfare_idea"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = generic_goods_red_bonus
 			modifier = {
@@ -648,7 +648,7 @@ ideas = {
 		TEX_christian_education_idea = {#Christian Education
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TEX_christian_education_idea"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = neutrality_idea
 			modifier = {

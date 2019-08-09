@@ -835,7 +835,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NAM_calm_barotseland"
 			remove_ideas = NAM_barotseland_resistance
 			add_popularity = {
-				ideology = national_populist popularity = -0.05
+				ideology = ethnic_populist popularity = -0.05
 			}
 		}
 	}
@@ -2135,7 +2135,7 @@ focus_tree = {
 				}
 			}
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 			}
@@ -2163,7 +2163,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 			}
@@ -2202,7 +2202,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 			}
@@ -2212,10 +2212,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NAM_silence_opposition"
 			if = {
 				limit = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.2
 				}
 			}
@@ -2257,7 +2257,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -2290,7 +2290,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 			}
@@ -2323,7 +2323,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 			}

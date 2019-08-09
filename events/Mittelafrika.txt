@@ -1620,7 +1620,7 @@ country_event = { #MAF peace deal
 			white_peace_with_ROOT = yes
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_stability = -0.08
@@ -1811,7 +1811,7 @@ country_event = { #The Kenyatta-Solf Affair
 		name = mittel.45.a
 
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -1936,11 +1936,11 @@ country_event = { #Arrest warrant for Goering
 			}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -2085,7 +2085,7 @@ country_event = { #Friends in Berlin
 		name = mittel.52.a
 		add_political_power = -25
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -2744,7 +2744,7 @@ country_event = { #Lion Society Kills Kraut
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2775,7 +2775,7 @@ country_event = { #Lion Society Kills Bockholt
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2806,7 +2806,7 @@ country_event = { #Lion Society Kills Asmis
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2853,7 +2853,7 @@ country_event = { #Opium Trade
 		}
 		add_stability = 0.02
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_timed_idea = {
@@ -2949,10 +2949,10 @@ country_event = { #Die Volkerschau - Berlin
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 		}
@@ -3172,7 +3172,7 @@ country_event = { #Support Equipment for GER
 		MAF = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			exists = yes
 		}
@@ -3229,7 +3229,7 @@ country_event = { #Guns for GER
 		MAF = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			exists = yes
 		}
@@ -3815,7 +3815,7 @@ country_event = {
 	option = {
 		name = mittel.104.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 	}
@@ -4581,10 +4581,10 @@ country_event = { ###Land Crisis
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 		}
@@ -4815,7 +4815,7 @@ country_event = { #####Sovereign State
 		remove_ideas_with_trait = security_minister
 		add_ideas = MAF_Hermann_von_Goering_sec_npo
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.25
 		}
 		add_popularity = {
@@ -5386,7 +5386,7 @@ country_event = { #MAF peace deal
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_stability = -0.08

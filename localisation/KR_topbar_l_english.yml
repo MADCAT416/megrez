@@ -9,7 +9,7 @@ market_liberal_topbar_tooltip:0 "Your current ruling party is §HMarket Liberal�
 social_conservative_topbar_tooltip:0 "Your current ruling party is §HSocial Conservative§!"
 authoritarian_democrat_topbar_tooltip:0 "Your current ruling party is §HAuthoritarian Democrat§!"
 paternal_autocrat_topbar_tooltip:0 "Your current ruling party is §HPaternal Autocrat§!"
-national_populist_topbar_tooltip:0 "Your current ruling party is §HNational Populist§!"
+ethnic_populist_topbar_tooltip:0 "Your current ruling party is §HEthnic Populist§!"
 
 party_popularity_delayed_tooltip:0 "Party popularity represents your current government's control over the nation and their support with the people. Political parties with high popularity are more able to push their political agenda and stabilise the nation."
 party_pop_0_90_loc_key:0 "§HParty Popularity\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: §G+0.95§!\n"

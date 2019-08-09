@@ -29,8 +29,8 @@ SQI_authoritarian_democrat_party:0 "IP"
 SQI_authoritarian_democrat_party_long:0 "Imperial Party"
 SQI_paternal_autocrat_party:0 "IP"
 SQI_paternal_autocrat_party_long:0 "Imperial Party"
-SQI_national_populist_party:0 "Brotherhood"
-SQI_national_populist_party_long:0 "Brotherhood"
+SQI_ethnic_populist_party:0 "Brotherhood"
+SQI_ethnic_populist_party_long:0 "Brotherhood"
 
 ### Opinion Modifiers ###
 GER_MANCHU_EMP:0 "Germany supports our Manchu Empire... at a cost."

@@ -22,8 +22,8 @@ XSM_authoritarian_democrat_party:0 "NCDG"
 XSM_authoritarian_democrat_party_long:0 "Northwest Civil Defence Government"
 XSM_paternal_autocrat_party:0 "NMA"
 XSM_paternal_autocrat_party_long:0 "Northwest Democratic Adminstration"
-XSM_national_populist_party:0 "NPMG"
-XSM_national_populist_party_long:0 "Northwest Provisional Military Government"
+XSM_ethnic_populist_party:0 "NPMG"
+XSM_ethnic_populist_party_long:0 "Northwest Provisional Military Government"
 
 ### Events ###
 mac.1.t:0 "Introduction to the Ma Clique"

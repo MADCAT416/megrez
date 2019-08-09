@@ -113,7 +113,7 @@ CUB_military_decisions = {
 					has_country_flag = CUB_socmilflag
 				}
 				AND = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_flag = CUB_natmilflag
 				}
 				AND = {

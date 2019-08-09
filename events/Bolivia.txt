@@ -34,7 +34,7 @@ country_event = { #1940 Elections
 		OR = {
 			NOT = {
 				is_subject = yes
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 			AND = {
@@ -184,7 +184,7 @@ country_event = { #1944 Elections
 		date < 1945.01.01
 		NOT = {
 			is_subject = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 		}
 	}
@@ -323,7 +323,7 @@ country_event = { #1948 Elections
 		date < 1949.01.01
 		NOT = {
 			is_subject = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 		}
 	}
@@ -454,10 +454,10 @@ country_event = { #A Syndicalist Republic?
 	option = {
 		name = bol.202.a
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.30
 		}
 		add_ideas = {
@@ -1280,10 +1280,10 @@ country_event = { #Radical Coup Attempt!
 		}
 		set_country_flag = ELECTIONS
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.30
 		}
 		add_ideas = {

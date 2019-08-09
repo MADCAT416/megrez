@@ -285,7 +285,7 @@ country_event = {
 		has_war = no
 		has_country_flag = LIB_societies_legalized
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = LIB_1939_elections_held
 		}
 	}
@@ -304,7 +304,7 @@ country_event = {
 		add_stability = -0.10
 		add_ideas = LIB_broken_center
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -314,7 +314,7 @@ country_event = {
 			add_ideas = LIB_Cornelius_Bosman_van_Oudkarspel_sec_npo
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.25
 		}
 
@@ -1407,7 +1407,7 @@ country_event = {
 		text = LIB.90.d.natpop
 		trigger = {
 			"LIB" = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 	}
@@ -1417,7 +1417,7 @@ country_event = {
 			"LIB" = {
 				NOT = {
 					has_government = totalist
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_flag = LIB_aligned_germany
 				}
 			}

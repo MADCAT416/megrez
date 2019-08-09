@@ -3151,7 +3151,7 @@ country_event = {
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "Portrait_Egypt_Abbas_II.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 			create_country_leader = {
@@ -3204,7 +3204,7 @@ country_event = {
                 social_conservative = 17
                 authoritarian_democrat = 45
                 paternal_autocrat = 10
-                national_populist = 0
+                ethnic_populist = 0
             }
 		}
 	}

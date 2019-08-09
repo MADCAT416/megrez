@@ -136,7 +136,7 @@ set_popularities = {
     social_conservative = 21
     authoritarian_democrat = 40
     paternal_autocrat = 8
-    national_populist = 3
+    ethnic_populist = 3
 }
 
 create_country_leader = {
@@ -225,7 +225,7 @@ create_country_leader = {
 	desc = "POLITICS_KIMON_GEORGIEV_DESC"
 	picture = "Portrait_BUL_Kimon_Griogiev.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

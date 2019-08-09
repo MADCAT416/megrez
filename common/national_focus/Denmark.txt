@@ -2555,7 +2555,7 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = -1 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -1 }
 			add_popularity = { ideology = paternal_autocrat popularity = -1 }
-			add_popularity = { ideology = national_populist popularity = -1 }
+			add_popularity = { ideology = ethnic_populist popularity = -1 }
 		}
 	}
 

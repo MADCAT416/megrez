@@ -442,7 +442,7 @@ country_event = {
 			tag = TEX
 			tag = CAL
 			has_socialist_government = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = social_democrat
 			has_government = social_liberal
 			has_government = market_liberal
@@ -654,7 +654,7 @@ country_event = {
 		}
 		is_subject = no
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			AND = {
 				tag = GER
 				has_socialist_government = no
@@ -788,7 +788,7 @@ country_event = {
 				has_socialist_government = no
 			}
 			AND = {
-				NOT = { has_government = national_populist }
+				NOT = { has_government = ethnic_populist }
 				has_socialist_government = no
 				NOT = { country_exists = USA }
 			}

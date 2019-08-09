@@ -376,14 +376,14 @@ ideas = {
 			}
 		}
 
-		national_populist_influence = {
+		ethnic_populist_influence = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 
 			removal_cost = -1
@@ -391,8 +391,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 
 			modifier = {
-				national_populist_drift = 0.1
-				national_populist_acceptance = 85
+				ethnic_populist_drift = 0.1
+				ethnic_populist_acceptance = 85
 			}
 		}
 

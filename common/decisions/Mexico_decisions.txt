@@ -106,7 +106,7 @@ MEX_international_decisions = {# Foreign Policy
 			not_has_socialist_government = yes
 			NOT = {
 				has_country_flag = MEX_junta_goldshirt_alliance
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = social_democrat
 			}
 			OR = {
@@ -480,10 +480,10 @@ MEX_central_american_intervention = {# dealing with central America
 		icon = generic_prepare_civil_war
 		allowed = { original_tag = MEX }
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		fire_only_once = yes
 		cost = 50
@@ -550,7 +550,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = GUA
 			has_country_flag = MEX_claims_central_america
 		}
@@ -587,7 +587,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = ELS
 			has_country_flag = MEX_claims_central_america
 		}
@@ -624,7 +624,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = HON
 			has_country_flag = MEX_claims_central_america
 		}
@@ -661,7 +661,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = NIC
 			has_country_flag = MEX_claims_central_america
 		}
@@ -698,7 +698,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = COS
 			has_country_flag = MEX_claims_central_america
 		}
@@ -735,7 +735,7 @@ MEX_central_american_intervention = {# dealing with central America
 			}
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			country_exists = CEN
 			has_country_flag = MEX_claims_central_america
 		}
@@ -923,10 +923,10 @@ MEX_reconquista_decisons = {# Reconquistia Decisions
 		icon = generic_ignite_civil_war
 		allowed = {original_tag = MEX }
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		fire_only_once = yes
@@ -1323,7 +1323,7 @@ MEX_economic_decisions = {# Economic Decisions
 				OR = {
 					has_socialist_government = yes
 					has_government = social_democrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}

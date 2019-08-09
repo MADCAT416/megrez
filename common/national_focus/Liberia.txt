@@ -158,7 +158,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_global_flag = USA_civil_war_begun_flag
 				NOT = {
 					is_subject_of = USA
@@ -439,7 +439,7 @@ focus_tree = {
 				NOT = { GER = { is_faction_leader = yes } }
 				is_subject_of = MAF
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -884,7 +884,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		bypass = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		completion_reward = {
@@ -900,7 +900,7 @@ focus_tree = {
 		prerequisite = { focus = LIB_freemason_coup }
 		available = {
 			has_war = no
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = LIB_freemason_coup
 		x = 0
@@ -924,7 +924,7 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = LIB_ultimatum_to_foreigners }
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = LIB_ultimatum_to_foreigners
 		x = 0
@@ -939,7 +939,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_no_democracy"
 			add_ideas = LIB_natpop_rule
-			add_popularity = { ideology = national_populist popularity = 0.15 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.15 }
 		}
 	}
 
@@ -949,7 +949,7 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = LIB_no_democracy }
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = LIB_no_democracy
 		x = 0
@@ -2598,7 +2598,7 @@ focus_tree = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = totalist
 				}
 			}
@@ -2714,7 +2714,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { has_government = national_populist }
+				NOT = { has_government = ethnic_populist }
 				SIE = {
 					owns_state = 700
 					same_government_type_as_ROOT = yes
@@ -2922,7 +2922,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { has_government = national_populist }
+				NOT = { has_government = ethnic_populist }
 				CIV = {
 					owns_state = 700
 					same_government_type_as_ROOT = yes
@@ -3041,7 +3041,7 @@ focus_tree = {
 		available = {
 			700 = { is_owned_and_controlled_by = LIB }
 			807 = { is_owned_and_controlled_by = LIB }
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_idea = LIB_ger_bailout }
 		}
 		relative_position_id = LIB_star_of_africa

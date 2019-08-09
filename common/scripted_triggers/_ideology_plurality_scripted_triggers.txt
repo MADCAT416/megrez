@@ -51,7 +51,7 @@ totalist_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@totalist
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -106,7 +106,7 @@ syndicalist_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@syndicalist
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -161,7 +161,7 @@ radical_socialist_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@radical_socialist
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -216,7 +216,7 @@ social_democrat_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -271,7 +271,7 @@ social_liberal_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@social_liberal
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -326,7 +326,7 @@ market_liberal_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@market_liberal
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -381,7 +381,7 @@ social_conservative_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@social_conservative
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -436,7 +436,7 @@ authoritarian_democrat_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@authoritarian_democrat
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
@@ -490,61 +490,61 @@ paternal_autocrat_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@paternal_autocrat
-				value = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@ethnic_populist
 				compare = greater_than
 			}
 		}
 	}
 }
 
-national_populist_plurality = {
+ethnic_populist_plurality = {
 
 	OR = {
-		national_populist > 0.5
+		ethnic_populist > 0.5
 
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@totalist
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@syndicalist
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@radical_socialist
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@social_democrat
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@social_liberal
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@market_liberal
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@social_conservative
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@authoritarian_democrat
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@national_populist
+				var = ROOT.party_popularity@ethnic_populist
 				value = ROOT.party_popularity@paternal_autocrat
 				compare = greater_than
 			}

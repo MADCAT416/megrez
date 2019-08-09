@@ -358,7 +358,7 @@ country_event = { # Elect a sultan
 				name = "Shakbut bin Sultan Al Nahyan"
 				picture = "Portrait_JBS_Shakhbut_bin_Sultan_Al_Nahyan.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -427,7 +427,7 @@ country_event = { # Elect a sultan
 				name = "Abtan Ibn Jazi"
 				picture = "Portrait_JBS_Abtan_ibn_Jazi.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}

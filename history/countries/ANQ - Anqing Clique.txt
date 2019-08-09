@@ -33,7 +33,7 @@ set_popularities = {
     social_conservative = 15
     authoritarian_democrat = 37
     paternal_autocrat = 48
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 add_opinion_modifier = { target = LEP modifier = embargo }

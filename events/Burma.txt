@@ -304,7 +304,7 @@ country_event = {
 			popularity = 0.09
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		if = {

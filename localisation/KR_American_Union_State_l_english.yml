@@ -19,8 +19,8 @@ TEX_authoritarian_democrat_party:0 "America First Party"
 TEX_authoritarian_democrat_party_long:0 "America First Party"
 TEX_paternal_autocrat_party:0 "War Powers Committee"
 TEX_paternal_autocrat_party_long:0 "War Powers Committee"
-TEX_national_populist_party:0 "The Silver Legion"
-TEX_national_populist_party_long:0 "The Silver Legion"
+TEX_ethnic_populist_party:0 "The Silver Legion"
+TEX_ethnic_populist_party_long:0 "The Silver Legion"
 
 ### Cosmetic Tag ###
 TEX_commonwealth_social_democrat:0 "Commonwealth of America"
@@ -41,9 +41,9 @@ TEX_commonwealth_authoritarian_democrat_DEF:0 "the Commonwealth of America"
 TEX_commonwealth_paternal_autocrat:0 "Commonwealth of America"
 TEX_commonwealth_paternal_autocrat_ADJ:0 "American"
 TEX_commonwealth_paternal_autocrat_DEF:0 "the Commonwealth of America"
-TEX_commonwealth_national_populist:0 "Commonwealth of America"
-TEX_commonwealth_national_populist_ADJ:0 "American"
-TEX_commonwealth_national_populist_DEF:0 "the Commonwealth of America"
+TEX_commonwealth_ethnic_populist:0 "Commonwealth of America"
+TEX_commonwealth_ethnic_populist_ADJ:0 "American"
+TEX_commonwealth_ethnic_populist_DEF:0 "the Commonwealth of America"
 
 ### Ideas ###
 TEX_righteous_nation:0 "The Rightful President"

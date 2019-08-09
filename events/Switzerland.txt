@@ -1328,7 +1328,7 @@ country_event = { # Military Coup
 		name = swiss.40.a
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 
@@ -1341,7 +1341,7 @@ country_event = { # Military Coup
 			desc = "POLITICS_BIRCHER_DESC"
 			picture = "Portrait_Switzerland_Eugen_Bircher.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				paranoid_francophobe
 			}
@@ -2769,7 +2769,7 @@ country_event = { # Officers Plot
 	option = {
 		name = swiss.68.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -5335,7 +5335,7 @@ country_event = { # Schweizerischer Vaterländischer Verband
 	option = {
 		name = swiss.146.a # Hmmm
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 	}
@@ -5718,7 +5718,7 @@ country_event = { # Banning Syndies as NatPops
 			popularity = -1.0
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -6370,7 +6370,7 @@ country_event = { # Coup Failed
 		set_country_flag = SWI_peace
 
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.4
 		}
 
@@ -6452,7 +6452,7 @@ country_event = { # Gunfire in Bern
 	option = {
 		name = swiss.188.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.03
 		}
 	}
@@ -6475,7 +6475,7 @@ country_event = { # Popular Support Rising
 	option = {
 		name = swiss.189.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.01
 		}
 	}
@@ -6499,7 +6499,7 @@ country_event = { # Increase in Patrols?
 		name = swiss.190.a
 		add_manpower = -3000
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.04
 		}
 	}
@@ -6538,7 +6538,7 @@ country_event = { # The Nation Secured - NatPop
 		tag = SWI
 		has_completed_focus = SWI_the_government_has_failed
 		check_variable = {
-			SWI.party_popularity@national_populist > 0.8
+			SWI.party_popularity@ethnic_populist > 0.8
 		}
 	}
 

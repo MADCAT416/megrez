@@ -2069,7 +2069,7 @@ focus_tree = {
 				popularity = -0.2
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.2
 			}
 			hidden_effect = {
@@ -2670,7 +2670,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.03
 			}
 			hidden_effect = {
@@ -2759,7 +2759,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.05
 			}
 		}

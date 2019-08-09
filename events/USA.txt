@@ -603,7 +603,7 @@ country_event = { # Increasing Radicalizing
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		custom_effect_tooltip = USA_AFP_gains_strength
@@ -691,7 +691,7 @@ country_event = { # Democrat voters align with the AFP
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		custom_effect_tooltip = USA_AFP_gains_strength
@@ -990,7 +990,7 @@ country_event = { # May Day Riots
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = USA_SPA_gains_strength
@@ -1305,7 +1305,7 @@ country_event = { # More AFP members announcing congressional Bids
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = USA_AFP_gains_strength

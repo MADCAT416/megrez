@@ -106,7 +106,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 40
     paternal_autocrat = 10
-    national_populist = 8
+    ethnic_populist = 8
 }
 
 country_event = { id = pru.113 days = 400  }
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
 	picture = "Portrait_Peru_Jose_Aguero.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

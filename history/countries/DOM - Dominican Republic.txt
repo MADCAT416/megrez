@@ -76,7 +76,7 @@ set_popularities = {
     social_conservative = 41
     authoritarian_democrat = 12
     paternal_autocrat = 13
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 set_convoys = 20

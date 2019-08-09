@@ -19,8 +19,8 @@ HAI_authoritarian_democrat_party:0 "Libéral"
 HAI_authoritarian_democrat_party_long:0 "Parti Libéral"
 HAI_paternal_autocrat_party:0 "Junte"
 HAI_paternal_autocrat_party_long:0 "Junte"
-HAI_national_populist_party:0 "Unité Nationale"
-HAI_national_populist_party_long:0 "Parti de l'Unité Nationale"
+HAI_ethnic_populist_party:0 "Unité Nationale"
+HAI_ethnic_populist_party_long:0 "Parti de l'Unité Nationale"
 
 ### Opinion Modifiers ###
 HAI_border_dispute:0 "Border Tensions"

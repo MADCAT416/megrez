@@ -148,7 +148,7 @@ set_popularities = {
     social_conservative = 23
     authoritarian_democrat = 5
     paternal_autocrat = 41
-    national_populist = 10
+    ethnic_populist = 10
 }
 
 create_country_leader = {

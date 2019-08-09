@@ -28,8 +28,8 @@ YUN_authoritarian_democrat_party:0 "YCP"
 YUN_authoritarian_democrat_party_long:0 "Young China Party"
 YUN_paternal_autocrat_party:0 "QRP"
 YUN_paternal_autocrat_party_long:0 "Qing Restoration Party"
-YUN_national_populist_party:0 "NPA"
-YUN_national_populist_party_long:0 "National Protection Alliance"
+YUN_ethnic_populist_party:0 "NPA"
+YUN_ethnic_populist_party_long:0 "National Protection Alliance"
 
 ### Opinion Modifiers ###
 YUN_Raid_AOG:0 "Yunnan Raided the AOG"

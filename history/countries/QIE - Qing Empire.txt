@@ -120,7 +120,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 47
     paternal_autocrat = 15
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 add_ideas = {
@@ -173,7 +173,7 @@ create_country_leader = {
 	desc = "ANTE_PUYI_DESC"
 	picture = "Portrait_China_Puyi.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

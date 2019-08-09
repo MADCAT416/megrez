@@ -23,8 +23,8 @@ SOM_authoritarian_democrat_party:0 "GQ"
 SOM_authoritarian_democrat_long:0 "Golaha Qabiilada"
 SOM_paternal_autocrat_party:0 "SW"
 SOM_paternal_autocrat_party_long:0 "Saldanadii Warsangali"
-SOM_national_populist_party:0 "DCS"
-SOM_national_populist_party_long:0 "Dhaqdhaqaaqa Cusub ee Soomaaliya"
+SOM_ethnic_populist_party:0 "DCS"
+SOM_ethnic_populist_party_long:0 "Dhaqdhaqaaqa Cusub ee Soomaaliya"
 
 ### Ideas ###
 SOM_iron_fist_of_warsangali:0 "Iron Fist of Warsangali"

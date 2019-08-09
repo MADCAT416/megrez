@@ -625,7 +625,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -653,7 +653,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -682,7 +682,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -924,7 +924,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_return_of_the_king }
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -954,7 +954,7 @@ focus_tree = {
 		relative_position_id = SWE_temporary_military_government
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -986,7 +986,7 @@ focus_tree = {
 		relative_position_id = SWE_temporary_military_government
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -1013,7 +1013,7 @@ focus_tree = {
 		relative_position_id = SWE_temporary_military_government
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -1178,7 +1178,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1203,7 +1203,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1233,12 +1233,12 @@ focus_tree = {
 		y = 1
 		cost = 8
 		bypass = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		available = {
 			OR = {
 				AND = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					is_subject = yes
 				}
 				has_government = paternal_autocrat
@@ -1284,7 +1284,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1305,7 +1305,7 @@ focus_tree = {
 				add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 			}
 			else = {
-				add_popularity = { ideology = national_populist popularity = 0.05 }
+				add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			}
 		}
 	}
@@ -1318,7 +1318,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1341,7 +1341,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = { focus = SWE_gyllenkrok_regime }
 		relative_position_id = SWE_for_our_nation
@@ -1362,7 +1362,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = { focus = SWE_stapol }
 		relative_position_id = SWE_for_our_nation

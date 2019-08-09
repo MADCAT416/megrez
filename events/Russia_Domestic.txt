@@ -29,7 +29,7 @@ country_event = { #Political Murder
 			has_country_flag = RUS_POPULAR_FRONT
 		}
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 			has_government = authoritarian_democrat
 		}
@@ -134,7 +134,7 @@ country_event = { #Political Murder_2
 			has_country_flag = RUS_POPULAR_FRONT
 		}
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 			has_government = authoritarian_democrat
 		}
@@ -175,7 +175,7 @@ country_event = { #Bombing
 		has_stability < 0.1
 		date > 1936.02.01
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 			has_government = authoritarian_democrat
 		}
@@ -544,7 +544,7 @@ country_event = { #Harsh measures
 				OR = {
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -561,7 +561,7 @@ country_event = { #Harsh measures
 				OR = {
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -2072,7 +2072,7 @@ country_event = { #The patriarch criticises the government secular WRA
 		has_country_flag = secular
 		OR = {
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		has_stability < 0.4
 	}
@@ -2346,7 +2346,7 @@ country_event = { #Liberals criticize the clergy WRA
 			has_country_flag = orth_gvmt
 		}
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 			has_government = authoritarian_democrat
 		}
@@ -2853,7 +2853,7 @@ country_event = { #Kyril the tsar is dead constitutional
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "Portrait_Soviet_Vladimir_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		clr_country_flag = RUS_TSAR_KYR
@@ -7139,7 +7139,7 @@ country_event = { # Denikin's death DEN_LEADER
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "Portrait_Soviet_Vladimir_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		set_politics = {
@@ -7764,11 +7764,11 @@ country_event = { #kill dmitry
 				desc = "POLITICS_PAVEL_II_DESC"
 				picture = "portrait_pavel_romanov.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = ethnic_populist
 				elections_allowed = no
 			}
 		}
@@ -8432,7 +8432,7 @@ country_event = { #Churchill Iron Curtain speech
 		NOT = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = radical_socialist
 				has_government = syndicalist
 				has_government = totalist

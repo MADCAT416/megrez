@@ -68,7 +68,7 @@ set_popularities = {
     social_conservative = 17
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 create_country_leader = {
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_OSVALDO_LIMA_GRP_DESC"
 	picture = "Portrait_GRP_Osvaldo_Lima.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

@@ -23,8 +23,8 @@ GEX_AFR_paternal_autocrat_party:0 "Notstandsregierung"
 GEX_paternal_autocrat_party_long:0 "Deutsche Vaterlandspartei"
 GEX_KAI_paternal_autocrat_party_long:0 "Kaisertreue Kamarilla"
 GEX_AFR_paternal_autocrat_party_long:0 "Notstandsregierung"
-GEX_national_populist_party:0 "AV"
-GEX_national_populist_party_long:0 "Alldeutscher Verband"
+GEX_ethnic_populist_party:0 "AV"
+GEX_ethnic_populist_party_long:0 "Alldeutscher Verband"
 
 ### Focuses ###
 GEX_darkest_hour:0 "Our Darkest Hour"

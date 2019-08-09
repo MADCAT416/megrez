@@ -5079,7 +5079,7 @@ focus_tree = {
 					OR = {
 						has_socialist_government = yes
 						NOT = {
-							has_government = national_populist
+							has_government = ethnic_populist
 							has_socialist_government = yes
 						}
 					}
@@ -5093,7 +5093,7 @@ focus_tree = {
 					add_opinion_modifier = { target = ROOT modifier = ITA_hates_govt }
 				}
 				else_if = {
-					limit = { NOT = { has_government = national_populist } }
+					limit = { NOT = { has_government = ethnic_populist } }
 					add_opinion_modifier = { target = ROOT modifier = ITA_likes_govt }
 				}
 			}

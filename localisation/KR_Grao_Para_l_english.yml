@@ -19,8 +19,8 @@ AMA_authoritarian_democrat_party:0 "PP"
 AMA_authoritarian_democrat_party_long:0 "Partido Progressista"
 AMA_paternal_autocrat_party:0 "PC"
 AMA_paternal_autocrat_party_long:0 "Partido Centralista"
-AMA_national_populist_party:0 "PIA"
-AMA_national_populist_party_long:0 "Partido Integralista Amazonense"
+AMA_ethnic_populist_party:0 "PIA"
+AMA_ethnic_populist_party_long:0 "Partido Integralista Amazonense"
 
 ### Ideas ###
 AMA_riverland:0 "The Riverland"

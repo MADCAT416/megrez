@@ -13,7 +13,7 @@
 ITA_focus_on_venice = {
 	enable = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_war_with = VNC
 		NOT = {
 			any_enemy_country = {

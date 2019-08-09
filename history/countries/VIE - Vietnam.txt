@@ -39,7 +39,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 10
     paternal_autocrat = 12
-    national_populist = 8
+    ethnic_populist = 8
 }
 
 ### Leader Spam ###
@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_PHAM_CONG_TAC_DESC"
 	picture = "gfx/leaders/VIE/Portrait_Vietnam_Pham_Cong_Tac.tga"
 	expire = "1959.5.17"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

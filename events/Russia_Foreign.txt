@@ -852,7 +852,7 @@ country_event = { #Fate of White Ruthenia
 				NOT = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -888,7 +888,7 @@ country_event = { #Fate of White Ruthenia
 				NOT = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1000,7 +1000,7 @@ country_event = { #Minority policies in White Ruthenia
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1023,7 +1023,7 @@ country_event = { #Minority policies in White Ruthenia
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1235,7 +1235,7 @@ country_event = { #Fate of the Ukraine
 					desc = "POLITICS_DMITRI_DONTSOV_DESC"
 					picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 				country_event = rusfor.24
@@ -1252,7 +1252,7 @@ country_event = { #Fate of the Ukraine
 				NOT = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1377,7 +1377,7 @@ country_event = { #Fate of the Ukraine
 					desc = "POLITICS_DMITRI_DONTSOV_DESC"
 					picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 				country_event = rusfor.24
@@ -1394,7 +1394,7 @@ country_event = { #Fate of the Ukraine
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1464,7 +1464,7 @@ country_event = { #Minority policies in the former Ukraine
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1486,7 +1486,7 @@ country_event = { #Minority policies in the former Ukraine
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -2610,7 +2610,7 @@ country_event = { #Great patriotic war against COF authoritarian
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -2727,7 +2727,7 @@ country_event = { #Great patriotic war against Germany authoritarian
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -8615,7 +8615,7 @@ country_event = { #Great Empire of Manchuria
 			desc = "PU_YI_MANCHURIA_DESC"
 			picture = "Portrait_China_Puyi.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		#remove_ideas_with_trait = head_of_government - have to find a replacement
@@ -14541,7 +14541,7 @@ country_event = { #Russian expansionism threatens Finland
 			factor = 80
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		trigger = {
@@ -14589,7 +14589,7 @@ country_event = { #Finland wants to join the Völkerbund
 			factor = 70
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_to_faction = FIN
@@ -14614,7 +14614,7 @@ country_event = { #Finland wants to join the Völkerbund
 			modifier = {
 				factor = 0
 				FIN = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -16024,7 +16024,7 @@ country_event = { #Russia demands reformation of our government WHR
 			desc = "STANISLAV_BULAK_BALAKHOVICH_DESC"
 			picture = "Portrait_White_Ruthenia_Stanislav_Bulak_Balakhovich.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		remove_ideas_with_trait = head_of_government
@@ -16345,7 +16345,7 @@ country_event = { #Russia demands reformation of our government UKR
 			desc = "NIKOLAI_BORETSKY_DESC"
 			picture = "Portrait_Ukraine_Nikolai_Borestky.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		remove_ideas_with_trait = head_of_government

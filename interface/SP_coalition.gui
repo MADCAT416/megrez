@@ -143,7 +143,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "coalition_national_populist_arrow"
+		name = "coalition_ethnic_populist_arrow"
 		position = { x=341 y=490 }	
 		size = { width=330 height=18 }
 		
@@ -152,7 +152,7 @@ guiTypes = {
 			spriteType = "GFX_coalition_arrow"
 			position = { x= 0 y = 0 }
 			
-			pdx_tooltip = "coalition_party_national_populist_tt"
+			pdx_tooltip = "coalition_party_ethnic_populist_tt"
 		}
 	}
 	containerWindowType = {
@@ -299,7 +299,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "opposition_national_populist_arrow"
+		name = "opposition_ethnic_populist_arrow"
 		position = { x=341 y=490 }	
 		size = { width=330 height=18 }
 		
@@ -455,7 +455,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "banned_national_populist_x"
+		name = "banned_ethnic_populist_x"
 		position = { x=341 y=490 }	
 		size = { width=330 height=18 }
 		

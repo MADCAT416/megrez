@@ -1996,7 +1996,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus URG_destroy_reactionary_opinions"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.03
 			}
 			add_popularity = {

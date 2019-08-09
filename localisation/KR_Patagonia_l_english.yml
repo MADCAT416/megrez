@@ -553,8 +553,8 @@ FOP_IMMI_BEL:0 "This will increase immigration from [BEL.GetNameDef]."
 
 ### Parties ###
 
-FOP_national_populist_party:0 "LP"
-FOP_national_populist_party_long:0 "Liga Patriotica"
+FOP_ethnic_populist_party:0 "LP"
+FOP_ethnic_populist_party_long:0 "Liga Patriotica"
 FOP_paternal_autocrat_party:0 "PJ"
 FOP_paternal_autocrat_party_long:0 "Partido Justicialista"
 FOP_authoritarian_democrat_party:0 "Libertadores de Junio"

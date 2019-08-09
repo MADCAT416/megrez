@@ -182,8 +182,8 @@ OTT_authoritarian_democrat_party:0 "Teceddüt"
 OTT_authoritarian_democrat_party_long:0 "Teceddüt Fırkası"
 OTT_paternal_autocrat_party:0 "Selamet-i Osmaniye"
 OTT_paternal_autocrat_party_long:0 "Selamet-i Osmaniye Fırkası"
-OTT_national_populist_party:0 "Bozkurtlar"
-OTT_national_populist_party_long:0 "Bozkurtlar Grubu"
+OTT_ethnic_populist_party:0 "Bozkurtlar"
+OTT_ethnic_populist_party_long:0 "Bozkurtlar Grubu"
 
 ### Focuses ###
 OTT_internal_affairs:0 "Matters of the State"

@@ -285,7 +285,7 @@ country_event = { #Mutiny in the Herminestadt Barracks
                 social_conservative = 12
                 authoritarian_democrat = 6
                 paternal_autocrat = 23
-                national_populist = 4
+                ethnic_populist = 4
             }
 		}
 	}

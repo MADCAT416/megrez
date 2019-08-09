@@ -167,7 +167,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRU_caudillo_rip"}
 			picture = FRA_scw_intervention_republicans_focus
 			modifier = {
-				national_populist_drift = 0.02
+				ethnic_populist_drift = 0.02
 				war_support_factor = 0.1
 			}
 		}

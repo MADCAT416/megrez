@@ -46,8 +46,8 @@ MON_authoritarian_democrat_party:0 "Authoritarian Dem."
 MON_authoritarian_democrat_party_long:0 "Authoritarian Dem."
 MON_paternal_autocrat_party:0 "Paternal Autocrats"
 MON_paternal_autocrat_party_long:0 "Paternal Autocrats"
-MON_national_populist_party:0 "National Populists"
-MON_national_populist_party_long:0 "National Populists"
+MON_ethnic_populist_party:0 "Ethnic Populists"
+MON_ethnic_populist_party_long:0 "Ethnic Populists"
 
 ### Opinion Modifiers ###
 mon_claim_ancient_lands:0 "Mongolia claimed 'their' ancient lands"

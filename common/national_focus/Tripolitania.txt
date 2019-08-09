@@ -1306,7 +1306,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		icon = GFX_goal_generic_build_airforce
@@ -1410,7 +1410,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		icon = GFX_goal_generic_air_bomber

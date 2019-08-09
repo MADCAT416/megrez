@@ -65,7 +65,7 @@ set_popularities = {
     social_conservative = 53
     authoritarian_democrat = 5
     paternal_autocrat = 0
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 country_event = {

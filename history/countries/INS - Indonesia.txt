@@ -83,7 +83,7 @@ set_popularities = {
     social_conservative = 28
     authoritarian_democrat = 47
     paternal_autocrat = 3
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 create_country_leader = {
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_WESTERLING_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Westerling.tga"
 	expire = "1965.10.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

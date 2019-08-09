@@ -295,8 +295,8 @@ GER_AFR_paternal_autocrat_party:0 "Notstandsregierung"
 GER_paternal_autocrat_party_long:0 "Deutsche Vaterlandspartei"
 GER_KAI_paternal_autocrat_party_long:0 "Kaisertreue Kamarilla"
 GER_AFR_paternal_autocrat_party_long:0 "Notstandsregierung"
-GER_national_populist_party:0 "AV"
-GER_national_populist_party_long:0 "Alldeutscher Verband"
+GER_ethnic_populist_party:0 "AV"
+GER_ethnic_populist_party_long:0 "Alldeutscher Verband"
 
 ### Decisions ###
 GER_send_support_to_bulgaria:0 "Send Support to Bulgaria"

@@ -19,8 +19,8 @@ BUR_authoritarian_democrat_party:0 "Privy Council"
 BUR_authoritarian_democrat_party_long:0 "Privy Council of Burma"
 BUR_paternal_autocrat_party:0 "National United Front"
 BUR_paternal_autocrat_party_long:0 "National United Front"
-BUR_national_populist_party:0 "Union Solidarity and Development Party"
-BUR_national_populist_party_long:0 "Union Solidarity and Development Party"
+BUR_ethnic_populist_party:0 "Union Solidarity and Development Party"
+BUR_ethnic_populist_party_long:0 "Union Solidarity and Development Party"
 
 ### Opinion Modifiers ###
 BUR_rangoon_protest:0 "They could've been behind these protests!"

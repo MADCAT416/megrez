@@ -174,7 +174,7 @@ set_popularities = {
     social_conservative = 20
     authoritarian_democrat = 50
     paternal_autocrat = 5
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 ### Field Marshal

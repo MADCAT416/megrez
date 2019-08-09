@@ -19,8 +19,8 @@ GEA_authoritarian_democrat_party:0 "Hellmuth's Clique"
 GEA_authoritarian_democrat_party_long:0 "Hellmuth's Clique"
 GEA_paternal_autocrat_party:0 "Hellmuth's Clique"
 GEA_paternal_autocrat_party_long:0 "Hellmuth's Clique"
-GEA_national_populist_party:0 "MLN"
-GEA_national_populist_party_long:0 "Malayan National League"
+GEA_ethnic_populist_party:0 "MLN"
+GEA_ethnic_populist_party_long:0 "Malayan National League"
 
 ### Custom Tech ###
 Valkyrie_tech:0 "Ride of the Valkyries"

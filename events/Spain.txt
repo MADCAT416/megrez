@@ -5085,7 +5085,7 @@ country_event = {
 				desc = "POLITICS_CAMILO_VEGA_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alonso_Vega.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 			create_country_leader = {

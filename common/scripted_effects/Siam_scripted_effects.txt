@@ -175,7 +175,7 @@ SIA_set_up_Boworadet_government = {
 		traits = {}
 	}
 	add_popularity = { ideology = paternal_autocrat popularity = 0.20 }
-	add_popularity = { ideology = national_populist popularity = 0.05 }
+	add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 	add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 	add_popularity = { ideology = social_conservative popularity = 0.03 }
 	set_politics = {

@@ -43,8 +43,8 @@ LIT_authoritarian_democrat_party:0 "LKD"
 LIT_authoritarian_democrat_party_long:0 "Lietuvos krikščionys demokratai"
 LIT_paternal_autocrat_party:0 "Supporters of K. V. Tiškevičius"
 LIT_paternal_autocrat_party_long:0 "Supporters of Kazimieras Viktoras Tiškevičius"
-LIT_national_populist_party:0 "LTIP (Speak Lithuanian)"
-LIT_national_populist_party_long:0 "Lietuvių tautos interesų partija"
+LIT_ethnic_populist_party:0 "LTIP (Speak Lithuanian)"
+LIT_ethnic_populist_party_long:0 "Lietuvių tautos interesų partija"
 LIT_alliance_for_liberation:0 "IšAl"
 LIT_alliance_for_liberation_long:0 "Alliance for Liberation"
 
@@ -249,7 +249,7 @@ lithuania.13.d:0 "As the declaration of the abolition of the position of King of
 lithuania.13.a:0 "Lietuva lietuviams!"
 
 lithuania.14.t:0 "Lithuania Declares Independence!"
-lithuania.14.d:0 "The dastardly Lithuanians have betrayed us! After the election of 1938, which was won by the national populist Party of Lithuanian National Interests, more commonly known as 'Speak Lithuanian', the puppet Kingdom was rapidly transformed into a radical nationalist republic, with Kazys Škirpa as the 'Vadas' - Leader.\n\nThe Lithuanians have already seized numerous Lithuanian companies and arrested important German representatives in their nation, even their former King Karl Gero von Urach, and declare that they will listen to no one. How should we respond?"
+lithuania.14.d:0 "The dastardly Lithuanians have betrayed us! After the election of 1938, which was won by the ethnic populist Party of Lithuanian National Interests, more commonly known as 'Speak Lithuanian', the puppet Kingdom was rapidly transformed into a radical nationalist republic, with Kazys Škirpa as the 'Vadas' - Leader.\n\nThe Lithuanians have already seized numerous Lithuanian companies and arrested important German representatives in their nation, even their former King Karl Gero von Urach, and declare that they will listen to no one. How should we respond?"
 lithuania.14.a:0 "We will crush them in the blink of an eye!"
 lithuania.14.b:0 "We have more important matters, leave them be. For now."
 

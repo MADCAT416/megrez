@@ -61,8 +61,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_POL_national_populist"
-		texturefile = "gfx/flags/small/POL_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_POL_ethnic_populist"
+		texturefile = "gfx/flags/small/POL_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -71,8 +71,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_PLC_national_populist"
-		texturefile = "gfx/flags/small/PLC_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_PLC_ethnic_populist"
+		texturefile = "gfx/flags/small/PLC_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -166,8 +166,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_LIT_national_populist"
-		texturefile = "gfx/flags/small/LIT_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_LIT_ethnic_populist"
+		texturefile = "gfx/flags/small/LIT_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -196,7 +196,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_HOL_national_populist"
+		name = "GFX_KR_game_rule_flag_HOL_ethnic_populist"
 		texturefile = "gfx/flags/small/DIETSREP.tga"
 		legacy_lazy_load = no
 	}
@@ -216,8 +216,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_SWIB_national_populist"
-		texturefile = "gfx/flags/small/SWIB_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_SWIB_ethnic_populist"
+		texturefile = "gfx/flags/small/SWIB_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -236,8 +236,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_SWE_national_populist"
-		texturefile = "gfx/flags/small/SWE_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_SWE_ethnic_populist"
+		texturefile = "gfx/flags/small/SWE_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -353,8 +353,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_MEX_national_populist"
-		texturefile = "gfx/flags/small/MEX_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_MEX_ethnic_populist"
+		texturefile = "gfx/flags/small/MEX_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -413,8 +413,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_FIN_national_populist"
-		texturefile = "gfx/flags/small/FIN_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_FIN_ethnic_populist"
+		texturefile = "gfx/flags/small/FIN_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -432,8 +432,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_BRA_national_populist"
-		texturefile = "gfx/flags/small/BRA_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_BRA_ethnic_populist"
+		texturefile = "gfx/flags/small/BRA_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -467,8 +467,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_PRU_national_populist"
-		texturefile = "gfx/flags/small/PRU_national_populist.tga"
+		name = "GFX_KR_game_rule_flag_PRU_ethnic_populist"
+		texturefile = "gfx/flags/small/PRU_ethnic_populist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {

@@ -272,8 +272,8 @@ ICE_authoritarian_democrat_party:0 "Constitutional Rule"
 ICE_authoritarian_democrat_party_long:0 "Þjóðvaki"
 ICE_paternal_autocrat_party:0 "Congressional Party"
 ICE_paternal_autocrat_party_long:0 "Heimastjórnarflokkurinn"
-ICE_national_populist_party:0 "Nationalist Party"
-ICE_national_populist_party_long:0 "Flokkur Þjóðernissinna"
+ICE_ethnic_populist_party:0 "Nationalist Party"
+ICE_ethnic_populist_party_long:0 "Flokkur Þjóðernissinna"
 
 ### Cosmetic Tags ###
 ICE_icelandic_republic_social_democrat:0 "Republic of Iceland"
@@ -282,7 +282,7 @@ ICE_icelandic_republic_market_liberal:0 "Republic of Iceland"
 ICE_icelandic_republic_social_conservative:0 "Republic of Iceland"
 ICE_icelandic_republic_authoritarian_democrat:0 "Republic of Iceland"
 ICE_icelandic_republic_paternal_autocrat:0 "Republic of Iceland"
-ICE_icelandic_republic_national_populist:0 "Republic of Iceland"
+ICE_icelandic_republic_ethnic_populist:0 "Republic of Iceland"
 
 ### Cosmetic Tags ###
 ICE_icelandic_kingdom_social_democrat:0 "Kingdom of Iceland"
@@ -291,7 +291,7 @@ ICE_icelandic_kingdom_market_liberal:0 "Kingdom of Iceland"
 ICE_icelandic_kingdom_social_conservative:0 "Kingdom of Iceland"
 ICE_icelandic_kingdom_authoritarian_democrat:0 "Kingdom of Iceland"
 ICE_icelandic_kingdom_paternal_autocrat:0 "Kingdom of Iceland"
-ICE_icelandic_kingdom_national_populist:0 "Kingdom of Iceland"
+ICE_icelandic_kingdom_ethnic_populist:0 "Kingdom of Iceland"
 
 ###Flags###
 

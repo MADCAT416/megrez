@@ -195,8 +195,8 @@ SIA_paternal_autocrat_party_plaek:0 "Pak Seri Manangkhasila"
 SIA_paternal_autocrat_party_plaek_long:0 "Pak Seri Manangkhasila(Free Thai Party)"
 SIA_paternal_autocrat_party_sarit:0 "Pak Chard Sangkhom"
 SIA_paternal_autocrat_party_sarit_long:0 "Pak Chard Sangkhom(Social Nation Party)"
-SIA_national_populist_party:0 "Pak Seri Manangkhasila"
-SIA_national_populist_party_long:0 "Pak Seri Manangkhasila(Free Thai Party)"
+SIA_ethnic_populist_party:0 "Pak Seri Manangkhasila"
+SIA_ethnic_populist_party_long:0 "Pak Seri Manangkhasila(Free Thai Party)"
 
 ### Opinion Modifiers ###
 SIA_seize_singapore:0 "Illegitimate annexation of Singapore"

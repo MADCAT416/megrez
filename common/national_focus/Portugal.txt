@@ -253,7 +253,7 @@ focus_tree = {
 
 	focus = {
 		id = POR_the_organic_kingdom
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		prerequisite = { focus = POR_matters_of_the_realm }
 		mutually_exclusive = {
 			focus = POR_the_king_and_country

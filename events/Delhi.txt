@@ -1812,7 +1812,7 @@ country_event = {
 			has_government = syndicalist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -1955,7 +1955,7 @@ country_event = {
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -2113,7 +2113,7 @@ country_event = {
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -2271,7 +2271,7 @@ country_event = {
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -2417,7 +2417,7 @@ country_event = {
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -2563,7 +2563,7 @@ country_event = {
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -4574,7 +4574,7 @@ country_event = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 				}
 			}
@@ -4590,7 +4590,7 @@ country_event = {
 			}
 			else = {
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.1
 				}
 			}
@@ -4735,7 +4735,7 @@ country_event = {
 			modifier = {
 				factor = 3
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 				}
 			}
@@ -4751,7 +4751,7 @@ country_event = {
 			}
 			else = {
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.1
 				}
 			}

@@ -58,8 +58,8 @@ LEC_authoritarian_democrat_party:0 "National Mandate"
 LEC_authoritarian_democrat_party_long:0 "The National Mandate for the Concessions, Settlements and Legations in China"
 LEC_paternal_autocrat_party:0 "United Triads"
 LEC_paternal_autocrat_party_long:0 "Sun Yee On-Green Gang Coalition"
-LEC_national_populist_party:0 "National Mandate"
-LEC_national_populist_party_long:0 "The National Mandate for the Concessions, Settlements and Legations in China"
+LEC_ethnic_populist_party:0 "National Mandate"
+LEC_ethnic_populist_party_long:0 "The National Mandate for the Concessions, Settlements and Legations in China"
 
 ### Opinion Modifiers ###
 LEC_member:0 "Member of the Legation Cities Council"

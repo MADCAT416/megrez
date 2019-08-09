@@ -2008,7 +2008,7 @@ focus_tree = {
 
 	focus = {
 		id = WHR_BNSP
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		relative_position_id = WHR_paramilitaries
 		x = 1
 		y = 1
@@ -2040,7 +2040,7 @@ focus_tree = {
 			add_stability = 0.05
 
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.2
 			}
 
@@ -2467,7 +2467,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		ai_will_do = {
@@ -2494,7 +2494,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		ai_will_do = {

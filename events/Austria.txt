@@ -936,7 +936,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0
@@ -984,7 +984,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		FROM = {

@@ -102,9 +102,9 @@ IES_authoritarian_democrat_DEF:0 "Italian Empire"
 IES_paternal_autocrat:0 "Italian Empire"
 IES_paternal_autocrat_ADJ:0 "Italian"
 IES_paternal_autocrat_DEF:0 "Italian Empire"
-IES_national_populist:0 "Italian Empire"
-IES_national_populist_ADJ:0 "Italian"
-IES_national_populist_DEF:0 "Italian Empire"
+IES_ethnic_populist:0 "Italian Empire"
+IES_ethnic_populist_ADJ:0 "Italian"
+IES_ethnic_populist_DEF:0 "Italian Empire"
 
 ### Parties ###
 SIC_totalist_party:0 "Italia Unita"
@@ -125,8 +125,8 @@ SIC_authoritarian_democrat_party:0 "PA"
 SIC_authoritarian_democrat_party_long:0 "Partito Agrario"
 SIC_paternal_autocrat_party:0 "Dinastia d'e Burbone 'e Napule"
 SIC_paternal_autocrat_party_long:0 "Dinastia d'e Burbone 'e Napule"
-SIC_national_populist_party:0 "IDS"
-SIC_national_populist_party_long:0 "Integralisti 'e Ddoje Sicilie"
+SIC_ethnic_populist_party:0 "IDS"
+SIC_ethnic_populist_party_long:0 "Integralisti 'e Ddoje Sicilie"
 
 ### Cosmetic Tags ###
 #IES_social_democrat:0 "Italian Empire" all defined above
@@ -135,7 +135,7 @@ SIC_national_populist_party_long:0 "Integralisti 'e Ddoje Sicilie"
 #IES_social_conservative:0 "Italian Empire"
 #IES_authoritarian_democrat:0 "Italian Empire"
 #IES_paternal_autocrat:0 "Italian Empire"
-#IES_national_populist:0 "Italian Empire"
+#IES_ethnic_populist:0 "Italian Empire"
 
 ### Decisions ###
 SIC_never_surrender:0 "Never Surrender!"

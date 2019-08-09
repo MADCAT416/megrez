@@ -2005,7 +2005,7 @@ country_event = { # General Elections
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2122,7 +2122,7 @@ country_event = { # General Elections
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2239,7 +2239,7 @@ country_event = { # General Elections
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2377,7 +2377,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2489,7 +2489,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2601,7 +2601,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2714,7 +2714,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2845,7 +2845,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2957,7 +2957,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3069,7 +3069,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3181,7 +3181,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3312,7 +3312,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3424,7 +3424,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3536,7 +3536,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3648,7 +3648,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3779,7 +3779,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3891,7 +3891,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4003,7 +4003,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4115,7 +4115,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4246,7 +4246,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4358,7 +4358,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4470,7 +4470,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4582,7 +4582,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4702,7 +4702,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4814,7 +4814,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -4926,7 +4926,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -5038,7 +5038,7 @@ country_event = { # The Seat of Republican Governance
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}

@@ -162,7 +162,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_suppress_syndicalism"
 			add_stability = 0.05
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_popularity = { ideology = syndicalist popularity = -0.05 }
 			decrease_ruling_party_popularity_by_5 = yes
 		}
@@ -201,7 +201,7 @@ focus_tree = {
 			add_political_power = 50
 			add_popularity = { ideology = syndicalist popularity = 0.05 }
 			increase_ruling_party_popularity_by_5 = yes
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.03 }
 		}
 	}
 
@@ -1671,7 +1671,7 @@ focus_tree = {
 		cost = 0
 		available = {
 			has_country_flag = AST_had_1936_election
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		x = 20
 		y = 0
@@ -1684,7 +1684,7 @@ focus_tree = {
 
 		bypass = {
 			has_country_flag = AST_had_1936_election
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		completion_reward = {
@@ -1698,7 +1698,7 @@ focus_tree = {
 		icon = GFX_focus_secret_rearmament
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			985 = { is_owned_and_controlled_by = AST }
 		}
 		prerequisite = {
@@ -1732,7 +1732,7 @@ focus_tree = {
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			OR = {
 				CAN = {
 					is_faction_leader = yes
@@ -1790,7 +1790,7 @@ focus_tree = {
 		icon = GFX_goal_broken_red_star
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = AST_new_guard_victory
@@ -1809,7 +1809,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_crush_syndicalists"
 			add_stability = -0.05
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			if = {
 				limit = { syndicalist > 0.3 }
 				add_popularity = { ideology = syndicalist popularity = -0.10 }
@@ -1825,7 +1825,7 @@ focus_tree = {
 		icon = GFX_goal_authoritarian
 		cost = 10.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_idea = AST_new_unrest
 			controls_all_owned_states = yes
 		}
@@ -1865,7 +1865,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_mission
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = AST_restore_order_3
@@ -1896,7 +1896,7 @@ focus_tree = {
 		icon = GFX_goal_national_mobilization
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_idea = AST_new_guard_military_1
 		}
 		prerequisite = {
@@ -1935,7 +1935,7 @@ focus_tree = {
 		icon = GFX_goal_canada
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			OR = {
 				CAN = {
 					is_faction_leader = yes
@@ -1997,7 +1997,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = AST_royal_advisors
@@ -2029,7 +2029,7 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			NOT = { has_idea = AST_depression_1 }
 			NOT = { has_idea = AST_depression_2 }
 		}
@@ -2058,7 +2058,7 @@ focus_tree = {
 		icon = GFX_goal_new_treaty
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_idea = AST_new_guard_economy_1
 		}
 		prerequisite = {
@@ -2093,7 +2093,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = { focus = AST_rouse_the_masses }
 		prerequisite = { focus = AST_a_renewed_call }
@@ -2133,7 +2133,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		cost = 8.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			OR = {
 				CAN = {
 					is_faction_leader = yes
@@ -2186,7 +2186,7 @@ focus_tree = {
 		icon = GFX_goal_volunteer_alliance
 		cost = 10.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = AST_serve_the_empire
@@ -2301,7 +2301,7 @@ focus_tree = {
 				OR = {
 					has_government = social_democrat
 					has_government = market_liberal
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -2345,7 +2345,7 @@ focus_tree = {
 				OR = {
 					has_government = market_liberal
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -2537,7 +2537,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0.1
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3728,7 +3728,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0
@@ -5497,7 +5497,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 3
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 2

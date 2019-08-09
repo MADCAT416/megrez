@@ -374,7 +374,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_Purge_Socialist_Remnants"
 			add_political_power = -100
 			add_stability = 0.08
-			add_popularity = { ideology = national_populist popularity = 0.10 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.10 }
 			add_popularity = { ideology = social_democrat popularity = -0.10 }
 		}
 	}
@@ -400,7 +400,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_Eradicate_Loyalist_Resistance"
 			add_political_power = -100
 			add_stability = 0.08
-			add_popularity = { ideology = national_populist popularity = 0.10 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.10 }
 			add_popularity = { ideology = social_conservative popularity = -0.10 }
 		}
 	}

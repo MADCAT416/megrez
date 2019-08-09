@@ -473,7 +473,7 @@ focus_tree = {
 
 	focus = {
 		id = BAT_Ger_Autonomy1
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		icon = GFX_BAT_aut
 		prerequisite = { focus = BAT_Emancipation }
 		mutually_exclusive = { focus = BAT_Fed1 focus = BAT_Lib1 }
@@ -510,7 +510,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Ger_Autonomy2
 		icon = GFX_goal_generic_consumer_goods
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Ger_Autonomy1 }
 		x = -2
 		y = 2
@@ -530,7 +530,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Ger_Autonomy3
 		icon = GFX_goal_generic_defence
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Ger_Autonomy2 }
 		x = -2
 		y = 3
@@ -549,7 +549,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Ger_Autonomy4
 		icon = GFX_goal_demand_sudetenland
-		available = { NOT = { BAT = { has_government = national_populist } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } }
 			compare_autonomy_progress_ratio > 0.3 }
 		prerequisite = { focus = BAT_Ger_Autonomy3 }
 		x = -2
@@ -569,7 +569,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Ger_Autonomy5
 		icon = GFX_goal_generic_improve_relations
-		available = { NOT = { BAT = { has_government = national_populist } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } }
 			is_subject = no }
 		prerequisite = { focus = BAT_Ger_Autonomy4 }
 		x = -2
@@ -610,7 +610,7 @@ focus_tree = {
 		id = BAT_Fed1
 		icon = GFX_BAT_fed
 		prerequisite = { focus = BAT_Emancipation }
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		mutually_exclusive = { focus = BAT_Ger_Autonomy1 focus = BAT_Lib1 }
 		x = 0
 		y = 1
@@ -642,7 +642,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Fed2
 		icon = GFX_focus_generic_diplomatic_treaty
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Fed1 }
 		x = 0
 		y = 2
@@ -669,7 +669,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Fed3
 		icon = GFX_goal_support_democracy
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Fed2 }
 		x = 0
 		y = 3
@@ -695,7 +695,7 @@ focus_tree = {
 		id = BAT_Fed4
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = BAT_Fed3 }
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		x = 0
 		y = 4
 		relative_position_id = BAT_Emancipation
@@ -751,7 +751,7 @@ focus_tree = {
 		id = BAT_Fed5
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = BAT_Fed4 focus = BAT_Lib4 }
-		available = {NOT = {BAT = { has_government = national_populist } } }
+		available = {NOT = {BAT = { has_government = ethnic_populist } } }
 		x = 1
 		y = 5
 		relative_position_id = BAT_Emancipation
@@ -788,7 +788,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Lib1
 		icon = GFX_BAT_lib
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Emancipation }
 		mutually_exclusive = { focus = BAT_Fed1 focus = BAT_Ger_Autonomy1 }
 		x = 2
@@ -830,7 +830,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Lib2
 		icon = GFX_goal_generic_intelligence_exchange
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Lib1 }
 		x = 2
 		y = 2
@@ -853,7 +853,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Lib3
 		icon = GFX_goal_generic_major_alliance
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Lib2 }
 		x = 2
 		y = 3
@@ -871,7 +871,7 @@ focus_tree = {
 	focus = {
 		id = BAT_Lib4
 		icon = GFX_goal_generic_construct_civilian
-		available = { NOT = { BAT = { has_government = national_populist } } }
+		available = { NOT = { BAT = { has_government = ethnic_populist } } }
 		prerequisite = { focus = BAT_Lib3}
 		x = 2
 		y = 4

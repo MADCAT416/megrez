@@ -45,7 +45,7 @@ set_popularities = {
     social_conservative = 20
     authoritarian_democrat = 30
     paternal_autocrat = 15
-    national_populist = 5
+    ethnic_populist = 5
 }
 
 set_country_flag = vladimir_I_HoS

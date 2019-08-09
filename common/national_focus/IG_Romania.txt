@@ -964,7 +964,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ROM_entrench_party"
 			add_political_power = 100
 
-			add_popularity = { ideology = national_populist popularity = 0.2 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.2 }
 		}
 	}
 

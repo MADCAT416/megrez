@@ -106,7 +106,7 @@ technology_sharing_group = { #Vienna Circle (Austria)
 
 	available = {
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = syndicalist
 			has_government = totalist
 		}

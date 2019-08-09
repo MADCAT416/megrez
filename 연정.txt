@@ -7,4 +7,4 @@ set_country_flag = market_liberal_coalition
 set_country_flag = social_conservative_coalition
 set_country_flag = authoritarian_democrat_coalition
 set_country_flag = paternal_autocrat_coalition
-set_country_flag = national_populist_coalition
+set_country_flag = ethnic_populist_coalition

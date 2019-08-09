@@ -56,7 +56,7 @@ country_event = {
                 social_conservative = 53
                 authoritarian_democrat = 3
                 paternal_autocrat = 4
-                national_populist = 3
+                ethnic_populist = 3
             }
 		}
 	}
@@ -92,7 +92,7 @@ country_event = {
                 social_conservative = 4
                 authoritarian_democrat = 10
                 paternal_autocrat = 49
-                national_populist = 4
+                ethnic_populist = 4
             }
 		}
 	}
@@ -128,7 +128,7 @@ country_event = {
             social_conservative = 4
             authoritarian_democrat = 2
             paternal_autocrat = 5
-            national_populist = 5
+            ethnic_populist = 5
         }
 	}
 }

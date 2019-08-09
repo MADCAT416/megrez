@@ -67,7 +67,7 @@ set_popularities = {
     social_conservative = 17
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_BIG_MOURA_JR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Mourao_Filho.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

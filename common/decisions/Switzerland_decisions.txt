@@ -628,7 +628,7 @@ SWI_new_order_decisions = {
 		cancel_trigger = {
 			custom_trigger_tooltip = {
 				tooltip = SWI_natpop_80
-				check_variable = { SWI.party_popularity@national_populist > 0.8 }
+				check_variable = { SWI.party_popularity@ethnic_populist > 0.8 }
 			}
 		}
 
@@ -650,7 +650,7 @@ SWI_new_order_decisions = {
 		icon = generic_form_nation
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 		}
 
@@ -664,7 +664,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_hold_parade_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.025
 			}
 		}
@@ -678,7 +678,7 @@ SWI_new_order_decisions = {
 		icon = generic_industry
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 			num_of_civilian_factories_available_for_projects > 3
 		}
@@ -715,7 +715,7 @@ SWI_new_order_decisions = {
 		icon = generic_independence
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 		}
 
@@ -731,7 +731,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_purge_military_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 			army_experience = -100
@@ -748,7 +748,7 @@ SWI_new_order_decisions = {
 		icon = generic_army_support
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 		}
 
@@ -784,7 +784,7 @@ SWI_new_order_decisions = {
 			}
 			custom_effect_tooltip = SWI_martial_law_effect
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.05
 			}
 			add_stability = 0.1
@@ -808,14 +808,14 @@ SWI_new_order_decisions = {
 		}
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 		}
 
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 			owns_state = 151
@@ -843,7 +843,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_secure_ostschweiz_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -861,14 +861,14 @@ SWI_new_order_decisions = {
 		}
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 		}
 
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 			owns_state = 3
@@ -896,7 +896,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_secure_mittelland_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -914,14 +914,14 @@ SWI_new_order_decisions = {
 		}
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 		}
 
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 			owns_state = 761
@@ -949,7 +949,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_secure_ticino_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -967,14 +967,14 @@ SWI_new_order_decisions = {
 		}
 
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_the_government_has_failed
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 		}
 
 		visible = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = SWI_martial_law_declared
 			NOT = { has_country_flag = SWI_natpop_control }
 			owns_state = 760
@@ -1002,7 +1002,7 @@ SWI_new_order_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SWI_secure_romandie_natpop"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -1027,7 +1027,7 @@ SWI_new_order_decisions = {
 					is_valid_war_target = yes
 				}
 			}
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_unity_through_conquest
 		}
 
@@ -1102,7 +1102,7 @@ SWI_new_order_decisions = {
 				}
 			}
 			controls_state = 760
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_unity_through_conquest
 		}
 
@@ -1173,7 +1173,7 @@ SWI_new_order_decisions = {
 				}
 			}
 			controls_state = 760
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_unity_through_conquest
 		}
 
@@ -1244,7 +1244,7 @@ SWI_new_order_decisions = {
 				}
 			}
 			controls_state = 760
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_completed_focus = SWI_unity_through_conquest
 		}
 

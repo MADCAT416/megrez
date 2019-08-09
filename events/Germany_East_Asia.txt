@@ -506,7 +506,7 @@ country_event = { # Saigon Uprising
                     social_conservative = 0
                     authoritarian_democrat = 0
                     paternal_autocrat = 0
-                    national_populist = 0
+                    ethnic_populist = 0
                 }
 				add_ideas = {
 					INC_poor_army_idea_1
@@ -1166,7 +1166,7 @@ country_event = {
                     social_conservative = 11
                     authoritarian_democrat = 11
                     paternal_autocrat = 12
-                    national_populist = 10
+                    ethnic_populist = 10
                 }
 				retire_country_leader = yes
 				create_country_leader = {

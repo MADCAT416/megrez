@@ -9,7 +9,7 @@ market_liberal:0 "Market Liberals"
 social_conservative:0 "Social Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 paternal_autocrat:0 "Paternal Autocrats"
-national_populist:0 "National Populists"
+ethnic_populist:0 "Ethnic Populists"
 social_liberal:0 "Social Liberals"
 clerical_nationalist:0 "Clerical Nationalists"
 
@@ -23,7 +23,7 @@ market_liberal_noun:0 "Market Liberalism"
 social_conservative_noun:0 "Social Conservatism"
 authoritarian_democrat_noun:0 "Authoritarian Dem."
 paternal_autocrat_noun:0 "Paternal Autocracy"
-national_populist_noun:0 "National Populism"
+ethnic_populist_noun:0 "National Populism"
 clerical_nationalist_noun:0 "Clerical Nationalism"
 
 totalist_desc:0 "Totalist"
@@ -36,7 +36,7 @@ market_liberal_desc:0 "Market Liberal"
 social_conservative_desc:0 "Social Conservative"
 authoritarian_democrat_desc:0 "Authoritarian Democrat"
 paternal_autocrat_desc:0 "Paternal Autocrat"
-national_populist_desc:0 "National Populist"
+ethnic_populist_desc:0 "Ethnic Populist"
 clerical_nationalist_desc:0 "Clerical Nationalist"
 
 totalist_subtype_desc:0 "Totalism is both a specific ideology, and a category sometimes given to name various radical left wing ideologies with similar characteristics. As an ideology, Totalism promotes a new direction for socialism in the world, emphasising the the role of the socialist state as the core ideal of the nation, while devaluing or abandoning the Marxist ideas of worker empowerment and a classless utopia. Totalists look to centralise and expand the governments' powers in socialist states, believing that the goal of the government is to build socialism in the state, and often use nationalist and militarist rhetoric and policies. Due to their authoritarian nature, other authoritarian or totalitarian socialist ideologies have gained the name "Totalist" even if they are not affiliated with the Totalist charter."
@@ -50,4 +50,4 @@ social_conservative_subtype_desc:0 "Conservatism is a political ideology centred
 authoritarian_democrat_subtype_desc:0 "Authoritarian democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian democratic regimes often take a conservative stance on social issues and promote liberal-capitalist economies with limited state intervention. The aim of these regimes are to maintain national stability and provide the people both a popular and responsible government."
 paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a monarch or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 clerical_nationalist_subtype_desc:0 "Clerical Nationalism is "
-national_populist
+ethnic_populist

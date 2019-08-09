@@ -444,7 +444,7 @@ CENmil_politicc = {
 		}
 		available = {
 			has_country_flag = cenmil_natpop_victory
-			national_populist < 0.60
+			ethnic_populist < 0.60
 		}
 		visible = {
 			has_country_flag = cenmil_natpop_victory
@@ -457,7 +457,7 @@ CENmil_politicc = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision CENmil_soft_loans"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.02
 			}
 			add_stability = 0.05
@@ -470,7 +470,7 @@ CENmil_politicc = {
 		}
 		available = {
 			has_completed_focus = CENmil_centralized_union
-			national_populist < 0.6
+			ethnic_populist < 0.6
 		}
 		visible = {
 			has_country_flag = cenmil_natpop_victory
@@ -483,7 +483,7 @@ CENmil_politicc = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove CENmil_affordable_housing"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.02
 			}
 			add_stability = 0.02
@@ -526,7 +526,7 @@ CENmil_politicc = {
 		}
 		available = {
 			has_completed_focus = CENmil_trump_wall
-			national_populist < 0.6
+			ethnic_populist < 0.6
 		}
 		visible = {
 			has_country_flag = cenmil_natpop_victory
@@ -544,7 +544,7 @@ CENmil_politicc = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove CENmil_combat_crime"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.02
 			}
 			add_stability = 0.05

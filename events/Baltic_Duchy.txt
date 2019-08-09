@@ -287,7 +287,7 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -297,7 +297,7 @@ country_event = {
 		name = balticduchy.70.a
 		add_political_power = -40
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -326,7 +326,7 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -336,7 +336,7 @@ country_event = {
 		name = balticduchy.71.a
 		add_political_power = -40
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -365,7 +365,7 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -379,7 +379,7 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -405,7 +405,7 @@ country_event = {
 		BAT = {
 			exists = yes
 			NOT = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_country_flag = BAT_start_supress
 			}
 		}
@@ -423,7 +423,7 @@ country_event = {
 		BAT = {
 			set_country_flag = BAT_SPO_POW
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 			add_opinion_modifier = {
@@ -465,7 +465,7 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -486,7 +486,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -506,7 +506,7 @@ country_event = {
 		set_country_flag = BAT_SPO_DANGER
 		clr_country_flag = BAT_SPO_POW
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -584,7 +584,7 @@ country_event = {
 			set_country_flag = BAT_SPO_DANGER_VERY
 			clr_country_flag = BAT_SPO_DANGER
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -656,7 +656,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -1357,7 +1357,7 @@ country_event = {
 		add_political_power = -25
 		BAT = {
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 		}
@@ -1586,7 +1586,7 @@ country_event = {
 		}
 		BAT = {
 			NOT = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			OR = {
 				has_war_with = LAT
@@ -1848,7 +1848,7 @@ country_event = {
 			country_event = balticduchy.192
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.1
 		}
 	}
@@ -1936,7 +1936,7 @@ country_event = {
 		name = balticduchy.195.a
 		add_political_power = 100
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.2
 		}
 		set_country_flag = BAT_start_supress

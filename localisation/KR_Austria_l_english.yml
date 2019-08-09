@@ -587,8 +587,8 @@ AUS_authoritarian_democrat_party:0 "LB"
 AUS_authoritarian_democrat_party_long:0 "Landbund"
 AUS_paternal_autocrat_party:0 "GDVP"
 AUS_paternal_autocrat_party_long:0 "Großdeutsche Volkspartei"
-AUS_national_populist_party:0 "HB"
-AUS_national_populist_party_long:0 "Heimatblock"
+AUS_ethnic_populist_party:0 "HB"
+AUS_ethnic_populist_party_long:0 "Heimatblock"
 
 ### Traits ###
 ganz_danubius_submarine:0 "Ganz Danubius Submarine Facilities"

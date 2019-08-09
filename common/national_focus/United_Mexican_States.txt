@@ -416,7 +416,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_purge_reactionary_thought"
 			add_political_power = 100
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.05 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
@@ -2263,7 +2263,7 @@ focus_tree = {
 		id = MEX_sinarquista_coup
 		icon = GFX_goal_MEX_Sinarquist_Coup
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2275,7 +2275,7 @@ focus_tree = {
 		ai_will_do = {	factor = 50	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_sinarquista_coup"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_political_power = 100
 		}
 	}
@@ -2283,7 +2283,7 @@ focus_tree = {
 		id = MEX_establish_corportism
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2302,7 +2302,7 @@ focus_tree = {
 		id = MEX_capitalist_alliance
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2321,7 +2321,7 @@ focus_tree = {
 		id = MEX_strikes_illegal
 		icon = GFX_goal_UK_ban_unions
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2333,7 +2333,7 @@ focus_tree = {
 		ai_will_do = {	factor = 50	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_strikes_illegal"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_political_power = 100
 		}
 	}
@@ -2341,7 +2341,7 @@ focus_tree = {
 		id = MEX_control_unions
 		icon = GFX_goal_economic_control
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2366,7 +2366,7 @@ focus_tree = {
 		id = MEX_protect_our_industry
 		icon = GFX_goal_generic_trade
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2385,7 +2385,7 @@ focus_tree = {
 		id = MEX_nationalize_industry
 		icon = GFX_goal_state_economy
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2417,7 +2417,7 @@ focus_tree = {
 		id = MEX_centralized_state
 		icon = GFX_goal_Centralised_Government
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2429,7 +2429,7 @@ focus_tree = {
 		ai_will_do = {	factor = 50	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_centralized_state"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_political_power = 100
 		}
 	}
@@ -2437,7 +2437,7 @@ focus_tree = {
 		id = MEX_state_catholicism
 		icon = GFX_goal_faith_and_state
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2449,7 +2449,7 @@ focus_tree = {
 		ai_will_do = {	factor = 50	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_state_catholicism"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_stability = 0.05
 		}
 	}
@@ -2457,7 +2457,7 @@ focus_tree = {
 		id = MEX_hispanism
 		icon = GFX_goal_carlist
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2477,7 +2477,7 @@ focus_tree = {
 		id = MEX_destroy_reds
 		icon = GFX_goal_purge_opposition
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2500,7 +2500,7 @@ focus_tree = {
 		id = MEX_new_military
 		icon = GFX_goal_army_guy_2
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2512,7 +2512,7 @@ focus_tree = {
 		ai_will_do = {	factor = 50	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_new_military"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_war_support = 0.1
 		}
 	}
@@ -2520,7 +2520,7 @@ focus_tree = {
 		id = MEX_goldshirts
 		icon = GFX_goal_KTG_Belgian_Officers2
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2539,7 +2539,7 @@ focus_tree = {
 		id = MEX_synarchismo
 		icon = GFX_goal_support_fascism
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2558,7 +2558,7 @@ focus_tree = {
 		id = MEX_education_reforms
 		icon = GFX_goal_KTG_Bookstack
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2577,7 +2577,7 @@ focus_tree = {
 		id = MEX_camps_for_syndies
 		icon = GFX_goal_skull_fortification
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2613,7 +2613,7 @@ focus_tree = {
 		id = MEX_military_glory
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {
@@ -2639,7 +2639,7 @@ focus_tree = {
 		id = MEX_glory_of_mexico
 		icon = GFX_goal_mexico
 		cost = 8.00
-		available = { has_government = national_populist }
+		available = { has_government = ethnic_populist }
 		available_if_capitulated = no
 		cancel_if_invalid = yes
 		prerequisite = {

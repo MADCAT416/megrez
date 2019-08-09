@@ -50,7 +50,7 @@ country_event = {
             social_conservative = 1
             authoritarian_democrat = 1
             paternal_autocrat = 1
-            national_populist = 2
+            ethnic_populist = 2
         }
 	}
 

@@ -26,7 +26,7 @@ set_popularities = {
     social_conservative = 19
     authoritarian_democrat = 23
     paternal_autocrat = 34
-    national_populist = 17
+    ethnic_populist = 17
 }
 
 create_country_leader = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_TSHERING_PENJOR_DESC"
 	picture = "Portrait_BHU_Tshering_Penjor.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

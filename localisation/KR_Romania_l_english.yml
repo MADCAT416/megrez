@@ -182,8 +182,8 @@ ROM_authoritarian_democrat_party:0 "PN"
 ROM_authoritarian_democrat_party_long:0 "Partidul Naţiunii"
 ROM_paternal_autocrat_party:0 "LANC"
 ROM_paternal_autocrat_party_long:0 "Liga Apărării National Crestine"
-ROM_national_populist_party:0 "Garda de Fier"
-ROM_national_populist_party_long:0 "Garda de Fier"
+ROM_ethnic_populist_party:0 "Garda de Fier"
+ROM_ethnic_populist_party_long:0 "Garda de Fier"
 
 ### Additional Party Names ###
 ROM_totul_pentru_tara:0 "TPT"

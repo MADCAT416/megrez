@@ -164,8 +164,8 @@ QIE_authoritarian_democrat_party:0 "IP"
 QIE_authoritarian_democrat_party_long:0 "Imperial Party"
 QIE_paternal_autocrat_party:0 "IP"
 QIE_paternal_autocrat_party_long:0 "Imperial Party"
-QIE_national_populist_party:0 "IP"
-QIE_national_populist_party_long:0 "Imperial Party"
+QIE_ethnic_populist_party:0 "IP"
+QIE_ethnic_populist_party_long:0 "Imperial Party"
 
 ### Opinion Modifiers ###
 QIE_100_OPIUM:0 "100 Years since the Opium Wars"

@@ -19,8 +19,8 @@ ITA_authoritarian_democrat_party:0 "PMP"
 ITA_authoritarian_democrat_party_long:0 "Partito Monarchico Popolare"
 ITA_paternal_autocrat_party:0 "Lega Monarchica"
 ITA_paternal_autocrat_party_long:0 "Lega Monarchica"
-ITA_national_populist_party:0 "ANI"
-ITA_national_populist_party_long:0 "Associazione Nazionalista Italiana"
+ITA_ethnic_populist_party:0 "ANI"
+ITA_ethnic_populist_party_long:0 "Associazione Nazionalista Italiana"
 
 ### Ideas ###
 ITA_austrian_advisors_idea:0 "Austrian Advisers"
@@ -128,9 +128,9 @@ ITA_ANI_authoritarian_democrat_DEF:0 "Italian Imperium"
 ITA_ANI_paternal_autocrat:0 "Italian Imperium"
 ITA_ANI_paternal_autocrat_ADJ:0 "Italian"
 ITA_ANI_paternal_autocrat_DEF:0 "Italian Imperium"
-ITA_ANI_national_populist:0 "Italian Imperium"
-ITA_ANI_national_populist_ADJ:0 "Italian"
-ITA_ANI_national_populist_DEF:0 "Italian Imperium"
+ITA_ANI_ethnic_populist:0 "Italian Imperium"
+ITA_ANI_ethnic_populist_ADJ:0 "Italian"
+ITA_ANI_ethnic_populist_DEF:0 "Italian Imperium"
 
 ITA_federation_social_democrat:0 "Italian Federation"
 ITA_federation_social_democrat_ADJ:0 "Italian"
@@ -150,9 +150,9 @@ ITA_federation_authoritarian_democrat_DEF:0 "Italian Federation"
 ITA_federation_paternal_autocrat:0 "Italian Federation"
 ITA_federation_paternal_autocrat_ADJ:0 "Italian"
 ITA_federation_paternal_autocrat_DEF:0 "Italian Federation"
-ITA_federation_national_populist:0 "Italian Federation"
-ITA_federation_national_populist_ADJ:0 "Italian"
-ITA_federation_national_populist_DEF:0 "Italian Federation"
+ITA_federation_ethnic_populist:0 "Italian Federation"
+ITA_federation_ethnic_populist_ADJ:0 "Italian"
+ITA_federation_ethnic_populist_DEF:0 "Italian Federation"
 
 #ITA_kingdom_social_democrat:0 "Kingdom of Italy" all already defined in Countries_cosmetic file
 #ITA_kingdom_social_democrat_ADJ:0 "Italian"
@@ -172,9 +172,9 @@ ITA_federation_national_populist_DEF:0 "Italian Federation"
 #ITA_kingdom_paternal_autocrat:0 "Kingdom of Italy"
 #ITA_kingdom_paternal_autocrat_ADJ:0 "Italian"
 #ITA_kingdom_paternal_autocrat_DEF:0 "Kingdom of Italy"
-#ITA_kingdom_national_populist:0 "Kingdom of Italy"
-#ITA_kingdom_national_populist_ADJ:0 "Italian"
-#ITA_kingdom_national_populist_DEF:0 "Kingdom of Italy"
+#ITA_kingdom_ethnic_populist:0 "Kingdom of Italy"
+#ITA_kingdom_ethnic_populist_ADJ:0 "Italian"
+#ITA_kingdom_ethnic_populist_DEF:0 "Kingdom of Italy"
 
 ### Opinion Modifiers ###
 ITA_austrian_no_freindship:0 "No Austrian Friendship"
@@ -256,7 +256,7 @@ ITA_claim_corsica_desc:0 "Once part of the realm of Genoa, Corsica is properly I
 #ITA_federation_social_conservative:0 "Italian Federation"
 #ITA_federation_authoritarian_democrat:0 "Italian Federation"
 #ITA_federation_paternal_autocrat:0 "Italian Federation"
-#ITA_federation_national_populist:0 "Italian Federation"
+#ITA_federation_ethnic_populist:0 "Italian Federation"
 
 
 
@@ -688,7 +688,7 @@ ita.54.a:0 "Damn Venetians."
 ita.54.b:0 "Fight for La Serrenisima(Play as Venice)"
 
 ita.55.t:0 "The Venetian Revolt"
-ita.55.d:0 "The ANI's victory in the recent Italian elections has created an uproar. The Venetians have decided to rebel against the national populist in the Republic and presented Vienna with the chance to oppose the ANI and their anti-Austrian ways. Of course, others suggest that we don't waste our time on yet another republican rebellion."
+ita.55.d:0 "The ANI's victory in the recent Italian elections has created an uproar. The Venetians have decided to rebel against the ethnic populist in the Republic and presented Vienna with the chance to oppose the ANI and their anti-Austrian ways. Of course, others suggest that we don't waste our time on yet another republican rebellion."
 ita.55.a:0 "Pledge our Aid to the Venetians."
 ita.55.b:0 "We shall not aid another republican movement."
 

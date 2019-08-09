@@ -32,8 +32,8 @@ scripted_gui = {
 			clerical_nationalist_icon_visible = {
 				has_government = clerical_nationalist
 			}
-			national_populist_icon_visible = {
-				has_government = national_populist
+			ethnic_populist_icon_visible = {
+				has_government = ethnic_populist
 			}
 		}
 	}

@@ -29,6 +29,6 @@ set_popularities = {
     social_conservative = 17
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 12
+    ethnic_populist = 12
 }
 

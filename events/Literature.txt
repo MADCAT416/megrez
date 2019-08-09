@@ -79,7 +79,7 @@ country_event = { #Claude Lévi-Strauss - what to do with him?
 				OR = {
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			add_political_power = 40
@@ -107,7 +107,7 @@ country_event = { #Claude Lévi-Strauss - what to do with him?
 				OR = {
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			add_political_power = -40

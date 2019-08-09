@@ -19,8 +19,8 @@ BUL_authoritarian_democrat_party:0 "LP"
 BUL_authoritarian_democrat_party_long:0 "Liberalna Partiya"
 BUL_paternal_autocrat_party:0 "Absolyutistka Fraktsiya"
 BUL_paternal_autocrat_party_long:0 "Absolyutistka Fraktsiya"
-BUL_national_populist_party:0 "Zveno"
-BUL_national_populist_party_long:0 "Zveno"
+BUL_ethnic_populist_party:0 "Zveno"
+BUL_ethnic_populist_party_long:0 "Zveno"
 
 ### Ideas ###
 BUL_retain_agrarianism_idea:0 "Retain Agrarianism"

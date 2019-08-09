@@ -237,16 +237,16 @@ SER_authoritarian_democrat_party:0 "SNS"
 SER_authoritarian_democrat_party_long:0 "Srpska napredna stranka"
 SER_paternal_autocrat_party:0 "SNS"
 SER_paternal_autocrat_party_long:0 "Srpska nacionalna stranka"
-SER_national_populist_party:0 "SNP"
-SER_national_populist_party_long:0 "Srpski narodni pokret"
+SER_ethnic_populist_party:0 "SNP"
+SER_ethnic_populist_party_long:0 "Srpski narodni pokret"
 
 # Yugoslavian variants
 SER_YUG_authoritarian_democrat_party:0 "JNS"
 SER_YUG_authoritarian_democrat_party_long:0 "Jugoslovenska napredna stranka"
 SER_YUG_paternal_autocrat_party:0 "JNS"
 SER_YUG_paternal_autocrat_party_long:0 "Jugoslovenska nacionalna stranka"
-SER_YUG_national_populist_party:0 "JNP"
-SER_YUG_national_populist_party_long:0 "Jugoslovenska narodni pokret"
+SER_YUG_ethnic_populist_party:0 "JNP"
+SER_YUG_ethnic_populist_party_long:0 "Jugoslovenska narodni pokret"
 
 ### Event text ###
 serbia.1.t:0 "The Kingdom of Serbia"

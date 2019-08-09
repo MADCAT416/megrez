@@ -22,8 +22,8 @@ ELS_authoritarian_democrat_party_long:0 "Partido Revolucionario de Unificación 
 ELS_authoritarian_democrat_party:0 "PRUD"
 ELS_paternal_autocrat_party_long:0 "Fuerza Armada de El Salvador"
 ELS_paternal_autocrat_party:0 "FAEL"
-ELS_national_populist_party_long:0 "Partido Nacional Pro-Patria"
-ELS_national_populist_party:0 "PNPP"
+ELS_ethnic_populist_party_long:0 "Partido Nacional Pro-Patria"
+ELS_ethnic_populist_party:0 "PNPP"
 
 ##Modifiers##
 ELS_border_treaty_accepted:0 "Border Treaty Accepted"

@@ -19,8 +19,8 @@ HAW_authoritarian_democrat_party:0 "Hawaiian National Party"
 HAW_authoritarian_democrat_party_long:0 "Hawaiian National Party"
 HAW_paternal_autocrat_party:0 "Emergency Directorate"
 HAW_paternal_autocrat_party_long:0 "Emergency Directorate"
-HAW_national_populist_party:0 "Hawaiian National Party"
-HAW_national_populist_party_long:0 "Hawaiian National Party"
+HAW_ethnic_populist_party:0 "Hawaiian National Party"
+HAW_ethnic_populist_party_long:0 "Hawaiian National Party"
 
 ### Ideas ###
 HAW_political_chaos_idea:0 "Political Chaos"
@@ -170,9 +170,9 @@ HAW_kingdom_authoritarian_democrat_DEF:0 "the Kingdom of Hawaii"
 HAW_kingdom_paternal_autocrat:0 "Kingdom of Hawaii"
 HAW_kingdom_paternal_autocrat_ADJ:0 "Hawaiian"
 HAW_kingdom_paternal_autocrat_DEF:0 "the Kingdom of Hawaii"
-HAW_kingdom_national_populist:0 "Kingdom of Hawaii"
-HAW_kingdom_national_populist_ADJ:0 "Hawaiian"
-HAW_kingdom_national_populist_DEF:0 "the Kingdom of Hawaii"
+HAW_kingdom_ethnic_populist:0 "Kingdom of Hawaii"
+HAW_kingdom_ethnic_populist_ADJ:0 "Hawaiian"
+HAW_kingdom_ethnic_populist_DEF:0 "the Kingdom of Hawaii"
 
 ### Opinion Modifiers ###
 INDHAW_CAL:0 "Hawaii remain independent"

@@ -565,7 +565,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 
 			if = {
@@ -659,7 +659,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -803,7 +803,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 
 			if = {
@@ -877,7 +877,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -991,7 +991,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 
 			if = {
@@ -1046,7 +1046,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -3507,7 +3507,7 @@ country_event = { #FIN liberation
 			if = {
 				limit = {
 					tag = SWE
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				149 = {
 					add_claim_by = SWE
@@ -3613,7 +3613,7 @@ country_event = { #NOR liberation
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				143 = {
@@ -3725,7 +3725,7 @@ country_event = { #SWE liberation
 					OR = {
 						has_government = totalist
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				778 = {
@@ -3822,7 +3822,7 @@ country_event = { #SWE liberation
 						desc = "POLITICS_Gustaf_V_DESC"
 						picture = "Portrait_Sweden_Gustaf_V.tga"
 						expire = "1965.1.1"
-						ideology = national_populist_subtype
+						ideology = ethnic_populist_subtype
 						traits = {
 
 						}
@@ -3877,7 +3877,7 @@ country_event = { #SWE liberation
 						desc = "POLITICS_Gustaf_Adolf_DESC"
 						picture = "Portrait_Sweden_Gustaf_Adolf_Sr.tga"
 						expire = "1965.1.1"
-						ideology = national_populist_subtype
+						ideology = ethnic_populist_subtype
 						traits = {
 
 						}
@@ -3955,7 +3955,7 @@ country_event = { #SWE liberation
 					OR = {
 						has_government = totalist
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				778 = {
@@ -4048,7 +4048,7 @@ country_event = { #SWE liberation
 						name = "Martin Ekström"
 						picture = "Portrait_Sweden_Martin_Ekstrom.tga"
 						expire = "1965.1.1"
-						ideology = national_populist_subtype
+						ideology = ethnic_populist_subtype
 						traits = {
 
 						}
@@ -4366,7 +4366,7 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				WLL = {
 					NOT = {
 						has_completed_focus = WLL_The_Government_Has_Failed
@@ -4623,7 +4623,7 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			WLL = {
 				complete_national_focus = WLL_The_Government_Has_Failed
@@ -6780,7 +6780,7 @@ country_event = { #Fate of the Baltic Region
 				has_country_flag = rus_tsar
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -6892,7 +6892,7 @@ country_event = { #Fate of the Baltic Region
 					has_cosmetic_tag = LIT_republican
 				}
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			LIT = {
@@ -6966,7 +6966,7 @@ country_event = { #Fate of the Baltic Region
 					has_cosmetic_tag = LIT_republican
 				}
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			LIT = {
@@ -7190,7 +7190,7 @@ country_event = { #Fate of the Baltic Region
 					has_cosmetic_tag = LIT_republican
 				}
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			LIT = {
@@ -7759,7 +7759,7 @@ country_event = { #The Fate of Guatemala
 		if = {
 			limit = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -7852,7 +7852,7 @@ country_event = { #The Fate of Guatemala
 		if = {
 			limit = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -7954,7 +7954,7 @@ country_event = { #The Fate of El Salvador
 		if = {
 			limit = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -11416,7 +11416,7 @@ country_event = { #Partition of Switzerland
 				has_capitulated = no
 				is_subject = no
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			NOT = {
@@ -11968,7 +11968,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_RENE_BOURBON_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 
@@ -16873,7 +16873,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
 						expire = "1964.6.11"
-						ideology = national_populist_subtype
+						ideology = ethnic_populist_subtype
 						traits = {
 							dictator
 						}
@@ -16888,7 +16888,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_PHAO_SRIYANOND_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.tga"
 						expire = "1960.11.21"
-						ideology = national_populist_subtype
+						ideology = ethnic_populist_subtype
 						traits = {
 							dictator
 						}
@@ -18498,7 +18498,7 @@ country_event = { #The Annexation of the Ukraine
 					desc = "POLITICS_DMITRI_DONTSOV_DESC"
 					picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -18623,7 +18623,7 @@ country_event = { #The Annexation of the Ukraine
 					desc = "POLITICS_DMITRI_DONTSOV_DESC"
 					picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -20873,7 +20873,7 @@ country_event = { #Fate of Bolivia
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				BOL = {
 					NOT = {
 						has_completed_focus = BOL_Disband_Parliament
@@ -21043,7 +21043,7 @@ country_event = { #Fate of Ecuador
 					NOT = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				clr_country_flag = ECU_notyet
@@ -21936,7 +21936,7 @@ country_event = { #Fate of Mexico
 							desc = "POLITICS_JOSE_URQUIZA_DESC"
 							picture = "Portrait_Mexico_Urquiza.tga"
 							expire = "1965.1.1"
-							ideology = national_populist_subtype
+							ideology = ethnic_populist_subtype
 							traits = {}
 						}
 					}
@@ -22083,7 +22083,7 @@ country_event = { #Fate of Mexico
 							desc = "POLITICS_JOSE_URQUIZA_DESC"
 							picture = "Portrait_Mexico_Urquiza.tga"
 							expire = "1965.1.1"
-							ideology = national_populist_subtype
+							ideology = ethnic_populist_subtype
 							traits = {}
 						}
 					}
@@ -22147,7 +22147,7 @@ country_event = { #Fate of Mexico
 				}
 				AND = {
 					tag = BRA
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -22220,7 +22220,7 @@ country_event = { #Fate of Mexico
 							desc = "POLITICS_DONA_ITURBIDE_DESC"
 							picture = "Portrait_Mexico_Maria.tga"
 							expire = "1965.1.1"
-							ideology = national_populist_subtype
+							ideology = ethnic_populist_subtype
 							traits = {}
 						}
 					}
@@ -23366,7 +23366,7 @@ country_event = { #Netherlands Liberation
 				factor = 0
 				tag = BEL
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 				}
 			}
@@ -23668,7 +23668,7 @@ country_event = { #Netherlands Liberation
 					AND = {
 						tag = BEL
 						OR = {
-							has_government = national_populist
+							has_government = ethnic_populist
 							has_government = paternal_autocrat
 						}
 					}
@@ -23724,7 +23724,7 @@ country_event = { #Denmark Liberation
 		trigger = {
 			not_has_socialist_government = yes
 			NOT = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -24048,7 +24048,7 @@ country_event = { #Fate of Portugal non-leftist
 					desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
 					picture = "Portrait_Portugal_Maria_Adelaide.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -24140,7 +24140,7 @@ country_event = { #Fate of Portugal non-leftist
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				kill_country_leader = yes
@@ -24198,7 +24198,7 @@ country_event = { #Fate of Portugal non-leftist
 					desc = "POLITICS_MARIA_PUPPET_DESC"
 					picture = "Portrait_Portugal_Maria_Ana.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -25769,7 +25769,7 @@ country_event = { #Fate of Belgium
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "Portrait_Belgium_King_Albert.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 				}
 				create_country_leader = {
 					name = "Albert I"
@@ -25935,7 +25935,7 @@ country_event = { #Fate of Belgium
 					desc = "POLITICS_KAREL_BELGIE_DESC"
 					picture = "Portrait_Flanders_Karel_Van_Vlaanderen.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -26058,7 +26058,7 @@ country_event = { #Fate of Belgium
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			WLL = {
 				complete_national_focus = WLL_The_Government_Has_Failed
@@ -26304,7 +26304,7 @@ country_event = { #Fate of Belgium
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			WLL = {
 				complete_national_focus = WLL_The_Government_Has_Failed
@@ -26515,7 +26515,7 @@ country_event = { #Fate of Southern Wallonia
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			WLL = {
 				complete_national_focus = WLL_The_Government_Has_Failed
@@ -26766,7 +26766,7 @@ country_event = { #Fate of Lithuania
 					has_cosmetic_tag = LIT_republican
 				}
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			LIT = {
@@ -26828,7 +26828,7 @@ country_event = { #Fate of Lithuania
 					has_cosmetic_tag = LIT_republican
 				}
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			LIT = {
@@ -29836,7 +29836,7 @@ country_event = { #Fate of Argentina
 		if = {
 			limit = {
 				tag = BRA
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			ARG = {
 				create_country_leader = {
@@ -29844,7 +29844,7 @@ country_event = { #Fate of Argentina
 					desc = "POLITICS_MIGUEL_DE_ANDREA_DESC"
 					picture = "Portrait_Argentine_miguel_de_andrea.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -29992,7 +29992,7 @@ country_event = { #Fate of Argentina
 		if = {
 			limit = {
 				tag = BRA
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			ARG = {
 				create_country_leader = {
@@ -30000,7 +30000,7 @@ country_event = { #Fate of Argentina
 					desc = "POLITICS_MIGUEL_DE_ANDREA_DESC"
 					picture = "Portrait_Argentine_miguel_de_andrea.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -30010,7 +30010,7 @@ country_event = { #Fate of Argentina
 					desc = "POLITICS_KING_OF_MAPUCHES_DESC"
 					picture = "Portrait_FOP_Jacques_Antoine_Bernard.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -30211,11 +30211,11 @@ country_event = { #Aodh II arrives!
 			desc = "POLITICS_AODH_ONEILL_DESC"
 			picture = "Portrait_Ireland_Hugo_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 	}
@@ -30272,11 +30272,11 @@ country_event = { #Seoirse I arrives!
 			desc = "POLITICS_SEOIRSE_ONEILL_DESC"
 			picture = "Portrait_Ireland_Jorge_Maria_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 	}
@@ -34885,7 +34885,7 @@ country_event = { #Fate of Paraguay
                     social_conservative = 4
                     authoritarian_democrat = 0
                     paternal_autocrat = 5
-                    national_populist = 0
+                    ethnic_populist = 0
                 }
 			}
 		}
@@ -35588,7 +35588,7 @@ country_event = { #The Fate of Honduras
 		if = {
 			limit = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -35698,7 +35698,7 @@ country_event = { #The Fate of Nicaragua
 		if = {
 			limit = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -40340,7 +40340,7 @@ country_event = { #The Fate of Emilia
 					desc = "POLITICS_DUKE_ELIAS_DESC"
 					picture = "Portrait_EMI_Duke_Elias.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 				create_country_leader = {

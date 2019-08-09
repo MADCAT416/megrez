@@ -267,7 +267,7 @@ country_event = { # Liberation of the UK(no Lawrence)
 					desc = "POLITICS_POLITICS_EDWARD_BRITAIN_DESC"
 					picture = "Portrait_GBR_Edward_VIII.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -511,7 +511,7 @@ country_event = { # Liberation of the UK(no Lawrence)
 					desc = "POLITICS_POLITICS_EDWARD_BRITAIN_DESC"
 					picture = "Portrait_GBR_Edward_VIII.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -610,7 +610,7 @@ country_event = { # Lawrence Liberates the UK.
 				desc = "POLITICS_POLITICS_EDWARD_BRITAIN_DESC"
 				picture = "Portrait_GBR_Edward_VIII.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 			every_state = {
@@ -2198,7 +2198,7 @@ country_event = { # The King
 			desc = "POLITICS_POLITICS_EDWARD_BRITAIN_DESC"
 			picture = "Portrait_GBR_Edward_VIII.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -2268,7 +2268,7 @@ country_event = { # Jan Smuts
 			desc = "SMUTS_DESC"
 			picture = "Portrait_SAF_Jan_Smuts.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -2338,7 +2338,7 @@ country_event = { # Charles Stallard
 			desc = "CHARLES_STALLARD_DESC"
 			picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -2880,7 +2880,7 @@ country_event = { # Independent Iceland
 				desc = "ICELAND_ALEXANDRIA_DESC"
 				picture = "Portrait_ICE_ALEXANDRIA.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}

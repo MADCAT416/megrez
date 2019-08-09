@@ -106,7 +106,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -129,7 +129,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -282,7 +282,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		hidden_effect = {
@@ -305,7 +305,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		hidden_effect = {
@@ -551,7 +551,7 @@ country_event = { # Huey Long declares Rebellion against Olson
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -580,7 +580,7 @@ country_event = { # Huey Long declares Rebellion against Olson
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -769,7 +769,7 @@ country_event = { # Huey Long declares Rebellion against Garner
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -800,7 +800,7 @@ country_event = { # Huey Long declares Rebellion against Garner
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -961,7 +961,7 @@ country_event = { # Huey Long declares Rebellion against Landon
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -992,7 +992,7 @@ country_event = { # Huey Long declares Rebellion against Landon
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4113,7 +4113,7 @@ country_event = {
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4136,7 +4136,7 @@ country_event = {
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4297,7 +4297,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4320,7 +4320,7 @@ country_event = { # Huey Long declares Rebellion against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.3
 		}
 		add_stability = 0.15

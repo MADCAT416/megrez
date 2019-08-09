@@ -75,7 +75,7 @@ set_popularities = {
     social_conservative = 35
     authoritarian_democrat = 15
     paternal_autocrat = 10
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 country_event = { id = egy.1 days = 1 }

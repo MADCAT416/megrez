@@ -1406,8 +1406,8 @@ POL_authoritarian_democrat_party:0 "PM"
 POL_authoritarian_democrat_party_long:0 "Partia Monarchistyczna"
 POL_paternal_autocrat_party:0 "PC"
 POL_paternal_autocrat_party_long:0 "Partia Centralistyczna"
-POL_national_populist_party:0 "ZLN"
-POL_national_populist_party_long:0 "Związek Ludowo-Narodowy"
+POL_ethnic_populist_party:0 "ZLN"
+POL_ethnic_populist_party_long:0 "Związek Ludowo-Narodowy"
 # Try to use ONR eventually
 
 ### Special Parties ###

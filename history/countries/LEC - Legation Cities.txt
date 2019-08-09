@@ -93,7 +93,7 @@ set_popularities = {
     social_conservative = 39
     authoritarian_democrat = 20
     paternal_autocrat = 18
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 add_opinion_modifier = { target = GER modifier = LEC_member }

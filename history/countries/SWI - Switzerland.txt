@@ -52,7 +52,7 @@ set_popularities = {
     social_conservative = 10
     authoritarian_democrat = 7
     paternal_autocrat = 0
-    national_populist = 10
+    ethnic_populist = 10
 }
 
 activate_mission = SWI_peace_mission_ongoing
@@ -176,7 +176,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

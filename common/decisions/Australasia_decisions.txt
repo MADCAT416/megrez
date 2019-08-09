@@ -489,7 +489,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				336 = {
 					owner = {
@@ -570,7 +570,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				333 = {
 					owner = {
@@ -677,7 +677,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				757 = {
 					owner = {
@@ -694,7 +694,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				757 = {
 					owner = {
@@ -804,7 +804,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				634 = {
 					owner = {
@@ -918,7 +918,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				643 = {
 					owner = {
@@ -1035,7 +1035,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				684 = {
 					owner = {
@@ -1052,7 +1052,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				684 = {
 					owner = {
@@ -1171,7 +1171,7 @@ AST_anderson_policy_decisions = {
 				factor = 0
 				NOT = {
 					has_socialist_government = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -1211,7 +1211,7 @@ AST_anderson_policy_decisions = {
 
 		visible = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_socialist_government = yes
 			}
 			843 = {
@@ -1246,7 +1246,7 @@ AST_anderson_policy_decisions = {
 			# nat pop AST will not use unless owned by a syndicalist country or at war
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				843 = {
 					owner = {
 						NOT = {
@@ -1319,7 +1319,7 @@ AST_anderson_policy_decisions = {
 
 		visible = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_socialist_government = yes
 			}
 			721 = {
@@ -1354,7 +1354,7 @@ AST_anderson_policy_decisions = {
 			# nat pop AST will not use unless owned by a syndicalist country or at war
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				721 = {
 					owner = {
 						NOT = {

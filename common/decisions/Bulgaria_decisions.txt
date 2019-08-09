@@ -218,14 +218,14 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_country_flag = BUL_surrender_no_war
 					has_country_flag = BUL_balkan_peace_loss
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 					has_government = market_liberal
 				}
 				ROM = {
 					exists = yes
 					is_subject = no
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 					is_in_faction = no
 				}
@@ -652,14 +652,14 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_country_flag = BUL_surrender_no_war
 					has_country_flag = BUL_balkan_peace_loss
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 					has_government = market_liberal
 				}
 				ROM = {
 					exists = yes
 					is_subject = no
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 					is_in_faction = no
 				}
@@ -868,14 +868,14 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_country_flag = BUL_surrender_no_war
 					has_country_flag = BUL_balkan_peace_loss
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 					has_government = market_liberal
 				}
 				ROM = {
 					exists = yes
 					is_subject = no
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 					is_in_faction = no
 				}
@@ -1079,14 +1079,14 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_country_flag = BUL_surrender_no_war
 					has_country_flag = BUL_balkan_peace_loss
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = social_democrat
 					has_government = market_liberal
 				}
 				ROM = {
 					exists = yes
 					is_subject = no
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 					is_in_faction = no
 				}
@@ -1252,14 +1252,14 @@ BUL_foreign_policy_decisions = {
 			NOT = {
 				has_country_flag = BUL_surrender_no_war
 				has_country_flag = BUL_balkan_peace_loss
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = social_democrat
 				has_government = market_liberal
 			}
 			FROM = {
 				exists = yes
 				is_subject = no
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 				if = {
 					limit = {
@@ -1279,7 +1279,7 @@ BUL_foreign_policy_decisions = {
 			FROM = {
 				exists = yes
 				is_subject = no
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
 			}
 		}		

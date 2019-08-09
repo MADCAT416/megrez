@@ -294,7 +294,7 @@ focus_tree = {
 					desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 					picture = "Portrait_NFA_Philippe_Petain.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}
@@ -386,7 +386,7 @@ focus_tree = {
 					desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 					picture = "Portrait_NFA_Philippe_Petain.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = {}
 				}
 			}

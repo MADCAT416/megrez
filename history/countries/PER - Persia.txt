@@ -78,7 +78,7 @@ set_popularities = {
     social_conservative = 4
     authoritarian_democrat = 26
     paternal_autocrat = 14
-    national_populist = 2
+    ethnic_populist = 2
 }
 
 country_event = {
@@ -91,7 +91,7 @@ create_country_leader = {
 	desc = "POLITICS_RESTA_ROUZA_DESC"
 	picture = "Portrait_Persia_Bahram_Aryiana.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

@@ -21,8 +21,8 @@ CEN_authoritarian_democrat_party_long:0 "Administración Militar"
 CEN_authoritarian_democrat_party:0 "AM"
 CEN_paternal_autocrat_party_long:0 "Partido de Unificación"
 CEN_paternal_autocrat_party:0 "PU"
-CEN_national_populist_party_long:0 "Partido Nacional"
-CEN_national_populist_party:0 "PN"
+CEN_ethnic_populist_party_long:0 "Partido Nacional"
+CEN_ethnic_populist_party:0 "PN"
 
 
 ### Decisions ###
@@ -223,9 +223,9 @@ CEN_CON_authoritarian_democrat_DEF:0 "the Central American Republic"
 CEN_CON_paternal_autocrat:0 "Central American Republic"
 CEN_CON_paternal_autocrat_ADJ:0 "Central American"
 CEN_CON_paternal_autocrat_DEF:0 "the Central American Republic"
-CEN_CON_national_populist:0 "Central American Republic"
-CEN_CON_national_populist_ADJ:0 "Central American"
-CEN_CON_national_populist_DEF:0 "the Central American Republic"
+CEN_CON_ethnic_populist:0 "Central American Republic"
+CEN_CON_ethnic_populist_ADJ:0 "Central American"
+CEN_CON_ethnic_populist_DEF:0 "the Central American Republic"
 
 ### Events ###
 cend.1.t:0 "[From.GetNameDefCap] Sends an Embassy"

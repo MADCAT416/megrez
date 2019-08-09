@@ -56,8 +56,8 @@
  INS_authoritarian_democrat_party_long:0 "Partai Nasional Insulindia"
  INS_paternal_autocrat_party:0 "Ngi-Sultan Monarchists/DI"
  INS_paternal_autocrat_party_long:0 "Ngi-Sultan Monarchists/Darul Islam"
- INS_national_populist_party:0 "APRA"
- INS_national_populist_party_long:0 "Angkatan Perang Ratu Adil"
+ INS_ethnic_populist_party:0 "APRA"
+ INS_ethnic_populist_party_long:0 "Angkatan Perang Ratu Adil"
  INS_pobsi_short:0 "SOBSI"
  INS_pobsi_long:0 "Sentral Organisasi Buruh Seluruh Insulindia"
 

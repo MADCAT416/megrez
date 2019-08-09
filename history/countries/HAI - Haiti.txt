@@ -68,7 +68,7 @@ set_popularities = {
     social_conservative = 19
     authoritarian_democrat = 34
     paternal_autocrat = 6
-    national_populist = 7
+    ethnic_populist = 7
 }
 
 add_ideas = {
@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_CARL_BROUARD_DESC"
 	picture = "Portrait_Haiti_Carl_Brouard.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

@@ -346,7 +346,7 @@ ideas = {
 		LIB_natpop_rule = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LIB_natpop_rule"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = vittoria_mutilata
 			modifier = {
@@ -357,7 +357,7 @@ ideas = {
 		LIB_natpop_rule_1 = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LIB_natpop_rule_1"}
 			allowed = { always = no }
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			removal_cost = -1
 			picture = vittoria_mutilata
 			modifier = {

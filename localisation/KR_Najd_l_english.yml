@@ -19,8 +19,8 @@ SAU_authoritarian_democrat_party:0 "Al-Imarat Al-Arabiyah Al-Muttahidah"
 SAU_authoritarian_democrat_party_long:0 "Al-Imarat Al-Arabiyah Al-Muttahidah"
 SAU_paternal_autocrat_party:0 "Al Saud"
 SAU_paternal_autocrat_party_long:0 "Al Saud"
-SAU_national_populist_party:0 "Hizb Alearabiu"
-SAU_national_populist_party_long:0 "Hizb Alearabiu"
+SAU_ethnic_populist_party:0 "Hizb Alearabiu"
+SAU_ethnic_populist_party_long:0 "Hizb Alearabiu"
 
 ### Opinion Modifiers ###
 ott_jabalshammar:0 "Treason"

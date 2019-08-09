@@ -586,7 +586,7 @@ country_event = {
 		}
 		add_political_power = -100
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_ideas = {
@@ -596,7 +596,7 @@ country_event = {
 			NZL_Thomas_Blamey_sec_npo
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.20
 		}
 	}

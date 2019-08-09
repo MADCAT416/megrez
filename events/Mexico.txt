@@ -1202,11 +1202,11 @@ country_event = { # Cristero War - victory for the Criesteros
 		add_stability = 0.1
 		army_experience = 25
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 		}
 	}
 }
@@ -1351,7 +1351,7 @@ country_event = { # Elections of 1942
 			has_government = paternal_autocrat
 		}
 		not = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		not = {
 			has_government = social_liberal
@@ -1481,7 +1481,7 @@ country_event = { # Elections of 1947
 			has_government = paternal_autocrat
 		}
 		not = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		not = {
 			has_government = social_liberal
@@ -1981,7 +1981,7 @@ country_event = { # The Sinarquista offer
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -1998,7 +1998,7 @@ country_event = { # The Sinarquista offer
 		  }
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -2040,7 +2040,7 @@ country_event = { # Sinarquista support
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		custom_effect_tooltip = MEX_campesinos_subtract_5
@@ -2068,11 +2068,11 @@ country_event = { # Sinarquista Coup
 	option = {
 		name = mexico.45.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_ideas = MEX_Jose_Antonio_Urquiza_hog_npo
@@ -2612,7 +2612,7 @@ country_event = { # anti-Zapata laws
 		name = mexico.63.b
 		trigger = {
 			not = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_political_power = -100
@@ -2956,7 +2956,7 @@ country_event = { # Patria vs La Raza
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -2967,14 +2967,14 @@ country_event = { # Patria vs La Raza
 		name = mexico.100.a
 		add_political_power = -10
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 	}
 	option = { # They have no choice, ignore their demands
 		name = mexico.100.b
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.03
 		}
 		add_political_power = 10
@@ -2990,7 +2990,7 @@ country_event = { # Head of the Revolutionary Action Mexicanista
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -3020,7 +3020,7 @@ country_event = { # Renaming Texas
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 		controls_state = 375
 		controls_state = 833
 	}
@@ -3051,7 +3051,7 @@ country_event = { # Renaming New Mexico
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 		controls_state = 376
 	}
 
@@ -3077,7 +3077,7 @@ country_event = { # Renaming California
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 		controls_state = 829
 		controls_state = 378
 	}
@@ -3121,7 +3121,7 @@ country_event = { # Juventudes Sinarquistas
 
 	trigger = {
 		tag = MEX
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = MEX_synarchismo
 	}
 
@@ -3132,7 +3132,7 @@ country_event = { # Juventudes Sinarquistas
 	option = { # The Youth are the future
 		name = mexico.106.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 	}
@@ -3434,7 +3434,7 @@ country_event = { # Children of Morelia
 		tag = MEX
 		has_global_flag = USA_civil_war_over_flag
 		not = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 

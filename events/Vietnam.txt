@@ -126,7 +126,7 @@ country_event = { # Education Reform
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -187,7 +187,7 @@ country_event = { # Education_Reform
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -244,7 +244,7 @@ country_event = { # Economic Mobilization
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		add_popularity = {

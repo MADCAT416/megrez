@@ -82,7 +82,7 @@ set_popularities = {
     social_conservative = 3
     authoritarian_democrat = 36
     paternal_autocrat = 8
-    national_populist = 12
+    ethnic_populist = 12
 }
 ######## Starting Leader Spam ########
 create_country_leader = {
@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
 	expire = "1980.6.3"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -194,7 +194,7 @@ create_country_leader = {
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
 	expire = "1956.4.4"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {

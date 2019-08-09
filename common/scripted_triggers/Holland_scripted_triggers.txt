@@ -7,7 +7,7 @@ hol_farleft_majority = {
 
 hol_farright_majority = {
 	set_temp_variable = { var = hol_natpop_strength value = ROOT.party_popularity@paternal_autocrat }
-	add_to_temp_variable = { var = hol_natpop_strength value = ROOT.party_popularity@national_populist }
+	add_to_temp_variable = { var = hol_natpop_strength value = ROOT.party_popularity@ethnic_populist }
 	check_variable = { hol_natpop_strength > 0.5 }
 }
 

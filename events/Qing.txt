@@ -677,7 +677,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -781,7 +781,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -879,7 +879,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -893,12 +893,12 @@ country_event = { # Politicians and Economic Reform
 			popularity = 0.3
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.5
 		}
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 
@@ -911,7 +911,7 @@ country_event = { # Politicians and Economic Reform
 				desc = "ANTE_PUYI_DESC"
 				picture = "Portrait_China_Puyi.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 
@@ -946,7 +946,7 @@ country_event = { # Politicians and Economic Reform
 		}
 
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 
@@ -1450,7 +1450,7 @@ country_event = { # Intelectualls demand constitutional monarchy!
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -1577,7 +1577,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -1702,7 +1702,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2468,7 +2468,7 @@ country_event = { # The German Coup
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3081,7 +3081,7 @@ country_event = { # Reworking our China policy
 			transfer_troops = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.20
 		}
 		reverse_add_opinion_modifier = {

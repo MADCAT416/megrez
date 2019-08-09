@@ -235,7 +235,7 @@ country_event = { #Martinez reduces state's salaries to help cope with the depre
 		name = els.22.a
 		add_political_power = 75
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -289,7 +289,7 @@ country_event = { #Construction of affordable houses for the working class
 		add_political_power = -25
 		add_stability = 0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -313,7 +313,7 @@ country_event = { #Subsidies for the rural workers
 		add_political_power = -25
 		add_stability = 0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -1006,7 +1006,7 @@ country_event = { #The government reacts to the commies
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		hidden_effect = {
@@ -1048,7 +1048,7 @@ country_event = { #Army mutinies, we got wrecked in battle
 		add_political_power = -100
 		add_manpower = -2986
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -1074,7 +1074,7 @@ country_event = { #The End of Martinez
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.30
 		}
 		add_ideas = ELS_Osmin_Aguirre_y_Salinas_hog_pau
@@ -1138,7 +1138,7 @@ country_event = { #Arturo Araujo supports the revolution!
 			if = {
 				limit = {
 					ELS = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				country_event = { #Brawling in the Streets
@@ -1202,7 +1202,7 @@ country_event = { #The Front Holds
 	option = { #Yaay
 		name = els.115.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		add_stability = 0.10
@@ -2229,7 +2229,7 @@ country_event = { #Martinez does dumb shit
 	option = { #I don't think this is helping
 		name = els.211.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 	}

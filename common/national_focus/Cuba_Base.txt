@@ -220,7 +220,7 @@ shared_focus = {
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -691,7 +691,7 @@ shared_focus = {
 				popularity = -0.10
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.10
 			}
 			else = {
@@ -716,7 +716,7 @@ shared_focus = {
 					popularity = -0.10
 				}
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = -0.10
 				}
 			}
@@ -726,7 +726,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CUB_march_on_havana
-	icon = GFX_goal_ideology_national_populist
+	icon = GFX_goal_ideology_ethnic_populist
 	x = -3
 	y = 4
 	relative_position_id = CUB_general_election

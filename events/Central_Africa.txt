@@ -35,7 +35,7 @@ country_event = {
             social_conservative = 25
             authoritarian_democrat = 0
             paternal_autocrat = 42
-            national_populist = 0
+            ethnic_populist = 0
         }
 		create_country_leader = {
 			name = "Binyamin I"

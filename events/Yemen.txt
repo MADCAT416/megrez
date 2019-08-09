@@ -418,7 +418,7 @@ country_event = { #No purge result
             social_conservative = 38
             authoritarian_democrat = 13
             paternal_autocrat = 8
-            national_populist = 0
+            ethnic_populist = 0
         }
 
 		remove_all_ministers = yes
@@ -475,7 +475,7 @@ country_event = { #Moderate Purge result, less likely to fall
             social_conservative = 38
             authoritarian_democrat = 13
             paternal_autocrat = 8
-            national_populist = 0
+            ethnic_populist = 0
         }
 
 		remove_all_ministers = yes

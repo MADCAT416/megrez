@@ -146,8 +146,8 @@ CHI_authoritarian_democrat_party:0 "YCP"
 CHI_authoritarian_democrat_party_long:0 "Young China Party"
 CHI_paternal_autocrat_party:0 "QRP"
 CHI_paternal_autocrat_party_long:0 "Qing Restoration Party"
-CHI_national_populist_party:0 "NPA"
-CHI_national_populist_party_long:0 "National Protection Alliance"
+CHI_ethnic_populist_party:0 "NPA"
+CHI_ethnic_populist_party_long:0 "National Protection Alliance"
 
 ### Opinion Modifiers ###
 CHI_SQI_ALL:0 "We're Allies"

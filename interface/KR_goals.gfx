@@ -33,8 +33,8 @@ spriteTypes = {
 	
 	### Ideology ###
 	SpriteType = {
-		name = "GFX_goal_ideology_national_populist"
-		texturefile = "gfx/interface/goals/goal_ideology_national_populist.tga"
+		name = "GFX_goal_ideology_ethnic_populist"
+		texturefile = "gfx/interface/goals/goal_ideology_ethnic_populist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_paternal_autocrat"

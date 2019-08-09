@@ -105,7 +105,7 @@ country_event = {
 		name = austral.5.a
 		add_stability = -0.02
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 	}
@@ -376,7 +376,7 @@ country_event = {
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -477,7 +477,7 @@ country_event = {
 				desc = "POLITICS_ISAAC_ISAACS_DESC"
 				picture = "Portrait_AST_Isaac_Isaacs.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -542,7 +542,7 @@ country_event = {
 				desc = "POLITICS_GEORGE_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_George.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -1348,7 +1348,7 @@ country_event = {
 	option = {
 		name = austral.31.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -1452,7 +1452,7 @@ country_event = {
 	option = {
 		name = austral.34.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -2035,11 +2035,11 @@ country_event = {
 		add_stability = -0.10
 		add_ideas = AST_new_unrest
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.20
 		}
 		add_ideas = {
@@ -2195,16 +2195,16 @@ country_event = {
 		remove_all_ministers = yes
 		add_stability = -0.25
 		set_party_name = {
-			ideology = national_populist
-			long_name = AST_national_populist_banned_party_long
-			name = AST_national_populist_banned_party
+			ideology = ethnic_populist
+			long_name = AST_ethnic_populist_banned_party_long
+			name = AST_ethnic_populist_banned_party
 		}
 		create_country_leader = {
 			name = "Thomas Blamey"
 			desc = "POLITICS_THOMAS_BLAMEY_DESC"
 			picture = "Portrait_AST_Thomas_Blamey.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		add_ideas = {
@@ -2215,7 +2215,7 @@ country_event = {
 		}
 		add_ideas = AST_new_unrest
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 
@@ -2257,21 +2257,21 @@ country_event = {
 			remove_unit_leader = 2100 #Thomas Blamey
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		hidden_effect = {
 			set_party_name = {
-				ideology = national_populist
-				long_name = AST_national_populist_banned_party_long
-				name = AST_national_populist_banned_party
+				ideology = ethnic_populist
+				long_name = AST_ethnic_populist_banned_party_long
+				name = AST_ethnic_populist_banned_party
 			}
 			create_country_leader = {
 				name = "Charles Vyner Brooke"
 				desc = "POLITICS_CHARLES_VYNER_BROOKE_DESC"
 				picture = "Portrait_AST_Charles_Vyner_Brooke.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -2712,7 +2712,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 20
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0
@@ -2922,7 +2922,7 @@ country_event = {
 	trigger = {
 		OR = {
 			has_democratic_government = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		NOT = {
 			has_completed_focus = AST_australasian_republic
@@ -2986,7 +2986,7 @@ country_event = {
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -3009,7 +3009,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		NOT = {
 			has_country_flag = AST_new_guard_1
 		}
@@ -3049,7 +3049,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = AST_new_guard_1
 		NOT = {
 			has_country_flag = AST_new_guard_2
@@ -3090,7 +3090,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = AST_new_guard_2
 		NOT = {
 			has_country_flag = AST_new_guard_3
@@ -3111,7 +3111,7 @@ country_event = {
 	option = {
 		name = austral.82.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 	}
@@ -3130,7 +3130,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = AST_new_guard_3
 		NOT = {
 			has_country_flag = AST_new_guard_4
@@ -3171,7 +3171,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = AST_new_guard_4
 		NOT = {
 			has_country_flag = AST_new_guard_5
@@ -3199,7 +3199,7 @@ country_event = {
 		name = austral.84.a
 		add_stability = -0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.10
 		}
 	}
@@ -3264,7 +3264,7 @@ country_event = {
 	trigger = {
 		tag = AST
 		has_idea = AST_new_unrest
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = AST_new_guard_5
 		NOT = {
 			has_country_flag = AST_new_guard_6
@@ -4908,16 +4908,16 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = Eric_Campbell_dead
 			set_party_name = {
-				ideology = national_populist
-				long_name = AST_national_populist_banned_party_long
-				name = AST_national_populist_banned_party
+				ideology = ethnic_populist
+				long_name = AST_ethnic_populist_banned_party_long
+				name = AST_ethnic_populist_banned_party
 			}
 			create_country_leader = {
 				name = "Thomas Blamey"
 				desc = "POLITICS_THOMAS_BLAMEY_DESC"
 				picture = "Portrait_AST_Thomas_Blamey.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 			if = {
@@ -5129,20 +5129,20 @@ country_event = {
 		add_political_power = -200
 		add_stability = -0.10
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		set_party_name = {
-			ideology = national_populist
-			long_name = AST_national_populist_banned_party_long
-			name = AST_national_populist_banned_party
+			ideology = ethnic_populist
+			long_name = AST_ethnic_populist_banned_party_long
+			name = AST_ethnic_populist_banned_party
 		}
 		create_country_leader = {
 			name = "Thomas Blamey"
 			desc = "POLITICS_THOMAS_BLAMEY_DESC"
 			picture = "Portrait_AST_Thomas_Blamey.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		if = {
@@ -5971,20 +5971,20 @@ country_event = {
 			remove_ideas = AST_new_unrest
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		set_party_name = {
-			ideology = national_populist
-			long_name = AST_national_populist_banned_party_long
-			name = AST_national_populist_banned_party
+			ideology = ethnic_populist
+			long_name = AST_ethnic_populist_banned_party_long
+			name = AST_ethnic_populist_banned_party
 		}
 		create_country_leader = {
 			name = "Thomas Blamey"
 			desc = "POLITICS_THOMAS_BLAMEY_DESC"
 			picture = "Portrait_AST_Thomas_Blamey.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		if = {
@@ -6183,7 +6183,7 @@ country_event = {
 		add_to_faction = AST
 		AST = {
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = ethnic_populist
 				elections_allowed = no
 			}
 			hidden_effect = {
@@ -7857,7 +7857,7 @@ country_event = {
 	option = {
 		name = austral.247.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		set_country_flag = AST_new_guard_hughes
@@ -7998,7 +7998,7 @@ country_event = {
 		owns_state = 723 #South Island
 		OR = {
 			has_democratic_government = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		OR = {
 			country_exists = GBR
@@ -8046,7 +8046,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_political_power = -200
@@ -8127,7 +8127,7 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				AST = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			modifier = {
@@ -8788,7 +8788,7 @@ country_event = {
 		date > 1942.8.15
 		OR = {
 			has_democratic_government = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		NOT = {
 			has_country_flag = AST_prince_george_dead
@@ -8849,7 +8849,7 @@ country_event = {
 				desc = "POLITICS_HENRY_WINDSOR_DESC"
 				picture = "Portrait_AST_Prince_Henry.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}
@@ -9210,7 +9210,7 @@ country_event = {
 		name = austral.307.a
 		set_country_flag = AST_anderson_dead
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}

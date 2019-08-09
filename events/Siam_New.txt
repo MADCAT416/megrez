@@ -855,7 +855,7 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -1921,7 +1921,7 @@ country_event = { # Down the NatPop path or liberalise?
 				popularity = 0.25
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.45
 			}
 			hidden_effect = {
@@ -1933,7 +1933,7 @@ country_event = { # Down the NatPop path or liberalise?
 				SIA_Phao_Sriyanond_sec_npo
 			}
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = ethnic_populist
 				elections_allowed = no
 			}
 		}
@@ -2958,7 +2958,7 @@ country_event = { # Phibun's Weak Foreign Policy
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.10
 			}
 		}
@@ -3846,7 +3846,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.tga"
 			expire = "1960.11.21"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -3862,7 +3862,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		add_stability = -0.05 # WtT
@@ -3882,7 +3882,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
 			expire = "1963.12.8"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -3997,7 +3997,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.tga"
 			expire = "1960.11.21"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -4016,7 +4016,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			SIA_Phao_Sriyanond_hog_npo
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		add_stability = -0.05 # WtT
@@ -4033,7 +4033,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
 			expire = "1963.12.8"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -4116,7 +4116,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			}
 			if = {
 				limit = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				hidden_effect = {
 					kill_country_leader = yes
@@ -4147,7 +4147,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.tga"
 			expire = "1960.11.21"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -4166,7 +4166,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			SIA_Phao_Sriyanond_hog_npo
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		set_global_flag = SIA_PHAO_RULES
@@ -4185,7 +4185,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
 			expire = "1963.12.8"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -4236,7 +4236,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
 			expire = "1963.12.8"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 				dictator
 			}
@@ -5202,7 +5202,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.08
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.08
 			}
 			add_popularity = {
@@ -5248,7 +5248,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.10
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.10
 			}
 		}

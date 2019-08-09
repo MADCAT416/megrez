@@ -225,7 +225,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -250,7 +250,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -273,7 +273,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -296,7 +296,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -325,7 +325,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -348,7 +348,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -377,7 +377,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -401,7 +401,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_government = totalist
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		completion_reward = {
@@ -1956,7 +1956,7 @@ focus_tree = {
 
 	focus = {
 		id = PAR_no_better_way
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		x = 48
 		y = 0
 		cost = 10
@@ -1964,10 +1964,10 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		bypass = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_no_better_way"
@@ -1986,7 +1986,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_for_the_military"
@@ -2013,7 +2013,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_witchhunts"
@@ -2041,7 +2041,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_destroy_traitors"
@@ -2075,7 +2075,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_our_grand_destiny"
@@ -2102,7 +2102,7 @@ focus_tree = {
 			factor = 4
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_neojesuit_zeal"
@@ -2122,7 +2122,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_faith_and_state"
@@ -2142,7 +2142,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_grand_national_heroes"
@@ -2164,7 +2164,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_guarani_ethnonationalism"
@@ -2185,7 +2185,7 @@ focus_tree = {
 			factor = 4
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_guarani_selfsufficiency"
@@ -2212,7 +2212,7 @@ focus_tree = {
 			factor = 4
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_army_with_a_state"
@@ -2240,7 +2240,7 @@ focus_tree = {
 			factor = 3
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAR_enemies_on_all_sides"

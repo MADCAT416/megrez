@@ -19,8 +19,8 @@ CAR_authoritarian_democrat_party:0 "Acción Popular"
 CAR_authoritarian_democrat_party_long:0 "The Radical Section of the Acción Popular"
 CAR_paternal_autocrat_party:0 "Falange Española"
 CAR_paternal_autocrat_party_long:0 "Falange Española"
-CAR_national_populist_party:0 "JONS"
-CAR_national_populist_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
+CAR_ethnic_populist_party:0 "JONS"
+CAR_ethnic_populist_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
 
 ### Ideas ###
 CAR_rally_carlists_idea:0 "Rally the Carlists!"

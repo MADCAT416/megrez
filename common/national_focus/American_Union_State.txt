@@ -129,7 +129,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TEX_destroy_the_klan"
-			add_popularity = { ideology = national_populist popularity = -0.2 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.2 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.2 }
 		}
 	}
@@ -1176,15 +1176,15 @@ focus_tree = {
 	### Pelley Path ###
 	focus = {# Mine Eyes have seen the Glory
 		id = TEX_mine_have_seen_the_glory
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		cost = 7.25
 		available = {
 			has_global_flag = USA_civil_war_over_flag
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		bypass = {
 			has_global_flag = USA_civil_war_over_flag
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1204,7 +1204,7 @@ focus_tree = {
 			focus = TEX_mine_have_seen_the_glory
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1228,7 +1228,7 @@ focus_tree = {
 			focus = TEX_the_silver_legion
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1241,7 +1241,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TEX_absorb_the_klan"
 			add_political_power = 100
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 		}
 	}
 
@@ -1253,7 +1253,7 @@ focus_tree = {
 			focus = TEX_absorb_the_klan
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1278,7 +1278,7 @@ focus_tree = {
 			focus = TEX_absorb_the_klan
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1291,7 +1291,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TEX_covenant_sword_and_arm"
 			add_war_support = 0.05
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 		}
 	}
 
@@ -1303,7 +1303,7 @@ focus_tree = {
 			focus = TEX_the_silver_legion
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1327,7 +1327,7 @@ focus_tree = {
 			focus = TEX_camps_for_syndies
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1352,7 +1352,7 @@ focus_tree = {
 			focus = TEX_mine_have_seen_the_glory
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1376,7 +1376,7 @@ focus_tree = {
 			focus = TEX_jim_crows_america
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1401,7 +1401,7 @@ focus_tree = {
 			focus = TEX_protecting_our_race
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1426,7 +1426,7 @@ focus_tree = {
 			focus = TEX_mine_have_seen_the_glory
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1475,7 +1475,7 @@ focus_tree = {
 			focus = TEX_christian_commonwealth
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1499,7 +1499,7 @@ focus_tree = {
 			focus = TEX_white_welfare
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1523,7 +1523,7 @@ focus_tree = {
 			focus = TEX_christian_commonwealth
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1548,7 +1548,7 @@ focus_tree = {
 			focus = TEX_christian_identity
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1577,7 +1577,7 @@ focus_tree = {
 			focus = TEX_christian_identity
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1663,7 +1663,7 @@ focus_tree = {
 			focus = TEX_crackdown_on_traitors
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1691,7 +1691,7 @@ focus_tree = {
 			focus = TEX_christian_work_ethic
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cancel_if_invalid = yes
 		available_if_capitulated = yes
@@ -1719,7 +1719,7 @@ focus_tree = {
 			focus = TEX_church_and_state
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_idea = USA_civil_war_aftermath_idea5
 		}
 		cancel_if_invalid = yes
@@ -1766,7 +1766,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = authoritarian_democrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		prerequisite = {
@@ -2132,7 +2132,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		prerequisite = {
@@ -4954,7 +4954,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0.5
@@ -5151,7 +5151,7 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 		}
 		relative_position_id = TEX_back_in_business
 		x = 0

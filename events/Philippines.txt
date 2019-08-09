@@ -284,7 +284,7 @@ country_event = { # The Revolution is Defeated
 					popularity = 0.11
 				}
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.09
 				}
 				create_country_leader = {

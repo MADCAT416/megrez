@@ -54,7 +54,7 @@ set_popularities = {
     social_conservative = 9
     authoritarian_democrat = 6
     paternal_autocrat = 11
-    national_populist = 2
+    ethnic_populist = 2
 }
 
 set_stability = 0.60

@@ -19,8 +19,8 @@ COS_authoritarian_democrat_party_long:0 "Zentralamerikanische Kaffee-Gesellschaf
 COS_authoritarian_democrat_party:0 "ZKG"
 COS_paternal_autocrat_party_long:0 "Military Dictatorship"
 COS_paternal_autocrat_party:0 "MD"
-COS_national_populist_party_long:0 "Légion del Caribe"
-COS_national_populist_party:0 "LC"
+COS_ethnic_populist_party_long:0 "Légion del Caribe"
+COS_ethnic_populist_party:0 "LC"
 
 ### Tooltips ###
 USA_DENIED:0 "§YUSA§! has refused our request"

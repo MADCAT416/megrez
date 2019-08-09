@@ -451,7 +451,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				MONTHLY_POPULATION = 0.1
@@ -466,7 +466,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				political_power_gain = 0.05
@@ -481,7 +481,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				political_power_gain = 0.1
@@ -496,7 +496,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				political_power_gain = 0.2
@@ -511,7 +511,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				cavalry_attack_factor = 0.10
@@ -527,7 +527,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				conscription = 0.015
@@ -542,7 +542,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				war_support_factor = 0.2
@@ -557,7 +557,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				stability_factor = 0.2
@@ -572,7 +572,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				stability_factor = 0.05
@@ -587,7 +587,7 @@ ideas = {
 				always = no
 			}
 			available = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				stability_factor = -0.05

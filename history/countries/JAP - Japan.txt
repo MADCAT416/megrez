@@ -208,7 +208,7 @@ set_popularities = {
     market_liberal = 27
     social_conservative = 51
     paternal_autocrat = 3
-    national_populist = 1
+    ethnic_populist = 1
 }
 
 ### Head of States ###
@@ -289,7 +289,7 @@ create_country_leader = {
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

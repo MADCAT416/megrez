@@ -273,7 +273,7 @@ focus_tree = {
 
 	focus = {
 		id = ELS_pro_patria_stands
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		x = -2
 		y = 2
 		cost = 7.2
@@ -311,7 +311,7 @@ focus_tree = {
 
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -336,7 +336,7 @@ focus_tree = {
 
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -365,7 +365,7 @@ focus_tree = {
 
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -381,7 +381,7 @@ focus_tree = {
 				remove_idea = ELS_propatriaholds2
 				add_idea = ELS_propatriaholds3
 			}
-			add_popularity = { ideology = national_populist popularity = 0.2 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.2 }
 		}
 	}
 
@@ -394,7 +394,7 @@ focus_tree = {
 
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -425,7 +425,7 @@ focus_tree = {
 		cost = 7.2
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -455,7 +455,7 @@ focus_tree = {
 
 		relative_position_id = ELS_37_revolution
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_will_do = {
@@ -486,7 +486,7 @@ focus_tree = {
 		relative_position_id = ELS_37_revolution
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -522,7 +522,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -547,7 +547,7 @@ focus_tree = {
 		relative_position_id = ELS_37_revolution
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -574,7 +574,7 @@ focus_tree = {
 		relative_position_id = ELS_37_revolution
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -605,7 +605,7 @@ focus_tree = {
 		cost = 7.2
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}

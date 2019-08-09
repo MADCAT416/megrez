@@ -721,7 +721,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 			reverse_add_opinion_modifier = {
@@ -1053,7 +1053,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 			reverse_add_opinion_modifier = {
@@ -1986,7 +1986,7 @@ focus_tree = {
 				popularity = 0.15
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.15
 			}
 			remove_ideas = POL_eternal_regency

@@ -78,8 +78,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = national_populist } }
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		limit = { ROOT = { has_government = ethnic_populist } }
+		set_politics = { ruling_party = ethnic_populist elections_allowed = no }
 	}
 }
 
@@ -96,7 +96,7 @@ get_current_government_type = {
 	clr_country_flag = was_social_conservative
 	clr_country_flag = was_authoritarian_democrat
 	clr_country_flag = was_paternal_autocrat
-	clr_country_flag = was_national_populist
+	clr_country_flag = was_ethnic_populist
 
 	set_variable = { var = radsoc value = party_popularity@radical_socialist }
 	set_variable = { var = synd value = party_popularity@syndicalist }
@@ -107,7 +107,7 @@ get_current_government_type = {
 	set_variable = { var = soccon value = party_popularity@social_conservative }
 	set_variable = { var = authdem value = party_popularity@authoritarian_democrat }
 	set_variable = { var = pataut value = party_popularity@paternal_autocrat }
-	set_variable = { var = natpop value = party_popularity@national_populist }
+	set_variable = { var = natpop value = party_popularity@ethnic_populist }
 	
 	if = {
 		limit = { has_government = radical_socialist }
@@ -146,8 +146,8 @@ get_current_government_type = {
 		set_country_flag = was_paternal_autocrat
 	}
 	if = {
-		limit = { has_government = national_populist }
-		set_country_flag = was_national_populist
+		limit = { has_government = ethnic_populist }
+		set_country_flag = was_ethnic_populist
 	}
 }
 
@@ -190,8 +190,8 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = paternal_autocrat }
 		}
 		if = {
-			limit = { has_country_flag = was_national_populist }
-			set_politics = { ruling_party = national_populist }
+			limit = { has_country_flag = was_ethnic_populist }
+			set_politics = { ruling_party = ethnic_populist }
 		}
 
 		multiply_variable = { var = radsoc value = 100 }
@@ -238,7 +238,7 @@ restore_previous_government_type = {
 			social_conservative = soccon
 			authoritarian_democrat = authdem
 			paternal_autocrat = pataut
-			national_populist = natpop
+			ethnic_populist = natpop
 		}
 
 		clear_variable = radsoc

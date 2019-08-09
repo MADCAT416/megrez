@@ -55,7 +55,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 70
     paternal_autocrat = 7
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 create_country_leader = {
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "POLITICS_RUPPRECHT_BAYERN_DESC"
 	picture = "Portrait_Bavaria_Rupprecht_von_Bayern.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

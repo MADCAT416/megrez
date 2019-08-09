@@ -1052,7 +1052,7 @@ country_event = { # Our Attitude towards religion
 			popularity = 0.025
 		} # Catholics
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.025
 		} # Cao Dai
 		set_country_flag = INC_religion_collaboration
@@ -1170,7 +1170,7 @@ country_event = { # The end of war
 			popularity = 0.025
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.025
 		}
 		create_field_marshal = { # Needed Portrait
@@ -4290,7 +4290,7 @@ country_event = { # Join Faction
 			}
 			modifier = {
 				factor = 1.25
-				has_government = national_populist # Pan-Asianism
+				has_government = ethnic_populist # Pan-Asianism
 			}
 		}
 		add_to_faction = INC

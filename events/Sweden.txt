@@ -635,7 +635,7 @@ country_event = { #Worker's militias slaughtered
 		}
 		add_stability = -0.05
 		add_popularity = { ideology = paternal_autocrat popularity = 0.2 }
-		add_popularity = { ideology = national_populist popularity = 0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.1 }
 		add_ideas = SWE_Axel_Gyllenkrok_hog_npo
 		add_ideas = SWE_Sven_Hedin_for_ade
 		add_ideas = SWE_Marcus_Wallenberg_eco_pau
@@ -725,7 +725,7 @@ country_event = { #Totalist reign of terror!
 		add_popularity = { ideology = social_conservative popularity = -0.4 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.1 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
-		add_popularity = { ideology = national_populist popularity = -0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 		38 = {
 			add_manpower = -789
 		}
@@ -768,7 +768,7 @@ country_event = { #Totalist reign of terror!
 		add_popularity = { ideology = social_conservative popularity = -0.2 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
-		add_popularity = { ideology = national_populist popularity = -0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 		38 = {
 			add_manpower = -337
 		}
@@ -804,7 +804,7 @@ country_event = { #Swedish refugees (from socialists)
 			has_government = totalist
 			AND = {
 				tag = FIN
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			has_war = yes
 		}
@@ -1136,7 +1136,7 @@ country_event = { #Coronation of Gustaf VI Adolf
 			desc = "POLITICS_Gustaf_Adolf_DESC"
 			picture = "Portrait_Sweden_Gustaf_Adolf.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 
 			}
@@ -1318,8 +1318,8 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 
 	option = { #Hurrah!
 		name = swe.28.a
-		add_popularity = { ideology = national_populist popularity = 0.15 }
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		add_popularity = { ideology = ethnic_populist popularity = 0.15 }
+		set_politics = { ruling_party = ethnic_populist elections_allowed = no }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Axel_Gyllenkrok_hog_npo
 		remove_ideas_with_trait = foreign_minister
@@ -1334,7 +1334,7 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 			desc = "POLITICS_AXEL_GYLLENKROK_DESC"
 			picture = "Portrait_Sweden_Axel_Gyllenkrok.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 
 			}
@@ -1372,7 +1372,7 @@ country_event = { #The Trade Union question
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Establish a guild system
@@ -1411,14 +1411,14 @@ country_event = { #Successful Guild System
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Being under a natpop government is such a blessing
 		name = swe.31.a
 		add_political_power = 125
 		remove_ideas = SWE_statare_idea
-		add_popularity = { ideology = national_populist popularity = 0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.1 }
 	}
 }
 
@@ -1433,7 +1433,7 @@ country_event = { #The reestablished trade unions are rather unsuccessful
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Cut our losses, ban them again
@@ -1465,13 +1465,13 @@ country_event = { #Trade union system has moderately improved
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Being under a natpop government is such a blessing
 		name = swe.33.a
 		add_political_power = -75
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 	}
 }
 
@@ -1486,7 +1486,7 @@ country_event = { #Riksledare meets archbishop
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Let the synod run its course
@@ -1517,13 +1517,13 @@ country_event = { #Synod rejects the Riksledare
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #ANGERY RIKSLEDARE REMOVES THE CHURCH OF SWEDEN AS STATE CHURCH
 		name = swe.35.a
 		add_ideas = SWE_idea_divine_disapproval
-		add_popularity = { ideology = national_populist popularity = -0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 	}
 }
 
@@ -1538,13 +1538,13 @@ country_event = { #Synod accepts the Riksledare
 
 	trigger = {
 		tag = SWE
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	option = { #Glory to God
 		name = swe.36.a
 		add_ideas = SWE_idea_divine_approval
-		add_popularity = { ideology = national_populist popularity = 0.1 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.1 }
 	}
 }
 
@@ -1566,8 +1566,8 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 		hidden_effect = {
 			kill_country_leader = yes
 		}
-		add_popularity = { ideology = national_populist popularity = 0.15 }
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		add_popularity = { ideology = ethnic_populist popularity = 0.15 }
+		set_politics = { ruling_party = ethnic_populist elections_allowed = no }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Axel_Gyllenkrok_hog_npo
 		remove_ideas_with_trait = foreign_minister
@@ -1582,7 +1582,7 @@ country_event = { #The establishment of the Gyllenkrok regime (did not take over
 			desc = "POLITICS_AXEL_GYLLENKROK_DESC"
 			picture = "Portrait_Sweden_Axel_Gyllenkrok.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 
 			}
@@ -2974,7 +2974,7 @@ country_event = { #Death of Gustaf V (when you are a monarchy
 			desc = "POLITICS_Gustaf_Adolf_DESC"
 			picture = "Portrait_Sweden_Gustaf_Adolf_Sr.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 
 			}
@@ -4641,7 +4641,7 @@ country_event = { #Sweden's Ragnarok
 	trigger = {
 		has_war_with = SWE
 		SWE = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			owns_state = 141
 			NOT = {
 				has_country_flag = Axel_Gyllenkrok_dead
@@ -4712,7 +4712,7 @@ country_event = { #Sweden's Ragnarok (Enemy identifies dead Riksledare)
 	trigger = {
 		has_war_with = SWE
 		SWE = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			owns_state = 141
 			has_idea = SWE_idea_front_riksledare
 			NOT = {
@@ -4771,7 +4771,7 @@ country_event = { #Riksledare confirmed dead
 			desc = "POLITICS_Archibald_Douglas_DESC"
 			picture = "Portrait_Sweden_Archibald_Douglas.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 			}
 		}
@@ -4790,7 +4790,7 @@ country_event = { #Death of the Riksledare
 		tag = SWE
 		date > 1946.8.8
 		date < 1946.9.1
-		has_government = national_populist
+		has_government = ethnic_populist
 		NOT = {
 			has_country_flag = Axel_Gyllenkrok_dead
 		}
@@ -4804,7 +4804,7 @@ country_event = { #Death of the Riksledare
 			desc = "POLITICS_Archibald_Douglas_DESC"
 			picture = "Portrait_Sweden_Archibald_Douglas.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 			}
 		}
@@ -4821,7 +4821,7 @@ country_event = { #Death of the Riksledare
 			desc = "POLITICS_Ekstroem_DESC"
 			picture = "Portrait_Sweden_Martin_Ekstrom.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {
 			}
 		}
@@ -6140,7 +6140,7 @@ country_event = {
 		add_political_power = -15
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = 0.1 }
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 } }
 	}
@@ -6414,7 +6414,7 @@ country_event = {
 		add_political_power = 30
 		add_popularity = { ideology = authoritarian_democrat popularity  = -0.1 }
 		add_popularity = { ideology = totalist popularity  = -0.1 }
-		add_popularity = { ideology = national_populist popularity  = -0.1 }
+		add_popularity = { ideology = ethnic_populist popularity  = -0.1 }
 		add_popularity = { ideology = paternal_autocrat popularity  = -0.1 }
 	}
 

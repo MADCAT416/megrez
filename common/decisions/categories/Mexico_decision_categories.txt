@@ -25,7 +25,7 @@ MEX_reconquista_decisons = {
 	picture = GFX_decision_cat_generic_united_central_america
 	allowed = { original_tag = MEX }
 	visible = {
-		has_government = national_populist
+		has_government = ethnic_populist
 		is_subject = no
 	}
 }

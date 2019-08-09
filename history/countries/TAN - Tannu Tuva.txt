@@ -27,7 +27,7 @@ set_popularities = {
     social_conservative = 25
     authoritarian_democrat = 25
     paternal_autocrat = 10
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 create_country_leader = {
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Donduk Kuular"
 	picture = "Portrait_TAN_Kuular.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

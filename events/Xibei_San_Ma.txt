@@ -102,7 +102,7 @@ country_event = { #Death of Ma Fuxiang, Ma Lin takes control
                 social_conservative = 3
                 authoritarian_democrat = 26
                 paternal_autocrat = 24
-                national_populist = 25
+                ethnic_populist = 25
             }
 			if = {
 				limit = {
@@ -201,7 +201,7 @@ country_event = { #The coalition falls apart
 		name = mac.5.a
 		add_political_power = -100
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -244,10 +244,10 @@ country_event = {
 	option = { #Bufang
 		name = mac.6.a
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -271,7 +271,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -314,7 +314,7 @@ country_event = {
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		add_political_power = 75
@@ -340,7 +340,7 @@ country_event = {
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		add_political_power = 75

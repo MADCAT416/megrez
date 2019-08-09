@@ -1188,7 +1188,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_getcounterrev"
 			add_popularity = {
-				ideology = national_populist popularity = -0.10
+				ideology = ethnic_populist popularity = -0.10
 			}
 			add_popularity = {
 				ideology = paternal_autocrat popularity = -0.10
@@ -1769,7 +1769,7 @@ focus_tree = {
 				AND = {
 					is_subject = yes
 					OR = {
-						has_government = national_populist
+						has_government = ethnic_populist
 						has_government = paternal_autocrat
 						has_government = social_democrat
 						has_government = social_liberal
@@ -1785,7 +1785,7 @@ focus_tree = {
 				AND = {
 					is_subject = yes
 					OR = {
-						has_government = national_populist
+						has_government = ethnic_populist
 						has_government = paternal_autocrat
 						has_government = social_democrat
 						has_government = social_liberal
@@ -2624,14 +2624,14 @@ focus_tree = {
 
 	focus = {
 		id = CHL_elections_free_np
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		prerequisite = { focus = CHL_elections_free }
 		x = 3
 		y = 7
 		relative_position_id = CHL_counter_revolution
 		cost = 5
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_elections_free_np"
@@ -2643,7 +2643,7 @@ focus_tree = {
 
 	focus = {
 		id = CHL_nationalist_junta
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		prerequisite = { focus = CHL_counter_revolution }
 		x = 2
 		y = 1
@@ -2654,7 +2654,7 @@ focus_tree = {
 				has_country_flag = CHL_Valderrama
 				AND = {
 					is_subject = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -2676,7 +2676,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_assert_dominance"
@@ -2693,7 +2693,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_cleanse_military_dissent"
@@ -2712,7 +2712,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_cleanse_naval_dissent"
@@ -2732,7 +2732,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_political_peace_by_force"
@@ -2750,7 +2750,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_violent_de_syndicalization"
@@ -2777,7 +2777,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_radical_curriculum_changes"
@@ -2795,13 +2795,13 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_administrative_centralization"
 			add_political_power = 100
 			add_popularity = {
-				ideology = national_populist popularity = 0.02
+				ideology = ethnic_populist popularity = 0.02
 			}
 			random_owned_state = {
 				limit = {
@@ -2845,13 +2845,13 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_the_state"
 			add_stability = 0.05
 			add_popularity = {
-				ideology = national_populist popularity = 0.03
+				ideology = ethnic_populist popularity = 0.03
 			}
 			add_war_support = 0.05
 		}
@@ -2870,7 +2870,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_chilean_identity"
@@ -2887,12 +2887,12 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_nationalist_propaganda"
 			add_popularity = {
-				ideology = national_populist popularity = 0.05
+				ideology = ethnic_populist popularity = 0.05
 			}
 			add_political_power = 80
 		}
@@ -2907,7 +2907,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		available = {
 			has_completed_focus = CHL_drilled_military
@@ -2930,7 +2930,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_national_mythos"
@@ -2955,7 +2955,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_hispanism"
@@ -2973,7 +2973,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_natural_order"
@@ -2991,7 +2991,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_anti_sindicalism"
@@ -3017,7 +3017,7 @@ focus_tree = {
 		relative_position_id = CHL_counter_revolution
 		cost = 10
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_land_of_santiago"

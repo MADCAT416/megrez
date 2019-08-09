@@ -19,8 +19,8 @@ TRS_authoritarian_democrat_party:0 "PNR"
 TRS_authoritarian_democrat_party_long:0 "Partidul Național Român"
 TRS_paternal_autocrat_party:0 "PNR"
 TRS_paternal_autocrat_party_long:0 "Partidul Național Român"
-TRS_national_populist_party:0 "PNR"
-TRS_national_populist_party_long:0 "Partidul Național Român"
+TRS_ethnic_populist_party:0 "PNR"
+TRS_ethnic_populist_party_long:0 "Partidul Național Român"
 
 ### Events ###
 transylvania.1.t:0 "Union with Romania?"

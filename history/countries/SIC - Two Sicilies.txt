@@ -136,7 +136,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 8
     paternal_autocrat = 12
-    national_populist = 10
+    ethnic_populist = 10
 }
 
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
@@ -176,7 +176,7 @@ create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie
 	desc = "POLITICS_FERDINANDO_DESC"
 	picture = "Portrait_SIC_Ferdinand_Pius_di_Borbone.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {# King Ferdinando III di Borbone-Due Sicilie

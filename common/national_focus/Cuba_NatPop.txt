@@ -22,7 +22,7 @@ focus_tree = {
 
 shared_focus = {
 	id = CUB_natpopfoc_begin
-	icon = GFX_goal_ideology_national_populist
+	icon = GFX_goal_ideology_ethnic_populist
 	x = 4
 	y = 0
 	cost = 1
@@ -53,7 +53,7 @@ shared_focus = {
 	cost = 3
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -80,7 +80,7 @@ shared_focus = {
 	cost = 5
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -95,7 +95,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CUB_natpopfoc_3"
 		add_political_power = 200
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_timed_idea = {
@@ -114,7 +114,7 @@ shared_focus = {
 	cost = 5
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -128,7 +128,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CUB_natpopfoc_4"
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.10
 		}
 		add_popularity = {
@@ -156,7 +156,7 @@ shared_focus = {
 	cost = 10
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -206,7 +206,7 @@ shared_focus = {
 	cost = 5
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -241,7 +241,7 @@ shared_focus = {
 	cost = 10
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -273,7 +273,7 @@ shared_focus = {
 	cost = 10
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -306,7 +306,7 @@ shared_focus = {
 	cost = 1
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -335,7 +335,7 @@ shared_focus = {
 	cost = 10
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -365,7 +365,7 @@ shared_focus = {
 	cost = 6
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {
@@ -383,7 +383,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CUB_natpopfoc_11"
 		315 = { add_extra_state_shared_building_slots = 2 }
 		820 = { add_extra_state_shared_building_slots = 1 }
-		add_popularity = {ideology = national_populist popularity = 0.05}
+		add_popularity = {ideology = ethnic_populist popularity = 0.05}
 	}
 }
 
@@ -396,7 +396,7 @@ shared_focus = {
 	cost = 8
 
 	available = {
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	prerequisite = {

@@ -1648,7 +1648,7 @@ news_event = {
 	trigger = {
 		LIT = {
 			has_war_with = GER
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		NOT = {
 			has_global_flag = have_you_invested_in_eastern_augenistan
@@ -2484,7 +2484,7 @@ news_event = {
 		text = worldnews.70.d.npo
 		trigger = {
 			ITA = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 	}

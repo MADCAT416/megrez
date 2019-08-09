@@ -10,7 +10,7 @@ coalition_party_social_conservative_tt:0 "[GetCoalitionStarTooltipSocialConserva
 coalition_party_authoritarian_democrat_tt:0 "[GetCoalitionStarTooltipAuthoritarianDemocrat]"
 coalition_party_paternal_autocrat_tt:0 "[GetCoalitionStarTooltipPaternalAutocrat]"
 coalition_party_clerical_nationalist_tt:0 "[GetCoalitionStarTooltipClericalNationalist]"
-coalition_party_national_populist_tt:0 "[GetCoalitionStarTooltipNationalPopulist]"
+coalition_party_ethnic_populist_tt:0 "[GetCoalitionStarTooltipNationalPopulist]"
 
 coalition_party_ruling:0 "This party leads your ruling coalition"
 coalition_party_nonruling:0 "This party is a member of your ruling coalition"

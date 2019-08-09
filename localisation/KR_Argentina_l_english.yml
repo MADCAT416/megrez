@@ -1,8 +1,8 @@
 ﻿l_english:
 
 ### Parties ###
-ARG_national_populist_party:0 "LP"
-ARG_national_populist_party_long:0 "Liga Patriotica"
+ARG_ethnic_populist_party:0 "LP"
+ARG_ethnic_populist_party_long:0 "Liga Patriotica"
 ARG_authoritarian_democrat_party:0 "Libertadores de Junio"
 ARG_authoritarian_democrat_long:0 "Libertadores de Junio"
 ARG_paternal_autocrat_party:0 "PJ"

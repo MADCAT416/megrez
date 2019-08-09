@@ -80,7 +80,7 @@ set_popularities = {
     social_conservative = 30
     authoritarian_democrat = 32
     paternal_autocrat = 10
-    national_populist = 7
+    ethnic_populist = 7
 }
 
 create_country_leader = {
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_HANS_LOHSE_DESC"
 	picture = "gfx/leaders/LAT/Portrait_Latvia_Hans_Heinrich_Lohse.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

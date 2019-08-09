@@ -19,8 +19,8 @@ CRO_authoritarian_democrat_party:0 "NS"
 CRO_authoritarian_democrat_party_long:0 "Narodna stranka"
 CRO_paternal_autocrat_party:0 "HSP"
 CRO_paternal_autocrat_party_long:0 "Hrvatska stranka prava"
-CRO_national_populist_party:0 "HRP"
-CRO_national_populist_party_long:0 "Hrvatski revolucionarni pokret"
+CRO_ethnic_populist_party:0 "HRP"
+CRO_ethnic_populist_party_long:0 "Hrvatski revolucionarni pokret"
 
 ### Ideas ###
 ILL_croatian_command:0 "Croatian Officers"

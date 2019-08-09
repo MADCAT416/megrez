@@ -29,7 +29,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 41
     paternal_autocrat = 19
-    national_populist = 8
+    ethnic_populist = 8
 }
 ######## Starting Leader Spam ########
 create_country_leader = {

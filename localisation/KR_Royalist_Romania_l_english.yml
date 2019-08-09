@@ -104,8 +104,8 @@ RRM_authoritarian_democrat_party:0 "FRN"
 RRM_authoritarian_democrat_party_long:0 "Frontul Renasterii Naţionale"
 RRM_paternal_autocrat_party:0 "FRN"
 RRM_paternal_autocrat_party_long:0 "Frontul Renasterii Naţionale"
-RRM_national_populist_party:0 "Garda de Fier"
-RRM_national_populist_party_long:0 "Garda de Fier"
+RRM_ethnic_populist_party:0 "Garda de Fier"
+RRM_ethnic_populist_party_long:0 "Garda de Fier"
 
 # Additional party names
 RRM_party_of_the_nation:0 "PN"

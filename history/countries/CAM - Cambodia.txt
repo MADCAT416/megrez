@@ -66,7 +66,7 @@ set_popularities = {
     social_conservative = 11
     authoritarian_democrat = 39
     paternal_autocrat = 8
-    national_populist = 2
+    ethnic_populist = 2
 }
 
 add_ideas = {
@@ -122,7 +122,7 @@ create_country_leader = { # Sisowath Monivong - currently wrong pic
 	desc = "POLITICS_LON_NOL_DESC"
 	picture = "gfx/leaders/CAM/Portrait_Cambodia_Lon_Nol.tga"
 	expire = "1985.11.17"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = { # Sisowath Monivong - currently wrong pic

@@ -69,7 +69,7 @@ set_popularities = {
     social_conservative = 13
     authoritarian_democrat = 40
     paternal_autocrat = 2
-    national_populist = 11
+    ethnic_populist = 11
 }
 
 add_opinion_modifier = { target = NIC modifier = NIC_revolutionary_threat }

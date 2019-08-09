@@ -320,9 +320,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	national_populist = {
+	ethnic_populist = {
 		types = {
-			national_populist_subtype = {}
+			ethnic_populist_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NATIONAL_POPULIST_1"

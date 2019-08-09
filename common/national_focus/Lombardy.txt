@@ -253,7 +253,7 @@ focus_tree = {
 			add_war_support = 0.05
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.2 }
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 
 			if = {
 				limit = {
@@ -311,7 +311,7 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.1
 			}
 		}
@@ -812,7 +812,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.02
 			}
 		}

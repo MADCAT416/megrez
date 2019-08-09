@@ -103,8 +103,8 @@ AFG_authoritarian_democrat_party:0 "RG"
 AFG_authoritarian_democrat_party_long:0 "Royal Government"
 AFG_paternal_autocrat_party:0 "RG"
 AFG_paternal_autocrat_party_long:0 "Royal Government"
-AFG_national_populist_party:0 "RI"
-AFG_national_populist_party_long:0 "Radical Islamists"
+AFG_ethnic_populist_party:0 "RI"
+AFG_ethnic_populist_party_long:0 "Radical Islamists"
 
 ### Tooltips ###
 AFG_chaos_tooltip:0 "§g\nThis choice may result in §RChaos§! and §RUnrest§! throughout the nation. Should the government fall, it is likely that §YNadir Khan§! will ascend the throne§!" 

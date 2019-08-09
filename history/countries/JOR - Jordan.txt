@@ -26,7 +26,7 @@ set_popularities = {
     social_conservative = 35
     authoritarian_democrat = 20
     paternal_autocrat = 15
-    national_populist = 10
+    ethnic_populist = 10
 }
 
 add_ideas = {
@@ -57,7 +57,7 @@ create_country_leader = {# Zeid I Hashmid
 	desc = "POLITICS_ZEID_HASHEMITE_DESC"
 	picture = "Portrait_JOR_Zeid_Hashmid.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {# Jafar al-Askari

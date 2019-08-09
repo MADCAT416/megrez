@@ -2191,7 +2191,7 @@ country_event = { #Extent of Consciption Laws
 			NOT = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_ideas = limited_conscription
@@ -2212,7 +2212,7 @@ country_event = { #Extent of Consciption Laws
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -2664,7 +2664,7 @@ country_event = { #Haitian Response (Disciplined Troops)
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -2855,7 +2855,7 @@ country_event = { #Haitian Response (Did Nothing)
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -3046,7 +3046,7 @@ country_event = { #Haitian Response (Comended Troops)
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -3143,7 +3143,7 @@ country_event = { #Dominican Response (Haiti Rattles Sabers)
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -3515,7 +3515,7 @@ country_event = { #Dominicans Disregard Demand
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -3607,7 +3607,7 @@ country_event = { #Dominicans Disregard Demand
 				}
 				TEX = {
 					NOT = {
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -5102,7 +5102,7 @@ country_event = { #Haitian Resistance Organizing
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5152,7 +5152,7 @@ country_event = { #Haitian Government Seized
 
 		add_war_support = 0.15
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -5160,7 +5160,7 @@ country_event = { #Haitian Government Seized
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		if = {

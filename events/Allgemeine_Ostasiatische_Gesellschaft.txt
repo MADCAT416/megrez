@@ -514,7 +514,7 @@ country_event = { # De-Germanizing the AOG
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -536,7 +536,7 @@ country_event = { # De-Germanizing the AOG
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 
@@ -783,7 +783,7 @@ country_event = { # Long live the Republic
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}

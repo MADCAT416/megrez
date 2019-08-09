@@ -2104,7 +2104,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			SRI = { is_valid_war_target = yes }
 			is_subject = no
 		}
@@ -2141,7 +2141,7 @@ focus_tree = {
 		y = 7
 		relative_position_id = PAP_reformed_power
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = PAP_syndicalist_resistance
 			PAP = {
 				OR = {

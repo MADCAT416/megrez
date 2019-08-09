@@ -71,7 +71,7 @@ political_actions = {
 				NOT = {
 					has_completed_focus = GRE_diplomacy_focus
 					has_cosmetic_tag = GRE_kingdom
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}

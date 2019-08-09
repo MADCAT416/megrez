@@ -77,7 +77,7 @@ country_event = { # Rise of the Black Shirts
 		name = sic.4.a
 		add_stability = -0.02
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.08
 		}
 		hidden_effect = {
@@ -139,7 +139,7 @@ country_event = { # Liberal Coalition formed
 			popularity = 0.08
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 	}
@@ -174,7 +174,7 @@ country_event = { # Union workers vs Black-shirts
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.08
 		}
 	}
@@ -265,7 +265,7 @@ country_event = { # The 1937 Election
 	option = { # National Populists Democrats
 		name = sic.10.e
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -276,7 +276,7 @@ country_event = { # The 1937 Election
 			}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -352,7 +352,7 @@ country_event = { # end of the black-shirts
 	option = { # finally
 		name = sic.19.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.1
 		}
 		add_stability = -0.05
@@ -444,7 +444,7 @@ country_event = { # Rebuilding Noble Sicilies
 	option = { # Restore the Nobility
 		name = sic.21.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 	}
@@ -460,7 +460,7 @@ country_event = { # Union Act
 	option = { # Extensive Welfare
 		name = sic.22.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		add_stability = 0.05
@@ -481,7 +481,7 @@ country_event = { # Catholic Recreation
 	option = { # yay the outdoors
 		name = sic.23.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		add_stability = 0.02
@@ -502,7 +502,7 @@ country_event = { # Protests against disolving Parliament
 			popularity = -0.02
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 		add_stability = -0.05
@@ -514,7 +514,7 @@ country_event = { # Protests against disolving Parliament
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_stability = 0.05
@@ -526,7 +526,7 @@ country_event = { # Protests against disolving Parliament
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 	}
@@ -560,7 +560,7 @@ country_event = { # National Youth League
 	option = { # Traditional Youth
 		name = sic.26.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		add_stability = 0.05
@@ -577,7 +577,7 @@ country_event = { # Traditional Art Program
 	option = { # Yay Art! Welfare
 		name = sic.27.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		add_stability = 0.01
@@ -594,7 +594,7 @@ country_event = { # Magna Curia
 	option = { # Extensive Welfare
 		name = sic.28.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		add_stability = 0.01
@@ -866,7 +866,7 @@ country_event = { # Imperial Italia
 			}
 			if = {
 				limit = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				country_event = {
 					id = sic.29
@@ -888,7 +888,7 @@ country_event = { # Desyndicalization
 		name = sic.41.a
 		trigger = {
 			not = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_popularity = {
@@ -896,7 +896,7 @@ country_event = { # Desyndicalization
 			popularity = 0.08
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.08
 		}
 		add_political_power = 80
@@ -1055,7 +1055,7 @@ country_event = { # Women's Role
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 	}
@@ -1063,7 +1063,7 @@ country_event = { # Women's Role
 		name = sic.44.b
 		trigger = {
 			not = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_popularity = {
@@ -1080,7 +1080,7 @@ country_event = { # Women's Role
 		name = sic.44.c
 		trigger = {
 			not = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_stability = -0.08
@@ -1117,7 +1117,7 @@ country_event = { # Dealing with Christian Socialism
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 	}
@@ -1125,7 +1125,7 @@ country_event = { # Dealing with Christian Socialism
 		name = sic.45.b
 		trigger = {
 			not = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		add_stability = 0.05

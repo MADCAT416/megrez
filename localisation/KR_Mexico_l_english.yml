@@ -19,8 +19,8 @@ MEX_authoritarian_democrat_party:0 "Partido Nacionalista Mexicano"
 MEX_authoritarian_democrat_party_long:0 "Mexican Nationalist Party"
 MEX_paternal_autocrat_party:0 "Military Junta"
 MEX_paternal_autocrat_party_long:0 "Military Junta"
-MEX_national_populist_party:0 "Partido Fuerza Popular"
-MEX_national_populist_party_long:0 "Popular Force Party"
+MEX_ethnic_populist_party:0 "Partido Fuerza Popular"
+MEX_ethnic_populist_party_long:0 "Popular Force Party"
 
 ### Ideas ###
 MEX_new_economic_policy_idea:0 "Nueva Política Económica"
@@ -650,7 +650,7 @@ mexico.21.b:0 "The Cristero Army."
 mexico.22.t:0 "Cristero War - victory for the Criesteros"
 mexico.22.d:0 "The unthinkable has occurred and today in Mexico City the banner of the Cristeros has flown along side that of the Mexico. They have taken control of the government and have promised to bring about a new and better Mexico."
 mexico.22.a:0 "Viva cristo rey! viva Mexico! (Become Authoritarian Democratic)"
-mexico.22.b:0 "Viva cristo rey! viva Mexico! (Become National Populist)"
+mexico.22.b:0 "Viva cristo rey! viva Mexico! (Become Ethnic Populist)"
 
 mexico.23.t:0 "Cristero War - victory for the federal government"
 mexico.23.d:0 "At long last the terrorist army has been destroyed. While there are still some skirmishes in the country, order has at last been restored to Mexico. President [MEX.GetLeader] is relieved that his enemies are finally destroyed."
@@ -979,7 +979,7 @@ mexico.99.t:0 ""
 mexico.99.d:0 ""
 mexico.99.a:0 ""
 
-### National Populist events ###
+### Ethnic Populist events ###
 
 mexico.100.t:0 "Patria vs La Raza"
 mexico.100.d:0 "Synarchism as an ideology is still in it's infancy, with the main unifying factor being a resistance to liberalism and secularism. Under the Synarchist banner there exist both Legionarists following the pattern of the Iron Guard, and the other followers of La Raza. The inherent conflict between these forces concerns their racial policies. The Synarchist leadership under Salvador Abascal sees the traditional caste system of Mexico as the correct social order, including the enshrinement of Catholic priests. La Raza as promoted by José Vasconcelos proports the idea of a Hispanic race as the true ideal of Mexican patriotism. These ideas are more similar to Integralism in Brazil than Legionarism. The party has begun to split with La Raza members becoming disillusioned with the lack of support they receive within the party. How can we correct this?"

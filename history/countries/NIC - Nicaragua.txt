@@ -93,7 +93,7 @@ set_popularities = {
     social_conservative = 8
     authoritarian_democrat = 0
     paternal_autocrat = 6
-    national_populist = 0
+    ethnic_populist = 0
 }
 add_ideas = {
 	limited_conscription

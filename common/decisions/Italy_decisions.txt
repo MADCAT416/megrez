@@ -33,7 +33,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 
 		activation = {
 			has_war_with = VNC
-			has_government = national_populist
+			has_government = ethnic_populist
 			is_subject = no
 			is_in_faction = no
 		}
@@ -76,7 +76,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			is_in_faction = no
 			is_subject = no
 			not_has_socialist_government = yes
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			FROM = {
 				is_faction_leader = yes
 				not_has_socialist_government = yes
@@ -222,7 +222,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 					ITA = {
 						exists = yes
 						is_subject = no
-						NOT = { has_government = national_populist }
+						NOT = { has_government = ethnic_populist }
 					}
 				}
 			}
@@ -326,7 +326,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 					ITA = {
 						exists = yes
 						is_subject = no
-						NOT = { has_government = national_populist }
+						NOT = { has_government = ethnic_populist }
 					}
 				}
 			}
@@ -419,7 +419,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 					ITA = {
 						exists = yes
 						is_subject = no
-						NOT = { has_government = national_populist }
+						NOT = { has_government = ethnic_populist }
 					}
 				}
 			}

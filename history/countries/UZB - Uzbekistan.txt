@@ -36,7 +36,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 41
     paternal_autocrat = 19
-    national_populist = 8
+    ethnic_populist = 8
 }
 
 create_country_leader = {
@@ -125,6 +125,6 @@ create_country_leader = {
 	desc = "POLITICS_YOLDASHBAY_BABYEV_DESC"
 	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }

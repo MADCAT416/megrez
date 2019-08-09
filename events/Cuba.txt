@@ -556,7 +556,7 @@ country_event = { #soc rev
 
 		add_political_power = -20
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -3494,11 +3494,11 @@ country_event = { #march on Havana
 		name = cuba.53.a
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		set_country_flag = CUB_natmilflag
@@ -3745,7 +3745,7 @@ country_event = { #natpop dealing with socialists
 			traits = {}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 	}
@@ -4234,7 +4234,7 @@ country_event = { #effect of Cuba Por la Cubanos variable with success of past t
 			add_political_power = 100
 			add_stability = 0.1
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.1
 			}
 		}
@@ -4248,7 +4248,7 @@ country_event = { #effect of Cuba Por la Cubanos variable with success of past t
 			add_political_power = 75
 			add_stability = 0.05
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 		}
@@ -4264,7 +4264,7 @@ country_event = { #effect of Cuba Por la Cubanos variable with success of past t
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.02
 			}
 		}
@@ -4280,7 +4280,7 @@ country_event = { #effect of Cuba Por la Cubanos variable with success of past t
 			add_political_power = 35
 			add_stability = 0.03
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.03
 			}
 		}
@@ -6433,7 +6433,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			load_focus_tree = CUB_natpop_focuses
 			hidden_effect = {
@@ -6831,7 +6831,7 @@ country_event = {
 	desc = {
 		text = cuba.95.d_5
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 	is_triggered_only = yes
@@ -6887,7 +6887,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			add_ideas = CUB_npopecobureau
 		}
@@ -6941,7 +6941,7 @@ country_event = {
 	desc = {
 		text = cuba.98.d_2
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 	desc = {
@@ -8159,10 +8159,10 @@ country_event = { #WIF politics influenced
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.05
 			}
 		}
@@ -17704,7 +17704,7 @@ country_event = { #Union Forms
                 social_conservative = 12
                 authoritarian_democrat = 17
                 paternal_autocrat = 19
-                national_populist = 3
+                ethnic_populist = 3
             }
 		}
 		if = {
@@ -17728,7 +17728,7 @@ country_event = { #Union Forms
                 social_conservative = 6
                 authoritarian_democrat = 30
                 paternal_autocrat = 25
-                national_populist = 3
+                ethnic_populist = 3
             }
 		}
 	}

@@ -195,7 +195,7 @@ set_popularities = {
     social_conservative = 30
     authoritarian_democrat = 1
     paternal_autocrat = 2
-    national_populist = 10
+    ethnic_populist = 10
 }
 
 
@@ -223,7 +223,7 @@ CAF = {
         social_conservative = 21
         authoritarian_democrat = 8
         paternal_autocrat = 2
-        national_populist = 0
+        ethnic_populist = 0
     }
 
 }

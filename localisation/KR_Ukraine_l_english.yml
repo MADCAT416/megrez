@@ -82,8 +82,8 @@ UKR_authoritarian_democrat_party:0 "UND"
 UKR_authoritarian_democrat_party_long:0 "Ukrayins'kyy Natsional'no - Derzhavnyy Soyuz"
 UKR_paternal_autocrat_party:0 "VSZ"
 UKR_paternal_autocrat_party_long:0 "Vseukrainskiy Soyuz Zemstv"
-UKR_national_populist_party:0 "OUN"
-UKR_national_populist_party_long:0 "Orhanizatsiya Ukrayins'kykh Natsionalistiv"
+UKR_ethnic_populist_party:0 "OUN"
+UKR_ethnic_populist_party_long:0 "Orhanizatsiya Ukrayins'kykh Natsionalistiv"
 
 ### Opinion Modifiers ###
 UKR_GER_no_help_agr_crisis:0 "Germany betrayed our Peasants"

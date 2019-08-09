@@ -73,7 +73,7 @@ set_popularities = {
     social_conservative = 10
     authoritarian_democrat = 47
     paternal_autocrat = 11
-    national_populist = 14
+    ethnic_populist = 14
 }
 set_convoys = 30
 add_ideas = {
@@ -179,7 +179,7 @@ create_country_leader = {
 	desc = "POLITICS_HAAJI_MAHAMMAD_DESC"
 	picture = "Portrait_SOM_Haaji.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {
 		#
 	}

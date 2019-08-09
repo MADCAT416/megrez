@@ -14,7 +14,7 @@ political_actions = {
 
 		activation = {
 			tag = BRA
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = BRA_can_rescue_patagonia
 			OR = {
 				FOP = {
@@ -420,7 +420,7 @@ political_actions = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { has_completed_focus = BRA_safeguard_guarani_peoples }
 				PAR = {
 					is_valid_war_target = yes
@@ -434,7 +434,7 @@ political_actions = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { has_completed_focus = BRA_cisplatina }
 				URG = {
 					is_valid_war_target = yes
@@ -496,7 +496,7 @@ political_actions = {
 					}
 				}
 				AND = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_completed_focus = BRA_the_empire_strikes_back
 					POR = {
 						exists = yes
@@ -529,7 +529,7 @@ political_actions = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { has_completed_focus = BRA_safeguard_guarani_peoples }
 				PAR = {
 					is_valid_war_target = yes
@@ -543,7 +543,7 @@ political_actions = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { has_completed_focus = BRA_cisplatina }
 				URG = {
 					is_valid_war_target = yes
@@ -770,7 +770,7 @@ BRA_brazil_war_decisions = {
 		visible = {
 			is_subject = no
 			has_country_flag = BRA_can_rescue_patagonia
-			has_government = national_populist
+			has_government = ethnic_populist
 			FROM = {
 				is_in_south_america = yes
 				is_valid_war_target = yes

@@ -231,8 +231,8 @@ FNG_authoritarian_democrat_party:0 "Recovery League"
 FNG_authoritarian_democrat_party_long:0 "Guangfuxi (Recovery League)"
 FNG_paternal_autocrat_party:0 "Zhang Clique"
 FNG_paternal_autocrat_party_long:0 "Zhanghui (Zhang Clique)"
-FNG_national_populist_party:0 "Imperial Han Society"
-FNG_national_populist_party_long:0 "Huanghanhui (Imperial Han Society)"
+FNG_ethnic_populist_party:0 "Imperial Han Society"
+FNG_ethnic_populist_party_long:0 "Huanghanhui (Imperial Han Society)"
 
 ### Leader Descriptions ###
 FNG_zhang_zuolin_desc:0 "Born to an impoverished family near Shenyang, Zhang Zuolin began his meteoric rise as a bandit exploiting the chaotic military situation of the late Guangxu Era. Despite his illiteracy and lack of a formal education, the 'Old Marshal' is capable and aware of his own deficiencies, happy to seek advice and delegate where necessary.\n\nHowever, he is also known for a short temper and an unforgiving nature, readily holding deep grudges. Zhang is also sometimes greatly self-centred, formerly crashing the entire Northeastern economy to support his war efforts, and so in ideological terms he could be called staunchly 'Pro-Zhang'."

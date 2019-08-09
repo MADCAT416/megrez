@@ -735,7 +735,7 @@ country_event = { # Fall of the Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -1468,7 +1468,7 @@ country_event = { # Rebirth of Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}

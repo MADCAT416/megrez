@@ -440,7 +440,7 @@ Forming_Central_America = {
 							social_conservative = 25
 							authoritarian_democrat = 5
 							paternal_autocrat = 2
-							national_populist = 0
+							ethnic_populist = 0
 						}
 					transfer_state = 842
 					load_focus_tree = CA_DEM_focus
@@ -734,7 +734,7 @@ Forming_Central_America = {
 							social_conservative = 9
 							authoritarian_democrat = 22
 							paternal_autocrat = 20
-							national_populist = 19
+							ethnic_populist = 19
 						}
 					set_cosmetic_tag = CEN_REP
 					transfer_state = 842
@@ -2784,7 +2784,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -2792,7 +2792,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 			}
@@ -2854,7 +2854,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -2870,7 +2870,7 @@ Forming_Central_America = {
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -2930,7 +2930,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -2946,7 +2946,7 @@ Forming_Central_America = {
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 
@@ -2999,7 +2999,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -3007,7 +3007,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -3090,7 +3090,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 
@@ -3099,7 +3099,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 
@@ -3218,7 +3218,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 				}
@@ -3258,7 +3258,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 				}
@@ -3371,7 +3371,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 
@@ -3380,7 +3380,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 
@@ -3508,7 +3508,7 @@ Forming_Central_America = {
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				is_in_faction = no
 			}
@@ -3556,7 +3556,7 @@ Forming_Central_America = {
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				is_in_faction = no
 			}
@@ -3661,7 +3661,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -3669,7 +3669,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -3896,7 +3896,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -3904,7 +3904,7 @@ Forming_Central_America = {
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				AND = {
@@ -4180,7 +4180,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -4193,7 +4193,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -4310,7 +4310,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -4331,7 +4331,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -4913,7 +4913,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -4926,7 +4926,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -5044,7 +5044,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {
@@ -5065,7 +5065,7 @@ Forming_Central_America = {
 						OR = {
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = ethnic_populist
 						}
 					}
 					NOT = {

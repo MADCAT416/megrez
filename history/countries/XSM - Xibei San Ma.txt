@@ -28,7 +28,7 @@ set_popularities = {
     social_conservative = 2
     authoritarian_democrat = 19
     paternal_autocrat = 45
-    national_populist = 18
+    ethnic_populist = 18
 }
 
 add_ideas = {
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "ANTE_MA_BUFANG_DESC"
 	picture = "Portrait_XSM_Ma_Bufang_2.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

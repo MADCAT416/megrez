@@ -57,8 +57,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/clerical_nationalist_small.dds"
 	}
 	spriteType = {
-		name = "GFX_national_populist_small"
-		texturefile = "gfx/interface/ideologies/national_populist_small.dds"
+		name = "GFX_ethnic_populist_small"
+		texturefile = "gfx/interface/ideologies/ethnic_populist_small.dds"
 	}
 	spriteType = {
 		name = "GFX_authoritarian_democrat_small"

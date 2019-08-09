@@ -2071,7 +2071,7 @@ focus_tree = {
 		x = 35
 		y = 0
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		cost = 8
 		completion_reward = {
@@ -2087,7 +2087,7 @@ focus_tree = {
 			focus = PRU_peruvian_brotherhood
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 1
@@ -2107,7 +2107,7 @@ focus_tree = {
 			focus = PRU_army_supremacy
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 1
@@ -2126,7 +2126,7 @@ focus_tree = {
 			focus = PRU_faith_and_unity
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 1
@@ -2147,7 +2147,7 @@ focus_tree = {
 			focus = PRU_peruvian_brotherhood
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = -1
@@ -2166,7 +2166,7 @@ focus_tree = {
 			focus = PRU_imperial_legacy
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = -1
@@ -2185,7 +2185,7 @@ focus_tree = {
 			focus = PRU_extensive_clergy_support
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = -1
@@ -2224,7 +2224,7 @@ focus_tree = {
 			focus = PRU_arrest_traitors
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = -1
@@ -2254,7 +2254,7 @@ focus_tree = {
 			focus = PRU_knights_of_santiago
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 1
@@ -2263,7 +2263,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_knight_brotherhoods"
 			add_popularity = {
-				ideology = national_populist popularity = 0.15
+				ideology = ethnic_populist popularity = 0.15
 			}
 		}
 	}
@@ -2278,7 +2278,7 @@ focus_tree = {
 			focus = PRU_knights_of_santiago
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 0
@@ -2326,7 +2326,7 @@ focus_tree = {
 			focus = PRU_the_phalanx_state
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 0
@@ -2350,7 +2350,7 @@ focus_tree = {
 			focus = PRU_the_glory_of_the_new_world
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		relative_position_id = PRU_peruvian_brotherhood
 		x = 0
@@ -3088,7 +3088,7 @@ focus_tree = {
 		relative_position_id = PRU_fragile_democracy
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_supress_the_natpops"
-			add_popularity = { ideology = national_populist popularity = -0.25 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.25 }
 		}
 	}
 

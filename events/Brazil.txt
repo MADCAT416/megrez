@@ -53,7 +53,7 @@ country_event = {
 	trigger = {
 		ARG = {
 			exists = yes
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_leader = {
 				name = "Manuel Carlés"
 				ruling_only = yes
@@ -352,7 +352,7 @@ country_event = {
 	option = {
 		name = bra.14.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.02
 		}
 	}
@@ -550,7 +550,7 @@ country_event = {
 	option = {
 		name = bra.21.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.04
 		}
 		hidden_effect = {
@@ -623,7 +623,7 @@ country_event = {
 		tag = BRA
 		date > 1936.3.1
 		ARG = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			is_neighbor_of = BRA
 		}
 	}
@@ -1170,11 +1170,11 @@ country_event = {
 		name = bra.41.a
 		set_country_flag = BRA_elections
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.20
 		}
 		add_ideas = {
@@ -3527,7 +3527,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -3564,7 +3564,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_unit_leader = 1611 #Rondon
 		date > 1937.2.20
 	}
@@ -3641,7 +3641,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = BRA_rondon_revolt
 		900 = {
 			is_owned_and_controlled_by = BRA
@@ -3764,7 +3764,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = BRA_rondon_revolt_begun
 		has_war_with = ISR
 		OR = {
@@ -3995,7 +3995,7 @@ country_event = {
 	trigger = {
 		tag = BRA
 		has_country_flag = BRA_rondon_revolt_begun
-		has_government = national_populist
+		has_government = ethnic_populist
 		OR = {
 			has_war_with = ISR
 			has_war_with = SPO
@@ -4157,7 +4157,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.20
 		}
 		add_popularity = {
@@ -4187,7 +4187,7 @@ country_event = {
 	trigger = {
 		tag = BRA
 		has_country_flag = BRA_rondon_revolt_begun
-		has_government = national_populist
+		has_government = ethnic_populist
 		NOT = {
 			country_exists = ISR
 		}
@@ -4264,7 +4264,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -4335,7 +4335,7 @@ country_event = {
 		}
 		has_manpower > 10000
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_elected_government = yes
 		}
 	}
@@ -4381,7 +4381,7 @@ country_event = {
 	option = {
 		name = bra.108.b #Support the AUS
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		set_country_flag = BRA_ACW_volunteers_TEX
 		reverse_add_opinion_modifier = {
@@ -4644,7 +4644,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_criminalize_racism
 		502 = {
 			is_owned_and_controlled_by = BRA
@@ -4707,7 +4707,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		country_exists = CAN
 		CAN = {
@@ -4746,7 +4746,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		country_exists = NFA
 		NFA = {
@@ -4786,7 +4786,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		country_exists = POR
 		POR = {
@@ -4846,7 +4846,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		focus_progress = {
 			focus = BRA_the_empire_strikes_back
 			progress > 0.01
@@ -4873,7 +4873,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 	}
 
@@ -4903,7 +4903,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 	}
 
@@ -4948,7 +4948,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		focus_progress = {
 			focus = BRA_the_empire_strikes_back
 			progress > 0.50
@@ -4976,7 +4976,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		has_country_flag = BRA_royal_visit_POR
 		country_exists = POR
@@ -5040,7 +5040,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_sponsor_popular_festivals
 		has_war = no
 	}
@@ -5131,7 +5131,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_protecting_the_first_brazilians
 	}
 
@@ -5156,7 +5156,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		has_war = no
 		OR = {
@@ -5635,7 +5635,7 @@ country_event = {
 	trigger = {
 		tag = BRA
 		is_subject = no
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		OR = {
 			NOT = {
@@ -5670,14 +5670,14 @@ country_event = {
 	trigger = {
 		tag = BRA
 		is_subject = no
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		has_country_flag = BRA_king_of_patagonia_visited
 		CHL = {
 			NOT = {
 				is_in_faction_with = BRA
 			}
-			has_government = national_populist
+			has_government = ethnic_populist
 			OR = {
 				owns_state = 507
 				owns_state = 512
@@ -5711,7 +5711,7 @@ country_event = {
 	trigger = {
 		tag = BRA
 		has_war = no
-		has_government = national_populist
+		has_government = ethnic_populist
 		QCH = {
 			has_war_with = PRU
 		}
@@ -5901,7 +5901,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_criminalize_racism
 	}
 
@@ -11705,7 +11705,7 @@ country_event = {
 		tag = BRA
 		has_global_flag = war_is_hell
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -11732,7 +11732,7 @@ country_event = {
 		tag = BRA
 		date > 1937.6.1
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		OR = {
 			has_idea = BRA_black_monday_1
@@ -11763,7 +11763,7 @@ country_event = {
 		tag = BRA
 		date > 1936.9.30
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -11790,7 +11790,7 @@ country_event = {
 		tag = BRA
 		date > 1941.8.1
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -11817,7 +11817,7 @@ country_event = {
 		tag = BRA
 		date > 1939.2.1
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -11844,7 +11844,7 @@ country_event = {
 		tag = BRA
 		date > 1942.5.1
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -11871,7 +11871,7 @@ country_event = {
 		tag = BRA
 		date > 1939.10.1
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -12612,7 +12612,7 @@ country_event = {
 				desc = "POLITICS_PEDRO_IV_BRA_DESC"
 				picture = "Portrait_BRA_Pedro_Henrique.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = ethnic_populist_subtype
 				traits = {}
 			}
 		}

@@ -19,8 +19,8 @@ PER_authoritarian_democrat_party:0 "Khandane Qajar"
 PER_authoritarian_democrat_long:0 "Khandane Qajar"
 PER_paternal_autocrat_party:0 "Khandane Qajar"
 PER_paternal_autocrat_party_long:0 "Khandane Qajar"
-PER_national_populist_party:0 "RI"
-PER_national_populist_party_long:0 "Hezb-e Pān Irānist"
+PER_ethnic_populist_party:0 "RI"
+PER_ethnic_populist_party_long:0 "Hezb-e Pān Irānist"
 # should be Ḥezb-e Pān Irānist but the first Ḥ doesnt work
 
 ### Tooltips ###

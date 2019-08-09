@@ -113,17 +113,17 @@ immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = coalition_clerical_nationalist } }
 		ROOT = {
-		set_variable = { national_populist_popularity = ROOT.party_popularity@clerical_nationalist }
+		set_variable = { ethnic_populist_popularity = ROOT.party_popularity@clerical_nationalist }
 		multiply_variable = { clerical_nationalist_popularity = 100 }
 		add_to_variable = { goverment_popularity = clerical_nationalist_popularity }
 			}
 	}
 	if = {
-		limit = { ROOT = { has_country_flag = coalition_national_populist } }
+		limit = { ROOT = { has_country_flag = coalition_ethnic_populist } }
 		ROOT = {
-		set_variable = { national_populist_popularity = ROOT.party_popularity@national_populist }
-		multiply_variable = { national_populist_popularity = 100 }
-		add_to_variable = { goverment_popularity = national_populist_popularity }
+		set_variable = { ethnic_populist_popularity = ROOT.party_popularity@ethnic_populist }
+		multiply_variable = { ethnic_populist_popularity = 100 }
+		add_to_variable = { goverment_popularity = ethnic_populist_popularity }
 			}
 	}
 	}

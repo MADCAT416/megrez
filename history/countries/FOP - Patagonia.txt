@@ -79,7 +79,7 @@ set_popularities = {
     social_conservative = 1
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 ### Events ###
@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_VARELA_PATA_DESC"
 	picture = "gfx/leaders/ARG/Portrait_ARG_Varela.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

@@ -19,8 +19,8 @@ NEE_authoritarian_democrat_party:0 "America First Party"
 NEE_authoritarian_democrat_party_long:0 "America First Party"
 NEE_paternal_autocrat_party:0 "America First Party"
 NEE_paternal_autocrat_party_long:0 "America First Party"
-NEE_national_populist_party:0 "America First Party"
-NEE_national_populist_party_long:0 "America First Party"
+NEE_ethnic_populist_party:0 "America First Party"
+NEE_ethnic_populist_party_long:0 "America First Party"
 
 ### Ideas ###
 NEE_limited_recognation1:0 "Limited Recognition"
@@ -183,9 +183,9 @@ NEE_america_authoritarian_democrat_DEF:0 "United States of America"
 NEE_america_paternal_autocrat:0 "United States of America"
 NEE_america_paternal_autocrat_ADJ:0 "American"
 NEE_america_paternal_autocrat_DEF:0 "United States of America"
-NEE_america_national_populist:0 "United States of America"
-NEE_america_national_populist_ADJ:0 "American"
-NEE_america_national_populist_DEF:0 "United States of America"
+NEE_america_ethnic_populist:0 "United States of America"
+NEE_america_ethnic_populist_ADJ:0 "American"
+NEE_america_ethnic_populist_DEF:0 "United States of America"
 
 ### FOCUS TREE ###
 NEE_Legitimate_America:0 "America's Darkest Hour"

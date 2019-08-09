@@ -144,7 +144,7 @@ set_popularities = {
     social_conservative = 5
     authoritarian_democrat = 2
     paternal_autocrat = 1
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 add_ideas = {
@@ -159,7 +159,7 @@ create_country_leader = {
 	desc = "POLITICS_ROBERT_BEGG_DESC"
 	picture = "Portrait_NZL_Robert_Begg.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {

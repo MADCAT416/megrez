@@ -672,8 +672,8 @@ PLC_authoritarian_democrat_party:0 "PM"
 PLC_authoritarian_democrat_party_long:0 "Partia Monarchistyczna"
 PLC_paternal_autocrat_party:0 "PC"
 PLC_paternal_autocrat_party_long:0 "Partia Centralistyczna"
-PLC_national_populist_party:0 "ONR"
-PLC_national_populist_party_long:0 "Obóz Narodowo-Radykalna"
+PLC_ethnic_populist_party:0 "ONR"
+PLC_ethnic_populist_party_long:0 "Obóz Narodowo-Radykalna"
 
 ### Flags ###
 plc_polish_favor:0 "§RThis option will favour Poland in the makeup of the Commonwealth. This will have consequences.§!\n"

@@ -422,8 +422,8 @@ TRM_authoritarian_democrat_party:0 "Delegatsiya"
 TRM_authoritarian_democrat_party_long:0 "Delegatsiya"
 TRM_paternal_autocrat_party:0 "Voennye"
 TRM_paternal_autocrat_party_long:0 "Voennye"
-TRM_national_populist_party:0 "Restavratory"
-TRM_national_populist_party_long:0 "Restavratory"
+TRM_ethnic_populist_party:0 "Restavratory"
+TRM_ethnic_populist_party_long:0 "Restavratory"
 
 ### Ideas ###
 TRM_dream:0 "Greater Transamur Ambitions"

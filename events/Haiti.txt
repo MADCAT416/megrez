@@ -25,7 +25,7 @@ country_event = { #Natpop growing in response to bitching out
 		add_stability = -0.01
 		add_war_support = 0.01
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -54,7 +54,7 @@ country_event = { #Natpop growing more
 		add_stability = -0.03
 		add_war_support = 0.03
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -87,7 +87,7 @@ country_event = { #Natpop overthrow
 		add_stability = -0.05
 		add_war_support = 0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -95,7 +95,7 @@ country_event = { #Natpop overthrow
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 	}
@@ -107,7 +107,7 @@ country_event = { #Natpop overthrow
 		add_stability = 0.02
 		add_war_support = -0.04
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.1
 		}
 		add_popularity = {

@@ -46,6 +46,6 @@ leader_traits = {
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
 	clerical_nationalist = {}
-	national_populist = {}
+	ethnic_populist = {}
 
 }

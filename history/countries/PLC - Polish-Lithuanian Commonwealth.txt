@@ -85,7 +85,7 @@ set_popularities = {
     social_conservative = 9
     authoritarian_democrat = 30
     paternal_autocrat = 43
-    national_populist = 5
+    ethnic_populist = 5
 }
 
 create_country_leader = {
@@ -174,6 +174,6 @@ create_country_leader = {
 	desc = "POLITICS_ROMAN_DWOWSKI_PLC_DESC"
 	picture = "gfx/leaders/LIT/Portrait_Lithuania_Mindaugas_III.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }

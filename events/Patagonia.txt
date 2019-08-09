@@ -944,7 +944,7 @@ country_event = { # proclaim ourselves new argentina
 			days = 365
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		add_popularity = {

@@ -2013,7 +2013,7 @@ focus_tree = {
 		ai_will_do = { factor = 30 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIC_contain_extermism"
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 			add_popularity = { ideology = radical_socialist popularity = -0.1 }
 			hidden_effect = {
 				country_event = {
@@ -2045,7 +2045,7 @@ focus_tree = {
 ### Organic Kingdom Foci ###
 	focus = {# The Organic Kingdom
 		id = SIC_organic_kingdom
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		cost = 8.00
 		available = { has_country_flag = SIC_the_organic_kingdom_established }
 		x = 44
@@ -2139,7 +2139,7 @@ focus_tree = {
 		ai_will_do = { factor = 35 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIC_organic_legal_code"
-			add_popularity = { ideology = national_populist popularity = 0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.1 }
 			hidden_effect = {
 				country_event = {
 					id = sic.22
@@ -2190,7 +2190,7 @@ focus_tree = {
 		ai_will_do = { factor = 35 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIC_giustizierato"
-			add_popularity = { ideology = national_populist popularity = 0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.1 }
 		}
 	}
 	focus = {# Communes Protected

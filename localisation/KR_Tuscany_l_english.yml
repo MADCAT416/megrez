@@ -20,8 +20,8 @@ TUS_authoritarian_democrat_party:0 "Senato dei Quarantotto"
 TUS_authoritarian_democrat_party_long:0 "Senato dei Quarantotto"
 TUS_paternal_autocrat_party:0 "Casa D'Asburgo-Lorena"
 TUS_paternal_autocrat_party_long:0 "Casa D'Asburgo-Lorena"
-TUS_national_populist_party:0 "LE"
-TUS_national_populist_party_long:0 "Lega Etrusca"
+TUS_ethnic_populist_party:0 "LE"
+TUS_ethnic_populist_party_long:0 "Lega Etrusca"
 
 ### Ideas ###
 TUS_syndie_government:0 "Syndicalist Government Influences"

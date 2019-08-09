@@ -74,7 +74,7 @@ set_popularities = {
     social_conservative = 0
     authoritarian_democrat = 0
     paternal_autocrat = 0
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 random_list = {
@@ -179,7 +179,7 @@ create_country_leader = {
 	desc = "POLITICS_TRUONG_TU_ANH_DESC"
 	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
 	expire = "1946.12.5"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

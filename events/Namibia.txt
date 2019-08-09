@@ -381,7 +381,7 @@ country_event = { #Reestablish German rule
                     social_conservative = 26
                     authoritarian_democrat = 37
                     paternal_autocrat = 23
-                    national_populist = 0
+                    ethnic_populist = 0
                 }
 			}
 		}
@@ -520,7 +520,7 @@ country_event = { #Found Shiimi
 			days = 21
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.10
 		}
 	}
@@ -543,7 +543,7 @@ country_event = { #Get cored Shiimi
 			add_core_of = NAM
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.05
 		}
 	}
@@ -564,7 +564,7 @@ country_event = { #Failure to defend towns
 		add_war_support = -0.05
 		add_stability = -0.03
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.03
 		}
 		country_event = {
@@ -587,7 +587,7 @@ country_event = { #Shiimi ded in battle
 		add_war_support = -0.02
 		add_stability = 0.03
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = -0.02
 		}
 		country_event = {
@@ -917,7 +917,7 @@ country_event = { #First Syndicalist Convention
             social_conservative = 0
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -943,7 +943,7 @@ country_event = { #First Syndicalist Convention
             social_conservative = 0
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -969,7 +969,7 @@ country_event = { #First Syndicalist Convention
             social_conservative = 0
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -994,7 +994,7 @@ country_event = { #Syndicalists dealing with German Namibians
 		text = nampuppet.2.da
 		trigger = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1021,7 +1021,7 @@ country_event = { #Syndicalists dealing with German Namibians
 		name = "We'll have revenge for the past"
 		trigger = {
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1217,7 +1217,7 @@ country_event = { #First Elections
             social_conservative = 18
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -1243,7 +1243,7 @@ country_event = { #First Elections
             social_conservative = 18
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -1269,7 +1269,7 @@ country_event = { #First Elections
             social_conservative = 22
             authoritarian_democrat = 0
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {
@@ -1295,7 +1295,7 @@ country_event = { #First Elections
             social_conservative = 37
             authoritarian_democrat = 2
             paternal_autocrat = 0
-            national_populist = 0
+            ethnic_populist = 0
         }
 		hidden_effect = {
 			country_event = {

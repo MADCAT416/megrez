@@ -2414,7 +2414,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_Ward_off_Extremism"
 			add_popularity = { ideology = paternal_autocrat popularity = -0.10 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
-			add_popularity = { ideology = national_populist popularity = -0.10 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.10 }
 		}
 	}
 
@@ -3288,9 +3288,9 @@ focus_tree = {
 
 	focus = {
 		id = BOL_Disband_Parliament
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {}
 		mutually_exclusive = {
@@ -3309,12 +3309,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		bypass = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_Disband_Parliament"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = ethnic_populist popularity = 0.05 }
 		}
 	}
 
@@ -3322,7 +3322,7 @@ focus_tree = {
 		id = BOL_Native_Integration
 		icon = GFX_goal_native_integration
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Disband_Parliament
@@ -3349,7 +3349,7 @@ focus_tree = {
 		id = BOL_Consolidation_of_Power
 		icon = GFX_goal_authoritarian
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Native_Integration
@@ -3379,7 +3379,7 @@ focus_tree = {
 		id = BOL_Crack_down_on_Socialists
 		icon = GFX_goal_purge_opposition
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Disband_Parliament
@@ -3408,7 +3408,7 @@ focus_tree = {
 		id = BOL_Military_Propaganda
 		icon = GFX_goal_army_guy_2
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Consolidation_of_Power
@@ -3435,7 +3435,7 @@ focus_tree = {
 		id = BOL_Adjusted_Curriculum
 		icon = GFX_goal_great_science
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Consolidation_of_Power
@@ -3462,7 +3462,7 @@ focus_tree = {
 		id = BOL_Increased_Military_Spending
 		icon = GFX_goal_generic_construct_mil_factory
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Consolidation_of_Power
@@ -3496,7 +3496,7 @@ focus_tree = {
 		id = BOL_Absolute_State_Control
 		icon = GFX_goal_Centralised_Government
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		prerequisite = {
 			focus = BOL_Increased_Military_Spending
@@ -3529,7 +3529,7 @@ focus_tree = {
 		id = BOL_Retake_Chaco
 		icon = GFX_goal_paraguay
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			PAR = {
 				is_valid_war_target = yes
 				OR = {
@@ -3579,7 +3579,7 @@ focus_tree = {
 		id = BOL_Reclaim_the_Coast
 		icon = GFX_goal_chile
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			CHL = {
 				is_valid_war_target = yes
 				owns_state = 506
@@ -3625,7 +3625,7 @@ focus_tree = {
 		id = BOL_Demand_Acre
 		icon = GFX_goal_brazil
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			BRA = {
 				is_valid_war_target = yes
 				owns_state = 855

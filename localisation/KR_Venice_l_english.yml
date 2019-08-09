@@ -19,8 +19,8 @@ VNC_authoritarian_democrat_party:0 "Partito Nasionał Veneto"
 VNC_authoritarian_democrat_party_long:0 "Partito Nasionał Veneto"
 VNC_paternal_autocrat_party:0 "Maggior Consiglio"
 VNC_paternal_autocrat_party_long:0 "Maggior Consiglio"
-VNC_national_populist_party:0 "Lega Integralisti Veneti"
-VNC_national_populist_party_long:0 "Lega Integralisti Veneti"
+VNC_ethnic_populist_party:0 "Lega Integralisti Veneti"
+VNC_ethnic_populist_party_long:0 "Lega Integralisti Veneti"
 
 ### Flags ###
 VNC_great_council_debate_done:0 "The Great Council is done Debating"

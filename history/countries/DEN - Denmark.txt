@@ -111,7 +111,7 @@ set_popularities = {
     social_conservative = 8
     authoritarian_democrat = 11
     paternal_autocrat = 1
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 set_autonomy = {
@@ -207,7 +207,7 @@ create_country_leader = {
 	desc = "MAX_ARILDSKOV_SUBTYPE"
 	picture = "Portrait_Denmark_Max_Arildskov.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

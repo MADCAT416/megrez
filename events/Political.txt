@@ -604,9 +604,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_ethnic_populist
 		}
 	}
 
@@ -678,9 +678,9 @@ country_event = {
 			}
 			AND = {
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
-				has_country_flag = opinion_set_national_populist
+				has_country_flag = opinion_set_ethnic_populist
 			}
 			AND = {
 				NOT = {
@@ -711,7 +711,7 @@ country_event = {
 					has_country_flag = opinion_set_paternal_autocrat
 				}
 				NOT = {
-					has_country_flag = opinion_set_national_populist
+					has_country_flag = opinion_set_ethnic_populist
 				}
 			}
 		}
@@ -731,7 +731,7 @@ country_event = {
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
-		clr_country_flag = opinion_set_national_populist
+		clr_country_flag = opinion_set_ethnic_populist
 		every_country = {
 			remove_opinion_modifier = {
 				target = ROOT
@@ -944,9 +944,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_ethnic_populist
 		}
 
 		country_event = kr.political.11

@@ -19,8 +19,8 @@ LOM_authoritarian_democrat_party:0 "PA"
 LOM_authoritarian_democrat_party_long:0 "Partito Agrario"
 LOM_paternal_autocrat_party:0 "Casa di Visconti"
 LOM_paternal_autocrat_party_long:0 "Casa di Visconti"
-LOM_national_populist_party:0 "LL"
-LOM_national_populist_party_long:0 "Lega Longobarda"
+LOM_ethnic_populist_party:0 "LL"
+LOM_ethnic_populist_party_long:0 "Lega Longobarda"
 
 ### National Focuses ###
 LOM_rule_of_law:0 "Re-Establishing the Rule of Law"

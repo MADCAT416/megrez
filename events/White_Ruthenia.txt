@@ -243,7 +243,7 @@ country_event = { # Rethinking our commitment to Germany
 			country_exists = LIT
 			LIT = {
 				OR = {
-					has_government = national_populist
+					has_government = ethnic_populist
 					has_government = paternal_autocrat
 				}
 			}
@@ -945,7 +945,7 @@ country_event = { # Independent White Ruthenia
 				OR = {
 					has_government = authoritarian_democrat
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 

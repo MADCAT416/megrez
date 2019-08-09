@@ -19,7 +19,7 @@ ideas = {
 		VIE_caodaism_spread_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VIE_caodaism_spread_idea"}
 			modifier = {
-				national_populist_drift = 0.1
+				ethnic_populist_drift = 0.1
 			}
 			picture = generic_flexible_foreign_policy
 		}

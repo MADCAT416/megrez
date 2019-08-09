@@ -476,11 +476,11 @@ country_event = { #The restorationist counter-coup, triggered by focus "The Show
 		set_country_flag = Tokugawa_Yoshichika_dead
 		set_country_flag = Obata_Hideyoshi_dead
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.5
 		}
 		create_country_leader = {
@@ -488,7 +488,7 @@ country_event = { #The restorationist counter-coup, triggered by focus "The Show
 			desc = "POLITICS_HIROHITO_DESC"
 			picture = "Portrait_Japan_Hirohito_kr.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		remove_ideas_with_trait = head_of_government
@@ -1957,7 +1957,7 @@ country_event = { #The Emperor has been shot!
 			desc = "POLITICS_YASHUHITO_DESC"
 			picture = "Portrait_Japan_Yasuhito.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 		set_country_flag = JAP_yasuhito
@@ -1989,7 +1989,7 @@ country_event = { #A Second Meiji restoration?
 			desc = "POLITICS_YASHUHITO_DESC"
 			picture = "Portrait_Japan_Yasuhito.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}

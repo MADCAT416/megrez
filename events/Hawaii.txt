@@ -619,7 +619,7 @@ country_event = { # Royals visit Brazil
 
 	trigger = {
 		tag = BRA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = BRA_the_empire_strikes_back
 		HAW = {
 			has_country_flag = HAW_royal_tour

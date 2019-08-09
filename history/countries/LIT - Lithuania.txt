@@ -90,7 +90,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 40
     paternal_autocrat = 3
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 add_ideas = {
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_SKIRPA_DESC"
 	picture = "Portrait_Lithuania_Kazys_Skirpa.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

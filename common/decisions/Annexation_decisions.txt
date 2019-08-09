@@ -2375,7 +2375,7 @@ annexation_decisions = {
 			NOT = {
 				AND = {
 					tag = MEX
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			NOT = {
@@ -8130,11 +8130,11 @@ annexation_decisions = {
 					NOT = {
 						country_exists = ROM
 					}
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				NOT = {
 					AND = {
-						has_government = national_populist
+						has_government = ethnic_populist
 						country_exists = RRM
 					}
 				}

@@ -221,7 +221,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_ban_VNH_ll"
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 		}
 	}
 
@@ -265,7 +265,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_far_right_in_tatters"
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
 		}
 	}
@@ -527,7 +527,7 @@ focus_tree = {
 			add_stability = 0.03
 			#add_national_unity = 0.10
 			add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = ethnic_populist popularity = -0.1 }
 		}
 	}
 

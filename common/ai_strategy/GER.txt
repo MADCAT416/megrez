@@ -954,7 +954,7 @@ germany_likes_poland = {
 		is_faction_leader = yes
 		POL = {
 			has_socialist_government = no
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_war_with = GER }
 			NOT = { is_in_faction_with = GER }
 		}
@@ -975,7 +975,7 @@ germany_likes_netherlands = {
 		is_faction_leader = yes
 		HOL = {
 			has_socialist_government = no
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_war_with = GER }
 			NOT = { is_in_faction_with = GER }
 		}

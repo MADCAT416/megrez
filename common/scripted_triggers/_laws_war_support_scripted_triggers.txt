@@ -45,7 +45,7 @@ has_unsupported_manpower_law = {
 		}
 		has_idea = extensive_conscription
 		has_war_support < 0.2
-		NOT = { has_government = national_populist }
+		NOT = { has_government = ethnic_populist }
 		NOT = { has_government = totalist }
 	}
 	else_if = {
@@ -79,28 +79,28 @@ has_excessive_army_size = { #not currently used due to AI concerns
 			num_of_factories < 25
 			has_army_manpower = { size = 250000 }
 			has_manpower < 1
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_government = totalist }
 		}
 		AND = {
 			num_of_factories < 50
 			has_army_manpower = { size = 500000 }
 			has_manpower < 1
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_government = totalist }
 		}
 		AND = {
 			num_of_factories < 75
 			has_army_manpower = { size = 750000 }
 			has_manpower < 1
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_government = totalist }
 		}
 		AND = {
 			num_of_factories < 100
 			has_army_manpower = { size = 1000000 }
 			has_manpower < 1
-			NOT = { has_government = national_populist }
+			NOT = { has_government = ethnic_populist }
 			NOT = { has_government = totalist }
 		}
 		AND = {

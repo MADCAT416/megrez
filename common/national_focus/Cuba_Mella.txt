@@ -886,7 +886,7 @@ shared_focus = {
 			limit = {
 				TEX = {
 					exists = yes
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			reverse_add_opinion_modifier = { target = TEX modifier = CUB_anticatholicopinion }

@@ -1651,7 +1651,7 @@ shared_focus = {
 		add_ideas = ARG_prepared
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			custom_effect_tooltip = DIPLO_OPEN_TT
 			set_country_flag = DIPLO_OPEN
@@ -2547,7 +2547,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus ARG_Purge_in_the_name_of_the_Lord"
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.10 }
 	}
 }
 

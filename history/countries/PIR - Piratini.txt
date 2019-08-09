@@ -68,7 +68,7 @@ set_popularities = {
     social_conservative = 29
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 
@@ -133,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_FLORES_DA_CUNHA_DESC"
 	picture = "Portrait_PIR_Flores_Da_Cunha.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

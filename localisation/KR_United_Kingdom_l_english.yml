@@ -349,8 +349,8 @@ GBR_authoritarian_democrat_party:0 "Imperial Party"
 GBR_authoritarian_democrat_party_long:0 "Imperial Party"
 GBR_paternal_autocrat_party:0 "Loyal League"
 GBR_paternal_autocrat_party_long:0 "Loyal League"
-GBR_national_populist_party:0 "United Empire League"
-GBR_national_populist_party_long:0 "United Empire League"
+GBR_ethnic_populist_party:0 "United Empire League"
+GBR_ethnic_populist_party_long:0 "United Empire League"
 
 ### Restoration of the UK ###
 uk.1.t:0 "The Liberation of the United Kingdom"

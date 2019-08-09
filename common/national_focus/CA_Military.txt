@@ -36,10 +36,10 @@ focus_tree = {
 	## NatPop ##
 	focus = {
 		id = CENmil_military_state
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		cost = 0.00
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = cenmil_natpop_victory
 		}
 		bypass = {
@@ -67,7 +67,7 @@ focus_tree = {
 			focus = CENmil_military_state
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -79,7 +79,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CENmil_catholic_union"
 			add_stability = 0.05
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.05
 			}
 		}
@@ -92,7 +92,7 @@ focus_tree = {
 			focus = CENmil_catholic_union
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -114,7 +114,7 @@ focus_tree = {
 			focus = CENmil_military_state
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -152,7 +152,7 @@ focus_tree = {
 			focus = CENmil_eradicate_syndies
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -177,7 +177,7 @@ focus_tree = {
 			focus = CENmil_trump_wall
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -188,7 +188,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CENmil_centralized_union"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.07
 			}
 		}
@@ -204,7 +204,7 @@ focus_tree = {
 			focus = CENmil_destroy_opposition
 		}
 		available = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 		ai_will_do = {
 			factor = 90
@@ -217,7 +217,7 @@ focus_tree = {
 			remove_ideas = CENmil_political_instability_idea
 			add_political_power = 100
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.04
 			}
 			custom_effect_tooltip = cenmil_unlock_foreign_policy_tt
@@ -418,7 +418,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		ai_will_do = {
@@ -445,10 +445,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.05
 				}
 			}
@@ -464,7 +464,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		ai_will_do = {
@@ -488,7 +488,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			OR = {
 				has_completed_focus = CENmil_spy_networks

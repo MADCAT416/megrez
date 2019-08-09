@@ -18,7 +18,7 @@ ideas = {
 		#Christmas Coup
 		ARG_Military_Apparatus = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_Military_Apparatus"}
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			picture = chi_wargaming_division
 			modifier = {
 				conscription_factor = -0.60
@@ -28,7 +28,7 @@ ideas = {
 		}
 		ARG_Military_Apparatus2 = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_Military_Apparatus2"}
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			picture = chi_wargaming_division
 			modifier = {
 				conscription_factor = -0.50
@@ -38,7 +38,7 @@ ideas = {
 		}
 		ARG_Military_Apparatus3 = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_Military_Apparatus3"}
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			picture = chi_wargaming_division
 			modifier = {
 				conscription_factor = -0.35
@@ -49,7 +49,7 @@ ideas = {
 
 		ARG_Carles = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_Carles"}
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			picture = chi_wargaming_division
 			modifier = {
 				political_power_gain = 0.25
@@ -61,7 +61,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_Safeguarding_Democracy"}
 			picture = generic_constitutional_guarantees
 			modifier = {
-				national_populist_drift = -0.02
+				ethnic_populist_drift = -0.02
 				authoritarian_democrat_drift = -0.02
 				paternal_autocrat_drift = -0.02
 				totalist_drift = -0.02
@@ -329,7 +329,7 @@ ideas = {
 
 		ARG_prepared = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_prepared"}
-			available = { has_government = national_populist }
+			available = { has_government = ethnic_populist }
 			picture = ast_volunteer_defence_corps
 			modifier = {
 				conscription = 0.05

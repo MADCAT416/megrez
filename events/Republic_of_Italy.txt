@@ -100,7 +100,7 @@ country_event = { # the ANI rally at the arena di Verona
 		name = ita.4.a
 		add_stability = -0.01
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.08
 		}
 	}
@@ -244,7 +244,7 @@ country_event = { # Austria supports Social Liberals
 		name = ita.9.a
 		add_stability = 0.02
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -271,7 +271,7 @@ country_event = { # Austria supports Market Liberals
 			set_country_flag = ITA_austria_supports_market_lib
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -295,7 +295,7 @@ country_event = { # Austria supports Social Conservatives
 			set_country_flag = ITA_austria_supports_soc_con
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -510,7 +510,7 @@ country_event = { # The 1936 Election
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		set_country_flag = ITA_ani_won_the_electionn
@@ -523,7 +523,7 @@ country_event = { # The 1936 Election
 			}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = ethnic_populist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -623,7 +623,7 @@ country_event = { # Austrian Friendship rejected
 		name = ita.15.a
 		add_political_power = -50
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.08
 		}
 	}
@@ -989,7 +989,7 @@ country_event = { # Dealing with the Syndicalist economy
 			country_exists = SRI
 		}
 		not = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -1419,7 +1419,7 @@ country_event = { # The Venetian revolt
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 		owns_state = 160
 		owns_state = 159
 		controls_all_owned_states = yes
@@ -1675,7 +1675,7 @@ country_event = { # Verona Trials
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_country_flag = ITA_united_italia
 	}
 
@@ -1699,7 +1699,7 @@ country_event = { # let Carina Massone Negrone fly?
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_war = yes
 	}
 
@@ -1740,7 +1740,7 @@ country_event = { # Order of the Roman Eagle
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1763,7 +1763,7 @@ country_event = { # The Corporatist State
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1786,7 +1786,7 @@ country_event = { # Opera Nazionale Balill
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1797,7 +1797,7 @@ country_event = { # Opera Nazionale Balill
 		name = ita.64.a
 		add_political_power = 20
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 	}
@@ -1813,7 +1813,7 @@ country_event = { # Opera Nazionale Dopolavoro
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1824,7 +1824,7 @@ country_event = { # Opera Nazionale Dopolavoro
 		name = ita.65.a
 		add_stability = 0.01
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.1
 		}
 		add_ideas = ITA_ond_idea
@@ -1841,7 +1841,7 @@ country_event = { # Creation of OVRA
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1865,7 +1865,7 @@ country_event = { # Green or Blue?
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 	}
 
 	mean_time_to_happen = {
@@ -1879,7 +1879,7 @@ country_event = { # Green or Blue?
 	option = {
 		name = ita.67.b
 		add_popularity = {
-			ideology = national_populist
+			ideology = ethnic_populist
 			popularity = 0.05
 		}
 	}
@@ -1895,7 +1895,7 @@ country_event = { # Greenshirt Brigades
 
 	trigger = {
 		tag = ITA
-		has_government = national_populist
+		has_government = ethnic_populist
 		has_completed_focus = ITA_italian_militerism
 	}
 
@@ -2457,7 +2457,7 @@ country_event = { # Restore the Kingdom of Italy?
 			}
 			NOT = {
 				has_cosmetic_tag = ITA_kingdom
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		NOT = {

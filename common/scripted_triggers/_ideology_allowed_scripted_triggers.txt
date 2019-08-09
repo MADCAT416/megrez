@@ -18,7 +18,7 @@ totalist_allowed = {
 			AND = {
 				tag = WLL
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			AND = {
@@ -61,7 +61,7 @@ syndicalist_allowed = {
 			AND = {
 				tag = WLL
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}
@@ -119,7 +119,7 @@ radical_socialist_allowed = {
 			AND = {
 				tag = WLL
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 			AND = {
@@ -243,7 +243,7 @@ social_conservative_allowed = {
 				NOT = { tag = CEN }
 			}
 			AND = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { tag = CUB }
 			}
 		}
@@ -273,7 +273,7 @@ authoritarian_democrat_allowed = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			AND = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = { tag = CUB }
 			}
 			AND = {
@@ -311,7 +311,7 @@ paternal_autocrat_allowed = {
 				}
 			}
 			AND = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				NOT = {
 					tag = AST
 					tag = CUB
@@ -333,7 +333,7 @@ paternal_autocrat_allowed = {
 	}
 }
 
-national_populist_allowed = {
+ethnic_populist_allowed = {
 	custom_trigger_tooltip = {
 		tooltip = KR_ideology_allowed
 		OR = {
@@ -364,7 +364,7 @@ national_populist_allowed = {
 					}
 				}
 			}
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 }

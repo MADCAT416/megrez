@@ -2441,8 +2441,8 @@ country_event = { #Imperial Han Society Suppression
 		#NOT = {
 		#	has_completed_focus = FNG_From_Beijing_to_the_Begonia_Leaf
 		#}
-		national_populist > 0.00
-		national_populist < 1.00
+		ethnic_populist > 0.00
+		ethnic_populist < 1.00
 	}
 
 	mean_time_to_happen = {
@@ -2455,7 +2455,7 @@ country_event = { #Imperial Han Society Suppression
 
 		hidden_effect = {
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1.00
 			}
 			add_timed_idea = {
@@ -10347,7 +10347,7 @@ country_event = { #Japan Mongolia release event
                     social_conservative = 20
                     authoritarian_democrat = 40
                     paternal_autocrat = 30
-                    national_populist = 0
+                    ethnic_populist = 0
                 }
 				remove_ideas = scourge_of_the_steppes
 				load_oob = MON_fengtian_release

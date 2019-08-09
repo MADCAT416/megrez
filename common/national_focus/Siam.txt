@@ -462,7 +462,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIA_nationalizationofforeignindustries"
 			SIA = {
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.03
 				}
 			}
@@ -489,7 +489,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIA_yuwachontaharn"
 			SIA = {
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.03
 				}
 			}
@@ -518,7 +518,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIA_ratthaniyomdecrees"
 			SIA = {
 				add_popularity = {
-					ideology = national_populist
+					ideology = ethnic_populist
 					popularity = 0.03
 				}
 			}
@@ -1081,7 +1081,7 @@ focus_tree = {
 					desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
 					expire = "1964.6.11"
-					ideology = national_populist_subtype
+					ideology = ethnic_populist_subtype
 					traits = { dictator }
 				}
 			}

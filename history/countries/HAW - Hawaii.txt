@@ -148,7 +148,7 @@ set_popularities = {
     social_conservative = 21
     authoritarian_democrat = 3
     paternal_autocrat = 6
-    national_populist = 0
+    ethnic_populist = 0
 }
 
 create_country_leader = {# James Dole

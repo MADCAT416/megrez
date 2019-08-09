@@ -36,7 +36,7 @@ country_event = {
 	trigger = {
 		tag = ROM
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 		}
 		NOT = {
@@ -237,7 +237,7 @@ country_event = {
 
 		# Only if the Iron Guard hasn't been ousted
 		OR = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_government = paternal_autocrat
 		}
 	}
@@ -524,7 +524,7 @@ country_event = {
 			factor = 5
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -655,7 +655,7 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			modifier = {
 				factor = 0
@@ -1137,7 +1137,7 @@ country_event = {
 		name = romania.21.a # Support the Iron Guard
 
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 
 		ai_chance = {
@@ -1187,7 +1187,7 @@ country_event = {
 
 		trigger = {
 			NOT = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 

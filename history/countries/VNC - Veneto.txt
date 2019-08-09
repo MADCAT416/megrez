@@ -145,7 +145,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 8
     paternal_autocrat = 12
-    national_populist = 10
+    ethnic_populist = 10
 }
 create_field_marshal = {# Ippolito Radaelli
 	name = "Ippolito Radaelli"

@@ -124,7 +124,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 6
     paternal_autocrat = 9
-    national_populist = 18
+    ethnic_populist = 18
 }
 
 ### Political Leaders ###
@@ -133,7 +133,7 @@ create_country_leader = {
 	picture = "Portrait_ITA_Italo_Balbo.tga"
 	desc = "POLITICS_ITALO_BALBO_DESC"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {
 		dictator
 		warmonger

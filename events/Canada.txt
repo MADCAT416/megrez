@@ -118,7 +118,7 @@ country_event = { # Death of King George V
 			desc = "POLITICS_EDWARD_DESC"
 			picture = "Portrait_Canada_King_Edward_VIII.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 
@@ -2542,7 +2542,7 @@ country_event = { # 1955 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2642,7 +2642,7 @@ country_event = { # 1955 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2742,7 +2742,7 @@ country_event = { # 1955 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -2903,7 +2903,7 @@ country_event = { # 1961 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3002,7 +3002,7 @@ country_event = { # 1961 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -3102,7 +3102,7 @@ country_event = { # 1961 Dominion General Election
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}
@@ -6970,7 +6970,7 @@ country_event = { # Prince Albert is Governor General
 			desc = "POLITICS_ALBERT_WINDSOR_DESC"
 			picture = "Portrait_Canada_Prince_Albert.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -7040,7 +7040,7 @@ country_event = { # British general
 			desc = "POLITICS_ROBERT_POPHAM_DESC"
 			picture = "Portrait_Canada_Robert_Brooke_Popham.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -7110,7 +7110,7 @@ country_event = { # Let the Canadians Choose
 			desc = "POLITICS_FREDERICK_BANTING_DESC"
 			picture = "Portrait_Canada_Frederick_Banting.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -7170,7 +7170,7 @@ country_event = { # Let the Canadians Choose
 			desc = "POLITICS_GEORGES_VANIER_DESC"
 			picture = "Portrait_Canada_Georges_Vanier.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 			traits = {}
 		}
 	}
@@ -7873,7 +7873,7 @@ country_event = {
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -1
 			}
 		}

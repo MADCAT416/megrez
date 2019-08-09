@@ -334,7 +334,7 @@ ideas = {
 			}
 			modifier = {
 				political_power_cost = 0.2
-				national_populist_drift = -0.1
+				ethnic_populist_drift = -0.1
 			}
 			removal_cost = -1
 			picture = prc_low_popular_support

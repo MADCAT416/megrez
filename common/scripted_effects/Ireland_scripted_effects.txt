@@ -248,7 +248,7 @@ change_leaders_back_collins = {
 			desc = "POLITICS_PADRAIC_O'MAILLE_DESC"
 			picture = "Portrait_Ireland_Padraic_O'Maille.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = ethnic_populist_subtype
 		}
 	}
 }

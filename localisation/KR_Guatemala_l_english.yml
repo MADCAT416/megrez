@@ -19,8 +19,8 @@ GUA_authoritarian_democrat_party_long:0 "Partido Liberal(Militar)"
 GUA_authoritarian_democrat_party:0 "PL(Militar)"
 GUA_paternal_autocrat_party_long:0 "Fuerzas Armadas de Guatemala"
 GUA_paternal_autocrat_party:0 "FAG"
-GUA_national_populist_party_long:0 "Partido Populista"
-GUA_national_populist_party:0 "PP"
+GUA_ethnic_populist_party_long:0 "Partido Populista"
+GUA_ethnic_populist_party:0 "PP"
 
 ### Ideas ###
 GUA_socialist_compensation:0 "Socialist Compensation"

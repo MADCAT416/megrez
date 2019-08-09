@@ -300,7 +300,7 @@ country_event = { #End of the Siege
                 social_conservative = 12
                 authoritarian_democrat = 44
                 paternal_autocrat = 15
-                national_populist = 0
+                ethnic_populist = 0
             }
 		}
 		set_country_flag = KTG_COLONIAL_RULE

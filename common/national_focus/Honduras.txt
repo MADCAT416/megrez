@@ -18,7 +18,7 @@ focus_tree = {
 
     ### Honduras Politics ###
 
-    ### National populist ###
+    ### Ethnic populist ###
 
 	focus = { #Chairman Monzada
 		id = HON_monzada
@@ -43,7 +43,7 @@ focus_tree = {
 
 	focus = {# MONZADA 1
 		id = HON_autocratic_republic
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_ethnic_populist
 		cost = 7.2
 		prerequisite = {
 			focus = HON_monzada
@@ -1447,7 +1447,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HON_purge_rightists"
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = -0.15
 			}
 			add_popularity = {

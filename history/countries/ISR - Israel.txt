@@ -68,7 +68,7 @@ set_popularities = {
     social_conservative = 9
     authoritarian_democrat = 8
     paternal_autocrat = 5
-    national_populist = 7
+    ethnic_populist = 7
 }
 
 create_country_leader = {
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_JARI_GOMES_GOY_DESC"
 	picture = "Portrait_ISR_Jari_Gomes.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

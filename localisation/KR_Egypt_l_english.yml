@@ -19,8 +19,8 @@ EGY_authoritarian_democrat_party:0 "Hizb al-Ittihad"
 EGY_authoritarian_democrat_party_long:0 "Ittihad Party"
 EGY_paternal_autocrat_party:0 "al-Usra al-'Alawiyya"
 EGY_paternal_autocrat_party_long:0 "Alawiyya Dynasty"
-EGY_national_populist_party:0 "Nationalist Islamic Party"
-EGY_national_populist_party_long:0 "Nationalist Islamic Party"
+EGY_ethnic_populist_party:0 "Nationalist Islamic Party"
+EGY_ethnic_populist_party_long:0 "Nationalist Islamic Party"
 
 ### Tooltips ###
 royal_guard:0 "§GThis focus will mobilise new regiments of the Sultan's Elite Guard to protect our noble ruler.§!\n"

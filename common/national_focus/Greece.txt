@@ -3024,7 +3024,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3039,7 +3039,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3065,7 +3065,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3105,7 +3105,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3136,7 +3136,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			any_owned_state = {
 				is_controlled_by = GRE
@@ -3211,7 +3211,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3219,7 +3219,7 @@ focus_tree = {
 			factor = 5
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3265,7 +3265,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3297,7 +3297,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 			any_owned_state = {
 				is_controlled_by = GRE
@@ -3370,7 +3370,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3403,7 +3403,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3452,7 +3452,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3490,7 +3490,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 
@@ -3522,7 +3522,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 

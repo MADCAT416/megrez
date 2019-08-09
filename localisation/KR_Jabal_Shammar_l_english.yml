@@ -19,8 +19,8 @@ JBS_authoritarian_democrat_party:0 "Al-Imarat Al-Arabiyah Al-Muttahidah"
 JBS_authoritarian_democrat_party_long:0 "Al-Imarat Al-Arabiyah Al-Muttahidah"
 JBS_paternal_autocrat_party:0 "Al Rashid"
 JBS_paternal_autocrat_party_long:0 "Al Rashid"
-JBS_national_populist_party:0 "Hizb Alearabiu"
-JBS_national_populist_party_long:0 "Hizb Alearabiu"
+JBS_ethnic_populist_party:0 "Hizb Alearabiu"
+JBS_ethnic_populist_party_long:0 "Hizb Alearabiu"
 
 ### Tooltips ###
 JBS_arabian_tribes_mobilized_tooltip:0 "We shall mobilise the Tribes.\n"

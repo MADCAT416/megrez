@@ -29,7 +29,7 @@ set_popularities = {
     social_conservative = 12
     authoritarian_democrat = 41
     paternal_autocrat = 19
-    national_populist = 8
+    ethnic_populist = 8
 }
 
 ### Leaders ###
@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_TRIBHUVANA_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
 	expire = "1955.3.13"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 create_country_leader = {

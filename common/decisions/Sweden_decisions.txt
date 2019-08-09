@@ -144,7 +144,7 @@ SWE_geopolitical_actions = {
 			is_in_faction_with = GER
 			is_subject = no
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				AND = {
 					has_elected_government = yes
 					GER = {
@@ -352,7 +352,7 @@ SWE_geopolitical_actions = {
 				}
 			}
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = totalist
 			}
 		}
@@ -400,7 +400,7 @@ SWE_geopolitical_actions = {
 				}
 			}
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = totalist
 			}
 		}
@@ -462,7 +462,7 @@ SWE_geopolitical_actions = {
 				}
 			}
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = totalist
 			}
 		}
@@ -510,7 +510,7 @@ SWE_geopolitical_actions = {
 				}
 			}
 			OR = {
-				has_government = national_populist
+				has_government = ethnic_populist
 				has_government = totalist
 			}
 		}
@@ -1016,7 +1016,7 @@ SWE_fix_black_monday_category = {
 			}
 			NOT = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		visible = {
@@ -1289,7 +1289,7 @@ SWE_fix_black_monday_category = {
 			original_tag = SWE
 			OR = {
 				has_government = social_democrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		visible = {
@@ -1342,7 +1342,7 @@ SWE_fix_black_monday_category = {
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 		visible = {
@@ -1377,7 +1377,7 @@ SWE_fix_black_monday_category = {
 			modifier = {
 				factor = 0
 				NOT = {
-					has_government = national_populist
+					has_government = ethnic_populist
 				}
 			}
 		}

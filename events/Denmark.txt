@@ -150,14 +150,14 @@ country_event = { #Dansk Samling and the DFP clash
 		ai_chance = { factor = 50 }
 		add_stability = -0.02
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = ethnic_populist popularity = -0.02 }
 	}
 
 	option = { #DFP comes out victorious
 		name = den.5.b
 		ai_chance = { factor = 50 }
 		add_stability = -0.02
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.01 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 	}
 }
@@ -182,7 +182,7 @@ country_event = { #Arildskov visits Savinkov
 
 	option = { #'Fører', it sounds so dumb...
 		name = den.6.a
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 	}
 }
@@ -2254,7 +2254,7 @@ country_event = { #[GetYear] Elections
 			has_government = radical_socialist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_country_flag = den_hybrid
 		}
 	}
@@ -2498,7 +2498,7 @@ country_event = { #75 years since the loss of Schleswig
 		ai_chance = { factor = 25 }
 		add_popularity = { ideology = totalist popularity = 0.01 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = ethnic_populist popularity = 0.02 }
 	}
 }
 

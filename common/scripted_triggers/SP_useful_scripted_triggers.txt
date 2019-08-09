@@ -43,8 +43,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = paternal_autocrat }
 		}
 		AND = {
-			has_government = national_populist
-			ROOT = { has_government = national_populist }
+			has_government = ethnic_populist
+			ROOT = { has_government = ethnic_populist }
 		}
 	}
 }
@@ -93,8 +93,8 @@ has_same_government_as_PREV = {
 			PREV = { has_government = paternal_autocrat }
 		}
 		AND = {
-			has_government = national_populist
-			PREV = { has_government = national_populist }
+			has_government = ethnic_populist
+			PREV = { has_government = ethnic_populist }
 		}
 
 	}
@@ -243,7 +243,7 @@ has_antirevolutionary_government = {
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = clerical_nationalist
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 }
@@ -254,7 +254,7 @@ not_has_antirevolutionary_government = {
 		NOT = {
 			has_government = authoritarian_democrat
 			has_government = clerical_nationalist
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 }
@@ -550,8 +550,8 @@ has_government = social_liberal }
 		}
 
 		AND = {
-			has_country_flag = coalition_national_populist
-			NOT = { has_government = national_populist }
+			has_country_flag = coalition_ethnic_populist
+			NOT = { has_government = ethnic_populist }
 		}
 	}
 }

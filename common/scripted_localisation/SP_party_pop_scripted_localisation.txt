@@ -78,9 +78,9 @@ defined_text = {
 
 	text = {
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
-		localization_key = national_populist_desc
+		localization_key = ethnic_populist_desc
 	}
 	
 }
@@ -341,14 +341,14 @@ defined_text = {
 	name = GetCoalitionStarTooltipNationalPopulist
 	text = {
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			NOT = { has_coalition = yes }
 		}
 		localization_key = no_coalition_ruling_party
 	}
 	text = {
 		trigger = {
-			has_government = national_populist
+			has_government = ethnic_populist
 			has_coalition = yes
 		}
 		localization_key = coalition_party_ruling

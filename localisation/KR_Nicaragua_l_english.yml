@@ -18,8 +18,8 @@ NIC_authoritarian_democrat_party_long:0 "Partido Liberal Nacionalista"
 NIC_authoritarian_democrat_party:0 "PLN"
 NIC_paternal_autocrat_party_long:0 "Unión Nacional Opositora"
 NIC_paternal_autocrat_party:0 "UNO"
-NIC_national_populist_party_long:0 "Alianza por la República"
-NIC_national_populist_party:0 "AL"
+NIC_ethnic_populist_party_long:0 "Alianza por la República"
+NIC_ethnic_populist_party:0 "AL"
 
 ### Tooltips ###
 NIC_good_sandinistas_deploy:0 "§GThe Sandinistas will be deployed.§!"

@@ -19,8 +19,8 @@ YUC_authoritarian_democrat_party:0 "Partido Nacionalista Yucatán"
 YUC_authoritarian_democrat_party_long:0 "Nationalist Yucatán Party"
 YUC_paternal_autocrat_party:0 "Military Junta"
 YUC_paternal_autocrat_party_long:0 "Military Junta"
-YUC_national_populist_party:0 "Partido Fuerza Popular"
-YUC_national_populist_party_long:0 "Popular Force Party"
+YUC_ethnic_populist_party:0 "Partido Fuerza Popular"
+YUC_ethnic_populist_party_long:0 "Popular Force Party"
 
 ### Flags ###
 YUC_indepedence_war_over:0 "The Yucatan War of Independence is over"

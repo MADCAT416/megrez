@@ -373,7 +373,7 @@ CAN_american_civil_war_decisions = {
 			factor = 5
 			modifier = {
 				factor = 4
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
 		}
 

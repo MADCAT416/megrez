@@ -19,8 +19,8 @@ RJM_authoritarian_democrat_party:0 "FUP"
 RJM_authoritarian_democrat_party_long:0 "Frente Unica Parlamentar"
 RJM_paternal_autocrat_party:0 "ARENA"
 RJM_paternal_autocrat_party_long:0 "Aliança Renovadora Nacional"
-RJM_national_populist_party:0 "AIT"
-RJM_national_populist_party_long:0 "Acção Integetralista Tiradentes"
+RJM_ethnic_populist_party:0 "AIT"
+RJM_ethnic_populist_party_long:0 "Acção Integetralista Tiradentes"
 
 ### Ideas ###
 RJM_buildingspeed:0 "Redevelopment Effort"

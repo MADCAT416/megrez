@@ -116,7 +116,7 @@ set_popularities = {
     social_conservative = 16
     authoritarian_democrat = 26
     paternal_autocrat = 8
-    national_populist = 12
+    ethnic_populist = 12
 }
 
 create_country_leader = {
@@ -133,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_NIHAL_ATSIZ_DESC"
 	picture = "gfx/leaders/TUR/Portrait_TUR_Nihal_Atsiz.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 

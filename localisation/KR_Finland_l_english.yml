@@ -19,8 +19,8 @@ FIN_authoritarian_democrat_party:0 "Mannerheimin Klikki"
 FIN_authoritarian_democrat_party_long:0 "Mannerheimin Klikki"
 FIN_paternal_autocrat_party:0 "KOK"
 FIN_paternal_autocrat_party_long:0 "Kansallinen Kokoomus"
-FIN_national_populist_party:0 "Lapuan Liike"
-FIN_national_populist_party_long:0 "Lapuan Liike"
+FIN_ethnic_populist_party:0 "Lapuan Liike"
+FIN_ethnic_populist_party_long:0 "Lapuan Liike"
 
 ### Focuses ###
 FIN_democracy_triumphant:0 "Democracy Triumphant"

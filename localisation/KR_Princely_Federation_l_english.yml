@@ -48,8 +48,8 @@ PRF_authoritarian_democrat_party:0 "Council of Princes"
 PRF_authoritarian_democrat_party_long:0 "Council of Princes"
 PRF_paternal_autocrat_party:0 "Council of Princes"
 PRF_paternal_autocrat_party_long:0 "Council of Princes"
-PRF_national_populist_party:0 "Ittehad-ul Muslimeen"
-PRF_national_populist_party_long:0 "Ittehad-ul Muslimeen"
+PRF_ethnic_populist_party:0 "Ittehad-ul Muslimeen"
+PRF_ethnic_populist_party_long:0 "Ittehad-ul Muslimeen"
 
 ### Ideas ###
 PRF_rule_of_princes_1:0 "Decentralised Rule"

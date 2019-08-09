@@ -166,7 +166,7 @@ set_popularities = {
     social_conservative = 5
     authoritarian_democrat = 11
     paternal_autocrat = 43
-    national_populist = 2
+    ethnic_populist = 2
 }
 
 set_autonomy = {
@@ -192,7 +192,7 @@ YEM = {
         social_conservative = 15
         authoritarian_democrat = 5
         paternal_autocrat = 60
-        national_populist = 0
+        ethnic_populist = 0
     }
 }
 
@@ -291,7 +291,7 @@ create_country_leader = {
 	desc = "POLITICS_HUSEYIN_NIHAL_DESC"
 	picture = "Portrait_Nihal_Atsiz.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = ethnic_populist_subtype
 	traits = {}
 }
 
@@ -659,7 +659,7 @@ set_autonomy = {
         social_conservative = 12
         authoritarian_democrat = 41
         paternal_autocrat = 19
-        national_populist = 8
+        ethnic_populist = 8
     }
 }
 
