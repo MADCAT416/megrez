@@ -3,19 +3,16 @@ state = {
 	name = "STATE_467"
 	manpower = 981071
 
-	state_category = town
+	state_category = four
 
 	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 		victory_points = {
 			4872 5
-		}
-		victory_points = {
-			7185 1
 		}
 		add_core_of = CAN
 	}

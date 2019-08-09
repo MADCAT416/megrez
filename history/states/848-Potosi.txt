@@ -2,7 +2,7 @@ state = {
 	id = 848
 	name = "STATE_848"
 	manpower = 1332659
-	state_category = town
+	state_category = four
 
 	history = {
 		owner = BOL
@@ -18,7 +18,7 @@ state = {
 			5229 1
 		}
 		victory_points = {
-			8157 15
+			8157 8
 		}
 		victory_points = {
 			10987 5

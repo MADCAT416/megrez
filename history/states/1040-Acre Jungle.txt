@@ -7,14 +7,12 @@ state = {
 		add_claim_by = BOL
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
 	provinces = {
 		5216 13530
 	}
 	manpower = 2300
-	
-	buildings_max_level_factor = 1
+	impassable = yes
 	state_category = wasteland
 }

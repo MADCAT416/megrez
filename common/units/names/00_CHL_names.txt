@@ -1,9 +1,7 @@
 ﻿CHL = {
 	submarine = {
 		prefix = "CSN"
-		generic = {
-			"Submarine"
-		}
+		generic = { "Submarino" }
 		unique = {
 			"H-7"
 			"H-8"
@@ -104,11 +102,8 @@
 	}
 	destroyer = {
 		prefix = "CSN"
-		generic = {
-			"Destroyer"
-		}
+		generic = { "Destructor" }
 		unique = {
-			"Santiago"
 			"Puente Alto"
 			"Maipú"
 			"La Florida"
@@ -142,9 +137,7 @@
 	}
 	light_cruiser = {
 		prefix = "CSN"
-		generic = {
-			"Light Cruiser"
-		}
+		generic = { "Crucero" }
 		unique = {
 			"Punta Arenas"
 			"Pascoa"
@@ -156,7 +149,6 @@
 			"Chiloe"
 			"Tamarugal"
 			"Salamanca"
-			"Valparaíso"
 			"Biobío"
 			"Araucanía"
 			"Los Ríos"
@@ -180,23 +172,18 @@
 	}
 	heavy_cruiser = {
 		prefix = "CSN"
-		generic = {
-			"Heavy Cruiser"
-		}
+		generic = { "Crucero Acorazado" }
 		unique = {
 			"Cerro"
 			"Rosas"
 			"Rozales"
 			"Ovalle"
-			"Blanco Encalada"
 			"Cuartel"
 			"Presidente"
-			"Philadelphia"
 			"Atenas"
 			"Celta"
 			"Perro"
 			"Jaraquemada"
-			"Eyzaguirre"
 			"Irisarri"
 			"La Lastra"
 			"Freire"
@@ -206,7 +193,6 @@
 			"Prieto"
 			"Zañartu"
 			"María"
-			"Cochrane"
 			"Jorge Montt"
 			"Forza"
 			"Grandeza"
@@ -216,11 +202,9 @@
 			"Balmaceda"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "CSN"
-		generic = {
-			"Battlecruiser"
-		}
+		generic = { "Acorazado" }
 		unique = {
 			"Rapa Nui"
 			"Kurillanka"
@@ -243,17 +227,14 @@
 			"Namuncurá"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "CSN"
-		generic = {
-			"Battleship"
-		}
+		generic = { "Dreadnought" }
 		unique = {
 			"Pratt"
 			"Pastene"
 			"Libertad"
 			"Frödden"
-			"Britannia"
 			"Iberia"
 			"Matte"
 			"Grove"
@@ -267,7 +248,6 @@
 			"Las Herras"
 			"Glória"
 			"Baia Caldera"
-			"Cerro"
 			"Andes"
 			"Libertador"
 			"Manuel Montt"
@@ -275,9 +255,7 @@
 	}
 	carrier = {
 		prefix = "CSN"
-		generic = {
-			"Aircraft Carrier"
-		}
+		generic = { "Portaaviones" }
 		unique = {
 			"Chile"
 			"Internacionale"
@@ -293,6 +271,12 @@
 			"Esmeralda"
 			"Correntes Rompidas"
 			"Panamericana"
+		}
+	}
+	heavy_carrier = {
+		prefix = "CSN"
+		generic = { "Portaaviones Pesado" }
+		unique = {
 		}
 	}
 }

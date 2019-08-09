@@ -2,12 +2,11 @@ state = {
 	id = 978
 	name = "STATE_978"
 	provinces = {
-		6500 9574 11562 13660 13662
+		6500 11562 13662
 	}
-	manpower = 976675
-	buildings_max_level_factor = 1
+	manpower = 589473
 
-	state_category = town
+	state_category = four
 
 	history = {
 		owner = HOL
@@ -16,9 +15,17 @@ state = {
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
+			11562 = {
+				bunker = 2
+			}
+			6500 = {
+				bunker = 3
+			}
+			13662 = {
+				bunker = 1
+			}
 		}
 
 		victory_points = { 11562 1 }
-		victory_points = { 13660 1 }
 	}
 }

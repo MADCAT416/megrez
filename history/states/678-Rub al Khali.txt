@@ -5,21 +5,17 @@ state = {
 	history = {
 		owner = SAU
 		add_core_of = SAU
-		add_core_of = JBS
+		add_claim_by = JBS
 		buildings = {
 			infrastructure = 1
-
 		}
 	}
-	resources = {
-		oil = 5
-	}
-	
+
+	impassable = yes
 
 	provinces = {
 		5081 8118 10870 12740 12768
 	}
 	manpower = 9376
-	buildings_max_level_factor = 1
 	state_category = wasteland
 }

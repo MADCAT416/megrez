@@ -3,10 +3,8 @@ state = {
 	name = "STATE_807"
 
 	history = {
-		owner = WAF
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = WAF
-		add_core_of = GNE
 		buildings = {
 			infrastructure = 3
 		}
@@ -16,9 +14,8 @@ state = {
 	}
 
 	provinces = {
-		5013 5070 8065 10762
+		5013 5070 7983 8065 10762
 	}
 	manpower = 2021300
-	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = two
 }

@@ -2,9 +2,7 @@
 	fleet_names_template = FLEET_NAME_HOL
 	submarine = {
 		prefix = "HrMs"
-		generic = {
-			"Onderzeeboot"
-		}
+		generic = { "Onderzeeboot" }
 		unique = {
 			# From WIKI
 			"K-VII"
@@ -50,18 +48,9 @@
 	}
 	destroyer = {
 		prefix = "HrMs"
-		generic = {
-			"Torpedobootjager"
-		}
+		generic = { "Torpedobootjager" }
 		unique = {
-			"Piet Hein"
 			"Eversten"
-			"Van Ghent"
-			"Kortenaer"
-			"Van Galen"
-			"Witte de With"
-			"Banckert"
-			"Van Nes"
 			"Gerard Callenburgh"
 			"Isaac Sweers"
 			"Tjerk Hiddes"
@@ -73,13 +62,9 @@
 			"Noord-Brabant"
 			"Gelderland"
 			"Friesland"
-			"Groningen"
 			"Limburg"
 			"Overijssel"
 			"Drenthe"
-			"Utrecht"
-			"Rotterdam"
-			"Amsterdam"
 			"Wolf"
 			"Fret"
 			"Bulhond"
@@ -92,38 +77,20 @@
 	}
 	light_cruiser = {
 		prefix = "HrMs"
-		generic = {
-			"Lichte Kruiser"
-		}
+		generic = { "Kruiser" }
 		unique = {
-			"Java"
-			"Sumatra"
-			"De Ruyter"
 			"Tromp"
 			"Jacob van Heemskerck"
 			"De Zeven Provinciën"
 			"Kijkduin"
-			"Gelderland"
-			"Zeeland"
-			"Friesland"
-			"Gelderland"
-			"Noord-Brabant"
-			"Utrecht"
-			"Drenthe"
 			"Brabant"
 			"Limburg"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "HrMs"
-		generic = {
-			"Zware Kruiser"
-		}
+		generic = { "Pantserkruiser" }
 		unique = {
-			"Hertog Hendrik"
-			"Jacob van Heemskerck"
-			"Soerabaja"
-			"Celebes"
 			"Batjan"
 			"Ceram"
 			"Ambon"
@@ -131,47 +98,37 @@
 			"Ternate"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = "HrMs"
-		generic = {
-			"Slagkruiser"
-		}
+		generic = { "Slagschip" }
 		unique = {
 			"Van Speijk"
-			"Witte de With"
-			"Piet Hein"
-			"Kortenaer"
 			"Koningin Regentes"
 			"Hertog Hendrik"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = "HrMs"
-		generic = {
-			"Slagschip"
-		}
+		generic = { "Dreadnought" }
 		unique = {
 			"Reinier Claeszen"
-			"Evertsen"
-			"Piet Hein"
-			"Kortenaer"
-			"Koningin Regentes"
-			"Hertog Hendrik"
-			"Van Speijk"
 			"Witte de With"
 		}
 	}
 	carrier = {
 		prefix = "HrMs"
-		generic = {
-			"Vliegdekschip"
-		}
+		generic = { "Vliegdekschip" }
 		unique = {
-			"Gouden Leeuw"
 			"Gouden Draak"
 			"Gouden Tijger"
 			"Onoverwinnelijk"
 			"Glorie"
+		}
+	}
+	heavy_carrier = {
+		prefix = "HrMs"
+		generic = { "Zware Vliegdekschip" }
+		unique = {
 		}
 	}
 

@@ -3,11 +3,13 @@ state = {
 	name = "STATE_1005"
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
+		add_claim_by = ITA
+		victory_points = { 9794 2 }
 		buildings = {
 			infrastructure = 6
+			arms_factory = 1
 		}
 	}
 
@@ -15,6 +17,5 @@ state = {
 		3885 6926 9794 13624
 	}
 	manpower = 722500
-	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = three
 }

@@ -1,9 +1,9 @@
 state = {
 	id = 387
 	name = "STATE_387"
-	manpower = 445031
+	manpower = 495000
 
-	state_category = rural
+	state_category = six
 
 	resources = {
 		steel = 32
@@ -12,16 +12,13 @@ state = {
 	}
 
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = CSA
-		
 		victory_points = {
-			10556 3
+			9616 2
 		}
 	}
 

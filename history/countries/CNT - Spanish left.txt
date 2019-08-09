@@ -1,204 +1,207 @@
-﻿capital = 41
-oob = "CNT"
+﻿capital = 165
+oob = "empty"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
 }
 
 set_research_slots = 3
-
-set_cosmetic_tag = CNT_IBERIA
 
 add_opinion_modifier = { target = POR modifier = embargo }
 add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
 
-set_stability = 0.5
-set_war_support = 0.3
-
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 8
-		}
-		democratic_socialist = {
-			popularity = 12
-		}
-		syndicalist = {
-			popularity = 55
-		}
-		social_progressive = {
-			popularity = 3
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 7
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
-	ruling_party = syndicalist
+	ruling_party = democratic_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+    totalist = 8
+    democratic_socialist = 55
+    syndicalist = 12
+    social_democrat = 3
+    social_liberal = 3
+    market_liberal = 7
+    social_conservative = 0
+    authoritarian_democrat = 10
+    paternal_autocrat = 0
+    national_populist = 2
 }
 
 create_country_leader = {
-	name = "조안 레벤토스"
-	picture = "Portrait_SPR_Joan_Reventos.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 말도나도 곤살레스"
-	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 말도나도 곤살레스"
-	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아돌포 수아레스"
-	picture = "Portrait_SPR_Adolfo_Suarez.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "헤르미날 에스글레아스"
-	picture = "Portrait_SPR_Germinal_Esgleas.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "산티아고 카리요"
-	picture = "Portrait_SPR_Santiago_Carrillo.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아돌포 수아레스"
-	picture = "Portrait_SPR_Adolfo_Suarez.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "후안 카를로스 1세"
-	picture = "Portrait_SPR_Juan_Carlos_I.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "카를로스 우고 데 보르본파르마"
-	picture = "Portrait_SPR_Carlos_Hugo.tga"
-	expire = "2000.1.1"
+	name = "Francesc Sureda i Blanes"
+	desc = "POLITICS_FRANCESC_SUREDA_DESC"
+	picture = "Portrait_CNT_Francesc_Sureda_i_Blanes.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "후안 카를로스 1세"
-	picture = "Portrait_SPR_Juan_Carlos_I.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Juan III"
+	desc = "POLITICS_JUAN_BOURBON_DESC"
+	picture = "Portrait_SPR_Juan_III.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Niceto Alcalá-Zamora"
+	desc = "POLITICS_NICETO_ALCALA_DESC"
+	picture = "Portrait_CNT_Niceto_Alcala_Zamora.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Josep Tarradellas"
+	desc = "POLITICS_JOSEP_TARRADELLAS_DESC"
+	picture = "Portrait_CNT_Josep_Tarradellas.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Manuel Azaña Díaz"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_CNT_Manuel_Azana_Diaz.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Augusto Barcia Trelles"
+	desc = "POLITICS_AUGUSTO_BARCIA_DESC"
+	picture = "Portrait_CNT_Augusto_Barcia_Trelles.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Comité Central de la C.N.T.-F.A.I."
+	desc = "POLITICS_CNTCOMITTEE_DESC"
+	picture = "Portrait_Switzerland_Council.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Julián Besteiro Fernández"
+	desc = "POLITICS_JULIAN_BESTEIRO_DESC"
+	picture = "Portrait_CNT_Julian_Besteiro_Fernandez.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Dolores Ibáurri Gómez"
+	desc = "POLITICS_DOLORES_IBAURRI_DESC"
+	picture = "Portrait_CNT_Dolores_Ibaurri_Gomez.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
 	traits = {}
 }
 
 add_ideas = {
-	#medium_economy
-
-	### Minister
+	# Ministers
 	CNT_Juan_Garcia_Oliver_hog_rso
 	CNT_Angel_Pestana_for_rso
 	CNT_Juan_Peiro_Belis_eco_syn
 	CNT_Joaquin_Ascaso_Budria_sec_rso
-	volunteer_only
 
+	volunteer_only
 }
 
 ### Field Marshal
@@ -210,10 +213,10 @@ create_field_marshal = { #Auto-Generated
 		organisational_leader
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
 	id = 320
 }
 
@@ -221,10 +224,9 @@ create_field_marshal = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Domènec Batet"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Domenec_Batet.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
@@ -237,8 +239,8 @@ create_corps_commander = { #Auto-Generated
 		guerilla_fighter
 	}
 	skill = 2
-	attack_skill = 4
-	defense_skill = 2
+	attack_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 	id = 321
@@ -264,9 +266,9 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 	id = 323
 }
 create_corps_commander = { #Auto-Generated
@@ -278,7 +280,7 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 	id = 324
 }
@@ -287,8 +289,7 @@ create_corps_commander = { #Auto-Generated
 create_navy_leader = { #Auto-Generated
 	name = "André Marty"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Andre_Marty.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 	id = 325
 }

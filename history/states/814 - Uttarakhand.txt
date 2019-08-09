@@ -3,12 +3,11 @@ state = {
 	name = "STATE_814"
 	manpower = 2514368
 
-	state_category = rural
+	state_category = two
 
 	history = {
 		owner = NEP
 		add_core_of = NEP
-		add_core_of = BHC
 		victory_points = { 5157 1 } #Dehradun
 		buildings = {
 			infrastructure = 3

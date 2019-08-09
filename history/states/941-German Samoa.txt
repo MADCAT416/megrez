@@ -3,9 +3,8 @@ state = {
 	name = "STATE_941"
 
 	history = {
-		owner = AST
+		owner = GEA
 		add_core_of = GEA
-		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			7290 = {
@@ -19,6 +18,5 @@ state = {
 	}
 
 	manpower = 55900
-	buildings_max_level_factor = 1
-	state_category = "small_island"
+	state_category = one_island
 }

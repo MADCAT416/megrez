@@ -3,21 +3,21 @@ state = {
 	name = "STATE_999"
 	manpower = 145000
 
-	state_category = pastoral
+	state_category = one
 
 	history = {
-		owner = GEO
+		owner = AZE
 		victory_points = {
 			1467 1
 		}
 
 		buildings = {
 			infrastructure = 2
-
+			1467 = {
+				bunker = 2
+			}
 		}
-		add_core_of = AZB
-		add_core_of = GEO
-		add_claim_by = RUS
+		add_core_of = AZE
 	}
 
 	provinces = {

@@ -6,17 +6,17 @@ state = {
 		owner = PER
 		buildings = {
 			infrastructure = 3
-
 		}
 		add_core_of = PER
 		add_core_of = KUR
-
+		victory_points = {
+			12773 5
+		}
 	}
 
 	provinces = {
 		829 5050 5098 7985 8040 8125 9816 10774 12773
 	}
 	manpower = 1649528
-	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = three
 }

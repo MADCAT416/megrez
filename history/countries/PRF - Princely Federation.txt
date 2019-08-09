@@ -1,60 +1,60 @@
 ﻿capital = 427
 
-oob = "empty"
+oob = "PRF"
+set_naval_oob = "PRF_naval"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 set_research_slots = 3
@@ -70,68 +70,79 @@ add_opinion_modifier = { target = SRI modifier = embargo }
 add_opinion_modifier = { target = NFA modifier = embargo }
 add_opinion_modifier = { target = AST modifier = embargo }
 
+set_war_support = 0.20
+
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_progressive = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 13
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 2
-		}
-		authoritarian_democrat = {
-			popularity = 40
-		}
-		paternal_autocrat = {
-			popularity = 22
-		}
-		national_populist = {
-			popularity = 8
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "치티라 티루날 발라라마 바르마"
-	picture = "Portrait_PRF_Chithira_Thirunal_Balarama_Varma.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 5
+    syndicalist = 2
+    social_democrat = 0
+    social_liberal = 13
+    market_liberal = 8
+    social_conservative = 2
+    authoritarian_democrat = 40
+    paternal_autocrat = 22
+    national_populist = 8
+}
+
+set_autonomy = {
+	target = MAD
+	autonomous_state = kr_default_puppet
+}
+
+MAD = {
+	set_politics = {
+		ruling_party = social_liberal
+		last_election = "1930.11.9"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+    set_popularities = {
+        totalist = 2
+        democratic_socialist = 3
+        syndicalist = 5
+        social_democrat = 13
+        social_liberal = 41
+        market_liberal = 21
+        social_conservative = 10
+        authoritarian_democrat = 3
+        paternal_autocrat = 2
+        national_populist = 0
+    }
 }
 
 create_country_leader = {
-	name = "무카람 자"
-	picture = "Portrait_PRF_Mukarram_Jah.tga"
-	expire = "2000.1.1"
+	name = "Osman Ali Khan"
+	desc = "POLITICS_OSMAN_ALI_KHAN_DESC"
+	picture = "Portrait_Princely_Osman_Ali_Khan.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "자야차마라젠드라 와디야르"
-	picture = "Portrait_PRF_Jayachamarajendra_Wadiyar.tga"
-	expire = "2000.1.1"
+	name = "Krishnaraja Wadiyar IV"
+	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
+	picture = "Portrait_PRF_Raja_Wadiyar_IV.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Madapati Hanumantha Rao"
+	desc = "POLITICS_MADAPATI_RAO_DESC"
+	picture = "Portrait_Princely_Madapati_Hanumantha_Rao.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
 	traits = {}
 }
 
@@ -140,7 +151,8 @@ add_ideas = {
 	PRF_Maharaja_Kishen_Pershad_for_ade
 	PRF_Mokshagundam_Visveswaraiah_eco_ade
 	PRF_Albion_Rajkumar_Banerjee_sec_ade
-	#medium_economy
+	PRF_rule_of_princes_1
+	PRF_backwards_economy_1
 }
 
 ### Field Marshal
@@ -171,8 +183,8 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
@@ -183,7 +195,7 @@ create_corps_commander = { #Auto-Generated
 		commando
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
@@ -223,7 +235,7 @@ if = {
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Raja Wadiyar IV"
+	name = "Krishnaraja Wadiyar IV"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Raja_Wadiyar_IV.tga"
 	traits = {
 		old_guard
@@ -231,7 +243,7 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 	id = 1507
@@ -248,7 +260,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 	id = 15000
 }
 
@@ -269,8 +281,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Ahmad Ali of Malerjotla"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Ahmad_Ali_of_Malerjotla.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -285,8 +296,8 @@ create_corps_commander = { #Auto-Generated
 		cavalry_officer
 	}
 	skill = 1
-	attack_skill = 2
-	defense_skill = 2
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -300,8 +311,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 	id = 1506
 }
@@ -313,7 +324,7 @@ create_corps_commander = { #Auto-Generated
 		cavalry_officer
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
@@ -361,8 +372,8 @@ create_corps_commander = { #Auto-Generated
 		brilliant_strategist
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 3
 	logistics_skill = 2
 }
@@ -374,9 +385,9 @@ create_corps_commander = { #Auto-Generated
 		trickster
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 	id = 1504
 }
@@ -384,8 +395,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Kishore Debbarman"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Kishore_Debbarman.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -416,21 +426,20 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 	id = 1509
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Hashim Nawaz Jung"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Hashim_Nawaz_Jung.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 	id = 1505
 }
 
@@ -442,4 +451,36 @@ create_navy_leader = { #Auto-Generated
 		seawolf
 	}
 	skill = 1
+}
+
+create_equipment_variant = {
+	name = "Karna Class"
+	type = ship_hull_panzerschiff_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Hyperabad Class"
+	type = ship_hull_cruiser_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		hull_specialization_slot = empty
+	}
 }

@@ -3,18 +3,17 @@ state = {
 	name = "STATE_427" #Hyderabad
 	manpower = 9757900
 
-	state_category = city
+	state_category = six
 
 	resources = {
 		chromium = 8
 	}
 
 	history = {
-		owner = BHC
+		owner = PRF
 		add_core_of = PRF
-		add_core_of = DEH
-		add_core_of = RAJ
-		add_core_of = BHC
+		add_claim_by = BHC
+		add_claim_by = DEH
 		victory_points = { 4883 1 } #Nagpur
 		victory_points = { 8087 10 } #Hyderabad
 		buildings = {

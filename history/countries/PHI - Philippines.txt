@@ -1,203 +1,166 @@
 ﻿capital = 327
-oob = "PHI"
-
+OOB = "PHI"
 set_country_flag = puppet_of_usa
 set_convoys = 20
 set_research_slots = 3
 
 set_stability = 0.50
-set_war_support = 0.20
+set_war_support = 0.15
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+	tech_engineers = 1
+	gw_artillery = 1
+}
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+### Navy - MtG ###
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
-			popularity = 60
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
-
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 2
+    democratic_socialist = 3
+    syndicalist = 5
+    social_democrat = 13
+    social_liberal = 41
+    market_liberal = 21
+    social_conservative = 10
+    authoritarian_democrat = 3
+    paternal_autocrat = 2
+    national_populist = 0
+}
+
 add_ideas = {
-	#medium_economy # Ministers + ideas - a bunch of random for the moment (need more historical research)
+	# Ministers + ideas - a bunch of random for the moment (need more historical research)
 	PHI_Sergio_Osmena_hog_sli
 	PHI_Quintin_Paredes_for_sli
 	PHI_Elpidio_Quirino_eco_sli
 	PHI_Jose_Yulo_sec_sli
 }
-create_country_leader = {
-	name = "호세 마리아 시손"
-	desc = "Jose_Maria_Sison_DESC"
-	picture = "Portrait_Philippines_Jose_Maria_Sison.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
 
+#unusued
+#create_country_leader = {
+#	name = "Manuel Roxas"
+#	desc = "POLITICS_MANUEL_ROXAS_DESC"
+#	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Roxas.tga"
+#	expire = "1948.4.15"
+#	ideology = social_liberal_subtype
+#	traits = {}
+#}
+#create_country_leader = {
+#	name = "Sergio Osmeña"
+#	desc = "POLITICS_SERGIO_OSMENA_DESC"
+#	picture = "gfx/leaders/PHI/Portrait_Philippines_Sergio_Osmena.tga"
+#	expire = "1961.10.19"
+#	ideology = social_liberal_subtype
+#	traits = {}
+#}
 create_country_leader = {
-	name = "루이스 타루크"
-	desc = "Luis_Taruc_DESC"
-	picture = "Portrait_Philippines_Luis_Taruc.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "루이스 타루크"
-	desc = "Luis_Taruc_DESC"
-	picture = "Portrait_Philippines_Luis_Taruc.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "라울 세비야 망글라푸스"
-	desc = "Raul_Manglapus_DESC"
-	picture = "Portrait_Philippines_Raul_Manglapus.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "라울 세비야 망글라푸스"
-	desc = "Raul_Manglapus_DESC"
-	picture = "Portrait_Philippines_Raul_Manglapus.tga"
-	expire = "2000.1.1"
+	name = "Manuel Luis Quezón"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR.tga"
+	expire = "1965.8.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
+#create_country_leader = {
+#	name = "Basilio J. Valdes"
+#	desc = "POLITICS_BASILIO_J_VALDEZ_DESC"
+#	picture = "gfx/leaders/PHI/Portrait_Philippines_Basilio_J_Valdez.tga"
+#	expire = "1970.1.26"
+#	ideology = authoritarian_democrat_subtype
+#	traits = {}
+#}
 
+#leaders
 create_country_leader = {
-	name = "베니그노 아키노 2세"
-	desc = "Benigno_Aquino_Jr_DESC"
-	picture = "Portrait_Philippines_Benigno_Aquino_Jr.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "알레호 산토스"
-	desc = "Alejo_Santos_DESC"
-	picture = "Portrait_Philippines_Alejo_Santos.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "살바도르 라우렐"
-	desc = "Salvador_Laurel_DESC"
-	picture = "Portrait_Philippines_Salvador_Laurel.tga"
-	expire = "2000.1.1"
+	name = "José P. Laurel"
+	desc = "POLITICS_JOSE_P_LAUREL_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Jose_P_Laurel.tga"
+	expire = "1959.11.6"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "페르디난드 마르코스"
-	desc = "Ferdinand_Marcos_DESC"
-	picture = "Portrait_Philippines_Ferdinand_Marcos.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {eco_corrupt_kleptocrat}
+	name = "Elpidio Quirino"
+	desc = "POLITICS_ELPIDO_QUIRINO_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Elpidio_Quirino.tga"
+	expire = "1944.8.1"
+	ideology = social_conservative_subtype
+	traits = {}
 }
-
+#create_country_leader = {
+#	name = "Emilio Aguinaldo"
+#	desc = "POLITICS_EMILIO_AGUINALDO_DESC"
+#	picture = "Portrait_Philippines_Emilio_Aguinaldo.tga"
+#	expire = "1964.2.6"
+#	ideology = social_liberal_subtype
+#	traits = {}
+#}
 create_country_leader = {
-	name = "발렌틴 데 로스 산토스"
-	desc = "Valentin_de_los_Santos_DESC"
-	picture = "Portrait_Philippines_Valentin_de_los_Santos.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Juan Sumulong"
+	desc = "POLITICS_JUAN_SUMILONG_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Juan_Sumulong.tga"
+	expire = "1942.1.9"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Crisanto Evangelista"
+	desc = "POLITICS_CRISTIANO_EVANGELISTA_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Crisanto_Evangelista.tga"
+	expire = "1943.6.2"
+	ideology = syndicalist_subtype
 	traits = {}
 }
 
@@ -209,23 +172,23 @@ create_field_marshal = {
 	traits = { career_officer media_personality organisational_leader }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 3
 }
 
-### Corps Commander
-
-create_corps_commander = {
-	name = "Vicente P. Lim"
+create_field_marshal = {
+	name = "Vicente P. Lim" # The Absolute Mad Lad, also West Point Graduate
 	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Vicente_P_Lim.tga"
-	traits = { brilliant_strategist infantry_officer trickster }
-	skill = 3
+	traits = { career_officer brilliant_strategist infantry_officer trickster commando }
+	skill = 4
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 4
 }
+
+### Corps Commander
 
 create_corps_commander = {
 	name = "Alfredo M. Santos"
@@ -234,8 +197,8 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -244,9 +207,9 @@ create_corps_commander = {
 	traits = { brilliant_strategist infantry_leader }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -257,7 +220,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -267,7 +230,7 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -277,7 +240,7 @@ create_corps_commander = {
 	traits = { infantry_officer }
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -285,7 +248,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Manuel F. Cabal"
 	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Manuel_F_Cabal.tga"
-	traits = { }
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -307,7 +270,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Salipada Pendatun"
 	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Salipada_Pendatun.tga"
-	traits = { }
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1

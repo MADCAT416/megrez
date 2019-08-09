@@ -3,15 +3,14 @@ state = {
 	name = "STATE_728"
 	manpower = 209000
 
-	state_category = enclave
+	state_category = zero
 
 	history = {
-		owner = SQI
-		add_core_of = AOG
-		
-		add_core_of = SQI
+		owner = GEA
+		add_core_of = GEA
 		add_core_of = QIE
-		
+		add_core_of = SQI
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 3
 			11981 = {

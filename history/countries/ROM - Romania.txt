@@ -1,212 +1,267 @@
 ﻿capital = 46
 
-oob = "empty"
+oob = "ROM"
+set_naval_oob = "ROM_naval"
 
 set_research_slots = 3
 
 add_ideas = {
+	ROM_royalist_threat
 	free_trade
 	limited_conscription
-}
-
-# Starting tech
-set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
-}
-
-
-set_convoys = 20
-
-add_opinion_modifier = { target = BUL modifier = embargo }
-
-set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 11
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 13
-		}
-		paternal_autocrat = {
-			popularity = 17
-		}
-		national_populist = {
-			popularity = 51
-		}
-	}
-
-	ruling_party = national_populist
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-add_ideas = {
-	#medium_economy
 	ROM_Alexander_Cuza_hog_pau
 	ROM_Ion_Antonescu_for_npo
 	ROM_Constantin_Papanace_eco_npo
 	ROM_Cesare_Vaida_Voievod_sec_ade
 }
 
-create_country_leader = {
-	name = "니콜라에 차우셰스쿠"
-	desc = "Nicolae_Ceausescu_DESC"
-	picture = "Portrait_RRM_Nicolae_Ceausescu.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = { }
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	heavy_fighter1 = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		transport = 1
+	}
+}
+
+
+set_convoys = 20
+
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = Balkans_hates_bulgaria }
+
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = national_populist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 0
+    social_liberal = 3
+    market_liberal = 13
+    social_conservative = 18
+    authoritarian_democrat = 8
+    paternal_autocrat = 5
+    national_populist = 53
 }
 
 create_country_leader = {
-	name = "세르제 모스코비치"
-	desc = "Serge_Moscovici_DESC"
-	picture = "Portrait_RRM_Serge_Moscovici.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "게오르게 아포스톨"
-	desc = "Gheorghe_Apostol_DESC"
-	picture = "Portrait_RRM_Gheorghe_Apostol.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "미하이 1세"
-	desc = "Michael_I_DESC"
-	picture = "Portrait_RRM_Michael_I.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "호리아 시마"
-	desc = "Horia_Sima_DESC"
-	picture = "Portrait_RRM_Horia_Sima.tga"
-	expire = "2000.1.1"
+	name = "Corneliu Zelea Codreanu"
+	desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
+	picture = "Portrait_Romania_Corneliu_Zelea_Codreanu.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = { }
+	traits = {}
+}
+
+create_country_leader = {
+	name = "A.C. Cuza"
+	desc = "POLITICS_AC_CUZA_DESC"
+	picture = "Portrait_Romania_A._C._Cuza_I.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Nicolae I"
+	desc = "POLITICS_NICOLAE_I_DESC"
+	picture = "Portrait_Romania_Nicolae_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sever Bocu"
+	desc = "POLITICS_SEVER_BOCU_DESC"
+	picture = "Portrait_Romania_Sever_Bocu.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ion Mihalache"
+	desc = "POLITICS_ION_MIHALACHE_DESC"
+	picture = "Portrait_Romania_Ion_Mihalache.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Alexandru Averescu"
+	desc = "POLITICS_ALEXANDRU_AVERESCU_DESC"
+	picture = "Portrait_Romania_Alexandru_Averescu.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ion Gheorghe Duca"
+	desc = "POLITICS_ION_GHEORGHE_DUCA_DESC"
+	picture = "Portrait_Romania_Ion_Gheorghe_Duca.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Gheorghe Gheorghiu-Dej"
+	desc = "POLITICS_GHEORGHE_GHEORGHIU_DEJ_DESC"
+	picture = "Portrait_Romania_Gheorghe_Gheorghiu_Dej.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Teohari Georgescu"
+	desc = "POLITICS_TEOHARI_GEORGESCU_DESC"
+	picture = "Portrait_Romania_Teohari_Georgescu.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Lucretiu Patrascanu"
+	desc = "POLITICS_LUCRETIU_PATRASCANU_DESC"
+	picture = "Portrait_Romania_Lucretiu_Patrascanu.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
 }
 
 ### Field Marshal
@@ -223,7 +278,7 @@ create_field_marshal = {
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -237,7 +292,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -272,7 +327,7 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Constantin_Pantazi.tga"
 	traits = {}
 	skill = 2
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
@@ -290,7 +345,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -302,7 +357,7 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -317,7 +372,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -329,7 +384,7 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -343,7 +398,7 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 

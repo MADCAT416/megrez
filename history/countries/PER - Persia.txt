@@ -1,207 +1,178 @@
 ﻿capital = 266
-oob = "PER"
-
+OOB = "PER"
+set_naval_oob = "PER_naval"
 set_convoys = 30
-set_research_slots = 3
+set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 add_opinion_modifier = { target = SAU modifier = embargo }
 add_opinion_modifier = { target = OTT modifier = embargo }
 
-
+set_war_support = 0.25
 
 set_politics = {
-
-  parties = {
-    totalist = { 
-      popularity = 1
-    }
-
-    syndicalist = {
-      popularity = 1
-    }
-    
-    democratic_socialist = {
-      popularity = 8
-    }
-    
-    social_progressive = {
-      popularity = 5
-    }
-    
-    social_liberal = {
-      popularity = 15
-    }
-    
-    market_liberal = {
-      popularity = 10
-    }
-    
-    social_conservative = {
-      popularity = 20
-    }
-    
-    authoritarian_democrat = {
-      popularity = 20
-    }
-    
-    paternal_autocrat = {
-      popularity = 10
-    }
-    
-    national_populist = {
-      popularity = 10
-    }
-  }
-
-  ruling_party = authoritarian_democrat
-  last_election = "1932.5.1"
-  election_frequency = 48
-  elections_allowed = no
+	ruling_party = social_democrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 9
+    syndicalist = 0
+    social_democrat = 41
+    social_liberal = 2
+    market_liberal = 2
+    social_conservative = 4
+    authoritarian_democrat = 26
+    paternal_autocrat = 14
+    national_populist = 2
+}
+
+country_event = {
+	id = pers.1
+	days = 2
+}
 
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
+	name = "Bahram Ariana"
+	desc = "POLITICS_RESTA_ROUZA_DESC"
+	picture = "Portrait_Persia_Bahram_Aryiana.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
+	name = "Ahmad Shah Qajar"
+	desc = "POLITICS_AHMAD_QAJAR_DESC"
+	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
-
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
+	name = "Ahmad Shah Qajar"
+	desc = "POLITICS_AHMAD_QAJAR_DESC"
+	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
+	name = "Ahmad Shah Qajar"
+	desc = "POLITICS_AHMAD_QAJAR_DESC"
+	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
+	name = "Mohammad Ali Foroughi Zoka-ol-Molk"
+	desc = "POLITICS_ALI_FOROUGHI_DESC"
+	picture = "Portrait_Persia_Mohammad_Ali_Foroughi.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하미드 샤 카자르"
-	desc = "Hamid_Mirza_DESC"
-	picture = "Portrait_Persia_Hamid_Mirza.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	name = "Mohammad Mosaddegh"
+	desc = "POLITICS_MOSADDEGH_DESC"
+	picture = "Portrait_Persia_Mohammad_Mosaddegh.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "비잔 자자니"
-	desc = "Bijan_Jazani_DESC"
-	picture = "Portrait_Persia_Bijan_Jazani.tga"
-	expire = "2000.1.1"
+	name = "Ahmad Shah Qajar"
+	desc = "POLITICS_AHMAD_QAJAR_DESC"
+	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Iraj Eskandari"
+	desc = "POLITICS_IRAJ_ESKENDARI_DESC"
+	picture = "Portrait_Persia_Iraj_Eskandari.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "알리 하바리"
-	desc = "Ali_Khavari_DESC"
-	picture = "Portrait_Persia_Ali_Khavari.tga"
-	expire = "2000.1.1"
+	name = "Ja'far Pishevari"
+	desc = "POLITICS_IRANIAN_JAFAR_DESC"
+	picture = "Portrait_Persia_Ja'far_Pishevari.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "모하마드 하니프네자드"
-	desc = "Mohammad_Hanifnejad_DESC"
-	picture = "Portrait_Persia_Mohammad_Hanifnejad.tga"
-	expire = "2000.1.1"
+	name = "Avetis Soltanzadeh"
+	desc = "POLITICS_AVETIS_SOLTANZADEH_DESC"
+	picture = "Portrait_Persia_Avetis_Soltanzade.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아야톨라 루홀라 호메이니"
-	desc = "Ruhollah_Khomeini_DESC"
-	picture = "Portrait_Persia_Ruhollah_Khomeini.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
 	traits = {}
 }
 
@@ -212,6 +183,12 @@ add_ideas = {
 	PER_Mohammad_Taqi_Khan_Pessian_sec_sde
 	limited_conscription
 
+	PER_political_upheaval
+	PER_bad_military
+	PER_semi_famine
+	PER_corrupt_aristocrats
+	PER_unruly_khans
+	PER_illiteracy
 }
 
 ### Field Marshal
@@ -261,7 +238,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
@@ -272,7 +249,7 @@ create_corps_commander = { #Auto-Generated
 		career_officer
 	}
 	skill = 3
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
@@ -299,8 +276,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
+	defense_skill = 1
+	planning_skill = 3
 	logistics_skill = 1
 }
 
@@ -312,7 +289,7 @@ create_corps_commander = { #Auto-Generated
 		hill_fighter
 	}
 	skill = 3
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 1
@@ -334,8 +311,7 @@ create_corps_commander = { #Auto-Generated
 create_corps_commander = { #Auto-Generated
 	name = "Mohammad Pouladin"
 	portrait_path = "gfx/leaders/PER/Portrait_Persia_Mohammad_Pouladin.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -364,7 +340,7 @@ create_corps_commander = { #Auto-Generated
 		guerilla_fighter
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 3
 	logistics_skill = 1
@@ -379,8 +355,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
+	defense_skill = 2
+	planning_skill = 3
 	logistics_skill = 3
 }
 
@@ -390,7 +366,51 @@ create_corps_commander = { #Auto-Generated
 create_navy_leader = { #Auto-Generated
 	name = "Gholamali Bayandor"
 	portrait_path = "gfx/leaders/PER/Portrait_Persia_Gholamali_Bayandor.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+}
+
+### Ship Variants###
+create_equipment_variant = {
+	name = "Sahand Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+set_country_flag = kolberg_class_ship_variant
+create_equipment_variant = {
+	name = "Kolberg Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = v1_class_ship_variant
+create_equipment_variant = {
+	name = "V1 Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
 }

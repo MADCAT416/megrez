@@ -3,12 +3,12 @@ state = {
 	name = "STATE_163"
 	manpower = 331900
 
-	state_category = town
+	state_category = three
 
 	history = {
-		owner = YUG
+		owner = CRO
 		victory_points = {
-			3924 1
+			3924 5
 		}
 		buildings = {
 			infrastructure = 6
@@ -22,15 +22,14 @@ state = {
 			}
 			6889 = {
 				naval_base = 1
-
+				bunker = 3
 			}
 		}
 
-		add_core_of = YUG
 		add_core_of = CRO
 	}
 
 	provinces = {
-		3924 3943 3974 6889 11816 11901
+		3868 3924 3943 3974 6889 11816 11901
 	}
 }

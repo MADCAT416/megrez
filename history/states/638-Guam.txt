@@ -1,10 +1,10 @@
 state = {
 	id = 638
 	name = "STATE_638"
-	state_category = small_island
-	manpower = 75153
+	state_category = one_island
+	manpower = 20900
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			12140 = {
@@ -12,8 +12,6 @@ state = {
 			}
 		}
 		add_claim_by = JAP
-		add_core_of = CAL
-		add_claim_by = CSA
 		victory_points = {
 			12140 1
 		}

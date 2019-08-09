@@ -3,7 +3,7 @@ state = {
 	name = "STATE_299"
 	manpower = 2463
 
-	state_category = enclave
+	state_category = zero
 
 	history = {
 		owner = ARG
@@ -14,10 +14,9 @@ state = {
 			}
 		}
 		add_core_of = ARG
-		add_core_of = CAN
-		
+		add_claim_by = FOP
 		victory_points = {
-			12960 5
+			12960 1
 		}
 	}
 	provinces = { 12960 }

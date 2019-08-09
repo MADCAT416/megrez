@@ -3,14 +3,12 @@ state = {
 	name = "STATE_892"
 	manpower = 429470
 
-	state_category = pastoral
+	state_category = one
 
 	history = {
-		owner = CEA
-		add_core_of = MAF
-		add_core_of = CEA
+		owner = MAF
+		add_claim_by = MAF
 		add_core_of = SOM
-		add_core_of = KEN
 		buildings = {
 			infrastructure = 3
 		}

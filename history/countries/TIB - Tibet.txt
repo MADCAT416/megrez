@@ -1,204 +1,59 @@
 ﻿capital = 322
-oob = "TIB"
+OOB = "TIB"
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
 }
 
 add_opinion_modifier = { target = BHC modifier = embargo }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_progressive = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 19
-		}
-		paternal_autocrat = {
-			popularity = 41
-		}
-		national_populist = {
-			popularity = 8
-		}
-	}
-
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 2
+    social_democrat = 4
+    social_liberal = 6
+    market_liberal = 8
+    social_conservative = 12
+    authoritarian_democrat = 41
+    paternal_autocrat = 19
+    national_populist = 8
 }
 
 add_ideas = {
-	man_mon_tib_treaty
+	TIB_Reting_Rimpoche_hog_ade
+	TIB_Ngagchen_Rinpoche_for_ade
+	TIB_Khenrab_Kunzang_eco_ade
+	TIB_Tsering_Namgyal_sec_ade
 }
 
 create_country_leader = {
-	name = "아푀 아왕직메"
-	desc = "Ngapoi_Ngawang_Jigme_DESC"
-	picture = "Portrait_Tibet_Ngapoi_Ngawang_Jigme.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "푼촉 왕걀 고라낭파"
-	desc = "Phuntsok_Wangyal_DESC"
-	picture = "Portrait_Tibet_Phuntsok_Wangyal.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "겐뒨 최펠"
-	desc = "Gendun_Chophel_DESC"
-	picture = "Portrait_Tibet_Gendun_Chophel.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {shindon}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
+	name = "Tenpai Gyaltsen"
+	desc = "POLITICS_TIBET_REGENCY_DESC"
+	picture = "Portrait_Tibet_Regency.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "달라이 라마 14세"
-	desc = "14th_Dalai_Lama_DESC"
-	picture = "Portrait_Tibet_14th_Dalai_Lama.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {living_buddha}
-}
-
-create_country_leader = {
-	name = "어치르후야그투"
-	desc = "eqierhuyaketu_DESC"
-	picture = "Portrait_Tibet_eqierhuyaketu.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {spirit_of_genghis}
+	traits = {}
 }
 
 ### Field Marshal
 ### Corps Commander
 create_corps_commander = { #Auto-Generated
 	name = "Tsoko"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsoko.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsoko.tga"
 	traits = {
 		old_guard
 	}
@@ -211,7 +66,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Tsarong"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsarong.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsarong.tga"
 	traits = {
 		old_guard
 	}
@@ -224,7 +79,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Tendong Shappe"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tendong_Shappe.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tendong_Shappe.tga"
 	traits = {
 		old_guard
 	}
@@ -237,9 +92,8 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Ruthog"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Ruthog.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Ruthog.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -249,9 +103,8 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Namseling"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Namseling.tga"
-	traits = {
-	}
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Namseling.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -261,7 +114,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Khyungram Theji"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Khyungram_Theji.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Khyungram_Theji.tga"
 	traits = {
 		old_guard
 	}
@@ -274,7 +127,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Doring Theji"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Doring_Theji.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Doring_Theji.tga"
 	traits = {
 		winter_specialist
 	}
@@ -287,7 +140,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Dingja"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Dingja.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Dingja.tga"
 	traits = {
 		old_guard
 	}
@@ -300,7 +153,7 @@ create_corps_commander = { #Auto-Generated
 
 create_corps_commander = { #Auto-Generated
 	name = "Changra Depon"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Changra_Depon.tga"
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Changra_Depon.tga"
 	traits = {
 		fortress_buster
 		old_guard
@@ -315,8 +168,11 @@ create_corps_commander = { #Auto-Generated
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
 	name = "Tsoko"
-	portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsoko.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
+	#portrait_path = "gfx/leaders/TIB/Portrait_TIB_Tsoko.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

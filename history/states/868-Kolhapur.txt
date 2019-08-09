@@ -3,7 +3,7 @@ state = {
 	name = "STATE_868" # Kolhapur
 	manpower = 4652800
 
-	state_category = rural
+	state_category = two
 
 	resources = {
 		chromium = 5
@@ -11,12 +11,10 @@ state = {
 	}
 
 	history = {
-		owner = BHC
+		owner = PRF
 		add_core_of = PRF
-		add_core_of = DEH
-		add_core_of = RAJ
-		add_core_of = BHC
-		
+		add_claim_by = BHC
+		add_claim_by = DEH
 		victory_points = { 12295 1 } #Kolhapur
 		buildings = {
 			infrastructure = 4

@@ -32,6 +32,17 @@ scripted_gui = {
 			}
 		}
 	}
+	coalition_social_democrat_arrow = {
+		window_name = "coalition_social_democrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_social_democrat
+				has_government = social_democrat
+			}
+		}
+	}
 	coalition_social_progressive_arrow = {
 		window_name = "coalition_social_progressive_arrow"
 		parent_window_token = politics_tab
@@ -98,6 +109,17 @@ scripted_gui = {
 			}
 		}
 	}
+	coalition_clerical_nationalist_arrow = {
+		window_name = "coalition_clerical_nationalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			OR = {
+				has_country_flag = coalition_clerical_nationalist
+				has_government = clerical_nationalist
+			}
+		}
+	}
 	coalition_national_populist_arrow = {
 		window_name = "coalition_national_populist_arrow"
 		parent_window_token = politics_tab
@@ -109,7 +131,6 @@ scripted_gui = {
 			}
 		}
 	}
-
 	opposition_totalist_arrow = {
 		window_name = "opposition_totalist_arrow"
 		parent_window_token = politics_tab
@@ -149,6 +170,20 @@ scripted_gui = {
 					has_government = democratic_socialist
 				}
 				has_country_flag = banned_democratic_socialist
+			}
+		}
+	}
+	opposition_social_democrat_arrow = {
+		window_name = "opposition_social_democrat_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_social_democrat
+					has_government = social_democrat
+				}
+				has_country_flag = banned_social_democrat
 			}
 		}
 	}
@@ -236,6 +271,20 @@ scripted_gui = {
 			}
 		}
 	}
+	opposition_clerical_nationalist_arrow = {
+		window_name = "opposition_clerical_nationalist_arrow"
+		parent_window_token = politics_tab
+		
+		visible = {
+			NOT = {
+				OR = {
+					has_country_flag = coalition_clerical_nationalist
+					has_government = clerical_nationalist
+				}
+				has_country_flag = banned_clerical_nationalist
+			}
+		}
+	}
 	opposition_national_populist_arrow = {
 		window_name = "opposition_national_populist_arrow"
 		parent_window_token = politics_tab
@@ -250,7 +299,6 @@ scripted_gui = {
 			}
 		}
 	}
-
 	banned_totalist_x = {
 		window_name = "banned_totalist_x"
 		parent_window_token = politics_tab
@@ -273,6 +321,14 @@ scripted_gui = {
 		
 		visible = {
 			has_country_flag = banned_democratic_socialist
+		}
+	}
+	banned_social_democrat_x = {
+		window_name = "banned_social_democrat_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_social_democrat
 		}
 	}
 	banned_social_progressive_x = {
@@ -323,6 +379,14 @@ scripted_gui = {
 			has_country_flag = banned_paternal_autocrat
 		}
 	}
+	banned_clerical_nationalist_x = {
+		window_name = "banned_clerical_nationalist_x"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_country_flag = banned_clerical_nationalist
+		}
+	}
 	banned_national_populist_x = {
 		window_name = "banned_national_populist_x"
 		parent_window_token = politics_tab
@@ -331,5 +395,4 @@ scripted_gui = {
 			has_country_flag = banned_national_populist
 		}
 	}
-
 }

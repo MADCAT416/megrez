@@ -19,13 +19,13 @@ opinion_modifiers = {
 	}
 
 	holds_our_cores = {
-		value = -65
+		value = -60
 	}
 	holds_our_claims = {
-		value = -35
+		value = -30
 	}
 	claims_on_us = {
-		value = -25
+		value = -20
 	}
 	at_war_with_faction = {
 		value = -50
@@ -163,9 +163,9 @@ opinion_modifiers = {
 	}
 
 	in_faction = {
-		value = 75
-		max_trust = 75
-		min_trust = 75
+		value = 200
+		max_trust = 200
+		min_trust = 200
 	}
 
 	military_access = {
@@ -646,8 +646,15 @@ opinion_modifiers = {
 	### CENTROAMERICA FOCUS TREE ###
 
 	GUA_better_relations = {value = 25}
-	GUA_Siezed_Canal = {value = -50}
+	GUA_Seized_Canal = {value = -50}
 
 	### MITTELAFRIKA FOCUS TREE ###
 	MAF_Refused_Explain = {value = -30}
+
+	### Socislist CENTROAMERICA FOCUS TREE ###
+
+	CEN_Trade = {
+		trade = yes
+		value = 40
+	}
 }

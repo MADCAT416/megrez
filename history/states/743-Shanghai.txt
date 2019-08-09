@@ -3,15 +3,14 @@ state = {
 	name = "STATE_743" # Shanghai
 	manpower = 4730510
 
-	state_category = large_city
+	state_category = eight
 
 	history = {
 		owner = LEC
-		
-		add_core_of = SQI
 		add_core_of = QIE
+		add_core_of = SQI
 		add_core_of = LEC
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

@@ -1,165 +1,66 @@
 ﻿capital = 551
-oob = "SUD"
+OOB = "empty"
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### INF ###
+	infantry_weapons = 1
 }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 40
-		}
-		social_conservative = {
-			popularity = 15
-		}
-		authoritarian_democrat = {
-			popularity = 35
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
-	ruling_party = market_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-set_stability = 0.3
-set_war_support = 0.3
-
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "유수프 압드 알마지드"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {
-	}
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 2
+    social_liberal = 6
+    market_liberal = 6
+    social_conservative = 12
+    authoritarian_democrat = 15
+    paternal_autocrat = 47
+    national_populist = 12
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "압델 칼리크 마흐주브"
-	picture = "Portrait_SUD_Abdel_Khaliq_Mahjub.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-	}
-}
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "토비 마둣"
-	picture = "Portrait_SUD_Toby_Maduot.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {
-	}
-}
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "이스마일 알아즈하리"
-	picture = "Portrait_SUD_Gaafar_Nimeiry.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "사디크 알마흐디"
-	picture = "Portrait_SUD_Sadiq_al_Mahdi.tga"
-	expire = "2000.1.1"
+	name = "Abd al-Rahman al-Mahdi"
+	desc = "POLITICS_SUDANMAHDI_DESC"
+	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-	}
+	traits = {}
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "가파르 니메이리"
-	picture = "Portrait_SUD_Gaafar_Nimeiry.tga"
-	expire = "2000.1.1"
+	name = "Abd al-Rahman al-Mahdi"
+	desc = "POLITICS_SUDANMAHDI_DESC"
+	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
+	traits = {}
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "핫산 알투라비"
-	picture = "Portrait_SUD_Hassan_Al_Turabi.tga"
-	expire = "2000.1.1"
+	name = "Abd al-Rahman al-Mahdi"
+	desc = "POLITICS_SUDANMAHDI_DESC"
+	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "Abd al-Rahman al-Mahdi"
+	desc = "POLITICS_SUDANMAHDI_DESC"
+	picture = "Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 
 add_ideas = {
-	#medium_economy
 	SUD_Siddick_Sayed_el_Mahdi_hog_ade
 	SUD_Sayed_Abd_el_Rahman_el_Mahdi_for_ade
 	SUD_Slah_Elzubir_eco_sde
@@ -174,16 +75,16 @@ create_field_marshal = {# Ali Abd al Latif
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {# El Ferik Ibrahim Abboud
 	name = "El Ferik Ibrahim Abboud"
 	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Ferik_Abboud.tga"
-	traits = { }
+	traits = {}
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 

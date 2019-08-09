@@ -4,16 +4,13 @@ state = {
 	manpower = 298965
 
 
-	state_category = town
+	state_category = two
 
 	history = {
 		owner = ALB
 		add_core_of = ALB
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			anti_air_building = 1
-			
 		}
 	}
 

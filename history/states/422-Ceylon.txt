@@ -3,7 +3,7 @@ state = {
 	name = "STATE_422"
 	manpower = 5500000
 
-	state_category = rural
+	state_category = two
 
 	resources = {
 		rubber = 116
@@ -11,14 +11,11 @@ state = {
 
 	history = {
 		owner = GER
-		add_core_of = GER
-		add_claim_by = BHC
-		add_core_of = CEY
-		victory_points = { 7344 1 } #Colombo
+		victory_points = { 7260 1 } #Colombo
 		buildings = {
 			infrastructure = 3
 			air_base = 2
-			10201 = {
+			10229 = {
 				naval_base = 5
 			}
 			7260 = {

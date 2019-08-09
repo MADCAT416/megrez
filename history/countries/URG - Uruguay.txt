@@ -1,106 +1,122 @@
 ﻿capital = 300
-oob = "empty"
+OOB = "URG"
+set_naval_oob = "URG_naval"
 set_research_slots = 3
 set_technology = {
-
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	CAS1 = 1
+	### Naval ###
+	
+	
+	
 }
 
-set_politics = {
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 5
-		}
-		social_progressive = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 8
-		}
-		market_liberal = {
-			popularity = 36
-		}
-		social_conservative = {
-			popularity = 30
-		}
-		authoritarian_democrat = {
-			popularity = 2
-		}
-		paternal_autocrat = {
-			popularity = 8
-		}
-		national_populist = {
-			popularity = 2
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
 		}
 	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
 
-	ruling_party = social_progressive
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = social_democrat
 	last_election = "1934.4.4"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 5
+    syndicalist = 5
+    social_democrat = 36
+    social_liberal = 8
+    market_liberal = 4
+    social_conservative = 30
+    authoritarian_democrat = 2
+    paternal_autocrat = 8
+    national_populist = 2
 }
 
 
+country_event = {
+	id = urg.1
+	days = 2
+}
+
 add_ideas = {
+	URG_neutrality_idea
 	URG_Gabriel_Terra_hog_sde
 	URG_Hector_Alberto_Gerona_Sapello_for_sli
 	URG_Leopoldo_Carlos_Artucio_eco_sli
@@ -108,81 +124,91 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "윌손 페레이라 알두나테"
-	picture = "Portrait_URG_Wilson_Ferreira_Aldunate.tga"
-	expire = "2000.1.1"
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "리베르 세레그니"
-	picture = "Portrait_URG_Liber_Seregni.tga"
-	expire = "2000.1.1"
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "리베르 세레그니"
-	picture = "Portrait_URG_Liber_Seregni.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "후안 마리아 보르다베리"
-	picture = "Portrait_URG_Juan_Maria_Bordaberry.tga"
-	expire = "2000.1.1"
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "그레고리오 알바레스"
-	picture = "Portrait_URG_Gregorio_Conrado_Alvarez.tga"
-	expire = "2000.1.1"
+	name = "Gabriel Terra"
+	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	picture = "Portrait_Uruguay_Gabriel_Terra.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "그레고리오 알바레스"
-	picture = "Portrait_URG_Gregorio_Conrado_Alvarez.tga"
-	expire = "2000.1.1"
+	name = "Alfredo Baldomir Ferrari"
+	desc = "POLITICS_ALFREDO_FERRARI_DESC"
+	picture = "Portrait_Uruguay_Alfredo_Ferrari.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "라울 센딕"
-	picture = "Portrait_URG_Raul_Sendic.tga"
-	expire = "2000.1.1"
+	name = "Emilio Frugoni"
+	desc = "POLITICS_EMILIO_FRUGONI_DESC"
+	picture = "Portrait_Uruguay_Emilio_Frugoni.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "우고 코레스"
-	picture = "Portrait_URG_Hugo_Cores.tga"
-	expire = "2000.1.1"
+	name = "Paulina Luisi"
+	desc = "POLITICS_PAULINA_LUISI_DESC"
+	picture = "Portrait_Uruguay_Paulina_Luisi.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "후안 호세 크로토히니"
-	picture = "Portrait_URG_Juan_Jose_Crottogini.tga"
-	expire = "2000.1.1"
+	name = "Hugo Fernández Artucio"
+	desc = "POLITICS_HUGO_ARTUCIO_DESC"
+	#picture = "Portrait_Uruguay_Hugo_Artucio.tga" WIP
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "라파엘 아디에고 브루노"
-	picture = "Portrait_URG_Rafael_Addiego_Bruno.tga"
-	expire = "2000.1.1"
+	name = "Joaquín Secco Illa"
+	desc = "POLITICS_JUAQIN_ILLA_DESC"
+	#picture = "Portrait_Uruguay_Joaquin_Illa.tga" WIP
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -200,16 +226,16 @@ create_field_marshal = { #Auto-Generated
 		thorough_planner
 	}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 1
+	defense_skill = 4
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Óscar Diego Gestido"
 	desc = "URU_Oscar_Diego_Gestido_desc"
-	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+	portrait_path = "gfx/leaders/URG/Portrait_Uruguay_Oscar_Diego_Gestido.tga"
 	traits = {
 		career_officer
 		brilliant_strategist
@@ -218,8 +244,21 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Tydeo Larre Borges"
+	portrait_path = "gfx/leaders/URG/Portrait_Uruguay_Tydeo_Larre_Borges.tga"
+	traits = {
+		organizer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
@@ -228,7 +267,6 @@ create_corps_commander = { #Auto-Generated
 	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
 	traits = {
 		trait_cautious
-		organizer
 	}
 	skill = 1
 	attack_skill = 1
@@ -241,7 +279,34 @@ create_corps_commander = { #Auto-Generated
 create_navy_leader = { #Auto-Generated
 	name = "Atilio Frigerio"
 	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
+}
+
+set_country_flag = river_class_ship_variant
+create_equipment_variant = {
+	name = "River Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = tribal_class_ship_variant
+create_equipment_variant = {
+	name = "Tribal Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
 }

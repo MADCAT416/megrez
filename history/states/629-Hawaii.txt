@@ -1,10 +1,10 @@
 state = {
 	id = 629
 	name = "STATE_629"
-	manpower = 368336
-	state_category = town
+	manpower = 393000
+	state_category = four
 	history = {
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			air_base = 5
@@ -14,16 +14,8 @@ state = {
 			}
 		}
 		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = CSA
 		victory_points = {
 			4180 15
-		}
-		victory_points = {
-			12021 1
-		}
-		victory_points = {
-			10048 1
 		}
 	}
 

@@ -1,60 +1,14 @@
-﻿capital = 171
+﻿capital = 169
 oob = "empty"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
-	
+	### MOD ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	gwtank = 1
 }
 
 set_research_slots = 3
@@ -62,48 +16,21 @@ set_convoys = 30
 
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 5
-		}
-		social_progressive = {
-			popularity = 9
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		market_liberal = {
-			popularity = 12
-		}
-		social_conservative = {
-			popularity = 47
-		}
-		authoritarian_democrat = {
-			popularity = 8
-		}
-		paternal_autocrat = {
-			popularity = 5
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
 	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-
-
-
-
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 2
+    syndicalist = 5
+    social_democrat = 9
+    social_liberal = 10
+    market_liberal = 12
+    social_conservative = 47
+    authoritarian_democrat = 8
+    paternal_autocrat = 5
+    national_populist = 2
+}

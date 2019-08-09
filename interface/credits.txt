@@ -1,43 +1,59 @@
 ﻿#KAISERREICH for HEARTS of IRON 4
-Alpha 0.7: 'El Cóndor Pasa'
+Alpha 0.9 - 'Aurora Borealis'
 
-#The Kaiserreich Team
-Akamber
+#Created by the Kaiserreich 4 team
+Talented friends, every single one
+
 Anbory
+Arvidus
 Beelzebub
 Blackfalcon501
-DDago
 Denizz
 Dr. Njitram
+Drozdovite
+Edouard Saladier
+Eragaxshim
+Fbruchmueller
 Flamefang
-Herkles
+Go.Jr
+Imhungry5462
+JacKob
 Jeankedezeehond
-Kaiserbot
+Jonjon428
+Jonny BL
+Khalil
+Kracc
+Krčo
 Liegnitz
+Maltesefalcon
+MantisToboggan
 Medizine
-Miklos Horthy
-Nijato
 OperationsManagementDecisions
 PPsyrius
+Paul
 Pietrus
 Rinbro
+Roniius
 Roparex
 Rylock
-Sbadkins4
 Sea Lion
-TheBlackWinds
+Sjarlewis
+Stekpanna
+The Alpha Dog
 Thomahawk2k
-TornadoWatch
-VirtualHummingbird
+Vidyaország
 Wladyslaw Sikorski
 WordZero
-Wyandotte
+Yard1
+Zaddy-Chan
 Zankoas
 
 #Our Fallen Comrades
-~mw~
+Kaiserreich is built on your shoulders
+
 Ace of Aces
 Ahearne
+Akamber
 AllyJammy
 Augenis
 Autovonbismarck
@@ -45,69 +61,139 @@ BattleSarge
 Chef Exellence
 Cinzya
 CrazyZombie
+DDago
 Dedlift
 Delincious
 Devastator
-DoctorPainkiller
+DrDiHai
 Dskod1
 Dylanstrategie
 Esmaerla
 Fatherlorris
 Firefly
+Foffy123
+Generalissima
 Gibzit
 Harmazon
+Herkles
 Hyvinvointinionvaakalaudalla
 Indyclone77
+IratePirate
 Jak
+JakeR2000
 Kallar
 Kornilov
-Kraken
+MPdisappeared
 MaelTec
 Mark
 MattTheCzar
-Miinda
+Miklos Horthy
 Mikus
 Miyokari
 MonarchistKaiser
+Nijato
 Packard
 Phil
 Pinback
+Rangerage
 Raptor Jesus
 Rebi-chan
 Satellite Yung
+Sbadkins4
 Selim
+Sir Rogers
 Skullcrusher
 Tatiana
 TheBeezKneez
+TheBlackWinds
+TornadoWatch
+VietcongTrap
+VirtualHummingbird
 WentBerzerk
+Wyandotte
 Zarasophos
 Zombieman2344
+~mw~
 
-#Thanks to the following modders
-Who have so generously donated some of their work
+#Special Thanks To
+Those who have so generously helped us along the way
 
-A Carton of Juice
 Adszok
-AKAGIxxKAGA
 Halcyon Hush
-Schüewoo
-SilentAssassin
-Skyllio
-Sleight of Hand
-Tekoa
-Ulmont
-Yakez
-魔人ぐだ子
-电灯弗里曼
 Nazar
+Sleight of Hand
+
+The never-sleeping Kaiserbot
+
+The whole of the Modding Coop
+
+Extra thanks to the Führerreich team
+
+#With Work From the Following Modders
+People who so kindly donated their work to us
+
+Battlesound - Sound Modification:
+Tekoa
+
+Brazil, Ireland, Denmark, Netherlands, Sweden Uniform Reskins:
+Skyllio
+
+DH Entente Music Pack:
+Nightwing
+
+HOI4 Total Reskin Pack:
+AKAGIxxKAGA
+Majin guda-ko
+
+Icons for Plane:
+Schüewoo
+
+Impassable Terrain:
+Yakez
+
+Kaiserreich Custom Country Paths:
+Von_Laughing
+
+KR - Total Reskin:
+A Carton of Juice
+
+Lamp's Eqpt Icons:
+Diàndēng fú lǐ màn
+
+Minor Nation Sprites:
 Majestic Lemmings
+
+More Model Images:
 Tnoji
 
-#BASED ON A IDEA BY
+Operation Overhaul:
+Berk24
+Ulmont
+VDNKh
+Lavo
+CyclicRoF
+
+Siamese Troop VO:
+ToonPC
+
+Small Arms & Uniforms:
+McNaughton
+
+Turkey, Manchukuo, and Finnish Reskins:
+SilentAssassin
+
+Unique Infantry Equipment:
+Ulmont (Again)
+
+Iran - The sick man of the middle east:
+Boolean
+
+#Based On An Idea By
 Sarmatia1871
 
 
-...and to you, the player!
+
+...and finally thanks to you, the player!
 
 
 

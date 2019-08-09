@@ -4,8 +4,8 @@ state={
 	name="STATE_1009"
 
 	history={
-		owner = LYB
-		add_core_of = LYB
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
 
@@ -14,10 +14,10 @@ state={
 	}
 
 	provinces={
-		1057 1060 1140 7076 10104 10754 4191 
+		1057 1060 1140 4191 7076 10104 10754 
 	}
+	impassable = yes
 	manpower=20214
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	
 }

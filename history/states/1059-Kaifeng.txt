@@ -2,13 +2,12 @@ state = {
 	id = 1059
 	name = "STATE_1059"
 	manpower = 15160000
-	state_category = rural
+	state_category = two
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
+		owner = QIE
 		add_core_of = QIE
-		
+		add_core_of = SQI
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 3
 		}

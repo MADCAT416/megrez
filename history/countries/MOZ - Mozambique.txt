@@ -1,172 +1,29 @@
 ﻿capital = 950
-oob = "empty"
+OOB = "empty"
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### INF ###
+	infantry_weapons = 1
 }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 5
-		}
-		democratic_socialist = {
-			popularity = 10
-		}
-		syndicalist = {
-			popularity = 27
-		}
-		social_progressive = {
-			popularity = 7
-		}
-		social_liberal = {
-			popularity = 9
-		}
-		market_liberal = {
-			popularity = 9
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 15
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
-	ruling_party = syndicalist
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-create_country_leader = {
-	name = "안드레 마트상가이사"
-	picture = "Andre_Matsangaissa.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "안드레 마트상가이사"
-	picture = "Andre_Matsangaissa.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "안드레 마트상가이사"
-	picture = "Andre_Matsangaissa.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "안드레 마트상가이사"
-	picture = "Andre_Matsangaissa.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "사모라 마셸"
-	picture = "Samora_Machel.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "사모라 마셸"
-	picture = "Samora_Machel.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "안드레 마트상가이사"
-	picture = "Andre_Matsangaissa.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "사모라 마셸"
-	picture = "Samora_Machel.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "사모라 마셸"
-	picture = "Samora_Machel.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "사모라 마셸"
-	picture = "Samora_Machel.tga"
-	expire = "2000.1.1"
-	ideology = Totalist_subtype
-	traits = {}
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 2
+    social_liberal = 6
+    market_liberal = 6
+    social_conservative = 12
+    authoritarian_democrat = 15
+    paternal_autocrat = 47
+    national_populist = 12
 }
 
 ### Field Marshal
@@ -178,7 +35,7 @@ create_field_marshal = { #Auto-Generated
 		old_guard
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
@@ -192,10 +49,10 @@ create_corps_commander = { #Auto-Generated
 		trait_reckless
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
@@ -208,14 +65,13 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Ivens Ferraz"
 	portrait_path = "gfx/leaders/MOZ/Portrait_MOZ_Ivens_Ferraz.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
@@ -232,13 +88,20 @@ create_navy_leader = { #Auto-Generated
 		spotter
 	}
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Garcia Rosado"
 	portrait_path = "gfx/leaders/MOZ/Portrait_MOZ_Garcia_Rosado.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 

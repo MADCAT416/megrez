@@ -2,23 +2,21 @@ state = { # Xiamen
 	id = 802
 	name = "STATE_802"
 	manpower = 177000
-	state_category = town
+	state_category = two
 
 	history = {
-		owner = SQI
-		
-		add_core_of = SQI
+		owner = AOG
 		add_core_of = QIE
-
+		add_core_of = SQI
 		add_core_of = AOG
-		
+		add_core_of = FNG
 		victory_points = {
 			7071 1
 		}
 
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 1
 			dockyard = 1
 			7071 = {
 				naval_base = 1

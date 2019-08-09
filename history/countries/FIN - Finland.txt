@@ -1,105 +1,122 @@
 ﻿capital = 840
-oob = "FIN"
+OOB = "FIN"
+set_naval_oob = "FIN_naval"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-motorized_rocket_1 = 1
-manpads_1 = 1
-antiair_1 = 1
-antitank_1 = 1
-infantry_at_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	### Naval ###
+	
+	
 }
 
-add_opinion_modifier = { target = SOV modifier = embargo }
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-set_politics = {
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
 
-	parties = {
-		totalist = {
-			popularity = 1
-		}
-		syndicalist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		social_progressive = {
-			popularity = 25
-		}
-		social_liberal = {
-			popularity = 30
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 15
-		}
-		authoritarian_democrat = {
-			popularity = 3
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 7
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
 		}
 	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
 
-	ruling_party = social_liberal
-	last_election = "1888.15.6"
+country_event = { id = finland.1 days = 1 }
+country_event = { id = finland.128 days = 1609 }
+country_event = { id = finland.129 days = 1609 }
+
+add_opinion_modifier = { target = SOV modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = BHC modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = CSA modifier = embargo }
+add_opinion_modifier = { target = SRI modifier = embargo }
+
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    syndicalist = 3
+    democratic_socialist = 0
+    social_democrat = 29
+    social_liberal = 7
+    market_liberal = 1
+    social_conservative = 14
+    authoritarian_democrat = 4
+    paternal_autocrat = 30
+    national_populist = 12
 }
 
 set_convoys = 20
@@ -108,336 +125,424 @@ set_research_slots = 3
 
 add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
 reverse_add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+give_military_access = GER
 
 add_ideas = {
-	#medium_economy
-	FIN_Vihtori_Kosola_hog_pau
-	FIN_Hilja_Riipinen_for_pau
-	FIN_Juho_Niukkanen_eco_mli
-	FIN_Bruno_Salmiala_sec_pau
+	FIN_mounting_dissent_idea
+	FIN_ukrainian_grain_imports_idea
+	FIN_Juho_Kusti_Paasikivi_hog_pau
+	FIN_Kaarle_Nestor_Rantakari_for_pau
+	FIN_Karl_Alfred_Paloheimo_eco_pau
+	FIN_Hjalmar_Procope_sec_pau
 	extensive_conscription
-	#ZO_idea
-	
-	sisu_spirit
 }
 
 create_country_leader = {
-	name = "헤르타 쿠시넨"
-	desc = "Hertta_Kuusinen_DESC"
-	picture = "Portrait_Finland_Hertta_Kuusinen.tga"
-	expire = "2000.1.1"
+	name = "Otto Wille Kuusinen"
+	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
+	picture = "Portrait_FIN_Otto_Wille_Kuusinen.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {hog_totalist_chairman}
+	traits = {}
 }
 
-
 create_country_leader = {
-	name = "마우노 코이비스토"
-	desc = "Mauno_Koivisto_DESC"
-	picture = "Portrait_Finland_Mauno_Koivisto.tga"
-	expire = "2000.1.1"
+	name = "Kullervo Manner"
+	desc = "POLITICS_KULLERVO_MANNER_DESC"
+	picture = "Portrait_FIN_Kullervo_Manner.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
-	traits = {union_chair}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "마우노 코이비스토"
-	desc = "Mauno_Koivisto_DESC"
-	picture = "Portrait_Finland_Mauno_Koivisto.tga"
-	expire = "2000.1.1"
+	name = "Oskari Tokoi"
+	desc = "POLITICS_OSKARI_TOKOI_DESC"
+	picture = "Portrait_FIN_Oskari_Tokoi.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {union_chair}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {business_monarch}
+	name = "Väinö Tanner"
+	desc = "POLITICS_VAINO_TANNER_DESC"
+	picture = "Portrait_FIN_Vaino_Tanner.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
 }
 
-
 create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYOSTI_KALLIO_DESC"
+	picture = "Portrait_Fin_Kyosti_Kallio.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {business_monarch}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
+	name = "Kaarlo Juho Ståhlberg"
+	desc = "POLITICS_KAARLO_JUHO_STAHLBERG_DESC"
+	picture = "Portrait_FIN_Kaarlo_Juho_Stahlberg.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
-	traits = {business_monarch}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
+	name = "Pehr Evind Svinhufvud"
+	desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
+	picture = "Portrait_FIN_Pehr_Evind_Svinhufvud.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {business_monarch}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {business_monarch}
-}
-
-create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {business_monarch}
-}
-
-create_country_leader = {
-	name = "볼프강 1세"
-	desc = "Wolfgang_I_DESC"
-	picture = "Portrait_Finland_Wolfgang_I.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {business_monarch}
-}
-
-create_field_marshal = {
 	name = "Carl Gustaf Mannerheim"
-	picture = "Portrait_Finland_Carl_Gustaf_Mannerheim.tga"
+	desc = "POLITICS_CARL_GUSTAF_MANNERHEIM_DESC"
+	picture = "Portrait_FIN_Carl_Gustaf_Mannerheim.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fredrik Kaarle I"
+	desc = "POLITICS_FREDRIK_KAARLE_DESC"
+	picture = "Portrait_FIN_Fredrik_Kaarle_I.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Kurt Martti Wallenius"
+	desc = "POLITICS_KURT_MARTTI_WALLENIUS_DESC"
+	picture = "Portrait_FIN_Kurt_Martti_Wallenius.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+
+### Field Marshals ###
+create_field_marshal = {
+	name = "Karl Lennart Oesch"
+	picture = "Portrait_FIN_Karl_Lennart_Oesch.tga"
+	id = 326
 	traits = {
-		defensive_doctrine
-		logistics_wizard
+		organisational_leader
+		brilliant_strategist
+		skilled_staffer
+		organizer
 	}
 	skill = 4
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 3
-
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_field_marshal = {
-	name = "Aksel Airo"
-	picture = "Portrait_Finland_Aksel_Airo.tga"
+	name = "Erik Heinrichs"
+	picture = "Portrait_FIN_Erik_Heinrichs.tga"
+	id = 329
 	traits = {
-		organizer
-		thorough_planner
-		hill_fighter
+		career_officer
+		politically_connected
 	}
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 5
+	defense_skill = 1
+	planning_skill = 2
 	logistics_skill = 4
+}
 
+create_field_marshal = {
+	name = "Lauri Malmberg"
+	picture = "Portrait_FIN_Lauri_Malmberg.tga"
+	id = 331
+	traits = {
+		career_officer
+		skilled_staffer
+		expert_delegator
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Paavo Talvela"
-	picture = "Portrait_Finland_Paavo_Talvela.tga"
+	picture = "Portrait_FIN_Paavo_Talvela.tga"
+	id = 747910
 	traits = {
-		offensive_doctrine
+		aggressive_assaulter
+		commando
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+### Corps Commanders ###
+create_corps_commander = {
+	name = "Aksel Airo"
+	picture = "Portrait_FIN_Aksel_Airo.tga"
+	traits = {
+		skilled_staffer
+		bearer_of_artillery
 	}
 	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Karl Lennart Oesch"
-	picture = "Portrait_Finland_Karl_Lennart_Oesch.tga"
-	traits = {
-		winter_specialist
-		trickster
-		ranger
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-
-}
-
-create_corps_commander = {
-	name = "Ruben Lagus"
-	picture = "Portrait_Finland_Ruben_Lagus.tga"
-	traits = {
-		trickster
-		armor_officer
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 1
 	planning_skill = 3
-	logistics_skill = 4
-
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Aaro Pajari"
-	picture = "Portrait_Finland_Aaro_Pajari.tga"
+	picture = "Portrait_FIN_Aaro_Pajari.tga"
 	traits = {
+		brilliant_strategist
 		trait_reckless
-		ranger
-		infantry_leader
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Hjalmar Siilasvuo"
-	picture = "Portrait_Finland_Hjalmar_Siilasvuo.tga"
-	traits = {
-		commando
-		winter_specialist
+		trickster
+		guerilla_fighter
 	}
 	skill = 3
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Erik Heinrichs"
-	picture = "Portrait_Finland_Erik_Heinrichs.tga"
-	traits = {
-		infantry_officer
-		trait_engineer
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Harald Öhquist"
-	picture = "Portrait_Finland_Harald_Ohquist.tga"
-	traits = {
-		hill_fighter
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Niilo Hersalo"
-	picture = "Portrait_Finland_Niilo_Hersalo.tga"
-	traits = {
-		career_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Ernst Linder"
-	picture = "Portrait_Finland_Ernst_Linder.tga"
-	traits = {
-		commando
-		winter_specialist
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Harry Alfthan"
-	picture = "Portrait_Finland_Harry_Alfthan.tga"
-	traits = {
-		cavalry_officer
-		cavalry_leader
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-
-}
-
-create_corps_commander = {
-	name = "Hugo Österman"
-	picture = "Portrait_Finland_Hugo_Osterman.tga"
-	traits = {
-		ranger
-	}
-	skill = 2
-	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 3
-
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Wiljo Tuompo"
-	picture = "Portrait_Finland_Wiljo_Tuompo.tga"
+	picture = "Portrait_FIN_Wiljo_Tuompo.tga"
+	traits = {
+		career_officer
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ruben Lagus"
+	picture = "Portrait_FIN_Ruben_Lagus.tga"
+	id = 327
 	traits = {
 		infantry_officer
 	}
 	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Hjalmar Siilasvuo"
+	picture = "Portrait_FIN_Hjalmar_Siilasvuo.tga"
+	id = 328
+	traits = {
+		cavalry_officer
+		skilled_staffer
+	}
+	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 1
+	planning_skill = 3
 	logistics_skill = 2
-
 }
+
+create_corps_commander = {
+	name = "Harald Öhquist"
+	picture = "Portrait_FIN_Harald_Ohquist.tga"
+	id = 330
+	traits = {
+		career_officer
+		trait_cautious
+		organizer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Niilo Hersalo"
+	picture = "Portrait_FIN_Niilo_Hersalo.tga"
+	traits = {
+		career_officer
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Harry Alfthan"
+	picture = "Portrait_FIN_Harry_Alfthan.tga"
+	id = 332
+	traits = {
+		career_officer
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugo Österman"
+	picture = "Portrait_FIN_Hugo_Osterman.tga"
+	traits = {
+		career_officer
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+### Navy Leaders ###
 
 create_navy_leader = {
 	name = "Väinö Valve"
-	picture = "Portrait_Finland_Vaino_Valve.tga"
-	traits = { superior_tactician }
-	skill = 3
+	picture = "Portrait_FIN_Vaino_Valve.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 2
 }
 
 create_navy_leader = {
 	name = "Eero Rahola"
-	picture = "Portrait_Finland_Eero_Rahola.tga"
-	traits = { spotter }
-	skill = 3
+	picture = "Portrait_FIN_Eero_Rahola.tga"
+	traits = {
+		spotter
+	}
+	skill = 2
 }
 
 create_navy_leader = {
 	name = "Svante Sundman"
-	picture = "Portrait_Finland_Svante_Sundman.tga"
-	traits = { seawolf }
+	picture = "Portrait_FIN_Svante_Sundman.tga"
+	traits = {
+		superior_tactician
+	}
 	skill = 2
+}
+
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Filin Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Golub Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+}
+
+create_equipment_variant = {
+	name = "AG Class"
+	type = ship_hull_submarine_1
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Jääkarhu Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_battery_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Wäinämöinen Class"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Vetehinen Class"
+	type = ship_hull_submarine_3
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+}
+
+set_country_flag = s_class_ship_variant
+create_equipment_variant = {
+	name = "S Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
 }

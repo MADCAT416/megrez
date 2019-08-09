@@ -7,32 +7,33 @@ state = {
 	}
 
 	history = {
-		owner = PAP
+		owner = ITA
+		add_claim_by = SRI
 		victory_points = {
 			6626 1
 		}
 		victory_points = {
-			11584 1
+			603 3
+		}
+		victory_points = {
+			11584 20
 		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 4
+			industrial_complex = 3
+			arms_factory = 1
 			air_base = 3
-			anti_air_building = 1
-			synthetic_refinery = 1
 			11584 = {
 				naval_base = 6
+				bunker = 1
 			}
 		}
-		add_core_of = PAP
 		add_core_of = ITA
-
 	}
 
 	provinces = {
 		603 3604 9582 11584
 	}
 	manpower = 3349800
-	buildings_max_level_factor = 1
-	state_category = large_city
+	state_category = eight
 }

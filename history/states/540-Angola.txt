@@ -3,12 +3,10 @@ state = {
 	name = "STATE_540"
 	manpower = 2711500
 
-	state_category = hyvin
+	state_category = three
 
 	history = {
 		owner = POR
-		add_core_of = POR
-		add_core_of = ANG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

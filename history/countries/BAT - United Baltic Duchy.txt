@@ -1,222 +1,119 @@
 ﻿capital = 12
 
 oob = "BAT"
+set_naval_oob = "BAT_naval"
 
 set_technology = {
+	### MOD ###
 
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
-	
-	etc_infantry_equipments_1 = 1 # 1960
-	
-	night_vision_1 = 1 # 1960
-	
-	Bulletproof_vest_1 = 1 # 1960
-	
-	support_weapons_1 = 1 # 1960
-		
-	airborne_1 = 1 # 1960
-	
-	motorised_infantry = 1 # 1955
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
 
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	
-	tech_engineers_1 = 1 # 1960
-	
-	tech_military_police_1 = 1 # 1960
-	
-	tech_maintenance_company_1 = 1 # 1960
-	
-	tech_field_hospital_1 = 1 # 1960
-	
-	tech_logistics_company_1 = 1 # 1960
-	
-	tech_signal_company_1 = 1 # 1960
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
 
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	### Naval ###
 	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
 	
-	mechanised_infantry_1 = 1 # 1960
 	
-	amphibious_assault_vehicle_1 = 1 # 1960
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	spa_1 = 1 # 1960
-		
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	antitank_1 = 1 # 1965
-		
-	antiair_1 = 1 # 1960
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-		
-### 대형함
-	battleship_1 = 1 # 1945
-		
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	
-### 항공기
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	
-	experimental_rockets = 1 # 1920
-	
-	jet_engines_1 = 1 # 1940
-	
-	atomic_research = 1 # 1940
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	
-	improved_equipment_conversion = 1 # 1937
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	rubber_processing = 1 # 1937
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-
 }
 
-set_stability = 0.3
-set_war_support = 0.4
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1 
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1 
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
+
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
+
+set_stability = 0.5
+set_war_support = 0.10
 set_research_slots = 3
 set_convoys = 30
-
-add_ideas = {
-	}
-
-add_opinion_modifier = { target = FRA modifier = embargo }
-add_opinion_modifier = { target = ENG modifier = embargo }
-add_opinion_modifier = { target = SRI modifier = embargo }
-
-set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 50
-		}
-		paternal_autocrat = {
-			popularity = 30
-		}
-		national_populist = {
-			popularity = 10
-		}
-	}
-
-	ruling_party = paternal_autocrat
-	last_election = "1888.15.6"
-	election_frequency = 48
-	elections_allowed = no
-
+set_variable = {
+	var = germanisation_var
+	value = 0
+}
+set_variable = {
+	var = balts_resistance_var
+	value = 0
 }
 
-add_ideas = { 
-	#medium_economy
+add_ideas = {
+	BAT_multi_ling
+	BAT_start_crisis
 	extensive_conscription
 	BAT_Andrievs_Niedra_hog_pau
 	BAT_Alfred_Rosenberg_for_npo
@@ -224,96 +121,115 @@ add_ideas = {
 	BAT_Kurt_Georg_Andersen_sec_ade
 }
 
+country_event = {
+	id = balticduchy.1
+	days = 10
+	random = 100
+}	
+
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = SRI modifier = embargo }
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 0
+    social_liberal = 6
+    market_liberal = 15
+    social_conservative = 23
+    authoritarian_democrat = 5
+    paternal_autocrat = 41
+    national_populist = 10
+}
+
 create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
+	name = "Adolf Friedrich"
+	desc = "POLITICS_ADOLF_FRIEDRICH_DESC"
 	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {phantom_of_past}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "아르비츠 펠셰"
-	picture = "Portrait_Baltic_Arvis_Pelse.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "아르비츠 펠셰"
-	picture = "Portrait_Baltic_Arvis_Pelse.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "아르비츠 펠셰"
-	picture = "Portrait_Baltic_Arvis_Pelse.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
-	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {phantom_of_past}
-}
-
-create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
-	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {phantom_of_past}
-}
-
-create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
-	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {phantom_of_past}
-}
-
-create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
-	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {phantom_of_past}
-}
-
-create_country_leader = {
-	name = "아돌프 프리드리히 추 메클렌부르크 공작"
-	desc = "ADOLF_FRIEDRICH_DESC"
-	picture = "Portrait_Baltic_Adolf_Friedrich.tga"
-	expire = "2000.1.1"
+	name = "Alfred Fletcher"
+	desc = "POLITICS_ALFRED_FLETCHER_DESC"
+	picture = "Portrait_Baltic_Alfred_Fletcher.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {phantom_of_past}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "한스 칼름"
-	picture = "Portrait_Baltic_Hans_Kalm.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {sec_prince_of_terror for_iron_fisted_brute}
+	name = "Kārlis Ulmanis"
+	desc = "POLITICS_KARLIS_ULMANIS_DESC"
+	picture = "Portrait_Baltic_Karlis_Ulmanis.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Jaan Tõnisson"
+	desc = "POLITICS_JAAN_TONISSON_DESC"
+	picture = "Portrait_Baltic_Jaan_Tonisson.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "August Rei"
+	desc = "POLITICS_AUGUST_REI_DESC"
+	picture = "Portrait_Baltic_August_Rei.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Martynas Yčas"
+	desc = "POLITICS_MARTYNAS_YCAS_DESC"
+	picture = "Portrait_Baltic_Kirhensteins.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Augusts Kirhenšteins"
+	desc = "POLITICS_AUGUSTUS_KIRHENSTEINS_DESC"
+	picture = "Portrait_Baltic_Kirhensteins.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Viktor Kingissepp"
+	desc = "POLITICS_VIKTOR_KINGISSEPP"
+	picture = "Portrait_Baltic_Kingiessepp.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Viktor Kingissepp"
+	desc = "POLITICS_VIKTOR_KINGISSEPP"
+	picture = "Portrait_Baltic_Kingiessepp.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {}
 }
 
 create_field_marshal = {
@@ -329,8 +245,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Hans Baron Manteuffel-Szoege"
-	picture = "Portrait_Baltic_Hans_Baron_Manteuffel_Szoege.tga"
+	name = "Alfred von Randow"
+	picture = "Portrait_Baltic_Alfred_von_Randow.tga"
 	traits = { trickster panzer_leader }
 	skill = 4
 	attack_skill = 3
@@ -348,7 +264,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 
 }
 
@@ -359,8 +275,8 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 
 }
 
@@ -379,7 +295,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Hermanis Buks"
 	picture = "Portrait_Baltic_Hermanis_Buks.tga"
-	traits = { }
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -403,12 +319,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Gustav Jonson"
 	picture = "Portrait_Baltic_Gustav_Jonson.tga"
-	traits = { }
+	traits = {}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 
 }
 
@@ -417,10 +333,34 @@ create_corps_commander = {
 	picture = "Portrait_Baltic_Heinrich_Graf_zu_Dohna_Schlobitten.tga"
 	traits = { hill_fighter }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+
+}
+
+create_corps_commander = {
+	name = "Hans Joachim von Manteuffel"
+	picture = "Portrait_Baltic_Baron_Hans_Joachim_von_Manteuffel.tga"
+	traits = {  }
+	skill = 2
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 1
+	logistics_skill = 2
+
+}
+
+create_corps_commander = {
+	name = "Otto Zeltins-Goldfelds"
+	picture = "Portrait_Baltic_Otto_Zeltins-Goldfelds.tga"
+	traits = { commando }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
 
 }
 
@@ -429,6 +369,10 @@ create_navy_leader = {
 	picture = "Portrait_Baltic_Alexander_von_Salza.tga"
 	traits = { superior_tactician }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -436,6 +380,10 @@ create_navy_leader = {
 	picture = "Portrait_Baltic_Archibald_von_Keyserling.tga"
 	traits = { spotter }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 
 create_navy_leader = {
@@ -443,4 +391,101 @@ create_navy_leader = {
 	picture = "Portrait_Baltic_Johan_Pitka.tga"
 	traits = { blockade_runner }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+### Ship Variants ###
+create_equipment_variant = {
+    name = "Riga Class"
+    type = ship_hull_light_3
+    parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+	}
+}
+
+create_equipment_variant = {
+    name = "S100 Class"
+    type = ship_hull_submarine_3
+    parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+	}
+}
+set_country_flag = nassau_class_ship_variant
+create_equipment_variant = {
+	name = "Nassau Class" 
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {		
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+set_country_flag = deutschland_class_ship_variant
+create_equipment_variant = {
+	name = "Deutschland Class" 
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {		
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+set_country_flag = izyaslav_class_ship_variant
+create_equipment_variant = {
+	name = "Izyaslav Class" 
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+		
+	}
+	obsolete = yes
+}
+
+set_country_flag = gavriil_class_ship_variant
+create_equipment_variant = {
+	name = "Gavriil Class" 
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+		
+	}
+	obsolete = yes
 }

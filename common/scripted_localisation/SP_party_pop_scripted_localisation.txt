@@ -22,11 +22,18 @@ defined_text = {
 	
 	text = {
 		trigger = {
+			has_government = social_democrat
+		}
+		localization_key = social_democrat_desc
+	}
+
+	text = {
+		trigger = {
 			has_government = social_progressive
 		}
 		localization_key = social_progressive_desc
 	}
-	
+
 	text = {
 		trigger = {
 			has_government = social_liberal
@@ -61,7 +68,14 @@ defined_text = {
 		}
 		localization_key = paternal_autocrat_desc
 	}
-	
+
+	text = {
+		trigger = {
+			has_government = clerical_nationalist
+		}
+		localization_key = clerical_nationalist_desc
+	}
+
 	text = {
 		trigger = {
 			has_government = national_populist
@@ -135,6 +149,27 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetCoalitionStarTooltipSocialDemocrat
+	text = {
+		trigger = {
+			has_government = social_democrat
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_democrat
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
 	name = GetCoalitionStarTooltipSocialProgressive
 	text = {
 		trigger = {
@@ -146,6 +181,27 @@ defined_text = {
 	text = {
 		trigger = {
 			has_government = social_progressive
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipSocialLiberal
+	text = {
+		trigger = {
+			has_government = social_liberal
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
 			has_coalition = yes
 		}
 		localization_key = coalition_party_ruling
@@ -251,6 +307,27 @@ defined_text = {
 	text = {
 		trigger = {
 			has_government = paternal_autocrat
+			has_coalition = yes
+		}
+		localization_key = coalition_party_ruling
+	}
+	text = {
+		localization_key = coalition_party_nonruling
+	}
+}
+
+defined_text = {
+	name = GetCoalitionStarTooltipClerical_Nationalist
+	text = {
+		trigger = {
+			has_government = clerical_nationalist
+			NOT = { has_coalition = yes }
+		}
+		localization_key = no_coalition_ruling_party
+	}
+	text = {
+		trigger = {
+			has_government = clerical_nationalist
 			has_coalition = yes
 		}
 		localization_key = coalition_party_ruling

@@ -8,17 +8,12 @@ state = {
 
 	history = {
 		owner = SAF
-		add_core_of = SAF
-		add_core_of = ZIM
+		add_claim_by = SAF
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
 			10929 1
-		}
-		victory_points = {
-			7842 1
 		}
 	}
 
@@ -26,6 +21,5 @@ state = {
 		1874 2151 2216 4851 7842 10929
 	}
 	manpower = 1356800
-	buildings_max_level_factor = 1
-	state_category = "rural"
+	state_category = two
 }

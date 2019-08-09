@@ -1,196 +1,171 @@
-﻿capital = 313
-#OOB = "CEN"
+﻿capital = 317
+#OOB = "empty"
 set_convoys = 20
 set_research_slots = 3
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
 }
 
-set_stability = 0.4
-set_war_support = 0.5
+### Navy - MtG ###
 
-set_politics = {
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		weltkrieg_cruiser_hull = 1
 
-	parties = {
-		totalist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 67
-		}
-		syndicalist = {
-			popularity = 10
-		}
-		social_progressive = {
-			popularity = 20
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
 		}
 	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
 
+set_stability = 0.47
+set_war_support = 0.35
+
+set_politics = {
 	ruling_party = democratic_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_popularities = {
+    totalist = 17
+    syndicalist = 23
+    democratic_socialist = 32
+    social_democrat = 24
+    social_liberal = 3
+    market_liberal = 1
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
+}
+
 add_ideas = {
-	#medium_economy
 	limited_conscription
 	partial_economic_mobilisation
 }
 
 create_country_leader = {
-	name = "훌리오 세사르 멘데스 몬테네그로"
-	desc = "Julio_Cesar_Mendez_MontenegroL_DESC"
-	picture = "Portrait_CEN_Julio_Cesar_Mendez_Montenegro.tga"
+	name = "Military Council"
+	desc = "POLITICS_MILITARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "아르투로 아르만도 몰리나"
-	desc = "Arturo_Armando_Molina_DESC"
-	picture = "Portrait_CEN_Arturo_Armando_Molina.tga"
+	name = "Military Council"
+	desc = "POLITICS_MILITARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "아르투로 아르만도 몰리나"
-	desc = "Arturo_Armando_Molina_DESC"
-	picture = "Portrait_CEN_Arturo_Armando_Molina.tga"
+	name = "Military Council"
+	desc = "POLITICS_MILITARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "라몬 에르네스토 크루스 우클레스"
-	desc = "Ramon_Ernesto_Cruz_Ucles_DESC"
-	picture = "Portrait_CEN_Ramon_Ernesto_Cruz_Ucles.tga"
+	name = "Central American Council"
+	desc = "POLITICS_CENTRAL_AMERICAN_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "로베르토 수아소 코르도바"
-	desc = "Roberto_Suazo_Cordova_DESC"
-	picture = "Portrait_CEN_Roberto_Suazo_Cordova.tga"
+	name = "Central American Council"
+	desc = "POLITICS_CENTRAL_AMERICAN_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "로베르토 수아소 코르도바"
-	desc = "Roberto_Suazo_Cordova_DESC"
-	picture = "Portrait_CEN_Roberto_Suazo_Cordova.tga"
+	name = "Central American Council"
+	desc = "POLITICS_CENTRAL_AMERICAN_COUNCIL_DESC"
+	picture = "Portrait_CEN_Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "조지 케이들 프라이스"
-	desc = "George_Cadle_Price_DESC"
-	picture = "Portrait_CEN_George_Cadle_Price.tga"
+	name = "Revolutionary Council"
+	desc = "POLITICS_REVOLUTIONARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Revolutionary_Council.tga"
 	expire = "1965.1.1"
-	ideology = social_progressive_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "하코보 아르벤스"
-	desc = "Jacobo_Arbenz_DESC"
-	picture = "Portrait_CEN_Jacobo_Arbenz.tga"
+	name = "Revolutionary Council"
+	desc = "POLITICS_REVOLUTIONARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Revolutionary_Council.tga"
 	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "카예타노 카르피오"
-	desc = "Cayetano_Carpio_DESC"
-	picture = "Portrait_CEN_Cayetano_Carpio.tga"
+	name = "Revolutionary Council"
+	desc = "POLITICS_REVOLUTIONARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Revolutionary_Council.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "베르나르도 알바라도 몬손"
-	desc = "Bernardo_Alvarado_MonzonL_DESC"
-	picture = "Portrait_CEN_Bernardo_Alvarado_Monzon.tga"
+	name = "Revolutionary Council"
+	desc = "POLITICS_REVOLUTIONARY_COUNCIL_DESC"
+	picture = "Portrait_CEN_Revolutionary_Council.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}

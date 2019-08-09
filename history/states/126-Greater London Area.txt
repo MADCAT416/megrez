@@ -3,27 +3,30 @@ state = {
 	name = "STATE_126"
 	manpower = 9824296
 
-	state_category = megalopolis
+	state_category = twelve
 
 	history = {
 		owner = ENG
 		victory_points = {
-			6103 30
+			6103 50
+		}
+		victory_points = {
+			9239 5
 		}
 		buildings = {
-			infrastructure = 10
+			infrastructure = 9
 			arms_factory = 4
 			industrial_complex = 6
 			dockyard = 1
 			anti_air_building = 5
-			radar_station = 4
-			anti_air_building = 5
+
 			air_base = 10
 			11374 = {
 				naval_base = 10
 			}
 		}
 		add_core_of = ENG
+		add_claim_by = CAN
 	}
 
 	provinces = {

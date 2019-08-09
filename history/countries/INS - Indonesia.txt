@@ -1,5 +1,4 @@
 ﻿capital = 1020 #Jakara
-oob = "INS"
 
 set_research_slots = 2
 
@@ -8,62 +7,59 @@ set_research_slots = 2
 # Starting tech
 # clone of Holland
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	### General ###
+	electronic_mechanical_engineering = 1
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+}
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+### Navy - MtG ###
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 add_ideas = {
-	#medium_economy
 	INS_Mohammed_Hatta_hog_ade
 	INS_Ide_Anak_Agung_Gde_Agung_for_sde
 	INS_Sjafruddin_Prawiranegara_eco_sco
@@ -71,137 +67,95 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 3
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 10
-		}
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
-			popularity = 60
-		}
-		national_populist = {
-			popularity = 5
-		}
-	}
-
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_stability = 0.4
-set_war_support = 0.3
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 17
+    syndicalist = 0
+    social_democrat = 3
+    social_liberal = 2
+    market_liberal = 0
+    social_conservative = 28
+    authoritarian_democrat = 47
+    paternal_autocrat = 3
+    national_populist = 0
+}
 
 create_country_leader = {
-	name = "수하르토"
-	desc = "Suharto_DESC"
-	picture = "Portrait_Indonesia_Suharto.tga"
-	expire = "2000.1.1"
+	name = "Sukarno"
+	desc = "POLITICS_SUKARNO_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.tga"
+	expire = "1965.10.1"
 	ideology = authoritarian_democrat_subtype
-	traits = { }
+	traits = {}
 }
 
 create_country_leader = {
-	name = "수탄 스자흐리르"
-	desc = "Sutan_Sjahrir_DESC"
-	picture = "Portrait_Indonesia_Sutan_Sjahrir.tga"
-	expire = "2000.1.1"
+	name = "Tan Malaka"
+	desc = "POLITICS_TAN_MALAKA_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Tan_Malaka.tga"
+	expire = "1965.10.1"
 	ideology = democratic_socialist_subtype
-	traits = { }
+	traits = {}
 }
 
 create_country_leader = {
-	name = "수카르니"
-	desc = "Sukarni_DESC"
-	picture = "Portrait_Indonesia_Sukarni.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = { }
+	name = "Sutan Sjahrir"
+	desc = "POLITICS_SUTAN_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.tga"
+	expire = "1965.10.1"
+	ideology = social_democrat_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "D. N. 아이디트"
-	desc = "D_N_Aidit_DESC"
-	picture = "Portrait_Indonesia_D_N_Aidit.tga"
-	expire = "2000.1.1"
+	name = "Hashim As'yari"
+	desc = "POLITICS_HASHIM_ASYARI_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.tga"
+	expire = "1965.10.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Munawar Musso"
+	desc = "POLITICS_MUNAWAR_MUSSO_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Munawar_Musso.tga"
+	expire = "1965.10.1"
 	ideology = totalist_subtype
-	traits = { }
+	traits = {}
 }
 
 create_country_leader = { #No portrait yet
-	name = "세탸드지트 쇠곤도"
-	desc = "Setyadjit_Soegondo_DESC"
-	picture = "Portrait_Indonesia_Setyadjit_Soegondo.tga"
-	expire = "2000.1.1"
+	name = "Semaun"
+	desc = "POLITICS_SEMAUN_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Semaun.tga"
+	expire = "1965.10.1"
 	ideology = syndicalist_subtype
-	traits = { }
+	traits = {}
 }
 
 create_country_leader = {
-	name = "수하르토"
-	desc = "Suharto_DESC"
-	picture = "Portrait_Indonesia_Suharto.tga"
-	expire = "2000.1.1"
+	name = "Sekarmadji Kartosuwirjo"
+	desc = "POLITICS_SEMAUN_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Kartosoewirjo.tga"
+	expire = "1965.10.1"
 	ideology = paternal_autocrat_subtype
-	traits = { }
+	traits = {}
 }
 
 create_country_leader = {
-	name = "압둘 하리스 나수티온"
-	desc = "Abdul_Haris_Nasution_DESC"
-	picture = "Portrait_Indonesia_Abdul_Haris_Nasution.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "모하마드 이스나에니"
-	desc = "Mohammad_Isnaeni_DESC"
-	picture = "Portrait_Indonesia_Mohammad_Isnaeni.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "모하마드 이스나에니"
-	desc = "Mohammad_Isnaeni_DESC"
-	picture = "Portrait_Indonesia_Mohammad_Isnaeni.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "모하마드 나트시르"
-	desc = "Mohammad_Natsir_DESC"
-	picture = "Portrait_Indonesia_Mohammad_Natsir.tga"
-	expire = "2000.1.1"
+	name = "Raymond Westerling"
+	desc = "POLITICS_WESTERLING_DESC"
+	picture = "gfx/leaders/INS/Portrait_Indonesia_Westerling.tga"
+	expire = "1965.10.1"
 	ideology = national_populist_subtype
-	traits = { }
+	traits = {}
 }
 
 ### Field Marshals & Generals
@@ -212,30 +166,28 @@ create_field_marshal = {
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Basuki Rahmat"
 	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Rachmat.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Sudirman"
 	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Sudirman.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
-	attack_skill = 3
-	defense_skill = 4
+	attack_skill = 1
+	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -243,13 +195,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Suhadi"
 	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Suhadi.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -262,7 +213,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -272,8 +223,8 @@ create_corps_commander = {
 		trickster
 	}
 	skill = 2
-	attack_skill = 3
-	defense_skill = 4
+	attack_skill = 1
+	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
 	id = 902
@@ -285,6 +236,10 @@ create_navy_leader = {
 	picture = "Portrait_Indonesia_Eddie_Mardinata.tga"
 	traits = { blockade_runner }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
@@ -292,4 +247,8 @@ create_navy_leader = {
 	picture = "Portrait_Indonesia_Yos_Sudarso.tga"
 	traits = { seawolf }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
 }

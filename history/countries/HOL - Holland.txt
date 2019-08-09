@@ -1,218 +1,271 @@
 ﻿capital = 7
-oob = "HOL"
+OOB = "HOL"
+set_naval_oob = "HOL_naval"
 set_convoys = 400
 set_research_slots = 3
 
-
+country_event = { id = holflavor.12 days = 242 }
+set_country_flag = SUR_CONQ
 
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### General ###
+	electronic_mechanical_engineering = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	marines = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		improved_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_carrier_hull = 1
+		interwar_carrier_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		improved_panzerschiff_hull = 1
+		weltkrieg_fast_battleship_hull = 1
+		interwar_fast_battleship_hull = 1
+		improved_fast_battleship_hull = 1
+		weltkrieg_dreadnought_hull = 1
+		interwar_dreadnought_hull = 1
+		improved_dreadnought_hull = 1
+		interwar_heavy_carrier_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1	
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		torpedo_tech_three = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		gunnery_tech_three = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_asw_module_two = 1
+		dd_utility_module_one = 1
+		dd_utility_module_two = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		fbb_gunnery_tech_two = 1
+		fbb_gunnery_tech_three = 1
+		fbb_hull_module_one = 1
+		fbb_hull_module_two = 1
+		fbb_gun_module_one = 1
+		fbb_gun_module_two = 1
+		fbb_sh_gun_module_one = 1
+		fbb_sh_gun_module_two = 1
+		dn_gunnery_tech_one = 1
+		dn_gunnery_tech_two = 1
+		dn_gunnery_tech_three = 1
+		dn_hull_module_one = 1
+		dn_hull_module_two = 1
+		dn_sh_gun_module_one = 1
+		dn_sh_gun_module_two = 1
+		catapult_plane_two = 1
+		carrier_armoured_deck = 1
+		heavy_secondaries = 1
+		heavy_carrier_armoured_deck = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		improved_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_carrier_hull_nonmtg = 1
+		interwar_carrier_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		improved_panzerschiff_hull_nonmtg = 1
+		weltkrieg_fast_battleship_hull_nonmtg = 1
+		interwar_fast_battleship_hull_nonmtg = 1
+		improved_fast_battleship_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+		interwar_dreadnought_hull_nonmtg = 1
+		improved_dreadnought_hull_nonmtg = 1
+		interwar_heavy_carrier_hull_nonmtg = 1
+		transport = 1
+	}
 }
 
 add_ideas = {
+	HOL_idea_ambtenarenverbod
 	HOL_Hendrikus_Colijn_hog_sco
 	HOL_Jacob_Patijn_for_mli
 	HOL_Pieter_Oud_eco_sli
 	HOL_Jan_Andriessen_sec_mli
 	limited_conscription
 	free_trade
-	#ZO_idea
 }
 
-set_stability = 0.5
-set_war_support = 0.2
+set_war_support = 0.1
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 2
-		}
-		democratic_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 3
-		}
-		social_progressive = {
-			popularity = 30
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 40
-		}
-		authoritarian_democrat = {
-			popularity = 5
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
 	ruling_party = social_conservative
 	last_election = "1933.05.24"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+set_popularities = {
+    totalist = 2
+    democratic_socialist = 6
+    syndicalist = 1
+    social_democrat = 20
+    social_liberal = 6
+    market_liberal = 4
+    social_conservative = 54
+    authoritarian_democrat = 2
+    paternal_autocrat = 5
+    national_populist = 0
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {
-	}
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "한스 비벵아"
-	desc = ""
-	picture = "Portrait_Holland_Hans_Wiebenga.tga"
-	expire = "2000.1.1"
+	name = "Henk Sneevliet"
+	desc = "HENK_SNEEVLIET_DESC"
+	picture = "Portrait_HOL_Sneevliet.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "마르퀴스 바커르"
-	desc = ""
-	picture = "Portrait_Holland_Marcus_Bakker.tga"
-	expire = "2000.1.1"
+	name = "Harm Kolthek"
+	desc = "HARM_KOLTHEK_DESC"
+	picture = "Portrait_HOL_Kolthek.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "단 몬예"
-	desc = ""
-	picture = "Portrait_Holland_Daan_Monje.tga"
-	expire = "2000.1.1"
+	name = "David Wijnkoop"
+	desc = "POLITICS_DAVID_WIJNKOOP_DESC"
+	picture = "Portrait_Holland_Wijnkoop.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "율리아나"
-	desc = "Juliana_DESC"
-	picture = "Portrait_Holland_Juliana.tga"
-	expire = "2000.1.1"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Holland_Wilhelmina.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 ### Field Marshal
@@ -224,9 +277,9 @@ create_corps_commander = {
 		career_officer
 	}
 	skill = 1
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -239,18 +292,17 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Murk Boerstra"
 	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Boerstra.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -258,11 +310,10 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Willem Hackstroh"
 	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Hackstroh.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
-	attack_skill = 2
-	defense_skill = 3
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -274,8 +325,8 @@ create_corps_commander = {
 		old_guard
 	}
 	skill = 1
-	attack_skill = 2
-	defense_skill = 3
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -288,8 +339,8 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -300,9 +351,9 @@ create_corps_commander = {
 		panzer_leader
 	}
 	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -316,7 +367,7 @@ create_field_marshal = {
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -327,10 +378,10 @@ create_corps_commander = {
 		politically_connected
 	}
 	skill = 1
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -342,7 +393,7 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -353,9 +404,9 @@ create_corps_commander = {
 		jungle_rat
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 1
 	defense_skill = 3
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -367,8 +418,8 @@ create_corps_commander = {
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -379,9 +430,9 @@ create_corps_commander = {
 		trickster
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 2
 }
 
@@ -401,13 +452,12 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Henri Winkelman"
 	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Winkelman.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 3
 	attack_skill = 2
 	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 ### Navy Leader
@@ -415,7 +465,11 @@ create_navy_leader = { #Auto-Generated
 	name = "Jan van Dulm"
 	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Jan_van_Dulm.tga"
 	traits = { seawolf }
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = { #Auto-Generated
@@ -424,7 +478,11 @@ create_navy_leader = { #Auto-Generated
 	traits = {
 		spotter
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -434,6 +492,10 @@ create_navy_leader = { #Auto-Generated
 		spotter
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -442,7 +504,11 @@ create_navy_leader = { #Auto-Generated
 	traits = {
 		blockade_runner
 	}
-	skill = 1 #naval guy, don't patch
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
@@ -451,6 +517,268 @@ create_navy_leader = { #Auto-Generated
 	traits = {
 		fly_swatter
 	}
-	skill = 2 #naval guy, don't patch
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
+### Ship Variants
+create_equipment_variant = {
+	name = "Aemalia Class"
+	type = ship_hull_fast_battleship_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Willem van Oranje Class"
+	type = ship_hull_fast_battleship_4
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_3
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_3
+		front_1_custom_slot = ship_heavy_battery_2
+		mid_1_custom_slot = ship_secondaries_1
+		mid_2_custom_slot = ship_airplane_launcher_1
+		rear_1_custom_slot = ship_heavy_battery_2
+	}
+}
+
+create_equipment_variant = {
+	name = "Gouden Leeuw Class"
+	type = ship_hull_carrier_2
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space_10
+		fixed_ship_deck_slot_2 = ship_deck_space_10
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = carrier_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		front_1_custom_slot = ship_deck_space_10
+	}
+}
+
+create_equipment_variant = {
+	name = "Jakob van Heemskerck Class"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Soerabaja Class"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Maastricht Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+	}
+}
+
+
+
+create_equipment_variant = {
+	name = "Van Galen Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Flores Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Iazon Class"
+	type = ship_hull_light_4
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_3
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_3
+		fixed_ship_torpedo_slot = ship_torpedo_2
+		rear_1_custom_slot = ship_light_battery_3
+		mid_1_custom_slot = ship_depth_charge_2
+	}
+}
+
+
+create_equipment_variant = {
+	name = "O-9 Class"
+	type = ship_hull_submarine_3
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "O-12 Class"
+	type = ship_hull_submarine_3
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "O-16 Class"
+	type = ship_hull_submarine_4
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
+}
+
+create_equipment_variant = {
+	name = "O-21 Class"
+	type = ship_hull_submarine_4
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
+}
+
+create_equipment_variant = {
+	name = "K-V Class"
+	type = ship_hull_submarine_2
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "K-VIII Class"
+	type = ship_hull_submarine_3
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "K-XI Class"
+	type = ship_hull_submarine_3
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_1
+		mid_1_custom_slot = ship_sonar_1
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "O-8 Class"
+	type = ship_hull_submarine_1
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "K-XIV Class"
+	type = ship_hull_submarine_4
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+
+	}
+}
+
+create_equipment_variant = {
+	name = "Soerabaja Class"
+	type = ship_hull_panzerschiff_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+}

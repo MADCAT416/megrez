@@ -2,21 +2,24 @@ state = {
 	id = 907
 	name = "STATE_907"
 	manpower = 94000
-	state_category = pastoral
+	state_category = one
 	resources = {
-		oil = 11
+		oil = 4
 	}
 
 	history = {
-		owner = SAU
-		add_core_of = SAU
-		add_claim_by = PER
+		owner = JBS
 		add_core_of = JBS
+		add_claim_by = PER
+		add_claim_by = SAU
 		buildings = {
 			infrastructure = 3
 			13552 = {
 				naval_base = 2
 			}
+		}
+		victory_points = {
+			13552 1
 		}
 	}
 

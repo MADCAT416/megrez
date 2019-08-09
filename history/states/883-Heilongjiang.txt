@@ -3,16 +3,14 @@ state = {
 	name = "STATE_883"
 	manpower = 2617000
 
-	state_category = pastoral
+	state_category = one
 
 	history = {
-		owner = MAN
-		add_core_of = MAN
-		
-		add_core_of = SQI
+		owner = FNG
 		add_core_of = QIE
+		add_core_of = SQI
 
-		
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

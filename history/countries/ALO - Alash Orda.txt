@@ -1,209 +1,56 @@
 ﻿capital = 589
 
-oob = "empty"
+OOB = "ALO"
+
 set_research_slots = 2
-
 set_technology = {
-
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	
-	motorised_infantry = 1 # 1955
-
-### 지원
-	tech_support = 1 # 1955
-	
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	
-	light_tank_1 = 1 # 1955
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	
-	destroyer_1 = 1 # 1945
-
-	cruiser_1 = 1 # 1945
-		
-### 대형함
-	battleship_1 = 1 # 1945
-	
-	amphibious_assault_carrier_1 = 1 # 1945
-
-### 잠수함
-	submarine_1 = 1 # 1945
-
-	large_submarine_1 = 1 # 1945
-	
-### 항공기
-
-### 폭격기
-
-### 헬기
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-		
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-
-### 산업
-	basic_machine_tools = 1 # 1936
-		
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
 }
 
-set_cosmetic_tag = ALO_KAZ
+set_war_support = 0.15
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_progressive = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
-			popularity = 8
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 41
-		}
-		paternal_autocrat = {
-			popularity = 19
-		}
-		national_populist = {
-			popularity = 8
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 2
+    social_democrat = 4
+    social_liberal = 6
+    market_liberal = 8
+    social_conservative = 12
+    authoritarian_democrat = 41
+    paternal_autocrat = 19
+    national_populist = 8
+}
+
 add_ideas = {
-	#medium_economy
-
-
-
-	### Minister
 	ALO_Akhmet_Baytursinuli_hog_ade
 	ALO_Vasily_Balabanov_eco_sco
 	ALO_Zaurbek_Raibayev_for_ade
 	ALO_Asanbey_Askarov_sec_ade
-
 }
 
 create_country_leader = {
-	name = "이스말리 유스포프"
-	picture = "Portrait_ALO_Ismail_Yusupov.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "이스말리 유스포프"
-	picture = "Portrait_ALO_Ismail_Yusupov.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "이스말리 유스포프"
-	picture = "Portrait_ALO_Ismail_Yusupov.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "무스타파 쇼카이"
-	picture = "Portrait_ALO_Mustafa_Shokay.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "무스타파 쇼카이"
-	picture = "Portrait_ALO_Mustafa_Shokay.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "무스타파 쇼카이"
-	picture = "Portrait_ALO_Mustafa_Shokay.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "무스타파 쇼카이"
-	picture = "Portrait_ALO_Mustafa_Shokay.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "딘무하메드 쿠나예프"
-	picture = "Portrait_ALO_Dinmukhamed_Kunaev.tga"
-	expire = "2000.1.1"
+	name = "Alikhan Bukeikhanov"
+	desc = "POLITICS_ALIKHAN_BUKEIKHANOV_DESC"
+	picture = "Portrait_ALO_Alikhan_Bukeikhanov.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "딘무하메드 쿠나예프"
-	picture = "Portrait_ALO_Dinmukhamed_Kunaev.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "딘무하메드 쿠나예프"
-	picture = "Portrait_ALO_Dinmukhamed_Kunaev.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
 	traits = {}
 }
 
@@ -219,9 +66,9 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -233,6 +80,6 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 }

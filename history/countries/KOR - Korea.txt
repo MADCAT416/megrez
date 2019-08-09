@@ -1,306 +1,93 @@
 ﻿capital = 525 #South Korea - Seoul or Busan
-OOB = "KOR"
+OOB = "empty"
 
 set_technology = {
+	#### MOD ####
+	### General ###
+	electronic_mechanical_engineering = 1
 
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
-	
-	etc_infantry_equipments_1 = 1 # 1960
-	
-	night_vision_1 = 1 # 1960
-	
-	Bulletproof_vest_1 = 1 # 1960
-	
-	support_weapons_1 = 1 # 1960
-		
-	airborne_1 = 1 # 1960
-	
-	motorised_infantry = 1 # 1955
-
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	
-	tech_engineers_1 = 1 # 1960
-	
-	tech_military_police_1 = 1 # 1960
-	
-	tech_maintenance_company_1 = 1 # 1960
-	
-	tech_field_hospital_1 = 1 # 1960
-	
-	tech_logistics_company_1 = 1 # 1960
-	
-	tech_signal_company_1 = 1 # 1960
-
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
-	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
-	
-	mechanised_infantry_1 = 1 # 1960
-	
-	amphibious_assault_vehicle_1 = 1 # 1960
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	spa_1 = 1 # 1960
-		
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	antitank_1 = 1 # 1965
-		
-	antiair_1 = 1 # 1960
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-		
-### 대형함
-	battleship_1 = 1 # 1945
-		
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	
-### 항공기
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	
-	experimental_rockets = 1 # 1920
-	
-	jet_engines_1 = 1 # 1940
-	
-	atomic_research = 1 # 1940
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	
-	improved_equipment_conversion = 1 # 1937
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	rubber_processing = 1 # 1937
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-
+	#### Tanks ####
+	#### INF ####
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	#### AIR ####
+	early_fighter = 1
 }
-
-### 국민정신
-add_ideas = {
-	kor_hate_japs
-	korean_turanism
-}
-
-set_stability = 0.5
-set_war_support = 0.4
 
 set_research_slots = 2
-
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 1
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		syndicalist = {
-			popularity = 1
-		}
-		social_progressive = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 30
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 45
-		}
-	}
-
-	ruling_party = national_populist
+	ruling_party = social_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-set_country_flag = coalition_authoritarian_democrat
-
-create_country_leader = {
-	name = "서만술"
-	desc = "So_Man_Sul_DESC"
-	picture = "So_Man_Sul.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {hog_local_tyrant}
+set_popularities = {
+    totalist = 3
+    democratic_socialist = 10
+    syndicalist = 15
+    social_democrat = 47
+    social_liberal = 11
+    market_liberal = 6
+    social_conservative = 5
+    authoritarian_democrat = 2
+    paternal_autocrat = 1
+    national_populist = 0
 }
 
-create_country_leader = {
-	name = "윤세주"
-	desc = "Yoon_Se_ju_DESC"
-	picture = "Yoon_Se_ju.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {hog_spiritual_leader hog_respected_war_hero}
+### Field Marshal
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Chae Byong Duk"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Chae_Byong_Duk.tga"
+	traits = {
+		career_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
 }
 
-create_country_leader = {
-	name = "허정숙"
-	desc = "Ho_Jong_Suk_DESC"
-	picture = "Ho_Jong_Suk.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {for_biased_intellectual hog_naive_optimist}
+create_corps_commander = { #Auto-Generated
+	name = "Chi Chun Chung"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Chi_Chun_Chung.tga"
+	traits = {
+		skilled_staffer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 
-create_country_leader = {
-	name = "김종필"
-	desc = "Kim_Jong_Pil_DESC"
-	picture = "Kim_Jong_Pil.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {treacherous political_dancer}
+create_corps_commander = { #Auto-Generated
+	name = "Kim Won Bong"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Won_Bong.tga"
+	traits = {
+		trickster
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 
-create_country_leader = {
-	name = "김대중"
-	desc = "Kim_Dae_Jung_DESC"
-	picture = "Kim_Dae_Jung.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {honeysuckle}
+create_corps_commander = { #Auto-Generated
+	name = "Lee Chung Chun"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Lee_Chung_Chun.tga"
+	traits = {
+		inflexible_strategist
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
-create_country_leader = {
-	name = "김영삼"
-	desc = "Kim_Young_Sam_DESC"
-	picture = "Kim_Young_Sam.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {highway_without_tollgate}
-}
-
-create_country_leader = {
-	name = "이철승"
-	desc = "Lee_Chul_Seung_DESC"
-	picture = "Lee_Chul_Seung.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {hoodlum}
-}
-
-create_country_leader = {
-	name = "이구"
-	desc = "Yi_Gu_DESC"
-	picture = "Yi_Gu.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {phantom_of_past}
-}
-
-create_country_leader = {
-	name = "장준하"
-	desc = "Chang_Chun_Ha_DESC"
-	picture = "Chang_Chun_Ha.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {stone_underhead}
-}
-
-create_country_leader = {
-	name = "장준하"
-	desc = "Chang_Chun_Ha_DESC"
-	picture = "Chang_Chun_Ha.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {stone_underhead}
-}
+### Navy Leader

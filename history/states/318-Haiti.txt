@@ -3,17 +3,16 @@ state = {
 	name = "STATE_318"
 	manpower = 2581000
 
-	state_category = city
+	state_category = four
 
 	resources = {
 
 		chromium = 3
-
 	}
 	history = {
 		owner = HAI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
@@ -25,8 +24,11 @@ state = {
 		victory_points = {
 			4641 5
 		}
+		victory_points = {
+			13709 1
+		}
 	}
 	provinces = {
-		1594 1635 4641
+		1594 1635 4641 13709 13710
 	}
 }

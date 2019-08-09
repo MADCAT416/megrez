@@ -3,11 +3,11 @@ state = {
 	name = "STATE_451"
 	manpower = 45628
 
-	state_category = rural
+	state_category = one
 
 	history = {
-		owner = LYB
-		add_core_of = LYB
+		owner = LBA
+		add_core_of = LBA
 
 		victory_points = {
 			1130 1

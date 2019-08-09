@@ -1,7 +1,13 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new technology, make sure they are uniquely named.
+#yep we added a whole file here, plus worked on the main tech file, for a single Fengtian event
+#actually I'm dumb and they are used in a few places
 
 technology_categories = {
+
+	efficiency_tech
+	cat_light_spg
+	cat_medium_spg
+	fighter_techs
+	cat_anti_air
 	light_air
 	medium_air
 	heavy_air
@@ -15,7 +21,6 @@ technology_categories = {
 	infantry_weapons
 	motorized_equipment
 	cat_mechanized_equipment
-	naval_equipment
 	rocketry
 	nuclear
 	industry
@@ -35,17 +40,7 @@ technology_categories = {
 	cat_strategic_bomber
 	naval_bomber
 	cas_bomber
-	dd_tech
-	cl_tech
-	ca_tech
-	cv_tech
-	bc_tech
-	bb_tech
-	shbb_tech
-	ss_tech
-	tp_tech
 	synth_resources
-	fleet_in_being_tree
 	encryption_tech
 	decryption_tech
 	computing_tech
@@ -54,7 +49,6 @@ technology_categories = {
 	marine_tech
 	construction_tech
 	excavation_tech
-	submarine_doctrine
 	air_equipment
 	cat_mobile_warfare
 	cat_superior_firepower
@@ -67,7 +61,6 @@ technology_categories = {
 	cat_battlefield_support
 	cat_operational_integrity
 	night_vision
-	base_strike_main
 	mot_rockets
 	support_tech
 	para_tech
@@ -79,28 +72,49 @@ technology_categories = {
 	logistics_tech
 	signal_company_tech
 	maintenance_company_tech
+	concentrated_industry_category
+	dispersed_industry_category
 
+
+
+	### Naval categories 
+	naval_minesweeping
+	naval_minelaying
+	asw_tech
+	naval_mines
+	submarine_doctrine
+	base_strike_main
+	fleet_in_being_tree
+	dd_tech
+	cl_tech
+	ca_tech
+	cv_tech
+	cvh_tech
+	bc_tech
+	bb_tech
+	shbb_tech
+	ss_tech
+	tp_tech
+	naval_equipment
+	acr_tech
+	ebc_tech
+	cat_torpedo
+	cat_gunnery
 }
+
 
 technology_folders = {
 	infantry_folder
 	support_folder
 	armour_folder
 	artillery_folder
-	air_techs_folder		# original folder -- single engine aircraft
-	air_bomber_folder		# new folder -- twin and quad engine aircraft
-	air_helicopter_folder
-	naval_folder			# original folder -- naval screen ships
-	naval_capital_folder	# new folder -- naval capital ships
-	naval_submarine_folder
-	naval_marine_folder
+	air_techs_folder
 	industry_folder
+	escort_ships_folder
+	capital_ships_folder
 	land_doctrine_folder
 	naval_doctrine_folder
 	air_doctrine_folder
 	electronics_folder
 	#secret_weapons_folder
-
 }
-
- 

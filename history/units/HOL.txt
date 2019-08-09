@@ -1,29 +1,6 @@
 ﻿division_template = {
-	name = "근위척탄엽병사단"
-
-	regiments = {
-		heliborne = { x = 0 y = 0 }
-		heliborne = { x = 0 y = 1 }
-		heliborne = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		maintenance_company = { x = 0 y = 2 }
-
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "경보병사단"
-
+	name = "Veldleger Divisie"
+	division_names_group = HOL_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -31,87 +8,43 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "기계화보병사단"
-
-	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
-
 division_template = {
-	name = "기갑사단"
-
-	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		motorized_rocket_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		motorized_rocket_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "공수사단"
-
+	name = "Veldleger Divisie met Artillerieondersteuning"
+	division_names_group = HOL_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 2 y = 0 }
-		paratrooper = { x = 2 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		artillery = { x = 0 y = 0 }
 	}
-	priority = 2
 }
 
 division_template = {
-	name = "해병대"
+	name = "Regiment Huzaren"
+	division_names_group = HOL_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+	}
+}
 
+division_template = {
+	name = "Regiment Korps Mariniers"
+	division_names_group = HOL_MAR_01
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
@@ -120,83 +53,164 @@ division_template = {
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 1 }
 	}
 	priority = 2
 }
 
+division_template = {
+	name = "Koloniale Garnizoen"		# miltia forces, lower experience and equipment
+	division_names_group = HOL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Gemotoriseerde Divisie"
+	division_names_group = HOL_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pantserdivisie"
+	division_names_group = HOL_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
 units = {
-
-	division = {
-		name = "근위척탄엽병사단"
+	division = {	# "1e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 391
-		division_template = "근위척탄엽병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Veldleger Divisie met Artillerieondersteuning"
+		start_experience_factor = 0.1
 	}
-
-	division = {
-		name = "제1공수사단"
+	division = {	# "2e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 391
+		division_template = "Veldleger Divisie"
+		start_experience_factor = 0.1
+	}
+	division = {	# "7e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9498
+		division_template = "Veldleger Divisie met Artillerieondersteuning"
+		start_experience_factor = 0.1
+	}
+	division = {	# "8e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9498
+		division_template = "Veldleger Divisie"
+		start_experience_factor = 0.1
+	}
+	division = {	# "4e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
 		location = 9363
-		division_template = "공수사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Veldleger Divisie met Artillerieondersteuning"
+		start_experience_factor = 0.1
+	}
+	division = {	# "6e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9363
+		division_template = "Veldleger Divisie"
+		start_experience_factor = 0.1
+	}
+	division = {	# "3e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6336
+		division_template = "Veldleger Divisie met Artillerieondersteuning"
+		start_experience_factor = 0.1
+	}
+	division = {	# "4e Divisie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6336
+		division_template = "Veldleger Divisie"
+		start_experience_factor = 0.1
 	}
 
-	division = {
-		name = "제1경보병사단"
-		location = 6496
-		division_template = "경보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
-	division = {
-		name = "제1기계화보병사단"
-		location = 9403
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
-	division = {
-		name = "제2기계화보병사단"
-		location = 13660
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
-	division = {
-		name = "제1기갑사단"
-		location = 6446
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
+}
 
-	division = {
-		name = "제1포병사단"
-		location = 9574
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+air_wings = {
+#		335 = {
+#			nav_bomber_equipment_1 = {
+#				owner = "HOL"
+#				amount = 25
+#			}
+#		}
+	7 = {
+		fighter_equipment_0 = {
+			owner = "HOL"
+			amount = 25
+		}
 	}
+}
 
-	division = {
-		name = "제2포병사단"
-		location = 13659
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 3
+		progress = 0.82
+		efficiency = 100
 	}
-
-	division = {
-		name = "제1해병여단"
-		location = 9431
-		division_template = "해병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.33
+		efficiency = 100
 	}
-
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
 }

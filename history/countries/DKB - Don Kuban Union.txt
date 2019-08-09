@@ -1,168 +1,128 @@
 ﻿capital = 234
 
-oob = "empty"
+oob = "DKB"
+set_naval_oob = "DKB_naval"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	gw_artillery = 1
+	### Naval ###
+	
+	
+	
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
 }
 
 set_research_slots = 3
 
+set_war_support = 0.4
+
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 47
-		}
-		paternal_autocrat = {
-			popularity = 15
-		}
-		national_populist = {
-			popularity = 12
-		}
-	}
-
 	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 2
+    social_liberal = 6
+    market_liberal = 6
+    social_conservative = 12
+    authoritarian_democrat = 47
+    paternal_autocrat = 15
+    national_populist = 12
+}
+
 set_convoys = 20
 
 create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
+	name = "Pyotr Krasnov"
+	desc = "POLITICS_PETR_KRASNOV_DESC"
+	picture = "Portrait_DKB_Petr_Krasnov.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "뱌체슬라브 나우멘코"
-	picture = "Portrait_DKB_Vyacheslav_Naumenko.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-
 add_ideas = {
-	#medium_economy
 	DKB_Mikhail_N_Grabbe_hog_ade
 	DKB_Alexander_P_Filimonov_for_ade
-	DKB_Vasiliy_N_Ivanis_eco_ade
+	DKB_Vasiliyy_N_Ivanis_eco_ade
 	DKB_Grigoriy_Y_Kislov_sec_ade
 }
 
@@ -172,7 +132,6 @@ add_ideas = {
 ### Corps Commander
 create_corps_commander = { #Auto-Generated
 	name = "Vitaly Borshevski"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Borshevski.tga"
 	traits = {
 		old_guard
 		defensive_doctrine
@@ -180,13 +139,12 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 1
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Sergei Korovalcheff"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Korovalcheff.tga"
 	traits = {
 		winter_specialist
 		trickster
@@ -194,28 +152,26 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Victor Kosov"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Kosov.tga"
 	traits = {
 		old_guard
 		fortress_buster
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Andrei Kovlon"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Kovlon.tga"
 	traits = {
 		old_guard
 		cavalry_officer
@@ -223,27 +179,25 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 3
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Aleksander Lebedjev"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Lebedjev.tga"
 	traits = {
 		winter_specialist
 		old_guard
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Nikoli Krasnov"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_N_Krasnov.tga"
 	traits = {
 		cavalry_officer
 		cavalry_leader
@@ -251,62 +205,205 @@ create_corps_commander = { #Auto-Generated
 	skill = 3
 	attack_skill = 4
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Kostya Popov"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_K_Popov.tga"
 	traits = {
 		offensive_doctrine
 		infantry_officer
 	}
 	skill = 3
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 2
 }
 
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
 	name = "Mikhail Dmyrkin"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Dmyrkin.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Nikita Dranilov"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Dranilov.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Roman Ertelkin"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Ertelkin.tga"
 	traits = {
 		spotter
 	}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Dmitry Kulchin"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Kulchin.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "Georgy Samarskiy"
-	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Samarskiy.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Shaumyan Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+
+	}
+}
+
+set_country_flag = potemkin_class_ship_variant
+create_equipment_variant = {
+	name = "Potemkin Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+}
+
+set_country_flag = rostislav_class_ship_variant
+create_equipment_variant = {
+	name = "Rostislav Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+}
+
+set_country_flag = leytenant_shestakov_class_ship_variant
+create_equipment_variant = {
+	name = "Leytenant Shestakov Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = bespokoyny_class_ship_variant
+create_equipment_variant = {
+	name = "Bespokoyny Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = fidonisi_class_ship_variant
+create_equipment_variant = {
+	name = "Fidonisi Class"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+		rear_1_custom_slot = ship_depth_charge_1
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = krab_class_ship_variant
+create_equipment_variant = {
+	name = "Krab Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = morzh_class_ship_variant
+create_equipment_variant = {
+	name = "Morzh Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
+}
+
+set_country_flag = ag_class_ship_variant
+create_equipment_variant = {
+	name = "AG Class"
+	type = ship_hull_submarine_2
+	parent_version = 0
+	modules = {		fixed_ship_torpedo_slot = ship_torpedo_sub_0
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_0
+
+	}
+	obsolete = yes
 }

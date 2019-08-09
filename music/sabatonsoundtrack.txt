@@ -1,1 +1,21 @@
-# Overwriting vanilla to prevent errors in the log. This disables the Sabaton DLC even if enabled.
+music_station = "sabaton"
+
+music = {
+	song = "hearts_of_iron"
+}
+
+music = {
+	song = "night_witches"
+}
+
+music = {
+	song = "primo_victoria"
+}
+
+music = {
+	song = "stalingrad"
+}
+
+music = {
+	song = "wolfpack"
+}

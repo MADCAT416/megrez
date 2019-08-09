@@ -5,17 +5,14 @@ state = {
 		rubber = 6
 	}
 
-	state_category = rural
+	state_category = two
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
-		add_core_of = MAF
-		add_core_of = UGA
+		owner = MAF
+		add_claim_by = MAF
 		victory_points = { 12989 3 } #Kampala
 		buildings = {
 			infrastructure = 3
-
 		}
 	}
 
@@ -23,5 +20,4 @@ state = {
 		3854 7088 7133 8223 12929 12989 13177
 	}
 	manpower = 3515625
-	buildings_max_level_factor = 1
 }

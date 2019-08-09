@@ -3,9 +3,9 @@ state = {
 	name = "STATE_118"
 	manpower = 21372
 
-	state_category = enclave
+	state_category = zero
 	history = {
-		owner = CNT
+		owner = SPR
 		victory_points = { 4135 5.0 }
 		buildings = {
 			infrastructure = 6
@@ -17,8 +17,6 @@ state = {
 			}
 		}
 		add_core_of = SPR
-		add_core_of = CNT
-
 	}
 	provinces = {
 		4135

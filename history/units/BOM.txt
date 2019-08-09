@@ -1,145 +1,102 @@
-﻿division_template = {
-	name = "소총병사단"
-
+﻿### Templates
+### Territorial Army Infantry Division
+division_template = {
+	name = "zeměbranecký pěší divize"
+	division_names_group = BOM_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 }
-
+### "Landsturm" militia
 division_template = {
-	name = "차량화소총병사단"
-
+	name = "domobrana pěší divize"
+	division_names_group = BOM_MIL_01
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+### Territorial Army Cavalry
+division_template = {
+	name = "zeměbranecký jezdecká divize"
+	division_names_group = BOM_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Armored-Division"
+	division_names_group = BOM_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		motorized = { x = 1 y = 2 }
 	}
 }
 
-division_template = {
-	name = "전차사단"
-
-	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		motorized_rocket_brigade = { x = 0 y = 1 }
-		modern_sp_artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		modern_sp_artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "공수사단"
-
-	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
-}
-
+### Land Units
 units = {
-
+### Landwehr Infantry
+### Praha
 	division = {
-		name = "제1차량화소총병사단"
-		location = 6470
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11542
+		division_template = "zeměbranecký pěší divize"
+		start_experience_factor = 0.1
 	}
-
+### Brno
 	division = {
-		name = "제2차량화소총병사단"
-		location = 6592
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3569
+		division_template = "zeměbranecký pěší divize"
+		start_experience_factor = 0.1
 	}
-
+### Plzen
 	division = {
-		name = "제3차량화소총병사단"
-		location = 9414
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6418
+		division_template = "zeměbranecký pěší divize"
+		start_experience_factor = 0.1
 	}
+}
 
-	division = {
-		name = "제4차량화소총병사단"
-		location = 421
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
 
-	division = {
-		name = "제5차량화소총병사단"
-		location = 6576
-		division_template = "차량화소총병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
 	}
-
-	division = {
-		name = "제1전차사단"
-		location = 6440
-		division_template = "전차사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2전차사단"
-		location = 569
-		division_template = "전차사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	}
+}

@@ -3,12 +3,11 @@ state = {
 	name = "STATE_700"
 	manpower = 1768500
 
-	state_category = pastoral
+	state_category = one
 
 	history = {
-		owner = WAF
-		add_core_of = WAF
-		add_core_of = GNE
+		owner = NFA
+		add_core_of = NFA
 		victory_points = {
 			2038 1 #Freistadt/Freetown
 		}
@@ -18,7 +17,6 @@ state = {
 			air_base = 4
 			2038 = {
 				naval_base = 3
-
 			}
 		}
 	}

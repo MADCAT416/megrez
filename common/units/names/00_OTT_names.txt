@@ -2,9 +2,7 @@
 	fleet_names_template = FLEET_NAME_OTT
 	submarine = {
 		prefix = ""
-		generic = {
-			"Denizalti"
-		}
+		generic = { "Denizalti" }
 		unique = {
 			# seri numarasi
 			"D-8"
@@ -304,15 +302,12 @@
 	}
 	destroyer = {
 		prefix = ""
-		generic = {
-			"Muhrip"
-		}
+		generic = { "Muhrip" }
 		unique = {
 			# sehir, kasaba, koy isimleri
 			"Hüdavendigar"
 			"Peyk"
 			"Berk"
-			"Iskenderun"
 			"Mentese"
 			"Germiyan"
 			"Halep"
@@ -324,15 +319,11 @@
 			"Tinaztepe"
 			"Demirhisar"
 			"Sultanhisar"
-			"Basra"
-			"Samsun"
 			"Kostantiniyye"
 			"Ankara"
 			"Edirne"
 			"Üsküdar"
-			"Izmir"
 			"Bursa"
-			"Izmit"
 			"Konya"
 			"Ceyhan"
 			"Malatya"
@@ -341,19 +332,15 @@
 			"Erzurum"
 			"Kars"
 			"Kudüs"
-			"Bandirma"
 			"Tuzla"
 			"Sivas"
 			"Kayseri"
 			"Van"
 			"Sinop"
-			"Manisa"
 			"Trabzon"
-			"Mersin"
 			"Kastamonu"
 			"Fethiye"
 			"Taif"
-			"Beyrut"
 			"Seddülbahir"
 			"Gemlik"
 			"Gebze"
@@ -378,7 +365,6 @@
 			"Aynalikavak"
 			"Alcitepe"
 			"Yaliköskü"
-			"Marmaris"
 			"Tasköprü"
 			"Nevsehir"
 			"Gökcedag"
@@ -396,7 +382,6 @@
 			"Bodrum"
 			"Urla"
 			"Menderes"
-			"Foca"
 			"Maltepe"
 			"Catalca"
 			"Findikli"
@@ -408,7 +393,6 @@
 			"Sakarya"
 			"Düzce"
 			"Zonguldak"
-			"Bartin"
 			"Gümüshane"
 			"Rize"
 			"Artvin"
@@ -421,9 +405,7 @@
 			"Karabük"
 			"Bolu"
 			"Bilecik"
-			"Balikesir"
 			"Canakkale"
-			"Gelibolu"
 			"Aydin"
 			"Mugla"
 			"Denizli"
@@ -459,7 +441,6 @@
 			"Deyr-i Zor"
 			"Ayvalik"
 			"Beykoz"
-			"Bandirma"
 			"Terme"
 			"Tirebolu"
 			"Kochisar"
@@ -509,7 +490,6 @@
 			"Mürefte"
 			"Serdar"
 			"Sarucabey"
-			"Inebolu"
 			"Uluabat"
 			"Sarköy"
 			"Degirmendere"
@@ -517,16 +497,12 @@
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = {
-			"Kruvazör"
-		}
+		generic = { "Kruvazör" }
 		unique = {
 			# ada isimleri
 			"Midilli"
 			"Rodos"
 			"Istanköy"
-			"Sakiz"
-			"Sisam"
 			"Gökceada"
 			"Bozcaada"
 			"Heybeliada"
@@ -588,8 +564,6 @@
 			"Dalaman"
 			"Manavgat"
 			"Aksu"
-			"Seyhan"
-			"Ceyhan"
 			"Bakircay"
 			"Gediz"
 			"Susurluk"
@@ -606,9 +580,7 @@
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = {
-			"Agir kruvazör"
-		}
+		generic = { "Zirhli Kruvazör" }
 		unique = {
 			# selbes, rahat
 			"Mesudiye"
@@ -625,7 +597,6 @@
 			"Iclaliye"
 			"Hizber"
 			"Seyfi"
-			"Fethiye"
 			"Kirim"
 			"Sadiye"
 			"Kervan-i Bahri"
@@ -654,11 +625,9 @@
 			"Giray"
 		}
 	}
-	battle_cruiser = {
+	battleship = {
 		prefix = ""
-		generic = {
-			"Muharebe kruvazörü"
-		}
+		generic = { "Zirhli" }
 		unique = {
 			# reyiz
 			"Oruc Reis"
@@ -676,11 +645,9 @@
 			"Seydi Ali Reis"
 		}
 	}
-	battleship = {
+	SH_battleship = {
 		prefix = ""
-		generic = {
-			"Zirhli"
-		}
+		generic = { "Dretnot" }
 		unique = {
 			"Kanuni Sultan Süleyman"
 			"Sultan Murad-i Rabi"
@@ -718,9 +685,7 @@
 	}
 	carrier = {
 		prefix = ""
-		generic = {
-			"Tayyare Gemisi"
-		}
+		generic = { "Tayyare Gemisi" }
 		unique = {
 			"Peyk-i Seref"
 			"Büruc-u Zafer"
@@ -743,6 +708,12 @@
 			"Feyz-i Bahir"
 			"Medar-i Zafer"
 			"Pir-i Levend"
+		}
+	}
+	heavy_carrier = {
+		prefix = ""
+		generic = { "Agir Tayyare Gemisi" }
+		unique = {
 		}
 	}
 

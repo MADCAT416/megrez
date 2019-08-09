@@ -5,7 +5,7 @@ state = {
 		rubber = 34
 	}
 	history = {
-		owner = CAM
+		owner = GEA
 		add_core_of = GEA
 		add_core_of = CAM
 		add_core_of = INC
@@ -20,6 +20,5 @@ state = {
 		1620 4330 4596 7645 10204 12167 12260 12288
 	}
 	manpower = 2000000
-	buildings_max_level_factor = 1
-	state_category = "pastoral"
+	state_category = one
 }

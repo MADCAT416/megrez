@@ -1,108 +1,37 @@
-﻿capital = 616
-oob = "empty"
+﻿capital = 604
+OOB = "XSM"
 set_research_slots = 3
+
+country_event = {
+	id = mac.1 days = 1
+}
 
 set_stability = 0.45
 set_war_support = 0.60
 
-set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1	
-}
+set_technology = {}
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 2
-		}
-		social_progressive = {
-			popularity = 9
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 2
-		}
-		authoritarian_democrat = {
-			popularity = 19
-		}
-		paternal_autocrat = {
-			popularity = 45
-		}
-		national_populist = {
-			popularity = 18
-		}
-	}
-
 	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 5
+    syndicalist = 2
+    social_democrat = 9
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 2
+    authoritarian_democrat = 19
+    paternal_autocrat = 45
+    national_populist = 18
+}
+
 add_ideas = {
-	#medium_economy
 	### Head of Government
 	XSM_Ma_Hongkui_hog_ade
 	### Foreign Minister
@@ -115,58 +44,93 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
+	name = "Ma Fuxiang"
+	desc = "ANTE_MA_FUXIANG_DESC"
+	picture = "Portrait_XSM_Ma_Fuxiang.tga"
+	expire = "1965.1.1"
+	id = 4000
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "마훙퀴"
-	picture = "Portrait_XSM_Ma_Hongkui.tga"
-	expire = "2000.1.1"
+	name = "Ma Bufang"
+	desc = "ANTE_MA_BUFANG_DESC"
+	picture = "Portrait_XSM_Ma_Bufang_2.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ma Lin"
+	desc = "ANTE_MA_LIN_DESC"
+	picture = "Portrait_XSM_Ma_Lin.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Liu Zhidan"
+	desc = "ANTE_LIU_ZHIDAN_DESC"
+	picture = "Portrait_XSM_Liu_Zhidan.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Xi Zhongxun"
+	desc = "ANTE_XI_ZHONGXUN_DESC"
+	picture = "Portrait_XSM_Xi_Zhongxun.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wu Daifeng"
+	desc = "ANTE_WU_DAIFENG_DESC"
+	picture = "Portrait_XSM_Wu_Daifeng.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ma Mingfang"
+	desc = "ANTE_MA_MINGFANG_DESC"
+	picture = "Portrait_XSM_Ma_Mingfang.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ma Wunrui"
+	desc = "ANTE_MA_WENRUI_DESC"
+	picture = "Portrait_XSM_Ma_Wenrui.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "He Xiangning"
+	desc = "ANTE_HE_XIANGNING_DESC"
+	picture = "Portrait_XSM_He_Xiangning.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sun Lianguang"
+	desc = "ANTE_SUN_LIANGUANG_DESC"
+	picture = "Portrait_XSM_Sun_Lianguang.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -180,20 +144,19 @@ create_field_marshal = {
 	}
 	skill = 3
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Ma Hongbin"
 	picture = "Portrait_XSM_Ma_Hongbin.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 1
-	planning_skill = 4
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -208,7 +171,7 @@ create_field_marshal = {
 	}
 	skill = 4
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
 }
@@ -222,10 +185,10 @@ create_corps_commander = {
 		trickster
 	}
 	skill = 3
-	attack_skill = 4
-	defense_skill = 1
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -235,10 +198,10 @@ create_corps_commander = {
 		urban_assault_specialist
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -249,10 +212,10 @@ create_corps_commander = {
 		trickster
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -271,20 +234,18 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Ma Buqing"
 	picture = "Portrait_XSM_Ma_Buqing.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Ma Yuanxiang"
-	picture = "Portrait_XSM_Ma_Yuanxiang.tga"
-	traits = {
-	}
+	#picture = "Portrait_XSM_Ma_Yuanxiang.tga"
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -301,7 +262,7 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -316,6 +277,6 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }

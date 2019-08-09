@@ -102,6 +102,34 @@ ideologies = {
 
 	}
 
+	social_democrat = {
+		types = {
+			social_democrat_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_social_democrat_1"
+			"FACTION_NAME_social_democrat_2"
+			"FACTION_NAME_social_democrat_3"
+			"FACTION_NAME_social_democrat_4"
+			"FACTION_NAME_social_democrat_5"
+			"FACTION_NAME_social_democrat_6"
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
 	social_progressive = {
 		types = {
 			social_progressive_subtype = {}
@@ -114,7 +142,7 @@ ideologies = {
 			"FACTION_NAME_social_progressive_5"
 			"FACTION_NAME_social_progressive_6"
 		}
-		color = { 194 30 86 }
+		color = { 0 128 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -223,7 +251,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
 		}
-		color = { 110 110 110 }
+		color = { 140 140 140 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -250,7 +278,34 @@ ideologies = {
 			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
 			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
 		}
-		color = { 45 45 45 }
+		color = { 80 80 80 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	clerical_nationalist = {
+		types = {
+			clerical_nationalist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CLERICAL_NATIONALIST_1"
+			"FACTION_NAME_CLERICAL_NATIONALIST_2"
+			"FACTION_NAME_CLERICAL_NATIONALIST_3"
+			"FACTION_NAME_CLERICAL_NATIONALIST_4"
+			"FACTION_NAME_CLERICAL_NATIONALIST_5"
+			"FACTION_NAME_CLERICAL_NATIONALIST_6"
+		}
+		color = { 0 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

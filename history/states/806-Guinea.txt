@@ -3,9 +3,8 @@ state = {
 	name = "STATE_806"
 
 	history = {
-		owner = WAF
-		add_core_of = WAF
-		add_core_of = GNE
+		owner = NFA
+		add_core_of = NFA
 		victory_points = {
 			1909 1 #Conakry
 		}
@@ -19,6 +18,5 @@ state = {
 		1909 12858 12802 4957 8008 5039
 	}
 	manpower = 2821635
-	buildings_max_level_factor = 1
-	state_category = "rural"
+	state_category = two
 }

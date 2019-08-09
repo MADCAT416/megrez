@@ -1,210 +1,184 @@
-﻿capital = 671
-oob = "INC"
-
+﻿capital = 286
+OOB = "empty"
 set_research_slots = 2
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	jungle_warfare = 1
+	### AIR ###
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
 }
 
 set_convoys = 20
 set_stability = 0.5
-set_war_support = 0.6
+set_war_support = 0.5
 
 set_politics = {
-
-  parties = {
-    totalist = { 
-      popularity = 70
-    }
-
-    syndicalist = {
-      popularity = 10
-    }
-    
-    democratic_socialist = {
-      popularity = 10
-    }
-    
-    social_progressive = {
-      popularity = 5
-    }
-    
-    social_liberal = {
-      popularity = 5
-    }
-    
-    market_liberal = {
-      popularity = 0
-    }
-    
-    social_conservative = {
-      popularity = 0
-    }
-    
-    authoritarian_democrat = {
-      popularity = 0
-    }
-    
-    paternal_autocrat = {
-      popularity = 0
-    }
-    
-    national_populist = {
-      popularity = 0
-    }
-  }
-
-  ruling_party = totalist
-  last_election = "1932.5.1"
-  election_frequency = 48
-  elections_allowed = no
+	ruling_party = democratic_socialist
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 15
+    democratic_socialist = 49
+    syndicalist = 16
+    social_democrat = 20
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
+}
+
+random_list = {
+	20 = {
+		set_country_flag = INC_Full_Anarchist
+	}
+	10 = {
+		set_country_flag = INC_Full_Syndie
+	}
+	30 = {
+		set_country_flag = INC_Full_Vanguardist
+	}
+	40 = {}
+}
+
+
 add_ideas = {
-	#medium_economy # Ministers + ideas - a bunch of random for the moment (need more historical research)
+	# Ministers + ideas - a bunch of random for the moment (need more historical research)
 	INC_Pham_Van_Dong_hog_tot
 	INC_Nguyen_Tuong_Tam_for_sde
 	INC_Nguyen_Duy_Thai_eco_syn
 	INC_Phan_Van_Chanh_sec_syn
+	INC_Guerilla_Tradition
+	INC_vietminh
 }
+
 ### Leader Spam ###
 create_country_leader = {
-	name = "레주언"
-	desc = "Le_Duan_DESC"
-	picture = "Portrait_INC_Le_Duan.tga"
-	expire = "2000.1.1"
+	name = "Pham Van Dong"
+	desc = "POLITICS_PHAM_VAN_DONG_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Pham_Van_Dong.tga"
+	expire = "2000.4.29"
 	ideology = totalist_subtype
-	traits = {puppet_of_india}
+	traits = {}
 }
-
 create_country_leader = {
-	name = "보응우옌잡"
-	desc = "Vo_Nguyen_Giap_DESC"
-	picture = "Portrait_INC_Vo_Nguyen_Giap.tga"
-	expire = "2000.1.1"
+	name = "Ta Thu Thau"
+	desc = "POLITICS_TA_THU_THAO_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Ta_Thu_Thau.tga"
+	expire = "1956.9.12"
 	ideology = syndicalist_subtype
-	traits = {hochiminh_lover hog_respected_war_hero}
+	traits = {}
 }
-
 create_country_leader = {
-	name = "부이띤"
-	desc = "Bui_Tin_DESC"
-	picture = "Portrait_INC_Bui_Tin.tga"
-	expire = "2000.1.1"
+	name = "Nguyen An Ninh"
+	desc = "POLITICS_NGUYEN_AN_NINH_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Nguyen_An_Ninh.tga"
+	expire = "1974.8.25"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "호앙민찐"
-	desc = "Hoang_Minh_Chinh_DESC"
-	picture = "Portrait_INC_Hoang_Minh_Chinh.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	name = "Nguyen Tai Hoc"
+	desc = "POLITICS_NGUYEN_TAI_HOC_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Nguyen_Tai_Hoc.tga"
+	expire = "1977.6.19"
+	ideology = social_democrat_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "부홍카인"
-	desc = "Vu_Hong_Khanh_DESC"
-	picture = "Portrait_INC_Vu_Hong_Khanh.tga"
-	expire = "2000.1.1"
+	name = "Bui Quang Chieu"
+	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
+	expire = "1962.1.11"
 	ideology = social_liberal_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "판후이꾸앗"
-	desc = "Phan_Huy_Quat_DESC"
-	picture = "Portrait_INC_Phan_Huy_Quat.tga"
-	expire = "2000.1.1"
+	name = "Bui Quang Chieu"
+	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
+	expire = "1962.1.11"
 	ideology = market_liberal_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "판후이꾸앗"
-	desc = "Phan_Huy_Quat_DESC"
-	picture = "Portrait_INC_Phan_Huy_Quat.tga"
-	expire = "2000.1.1"
+	name = "Bui Quang Chieu"
+	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
+	expire = "1962.1.11"
 	ideology = social_conservative_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "응우옌반티에우"
-	desc = "Nguyen_Van_Thieu_DESC"
-	picture = "Portrait_INC_Nguyen_Van_Thieu.tga"
-	expire = "2000.1.1"
+	name = "Truong Tu Anh"
+	desc = "POLITICS_TRUONG_TU_ANH_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
+	expire = "1946.12.5"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
-
 create_country_leader = {
-	name = "바오다이"
-	desc = "Bao_Dai_DESC"
-	picture = "Portrait_INC_Bao_Dai.tga"
-	expire = "2000.1.1"
+	name = "Truong Tu Anh"
+	desc = "POLITICS_TRUONG_TU_ANH_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
+	expire = "1946.12.5"
 	ideology = paternal_autocrat_subtype
-	traits = {phantom_of_past}
+	traits = {}
 }
-
 create_country_leader = {
-	name = "찐민테"
-	desc = "Trinh_Minh_The_DESC"
-	picture = "Portrait_INC_Trinh_Minh_The.tga"
-	expire = "2000.1.1"
+	name = "Truong Tu Anh"
+	desc = "POLITICS_TRUONG_TU_ANH_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
+	expire = "1946.12.5"
 	ideology = national_populist_subtype
 	traits = {}
 }
@@ -215,83 +189,91 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Chu_Van_Tan.tga"
 	traits = { infantry_officer infantry_leader }
 	skill = 2
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Hoang Van Thai"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Hoang_Van_Thai.tga"
 	traits = { trickster }
 	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
 }
-create_corps_commander = { # Portraits needed
+create_corps_commander = {
 	name = "Van Tien Dung"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Van_Tien_Dung.tga"
 	traits = { skilled_staffer media_personality }
 	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 5
-	logistics_skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
 }
-create_corps_commander = { # Portraits needed
+create_corps_commander = {
 	name = "Nguyen Son"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Nguyen_Son.tga"
 	traits = { career_officer hill_fighter infantry_leader }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 2
+	logistics_skill = 1
 }
-create_corps_commander = { # Portraits needed
+create_corps_commander = {
 	name = "Nguyen Chi Thanh"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Nguyen_Chi_Thanh.tga"
 	traits = { inflexible_strategist infantry_officer commando }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 5
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
 	id = 900
 }
-create_corps_commander = { # Portraits needed
+create_corps_commander = {
 	name = "Nguyen Binh"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Nguyen_Binh.tga"
 	traits = { trickster commando }
 	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-	id = 901
-}
-create_corps_commander = { # Portraits needed
-	name = "Ta Xuan Thu"
-	portrait_path = "gfx/leaders/INC/Portrait_INC_Ta_Xuan_Thu.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	id = 901
 }
-### Naval Commander ###
-create_navy_leader = { # Portraits needed
+create_corps_commander = {
 	name = "Ta Xuan Thu"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Ta_Xuan_Thu.tga"
-	traits = { }
-	skill = 1 #naval guy, don't patch
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
-create_navy_leader = { # Portraits needed
+### Naval Commander ###
+create_navy_leader = {
+	name = "Ta Xuan Thu"
+	portrait_path = "gfx/leaders/INC/Portrait_INC_Ta_Xuan_Thu.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
 	name = "Tran Vang Giang"
 	portrait_path = "gfx/leaders/INC/Portrait_INC_Tran_Van_Giang.tga"
-	traits = { }
-	skill = 1 #naval guy, don't patch
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

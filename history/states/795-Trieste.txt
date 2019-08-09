@@ -3,28 +3,25 @@ state = {
 	name = "STATE_795"
 
 	history = {
-		owner = GER
+		owner = AUS
 		add_core_of = AUS
-		add_core_of = GER
-		add_claim_by = PAP
-		add_claim_by = ITA
-		add_claim_by = SRI
-		
+		victory_points = {
+			6626 10
+		}
 		buildings = {
 			infrastructure = 6
 			6626 = {
-				naval_base = 10
-
+				naval_base = 5
+				bunker = 3
+				coastal_bunker = 2
 			}
-			dockyard = 8
-
+			dockyard = 2
 		}
 	}
 
 	provinces = {
 		6626
 	}
-	manpower = 274041
-	buildings_max_level_factor = 5
-	state_category = "large_city"
+	manpower = 351600
+	state_category = four
 }

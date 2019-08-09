@@ -26,6 +26,7 @@ continent = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -74,7 +75,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -87,7 +88,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -128,6 +129,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
 			}
@@ -143,6 +145,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
 			}
@@ -154,6 +157,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_6_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
@@ -165,6 +169,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_1.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 			}
 		}
 		national_populist = {
@@ -175,11 +180,11 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_1.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -187,6 +192,7 @@ continent = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -235,7 +241,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -248,7 +254,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -300,6 +306,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
 			}
@@ -311,6 +318,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_6_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
@@ -322,6 +330,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_1.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 			}
 		}
 		national_populist = {
@@ -332,11 +341,11 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_1.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -347,6 +356,7 @@ continent = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -398,7 +408,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
@@ -415,7 +425,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
@@ -526,7 +536,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -534,6 +543,7 @@ continent = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -578,7 +588,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -589,7 +599,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -634,6 +644,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Britain_Generic_2.tga"
 			}
 		}
@@ -643,6 +654,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_6_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
@@ -653,6 +665,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_6_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
@@ -663,11 +676,11 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_6_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_7.tga"
 				"gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -714,7 +727,7 @@ continent = {
 				"gfx/leaders/Africa/Portrait_Africa_Generic_4_edit.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
@@ -722,7 +735,7 @@ continent = {
 				"gfx/leaders/Africa/Portrait_Africa_Generic_4_edit.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
@@ -790,8 +803,6 @@ continent = {
 			}
 		}
 	}
-
-
 }
 
 continent = {
@@ -804,6 +815,7 @@ continent = {
 			"gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_3.tga"
 		}
 	}
 
@@ -835,7 +847,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Japan_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_2.tga"
@@ -843,7 +855,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Japan_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_2.tga"
@@ -901,7 +913,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -942,7 +953,7 @@ continent = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
@@ -952,7 +963,7 @@ continent = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
@@ -1020,7 +1031,237 @@ continent = {
 			}
 		}
 	}
+}
 
+continent = {
+	name = india
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+		}
+	}
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			}
+		}
+	}
+}
+
+continent = {
+	name = central_america
+	army = {
+		male = {
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
+		}
+	}
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			}
+		}
+	}
 }
 
 GER = {
@@ -1173,6 +1414,7 @@ SAF = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -1221,7 +1463,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -1234,7 +1476,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -1332,6 +1574,7 @@ SPR = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
 			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
@@ -1392,14 +1635,14 @@ AFG = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_1.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_1.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
@@ -1498,7 +1741,7 @@ MEX = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
@@ -1507,7 +1750,7 @@ MEX = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
@@ -1705,7 +1948,6 @@ AOG = {
 			"gfx/leaders/GER/Portrait_Germany_Generic_land_5_new.tga"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_2.tga"
-			"gfx/leaders/AOG/Portrait_AOG_Generic_1.tga"
 		}
 	}
 
@@ -1725,6 +1967,7 @@ LEC = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_Asia_Generic_land_new_2.tga"
@@ -1843,16 +2086,9 @@ ARM = {
 SWI = {
 	army = {
 		male = {
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_8_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_9_edit.tga"
-			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_3.tga"
 			"gfx/leaders/SWI/Portrait_Switzerland_Maurer_Walter.tga"
+			"gfx/leaders/SWI/Portrait_Switzerland_Friedrich_Prisi.tga"
+			"gfx/leaders/SWI/Portrait_Switzerland_Otto_Hilfiker.tga"
 		}
 	}
 }
@@ -1893,703 +2129,11 @@ EGY = {
 	}
 }
 
-DEH = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-BHC = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-PRF = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-NEP = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-CEY = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-MYS = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
-TRV = {
-	army = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_4.tga"
-			"gfx/leaders/Generic/Portrait_India_Generic_land_new_5.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
-			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
-			}
-		}
-	}
-}
-
 CAR = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
@@ -2615,6 +2159,7 @@ CNT = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
@@ -2656,131 +2201,872 @@ SRI = {
 	}
 }
 
-CUB = {
+HAI = {
 	army = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
 		}
 	}
+
 	political = {
 		totalist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		syndicalist = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		market_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_conservative = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		paternal_autocrat = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		national_populist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+	}
+}
+
+GUY = {
+	army = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+	}
+}
+
+JAM = {
+	army = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+	}
+}
+
+TRI = {
+	army = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+	}
+}
+
+SUR = {
+	army = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_India_Generic_land_new_3.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+				"gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_2.tga"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+	}
+}
+
+CUB = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_1.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_1.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_3.tga"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		syndicalist = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_7_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_7_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_7_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		social_conservative = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_7_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_7_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_1.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		national_populist = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_France_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
 			}
 		}
 	}
@@ -2789,385 +3075,324 @@ CUB = {
 DOM = {
 	army = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
 			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_1.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_3.tga"
 		}
 	}
+
 	political = {
 		totalist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		syndicalist = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		market_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_conservative = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		paternal_autocrat = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		national_populist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 	}
 }
 
-ELS = {
+PRI = {
 	army = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
 			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
 			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
+			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+			"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_1.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_2.tga"
+			"gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_3.tga"
 		}
 	}
+
 	political = {
 		totalist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		syndicalist = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		social_progressive = {
+		radical_socialist = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
+				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		market_liberal = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		social_conservative = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		paternal_autocrat = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+				"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+				"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_land_new_2.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 		national_populist = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
+				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
+				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
 	}
 }
 
-GUA = {
-	army = {
-		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_6_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_land_7_edit.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
-			"gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
-		}
-	}
-
-	navy = {
-		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-			"gfx/leaders/Europe/portrait_europe_generic_navy_5_edit.tga"
-		}
-	}
-	political = {
-		totalist = {
-			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		syndicalist = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		democratic_socialist = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		social_progressive = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		social_liberal = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		market_liberal = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		social_conservative = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
-			}
-		}
-		authoritarian_democrat = {
-			male = {
-				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
-				"gfx/leaders/Generic/Portrait_Europe_Generic_new_6.tga"
-			}
-		}
-		paternal_autocrat = {
-			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			}
-		}
-		national_populist = {
-			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
-				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
-				"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			}
-		}
-	}
-}
-
-PAK = {
+ZZB = {
 	army = {
 		male = {
 			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
@@ -3204,7 +3429,7 @@ PAK = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		democratic_socialist = {
+		radical_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
@@ -3214,7 +3439,7 @@ PAK = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		social_progressive = {
+		social_democrat = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
@@ -3282,7 +3507,6 @@ PAK = {
 			}
 		}
 	}
-
 }
 
 BFA = {
@@ -3570,7 +3794,7 @@ ZAM = {
 	}
 }
 
-AZR = {
+TKE = {
 	army = {
 		male = {
 			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.tga"
@@ -3585,7 +3809,7 @@ AZR = {
 	}
 }
 
-BLR = {
+KBR = {
 	army = {
 		male = {
 			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.tga"
@@ -3615,7 +3839,7 @@ BRT = {
 	}
 }
 
-KAZ = {
+KIV = {
 	army = {
 		male = {
 			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.tga"
@@ -3645,7 +3869,7 @@ MZB = {
 	}
 }
 
-MNT = {
+KIK = {
 	army = {
 		male = {
 			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.tga"
@@ -3660,7 +3884,7 @@ MNT = {
 	}
 }
 
-VIN = {
+NBL = {
 	army = {
 		male = {
 			"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.tga"

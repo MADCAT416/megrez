@@ -1,5 +1,15 @@
 #Cosmetic Colours of Kaiserreich
 
+ANT_1 = {
+	color = rgb { 156 126 159 }
+	color_ui = rgb { 156 175 159 }
+}
+
+ANT_2 = {
+	color = rgb { 156 126 159 }
+	color_ui = rgb { 156 175 159 }
+}
+
 BATCOM = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 65 175 179 }
@@ -31,6 +41,11 @@ INS_HOL = {
 CZE_czechoslavakia = {
 	color = rgb { 145 145 238 }
 	color_ui = rgb { 145 145 238 }
+}
+
+CZE_habsburg = {
+	color = rgb { 161 139 40 }
+	color_ui = rgb { 161 139 40 }
 }
 
 PBC = {
@@ -118,6 +133,11 @@ NAM_GER = {
 	color_ui = rgb { 73 73 73 }
 }
 
+MAF_Reformed = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 73 73 73 }
+}
+
 NIC_LIB = {
 	color = rgb { 189 35 53 }
 	color_ui = rgb { 189 25 53 }
@@ -126,11 +146,6 @@ NIC_LIB = {
 GUA_LIB = {
 	color = rgb { 43 82 188 }
 	color_ui = rgb { 43 82 188 }
-}
-
-mittelafrika_formed = {
-	color = rgb { 90 119 67 }
-	color_ui = rgb { 90 119 67 }
 }
 
 LIB_AUTHDEM = {
@@ -157,21 +172,53 @@ JBS_UAE = {
 	color = rgb { 177 205 18 }
 	color_ui = rgb { 177 205 18 }
 }
-TIE = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
-}
-NPA = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+
+CEN_CON = {
+	color = rgb { 132 224 221 }
+	color_ui = rgb { 132 224 221 }
 }
 
-MEX_CON = {
-	color = rgb { 198 219 124 }
-	color_ui = rgb { 198 219 124 }
+CEN_REP = {
+	color = rgb { 234 219 79 }
+	color_ui = rgb { 234 219 79 }
 }
 
-CHI_KMT = {
-	color = rgb { 0 0 149 }
-	color_ui = rgb { 0 0 224 }
+PSA_america = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+USA_america_49 = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+USA_america_50 = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+USA_america_51 = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+NEE_america = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+ILL = {
+	color = rgb { 13 152 186 }
+	color_ui = rgb { 13 152 186 }
+}
+
+CAF_union = {
+	color = rgb { 175 12 12 }
+	color_ui = rgb { 155 29 29 }
+}
+
+CAF_syndie_socdem = {
+	color = rgb { 175 12 12 }
+	color_ui = rgb { 155 29 29 }
 }

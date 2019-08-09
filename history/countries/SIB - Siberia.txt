@@ -6,236 +6,191 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
 }
 
+### Navy - MtG ###
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+		transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		transport = 1
+	}
+}
 
 set_convoys = 2
 set_stability = 0.45
 
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 2
-		}
-		syndicalist = {
-			popularity = 3
-		}
-		social_progressive = {
-			popularity = 6
-		}
-		social_liberal = {
-			popularity = 37
-		}
-		market_liberal = {
-			popularity = 3
-		}
-		social_conservative = {
-			popularity = 10
-		}
-		authoritarian_democrat = {
-			popularity = 28
-		}
-		paternal_autocrat = {
-			popularity = 9
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = social_liberal
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Nikolay Avksentyev"
-	desc = ""
-	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Nikolay Avksentyev"
-	desc = ""
-	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Nikolay Avksentyev"
-	desc = ""
-	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Alexei N. Grishin-Almazov"
-	desc = ""
-	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Alexei N. Grishin-Almazov"
-	desc = ""
-	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Alexei N. Grishin-Almazov"
-	desc = ""
-	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Alexei N. Grishin-Almazov"
-	desc = ""
-	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {
-
-	}
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 2
+    syndicalist = 3
+    social_democrat = 6
+    social_liberal = 37
+    market_liberal = 3
+    social_conservative = 10
+    authoritarian_democrat = 28
+    paternal_autocrat = 9
+    national_populist = 2
 }
 
 create_country_leader = {
 	name = "Vadim Podbelsky"
-	desc = ""
+	desc = "POLITICS_VADIM_PODBELSKY_DESC"
 	picture = "Portrait_SIB_Vadim_Podbelsky.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Vadim Podbelsky"
-	desc = ""
-	picture = "Portrait_SIB_Vadim_Podbelsky.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Vadim Podbelsky"
-	desc = ""
-	picture = "Portrait_SIB_Vadim_Podbelsky.tga"
-	expire = "2000.1.1"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
+create_country_leader = {
+	name = "Vadim Podbelsky"
+	desc = "POLITICS_VADIM_PODBELSKY_DESC"
+	picture = "Portrait_SIB_Vadim_Podbelsky.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Vadim Podbelsky"
+	desc = "POLITICS_VADIM_PODBELSKY_DESC"
+	picture = "Portrait_SIB_Vadim_Podbelsky.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksey N. Grishin-Almazov"
+	desc = "POLITICS_ALEKSEY_GRISHIN_POLITICS"
+	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksey N. Grishin-Almazov"
+	desc = "POLITICS_ALEKSEY_GRISHIN_POLITICS"
+	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksey N. Grishin-Almazov"
+	desc = "POLITICS_ALEKSEY_GRISHIN_POLITICS"
+	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksey N. Grishin-Almazov"
+	desc = "POLITICS_ALEKSEY_GRISHIN_POLITICS"
+	picture = "Portrait_SIB_Aleksey_Grishin_Almazov.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Nikolay Avksentyev"
+	desc = "POLITICS_NIKOLAY_AVKSENTYEV_DESC"
+	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Nikolay Avksentyev"
+	desc = "POLITICS_NIKOLAY_AVKSENTYEV_DESC"
+	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Nikolay Avksentyev"
+	desc = "POLITICS_NIKOLAY_AVKSENTYEV_DESC"
+	picture = "Portrait_SIB_Nikolay_Avksentyev.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
 
 ### Field Marshal
 ### Corps Commander
 
 create_corps_commander = { #Auto-Generated
-	name = "Dmitri Goruk"
+	name = "Dmitriy Goruk"
 	portrait_path = "gfx/leaders/SIB/Portrait_SIB_Goruk.tga"
 	traits = {
 		winter_specialist
 		panzer_leader
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Andrei Gunzelmann"
+	name = "Andrey Gunzelmann"
 	portrait_path = "gfx/leaders/SIB/Portrait_SIB_Gunzelmann.tga"
 	traits = {
 		old_guard
@@ -256,7 +211,7 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -269,7 +224,7 @@ create_corps_commander = { #Auto-Generated
 		trait_reckless
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 3
 	logistics_skill = 2
@@ -283,7 +238,7 @@ create_corps_commander = { #Auto-Generated
 		cavalry_leader
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 3
@@ -298,7 +253,7 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }

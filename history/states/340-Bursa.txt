@@ -2,12 +2,11 @@ state = {
 	id = 340
 	name = "STATE_340"
 	manpower = 1587998
-	state_category = town
+	state_category = four
 
 	history = {
 		owner = OTT
 		add_core_of = OTT
-		add_claim_by = GRE
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -17,9 +16,17 @@ state = {
 			}
 			9887 = {
 				coastal_bunker = 4
+				bunker = 2
 			}
 			6864 = {
 				coastal_bunker = 4
+				bunker = 2
+			}
+			11829 = {
+				bunker = 2
+			}
+			947 = {
+				bunker = 1
 			}
 		}
 		victory_points = {

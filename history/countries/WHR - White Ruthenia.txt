@@ -2,59 +2,22 @@
 
 oob = "WHR"
 
+WHR = { country_event = { days = 2 id = whiteruthenia.67 }}
+
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### Tanks ###
+	gwtank = 1
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1	
+	### AIR ###
+	early_fighter = 1
 }
 
 set_research_slots = 3
@@ -63,52 +26,34 @@ add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
 
+set_war_support = 0.10
+
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 1
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		syndicalist = {
-			popularity = 1
-		}
-		social_progressive = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 55
-		}
-		authoritarian_democrat = {
-			popularity = 7
-		}
-		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 20
-		}
-	}
-
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 6
+    democratic_socialist = 0
+    syndicalist = 11
+    social_democrat = 13
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 30
+    paternal_autocrat = 15
+    national_populist = 5
+}
+
 set_country_flag = vladimir_I_HoS
 
 add_ideas = {
-	#ZO_idea
-	#medium_economy
+	WHR_disunity
+	WHR_urbanisation_1
+	WHR_illiteracy
 	limited_conscription
 	WHR_Vasil_Zacharka_hog_ade
 	WHR_Iosif_Voronko_for_ade
@@ -117,103 +62,30 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "니콜라이 파톨리체프"
-	desc = "Nikolai_Patolichev_DESC"
-	picture = "Portrait_Belarus_Nikolai_Patolichev.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "메이어 빌너"
-	desc = "Meir_Vilner_DESC"
-	picture = "Portrait_Belarus_Meir_Vilner.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "시몬 페르스키"
-	desc = "Szymon_Perski_DESC"
-	picture = "Portrait_Belarus_Szymon_Perski.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
+	name = "Uladzimir I"
+	desc = "POLITICS_VLADIMIR_DESC"
+	picture = "Portrait_Belarus_Vladimir_I.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "쥐이먼트 1세"
-	desc = "Sigismund_I_DESC"
-	picture = "Portrait_Belarus_Sigismund_I.tga"
-	expire = "2000.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
+ name = "Vaclaŭ Lastoŭski"
+ desc = "POLITICS_VACLAU_LASTOUSKI_DESC"
+ picture = "Portrait_Belarus_Vaclau_Lastouski.tga"
+ expire = "1965.1.1"
+ ideology = syndicalist_subtype
+ traits = {}
 }
 
 create_country_leader = {
-	name = "미하우 비투쉬카"
-	desc = "Michal_Vituska_DESC"
-	picture = "Portrait_Belarus_Michal_Vituska.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {
-	}
+ name = "Branislaŭ Taraškievič"
+ desc = "POLITICS_BRANISLAU_TARASKIEVIC_DESC"
+ picture = "Portrait_Belarus_Branislau_Taraskievic.tga"
+ expire = "1965.1.1"
+ ideology = totalist_subtype
+ traits = {}
 }
 
 create_field_marshal = {
@@ -225,10 +97,9 @@ create_field_marshal = {
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 3
-
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -238,11 +109,10 @@ create_field_marshal = {
 		skilled_staffer
 	}
 	skill = 2
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 2
-
 }
 
 create_corps_commander = {
@@ -257,8 +127,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
-
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -269,11 +138,10 @@ create_corps_commander = {
 		scavenger
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -287,9 +155,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
-
 }
 
 create_corps_commander = {
@@ -300,31 +167,19 @@ create_corps_commander = {
 		trickster
 	}
 	skill = 1
-	attack_skill = 3
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-
 }
 
 create_corps_commander = {
 	name = "Aŭhien Kalubovič"
 	picture = "Portrait_Belarus_Auhien_Kalubovic.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-
-}
-
-create_navy_leader = {
-	name = "Max Valentiner"
-	picture = "Portrait_Belarus_Max_Valentiner.tga"
-	traits = {
-		seawolf
-	}
-	skill = 3
 }

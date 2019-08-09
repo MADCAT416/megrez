@@ -1,7 +1,10 @@
-﻿division_template = {
-	name = "지역방위대"
-	template_counter = 42
+﻿########
+# Templates
+########
 
+division_template = {
+	name = "Home Guard"
+	division_names_group = ENG_GAR_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -9,19 +12,14 @@
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
 	}
-	
-	support = {
-		military_police  = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-	
-	priority = 0
 }
-
 division_template = {
-	name = "보병사단"
-
+	name = "Infantry Division with Artillery"
+	division_names_group = ENG_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -35,307 +33,398 @@ division_template = {
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		engineer = { x = 0 y = 2 }
 	}
 }
-
 division_template = {
-	name = "기계화보병사단"
-
+	name = "Infantry Division"
+	division_names_group = ENG_INF_01
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
-
 division_template = {
-	name = "기갑사단"
-
+	name = "Infantry Division with Tank support"
+	division_names_group = ENG_INF_01
 	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 2 y = 0 }
-		modern_armor = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
 	}
 }
-
 division_template = {
-	name = "포병사단"
-
+	name = "Motorized-Division"
+	division_names_group = ENG_MOT_01
 	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		artillery_brigade = { x = 0 y = 2 }
-		anti_air_brigade = { x = 1 y = 0 }
-		anti_air_brigade = { x = 1 y = 1 }
-		anti_air_brigade = { x = 1 y = 2 }
-		motorized_rocket_brigade = { x = 2 y = 0 }
-		motorized_rocket_brigade = { x = 2 y = 1 }
-		motorized_rocket_brigade = { x = 2 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 }
-
 division_template = {
-	name = "공정부대"
-	template_counter = 37
-
+	name = "Armored-Division"
+	division_names_group = ENG_ARM_01
 	regiments = {
-		heliborne = { x = 1 y = 0 }
-		heliborne = { x = 1 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 2 y = 0 }
-		paratrooper = { x = 2 y = 1 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
 }
 
-division_template = {
-	name = "해병사단"
 
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 2 y = 0 }
-		marine = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-	priority = 2
-}
 
+### Units ###
 units = {
+### Land ###
 
 	division = {
-		name = "웨일스 여단"
-		location = 253
-		division_template = "지역방위대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "West Lowland Home Guard"
+		location = 3273
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "로우랜드 여단"
+		name = "East Lowland Home Guard"
 		location = 9392
-		division_template = "지역방위대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "하일랜드 여단"
-		location = 11161
-		division_template = "지역방위대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Northumberland Home Guard"
+		location = 351
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "미들랜즈 여단"
-		location = 11279
-		division_template = "지역방위대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Cumbria Home Guard"
+		location = 11297
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-	
 	division = {
-		name = "콘월 여단"
-		location = 9562
-		division_template = "지역방위대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Lancashire Home Guard"
+		location = 6318
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제1보병사단"
-		location = 698
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Yorkshire Home Guard"
+		location = 364
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제2보병사단"
-		location = 6609
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Norfolk Home Guard"
+		location = 271
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제3보병사단"
-		location = 9603
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Greater London Home Guard"
+		location = 6103
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제4보병사단"
-		location = 11519
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제5보병사단"
-		location = 11549
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1기계화보병사단"
-		location = 9269
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2기계화보병사단"
-		location = 6545
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3기계화보병사단"
-		location = 3447
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제4기계화보병사단"
-		location = 9658
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제5기계화보병사단"
-		location = 9725
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제1기갑사단"
-		location = 5291
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
-	division = {
-		name = "제2기갑사단"
-		location = 6537
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
-	division = {
-		name = "제3기갑사단"
-		location = 678
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
-	
-	division = {
-		name = "제1해병사단"
+		name = "Kent Home Guard"
 		location = 3501
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+	}
 	division = {
-		name = "제2해병사단"
-		location = 13631
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+		name = "Hampshire Home Guard"
+		location = 9458
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+	}
 	division = {
-		name = "제3해병사단"
-		location = 575
-		division_template = "해병사단"
+		name = "1st Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Artillery"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+	}
 	division = {
-		name = "제4해병사단"
-		location = 6449
-		division_template = "해병사단"
+		name = "2nd Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Tank support"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+	}
 	division = {
-		name = "제5해병사단"
-		location = 3552
-		division_template = "해병사단"
+		name = "3rd Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Tank support"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+	}
 	division = {
-		name = "제1공정단"
-		location = 9239
-		division_template = "공정부대"
+		name = "4th Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Tank support"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+	}
 	division = {
-		name = "제2공정단"
-		location = 3589
-		division_template = "공정부대"
+		name = "5th Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Tank support"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}	
-	
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 3369
+		division_template = "Infantry Division with Tank support"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Gloucestershire Home Guard"
+		location = 3369
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Cornwall Home Guard"
+		location = 6526
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+	}
+
+
+
+########
+# Sea
+########
+
+
+
+}
+
+air_wings = {
+
+	132 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 25
+		}
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 25
+		}
+	}
+	129 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 25
+		}
+	}
+	125 = {
+		strat_bomber_equipment_1 = {
+			owner = "ENG"
+			amount = 75
+		}
+	}
+	127 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 25
+		}
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 25
+			}}}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_carrier_2
+			creator = ENG
+			version_name = "Republic Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_carrier_2
+			creator = ENG
+			version_name = "Republic Class"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_carrier_2
+			creator = ENG
+			version_name = "Republic Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_fast_battleship_4
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_fast_battleship_4
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_fast_battleship_4
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_4
+			creator = "ENG"
+			version_name = "Resurgence Class"
+		}
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_4
+			creator = "ENG"
+			version_name = "Resurgence Class"
+		}
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_4
+			creator = "ENG"
+			version_name = "U Type"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_4
+			creator = "ENG"
+			version_name = "U Type"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_4
+			creator = "ENG"
+			version_name = "U Type"
+		}
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_4
+			creator = "ENG"
+			version_name = "U Type"
+		}
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 10
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.44
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		requested_factories = 3
+		progress = 0.29
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+		}
+		requested_factories = 3
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.48
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = nav_bomber_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
 }

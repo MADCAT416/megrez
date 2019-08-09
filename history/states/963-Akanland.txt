@@ -3,10 +3,8 @@ state = {
 	name = "STATE_963"
 
 	history = {
-		owner = WAF
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = WAF
-		add_Core_of = GNE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,6 +18,5 @@ state = {
 		8122 10803
 	}
 	manpower = 1829400
-	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = two
 }

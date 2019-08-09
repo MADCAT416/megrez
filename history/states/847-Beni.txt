@@ -7,14 +7,13 @@ state = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
 		}
 		add_core_of = BOL
 		victory_points = {
 			13520 1
 		}
 		victory_points = {
-			13515 5
+			13515 3
 		}
 	}
 
@@ -22,6 +21,5 @@ state = {
 		8211 10982 10996 12917 13515 13517 13520 13521
 	}
 	manpower = 221365
-	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = two
 }

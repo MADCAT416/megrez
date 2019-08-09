@@ -1,5 +1,5 @@
 #Adjacency rules are special rules for adjacency
-#If smbd who is at war fights over canal/strait it is considered closed
+#If somebody who is at war fights over canal/strait it is considered closed
 #Enemy status is considered if any of sides controlling the channel is at war with country
 #Friend status is considered non of sides controlling the channel is at war with country and one of controllers is ally of giving military access
 #Every one else is considered as neutral according to canal/strait
@@ -9,13 +9,13 @@
 #Name is how you refer to the rule in adjecencies.csv
 
 #Extra notes from the KR team:
-#We have put them into 4 groups
-#Group 1 are canal's, which allow nothing through if contested or enemy, everything through as friend, only trade through if neutral.
-#Group 2 are canal's with special treaties in place, which allow nothing through if contested or enemy, everything through as friend or neutral.
-#Group 3 are small straits, which allow nothing through if enemy, just subs through if contested, everything through as friend or neutral.
-#Group 4 are large straits, which allow only subs through if contested or enemy, everything through as friend or neutral.
+#We've put them into 4 groups, going from most open to least open
+#Group 1 are large straits, they allow subs through if contested or enemy, everything through as friend or neutral
+#Group 2 are small straits, they allow nothing through if enemy, subs through if contested, everything through as friend or neutral
+#Group 3 are canals with special treaties in place, they allow nothing through if contested or enemy, everything through as friend or neutral
+#Group 4 are regular canals, they allow nothing through if contested or enemy, only trade through if neutral, everything through as friend
 
-#Suez Canal - Group 2
+#Suez Canal - Group 3
 adjacency_rule
 {
 	name = "SUEZ_CANAL"
@@ -49,7 +49,7 @@ adjacency_rule
 		trade = yes
 	}
 
-	required_provinces = { 4073 9947 12049 1155 }
+	required_provinces = { 4073 9947 }
 
 	is_disabled {
 		OR {
@@ -63,7 +63,7 @@ adjacency_rule
 	offset = { -7 0 4 }
 }
 
-#Gibraltar Strait - Group 4
+#Gibraltar Strait - Group 1
 adjacency_rule
 {
 	name = "GIBRALTAR_STRAIT"
@@ -103,7 +103,7 @@ adjacency_rule
 	offset = { -15 0 2 }
 }
 
-#Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen) - Group 3
+#Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen) - Group 2
 adjacency_rule
 {
 	name = "DANISH_BELTS_STRAIT"
@@ -143,7 +143,7 @@ adjacency_rule
 	offset = { -26 0 -13 }
 }
 
-#Panama Canal - Group 1
+#Panama Canal - Group 3
 adjacency_rule
 {
 	name = "PANAMA_CANAL"
@@ -173,11 +173,11 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = no
+		submarine = yes
 		trade = yes
 	}
 
-	required_provinces = { 7617 13682 }
+	required_provinces = { 7617 }
 
 	is_disabled {
 		OR {
@@ -191,7 +191,7 @@ adjacency_rule
 	offset = { -3 0 -2 }
 }
 
-#Turkish Straits - Group 1
+#Turkish Straits - Group 4
 adjacency_rule
 {
 	name = "BOSPHORUS_STRAIT"
@@ -231,7 +231,7 @@ adjacency_rule
 	offset = { 7 0 0 }
 }
 
-#Kaiser-Wilhelm-Kanal - Group 1
+#Kaiser-Wilhelm-Kanal - Group 4
 adjacency_rule
 {
 	name = "KAISER-WILHELM-KANAL"
@@ -271,7 +271,7 @@ adjacency_rule
 	offset = { -5 0 6 }
 }
 
-#Dardanelles - Group 1
+#Dardanelles - Group 4
 adjacency_rule
 {
 	name = "DARDANELLES"
@@ -311,7 +311,7 @@ adjacency_rule
 	offset = { -2 0 -8 }
 }
 
-#Shimonoseki-kaikyō - Group 1
+#Shimonoseki-kaikyō - Group 4
 adjacency_rule
 {
 	name = "SHIMONOSEKI"
@@ -351,7 +351,7 @@ adjacency_rule
 	offset = { 1 -2 6 }
 }
 
-#Straße von Malakka - Group 4
+#Straße von Malakka - Group 1
 adjacency_rule
 {
 	name = "MALACCA_STRAIT"
@@ -385,13 +385,13 @@ adjacency_rule
 		trade = yes
 	}
 
-	required_provinces = { 12299 12168 }
+	required_provinces = { 12299 }
 
 	icon = 12299
 	offset = { -5 0 -7 }
 }
 
-#Stretto di Messina - Group 4
+#Stretto di Messina - Group 1
 adjacency_rule
 {
 	name = "MESSINA_STRAIT"
@@ -429,528 +429,4 @@ adjacency_rule
 
 	icon = 4159
 	offset = { 7 -2 4}
-}
-
-#네바강 
-adjacency_rule
-{
-	name = "NEVA_RIVER"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = no
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 3151 149 11068 79 6174 }
-
-	icon = 2332
-	offset = { -5 0 -7 }
-}
-
-
-#스비르강 
-adjacency_rule
-{
-	name = "SVIR_RIVER"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = no
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 11059 9190 9082 6106 3084 6057 11153 }
-
-	icon = 6057
-	offset = { 0 0 0 }
-}
-
-#백해운하 
-adjacency_rule
-{
-	name = "WHITE_SEA_CANAL"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = no
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 11212 155 11175 3078 6021 9045 94 }
-
-	icon = 3078
-	offset = { -7 0 4 }
-}
-
-
-#코린트 운하 
-adjacency_rule
-{
-	name = "CORINTOS_CANAL"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = no
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = no
-		submarine = no
-		trade = yes
-	}
-
-	required_provinces = { 3988 }
-
-	icon = 3988
-	offset = { 0 0 0 }
-}
-
-
-#민치해협
-adjacency_rule
-{
-	name = "MINCH"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-
-	required_provinces = { 3379 3329 3311 6350 3373 11266 3178 6062 }
-
-	icon = 3329
-	offset = { 7 -2 4}
-}
-
-#홍해 출구
-adjacency_rule
-{
-	name = "BAB_EL_MANDEB"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-
-	required_provinces = { 4985 10752 }
-
-	icon = 4985
-	offset = { 7 -2 4}
-}
-
-# 페르시아만 아가리
-adjacency_rule
-{
-	name = "HORMOZ"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-
-	required_provinces = { 10904 7982 }
-
-	icon = 10904
-	offset = { 7 -2 4}
-}
-
-# 오대호운하 1
-adjacency_rule
-{
-	name = "SAINTLAWRENCE"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 6778 598 3602 7345 4417 10320 7433 12149 7291 9601 4345 4270 6625 3605 }
-
-	icon = 4270
-	offset = { 0 0 0 }
-}
-
-# 오대호운하 2
-adjacency_rule
-{
-	name = "WELLAND_CANAL"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 749 11654  }
-
-	icon = 749
-	offset = { 0 0 0 }
-}
-
-
-# 오대호운하 3
-adjacency_rule
-{
-	name = "DITROIT_RIVER"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 9667 9711 }
-
-	icon = 9667
-	offset = { 0 0 0 }
-}
-
-# 오대호운하 4
-adjacency_rule
-{
-	name = "STCLAIR_RIVER"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 9724 6710 }
-
-	icon = 9724
-	offset = { 0 0 0 }
-}
-
-# 오대호운하 5
-adjacency_rule
-{
-	name = "STMARY_RIVER"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 12582  }
-
-	icon = 12582
-	offset = { 0 0 0 }
-}
-
-# 오대호운하 6
-adjacency_rule
-{
-	name = "MACKINAC"
-
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-
-	required_provinces = { 10233 5205  }
-
-	icon = 10233
-	offset = { 0 0 0 }
 }

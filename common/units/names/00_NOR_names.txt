@@ -2,9 +2,7 @@
 	fleet_names_template = FLEET_NAME_NOR
 	submarine = {
 		prefix = "KNM"
-		generic = {
-			"Undervannsbåt"
-		}
+		generic = { "Undervannsbåt" }
 		unique = {
 			"Uredd"
 			"Ula"
@@ -25,11 +23,8 @@
 	}
 	destroyer = {
 		prefix = "KNM"
-		generic = {
-			"Jager"
-		}
+		generic = { "Jager" }
 		unique = {
-			"Balder"
 			"Brage"
 			"Delling"
 			"Forsete"
@@ -45,8 +40,6 @@
 			"Mime"
 			"Njord"
 			"Od"
-			"Odin"
-			"Tor"
 			"Ty"
 			"Ull"
 			"Vidar"
@@ -59,51 +52,44 @@
 	}
 	light_cruiser = {
 		prefix = "KNM"
-		generic = {
-			"Lett Krysser"
-		}
+		generic = { "Krysser" }
 		unique = {
 			"Lillehammer"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "KNM"
-		generic = {
-			"Panserskip"
-		}
+		generic = { "Panserkrysser" }
 		unique = {
-			"Harald Haarfagre"
-			"Norge"
 			"Eidsvoll"
-			"Tordenskjold"
 			"Kristiania"
-		}
-	}
-	battle_cruiser = {
-		prefix = "KNM"
-		generic = {
-			"Slagkrysser"
-		}
-		unique = {
-			"Gjøvik"
 		}
 	}
 	battleship = {
 		prefix = "KNM"
-		generic = {
-			"Slagskip"
+		generic = { "Slagskip" }
+		unique = {
+			"Gjøvik"
 		}
+	}
+	SH_battleship = {
+		prefix = "KNM"
+		generic = { "Dreadnought" }
 		unique = {
 			"Hamar"
 		}
 	}
 	carrier = {
 		prefix = "KNM"
-		generic = {
-			"Hangarskip"
-		}
+		generic = { "Hangarskip" }
 		unique = {
 			"Øyer"
+		}
+	}
+	heavy_carrier = {
+		prefix = "KNM"
+		generic = { "Tung Hangarskip" }
+		unique = {
 		}
 	}
 

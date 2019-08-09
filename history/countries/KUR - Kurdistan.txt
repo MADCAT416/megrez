@@ -1,182 +1,111 @@
-﻿capital = 676
-oob = "empty"
+﻿capital = 350
+OOB = "empty"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
-
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
-
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
-
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+	### MOD ###
+	### INF ###
+	infantry_weapons = 1
 }
+
 set_research_slots = 2
+
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 5
-		}
-		democratic_socialist = {
-			popularity = 10
-		}
-		syndicalist = {
-			popularity = 15
-		}
-		social_progressive = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
-			popularity = 25
-		}
-		authoritarian_democrat = {
-			popularity = 20
-		}
-		paternal_autocrat = {
-			popularity = 10
-		}
-		national_populist = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
-
 }
-add_ideas = {
-	#medium_economy
+
+set_popularities = {
+    totalist = 5
+    democratic_socialist = 10
+    syndicalist = 15
+    social_democrat = 5
+    social_liberal = 5
+    market_liberal = 5
+    social_conservative = 25
+    authoritarian_democrat = 20
+    paternal_autocrat = 10
+    national_populist = 0
 }
 
 create_country_leader = {
-	name = "우스만 압드 알아지즈"
-	picture = "Portrait_KUR_Uthman_Abd_al_Aziz.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "무스타파 바르자니"
-	picture = "Portrait_KUR_Mustafa_Barzani.tga"
-	expire = "2000.1.1"
+	name = "Bakr Sidqi"
+	desc = "POLITICS_BAKR_SIDIQI_DESC"
+	picture = "Portrait_KUR_Bakr.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "무스타파 바르자니"
-	picture = "Portrait_KUR_Mustafa_Barzani.tga"
-	expire = "2000.1.1"
+	name = "Mehmûd Berzincî"
+	desc = "POLITICS_BARZANJI_DESC"
+	picture = "Portrait_KUR_Mahmud_Barzanji.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "이브라힘 아흐마드"
-	picture = "Portrait_KUR_Ibrahim_Ahmad.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	name = "Haji Baba Sheikh"
+	desc = "POLITICS_BABA_SHEIKH_DESC"
+	picture = "Portrait_KUR_Haji_Baba.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "압둘라 외잘란"
-	picture = "Portrait_KUR_Abdullah_Ocalan.tga"
-	expire = "2000.1.1"
+	name = "Qazî Mihemed"
+	desc = "POLITICS_MIHEMED_DESC"
+	picture = "Portrait_KUR_Mihemed.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "압둘라 외잘란"
-	picture = "Portrait_KUR_Abdullah_Ocalan.tga"
-	expire = "2000.1.1"
+	name = "Qazî Mihemed"
+	desc = "POLITICS_MIHEMED_DESC"
+	picture = "Portrait_KUR_Mihemed.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "압둘 라흐만 가셈루"
-	picture = "Portrait_KUR_Abdul_Rahman_Ghassemlou.tga"
-	expire = "2000.1.1"
+	name = "Qazî Mihemed"
+	desc = "POLITICS_MIHEMED_DESC"
+	picture = "Portrait_KUR_Mihemed.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "무스타파 바르자니"
-	picture = "Portrait_KUR_Mustafa_Barzani.tga"
-	expire = "2000.1.1"
+	name = "Mistefa Barzanî"
+	desc = "POLITICS_MUSTAFA_BARZANI_DESC"
+	picture = "Portrait_KUR_Mustafa.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "이브라힘 아흐마드"
-	picture = "Portrait_KUR_Ibrahim_Ahmad.tga"
-	expire = "2000.1.1"
+	name = "Sheikh Said"
+	desc = "POLITICS_SHEIKH_SAID_DESC"
+	picture = "Portrait_KUR_Riza_Dershimi.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "무스타파 바르자니"
-	picture = "Portrait_KUR_Mustafa_Barzani.tga"
-	expire = "2000.1.1"
+	name = "Kâmuran Ali Bedirxan"
+	desc = "POLITICS_RIZA_DERSHIMI_DESC"
+	picture = "Portrait_KUR_Kamuran.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -193,9 +122,9 @@ create_field_marshal = { #Auto-Generated
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
@@ -207,8 +136,8 @@ create_corps_commander = { #Auto-Generated
 		winter_specialist
 	}
 	skill = 2
-	attack_skill = 4
-	defense_skill = 2
+	attack_skill = 3
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 2
 }
@@ -225,7 +154,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated

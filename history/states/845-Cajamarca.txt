@@ -2,7 +2,7 @@ state = {
 	id = 845
 	name = "STATE_845"
 	resources = {
-		oil = 18
+		oil = 20
 	}
 
 	history = {
@@ -10,7 +10,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		add_core_of = PRU
 		victory_points = {
@@ -20,10 +19,10 @@ state = {
 			2156 1
 		}
 		victory_points = {
-			13209 5
+			13209 3
 		}
 		victory_points = {
-			8199 15
+			8199 10
 		}
 	}
 
@@ -31,6 +30,5 @@ state = {
 		2156 8199 13209 13534 13537 13538
 	}
 	manpower = 1264518
-	buildings_max_level_factor = 1
-	state_category = town
+	state_category = four
 }

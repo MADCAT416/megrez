@@ -3,10 +3,8 @@ state = {
 	name = "STATE_925"
 
 	history = {
-		owner = CEA
-		add_core_of = MAF
-		add_core_of = CEA
-		add_core_of = KEN
+		owner = MAF
+		add_claim_by = MAF
 		buildings = {
 			infrastructure = 3
 		}
@@ -16,6 +14,5 @@ state = {
 		2066 5079 13639
 	}
 	manpower = 71435
-	buildings_max_level_factor = 1
-	state_category = "wasteland"
+	state_category = wasteland
 }

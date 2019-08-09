@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "보병사단"
-
+	name = "Infanteridivision"
+	division_names_group = DEN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,145 +9,102 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+}
+
+division_template = {
+	name = "Dragonregiment"
+	division_names_group = DEN_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 	}
 }
 
 division_template = {
-	name = "차량화보병사단"
-
+	name = "Garnisonregiment"
+	division_names_group = DEN_GAR_01
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
+	priority = 0
 }
-
 division_template = {
-	name = "기갑사단"
-
+	name = "Armored-Division"
+	division_names_group = DEN_ARM_01
 	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "포병사단"
-
-	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		motorized_rocket_brigade = { x = 0 y = 1 }
-		modern_sp_artillery_brigade = { x = 0 y = 2 }
-		artillery_brigade = { x = 1 y = 0 }
-		motorized_rocket_brigade = { x = 1 y = 1 }
-		modern_sp_artillery_brigade = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "해병사단"
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
 }
 
 units = {
-
 	division = {
-		name = "제1포병사단"
-		location = 3206
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1보병사단"
-		location = 3341
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제1해병사단"
-		location = 394
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2해병사단"
-		location = 3325
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제3해병사단"
-		location = 6361
-		division_template = "해병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "제2포병사단"
+		#name = "Sjællandske Division"
+		division_name = {	# New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
 		location = 6287
-		division_template = "포병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Infanteridivision"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제2보병사단"
-		location = 6393
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		#name = "Jydske Division"
+		division_name = {	# New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6364
+		division_template = "Infanteridivision"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "제3보병사단"
-		location = 3305
-		division_template = "보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		#name = "Jydske Dragonregiment"
+		division_name = {	# New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6364
+		division_template = "Dragonregiment"
+		start_experience_factor = 0.1
+	}
+	division = {
+		#name = "Bornholms Værn"
+		division_name = {	# New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6361
+		division_template = "Garnisonregiment"
+		start_experience_factor = 0.1
 	}
 
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_3
+			creator = "DEN"
+			version_name = "Daphne Class"
+		}
+		requested_factories = 4
+		progress = 0.55
+		amount = 6
+	}
 }

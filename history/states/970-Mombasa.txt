@@ -3,10 +3,8 @@ state = {
 	name = "STATE_970"
 
 	history = {
-		owner = CEA
-		add_core_of = MAF
-		add_core_of = CEA
-		add_core_of = KEN
+		owner = MAF
+		add_claim_by = MAF
 		buildings = {
 			infrastructure = 3
 			5210 = {
@@ -22,5 +20,5 @@ state = {
 		5210
 	}
 	manpower = 308400
-	state_category = rural
+	state_category = two
 }

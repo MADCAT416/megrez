@@ -1,29 +1,6 @@
 ﻿division_template = {
-	name = "IRA"
-	template_counter = 60
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
-	}
-	
-	support = {
-		military_police  = { x = 0 y = 0 }
-		logistics_company  = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-		field_hospital = { x = 0 y = 3 }
-	}
-	
-	priority = 2
-}
-
-division_template = {
-	name = "케헤른"
-
+	name = "Cór Coisithe Division"
+	division_names_group = IRE_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -31,199 +8,111 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-
-	}
-	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		engineer = { x = 0 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
-
 division_template = {
-	name = "갈로글라"
-
+	name = "Fórsaí Cosanta Division"
+	division_names_group = IRE_GAR_01
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
 	}
 }
-
 division_template = {
-	name = "전차대"
-
+	name = "Cór Marcra Division"
+	division_names_group = IRE_CAV_01
 	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 0 y = 2 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 1 y = 2 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
+		military_police = { x = 0 y = 0 }
 	}
 }
-
 division_template = {
-	name = "포병대"
-
+	name = "German WK1 Tank Division"
+	division_names_group = IRE_ARM_01
 	regiments = {
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 1 }
-		anti_air_brigade = { x = 1 y = 0 }
-		anti_air_brigade = { x = 1 y = 1 }
-		motorized_rocket_brigade = { x = 2 y = 0 }
-		motorized_rocket_brigade = { x = 2 y = 1 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "피어노글라"
-	template_counter = 37
-
-	regiments = {
-		heliborne = { x = 0 y = 0 }
-		heliborne = { x = 0 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 2 y = 0 }
-		paratrooper = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "해병대"
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-	priority = 2
 }
 
 units = {
-
 	division = {
-		name = "피어너 울라"
-		location = 3242
-		division_template = "IRA"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Boyle Volunteers"
+		location = 3379
+		division_template = "Fórsaí Cosanta Division"
+		start_experience_factor = 0.1
 	}
-
 	division = {
-		name = "피어너 라긴"
-		location = 3342
-		division_template = "IRA"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		name = "Donnelly Division"
+		location = 3379
+		division_template = "Fórsaí Cosanta Division"
+		start_experience_factor = 0.1
 	}
-
-	division = {
-		name = "피어너 무운"
-		location = 11267
-		division_template = "IRA"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "피어너 코나크타"
-		location = 11287
-		division_template = "IRA"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "피어노글라"
+	division = {	name = "1st. Dublin Rifles"
 		location = 11293
-		division_template = "피어노글라"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		division_template = "Cór Coisithe Division"
+		start_experience_factor = 0.1
 	}
-	
-	division = {
-		name = "제1해병여단"
-		location = 11834
-		division_template = "해병대"
+	division = {	name = "1st. Gardaí Síochána"
+		location = 11293
+		division_template = "Cór Marcra Division"
+		start_experience_factor = 0.1
+	}
+	division = {	name = "German WK1 Tank Division"
+		location = 11293
+		division_template = "German WK1 Tank Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "제1케헤른"
-		location = 3961
-		division_template = "케헤른"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
 	}
-	
-	division = {
-		name = "제2케헤른"
-		location = 6784
-		division_template = "케헤른"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.44
+		efficiency = 100
 	}
-	
-	division = {
-		name = "제1갈로글라"
-		location = 3655
-		division_template = "갈로글라"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제2갈로글라"
-		location = 3589
-		division_template = "갈로글라"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제1전차사단"
-		location = 11611
-		division_template = "전차대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "제1포병사단"
-		location = 956
-		division_template = "포병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 100
 	}
 }
+
+

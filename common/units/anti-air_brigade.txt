@@ -15,24 +15,24 @@ sub_units = {
 			infantry
 			anti_air
 		}
-		
+
 		group = infantry
-		
+
 		categories = {
 			category_army
 			category_line_artillery
-		}		
-		
+		}
+
 		combat_width = 1
-		
+
 		#Size Definitions
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
-		manpower = 500
+		manpower = 750
 		training_time = 120
 		weight = 0.5
-		
+
 		supply_consumption = 0.1
 
 		need = {
@@ -63,8 +63,7 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-
-	anti_air_manpads_company = {
+	mot_anti_air_brigade = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -72,41 +71,42 @@ sub_units = {
 		active = yes
 
 		type = {
-			infantry
+			motorized
 			anti_air
 		}
-		
-		group = infantry
-		
+
+		group = mobile
+
 		categories = {
 			category_army
 			category_line_artillery
-		}		
-		
+		}
+
 		combat_width = 1
-		
+
 		#Size Definitions
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
-		manpower = 500
+		manpower = 750
 		training_time = 120
 		weight = 0.5
-		
-		supply_consumption = 0.1
 
+		supply_consumption = 0.15
+		transport = motorized_equipment
 		need = {
-			manpads_equipment = 30
+			anti_air_equipment = 30
+			motorized_equipment = 50
 		}
 
 		forest = {
 			attack = -0.1
-			movement = -0.1
+			movement = -0.5
 		}
 
 		jungle = {
 			attack = -0.2
-			movement = -0.2
+			movement = -0.5
 		}
 
 		marsh = {

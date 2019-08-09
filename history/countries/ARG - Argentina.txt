@@ -1,295 +1,210 @@
 ﻿capital = 278
-oob = "ARG"
+OOB = "ARG"
+set_naval_oob = "ARG_naval"
 set_convoys = 40
+
 set_research_slots = 3
 set_technology = {
-
-### 보병
-	infantry_weapons_1 = 1 # 1955
-	infantry_weapons_2 = 1 # 1960
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	transport = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	CAS1 = 1
+	### Naval ###
 	
-	etc_infantry_equipments_1 = 1 # 1960
 	
-	night_vision_1 = 1 # 1960
-	
-	Bulletproof_vest_1 = 1 # 1960
-	
-	support_weapons_1 = 1 # 1960
-		
-	airborne_1 = 1 # 1960
-	
-	motorised_infantry = 1 # 1955
-
-### 지원
-	tech_support = 1 # 1955
-	
-	tech_recon_1 = 1 # 1960
-	
-	tech_engineers_1 = 1 # 1960
-	
-	tech_military_police_1 = 1 # 1960
-	
-	tech_maintenance_company_1 = 1 # 1960
-	
-	tech_field_hospital_1 = 1 # 1960
-	
-	tech_logistics_company_1 = 1 # 1960
-	
-	tech_signal_company_1 = 1 # 1960
-
-### 기갑 
-	main_battle_tank_1 = 1 # 1955
-	main_battle_tank_2 = 1 # 1960
-	
-	light_tank_1 = 1 # 1955
-	light_tank_2 = 1 # 1960
-	
-	mechanised_infantry_1 = 1 # 1960
-	
-	amphibious_assault_vehicle_1 = 1 # 1960
-
-### 포병
-	artillery_1 = 1 # 1955
-	
-	spa_1 = 1 # 1960
-		
-	motorized_rocket_1 = 1 # 1955
-		
-	infantry_at_1 = 1 # 1955
-	
-	antitank_1 = 1 # 1965
-		
-	antiair_1 = 1 # 1960
-	
-	SPAAG_1 = 1 # 1955
-
-### 수상함
-	frigate_1 = 1 # 1945
-	frigate_2 = 1 # 1950
-	frigate_3 = 1 # 1955
-	
-	destroyer_1 = 1 # 1945
-	destroyer_2 = 1 # 1950
-	destroyer_3 = 1 # 1955
-
-	cruiser_1 = 1 # 1945
-	cruiser_2 = 1 # 1950
-	cruiser_3 = 1 # 1955
-		
-### 대형함
-	battleship_1 = 1 # 1945
-		
-	amphibious_assault_carrier_1 = 1 # 1945
-	amphibious_assault_carrier_2 = 1 # 1950
-	amphibious_assault_carrier_3 = 1 # 1955
-
-### 잠수함
-	submarine_1 = 1 # 1945
-	submarine_2 = 1 # 1950
-	submarine_3 = 1 # 1955
-
-	large_submarine_1 = 1 # 1945
-	large_submarine_2 = 1 # 1950
-	large_submarine_3 = 1 # 1955
-	
-### 항공기
-
-### 폭격기
-	strategic_bomber_1 = 1 # 1945
-
-### 헬기
-	helicopter_1 = 1 # 1950
-	recon_helicopter_1 = 1 # 1960
-
-### 공학
-	electronic_mechanical_engineering = 1 # 1910
-	radio = 1 # 1920
-
-	radio_detection = 1 # 1935
-	decimetric_radar = 1 # 1938
-	improved_decimetric_radar = 1 # 1939
-	centimetric_radar = 1 # 1940
-	improved_centimetric_radar = 1 # 1941
-	advanced_centimetric_radar = 1 # 1942
-	
-	rdf1 = 1 # 1939
-	rdf2 = 1 # 1941
-	rdf3 = 1 # 1943
-	
-	mechanical_computing = 1 # 1920
-	computing_machine = 1 # 1938
-	improved_computing_machine = 1 # 1940
-	advanced_computing_machine = 1 # 1942
-	future_computing_machine = 1 # 1944
-	
-	basic_encryption = 1 # 1938
-	improved_encryption = 1 # 1940
-	advanced_encryption = 1 # 1942
-	
-	basic_decryption = 1 # 1938
-	improved_decryption = 1 # 1940
-	advanced_decryption = 1 # 1942
-	
-	experimental_rockets = 1 # 1920
-	
-	jet_engines_1 = 1 # 1940
-	
-	atomic_research = 1 # 1940
-
-### 산업
-	basic_machine_tools = 1 # 1936
-	improved_machine_tools = 1 # 1937
-	advanced_machine_tools = 1 # 1939
-	
-	improved_equipment_conversion = 1 # 1937
-	
-	synth_oil_experiments = 1 # 1936
-	oil_processing = 1 # 1937
-	rubber_processing = 1 # 1937
-
-	construction1 = 1 # 1936
-	construction2 = 1 # 1937
-	construction3 = 1 # 1939
-	construction4 = 1 # 1941
-	construction5 = 1 # 1943
-	
-	excavation1 = 1 # 1936
-	excavation2 = 1 # 1937
-	excavation3 = 1 # 1939
-	excavation4 = 1 # 1941
-	excavation5 = 1 # 1943
-
 }
 
-set_cosmetic_tag = ARG_LAP
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-add_ideas = {
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
 }
 
-set_stability = 0.4
-set_war_support = 0.4
-
-set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 3
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 7
-		}
-		social_conservative = {
-			popularity = 10
-		}
-		authoritarian_democrat = {
-			popularity = 5
-		}
-		paternal_autocrat = {
-			popularity = 40
-		}
-		national_populist = {
-			popularity = 30
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
 		}
 	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
+}
 
-	ruling_party = paternal_autocrat
+add_ideas = {
+	ARG_interservice_rivalry_navy_dominant
+	ARG_Military_Cliques
+	ARG_Military_Apparatus
+	partial_economic_mobilisation
+}
+
+country_event = {
+	id = argcar.1
+	days = 1
+}
+
+set_stability = -0.10
+set_war_support = 0
+set_variable = { arg_im_factor = 100 }
+
+set_politics = {
+	ruling_party = national_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "아우구스토 반도르"
-	desc = "Augusto_Vandor_DESC"
-	picture = "Portrait_ARG_Augusto_Vandor.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 4
+    syndicalist = 0
+    social_democrat = 7
+    social_liberal = 15
+    market_liberal = 12
+    social_conservative = 9
+    authoritarian_democrat = 18
+    paternal_autocrat = 8
+    national_populist = 27
 }
 
 create_country_leader = {
-	name = "후안 페론"
-	desc = "Juan_Peron_DESC"
-	picture = "Portrait_ARG_Juan_Peron.tga"
-	expire = "2000.1.1"
+	name = "Manuel Carlés"
+	desc = "POLITICS_CARLES_DESC"
+	picture = "Portrait_ARG_Manuel_Carles.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "후안 카를로스 옹가니아"
-	desc = "Juan_Carlos_Ongania_DESC"
-	picture = "Portrait_ARG_Juan_Carlos_Ongania.tga"
-	expire = "2000.1.1"
+	name = "Juan Domingo Peron"
+	desc = "POLITICS_DOMINGO_PERON_DESC"
+	picture = "Portrait_Argentine_Domingo_Peron.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "호르헤 에네아 스필림베르고"
-	desc = "Jorge_Enea_Spilimbergo_DESC"
-	picture = "Portrait_ARG_Jorge_Enea_Spilimbergo.tga"
-	expire = "2000.1.1"
+	name = "Nicolas Repetto"
+	desc = "POLITICS_NICOLAS_REPETTO_DESC"
+	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "페드로 에우헤니오 아람부루"
-	desc = "Pedro_Eugenio_Aramburu_DESC"
-	picture = "Portrait_ARG_Pedro_Eugenio_Aramburu.tga"
-	expire = "2000.1.1"
+	name = "Pedro Pablo Ramirez"
+	desc = "POLITICS_PABLO_RAMIREZ_DESC"
+	picture = "Portrait_Argentine_Pablo_Ramirez.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "아르투로 프론디시"
-	desc = "Arturo_Frondizi_DESC"
-	picture = "Portrait_ARG_Arturo_Frondizi.tga"
-	expire = "2000.1.1"
+	name = "Roberto M. Ortiz"
+	desc = "POLITICS_ROBERTO_ORTIZ_DESC"
+	picture = "Portrait_ARG_Ortiz.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Ramón Antonio Castillo"
+	desc = "POLITICS_RAMON_CASTILLO_DESC"
+	picture = "Portrait_Argentine_Ramon_Castillo.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "알프레도 브라보"
-	desc = "Alfredo_Bravo_DESC"
-	picture = "Portrait_ARG_Alfredo_Bravo.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
+	name = "Nicolas Repetto"
+	desc = "POLITICS_NICOLAS_REPETTO_DESC"
+	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "리카르도 발빈"
-	desc = "Ricardo_Balbin_DESC"
-	picture = "Portrait_ARG_Ricardo_Balbin.tga"
-	expire = "2000.1.1"
+	name = "Hipólito Yrigoyen"
+	desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
+	picture = "Portrait_Argentine_Hipolito_Yrigoyen.tga"
+	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "파니 에델만"
-	desc = "Fanny_Edelman_DESC"
-	picture = "Portrait_ARG_Fanny_Edelman.tga"
-	expire = "2000.1.1"
+	name = "Jose Peter"
+	desc = "POLITICS_JOSE_PETER_DESC"
+	picture = "Portrait_Argentine_Jose_Peter.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "아구스틴 토스코"
-	desc = "Agustin_Tosco_DESC"
-	picture = "Portrait_ARG_Agustin_Tosco.tga"
-	expire = "2000.1.1"
+	name = "Angel Borlenghi"
+	desc = "POLITICS_ANGEL_BORLENGHI_DESC"
+	picture = "Portrait_Argentine_Angel_Borlenghi.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -304,7 +219,7 @@ create_field_marshal = {
 		trait_cautious
 		fast_planner
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
@@ -321,7 +236,7 @@ create_field_marshal = {
 		politically_connected
 		swamp_fox
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 2
@@ -336,7 +251,7 @@ create_field_marshal = {
 		career_officer
 		harsh_leader
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 2
@@ -352,10 +267,10 @@ create_field_marshal = { #Auto-Generated
 		inflexible_strategist
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 1
 }
 
 ### Corps Commander
@@ -368,9 +283,9 @@ create_corps_commander = { #Auto-Generated
 		career_officer
 		trait_engineer
 	}
-	skill = 3
+	skill = 4
 	attack_skill = 3
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 4
 }
@@ -383,10 +298,10 @@ create_corps_commander = { #Auto-Generated
 		career_officer
 		politically_connected
 	}
-	skill = 1
+	skill = 2
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -398,11 +313,11 @@ create_corps_commander = { #Auto-Generated
 		career_officer
 		politically_connected
 	}
-	skill = 1
-	attack_skill = 1
+	skill = 2
+	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -416,9 +331,9 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
@@ -429,25 +344,10 @@ create_corps_commander = { #Auto-Generated
 		cavalry_officer
 		career_officer
 	}
-	skill = 1
+	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Bernardo Alberte"
-	desc = "ARG_Bernardo_Alberte_desc"
-	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Alberte.tga"
-	traits = {
-		infantry_officer
-		politically_connected
-	}
-	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -462,9 +362,9 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -473,10 +373,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Edelmiro_Farrell.tga"
 	traits = {
 		infantry_officer
-		harsh_leader
+		trait_mountaineer
 		trickster
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
@@ -487,16 +387,141 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Eleazar Videla"
 	picture = "Portrait_Argentine_Eleazar_Videla.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Isaac Francisco Rojas"
 	picture = "Portrait_ARG_Isaac_Rojas.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
+### Ship Variants ###
+create_equipment_variant = {
+	name = "Rivadavia Class"
+	type = ship_hull_dreadnought_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_0
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_shbb
+		mid_1_custom_slot = ship_super_heavy_battery_0
+		rear_1_custom_slot = ship_super_heavy_battery_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Nueve de Julio Class"
+	type = ship_hull_panzerschiff_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Almirante Brown Class"
+	type = ship_hull_panzerschiff_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Catamarca Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Rosario Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Cervantes Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Mitre Class"
+	type = ship_hull_light_3
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_depth_charge_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Santa Fe Class"
+	type = ship_hull_submarine_4
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_3
+		rear_1_custom_slot = ship_torpedo_sub_2
+		mid_1_custom_slot = ship_sonar_1
+		front_1_custom_slot = ship_torpedo_sub_2
+	}
+}

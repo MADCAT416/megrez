@@ -2,58 +2,93 @@
 oob = "empty"
 
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+		### Naval ###
+	
+	
+	
+}
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		improved_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
+		weltkrieg_submarine_hull = 1
+		submarine_mine_laying = 1
+		interwar_submarine_hull = 1
+		improved_submarine_hull = 1
+		weltkrieg_panzerschiff_hull = 1
+		interwar_panzerschiff_hull = 1
+		weltkrieg_dreadnought_hull = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+		## Modules##
+		torpedo_tech_one = 1
+		torpedo_tech_two = 1
+		gunnery_tech_one = 1
+		gunnery_tech_two = 1
+		ss_torpedo_module_one = 1
+		ss_torpedo_module_two = 1
+		ss_utility_one = 1
+		dd_gun_module_one = 1
+		dd_gun_module_two = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_torpedo_module_one = 1
+		dd_torpedo_module_two = 1
+		cruiser_gun_module_one = 1
+		cruiser_gun_module_two = 1
+		cruiser_specialisation_module_one = 1
+		cruiser_specialisation_module_two = 1
+		ps_gun_module_one = 1
+		ps_gun_module_two = 1
+		ps_hull_module_one = 1
+		ps_hull_module_two = 1
+		fbb_gunnery_tech_one = 1
+		dn_gunnery_tech_one = 1
+		dn_hull_module_one = 1
+	}
+}
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1
+### Navy - Non MtG ###
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		improved_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+		weltkrieg_submarine_hull_nonmtg = 1
+		interwar_submarine_hull_nonmtg = 1
+		improved_submarine_hull_nonmtg = 1
+		weltkrieg_panzerschiff_hull_nonmtg = 1
+		interwar_panzerschiff_hull_nonmtg = 1
+		weltkrieg_dreadnought_hull_nonmtg = 1
+	}
 }
 
 set_research_slots = 3
@@ -61,140 +96,87 @@ set_research_slots = 3
 add_opinion_modifier = { target = SOV modifier = embargo }
 add_opinion_modifier = { target = POR modifier = embargo }
 
-set_stability = 0.5
-set_war_support = 0.5
-
 set_politics = {
-
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 3
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 7
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
-			popularity = 75
-		}
-		national_populist = {
-			popularity = 2
-		}
-	}
-
 	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 3
+    social_liberal = 3
+    market_liberal = 7
+    social_conservative = 0
+    authoritarian_democrat = 10
+    paternal_autocrat = 75
+    national_populist = 2
 }
 
 create_country_leader = {
-	name = "조안 레벤토스"
-	picture = "Portrait_SPR_Joan_Reventos.tga"
-	expire = "2000.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 말도나도 곤살레스"
-	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "호세 말도나도 곤살레스"
-	picture = "Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아돌포 수아레스"
-	picture = "Portrait_SPR_Adolfo_Suarez.tga"
-	expire = "2000.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "헤르미날 에스글레아스"
-	picture = "Portrait_SPR_Germinal_Esgleas.tga"
-	expire = "2000.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "산티아고 카리요"
-	picture = "Portrait_SPR_Santiago_Carrillo.tga"
-	expire = "2000.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "아돌포 수아레스"
-	picture = "Portrait_SPR_Adolfo_Suarez.tga"
-	expire = "2000.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "후안 카를로스 1세"
-	picture = "Portrait_SPR_Juan_Carlos_I.tga"
-	expire = "2000.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "카를로스 우고 데 보르본파르마"
-	picture = "Portrait_SPR_Carlos_Hugo.tga"
-	expire = "2000.1.1"
+	name = "Javier I"
+	desc = "POLITICS_JAVIER_CARLIST_DESC"
+	picture = "Portrait_Javier_I.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "후안 카를로스 1세"
-	picture = "Portrait_SPR_Juan_Carlos_I.tga"
-	expire = "2000.1.1"
-	ideology = national_populist_subtype
+	name = "Javier I"
+	desc = "POLITICS_JAVIER_CARLIST_DESC"
+	picture = "Portrait_Javier_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
+create_country_leader = {
+	name = "Jesús María de Leizaola"
+	desc = "POLITICS_JESUS_MARIA_LEIZAOLA_DESC"
+	picture = "Portrait_CAR_Jesus_Maria_de_Leizaola.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ramón Otero Pedrayo"
+	desc = "POLITICS_RAMON_OTERO_PEDRAYO_DESC"
+	picture = "Portrait_CAR_Ramon_Otero_Pedrayo.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Antón Vilar Ponte"
+	desc = "POLITICS_ANTON_VILAR_PONTE_DESC"
+	picture = "Portrait_CAR_Anton_Vilar_Ponte.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Anacleto Ortueta"
+	desc = "POLITICS_ANCELETO_ORTUETA_DESC"
+	picture = "Portrait_CAR_Anacleto_Ortueta.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
 
 add_ideas = {
-	#medium_economy
-
-	### Minister
+	# Ministers
 	CAR_Manuel_Fal_Conde_hog_pau
 	CAR_Manuel_Fal_Conde_for_pau
 	CAR_Onesimo_Redondo_Ortega_eco_pau
 	CAR_Jose_Luis_Arrese_Magra_sec_pau
+	
 	limited_conscription
 }
 
@@ -211,7 +193,7 @@ create_field_marshal = { #Auto-Generated
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-	id = 311
+	id = 3110
 }
 
 create_field_marshal = { #Auto-Generated
@@ -241,7 +223,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 1
 	id = 313
 }
 
@@ -256,7 +238,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 	id = 314
 }
 
@@ -270,8 +252,8 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 	id = 315
 }
 
@@ -285,7 +267,7 @@ create_corps_commander = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 3
+	logistics_skill = 1
 	id = 316
 }
 

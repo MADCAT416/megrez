@@ -3,13 +3,10 @@ state = {
 	name = "STATE_879"
 
 	history = {
-		owner = CEA
-		add_core_of = CEA 
+		owner = MAF
 		add_core_of = MAF
-		add_core_of = CNR
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
 			191 1
@@ -23,6 +20,5 @@ state = {
 		191 1516 1817 1929 1968 4515 4902 12795 12907 13173 13495
 	}
 	manpower = 2120490
-	buildings_max_level_factor = 1
-	state_category = pastoral
+	state_category = one
 }

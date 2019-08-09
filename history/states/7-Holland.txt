@@ -16,18 +16,30 @@ state = {
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 3
-			dockyard = 1
+			dockyard = 2
 			air_base = 5
+			391 = {
+				bunker = 3
+			}
+			13544 = {
+				bunker = 4
+			}
+			3211 = {
+				bunker = 1
+			}
+			68 = {
+				bunker = 1
+			}
 			3314 = {
+				bunker = 1
 				naval_base = 10
 			}
 		}
 	}
 
 	provinces = {
-		68 391 3211 3314 13544 13663
+		68 391 3211 3314 8622 13544 13663
 	}
-	manpower = 5890937
-	buildings_max_level_factor = 1
-	state_category = "metropolis"
+	manpower = 3366645
+	state_category = eleven
 }

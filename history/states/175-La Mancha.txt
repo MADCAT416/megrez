@@ -3,16 +3,15 @@ state = {
 	name = "STATE_175"
 	manpower = 848903
 
-	state_category = town
+	state_category = four
 
 	history = {
-		owner = CNT
+		owner = SPR
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 6
 		}
 		add_core_of = SPR
-		add_core_of = CNT
 	}
 
 	provinces = {

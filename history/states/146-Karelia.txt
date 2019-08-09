@@ -2,19 +2,15 @@ state = {
 	id = 146
 	name = "STATE_146"
 
-	state_category = large_city
+	state_category = four
 
 	history = {
 		owner = FIN
 		add_core_of = FIN
-		add_claim_by = RUS
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 5
-			dockyard = 1
-			synthetic_refinery = 1
-			radar_station = 3
-			anti_air_building = 3
+			industrial_complex = 2
+
 			#Mannerheim Line
 			9100 = {
 				bunker = 2
@@ -24,12 +20,12 @@ state = {
 			}
 			9206 = {
 				coastal_bunker = 1
-				naval_base = 5
+				naval_base = 1
 			}
 		}
 
 		victory_points = {
-			9206 5
+			9206 3
 		}
 	}
 
@@ -37,5 +33,4 @@ state = {
 		3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 13611
 	}
 	manpower = 418635
-	buildings_max_level_factor = 1
 }

@@ -3,39 +3,33 @@ state = {
 	name = "STATE_838"
 	manpower = 1466800
 
-	state_category = city
+	state_category = six
 
-	resources = {
-
-	}
+	resources = {}
 
 	history = {
-		owner = PAP
-		add_core_of = PAP
+		owner = SRI
 		add_core_of = SRI
+		add_claim_by = ITA
+		add_claim_by = SRD
 		victory_points = {
-			6788 10
+			6788 15
 		}
 
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			dockyard = 3
+			arms_factory = 1
+			dockyard = 2
 			industrial_complex = 1
 			air_base = 8
 			6788 = {
 				naval_base = 8
 				coastal_bunker = 1
 			}
-			11891 = {
-				bunker = 2
-			}
-
 		}
 	}
 
 	provinces = {
 		3772 6788 11891
 	}
-	buildings_max_level_factor = 1
 }

@@ -1,46 +1,19 @@
-﻿division_template = {
-	name = "교황경호대"
-	template_counter = 8
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
-}
-
+﻿##### Division Templates #####
 division_template = {
-	name = "보병사단"
-
+	name = "Guardia Palatina d'Onore"
+	division_names_group = ITAL_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
 	}
 }
-
 division_template = {
-	name = "차량화보병사단"
-
+	name = "Motorized-Division"
+	division_names_group = ITAL_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -48,305 +21,52 @@ division_template = {
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
 	}
 }
-
 division_template = {
-	name = "기계화보병사단"
-
+	name = "Armored-Division"
+	division_names_group = ITAL_ARM_01
 	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-		modern_armor = { x = 3 y = 0 }
-	}
-	support = {
-		signal_company = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 }
 
-division_template = {
-	name = "기갑사단"
-
-	regiments = {
-		modern_sp_artillery_brigade = { x = 0 y = 0 }
-		modern_sp_artillery_brigade = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 2 y = 0 }
-		modern_armor = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "방공사단"
-
-	regiments = {
-		anti_air_brigade = { x = 0 y = 0 }
-		anti_air_brigade = { x = 0 y = 1 }
-		anti_air_brigade = { x = 1 y = 0 }
-		anti_air_brigade = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		maintenance_company = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "산악병사단"
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	
-}
-
-division_template = {
-	name = "낙하산사단"
-
-	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "해병대"
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 2 y = 0 }
-		marine = { x = 2 y = 1 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "총기병대"
-	template_counter = 13
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-	}
-	support = {
-		military_police = { x = 0 y = 0 }
-		military_police = { x = 0 y = 1 }
-		military_police = { x = 0 y = 2 }
-	}
-	priority = 0
-}
-
-
+##### OOB #####
 
 units = {
 
 	division = {
-		name = "과르디아 팔라디노"
+		name = "Guardia Palatina"
 		location = 9904
-		division_template = "교황경호대"
-		start_experience_factor = 0.3
+		division_template = "Guardia Palatina d'Onore"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "첸타우로 기갑사단"
-		location = 776
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
+}
 
-	division = {
-		name = "고이토 차량화보병사단"
-		location = 3780
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+air_wings = {
+	2 = {
+
+		fighter_equipment_0 =  {
+			owner = "PAP"
+			amount = 100
+		}
 	}
-	
-	division = {
-		name = "레그나노 차량화보병사단"
-		location = 969
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
 	}
-	
-	division = {
-		name = "트리스테 차량화보병사단"
-		location = 6606
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "크레모나 기계화보병사단"
-		location = 6780
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "카도레 산악병사단"
-		location = 3657
-		division_template = "산악병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "줄리아 산악병사단"
-		location = 9613
-		division_template = "산악병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "타우리넨세 산악병사단"
-		location = 611
-		division_template = "산악병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "베네토 기갑사단"
-		location = 628
-		division_template = "기갑사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "만토바 기계화보병사단"
-		location = 13582
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "프리울리 차량화보병사단"
-		location = 9907
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "아오스타 차량화보병사단"
-		location = 4159
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "사사리 차량화보병사단"
-		location = 9772
-		division_template = "차량화보병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "폴고레 낙하산사단"
-		location = 11833
-		division_template = "낙하산사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "페스치에라 방공사단"
-		location = 11723
-		division_template = "방공사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "라벤나 방공사단"
-		location = 6606
-		division_template = "방공사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "코르시카 총기병대"
-		location = 3838
-		division_template = "총기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "풀리아 총기병대"
-		location = 11837
-		division_template = "총기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "칼라브리아 총기병대"
-		location = 9990
-		division_template = "총기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "캄파니아 총기병대"
-		location = 819
-		division_template = "총기병대"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
 }

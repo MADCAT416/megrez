@@ -6,7 +6,7 @@ state = {
 		steel = 16
 	}
 
-	state_category = city
+	state_category = six
 
 	history = {
 		owner = ENG
@@ -23,6 +23,7 @@ state = {
 			}
 		}
 		add_core_of = ENG
+		add_claim_by = CAN
 	}
 
 	provinces = {

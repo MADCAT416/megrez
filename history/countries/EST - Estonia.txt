@@ -1,210 +1,173 @@
 ﻿capital = 13
-oob = "empty"
+OOB = "empty"
 set_research_slots = 3
 set_technology = {
-infantry_weapons_1 = 1
-support_weapons_1 = 1
-motorised_infantry = 1
-tech_support = 1
-tech_recon_1 = 1
-tech_engineers_1 = 1
-tech_military_police_1 = 1
-tech_maintenance_company_1 = 1
-tech_field_hospital_1 = 1
-tech_logistics_company_1 = 1
-tech_signal_company_1 = 1
-main_battle_tank_1 = 1
-light_tank_1 = 1
-light_tank_2 = 1
-mechanised_infantry_1 = 1
-artillery_1 = 1
-motorized_rocket_1 = 1
-infantry_at_1 = 1
-spa_1 = 1
-SPAAG_1 = 1
+	### MOD ###
 
-frigate_1 = 1
-frigate_2 = 1
-destroyer_1 = 1
-destroyer_2 = 2
-cruiser_1 = 1
-cruiser_2 = 1
-battleship_1 = 1
-submarine_1 = 1
-submarine_2 = 1
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
 
-jet_fighter_1 = 1
-heavy_jet_fighter_1 = 1
-strategic_bomber_1 = 1
-jet_strategic_bomber_1 = 1
-helicopter_1 = 1
-recon_helicopter_1 = 1
-heliborne_1 = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
 
-electronic_mechanical_engineering = 1
-synth_oil_experiments = 1
-radio = 1
-radio_detection = 1
-mechanical_computing = 1
-experimental_rockets = 1
-atomic_research = 1
-jet_engines_1 = 1
-basic_machine_tools = 1
-improved_machine_tools = 1
-construction1 = 1
-excavation1 = 1
-synth_oil_experiments = 1	
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
 }
 
-set_stability = 0.5
-set_war_support = 0.3
+### Navy - MtG ###
 
-set_politics = {
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		weltkrieg_light_ship_hull = 1
+		basic_naval_mines = 1
+		interwar_light_ship_hull = 1
+		weltkrieg_cruiser_hull = 1
+		interwar_cruiser_hull = 1
 
-	parties = {
-		totalist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		syndicalist = {
-			popularity = 0
-		}
-		social_progressive = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		market_liberal = {
-			popularity = 15
-		}
-		social_conservative = {
-			popularity = 20
-		}
-		authoritarian_democrat = {
-			popularity = 35
-		}
-		paternal_autocrat = {
-			popularity = 10
-		}
-		national_populist = {
-			popularity = 10
+		## Modules##
+		gunnery_tech_one = 1
+		dd_gun_module_one = 1
+		dd_asw_module_one = 1
+		dd_utility_module_one = 1
+		dd_utility_module_one = 1
+		cruiser_gun_module_one = 1
+		cruiser_specialisation_module_one = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
 		}
 	}
+	set_technology = {
+		weltkrieg_light_ship_hull_nonmtg = 1
+		interwar_light_ship_hull_nonmtg = 1
+		weltkrieg_cruiser_hull_nonmtg = 1
+		interwar_cruiser_hull_nonmtg = 1
+	}
+}
 
+set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 0
+    social_liberal = 10
+    market_liberal = 15
+    social_conservative = 20
+    authoritarian_democrat = 35
+    paternal_autocrat = 10
+    national_populist = 10
 }
 
 create_country_leader = {
-	name = "한스 칼름"
-	picture = "Portrait_Baltic_Hans_Kalm.tga"
-	expire = "2000.1.1"
+	name = "Artur Sirk"
+	desc = "POLITICS_ARTUR_SIRK_DESC"
+	picture = "Portait_Estonia_Artur_Sirk.tga"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "아르놀드 뤼텔"
-	picture = "Portait_Estonia_Arnold_Ruutel.tga"
-	expire = "2000.1.1"
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "Portrait_Estonia_Konstantin_Pats.tga"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "아르놀드 뤼텔"
-	picture = "Portait_Estonia_Arnold_Ruutel.tga"
-	expire = "2000.1.1"
+	name = "Andres Larka"
+	desc = "POLITICS_ANDRES_LARKA_DESC"
+	picture = "Portrait_Estonia_Andres_Larka.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "렌나르트 메리"
-	picture = "Portait_Estonia_Lennart_Meri.tga"
-	expire = "2000.1.1"
+	name = "Hjalmar Mäe"
+	desc = "POLITICS_HJALMAR_MAE_DESC"
+	picture = "Portrait_Estonia_Hjalmar_Mae.tga"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "헤인리크 마르크"
-	picture = "Portait_Estonia_Heinrich_Mark.tga"
-	expire = "2000.1.1"
-	ideology = social_liberal_subtype
-	traits = {	
-	}
-}
-
-create_country_leader = {
-	name = "헤인리크 마르크"
-	picture = "Portait_Estonia_Heinrich_Mark.tga"
-	expire = "2000.1.1"
+	name = "Jaan Tõnisson"
+	desc = "POLITICS_JAAN_TONISSON_DESC"
+	picture = "Portrait_Estonia_Jaan_Tonisson.tga"
+	expire = "1965.1.1"
 	ideology = market_liberal_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "카를 바이노"
-	picture = "Portait_Estonia_Karl_Vaino.tga"
-	expire = "2000.1.1"
-	ideology = social_progressive_subtype
-	traits = {
-
-	}
+	name = "August Rei"
+	desc = "POLITICS_AUGUST_REI_DESC"
+	picture = "Portrait_Estonia_August_Rei.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "올가 라우리스틴"
-	picture = "Portait_Estonia_Olga_Lauristin.tga"
-	expire = "2000.1.1"
+	name = "Karl Säre"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Estonia_Karl_Sare.tga"
+	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "올가 라우리스틴"
-	picture = "Portait_Estonia_Olga_Lauristin.tga"
-	expire = "2000.1.1"
+	name = "Karl Säre"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Estonia_Karl_Sare.tga"
+	expire = "1965.1.1"
 	ideology = syndicalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "바이노 밸랴스"
-	picture = "Portait_Estonia_Vaino_Valjas.tga"
-	expire = "2000.1.1"
+	name = "Jaan Anvelt"
+	desc = "POLITICS_JAAN_ANVELT_DESC"
+	picture = "Portrait_Estonia_Jaan_Anvelt.tga"
+	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = {
-
-	}
+	traits = {}
 }
 
 ### Field Marshal
 ### Corps Commander
 create_field_marshal = {
 	name = "Aleksander Tõnisson"
-	portrait_path = "gfx/leaders/EST/Portrait_EST_Aleksander_Tõnisson.tga"
+	portrait_path = "gfx/leaders/EST/Portrait_Estonia_Aleksander_Tonisson.tga"
 	traits = {
 		career_officer
 		trickster
@@ -212,7 +175,7 @@ create_field_marshal = {
 	}
 	skill = 2
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -225,9 +188,9 @@ create_corps_commander = {
 		commando
 	}
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -240,24 +203,30 @@ create_corps_commander = {
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
 	name = "Pitka"
 	portrait_path = "gfx/leaders/EST/Portrait_EST_Pitka.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 create_navy_leader = { #Auto-Generated
 	name = "von Salza"
 	portrait_path = "gfx/leaders/EST/Portrait_EST_von_Salza.tga"
-	traits = {
-	}
+	traits = {}
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
