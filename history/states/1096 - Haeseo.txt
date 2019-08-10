@@ -1,0 +1,25 @@
+state = {
+	id = 1096
+	name = "STATE_1096"
+	manpower = 4420000
+	resources = {
+		tungsten = 10
+	}
+	state_category = town
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			
+		}
+		victory_points = {
+			1003 1 #해주
+		}
+		
+	}
+	provinces = {
+		1003 4107 7155 11915 10065 7070 
+	}
+}

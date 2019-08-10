@@ -1,0 +1,25 @@
+state = {
+	id = 1093
+	name = "STATE_1093"
+	manpower = 450000
+
+	state_category = small_island
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			
+			1177 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			1177 1 #한라
+		}
+		
+	}
+	provinces = {
+		1177
+	}
+}

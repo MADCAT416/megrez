@@ -1,0 +1,35 @@
+state = {
+	id = 1095
+	name = "STATE_1095"
+	manpower = 5320000
+
+	state_category = city
+	resources = {
+		tungsten = 20
+	}
+	
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			
+			6928 = {
+				naval_base = 3
+			}
+			6944 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			6928 1 #함흥
+		}
+		victory_points = {
+			6944 1 #청진
+		}
+	}
+	provinces = {
+		852 898 959 3852 3981 6822 6922 6944 6928 10083 
+	}
+}
