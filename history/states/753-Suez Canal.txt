@@ -22,10 +22,13 @@ state = {
 		victory_points = {
 			4073 2
 		}
+		victory_points = {
+			12049 1
+		}
 	}
 
 	provinces = {
-		4073 9947
+		1155 4073 9947 12049
 	}
 	manpower = 88123
 	state_category = zero

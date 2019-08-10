@@ -1,6 +1,6 @@
 state = {
 	id = 113
-	name = "STATE_113" # Leinster
+	name = "STATE_113"
 	manpower = 1357600
 	resources = {
 		aluminium = 2
@@ -28,6 +28,6 @@ state = {
 	}
 
 	provinces = {
-		285 303 369 3342 3359 7377 11293 11303
+		369 3359 11293 11303
 	}
 }

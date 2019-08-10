@@ -2,7 +2,7 @@ state = {
 	id = 146
 	name = "STATE_146"
 
-	state_category = four
+	state_category = six
 
 	history = {
 		owner = FIN
@@ -22,15 +22,19 @@ state = {
 				coastal_bunker = 1
 				naval_base = 1
 			}
+			
 		}
 
 		victory_points = {
-			9206 3
+			9206 5
+		}
+		victory_points = {
+			6082 1
 		}
 	}
 
 	provinces = {
-		3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 13611
+		3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 13611	52 139 3030 3068 3185 6082 6186 6210 9061 9181 11056 13105 13108 13109 13114 13115
 	}
-	manpower = 418635
+	manpower = 670537
 }

@@ -1,0 +1,30 @@
+state={
+	id=1104
+	name="STATE_1104"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = CAN
+		victory_points = {
+			13631 1 
+		}
+		buildings = {
+			infrastructure = 3
+			
+			13631 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		13631 
+	}
+	manpower=19270
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}
