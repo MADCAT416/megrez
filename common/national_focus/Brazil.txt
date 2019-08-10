@@ -406,7 +406,7 @@ focus_tree = {
 			NOT = {
 				has_government = ethnic_populist
 				has_government = paternal_autocrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = totalist
 			}
@@ -2597,7 +2597,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_left_front"
 			add_political_power = 200
 			add_popularity = {
-				ideology = radical_socialist popularity = 0.10
+				ideology = democratic_socialist popularity = 0.10
 			}
 			add_popularity = {
 				ideology = social_democrat popularity = 0.10
@@ -3736,14 +3736,14 @@ focus_tree = {
 			NOT = {
 				has_country_flag = BRA_empire_strokes_back
 				has_government = totalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_crush_radical_unions"
 			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
+				ideology = democratic_socialist popularity = -0.10
 			}
 			add_popularity = {
 				ideology = totalist popularity = -0.10
@@ -3773,7 +3773,7 @@ focus_tree = {
 			NOT = {
 				has_country_flag = BRA_empire_strokes_back
 				has_government = totalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 			}
 		}
@@ -3781,7 +3781,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_red_scare"
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 			add_stability = 0.05
 		}
 	}
@@ -3805,7 +3805,7 @@ focus_tree = {
 			NOT = {
 				has_country_flag = BRA_empire_strokes_back
 				has_government = totalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = ethnic_populist
 			}
@@ -3859,7 +3859,7 @@ focus_tree = {
 			NOT = {
 				has_country_flag = BRA_empire_strokes_back
 				has_government = totalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = ethnic_populist
 			}
@@ -4212,14 +4212,14 @@ focus_tree = {
 				ideology = totalist popularity = -0.10
 			}
 			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
+				ideology = democratic_socialist popularity = -0.10
 			}
 			add_popularity = {
 				ideology = syndicalist popularity = -0.10
 			}
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 		}
 	}
 
@@ -5055,7 +5055,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_violent_crackdown_syndies"
 			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
+				ideology = democratic_socialist popularity = -0.10
 			}
 			add_popularity = {
 				ideology = totalist popularity = -0.10
@@ -5065,7 +5065,7 @@ focus_tree = {
 			}
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 		}
 	}
 
@@ -5530,7 +5530,7 @@ focus_tree = {
 
 	focus = {
 		id = BRA_f_anarchist_b
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		prerequisite = { focus = BRA_the_counter_coup }
 		x = -11
 		y = 1
@@ -5541,11 +5541,11 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = BRA_first_congress_held
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		bypass = {
 			has_country_flag = BRA_first_congress_held
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_f_anarchist_b"
@@ -5565,7 +5565,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_rehabiltate_officer_corps"
@@ -5585,7 +5585,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_brazil_own_socialism"
@@ -5605,7 +5605,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_shrink_state"
@@ -5625,7 +5625,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_anti_monarchist_militas"
@@ -5650,7 +5650,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_stabilization"
@@ -5670,7 +5670,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_end_banks"
@@ -5692,7 +5692,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_field_collectivization"
@@ -5713,7 +5713,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			any_owned_state = {
 				is_controlled_by = BRA
 				is_core_of = BRA
@@ -5757,7 +5757,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_women_workers"
@@ -5777,7 +5777,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_educate_the_masses"
@@ -5798,7 +5798,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_aid_poor"
@@ -5821,7 +5821,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_christian_morals"
@@ -5842,14 +5842,14 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_true_equality"
 			add_stability = 0.2
 			add_political_power = 75
 			add_popularity = {
-				ideology = radical_socialist popularity = 0.10
+				ideology = democratic_socialist popularity = 0.10
 			}
 		}
 	}
@@ -5867,7 +5867,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_moving_teachers"
@@ -5890,7 +5890,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_peoples_militas"
@@ -5910,7 +5910,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_peoples_arms"
@@ -5930,7 +5930,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_end_internal_famine"
@@ -5950,7 +5950,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			any_owned_state = {
 				is_core_of = BRA
 				is_controlled_by = BRA

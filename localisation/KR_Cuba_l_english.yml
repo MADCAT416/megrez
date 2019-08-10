@@ -3,8 +3,8 @@
 ### Parties ###
 CUB_totalist_party:0 "Socialista"
 CUB_totalist_party_long:0 "Movimiento Socialistas - Comunista"
-CUB_radical_socialist_party:0 "Socialista"
-CUB_radical_socialist_party_long:0 "Movimiento Socialistas - Revolucionario"
+CUB_democratic_socialist_party:0 "Socialista"
+CUB_democratic_socialist_party_long:0 "Movimiento Socialistas - Revolucionario"
 CUB_syndicalist_party:0 "Socialista"
 CUB_syndicalist_party_long:0 "Movimiento Socialistas - Trabajadores"
 CUB_social_democrat_party:0 "Unionista"
@@ -26,8 +26,8 @@ CUB_totalist_party_socrev:0 "Comunistas"
 CUB_totalist_party_long_socrev:0 "Comunistas"
 CUB_syndicalist_party_socrev:0 "Trabajadores"
 CUB_syndicalist_party_long_socrev:0 "Trabajadores"
-CUB_radical_socialist_party_socrev:0 "Revolucionarios"
-CUB_radical_socialist_party_long_socrev:0 "Revolucionarios"
+CUB_democratic_socialist_party_socrev:0 "Revolucionarios"
+CUB_democratic_socialist_party_long_socrev:0 "Revolucionarios"
 
 CUB_totalist_party_totemb:0 "Totalistas"
 CUB_totalist_party_long_totemb:0 "Partido Totalistas"
@@ -35,8 +35,8 @@ CUB_totalist_party_long_totemb:0 "Partido Totalistas"
 CUB_paternal_autocrat_party_diazgov:0 "Progresista"
 CUB_paternal_autocrat_party_long_diazgov:0 "Partido Progesista"
 
-CUB_radical_socialist_party_radsocdem:0 "Liberación Nacional"
-CUB_radical_socialist_party_long_radsocdem:0 "Partido de Liberación Nacional"
+CUB_democratic_socialist_party_radsocdem:0 "Liberación Nacional"
+CUB_democratic_socialist_party_long_radsocdem:0 "Partido de Liberación Nacional"
 
 ### Focuses ###
 

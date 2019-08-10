@@ -643,7 +643,7 @@ country_event = { # Pridi and his Yellow Cover Book
 				popularity = 0.10
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 			add_popularity = {
@@ -715,7 +715,7 @@ country_event = { # Prajadhipok strikes back!
 				popularity = 0.04
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.01
 			}
 			add_popularity = {
@@ -832,7 +832,7 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 		}
@@ -893,7 +893,7 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				popularity = -0.01
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.03
 			}
 		}
@@ -1181,7 +1181,7 @@ country_event = { # War it is then (All)
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			add_stability = 0.10 # WtT - Player's Buff
@@ -1195,11 +1195,11 @@ country_event = { # War it is then (All)
 			}
 			set_cosmetic_tag = SIA_Parliament
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.20
 			}
 			add_ideas = { # Syndie Cabinet
@@ -1307,7 +1307,7 @@ country_event = { # War it is then (All)
 			}
 		}
 		start_civil_war = { # Parliamentarians
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			size = 0.3
 			capital = 824 # Rayong - Parliamentarians
 			states = {
@@ -1338,7 +1338,7 @@ country_event = { # War it is then (All)
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 				expire = "1983.5.2"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			set_cosmetic_tag = SIA_Parliament
@@ -1623,7 +1623,7 @@ country_event = { # Ultimatum results
 		}
 	}
 	option = {
-		name = siamn.19.b # They surrendered (radical_socialist)
+		name = siamn.19.b # They surrendered (democratic_socialist)
 		trigger = {
 			has_global_flag = SIA_government_surrendered
 			has_global_flag = Plaek_Royalist
@@ -1800,7 +1800,7 @@ country_event = { # Royalist Rebel Surrender (AI side)
 	}
 
 	option = {
-		name = siamn.21.a # They surrendered (radical_socialist)
+		name = siamn.21.a # They surrendered (democratic_socialist)
 		set_global_flag = SIA_Civil_War_Ended
 
 		SIA = {
@@ -2040,7 +2040,7 @@ country_event = { # 1936 General Election
 				popularity = 0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -5227,7 +5227,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.06
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.06
 			}
 			add_popularity = {
@@ -5269,7 +5269,7 @@ country_event = { # Flavour - Openning of the Tarutao Correction Center (Tarutao
 				popularity = -0.07
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.07
 			}
 		}

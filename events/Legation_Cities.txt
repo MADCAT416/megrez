@@ -703,7 +703,7 @@ country_event = { # Fall of the Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -925,7 +925,7 @@ country_event = { # Tokyo conference
 		tag = JAP
 		NOT = {
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			country_exists = LEC
 		}
@@ -1436,7 +1436,7 @@ country_event = { # Rebirth of Legation Cities
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {

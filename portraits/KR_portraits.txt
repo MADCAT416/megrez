@@ -75,7 +75,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -241,7 +241,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -408,7 +408,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
@@ -588,7 +588,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -727,7 +727,7 @@ continent = {
 				"gfx/leaders/Africa/Portrait_Africa_Generic_4_edit.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
@@ -847,7 +847,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Japan_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_2.tga"
@@ -953,7 +953,7 @@ continent = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
@@ -1068,7 +1068,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
@@ -1176,7 +1176,7 @@ continent = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
@@ -1463,7 +1463,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_5_edit.tga"
@@ -1635,7 +1635,7 @@ AFG = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
@@ -1741,7 +1741,7 @@ MEX = {
 				"gfx/leaders/Europe/portrait_europe_generic_8_edit.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
@@ -2238,7 +2238,7 @@ HAI = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -2360,7 +2360,7 @@ GUY = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -2498,7 +2498,7 @@ JAM = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -2620,7 +2620,7 @@ TRI = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -2774,7 +2774,7 @@ SUR = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_1.tga"
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -2932,7 +2932,7 @@ CUB = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_1.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
 				"gfx/leaders/Europe/portrait_europe_generic_4_edit.tga"
@@ -3125,7 +3125,7 @@ DOM = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
@@ -3285,7 +3285,7 @@ PRI = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
 				"gfx/leaders/South America/portrait_south_america_generic_8_edit.tga"
@@ -3429,7 +3429,7 @@ ZZB = {
 				"gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
 			}
 		}
-		radical_socialist = {
+		democratic_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
 				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds"

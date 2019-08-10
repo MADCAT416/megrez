@@ -49,7 +49,7 @@ country_event = { # Prime Minister
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -151,7 +151,7 @@ country_event = { # Prime Minister
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -255,7 +255,7 @@ country_event = { # Prime Minister
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -5704,7 +5704,7 @@ country_event = { # PLC Democracy or No?
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -5746,7 +5746,7 @@ country_event = { # PLC Democracy or No?
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -6102,7 +6102,7 @@ country_event = { # Germany Demands King's Restoration
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {

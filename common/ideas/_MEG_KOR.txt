@@ -27,7 +27,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_populist_drift = 0.05
+				ethnic_populist_drift = 0.05
 				war_support_factor = 0.1
 			}
 
@@ -59,14 +59,14 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					national_populist_allowed = yes
+					ethnic_populist_allowed = yes
 					NOT = { has_country_flag = Chang_Chun_Ha_dead }
 					NOT = { has_country_leader = { name = "장준하" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				national_populist_allowed = yes
+				ethnic_populist_allowed = yes
 				NOT = { has_country_flag = Chang_Chun_Ha_dead }
 				NOT = { has_country_leader = { name = "장준하" } }
 			}
@@ -75,7 +75,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				national_populist
+				ethnic_populist
 				stone_underhead
 			}
 			cancel_if_invalid = yes
@@ -277,7 +277,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					national_populist_allowed = yes
+					ethnic_populist_allowed = yes
 					NOT = { has_country_flag = Kim_HongIl_dead }
 					NOT = { has_country_flag = retire_1973 }
 					has_country_flag = can_replace_hog
@@ -285,7 +285,7 @@ ideas = {
 				}
 			}
 			visible = {
-				national_populist_allowed = yes
+				ethnic_populist_allowed = yes
 				NOT = { has_country_flag = Kim_HongIl_dead }
 				NOT = { has_country_flag = retire_1973 }
 			}
@@ -294,7 +294,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				national_populist
+				ethnic_populist
 				hog_old_general
 			}
 			cancel_if_invalid = yes
@@ -305,13 +305,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					national_populist_allowed = yes
+					ethnic_populist_allowed = yes
 					NOT = { has_country_flag = Yi_Yoonyeong_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				national_populist_allowed = yes
+				ethnic_populist_allowed = yes
 				NOT = { has_country_flag = Yi_Yoonyeong_dead }
 			}
 			on_add = {
@@ -319,7 +319,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				national_populist
+				ethnic_populist
 				hog_naive_optimist
 			}
 			cancel_if_invalid = yes
@@ -409,14 +409,14 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					national_populist_allowed = yes
+					ethnic_populist_allowed = yes
 					NOT = { has_country_flag = Kim_Shin_dead }
 					
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				national_populist_allowed = yes
+				ethnic_populist_allowed = yes
 				NOT = { has_country_flag = Kim_Shin_dead }
 				
 			}
@@ -425,7 +425,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				national_populist
+				ethnic_populist
 				hog_old_air_marshal
 			}
 			cancel_if_invalid = yes
@@ -953,20 +953,20 @@ ideas = {
 					tooltip = minister_available
 					NOT = { has_country_flag = Choi_Deoksin_dead }
 					NOT = { has_country_flag = retire_1989 }
-					national_populist_allowed = yes
+					ethnic_populist_allowed = yes
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Choi_Deoksin_dead }
 				NOT = { has_country_flag = retire_1989 }
-				national_populist_allowed = yes
+				ethnic_populist_allowed = yes
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea KOR_Choi_Deoksin_for_nat"
 			}
 			traits = {
 				foreign_minister
-				national_populist
+				ethnic_populist
 				for_general_staffer
 			}
 			cancel_if_invalid = yes

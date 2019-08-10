@@ -2138,7 +2138,7 @@ country_event = { # 83, 84, 85 Rights of Trade Unions
 			popularity = -0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.01
 		}
 		add_popularity = {
@@ -2163,7 +2163,7 @@ country_event = { # 83, 84, 85 Rights of Trade Unions
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}

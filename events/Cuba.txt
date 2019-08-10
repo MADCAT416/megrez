@@ -568,7 +568,7 @@ country_event = { #soc rev
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.07
 		}
 		set_politics = {
@@ -592,9 +592,9 @@ country_event = { #soc rev
 				long_name = CUB_syndicalist_party_long_socrev
 			}
 			set_party_name =  {
-				ideology = radical_socialist
-				name = CUB_radical_socialist_party_socrev
-				long_name = CUB_radical_socialist_party_long_socrev
+				ideology = democratic_socialist
+				name = CUB_democratic_socialist_party_socrev
+				long_name = CUB_democratic_socialist_party_long_socrev
 			}
 			country_event = {
 				id = cuba.13
@@ -744,7 +744,7 @@ country_event = { #agrarianism type
 		text = cuba.11.d_2
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_country_flag = mellaradsocdeal
 			}
 		}
@@ -753,7 +753,7 @@ country_event = { #agrarianism type
 		text = cuba.11.d_3
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -768,7 +768,7 @@ country_event = { #agrarianism type
 
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -776,7 +776,7 @@ country_event = { #agrarianism type
 		}
 		add_stability = 0.05
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_ideas = CUB_modsyndagr
@@ -788,7 +788,7 @@ country_event = { #agrarianism type
 		trigger = {
 			OR = {
 				AND = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_country_flag = mellaradsocdeal
 				}
 				has_government = totalist
@@ -798,10 +798,10 @@ country_event = { #agrarianism type
 		add_stability = 0.05
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -883,7 +883,7 @@ country_event = { #socialist industrialism type
 
 		add_stability = 0.05
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_ideas = CUB_extsyndindust
@@ -1656,7 +1656,7 @@ country_event = { # Start of revolutionary congress
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -1753,7 +1753,7 @@ country_event = { # congress issue 2
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -1962,7 +1962,7 @@ country_event = { # congress issue 3
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -2393,7 +2393,7 @@ country_event = { # radsoc victory with mella - mella demands HoG and non-bourg 
 		name = cuba.35.a
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2405,11 +2405,11 @@ country_event = { # radsoc victory with mella - mella demands HoG and non-bourg 
 		if = {
 			limit = {
 				NOT = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 			}
 		}
 		create_country_leader = {
@@ -2439,18 +2439,18 @@ country_event = { # radsoc victory with mella - mella demands HoG and non-bourg 
 		name = cuba.35.b
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.4
 		}
 		set_country_flag = radsoccongvic
 		if = {
 			limit = {
 				NOT = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 			}
 			create_country_leader = {
 				name = "Julio Mella McPartland"
@@ -2494,17 +2494,17 @@ country_event = { # radsoc victory without mella
 		name = cuba.36.a
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		if = {
 			limit = {
 				NOT = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 			}
 		}
 		set_country_flag = radsoccongvic
@@ -2648,7 +2648,7 @@ country_event = { # no majority - will be modified if have mella
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -2840,7 +2840,7 @@ country_event = { # The Congress is Refused
 		add_stability = -0.2
 		add_political_power = -200
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -2887,7 +2887,7 @@ country_event = { # The Congress is Refused
 		add_stability = -0.2
 		add_political_power = -200
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -3010,7 +3010,7 @@ country_event = { # Coup Succeeds
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -3070,7 +3070,7 @@ country_event = { #protect revolution
 		text = cuba.47.d_1
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -3081,7 +3081,7 @@ country_event = { #protect revolution
 		text = cuba.47.d_2
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_country_flag = mellaradsocdeal
 			}
 		}
@@ -3134,7 +3134,7 @@ country_event = { #protect revolution
 		name = cuba.47.a
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -3142,7 +3142,7 @@ country_event = { #protect revolution
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_ideas = CUB_rs_guard_guer
@@ -3152,7 +3152,7 @@ country_event = { #protect revolution
 		name = cuba.47.b
 		trigger = {
 			AND = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				NOT = {
 					has_country_flag = mellaradsocdeal
 				}
@@ -3160,7 +3160,7 @@ country_event = { #protect revolution
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_ideas = CUB_rs_guard_pol
@@ -3202,7 +3202,7 @@ country_event = { #protect revolution
 					has_country_flag = mella_back
 				}
 				AND = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_country_flag = mellaradsocdeal
 				}
 			}
@@ -3225,7 +3225,7 @@ country_event = { #protect revolution
 					has_country_flag = mella_back
 				}
 				AND = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_country_flag = mellaradsocdeal
 				}
 			}
@@ -3233,10 +3233,10 @@ country_event = { #protect revolution
 
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.03
 			}
 			add_popularity = {
@@ -3310,7 +3310,7 @@ country_event = { #Radsoc attempt to overthrow old friends
 
 		add_political_power = 50
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -3318,7 +3318,7 @@ country_event = { #Radsoc attempt to overthrow old friends
 			popularity = -0.1
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		country_event = {
@@ -3341,7 +3341,7 @@ country_event = { #Radsoc attempt to overthrow old friends
 
 		add_stability = 0.05
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.1
 		}
 		add_popularity = {
@@ -3357,7 +3357,7 @@ country_event = { #Radsoc attempt to overthrow old friends
 			desc = "POLITICS_RAUL_ROA_DESC"
 			picture = "Portrait_Cuba_Alberto_Bayo_Giroud.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 	}
@@ -3399,7 +3399,7 @@ country_event = { #Totalist event for info
 		name = cuba.50.a
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -3716,7 +3716,7 @@ country_event = { #natpop dealing with socialists
 		name = cuba.55.a
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -3732,7 +3732,7 @@ country_event = { #natpop dealing with socialists
 			desc = "POLITICS_ALBERTO_BAYO_DESC"
 			picture = "Portrait_Cuba_Alberto_Bayo_Giroud.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		set_country_flag = Lazaro_Pena_Gonzalez_dead
@@ -6370,7 +6370,7 @@ country_event = {
 			limit = {
 				OR = {
 					AND = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						NOT = {
 							has_country_flag = CUB_radsoccoup
 							has_country_flag = mellaradsocdeal
@@ -6398,7 +6398,7 @@ country_event = {
 			limit = {
 				OR = {
 					AND = {
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						has_country_flag = mellaradsocdeal
 					}
 					AND = {
@@ -6418,7 +6418,7 @@ country_event = {
 		if = {
 			limit = {
 				AND = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_country_flag = CUB_radsoccoup
 				}
 			}
@@ -6799,7 +6799,7 @@ country_event = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -6845,7 +6845,7 @@ country_event = {
 				OR = {
 					has_government = totalist
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			add_ideas = CUB_socecobureau
@@ -6934,7 +6934,7 @@ country_event = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -7793,7 +7793,7 @@ country_event = { # acquiring planes
 					country_exists = USA
 					CUB = {
 						NOT = {
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -7803,7 +7803,7 @@ country_event = { # acquiring planes
 					country_exists = CSA
 					CUB = {
 						OR = {
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -7815,7 +7815,7 @@ country_event = { # acquiring planes
 							country_exists = CSA
 							CUB = {
 								OR = {
-									has_government = radical_socialist
+									has_government = democratic_socialist
 									has_government = syndicalist
 									has_government = totalist
 								}
@@ -7825,7 +7825,7 @@ country_event = { # acquiring planes
 							country_exists = USA
 							CUB = {
 								NOT = {
-									has_government = radical_socialist
+									has_government = democratic_socialist
 									has_government = syndicalist
 									has_government = totalist
 								}
@@ -7910,7 +7910,7 @@ country_event = { #purchasing other nation's
 					country_exists = USA
 					CUB = {
 						NOT = {
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -7920,7 +7920,7 @@ country_event = { #purchasing other nation's
 					country_exists = CSA
 					CUB = {
 						OR = {
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -7932,7 +7932,7 @@ country_event = { #purchasing other nation's
 							country_exists = CSA
 							CUB = {
 								OR = {
-									has_government = radical_socialist
+									has_government = democratic_socialist
 									has_government = syndicalist
 									has_government = totalist
 								}
@@ -7942,7 +7942,7 @@ country_event = { #purchasing other nation's
 							country_exists = USA
 							CUB = {
 								NOT = {
-									has_government = radical_socialist
+									has_government = democratic_socialist
 									has_government = syndicalist
 									has_government = totalist
 								}
@@ -7963,7 +7963,7 @@ country_event = { #purchasing other nation's
 						country_exists = USA
 						CUB = {
 							NOT = {
-								has_government = radical_socialist
+								has_government = democratic_socialist
 								has_government = syndicalist
 								has_government = totalist
 							}
@@ -7986,7 +7986,7 @@ country_event = { #purchasing other nation's
 						country_exists = CSA
 						CUB = {
 							OR = {
-								has_government = radical_socialist
+								has_government = democratic_socialist
 								has_government = syndicalist
 								has_government = totalist
 							}
@@ -8011,7 +8011,7 @@ country_event = { #purchasing other nation's
 								country_exists = CSA
 								CUB = {
 									OR = {
-										has_government = radical_socialist
+										has_government = democratic_socialist
 										has_government = syndicalist
 										has_government = totalist
 									}
@@ -8021,7 +8021,7 @@ country_event = { #purchasing other nation's
 								country_exists = USA
 								CUB = {
 									NOT = {
-										has_government = radical_socialist
+										has_government = democratic_socialist
 										has_government = syndicalist
 										has_government = totalist
 									}
@@ -8231,10 +8231,10 @@ country_event = { #WIF politics influenced
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.05
 			}
 		}
@@ -13456,7 +13456,7 @@ country_event = { #socialist active stance
 
 		trigger = {
 			country_exists = USA
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			USA = {
 				has_government = social_democrat
 			}
@@ -13484,7 +13484,7 @@ country_event = { #socialist active stance
 
 		trigger = {
 			country_exists = CAL
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			CAL = {
 				has_government = social_democrat
 			}
@@ -15489,7 +15489,7 @@ country_event = { #completer
 		text = cuba.212.t_2
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				AND = {
 					has_government = syndicalist
 					NOT = {
@@ -15515,7 +15515,7 @@ country_event = { #completer
 		text = cuba.212.d_2
 		trigger = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				AND = {
 					has_government = syndicalist
 					NOT = {
@@ -15545,7 +15545,7 @@ country_event = { #completer
 		if = {
 			limit = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					AND = {
 						has_government = syndicalist
 						NOT = {
@@ -15610,10 +15610,10 @@ country_event = {
 				}
 			}
 			add_popularity = { ideology = totalist popularity = 0.05 }
-			add_popularity = { ideology = radical_socialist popularity = -0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.05 }
 		}
 		else = {
-			add_popularity = { ideology = radical_socialist popularity = 0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.05 }
 			add_popularity = { ideology = totalist popularity = -0.05 }
 		}
 		add_ideas = CUB_opensocialistconflict
@@ -15677,7 +15677,7 @@ country_event = {
 			desc = "POLITICS_RAUL_ROA_DESC"
 			picture = "Portrait_Cuba_Alberto_Bayo_Giroud.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
@@ -15729,7 +15729,7 @@ country_event = {
 			desc = "POLITICS_RAUL_ROA_DESC"
 			picture = "Portrait_Cuba_Alberto_Bayo_Giroud.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		custom_effect_tooltip = CUB_minister_tt
@@ -15769,7 +15769,7 @@ country_event = {
 			desc = "POLITICS_RAUL_ROA_DESC"
 			picture = "Portrait_Cuba_Alberto_Bayo_Giroud.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
@@ -16599,7 +16599,7 @@ country_event = { #Junco succeeds Pena
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -16688,7 +16688,7 @@ country_event = { #Radsoc election
 		}
 
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
 		custom_effect_tooltip = CUB_minister_tt
@@ -16969,7 +16969,7 @@ country_event = { #Syndie election
 
 		hidden_effect = {
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 				elections_allowed = yes
 			}
 		}
@@ -17696,7 +17696,7 @@ country_event = { #Union Forms
 
             set_popularities = {
                 totalist = 2
-                radical_socialist = 2
+                democratic_socialist = 2
                 syndicalist = 2
                 social_democrat = 11
                 social_liberal = 9
@@ -17720,7 +17720,7 @@ country_event = { #Union Forms
 
             set_popularities = {
                 totalist = 2
-                radical_socialist = 2
+                democratic_socialist = 2
                 syndicalist = 2
                 social_democrat = 11
                 social_liberal = 9

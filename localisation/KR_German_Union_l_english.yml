@@ -3,8 +3,8 @@
 ### Parties ###
 GRU_totalist_party:0 "SE"
 GRU_totalist_party_long:0 "Sozialistische Einheitsplattform"
-GRU_radical_socialist_party:0 "FAUD"
-GRU_radical_socialist_party_long:0 "Freie Arbeiterunion Deutschlands"
+GRU_democratic_socialist_party:0 "FAUD"
+GRU_democratic_socialist_party_long:0 "Freie Arbeiterunion Deutschlands"
 GRU_syndicalist_party:0 "DOI/SP"
 GRU_syndicalist_party_long:0 "Deutsche Organisation der Internationale/Syndikalistische Partei"
 GRU_social_democrat_party:0 "SPD"

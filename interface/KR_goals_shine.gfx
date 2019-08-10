@@ -423,11 +423,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_radical_socialist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_radical_socialist.tga"
+		name = "GFX_goal_ideology_democratic_socialist_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic_socialist.tga"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_radical_socialist.tga"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_democratic_socialist.tga"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -440,7 +440,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_radical_socialist.tga"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_democratic_socialist.tga"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

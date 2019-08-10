@@ -1107,7 +1107,7 @@ focus_tree = {
 
 	focus = {
 		id = WLL_A_BWP_President
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		x = -3
 		y = 2
 		relative_position_id = WLL_Syndicalist_Revolution

@@ -2,7 +2,7 @@
 
 ### Parties ###
 DEH_totalist_party:0 "Maximists"
-DEH_radical_socialist_party:0 "Socialists"
+DEH_democratic_socialist_party:0 "Socialists"
 DEH_syndicalist_party:0 "Syndicalists"
 DEH_social_democrat_party:0 "IHRP"
 DEH_social_liberal_party:0 "Swaraj"
@@ -12,7 +12,7 @@ DEH_authoritarian_democrat_party:0 "Council of Princes"
 DEH_paternal_autocrat_party:0 "Princely Sympathisers"
 DEH_ethnic_populist_party:0 "Imperial Sympathisers"
 DEH_totalist_party_long:0 "Maximist Party of India"
-DEH_radical_socialist_party_long:0 "Socialist Party of India"
+DEH_democratic_socialist_party_long:0 "Socialist Party of India"
 DEH_syndicalist_party_long:0 "Syndicalist Party"
 DEH_social_democrat_party_long:0 "All-India Home Rule Party"
 DEH_social_liberal_party_long:0 "Swaraj Party"

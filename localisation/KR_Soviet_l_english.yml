@@ -39,7 +39,7 @@ SOV_redcosunit_tt:0 "Three divisions of Leftist Cossacks will form."
 ### Ideologies ###
 SOV_totalist_party:0 "Internationalists"
 SOV_syndicalist_party:0 "Federalists"
-SOV_radical_socialist_party:0 "Autonomists"
+SOV_democratic_socialist_party:0 "Autonomists"
 
 ### Focuses ###
 SOV_FRUNZE:0 "Elect Frunze's Autonomists!"

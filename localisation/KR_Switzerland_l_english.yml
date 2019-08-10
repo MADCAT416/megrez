@@ -981,8 +981,8 @@ SWI_paternal_autocrat_party:0 "NF"
 SWI_paternal_autocrat_party_long:0 "Nationale Front"
 SWI_totalist_party:0 "UN"
 SWI_totalist_party_long:0 "Union Nationale"
-SWI_radical_socialist_party:0 "PdA"
-SWI_radical_socialist_party_long:0 "Partei der Arbeit der Schweiz"
+SWI_democratic_socialist_party:0 "PdA"
+SWI_democratic_socialist_party_long:0 "Partei der Arbeit der Schweiz"
 
 ### Opinion Modifiers ###
 SWI_austrian_ties:0 "Austrian-Swiss Ties"

@@ -82,7 +82,7 @@ add_namespace = fngpolitic
 #				JAP = { has_war = yes }
 #				OR = {
 #					has_government = totalist
-#					has_government = radical_socialist
+#					has_government = democratic_socialist
 #					has_government = syndicalist
 #				}
 #				has_war_with = JAP
@@ -10339,7 +10339,7 @@ country_event = { #Japan Mongolia release event
 
                 set_popularities = {
                     totalist = 0
-                    radical_socialist = 0
+                    democratic_socialist = 0
                     syndicalist = 0
                     social_democrat = 0
                     social_liberal = 5

@@ -1391,7 +1391,7 @@ country_event = {
 				desc = "POLITICS_TEOHARI_GEORGESCU_DESC"
 				picture = "gfx/leaders/ROM/Portrait_Romania_Teohari_Georgescu.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 

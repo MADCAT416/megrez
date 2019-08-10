@@ -2778,7 +2778,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.02
 			}
 			add_popularity = {
@@ -3007,7 +3007,7 @@ focus_tree = {
 
 	focus = {
 		id = CAF_young_radicals
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		x = 2
 		y = 5
 		cost = 8
@@ -3034,7 +3034,7 @@ focus_tree = {
 			custom_effect_tooltip = CAF_subjugate_radsocs
 			hidden_effect = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -1
 				}
 			}
@@ -4060,7 +4060,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.05
 			}
 		}
@@ -4103,7 +4103,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.05
 			}
 		}
@@ -4534,7 +4534,7 @@ focus_tree = {
 				popularity = -0.01
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.01
 			}
 			add_popularity = {
@@ -4571,7 +4571,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.05
 			}
 		}
@@ -4610,7 +4610,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -4943,7 +4943,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -5305,7 +5305,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.1
 			}
 			add_popularity = {
@@ -5492,7 +5492,7 @@ focus_tree = {
 
 	focus = {
 		id = CAF_radical_syndies
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		x = 3
 		y = 5
 		cost = 8
@@ -5528,7 +5528,7 @@ focus_tree = {
 			focus = CAF_radical_syndies
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 		ai_will_do = {
 			factor = 10
@@ -5554,7 +5554,7 @@ focus_tree = {
 			focus = CAF_mending_divide
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 
 		}
 		ai_will_do = {
@@ -5580,7 +5580,7 @@ focus_tree = {
 			focus = CAF_promote_trade
 		}
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 
 		}
 		ai_will_do = {

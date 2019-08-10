@@ -591,7 +591,7 @@ country_event = { # Increasing Radicalizing
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -648,7 +648,7 @@ country_event = { # Olson's people flock to the SPA
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		custom_effect_tooltip = USA_SPA_gains_strength
@@ -859,7 +859,7 @@ country_event = { # Father Charles Coughlin's CBS Radio Broadcasts
 			popularity = 0.05
 			} # they are more energized by shutting him down
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 			} # they are more energized by shutting him down
 	}
@@ -878,7 +878,7 @@ country_event = { # Father Charles Coughlin's CBS Radio Broadcasts
 			popularity = 0.03
 			} # not as energized
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 			} # not as energized
 	}
@@ -986,7 +986,7 @@ country_event = { # May Day Riots
 	option = { # the SPA are at fault
 		name = ustates.22.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -1197,7 +1197,7 @@ country_event = { # Special Election(Representatives) - Washington
 			factor = 50
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = USA_SPA_gains_strength
@@ -1347,7 +1347,7 @@ country_event = { # More SPA members announcing Congressional Bids
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = USA_SPA_gains_strength

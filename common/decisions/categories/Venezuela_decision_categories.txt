@@ -9,7 +9,7 @@ VEN_COL_intervention_decisions = {
 		}
 		COL = {
 			has_country_flag = COL_unir
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			is_subject = no
 		}
 	}

@@ -4282,7 +4282,7 @@ country_event = {
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -8987,7 +8987,7 @@ country_event = {
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		if = {
@@ -9230,11 +9230,11 @@ country_event = {
 		}
 		set_country_flag = BRA_first_congress_held
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_all_ministers = yes
@@ -9727,7 +9727,7 @@ country_event = {
 			popularity = -0.10
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.10
 		}
 		add_popularity = {
@@ -10200,7 +10200,7 @@ country_event = {
 		tag = BRA
 		has_country_flag = BRA_first_congress_held
 		OR = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 		}
 	}
@@ -10278,7 +10278,7 @@ country_event = {
 		tag = BRA
 		has_country_flag = BRA_first_congress_held
 		OR = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 		}
 	}
@@ -10359,7 +10359,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10369,7 +10369,7 @@ country_event = {
 			desc = "POLITICS_MARIA_LACERDA_DE_MOURA_DESC"
 			picture = "Portrait_BRA_Maria_Lacerda_Moura.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10399,7 +10399,7 @@ country_event = {
 			desc = "POLITICS_ASTROJILDO_PEREIRA_DESC"
 			picture = "Portrait_BRA_Astrojildo_Pereira.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10429,7 +10429,7 @@ country_event = {
 			desc = "POLITICS_AVELINO_FOSCOLO_DESC"
 			picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10466,7 +10466,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10476,7 +10476,7 @@ country_event = {
 			desc = "POLITICS_EVERARDO_DIAS_DESC"
 			picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_3.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10506,7 +10506,7 @@ country_event = {
 			desc = "POLITICS_CANDIDO_PORTINARI_DESC"
 			picture = "Portrait_BRA_Candido_Portinari.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10536,7 +10536,7 @@ country_event = {
 			desc = "POLITICS_DJALMA_MARANHAO_DESC"
 			picture = "Portrait_BRA_Djalma_Maranhao.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10573,7 +10573,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10583,7 +10583,7 @@ country_event = {
 			desc = "POLITICS_ELISA_KAUFFMAN_ABRAMOVICH_DESC"
 			picture = "Portrait_BRA_Elisa_Kauffman_Abramovich.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10601,7 +10601,7 @@ country_event = {
 			desc = "POLITICS_OTTO_ACLIDES_OHLWEILER_DESC"
 			picture = "gfx/leaders/PIR/Portrait_PIR_Otto_Ohlweiler.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10619,7 +10619,7 @@ country_event = {
 			desc = "POLITICS_JOAO_MANGABEIRA_DESC"
 			picture = "Portrait_BRA_Joao_Mangabeira.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 
@@ -10644,7 +10644,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10654,7 +10654,7 @@ country_event = {
 			desc = "POLITICS_APOLONIO_DE_CARVALHO_DESC"
 			picture = "gfx/leaders/ISR/Portrait_ISR_Apolonio.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 	}
@@ -10665,7 +10665,7 @@ country_event = {
 			desc = "POLITICS_JORGE_AMADO_DESC"
 			picture = "Portrait_BRA_Jorge_Amado.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 	}
@@ -10676,7 +10676,7 @@ country_event = {
 			desc = "POLITICS_CLAUDIO_SANTORO_DESC"
 			picture = "Portrait_BRA_Claudio_Santoro.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 	}
@@ -10694,7 +10694,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 		focus_progress = {
 			focus = BRA_shrink_state
 			progress > 0.25
@@ -10723,7 +10723,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10743,7 +10743,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10763,7 +10763,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 		focus_progress = {
 			focus = BRA_end_banks
 			progress > 0.50
@@ -10791,7 +10791,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10811,7 +10811,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10831,7 +10831,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10851,7 +10851,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10877,7 +10877,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10903,7 +10903,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10923,7 +10923,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {
@@ -10943,7 +10943,7 @@ country_event = {
 
 	trigger = {
 		tag = BRA
-		has_government = radical_socialist
+		has_government = democratic_socialist
 	}
 
 	option = {

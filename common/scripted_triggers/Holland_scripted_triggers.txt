@@ -1,5 +1,5 @@
 hol_farleft_majority = {
-	set_temp_variable = { var = hol_socialist_strength value = ROOT.party_popularity@radical_socialist }
+	set_temp_variable = { var = hol_socialist_strength value = ROOT.party_popularity@democratic_socialist }
 	add_to_temp_variable = { var = hol_socialist_strength value = ROOT.party_popularity@syndicalist }
 	add_to_temp_variable = { var = hol_socialist_strength value = ROOT.party_popularity@totalist }
 	check_variable = { hol_socialist_strength > 0.5 }

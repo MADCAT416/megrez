@@ -2014,7 +2014,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SIC_contain_extermism"
 			add_popularity = { ideology = ethnic_populist popularity = -0.1 }
-			add_popularity = { ideology = radical_socialist popularity = -0.1 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.1 }
 			hidden_effect = {
 				country_event = {
 					id = sic.19

@@ -198,7 +198,7 @@ shared_focus = {
 		add_political_power = 30
 		add_stability = 0.04
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.1
 		}
 		if = {
@@ -452,11 +452,11 @@ shared_focus = {
 		if = {
 			limit = {
 				date < 1937.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1933.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -467,11 +467,11 @@ shared_focus = {
 			limit = {
 				date > 1937.1.28
 				date < 1938.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1934.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -482,11 +482,11 @@ shared_focus = {
 			limit = {
 				date > 1938.1.28
 				date < 1939.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1935.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -497,11 +497,11 @@ shared_focus = {
 			limit = {
 				date > 1939.1.28
 				date < 1940.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1936.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -512,11 +512,11 @@ shared_focus = {
 			limit = {
 				date > 1940.1.28
 				date < 1941.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1937.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -527,11 +527,11 @@ shared_focus = {
 			limit = {
 				date > 1941.1.28
 				date < 1942.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1938.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -542,11 +542,11 @@ shared_focus = {
 			limit = {
 				date > 1942.1.28
 				date < 1943.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1939.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -557,11 +557,11 @@ shared_focus = {
 			limit = {
 				date > 1943.1.28
 				date < 1944.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1940.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -572,11 +572,11 @@ shared_focus = {
 			limit = {
 				date > 1944.1.28
 				date < 1945.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1941.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -587,11 +587,11 @@ shared_focus = {
 			limit = {
 				date > 1945.1.28
 				date < 1946.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1942.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -602,11 +602,11 @@ shared_focus = {
 			limit = {
 				date > 1946.1.28
 				date < 1947.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1943.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -617,11 +617,11 @@ shared_focus = {
 			limit = {
 				date > 1947.1.28
 				date < 1948.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1944.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -632,11 +632,11 @@ shared_focus = {
 			limit = {
 				date > 1948.1.28
 				date < 1949.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1945.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -647,11 +647,11 @@ shared_focus = {
 			limit = {
 				date > 1949.1.28
 				date < 1950.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1946.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -662,11 +662,11 @@ shared_focus = {
 			limit = {
 				date > 1950.1.28
 				date < 1951.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1947.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -677,11 +677,11 @@ shared_focus = {
 			limit = {
 				date > 1951.1.28
 				date < 1952.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1948.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -692,11 +692,11 @@ shared_focus = {
 			limit = {
 				date > 1952.1.28
 				date < 1953.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1949.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -707,11 +707,11 @@ shared_focus = {
 			limit = {
 				date > 1953.1.28
 				date < 1954.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1950.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -722,11 +722,11 @@ shared_focus = {
 			limit = {
 				date > 1954.1.28
 				date < 1955.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1951.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -737,11 +737,11 @@ shared_focus = {
 			limit = {
 				date > 1955.1.28
 				date < 1956.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1952.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -752,11 +752,11 @@ shared_focus = {
 			limit = {
 				date > 1956.1.28
 				date < 1957.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1953.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -767,11 +767,11 @@ shared_focus = {
 			limit = {
 				date > 1957.1.28
 				date < 1958.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1954.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -782,11 +782,11 @@ shared_focus = {
 			limit = {
 				date > 1958.1.28
 				date < 1959.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1955.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -797,11 +797,11 @@ shared_focus = {
 			limit = {
 				date > 1959.1.28
 				date < 1960.1.28
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					last_election = "1956.1.28"
 					election_frequency = 48
 					elections_allowed = yes
@@ -1258,7 +1258,7 @@ shared_focus = {
 			popularity = 0.07
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.07
 		}
 	}
@@ -1296,7 +1296,7 @@ shared_focus = {
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 	}

@@ -166,7 +166,7 @@ focus_tree = {
 
 	focus = {
 		id = HOL_socialist_republic
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 10.00
 		ai_will_do = {
 			factor = 100
@@ -187,7 +187,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_socialist_republic"
-			set_politics = { ruling_party = radical_socialist elections_allowed = no }
+			set_politics = { ruling_party = democratic_socialist elections_allowed = no }
 		}
 	}
 

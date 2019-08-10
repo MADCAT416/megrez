@@ -375,7 +375,7 @@ country_event = { #(To be) Triggered by the UoB focus tree
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -431,12 +431,12 @@ country_event = {
 		set_country_flag = NOR_1936_elections_held
 		add_stability = -0.02
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			election_frequency = 36
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		add_ideas = NOR_Wilhelm_Morgenstierne_for_rso
@@ -450,7 +450,7 @@ country_event = {
 				desc = "POLITICS_Haakon_VII_DESC"
 				picture = "Portrait_Norway_Haakon_VII.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {
 					# Haakon VII
 				}
@@ -4731,7 +4731,7 @@ country_event = {
 			desc = "POLITICS_Martin_Tranmael_DESC"
 			picture = "Portrait_Norway_Martin_Tranmel.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {
 			}
 		}
@@ -4868,7 +4868,7 @@ country_event = {
 		add_political_power = 25
 		add_ideas = NOR_radicalistpeople
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -4955,7 +4955,7 @@ country_event = {
 		add_political_power = 25
 		#add_ideas = NOR_radicalisteconomy
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5042,7 +5042,7 @@ country_event = {
 		add_political_power = 25
 		add_ideas = NOR_radicalistmilitary
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5134,7 +5134,7 @@ country_event = {
 		add_political_power = 25
 		add_ideas = NOR_radicalistsociety
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -5255,7 +5255,7 @@ country_event = {
 		name = nor_syncon.6.a
 		add_political_power = 25
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -5263,7 +5263,7 @@ country_event = {
 			desc = "politics_einar_gerhardsen_desc"
 			picture = "Portrait_Norway_Einar_Gerhardsen.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {
 			}
 		}
@@ -5396,7 +5396,7 @@ country_event = {
 		name = nor_syncon.8.b
 		add_political_power = 25
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -5404,7 +5404,7 @@ country_event = {
 			desc = "politics_einar_gerhardsen_desc"
 			picture = "Portrait_Norway_Einar_Gerhardsen.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {
 			}
 		}
@@ -5485,7 +5485,7 @@ country_event = {
 		name = nor_syncon.9.b
 		add_political_power = 25
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -5493,7 +5493,7 @@ country_event = {
 			desc = "politics_einar_gerhardsen_desc"
 			picture = "Portrait_Norway_Einar_Gerhardsen.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {
 			}
 		}

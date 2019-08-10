@@ -19,8 +19,8 @@ ARG_syndicalist_party:0 "La Internacional"
 ARG_syndicalist_party_long:0 "La Internacional"
 ARG_market_liberal_party:0 "PDN"
 ARG_market_liberal_party_long:0 "Partido Demócrata Nacional"
-ARG_radical_socialist_party:0 "PS"
-ARG_radical_socialist_party_long:0 "Partido Socialista"
+ARG_democratic_socialist_party:0 "PS"
+ARG_democratic_socialist_party_long:0 "Partido Socialista"
 
 ### Tooltips ###
 ARG_GER_Treaty:0 "§GWe will get the full effects of the treaty after it's ratified in Buenos Aires§!"

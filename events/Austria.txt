@@ -231,7 +231,7 @@ country_event = {
 	option = {
 		name = aus.elections.3.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.025
 		}
 	}

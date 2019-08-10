@@ -38,7 +38,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -65,7 +65,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -348,7 +348,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -375,7 +375,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -661,7 +661,7 @@ country_event = { # Jack Reed declares revolution against Olson
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -696,7 +696,7 @@ country_event = { # Jack Reed declares revolution against Olson
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -853,7 +853,7 @@ country_event = { # Jack Reed declares revolution against Garner
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -888,7 +888,7 @@ country_event = { # Jack Reed declares revolution against Garner
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -1045,7 +1045,7 @@ country_event = { # Jack Reed declares revolution against Landon
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -1080,7 +1080,7 @@ country_event = { # Jack Reed declares revolution against Landon
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -1846,7 +1846,7 @@ country_event = { # Internal Conflicts
 	option = {
 		name = amcivwar.36.c
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_war_support = -0.05
@@ -1955,7 +1955,7 @@ country_event = { # Fate of Captured Politicians
 	option = {
 		name = amcivwar.39.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_stability = 0.05
@@ -2012,7 +2012,7 @@ country_event = { # Protecting against Saboteurs
 		name = amcivwar.40.b
 		add_war_support = 0.03
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 	}
@@ -3966,7 +3966,7 @@ country_event = {
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -3993,7 +3993,7 @@ country_event = {
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4231,7 +4231,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15
@@ -4256,7 +4256,7 @@ country_event = { # Jack Reed declares revolution against MacArthur
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.3
 		}
 		add_stability = 0.15

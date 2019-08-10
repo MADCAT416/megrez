@@ -14,7 +14,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.15
 				syndicalist_drift = -0.1
-				radical_socialist_drift = -0.1
+				democratic_socialist_drift = -0.1
 				totalist_drift = -0.1
 			}
 

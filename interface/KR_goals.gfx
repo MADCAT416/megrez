@@ -61,8 +61,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_radical_socialist"
-		texturefile = "gfx/interface/goals/goal_ideology_radical_socialist.tga"
+		name = "GFX_goal_ideology_democratic_socialist"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic_socialist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_syndicalist"

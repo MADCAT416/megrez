@@ -437,8 +437,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_KR_game_rule_flag_BRA_radical_socialist"
-		texturefile = "gfx/flags/small/BRA_radical_socialist.tga"
+		name = "GFX_KR_game_rule_flag_BRA_democratic_socialist"
+		texturefile = "gfx/flags/small/BRA_democratic_socialist.tga"
 		legacy_lazy_load = no
 	}
 	spriteType = {

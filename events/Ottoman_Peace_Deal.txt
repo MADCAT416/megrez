@@ -3196,7 +3196,7 @@ country_event = {
 
             set_popularities = {
                 totalist = 0
-                radical_socialist = 0
+                democratic_socialist = 0
                 syndicalist = 0
                 social_democrat = 3
                 social_liberal = 0

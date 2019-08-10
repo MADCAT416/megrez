@@ -3,8 +3,8 @@
 ### Parties ###
 PRI_totalist_party:0 "Partido Comunista"
 PRI_totalist_party_long:0 "Partido Comunista de Puerto Rico (Communist Party of Puerto Rico)"
-PRI_radical_socialist_party:0 "Partido Socialista"
-PRI_radical_socialist_party_long:0 "Partido Socialista Puertorriqueño (Socialist Party of Puerto Rico)"
+PRI_democratic_socialist_party:0 "Partido Socialista"
+PRI_democratic_socialist_party_long:0 "Partido Socialista Puertorriqueño (Socialist Party of Puerto Rico)"
 PRI_syndicalist_party:0 "Federación Libre de Trabajadores"
 PRI_syndicalist_party_long:0 "Federación Libre de Trabajadores (Free Federation of Workers)"
 PRI_social_democrat_party:0 "Partido Popular Democratico"

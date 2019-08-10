@@ -1085,10 +1085,10 @@ focus_tree = {
 			add_political_power = -50
 			add_popularity = { ideology = syndicalist popularity = -0.50 }
 			add_popularity = { ideology = totalist popularity = -0.50 }
-			add_popularity = { ideology = radical_socialist popularity = -0.50 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.50 }
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 			add_manpower = -500
 		}
 	}
@@ -1191,7 +1191,7 @@ focus_tree = {
 			add_political_power = 50
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 			set_country_flag = ethnic_populist_banned
 			set_country_flag = LIT_voldemaras_arrested
 			add_manpower = -500
@@ -1410,7 +1410,7 @@ focus_tree = {
 			add_political_power = 100
 			set_country_flag = totalist_banned
 			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
+			set_country_flag = democratic_socialist_banned
 			add_ideas = LIT_corporate_state
 		}
 	}

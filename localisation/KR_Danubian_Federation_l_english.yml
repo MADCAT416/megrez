@@ -2,7 +2,7 @@
 
 ### Parties ###
 DNF_totalist_party:0 "TVP"
-DNF_radical_socialist_party:0 "SAB"
+DNF_democratic_socialist_party:0 "SAB"
 DNF_syndicalist_party:0 "SAPÖ"
 DNF_social_democrat_party:0 "SDA"
 DNF_social_liberal_party:0 "LBÖ"
@@ -12,7 +12,7 @@ DNF_authoritarian_democrat_party:0 "CSP"
 DNF_paternal_autocrat_party:0 "GDVP"
 DNF_ethnic_populist_party:0 "HB"
 DNF_totalist_party_long:0 "Totalitäre Volkspartei"
-DNF_radical_socialist_party_long:0 "Sozialistische Arbeiterbewegung"
+DNF_democratic_socialist_party_long:0 "Sozialistische Arbeiterbewegung"
 DNF_syndicalist_party_long:0 "Sozialistische Arbeiterpartei Österreich"
 DNF_social_democrat_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
 DNF_social_liberal_party_long:0 "Liberale Bewegung Österreichs"

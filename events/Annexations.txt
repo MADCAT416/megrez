@@ -66,11 +66,11 @@ country_event = { #The Annexation of Flanders-Wallonia
 			hidden_effect = {
 				BEL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -171,11 +171,11 @@ country_event = { #Swiss liberation
 			hidden_effect = {
 				SWI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -233,11 +233,11 @@ country_event = { #Swiss liberation
 			hidden_effect = {
 				BEL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -439,11 +439,11 @@ country_event = { #Annexation of Bulgaria
 			hidden_effect = {
 				BUL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -769,11 +769,11 @@ country_event = { #Romanian liberation
 			hidden_effect = {
 				RRM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -956,11 +956,11 @@ country_event = { #Romanian liberation
 				hidden_effect = {
 					RRM = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -1106,11 +1106,11 @@ country_event = { #Romanian liberation
 				hidden_effect = {
 					RRM = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -1238,11 +1238,11 @@ country_event = { #Serbian liberation
 			hidden_effect = {
 				SER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -1691,11 +1691,11 @@ country_event = { #greek liberation
 			hidden_effect = {
 				GRE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -1768,11 +1768,11 @@ country_event = { #HUN liberation
 			hidden_effect = {
 				HUN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -1896,11 +1896,11 @@ country_event = { #HUN liberation
 			hidden_effect = {
 				HUN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -2036,11 +2036,11 @@ country_event = { #AUS liberation
 			hidden_effect = {
 				AUS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -2904,11 +2904,11 @@ country_event = { #CRO liberation
 			hidden_effect = {
 				CRO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -2976,11 +2976,11 @@ country_event = { #SLO liberation
 			hidden_effect = {
 				SLO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3162,11 +3162,11 @@ country_event = { #POL liberation
 			hidden_effect = {
 				POL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3266,11 +3266,11 @@ country_event = { #POL liberation
 			hidden_effect = {
 				POL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3421,11 +3421,11 @@ country_event = { #POL liberation
 			hidden_effect = {
 				RRM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3544,11 +3544,11 @@ country_event = { #FIN liberation
 			hidden_effect = {
 				FIN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3647,11 +3647,11 @@ country_event = { #NOR liberation
 			hidden_effect = {
 				NOR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3760,11 +3760,11 @@ country_event = { #SWE liberation
 			hidden_effect = {
 				SWE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -3990,11 +3990,11 @@ country_event = { #SWE liberation
 			hidden_effect = {
 				SWE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4140,11 +4140,11 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 			hidden_effect = {
 				BEL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4224,21 +4224,21 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 			hidden_effect = {
 				FLN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
 				WLL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4266,7 +4266,7 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 		if = {
 			limit = {
 				OR = {
-					has_government = radical_socialist
+					has_government = democratic_socialist
 					has_government = syndicalist
 					AND = {
 						has_government = social_democrat
@@ -4436,11 +4436,11 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 			hidden_effect = {
 				FLN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4531,11 +4531,11 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 			hidden_effect = {
 				WLL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4563,7 +4563,7 @@ country_event = { #The Annexation of Flanders-Wallonia 2
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			WLL = {
 				complete_national_focus = WLL_Peacefull_Transition
@@ -4699,11 +4699,11 @@ country_event = { #Status of Flanders
 			hidden_effect = {
 				FLN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -4742,11 +4742,11 @@ country_event = { #The destiny of Luxembourg
 			hidden_effect = {
 				LUX = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -5057,11 +5057,11 @@ country_event = { #The Fate of Russia
 			hidden_effect = {
 				SOV = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6323,11 +6323,11 @@ country_event = { #Fate of America
 			hidden_effect = {
 				CSA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6385,11 +6385,11 @@ country_event = { #Fate of Burma
 			hidden_effect = {
 				BUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6442,11 +6442,11 @@ country_event = { #Fate of Burma
 			hidden_effect = {
 				KAC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6479,11 +6479,11 @@ country_event = { #Fate of Burma
 			hidden_effect = {
 				SHA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6513,11 +6513,11 @@ country_event = { #Fate of Burma
 			hidden_effect = {
 				BUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6675,11 +6675,11 @@ country_event = { #Fate of Portugal leftist
 			hidden_effect = {
 				POR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6734,11 +6734,11 @@ country_event = { #Fate of Morroco leftist
 			hidden_effect = {
 				MOR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6847,11 +6847,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				BAT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6910,11 +6910,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				LIT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -6984,11 +6984,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				LIT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7045,11 +7045,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				BAT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7128,11 +7128,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				EST = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7161,11 +7161,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				LAT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7208,11 +7208,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				LIT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7272,11 +7272,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				EST = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7305,11 +7305,11 @@ country_event = { #Fate of the Baltic Region
 			hidden_effect = {
 				LAT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7392,11 +7392,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				YUG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7446,11 +7446,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				BOS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7484,11 +7484,11 @@ country_event = { #Fate of South Slavic Nations
 				hidden_effect = {
 					MTN = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -7529,11 +7529,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				SER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7563,11 +7563,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				CRO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7612,11 +7612,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				SER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7650,11 +7650,11 @@ country_event = { #Fate of South Slavic Nations
 			hidden_effect = {
 				CRO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -7722,11 +7722,11 @@ country_event = { #The Fate of Guatemala
 			}
 			GUA = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.40
 				}
 			}
@@ -7815,11 +7815,11 @@ country_event = { #The Fate of Guatemala
 			}
 			GUA = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.40
 				}
 			}
@@ -8216,11 +8216,11 @@ country_event = { #The Fate of Spain POR
 				hidden_effect = {
 					CNT = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -8502,11 +8502,11 @@ country_event = { #Fate of the Northern China
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -8813,11 +8813,11 @@ country_event = { #The Irish Question
 			hidden_effect = {
 				IRE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -9041,11 +9041,11 @@ country_event = { #The fate of Georgia
 			hidden_effect = {
 				GEO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -9123,11 +9123,11 @@ country_event = { #The fate of Georgia
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -9490,11 +9490,11 @@ country_event = { #Releasing Spain (if not POR)
 				hidden_effect = {
 					CNT = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -9919,11 +9919,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				DDR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -9952,11 +9952,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				BAV = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -9985,11 +9985,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				WGR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10018,11 +10018,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				NGF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10086,11 +10086,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				DDR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10119,11 +10119,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10152,11 +10152,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10185,11 +10185,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10249,11 +10249,11 @@ country_event = { #fate of Germany
 			hidden_effect = {
 				GRU = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10581,11 +10581,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				ALO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10681,11 +10681,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				ALO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10764,11 +10764,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				TRK = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10826,11 +10826,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				KYR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10865,11 +10865,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				TAJ = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10905,11 +10905,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				UZB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -10939,11 +10939,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				ALO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -11022,11 +11022,11 @@ country_event = { #The fate of Central Asia
 			hidden_effect = {
 				TRK = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -11299,11 +11299,11 @@ country_event = { #The fate of Yunnan
 			hidden_effect = {
 				YUN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -11380,11 +11380,11 @@ country_event = { #Partition of Switzerland
 			hidden_effect = {
 				SWI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -11532,11 +11532,11 @@ country_event = { #Partition of Switzerland
 			hidden_effect = {
 				SWI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -11887,7 +11887,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_RENE_BOURBON_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 
@@ -12075,11 +12075,11 @@ country_event = { #The Annexation of Arabia
 			hidden_effect = {
 				IRQ = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12228,11 +12228,11 @@ country_event = { #The Annexation of Libya
 			hidden_effect = {
 				"LBA" = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12338,11 +12338,11 @@ country_event = { #The Annexation of Egypt
 			hidden_effect = {
 				EGY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12414,21 +12414,21 @@ country_event = { #The Annexation of Egypt
 			hidden_effect = {
 				EGY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
 				SUD = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12483,11 +12483,11 @@ country_event = { #The Annexation of Egypt
 			hidden_effect = {
 				SUD = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12599,11 +12599,11 @@ country_event = { #The Annexation of Persia
 			hidden_effect = {
 				PER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12709,11 +12709,11 @@ country_event = { #The Annexation of Persia
 				hidden_effect = {
 					KUR = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -12754,11 +12754,11 @@ country_event = { #The Annexation of Persia
 			hidden_effect = {
 				PER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12863,11 +12863,11 @@ country_event = { #The Annexation of Tunisia
 			hidden_effect = {
 				TUN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12928,11 +12928,11 @@ country_event = { #The Annexation of Yemen
 			hidden_effect = {
 				YEM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -12993,11 +12993,11 @@ country_event = { #The Annexation of Oman
 			hidden_effect = {
 				OMA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13078,11 +13078,11 @@ country_event = { #The Annexation of Armenia
 			hidden_effect = {
 				ARM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13179,11 +13179,11 @@ country_event = { #The Annexation of Azerbaijan
 			hidden_effect = {
 				AZE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13367,11 +13367,11 @@ country_event = { #The Annexation of India
 			hidden_effect = {
 				BHC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13429,11 +13429,11 @@ country_event = { #The Annexation of Afghanistan
 			hidden_effect = {
 				AFG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13479,11 +13479,11 @@ country_event = { #annexation of Cuba
 			hidden_effect = {
 				CUB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -13525,11 +13525,11 @@ country_event = { #annexation of Cuba
 			hidden_effect = {
 				CUB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -15095,11 +15095,11 @@ country_event = { #The Annexation of Siam
 			hidden_effect = {
 				PER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -16705,11 +16705,11 @@ country_event = { #The Annexation of Siam
 			hidden_effect = {
 				SIA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -16806,7 +16806,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 					expire = "1983.5.2"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = { # Pridi Panomyong
@@ -16951,11 +16951,11 @@ country_event = { #The fate of ceylon
 			hidden_effect = {
 				CEY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -17053,11 +17053,11 @@ country_event = { #The fate of ceylon
 			hidden_effect = {
 				CEY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -17225,11 +17225,11 @@ country_event = { #Fate of Anatolia
 			hidden_effect = {
 				TUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -17360,11 +17360,11 @@ country_event = { #Fate of Anatolia
 				hidden_effect = {
 					KUR = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -17460,11 +17460,11 @@ country_event = { #Fate of Anatolia
 			hidden_effect = {
 				TUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -17613,11 +17613,11 @@ country_event = { #Fate of Anatolia
 				hidden_effect = {
 					KUR = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -18078,11 +18078,11 @@ country_event = { #The Annexation of the Levant
 			hidden_effect = {
 				SYR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18270,11 +18270,11 @@ country_event = { #The Conquest of Bohemia
 			hidden_effect = {
 				CZE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18331,11 +18331,11 @@ country_event = { #The Conquest of Bohemia
 			hidden_effect = {
 				CZE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18423,11 +18423,11 @@ country_event = { #The Annexation of the Ukraine
 			hidden_effect = {
 				UKR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18458,7 +18458,7 @@ country_event = { #The Annexation of the Ukraine
 					desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 					picture = "Portrait_UKR_Nikita_Kruschev.tga"
 					expire = "1965.1.1"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -18548,11 +18548,11 @@ country_event = { #The Annexation of the Ukraine
 			hidden_effect = {
 				UKR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18583,7 +18583,7 @@ country_event = { #The Annexation of the Ukraine
 					desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 					picture = "Portrait_UKR_Nikita_Kruschev.tga"
 					expire = "1965.1.1"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -18776,11 +18776,11 @@ country_event = { #Fate of the South-Western China
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -18827,11 +18827,11 @@ country_event = { #Fate of the South-Western China
 			hidden_effect = {
 				YUN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -19225,11 +19225,11 @@ country_event = { #Fate of the Southern China
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -19658,11 +19658,11 @@ country_event = { #Fate of the Southern China
 			hidden_effect = {
 				GXC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -19840,11 +19840,11 @@ country_event = { #Fate of Tibet
 			hidden_effect = {
 				TIB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -19924,11 +19924,11 @@ country_event = { #Fate of Japan
 			hidden_effect = {
 				JAP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -19996,11 +19996,11 @@ country_event = { #Fate of Japan
 			hidden_effect = {
 				JAP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20236,11 +20236,11 @@ country_event = { #Fate of Bhutan
 			hidden_effect = {
 				BHU = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20420,11 +20420,11 @@ country_event = {
 			hidden_effect = {
 				ENP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20460,11 +20460,11 @@ country_event = {
 			hidden_effect = {
 				WAL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20502,11 +20502,11 @@ country_event = {
 			hidden_effect = {
 				SCT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20573,11 +20573,11 @@ country_event = {
 			hidden_effect = {
 				GBP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20629,11 +20629,11 @@ country_event = { #Fate of Chile
 			hidden_effect = {
 				CHL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20751,11 +20751,11 @@ country_event = { #Fate of Bolivia
 			hidden_effect = {
 				BOL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -20961,11 +20961,11 @@ country_event = { #Fate of Peru
 			hidden_effect = {
 				PRU = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21017,11 +21017,11 @@ country_event = { #Fate of Ecuador
 			hidden_effect = {
 				ECU = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21115,11 +21115,11 @@ country_event = { #Fate of Colombia
 			hidden_effect = {
 				COL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21198,11 +21198,11 @@ country_event = { #Fate of Venezuela
 			hidden_effect = {
 				VEN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21275,11 +21275,11 @@ country_event = { #Fate of the West Indies Federation
 			hidden_effect = {
 				CAF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21472,11 +21472,11 @@ country_event = { #Fate of the West Indies Federation
 				}
 				CAF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21491,31 +21491,31 @@ country_event = { #Fate of the West Indies Federation
 			hidden_effect = {
 				GUY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
 				JAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
 				TRI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21556,11 +21556,11 @@ country_event = { #Fate of Panama
 			hidden_effect = {
 				"PAN" = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21600,11 +21600,11 @@ country_event = { #Fate of Panama
 			hidden_effect = {
 				"PAN" = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21677,11 +21677,11 @@ country_event = { #Fate of Haiti
 			hidden_effect = {
 				HAI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21733,11 +21733,11 @@ country_event = { #Fate of the Dominican Republic
 			hidden_effect = {
 				DOM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21793,11 +21793,11 @@ country_event = { #Fate of Cuba
 			hidden_effect = {
 				CUB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -21839,11 +21839,11 @@ country_event = { #Fate of Cuba
 			hidden_effect = {
 				CUB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -22013,11 +22013,11 @@ country_event = { #Fate of Mexico
 			hidden_effect = {
 				YUC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -22353,11 +22353,11 @@ country_event = { #Fate of Galicia
 			hidden_effect = {
 				GAL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -22633,11 +22633,11 @@ country_event = { #Fate of Belarus
 			hidden_effect = {
 				WHR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -22780,11 +22780,11 @@ country_event = { #Fate of Slovakia
 			hidden_effect = {
 				SVK = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -22869,11 +22869,11 @@ country_event = { #Fate of Transylvania
 			hidden_effect = {
 				TRS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23036,11 +23036,11 @@ country_event = { #Bosnia Liberation
 			hidden_effect = {
 				BOS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23127,11 +23127,11 @@ country_event = { #Montenegro Liberation
 			hidden_effect = {
 				MTN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23219,11 +23219,11 @@ country_event = { #Albania Liberation
 			hidden_effect = {
 				ALB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23265,11 +23265,11 @@ country_event = { #Albania Liberation
 			hidden_effect = {
 				ALB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23397,11 +23397,11 @@ country_event = { #Netherlands Liberation
 			hidden_effect = {
 				HOL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23490,11 +23490,11 @@ country_event = { #Netherlands Liberation
 			hidden_effect = {
 				HOL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23634,11 +23634,11 @@ country_event = { #Netherlands Liberation
 			hidden_effect = {
 				HOL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23756,11 +23756,11 @@ country_event = { #Denmark Liberation
 			hidden_effect = {
 				DEN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -23921,11 +23921,11 @@ country_event = { #Denmark Liberation
 			hidden_effect = {
 				DEN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24425,11 +24425,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				FRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24541,11 +24541,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				NRM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24572,11 +24572,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				BRI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24620,11 +24620,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				OCC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24668,11 +24668,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				FRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24780,11 +24780,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				BRI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24828,11 +24828,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				FRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -24967,11 +24967,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				OCC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25015,11 +25015,11 @@ country_event = { #Fate of France
 			hidden_effect = {
 				FRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25218,11 +25218,11 @@ country_event = { #Fate of Southern France
 			hidden_effect = {
 				FRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25289,11 +25289,11 @@ country_event = { #Fate of Southern France
 			hidden_effect = {
 				OCC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25420,11 +25420,11 @@ country_event = { #Fate of Britain
 			hidden_effect = {
 				ENP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25450,11 +25450,11 @@ country_event = { #Fate of Britain
 			hidden_effect = {
 				WAL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25480,11 +25480,11 @@ country_event = { #Fate of Britain
 			hidden_effect = {
 				SCT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25537,11 +25537,11 @@ country_event = { #Fate of Britain
 			hidden_effect = {
 				GBP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25593,7 +25593,7 @@ country_event = { #A syndicalist Flanders-Wallonia
 			desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 			picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		remove_ideas_with_trait = head_of_government
@@ -25681,11 +25681,11 @@ country_event = { #Fate of Belgium
 			hidden_effect = {
 				BEL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25866,11 +25866,11 @@ country_event = { #Fate of Belgium
 			hidden_effect = {
 				FLN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25966,11 +25966,11 @@ country_event = { #Fate of Belgium
 			hidden_effect = {
 				WLL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -25998,7 +25998,7 @@ country_event = { #Fate of Belgium
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			WLL = {
 				complete_national_focus = WLL_Peacefull_Transition
@@ -26123,11 +26123,11 @@ country_event = { #Fate of Belgium
 			hidden_effect = {
 				FLN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26215,11 +26215,11 @@ country_event = { #Fate of Belgium
 			hidden_effect = {
 				WLL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26246,7 +26246,7 @@ country_event = { #Fate of Belgium
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			WLL = {
 				complete_national_focus = WLL_Peacefull_Transition
@@ -26426,11 +26426,11 @@ country_event = { #Fate of Southern Wallonia
 			hidden_effect = {
 				WLL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26457,7 +26457,7 @@ country_event = { #Fate of Southern Wallonia
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			WLL = {
 				complete_national_focus = WLL_Peacefull_Transition
@@ -26564,11 +26564,11 @@ country_event = { #Fate of Southern Wallonia
 			hidden_effect = {
 				BEL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26656,11 +26656,11 @@ country_event = { #Fate of Luxembourg
 			hidden_effect = {
 				LUX = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26784,11 +26784,11 @@ country_event = { #Fate of Lithuania
 			hidden_effect = {
 				LIT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -26940,11 +26940,11 @@ country_event = { #Fate of Thessaloniki
 			hidden_effect = {
 				GRE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27023,11 +27023,11 @@ country_event = { #The Annexation of Algeria
 			hidden_effect = {
 				ALG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27124,11 +27124,11 @@ country_event = { #Fate of Don Kuban Union
 			hidden_effect = {
 				DKB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27226,11 +27226,11 @@ country_event = { #Fate of Nepal
 			hidden_effect = {
 				NEP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27372,11 +27372,11 @@ country_event = { #Fate of Nepal
 			hidden_effect = {
 				NEP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27443,11 +27443,11 @@ country_event = { #Fate of Indochina
 			hidden_effect = {
 				INC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27497,11 +27497,11 @@ country_event = { #Fate of Indochina
 				hidden_effect = {
 					VIE = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -27532,11 +27532,11 @@ country_event = { #Fate of Indochina
 				hidden_effect = {
 					LAO = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -27571,11 +27571,11 @@ country_event = { #Fate of Indochina
 				hidden_effect = {
 					CAM = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -27676,11 +27676,11 @@ country_event = { #Fate of Australasia
 			hidden_effect = {
 				AST = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27723,11 +27723,11 @@ country_event = { #Fate of Australasia
 			hidden_effect = {
 				NZL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -27774,11 +27774,11 @@ country_event = { #Fate of Australasia
 			hidden_effect = {
 				AST = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28224,11 +28224,11 @@ country_event = { #Fate of the North-western China
 			hidden_effect = {
 				XSM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28293,11 +28293,11 @@ country_event = { #Fate of the North-western China
 			hidden_effect = {
 				SIK = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28333,11 +28333,11 @@ country_event = { #Fate of the North-western China
 			hidden_effect = {
 				XSM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28571,11 +28571,11 @@ country_event = { #Fate of Mongolia
 			hidden_effect = {
 				MON = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28660,11 +28660,11 @@ country_event = { #Fate of Mongolia
 			hidden_effect = {
 				MON = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28774,11 +28774,11 @@ country_event = { #Fate of Manchuria
 			hidden_effect = {
 				FNG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -28857,11 +28857,11 @@ country_event = { #Fate of Manchuria
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29125,11 +29125,11 @@ country_event = { #Fate of Shangqing
 			hidden_effect = {
 				SQI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29200,11 +29200,11 @@ country_event = { #Fate of Shangqing
 			hidden_effect = {
 				CHI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29391,11 +29391,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				BRA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29462,11 +29462,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				PIR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29497,11 +29497,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				BAH = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29546,11 +29546,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				SPO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29594,11 +29594,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				AMA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29650,11 +29650,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				GRP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29708,11 +29708,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				ISR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29764,11 +29764,11 @@ country_event = { #Fate of Brazil
 			hidden_effect = {
 				RJM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29886,11 +29886,11 @@ country_event = { #Fate of Argentina
 			hidden_effect = {
 				ARG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -29976,11 +29976,11 @@ country_event = { #Fate of Argentina
 			hidden_effect = {
 				FOP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30136,11 +30136,11 @@ country_event = { #Annexation of Korea
 			hidden_effect = {
 				KOR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30345,11 +30345,11 @@ country_event = { #Fate of Canada
 			hidden_effect = {
 				CAN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30424,11 +30424,11 @@ country_event = { #Fate of Canada
 			hidden_effect = {
 				QUE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30457,11 +30457,11 @@ country_event = { #Fate of Canada
 			hidden_effect = {
 				CAN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30545,11 +30545,11 @@ country_event = { #Fate of Canada
 			hidden_effect = {
 				QUE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30644,11 +30644,11 @@ country_event = { #Annexation of Angola
 			hidden_effect = {
 				ANG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30707,11 +30707,11 @@ country_event = { #Annexation of Mozambique
 			hidden_effect = {
 				MOZ = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30806,11 +30806,11 @@ country_event = { #Fate of Somalia
 			hidden_effect = {
 				SOM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30877,11 +30877,11 @@ country_event = { #Annexation of Namibia
 			hidden_effect = {
 				NAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30949,11 +30949,11 @@ country_event = { #Annexation of Zambia
 			hidden_effect = {
 				ZAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -30994,11 +30994,11 @@ country_event = { #Annexation of Zambia
 			hidden_effect = {
 				ZAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31059,11 +31059,11 @@ country_event = { #Annexation of Malawi
 			hidden_effect = {
 				MLW = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31131,11 +31131,11 @@ country_event = { #Annexation of Tanzania
 			hidden_effect = {
 				TNZ = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31181,11 +31181,11 @@ country_event = { #Annexation of Tanzania
 			hidden_effect = {
 				TNZ = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31259,11 +31259,11 @@ country_event = { #Annexation of Congo
 			hidden_effect = {
 				CNR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31321,11 +31321,11 @@ country_event = { #Annexation of Burundi
 			hidden_effect = {
 				BRD = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31382,11 +31382,11 @@ country_event = { #Annexation of Rwanda
 			hidden_effect = {
 				RWA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31446,11 +31446,11 @@ country_event = { #Annexation of Uganda
 			hidden_effect = {
 				UGA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31514,11 +31514,11 @@ country_event = { #Annexation of Kenya
 			hidden_effect = {
 				KEN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31579,11 +31579,11 @@ country_event = { #Annexation of Gabon
 			hidden_effect = {
 				GAB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31648,11 +31648,11 @@ country_event = { #Annexation of Kamerun
 			hidden_effect = {
 				KAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31713,11 +31713,11 @@ country_event = { #Annexation of Ubangi-Shari
 			hidden_effect = {
 				CEA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31778,11 +31778,11 @@ country_event = { #Annexation of Nigeria
 			hidden_effect = {
 				NGR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31842,11 +31842,11 @@ country_event = { #Annexation of Dahomey
 			hidden_effect = {
 				DAH = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31907,11 +31907,11 @@ country_event = { #Annexation of Togo
 			hidden_effect = {
 				TOG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -31971,11 +31971,11 @@ country_event = { #Annexation of Ghana
 			hidden_effect = {
 				GHA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32036,11 +32036,11 @@ country_event = { #Annexation of Ivory Coast
 			hidden_effect = {
 				CIV = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32103,11 +32103,11 @@ country_event = { #Annexation of Liberia
 			hidden_effect = {
 				LIB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32224,11 +32224,11 @@ country_event = { #Annexation of Sierra Leone
 			hidden_effect = {
 				SIE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32284,11 +32284,11 @@ country_event = { #Annexation of Guinea
 			hidden_effect = {
 				GNE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32343,11 +32343,11 @@ country_event = { #Annexation of Senegambia
 			hidden_effect = {
 				SEN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32403,11 +32403,11 @@ country_event = { #Annexation of Mali
 			hidden_effect = {
 				MAL = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32463,11 +32463,11 @@ country_event = { #Annexation of Burkina Faso
 			hidden_effect = {
 				BFA = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32524,11 +32524,11 @@ country_event = { #Annexation of Niger
 			hidden_effect = {
 				NER = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32585,11 +32585,11 @@ country_event = { #Annexation of Chad
 			hidden_effect = {
 				WAD = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32647,11 +32647,11 @@ country_event = { #Annexation of Mauritania
 			hidden_effect = {
 				MRT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32719,11 +32719,11 @@ country_event = { #Annexation of South Africa
 			hidden_effect = {
 				SAF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32776,11 +32776,11 @@ country_event = { #Annexation of South Africa
 			hidden_effect = {
 				SAF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32838,11 +32838,11 @@ country_event = { #Annexation of Botswana
 			hidden_effect = {
 				BOT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32900,11 +32900,11 @@ country_event = { #Annexation of Zimbabwe
 			hidden_effect = {
 				ZIM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -32962,11 +32962,11 @@ country_event = { #Annexation of Cape Verde/Guinea
 			hidden_effect = {
 				CVG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33022,11 +33022,11 @@ country_event = { #Annexation of Madagascar
 			hidden_effect = {
 				MAG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33075,11 +33075,11 @@ country_event = { #Cyprus Liberation
 			hidden_effect = {
 				CYP = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33220,11 +33220,11 @@ country_event = { #Fate of Indonesia
 			hidden_effect = {
 				INS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33365,11 +33365,11 @@ country_event = { #Fate of Transamur
 			hidden_effect = {
 				TRM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33555,11 +33555,11 @@ country_event = { #Fate of Malaysia
 			hidden_effect = {
 				MLY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33619,11 +33619,11 @@ country_event = { #Fate of Malaysia
 			hidden_effect = {
 				SAR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33658,11 +33658,11 @@ country_event = { #Fate of Malaysia
 			hidden_effect = {
 				MLY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -33993,11 +33993,11 @@ country_event = { #Annexation of Tannu Tuva
 			hidden_effect = {
 				TAN = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34199,11 +34199,11 @@ country_event = { #Fate of the Philippines
 			hidden_effect = {
 				"PHI" = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34313,11 +34313,11 @@ country_event = { #The Annexation of Iraq
 			hidden_effect = {
 				JOR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34371,11 +34371,11 @@ country_event = { #The Annexation of Iraq
 			hidden_effect = {
 				KUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34477,11 +34477,11 @@ country_event = { #The Annexation of Iraq
 			hidden_effect = {
 				KUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34540,11 +34540,11 @@ country_event = { #The Annexation of Iraq
 			hidden_effect = {
 				JOR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34789,11 +34789,11 @@ country_event = { #annexation of Uruguay
 			hidden_effect = {
 				URG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34854,11 +34854,11 @@ country_event = { #Fate of Paraguay
 			hidden_effect = {
 				PAR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -34877,7 +34877,7 @@ country_event = { #Fate of Paraguay
 
                 set_popularities = {
                     totalist = 45
-                    radical_socialist = 18
+                    democratic_socialist = 18
                     syndicalist = 6
                     social_democrat = 12
                     social_liberal = 6
@@ -34970,11 +34970,11 @@ country_event = { #Fate of Palestine
 				hidden_effect = {
 					SYR = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -35163,11 +35163,11 @@ country_event = { #Fate of Kurdistan
 			hidden_effect = {
 				KUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35347,11 +35347,11 @@ country_event = { #Fate of Cambodia
 			hidden_effect = {
 				CAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35409,11 +35409,11 @@ country_event = { #Fate of Laos
 			hidden_effect = {
 				LAO = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35471,11 +35471,11 @@ country_event = { #Fate of Vietnam
 			hidden_effect = {
 				VIE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35534,11 +35534,11 @@ country_event = { #The Fate of Honduras
 			hidden_effect = {
 				ANG = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35666,11 +35666,11 @@ country_event = { #The Fate of Nicaragua
 			}
 			NIC = {
 				set_politics = {
-					ruling_party = radical_socialist
+					ruling_party = democratic_socialist
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.40
 				}
 			}
@@ -35765,11 +35765,11 @@ country_event = { #The Fate of Costa Rica
 			hidden_effect = {
 				COS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -35964,11 +35964,11 @@ country_event = { # The fate of an unified central america
 				hidden_effect = {
 					CEN = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -36010,11 +36010,11 @@ country_event = { # The fate of an unified central america
 				hidden_effect = {
 					COS = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -36039,11 +36039,11 @@ country_event = { # The fate of an unified central america
 				hidden_effect = {
 					GUA = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -36089,11 +36089,11 @@ country_event = { # The fate of an unified central america
 				hidden_effect = {
 					HON = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -36118,11 +36118,11 @@ country_event = { # The fate of an unified central america
 				hidden_effect = {
 					ELS = {
 						set_politics = {
-							ruling_party = radical_socialist
+							ruling_party = democratic_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = radical_socialist
+							ideology = democratic_socialist
 							popularity = 0.4
 						}
 					}
@@ -36426,11 +36426,11 @@ country_event = { #Fate of Eritrea
 			hidden_effect = {
 				ERT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37008,11 +37008,11 @@ country_event = { #The Annexation of Euskadi
 			hidden_effect = {
 				BAS = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37082,11 +37082,11 @@ country_event = { #The Annexation of Catalonia
 			hidden_effect = {
 				CAT = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37150,11 +37150,11 @@ country_event = { #The Annexation of Galicia
 			hidden_effect = {
 				GLC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37239,11 +37239,11 @@ country_event = { #Fate of European Turkey
 			hidden_effect = {
 				TUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37534,11 +37534,11 @@ country_event = { #The Annexation of Bavaria
 			hidden_effect = {
 				BAV = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37585,11 +37585,11 @@ country_event = { #The Annexation of Bavaria
 			hidden_effect = {
 				BAV = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37648,11 +37648,11 @@ country_event = { #The Annexation of Rhineland
 			hidden_effect = {
 				WGR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37711,11 +37711,11 @@ country_event = { #The Annexation of Hanover
 			hidden_effect = {
 				NGF = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37788,11 +37788,11 @@ country_event = { #The Annexation of Siberia
 			hidden_effect = {
 				SIB = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -37874,11 +37874,11 @@ country_event = { #The Annexation of Suriname
 			hidden_effect = {
 				SUR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38005,11 +38005,11 @@ country_event = { #The Annexation of Puerto Rico
 			hidden_effect = {
 				PRI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38223,11 +38223,11 @@ country_event = { #The Annexation of Guyana
 			hidden_effect = {
 				GUY = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38322,11 +38322,11 @@ country_event = { #The Annexation of Jamaica
 			hidden_effect = {
 				JAM = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38416,11 +38416,11 @@ country_event = { #The Annexation of Trinidad
 			hidden_effect = {
 				TRI = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38507,11 +38507,11 @@ country_event = { #Danish atlantic possessions Liberation
 			hidden_effect = {
 				ICE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38576,11 +38576,11 @@ country_event = { #Danish atlantic possessions Liberation
 			hidden_effect = {
 				ICE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38644,11 +38644,11 @@ country_event = { #Danish atlantic possessions Liberation
 			hidden_effect = {
 				ICE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38717,11 +38717,11 @@ country_event = { #Danish atlantic possessions Liberation
 			hidden_effect = {
 				ICE = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38791,11 +38791,11 @@ country_event = { #The Annexation of Kachin
 			hidden_effect = {
 				KAC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -38880,11 +38880,11 @@ country_event = { #The Annexation of Shan
 			hidden_effect = {
 				KAC = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -39114,8 +39114,8 @@ country_event = { #The Fate of Italy
 			}
 			hidden_effect = {
 				SRI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -39698,8 +39698,8 @@ country_event = { #The Fate of Lombardy
 			}
 			hidden_effect = {
 				SRI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -39739,8 +39739,8 @@ country_event = { #The Fate of Lombardy
 			}
 			hidden_effect = {
 				LOM = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -39919,8 +39919,8 @@ country_event = { #The Fate of Venice
 			}
 			hidden_effect = {
 				VNC = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -40125,8 +40125,8 @@ country_event = { #The Fate of Tuscany
 			}
 			hidden_effect = {
 				TUS = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -40299,8 +40299,8 @@ country_event = { #The Fate of Emilia
 			}
 			hidden_effect = {
 				EMI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -40408,8 +40408,8 @@ country_event = { #The Fate of Emilia
 			}
 			hidden_effect = {
 				EMI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -40584,8 +40584,8 @@ country_event = { #The Fate of Rome
 			}
 			hidden_effect = {
 				PAP = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -41144,8 +41144,8 @@ country_event = { #The Fate of Piedmont
 			}
 			hidden_effect = {
 				SRI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -41487,8 +41487,8 @@ country_event = { #The Fate of Sardinia
 			}
 			hidden_effect = {
 				SRD = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -41658,8 +41658,8 @@ country_event = { #The Fate of Southern Italy
 			}
 			hidden_effect = {
 				SRI = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}
@@ -41723,8 +41723,8 @@ country_event = { #The Fate of Southern Italy
 			}
 			hidden_effect = {
 				SIC = {
-					set_politics = { ruling_party = radical_socialist elections_allowed = no }
-					add_popularity = { ideology = radical_socialist popularity = 0.4 }
+					set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+					add_popularity = { ideology = democratic_socialist popularity = 0.4 }
 				}
 			}
 		}

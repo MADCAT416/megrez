@@ -3,8 +3,8 @@
 ### Parties ###
 BAV_totalist_party:0 "SV"
 BAV_totalist_party_long:0 "Sozialistische Volksfront"
-BAV_radical_socialist_party:0 "RBB"
-BAV_radical_socialist_party_long:0 "Radikaler Bauernbund"
+BAV_democratic_socialist_party:0 "RBB"
+BAV_democratic_socialist_party_long:0 "Radikaler Bauernbund"
 BAV_syndicalist_party:0 "SOI"
 BAV_syndicalist_party_long:0 "Süddeutsche Organisation der Internationale "
 BAV_social_democrat_party:0 "SPD"

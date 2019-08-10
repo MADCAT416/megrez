@@ -124,7 +124,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.15
 				syndicalist_drift = 0.06
-				radical_socialist_drift = 0.03
+				democratic_socialist_drift = 0.03
 				totalist_drift = 0.03
 			}
 			removal_cost = -1
@@ -348,7 +348,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.10
 				syndicalist_drift = 0.06
-				radical_socialist_drift = 0.03
+				democratic_socialist_drift = 0.03
 				totalist_drift = 0.03
 				political_power_cost = -0.1
 			}

@@ -1923,7 +1923,7 @@ country_event = { #Mending divisions from the civil war
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 
@@ -2775,7 +2775,7 @@ country_event = { #Removing socialist sympathisers
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 

@@ -220,7 +220,7 @@ SWI_Savoie_decisions = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.01
 			}
 		}

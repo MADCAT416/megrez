@@ -969,7 +969,7 @@ focus_tree = {
 			hidden_effect = {
 				add_popularity = { ideology = totalist popularity = -1 }
 				add_popularity = { ideology = syndicalist popularity = -1 }
-				add_popularity = { ideology = radical_socialist popularity = -1 }
+				add_popularity = { ideology = democratic_socialist popularity = -1 }
 				add_popularity = { ideology = social_democrat popularity = -1 }
 			}
 		}
@@ -1391,7 +1391,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1415,7 +1415,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1439,7 +1439,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1466,7 +1466,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1494,7 +1494,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1522,7 +1522,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1573,7 +1573,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1600,7 +1600,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1628,7 +1628,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1656,7 +1656,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1683,7 +1683,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1710,7 +1710,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1737,7 +1737,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1764,7 +1764,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 
@@ -1800,7 +1800,7 @@ focus_tree = {
 			OR = {
 				has_government = totalist
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 

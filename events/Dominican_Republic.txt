@@ -2502,7 +2502,7 @@ country_event = { #Haitian Response (Disciplined Troops)
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -2651,7 +2651,7 @@ country_event = { #Haitian Response (Disciplined Troops)
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -2659,7 +2659,7 @@ country_event = { #Haitian Response (Disciplined Troops)
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {
@@ -2696,7 +2696,7 @@ country_event = { #Haitian Response (Did Nothing)
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -2842,7 +2842,7 @@ country_event = { #Haitian Response (Did Nothing)
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -2850,7 +2850,7 @@ country_event = { #Haitian Response (Did Nothing)
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {
@@ -2887,7 +2887,7 @@ country_event = { #Haitian Response (Comended Troops)
 		trigger = {
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 	}
@@ -3033,7 +3033,7 @@ country_event = { #Haitian Response (Comended Troops)
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -3041,7 +3041,7 @@ country_event = { #Haitian Response (Comended Troops)
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {
@@ -3130,7 +3130,7 @@ country_event = { #Dominican Response (Haiti Rattles Sabers)
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -3138,7 +3138,7 @@ country_event = { #Dominican Response (Haiti Rattles Sabers)
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {
@@ -3502,7 +3502,7 @@ country_event = { #Dominicans Disregard Demand
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -3510,7 +3510,7 @@ country_event = { #Dominicans Disregard Demand
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {
@@ -3594,7 +3594,7 @@ country_event = { #Dominicans Disregard Demand
 				country_exists = CSA
 				OR = {
 					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = democratic_socialist
 				}
 			}
 			AND = {
@@ -3602,7 +3602,7 @@ country_event = { #Dominicans Disregard Demand
 				OR = {
 					NOT = {
 						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = democratic_socialist
 					}
 				}
 				TEX = {

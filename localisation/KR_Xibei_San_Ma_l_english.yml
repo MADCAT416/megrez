@@ -6,8 +6,8 @@ XSM_ma_lin_rule_tooltip:0 "§RMa Lin's NCDG will now govern Qinghai province wit
 #### Parties ###
 XSM_totalist_party:0 "RC"
 XSM_totalist_party_long:0 "Revolutionary Commitee"
-XSM_radical_socialist_party:0 "WPUP"
-XSM_radical_socialist_party_long:0 "Workers and Peasants United Party"
+XSM_democratic_socialist_party:0 "WPUP"
+XSM_democratic_socialist_party_long:0 "Workers and Peasants United Party"
 XSM_syndicalist_party:0 "NUF"
 XSM_syndicalist_party_long:0 "National Unity Front"
 XSM_social_democrat_party:0 "CDSP"

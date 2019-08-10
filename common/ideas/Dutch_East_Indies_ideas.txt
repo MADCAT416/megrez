@@ -372,7 +372,7 @@ ideas = {
 			picture = generic_spy_intel
 			modifier = {
 				political_power_factor = 0.05
-				radical_socialist_drift = -0.01
+				democratic_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -386,7 +386,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.05
 				encryption_factor = 0.1
-				radical_socialist_drift = -0.01
+				democratic_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -400,7 +400,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.05
 				decryption_factor = 0.1
-				radical_socialist_drift = -0.01
+				democratic_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}
@@ -415,7 +415,7 @@ ideas = {
 				political_power_factor = 0.05
 				decryption_factor = 0.1
 				encryption_factor = 0.1
-				radical_socialist_drift = -0.01
+				democratic_socialist_drift = -0.01
 				syndicalist_drift = -0.01
 				totalist_drift = -0.01
 			}

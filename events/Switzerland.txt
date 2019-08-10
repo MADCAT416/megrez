@@ -615,7 +615,7 @@ country_event = { # Referendum: Unions - WIN
 			popularity = -1.0
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -1.0
 		}
 		swap_ideas = {
@@ -5714,7 +5714,7 @@ country_event = { # Banning Syndies as NatPops
 			popularity = -1.0
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -1.0
 		}
 		add_popularity = {

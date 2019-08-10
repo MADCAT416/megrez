@@ -2973,7 +2973,7 @@ focus_tree = {
 				popularity = 0.10
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.10
 			}
 			remove_ideas = POL_eternal_regency
@@ -3342,7 +3342,7 @@ focus_tree = {
 
 	focus = {
 		id = POL_luxembourg_world_revolution
-		icon = GFX_goal_ideology_radical_socialist
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 10.00
 		prerequisite = {
 			focus = POL_redistribute_wealth
@@ -3366,7 +3366,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_luxembourg_world_revolution"
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.20
 			}
 			add_political_power = 50

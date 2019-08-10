@@ -1160,11 +1160,11 @@ country_event = { #Fate of the Ukraine
 			hidden_effect = {
 				UKR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -1195,7 +1195,7 @@ country_event = { #Fate of the Ukraine
 					desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 					picture = "Portrait_UKR_Nikita_Kruschev.tga"
 					expire = "1965.1.1"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -1302,11 +1302,11 @@ country_event = { #Fate of the Ukraine
 			hidden_effect = {
 				UKR = {
 					set_politics = {
-						ruling_party = radical_socialist
+						ruling_party = democratic_socialist
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = radical_socialist
+						ideology = democratic_socialist
 						popularity = 0.4
 					}
 				}
@@ -1337,7 +1337,7 @@ country_event = { #Fate of the Ukraine
 					desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 					picture = "Portrait_UKR_Nikita_Kruschev.tga"
 					expire = "1965.1.1"
-					ideology = radical_socialist_subtype
+					ideology = democratic_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = {
@@ -3332,7 +3332,7 @@ country_event = { #Fate of alliance with Internationale
 			has_war_with = ROM
 			has_war_with = RRM
 			any_war_score > 0.05
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 		}
@@ -8490,7 +8490,7 @@ country_event = { #Pu-Yi's Offer
 			is_subject_of = RUS
 		}
 		NOT = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = syndicalist
 			has_government = totalist
 			country_exists = QIE
@@ -15952,7 +15952,7 @@ country_event = { #Russia demands reformation of our government WHR
 			desc = "STANISLAV_BULAK_BALAKHOVICH_DESC"
 			picture = "Portrait_White_Ruthenia_Stanislav_Bulak_Balakhovich.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -16289,7 +16289,7 @@ country_event = { #Russia demands reformation of our government UKR
 			desc = "NIKOLAI_BORETSKY_DESC"
 			picture = "Portrait_Ukraine_Nikolai_Borestky.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		create_country_leader = {

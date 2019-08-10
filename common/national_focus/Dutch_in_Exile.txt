@@ -156,7 +156,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOLEX_root_out_murba"
-			add_popularity = { ideology = radical_socialist popularity = -0.1 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.1 }
 		}
 	}
 

@@ -306,7 +306,7 @@ country_event = { # the Hawaiian Revolution
 		remove_ideas = HAW_political_chaos_idea
 		remove_ideas = HAW_great_strike_idea
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			last_election = "1936.11.16"
 			election_frequency = 48
 			elections_allowed = no
@@ -1230,14 +1230,14 @@ country_event = { # Elections of the General Secretary
 	option = { # Radical Socialist
 		name = hawaii.64.c
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		hidden_effect = {
 			add_ideas = HAW_Henry_Alexander_Baldwin_hog_mli
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			election_frequency = 48
 			elections_allowed = yes
 		}

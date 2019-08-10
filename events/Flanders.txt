@@ -1011,7 +1011,7 @@ country_event = { #Walloon commune put down
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			WLL = {
 				complete_national_focus = WLL_Peacefull_Transition

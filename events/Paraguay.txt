@@ -378,7 +378,7 @@ country_event = { #coup if you fail to do bm stuff
 
         set_popularities = {
             totalist = 9
-            radical_socialist = 7
+            democratic_socialist = 7
             syndicalist = 6
             social_democrat = 5
             social_liberal = 6
@@ -433,7 +433,7 @@ country_event = { #coup if you fail to do bm stuff
 
         set_popularities = {
             totalist = 45
-            radical_socialist = 18
+            democratic_socialist = 18
             syndicalist = 6
             social_democrat = 12
             social_liberal = 6
@@ -496,7 +496,7 @@ country_event = { #1941 elections
 		date > 1941.10.01
 		NOT = {
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -554,7 +554,7 @@ country_event = { #1941 elections
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -592,7 +592,7 @@ country_event = { #1946 elections
 		has_country_flag = PAR_estigarribato_flag
 		NOT = {
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -635,7 +635,7 @@ country_event = { #1946 elections
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -673,7 +673,7 @@ country_event = { #1951 elections
 		has_country_flag = PAR_estigarribato_flag
 		NOT = {
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -713,7 +713,7 @@ country_event = { #1951 elections
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -750,7 +750,7 @@ country_event = { #1956 elections
 		has_country_flag = PAR_estigarribato_flag
 		NOT = {
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -790,7 +790,7 @@ country_event = { #1956 elections
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -828,7 +828,7 @@ country_event = { #1946 elections - no estigarribia
 		NOT = {
 			has_country_flag = PAR_estigarribato_flag
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -861,7 +861,7 @@ country_event = { #1946 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -906,7 +906,7 @@ country_event = { #1946 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 7
+            democratic_socialist = 7
             syndicalist = 6
             social_democrat = 8
             social_liberal = 8
@@ -989,7 +989,7 @@ country_event = { #1951 elections - no estigarribia
 		NOT = {
 			has_country_flag = PAR_estigarribato_flag
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -1022,7 +1022,7 @@ country_event = { #1951 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -1067,7 +1067,7 @@ country_event = { #1951 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 7
+            democratic_socialist = 7
             syndicalist = 6
             social_democrat = 8
             social_liberal = 8
@@ -1105,7 +1105,7 @@ country_event = { #1956 elections - no estigarribia
 		NOT = {
 			has_country_flag = PAR_estigarribato_flag
 			has_government = syndicalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = totalist
 			has_government = ethnic_populist
 		}
@@ -1136,7 +1136,7 @@ country_event = { #1956 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 4
+            democratic_socialist = 4
             syndicalist = 3
             social_democrat = 18
             social_liberal = 4
@@ -1181,7 +1181,7 @@ country_event = { #1956 elections - no estigarribia
 
         set_popularities = {
             totalist = 2
-            radical_socialist = 7
+            democratic_socialist = 7
             syndicalist = 6
             social_democrat = 8
             social_liberal = 8

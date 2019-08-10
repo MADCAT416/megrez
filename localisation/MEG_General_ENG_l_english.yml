@@ -31,7 +31,7 @@ clerical_nationalist_drift:0 "Daily Clerical Nationalist support"
 ### Banned ###
 totalist_banned:0 "Banned Totalists"
 syndicalist_banned:0 "Banned Syndicalists"
-radical_socialist_banned:0 "Banned Democratic Socialists"
+democratic_socialist_banned:0 "Banned Democratic Socialists"
 social_democrat_banned:0 "Banned Social Democrats"
 social_progressive_banned:0 "Banned Social Progressives"
 market_liberal_banned:0 "Banned Market Liberals"

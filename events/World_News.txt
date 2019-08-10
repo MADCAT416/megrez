@@ -3806,7 +3806,7 @@ news_event = {
 				is_subject = yes
 			}
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 			}
 			controls_state = 289 # Bangkok under control

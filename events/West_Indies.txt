@@ -49,7 +49,7 @@ country_event = { #Labour Strikes in Guadeloupe
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist popularity = 0.01
+			ideology = democratic_socialist popularity = 0.01
 		}
 		add_to_variable = { var = CAF_british_anger value = 1 }
 		subtract_from_variable = { var = CAF_socialist_anger value = 2 }
@@ -63,7 +63,7 @@ country_event = { #Labour Strikes in Guadeloupe
 			factor = 50
 		}
 		add_popularity = {
-			ideology = radical_socialist popularity = 0.01
+			ideology = democratic_socialist popularity = 0.01
 		}
 		add_popularity = {
 			ideology = syndicalist popularity = 0.02
@@ -93,7 +93,7 @@ country_event = { #Meeting
 			ideology = syndicalist popularity = -0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist popularity = -0.01
+			ideology = democratic_socialist popularity = -0.01
 		}
 		add_political_power = -75
 		subtract_from_variable = { var = CAF_socialist_anger value = 2}
@@ -110,7 +110,7 @@ country_event = { #Meeting
 			ideology = syndicalist popularity = 0.01
 		}
 		add_popularity = {
-			ideology = radical_socialist popularity = 0.02
+			ideology = democratic_socialist popularity = 0.02
 		}
 		add_to_variable = { var = CAF_socialist_anger value = 4}
 		custom_effect_tooltip = CAF_add_4_socialist
@@ -1158,7 +1158,7 @@ country_event = { #red revolt
 				popularity = 0.31
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.22
 			}
 			add_popularity = {
@@ -1248,7 +1248,7 @@ country_event = { #governor revolt
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -3623,7 +3623,7 @@ country_event = { #French-Caribbean Exchange Program- students return
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = -0.05
@@ -5027,10 +5027,10 @@ country_event = { #syndie democracy and the elections
 	option = { #the people's party (radsoc)
 		name = wifpol.801.b
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		complete_national_focus = CAF_radical_syndies

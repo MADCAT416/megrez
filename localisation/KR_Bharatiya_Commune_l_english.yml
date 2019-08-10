@@ -68,10 +68,10 @@ BHC_union_forces:0 "Two units of infantry and three units of militia will join o
 
 ### Parties ###
 BHC_totalist_party:0 "Maximists"
-BHC_radical_socialist_party:0 "Agrarians"
+BHC_democratic_socialist_party:0 "Agrarians"
 BHC_syndicalist_party:0 "Moderates"
 BHC_totalist_party_long:0 "Maximist Faction of Bharatiya"
-BHC_radical_socialist_party_long:0 "Agrarian Faction of Bharatiya"
+BHC_democratic_socialist_party_long:0 "Agrarian Faction of Bharatiya"
 BHC_syndicalist_party_long:0 "Moderate Faction of Bharatiya"
 BHC_anarcho_syndicalist_party:0 "Anarcho-Syndicalists"
 BHC_anarcho_syndicalist_party_long:0 "Self-Culture Association of Bharatiya"

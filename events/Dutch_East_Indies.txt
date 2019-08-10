@@ -3501,7 +3501,7 @@ country_event = { #Dutch representative calls for Insulindian independence
 	trigger = {
 		tag = DEI
 		HOL = {
-			radical_socialist > 0.01
+			democratic_socialist > 0.01
 		}
 	}
 
@@ -6218,7 +6218,7 @@ country_event = { #Reclaimed the birthright as the exiles
 
         set_popularities = {
             totalist = 0
-            radical_socialist = 0
+            democratic_socialist = 0
             syndicalist = 0
             social_democrat = 0
             social_liberal = 4
@@ -6392,7 +6392,7 @@ country_event = { #Reclaimed the birthright as the exiles
 
         set_popularities = {
             totalist = 0
-            radical_socialist = 0
+            democratic_socialist = 0
             syndicalist = 0
             social_democrat = 0
             social_liberal = 4

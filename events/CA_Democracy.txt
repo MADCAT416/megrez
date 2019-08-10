@@ -224,7 +224,7 @@ country_event = { #Formation of the Partido Nacional Revolucionario
 	option = { #The reds are back
 		name = cendem.18.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.10
 		}
 		add_political_power = 25
@@ -322,7 +322,7 @@ country_event = { #What to do with our old enemies
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -378,7 +378,7 @@ country_event = { #Second Decision: Executive power President/Congress
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = 0.10
@@ -435,7 +435,7 @@ country_event = { #Third Decision: Constitutional supremacy, or local flexibilit
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = 0.10
@@ -495,7 +495,7 @@ country_event = { #Fourth Decision: Completely centralized Capital/ Splitting th
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = 0.05
@@ -833,7 +833,7 @@ country_event = { #Status of the Armed forces Centralized approach/Decentralized
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_stability = 0.10
@@ -1051,11 +1051,11 @@ country_event = { #Provisional Head of State
 			desc = "POLITICS_SILVERIO_ORTIZ_DESC"
 			picture = "Portrait_CEN_Silverio_Ortiz.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -1182,7 +1182,7 @@ country_event = { #The snap election
 			factor = 20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		create_country_leader = {
@@ -1190,11 +1190,11 @@ country_event = { #The snap election
 			desc = "POLITICS_SILVERIO_ORTIZ_DESC"
 			picture = "Portrait_CEN_Silverio_Ortiz.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		set_country_flag = CEN_RADSOC_country_flag
@@ -1313,12 +1313,12 @@ country_event = { #The First election four years after the first one
 			factor = 20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		complete_national_focus = ELS_social_ideal
@@ -1438,12 +1438,12 @@ country_event = { #The Second Election four years after the first one
 			factor = 20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		complete_national_focus = ELS_social_ideal
@@ -1563,12 +1563,12 @@ country_event = { #The Third Election four years after the second one
 			factor = 20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		complete_national_focus = ELS_social_ideal
@@ -1680,12 +1680,12 @@ country_event = { #The Fourth Election four years after the first one
 			factor = 20
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 		complete_national_focus = ELS_social_ideal
@@ -1954,7 +1954,7 @@ country_event = { #Arbenz Joins the Rad.socs.
 	option = { #He's welcome
 		name = cendem.34.a
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 		add_political_power = 25
@@ -1963,7 +1963,7 @@ country_event = { #Arbenz Joins the Rad.socs.
 			desc = "POLITICS_JUAN_ARBENZ_DESC"
 			picture = "Portrait_CEN_Arbenz.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = democratic_socialist_subtype
 			traits = {}
 		}
 	}

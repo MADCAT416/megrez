@@ -1508,7 +1508,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -2045,7 +2045,7 @@ focus_tree = {
 				popularity = -0.2
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.2
 			}
 			add_popularity = {
@@ -2111,7 +2111,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
@@ -2731,7 +2731,7 @@ focus_tree = {
 				popularity = 0.2
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = 0.1
 			}
 			add_popularity = {

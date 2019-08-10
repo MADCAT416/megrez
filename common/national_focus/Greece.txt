@@ -2108,8 +2108,8 @@ focus_tree = {
 
 	# Socialists
 	focus = {
-		id = GRE_radical_socialists
-		icon = GFX_goal_ideology_radical_socialist
+		id = GRE_democratic_socialists
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 0
 		prerequisite = {
 			focus = GRE_elections_1938
@@ -2119,7 +2119,7 @@ focus_tree = {
 		y = 1
 
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 
 		ai_will_do = {
@@ -2131,11 +2131,11 @@ focus_tree = {
 		continue_if_invalid = no
 
 		bypass = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRE_radical_socialists"
+			log = "[GetDateText]: [Root.GetName]: Focus GRE_democratic_socialists"
 			custom_effect_tooltip = unlock_focuses
 		}
 	}
@@ -2144,14 +2144,14 @@ focus_tree = {
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		cost = 8.0
 		prerequisite = {
-			focus = GRE_radical_socialists
+			focus = GRE_democratic_socialists
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = -1
 		y = 1
 
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 
 		ai_will_do = {
@@ -2175,12 +2175,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_abolish_landlordism
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = -1
 		y = 2
 
 		available = {
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			any_owned_state = {
 				is_controlled_by = GRE
 				is_core_of = GRE
@@ -2288,7 +2288,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_elections_1938
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 2
 		y = 0
 
@@ -2320,7 +2320,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_soc_dems
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 3
 		y = 1
 
@@ -2348,7 +2348,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_political_liberties
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 3
 		y = 2
 
@@ -2421,16 +2421,16 @@ focus_tree = {
 		icon = GFX_goal_agriculture
 		cost = 8.0
 		prerequisite = {
-			focus = GRE_radical_socialists
+			focus = GRE_democratic_socialists
 			focus = GRE_soc_dems
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 1
 		y = 1
 
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -2455,13 +2455,13 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_breadbasket
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 1
 		y = 2
 
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -2504,13 +2504,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GRE_industrial_socialism
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 0
 		y = 3
 
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -2551,13 +2551,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GRE_agrarian_socialism
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 2
 		y = 3
 
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -2592,13 +2592,13 @@ focus_tree = {
 			focus = GRE_agrarian_socialism
 			focus = GRE_industrial_socialism
 		}
-		relative_position_id = GRE_radical_socialists
+		relative_position_id = GRE_democratic_socialists
 		x = 1
 		y = 4
 
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}

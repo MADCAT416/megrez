@@ -277,7 +277,7 @@ country_event = { #Mutiny in the Herminestadt Barracks
 
             set_popularities = {
                 totalist = 0
-                radical_socialist = 0
+                democratic_socialist = 0
                 syndicalist = 0
                 social_democrat = 23
                 social_liberal = 22

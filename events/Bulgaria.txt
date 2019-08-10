@@ -5026,7 +5026,7 @@ country_event = { #International Workers' Day
 			else = {
 				add_political_power = -35
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.05
 				}
 				add_popularity = {

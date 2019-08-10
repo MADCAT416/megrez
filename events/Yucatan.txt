@@ -146,11 +146,11 @@ country_event = { # First Elections
 		name = yucatan.20.e
 		set_country_flag = YUC_first_elections
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
 	}
@@ -212,11 +212,11 @@ country_event = { # Other elections Elections
 	option = { # Radical Socialist
 		name = yucatan.21.e
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
 	}

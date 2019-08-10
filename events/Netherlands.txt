@@ -737,14 +737,14 @@ country_event = { #Making sure you're not stuck with some council as a puppet
 		}
 		if = {
 			limit = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 			create_country_leader = {
 				name = "Henk Sneevliet"
 				desc = "HENK_SNEEVLIET_DESC"
 				picture = "Portrait_HOL_Sneevliet.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 			}
 			remove_ideas_with_trait = head_of_government
 			add_ideas = HOL_Henk_Sneevliet_hog_rso
@@ -964,7 +964,7 @@ country_event = { #Dutch Elections 1937
 	#		ai_chance = { factor = 5 }
 	#		add_popularity = { ideology = totalist popularity = 0.1 }
 	#		add_popularity = { ideology = syndicalist popularity = 0.1 }
-	#		add_popularity = { ideology = radical_socialist popularity = 0.2 }
+	#		add_popularity = { ideology = democratic_socialist popularity = 0.2 }
 	#		add_popularity = { ideology = social_democrat popularity = -0.1 }
 	#		add_popularity = { ideology = social_conservative popularity = -0.1 }
 	#		hidden_effect = {
@@ -1415,7 +1415,7 @@ country_event = { #Wilhelmina's abdication
 	option = {
 		name = holel.5.a #The financing of the crowning ceremony didn't pass
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		remove_ideas_with_trait = head_of_government
@@ -1988,8 +1988,8 @@ country_event = { #Putsch succeeded, what now?
 #option = {
 #		name = holel.4.a #RSAP takes over
 #		ai_chance = { factor = 5 }
-#		set_politics = { ruling_party = radical_socialist elections_allowed = no }
-#		add_popularity = { ideology = radical_socialist popularity = 0.25 }
+#		set_politics = { ruling_party = democratic_socialist elections_allowed = no }
+#		add_popularity = { ideology = democratic_socialist popularity = 0.25 }
 #		hidden_effect = {
 #		set_country_flag = hol_rsap
 #	clr_country_flag = hol_radicalleft
@@ -3010,7 +3010,7 @@ country_event = { #Groningen Mutiny
 			popularity = 0.2
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		set_politics = {
@@ -3137,7 +3137,7 @@ country_event = { #Groningen Mutiny
 	#			states = { 36 }
 	#		}
 	#		add_popularity = { ideology = syndicalist popularity = -0.7 }
-	#		add_popularity = { ideology = radical_socialist popularity = -0.7 }
+	#		add_popularity = { ideology = democratic_socialist popularity = -0.7 }
 	#		add_popularity = { ideology = social_democrat popularity = -0.1 }
 	#		hidden_effect = {
 	#			every_country = {
@@ -3176,7 +3176,7 @@ country_event = { #Sort out revolt's ideo and gov
 
         set_popularities = {
             totalist = 42
-            radical_socialist = 30
+            democratic_socialist = 30
             syndicalist = 20
             social_democrat = 6
             social_liberal = 2
@@ -3596,7 +3596,7 @@ country_event = { #Landwacht breaks RNF
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -3660,7 +3660,7 @@ country_event = { #Left being forced into exile
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.1
 		}
 		add_popularity = {
@@ -4265,7 +4265,7 @@ country_event = { #Crime on the rise
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -4295,7 +4295,7 @@ country_event = { #Alcoholism on the rise
 			OR = {
 				has_government = ethnic_populist
 				has_government = paternal_autocrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = totalist
 			}
@@ -4407,7 +4407,7 @@ country_event = { #Alcohol Cartels
 			factor = 50
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -4641,7 +4641,7 @@ country_event = { #Malieveld Protests
 			factor = 75
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -4696,7 +4696,7 @@ country_event = { #February Strike
 			factor = 45
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -4756,7 +4756,7 @@ country_event = { #February Strike continues
 			factor = 45
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -4818,7 +4818,7 @@ country_event = { #February Strikers return to workplace
 			factor = 45
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -4878,7 +4878,7 @@ country_event = { #Radio Rood
 			factor = 95
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -4952,7 +4952,7 @@ country_event = { #French Nationals apprehended at border
 			25 = {}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.01
 				}
 				add_popularity = {
@@ -4966,7 +4966,7 @@ country_event = { #French Nationals apprehended at border
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.02
 				}
 				add_popularity = {
@@ -4980,7 +4980,7 @@ country_event = { #French Nationals apprehended at border
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.05
 				}
 				add_popularity = {
@@ -5070,7 +5070,7 @@ country_event = { #Arrested French nationals stay silent
 			25 = {}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.01
 				}
 				add_popularity = {
@@ -5084,7 +5084,7 @@ country_event = { #Arrested French nationals stay silent
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.02
 				}
 				add_popularity = {
@@ -5098,7 +5098,7 @@ country_event = { #Arrested French nationals stay silent
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.05
 				}
 				add_popularity = {
@@ -5169,7 +5169,7 @@ country_event = { #After torture, French spies still say silent
 			25 = {}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.01
 				}
 				add_popularity = {
@@ -5183,7 +5183,7 @@ country_event = { #After torture, French spies still say silent
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.02
 				}
 				add_popularity = {
@@ -5197,7 +5197,7 @@ country_event = { #After torture, French spies still say silent
 			}
 			25 = {
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.05
 				}
 				add_popularity = {
@@ -5295,7 +5295,7 @@ country_event = { #Scandalous! Government allowed CI to torture smugglers!
 		add_stability = -0.075
 		#add_political_power = -75
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -6048,7 +6048,7 @@ country_event = { #RNF and Landwacht clash
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -6069,7 +6069,7 @@ country_event = { #RNF and Landwacht clash
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -6288,7 +6288,7 @@ country_event = { #Velvet Revolution
 		NOT = {
 			OR = {
 				has_government = social_democrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = totalist
 			}
@@ -6305,7 +6305,7 @@ country_event = { #Velvet Revolution
 			country_event = holex.1
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -6517,7 +6517,7 @@ country_event = { #Elections 1938 - CNA gov fallen
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -6686,7 +6686,7 @@ country_event = { #SDAP largest, with who do we govern?
 	option = { #A center-left government with the VDB and RSAP
 		name = holpostel.62.c
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -7482,7 +7482,7 @@ country_event = { #PvdA largest - with who do we govern
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_politics = {
@@ -7874,7 +7874,7 @@ country_event = { #Elections 1941 - Cabinet Colijn V sat out the ride
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -7992,7 +7992,7 @@ country_event = { #Elections 1941 - Cabinet Colijn V sat out the ride
 			days = 3
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -8349,7 +8349,7 @@ country_event = { #SDAP victorious - what coalition partner?
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_politics = {
@@ -8590,7 +8590,7 @@ country_event = { #Pensionary Elections $Year$
 				has_government = ethnic_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = totalist
 			}
@@ -8976,7 +8976,7 @@ country_event = { #Harm Kolthek seeks refuge in Mexican embassy
 				NOT = {
 					OR = {
 						has_government = social_democrat
-						has_government = radical_socialist
+						has_government = democratic_socialist
 						has_government = syndicalist
 						has_government = totalist
 					}
@@ -9209,7 +9209,7 @@ country_event = { #The leftists revolt from Groningen
 			popularity = 0.2
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		set_politics = {
@@ -9321,7 +9321,7 @@ country_event = { #The leftists revolt from Groningen
 	#			states = { 36 }
 	#		}
 	#		add_popularity = { ideology = syndicalist popularity = -0.7 }
-	#		add_popularity = { ideology = radical_socialist popularity = -0.7 }
+	#		add_popularity = { ideology = democratic_socialist popularity = -0.7 }
 	#		add_popularity = { ideology = social_democrat popularity = -0.1 }
 	#		hidden_effect = {
 	#			every_country = {
@@ -9402,7 +9402,7 @@ country_event = { #Government collapses to socialist revolt
 			country_event = holex.1
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -10419,7 +10419,7 @@ country_event = { #PvdA largest - with who do we govern
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_politics = {
@@ -10756,7 +10756,7 @@ country_event = { #Elections [GetYear] another loop
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		hidden_effect = {
@@ -11109,7 +11109,7 @@ country_event = { #SDAP victorious - what coalition partner?
 			}
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.05
 		}
 		set_politics = {
@@ -11716,7 +11716,7 @@ country_event = { #Papua Camps
 			add_manpower = 17400
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -13736,7 +13736,7 @@ country_event = { #Negotiations with the left succeeded
 				has_country_flag = hol_negotiations_rsap_limits_2
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 		}
@@ -13746,49 +13746,49 @@ country_event = { #Negotiations with the left succeeded
 			}
 			if = {
 				limit = {
-					radical_socialist < 0.1
+					democratic_socialist < 0.1
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.05
 				}
 			}
 			if = {
 				limit = {
-					radical_socialist > 0.1
-					radical_socialist < 0.2
+					democratic_socialist > 0.1
+					democratic_socialist < 0.2
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.1
 				}
 			}
 			if = {
 				limit = {
-					radical_socialist > 0.2
-					radical_socialist < 0.3
+					democratic_socialist > 0.2
+					democratic_socialist < 0.3
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.2
 				}
 			}
 			if = {
 				limit = {
-					radical_socialist > 0.3
-					radical_socialist < 0.4
+					democratic_socialist > 0.3
+					democratic_socialist < 0.4
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.3
 				}
 			}
 			if = {
 				limit = {
-					radical_socialist > 0.4
+					democratic_socialist > 0.4
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.35
 				}
 			}
@@ -14086,7 +14086,7 @@ country_event = { #Negotiations with the right succeeded
 					paternal_autocrat < 0.4
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = -0.3
 				}
 			}
@@ -15164,7 +15164,7 @@ country_event = { # Third National Assembly appoints First Secretary of Externe 
 		remove_ideas_with_trait = foreign_minister
 		add_ideas = HOL_Willem_van_Ravesteyn_for_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 	}
@@ -15286,7 +15286,7 @@ country_event = { # Third National Assembly appoints First Secretary of Economic
 		remove_ideas_with_trait = economy_minister
 		add_ideas = HOL_Jacques_de_Kadt_eco_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 	}
@@ -15408,7 +15408,7 @@ country_event = { # Third National Assembly appoints First Secretary of Internal
 		remove_ideas_with_trait = security_minister
 		add_ideas = HOL_Fokke_Bosman_sec_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.15
 		}
 	}
@@ -15530,7 +15530,7 @@ country_event = { # Third National Assembly elects Chairman of the Volksraad.
 		remove_ideas_with_trait = head_of_government
 		add_ideas = HOL_Henk_Sneevliet_hog_rso
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.2
 		}
 	}
@@ -15699,11 +15699,11 @@ country_event = { # RSAP has the backing of a majority
 	option = {
 		name = holfocus.64.a
 		set_politics = {
-			ruling_party = radical_socialist
+			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.1
 		}
 		set_country_flag = hol_rsap_majority
@@ -15897,7 +15897,7 @@ country_event = { # No majority
 				has_idea = HOL_Henk_Sneevliet_hog_rso
 			}
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 				elections_allowed = no
 			}
 			kill_country_leader = yes
@@ -15906,7 +15906,7 @@ country_event = { # No majority
 				desc = "WILLEM_DREES_DESC"
 				picture = "Portrait_HOL_Drees.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			set_country_flag = hol_rsap_majority
@@ -15952,7 +15952,7 @@ country_event = { # No majority
 							}
 							50 = {
 								set_politics = {
-									ruling_party = radical_socialist
+									ruling_party = democratic_socialist
 									elections_allowed = no
 								}
 								kill_country_leader = yes
@@ -15961,7 +15961,7 @@ country_event = { # No majority
 									desc = "WILLEM_DREES_DESC"
 									picture = "Portrait_HOL_Drees.tga"
 									expire = "1965.1.1"
-									ideology = radical_socialist_subtype
+									ideology = democratic_socialist_subtype
 									traits = {}
 								}
 								set_country_flag = hol_rsap_majority
@@ -15984,7 +15984,7 @@ country_event = { # No majority
 				has_idea = HOL_Henk_Sneevliet_hog_rso
 			}
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = democratic_socialist
 				elections_allowed = no
 			}
 			kill_country_leader = yes
@@ -15993,7 +15993,7 @@ country_event = { # No majority
 				desc = "HARM_KOLTHEK_DESC"
 				picture = "Portrait_HOL_Kolthek.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = democratic_socialist_subtype
 				traits = {}
 			}
 			set_country_flag = hol_rsap_majority
@@ -16039,7 +16039,7 @@ country_event = { # No majority
 							}
 							50 = {
 								set_politics = {
-									ruling_party = radical_socialist
+									ruling_party = democratic_socialist
 									elections_allowed = no
 								}
 								kill_country_leader = yes
@@ -16048,7 +16048,7 @@ country_event = { # No majority
 									desc = "HARM_KOLTHEK_DESC"
 									picture = "Portrait_HOL_Kolthek.tga"
 									expire = "1965.1.1"
-									ideology = radical_socialist_subtype
+									ideology = democratic_socialist_subtype
 									traits = {}
 								}
 								set_country_flag = hol_rsap_majority
@@ -16602,7 +16602,7 @@ country_event = { #Policy on Belgium
 			OR = {
 				has_government = ethnic_populist
 				has_government = paternal_autocrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 				has_government = totalist
 				NOT = {
@@ -16615,7 +16615,7 @@ country_event = { #Policy on Belgium
 					NOT = {
 						OR = {
 							has_government = social_democrat
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -16660,7 +16660,7 @@ country_event = { #Policy on Belgium
 					NOT = {
 						OR = {
 							has_government = social_democrat
-							has_government = radical_socialist
+							has_government = democratic_socialist
 							has_government = syndicalist
 							has_government = totalist
 						}
@@ -16900,7 +16900,7 @@ country_event = { #Policy on South Africa and the Boers
 				has_government = market_liberal
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = radical_socialist
+				has_government = democratic_socialist
 			}
 		}
 		set_country_flag = hol_hell_the_boers
@@ -19292,7 +19292,7 @@ country_event = { #Utrecht central station takes fire
 			popularity = -0.02
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = -0.02
 		}
 		add_political_power = -25
@@ -19336,7 +19336,7 @@ country_event = { #First Grand Prix of Zandvoort
 		NOT = { #No fun allowed? Not sure enough, keeping them out just in case
 			has_government = syndicalist
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 		}
 	}
 
@@ -19362,7 +19362,7 @@ country_event = { #Creation of the Veluwe National Park
 		NOT = { #They'd just pull it from the Kröller-Müller couple's cold dead hands
 			has_government = syndicalist
 			has_government = totalist
-			has_government = radical_socialist
+			has_government = democratic_socialist
 			has_government = ethnic_populist
 			has_government = authoritarian_democrat
 		}
@@ -19422,7 +19422,7 @@ country_event = { #Birth of Princess Beatrix
 		NOT = {
 			OR = {
 				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = totalist
 				has_country_flag = hol_dutch_republic
 				AND = {
@@ -20133,7 +20133,7 @@ country_event = { #RSAP rally
 			factor = 40
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.02
 		}
 	}
@@ -20301,7 +20301,7 @@ country_event = { #Great Speech by Radical Socialist
 			factor = 60
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 	}
@@ -20398,7 +20398,7 @@ country_event = { #Radical Socialists peacefully block VNH march
 			factor = 60
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.03
 		}
 	}
@@ -20437,7 +20437,7 @@ country_event = { #Landwacht breaks up syndicalist demonstration
 			factor = 60
 		}
 		add_popularity = {
-			ideology = radical_socialist
+			ideology = democratic_socialist
 			popularity = 0.01
 		}
 		add_popularity = {

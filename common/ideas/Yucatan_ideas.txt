@@ -111,7 +111,7 @@ ideas = {
 		}
 		YUC_cruzoob_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_cruzoob_idea"}
-			picture = generic_radical_socialist_revolution
+			picture = generic_democratic_socialist_revolution
 			modifier = {
 				war_support_factor = 0.05
 				political_power_gain = 0.05
@@ -119,7 +119,7 @@ ideas = {
 		}
 		YUC_compromised_security = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_compromised_security"}
-			picture = generic_radical_socialist_revolution
+			picture = generic_democratic_socialist_revolution
 			modifier = {
 				encryption_factor = -0.05
 				decryption_factor = -0.05

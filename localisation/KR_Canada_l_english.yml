@@ -158,8 +158,8 @@ CAN_MEX_intervened_ACW:0 "§Y[MEX.GetName]§! is fighting on the side of the CSA
 ### Parties ###
 CAN_totalist_party:0 "CCP"
 CAN_totalist_party_long:0 "Canadian Communist Party"
-CAN_radical_socialist_party:0 "UFL"
-CAN_radical_socialist_party_long:0 "United Farmers and Labour"
+CAN_democratic_socialist_party:0 "UFL"
+CAN_democratic_socialist_party_long:0 "United Farmers and Labour"
 CAN_syndicalist_party:0 "CSC"
 CAN_syndicalist_party_long:0 "Combined Syndicates of Canada"
 CAN_social_democrat_party:0 "CCF"

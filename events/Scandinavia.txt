@@ -1563,9 +1563,9 @@ country_event = {
 			name = SCA_syndicalist_party_established
 		}
 		set_party_name = {
-			ideology = radical_socialist
-			long_name = SCA_radical_socialist_established_party_long
-			name = SCA_radical_socialist_established_party
+			ideology = democratic_socialist
+			long_name = SCA_democratic_socialist_established_party_long
+			name = SCA_democratic_socialist_established_party
 		}
 		set_party_name = {
 			ideology = totalist

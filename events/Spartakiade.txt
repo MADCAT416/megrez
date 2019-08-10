@@ -212,7 +212,7 @@ country_event = {
 #}
 # OR = {
 # has_government = totalist
-# has_government = radical_socialist
+# has_government = democratic_socialist
 # has_government = syndicalist
 #}
 # date > 1941.6.1
@@ -238,7 +238,7 @@ country_event = {
 #}
 # OR = {
 # has_government = totalist
-# has_government = radical_socialist
+# has_government = democratic_socialist
 # has_government = syndicalist
 #}
 # date > 1945.6.1

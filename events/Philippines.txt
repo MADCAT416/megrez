@@ -141,7 +141,7 @@ country_event = { # A counter-coup? - 37990002
 					popularity = 0.08
 				}
 				add_popularity = {
-					ideology = radical_socialist
+					ideology = democratic_socialist
 					popularity = 0.16
 				}
 				add_popularity = {

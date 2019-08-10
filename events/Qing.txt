@@ -106,7 +106,7 @@ country_event = { # The New Reformation - Political
 		trigger = {
 			NOT = {
 				has_government = totalist
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = syndicalist
 			}
 		}
@@ -645,7 +645,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -749,7 +749,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -847,7 +847,7 @@ country_event = { # Politicians and Economic Reform
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1418,7 +1418,7 @@ country_event = { # Intelectualls demand constitutional monarchy!
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1545,7 +1545,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -1670,7 +1670,7 @@ country_event = { # Intellectuals give support to Kuomitang
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {
@@ -2436,7 +2436,7 @@ country_event = { # The German Coup
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = radical_socialist
+				ideology = democratic_socialist
 				popularity = -1
 			}
 			add_popularity = {

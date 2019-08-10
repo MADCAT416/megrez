@@ -3,8 +3,8 @@
 ### Parties ###
 DDR_totalist_party:0 "SE"
 DDR_totalist_party_long:0 "Sozialistische Einheitsplattform"
-DDR_radical_socialist_party:0 "PBA"
-DDR_radical_socialist_party_long:0 "Preußische Bauern- und Arbeitervereinigung"
+DDR_democratic_socialist_party:0 "PBA"
+DDR_democratic_socialist_party_long:0 "Preußische Bauern- und Arbeitervereinigung"
 DDR_syndicalist_party:0 "POI"
 DDR_syndicalist_party_long:0 "Preußische Organisation der Internationale "
 DDR_social_democrat_party:0 "SPD"

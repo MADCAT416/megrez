@@ -410,7 +410,7 @@ country_event = { #No purge result
 
         set_popularities = {
             totalist = 0
-            radical_socialist = 0
+            democratic_socialist = 0
             syndicalist = 0
             social_democrat = 0
             social_liberal = 34
@@ -467,7 +467,7 @@ country_event = { #Moderate Purge result, less likely to fall
 
         set_popularities = {
             totalist = 0
-            radical_socialist = 0
+            democratic_socialist = 0
             syndicalist = 0
             social_democrat = 0
             social_liberal = 34

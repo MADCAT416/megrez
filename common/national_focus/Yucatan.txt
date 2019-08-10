@@ -552,7 +552,7 @@ focus_tree = {
 		bypass = {
 			is_subject = yes
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 				has_government = social_liberal
 				has_government = market_liberal
@@ -1014,11 +1014,11 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = YUC_social_democrats
-			focus = YUC_radical_socialists
+			focus = YUC_democratic_socialists
 		}
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -1042,7 +1042,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = radical_socialist
+				has_government = democratic_socialist
 				has_government = social_democrat
 			}
 		}
@@ -1059,21 +1059,21 @@ focus_tree = {
 	}
 	### Radical Socialist ###
 	focus = {# Radical Socialist
-		id = YUC_radical_socialists
-		icon = GFX_goal_ideology_radical_socialist
+		id = YUC_democratic_socialists
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 10.00
 		prerequisite = {
 			focus = YUC_yucatec_democracy
 		}
-		available = { has_government = radical_socialist }
-		bypass = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
+		bypass = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 9
 		y = 1
 		relative_position_id = YUC_yucatec_democracy
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus YUC_radical_socialists"
+			log = "[GetDateText]: [Root.GetName]: Focus YUC_democratic_socialists"
 			custom_effect_tooltip = unlock_focuses
 		}
 	}
@@ -1082,9 +1082,9 @@ focus_tree = {
 		icon = GFX_focus_prc_agrarian_socialism
 		cost = 10.00
 		prerequisite = {
-			focus = YUC_radical_socialists
+			focus = YUC_democratic_socialists
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 8
@@ -1093,7 +1093,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_collectivize_mexican_property"
 			add_stability = 0.05
-			add_popularity = { ideology = radical_socialist popularity = 0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.05 }
 		}
 	}
 	focus = {# People's assemblies
@@ -1103,7 +1103,7 @@ focus_tree = {
 		prerequisite = {
 			focus = YUC_collectivize_mexican_property
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 8
@@ -1121,7 +1121,7 @@ focus_tree = {
 		prerequisite = {
 			focus = YUC_peoples_assemblies
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 8
@@ -1137,9 +1137,9 @@ focus_tree = {
 		icon = GFX_goal_red_star_green_wreath
 		cost = 10.00
 		prerequisite = {
-			focus = YUC_radical_socialists
+			focus = YUC_democratic_socialists
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 10
@@ -1157,7 +1157,7 @@ focus_tree = {
 		prerequisite = {
 			focus = YUC_memory_of_cruzoob
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 10
@@ -1176,7 +1176,7 @@ focus_tree = {
 		prerequisite = {
 			focus = YUC_peoples_revolution
 		}
-		available = { has_government = radical_socialist }
+		available = { has_government = democratic_socialist }
 		ai_will_do = { factor = 5 }
 		available_if_capitulated = yes
 		x = 10
