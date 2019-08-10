@@ -42,6 +42,11 @@ has_same_government_as_ROOT = {
 			has_government = paternal_autocrat
 			ROOT = { has_government = paternal_autocrat }
 		}
+
+		AND = {
+			has_government = clerical_nationalist
+			ROOT = { has_government = clerical_nationalist }
+		}
 		AND = {
 			has_government = ethnic_populist
 			ROOT = { has_government = ethnic_populist }
@@ -91,6 +96,10 @@ has_same_government_as_PREV = {
 		AND = {
 			has_government = paternal_autocrat
 			PREV = { has_government = paternal_autocrat }
+		}
+		AND = {
+			has_government = clerical_nationalist
+			PREV = { has_government = clerical_nationalist }
 		}
 		AND = {
 			has_government = ethnic_populist
