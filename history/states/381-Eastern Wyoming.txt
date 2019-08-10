@@ -2,9 +2,9 @@ state = {
 	id = 381
 	name = "STATE_381"
 	manpower = 240000
-	state_category = four
+	state_category = two
 	resources = {
-		oil = 15
+		oil = 7
 	}
 	history = {
 		owner = USA
@@ -18,6 +18,6 @@ state = {
 	}
 
 	provinces = {
-		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651
+		4610 4723 4794 4820 7814
 	}
 }

@@ -1,26 +1,29 @@
 state = {
-	id = 382
-	name = "STATE_382"
+	id = 1112
+	name = "STATE_1112"
 	manpower = 1090000
 	resources = {
 		oil = 2
 	}
 
-	state_category = six
+	state_category = three
 
 	history = {
-		owner = USA
+		owner = CAL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = USA
+		add_core_of = CAL
+
 		victory_points = {
 			1827 5
 		}
 	}
 
 	provinces = {
-		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642
+		10535 3869 6887 1658 1827 10588 7684 868 12627 9792 7999
+		
 	}
 }
