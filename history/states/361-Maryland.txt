@@ -6,7 +6,10 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = USA
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = USA
+		add_claim_by = CAL
 
 		victory_points = {
 			3957 40
@@ -31,8 +34,6 @@ state = {
 				naval_base = 1
 			}
 		}
-
-		add_core_of = USA
 	}
 
 	provinces = {

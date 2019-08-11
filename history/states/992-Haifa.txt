@@ -9,13 +9,21 @@ state={
 		add_core_of = SYR
 		buildings = {
 			infrastructure = 3
+			
+			4206 = {
+				naval_base = 1
 
+			}
+		}
+		
+		victory_points = {
+			1086 5
 		}
 
 	}
 
 	provinces={
-		1065 1201 7107
+		1065 1201 7107 1086 4206 
 	}
 	manpower=400030
 	buildings_max_level_factor=1.000
