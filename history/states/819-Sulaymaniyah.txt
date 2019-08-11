@@ -6,13 +6,15 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = PER
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = TUR
+		
 		add_core_of = KUR
+		add_claim_by = SYR
+		
 		victory_points = {
 			8123 2
 		}
@@ -20,7 +22,7 @@ state={
 	}
 
 	provinces={
-		5014 6826 10811
+		3916 5014 6826 8123 10793 10811
 	}
 	manpower=533040
 	state_category=four
