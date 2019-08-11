@@ -3,17 +3,18 @@ map_names_style = {
 	name = "RULE_MAP_NAMESTYLE"
 	group = "RULE_GROUP_KAISERREICH_RULES"
 	option = {
-		name = "MAP_USE_EXONYM"
-		text = "RULE_OPTION_USE_EXONYM"
-		desc = "RULE_OPTION_USE_EXONYM_DESC"
-		allow_achievements = yes
-	}
-	option = {
 		name = "MAP_USE_ENDONYM"
 		text = "RULE_OPTION_USE_ENDONYM"
 		desc = "RULE_OPTION_USE_ENDONYM_DESC"
 		allow_achievements = yes
 	}
+	option = {
+		name = "MAP_USE_EXONYM"
+		text = "RULE_OPTION_USE_EXONYM"
+		desc = "RULE_OPTION_USE_EXONYM_DESC"
+		allow_achievements = yes
+	}
+
 }
 
 KR_news_events = {
