@@ -1112,7 +1112,33 @@ country_event = {
 		1088 = { set_state_name = endo_state_1088 }
 		1089 = { set_state_name = endo_state_1089 }
 		1090 = { set_state_name = endo_state_1090 }
-
+		1091 = { set_state_name = endo_state_1091 }
+		1092 = { set_state_name = endo_state_1092 }
+		1093 = { set_state_name = endo_state_1093 }
+		1094 = { set_state_name = endo_state_1094 }
+		1095 = { set_state_name = endo_state_1095 }
+		1096 = { set_state_name = endo_state_1096 }
+		1097 = { set_state_name = endo_state_1097 }
+		1098 = { set_state_name = endo_state_1098 }
+		1099 = { set_state_name = endo_state_1099 }
+		1100 = { set_state_name = endo_state_1100 }
+		1101 = { set_state_name = endo_state_1101 }
+		1102 = { set_state_name = endo_state_1102 }
+		1103 = { set_state_name = endo_state_1103 }
+		1104 = { set_state_name = endo_state_1104 }
+		1105 = { set_state_name = endo_state_1105 }
+		1106 = { set_state_name = endo_state_1106 }
+		1107 = { set_state_name = endo_state_1107 }
+		1108 = { set_state_name = endo_state_1108 }
+		1109 = { set_state_name = endo_state_1109 }
+		1110 = { set_state_name = endo_state_1110 }
+		1111 = { set_state_name = endo_state_1111 }
+		1112 = { set_state_name = endo_state_1112 }
+		1113 = { set_state_name = endo_state_1113 }
+		1114 = { set_state_name = endo_state_1114 }
+		1115 = { set_state_name = endo_state_1115 }
+		1116 = { set_state_name = endo_state_1116 }
+		1117 = { set_state_name = endo_state_1117 }
 		### set endo vps ###
 
 		set_province_name = {
@@ -5947,6 +5973,50 @@ country_event = {
 			id = 13709
 			name = endo_vp_13709
 		}
+		set_province_name = {
+			id = 1003
+			name = endo_vp_1003
+		}
+		set_province_name = {
+			id = 6928
+			name = endo_vp_6928
+		}
+		set_province_name = {
+			id = 6963
+			name = endo_vp_6963
+		}
+		set_province_name = {
+			id = 3860
+			name = endo_vp_3860
+		}
+		set_province_name = {
+			id = 6944
+			name = endo_vp_6944
+		}
+		set_province_name = {
+			id = 4004
+			name = endo_vp_4004
+		}
+		set_province_name = {
+			id = 12089
+			name = endo_vp_12089
+		}
+		set_province_name = {
+			id = 12085
+			name = endo_vp_12085
+		}
+		set_province_name = {
+			id = 1177
+			name = endo_vp_1177
+		}
+		set_province_name = {
+			id = 10011
+			name = endo_vp_10011
+		}
+		set_province_name = {
+			id = 12089
+			name = endo_vp_10704
+		}
 	}
 
 	option = {}
@@ -7052,6 +7122,38 @@ country_event = {
 		1085 = { reset_state_name = yes }
 		1086 = { reset_state_name = yes }
 		1087 = { reset_state_name = yes }
+		1086 = { reset_state_name = yes }
+		1087 = { reset_state_name = yes }
+		1088 = { reset_state_name = yes }
+		1089 = { reset_state_name = yes }
+		1090 = { reset_state_name = yes }
+		1091 = { reset_state_name = yes }
+		1092 = { reset_state_name = yes }
+		1093 = { reset_state_name = yes }
+		1094 = { reset_state_name = yes }
+		1095 = { reset_state_name = yes }
+		1096 = { reset_state_name = yes }
+		1097 = { reset_state_name = yes }
+		1098 = { reset_state_name = yes }
+		1099 = { reset_state_name = yes }
+		1100 = { reset_state_name = yes }
+		1101 = { reset_state_name = yes }
+		1102 = { reset_state_name = yes }
+		1103 = { reset_state_name = yes }
+		1104 = { reset_state_name = yes }
+		1105 = { reset_state_name = yes }
+		1106 = { reset_state_name = yes }
+		1107 = { reset_state_name = yes }
+		1108 = { reset_state_name = yes }
+		1109 = { reset_state_name = yes }
+		1110 = { reset_state_name = yes }
+		1111 = { reset_state_name = yes }
+		1112 = { reset_state_name = yes }
+		1113 = { reset_state_name = yes }
+		1114 = { reset_state_name = yes }
+		1115 = { reset_state_name = yes }
+		1116 = { reset_state_name = yes }
+		1117 = { reset_state_name = yes }
 
 		### reset endo vps ###
 
@@ -8261,6 +8363,18 @@ country_event = {
 		reset_province_name = 13697
 		reset_province_name = 13707
 		reset_province_name = 13709
+		reset_province_name = 1003
+		reset_province_name = 6928
+		reset_province_name = 6963
+		reset_province_name = 3860
+		reset_province_name = 6944
+		reset_province_name = 4004
+		reset_province_name = 12089
+		reset_province_name = 12085
+		reset_province_name = 1177
+		reset_province_name = 10011
+		reset_province_name = 10704
+
 	}
 
 	option = {}
