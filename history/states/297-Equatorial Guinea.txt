@@ -6,7 +6,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = SPR
+		owner = MAF
+		add_core_of = MAF
 		victory_points = {
 			1903 1 # Malabo
 		}
