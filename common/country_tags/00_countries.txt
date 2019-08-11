@@ -143,6 +143,7 @@ NEP = "countries/Asian.txt"
 PHI = "countries/Asian.txt"
 PRC = "countries/Asian.txt"
 PRF = "countries/Asian.txt"
+PKS = "countries/Asian.txt"
 RAJ = "countries/Asian.txt"
 SAR = "countries/Asian.txt"
 SHA = "countries/Asian.txt" #Shan

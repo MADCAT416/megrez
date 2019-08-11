@@ -708,6 +708,10 @@ PRC = {
 	color = rgb { 222 41 16 }
 	color_ui = rgb { 222 41 16 }
 }
+PKS = {
+	color = rgb { 1 65 28 }
+	color_ui = rgb { 1 65 28 }
+}
 PRF = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }

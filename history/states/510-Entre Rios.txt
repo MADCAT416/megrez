@@ -21,7 +21,7 @@ state = {
 			12453 2
 		}
 		add_core_of = ARG
-		add_claim_by = FOP
+		
 	}
 
 	provinces = {

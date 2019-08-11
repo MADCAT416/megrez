@@ -5,7 +5,7 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = USA
+		owner = CAL
 		buildings = {
 			infrastructure = 1
 			13051 = {
@@ -13,6 +13,7 @@ state = {
 			}
 		}
 		add_core_of = USA
+		add_core_of = CAL
 	}
 
 	provinces = {
