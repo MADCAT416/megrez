@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = GER
+		owner = FRP
+		add_core_of = FRP
 		add_core_of = FRA
 		add_claim_by = NFA
 		buildings = {
