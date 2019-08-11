@@ -6014,7 +6014,7 @@ country_event = {
 			name = endo_vp_10011
 		}
 		set_province_name = {
-			id = 12089
+			id = 10704
 			name = endo_vp_10704
 		}
 	}
