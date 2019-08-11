@@ -3,7 +3,7 @@ state = {
 	name = "STATE_754"
 
 	history = {
-		owner = TUR
+		owner = JOR
 		victory_points = {
 			10835 5
 		}
@@ -12,6 +12,7 @@ state = {
 			industrial_complex = 1
 		}
 		add_claim_by = TUR
+		add_core_of = JOR
 	}
 
 	provinces = {
