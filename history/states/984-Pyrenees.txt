@@ -9,9 +9,11 @@ state = {
 	state_category = two
 
 	history = {
-		owner = FRA
+		owner = FRP
 		add_claim_by = NFA
+		add_core_of = FRP
 		add_core_of = FRA
+
 		victory_points = { 11699 3}
 		buildings = {
 			infrastructure = 4
