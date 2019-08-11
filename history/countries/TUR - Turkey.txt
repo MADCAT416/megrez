@@ -1,5 +1,5 @@
 ﻿capital = 49
-oob = "TUR"
+oob = "empty"
 
 set_technology = {
 	### MOD ###

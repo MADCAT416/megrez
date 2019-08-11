@@ -1,6 +1,6 @@
 ﻿capital = 320
 
-OOB = "MAD"
+oob = "empty"
 
 set_research_slots = 3
 set_convoys = 40

@@ -1,6 +1,6 @@
 ﻿capital = 589
 
-OOB = "ALO"
+oob = "empty"
 
 set_research_slots = 2
 set_technology = {

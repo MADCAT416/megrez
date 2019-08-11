@@ -1,5 +1,5 @@
 ﻿capital = 3
-oob = "SWI"
+oob = "empty"
 
 set_technology = {
 	### MOD ###

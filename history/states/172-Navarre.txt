@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = CNT
 		victory_points = {
 			740 3 
 		}
@@ -31,6 +31,7 @@ state={
 
 		}
 		add_core_of = SPR
+add_core_of = CNT
 
 	}
 

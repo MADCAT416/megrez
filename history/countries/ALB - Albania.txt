@@ -1,6 +1,6 @@
 ﻿capital = 44
 
-OOB = "ALB"
+oob = "empty"
 set_naval_oob = "ALB_naval"
 set_convoys = 20
 

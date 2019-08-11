@@ -6,7 +6,7 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = GRE
+		owner = OTT
 		victory_points = {
 			10007 1
 		}
@@ -21,7 +21,6 @@ state = {
 			}
 		}
 		add_core_of = OTT
-		add_core_of = GRE
 	}
 	provinces = {
 		7003 10007

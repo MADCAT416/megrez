@@ -7,8 +7,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = SIC
+		owner = PAP
 		add_core_of = SIC
+add_core_of = PAP
 		add_claim_by = SRI
 		add_claim_by = ITA
 		victory_points = {

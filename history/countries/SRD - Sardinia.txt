@@ -1,6 +1,6 @@
 ﻿capital = 114
 
-oob = "SRD"
+oob = "empty"
 set_naval_oob = "SRD_naval"
 
 set_research_slots = 3

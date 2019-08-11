@@ -1,6 +1,6 @@
 ﻿capital = 206
 
-oob = "WHR"
+oob = "empty"
 
 WHR = { country_event = { days = 2 id = whiteruthenia.67 }}
 

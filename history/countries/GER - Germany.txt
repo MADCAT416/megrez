@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "GER"
+oob = "empty"
 set_naval_oob = "GER_naval"
 
 add_ideas = {

@@ -1,5 +1,5 @@
 ﻿capital = 275
-OOB = "SAF"
+oob = "empty"
 set_naval_oob = "SAF_naval"
 
 set_convoys = 40

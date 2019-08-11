@@ -1,6 +1,6 @@
 ﻿capital = 613
 
-OOB = "LEP"
+oob = "empty"
 
 set_research_slots = 2
 set_technology = {

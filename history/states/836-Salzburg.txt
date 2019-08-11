@@ -6,7 +6,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = AUS
+		owner = GER
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
@@ -19,6 +19,7 @@ state = {
 		}
 
 		add_core_of = AUS
+add_core_of = GER
 	}
 
 	provinces = {

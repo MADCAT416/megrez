@@ -6,9 +6,10 @@ state = {
 	state_category = six
 
 	history = {
-		owner = FRA
+		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
+add_core_of = FRP
 		victory_points = {
 			9495 3
 		}

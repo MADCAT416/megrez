@@ -1,6 +1,6 @@
 ﻿capital = 267
 
-oob = "AFG"
+oob = "empty"
 
 set_research_slots = 2
 set_technology = {

@@ -1,5 +1,5 @@
 ﻿capital = 277
-OOB = "MEX"
+oob = "empty"
 set_naval_oob = "MEX_naval"
 set_convoys = 40
 set_country_flag = soc_dems_are_socialists

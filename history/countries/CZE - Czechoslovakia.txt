@@ -1,6 +1,6 @@
 ﻿capital = 9
 
-oob = "BOM"
+oob = "empty"
 
 set_cosmetic_tag = CZE_habsburg
 

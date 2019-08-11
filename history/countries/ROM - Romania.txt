@@ -1,6 +1,6 @@
 ﻿capital = 46
 
-oob = "ROM"
+oob = "empty"
 set_naval_oob = "ROM_naval"
 
 set_research_slots = 3

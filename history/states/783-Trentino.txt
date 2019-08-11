@@ -3,7 +3,7 @@ state = {
 	name = "STATE_783"
 
 	history = {
-		owner = AUS
+		owner = PAP
 		buildings = {
 			infrastructure = 6
 			9598 = {
@@ -14,6 +14,7 @@ state = {
 			}
 		}
 		add_core_of = AUS
+add_core_of = PAP
 	}
 
 	provinces = {

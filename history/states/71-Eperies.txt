@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HUN
+		owner = SVK
 		buildings = {
 			infrastructure = 5
 		}

@@ -1,6 +1,6 @@
 ﻿capital = 195
 
-oob = "RUS"
+oob = "empty"
 set_naval_oob = "RUS_naval"
 
 set_research_slots = 3

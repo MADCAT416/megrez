@@ -1,5 +1,5 @@
 ﻿capital = 840
-OOB = "FIN"
+oob = "empty"
 set_naval_oob = "FIN_naval"
 
 set_technology = {

@@ -5,8 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = FRA
+		owner = FRP
 		add_core_of = FRA
+add_core_of = FRP
 		add_claim_by = NFA
 
 		buildings = {

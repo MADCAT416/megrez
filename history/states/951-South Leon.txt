@@ -4,7 +4,7 @@ state={
 	name="STATE_951"
 
 	history={
-		owner = SPR
+		owner = CNT
 		victory_points = {
 			11707 1 
 		}
@@ -12,6 +12,7 @@ state={
 			6907 1 
 		}
 		add_core_of = SPR
+add_core_of = CNT
 		
 		buildings = {
 			infrastructure = 6
