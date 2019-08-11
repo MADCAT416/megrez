@@ -1,27 +1,23 @@
 state = {
-	id = 670
-	name = "STATE_670"
+	id = 1117
+	name = "STATE_1117"
 
 	history = {
 		owner = GEA
 		add_core_of = GEA
 		add_core_of = LAO
 		add_core_of = INC
-		victory_points = {
-			1464 3 # Vientiane - 8
-		}
-		victory_points = {
-			4613 1 # Luang Prabang - 3
-		}
 		
+		victory_points = {
+			1563 1 # Pakse - 1
+		}
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		12332 1464 1507 10496 7356 4339 9961 7075 7218 4613 12433 12392 7103 4568
-		
+		1362 1374 1390 1520 1563 1577 4260 4539 4554 7426 10195 10238 10326 10453 12210
 	}
 	manpower = 1150000
 	state_category = one

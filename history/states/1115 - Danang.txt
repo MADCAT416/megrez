@@ -1,6 +1,6 @@
 state = {
-	id = 827 # Hue
-	name = "STATE_827"
+	id = 1115 # Hue
+	name = "STATE_1115"
 
 	manpower = 2000000
 
@@ -16,22 +16,25 @@ state = {
 		add_core_of = GEA
 		add_core_of = VIE
 		add_core_of = INC
-		
 		victory_points = {
-			4397 1 # Vinh
+			4379 3 # Hue
 		}
 		
+		victory_points = {
+			4405 1 # Nga Trang
+		}
 		victory_points = {
 			1605 1 # Dalat
 		}
 		buildings = {
 			infrastructure = 2
-			
+			10162 = { # Cam Ranh Naval Base
+				naval_base = 4
+			}
 		}
 	}
 
 	provinces = {
-		11909 9988 10016 4397 12297 7280 1302 
-
+		1248 1285 1300 1328 1400 1605 4255 4334 4363 4379 4405 7229 7271 7380 10137 10162 10180 10309 12109 12204
 	}
 }

@@ -1,0 +1,32 @@
+state = {
+	id = 1114
+	name = "STATE_1114"
+	manpower = 80000
+
+	state_category = enclave
+
+	resources = {
+		
+	}
+
+
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			
+			11779 = {
+				bunker = 1
+			}
+		}
+		add_core_of = FRA
+
+		victory_points = {
+			11779 5
+		}
+	}
+
+	provinces = {
+		11779
+	}
+}

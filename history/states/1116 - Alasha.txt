@@ -1,6 +1,6 @@
 state = { #Ningxia
-	id = 348
-	name = "STATE_348"
+	id = 1116
+	name = "STATE_1116"
 
 	history = {
 		owner = XSM
@@ -13,15 +13,12 @@ state = { #Ningxia
 			arms_factory = 1
 		}
 
-		victory_points = {
-			10724 1
-		}
+		
 	}
 
 	provinces = {
-		8127 10724 8055 7803 12750
-		
+		4783 5031 7727 8102 10770 10899
 	}
 	manpower = 1023100
-	state_category = two
+	state_category = pastoral
 }

@@ -12,9 +12,7 @@ state = {
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-			11779 = {
-				bunker = 1
-			}
+			
 			9824 = {
 				bunker = 1
 			}
@@ -22,7 +20,7 @@ state = {
 	}
 
 	provinces = {
-		9824 9853 11779
+		9824 9853 
 	}
 	manpower = 233000
 	state_category = four
