@@ -1,6 +1,6 @@
 ﻿capital = 91
 
-oob = "GAL"
+oob = "empty"
 
 set_technology = {
 	### MOD ###

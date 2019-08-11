@@ -8,8 +8,9 @@ state = {
 	resources = {}
 
 	history = {
-		owner = SRI
+		owner = PAP
 		add_core_of = SRI
+add_core_of = PAP
 		add_claim_by = ITA
 		add_claim_by = SRD
 		victory_points = {

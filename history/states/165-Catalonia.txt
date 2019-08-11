@@ -3,7 +3,7 @@ state = {
 	name = "STATE_165"
 
 	history = {
-		owner = SPR
+		owner = CNT
 		victory_points = {
 			9764 20
 		}
@@ -28,6 +28,7 @@ state = {
 			}
 		}
 		add_core_of = SPR
+add_core_of = CNT
 	}
 
 	provinces = {

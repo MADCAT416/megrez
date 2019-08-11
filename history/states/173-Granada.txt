@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = SPR
+		owner = CNT
 		victory_points = { 9979 1 }
 		victory_points = { 12038 1 } #Almeira
 		buildings = {
@@ -25,6 +25,7 @@ state = {
 			}
 		}
 		add_core_of = SPR
+add_core_of = CNT
 	}
 
 	provinces = {

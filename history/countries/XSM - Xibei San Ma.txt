@@ -1,5 +1,5 @@
 ﻿capital = 604
-OOB = "XSM"
+oob = "empty"
 set_research_slots = 3
 
 country_event = {

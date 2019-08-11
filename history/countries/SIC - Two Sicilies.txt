@@ -1,6 +1,6 @@
 ﻿capital = 117
 
-oob = "SIC"
+oob = "empty"
 set_naval_oob = "SIC_naval"
 
 set_research_slots = 3

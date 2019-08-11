@@ -2,7 +2,7 @@
 
 set_research_slots = 3
 
-oob = "SER"
+oob = "empty"
 
 set_technology = {
 	### General ###

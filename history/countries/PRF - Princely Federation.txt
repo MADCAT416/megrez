@@ -1,6 +1,6 @@
 ﻿capital = 427
 
-oob = "PRF"
+oob = "empty"
 set_naval_oob = "PRF_naval"
 
 set_technology = {

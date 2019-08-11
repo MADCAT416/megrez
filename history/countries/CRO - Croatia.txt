@@ -2,7 +2,7 @@
 
 set_research_slots = 3
 
-oob = "CRO"
+oob = "empty"
 
 set_cosmetic_tag = ILL
 

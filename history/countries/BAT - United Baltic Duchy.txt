@@ -1,6 +1,6 @@
 ﻿capital = 12
 
-oob = "BAT"
+oob = "empty"
 set_naval_oob = "BAT_naval"
 
 set_technology = {

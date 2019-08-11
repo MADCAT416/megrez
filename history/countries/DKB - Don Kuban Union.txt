@@ -1,6 +1,6 @@
 ﻿capital = 234
 
-oob = "DKB"
+oob = "empty"
 set_naval_oob = "DKB_naval"
 
 set_technology = {

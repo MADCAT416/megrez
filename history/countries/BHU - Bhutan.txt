@@ -1,5 +1,5 @@
 ﻿capital = 324
-OOB = "BHU"
+oob = "empty"
 set_research_slots = 2
 set_technology = {
 	### MOD ###

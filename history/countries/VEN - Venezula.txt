@@ -1,5 +1,5 @@
 ﻿capital = 849
-OOB = "VEN"
+oob = "empty"
 set_naval_oob = "VEN_naval"
 set_convoys = 30
 set_research_slots = 3
