@@ -6,8 +6,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = NFA
+		owner = ALG
 		add_core_of = NFA
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -19,7 +20,7 @@ state = {
 		victory_points = { #Batna
 			9976 2
 		}
-		victory_points = { #Bône
+		victory_points = { #B?e
 			1160 3
 		}
 	}
