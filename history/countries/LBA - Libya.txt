@@ -1,6 +1,6 @@
 ﻿capital = 448
 
-oob = "empty"
+oob = "LBA"
 
 set_technology = {
 	### MOD ###

@@ -1,5 +1,5 @@
 ﻿capital = 289
-oob = "empty"
+OOB = "SIA"
 set_naval_oob = "SIA_naval"
 
 # Kaiserreich Siam

@@ -1,6 +1,6 @@
 ﻿capital = 288
 
-oob = "empty"
+oob = "BUR"
 
 set_technology = {
 	### MOD ###

@@ -1,5 +1,5 @@
 ﻿capital = 303
-oob = "empty"
+OOB = "PRU"
 set_naval_oob = "PRU_naval"
 set_convoys = 30
 set_research_slots = 3

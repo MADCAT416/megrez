@@ -1,5 +1,5 @@
 ﻿capital = 298
-oob = "empty"
+OOB = "LIB"
 set_convoys = 20
 set_technology = {
 	### MOD ###

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = PAP
+		owner = ITA
 		add_claim_by = SRI
 		victory_points = {
 			9613 1
@@ -17,7 +17,6 @@ state = {
 			industrial_complex = 2
 		}
 		add_core_of = ITA
-add_core_of = PAP
 	}
 
 	provinces = {

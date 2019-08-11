@@ -5,9 +5,8 @@ state = {
 
 	state_category = six
 	history = {
-		owner = PAP
+		owner = SIC
 		add_core_of = SIC
-add_core_of = PAP
 		add_claim_by = SRI
 		add_claim_by = ITA
 		victory_points = { 10074 10 } #Palermo

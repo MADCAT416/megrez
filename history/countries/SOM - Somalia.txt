@@ -1,5 +1,5 @@
 ﻿capital = 559
-oob = "empty"
+OOB = "SOM"
 set_naval_oob = "SOM_naval"
 set_research_slots = 2
 

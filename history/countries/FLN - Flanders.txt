@@ -1,5 +1,5 @@
 ﻿capital = 6
-oob = "empty"
+OOB = "FLN"
 set_naval_oob = "FLN_naval"
 set_research_slots = 3
 

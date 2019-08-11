@@ -1,7 +1,7 @@
 ﻿capital = 1020 #Batavia
 
 set_research_slots = 2
-oob = "empty"
+OOB = "DEI"
 
 add_ideas = {
 	DEI_idea_colonial_nation

@@ -1,5 +1,5 @@
 ﻿capital = 316
-oob = "empty"
+OOB = "COS"
 
 set_technology = {
 	### Tanks ###

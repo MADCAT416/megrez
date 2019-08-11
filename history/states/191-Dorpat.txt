@@ -5,7 +5,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = EST
+		owner = BAT
 		victory_points = {
 			9221 1
 		}
@@ -17,7 +17,6 @@ state = {
 			}
 		}
 		add_core_of = BAT
-		add_core_of = EST
 	}
 
 	provinces = {

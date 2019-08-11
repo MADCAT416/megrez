@@ -1,5 +1,5 @@
 ﻿capital = 7
-oob = "empty"
+OOB = "HOL"
 set_naval_oob = "HOL_naval"
 set_convoys = 400
 set_research_slots = 3

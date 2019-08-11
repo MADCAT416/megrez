@@ -1,5 +1,5 @@
 ﻿capital = 271
-oob = "empty"
+OOB = "ETH"
 set_naval_oob = "ETH_naval"
 set_research_slots = 2
 set_technology = {

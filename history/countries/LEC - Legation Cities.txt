@@ -1,6 +1,6 @@
 ﻿capital = 743
 
-oob = "empty"
+oob = "LEC"
 
 set_technology = {
 	### MOD ###

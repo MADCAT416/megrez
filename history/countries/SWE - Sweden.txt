@@ -1,5 +1,5 @@
 ﻿capital = 141
-oob = "empty"
+OOB = "SWE"
 set_naval_oob = "SWE_naval"
 
 SWE = {

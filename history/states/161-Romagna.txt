@@ -6,9 +6,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = PAP
+		owner = SRI
 		add_core_of = SRI
-add_core_of = PAP
 		add_claim_by = ITA
 		victory_points = {
 			6606 15

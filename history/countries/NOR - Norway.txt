@@ -1,6 +1,6 @@
 ﻿capital = 110
 
-oob = "empty"
+OOB = "NOR"
 set_naval_oob = "NOR_naval"
 
 add_ideas = {

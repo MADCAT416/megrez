@@ -1,6 +1,6 @@
 ﻿capital = 985
 
-oob = "empty"
+OOB = "AST"
 set_naval_oob = "AST_naval"
 
 set_technology = {

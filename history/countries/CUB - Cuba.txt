@@ -1,5 +1,5 @@
 ﻿capital = 315
-oob = "empty"
+OOB = "CUB"
 set_naval_oob = "CUB_naval"
 set_research_slots = 3
 set_technology = {

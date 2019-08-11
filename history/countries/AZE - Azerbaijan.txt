@@ -1,6 +1,6 @@
 ﻿capital = 990
 
-oob = "empty"
+oob = "AZE"
 
 set_technology = {
 	### INF ###

@@ -1,5 +1,5 @@
 ﻿capital = 276
-oob = "empty"
+oob = "CAN"
 set_naval_oob = "CAN_naval"
 
 set_technology = {

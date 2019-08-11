@@ -6,9 +6,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = PAP
+		owner = SRD
 		add_core_of = SRD
-add_core_of = PAP
 		add_claim_by = SRI
 		add_claim_by = ITA
 		victory_points = { 11773 5 } #Cagliari

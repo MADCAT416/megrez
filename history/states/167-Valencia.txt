@@ -6,7 +6,7 @@ state = {
 	state_category = five
 
 	history = {
-		owner = CNT
+		owner = SPR
 		victory_points = {
 			6906 15
 		}
@@ -23,7 +23,6 @@ state = {
 			}
 		}
 		add_core_of = SPR
-add_core_of = CNT
 	}
 
 	provinces = {

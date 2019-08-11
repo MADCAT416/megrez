@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = LAT
+		owner = BAT
 		victory_points = { 9262 1 } #Liepaja
 		buildings = {
 			infrastructure = 5
@@ -16,7 +16,6 @@ state = {
 			}
 		}
 		add_core_of = BAT
-		add_core_of = LAT
 	}
 
 	provinces = {

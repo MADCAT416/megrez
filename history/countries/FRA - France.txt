@@ -1,5 +1,6 @@
-﻿capital = 1114
-oob = "empty"
+﻿capital = 16
+
+oob = "FRA"
 set_naval_oob = "FRA_naval"
 
 set_research_slots = 4

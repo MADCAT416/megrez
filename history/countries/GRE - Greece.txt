@@ -1,6 +1,6 @@
 ﻿capital = 47
 
-oob = "empty"
+oob = "GRE"
 set_naval_oob = "GRE_naval"
 
 set_research_slots = 3

@@ -1,5 +1,5 @@
 ﻿capital = 502
-oob = "empty"
+OOB = "PIR"
 set_research_slots = 2
 set_technology = {
 	### Tanks ###

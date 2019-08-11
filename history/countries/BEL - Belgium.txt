@@ -1,5 +1,5 @@
 ﻿capital = 6
-oob = "empty"
+OOB = "BEL"
 set_naval_oob = "BEL_naval"
 
 set_research_slots = 3

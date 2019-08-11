@@ -1,5 +1,5 @@
 ﻿capital = 319
-oob = "empty"
+OOB = "DOM"
 set_naval_oob = "DOM_naval"
 
 set_technology = {

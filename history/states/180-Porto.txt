@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = CNT
+		owner = POR
 		victory_points = {
 			9817 5
 		}
@@ -19,7 +19,6 @@ state = {
 			}
 		}
 		add_core_of = POR
-add_core_of = CNT
 	}
 
 	provinces = {
