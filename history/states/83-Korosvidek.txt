@@ -6,7 +6,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HUN
+		owner = RRM
+		add_core_of = RRM
 		add_core_of = HUN
 
 		buildings = {

@@ -17,7 +17,7 @@ state = {
 			}
 			air_base = 3
 		}
-		add_claim_by = OTT
+		add_claim_by = TUR
 		add_core_of = EGY
 		victory_points = {
 			4073 2
