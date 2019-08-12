@@ -1,0 +1,25 @@
+state = {
+	id = 381
+	name = "STATE_381"
+	manpower = 480000
+	state_category = four
+	resources = {
+		oil = 14
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+		add_core_of = USA
+		add_claim_by = CSA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4723 1
+		}
+	}
+
+	provinces = {
+		4610 4723 4794 4820 7814 12651 1815 7688 7888 12633 12561 10711 10640
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	manpower = 970000
+
+	state_category = four
+
+	resources = {
+		oil = 26
+		aluminium = 52
+	}
+
+
+	history = {
+		owner = CAL
+		add_core_of = CAL
+		add_core_of = USA
+		add_claim_by = CSA
+		buildings = {
+			infrastructure = 4
+		}
+
+		
+	}
+
+	provinces = {
+		1972 3867 3883 4975 8070 10642 10645 10914 12552 12684 12791
+	}
+}
