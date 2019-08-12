@@ -6,8 +6,8 @@ state = {
 	state_category = four
 
 	history = {
-		owner = AOG
-		add_core_of = AOG
+		owner = GEA
+		add_core_of = GEA
 		add_core_of = QIE
 		add_core_of = SQI
 		add_core_of = FNG

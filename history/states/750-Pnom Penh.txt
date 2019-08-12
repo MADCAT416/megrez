@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = SIA
+		owner = CAM
 		add_claim_by = SIA
 		add_core_of = INC
 		add_core_of = CAM

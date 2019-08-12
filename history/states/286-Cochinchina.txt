@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = GEA
+		owner = VIE
 		add_core_of = GEA
 		add_core_of = VIE
 		add_core_of = INC

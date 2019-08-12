@@ -8,8 +8,9 @@ state = {
 	}
 
 	history = {
-		owner = SIA
+		owner = MLY
 		add_core_of = SIA
+		add_core_of = MLY
 		victory_points = {
 			7329 2 # Kota Bahru
 		}

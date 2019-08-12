@@ -6,8 +6,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = DEI
-		add_core_of = DEI
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			1574 = {

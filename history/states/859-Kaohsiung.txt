@@ -5,7 +5,7 @@ state = {
 
 	state_category = five
 	history = {
-		owner = JAP
+		owner = TAI
 		add_claim_by = JAP
 		add_core_of = QIE
 		add_core_of = SQI

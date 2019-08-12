@@ -6,10 +6,11 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = POR
+		owner = LEC
 		add_core_of = QIE
 		add_core_of = SQI
 		add_core_of = FNG
+		add_core_of = LEC
 		victory_points = {
 			4189 1
 		}

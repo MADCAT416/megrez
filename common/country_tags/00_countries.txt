@@ -143,7 +143,6 @@ NEP = "countries/Asian.txt"
 PHI = "countries/Asian.txt"
 PRC = "countries/Asian.txt"
 PRF = "countries/Asian.txt"
-PKS = "countries/Asian.txt"
 RAJ = "countries/Asian.txt"
 SAR = "countries/Asian.txt"
 SHA = "countries/Asian.txt" #Shan
@@ -289,3 +288,7 @@ MEN = "countries/Asian.txt" #Mengjiang?
 #### GFX storage only - These tags should always be at the end of this list
 XXA = "countries/WestEur.txt"
 XXB = "countries/WestEur.txt"
+
+TAI = "countries/Asian.txt" #Taiwan
+RYU = "countries/Asian.txt" #Ryukyu
+PKS = "countries/Asian.txt" #Pakistan

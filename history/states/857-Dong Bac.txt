@@ -3,7 +3,7 @@ state = {
 	name = "STATE_857"
 
 	history = {
-		owner = GEA
+		owner = INC
 		add_core_of = GEA
 		add_core_of = VIE
 		add_core_of = INC
