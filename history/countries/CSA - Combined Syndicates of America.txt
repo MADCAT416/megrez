@@ -1,6 +1,6 @@
 ﻿capital = 395
 OOB = "empty"
-
+set_cosmetic_tag = CSA_commonwealth_america
 set_technology = {
 	### MOD ###
 	### Tanks ###
