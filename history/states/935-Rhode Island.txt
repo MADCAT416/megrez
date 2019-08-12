@@ -6,6 +6,7 @@ state = {
 		owner = NEE
 		add_core_of = USA
 		add_core_of = NEE
+		add_core_of = CSA
 		buildings = {
 
 			infrastructure = 8

@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = AZE
+		owner = GEO
+		add_core_of = GEO
 		victory_points = {
 			7661 15
 		}

@@ -12,6 +12,7 @@ state = {
 		}
 
 		add_core_of = MEX
+		add_claim_by = CAL
 		victory_points = {
 			10740 2
 		}

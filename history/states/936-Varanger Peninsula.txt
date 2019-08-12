@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = NOR
 		add_core_of = NOR
+		add_claim_by = FIN
 		buildings = {
 			infrastructure = 3
 			9116 = {
