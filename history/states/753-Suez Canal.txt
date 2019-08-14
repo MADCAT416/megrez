@@ -3,7 +3,7 @@ state = {
 	name = "STATE_753"
 
 	history = {
-		owner = GER
+		owner = SUE
 		buildings = {
 			infrastructure = 3
 			9947 = {
@@ -17,7 +17,7 @@ state = {
 			}
 			air_base = 3
 		}
-		add_claim_by = TUR
+		add_core_of = SUE
 		add_core_of = EGY
 		victory_points = {
 			4073 2
