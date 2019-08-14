@@ -292,3 +292,4 @@ XXB = "countries/WestEur.txt"
 TAI = "countries/Asian.txt" #Taiwan
 RYU = "countries/Asian.txt" #Ryukyu
 PKS = "countries/Asian.txt" #Pakistan
+SUE = "countries/MidEast.txt" #Suez
