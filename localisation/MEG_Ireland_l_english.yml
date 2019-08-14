@@ -9,10 +9,10 @@ IRE_democratic_socialist_party:0 "PanLO"
 IRE_democratic_socialist_party_long:0 "Páirtí an Lucht Oibre" #10
 IRE_social_democrat_party:0 "PSDanLO"
 IRE_social_democrat_party_long:0 "Páirtí Sóisialta Daonlathach an Lucht Oibre"
-IRE_social_progressive_party:0 "LOiS"
-IRE_social_progressive_party_long:0 "Líonra Oibrithe Sóisialacha" #5
-IRE_social_liberal_party:0 "CnamB"
-IRE_social_liberal_party_long:0 "Cumann na mBan" # 10
+IRE_social_progressive_party:0 "CnamB"
+IRE_social_progressive_party_long:0 "Cumann na mBan" #5
+IRE_social_liberal_party:0 ""
+IRE_social_liberal_party_long:0 "" # 10
 IRE_market_liberal_party:0 "FhF"
 IRE_market_liberal_party_long:0 "Fhianna Fáil" #10
 IRE_social_conservative_party:0 "PnabhF"
