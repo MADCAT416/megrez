@@ -9,11 +9,11 @@ IRE_democratic_socialist_party:0 "PanLO"
 IRE_democratic_socialist_party_long:0 "Páirtí an Lucht Oibre" #10
 IRE_social_democrat_party:0 "PSDanLO"
 IRE_social_democrat_party_long:0 "Páirtí Sóisialta Daonlathach an Lucht Oibre"
-IRE_social_progressive_party:0 "CnamB"
-IRE_social_progressive_party_long:0 "Cumann na mBan" #5
-IRE_social_liberal_party:0 ""
-IRE_social_liberal_party_long:0 "" # 10
-IRE_market_liberal_party:0 "FhF"
+IRE_social_progressive_party:0 "FE-CnamB"
+IRE_social_progressive_party_long:0 "Fianna Éireann-Cumann na mBan" #5
+IRE_social_liberal_party:0 "PCE"
+IRE_social_liberal_party_long:0 "Páirtí Comhghuaillíochta Éireann" # 10
+IRE_market_liberal_party:0 "FF"
 IRE_market_liberal_party_long:0 "Fhianna Fáil" #10
 IRE_social_conservative_party:0 "PnabhF"
 IRE_social_conservative_party_long:0 "Páirtí na bhFeirmeoirí" #2
@@ -23,8 +23,8 @@ IRE_paternal_autocrat_party:0 "Orangemen"
 IRE_paternal_autocrat_party_long:0 "Loyal Orange Order" #1
 IRE_clerical_nationalist_party:0 "AnahA"
 IRE_clerical_nationalist_party_long:0 "Ailtirí na hAiséirghe"
-IRE_ethnic_populist_party:0 "Blueshirts"
-IRE_ethnic_populist_party_long:0 "Cumann Chomrádaithe an Airm " #2
+IRE_ethnic_populist_party:0 "Na Léinte Gorma"
+IRE_ethnic_populist_party_long:0 "Cumann Chomrádaithe an Airm" #2
 
 ### Tooltips ###
 IREUOB_DET2:0 "The British have agreed to our proposals"
