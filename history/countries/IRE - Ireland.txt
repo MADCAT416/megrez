@@ -101,6 +101,7 @@ set_popularities = {
 
 set_country_flag = coalition_syndicalist
 set_country_flag = coalition_democratic_socialist
+set_country_flag = coalition_social_democrat
 set_country_flag = coalition_social_progressive
 set_country_flag = banned_paternal_autocrat
 set_country_flag = banned_ethnic_populist
