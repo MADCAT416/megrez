@@ -199,7 +199,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Mícheál Ó Ríordáin"
-	desc = "POLITICS_Mícheal_O_Riordain_DESC"
+	desc = "POLITICS_Micheal_O_Riordain_DESC"
 	picture = "Portrait_Ireland_Mícheál_Ó_Ríordáin.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype

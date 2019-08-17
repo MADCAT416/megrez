@@ -1,5 +1,20 @@
 ﻿l_english:
 
+
+### DESC ###
+POLITICS_Micheal_O_Riordain_DESC:0 ""
+POLITICS_Padraig_O_hIrighile_DESC:0 ""
+POLITICS_Oilibhear_Napier_DESC:0 ""
+POLITICS_Breandan_Mac_Fheorais_DESC:0 ""
+POLITICS_Ned_O_Croinin_DESC:0 ""
+POLITICS_Wendy_Millar_DESC:0 ""
+POLITICS_Padraigin_Ni_Mhurchu_DESC:0 "Padraigín Ní Mhurchú. She is..."
+POLITICS_Seosamh_O_Blatmaic_DESC:0 ""
+POLITICS_Leaslaoi_Mearda_de_Barra_DESC:0 ""
+POLITICS_Gearoidin_Fitt_DESC:0 ""
+POLITICS_Tom_O_hUiginn_DESC:0 ""
+POLITICS_Gearoid_O_Cuinneagain_DESC:0 ""
+
 ### Parties ###
 IRE_totalist_party:0 "GnanOR"
 IRE_totalist_party_long:0 "Grúpaí na nOibrithe Réabhlóideacha (Revolutionary Workers' Groups)" #5
