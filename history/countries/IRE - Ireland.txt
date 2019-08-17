@@ -101,7 +101,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gearóid Ó Cuinneagáin"
-	desc = "POLITICS_MICHAEL_COLLINS_DESC"
+	desc = "POLITICS_Gearoid_O_Cuinneagain_DESC"
 	picture = "Portrait_Ireland_Gearóid_Ó_Cuinneagáin.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
@@ -110,7 +110,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Tom Ó hUiginn"
-	desc = "POLITICS_MICHAEL_COLLINS_DESC"
+	desc = "POLITICS_Tom_O_hUiginn_DESC"
 	picture = "Portrait_Ireland_Tom_Ó_hUiginn.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -119,7 +119,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gearoidín Fitt"
-	desc = "POLITICS_CATHAL_BRUGHA_DESC"
+	desc = "POLITICS_Gearoidin_Fitt_DESC"
 	picture = "Portrait_Ireland_Gearoidín_Fitt.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -128,7 +128,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Leaslaoi Mearda de Barra"
-	desc = "POLITICS_CATHAL_BRUGHA_DESC"
+	desc = "POLITICS_Leaslaoi_Mearda_de_Barra_DESC"
 	picture = "Portrait_Ireland_Leaslaoi_Mearda_de_Barra.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
@@ -137,7 +137,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Seosamh O Blatmaic"
-	desc = "POLITICS_FRANK_MACDERMOT_DESC"
+	desc = "POLITICS_Seosamh_O_Blatmaic_DESC"
 	picture = "Portrait_Ireland_Seosamh_O_Blatmaic.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
@@ -146,7 +146,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Padraigín Ní Mhurchú"
-	desc = "POLITICS_JIM_LARKIN_DESC"
+	desc = "POLITICS_Padraigin_Ni_Mhurchu_DESC"
 	picture = "Portrait_Ireland_Padraigín_Ní_Mhurchú.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -155,7 +155,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Wendy Millar"
-	desc = "POLITICS_GEAROID_O_CUINNEAGAIN_DESC"
+	desc = "POLITICS_Wendy_Millar_DESC"
 	picture = "Portrait_Ireland_Wendy_Millar.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
@@ -164,7 +164,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ned Ó Cróinín"
-	desc = "POLITICS_PADRAIC_O_MAILLE_DESC"
+	desc = "POLITICS_Ned_O_Croinin_DESC"
 	picture = "Portrait_Ireland_Ned_Ó_Cróinín.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
@@ -173,7 +173,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Breandán Mac Fheorais"
-	desc = "POLITICS_BETTY_SINCLAIR_DESC"
+	desc = "POLITICS_Breandan_Mac_Fheorais_DESC"
 	picture = "Portrait_Ireland_Breandán_Mac_Fheorais.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -182,7 +182,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Oilibhéar Napier"
-	desc = "POLITICS_SEAN_LEMASS_DESC"
+	desc = "POLITICS_Oilibhear_Napier_DESC"
 	picture = "Portrait_Ireland_Oilibhéar_Napier.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -191,7 +191,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Pádraig Ó hIrighile"
-	desc = "POLITICS_DE_VALERA_DESC"
+	desc = "POLITICS_Padraig_O_hIrighile_DESC"
 	picture = "Portrait_Ireland_Pádraig_Ó_hIrighile.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -199,7 +199,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Mícheál Ó Ríordáin"
-	desc = "POLITICS_SEAN_MURRAY_DESC"
+	desc = "POLITICS_Mícheal_O_Riordain_DESC"
 	picture = "Portrait_Ireland_Mícheál_Ó_Ríordáin.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
