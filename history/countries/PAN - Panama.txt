@@ -70,13 +70,13 @@ set_popularities = {
     totalist = 0
     syndicalist = 0
     democratic_socialist = 0
-    social_democrat = 2
-    social_liberal = 21
-    market_liberal = 14
-    social_conservative = 3
-    authoritarian_democrat = 37
-    paternal_autocrat = 20
-    ethnic_populist = 3
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 100
+    paternal_autocrat = 0
+    ethnic_populist = 0
 }
 
 add_ideas = {

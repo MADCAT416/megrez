@@ -11,6 +11,8 @@ state = {
 		add_core_of = SQI
 
 		add_core_of = FNG
+		
+		add_claim_by = KOR
 
 		buildings = {
 			infrastructure = 4
