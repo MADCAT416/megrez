@@ -99,9 +99,9 @@ set_popularities = {
     ethnic_populist = 2
 }
 
-set_country_flag = syndicalist_coalition
-set_country_flag = democratic_socialist_coalition
-set_country_flag = social_progressive_coalition
+set_country_flag = coalition_syndicalist
+set_country_flag = coalition_democratic_socialist
+set_country_flag = coalition_social_progressive
 set_country_flag = banned_paternal_autocrat
 set_country_flag = banned_ethnic_populist
 
