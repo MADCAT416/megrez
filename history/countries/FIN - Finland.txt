@@ -121,6 +121,13 @@ set_popularities = {
     ethnic_populist = 5
 }
 
+set_country_flag = coalition_syndicalist
+set_country_flag = coalition_democratic_socialist
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_social_liberal
+set_country_flag = banned_paternal_autocrat
+set_country_flag = banned_clerical_nationalist
+
 set_convoys = 20
 
 set_research_slots = 3
