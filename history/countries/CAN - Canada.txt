@@ -179,11 +179,17 @@ set_country_flag = LEC_profit_for_you
 set_war_support = 0.4
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = social_conservative
 	last_election = "1935.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_country_flag = banned_totalist
+set_country_flag = banned_syndicalist
+set_country_flag = banned_democratic_socialist
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_paternal_autocrat
 
 set_popularities = {
     totalist = 1

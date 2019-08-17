@@ -148,12 +148,17 @@ set_war_support = 0.5
 add_opinion_modifier = { target = CSA modifier = embargo }
 add_opinion_modifier = { target = TEX modifier = embargo }
 add_opinion_modifier = { target = USA modifier = embargo }
+
 set_politics = {
 	ruling_party = market_liberal
 	last_election = "1936.11.08"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+set_country_flag = banned_totalist
+set_country_flag = banned_syndicalist
+set_country_flag = banned_democratic_socialist
 
 set_popularities = {
     totalist = 0
