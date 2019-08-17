@@ -100,23 +100,25 @@ add_opinion_modifier = { target = SRI modifier = embargo }
 set_war_support = 0.4
 
 set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1936.1.1"
+	ruling_party = democratic_socialist
+	last_election = "1936.8.20"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-    totalist = 0
-    syndicalist = 3
-    democratic_socialist = 0
-    social_democrat = 29
-    social_liberal = 7
-    market_liberal = 1
-    social_conservative = 14
-    authoritarian_democrat = 4
-    paternal_autocrat = 30
-    ethnic_populist = 12
+    totalist = 7
+    syndicalist = 20
+	democratic_socialist = 20
+    social_democrat = 8
+	social_progressive = 5
+    social_liberal = 15
+    market_liberal = 10
+    social_conservative = 5
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+	clerical_nationalist = 5
+    ethnic_populist = 5
 }
 
 set_convoys = 20
@@ -138,94 +140,112 @@ add_ideas = {
 	extensive_conscription
 }
 
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
-	picture = "Portrait_FIN_Otto_Wille_Kuusinen.tga"
+create_country_leader = { # Hertta Elina Kuusinen
+	name = "Hertta Elina Kuusinen"
+	desc = "POLITICS_hertta-kuusinen_DESC"
+	picture = "Portrait_FIN_hertta-kuusinen.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {hog_flamboyant_tough_guy}
 }
 
-create_country_leader = {
-	name = "Kullervo Manner"
-	desc = "POLITICS_KULLERVO_MANNER_DESC"
-	picture = "Portrait_FIN_Kullervo_Manner.tga"
+create_country_leader = { # Mauno Henrik Koivisto 
+	name = "Mauno Henrik Koivisto"
+	desc = "POLITICS_mauno-koivisto_DESC"
+	picture = "Portrait_FIN_mauno-koivisto.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {hog_ambitious_union_boss}
 }
 
-create_country_leader = {
-	name = "Oskari Tokoi"
-	desc = "POLITICS_OSKARI_TOKOI_DESC"
-	picture = "Portrait_FIN_Oskari_Tokoi.tga"
+create_country_leader = { # Mauno Henrik Koivisto 
+	name = "Mauno Henrik Koivisto"
+	desc = "POLITICS_mauno-koivisto_DESC"
+	picture = "Portrait_FIN_mauno-koivisto.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {hog_ambitious_union_boss}
 }
 
-create_country_leader = {
-	name = "Väinö Tanner"
-	desc = "POLITICS_VAINO_TANNER_DESC"
-	picture = "Portrait_FIN_Vaino_Tanner.tga"
+create_country_leader = { # Taisto Kalevi Sorsa
+	name = "Taisto Kalevi Sorsa"
+	desc = "POLITICS_kalevi-sorsa_DESC"
+	picture = "Portrait_FIN_kalevi-sorsa.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
+	traits = {hog_backroom_backstabber}
+}
+
+create_country_leader = { # Mary Moorhouse-Pekkala
+	name = "Mary Moorhouse-Pekkala"
+	desc = "POLITICS_mary-moorhouse_DESC"
+	picture = "Portrait_FIN_mary-moorhouse.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
 	traits = {}
 }
 
-create_country_leader = {
-	name = "Kyösti Kallio"
-	desc = "POLITICS_KYOSTI_KALLIO_DESC"
-	picture = "Portrait_Fin_Kyosti_Kallio.tga"
+create_country_leader = { # Urho Kaleva Kekkonen 
+	name = "Urho Kaleva Kekkonen"
+	desc = "POLITICS_urho-kekkonen_DESC"
+	picture = "Portrait_Fin_urho-kekkonen.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {hog_pragmatic_statesman}
 }
 
-create_country_leader = {
-	name = "Kaarlo Juho Ståhlberg"
-	desc = "POLITICS_KAARLO_JUHO_STAHLBERG_DESC"
-	picture = "Portrait_FIN_Kaarlo_Juho_Stahlberg.tga"
+create_country_leader = { # Pekka Tarjanne 
+	name = "Pekka Tarjanne"
+	desc = "POLITICS_pekka-tarjanne_DESC"
+	picture = "Portrait_FIN_pekka-tarjanne.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {hog_silent_workhorse}
 }
 
-create_country_leader = {
-	name = "Pehr Evind Svinhufvud"
-	desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
-	picture = "Portrait_FIN_Pehr_Evind_Svinhufvud.tga"
+create_country_leader = { # Jussi Jaakko Saukkonen 
+	name = "Jussi Jaakko Saukkonen"
+	desc = "POLITICS_jussi-saukkonen_DESC"
+	picture = "Portrait_FIN_jussi-saukkonen.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {hog_political_protege}
 }
 
-create_country_leader = {
-	name = "Carl Gustaf Mannerheim"
-	desc = "POLITICS_CARL_GUSTAF_MANNERHEIM_DESC"
-	picture = "Portrait_FIN_Carl_Gustaf_Mannerheim.tga"
+create_country_leader = { # Jaakko Sakari Simelius 
+	name = "Jaakko Sakari Simelius"
+	desc = "POLITICS_sakari-simelius_DESC"
+	picture = "Portrait_FIN_sakari-simelius.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {hog_old_general}
 }
 
 create_country_leader = {
-	name = "Fredrik Kaarle I"
-	desc = "POLITICS_FREDRIK_KAARLE_DESC"
-	picture = "Portrait_FIN_Fredrik_Kaarle_I.tga"
+	name = "Wolfgang II von Hessen"
+	desc = "POLITICS_wolfgang-II_DESC"
+	picture = "Portrait_FIN_wolfgang-II.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {phantom_of_past}
 }
 
 create_country_leader = {
 	name = "Kurt Martti Wallenius"
-	desc = "POLITICS_KURT_MARTTI_WALLENIUS_DESC"
-	picture = "Portrait_FIN_Kurt_Martti_Wallenius.tga"
+	desc = "POLITICS_kurt-wallenius_DESC"
+	picture = "Portrait_FIN_kurt-wallenius.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {popular_figurehead}
+}
+
+create_country_leader = { # Veikko Emil Vennamo 
+	name = "Veikko Emil Vennamo"
+	desc = "POLITICS_veikko-vennamo_DESC"
+	picture = "Portrait_FIN_veikko-vennamo.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {hog_barking_buffoon}
 }
 
 ### Field Marshals ###

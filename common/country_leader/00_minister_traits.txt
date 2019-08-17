@@ -821,6 +821,7 @@ leader_traits = {
 	}
 
 	int_political_specialist = {
+		decryption = 0.5
 		political_power_gain = 0.20
 
 		random = no
@@ -828,13 +829,14 @@ leader_traits = {
 
 	int_dismal_enigma = {
 		encryption = 1
+		decryption = 1
 
 		random = no
 	}
 
 	int_industrial_specialist = {
 		decryption = 0.5
-		research_time_factor = -0.02
+		production_speed_arms_factory_factor = 0.2
 
 		random = no
 	}
