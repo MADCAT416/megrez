@@ -237,13 +237,13 @@ create_country_leader = {
 	traits = {phantom_of_past}
 }
 
-create_country_leader = {
-	name = "Kurt Martti Wallenius"
-	desc = "POLITICS_kurt-wallenius_DESC"
-	picture = "Portrait_FIN_kurt-wallenius.tga"
+create_country_leader = { # Paavo Oskar Susitaival
+	name = "Paavo Oskar Susitaival"
+	desc = "POLITICS_paavo-susitaival_DESC"
+	picture = "Portrait_FIN_paavo-susitaival.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
-	traits = {popular_figurehead}
+	traits = {hog_respected_war_hero}
 }
 
 create_country_leader = { # Veikko Emil Vennamo 
