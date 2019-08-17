@@ -213,6 +213,11 @@ set_popularities = {
     ethnic_populist = 25
 }
 
+set_country_flag = coalition_ethnic_populist
+set_country_flag = banned_totalist
+set_country_flag = banned_syndicalist
+set_country_flag = banned_democratic_socialist
+
 ### Head of States ###
 create_country_leader = {
 	name = "Hirohito"

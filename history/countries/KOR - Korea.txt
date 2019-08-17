@@ -47,6 +47,12 @@ set_popularities = {
     ethnic_populist = 45
 }
 
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_clerical_nationalist
+set_country_flag = banned_totalist
+set_country_flag = banned_syndicalist
+set_country_flag = banned_democratic_socialist
+
 create_country_leader = {
 	name = "Seo Mansul"
 	desc = "Seo-Mansul_DESC"
