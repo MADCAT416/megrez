@@ -78,7 +78,7 @@ set_country_flag = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = syndicalist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,15 +87,15 @@ set_politics = {
 set_popularities = {
     totalist = 5
     syndicalist = 25
-	democratic_socialist = 15
+    democratic_socialist = 15
     social_democrat = 10
-	social_progressive = 5
+    social_progressive = 5
     social_liberal = 10
     market_liberal = 5
     social_conservative = 2
     authoritarian_democrat = 15
     paternal_autocrat = 1
-	clerical_nationalist = 5
+    clerical_nationalist = 5
     ethnic_populist = 2
 }
 
