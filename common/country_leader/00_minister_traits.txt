@@ -23,6 +23,20 @@ leader_traits = {
 
 	}
 
+	hog_barking_buffoon  = {
+		random = no
+		political_power_gain = -0.05
+		stability_weekly = 0.05
+		ai_call_ally_desire_factor = 50
+		ai_join_ally_desire_factor = -50
+		land_reinforce_rate = -0.1
+		consumer_goods_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	hog_corporate_suit = {
 		trade_opinion_factor = 0.05
 		political_power_gain = -0.17
@@ -45,6 +59,19 @@ leader_traits = {
 		political_power_gain = 0.07
 
 		random = no
+	}
+
+	hog_hoodlum = {
+		random = no
+
+		political_power_gain = 0.1
+		stability_factor = 0.05
+		consumer_goods_factor = 0.05
+		conscription_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	hog_local_tyrant = {

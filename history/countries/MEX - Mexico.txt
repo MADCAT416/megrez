@@ -69,22 +69,24 @@ set_research_slots = 3
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = democratic_socialist
+	ruling_party = syndicalist
 	last_election = "1932.7.1"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-    totalist = 16
-    syndicalist = 17
-    democratic_socialist = 45
-    social_democrat = 17
-    social_liberal = 0
-    market_liberal = 0
-    social_conservative = 0
+    totalist = 5
+    syndicalist = 25
+	democratic_socialist = 10
+    social_democrat = 30
+	social_progressive = 10
+    social_liberal = 5
+    market_liberal = 5
+    social_conservative = 5
     authoritarian_democrat = 0
     paternal_autocrat = 0
+	clerical_nationalist = 0
     ethnic_populist = 5
 }
 
@@ -102,58 +104,98 @@ add_ideas = {
 	MEX_revolution_military
 }
 
-create_country_leader = {# Plutarco Calles
-	name = "Plutarco Calles"
-	desc = "POLITICS_PLUTARCO_CALLES_DESC"
-	picture = "Portrait_Mexico_Plutarco_Calles.tga"
+create_country_leader = {# Valentín Campa Salazar 
+	name = "Valentín Campa Salazar"
+	desc = "POLITICS_Valentin-Campa-Salazar_DESC"
+	picture = "Portrait_Mexico_Valentin-Campa-Salazar.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
-create_country_leader = {# Vicente Toledano
-	name = "Vicente Toledano"
-	desc = "POLITICS_VINCENTE_TOLEDANO_DESC"
-	picture = "Portrait_Mexico_Vincente_Toledano.tga"
+create_country_leader = {# Arnoldo Martínez Verdugo 
+	name = "Arnoldo Martínez Verdugo"
+	desc = "POLITICS_Arnoldo-Martinez-Verdugo_DESC"
+	picture = "Portrait_Mexico_Arnoldo-Martinez-Verdugo.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
-create_country_leader = {# Emiliano Zapata
-	name = "Emiliano Zapata"
-	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
-	picture = "Portrait_Mexico_Emiliano_Zapata.tga"
+create_country_leader = {# Jorge Cruickshank García 
+	name = "Jorge Cruickshank García"
+	desc = "POLITICS_Jorge-Cruickshank-Garcia_DESC"
+	picture = "Portrait_Mexico_Jorge-Cruickshank-Garcia.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
-create_country_leader = {# Pascual Ortiz Rubio
-	name = "Pascual Ortiz Rubio"
-	desc = "POLITICS_PASCUAL_RUBIO_DESC"
-	picture = "Portrait_Mexico_Pascual_Rubio.tga"
+create_country_leader = {# Gustavo Díaz Ordaz 
+	name = "Gustavo Díaz Ordaz"
+	desc = "POLITICS_Gustavo-Diaz-Ordaz_DESC"
+	picture = "Portrait_Mexico_Gustavo-Diaz-Ordaz.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
-create_country_leader = {# Juan Andreu Almazán
-	name = "Juan Andreu Almazán"
-	desc = "POLITICS_JUAN_ALMAZAN_DESC"
-	picture = "Portrait_Mexico_Juan_Almazan.tga"
+create_country_leader = {# Jorge González Torres  
+	name = "Jorge González Torres"
+	desc = "POLITICS_Jorge-Gonzalez-Torres_DESC"
+	picture = "Portrait_Mexico_Jorge-Gonzalez-Torres.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+create_country_leader = {# Cuauhtémoc Cárdenas Solórzano 
+	name = "Cuauhtémoc Cárdenas Solórzano"
+	desc = "POLITICS_Cuauhtemoc-Cardenas-Solorzano_DESC"
+	picture = "Portrait_Mexico_Cuauhtemoc-Cardenas-Solorzano.tga"
+	expire = "1991.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {# Luis Héctor Álvarez  
+	name = "Luis Héctor Álvarez"
+	desc = "POLITICS_Luis-Hector-Alvarez_DESC"
+	picture = "Portrait_Mexico_Luis-Hector-Alvarez.tga"
+	expire = "1991.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+create_country_leader = {# José López Portillo  
+	name = "José López Portillo"
+	desc = "POLITICS_Jose-Lopez-Portillo_DESC"
+	picture = "Portrait_Mexico_Jose-Lopez-Portillo.tga"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {#  
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = "Portrait_Mexico_.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
-create_country_leader = {# Pablo Gonzalez Garza
-	name = "Pablo Gonzalez Garza"
-	desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
-	picture = "Portrait_Mexico_Garza.tga"
+create_country_leader = {# Maximiliano de Götzen-Iturbide 
+	name = "Maximiliano de Götzen-Iturbide"
+	desc = "POLITICS_Maximiliano-de-Götzen-Iturbide_DESC"
+	picture = "Portrait_Mexico_Maximiliano-de-Götzen-Iturbide.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
-create_country_leader = {# Jose Antonio Urquiza
-	name = "Jose Antonio Urquiza"
-	desc = "POLITICS_JOSE_URQUIZA_DESC"
-	picture = "Portrait_Mexico_Urquiza.tga"
+create_country_leader = {# Salvador Abascal Infante 
+	name = "Salvador Abascal Infante"
+	desc = "POLITICS_Salvador-Abascal-Infante_DESC"
+	picture = "Portrait_Mexico_Salvador-Abascal-Infante.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {}
+}
+create_country_leader = {# 
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = "Portrait_Mexico_.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
