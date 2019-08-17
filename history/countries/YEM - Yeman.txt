@@ -53,7 +53,7 @@ create_country_leader = {
 	name = "Yahya al Hamid"
 	desc = "POLITICS_YAHYA_HAMID_DESC"
 	picture = "portrait_YEM_imam_yaha_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -61,7 +61,7 @@ create_country_leader = {
 	name = "Yahya al Hamid"
 	desc = "POLITICS_YAHYA_HAMID_DESC"
 	picture = "portrait_YEM_imam_yaha_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -69,7 +69,7 @@ create_country_leader = {
 	name = "Ali Nassar al-Qadari"
 	desc = "POLITICS_ALI_NASSAR_AL-QADARI_DESC"
 	picture = "Portrait_YEM_Ali_Nasser_Al-Qardai.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -77,7 +77,7 @@ create_country_leader = {
 	name = "Ahmad Muhammad Numan"
 	desc = "POLITICS_SHABAB_AL-AMR_DESC"
 	picture = "Portrait_YEM_Shabab_al-Amr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }

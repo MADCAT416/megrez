@@ -35,7 +35,7 @@ create_country_leader = {
 	name = "Turabej Yusupov"
 	desc = "POLITICS_TURABEJ_YUSUPOV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Turabej_Yusupov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Turabej Yusupov"
 	desc = "POLITICS_TURABEJ_YUSUPOV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Turabej_Yusupov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -53,7 +53,7 @@ create_country_leader = {
 	name = "Turabej Yusupov"
 	desc = "POLITICS_TURABEJ_YUSUPOV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Turabej_Yusupov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -62,7 +62,7 @@ create_country_leader = {
 	name = "Baten Dzhumabaev"
 	desc = "POLITICS_BATEN_DZHUMABAEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Baten_Dzhumabaev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Baten Dzhumabaev"
 	desc = "POLITICS_BATEN_DZHUMABAEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Baten_Dzhumabaev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Baten Dzhumabaev"
 	desc = "POLITICS_BATEN_DZHUMABAEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Baten_Dzhumabaev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -89,7 +89,7 @@ create_country_leader = {
 	name = "Baten Dzhumabaev"
 	desc = "POLITICS_BATEN_DZHUMABAEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Baten_Dzhumabaev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -98,7 +98,7 @@ create_country_leader = {
 	name = "Kazym Dzhumabev"
 	desc = "POLITICS_KAZYM_DZHUMABEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Kazym_Dzhumabev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -107,7 +107,7 @@ create_country_leader = {
 	name = "Kazym Dzhumabev"
 	desc = "POLITICS_KAZYM_DZHUMABEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Kazym_Dzhumabev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Kazym Dzhumabev"
 	desc = "POLITICS_KAZYM_DZHUMABEV_DESC"
 	picture = "gfx/leaders/KYR/Portrait_KYR_Kazym_Dzhumabev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

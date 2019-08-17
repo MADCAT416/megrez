@@ -36,7 +36,7 @@ set_popularities = {
 #create_country_leader = {
 #	name = "Mahendra"
 #	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-#	expire = "1972.1.31"
+#	expire = "1991.1.31"
 #	ideology = authoritarian_democrat_subtype
 #	traits = {}
 #}
@@ -45,7 +45,7 @@ create_country_leader = {
 	name = "Tribhuvana"
 	desc = "POLITICS_TRIBHUVANA_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
+	expire = "1991.3.13"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -53,7 +53,7 @@ create_country_leader = {
 	name = "Tribhuvana"
 	desc = "POLITICS_TRIBHUVANA_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
+	expire = "1991.3.13"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -61,7 +61,7 @@ create_country_leader = {
 	name = "Tribhuvana"
 	desc = "POLITICS_TRIBHUVANA_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1955.3.13"
+	expire = "1991.3.13"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -69,7 +69,7 @@ create_country_leader = {
 	name = "Yogbir Singh Kansakar"
 	desc = "POLITICS_YOGBIR_SINGH_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1942.3.29"
+	expire = "1991.3.29"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -77,7 +77,7 @@ create_country_leader = {
 	name = "Yogbir Singh Kansakar"
 	desc = "POLITICS_YOGBIR_SINGH_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1942.3.29"
+	expire = "1991.3.29"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -85,7 +85,7 @@ create_country_leader = {
 	name = "Yogbir Singh Kansakar"
 	desc = "POLITICS_YOGBIR_SINGH_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1942.3.29"
+	expire = "1991.3.29"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Kunwar Inderjit Singh"
 	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1982.10.4"
+	expire = "1991.10.4"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -101,7 +101,7 @@ create_country_leader = {
 	name = "Kunwar Inderjit Singh"
 	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1982.10.4"
+	expire = "1991.10.4"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -109,7 +109,7 @@ create_country_leader = {
 	name = "Kunwar Inderjit Singh"
 	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1982.10.4"
+	expire = "1991.10.4"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Kunwar Inderjit Singh"
 	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
 	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1982.10.4"
+	expire = "1991.10.4"
 	ideology = totalist_subtype
 	traits = {}
 }

@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "Rudolf Hess"
 	desc = "POLITICS_RUDOLF_HESS_DESC"
 	picture = "Portrait_Germany_Rudolf_Hess.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -223,7 +223,7 @@ create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -232,7 +232,7 @@ create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -241,7 +241,7 @@ create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -250,7 +250,7 @@ create_country_leader = {
 	name = "Erich Koch-Weser"
 	desc = "POLITICS_ERICH_KOCH_WESER_DESC"
 	picture = "Portrait_Germany_Erich_Koch_Weser.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -259,7 +259,7 @@ create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -268,7 +268,7 @@ create_country_leader = {
 	name = "Rudolf Rocker"
 	desc = "POLITICS_RUDOLF_ROCKER_DESC"
 	picture = "Portrait_Germany_Rudolf_Rocker_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -277,7 +277,7 @@ create_country_leader = {
 	name = "Ernst Thälmann"
 	desc = "POLITICS_ERNST_THALMANN_DESC"
 	picture = "Portrait_Germany_Ernst_Thalmann_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -286,7 +286,7 @@ create_country_leader = {
 	name = "Wilhelm Pieck"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

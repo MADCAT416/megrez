@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Bahram Ariana"
 	desc = "POLITICS_RESTA_ROUZA_DESC"
 	picture = "Portrait_Persia_Bahram_Aryiana.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -99,7 +99,7 @@ create_country_leader = {
 	name = "Ahmad Shah Qajar"
 	desc = "POLITICS_AHMAD_QAJAR_DESC"
 	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -108,7 +108,7 @@ create_country_leader = {
 	name = "Ahmad Shah Qajar"
 	desc = "POLITICS_AHMAD_QAJAR_DESC"
 	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Ahmad Shah Qajar"
 	desc = "POLITICS_AHMAD_QAJAR_DESC"
 	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -126,7 +126,7 @@ create_country_leader = {
 	name = "Mohammad Ali Foroughi Zoka-ol-Molk"
 	desc = "POLITICS_ALI_FOROUGHI_DESC"
 	picture = "Portrait_Persia_Mohammad_Ali_Foroughi.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -135,7 +135,7 @@ create_country_leader = {
 	name = "Mohammad Mosaddegh"
 	desc = "POLITICS_MOSADDEGH_DESC"
 	picture = "Portrait_Persia_Mohammad_Mosaddegh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -144,7 +144,7 @@ create_country_leader = {
 	name = "Ahmad Shah Qajar"
 	desc = "POLITICS_AHMAD_QAJAR_DESC"
 	picture = "Portrait_Persia_Ahmad_Shah_Qajar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -153,7 +153,7 @@ create_country_leader = {
 	name = "Iraj Eskandari"
 	desc = "POLITICS_IRAJ_ESKENDARI_DESC"
 	picture = "Portrait_Persia_Iraj_Eskandari.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -162,7 +162,7 @@ create_country_leader = {
 	name = "Ja'far Pishevari"
 	desc = "POLITICS_IRANIAN_JAFAR_DESC"
 	picture = "Portrait_Persia_Ja'far_Pishevari.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -171,7 +171,7 @@ create_country_leader = {
 	name = "Avetis Soltanzadeh"
 	desc = "POLITICS_AVETIS_SOLTANZADEH_DESC"
 	picture = "Portrait_Persia_Avetis_Soltanzade.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

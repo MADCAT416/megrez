@@ -171,7 +171,7 @@ create_country_leader = {
 	name = "Julien Lahaut"
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Julien_Lahaut.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -179,7 +179,7 @@ create_country_leader = {
 	name = "Lucie Dejardin"
 	desc = "POLITICS_LUCIE_DEJARDIN_DESC"
 	picture = "gfx/leaders/WLL/portrait_Lucie_Dujardin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -187,7 +187,7 @@ create_country_leader = {
 	name = "Walter Dauge"
 	desc = "POLITICS_WALTER_DAUGE_DESC"
 	picture = "gfx/leaders/WLL/Portrait_Walter_Dauge.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -195,7 +195,7 @@ create_country_leader = {
 	name = "Fernand Dehousse"
 	desc = "POLITICS_FERNAND_DEHOUSSE_DESC"
 	picture = "gfx/leaders/WLL/Portrait_Fernand_Dehousse.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -203,7 +203,7 @@ create_country_leader = {
 	name = "Auguste Buisseret"
 	desc = "POLITICS_AUGUSTE_BUISSERET_DESC"
 	picture = "gfx/leaders/WLL/Portrait_August_Buisseret.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -211,7 +211,7 @@ create_country_leader = {
 	name = "Hubert Pierlot"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hubert_Pierlot.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -219,7 +219,7 @@ create_country_leader = {
 	name = "Adelbert"
 	desc = "POLITICS_ADALBERT_I_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -227,7 +227,7 @@ create_country_leader = {
 	name = "Léon Degrelle"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -235,7 +235,7 @@ create_country_leader = {
 	name = "Léon Degrelle"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

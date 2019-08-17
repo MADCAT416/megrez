@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Sukarno"
 	desc = "POLITICS_SUKARNO_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -99,7 +99,7 @@ create_country_leader = {
 	name = "Tan Malaka"
 	desc = "POLITICS_TAN_MALAKA_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Tan_Malaka.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -108,7 +108,7 @@ create_country_leader = {
 	name = "Sutan Sjahrir"
 	desc = "POLITICS_SUTAN_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Hashim As'yari"
 	desc = "POLITICS_HASHIM_ASYARI_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -126,7 +126,7 @@ create_country_leader = {
 	name = "Munawar Musso"
 	desc = "POLITICS_MUNAWAR_MUSSO_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Munawar_Musso.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -135,7 +135,7 @@ create_country_leader = { #No portrait yet
 	name = "Semaun"
 	desc = "POLITICS_SEMAUN_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Semaun.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -144,7 +144,7 @@ create_country_leader = {
 	name = "Sekarmadji Kartosuwirjo"
 	desc = "POLITICS_SEMAUN_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Kartosoewirjo.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -153,7 +153,7 @@ create_country_leader = {
 	name = "Raymond Westerling"
 	desc = "POLITICS_WESTERLING_DESC"
 	picture = "gfx/leaders/INS/Portrait_Indonesia_Westerling.tga"
-	expire = "1965.10.1"
+	expire = "1991.10.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

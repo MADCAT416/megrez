@@ -47,7 +47,7 @@ create_country_leader = {
 	name = "Le Duc Tho"
 	desc = "POLITICS_LE_DUC_THO_DESC"
 	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1990.10.13"
+	expire = "1991.10.13"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Le Duc Tho"
 	desc = "POLITICS_LE_DUC_THO_DESC"
 	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1990.10.13"
+	expire = "1991.10.13"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "Le Duc Tho"
 	desc = "POLITICS_LE_DUC_THO_DESC"
 	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1990.10.13"
+	expire = "1991.10.13"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Le Duc Tho"
 	desc = "POLITICS_LE_DUC_THO_DESC"
 	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1990.10.13"
+	expire = "1991.10.13"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Ngo Din Diem"
 	desc = "POLITICS_MGO_DIN_DIEM_DESC"
 	picture = "gfx/leaders/VIE/Portrait_Vietnam_Ngo_Din_Diem.tga"
-	expire = "1963.11.2"
+	expire = "1991.11.2"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -127,7 +127,7 @@ create_country_leader = {
 	name = "Cuong De"
 	desc = "POLITICS_PRINCE_COUNG_DE_DESC"
 	picture = "gfx/leaders/VIE/Portrait_Vietnam_Prinz_Cuong_De.tga"
-	expire = "1951.4.5"
+	expire = "1991.4.5"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -135,7 +135,7 @@ create_country_leader = {
 	name = "Pham Cong Tac"
 	desc = "POLITICS_PHAM_CONG_TAC_DESC"
 	picture = "gfx/leaders/VIE/Portrait_Vietnam_Pham_Cong_Tac.tga"
-	expire = "1959.5.17"
+	expire = "1991.5.17"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

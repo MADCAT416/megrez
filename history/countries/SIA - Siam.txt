@@ -155,7 +155,7 @@ create_country_leader = { # Chakrabongse Line of Succession
 	name = "Chula Chakrabongse"
 	desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.tga"
-	expire = "1963.12.30"
+	expire = "1991.12.30"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -171,7 +171,7 @@ create_country_leader = { # Boriphat Line of Sucession part 2
 	name = "Chumbhotbongs Paribatra"
 	desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.tga"
-	expire = "1959.9.15"
+	expire = "1991.9.15"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -179,7 +179,7 @@ create_country_leader = { # Boriphat Line of Sucession
 	name = "Paribatra Sukhumbhand"
 	desc = "POLITICS_SUKHUMBHAND_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.tga"
-	expire = "1944.1.18"
+	expire = "1991.1.18"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -195,7 +195,7 @@ create_country_leader = { #Mahidol Line of Succession
 	name = "Ananda Mahidol"
 	desc = "POLITICS_RAMA_VIII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.tga"
-	expire = "1946.6.9"
+	expire = "1991.6.9"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -203,7 +203,7 @@ create_country_leader = { # Start Leader
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -211,7 +211,7 @@ create_country_leader = { # Republican National Populism - Plaek's Military Army
 	name = "Sarit Thanarat"
 	desc = "POLITICS_SARIT_THANARAT_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
-	expire = "1963.12.8"
+	expire = "1991.12.8"
 	ideology = ethnic_populist_subtype
 	traits = {dictator }
 }
@@ -219,7 +219,7 @@ create_country_leader = { # Republican National Populism - Plaek's Secret Police
 	name = "Phao Sriyanond"
 	desc = "POLITICS_PHAO_SRIYANOND_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.tga"
-	expire = "1960.11.21"
+	expire = "1991.11.21"
 	ideology = ethnic_populist_subtype
 	traits = {dictator }
 }
@@ -227,7 +227,7 @@ create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
 	name = "Plaek Phibunsongkhram"
 	desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
-	expire = "1964.6.11"
+	expire = "1991.6.11"
 	ideology = ethnic_populist_subtype
 	traits = {dictator }
 }
@@ -260,7 +260,7 @@ create_country_leader = { # Start Leader - Syndie leader add later?
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -268,7 +268,7 @@ create_country_leader = { # Start Leader
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -276,7 +276,7 @@ create_country_leader = { # Start Leader
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -284,7 +284,7 @@ create_country_leader = { # Start Leader
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -292,7 +292,7 @@ create_country_leader = { # Start Leader
 	name = "Prajadhipok"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "Portrait_Siam_Rama_VII.tga"
-	expire = "1941.5.30"
+	expire = "1991.5.30"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Artur Neiva"
 	desc = "POLITICS_ARTUR_NEIVA_BAH_DESC"
 	picture = "Portrait_BAH_Neiva.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Antônio Lomato"
 	desc = "POLITICS_LOMATO_BAH_DESC"
 	picture = "Portrait_BAH_Lomato.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Luís Viana Filho"
 	desc = "POLITICS_A_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Luis_Viana.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Aliomar Baleeiro"
 	desc = "POLITICS_BALEIA_BAH_DESC"
 	picture = "Portrait_BAH_Baleeiro.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Vital Soares"
 	desc = "POLITICS_VITAL_BAH_DESC"
 	picture = "Portrait_BAH_Vital.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Juracy Magalhães"
 	desc = "POLITICS_JURACY_BAH_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Magalhaes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Otávio Mangabeira"
 	desc = "POLITICS_OTAVIO_MANGABEIRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Otavio_Mangabeira.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "Jorge Amado"
 	desc = "POLITICS_JORGE_AMADO_BAH_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Jorge_Amado.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -147,7 +147,7 @@ create_country_leader = {
 	name = "Maurício Grabois"
 	desc = "POLITICS_GRABOIS_BAH_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Mauricio_Grabois.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Carlos Marighella"
 	desc = "POLITICS_MARIGHELLA_BAH_DESC"
 	picture = "Portrait_BAH_Marighella.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

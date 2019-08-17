@@ -129,7 +129,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = { warrior_prince }
 }
@@ -137,7 +137,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = { warrior_prince }
 }
@@ -145,7 +145,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = { warrior_prince }
 }
@@ -153,7 +153,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = { warrior_prince }
 }
@@ -161,7 +161,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = { warrior_prince }
 }
@@ -169,7 +169,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = { warrior_prince }
 }
@@ -177,7 +177,7 @@ create_country_leader = {# King Amadeo I
 	name = "Amadeo I"
 	picture = "Portrait_SRD_King_Amedeo.tga"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = { warrior_prince }
 }

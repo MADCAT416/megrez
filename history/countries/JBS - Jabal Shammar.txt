@@ -46,7 +46,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Abdulaziz bin Saud Al Rashid"
 	desc = "POLITICS_ABDULAZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -54,7 +54,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = { warmonger }
 }
@@ -62,7 +62,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -70,7 +70,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -78,7 +78,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -94,7 +94,7 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 	name = "Saūd bin Abd al-Azīz"
 	desc = "POLITICS_AZIZ_JBS_DESC"
 	picture = "Portrait_JBS_Aziz_Emir.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }

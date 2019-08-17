@@ -85,7 +85,7 @@ set_popularities = {
 #	name = "Louis Doedel"
 #	desc = "POLITICS_DOEDEL_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = syndicalist_subtype
 #	traits = {}
 #}
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Anton de Kom"
 	desc = "POLITICS_DE_KOM_DESC"
 	picture = "Portrait_Suriname_Anton_de_Kom.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Archibald Currie"
 	desc = "POLITICS_DE_KOM_DESC"
 	picture = "Portrait_Suriname_Archibald_Currie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -112,7 +112,7 @@ create_country_leader = {
 #	name = "Johan Achmed de Miranda"
 #	desc = "POLITICS_JA_MIRANDA_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_liberal_subtype
 #	traits = {}
 #}
@@ -121,7 +121,7 @@ create_country_leader = {
 #	name = "Asgar Karamat Ali"
 #	desc = "POLITICS_KARAMAT_ALI_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_conservative_subtype
 #	traits = {}
 #}
@@ -130,7 +130,7 @@ create_country_leader = {
 #	name = "Simon Sanches"
 #	desc = "POLITICS_SANCHES_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = paternal_autocrat_subtype
 #	traits = {}
 #}

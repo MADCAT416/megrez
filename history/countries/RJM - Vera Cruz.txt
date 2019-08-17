@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Olímpio Mourão Filho"
 	desc = "POLITICS_BIG_MOURA_JR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Mourao_Filho.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Belisário Penna"
 	desc = "POLITICS_BELISARIUS_PITY_DESC"
 	picture = "Portrait_RJM_Belisario_Pena.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Araken de Oliveira"
 	desc = "POLITICS_ARAKEN_OLIVEIRA_HOS_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Araken_Oliveira.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Afonso Pena Jr."
 	desc = "POLITICS_AFONSO_FEATHER_JUNIOR_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Afonso_Pena_Jr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Olegário Maciel"
 	desc = "POLITICS_MACIEL_RJM_DESC"
 	picture = "Portrait_BRA_Olegario_Maciel.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Juscelino Kubitschek"
 	desc = "POLITICS_JK_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Carlos Coimbra da Luz"
 	desc = "POLITICS_CARLOS_LUZ_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Carlos_Coimbra_da_Luz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "Minervino de Oliveira"
 	desc = "POLITICS_MINERVINO_OLIVER_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Minervino_Oliveira.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -147,7 +147,7 @@ create_country_leader = {
 	name = "Carlos Lacerda"
 	desc = "POLITICS_LACERDA_TOT_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Carlos_Lacerda.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Astrojildo Pereira"
 	desc = "POLITICS_ASTROJILDO_RJM_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Astrojildo_Pereira.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

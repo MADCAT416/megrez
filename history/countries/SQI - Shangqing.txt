@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Zhang Tianran"
 	desc = "POLITICS_ZHANG_TIANRAN_DESC"
 	picture = "Portrait_SQI_Zhang_Tianran.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

@@ -204,7 +204,7 @@ create_country_leader = {
 	name = "Georg Kraut"
 	desc = "POLITICS_KRAUT_DESC"
 	picture = "Portrait_Mittelafrika_Georg_Kraut.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -212,7 +212,7 @@ create_country_leader = {
 	name = "Hermann von Göring"
 	desc = "POLITICS_GOERING_DESC"
 	picture = "Portrait_Mittelafrika_Hermann_Goering.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -220,7 +220,7 @@ create_country_leader = {
 	name = "Hermann von Göring"
 	desc = "POLITICS_GOERING_DESC"
 	picture = "Portrait_Mittelafrika_Hermann_Goering.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -229,7 +229,7 @@ create_country_leader = {
 	name = "Theodor von Hassel"
 	desc = "POLITICS_HASSEL_DESC"
 	picture = "Portrait_Mittelafrika_Theodor_von_Hassel.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -238,7 +238,7 @@ create_country_leader = {
 	name = "Jules Cousin"
 	desc = "POLITICS_COUSIN_DESC"
 	picture = "Portrait_Mittelafrika_Jules_Cousin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -247,7 +247,7 @@ create_country_leader = {
 	name = "Nigel Leaky"
 	desc = "POLITICS_LEAKY_DESC"
 	picture = "Portrait_Mittelafrika_Nigel_Leaky.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -256,7 +256,7 @@ create_country_leader = {
 	name = "Albert von Göring"
 	desc = "POLITICS_EPSTEIN_DESC"
 	picture = "Portrait_Mittelafrika_Albert_Goering.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }

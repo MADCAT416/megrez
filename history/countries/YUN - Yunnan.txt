@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Long Yun"
 	desc = "ANTE_LONG_YUN_DESC"
 	picture = "Portrait_Yunnan_Long_Yun.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

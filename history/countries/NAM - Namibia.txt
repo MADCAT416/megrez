@@ -42,7 +42,7 @@ create_country_leader = {
 	name = "Otto Schimming"
 	desc = "POLITICS_OTTO_SCHIMMING_DESC"
 	picture = "Portrait_NAM_Otto_Schimming.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -51,7 +51,7 @@ create_country_leader = {
 	name = "Leonard Auala"
 	desc = "POLITICS_LEORNARD_AUALA_DESC"
 	picture = "Portrait_NAM_Leonard_Auala.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Hosea Kutako"
 	desc = "POLITICS_HOSEA_DESC"
 	picture = "Portrait_NAM_Hosea_Kutako.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -69,7 +69,7 @@ create_country_leader = {
 	name = "Gustav Adolf Schatz"
 	desc = "POLITICS_GUSTAV_DESC"
 	picture = "Portrait_NAM_Gutav_Adolf_Schatz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -78,7 +78,7 @@ create_country_leader = {
 	name = "Friedrich Maharero"
 	desc = "POLITICS_MAHARERO_DESC"
 	picture = "Portrait_NAM_Friedrich_Maharero.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -87,7 +87,7 @@ create_country_leader = {
 	name = "Heinrich Kirchheim"
 	desc = "POLITICS_KIRSCHHEIM_DESC"
 	picture = "Portrait_NAM_Heinrich_Kircheim.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Samuel Maharero"
 	desc = "POLITICS_SAMUEL_MAHARERO_DESC"
 	picture = "Portrait_NAM_Samuel_Maharero.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Samuel Maharero"
 	desc = "POLITICS_SAMUEL_MAHARERO_DESC"
 	picture = "Portrait_NAM_Samuel_Maharero.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

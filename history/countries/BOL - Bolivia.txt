@@ -178,7 +178,7 @@ create_country_leader = {
 	name = "Germán Busch Becerra"
 	desc = "POLITICS_GERMAN_BUSCH_DESC"
 	picture = "Portrait_BOL_German_Busch.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -187,7 +187,7 @@ create_country_leader = {
 	name = "Victor Paz Estenssoro"
 	desc = "POLITICS_VICTOR_PAZ_DESC"
 	picture = "Portrait_Bolivia_Victor_Paz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	name = "Arze y Arze"
 	desc = "POLITICS_ARZE_ARZE_DESC"
 	picture = "Portrait_Bolivia_Arze_Arze.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "Bernardino Bilbao Rioja"
 	desc = "POLITICS_BILBAO_RIOJA_BOL_HOS_DESC"
 	picture = "Portrait_Bolivia_Bernardino_Rioja.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "Enrique Peñaranda Castillo"
 	desc = "POLITICS_ENRIQUE_CASTILLO_HOS_DESC"
 	picture = "Portrait_Bolivia_Enrique_Castillo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -223,7 +223,7 @@ create_country_leader = {
 	name = "Mamerto Urriolagoitia Harriague"
 	desc = "POLITICS_MAMERTO_URRIO_DESC"
 	picture = "Portrait_Bolivia_Mamerto_Urriolagoitia.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -232,7 +232,7 @@ create_country_leader = {
 	name = "Simon L. Patiño"
 	desc = "POLITICS_THE_KINGTIN_DESC"
 	picture = "Portrait_BOL_Patino.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -241,7 +241,7 @@ create_country_leader = {
 	name = "Daniel Sanchez Bustamante"
 	desc = "POLITICS_DANI_BUSTAMANTE_DESC"
 	picture = "Portrait_BOL_Daniel_Sanchez_Bustamente.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -250,7 +250,7 @@ create_country_leader = {
 	name = "Franz Tamayo Solares"
 	desc = "POLITICS_FRANZ_TAMAYO_DESC"
 	picture = "Portrait_Bolivia_Franz_Tamayo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -259,7 +259,7 @@ create_country_leader = {
 	name = "Carlos Quintanilla Quiroga"
 	desc = "POLITICS_CARLOS_QUIROGA_DESC"
 	picture = "Portrait_Bolivia_Carlos_Quiroga.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

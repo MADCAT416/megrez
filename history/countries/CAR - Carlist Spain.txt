@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Javier I"
 	desc = "POLITICS_JAVIER_CARLIST_DESC"
 	picture = "Portrait_Javier_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Javier I"
 	desc = "POLITICS_JAVIER_CARLIST_DESC"
 	picture = "Portrait_Javier_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "Jesús María de Leizaola"
 	desc = "POLITICS_JESUS_MARIA_LEIZAOLA_DESC"
 	picture = "Portrait_CAR_Jesus_Maria_de_Leizaola.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -147,7 +147,7 @@ create_country_leader = {
 	name = "Ramón Otero Pedrayo"
 	desc = "POLITICS_RAMON_OTERO_PEDRAYO_DESC"
 	picture = "Portrait_CAR_Ramon_Otero_Pedrayo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Antón Vilar Ponte"
 	desc = "POLITICS_ANTON_VILAR_PONTE_DESC"
 	picture = "Portrait_CAR_Anton_Vilar_Ponte.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -165,7 +165,7 @@ create_country_leader = {
 	name = "Anacleto Ortueta"
 	desc = "POLITICS_ANCELETO_ORTUETA_DESC"
 	picture = "Portrait_CAR_Anacleto_Ortueta.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

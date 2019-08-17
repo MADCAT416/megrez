@@ -36,7 +36,7 @@ create_country_leader = {
 	name = "Muhammad Urada ibn Ibrahim"
 	desc = "MUHAMMAD_URADA_IBN_IBRAHIM_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_1.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

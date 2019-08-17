@@ -143,7 +143,7 @@ create_country_leader = {
 	name = "Valko Chervenkov"
 	desc = "POLITICS_VALKO_CHERENKOV_DESC"
 	picture = "Portrait_BUL_Valko_Chervenkov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -152,7 +152,7 @@ create_country_leader = {
 	name = "Georgi Dimitrov"
 	desc = "POLITICS_GEORGI_DIMITROV_DESC"
 	picture = "Portrait_BUL_Georgi_Dimitrov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -161,7 +161,7 @@ create_country_leader = {
 	name = "Mihail Gerdzhikov"
 	desc = "POLITICS_MIHAIL_GERDZHIKOV_DESC"
 	picture = "Portrait_BUL_Mihail_Gerdzhikov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -170,7 +170,7 @@ create_country_leader = {
 	name = "Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -179,7 +179,7 @@ create_country_leader = {
 	name = "Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -188,7 +188,7 @@ create_country_leader = {
 	name = "Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -197,7 +197,7 @@ create_country_leader = {
 	name = "Aleksandar Stamboliyski"
 	desc = "POLITICS_ALEKSANDAR_STAMBOLIYSKI_DESC"
 	picture = "Portrait_BUL_Aleksandar_Stamboliyski.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -206,7 +206,7 @@ create_country_leader = {
 	name = "Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -215,7 +215,7 @@ create_country_leader = {
 	name = "Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -224,7 +224,7 @@ create_country_leader = {
 	name = "Kimon Georgiev Stoyanov"
 	desc = "POLITICS_KIMON_GEORGIEV_DESC"
 	picture = "Portrait_BUL_Kimon_Griogiev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

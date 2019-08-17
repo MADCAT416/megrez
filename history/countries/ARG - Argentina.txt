@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Manuel Carlés"
 	desc = "POLITICS_CARLES_DESC"
 	picture = "Portrait_ARG_Manuel_Carles.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "Juan Domingo Peron"
 	desc = "POLITICS_DOMINGO_PERON_DESC"
 	picture = "Portrait_Argentine_Domingo_Peron.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "Nicolas Repetto"
 	desc = "POLITICS_NICOLAS_REPETTO_DESC"
 	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Pedro Pablo Ramirez"
 	desc = "POLITICS_PABLO_RAMIREZ_DESC"
 	picture = "Portrait_Argentine_Pablo_Ramirez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -164,7 +164,7 @@ create_country_leader = {
 	name = "Roberto M. Ortiz"
 	desc = "POLITICS_ROBERTO_ORTIZ_DESC"
 	picture = "Portrait_ARG_Ortiz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -172,7 +172,7 @@ create_country_leader = {
 	name = "Ramón Antonio Castillo"
 	desc = "POLITICS_RAMON_CASTILLO_DESC"
 	picture = "Portrait_Argentine_Ramon_Castillo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -180,7 +180,7 @@ create_country_leader = {
 	name = "Nicolas Repetto"
 	desc = "POLITICS_NICOLAS_REPETTO_DESC"
 	picture = "Portrait_Argentine_Nicolas_Repetto.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -188,7 +188,7 @@ create_country_leader = {
 	name = "Hipólito Yrigoyen"
 	desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
 	picture = "Portrait_Argentine_Hipolito_Yrigoyen.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	name = "Jose Peter"
 	desc = "POLITICS_JOSE_PETER_DESC"
 	picture = "Portrait_Argentine_Jose_Peter.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -204,7 +204,7 @@ create_country_leader = {
 	name = "Angel Borlenghi"
 	desc = "POLITICS_ANGEL_BORLENGHI_DESC"
 	picture = "Portrait_Argentine_Angel_Borlenghi.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }

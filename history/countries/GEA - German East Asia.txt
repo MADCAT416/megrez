@@ -206,7 +206,7 @@ create_country_leader = {
 	name = "Felix von Luckner" # In case von Mücke got deposed
 	desc = "POLITICS_FELIX_VON_LUCKNER_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Felix_Von_Luckner.tga"
-	expire = "1966.4.13"
+	expire = "1991.4.13"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "Felix von Luckner" # In case von Mücke got deposed
 	desc = "POLITICS_FELIX_VON_LUCKNER_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Felix_Von_Luckner.tga"
-	expire = "1966.4.13"
+	expire = "1991.4.13"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -222,7 +222,7 @@ create_country_leader = {
 	name = "Hellmuth von Mücke"
 	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
-	expire = "1957.7.30"
+	expire = "1991.7.30"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -230,7 +230,7 @@ create_country_leader = {
 	name = "Hellmuth von Mücke"
 	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.tga"
-	expire = "1957.7.30"
+	expire = "1991.7.30"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

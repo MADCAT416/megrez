@@ -35,7 +35,7 @@ create_country_leader = {
 	name = "William Ofori Atta"
 	desc = "POLITICS_ATTA_OFORI_DESC"
 	picture = "Portrait_Ashanti_Ofori.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Prempeh II"
 	desc = "POLITICS_PREMPEH_DESC"
 	picture = "Portrait_Ashanti_Prempeh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -53,7 +53,7 @@ create_country_leader = {
 	name = "Komla Agbeli Gbedemah"
 	desc = "POLITICS_GBEDMAH_DESC"
 	picture = "Portrait_Ashanti_Gbedemah.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -62,7 +62,7 @@ create_country_leader = {
 	name = "Edward Akufo-Addo"
 	desc = "POLITICS_AKUFOADDO_DESC"
 	picture = "Portrait_Ashanti_Addo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Henley Coussey"
 	desc = "POLITICS_COUSSEY_GHA_DESC"
 	picture = "Portrait_Ashanti_Coussey.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Joseph Casley Hayford"
 	desc = "POLITICS_JOSEPH_CASEY_DESC"
 	picture = "Portrait_Ashanti_Casey.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "J. B. Danquah"
 	desc = "POLITICS_DANQUAH_DESC"
 	picture = "Portrait_Ashanti_Danquah.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -99,7 +99,7 @@ create_country_leader = {
 	name = "Kofi Abrefa Busia"
 	desc = "POLITICS_BUSIA_DESC"
 	picture = "Portrait_Ashanti_Busia.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -108,7 +108,7 @@ create_country_leader = {
 	name = "Kwame Nkrumah"
 	desc = "POLITICS_KWAMA_NKRUMAH_DESC"
 	picture = "Portrait_Ashanti_Kwame.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Kojo Botsio"
 	desc = "POLITICS_KOJOBOTSIO_DESC"
 	picture = "Portrait_Ashanti_Kojo_Botsio.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

@@ -65,7 +65,7 @@ create_country_leader = {
 	name = "Uladzimir I"
 	desc = "POLITICS_VLADIMIR_DESC"
 	picture = "Portrait_Belarus_Vladimir_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -74,7 +74,7 @@ create_country_leader = {
  name = "Vaclaŭ Lastoŭski"
  desc = "POLITICS_VACLAU_LASTOUSKI_DESC"
  picture = "Portrait_Belarus_Vaclau_Lastouski.tga"
- expire = "1965.1.1"
+ expire = "1991.1.1"
  ideology = syndicalist_subtype
  traits = {}
 }
@@ -83,7 +83,7 @@ create_country_leader = {
  name = "Branislaŭ Taraškievič"
  desc = "POLITICS_BRANISLAU_TARASKIEVIC_DESC"
  picture = "Portrait_Belarus_Branislau_Taraskievic.tga"
- expire = "1965.1.1"
+ expire = "1991.1.1"
  ideology = totalist_subtype
  traits = {}
 }

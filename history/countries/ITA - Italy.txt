@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Italo Balbo"
 	picture = "Portrait_ITA_Italo_Balbo.tga"
 	desc = "POLITICS_ITALO_BALBO_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {
 		dictator
@@ -143,7 +143,7 @@ create_country_leader = { # Giovanni Gronchi
 	name = "Giovanni Gronchi"
 	picture = "Portrait_ITA_Giovanni_Gronchi.tga"
 	desc = "POLITICS_GIOVANNI_GRONCHI_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -151,7 +151,7 @@ create_country_leader = {# Luigi Einaudi
 	name = "Luigi Einaudi"
 	picture = "Portrait_ITA_Luigi_Einaudi.tga"
 	desc = "POLITICS_LUIGI_EINAUDI_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -159,7 +159,7 @@ create_country_leader = {# Ivanoe Bonomi
 	name = "Ivanoe Bonomi"
 	picture = "Portrait_ITA_Ivanoe_Bonomi.tga"
 	desc = "POLITICS_IVANOE_BONOMI_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -167,7 +167,7 @@ create_country_leader = {# Carlo Rossi
 	name = "Carlo Rosselli"
 	picture = "Portrait_ITA_Carlo_Rossi.tga"
 	desc = "POLITICS_CARL_ROSSI_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }

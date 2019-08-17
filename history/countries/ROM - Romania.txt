@@ -178,7 +178,7 @@ create_country_leader = {
 	name = "Corneliu Zelea Codreanu"
 	desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
 	picture = "Portrait_Romania_Corneliu_Zelea_Codreanu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -187,7 +187,7 @@ create_country_leader = {
 	name = "A.C. Cuza"
 	desc = "POLITICS_AC_CUZA_DESC"
 	picture = "Portrait_Romania_A._C._Cuza_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	name = "Nicolae I"
 	desc = "POLITICS_NICOLAE_I_DESC"
 	picture = "Portrait_Romania_Nicolae_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "Sever Bocu"
 	desc = "POLITICS_SEVER_BOCU_DESC"
 	picture = "Portrait_Romania_Sever_Bocu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "Ion Mihalache"
 	desc = "POLITICS_ION_MIHALACHE_DESC"
 	picture = "Portrait_Romania_Ion_Mihalache.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -223,7 +223,7 @@ create_country_leader = {
 	name = "Alexandru Averescu"
 	desc = "POLITICS_ALEXANDRU_AVERESCU_DESC"
 	picture = "Portrait_Romania_Alexandru_Averescu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -232,7 +232,7 @@ create_country_leader = {
 	name = "Ion Gheorghe Duca"
 	desc = "POLITICS_ION_GHEORGHE_DUCA_DESC"
 	picture = "Portrait_Romania_Ion_Gheorghe_Duca.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -241,7 +241,7 @@ create_country_leader = {
 	name = "Gheorghe Gheorghiu-Dej"
 	desc = "POLITICS_GHEORGHE_GHEORGHIU_DEJ_DESC"
 	picture = "Portrait_Romania_Gheorghe_Gheorghiu_Dej.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -250,7 +250,7 @@ create_country_leader = {
 	name = "Teohari Georgescu"
 	desc = "POLITICS_TEOHARI_GEORGESCU_DESC"
 	picture = "Portrait_Romania_Teohari_Georgescu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -259,7 +259,7 @@ create_country_leader = {
 	name = "Lucretiu Patrascanu"
 	desc = "POLITICS_LUCRETIU_PATRASCANU_DESC"
 	picture = "Portrait_Romania_Lucretiu_Patrascanu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }

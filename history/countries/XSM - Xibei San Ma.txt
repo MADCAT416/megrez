@@ -47,7 +47,7 @@ create_country_leader = {
 	name = "Ma Fuxiang"
 	desc = "ANTE_MA_FUXIANG_DESC"
 	picture = "Portrait_XSM_Ma_Fuxiang.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	id = 4000
 	ideology = paternal_autocrat_subtype
 	traits = {}
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Ma Bufang"
 	desc = "ANTE_MA_BUFANG_DESC"
 	picture = "Portrait_XSM_Ma_Bufang_2.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -66,7 +66,7 @@ create_country_leader = {
 	name = "Ma Lin"
 	desc = "ANTE_MA_LIN_DESC"
 	picture = "Portrait_XSM_Ma_Lin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Liu Zhidan"
 	desc = "ANTE_LIU_ZHIDAN_DESC"
 	picture = "Portrait_XSM_Liu_Zhidan.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Xi Zhongxun"
 	desc = "ANTE_XI_ZHONGXUN_DESC"
 	picture = "Portrait_XSM_Xi_Zhongxun.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Wu Daifeng"
 	desc = "ANTE_WU_DAIFENG_DESC"
 	picture = "Portrait_XSM_Wu_Daifeng.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Ma Mingfang"
 	desc = "ANTE_MA_MINGFANG_DESC"
 	picture = "Portrait_XSM_Ma_Mingfang.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Ma Wunrui"
 	desc = "ANTE_MA_WENRUI_DESC"
 	picture = "Portrait_XSM_Ma_Wenrui.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "He Xiangning"
 	desc = "ANTE_HE_XIANGNING_DESC"
 	picture = "Portrait_XSM_He_Xiangning.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Sun Lianguang"
 	desc = "ANTE_SUN_LIANGUANG_DESC"
 	picture = "Portrait_XSM_Sun_Lianguang.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }

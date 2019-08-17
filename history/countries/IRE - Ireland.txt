@@ -85,103 +85,123 @@ set_politics = {
 }
 
 set_popularities = {
-    totalist = 3
-    democratic_socialist = 5
-    syndicalist = 10
+    totalist = 5
+    democratic_socialist = 10
+    syndicalist = 40
     social_democrat = 5
-    social_liberal = 3
-    market_liberal = 3
-    social_conservative = 13
-    authoritarian_democrat = 46
-    paternal_autocrat = 7
-    ethnic_populist = 5
+    social_progressive = 5
+    social_liberal = 5
+    market_liberal = 10
+    social_conservative = 2
+    authoritarian_democrat = 15
+    paternal_autocrat = 1
+    clerical_nationalist = 5
+    ethnic_populist = 2
 }
 
 create_country_leader = {
-	name = "Michael Collins"
+	name = "Gearóid Ó Cuinneagáin"
 	desc = "POLITICS_MICHAEL_COLLINS_DESC"
-	picture = "Portrait_Ireland_Michael_Collins.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Gearóid_Ó_Cuinneagáin.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Tom Ó hUiginn"
+	desc = "POLITICS_MICHAEL_COLLINS_DESC"
+	picture = "Portrait_Ireland_Tom_Ó_hUiginn.tga"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Cathal Brugha"
+	name = "Gearoidín Fitt"
 	desc = "POLITICS_CATHAL_BRUGHA_DESC"
-	picture = "Portrait_Ireland_Cathal_Brugha.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Gearoidín_Fitt.tga"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Frank MacDermot"
+	name = "Leaslaoi Mearda de Barra"
+	desc = "POLITICS_CATHAL_BRUGHA_DESC"
+	picture = "Portrait_Ireland_Leaslaoi_Mearda_de_Barra.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Seosamh O Blatmaic"
 	desc = "POLITICS_FRANK_MACDERMOT_DESC"
-	picture = "Portrait_Ireland_Frank_MacDermot.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Seosamh_O_Blatmaic.tga"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "James Larkin"
+	name = "Padraigín Ní Mhurchú"
 	desc = "POLITICS_JIM_LARKIN_DESC"
-	picture = "Portrait_Ireland_Jim_Larkin.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Padraigín_Ní_Mhurchú.tga"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Gearóid Ó Cuinneagáin"
+	name = "Wendy Millar"
 	desc = "POLITICS_GEAROID_O_CUINNEAGAIN_DESC"
-	picture = "Portrait_Ireland_Gearoid_O_Cuinneagain.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Wendy_Millar.tga"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Pádraic Ó Máille"
+	name = "Ned Ó Cróinín"
 	desc = "POLITICS_PADRAIC_O_MAILLE_DESC"
-	picture = "Portrait_Ireland_Padraic_O_Maille.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Ned_Ó_Cróinín.tga"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Betty Sinclair"
+	name = "Breandán Mac Fheorais"
 	desc = "POLITICS_BETTY_SINCLAIR_DESC"
-	picture = "Portrait_Ireland_Betty_Sinclair.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Breandán_Mac_Fheorais.tga"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Seán Lemass"
+	name = "Oilibhéar Napier"
 	desc = "POLITICS_SEAN_LEMASS_DESC"
-	picture = "Portrait_Ireland_Sean_Lemass.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Oilibhéar_Napier.tga"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Éamon de Valera"
+	name = "Pádraig Ó hIrighile"
 	desc = "POLITICS_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Eamon_de_Valera2.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Pádraig_Ó_hIrighile.tga"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Sean Murray"
+	name = "Mícheál Ó Ríordáin"
 	desc = "POLITICS_SEAN_MURRAY_DESC"
-	picture = "Portrait_Ireland_Sean_Murray.tga"
-	expire = "1965.1.1"
+	picture = "Portrait_Ireland_Mícheál_Ó_Ríordáin.tga"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

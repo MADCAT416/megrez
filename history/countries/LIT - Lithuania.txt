@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Mindaugas III"
 	desc = "POLITICS_MINDAUGAS_III_DESC"
 	picture = "Portrait_Lithuania_Mindaugas_III.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -114,7 +114,7 @@ create_country_leader = {
 	name = "Kazys Škirpa"
 	desc = "POLITICS_SKIRPA_DESC"
 	picture = "Portrait_Lithuania_Kazys_Skirpa.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -123,7 +123,7 @@ create_country_leader = {
 	name = "Vladas Pozela"
 	desc = "POLITICS_POZELA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Stasys Lozoraitis"
 	desc = "POLITICS_LOZORAITIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -141,7 +141,7 @@ create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
 	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -150,7 +150,7 @@ create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
 	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -159,7 +159,7 @@ create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
 	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -168,7 +168,7 @@ create_country_leader = {
 	name = "Kazimieras II"
 	desc = "POLITICS_KAZIMIERAS_II_DESC"
 	picture = "Portrait_Lithuania_Kazimieras_II_Tiskevicius.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

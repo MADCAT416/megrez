@@ -158,7 +158,7 @@ create_country_leader = {
 	name = "Robert C. Begg"
 	desc = "POLITICS_ROBERT_BEGG_DESC"
 	picture = "Portrait_NZL_Robert_Begg.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -166,7 +166,7 @@ create_country_leader = {
 	name = "Bernard Freyberg"
 	desc = "POLITICS_BERNARD_FREYBERG_DESC"
 	picture = "Portrait_NZL_Bernard_Freyberg.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -174,7 +174,7 @@ create_country_leader = {
 	name = "Adam Hamilton"
 	desc = "POLITICS_ADAM_HAMILTON_DESC"
 	picture = "Portrait_NZL_Adam_Hamilton.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -182,7 +182,7 @@ create_country_leader = {
 	name = "Albert E. Davy"
 	desc = "POLITICS_ALBERT_DAVY_DESC"
 	picture = "Portrait_NZL_Albert_Davy.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -190,7 +190,7 @@ create_country_leader = {
 	name = "Eruera Tirikatene"
 	desc = "POLITICS_ERUERA_TIRIKATENE_DESC"
 	picture = "Portrait_NZL_Eruera_Tirikatene.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -198,7 +198,7 @@ create_country_leader = {
 	name = "Michael J. Savage"
 	desc = "POLITICS_MICHAEL_SAVAGE_DESC"
 	picture = "Portrait_NZL_Michael_Joseph_Savage.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -206,7 +206,7 @@ create_country_leader = {
 	name = "Fintan P. Walsh"
 	desc = "POLITICS_FINTAN_WALSH_DESC"
 	picture = "Portrait_NZL_Fintan_Walsh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "John A. Lee"
 	desc = "POLITICS_JOHN_A_LEE_DESC"
 	picture = "Portrait_NZL_John_Lee.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -222,7 +222,7 @@ create_country_leader = {
 	name = "Alexander Galbraith"
 	desc = "POLITICS_ALEXANDER_GALBRAITH_DESC"
 	picture = "Portrait_NZL_Alexander_Galbraith.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

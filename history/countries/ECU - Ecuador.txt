@@ -121,7 +121,7 @@ create_country_leader = {
 	name = "Isidro Ayora"
 	desc = "POLITICS_ISIDORO_AYORA_DESC"
 	picture = "Portrait_Ecuador_Isidoro_Ayora.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Alfredo Baquerizo Moreno"
 	desc = "POLITICS_ALFREDO_MORENO_DESC"
 	picture = "Portrait_Ecuador_Alfredo_Baquerizo_Moreno.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "Federico Páez Chiriboaga"
 	desc = "POLITICS_FREDERICO_PAEZ_CHIRBOGA_DESC"
 	picture = "Portrait_Ecuador_Fedrerico_Chiriboaga.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "José María Velasco Ibarra"
 	desc = "POLITICS_JOSE_IBARRA_DESC"
 	picture = "Portrait_ECU_Jose_Ibarra.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -157,7 +157,7 @@ create_country_leader = {
 	name = "Alberto Enríquez Gallo"
 	desc = "POLITICS_Alberto_GALLO_DESC"
 	picture = "Portrait_Ecuador_Alberto_Gallo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -166,7 +166,7 @@ create_country_leader = {
 	name = "Carlos Mancheno Cajas"
 	desc = "POLITICS_CARLOS_CAJAS_DESC"
 	picture = "Portrait_Ecuador_Carlos_Cajas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -175,7 +175,7 @@ create_country_leader = {
 	name = "Ricardo Paredes Romero"
 	desc = "POLITICS_RICARDO_PAREDES_DESC"
 	picture = "Portrait_Ecuador_Ricardo_Paredes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -184,7 +184,7 @@ create_country_leader = {
 	name = "Dolores Cacuango"
 	desc = "POLITICS_Dolores_Cacuango_DESC"
 	picture = "Portrait_Ecuador_Dolores_Caucango.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -193,7 +193,7 @@ create_country_leader = {
 	name = "Nela Martínez Espinosa"
 	desc = "POLITICS_NELA_MARTINEZ_DESC"
 	picture = "Portrait_Ecuador_Nela_Martinez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

@@ -214,7 +214,7 @@ create_country_leader = {# Oswald Mosley
 	name = "Oswald Mosley"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_England_Oswald_Mosley.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -222,7 +222,7 @@ create_country_leader = {# Niclas Y Glais
 	name = "Niclas y Glais"
 	desc = "POLITICS_NICLAS_GLAIS_DESC"
 	picture = "Portrait_England_Niclas_y_Glais.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -231,7 +231,7 @@ create_country_leader = {
 	name = "Arthur Horner"
 	desc = "POLITICS_ARTHUR_HORNER_DESC"
 	picture = "Portrait_England_Arthur_Horner.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -239,7 +239,7 @@ create_country_leader = {# Philip Snowden
 	name = "Philip Snowden"
 	desc = "POLITICS_PHILIP_SNOWDEN_DESC"
 	picture = "Portrait_England_Philip_Snowden.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }

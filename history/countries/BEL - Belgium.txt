@@ -213,7 +213,7 @@ create_country_leader = {
 	name = "Léon Degrelle"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "Portrait_Belgium_LEON_DEGRELLE.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -222,7 +222,7 @@ create_country_leader = {
 	name = "Joris Van Severen"
 	desc = "POLITICS_JORIS_SEVEREN_DESC"
 	picture = "Portrait_Belgium_Joris_Van_Severen.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -231,7 +231,7 @@ create_country_leader = {
 	name = "Adelbert"
 	desc = "POLITICS_ADALBERT_I_DESC"
 	picture = "Portrait_Belgium_Adalbert_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -240,7 +240,7 @@ create_country_leader = {
 	name = "Paul Van Zeeland"
 	desc = "POLITICS_PAUL_ZEELAND_DESC"
 	picture = "Portrait_Belgium_Paul_van_Zeeland.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -249,7 +249,7 @@ create_country_leader = {
 	name = "Paul-Emile Janson"
 	desc = "POLITICS_PAUL_EMILE_JANSON_DESC"
 	picture = "Portrait_Belgium_Paul_Emile_Janson.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -258,7 +258,7 @@ create_country_leader = {
 	name = "Paul-Henri Spaak"
 	desc = "POLITICS_PAUL_HENRI_SPAAK_DESC"
 	picture = "Portrait_Belgium_Paul_Henri_Spaak.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -267,7 +267,7 @@ create_country_leader = {
 	name = "Hendrik De Man"
 	desc = "POLITICS_HENRIK_MAN_DESC"
 	picture = "Portrait_Belgium_Hendrik_De_Man.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -276,7 +276,7 @@ create_country_leader = {
 	name = "Xavier Relecom"
 	desc = "POLITICS_XAVIER_RELECOM_DESC"
 	picture = "Portrait_Belgium_Xavier_Relecom.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -285,7 +285,7 @@ create_country_leader = {
 	name = "Joseph Jacquemotte"
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 	picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -294,7 +294,7 @@ create_country_leader = {
 	name = "Julien Lahaut"
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "Portrait_Belgium_Julien_Lahaut.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

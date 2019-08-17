@@ -200,7 +200,7 @@ create_country_leader = {
 	name = "Reşad Fuad Bey"
 	desc = "POLITICS_RESAD_FUAD_DESC"
 	picture = "Picture_Ottoman_Resad_Fuad.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -209,7 +209,7 @@ create_country_leader = {
 	name = "Şefik Hüsnü Bey"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "Picture_Ottoman_Sefik_Husnu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -218,7 +218,7 @@ create_country_leader = {
 	name = "Ethem Nejat"
 	desc = "POLITICS_ETHEM_NEJAT_DESC"
 	picture = "Picture_Ottoman_Ethem_Nejat.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -227,7 +227,7 @@ create_country_leader = {
 	name = "Hasan Âli Paşa"
 	desc = "POLITICS_HASAN_ALI_DESC"
 	picture = "Picture_Ottoman_Hasan_Ali.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -236,7 +236,7 @@ create_country_leader = {
 	name = "Prens Sabâhaddin Efendi"
 	desc = "POLITICS_SABAHADDIN_EFENDI_DESC"
 	picture = "Picture_Ottoman_Sabahaddin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -245,7 +245,7 @@ create_country_leader = {
 	name = "Ali Adnan Bey"
 	desc = "POLITICS_ALI_ADNAN_DESC"
 	picture = "Portrait_Ottoman_Ali_Adnan_Bey.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -254,7 +254,7 @@ create_country_leader = {
 	name = "Ali Şükrü Paşa"
 	desc = "POLITICS_ALI_SUKRU_DESC"
 	picture = "Portrait_Ottoman_Ali_Sukru_Pasa.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -263,7 +263,7 @@ create_country_leader = {
 	name = "Mehmed Cavid Bey"
 	desc = "POLITICS_MEHMED_CAVID_DESC"
 	picture = "Portrait_Mehmed_Cavid.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -272,7 +272,7 @@ create_country_leader = {
 	name = "Hüseyin Selahattin Paşa"
 	desc = "POLITICS_HUSEYIN_SELAHATTIN_DESC"
 	picture = "Picture_Ottoman_Huseyin_Selahattin_Pasa.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -281,7 +281,7 @@ create_country_leader = {
 	name = "Abdülmecid II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "Portrait_Ottoman_Abdulmecid.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -290,7 +290,7 @@ create_country_leader = {
 	name = "Hüseyin Nihâl Paşa"
 	desc = "POLITICS_HUSEYIN_NIHAL_DESC"
 	picture = "Portrait_Nihal_Atsiz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

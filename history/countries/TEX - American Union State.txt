@@ -175,7 +175,7 @@ create_country_leader = {
 	name = "William Dudley Pelley"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY"
 	picture = "Portrait_TEX_William_Dudley_Pelley.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -183,7 +183,7 @@ create_country_leader = {
 	name = "George Van Horn Moseley"
 	desc = "POLITICS_GEORGE_VAN_HORN_MOSELEY"
 	picture = "Portrait_TEX_George_Van_Horn_Moseley.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -191,7 +191,7 @@ create_country_leader = {
 	name = "Huey Long"
 	desc = "POLITICS_HUEY_LONG_DESC"
 	picture = "Portrait_TEX_Huey_Long.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

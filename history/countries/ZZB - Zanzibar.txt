@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "Khalifa II bin Harub Al-Said"
 	desc = "PAK_KHALIFA_DESC"
 	picture = "Portrait_Zanzibar_Sultan_Khalifa.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -42,7 +42,7 @@ create_country_leader = {
 	name = "Khalifa II bin Harub Al-Said"
 	desc = "PAK_KHALIFA_DESC"
 	picture = "Portrait_Zanzibar_Sultan_Khalifa.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

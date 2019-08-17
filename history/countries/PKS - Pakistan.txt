@@ -154,7 +154,7 @@ create_country_leader = {
 	name = "George V"
 	picture = "HOS_George5.tga"
 	desc = "POLITICS_GEORGE_FIFTH_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -162,7 +162,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Maharaja Ganga Singh"
 	picture = "Portrait_DEH_Maharaja_Ganga_Singh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -170,7 +170,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Maharaja Ranbir Singh"
 	picture = "Portrait_PRF_Maharaja_Ranbir_Singh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -178,7 +178,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Muhammad Ali Jinnah"
 	picture = "Portrait_DEH_Muhammad_Ali_Jinnah.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -186,7 +186,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jehangir Ratanji Dadabhoy Tata"
 	picture = "Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -194,7 +194,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "M. N. Roy"
 	picture = "gfx/leaders/BHC/Portrait_BHC_M_N_Roy.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -202,7 +202,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Baghat Singh"
 	picture = "gfx/leaders/BHC/Portrait_Bengal_Baghat_Singh.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

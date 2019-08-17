@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Abang Haji Openg"
 	desc = "POLITICS_ABANG_HAJI_OPENG_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Openg.tga"
-	expire = "1969.3.28"
+	expire = "1991.3.28"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Abang Haji Openg"
 	desc = "POLITICS_ABANG_HAJI_OPENG_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Openg.tga"
-	expire = "1969.3.28"
+	expire = "1991.3.28"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -92,7 +92,7 @@ create_country_leader = {
 	name = "Abang Haji Openg"
 	desc = "POLITICS_ABANG_HAJI_OPENG_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Openg.tga"
-	expire = "1969.3.28"
+	expire = "1991.3.28"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -100,7 +100,7 @@ create_country_leader = {
 	name = "Abang Haji Openg"
 	desc = "POLITICS_ABANG_HAJI_OPENG_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Openg.tga"
-	expire = "1969.3.28"
+	expire = "1991.3.28"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -124,7 +124,7 @@ create_country_leader = {
 	name = "Abang Haji Abdillah"
 	desc = "POLITICS_ABANG_HAJI_ABDILLAH_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Abdillah.tga"
-	expire = "1946.11.21"
+	expire = "1991.11.21"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Abang Haji Abdillah"
 	desc = "POLITICS_ABANG_HAJI_ABDILLAH_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Abang_Haji_Abdillah.tga"
-	expire = "1946.11.21"
+	expire = "1991.11.21"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -140,7 +140,7 @@ create_country_leader = {
 	name = "Lai Teck"
 	desc = "POLITICS_LAI_TECK_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Lai_Teck.tga"
-	expire = "1947.6.24"
+	expire = "1991.6.24"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "Lai Teck"
 	desc = "POLITICS_LAI_TECK_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Sarawak_Lai_Teck.tga"
-	expire = "1947.6.24"
+	expire = "1991.6.24"
 	ideology = totalist_subtype
 	traits = {}
 }

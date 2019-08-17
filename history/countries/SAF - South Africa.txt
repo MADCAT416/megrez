@@ -138,7 +138,7 @@ country_event = { id = saf.1 days = 2 } # Introduction event
 create_country_leader = {
 	name = "Moses M. Kotane"
 	picture = "Moses_Kotane_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -146,7 +146,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Yusuf Mohamed Dadoo"
 	picture = "Yusuf_Dadoo_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -154,7 +154,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "William Henry Andrews"
 	picture = "William_H._Andrews_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -162,7 +162,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "William Henry Andrews"
 	picture = "William_H._Andrews_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -170,7 +170,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hubert Winthrop Young"
 	picture = "Hubert_Winthrop_Young_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -178,7 +178,7 @@ create_country_leader = {
 	name = "James Hertzog"
 	desc = "POLITICS_JAMES_HERTZOG_DESC"
 	picture = "J._B._M._Hertzog_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -187,7 +187,7 @@ create_country_leader = {
 	name = "Jan Christiaan Smuts"
 	desc = "POLITICS_JAN_SMUTS_DESC"
 	picture = "Portrait_SAF_Jan_Smuts.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	name = "Nicolaas Havenga"
 	desc = "POLITICS_NICOLAAS_HAVENGA_DESC"
 	picture = "Portrait_SAF_Nicolaas_Havenga.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "Daniel François Malan"
 	desc = "POLITICS_DANIEL_MALAN_DESC"
 	picture = "Daniel_Francois_Malan_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	name = "Daniel François Malan"
 	desc = "POLITICS_DANIEL_MALAN_DESC"
 	picture = "Daniel_Francois_Malan_I.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

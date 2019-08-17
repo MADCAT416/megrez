@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Abu Meniar"
 	desc = "POLITICS_ABU_MENIAR_DESC"
 	picture = "Portrait_LBA_Abu_Meniar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Nuri al-Kikhia"
 	desc = "POLITICS_BASED_SUNGLASS_AND_FEZ_MAN_DESC"
 	picture = "Portrait_LBA_Nuri_Al_Khikia.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -112,7 +112,7 @@ create_country_leader = {
 	name = "Bashir Saadawi"
 	desc = "POLITICS_BASHIR_SAADAWI_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_1.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -121,7 +121,7 @@ create_country_leader = {
 	name = "Hussein Maziq"
 	desc = "POLITICS_HUSSEIN_MAZIQ_DESC"
 	picture = "Portrait_LBA_Hussein_Maziq.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Bashir Saadawi"
 	desc = "POLITICS_BASHIR_SAADAWI_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_1.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "Sharif El Gariani"
 	desc = "POLITICS_SHARIF_GARIANI_DESC"
 	picture = "Portrait_LBA_Sharif_Al_Gariani.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "Ramadan Sewehli"
 	desc = "POLITICS_RAMADAN_SEWEHELI_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_new_1.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -157,7 +157,7 @@ create_country_leader = {
 	name = "Ahmed Sharif I Al Senoussi"
 	desc = "POLITICS_AHMED_SHARIF_DESC"
 	picture = "Portrait_LBA_Ahmed_Sharif.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -166,7 +166,7 @@ create_country_leader = {
 	name = "Idris I"
 	desc = "POLITICS_IDRIS_DESC"
 	picture = "Portrait_LBA_Idris.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -175,7 +175,7 @@ create_country_leader = {
 	name = "Ahmed Sharif I Al Senoussi"
 	desc = "POLITICS_AHMED_SHARIF_DESC"
 	picture = "Portrait_LBA_Ahmed_Sharif.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

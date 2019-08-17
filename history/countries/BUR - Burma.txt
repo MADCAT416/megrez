@@ -89,7 +89,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3" # No Info on his death date here - damn the Myanmese for keeping all info in Burmese language only
+	expire = "1991.6.3" # No Info on his death date here - damn the Myanmese for keeping all info in Burmese language only
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -97,7 +97,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -121,7 +121,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -137,7 +137,7 @@ create_country_leader = {
 	name = "Maung Gyi"
 	desc = "POLITICS_MAUNG_GYI_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1980.6.3"
+	expire = "1991.6.3"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -145,7 +145,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -153,7 +153,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -161,7 +161,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -169,7 +169,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -177,7 +177,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -185,7 +185,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -193,7 +193,7 @@ create_country_leader = {
 	name = "Myat Paya Lat"
 	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
 	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1956.4.4"
+	expire = "1991.4.4"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -201,7 +201,7 @@ create_country_leader = {
 	name = "Ba Cho"
 	desc = "POLITICS_BA_CHO_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1947.7.19" # Same fateful day as Aung San OTL
+	expire = "1991.7.19" # Same fateful day as Aung San OTL
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -209,7 +209,7 @@ create_country_leader = {
 	name = "Ba Cho"
 	desc = "POLITICS_BA_CHO_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1947.7.19" # Same fateful day as Aung San OTL
+	expire = "1991.7.19" # Same fateful day as Aung San OTL
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -217,7 +217,7 @@ create_country_leader = {
 	name = "Ba Cho"
 	desc = "POLITICS_BA_CHO_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1947.7.19" # Same fateful day as Aung San OTL
+	expire = "1991.7.19" # Same fateful day as Aung San OTL
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

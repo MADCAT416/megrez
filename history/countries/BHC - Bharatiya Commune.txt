@@ -162,7 +162,7 @@ create_country_leader = {
 	name = "Nawab Khwaja Habibullah"
 	desc = "POLITICS_NAWAB_KHWAJA_DESC"
 	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -171,7 +171,7 @@ create_country_leader = {
 	name = "Nawab Khwaja Habibullah"
 	desc = "POLITICS_NAWAB_KHWAJA_DESC"
 	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -180,7 +180,7 @@ create_country_leader = {
 	name = "Iskander Mirza"
 	desc = "POLITICS_ISKANDER_MIRZA_DESC"
 	picture = "Portrait_BHC_Iskander_Mirza.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -189,7 +189,7 @@ create_country_leader = {
 	name = "Lala Lajpat Rai"
 	desc = "POLITICS_LALA_LAJPAT_RAI_DESC"
 	picture = "Portrait_Bengal_Lala_Lajpat_Rai.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -198,7 +198,7 @@ create_country_leader = {
 	name = "A. K. Fazlul Huq"
 	desc = "POLITICS_FAZLUL_HUQ_DESC"
 	picture = "Portrait_BHC_A_K_Fazlul_Huq.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -207,7 +207,7 @@ create_country_leader = {
 	name = "Subhas Chandra Bose"
 	desc = "POLITICS_CHANDRA_BOSE_DESC"
 	picture = "Portrait_BHC_Chandra_Bose.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

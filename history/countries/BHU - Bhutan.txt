@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "Jigme"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
 	picture = "Portrait_BHU_Jigme_Wangchuck.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -42,7 +42,7 @@ create_country_leader = {
 	name = "Jigme"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
 	picture = "Portrait_BHU_Jigme_Wangchuck.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -51,7 +51,7 @@ create_country_leader = {
 	name = "Jigme"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
 	picture = "Portrait_BHU_Jigme_Wangchuck.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Tshering Penjor"
 	desc = "POLITICS_TSHERING_PENJOR_DESC"
 	picture = "Portrait_BHU_Tshering_Penjor.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

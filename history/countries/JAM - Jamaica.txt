@@ -82,7 +82,7 @@ create_country_leader = {
 	name = "Alexander Bustamante"
 	desc = "POLITICS_BUSTAMANTE_DESC"
 	picture = "Portrait_Alexander_Bustamente.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -91,7 +91,7 @@ create_country_leader = {
 	name = "Alexander Bustamante"
 	desc = "POLITICS_BUSTAMANTE_DESC"
 	picture = "Portrait_Alexander_Bustamente.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -100,7 +100,7 @@ create_country_leader = {
 	name = "Alexander Bustamante"
 	desc = "POLITICS_BUSTAMANTE_DESC"
 	picture = "Portrait_Alexander_Bustamente.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -109,7 +109,7 @@ create_country_leader = {
 #	name = "Norman Manley"
 #	desc = "POLITICS_MANLEY_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_democrat_subtype
 #	traits = {}
 #}
@@ -118,7 +118,7 @@ create_country_leader = {
 #	name = "Norman Manley"
 #	desc = "POLITICS_MANLEY_DESC"
 #	picture = "Portrait_Holland_Wilhelmina.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_liberal_subtype
 #	traits = {}
 #}

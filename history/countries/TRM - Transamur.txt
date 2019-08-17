@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "Aleksandr Kolchak"
 	desc = "POLITICS_ALEXANDR_KOLCHAK_DESC"
 	picture = "Portrait_Transamur_Alexandr_Kolchak.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "Yui Mitsue"
 	desc = "POLITICS_YUI_DESC"
 	picture = "Portrait_Transamur_Yui_Mitsue.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -157,7 +157,7 @@ create_country_leader = {
 	name = "Viktor Pepelyayev"
 	desc = "POLITICS_PEPELYAYEV_DESC"
 	picture = "Portrait_Transamur_Victor_Pepelyaev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -166,7 +166,7 @@ create_country_leader = {
 	name = "Boris Shumyatskiy"
 	desc = "POLITICS_SHUMYATSKY_DESC"
 	picture = "Portrait_Transamur_Boris_Shumyatsky.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -175,7 +175,7 @@ create_country_leader = {
 	name = "Spiridon Merkulov"
 	desc = "POLITICS_MERKULOV_DESC"
 	picture = "Portrait_Transamur_Spiridon_Merkulov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -183,7 +183,7 @@ create_country_leader = {
 	name = "Aleksandr Krasnoshchyekov"
 	desc = "POLITICS_KRASNOSHCHYEKOV_DESC"
 	picture = "Portrait_Transamur_Alexander_Krasnoshchyokov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -191,7 +191,7 @@ create_country_leader = {
 	name = "Aleksandr Krasnoshchyekov"
 	desc = "POLITICS_KRASNOSHCHYEKOV_DESC"
 	picture = "Portrait_Transamur_Alexander_Krasnoshchyokov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -199,7 +199,7 @@ create_country_leader = {
 	name = "Aleksandr Krasnoshchyekov"
 	desc = "POLITICS_KRASNOSHCHYEKOV_DESC"
 	picture = "Portrait_Transamur_Alexander_Krasnoshchyokov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

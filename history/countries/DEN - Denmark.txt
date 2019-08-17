@@ -125,7 +125,7 @@ create_country_leader = {
 	name = "Olga Eggers"
 	desc = "OLGA_EGGERS_DESC"
 	picture = "Portrait_Denmark_Olga_Eggers.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -134,7 +134,7 @@ create_country_leader = {
 	name = "Christian Christensen"
 	desc = "CHRISTIAN_CHRISTENSEN_SUBTYPE"
 	picture = "Portrait_Denmark_Christian_Christensen.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -143,7 +143,7 @@ create_country_leader = {
 	name = "Aksel Larsen"
 	desc = "AKSEL_LARSEN_SUBTYPE"
 	picture = "Portrait_Denmark_Aksel_Larsen.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -152,7 +152,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -161,7 +161,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -170,7 +170,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -179,7 +179,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -188,7 +188,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -197,7 +197,7 @@ create_country_leader = {
 	name = "Christian X"
 	desc = "CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -206,7 +206,7 @@ create_country_leader = {
 	name = "Max Arildskov"
 	desc = "MAX_ARILDSKOV_SUBTYPE"
 	picture = "Portrait_Denmark_Max_Arildskov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

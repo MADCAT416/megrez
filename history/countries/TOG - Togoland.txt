@@ -32,7 +32,7 @@ create_country_leader = {
 	name = "Jonathan Savi de Tové"
 	desc = "POLITICS_SAVI_TOVE_DESC"
 	picture = "Portrait_TOG_Tove.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -41,7 +41,7 @@ create_country_leader = {
 	name = "Sylvanus Olympio"
 	desc = "POLITICS_Olyimpio_DESC"
 	picture = "Portrait_TOG_Olympio.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Kléber Dadjo"
 	desc = "POLITICS_KLEBER_DADJO_DESC"
 	picture = "Portrait_TOG_Dadjo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -59,7 +59,7 @@ create_country_leader = {
 	name = "Alhaji Grunshi"
 	desc = "POLITICS_ALHAJI_TOGO_DESC"
 	picture = "Portrait_TOG_Alhaji.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

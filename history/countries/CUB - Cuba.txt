@@ -92,7 +92,7 @@ create_country_leader = {
 	name = "Lázaro Peña González"
 	desc = "POLITICS_LAZARO_PENA_DESC"
 	picture = "Portrait_Cuba_Lazaro_Pena_Gonzalez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -101,7 +101,7 @@ create_country_leader = {
 	name = "Antonio Guiteras Holmes"
 	desc = "POLITICS_ANTONIO_GUITERAS_DESC"
 	picture = "Portrait_Cuba_Antonio_Guiteras.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Juan Blas Hernández"
 	desc = "POLITICS_JUAN_HERNANDEZ_DESC"
 	picture = "Portrait_Cuba_Juan_Blas_Hernandez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -119,7 +119,7 @@ create_country_leader = {
 	name = "Rafael Trejo González"
 	desc = "POLITICS_RAFAEL_TREJO_DESC"
 	picture = "Portrait_Cuba_Rafael_Trejo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -128,7 +128,7 @@ create_country_leader = {
 	name = "Carlos Céspedes Quesada"
 	desc = "POLITICS_CARLOS_CESPEDES_DESC"
 	picture = "Portrait_Cuba_Carlos_Cespedes_Quesada.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -137,7 +137,7 @@ create_country_leader = {
 	name = "Miguel Mariano Gómez"
 	desc = "POLITICS_MIGUEL_GOMEZ_DESC"
 	picture = "Portrait_Cuba_Miguel_Mariano_Gomez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -146,7 +146,7 @@ create_country_leader = {
 	name = "Mario García Menocal"
 	desc = "POLITICS_MARIO_GARCIA_MENOCAL_DESC"
 	picture = "Portrait_Cuba_Mario_Garcia_Menocal.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -155,7 +155,7 @@ create_country_leader = {
 	name = "Clemente Vázquez Bello"
 	desc = "POLITICS_CLEMENTE_VAZQUEZ_DESC"
 	picture = "Portrait_Cuba_Clemente_Vazquez_Bello.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -164,7 +164,7 @@ create_country_leader = {
 	name = "Martin Diaz Tamayo"
 	desc = "POLITICS_MARTIN_TAMAYO_DESC"
 	picture = "Portrait_Cuba_Martin_Diaz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -173,7 +173,7 @@ create_country_leader = {
 	name = "Ramón Grau San Martín"
 	desc = "POLITICS_RAMON_GRAU_MARTIN_DESC"
 	picture = "Portrait_Cuba_Ramon_Grau_Martin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

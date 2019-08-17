@@ -123,7 +123,7 @@ create_country_leader = {
 	name = "İsmet İnönü"
 	desc = "POLITICS_ISMET_INONU_DESC"
 	picture = "Portrait_TUR_Ismet_Inonu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Nihâl Atsız"
 	desc = "POLITICS_NIHAL_ATSIZ_DESC"
 	picture = "gfx/leaders/TUR/Portrait_TUR_Nihal_Atsiz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -141,7 +141,7 @@ create_country_leader = {
 	name = "Şefik Hüsnü Deymer"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/TUR/Portrait_TUR_Sefik_Husnu.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -150,7 +150,7 @@ create_country_leader = {
 	name = "Reşat Fuat Baraner"
 	desc = "POLITICS_RESAT_FUAT_DESC"
 	picture = "Portrait_TUR_Resad_Fuad.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -159,7 +159,7 @@ create_country_leader = {
 	name = "Hikmet Kıvılcımlı"
 	desc = "POLITICS_HIKMET_KIVILCIMLI_DESC"
 	picture = "Portrait_TUR_Hikmet_Kivilcimli.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -168,7 +168,7 @@ create_country_leader = {
 	name = "Hasan Âli Yücel"
 	desc = "POLITICS_HASAN_ALI_YUCEL_DESC"
 	picture = "Portrait_TUR_Hasan_Ali.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -177,7 +177,7 @@ create_country_leader = {
 	name = "Fethi Okyar"
 	desc = "POLITICS_FETHI_OKYAR_DESC"
 	picture = "Portrait_TUR_Fethi_Okyar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -186,7 +186,7 @@ create_country_leader = {
 	name = "Adnan Menderes"
 	desc = "POLITICS_ADNAN_MENDERES_DESC"
 	picture = "Portrait_TUR_Adnan_Menderes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -195,7 +195,7 @@ create_country_leader = {
 	name = "Yusuf Hikmet Bayur"
 	desc = "POLITICS_YUSUF_HIKMET_DESC"
 	picture = "Portrait_TUR_Yusuf_Hikmet_Bayur.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }

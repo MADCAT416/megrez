@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Getúlio Vargas"
 	desc = "POLITICS_GETULIO_PIR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Getulio_Vargas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Borges de Medeiros"
 	desc = "POLITICS_BORGES_DE_MEDEIROS_PIR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Borges_De_Medeiros.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Joaquim Francisco de Assis"
 	desc = "POLITICS_ASSIS_PIR_DESC"
 	picture = "Portrait_PIR_Assis_Brasil.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "José Antonio Netto"
 	desc = "POLITICS_NETTO_PERDE_SUA_ALMA_DESC"
 	picture = "Portrait_PIR_Jose_Antonio_Netto.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -114,7 +114,7 @@ create_country_leader = {
 	name = "Nereu Ramos"
 	desc = "POLITICS_NEREU_RAMOS_DESC"
 	picture = "Portrait_PIR_Nereu_Ramos.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -123,7 +123,7 @@ create_country_leader = {
 	name = "Raul Pilla"
 	desc = "POLITICS_RAUL_PILLA_DESC"
 	picture = "Portrait_PIR_Pilla.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "Flores da Cunha"
 	desc = "POLITICS_FLORES_DA_CUNHA_DESC"
 	picture = "Portrait_PIR_Flores_Da_Cunha.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -141,7 +141,7 @@ create_country_leader = {
 	name = "Abilio de Nequete"
 	desc = "POLITICS_NEQUETE_PIR_DESC"
 	picture = "Portrait_PIR_Abilio_de_Nequete.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -150,7 +150,7 @@ create_country_leader = {
 	name = "Luis Carlos Prestes"
 	desc = "POLITICS_PRESTES_PIR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Luis_Carlos_Prestes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -159,7 +159,7 @@ create_country_leader = {
 	name = "Lilla Ripoll"
 	desc = "POLITICS_LILA_RIPOLL_PIR_DESC"
 	picture = "Portrait_PIR_Lilla_Ripoll.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

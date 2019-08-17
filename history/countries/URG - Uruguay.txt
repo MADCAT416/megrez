@@ -127,7 +127,7 @@ create_country_leader = {
 	name = "Consejo Nacional De Administración"
 	desc = "POLITICS_URG_CNA_DESC"
 	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -136,7 +136,7 @@ create_country_leader = {
 	name = "Consejo Nacional De Administración"
 	desc = "POLITICS_URG_CNA_DESC"
 	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -145,7 +145,7 @@ create_country_leader = {
 	name = "Consejo Nacional De Administración"
 	desc = "POLITICS_URG_CNA_DESC"
 	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -154,7 +154,7 @@ create_country_leader = {
 	name = "Consejo Nacional De Administración"
 	desc = "POLITICS_URG_CNA_DESC"
 	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -163,7 +163,7 @@ create_country_leader = {
 	name = "Gabriel Terra"
 	desc = "POLITICS_GABRIEL_TERRA_DESC"
 	picture = "Portrait_Uruguay_Gabriel_Terra.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -172,7 +172,7 @@ create_country_leader = {
 	name = "Alfredo Baldomir Ferrari"
 	desc = "POLITICS_ALFREDO_FERRARI_DESC"
 	picture = "Portrait_Uruguay_Alfredo_Ferrari.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -181,7 +181,7 @@ create_country_leader = {
 	name = "Emilio Frugoni"
 	desc = "POLITICS_EMILIO_FRUGONI_DESC"
 	picture = "Portrait_Uruguay_Emilio_Frugoni.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -190,7 +190,7 @@ create_country_leader = {
 	name = "Paulina Luisi"
 	desc = "POLITICS_PAULINA_LUISI_DESC"
 	picture = "Portrait_Uruguay_Paulina_Luisi.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -199,7 +199,7 @@ create_country_leader = {
 	name = "Hugo Fernández Artucio"
 	desc = "POLITICS_HUGO_ARTUCIO_DESC"
 	#picture = "Portrait_Uruguay_Hugo_Artucio.tga" WIP
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -208,7 +208,7 @@ create_country_leader = {
 	name = "Joaquín Secco Illa"
 	desc = "POLITICS_JUAQIN_ILLA_DESC"
 	#picture = "Portrait_Uruguay_Joaquin_Illa.tga" WIP
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

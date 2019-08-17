@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Cesar Andreu Iglesias"
 	desc = "POLITICS_PRI_CESAR_IGLESIAS_DESC"
 	picture = "Portrait_PRI_Cesar_Andreu_Iglesias.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -69,7 +69,7 @@ create_country_leader = {
 	name = "Santiago Iglesias Pantín"
 	desc = "POLITICS_PRI_SANTIAGO_IGLESIAS_PANTIN_DESC"
 	picture = "Portrait_PRI_Santiago_Iglesias_Pantin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -78,7 +78,7 @@ create_country_leader = {
 	name = "Santiago Iglesias Pantín"
 	desc = "POLITICS_PRI_SANTIAGO_IGLESIAS_PANTIN_DESC"
 	picture = "Portrait_PRI_Santiago_Iglesias_Pantin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Ernesto Ramos Antonini"
 	desc = "POLITICS_PRI_ERNESTO_ANTONINI_DESC"
 	picture = "Portrait_PRI_Ernesto_Ramos_Antonini.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {} 
 }
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Luis Muñoz Marín"
 	desc = "POLITICS_PRI_LUIS_MUNOZ_MARIN_DESC"
 	picture = "Portrait_PRI_Luis_Munoz_Marin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -104,7 +104,7 @@ create_country_leader = {
 	name = "Antonio Rafael Barceló"
 	desc = "POLITICS_PRI_ANTONIO_BARCELO_DESC"
 	picture = "Portrait_PRI_Antonio_Rafael_Barcelo_y_Martinez.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "Jose Coll y Cuchi"
 	desc = "POLITICS_PRI_COLL_CUCHI_DESC"
 	picture = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "Blanton C. Winship"
 	desc = "POLITICS_PRI_BLANTON_WINSHIP_DESC"
 	picture = "Portrait_PRI_blanton_winship.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Pedro Albizu Campos"
 	desc = "POLITICS_PRI_PEDRO_ALBIZU_CAMPOS_DESC"
 	picture = "Portrait_PRI_Pedro_Albizu_Campos.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

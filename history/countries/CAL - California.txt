@@ -175,7 +175,7 @@ create_country_leader = {# Henry Wallace
 	name = "Henry Wallace"
 	desc = "POLITICS_HENRY_WALLLACE_DESC"
 	picture = "Portrait_CAL_Henry_Wallace.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -183,7 +183,7 @@ create_country_leader = {# Hiram Johnson
 	name = "Hiram Johnson"
 	desc = "POLITICS_HIRAM_JOHNSON_DESC"
 	picture = "Portrait_CAL_Hiram_Johnson.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -191,7 +191,7 @@ create_country_leader = {# John Arthur Gellatly
 	name = "John Arthur Gellatly"
 	desc = "POLITICS_JOHN_GELLATLY_DESC"
 	picture = "Portrait_CAL_John_Arthur_Gellatly.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -199,7 +199,7 @@ create_country_leader = {# Frank Merriam
 	name = "Frank Merriam"
 	desc = "POLITICS_FRANK_MERRIAM_DESC"
 	picture = "Portrait_CAL_Frank_Merrimam.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }

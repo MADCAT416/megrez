@@ -203,7 +203,7 @@ create_country_leader = {
 	name = "Aleksandr Kerenskiy"
 	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Alexander_Kerensky.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -212,7 +212,7 @@ create_country_leader = {
 	name = "Vyacheslav Molotov"
 	desc = "POLITICS_VYACHESLAV_MOLOTOV_DESC"
 	picture = "Portrait_Soviet_Alexander_Kerensky.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -221,7 +221,7 @@ create_country_leader = {
 	name = "Aleksey Rykov"
 	desc = "POLITICS_ALEXEI RYKOV_DESC"
 	picture = "Portrait_Soviet_Aleksey_Rykov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -230,7 +230,7 @@ create_country_leader = {
 	name = "Nikolay Bukharin"
 	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 	picture = "Portrait_Soviet_Nikolai_Iwanowitsch_Bucharin.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -239,7 +239,7 @@ create_country_leader = {
 	name = "Irakliy Tsereteli"
 	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
 	picture = "Portrait_Soviet_Iraklij_Tsereteliy.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -248,7 +248,7 @@ create_country_leader = {
 	name = "Pavel Milyukov"
 	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 	picture = "Portrait_Soviet_Pavel_Milyukov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -257,7 +257,7 @@ create_country_leader = {
 	name = "Nikolay Trubetskoy"
 	desc = "POLITICS_NIKOLAI_TRUBETSKOY_DESC"
 	picture = "Portrait_Soviet_Nikolai_Trubetskoy.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -266,7 +266,7 @@ create_country_leader = {
 	name = "Lavr Kornilov"
 	desc = "POLITICS_LAVR_KORNILOV_DESC"
 	picture = "Portrait_Soviet_Lavr_Kornilov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -275,7 +275,7 @@ create_country_leader = {
 	name = "Pyetr Vrangel"
 	desc = "POLITICS_PYOTR_WRANGEL_DESC"
 	picture = "Portrait_Soviet_Pjotr_Nikolajewitsch_Wrangel_3.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -284,7 +284,7 @@ create_country_leader = {
 	name = "Boris Savinkov"
 	desc = "POLITICS_BORIS_SAVINKOV_DESC"
 	picture = "Portrait_Russia_Boris_Savinkov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

@@ -31,7 +31,7 @@ create_country_leader = {#Abdulaziz bin Saud Al Rashid
 	name = "Abdulaziz bin Saud Al Rashid"
 	desc = "POLITICS_ABDULAZIZ_JBS_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -40,7 +40,7 @@ create_country_leader = {#Abdulaziz bin Saud Al Rashid
 	name = "Abdulaziz bin Saud Al Rashid"
 	desc = "POLITICS_ABDULAZIZ_JBS_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -49,7 +49,7 @@ create_country_leader = {
 	name = "Ghazi bin Faisal Hashmid"
 	desc = "POLITICS_GHAZI_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Ghazi_bin_Faisal_Hashmid.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -58,7 +58,7 @@ create_country_leader = {
 	name = "Abtan Ibn Jazi"
 	desc = "POLITICS_ABTAN_IRQ_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Abtan_ibn_Jazi.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -67,7 +67,7 @@ create_country_leader = {
 	name = "Ahmad Al-Jaber Al-Sabah"
 	desc = "POLITICS_SABAH_IRQ_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Al_Jaber.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Shakhbut bin Sultan Al Nahyan"
 	desc = "POLITICS_SHAKBUT_IRQ_DESC"
 	picture = "gfx/leaders/JBS/Portrait_JBS_Shakhbut_bin_Sultan_Al_Nahyan.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -85,7 +85,7 @@ create_country_leader = {
 	name = "Saeed bin Maktoum bin Hasher Al Maktoum"
 	desc = "POLITICS_SAEED_DUBAI_DESC"
 	picture = "Portrait_IRQ_maktoum.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Mishaal bin Saud Al Rashid"
 	desc = "POLITICS_SYNDIE_JBS_DESC"
 	picture = "Portrait_IRQ_synd.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Mishaal bin Saud Al Rashid"
 	desc = "POLITICS_SYNDIE_JBS_DESC"
 	picture = "Portrait_IRQ_synd.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -112,7 +112,7 @@ create_country_leader = {
 	name = "Mishaal bin Saud Al Rashid"
 	desc = "POLITICS_SYNDIE_JBS_DESC"
 	picture = "Portrait_IRQ_synd.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

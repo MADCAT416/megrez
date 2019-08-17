@@ -223,7 +223,7 @@ create_country_leader = {
 	name = "Vasyl I"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "Portrait_Ukraine_Vasyl.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -232,7 +232,7 @@ create_country_leader = {
 	name = "Nikita Kruschev"
 	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 	picture = "Portrait_UKR_Nikita_Kruschev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -241,7 +241,7 @@ create_country_leader = {
 	name = "Nikita Kruschev"
 	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 	picture = "Portrait_UKR_Nikita_Kruschev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -250,7 +250,7 @@ create_country_leader = {
 	name = "Nikita Kruschev"
 	desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 	picture = "Portrait_UKR_Nikita_Kruschev.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -259,7 +259,7 @@ create_country_leader = {
 	name = "Vladimir Vynnychenko"
 	desc = "POLITICS_VLADIMIR_VYNNYCHENKO_DESC"
 	picture = "Portrait_Ukraine_Vladimir_Vynnychenko.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -268,7 +268,7 @@ create_country_leader = {
 	name = "Boris Martos"
 	desc = "POLITICS_BORIS_MARTOS_DESC"
 	picture = "Portrait_Ukraine_Boris_Martos.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -277,7 +277,7 @@ create_country_leader = {
 	name = "Dmitri Doroshenko"
 	desc = "POLITICS_DMITRI_DOROSHENKO_DESC"
 	picture = "Portrait_Ukraine_Dmitri_Doroshenko.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -286,7 +286,7 @@ create_country_leader = {
 	name = "Mikhail Bulgakov"
 	desc = "POLITICS_MIKHAIL_BULGAKOV_DESC"
 	picture = "Portrait_Ukraine_Mikhail_Bulgakov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -295,7 +295,7 @@ create_country_leader = {
 	name = "Vasyl I von Habsburg-Lothringen"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "Portrait_Ukraine_Vasyl.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -304,7 +304,7 @@ create_country_leader = {
 	name = "Dmitri Dontsov"
 	desc = "POLITICS_DMITRI_DONTSOV_DESC"
 	picture = "Portrait_Ukraine_Dmitri_Dontsov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

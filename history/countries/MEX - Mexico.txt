@@ -106,7 +106,7 @@ create_country_leader = {# Plutarco Calles
 	name = "Plutarco Calles"
 	desc = "POLITICS_PLUTARCO_CALLES_DESC"
 	picture = "Portrait_Mexico_Plutarco_Calles.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -114,7 +114,7 @@ create_country_leader = {# Vicente Toledano
 	name = "Vicente Toledano"
 	desc = "POLITICS_VINCENTE_TOLEDANO_DESC"
 	picture = "Portrait_Mexico_Vincente_Toledano.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -122,7 +122,7 @@ create_country_leader = {# Emiliano Zapata
 	name = "Emiliano Zapata"
 	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
 	picture = "Portrait_Mexico_Emiliano_Zapata.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {# Pascual Ortiz Rubio
 	name = "Pascual Ortiz Rubio"
 	desc = "POLITICS_PASCUAL_RUBIO_DESC"
 	picture = "Portrait_Mexico_Pascual_Rubio.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {# Juan Andreu Almazán
 	name = "Juan Andreu Almazán"
 	desc = "POLITICS_JUAN_ALMAZAN_DESC"
 	picture = "Portrait_Mexico_Juan_Almazan.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -146,7 +146,7 @@ create_country_leader = {# Pablo Gonzalez Garza
 	name = "Pablo Gonzalez Garza"
 	desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
 	picture = "Portrait_Mexico_Garza.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -154,7 +154,7 @@ create_country_leader = {# Jose Antonio Urquiza
 	name = "Jose Antonio Urquiza"
 	desc = "POLITICS_JOSE_URQUIZA_DESC"
 	picture = "Portrait_Mexico_Urquiza.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

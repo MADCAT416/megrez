@@ -108,7 +108,7 @@ create_country_leader = {
 	name = "Antonio Soto"
 	desc = "POLITICS_ANTONIO_SOTO_FOP_DESC"
 	picture = "Portrait_FOP_Antonio_Soto.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Manuel Baldomero Ugarte"
 	desc = "POLITICS_MANUEL_BALDOMERO_UGARTE_DESC"
 	picture = "Portrait_FOP_Manuel_Baldomero_Ugarte.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -126,7 +126,7 @@ create_country_leader = {
 	name = "Fanny Jabcovsky"
 	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
 	picture = "Portrait_FOP_Fanny_Jabcovsky.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -135,7 +135,7 @@ create_country_leader = {
 	name = "Héctor Benigno Varela"
 	desc = "POLITICS_VARELA_PATA_DESC"
 	picture = "gfx/leaders/ARG/Portrait_ARG_Varela.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

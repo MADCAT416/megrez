@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Waldir Bouhid"
 	desc = "POLITICS_WALDIR_BOUHID_DESC"
 	picture = "gfx/leaders/South America/portrait_south_america_generic_7_edit.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -85,7 +85,7 @@ create_country_leader = {
 	name = "Joaquim de Magalhães Barata"
 	desc = "POLITICS_BARATA_DESC"
 	picture = "Portrait_AMA_Joaquim_Barata.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Lauro Sodré"
 	desc = "POLITICS_LAURO_SODRE_HOS_DESC"
 	picture = "Portrait_AMA_Lauro_Sodre.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Antonio Faciola"
 	desc = "POLITICS_ANTONIO_FACIOLA_DESC"
 	picture = "Portrait_AMA_Antonio_Faciola.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -112,7 +112,7 @@ create_country_leader = {
 	name = "Landry Sales Gonçalves"
 	desc = "POLITICS_LANDRY_SALES_DESC"
 	picture = "Portrait_AMA_Landry_Sales.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -121,7 +121,7 @@ create_country_leader = {
 	name = "Efigênio Sales"
 	desc = "POLITICS_EFIGENIO_SALES_DESC"
 	picture = "Portrait_AMA_Efigenio_Sales.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Alvaro Botelho Maia"
 	desc = "POLITICS_ALVARO_BOTELHO_MAIA_DESC"
 	picture = "Portrait_AMA_Alvaro_Botelho.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -139,7 +139,7 @@ create_country_leader = {
 	name = "Cláudio Santoro"
 	desc = "POLITICS_CLAUDIO_SANTORO_DESC"
 	picture = "Portrait_AMA_Claudio_Santoro.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -148,7 +148,7 @@ create_country_leader = {
 	name = "Pedro Ventura Pomar "
 	desc = "POLITICS_AMA_POMAR_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Pomar.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -157,7 +157,7 @@ create_country_leader = {
 	name = "João Amazonas"
 	desc = "POLITICS_JOAO_AMAZONAS_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Joao_Amazonas.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

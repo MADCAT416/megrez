@@ -82,7 +82,7 @@ set_popularities = {
 #	name = "Abdul Rahman of Negeri Sembilan"
 #	desc = "POLITICS_ABDUL_RAHMAN_NEGERI_SEMBILAN_DESC"
 #	picture = "gfx/leaders/MLY/Portrait_Malaya_Abdul_Rahman_Negeri_Sembilan.tga"
-#	expire = "1960.4.1"
+#	expire = "1991.4.1"
 #	ideology = ethnic_populist_subtype
 #	traits = {}
 #}
@@ -90,7 +90,7 @@ set_popularities = {
 #	name = "Abdul Rahman of Negeri Sembilan"
 #	desc = "POLITICS_ABDUL_RAHMAN_NEGERI_SEMBILAN_DESC"
 #	picture = "gfx/leaders/MLY/Portrait_Malaya_Abdul_Rahman_Negeri_Sembilan.tga"
-#	expire = "1960.4.1"
+#	expire = "1991.4.1"
 #	ideology = paternal_autocrat_subtype
 #	traits = {}
 #}
@@ -98,7 +98,7 @@ set_popularities = {
 #	name = "Abdul Rahman of Negeri Sembilan"
 #	desc = "POLITICS_ABDUL_RAHMAN_NEGERI_SEMBILAN_DESC"
 #	picture = "gfx/leaders/MLY/Portrait_Malaya_Abdul_Rahman_Negeri_Sembilan.tga"
-#	expire = "1960.4.1"
+#	expire = "1991.4.1"
 #	ideology = authoritarian_democrat_subtype
 #	traits = {}
 #}
@@ -106,7 +106,7 @@ create_country_leader = { # Iskander 1 of Perak
 	name = "Iskander I of Perak"
 	desc = "POLITICS_ISKANDER_I_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Iskander_I_Perak.tga"
-	expire = "1938.8.14"
+	expire = "1991.8.14"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -114,7 +114,7 @@ create_country_leader = { # Iskander 1 of Perak
 	name = "Iskander I of Perak"
 	desc = "POLITICS_ISKANDER_I_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Iskander_I_Perak.tga"
-	expire = "1938.8.14"
+	expire = "1991.8.14"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -122,7 +122,7 @@ create_country_leader = { # Iskander 1 of Perak
 	name = "Iskander I of Perak"
 	desc = "POLITICS_ISKANDER_I_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Iskander_I_Perak.tga"
-	expire = "1938.8.14"
+	expire = "1991.8.14"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "Tunku Abdul Rahman"
 	desc = "POLITICS_TUNKU_ABDUL_RAHMAN_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Tunku_Abdul_Rahman.tga"
-	expire = "1990.12.6"
+	expire = "1991.12.6"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "Tunku Abdul Rahman"
 	desc = "POLITICS_TUNKU_ABDUL_RAHMAN_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Tunku_Abdul_Rahman.tga"
-	expire = "1990.12.6"
+	expire = "1991.12.6"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -146,7 +146,7 @@ create_country_leader = {
 	name = "Tunku Abdul Rahman"
 	desc = "POLITICS_TUNKU_ABDUL_RAHMAN_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Tunku_Abdul_Rahman.tga"
-	expire = "1990.12.6"
+	expire = "1991.12.6"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -154,7 +154,7 @@ create_country_leader = {
 	name = "Yusof bin Ishak"
 	desc = "POLITICS_YUSOF_BIN_ISHAK_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Yusof_bin_Ishak.tga"
-	expire = "1970.11.23"
+	expire = "1991.11.23"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -162,7 +162,7 @@ create_country_leader = {
 	name = "Yusof bin Ishak"
 	desc = "POLITICS_YUSOF_BIN_ISHAK_DESC"
 	picture = "gfx/leaders/MLY/Portrait_Malaya_Yusof_bin_Ishak.tga"
-	expire = "1970.11.23"
+	expire = "1991.11.23"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }

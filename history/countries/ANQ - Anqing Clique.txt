@@ -42,7 +42,7 @@ create_country_leader = {
 	name = "Chen Tiaoyuan"
 	desc = ""
 	picture = "Portrait_LEP_Sun_Chuanfang.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

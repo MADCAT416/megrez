@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Jacques Romain"
 	desc = "POLITICS_JACQUES_ROMAIN_DESC"
 	picture = "Portrait_Haiti_Jacques_Romain.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Georges Rigaud"
 	desc = "POLITICS_GEORGES_RIGAUD_DESC"
 	picture = "Portrait_Haiti_Georges_Rigaud.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Dumarsais Estimé"
 	desc = "POLITICS_DUMARSAIS_ESTIME_DESC"
 	picture = "Portrait_Haiti_Dumarsais_Estime.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Jean Price-Mars"
 	desc = "POLITICS_JEAN_PRICE_MARS_DESC"
 	picture = "Portrait_Haiti_Jean_Price_Mars.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Louis Déjoie"
 	desc = "POLITICS_LOUIS_DEJOIE_DESC"
 	picture = "Portrait_Haiti_Louis_Dejoie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Stenio Vincent"
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "Portrait_Haiti_Stenio_Vincent.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "Louis Borno"
 	desc = "POLITICS_LOUIS_BORNO_DESC"
 	picture = "Portrait_Haiti_Louis_Borno.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -147,7 +147,7 @@ create_country_leader = {
 	name = "John Russell"
 	desc = "POLITICS_JOHN_RUSSELL_DESC"
 	picture = "Portrait_Haiti_John_Russell.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Carl Brouard"
 	desc = "POLITICS_CARL_BROUARD_DESC"
 	picture = "Portrait_Haiti_Carl_Brouard.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

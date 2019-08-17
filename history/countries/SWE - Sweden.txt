@@ -150,7 +150,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 
@@ -161,7 +161,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 
@@ -172,7 +172,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
 
@@ -183,7 +183,7 @@ create_country_leader = {
 	name = "The Revolutionary Committee"
 	desc = "POLITICS_REVOLUTIONARY_COMMITTEE_DESC"
 	picture = "Portrait_Sweden_Revolutionary_Committee.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 
@@ -194,7 +194,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 
@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {
 
@@ -216,7 +216,7 @@ create_country_leader = {
 	name = "The Revolutionary Committee"
 	desc = "POLITICS_REVOLUTIONARY_COMMITTEE_DESC"
 	picture = "Portrait_Sweden_Revolutionary_Committee.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 
@@ -227,7 +227,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 
@@ -238,7 +238,7 @@ create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {
 
@@ -249,7 +249,7 @@ create_country_leader = {
 	name = "The Revolutionary Committee"
 	desc = "POLITICS_REVOLUTIONARY_COMMITTEE_DESC"
 	picture = "Portrait_Sweden_Revolutionary_Committee.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
 

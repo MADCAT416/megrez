@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "Yacine Diallo"
 	desc = "POLITICS_YACINE_DIALLO_DESC"
 	picture = "Portrait_GNE_Yacine.dds"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -41,7 +41,7 @@ create_country_leader = {
 	name = "Louis P. Blacher"
 	desc = "POLITICS_LOUIS_BLACHER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }

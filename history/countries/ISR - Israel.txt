@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Leonidas de Antero Matos"
 	desc = "POLITICS_LEONIDAS_MATOS_DESC"
 	picture = "Portrait_ISR_Leonidas_Matos.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Ramiro Noronha"
 	desc = "POLITICS_RAMIRO_NORONHA_HOS_GOY_DESC"
 	picture = "gfx/leaders/PIR/Portrait_PIR_Ramiro_Noronha.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Jari Gomes"
 	desc = "POLITICS_JARI_GOMES_GOY_DESC"
 	picture = "Portrait_ISR_Jari_Gomes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -102,7 +102,7 @@ create_country_leader = {
 	name = "Antonio Ramos Caiado"
 	desc = "POLITICS_TOTO_CAIADO_DESC"
 	picture = "Portrait_ISR_Toto_Caiado.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Cândido Rondon"
 	desc = "POLITICS_CANDIDO_RONDON_HOS_GOY_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Candido_Rondon.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Dom Francisco de Aquino Correia"
 	desc = "POLITICS_CHICO_AQUINO_GOY_DESC"
 	picture = "Portrait_ISR_Francisco_Aquino.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Pedro Ludovico Teixeira"
 	desc = "POLITICS_PEDRO_LUDOVICO_GOY_DESC"
 	picture = "Portrait_ISR_Pedro_Ludovico.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -138,7 +138,7 @@ create_country_leader = {
 	name = "João Ponce de Arruda"
 	desc = "POLITICS_PONCE_ARRUDA_GOY_DESC"
 	picture = "Portrait_ISR_Ponce_Arruda.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -147,7 +147,7 @@ create_country_leader = {
 	name = "Apolônio de Carvalho"
 	desc = "POLITICS_APOLLONIO_GOY_DESC"
 	picture = "Portrait_ISR_Apolonio.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -156,7 +156,7 @@ create_country_leader = {
 	name = "Heitor Ferreira Lima"
 	desc = "POLITICS_HEITOR_LIMA_GOY_DESC"
 	picture = "Portrait_ISR_Pedro_Ludovico.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

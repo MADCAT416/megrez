@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Transitional Government"
 	desc = "ANTE_PUJIE_DESC"
 	picture = "Portrait_China_Pujie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Transitional Government"
 	desc = "ANTE_PUJIE_DESC"
 	picture = "Portrait_China_Pujie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Transitional Government"
 	desc = "ANTE_PUJIE_DESC"
 	picture = "Portrait_China_Pujie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -113,7 +113,7 @@ create_country_leader = {
 	name = "Transitional Government"
 	desc = "ANTE_PUJIE_DESC"
 	picture = "Portrait_China_Pujie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "Transitional Government"
 	desc = "ANTE_PUJIE_DESC"
 	picture = "Portrait_China_Pujie.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

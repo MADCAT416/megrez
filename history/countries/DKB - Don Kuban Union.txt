@@ -114,7 +114,7 @@ create_country_leader = {
 	name = "Pyotr Krasnov"
 	desc = "POLITICS_PETR_KRASNOV_DESC"
 	picture = "Portrait_DKB_Petr_Krasnov.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }

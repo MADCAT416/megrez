@@ -171,7 +171,7 @@ create_country_leader = {# William Averell Harriman
 	name = "William Averell Harriman"
 	desc = "POLITICS_WILLIAM_HARRIMAN_DESC"
 	picture = "Portrait_NEE_william_harriman.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -179,7 +179,7 @@ create_country_leader = {# Percival P. Baxter
 	name = "Percival P. Baxter"
 	desc = "POLITICS_PERCIVAL_BAXTER_DESC"
 	picture = "Portrait_NEE_Percival_P_Baxter.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -187,7 +187,7 @@ create_country_leader = {# Joseph William Martin Jr.
 	name = "Joseph William Martin Jr."
 	desc = "POLITICS_JOSEPH_MARTIN_DESC"
 	picture = "Portrait_NEE_joseph_martin_jr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }

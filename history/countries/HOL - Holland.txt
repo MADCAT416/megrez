@@ -182,7 +182,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -191,7 +191,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -200,7 +200,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -209,7 +209,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -218,7 +218,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -227,7 +227,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -236,7 +236,7 @@ create_country_leader = {
 	name = "Henk Sneevliet"
 	desc = "HENK_SNEEVLIET_DESC"
 	picture = "Portrait_HOL_Sneevliet.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -245,7 +245,7 @@ create_country_leader = {
 	name = "Harm Kolthek"
 	desc = "HARM_KOLTHEK_DESC"
 	picture = "Portrait_HOL_Kolthek.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -254,7 +254,7 @@ create_country_leader = {
 	name = "David Wijnkoop"
 	desc = "POLITICS_DAVID_WIJNKOOP_DESC"
 	picture = "Portrait_Holland_Wijnkoop.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -263,7 +263,7 @@ create_country_leader = {
 	name = "Wilhelmina"
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

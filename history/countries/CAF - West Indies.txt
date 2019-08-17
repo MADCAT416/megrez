@@ -188,7 +188,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -197,7 +197,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -206,7 +206,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -215,7 +215,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -224,7 +224,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -233,7 +233,7 @@ create_country_leader = {
 	name = "Eustace Fiennes"
 	desc = "POLITICS_SIR_EUSTACE_FIENNES_DESC"
 	picture = "Portrait_CAF_Eustace_Fiennes.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -242,7 +242,7 @@ create_country_leader = {
 #	name = "Hégésippe Jean Légitimus"
 #	desc = "POLITICS_SHEGESIPPE_JEAN_LEGITIMUS_DESC"
 #	picture = "Portrait_CAF_Hegesippe_Jean_Legitimus.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_democrat_subtype
 #	traits = {}
 #}
@@ -251,7 +251,7 @@ create_country_leader = {
 #	name = "Joseph Lagrosillière"
 #	desc = "POLITICS_JOSEPH_LAGROSILLIERE_DESC"
 #	picture = "Portrait_CAF_Joseph_Lagrosilliere.tga"
-#	expire = "1965.1.1"
+#	expire = "1991.1.1"
 #	ideology = social_democrat_subtype
 #	traits = {}
 #}
@@ -260,7 +260,7 @@ create_country_leader = {
 	name = "Aimé Césaire"
 	desc = "POLITICS_AIME_CESAIRE_DESC"
 	picture = "Portrait_CAF_Aime_Ceasire.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -269,7 +269,7 @@ create_country_leader = {
 	name = "Tubal Uriah Butler"
 	desc = "POLITICS_TUBAL_URIAH_BUTLER_DESC"
 	picture = "Portrait_CAF_Tubal_Uriah_Butler.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -278,7 +278,7 @@ create_country_leader = {
 	name = "Cyril Lionel Robert James"
 	desc = "POLITICS_CYRIL_LIONEL_ROBERT_JAMES_DESC"
 	picture = "Portrait_CAF_CLR_James.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }

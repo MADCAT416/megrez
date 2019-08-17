@@ -219,7 +219,7 @@ create_country_leader = {
 	name = "Sébastien Faure"
 	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
 	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {
 		#faure
@@ -230,7 +230,7 @@ create_country_leader = {
 	name = "Sébastien Faure"
 	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
 	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
 		#faure
@@ -241,7 +241,7 @@ create_country_leader = {
 	name = "Sébastien Faure"
 	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
 	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
 		#faure
@@ -252,7 +252,7 @@ create_country_leader = {
 	name = "Felix Gouin"
 	desc = "POLITICS_FELIX_GOUIN_DESC"
 	picture = ""
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }

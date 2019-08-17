@@ -187,7 +187,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
@@ -195,7 +195,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -203,7 +203,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
@@ -211,7 +211,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -219,7 +219,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -227,7 +227,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -235,7 +235,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -243,7 +243,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -251,7 +251,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -259,7 +259,7 @@ create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_Japan_Hirohito_kr.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

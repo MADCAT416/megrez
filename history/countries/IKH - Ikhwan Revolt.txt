@@ -36,7 +36,7 @@ create_country_leader = {
 	name = "Sultan bin Bajad bin Hameed Al-Otaibi"
 	desc = "POLITICS_TELEPHONESWORKBECAUSEGENIESTRUSTME_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_2.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }

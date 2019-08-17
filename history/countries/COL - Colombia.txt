@@ -122,7 +122,7 @@ create_country_leader = {
 	name = "Elíseo Arango Ramos"
 	desc = "POLITICS_ELISEO_RAMOS_DESC"
 	picture = "Portrait_Columbia_Eliseo_Arango.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
@@ -131,7 +131,7 @@ create_country_leader = {
 	name = "Gustavo Rojas Pinilla"
 	desc = "POLITICS_GUSTAVO_PINILLA_DESC"
 	picture = "Portrait_Columbia_Rojas_Pinilla.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
@@ -140,7 +140,7 @@ create_country_leader = {
 	name = "José María Villarreal"
 	desc = "POLITICS_JOSE_VILLARREAL_DESC"
 	#picture = "Portrait_Columbia_Jose_Villarreal.tga" # WIP not a real person
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
@@ -149,7 +149,7 @@ create_country_leader = {
 	name = "Alfredo Vazquez Cobo"
 	desc = "POLITICS_VAZQUEZ_COBO_DESC"
 	picture = "Portrait_Columbia_Alfredo_Cobo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
@@ -158,7 +158,7 @@ create_country_leader = {
 	name = "Mariano Ospina Pérez"
 	desc = "POLITICS_MARIANO_OSPINA_DESC"
 	picture = "Portrait_Columbia_Mariano_Ospina.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
@@ -167,7 +167,7 @@ create_country_leader = {
 	name = "Eduardo Santos Montejo"
 	desc = "POLITICS_SANTOS_MONTEJO_DESC"
 	picture = "Portrait_Columbia_Eduardo_Montejo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
@@ -176,7 +176,7 @@ create_country_leader = {
 	name = "Alfonso López Pumarejo"
 	desc = "POLITICS_ALFONSO_PUMAREJO_DESC"
 	picture = "Portrait_Columbia_Alfonso_Pumarejo.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
@@ -185,7 +185,7 @@ create_country_leader = {
 	name = "Jorge Eliecer Gaitan"
 	desc = "POLITICS_JORGE_GAITAN_DESC"
 	picture = "Portrait_Columbia_Jorge_Gaitan.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
@@ -193,7 +193,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pedro Nel Gomez Agudelo"
 	desc = "POLITICS_EUTIQUIO_TIM_DESC"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	picture = "Portrait_Columbia_Pedro_Nel_Gomez.tga"
 	ideology = syndicalist_subtype
 	traits = {}
@@ -203,7 +203,7 @@ create_country_leader = {
 	name = "Gilberto Vieira"
 	desc = "POLITICS_GILBERTO_VIEIRA_DESC"
 	picture = "Portrait_Columbia_Gilberto_Vieira.tga"
-	expire = "1965.1.1"
+	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
