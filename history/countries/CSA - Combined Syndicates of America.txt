@@ -1,4 +1,4 @@
-﻿capital = 395
+﻿capital = 361
 OOB = "empty"
 set_cosmetic_tag = CSA_commonwealth_america
 set_technology = {
@@ -156,6 +156,18 @@ add_opinion_modifier = { target = FRP modifier = embargo }
 add_opinion_modifier = { target = NEE modifier = embargo }
 add_opinion_modifier = { target = OTT modifier = embargo }
 add_opinion_modifier = { target = GBR modifier = embargo }
+
+set_country_flag = coalition_totalist
+set_country_flag = coalition_syndicalist
+set_country_flag = coalition_democratic_socialist
+set_country_flag = coalition_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_market_liberal
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_paternal_autocrat
+set_country_flag = banned_clerical_nationalist
+set_country_flag = banned_ethnic_populist
 
 set_politics = {
 	ruling_party = syndicalist
