@@ -37,7 +37,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
 				
 			}
 
@@ -56,7 +57,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monthly_population = -0.05
+				monthly_population = -0.005
 				
 			}
 
