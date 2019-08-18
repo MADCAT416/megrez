@@ -36,7 +36,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				consumer_goods_factor = -0.1
 			}
 
 		}
@@ -54,7 +54,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				stability_factor = -0.10
+				resistance_tick_auto = 10
 				
 			}
 
