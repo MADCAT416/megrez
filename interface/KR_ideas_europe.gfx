@@ -119,12 +119,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/ENG_north_sea_oil_field.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_UoB_militia_idea"
-		texturefile = "gfx/interface/ideas/ideas/UoB_militia_idea.tga"
+		name = "GFX_idea_ENG_productivity_loss"
+		texturefile = "gfx/interface/ideas/ideas/ENG_productivity_loss.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_UoB_women_soldiers"
-		texturefile = "gfx/interface/ideas/ideas/UoB_women_soldiers.tga"
+		name = "GFX_idea_ENG_smog"
+		texturefile = "gfx/interface/ideas/ideas/ENG_smog.dds"
 	}
 
 	### FRA ###

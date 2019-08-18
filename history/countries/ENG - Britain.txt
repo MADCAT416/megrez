@@ -161,6 +161,8 @@ add_ideas = {
 	ENG_Oswald_Mosley_eco_tot
 	ENG_Helen_Crawfurd_sec_rso
 	ENG_north_sea_oil_field
+	ENG_productivity_loss
+	ENG_smog
 }
 
 set_country_flag = coalition_totalist

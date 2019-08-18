@@ -23,6 +23,44 @@ ideas = {
 				
 			}
 		}
+		
+		ENG_productivity_loss = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_productivity_loss"}
+
+			picture = ENG_productivity_loss
+
+			removal_cost = -1
+			
+			modifier = {
+				
+				
+			}
+
+		}
+		
+		ENG_smog = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ENG_smog"}
+
+			picture = ENG_smog
+
+			removal_cost = -1
+			
+			modifier = {
+				
+				
+			}
+
+		}
 
 	}
 

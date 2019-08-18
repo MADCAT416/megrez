@@ -2,7 +2,14 @@
 
 ### Ideas ###
 ENG_north_sea_oil_field:0 "North Sea Oil Field"
-ENG_north_sea_oil_field_desc:0 "Since BP's successful oil drilling in 1966, North Sea oil has been expected to play an important resource and key role in the Union of Britain's in the economy. Oil is very useful."
+ENG_north_sea_oil_field_desc:0 "Since drilled successfully by the BP in 1966, petroleum has been expected to be an important resource and the center of the economy for the British Union. Petroleum has many, many uses."
+ENG_productivity_loss:0 "Productivity Loss"
+ENG_productivity_loss_desc:0 "The industrial productivity of the British Union has been declining since WWII. Some of the reasons behind this were increase of raw material import cost, increase of workers' wage, and decline in certain industries due to technological advancement."
+ENG_smog:0 "Smog"
+ENG_smog_desc: "More than 10,000 people lost their lives in the worst smog in the history of London in 1952. But the strong presence of the coal miners' union made it difficult to regulate polluter industries, and the sky of the Britain is yet to be rid of the smog."
+
+
+
 ENG_never_surrender_idea:0 "Never Surrender"
 ENG_merchant_marine_idea:0 "Merchant Marine"
 ENG_cayley_plan_idea:0 "Cayley's Naval Plan"
