@@ -1,32 +1,18 @@
 add_namespace = mrz_gen_coalition
 
-
-#Set Variable
 country_event = {
 	id = mrz_gen_coalition.1
-	
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.1"}
 
 	hidden = yes
 
-	immediate = {
+immediate = {
+
 		set_variable = {
   		 var = goverment_popularity
    		 value = ROOT.party_popularity@ruling_party
 		}
-	}
 
-	option = {}
-}
-
-#Add popularity
-country_event = {
-	id = mrz_gen_coalition.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.2"}
-
-	hidden = yes
-
-immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = coalition_totalist } }
 		ROOT = {
@@ -63,7 +49,7 @@ immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = coalition_social_progressive } }
 		ROOT = {
-		set_variable = { social_liberal_popularity = ROOT.party_popularity@social_progressive }
+		set_variable = { social_progressive_popularity = ROOT.party_popularity@social_progressive }
 		multiply_variable = { social_progressive_popularity = 100 }
 		add_to_variable = { goverment_popularity = social_progressive_popularity }
 			}
@@ -113,7 +99,7 @@ immediate = {
 	if = {
 		limit = { ROOT = { has_country_flag = coalition_clerical_nationalist } }
 		ROOT = {
-		set_variable = { ethnic_populist_popularity = ROOT.party_popularity@clerical_nationalist }
+		set_variable = { clerical_nationalist_popularity = ROOT.party_popularity@clerical_nationalist }
 		multiply_variable = { clerical_nationalist_popularity = 100 }
 		add_to_variable = { goverment_popularity = clerical_nationalist_popularity }
 			}
