@@ -532,9 +532,12 @@ has_coalition = {
 			NOT = { has_government = social_democrat }
 		}
 		AND = {
+			has_country_flag = coalition_social_progressive
+			NOT = { has_government = social_progressive }
+		}
+		AND = {
 			has_country_flag = coalition_social_liberal
-			NOT = { has_government = social_progressive
-has_government = social_liberal }
+			NOT = { has_government = social_liberal }
 		}
 		AND = {
 			has_country_flag = coalition_market_liberal
