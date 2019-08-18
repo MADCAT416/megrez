@@ -169,6 +169,20 @@ set_country_flag = banned_paternal_autocrat
 set_country_flag = banned_clerical_nationalist
 set_country_flag = banned_ethnic_populist
 
+create_faction = Third_International
+
+add_to_faction = FRA
+add_to_faction = ENG
+add_to_faction = CNT
+add_to_faction = IRE
+add_to_faction = NOR
+add_to_faction = SWE
+add_to_faction = ICE
+add_to_faction = MEX
+add_to_faction = IRE
+add_to_faction = ALG
+add_to_faction = GNE
+
 set_politics = {
 	ruling_party = syndicalist
 	last_election = "1936.11.08"
