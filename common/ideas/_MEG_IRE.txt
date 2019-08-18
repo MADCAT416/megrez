@@ -1,0 +1,86 @@
+ideas = {
+
+### Ideas
+
+	country = {
+		independent_united_people_ire = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea independent_united_people_ire"}
+
+			picture = independent_united_people_ire
+
+			removal_cost = -1
+			
+			modifier = { 
+				war_support_factor = 0.20
+				army_core_defence_factor = 0.20
+			
+			}
+			
+		}
+
+		low_domestic_demand_ire = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea low_domestic_demand_ire"}
+
+			picture = low_domestic_demand_ire
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+
+		}
+		
+		ulster_defence_association_ire = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ulster_defence_association_ire"}
+
+			picture = ulster_defence_association_ire
+
+			removal_cost = -1
+			
+			modifier = {
+				
+				
+			}
+
+		}
+		
+		fianna_eireann_ire = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea fianna_eireann_ire"}
+
+			picture = fianna_eireann_ire
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.05
+				training_time_factor = -0.05
+				
+			}
+
+		}
+	}
+
+### Ministers
+	
+}

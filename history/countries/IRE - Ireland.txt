@@ -64,8 +64,12 @@ add_ideas = {
 	IRE_Kevin_O'Higgins_for_ade
 	IRE_Ernest_Blythe_eco_ade
 	IRE_Gearoid_O_Cuinnegain_sec_pau
-	IRE_DEFENCE
 	limited_conscription
+	
+	independent_united_people_ire
+	low_domestic_demand_ire
+	ulster_defence_association_ire
+	fianna_eireann_ire
 }
 
 set_country_flag = {
