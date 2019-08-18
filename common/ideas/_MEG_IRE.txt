@@ -3,15 +3,15 @@ ideas = {
 ### Ideas
 
 	country = {
-		independent_united_people_ire = {
+		IRE_independent_united_people = {
 			
 			allowed = {
 				always = no
 			}
 			
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea independent_united_people_ire"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_independent_united_people"}
 
-			picture = independent_united_people_ire
+			picture = IRE_independent_united_people
 
 			removal_cost = -1
 			
@@ -23,15 +23,15 @@ ideas = {
 			
 		}
 
-		low_domestic_demand_ire = {
+		IRE_low_domestic_demand = {
 			
 			allowed = {
 				always = no
 			}
 			
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea low_domestic_demand_ire"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_low_domestic_demand"}
 
-			picture = low_domestic_demand_ire
+			picture = IRE_low_domestic_demand
 
 			removal_cost = -1
 			
@@ -41,15 +41,15 @@ ideas = {
 
 		}
 		
-		ulster_defence_association_ire = {
+		IRE_ulster_defence_association = {
 			
 			allowed = {
 				always = no
 			}
 			
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ulster_defence_association_ire"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_ulster_defence_association"}
 
-			picture = ulster_defence_association_ire
+			picture = IRE_ulster_defence_association
 
 			removal_cost = -1
 			
@@ -60,15 +60,15 @@ ideas = {
 
 		}
 		
-		fianna_eireann_ire = {
+		IRE_fianna_eireann = {
 			
 			allowed = {
 				always = no
 			}
 			
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea fianna_eireann_ire"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_fianna_eireann"}
 
-			picture = fianna_eireann_ire
+			picture = IRE_fianna_eireann
 
 			removal_cost = -1
 			

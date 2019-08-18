@@ -66,10 +66,10 @@ add_ideas = {
 	IRE_Gearoid_O_Cuinnegain_sec_pau
 	limited_conscription
 	
-	independent_united_people_ire
-	low_domestic_demand_ire
-	ulster_defence_association_ire
-	fianna_eireann_ire
+	IRE_independent_united_people
+	IRE_low_domestic_demand
+	IRE_ulster_defence_association
+	IRE_fianna_eireann
 }
 
 set_country_flag = {

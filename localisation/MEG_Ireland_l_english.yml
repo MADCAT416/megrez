@@ -58,14 +58,14 @@ IRE_REFUGEEFIGHT:0 "Recruit the Fighting Men"
 IRE_REFUGEEFIGHT_desc:0 "Since arriving in Ireland, many refugees have had problems finding employment, which has created some tensions in our society. One solution would be to enlist those refugees in the army to serve their newfound homeland."
 
 ### Ideas ###
-independent_united_people_ire:0 "Independent United People"
-independent_united_people_ire_desc:0 "."
-low_domestic_demand_ire:0 "Low Domestic Demand"
-low_domestic_demand_ire_desc:0 "."
-ulster_defence_association_ire:0 "Ulster Defence Association"
-ulster_defence_association_ire_desc:0 "."
-fianna_eireann_ire:0 "Fianna Éireann"
-fianna_eireann_ire_desc:0 "."
+IRE_independent_united_people:0 "Independent United People"
+IRE_independent_united_people_desc:0 "."
+IRE_low_domestic_demand:0 "Low Domestic Demand"
+IRE_low_domestic_demand_desc:0 "."
+IRE_ulster_defence_association:0 "Ulster Defence Association"
+IRE_ulster_defence_association_desc:0 "."
+IRE_fianna_eireann:0 "Fianna Éireann"
+IRE_fianna_eireann_desc:0 "."
 
 ### Focus Tree - IEAA ###
 IRE_IEAA:0 "Irish Economic Advancement Act"

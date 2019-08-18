@@ -93,8 +93,6 @@ spriteTypes = {
 
 	### ENG ###
 
-
-
 	spriteType = {
 		name = "GFX_idea_christopher_hill"
 		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.tga"
@@ -117,8 +115,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_petroleum_of_north_sea_eng"
-		texturefile = "gfx/interface/ideas/ideas/Petroleum_of_North_Sea_ENG.dds"
+		name = "GFX_idea_ENG_north_sea_oil_field"
+		texturefile = "gfx/interface/ideas/ideas/ENG_north_sea_oil_field.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_UoB_militia_idea"
@@ -347,20 +345,20 @@ spriteTypes = {
 	### IRE ###
 
 	spriteType = {
-		name = "GFX_idea_IRE_defense"
-		texturefile = "gfx/interface/ideas/ideas/IRE_defense.tga"
+		name = "GFX_idea_IRE_independent_united_people"
+		texturefile = "gfx/interface/ideas/ideas/IRE_independent_united_people.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_IRE_atheist"
-		texturefile = "gfx/interface/ideas/ideas/IRE_atheist.tga"
+		name = "GFX_idea_IRE_low_domestic_demand"
+		texturefile = "gfx/interface/ideas/ideas/IRE_low_domestic_demand.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_IRE_catholic"
-		texturefile = "gfx/interface/ideas/ideas/IRE_catholic.tga"
+		name = "GFX_idea_IRE_ulster_defence_association"
+		texturefile = "gfx/interface/ideas/ideas/IRE_ulster_defence_association.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_IRE_debt_bproblematic"
-		texturefile = "gfx/interface/ideas/ideas/IRE_debt_bproblematic.tga"
+		name = "GFX_idea_IRE_fianna_eireann"
+		texturefile = "gfx/interface/ideas/ideas/IRE_fianna_eireann.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_IRE_debt_dangerous"

@@ -1,8 +1,8 @@
 ﻿l_english:
 
 ### Ideas ###
-north_sea_oil_field_eng:0 "North Sea Oil Field"
-north_sea_oil_field_eng_desc:0 "Since BP's successful oil drilling in 1966, North Sea oil has been expected to play an important resource and key role in the Union of Britain's in the economy. Oil is very useful."
+ENG_north_sea_oil_field:0 "North Sea Oil Field"
+ENG_north_sea_oil_field_desc:0 "Since BP's successful oil drilling in 1966, North Sea oil has been expected to play an important resource and key role in the Union of Britain's in the economy. Oil is very useful."
 ENG_never_surrender_idea:0 "Never Surrender"
 ENG_merchant_marine_idea:0 "Merchant Marine"
 ENG_cayley_plan_idea:0 "Cayley's Naval Plan"

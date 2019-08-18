@@ -2,13 +2,13 @@ ideas = {
 
 	country = {
 		
-		north_sea_oil_field_eng = {
+		ENG_north_sea_oil_field = {
 			
 			allowed = {
 				always = no
 			}
 
-			picture = north_sea_oil_field_eng
+			picture = ENG_north_sea_oil_field
 
 			allowed_civil_war = {
 				always = yes
