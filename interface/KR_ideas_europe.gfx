@@ -93,6 +93,13 @@ spriteTypes = {
 
 	### ENG ###
 
+
+
+	spriteType = {
+		name = "GFX_idea_christopher_hill"
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.tga"
+	}
+
 	spriteType = {
 		name = "GFX_idea_christopher_hill"
 		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.tga"
@@ -110,8 +117,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_UoB_isolation_idea"
-		texturefile = "gfx/interface/ideas/ideas/UoB_isolation_idea.tga"
+		name = "GFX_idea_petroleum_of_north_sea_eng"
+		texturefile = "gfx/interface/ideas/ideas/Petroleum_of_North_Sea_ENG.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_UoB_militia_idea"
