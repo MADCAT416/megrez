@@ -158,7 +158,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_FIN_sisu_spirit"
-		texturefile = "gfx/interface/ideas/FIN/FIN_sisu_spirit.tga"
+		texturefile = "gfx/interface/ideas/ideas/FIN_sisu_spirit.dds"
 	}
 	
 	spriteType = {
