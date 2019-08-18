@@ -106,10 +106,14 @@ country_event = { id = norway.6 days = 21 }
 set_research_slots = 3
 set_convoys = 500 # Biggest Merchant Marines in the World - copied from Vanilla
 
+add_opinion_modifier = { target = FIN modifier = ITA_likes_govt }
+reverse_add_opinion_modifier = { target = FIN modifier = ITA_likes_govt }
+
+
 set_war_support = 0.10
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = syndicalist
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes

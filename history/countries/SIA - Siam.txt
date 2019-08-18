@@ -119,7 +119,7 @@ add_opinion_modifier = { target = GEO modifier = embargo }
 add_opinion_modifier = { target = BHC modifier = embargo }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = totalist
 	last_election = "1868.10.1" # Rama V Coronation date here
 	election_frequency = 48
 	elections_allowed = no

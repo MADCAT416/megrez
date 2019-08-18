@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		sisu_spirit = {
+		FIN_sisu_spirit = {
 			
 			allowed = {
 				always = yes
 			}
 
-			picture = sisu
+			picture = FIN_sisu_spirit
 
 			allowed_civil_war = {
 				always = yes
@@ -27,7 +27,51 @@ ideas = {
 			}
 		}
 
+		FIN_crumbling_red_earth = {
+			
+			allowed = {
+				always = yes
+			}
 
+			picture = FIN_crumbling_red_earth
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain  = -0.2
+			
+			}
+			rule = {
+				
+			}
+		}
+		
+	FIN_misgiving_military = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = FIN_misgiving_military
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+			
+			}
+			rule = {
+				
+			}
+		}
 
 	}
 

@@ -132,11 +132,6 @@ set_convoys = 20
 
 set_research_slots = 3
 
-add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
-reverse_add_opinion_modifier = { target = GER modifier = ITA_likes_govt }
-diplomatic_relation = { country = GER relation = non_aggression_pact }
-give_military_access = GER
-
 add_ideas = {
 	FIN_mounting_dissent_idea
 	FIN_ukrainian_grain_imports_idea
@@ -145,6 +140,10 @@ add_ideas = {
 	FIN_Karl_Alfred_Paloheimo_eco_pau
 	FIN_Hjalmar_Procope_sec_pau
 	extensive_conscription
+	
+	FIN_sisu_spirit
+	FIN_crumbling_red_earth
+	FIN_misgiving_military
 }
 
 create_country_leader = { # Hertta Elina Kuusinen

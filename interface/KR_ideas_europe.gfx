@@ -157,8 +157,18 @@ spriteTypes = {
 	### FIN ###
 
 	spriteType = {
-		name = "GFX_idea_fin_red_cross"
-		texturefile = "gfx/interface/ideas/FIN/FIN_idea_red_cross.tga"
+		name = "GFX_idea_FIN_sisu_spirit"
+		texturefile = "gfx/interface/ideas/FIN/FIN_sisu_spirit.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_crumbling_red_earth"
+		texturefile = "gfx/interface/ideas/ideas/FIN_crumbling_red_earth.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_misgiving_military"
+		texturefile = "gfx/interface/ideas/ideas/PER_untrained_officer.dds"
 	}
 
 	### GBR ###

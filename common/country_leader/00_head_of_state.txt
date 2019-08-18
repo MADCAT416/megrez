@@ -238,7 +238,7 @@ leader_traits = {
 		}
 	}
 		
-	self-protecting-isolationist = {
+	self_protecting_isolationist = {
 		random = no
 
 		stability_factor = 0.15

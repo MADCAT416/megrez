@@ -126,7 +126,7 @@ set_convoys = 75
 set_war_support = 0.2
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = syndicalist
 	last_election = "1932.9.20"
 	election_frequency = 48
 	elections_allowed = yes
