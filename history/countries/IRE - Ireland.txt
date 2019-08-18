@@ -116,7 +116,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Gearóid_Ó_Cuinneagáin.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
-	traits = {}
+	traits = {power_hungry_demagogue}
 }
 
 create_country_leader = {
@@ -125,7 +125,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Tom_Ó_hUiginn.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {weary_stiff_neck}
 }
 
 create_country_leader = {
@@ -134,7 +134,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Gearoidín_Fitt.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {self_protecting_isolationist}
 }
 
 create_country_leader = {
@@ -143,7 +143,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Leaslaoi_Mearda_de_Barra.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {stern_imperialist}
 }
 
 create_country_leader = {
@@ -152,7 +152,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Seosamh_O_Blatmaic.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {insignificant_layman}
 }
 
 create_country_leader = {
@@ -161,7 +161,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Padraigín_Ní_Mhurchú.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {die_hard_reformer}
 }
 
 create_country_leader = {
@@ -170,7 +170,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Wendy_Millar.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {hog_hoodlum}
 }
 
 create_country_leader = {
@@ -179,7 +179,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Ned_Ó_Cróinín.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {resigned_generalissimo}
 }
 
 create_country_leader = {
@@ -188,7 +188,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Breandán_Mac_Fheorais.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {power_hungry_demagogue}
 }
 
 create_country_leader = {
@@ -197,7 +197,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Oilibhéar_Napier.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {popular_figurehead}
 }
 
 create_country_leader = {
@@ -206,7 +206,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Pádraig_Ó_hIrighile.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {autocratic_charmer}
 }
 create_country_leader = {
 	name = "Mícheál Ó Ríordáin"
@@ -214,7 +214,7 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Mícheál_Ó_Ríordáin.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {hog_respected_war_hero}
 }
 
 ### Field Marshal

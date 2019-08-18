@@ -7,32 +7,40 @@
     comprador:0 "Comprador" # 매판
     cornered_fox:0 "Cornered Fox" # 궁지에 몰린 여우
     dictator:0 "Dictactor" # 독재자
+    die_hard_reformer:0 "Die-hard Reformer" # 완고한 개혁가
     dislikes_germany:0 "Dislikes Germany" # 독일 혐오자
     exiled:0 "Exiled" # 망명자
     exiled_desc:0 "Under threat of persecution they have spent much of the recent years of political turmoil abroad."
     former_royal:0 "Former Royalty" # 전향한 왕족
     inexperienced_imperialist:0 "Inexperienced Imperialist" # 미숙한 제국주의자
+    insignificant_layman:0 "Insignificant Layman" # 하찮은 범골
     living_buddha:0 "Living Buddha" # 활불
     mahatma:0 "Mahatma" # 마하트마
     permanent_revolutionary:0 "Permanent Revolutionary" # 영구혁명가
     phantom_of_past:0 "Phantom of the Past" # 과거의 망령
     political_dancer:0 "Political Dancer" # 정치적 곡예사
     popular_figurehead:0 "Popular Figurehead" # 인기있는 얼굴마담
+    power_hungry_demagogue:0 "Power-hungry Demagogue" # 권력에 굶주린 선동가
     puppet_of_india:0 "Indian Puppet" # 인도의 괴뢰
+    resigned_generalissimo:0 "Resigned Generalissimo" # 체념한 대장군
+    ruthless_powermonger:0 "Ruthless_Powermonger" # 무자비한 권력광
     self-protecting-isolationist:0 "Self-protecting Isolationist" # 보신적 고립주의자
     spirit_of_genghis:0 "Spirit Of Genghis" # 징기스 칸의 얼 
+    stern_imperialist:0 "Stern Imperialist" # 근엄한 제국주의자 
     stout_defender:0 "Stout Defender" # 굳센 방어자
     staunch_constitutionalist:0 "Staunch Constitutionalist" # 충실한 호헌파
     treacherous:0 "Treacherous" # 음흉한 인간
     triumphant_revolutionary:0 "Triumphant Revolutionary" # 승리한 혁명가
     warmonger:0 "Warmonger" # 전쟁광
     warrior_code:0 "Warrior Code" # 전사의 규칙
+    weary_stiff_neck:0 "Weary Stiff-neck" # 지친 고집쟁이
     
     ### 특정인 전용 ###
         atlas_standing:0 "Atlas Standing" # 일어선 아틀라스 (하워드 휴즈)
         hetman_forever:0 "Hetman Forever" # 영원한 헤트만 (바실 비시바니)
         highway_without_tollgate:0 "Highway without Tollgate" # 대도무문 (김영삼)
         honeysuckle:0 "Honeysuckle" # 인동초 (김대중)
+        mad_hatter:0 "Mad Hatter" # 미친 모자장이 (오즈왈드 모즐리)
         modern_resistance:0 "Righteous Valor" # 의열 (역대 의열단장)
         shindon:0 "Angry Monk" # 성난 중 (겐뒨 최펠)
         stone_underhead:0 "Stone Underhead" # 돌베개 (장준하)

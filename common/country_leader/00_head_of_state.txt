@@ -4,6 +4,57 @@
 
 leader_traits = { 
 
+	autocratic_charmer = {
+		random = no
+		stability_factor = 0.1
+		consumer_goods_factor = -0.05
+		local_resources_factor = -0.1
+		production_factory_max_efficiency_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	beloved_monarch = {
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.1
+		social_conservative_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	closet_anti_democrat = {
+		random = no
+
+		paternal_autocrat_drift = 0.1
+		authoritarian_democrat_drift = 0.05
+		social_liberal_drift = -0.1
+		social_progressive_drift = -0.1
+		ethnic_populist_drift = -0.1
+		political_power_gain = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	comprador = {
+		random = no
+		trade_opinion_factor = 0.2
+		local_resources_factor = -0.2
+		consumer_goods_factor = 0.2
+		stability_factor = -0.2
+		political_power_gain = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	cornered_fox = {
 		random = no
 		army_defence_factor = 0.15
@@ -13,9 +64,21 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
 	dictator = {
 		random = no
 		political_power_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	die_hard_reformer = {
+		random = no
+		consumer_goods_factor = -0.1
+		justify_war_goal_time = -0.15
+		opinion_gain_monthly_same_ideology_factor = 0.25
 
 		ai_will_do = {
 			factor = 1
@@ -43,12 +106,58 @@ leader_traits = {
 		}
 	}
 
+	former_royal = {
+		random = no
+		paternal_autocrat_drift = -0.2
+		opinion_gain_monthly_same_ideology_factor = 0.25
+		stability_factor = 0.2
+		resistance_tick = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	inexperienced_imperialist = {
 		random = no
 		political_power_factor = -0.3
 		stability_factor = 0.05
 		justify_war_goal_time = -0.25
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	insignificant_layman = {
+		random = no
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	living_buddha = {
+		random = no
+		paternal_autocrat_drift = 0.15
+		social_conservative_drift = 0.1
+		political_power_gain = 0.05
+		stability_factor = 0.1
+		consumer_goods_factor = -0.02
+		ai_focus_peaceful_factor = 0.99
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	phantom_of_past = {
+		random = no
+		paternal_autocrat_drift = -0.1
+		political_power_gain = -0.1
+		drift_defence_factor = -0.5
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -72,6 +181,76 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	popular_figurehead = {
+		random = no
+		stability_weekly  = 0.5
+		consumer_goods_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	power_hungry_demagogue = {
+		random = no
+		political_power_gain  = 0.05
+		justify_war_goal_time = -0.1
+		stability_weekly = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	puppet_of_india = {
+		random = no
+		totalist_drift = 0.1
+		political_power_gain = -0.1
+		stability_factor = 0.05
+		local_resources_factor = -0.1
+		consumer_goods_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	resigned_generalissimo = {
+		random = no
+		
+		supply_consumption_factor  = -0.1
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ruthless_powermonger = {
+		random = no
+		
+		training_time_army_factor = -0.25
+		army_org_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	self-protecting-isolationist = {
+		random = no
+
+		stability_factor = 0.15
+		consumer_goods_factor = -0.25
+		ai_focus_peaceful_factor = 0.50
+		ai_get_ally_desire_factor = -75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
 
 	spirit_of_genghis = {
 		random = no
@@ -89,9 +268,21 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
 	staunch_constitutionalist = {
 		random = no
 		drift_defence_factor = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	stern_imperialist = {
+		random = no
+		consumer_goods_factor = -0.05
+		training_time_army_factor = -0.1
+		stability_factor = -0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -106,6 +297,20 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+
+	treacherous = {
+		random = no
+		political_power_gain = -0.05
+		stability_factor = 0.05
+		encryption = 1
+		decryption = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	warmonger = {
 		random = no
 		ai_focus_aggressive_factor = 0.5
@@ -118,6 +323,16 @@ leader_traits = {
 		random = no
 		army_org_factor = 0.05
 		army_morale_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	weary_stiff_neck = {
+		random = no
+		army_morale_factor  = 0.05
+		trade_opinion_factor = -0.1
 
 		ai_will_do = {
 			factor = 1
@@ -159,10 +374,14 @@ leader_traits = {
 	}
 
 	#### Union of Britain
-	grand_protector = {
+	mad_hatter = {
 		random = no
-		political_power_gain = 0.05
-		consumer_goods_factor = 0.05
+		conscription_factor = 0.15
+		army_morale_Factor = 0.1
+		training_time_army_factor = 0.1
+		stability_factor = 0.05
+		army_org_factor = -0.1
+		decryption = -2
 
 		ai_will_do = {
 			factor = 1
@@ -195,69 +414,6 @@ leader_traits = {
 		}
 	}
 
-
-	beloved_monarch = {
-		random = no
-		political_power_gain = 0.05
-		stability_factor = 0.1
-		social_conservative_drift = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	business_monarch = {
-		trade_opinion_factor = 0.1
-		political_power_gain = -0.1
-		production_speed_industrial_complex_factor = 0.1
-		market_liberal_drift = 0.05
-		social_liberal_drift = 0.05
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	closet_anti_democrat = {
-		random = no
-
-		paternal_autocrat_drift = 0.1
-		authoritarian_democrat_drift = 0.05
-		social_liberal_drift = -0.1
-		social_progressive_drift = -0.1
-		ethnic_populist_drift = -0.1
-		political_power_gain = -0.2
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	comprador = {
-		random = no
-		trade_opinion_factor = 0.2
-		local_resources_factor = -0.2
-		consumer_goods_factor = 0.2
-		stability_factor = -0.2
-		political_power_gain = -0.2
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	former_royal = {
-		random = no
-		paternal_autocrat_drift = -0.2
-		opinion_gain_monthly_same_ideology_factor = 0.25
-		stability_factor = 0.2
-		resistance_tick = -0.2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	hetman_forever = {
 		random = no
@@ -309,60 +465,6 @@ leader_traits = {
 		}
 	}
 
-	
-
-	living_buddha = {
-		random = no
-		paternal_autocrat_drift = 0.15
-		social_conservative_drift = 0.1
-		political_power_gain = 0.05
-		stability_factor = 0.1
-		consumer_goods_factor = -0.02
-		ai_focus_peaceful_factor = 0.99
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	puppet_of_india = {
-		random = no
-		totalist_drift = 0.1
-		political_power_gain = -0.1
-		stability_factor = 0.05
-		local_resources_factor = -0.1
-		consumer_goods_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	phantom_of_past = {
-		random = no
-		paternal_autocrat_drift = -0.1
-		political_power_gain = -0.1
-		drift_defence_factor = -0.5
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	self-protecting-isolationist = {
-		random = no
-
-		stability_factor = 0.15
-		consumer_goods_factor = -0.25
-		ai_focus_peaceful_factor = 0.50
-		ai_get_ally_desire_factor = -75
-
-		ai_will_do = {
-			factor = 1
-		}
-
-	}
-
 	shindon = {
 		random = no
 		democratic_socialist_drift = 0.2
@@ -387,18 +489,6 @@ leader_traits = {
 			id = "JAP"			
 			value = 100
 		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	treacherous = {
-		random = no
-		political_power_gain = -0.05
-		stability_factor = 0.05
-		encryption = 1
-		decryption = 1
 
 		ai_will_do = {
 			factor = 1

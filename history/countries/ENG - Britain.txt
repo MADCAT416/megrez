@@ -236,7 +236,7 @@ create_country_leader = {
 	picture = "Portrait_England_Oswald_Mosley.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {mad_hatter}
 }
 
 create_country_leader = {
@@ -245,7 +245,7 @@ create_country_leader = {
 	picture = "Portrait_England_Gwynfor_Evans.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {die_hard_reformer}
 }
 
 create_country_leader = {
@@ -254,7 +254,7 @@ create_country_leader = {
 	picture = "Portrait_England_Harold_Wilson.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {stern_imperialist}
 }
 
 create_country_leader = {
@@ -263,7 +263,7 @@ create_country_leader = {
 	picture = "Portrait_Roy_Jenkins.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {weary_stiff_neck}
 }
 
 create_country_leader = {
@@ -272,7 +272,7 @@ create_country_leader = {
 	picture = "Portrait_John_Loverseed.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {self_protecting_isolationist}
 }
 
 ### Generals ###
