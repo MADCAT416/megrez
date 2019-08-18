@@ -9,7 +9,7 @@ state = {
 		}
 	}
 	provinces = {
-		13301 13305 13405
+		1928 5232 13305 13365 13405 
 	}
 	manpower = 1670
 	impassable = yes
