@@ -12,7 +12,7 @@ state = {
 		}
 		add_core_of = ARG
 		
-		set_demilitarized_zone = yes
+		
 		victory_points = {
 			12970 3
 		}
