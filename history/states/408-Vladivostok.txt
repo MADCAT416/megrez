@@ -9,7 +9,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = TRM
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = TRM
 		victory_points = {
 			957 10 # Vladivostok
