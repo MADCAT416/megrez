@@ -7,7 +7,8 @@ state = {
 	history = {
 		owner = FRP
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		add_core_of = PAP
 		add_claim_by = NFA
 
 

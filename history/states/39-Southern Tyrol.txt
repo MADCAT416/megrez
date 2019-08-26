@@ -17,14 +17,15 @@ state = {
 			}
 		}
 		add_core_of = AUS
-add_core_of = GER
+		add_core_of = GER
+		add_claim_by = PAP
 		victory_points = {
 			6675 2
 		}
 	}
 
 	provinces = {
-		656 6675 9630 11615
+		656 6675 9630 11615 671 
 	}
 	manpower = 462243
 	state_category = three
