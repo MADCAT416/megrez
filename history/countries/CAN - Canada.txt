@@ -153,6 +153,10 @@ if = {
 
 set_research_slots = 4
 
+PAN = { give_military_access = CAN }
+
+give_guarantee = PAN
+
 create_faction = Entente
 add_to_faction = CAN
 add_to_faction = CAF

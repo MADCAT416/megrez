@@ -174,16 +174,11 @@ if = {
 }
 
 POL = { give_military_access = GER }
-DKB = { give_military_access = GER }
-GEO = { give_military_access = GER }
-AZE = { give_military_access = GER }
-OTT = { give_military_access = GER }
 LEC = { give_military_access = GER }
+SUE = { give_military_access = GER }
 
-give_guarantee = DKB
-give_guarantee = GEO
-give_guarantee = AZE
 give_guarantee = LEC
+give_guarantee = SUE
 
 set_research_slots = 4
 set_convoys = 400
@@ -232,22 +227,6 @@ set_popularities = {
 }
 
 set_autonomy = {
-	target = BEL
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = LIT
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = BAT
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = WHR
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
 	target = MAF
 	autonomous_state = kr_autonomous_puppet
 }
@@ -262,6 +241,34 @@ set_autonomy = {
 set_autonomy = {
 	target = MOR
 	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = PAP
+	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = POL
+	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = CZE
+	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = EST
+	autonomous_state = kr_occupied_puppet
+}
+set_autonomy = {
+	target = LAT
+	autonomous_state = kr_occupied_puppet
+}
+set_autonomy = {
+	target = SUE
+	autonomous_state = kr_african_colony
 }
 
 # Resetting all puppet political setups which come earlier in the load order
@@ -353,20 +360,6 @@ add_to_faction = ALB
 add_to_faction = SER
 add_to_faction = CRO
 
-set_autonomy = {
-	target = PAP
-	autonomous_state = kr_autonomous_puppet
-}
-
-set_autonomy = {
-	target = POL
-	autonomous_state = kr_autonomous_puppet
-}
-
-set_autonomy = {
-	target = CZE
-	autonomous_state = kr_autonomous_puppet
-}
 
 news_event = { id = gerfla.1 days = 238 }
 

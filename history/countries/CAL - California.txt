@@ -140,6 +140,10 @@ if = {
 	}
 }
 
+PAN = { give_military_access = CAL }
+
+give_guarantee = PAN
+
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.5
