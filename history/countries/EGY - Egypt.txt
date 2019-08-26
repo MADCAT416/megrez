@@ -2,6 +2,13 @@
 oob = "empty"
 set_naval_oob = "EGY_naval"
 set_research_slots = 3
+
+
+create_faction = Arab_League
+
+add_to_faction = EGY
+add_to_faction = SYR
+
 set_technology = {
 ### MOD ###
 	### Tanks ###

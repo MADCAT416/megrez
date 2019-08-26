@@ -127,6 +127,13 @@ if = {
 set_research_slots = 3
 set_convoys = 40
 
+create_faction = Fourth_International
+add_to_faction = BHC
+add_to_faction = BUR
+add_to_faction = SIA
+add_to_faction = LAO
+add_to_faction = INC
+
 add_opinion_modifier = { target = DEH modifier = embargo }
 add_opinion_modifier = { target = PRF modifier = embargo }
 add_opinion_modifier = { target = GER modifier = embargo }
