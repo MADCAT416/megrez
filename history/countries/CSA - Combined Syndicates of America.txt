@@ -183,6 +183,12 @@ add_to_faction = IRE
 add_to_faction = ALG
 add_to_faction = GNE
 
+set_autonomy = {
+	target = MEX
+	autonomous_state = kr_occupied_puppet
+}
+
+
 set_politics = {
 	ruling_party = syndicalist
 	last_election = "1936.11.08"

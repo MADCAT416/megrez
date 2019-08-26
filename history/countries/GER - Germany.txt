@@ -353,6 +353,21 @@ add_to_faction = ALB
 add_to_faction = SER
 add_to_faction = CRO
 
+set_autonomy = {
+	target = PAP
+	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = POL
+	autonomous_state = kr_autonomous_puppet
+}
+
+set_autonomy = {
+	target = CZE
+	autonomous_state = kr_autonomous_puppet
+}
+
 news_event = { id = gerfla.1 days = 238 }
 
 country_event = {
