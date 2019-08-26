@@ -359,6 +359,7 @@ add_to_faction = GRE
 add_to_faction = ALB
 add_to_faction = SER
 add_to_faction = CRO
+add_to_faction = LIT
 
 
 news_event = { id = gerfla.1 days = 238 }

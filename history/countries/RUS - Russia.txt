@@ -162,18 +162,18 @@ set_popularities = {
 
 set_autonomy = {
 	target = ALO
-	autonomous_state = kr_special_autonomous_dependency
+	autonomous_state = kr_initial_wif_puppet
 	freedom_level = 0.75
 }
 
 set_autonomy = {
 	target = DKB
-	autonomous_state = kr_special_autonomous_dependency
+	autonomous_state = kr_initial_wif_puppet
 }
 
 set_autonomy = {
 	target = MON
-	autonomous_state = kr_special_autonomous_dependency
+	autonomous_state = kr_initial_wif_puppet
 }
 
 #### Fix for totalist alash orda

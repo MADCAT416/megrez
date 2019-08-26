@@ -6,10 +6,11 @@ state = {
 	state_category = one
 
 	history = {
-		owner = ALO
+		owner = RUS
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = RUS
 		add_core_of = ALO
 		victory_points = {
 			3618 1
