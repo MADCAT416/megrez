@@ -104,11 +104,12 @@ country_event = { id = bra.2 days = 4 } #Padre Cicero Passes Away
 country_event = { id = bra.3 days = 7 } #The Carlés Regime
 country_event = { id = bra.713 days = 70 } #Tenentist Uprising
 give_guarantee = URG
+give_guarantee = CEN
 
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = democratic_socialist
 	last_election = "1932.11.1"
 	election_frequency = 48
 	elections_allowed = yes

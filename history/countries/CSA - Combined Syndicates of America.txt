@@ -182,6 +182,7 @@ add_to_faction = MEX
 add_to_faction = IRE
 add_to_faction = ALG
 add_to_faction = GNE
+add_to_faction = CUB
 
 set_autonomy = {
 	target = MEX
