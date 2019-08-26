@@ -133,6 +133,7 @@ add_to_faction = BUR
 add_to_faction = SIA
 add_to_faction = LAO
 add_to_faction = INC
+add_to_faction = TUR
 
 add_opinion_modifier = { target = DEH modifier = embargo }
 add_opinion_modifier = { target = PRF modifier = embargo }

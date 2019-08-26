@@ -2,6 +2,14 @@
 oob = "empty"
 set_naval_oob = "BRA_naval"
 set_research_slots = 3
+
+
+create_faction = Foro_de_Sao_Paulo
+
+add_to_faction = BRA
+add_to_faction = BOL
+add_to_faction = CEN
+
 set_technology = {
 
 	### Tanks ###
