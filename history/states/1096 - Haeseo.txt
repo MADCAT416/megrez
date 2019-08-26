@@ -5,7 +5,7 @@ state = {
 	resources = {
 		tungsten = 10
 	}
-	state_category = town
+	state_category = 4
 	history = {
 		owner = KOR
 		add_core_of = KOR

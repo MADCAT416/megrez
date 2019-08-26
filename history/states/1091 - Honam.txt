@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1091"
 	manpower = 6675000
 
-	state_category = town
+	state_category = 4
 	history = {
 		owner = KOR
 		add_core_of = KOR

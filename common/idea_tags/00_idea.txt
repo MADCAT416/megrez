@@ -27,7 +27,7 @@ idea_categories = {
 		slot = head_of_intel
 		slot = temp_1
 		cost = 50
-		removal_cost = -1 # works
+		removal_cost = 50 # works
 	}
 
 	research_production = {
@@ -36,7 +36,7 @@ idea_categories = {
 		slot = aircraft_manufacturer
 		slot = weapons_manufacturer
 		slot = industrial_concern
-		slot = temp_2
+		slot = research_institute
 		cost = 150
 		removal_cost = 0
 	}
@@ -47,7 +47,7 @@ idea_categories = {
         slot = chief_of_navy
         slot = chief_of_air_force
        	slot = theorist
-        slot = temp_3
+        slot = theorist
 		cost = 150
 		removal_cost = 0
 	}

@@ -89,6 +89,7 @@
         weapons_manufacturer:0 "Weapons Manufacturer"
         #tank_manufacturer:1 "Heavy Equipment Manufacturer" already defined in Traits loc file
         air_naval_manufacturer:0 "Air and Naval Manufacturer"
+        research_institute:0 "Research Institute"
     military_staff:0 "Military Authority Committee"
         chief_of_staff:0 "Chief of Staff"
         chief_of_army:0 "Chief of Army"

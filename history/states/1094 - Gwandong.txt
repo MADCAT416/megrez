@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1094"
 	manpower = 3270000
 
-	state_category = rural
+	state_category = 2
 	resources = {
 		tungsten = 20
 	}
