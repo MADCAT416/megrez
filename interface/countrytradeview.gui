@@ -7,19 +7,19 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=550 height=100%% }
+		size = { width=805 height=100%% } #550
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_1b_border"
+			quadTextureSprite ="GFX_tiled_window_3b_border"
 		}
 
 		iconType ={
 			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_trade_header_bg"
 			position = { x= 5 y = 07 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -100,7 +100,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "resources"
 			position = { x = 11 y = 75 }	
-			size = { width = 518 height = 156 }
+			size = { width = 603 height = 156 }
 			verticalScrollbar = "right_vertical_slider"
 
 			iconType = {
@@ -155,38 +155,38 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "resources_grid"
-				position = { x = 90 y = 0 }
+				position = { x = 130 y = 0 }
 				size = { width = 422 height = 100%% }
 				slotsize = { width = 68 height = 156 }
-				max_slots = { x = 6 y = 1 }
+				max_slots = { x = 9 y = 1 }
 				format = "UPPER_LEFT"
 			}
 		}
 
 		iconType ={
 			name ="trade_divider"
-			spriteType = "GFX_divider"
+			spriteType = "GFX_exre_trade_divider"
 			position = { x= 13 y = 267 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-		iconType ={
-			name ="trade_filter_bg"
-			spriteType = "GFX_trade_filter_bg"
-			position = { x= 18 y = 278 }
-			Orientation = "UPPER_LEFT"
-		}
+		#iconType ={
+		#	name ="trade_filter_bg"
+		#	spriteType = "GFX_trade_filter_bg"
+		#	position = { x= 18 y = 278 }
+		#	Orientation = "UPPER_LEFT"
+		#}
 		
 		buttonType = {
 			name = "sort_country"
-			position = {x=17 y=430}
+			position = {x=137 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_country"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 21 y = 437 }
+			position = { x = 150 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_COUNTRY"
 			maxWidth = 160
@@ -197,14 +197,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_export"
-			position = {x=187 y=430}
+			position = {x=307 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_export"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "export_label"
-			position = { x = 190 y = 437 }
+			position = { x = 312 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_EXPORT"
 			maxWidth = 90
@@ -215,14 +215,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_request"
-			position = {x=285 y=430}
+			position = {x=405 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_delivered"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "request_label"
-			position = { x = 285 y = 437 }
+			position = { x = 408 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_REQUEST"
 			maxWidth = 100
@@ -233,14 +233,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "sort_convoys"
-			position = {x=389 y=430}
+			position = {x=510 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_convoy"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "convoys_label"
-			position = { x=403 y=437 }
+			position = { x=524 y=407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_CONVOYS"
 			maxWidth = 66
@@ -267,7 +267,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "country_filters"
-			position = { x = 10 y = 278 }	
+			position = { x = -30 y = 278 }	
 			size = { width = 520 height = 50 }
 			verticalScrollbar = "right_vertical_slider"
 				
@@ -277,15 +277,15 @@ guiTypes = {
 				position = { x = 7 y = 12 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 150 height = 35 }
-				max_slots_horizontal = 3
+				max_slots_horizontal = 5
 				format = "UPPER_LEFT"
 			}
 		}
 		
 		containerWindowType = {
 			name = "trade"
-			position = { x = 15 y = 457 }	
-			size = { width = 535 height = 100%% }
+			position = { x = 15 y = 427 }	
+			size = { width = 775 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = {top = 1 bottom = 13 }			
 				
@@ -296,7 +296,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "trade_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 120 y = 0 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 511 height = 45 }
 				max_slots_horizontal = 1
@@ -306,7 +306,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -42 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -571,9 +571,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "balance"
-			position = { x=13 y=8 }
+			position = { x=35 y=8 }
 			font = "hoi_20bs"
-			maxWidth = 57
+			maxWidth = 35
 			maxHeight = 18
 			format = right
 		}
@@ -607,20 +607,11 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "needed"
-			position = { x=20 y=94 }
+			position = { x=20 y=96 }
 			font = "hoi_16mbs"
 			maxWidth = 50
-			maxHeight = 28
+			maxHeight = 18
 			format = right
-		}
-		
-		instantTextboxType = {
-			name = "neededType"
-			position = { x=10 y=94 }
-			font = "hoi_16mbs"
-			maxWidth = 50
-			maxHeight = 28
-			format = left
 		}
 		
 		buttonType = {
