@@ -8,6 +8,11 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
+	spriteType = {
+		name = "GFX_pol_header"
+		texturefile = "gfx/interface/header_pol_bg.dds"
+	}
+
 	progressbartype = {
 		name = "GFX_subject_progressbar_long"
 		color = { 1.0 1.0 1.0 }
@@ -29,8 +34,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_pol_screens_bottom"
+		texturefile = "gfx/interface/politics_screens_bottom.dds"
+	}
+
+	spriteType = {
 		name = "GFX_subject_button"
-		texturefile = "gfx/interface/autonomy/subject_button.dds"
+		texturefile = "gfx/interface/subject_button.dds"
 	}
 
 	spriteType = {
