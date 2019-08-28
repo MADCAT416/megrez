@@ -430,6 +430,12 @@ guiTypes = {
 			allwaystransparent = yes
 		}
 
+		iconType = {
+			name = "HoS_rank_frame2"
+			spriteType = "GFX_pol_rank_frame"
+			position = { x = 10 y = 50 }		
+			allwaystransparent = yes
+		}
 		
 		instantTextboxType = {
 			name = "leader_name" #HoS Name
@@ -444,7 +450,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "HoS_rank"
-			position = { x = 18 y = 64 }
+			position = { x = 18 y = 60 }
 			font = "hoi_18mbs"
 			text = "HoS_rank"
 			maxWidth = 155
@@ -465,7 +471,13 @@ guiTypes = {
 			position = { x = 180 y = 86 }		
 			allwaystransparent = yes
 		}
-
+		
+		iconType = {
+			name = "HoG_rank_frame2"
+			spriteType = "GFX_pol_rank_frame"
+			position = { x = 180 y = 50 }		
+			allwaystransparent = yes
+		}
 		
 		instantTextboxType = {
 			name = "HoG_name"
@@ -480,7 +492,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "HOG_rank"
-			position = { x = 188 y = 64 }
+			position = { x = 188 y = 60 }
 			font = "hoi_18mbs"
 			text = "HOG_rank"
 			maxWidth = 155

@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "coalition_totalist_arrow"
-		position = { x=341 y=314 }	
+		position = { x=341 y=350 }	
 		size = { width=20 height=20 }
 		
 		iconType = {
@@ -14,7 +14,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_syndicalist_arrow"
-		position = { x=341 y=330 }	
+		position = { x=341 y=367 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -27,7 +27,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_democratic_socialist_arrow"
-		position = { x=341 y=346 }	
+		position = { x=341 y=383 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -40,7 +40,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_social_democrat_arrow"
-		position = { x=341 y=362 }	
+		position = { x=341 y=399 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -53,7 +53,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_social_progressive_arrow"
-		position = { x=341 y=378 }	
+		position = { x=341 y=415 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -66,7 +66,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_social_liberal_arrow"
-		position = { x=341 y=394 }	
+		position = { x=341 y=431 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -79,7 +79,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_market_liberal_arrow"
-		position = { x=341 y=410 }	
+		position = { x=341 y=447 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -92,7 +92,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_social_conservative_arrow"
-		position = { x=341 y=426 }	
+		position = { x=341 y=463 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -105,7 +105,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_authoritarian_democrat_arrow"
-		position = { x=341 y=442 }	
+		position = { x=341 y=479 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -118,7 +118,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_paternal_autocrat_arrow"
-		position = { x=341 y=458 }	
+		position = { x=341 y=495 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -131,7 +131,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_clerical_nationalist_arrow"
-		position = { x=341 y=474 }	
+		position = { x=341 y=511 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -144,7 +144,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "coalition_ethnic_populist_arrow"
-		position = { x=341 y=490 }	
+		position = { x=341 y=527 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -157,7 +157,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_totalist_arrow"
-		position = { x=341 y=314 }	
+		position = { x=341 y=350 }	
 		size = { width=20 height=20 }
 		
 		iconType = {
@@ -170,7 +170,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_syndicalist_arrow"
-		position = { x=341 y=330 }	
+		position = { x=341 y=367 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -183,7 +183,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_democratic_socialist_arrow"
-		position = { x=341 y=346 }	
+		position = { x=341 y=383 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -196,7 +196,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_social_democrat_arrow"
-		position = { x=341 y=362 }	
+		position = { x=341 y=399 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -209,7 +209,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_social_progressive_arrow"
-		position = { x=341 y=378 }	
+		position = { x=341 y=415 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -222,7 +222,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_social_liberal_arrow"
-		position = { x=341 y=394 }	
+		position = { x=341 y=431 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -235,7 +235,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_market_liberal_arrow"
-		position = { x=341 y=410 }	
+		position = { x=341 y=447 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -248,7 +248,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_social_conservative_arrow"
-		position = { x=341 y=426 }	
+		position = { x=341 y=463 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -261,7 +261,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_authoritarian_democrat_arrow"
-		position = { x=341 y=442 }	
+		position = { x=341 y=479 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -274,7 +274,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_paternal_autocrat_arrow"
-		position = { x=341 y=458 }	
+		position = { x=341 y=495 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -287,7 +287,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_clerical_nationalist_arrow"
-		position = { x=341 y=474 }	
+		position = { x=341 y=511 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -300,7 +300,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "opposition_ethnic_populist_arrow"
-		position = { x=341 y=490 }	
+		position = { x=341 y=527 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -313,7 +313,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_totalist_x"
-		position = { x=341 y=314 }	
+		position = { x=341 y=350 }	
 		size = { width=20 height=20 }
 		
 		iconType = {
@@ -326,7 +326,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_syndicalist_x"
-		position = { x=341 y=330 }	
+		position = { x=341 y=367 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -339,7 +339,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_democratic_socialist_x"
-		position = { x=341 y=346 }	
+		position = { x=341 y=383 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -352,7 +352,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_social_democrat_x"
-		position = { x=341 y=362 }	
+		position = { x=341 y=399 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -365,7 +365,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_social_progressive_x"
-		position = { x=341 y=378 }	
+		position = { x=341 y=415 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -378,7 +378,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_social_liberal_x"
-		position = { x=341 y=394 }	
+		position = { x=341 y=431 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -391,7 +391,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_market_liberal_x"
-		position = { x=341 y=410 }	
+		position = { x=341 y=447 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -404,7 +404,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_social_conservative_x"
-		position = { x=341 y=426 }	
+		position = { x=341 y=463 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -417,7 +417,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_authoritarian_democrat_x"
-		position = { x=341 y=442 }	
+		position = { x=341 y=479 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -430,7 +430,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_paternal_autocrat_x"
-		position = { x=341 y=458 }	
+		position = { x=341 y=495 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -443,7 +443,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_clerical_nationalist_x"
-		position = { x=341 y=474 }	
+		position = { x=341 y=511 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
@@ -456,7 +456,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "banned_ethnic_populist_x"
-		position = { x=341 y=490 }	
+		position = { x=341 y=527 }	
 		size = { width=330 height=18 }
 		
 		iconType = {
