@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Oswald_Mosley"
+		textureFile = "gfx/leaders/ENG/Portrait_England_Oswald_Mosley.tga"
+	}
+}
