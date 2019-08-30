@@ -1,0 +1,702 @@
+############################################
+# Leader Title
+############################################
+defined_text = {
+	name = leader_title_one
+
+	### President
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_President
+		}
+		localization_key = POSITION_President
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Prime_Minister
+		}
+		localization_key = POSITION_Prime_Minister
+	}
+	### Monarch
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Monarch
+		}
+		localization_key = POSITION_Monarch
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Emperor
+		}
+		localization_key = POSITION_Emperor
+	}
+	### Premier
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Premier
+		}
+		localization_key = POSITION_Premier
+	}
+	### Chairman
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Chairman
+		}
+		localization_key = POSITION_Chairman
+	}
+	### General-Secretary
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_General_Secretary
+		}
+		localization_key = POSITION_General_Secretary
+	}
+	### Military Governor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Military_Governor
+		}
+		localization_key = POSITION_Military_Governor
+	}
+	### Civil Governor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Civil_Governor
+		}
+		localization_key = POSITION_Civil_Governor
+	}
+	### Deputy Commander
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Deputy_Commander
+		}
+		localization_key = POSITION_Deputy_Commander
+	}
+	### Governor-General
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Governor_General
+		}
+		localization_key = POSITION_Governor_General
+	}
+
+
+	### Reichsprasident
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_GER_Reichsprasident
+		}
+		localization_key = POSITION_GER_Reichsprasident
+	}
+	### Reichskanzler
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_GER_Reichskanzler
+		}
+		localization_key = POSITION_GER_Reichskanzler
+	}
+	### Fuhrer
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_GER_Fuhrer
+		}
+		localization_key = POSITION_GER_Fuhrer
+	}
+	### Deputy Fuhrer
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_GER_Deputy_Fuhrer
+		}
+		localization_key = POSITION_GER_Deputy_Fuhrer
+	}
+	### Parteikanzlei
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_GER_Parteikanzlei
+		}
+		localization_key = POSITION_GER_Parteikanzlei
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = leader_title_one_generic
+	}
+}
+
+############################################
+# Secondary Leader Title
+############################################
+defined_text = {
+	name = leader_title_two
+	### President
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_President
+		}
+		localization_key = POSITION_President
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Prime_Minister
+		}
+		localization_key = POSITION_Prime_Minister
+	}
+	### Monarch
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Monarch
+		}
+		localization_key = POSITION_Monarch
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Emperor
+		}
+		localization_key = POSITION_Emperor
+	}
+	### Premier
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Premier
+		}
+		localization_key = POSITION_Premier
+	}
+	### Chairman
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Chairman
+		}
+		localization_key = POSITION_Chairman
+	}
+	### General-Secretary
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_General_Secretary
+		}
+		localization_key = POSITION_General_Secretary
+	}
+	### Military Governor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Military_Governor
+		}
+		localization_key = POSITION_Military_Governor
+	}
+	### Civil Governor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Civil_Governor
+		}
+		localization_key = POSITION_Civil_Governor
+	}
+	### Deputy Commander
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Deputy_Commander
+		}
+		localization_key = POSITION_Deputy_Commander
+	}
+	### Governor-General
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Governor_General
+		}
+		localization_key = POSITION_Governor_General
+	}
+
+
+	### Reichsprasident
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_GER_Reichsprasident
+		}
+		localization_key = POSITION_GER_Reichsprasident
+	}
+	### Reichskanzler
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_GER_Reichskanzler
+		}
+		localization_key = POSITION_GER_Reichskanzler
+	}
+	### Fuhrer
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_GER_Fuhrer
+		}
+		localization_key = POSITION_GER_Fuhrer
+	}
+	### Deputy Fuhrer
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_GER_Deputy_Fuhrer
+		}
+		localization_key = POSITION_GER_Deputy_Fuhrer
+	}
+	### Parteikanzlei
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_GER_Parteikanzlei
+		}
+		localization_key = POSITION_GER_Parteikanzlei
+	}
+
+	text = {
+		trigger = {
+			has_head_of_government = yes
+		}
+		localization_key = leader_title_two_generic
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = leader_title_two_none
+	}
+}
+############################################
+# Secondary Leader Name
+############################################
+defined_text = {
+	name = leader_name_two
+	#### SOV - Soviet Union
+	text = {
+		trigger = {
+			has_idea = SOV_HoG_Vyacheslav_M_Molotov
+		}
+		localization_key = SOV_HoG_Vyacheslav_M_Molotov
+	}
+	#### ITA - Italy
+	text = {
+		trigger = {
+			has_idea = victor_emmanuel
+		}
+		localization_key = victor_emmanuel
+	}
+	#### HUN - Hungary
+	text = {
+		trigger = {
+			has_idea = HUN_HoG_Gyula_Gombos_de_Jakfa
+		}
+		localization_key = HUN_HoG_Gyula_Gombos_de_Jakfa
+	}
+	#### ENG - United Kingdom (temp ideas)
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_George_V
+		}
+		localization_key = ENG_HoS_George_V
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_Edward_VIII
+		}
+		localization_key = ENG_HoS_Edward_VIII
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_George_VI
+		}
+		localization_key = ENG_HoS_George_VI
+	}
+	#### SAF - South Africa
+	text = {
+		trigger = {
+			has_idea = SAF_HoS_GHH_Villiers
+		}
+		localization_key = SAF_HoS_GHH_Villiers
+	}
+	text = {
+		trigger = {
+			has_idea = SAF_HoS_Sir_Patrick_Duncan
+		}
+		localization_key = SAF_HoS_Sir_Patrick_Duncan
+	}		
+	#### HOL - Netherlands
+	text = {
+		trigger = {
+			has_idea = HOL_HoG_Wilhelmina
+		}
+		localization_key = HOL_HoG_Wilhelmina
+	}
+	#### BEL - Belgium
+	text = {
+		trigger = {
+			has_idea = BEL_HoG_Albert_I
+		}
+		localization_key = BEL_HoG_Albert_I
+	}
+	#### LUX - Luxembourg
+	text = {
+		trigger = {
+			has_idea = LUX_HoG_Charlotte
+		}
+		localization_key = LUX_HoG_Charlotte
+	}
+	#### ROM - Romania
+	text = {
+		trigger = {
+			has_idea = ROM_HoS_Carol_II
+		}
+		localization_key = ROM_HoS_Carol_II
+	}
+	#### FRA - France
+	text = {
+		trigger = {
+			has_idea = FRA_HoG_Albert_Lebrun
+		}
+		localization_key = FRA_HoG_Albert_Lebrun
+	}	
+	#### CHI - Rep of China
+	text = {
+		trigger = {
+			has_idea = CHI_HoG_Lin_Sen
+		}
+		localization_key = CHI_HoG_Lin_Sen
+	}
+	#### TNG - 36th Division / Tunganistan
+	text = {
+		trigger = {
+			has_idea = TNG_HoG_Ma_Hushan
+		}
+		localization_key = TNG_HoG_Ma_Hushan
+	}
+	#### GER - Germany
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Kurt_von_Schleicher
+		}
+		localization_key = GER_HoG_Kurt_von_Schleicher
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Heinrich_Himmler
+		}
+		localization_key = GER_HoG_Heinrich_Himmler
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Adolf_Hitler
+		}
+		localization_key = GER_HoG_Adolf_Hitler
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Rudolf_Hess
+		}
+		localization_key = GER_HoG_Rudolf_Hess
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Martin_Bormann
+		}
+		localization_key = GER_HoG_Martin_Bormann
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Hermann_Goring
+		}
+		localization_key = GER_HoG_Hermann_Goring
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Joseph_Goebbels
+		}
+		localization_key = GER_HoG_Joseph_Goebbels
+	}
+	text = {
+		trigger = {
+			has_idea = RNG_HoG_Zhou_Fohai
+		}
+		localization_key = RNG_HoG_Zhou_Fohai
+	}
+	### Generic
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = leader_name_two_generic
+	}
+}
+############################################
+# Secondary Leader Descriptions
+############################################
+defined_text = {
+	name = leader_desc_two
+	#### HOL - Netherlands
+	text = {
+		trigger = {
+			has_idea = HOL_HoG_Wilhelmina
+		}
+		localization_key = HOL_HoG_Wilhelmina_desc
+	}
+	#### BEL - Belgium
+	text = {
+		trigger = {
+			has_idea = BEL_HoG_Albert_I
+		}
+		localization_key = BEL_HoG_Albert_I_desc
+	}
+	#### SAF - South Africa
+	text = {
+		trigger = {
+			has_idea = SAF_HoS_GHH_Villiers
+		}
+		localization_key = SAF_HoS_GHH_Villiers_desc
+	}	
+	#### LUX - Luxembourg
+	text = {
+		trigger = {
+			has_idea = LUX_HoG_Charlotte
+		}
+		localization_key = LUX_HoG_Charlotte_desc
+	}
+	#### FRA - France
+	text = {
+		trigger = {
+			has_idea = FRA_HoG_Albert_Lebrun
+		}
+		localization_key = FRA_HoG_Albert_Lebrun_desc
+	}
+	#### GER - Germany
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Kurt_von_Schleicher
+		}
+		localization_key = GER_HoG_Kurt_von_Schleicher_desc
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Heinrich_Himmler
+		}
+		localization_key = GER_HoG_Heinrich_Himmler_desc
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Adolf_Hitler
+		}
+		localization_key = GER_HoG_Adolf_Hitler_desc
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Rudolf_Hess
+		}
+		localization_key = GER_HoG_Rudolf_Hess_desc
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Martin_Bormann
+		}
+		localization_key = GER_HoG_Martin_Bormann_desc
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Hermann_Goring
+		}
+		localization_key = GER_HoG_Hermann_Goring_desc
+	}
+	#### RNG - Reorganized Rep of China
+	text = {
+		trigger = {
+			has_idea = RNG_HoG_Zhou_Fohai
+		}
+		localization_key = RNG_HoG_Zhou_Fohai_desc
+	}
+	#### CHI - Rep of China
+	text = {
+		trigger = {
+			has_idea = CHI_HoG_Lin_Sen
+		}
+		localization_key = Lin_Sen_desc
+	}
+	
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = leader_desc_two_generic
+	}
+}
+############################################
+# Secondary Leader Portraits
+############################################
+defined_text = {
+	name = leader_two_portrait
+	#### For test
+	text = {
+		trigger = {
+			has_idea = ENG_HoG_Oswald_Mosley
+		}
+		localization_key = GFX_Oswald_Mosley
+	}
+	#### SOV - Soviet Union
+	text = {
+		trigger = {
+			has_idea = SOV_HoG_Vyacheslav_M_Molotov
+		}
+		localization_key = GFX_P_C_Vyacheslav_Molotov
+	}
+	#### HUN - Hungary
+	text = {
+		trigger = {
+			has_idea = HUN_HoG_Gyula_Gombos_de_Jakfa
+		}
+		localization_key = GFX_P_A_Gyula_Gombos
+	}	
+	#### ITA - Italy
+	text = {
+		trigger = {
+			has_idea = victor_emmanuel
+		}
+		localization_key = GFX_P_A_Victor_Emmanuel_III
+	}
+	#### ENG - United Kingdom (temp ideas)
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_George_V
+		}
+		localization_key = GFX_P_D_George_V
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_Edward_VIII
+		}
+		localization_key = GFX_P_A_Edward_VIII
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_HoS_George_VI
+		}
+		localization_key = GFX_P_D_George_VI
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_king_edward
+		}
+		localization_key = GFX_P_A_Edward_VIII
+	}
+	#### SAF - South Africa
+	text = {
+		trigger = {
+			has_idea = SAF_HoS_GHH_Villiers
+		}
+		localization_key = GFX_P_D_GHH_Villiers
+	}
+	text = {
+		trigger = {
+			has_idea = SAF_HoS_Sir_Patrick_Duncan
+		}
+		localization_key = GFX_P_D_Sir_Patrick_Duncan
+	}		
+	#### HOL - Netherlands
+	text = {
+		trigger = {
+			has_idea = HOL_HoG_Wilhelmina
+		}
+		localization_key = GFX_P_A_Wilhelmina
+	}
+	#### ROM - Romania
+	text = {
+		trigger = {
+			has_idea = ROM_HoS_Carol_II
+		}
+		localization_key = GFX_P_A_Carol_II
+	}
+	#### BEL - Belgium
+	text = {
+		trigger = {
+			has_idea = BEL_HoG_Albert_I
+		}
+		localization_key = GFX_P_A_Albert_I
+	}
+	#### LUX - Luxembourg
+	text = {
+		trigger = {
+			has_idea = LUX_HoG_Charlotte
+		}
+		localization_key = GFX_P_A_Charlotte
+	}
+
+	#### FRA - France
+	text = {
+		trigger = {
+			has_idea = FRA_HoG_Albert_Lebrun
+		}
+		localization_key = GFX_P_D_Albert_Lebrun
+	}
+
+	#### GER - Germany
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Kurt_von_Schleicher
+		}
+		localization_key = GFX_P_A_Kurt_von_Schleicher
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Adolf_Hitler
+		}
+		localization_key = GFX_P_F_Adolf_Hitler_1933
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Joseph_Goebbels
+		}
+		localization_key = GFX_P_F_Joseph_Goebbels
+	}
+	text = {
+		trigger = {
+			has_idea = GER_HoG_Rudolf_Hess
+		}
+		localization_key = GFX_P_F_Rudolf_Hess
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_HoG_Martin_Bormann
+		}
+		localization_key = GFX_P_F_Martin_Bormann
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_HoG_Heinrich_Himmler
+		}
+		localization_key = GFX_P_F_Heinrich_Himmler
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_HoG_Hermann_Goring
+		}
+		localization_key = GFX_P_F_Hermann_Goring
+	}
+	#### CHI - Rep of China
+	text = {
+		trigger = {
+			tag = CHI
+			has_idea = CHI_HoG_Lin_Sen
+		}
+		localization_key = GFX_P_D_Lin_Sen
+	}
+	#### TNG - 36th Div / Tunganistan
+	text = {
+		trigger = {
+			tag = TNG
+			has_idea = TNG_HoG_Ma_Hushan
+		}
+		localization_key = GFX_P_A_Ma_Hushan
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GFX_leader_unknown
+	}
+}
