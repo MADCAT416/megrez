@@ -65,6 +65,9 @@
     military_police_tech:0 "Military Police"
 
  ### Interface ###
+    HoS_rank:0 "Head of State"
+    HoG_rank:0 "Head of Government"
+ 
     government:1 "Laws & Policies"
         mobilization_laws:0 "Military Service Law"
         KR_mobilization_laws:0 "Military Service Law"
