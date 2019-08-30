@@ -163,6 +163,8 @@ add_ideas = {
 	ENG_north_sea_oil_field
 	ENG_productivity_loss
 	ENG_smog
+	ENG_HoG_Oswald_Mosley
+
 }
 
 set_country_flag = coalition_totalist
