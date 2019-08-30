@@ -208,7 +208,10 @@ set_popularities = {
     ethnic_populist = 10
 }
 
-
+set_autonomy = {
+	target = NEE
+	autonomous_state = kr_initial_wif_puppet
+}
 set_autonomy = {
 	target = CAF
 	autonomous_state = kr_initial_wif_puppet
