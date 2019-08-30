@@ -66,9 +66,10 @@ guiTypes = {
 			iconType ={
 				name = "ideology_icon"
 				spriteType = "GFX_ideology_unknown"
-				position = { x = 470 y = 72 }
+				position = { x = 485 y = 110 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
+				scale = 0.7
 			}
 			
 			instantTextboxType = {
