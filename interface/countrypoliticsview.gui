@@ -487,10 +487,10 @@ guiTypes = {
 		}
 		
 		instantTextboxType = {
-			name = "HOG_rank"
+			name = "HoG_rank"
 			position = { x = 188 y = 60 }
 			font = "hoi_18mbs"
-			text = "HOG_rank"
+			text = "HoG_rank"
 			maxWidth = 155
 			maxHeight = 20
 			format = center
