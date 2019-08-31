@@ -668,10 +668,10 @@ adjacency_rule
 		trade = yes
 	}
 
-	required_provinces = { 10904 7982 }
+	required_provinces = { 10904 }
 
 	icon = 10904
-	offset = { 7 -2 4}
+	offset = { 1 -2 6 }
 }
 
 # 오대호운하 1
