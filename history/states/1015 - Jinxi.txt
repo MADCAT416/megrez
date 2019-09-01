@@ -3,17 +3,23 @@ state = { #Jinxi #Western Shanxi
 	name = "STATE_1015"
 	state_category = two
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = FNG
-		add_core_of = SQI
+		owner = CHI
+		add_core_of = CHI
+		add_claim_by = FNG
 
 		buildings = {
 			infrastructure = 2
 		}
+		
+		victory_points = {
+			12432 1
+		}
+		victory_points = {
+			1962 1
+		}
 	}
 	provinces = {
-		1034 1531 1575 4074 7041 7571 4634 10367 10507 12300
+		1034 1531 4074 7041 10367 10507 12300 12432 
 	}
 	manpower = 453500
 }
