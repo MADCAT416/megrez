@@ -27,7 +27,7 @@ idea_categories = {
 		slot = head_of_intel
 		slot = temp_1
 		cost = 50
-		removal_cost = 50 # works
+		removal_cost = -1 # works
 	}
 
 	research_production = {

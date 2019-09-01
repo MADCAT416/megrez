@@ -78,6 +78,9 @@ ENG_england_democratic_socialist:0 "Union of England"
 ENG_england_democratic_socialist_ADJ:0 "English"
 ENG_england_democratic_socialist_DEF:0 "Union of England"
 
+Oswald_Mosley:0 "Oswald Mosley"
+Oswald_Mosley_desc:0 "Oswald Mosley desc"
+
 ### Flags ###
 ENG_tuc_economy_glais:0 "Autonomist Economy"
 ENG_tuc_economy_fem:0 "Federationist Economy"
