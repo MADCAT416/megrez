@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = AOG
+		owner = CHI
 		add_core_of = QIE
 		add_core_of = SQI
 		add_core_of = AOG
