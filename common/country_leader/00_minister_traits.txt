@@ -25,9 +25,10 @@ leader_traits = {
 
 	hog_barking_buffoon  = {
 		random = no
-		stability_factor = 0.1
+		stability_factor = -0.1
 		consumer_goods_factor = -0.05
 		army_morale_factor = -0.05
+		army_org_Factor = -0.1
 		
 		ai_call_ally_desire_factor = 50
 		ai_join_ally_desire_factor = -50

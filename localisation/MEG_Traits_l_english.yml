@@ -98,7 +98,7 @@
     eco_corrupt_kleptocrat:0 "Corrupt Kleptocrat" # 부패한 도둑정치가
     eco_industrial_chemist:0 "Industrial Chemist" # 산업화학자
     eco_industrialiser:0 "Industrialiser" # 산업화 역군
-    eco_keynesian_economy:0 "Managed Market Economist" # 케인즈주의자
+    eco_keynesian_economy:0 "Schachtist Economy Supporter" # 케인즈주의자
     eco_laissez_faire_capitalist:0 "Laissez-Faire Capitalist" # 자유방임주의자
     eco_military_entrepreneur:0 "Military Entrepreneur" # 군수기업가
     eco_mixed_economy:0 "Mixed Economy Supporter" # 혼합경제론자
