@@ -813,8 +813,8 @@ SIE = {
 	color_ui = rgb { 70 206 81 }
 }
 SIK = {
-	color = rgb { 0 153 255 }
-	color_ui = rgb { 0 153 255 }
+	color = rgb { 159 128 82 }
+	color_ui = rgb { 159 128 82 }
 }
 SLO = {
 	color = rgb { 15 102 252 }
@@ -881,8 +881,8 @@ TAJ = {
 	color_ui = rgb { 233 211 14 }
 }
 TAN = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 106 63 53 }
+	color_ui = rgb { 106 63 53 }
 }
 TEX = {
 	color = rgb { 60 59 110 }
@@ -1110,4 +1110,8 @@ PKS = {
 SUE = {
 	color = rgb { 0 221 125 }
 	color_ui = rgb { 0 221 125 }
+}
+ETS = {
+	color = rgb { 0 153 255 }
+	color_ui = rgb { 0 153 255 }}
 }
