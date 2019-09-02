@@ -261,12 +261,81 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_GEORGE_DESC"
-	picture = "Portrait_Canada_King_George.tga"
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
+}
+create_country_leader = {
+	name = "Edward Ⅷ Windsor"
+	desc = "Edward_VIII_DESC"
+	picture = "Portrait_CAN_Edward_VIII.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+		paternal_autocrat
+		hos_autocratic_charmer
+		}
 }
 create_country_leader = {
 	name = "Tim Buck"
