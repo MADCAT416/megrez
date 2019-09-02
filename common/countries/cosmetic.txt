@@ -222,3 +222,8 @@ CAF_syndie_socdem = {
 	color = rgb { 175 12 12 }
 	color_ui = rgb { 155 29 29 }
 }
+
+KMT = {
+	color = rgb { 207 11 0 }
+	color_ui = rgb { 207 11 0 }
+}
