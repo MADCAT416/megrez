@@ -156,14 +156,13 @@ if = {
 }
 
 add_ideas = {
-	ENG_Arthur_Horner_hog_syn
 	ENG_Niclas_y_Glais_for_rso
 	ENG_Oswald_Mosley_eco_tot
 	ENG_Helen_Crawfurd_sec_rso
 	ENG_north_sea_oil_field
 	ENG_productivity_loss
 	ENG_smog
-	ENG_HoG_Oswald_Mosley
+	ENG_Oswald_Mosley_hog_rso
 
 }
 
