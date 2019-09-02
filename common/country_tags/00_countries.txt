@@ -282,6 +282,7 @@ QIE = "countries/Asian.txt" #Qing Empire
 SQI = "countries/Asian.txt" #Shanqing
 SZC = "countries/Asian.txt" #Sichuan Clique
 ETS = "countries/Asian.txt" #East Turkestan
+ZHI = "countries/Asian.txt" #zhili clique
 
 #### Unimportant for now
 MEN = "countries/Asian.txt" #Mengjiang?

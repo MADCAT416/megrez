@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = SIK
+		owner = ETS
 		add_core_of = SIK
 		add_core_of = ETS
 		add_claim_by = CHI

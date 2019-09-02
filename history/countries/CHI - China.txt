@@ -72,7 +72,7 @@ add_to_faction = ANQ # 안휘
 add_to_faction = HNN # 호남
 add_to_faction = LEP # 강소
 add_to_faction = SQI # 산동
-add_to_faction = TEX # 직예
+add_to_faction = ZHI # 직예
 
 set_autonomy = {
 	target = QIE

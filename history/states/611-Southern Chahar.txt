@@ -3,7 +3,7 @@ state = { #Southern Chahar
 	name = "STATE_611"
 
 	history = {
-		owner = TEX
+		owner = ZHI
 		add_core_of = CHI
 		add_core_of = MON
 		add_claim_by = FNG
