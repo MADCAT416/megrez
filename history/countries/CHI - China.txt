@@ -105,50 +105,65 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Transitional Government"
-	desc = "ANTE_PUJIE_DESC"
-	picture = "Portrait_China_Pujie.tga"
+	name = "Zhōu Ēnlái"
+	desc = "Zhōu_Ēnlái_DESC"
+	picture = "Portrait_CHI_Zhou_Enlai.tga"
+	expire = "1991.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+		hos_popular_figurehead
+		}
+}
+
+create_country_leader = {
+	name = "Yan Xishan"
+	desc = "Yan_Xishan_DESC"
+	picture = "Portrait_CHI_Yan_Xishan.tga"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+		hos_marcher_emperor
+		}
+}
+
+
+create_country_leader = {
+	name = "Chiang Chingkuo"
+	desc = "Chiang_Chingkuo_DESC"
+	picture = "Portrait_CHI_Chiang_Chingkuo.tga"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+		
+		}
+}
+
+
+create_country_leader = {
+	name = "Zhang Junmai"
+	desc = "Zhang_Junmai_DESC"
+	picture = "Portrait_CHI_Zhang_Junmai.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+		}
 }
 
 create_country_leader = {
-	name = "Transitional Government"
-	desc = "ANTE_PUJIE_DESC"
-	picture = "Portrait_China_Pujie.tga"
+	name = "Chiang Weikuo"
+	desc = "Chiang_Weikuo_DESC"
+	picture = "Portrait_CHI_Chiang_Weikuo.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
-}
-
-
-create_country_leader = {
-	name = "Transitional Government"
-	desc = "ANTE_PUJIE_DESC"
-	picture = "Portrait_China_Pujie.tga"
-	expire = "1991.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-
-create_country_leader = {
-	name = "Transitional Government"
-	desc = "ANTE_PUJIE_DESC"
-	picture = "Portrait_China_Pujie.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Transitional Government"
-	desc = "ANTE_PUJIE_DESC"
-	picture = "Portrait_China_Pujie.tga"
-	expire = "1991.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		social_liberal
+		
+		}
 }
 
 set_research_slots = 3

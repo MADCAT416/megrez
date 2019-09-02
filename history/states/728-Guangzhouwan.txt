@@ -6,11 +6,10 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = FNG
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 3
 			11981 = {

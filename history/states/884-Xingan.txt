@@ -8,7 +8,7 @@ state = {
 	history = {
 		owner = FNG
 		add_core_of = QIE
-		add_core_of = SQI
+		add_core_of = CHI
 
 		add_core_of = FNG
 		buildings = {
@@ -25,6 +25,6 @@ state = {
 	}
 
 	provinces = {
-		1502 1776 1847 4745 4809 4852 4876 7697 7743 7873 7894 10541 10567 10612 10638 12537 12690 13150
+		1502 1776 1847 4745 4809 4852 4876 7697 7743 7873 7894 10541 10567 10638 12537 12690 13150
 	}
 }

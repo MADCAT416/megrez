@@ -40,6 +40,7 @@
         hos_hetman_forever:0 "Hetman Forever" # 영원한 헤트만 (바실 비시바니)
         hos_highway_without_tollgate:0 "Highway without Tollgate" # 대도무문 (김영삼)
         hos_honeysuckle:0 "Honeysuckle" # 인동초 (김대중)
+        hos_marcher_emperor:0 "Marcher Emperor" # 토황제 (염석산)
         hos_mad_hatter:0 "Mad Hatter" # 미친 모자장이 (오즈왈드 모즐리)
         hos_modern_resistance:0 "Righteous Valor" # 의열 (역대 의열단장)
         hos_shindon:0 "Angry Monk" # 성난 중 (겐뒨 최펠)
@@ -73,6 +74,7 @@
     
     ### 특정인 전용
         hog_mononoke:0 "Mononoke" # 모노노케 (키시 노부스케)
+        hog_fixer:0 "The Fixer" # 해결사 (주은래)
         
     ### From Kaiserreich
         hog_the_black_baron:0 "The Black Baron"

@@ -11,8 +11,7 @@ state={
 		}
 		add_core_of = BHC
 		add_core_of = TIB
-		add_claim_by = QIE
-		add_claim_by = SQI
+		add_claim_by = CHI
 		add_claim_by = FNG
 	}
 
