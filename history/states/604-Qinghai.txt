@@ -3,14 +3,18 @@ state = { #Qinghai
 	name = "STATE_604"
 
 	history = {
-		owner = TIB
+		owner = XSM
 		add_core_of = XSM
-		add_core_of = SQI
-		add_core_of = QIE
-		add_core_of = FNG
 		add_core_of = TIB
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = FNG
+		
 		victory_points = {
 			4888 5
+		}
+		victory_points = {
+			1882 1
 		}
 		buildings = {
 			infrastructure = 1
@@ -19,7 +23,7 @@ state = { #Qinghai
 	}
 
 	provinces = {
-		2053 2099 4536 4888 7270 7997 10490 10750 10796 10817 10834 10865 11448 12732 12815 12846 12890 13581 13587 13146
+		2053 2099 4536 4888 7270 7997 10490 10750 10796 10817 10834 10865 11448 12732 12815 12846 12890 13581 13587 13146 1882 8018 7940
 	}
 	manpower = 1023407
 	state_category = four

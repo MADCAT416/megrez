@@ -10,11 +10,11 @@ state = { #Sichuan
 	}
 
 	history = {
-		owner = YUN
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = YUN
-		add_core_of = FNG
+		owner = SZC
+		add_core_of = SZC
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -30,7 +30,7 @@ state = { #Sichuan
 	}
 
 	provinces = {
-		1367 1395 1893 2030 2091 4141 4431 4925 5048 6999 7240 7256 8026 9939 10132 10144 11865 12141 12274 12705 12767 12819
+		1367 1395 1893 2030 2091 4925 5048 6999 7240 7256 8026 10132 10144 11865 12141 12274 12705 12767 12819
 	}
 	manpower = 52963300
 }

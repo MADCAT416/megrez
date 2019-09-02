@@ -127,7 +127,7 @@ if = {
 set_research_slots = 3
 set_convoys = 40
 
-create_faction = Fourth_International
+create_faction = faction_Fourth_International
 add_to_faction = BHC
 add_to_faction = BUR
 add_to_faction = SIA

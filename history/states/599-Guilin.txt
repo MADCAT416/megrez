@@ -1,4 +1,4 @@
-state = { #Guilin
+state = { # 동북광서
 	id = 599
 	name = "STATE_599"
 	manpower = 4685200
@@ -10,11 +10,11 @@ state = { #Guilin
 	}
 
 	history = {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

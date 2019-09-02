@@ -6,10 +6,11 @@ state = {
 	state_category = four
 
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = FNG
+		owner = ANQ
+		add_core_of = ANQ
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

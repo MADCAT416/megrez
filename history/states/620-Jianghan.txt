@@ -6,11 +6,11 @@ state = { #Hubei
 	state_category = four
 
 	history = {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
+		owner = HNN
+		add_core_of = HNN
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -22,6 +22,6 @@ state = { #Hubei
 	}
 
 	provinces = {
-		1612 4009 4130 7019 7580 7596 7609 7625 8072 9934 10474 12408
+		1612 4009 4130 7019 7580 7596 7609 7625 7948 8072 9934 10474 
 	}
 }

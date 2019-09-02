@@ -116,13 +116,14 @@
     RULE_OPTION_NEWS_EVENTS_NONE_DESC:0 "Very few news events will ever be received."
 
  ### Factions ###
-    Heilige_Liga:0 "Heilige Liga"
-    Entente:0 "Entente"
-    Third_International:0 "Third International"
-    Fourth_International:0 "Fourth International"
-    Foro_de_Sao_Paulo:0 "Foro de São Paulo"
-    NAFTA:0 "NAFTA"
-    Qawmiyyah:0 "Qawmiyyah"
+    faction_Heilige_Liga:0 "Heilige Liga"
+    faction_Entente:0 "Entente"
+    faction_Third_International:0 "Third International"
+    faction_Fourth_International:0 "Fourth International"
+    faction_Foro_de_Sao_Paulo:0 "Foro de São Paulo"
+    faction_NAFTA:0 "NAFTA"
+    faction_Qawmiyyah:0 "Qawmiyyah"
+    faction_China:0 "Republic of China"
 
  ### Custom Triggers ###
     had_war:0 "Has fought in a war"

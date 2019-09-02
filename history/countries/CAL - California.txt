@@ -149,7 +149,7 @@ set_convoys = 100
 set_stability = 0.5
 set_war_support = 0.5
 
-create_faction = NAFTA
+create_faction = faction_NAFTA
 add_to_faction = CAL
 add_to_faction = PHI
 add_to_faction = TAI

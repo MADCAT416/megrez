@@ -6,10 +6,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = SQI
-		add_core_of = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_claim_by = FNG
 
 		victory_points = {
 			4256 15
@@ -20,6 +20,6 @@ state = {
 		}
 	}
 	provinces = {
-		5092 12713 7406 7418 7301 1976 4256 4167 2006 10257 4295
+		5092 12713 7406 7418 7301 1976 4256 4167 2006 10257 4295 12408
 	}
 }

@@ -336,7 +336,7 @@ AOG = {
     }
 }
 
-create_faction = Heilige_Liga
+create_faction = faction_Heilige_Liga
 
 add_to_faction = GER
 add_to_faction = DEN

@@ -4,7 +4,7 @@ set_naval_oob = "EGY_naval"
 set_research_slots = 3
 
 
-create_faction = Qawmiyyah
+create_faction = faction_Qawmiyyah
 
 add_to_faction = EGY
 add_to_faction = SYR

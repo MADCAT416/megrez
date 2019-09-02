@@ -4,7 +4,7 @@ set_naval_oob = "BRA_naval"
 set_research_slots = 3
 
 
-create_faction = Foro_de_Sao_Paulo
+create_faction = faction_Foro_de_Sao_Paulo
 
 add_to_faction = BRA
 add_to_faction = BOL

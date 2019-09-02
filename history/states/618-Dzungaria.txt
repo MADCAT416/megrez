@@ -6,12 +6,12 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XSM
-
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = XSM
-		add_core_of = FNG
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = ETS
+		add_claim_by = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

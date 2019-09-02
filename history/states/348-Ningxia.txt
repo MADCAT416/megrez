@@ -5,9 +5,8 @@ state = { #Ningxia
 	history = {
 		owner = XSM
 		add_core_of = XSM
-		add_core_of = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		add_claim_by = CHI
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -19,7 +18,7 @@ state = { #Ningxia
 	}
 
 	provinces = {
-		8127 10724 8055 7803 12750
+		8127 10724 8055 7803 12750 7511 12776 
 		
 	}
 	manpower = 1023100

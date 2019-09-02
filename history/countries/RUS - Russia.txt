@@ -176,6 +176,11 @@ set_autonomy = {
 	autonomous_state = kr_default_puppet
 }
 
+set_autonomy = {
+	target = FNG
+	autonomous_state = kr_default_puppet
+}
+
 #### Fix for totalist alash orda
 ALO = {
 	set_politics = {

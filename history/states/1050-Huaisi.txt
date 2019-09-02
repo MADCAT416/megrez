@@ -4,10 +4,11 @@ state = {
 	manpower = 8000000
 	state_category = two
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = FNG
-		add_core_of = SQI
+		owner = ANQ
+		add_core_of = ANQ
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 2
 		}

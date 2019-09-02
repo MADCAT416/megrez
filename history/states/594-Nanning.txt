@@ -1,6 +1,6 @@
-state = {
+state = { # 동광서
 	id = 594
-	name = "STATE_594"
+	name = "STATE_594" 
 	manpower = 3850000
 	state_category = four
 	resources = {
@@ -10,11 +10,11 @@ state = {
 	}
 
 	history = {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

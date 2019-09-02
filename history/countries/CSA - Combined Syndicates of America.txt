@@ -169,7 +169,7 @@ set_country_flag = banned_paternal_autocrat
 set_country_flag = banned_clerical_nationalist
 set_country_flag = banned_ethnic_populist
 
-create_faction = Third_International
+create_faction = faction_Third_International
 
 add_to_faction = FRA
 add_to_faction = ENG

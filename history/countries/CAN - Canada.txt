@@ -157,7 +157,7 @@ PAN = { give_military_access = CAN }
 
 give_guarantee = PAN
 
-create_faction = Entente
+create_faction = faction_Entente
 add_to_faction = CAN
 add_to_faction = CAF
 add_to_faction = NFA

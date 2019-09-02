@@ -1,6 +1,6 @@
 state = { #Yuehai
 	id = 593
-	name = "STATE_593"
+	name = "STATE_593" # 서광동
 	manpower = 16730000
 	state_category = five
 	resources = {
@@ -10,11 +10,11 @@ state = { #Yuehai
 	}
 
 	history = {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

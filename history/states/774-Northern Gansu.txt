@@ -5,17 +5,24 @@ state = {
 	history = {
 		owner = XSM
 		add_core_of = XSM
-		add_core_of = SQI
-		add_core_of = QIE
-		add_core_of = FNG
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		
+		victory_points = {
+			1630 5
+		}
+		victory_points = {
+			12820 10
+		}
 	}
 
 	provinces = {
-		1778 2028 5076 5100 7971 12327 12596 12776 12820
+		1778 2028 5076 5100 7971 12327 12596 12820 5057 1630 
 	}
 	manpower = 1687577
 	state_category = four

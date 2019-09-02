@@ -1,16 +1,15 @@
 state = {
 	id = 800
-	name = "STATE_800"
+	name = "STATE_800" # 북광동
 	manpower = 5570000
 	state_category = two
 
 	history = {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
-
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_claim_by = FNG
+		
 		buildings = {
 			infrastructure = 3
 		}

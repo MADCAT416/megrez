@@ -9,11 +9,10 @@ state = { #Northern Sichuan
 
 
 	history = {
-		owner = YUN
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = YUN
-		add_core_of = FNG
+		owner = SZC
+		add_core_of = SZC
+		add_core_of = CHI
+		add_claim_by = FNG
 		add_claim_by = TIB
 		buildings = {
 			infrastructure = 1

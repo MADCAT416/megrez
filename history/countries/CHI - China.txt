@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+﻿capital = 1048 # 무창
 OOB = "empty"
 
 set_technology = {
@@ -60,8 +60,31 @@ add_opinion_modifier = { target = AOG modifier = embargo }
 set_stability = 0.50
 set_war_support = 0.40
 
+
+create_faction = faction_China
+
+add_to_faction = CHI # 국민당 중앙당
+add_to_faction = QIE # 청소조정
+add_to_faction = YUN # 운남
+add_to_faction = SZC # 사천
+add_to_faction = SHX # 섬서
+add_to_faction = GXC # 양광
+add_to_faction = ANQ # 안휘
+add_to_faction = HNN # 호남
+add_to_faction = LEP # 강소
+
+set_autonomy = {
+	target = QIE
+	autonomous_state = kr_occupied_puppet
+}
+set_autonomy = {
+	target = YUN
+	autonomous_state = kr_integrated_puppet
+}
+
+
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = democratic_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
