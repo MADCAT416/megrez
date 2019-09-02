@@ -4,10 +4,10 @@ state = { # Jidong
 	manpower = 2964470
 	state_category = four
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = FNG
-		add_core_of = SQI
+		owner = TEX
+		add_core_of = TEX
+		add_claim_by = FNG
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 		}
@@ -16,6 +16,6 @@ state = { # Jidong
 		}
 	}
 	provinces = {
-		900 1052 6969 11822 12043
+		900 1052 6969 11822 12043 11761
 	}
 }

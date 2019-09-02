@@ -4,10 +4,10 @@ state = {
 	manpower = 7164900
 	state_category = four
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = FNG
+		owner = TEX
+		add_core_of = TEX
+		add_core_of = CHI
+		add_claim_by = FNG
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
@@ -15,6 +15,6 @@ state = {
 		victory_points = { 7109 1 }
 	}
 	provinces = {
-		4032 4093 4190 4208 7000 7109 10022 10053
+		4032 4093 4190 4208 7000 7109 10053 1137 6828 12026 
 	}
 }

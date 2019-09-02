@@ -64,7 +64,6 @@ set_war_support = 0.40
 create_faction = faction_China
 
 add_to_faction = CHI # 국민당 중앙당
-add_to_faction = QIE # 청소조정
 add_to_faction = YUN # 운남
 add_to_faction = SZC # 사천
 add_to_faction = SHX # 섬서
@@ -72,6 +71,8 @@ add_to_faction = GXC # 양광
 add_to_faction = ANQ # 안휘
 add_to_faction = HNN # 호남
 add_to_faction = LEP # 강소
+add_to_faction = SQI # 산동
+add_to_faction = TEX # 직예
 
 set_autonomy = {
 	target = QIE

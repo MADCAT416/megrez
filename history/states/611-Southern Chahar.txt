@@ -3,10 +3,10 @@ state = { #Southern Chahar
 	name = "STATE_611"
 
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = FNG
+		owner = TEX
+		add_core_of = CHI
+		add_core_of = MON
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2
 			881 = {
@@ -29,7 +29,7 @@ state = { #Southern Chahar
 	}
 
 	provinces = {
-		828 881 952 1137 1590 3955 6904 9768 9776 10397
+		828 881 952 1590 3955 6904 9768 9776 10397
 	}
 	manpower = 1470000
 	state_category = two

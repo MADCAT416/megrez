@@ -4,15 +4,15 @@ state = {
 	manpower = 6964050
 	state_category = two
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = FNG
+		owner = TEX
+		add_core_of = TEX
+		add_core_of = CHI
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces = {
-		1084 7189 9969 10003 10119 11944 11980 11996 12093
+		1084 7189 9969 10003 10119 11944 11980 11996 12093 10022 1134 4140
 	}
 }

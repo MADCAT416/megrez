@@ -5,10 +5,10 @@ state = { #Jinan
 	state_category = four
 
 	history = {
-		owner = QIE
-		add_core_of = QIE
+		owner = SQI
 		add_core_of = SQI
-		add_core_of = FNG
+		add_core_of = CHI
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
