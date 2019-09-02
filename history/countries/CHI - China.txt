@@ -74,10 +74,9 @@ add_to_faction = LEP # 강소
 add_to_faction = SQI # 산동
 add_to_faction = ZHI # 직예
 
-set_autonomy = {
-	target = QIE
-	autonomous_state = kr_occupied_puppet
-}
+QIE = { give_military_access = CHI }
+give_guarantee = QIE
+
 set_autonomy = {
 	target = YUN
 	autonomous_state = kr_integrated_puppet

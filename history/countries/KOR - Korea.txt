@@ -59,7 +59,10 @@ create_country_leader = {
 	picture = "Seo-Mansul.tga"
 	expire = "2000.1.1"
 	ideology = totalist_subtype
-	traits = {hog_local_tyrant}
+	traits = {
+		totalist
+		hog_local_tyrant
+		}
 }
 
 create_country_leader = {
@@ -68,7 +71,10 @@ create_country_leader = {
 	picture = "Yoon-Seju.tga"
 	expire = "2000.1.1"
 	ideology = syndicalist_subtype
-	traits = {modern_resistance}
+	traits = {
+		syndicalist
+		hos_modern_resistance
+		}
 }
 
 create_country_leader = {
@@ -77,7 +83,10 @@ create_country_leader = {
 	picture = "Heo-Jeongsuk.tga"
 	expire = "2000.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {hog_naive_optimist}
+	traits = {
+		democratic_socialist
+		hog_naive_optimist
+		}
 }
 
 create_country_leader = {
@@ -86,7 +95,11 @@ create_country_leader = {
 	picture = "Kim-Jongpil.tga"
 	expire = "2000.1.1"
 	ideology = social_democrat_subtype
-	traits = {treacherous political_dancer}
+	traits = {
+		social_democrat
+		hos_treacherous 
+		hos_political_dancer
+		}
 }
 
 create_country_leader = {
@@ -95,7 +108,10 @@ create_country_leader = {
 	picture = "Kim-Daejung.tga"
 	expire = "2000.1.1"
 	ideology = social_liberal_subtype
-	traits = {honeysuckle}
+	traits = {
+		social_liberal	
+		hos_honeysuckle
+		}
 }
 
 create_country_leader = {
@@ -104,7 +120,10 @@ create_country_leader = {
 	picture = "Kim-Youngsam.tga"
 	expire = "2000.1.1"
 	ideology = market_liberal_subtype
-	traits = {highway_without_tollgate}
+	traits = {
+		market_liberal
+		hos_highway_without_tollgate
+		}
 }
 
 create_country_leader = {
@@ -113,7 +132,10 @@ create_country_leader = {
 	picture = "Yi-Cheolseung.tga"
 	expire = "2000.1.1"
 	ideology = social_conservative_subtype
-	traits = {hog_hoodlum}
+	traits = {
+		social_conservative
+		hog_hoodlum
+		}
 }
 
 create_country_leader = {
@@ -122,7 +144,10 @@ create_country_leader = {
 	picture = "Yi-Goo.tga"
 	expire = "2000.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {phantom_of_past}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+		}
 }
 
 create_country_leader = {
@@ -131,7 +156,10 @@ create_country_leader = {
 	picture = "Jang-Junha.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {stone_underhead}
+	traits = {
+		authoritarian_democrat
+		hos_stone_underhead
+		}
 }
 
 create_country_leader = {
@@ -140,7 +168,10 @@ create_country_leader = {
 	picture = "Jang-Junha.tga"
 	expire = "2000.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {stone_underhead}
+	traits = {
+		ethnic_populist
+		hos_stone_underhead
+		}
 }
 
 create_country_leader = {
@@ -149,7 +180,10 @@ create_country_leader = {
 	picture = "Ahn-Hosang.tga"
 	expire = "2000.1.1"
 	ideology = clerical_nationalist_subtype
-	traits = {hog_spiritual_leader}
+	traits = {
+		clerical_nationalist
+		hog_spiritual_leader
+		}
 }
 
 ### Field Marshal

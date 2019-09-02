@@ -150,7 +150,10 @@ create_country_leader = { # Hertta Elina Kuusinen
 	picture = "Portrait_FIN_hertta-kuusinen.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {power_hungry_demagogue}
+	traits = {
+		totalist
+		hos_power_hungry_demagogue
+		}
 }
 
 create_country_leader = { # Mauno Henrik Koivisto 
@@ -159,7 +162,10 @@ create_country_leader = { # Mauno Henrik Koivisto
 	picture = "Portrait_FIN_mauno-koivisto.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {hog_ambitious_union_boss}
+	traits = {
+		syndicalist 
+		hog_ambitious_union_boss
+		}
 }
 
 create_country_leader = { # Mauno Henrik Koivisto 
@@ -168,7 +174,10 @@ create_country_leader = { # Mauno Henrik Koivisto
 	picture = "Portrait_FIN_mauno-koivisto.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {hog_ambitious_union_boss}
+	traits = {
+		syndicalist
+		hog_ambitious_union_boss
+		}
 }
 
 create_country_leader = { # Taisto Kalevi Sorsa
@@ -177,7 +186,10 @@ create_country_leader = { # Taisto Kalevi Sorsa
 	picture = "Portrait_FIN_kalevi-sorsa.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {hog_backroom_backstabber}
+	traits = {
+		social_democrat
+		hog_backroom_backstabber
+		}
 }
 
 create_country_leader = { # Mary Moorhouse-Pekkala
@@ -186,7 +198,10 @@ create_country_leader = { # Mary Moorhouse-Pekkala
 	picture = "Portrait_FIN_mary-moorhouse.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {
+		social_progressive
+		hos_die_hard_reformer
+		}
 }
 
 create_country_leader = { # Urho Kaleva Kekkonen 
@@ -195,7 +210,10 @@ create_country_leader = { # Urho Kaleva Kekkonen
 	picture = "Portrait_Fin_urho-kekkonen.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {autocratic_charmer}
+	traits = {
+		social_liberal
+		hos_autocratic_charmer
+		}
 }
 
 create_country_leader = { # Pekka Tarjanne 
@@ -204,7 +222,10 @@ create_country_leader = { # Pekka Tarjanne
 	picture = "Portrait_FIN_pekka-tarjanne.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {hog_silent_workhorse}
+	traits = {
+		market_liberal
+		hog_silent_workhorse
+		}
 }
 
 create_country_leader = { # Jussi Jaakko Saukkonen 
@@ -213,7 +234,10 @@ create_country_leader = { # Jussi Jaakko Saukkonen
 	picture = "Portrait_FIN_jussi-saukkonen.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {weary_stiff_neck}
+	traits = {
+		social_conservative
+		hos_weary_stiff_neck
+		}
 }
 
 create_country_leader = { # Jaakko Sakari Simelius 
@@ -222,7 +246,10 @@ create_country_leader = { # Jaakko Sakari Simelius
 	picture = "Portrait_FIN_sakari-simelius.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {resigned_generalissimo}
+	traits = {
+		authoritarian_democrat
+		hos_resigned_generalissimo
+		}
 }
 
 create_country_leader = {
@@ -231,7 +258,10 @@ create_country_leader = {
 	picture = "Portrait_FIN_wolfgang-II.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {phantom_of_past}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+		}
 }
 
 create_country_leader = { # Paavo Oskar Susitaival
@@ -240,7 +270,10 @@ create_country_leader = { # Paavo Oskar Susitaival
 	picture = "Portrait_FIN_paavo-susitaival.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
-	traits = {hog_respected_war_hero}
+	traits = {
+		clerical_nationalist
+		hog_respected_war_hero
+		}
 }
 
 create_country_leader = { # Veikko Emil Vennamo 
@@ -249,7 +282,10 @@ create_country_leader = { # Veikko Emil Vennamo
 	picture = "Portrait_FIN_veikko-vennamo.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {hog_barking_buffoon}
+	traits = {
+		ethnic_populist
+		hog_barking_buffoon
+		}
 }
 
 ### Field Marshals ###

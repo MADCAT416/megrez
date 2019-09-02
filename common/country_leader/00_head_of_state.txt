@@ -4,7 +4,7 @@
 
 leader_traits = { 
 
-	autocratic_charmer = {
+	hos_autocratic_charmer = {
 		random = no
 		stability_factor = 0.1
 		consumer_goods_factor = -0.05
@@ -16,7 +16,7 @@ leader_traits = {
 		}
 	}
 
-	beloved_monarch = {
+	hos_beloved_monarch = {
 		random = no
 		political_power_gain = 0.05
 		stability_factor = 0.1
@@ -27,7 +27,7 @@ leader_traits = {
 		}
 	}
 
-	closet_anti_democrat = {
+	hos_closet_anti_democrat = {
 		random = no
 
 		paternal_autocrat_drift = 0.1
@@ -42,7 +42,7 @@ leader_traits = {
 		}
 	}
 
-	comprador = {
+	hos_comprador = {
 		random = no
 		trade_opinion_factor = 0.2
 		local_resources_factor = -0.2
@@ -55,7 +55,7 @@ leader_traits = {
 		}
 	}
 	
-	cornered_fox = {
+	hos_cornered_fox = {
 		random = no
 		army_defence_factor = 0.15
 		army_morale_Factor = 0.10
@@ -65,7 +65,7 @@ leader_traits = {
 		}
 	}
 	
-	dictator = {
+	hos_dictator = {
 		random = no
 		political_power_factor = 0.25
 
@@ -74,7 +74,7 @@ leader_traits = {
 		}
 	}
 	
-	die_hard_reformer = {
+	hos_die_hard_reformer = {
 		random = no
 		consumer_goods_factor = -0.1
 		justify_war_goal_time = -0.15
@@ -85,7 +85,7 @@ leader_traits = {
 		}
 	}
 
-	dislikes_germany = {
+	hos_dislikes_germany = {
 		random = no
 		ai_strategy = {
 			type = antagonize
@@ -98,7 +98,7 @@ leader_traits = {
 		}
 	}
 
-	exiled = {
+	hos_exiled = {
 		random = no
 		
 		ai_will_do = {
@@ -106,7 +106,7 @@ leader_traits = {
 		}
 	}
 
-	former_royal = {
+	hos_former_royal = {
 		random = no
 		paternal_autocrat_drift = -0.2
 		opinion_gain_monthly_same_ideology_factor = 0.25
@@ -118,7 +118,7 @@ leader_traits = {
 		}
 	}
 	
-	inexperienced_imperialist = {
+	hos_inexperienced_imperialist = {
 		random = no
 		political_power_factor = -0.3
 		stability_factor = 0.05
@@ -129,7 +129,7 @@ leader_traits = {
 		}
 	}
 	
-	insignificant_layman = {
+	hos_insignificant_layman = {
 		random = no
 		stability_factor = -0.05
 		
@@ -138,7 +138,7 @@ leader_traits = {
 		}
 	}
 
-	living_buddha = {
+	hos_living_buddha = {
 		random = no
 		paternal_autocrat_drift = 0.15
 		social_conservative_drift = 0.1
@@ -152,7 +152,7 @@ leader_traits = {
 		}
 	}
 
-	phantom_of_past = {
+	hos_phantom_of_past = {
 		random = no
 		paternal_autocrat_drift = -0.1
 		political_power_gain = -0.1
@@ -163,7 +163,7 @@ leader_traits = {
 		}
 	}
 
-	permanent_revolutionary = {
+	hos_permanent_revolutionary = {
 		random = no
 		political_power_factor = -0.15
 		justify_war_goal_time = 0.15
@@ -173,7 +173,7 @@ leader_traits = {
 		}
 	}
 
-	political_dancer = {
+	hos_political_dancer = {
 		random = no
 		political_power_factor = 0.15
 		
@@ -182,7 +182,7 @@ leader_traits = {
 		}
 	}
 	
-	popular_figurehead = {
+	hos_popular_figurehead = {
 		random = no
 		stability_weekly  = 0.5
 		consumer_goods_factor = 0.1
@@ -192,7 +192,7 @@ leader_traits = {
 		}
 	}
 	
-	power_hungry_demagogue = {
+	hos_power_hungry_demagogue = {
 		random = no
 		political_power_gain  = 0.05
 		justify_war_goal_time = -0.1
@@ -203,7 +203,7 @@ leader_traits = {
 		}
 	}
 
-	puppet_of_india = {
+	hos_puppet_of_india = {
 		random = no
 		totalist_drift = 0.1
 		political_power_gain = -0.1
@@ -216,7 +216,7 @@ leader_traits = {
 		}
 	}
 
-	resigned_generalissimo = {
+	hos_resigned_generalissimo = {
 		random = no
 		
 		supply_consumption_factor  = -0.1
@@ -227,7 +227,7 @@ leader_traits = {
 		}
 	}
 	
-	ruthless_powermonger = {
+	hos_ruthless_powermonger = {
 		random = no
 		
 		training_time_army_factor = -0.25
@@ -238,7 +238,7 @@ leader_traits = {
 		}
 	}
 		
-	self_protecting_isolationist = {
+	hos_self_protecting_isolationist = {
 		random = no
 
 		stability_factor = 0.15
@@ -252,7 +252,7 @@ leader_traits = {
 
 	}
 
-	spirit_of_genghis = {
+	hos_spirit_of_genghis = {
 		random = no
 		cavalry_attack_factor = 0.1
 		army_armor_attack_factor = 0.1
@@ -269,7 +269,7 @@ leader_traits = {
 		}
 	}
 	
-	staunch_constitutionalist = {
+	hos_staunch_constitutionalist = {
 		random = no
 		drift_defence_factor = 0.5
 		
@@ -278,7 +278,7 @@ leader_traits = {
 		}
 	}
 	
-	stern_imperialist = {
+	hos_stern_imperialist = {
 		random = no
 		consumer_goods_factor = -0.05
 		training_time_army_factor = -0.1
@@ -289,7 +289,7 @@ leader_traits = {
 		}
 	}
 
-	stout_defender = { 
+	hos_stout_defender = { 
 		random = no
 		ai_focus_defense_factor = 0.5
 		
@@ -299,7 +299,7 @@ leader_traits = {
 	}
 	
 
-	treacherous = {
+	hos_treacherous = {
 		random = no
 		political_power_gain = -0.05
 		stability_factor = 0.05
@@ -311,7 +311,7 @@ leader_traits = {
 		}
 	}
 	
-	warmonger = {
+	hos_warmonger = {
 		random = no
 		ai_focus_aggressive_factor = 0.5
 
@@ -319,7 +319,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	warrior_prince = {
+	hos_warrior_prince = {
 		random = no
 		army_org_factor = 0.05
 		army_morale_factor = 0.1
@@ -329,7 +329,7 @@ leader_traits = {
 		}
 	}
 	
-	weary_stiff_neck = {
+	hos_weary_stiff_neck = {
 		random = no
 		army_morale_factor  = 0.05
 		trade_opinion_factor = -0.1
@@ -340,7 +340,7 @@ leader_traits = {
 	}
 
 	#### India
-	chamberofprinces = {
+	hos_chamberofprinces = {
 		random = no
 		army_org_factor = -0.10
 		stability_factor = -0.2
@@ -350,7 +350,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	mahatma = {
+	hos_mahatma = {
 		random = no
 		ai_focus_aggressive_factor = -0.75
 		stability_factor = 0.1
@@ -361,7 +361,7 @@ leader_traits = {
 	}
 
 	#### Flanders-Wallonia
-	Soldier_King = {
+	hos_Soldier_King = {
 		random = no
 		war_support_factor = 0.20
 		stability_factor = 0.15
@@ -374,7 +374,7 @@ leader_traits = {
 	}
 
 	#### Union of Britain
-	mad_hatter = {
+	hos_mad_hatter = {
 		random = no
 		conscription_factor = 0.15
 		army_morale_Factor = 0.1
@@ -390,7 +390,7 @@ leader_traits = {
 
 	#### Megrez added
 
-	atlas_standing = {
+	hos_atlas_standing = {
 		random = no
 		political_power_gain = -0.1
 		stability_factor = -0.05
@@ -415,7 +415,7 @@ leader_traits = {
 	}
 
 
-	hetman_forever = {
+	hos_hetman_forever = {
 		random = no
 		cavalry_attack_factor = 0.1
 		army_armor_attack_factor = 0.1
@@ -429,7 +429,7 @@ leader_traits = {
 		}
 	}
 	
-	highway_without_tollgate = {
+	hos_highway_without_tollgate = {
 		random = no
 		war_support_factor = 0.1
 		stability_factor = 0.1
@@ -440,7 +440,7 @@ leader_traits = {
 		}
 	}
 
-	hochiminh_lover = {
+	hos_hochiminh_lover = {
 		random = no
 		totalist_drift = -0.001
 		syndicalist_drift = 0.01
@@ -452,7 +452,7 @@ leader_traits = {
 		}
 	}
 
-	honeysuckle = {
+	hos_honeysuckle = {
 		random = no
 		consumer_goods_factor = -0.1
 		ai_focus_peaceful_factor = 0.5
@@ -465,7 +465,7 @@ leader_traits = {
 		}
 	}
 
-	shindon = {
+	hos_shindon = {
 		random = no
 		democratic_socialist_drift = 0.2
 		political_power_gain = -0.05
@@ -478,7 +478,7 @@ leader_traits = {
 
 	}
 
-	stone_underhead = {
+	hos_stone_underhead = {
 		random = no
 		political_power_gain = 0.1
 		stability_factor = -0.1
@@ -495,7 +495,7 @@ leader_traits = {
 		}
 	}
 
-	union_chair = {
+	hos_union_chair = {
 		random = no
 		industrial_capacity_factory = 0.05
 		syndicalist_drift = 0.01
