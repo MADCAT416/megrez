@@ -83,6 +83,7 @@ set_autonomy = {
 	autonomous_state = kr_integrated_puppet
 }
 
+set_cosmetic_tag = KMT
 
 set_politics = {
 	ruling_party = democratic_socialist
