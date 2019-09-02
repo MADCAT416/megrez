@@ -261,7 +261,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -272,7 +272,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII  Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -294,7 +294,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -305,7 +305,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -316,7 +316,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -327,7 +327,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
@@ -335,21 +335,27 @@ create_country_leader = {
 	traits = {
 		paternal_autocrat
 		hos_autocratic_charmer
-		}
+	}
 }
 create_country_leader = {
 	name = "Tim Buck"
 	picture = "Portrait_Canada_Tim_Buck.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+		
+	}
 }
 create_country_leader = {
 	name = "Humphrey Mitchell"
 	picture = "Portrait_Canada_Humphrey_Mitchell.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 
 ### Field Marshal
