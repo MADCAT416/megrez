@@ -130,7 +130,6 @@ set_convoys = 40
 create_faction = faction_Fourth_International
 add_to_faction = BHC
 add_to_faction = BUR
-add_to_faction = SIA
 add_to_faction = LAO
 add_to_faction = INC
 add_to_faction = TUR
@@ -185,40 +184,64 @@ create_country_leader = {
 	traits = {}
 }
 
+
 create_country_leader = {
-	name = "Iskander Mirza"
-	desc = "POLITICS_ISKANDER_MIRZA_DESC"
-	picture = "Portrait_BHC_Iskander_Mirza.tga"
+	name = "Chakravarti Rajagopalachari"
+	desc = "Chakravarti_Rajagopalachari_DESC"
+	picture = "Portrait_BHC_Chakravarti_Rajagopalachari.tga"
+	expire = "1991.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		market_liberal
+		
+	}
+}
+create_country_leader = {
+	name = "Morarji Ranchhodji Desai"
+	desc = "Morarji_Desai_DESC"
+	picture = "Portrait_BHC_Morarji_Desai.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
 
 create_country_leader = {
-	name = "Lala Lajpat Rai"
-	desc = "POLITICS_LALA_LAJPAT_RAI_DESC"
-	picture = "Portrait_Bengal_Lala_Lajpat_Rai.tga"
+	name = "Yashwantrao Balwantrao Chavan"
+	desc = "Yashwantrao_Chavan_DESC"
+	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 
 create_country_leader = {
-	name = "A. K. Fazlul Huq"
-	desc = "POLITICS_FAZLUL_HUQ_DESC"
-	picture = "Portrait_BHC_A_K_Fazlul_Huq.tga"
+	name = "Elamkulam Manakkal Sankaran Namboodiripad"
+	desc = "Elamkulam_Namboodiripad_DESC"
+	picture = "Portrait_BHC_Elamkulam_Namboodiripad.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+		
+	}
 }
 
 create_country_leader = {
-	name = "Subhas Chandra Bose"
-	desc = "POLITICS_CHANDRA_BOSE_DESC"
-	picture = "Portrait_BHC_Chandra_Bose.tga"
+	name = "Indira Priyadarshini Nehru-Gandhi"
+	desc = "Indira_Gandhi_DESC"
+	picture = "Portrait_BHC_Indira_Gandhi.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+		
+	}
 }
 
 add_ideas = {
