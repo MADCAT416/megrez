@@ -238,6 +238,7 @@ leader_traits = {
 		
 		training_time_army_factor = -0.25
 		army_org_factor = -0.1
+		foreign_subversive_activites = -0.04
 		
 		ai_will_do = {
 			factor = 1

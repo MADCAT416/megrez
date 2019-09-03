@@ -11,13 +11,17 @@ leader_traits = {
 	hog_ambitious_union_boss = {
 		industrial_capacity_factory = 0.08
 		political_power_gain = 0.05
+		consumer_goods_factor = -0.15
+		stability_factor = -0.05
 
 		random = no
 	}
 
 	hog_backroom_backstabber = {
 		stability_factor = -0.07
-		political_power_gain = 0.20
+		political_power_gain = 0.25
+		local_resources_factor = -0.05
+		foreign_subversive_activites = -0.04
 
 		random = no
 
@@ -29,6 +33,7 @@ leader_traits = {
 		consumer_goods_factor = -0.05
 		army_morale_factor = -0.05
 		army_org_Factor = -0.1
+		subversive_activites_upkeep = -0.01
 		
 		ai_call_ally_desire_factor = 50
 		ai_join_ally_desire_factor = -50
@@ -43,6 +48,8 @@ leader_traits = {
 		political_power_gain = -0.17
 		production_speed_industrial_complex_factor = 0.12
 		production_speed_arms_factory_factor = 0.06
+		stability_factor = -0.1
+		training_time_factor = +0.05
 
 		random = no
 	}
@@ -51,6 +58,7 @@ leader_traits = {
 		war_support_factor = 0.06
 		stability_factor = 0.06
 		political_power_gain = -0.08
+		army_morale_factor = +0.03
 
 		random = no
 	}
@@ -58,6 +66,7 @@ leader_traits = {
 	hog_happy_amateur = {
 		production_speed_buildings_factor = -0.04
 		political_power_gain = 0.07
+		stability_factor = 0.1
 
 		random = no
 	}
@@ -78,6 +87,10 @@ leader_traits = {
 	hog_local_tyrant = {
 		political_power_gain = -0.09
 		local_resources_factor = 0.16
+		industrial_capacity_factory = 0.05
+		training_time_army_factor = -0.05
+		monthly_population = -0.05
+		improve_relations_maintain_cost_factor = 0.5
 
 		random = no
 	}
@@ -86,6 +99,8 @@ leader_traits = {
 		political_power_gain = -0.08
 		production_speed_industrial_complex_factor = 0.17
 		production_speed_arms_factory_factor = -0.13
+		consumer_goods_factor = -0.1
+		justify_war_goal_time = 0.1
 
 		random = no
 	}
@@ -95,12 +110,18 @@ leader_traits = {
 		production_speed_dockyard_factor = 0.12
 		experience_gain_navy = 0.22
 
+		equipment_bonus = {
+		
+		}
+
 		random = no
 	}
 
 	hog_old_air_marshal = {
 		production_speed_air_base_factor = 0.17
-
+		training_time_air_factor  = -0.05
+		experience_gain_air = 0.05
+		
 		equipment_bonus = {
 			fighter_equipment = {
 				build_cost_ic = -0.05
@@ -123,7 +144,6 @@ leader_traits = {
 				instant = yes
 			}
 		}
-		experience_gain_air = 0.05
 
 		random = no
 	}
@@ -131,19 +151,23 @@ leader_traits = {
 	hog_old_general = {
 		production_speed_bunker_factor = 0.12
 		max_planning = 0.1
+		training_time_army_factor  = -0.05
 		experience_gain_army = 0.13
+		training_time_army_factor  = 
 
 		random = no
 	}
 
 	hog_political_protege = {
 		political_power_gain = 0.15
+		stability_factor = -0.05
+		consumer_goods_factor = 0.03
 
 		random = no
 	}
 
 	hog_pragmatic_statesman = {
-		political_power_gain = 0.25
+		political_power_gain = 0.50
 
 		random = no
 	}
@@ -158,7 +182,7 @@ leader_traits = {
 	hog_respected_war_hero = {
 		political_power_gain = 0.075
 		army_morale = 0.1
-		training_time_factor = -0.12
+		training_time_factor = -0.15
 
 		random = no
 	}
@@ -166,6 +190,8 @@ leader_traits = {
 	hog_silent_workhorse = {
 		political_power_gain = 0.13
 		local_resources_factor = 0.14
+		industrial_capacity_factory = 0.05
+		improve_relations_maintain_cost_factor = 0.2
 
 		random = no
 	}
@@ -173,6 +199,7 @@ leader_traits = {
 	hog_smiling_oilman = {
 		production_factory_max_efficiency_factor = 0.05
 		production_speed_synthetic_refinery_factor = 0.12
+		ai_get_ally_desire_factor = -0.1
 
 		random = no
 	}
@@ -358,6 +385,9 @@ leader_traits = {
 		political_power_gain = 0.04
 		production_speed_buildings_factor = 0.06
 		production_factory_max_efficiency_factor = 0.07
+		consumer_goods_factor = 0.15
+		industrial_capacity_factory = -0.05
+		local_resources_factor = -0.05
 
 		random = no
 	}
@@ -371,11 +401,13 @@ leader_traits = {
 
 	eco_construction_magnate = {
 		production_speed_infrastructure_factor = 0.1
-		production_speed_air_base_factor = 0.15
-		production_speed_naval_base_factor = 0.15
-		production_speed_radar_station_factor = 0.15
-		production_speed_rocket_site_factor = 0.15
-		production_speed_nuclear_reactor_factor = 0.15
+		production_speed_air_base_factor = 0.1
+		production_speed_naval_base_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		production_speed_dockyard_factor = 0.1
 
 		random = no
 	}
@@ -385,6 +417,8 @@ leader_traits = {
 		production_factory_max_efficiency_factor = -0.1
 		production_speed_buildings_factor = -0.07
 		political_power_gain = 0.18
+		industrial_capacity_factory = -0.05
+		supply_consumption_factor = 0.1
 
 		random = no
 	}
@@ -409,10 +443,12 @@ leader_traits = {
 	}
 
 	eco_keynesian_economy = {
-		production_factory_max_efficiency_factor = -0.08
+		
 		local_resources_factor = -0.05
 		consumer_goods_factor = -0.07
 		political_power_gain = 0.1
+		production_speed_industrial_complex_factor = -0.05
+		industrial_capacity_factory = -0.03
 
 		random = no
 	}
@@ -422,6 +458,8 @@ leader_traits = {
 		production_speed_buildings_factor = 0.15
 		local_resources_factor = 0.05
 		political_power_gain = -0.09
+		consumer_goods_factor = 0.1
+		industrial_capacity_factory = -0.05
 
 		random = no
 	}
@@ -431,6 +469,8 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.11
 		production_factory_max_efficiency_factor = 0.08
 		war_support_factor = 0.07
+		supply_consumption_factor = -0.1
+		industrial_capacity_factory = -0.01
 
 		random = no
 	}
@@ -439,6 +479,8 @@ leader_traits = {
 		production_factory_max_efficiency_factor = 0.07
 		local_resources_factor = 0.08
 		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.03
+		consumer_goods_factor = 0.05
 
 		random = no
 	}
@@ -452,10 +494,11 @@ leader_traits = {
 	}
 
 	eco_planned_economy_proponent = {
-		local_resources_factor = -0.04
+		local_resources_factor = 0.05
 		production_factory_max_efficiency_factor = -0.10
-		industrial_capacity_factory = -0.05
+		industrial_capacity_factory = 0.05
 		production_speed_buildings_factor = 0.13
+		consumer_goods_factor = 0.15
 
 		random = no
 	}
@@ -469,6 +512,7 @@ leader_traits = {
 
 	eco_resource_industrialist = {
 		local_resources_factor = 0.23
+		industrial_capacity_factory = 0.03
 
 		random = no
 	}
@@ -476,6 +520,7 @@ leader_traits = {
 	eco_steel_magnate = {
 		local_resources_factor = 0.16
 		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = -0.01
 
 		random = no
 	}
@@ -490,8 +535,10 @@ leader_traits = {
 	eco_theoretical_scientist = {
 		ai_focus_military_advancements_factor = 0.5
 		production_speed_rocket_site_factor = 0.2
-		production_speed_nuclear_reactor_factor = 0.25
+		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_radar_station_factor = 0.2
 		research_time_factor = -0.04
+		industrial_capacity_factory = -0.01
 
 		random = no
 	}
@@ -666,6 +713,7 @@ leader_traits = {
 		ai_call_ally_desire_factor = 10
 		opinion_gain_monthly_same_ideology_factor = 0.65
 		opinion_gain_monthly = -0.25
+		improve_relations_maintain_cost_factor = 0.05
 
 		random = no
 	}
@@ -673,6 +721,7 @@ leader_traits = {
 	for_ideological_crusader = {
 		ai_get_ally_desire_factor = 10
 		opinion_gain_monthly_same_ideology_factor = 1.0
+		improve_relations_maintain_cost_factor = -0.33
 
 		random = no
 	}
@@ -680,6 +729,7 @@ leader_traits = {
 	for_apologetic_clerk = {
 		ai_focus_peaceful_factor = 0.5
 		political_power_gain = 0.05
+		improve_relations_maintain_cost_factor = 0.33
 
 		random = no
 	}
@@ -688,6 +738,7 @@ leader_traits = {
 		ai_focus_aggressive_factor = 0.5
 		trade_opinion_factor = -0.05
 		justify_war_goal_time = -0.15
+		improve_relations_maintain_cost_factor = -0.33
 
 		random = no
 	}
@@ -713,6 +764,8 @@ leader_traits = {
 	for_the_cloak_n_dagger_schemer = {
 		ai_call_ally_desire_factor = 30
 		ai_focus_aggressive_factor = 0.5
+		improve_relations_maintain_cost_factor = -0.1
+		subversive_activites_upkeep = 0.01
 		decryption = 1
 
 		random = no
@@ -725,6 +778,7 @@ leader_traits = {
 	sec_back_stabber = {
 		army_org_Factor = -0.10
 		political_power_gain = 0.2
+		consumer_goods_factor = 0.05
 
 		random = no
 	}
@@ -732,6 +786,8 @@ leader_traits = {
 	sec_compassionate_gentleman = {
 		stability_factor = 0.07
 		political_power_gain = 0.10
+		non_core_manpower = 0.05
+		local_resources_factor = 0.02
 
 		random = no
 	}
@@ -739,6 +795,7 @@ leader_traits = {
 	sec_crime_fighter = {
 		political_power_gain = 0.20
 		conscription_factor = -0.05
+		consumer_goods_factor = -0.1
 
 		random = no
 	}
@@ -746,6 +803,8 @@ leader_traits = {
 	sec_crooked_kleptocrat = {
 		political_power_gain = -0.15
 		production_speed_buildings_factor = -0.04
+		industrial_capacity_factory = -0.03
+		local_resources_factor = -0.03
 
 		random = no
 	}
@@ -753,23 +812,29 @@ leader_traits = {
 	sec_efficient_sociopath = {
 		local_resources_factor = 0.15
 		conscription_factor = -0.05
+		monthly_population = -0.1
+		
 
 		random = no
 	}
 
 	sec_health_and_safety = {
 		political_power_gain = 0.26
-		conscription_factor = 0.05
 		local_resources_factor = -0.05
 		production_speed_buildings_factor = -0.05
 		industrial_capacity_factory = -0.05
+		consumer_goods_factor = -0.05
+		stability_factor = 0.1
+		monthly_population = 0.02
 
 		random = no
 	}
 
 	sec_man_of_the_people = {
+		non_core_manpower = 0.1
 		stability_factor = 0.1
 		resistance_tick = -0.2
+		monthly_population = 0.05
 
 		random = no
 	}
@@ -786,11 +851,15 @@ leader_traits = {
 		local_resources = 0.2
 		local_manpower =  0.2
 		local_factories = 0.2
+		consumer_goods_factor = 0.1
 
 		random = no
 	}
 
 	sec_secret_police_chief = {
+		training_time_army_factor = -0.05
+		stability_factor = 0.08
+		consumer_goods_factor = 0.05
 		political_power_gain = -0.2
 		encryption = 1
 		decryption = 1
@@ -803,6 +872,7 @@ leader_traits = {
 		random = no
 		political_power_gain = 0.19
 		production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.05
 	}
 
 	##unique_traits
@@ -836,6 +906,7 @@ leader_traits = {
 	int_logistics_specialist = {
 		decryption = 0.5
 		supply_consumption_factor = -0.04
+		recon_factor = 0.3
 
 		random = no
 	}
@@ -843,20 +914,23 @@ leader_traits = {
 	int_political_specialist = {
 		decryption = 0.5
 		political_power_gain = 0.20
+		subversive_activites_upkeep = -0.02
+		partisan_effect = 0.02
 
 		random = no
 	}
 
 	int_dismal_enigma = {
-		encryption = 1
-		decryption = 1
+		encryption = 1.5
+		decryption = 1.5
 
 		random = no
 	}
 
 	int_industrial_specialist = {
 		decryption = 0.5
-		production_speed_arms_factory_factor = 0.2
+		industrial_capacity_factory = 0.02
+		local_resources_factor = 0.02
 
 		random = no
 	}
@@ -864,6 +938,7 @@ leader_traits = {
 	int_naval_intelligence_specialist = {
 		decryption = 0.5
 		sortie_efficiency = 0.1
+		spotting_chance = 0.2
 
 		random = no
 	}
