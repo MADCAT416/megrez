@@ -213,45 +213,63 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1991.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#faure
-	}
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
+	name = "Pierre Poujade"
+	desc = "Pierre Poujade_DESC"
+	picture = "Portrait_FRA_Pierre Poujade.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
-		#faure
+		totalist
+		
 	}
 }
 
 create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
+	name = "Gaston Defferre"
+	desc = "Gaston_Defferre_DESC"
+	picture = "Portrait_FRA_Gaston_Defferre.tga"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alain Krivine"
+	desc = "Alain_Krivine_DESC"
+	picture = "Portrait_FRA_Alain_Krivine.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
-		#faure
+		democratic_socialist
+		
 	}
 }
 
 create_country_leader = {
-	name = "Felix Gouin"
-	desc = "POLITICS_FELIX_GOUIN_DESC"
-	picture = ""
+	name = "Michel Rocard"
+	desc = "Michel_Rocard_DESC"
+	picture = "Portrait_FRA_Michel_Rocard.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
+}
+
+create_country_leader = {
+	name = "René Dumont"
+	desc = "Rene_Dumont_DESC"
+	picture = "Portrait_FRA_Rene_Dumont.tga"
+	expire = "1991.1.1"
+	ideology = social_progressvive_subtype
+	traits = {
+		social_progressvive
+		
+	}
 }
 
 ### Field Marshal

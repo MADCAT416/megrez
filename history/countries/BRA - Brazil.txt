@@ -142,85 +142,106 @@ add_ideas = {
 	BRA_Ernesto_Simoes_Filho_sec_sco
 }
 
+
+
 create_country_leader = {
-	name = "Gustavo Dodt Barroso"
-	desc = "POLITICS_GUSTAVO_DODT_DESC"
-	picture = "Portrait_BRA_Gustavo_Dodt_Barroso.tga"
+	name = "Augusto Hamann Rademaker Grünewald"
+	desc = "Augusto_Rademaker_DESC"
+	picture = "Portrait_BRA_Augusto_Rademaker.tga"
 	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+		
+	}
 }
 create_country_leader = {
-	name = "Getúlio Vargas"
-	desc = "POLITICS_GETULIO_VARGAS_BRA_DESC"
-	picture = "Portrait_BRA_Getulio_Vargas.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Eurico Gaspar Dutra"
-	desc = "POLITICS_EURICO_DUTRA_BRA_DESC"
-	picture = "Portrait_BRA_Eurico_Gaspar_Dutra.tga"
+	name = "Emílio Garrastazu Médici"
+	desc = "Emilio_Garrastazu_Medici_DESC"
+	picture = "Portrait_BRA_Emilio_Garrastazu_Medici.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Otávio Mangabeira"
-	desc = "POLITICS_OTAVIO_MANGABEIRA_DESC"
-	picture = "Portrait_BRA_Otavio_Mangabeira.tga"
+	name = "Juscelino Kubitschek de Oliveira"
+	desc = "Juscelino_Kubitschek_de_Oliveira_DESC"
+	picture = "Portrait_BRA_Juscelino_Kubitschek_de_Oliveira.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+		
+	}
 }
 create_country_leader = {
-	name = "Francisco Prestes Maia"
-	desc = "POLITICS_PRESTES_MAIA_BRA_DESC"
-	picture = "Portrait_BRA_Francisco_Prestes_Maia.tga"
+	name = "Tancredo de Almeida Neves"
+	desc = "Tancredo_de_Almeida_Neves_DESC"
+	picture = "Portrait_BRA_Tancredo_de_Almeida_Neves.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+		
+	}
 }
 create_country_leader = {
-	name = "Júlio Prestes"
-	desc = "POLITICS_JULIO_PRESTES_DESC"
-	picture = "Portrait_BRA_Julio_Prestes.tga"
+	name = "Jânio da Silva Quadros"
+	desc = "Janio_da_Silva_Quadros_DESC"
+	picture = "Portrait_BRA_Janio_da_Silva_Quadros.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+		
+	}
 }
 create_country_leader = {
-	name = "João Mangabeira"
-	desc = "POLITICS_JOAO_MANGABEIRA_DESC"
-	picture = "Portrait_BRA_Joao_Mangabeira.tga"
+	name = "Fernando Paulo Nagle Gabeira"
+	desc = "Fernando_Paulo_Nagle_Gabeira_DESC"
+	picture = "Portrait_BRA_Fernando_Paulo_Nagle_Gabeira.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+		social_progressive
+		
+	}
+}
+create_country_leader = {
+	name = "Leonel de Moura Brizola"
+	desc = "Leonel_de_Moura_Brizola_DESC"
+	picture = "Portrait_BRA_Leonel_de_Moura_Brizola.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Edgard Leuenroth"
-	desc = "POLITICS_EDGARD_LEUENROTH_DESC"
-	picture = "Portrait_BRA_Edgard_Leuenroth.tga"
+	name = "Carlos Marighella"
+	desc = "Carlos_Marighella_DESC"
+	picture = "Portrait_BRA_Carlos_Marighella.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 create_country_leader = {
-	name = "Minervino de Oliveira"
-	desc = "POLITICS_MINERVINO_OLIVEIRA_DESC"
-	picture = "Portrait_BRA_Minervino_Oliveira.tga"
-	expire = "1991.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Abilio de Nequete"
-	desc = "POLITICS_ABILIO_NEQUETE_DESC"
-	picture = "gfx/leaders/PIR/Portrait_PIR_Abilio_de_Nequete.tga"
+	name = "Luís Carlos Prestes"
+	desc = "Luis_Carlos_Prestes_DESC"
+	picture = "Portrait_BRA_Luis_Carlos_Prestes.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+		
+	}
 }
 
 

@@ -428,59 +428,75 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erich Koch-Weser"
-	desc = "POLITICS_ERICH_KOCH_WESER_DESC"
-	picture = "Portrait_Germany_Erich_Koch_Weser.tga"
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
 	traits = {
-		#wilhelm
+		authoritarian_democrat
+		
 	}
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.tga"
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		authoritarian_democrat
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.tga"
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.tga"
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.tga"
+	name = "Ferdinand I von Preußen"
+	desc = "Ferdinand_I_DESC"
+	picture = "Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 
 create_field_marshal = {

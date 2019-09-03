@@ -402,11 +402,12 @@ leader_traits = {
 		political_power_gain = -0.1
 		stability_factor = -0.05
 		research_time_factor = -0.075
+		consumer_goods_factor = 0.1
 		supply_consumption_factor = -0.1
 		trade_opinion_factor = 0.1
-		production_speed_buildings_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.15
 		industrial_capacity_factory = 0.2
+		industrial_capacity_dockyard = 0.2
 		targeted_modifier = {
 			tag = MEX
 			generate_wargoal_tension_against = 1.00
@@ -424,10 +425,10 @@ leader_traits = {
 
 	hos_hetman_forever = {
 		random = no
-		cavalry_attack_factor = 0.1
-		army_armor_attack_factor = 0.1
-		motorized_attack_factor = 0.1
-		mechanized_attack_factor = 0.1
+		cavalry_attack_factor = 0.15
+		army_armor_attack_factor = 0.15
+		motorized_attack_factor = 0.15
+		mechanized_attack_factor = 0.15
 		political_power_gain = 0.05
 		stability_factor = 0.1
 		
@@ -488,6 +489,28 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	
+	hos_rising_hawk = {
+		random = no
+		training_time_factor = -0.2
+		production_speed_arms_factory_factor = 0.2
+		production_speed_industrial_complex_factor = 0.2
+		authoritarian_democrat_drift = 0.1
+		war_support_factor = 0.25
+		ai_join_ally_desire_factor = 100
+		ai_badass_factor = 0.1
+		
+		ai_strategy = {
+			type = antagonize
+			id = "GER"			
+			value = 200
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
 	}
 
 	hos_shindon = {

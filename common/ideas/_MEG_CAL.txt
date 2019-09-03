@@ -1,7 +1,29 @@
 ideas = {
 
 	country = {
-		width_wall = {
+	
+		CAL_NAFTA = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = NAFTA
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+			rule = {
+				
+			}
+		}
+	
+		CAL_width_wall = {
 			
 			allowed = {
 				always = no
@@ -22,7 +44,7 @@ ideas = {
 			}
 		}
 
-		length_wall = {
+		CAL_length_wall = {
 			
 			allowed = {
 				always = no

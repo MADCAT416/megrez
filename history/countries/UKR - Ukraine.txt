@@ -220,12 +220,15 @@ create_equipment_variant = {
 }
 
 create_country_leader = {
-	name = "Vasyl I"
-	desc = "POLITICS_VASYL_DESC"
-	picture = "Portrait_Ukraine_Vasyl.tga"
+	name = "Vasyl I Vyshyvanyy"
+	desc = "Vasyl_I_Vyshyvanyy_DESC"
+	picture = "Portrait_UKR_Vasyl_I_Vyshyvanyy.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		hos_hetman_forever
+	}
 }
 
 create_country_leader = {

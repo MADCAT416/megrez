@@ -216,84 +216,114 @@ set_country_flag = banned_democratic_socialist
 
 ### Head of States ###
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "Portrait_Japan_Hirohito_kr.tga"
+	name = "Tsugunomiya Akihito"
+	desc = "Tsugunomiya_Akihito_DESC"
+	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		hos_arahitogami
+	}
 }
 
 ### Leaders ###

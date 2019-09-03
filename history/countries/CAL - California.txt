@@ -183,42 +183,116 @@ set_popularities = {
     ethnic_populist = 0
 }
 add_ideas = {
+	CAL_NAFTA
+	CAL_width_wall
+	CAL_length_wall
 	extensive_conscription
 }
 
-create_country_leader = {# Henry Wallace
-	name = "Henry Wallace"
-	desc = "POLITICS_HENRY_WALLLACE_DESC"
-	picture = "Portrait_CAL_Henry_Wallace.tga"
+
+create_country_leader = {
+	name = "Gus Hall"
+	desc = "Gus_Hall_DESC"
+	picture = "Portrait_CSA_Gus_Hall.tga"
+	expire = "1991.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+		
+	}
+}
+create_country_leader = {
+	name = "Clara Lemlich"
+	desc = "Clara_Lemlich_DESC"
+	picture = "Portrait_CSA_Clara_Lemlich.tga"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+		
+	}
+}
+create_country_leader = {
+	name = "Walter Reuther"
+	desc = "Walter_Reuther_DESC"
+	picture = "Portrait_CSA_Walter_Reuther.tga"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+		
+	}
+}
+create_country_leader = {
+	name = "George Meany"
+	desc = "George Meany_DESC"
+	picture = "Portrait_CSA_George Meany.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
-create_country_leader = {# Hiram Johnson
-	name = "Hiram Johnson"
-	desc = "POLITICS_HIRAM_JOHNSON_DESC"
-	picture = "Portrait_CAL_Hiram_Johnson.tga"
+create_country_leader = {
+	name = "Glen Hearst Taylor"
+	desc = "Glen_Hearst_Taylor_DESC"
+	picture = "Portrait_CSA_Glen_Hearst_Taylor.tga"
 	expire = "1991.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {# John Arthur Gellatly
-	name = "John Arthur Gellatly"
-	desc = "POLITICS_JOHN_GELLATLY_DESC"
-	picture = "Portrait_CAL_John_Arthur_Gellatly.tga"
-	expire = "1991.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {# Frank Merriam
-	name = "Frank Merriam"
-	desc = "POLITICS_FRANK_MERRIAM_DESC"
-	picture = "Portrait_CAL_Frank_Merrimam.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
+	ideology = social_progressive_subtype
+	traits = {
+		social_progressive
+		
+	}
 }
 
+create_country_leader = {
+	name = "Edmund Gerald Brown Sr."
+	desc = "Pat_Brown_DESC"
+	picture = "Portrait_CAL_Pat_Brown.tga"
+	expire = "1991.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		social_liberal
+		
+	}
+}
+create_country_leader = {# Mr-House
+	name = "Howard Robard Hughes, Jr."
+	desc = "Mr_House_DESC"
+	picture = "Portrait_CAL_Mr_House.tga"
+	expire = "1991.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		market_liberal
+		hos_atlas_standing
+	}
+}
+
+create_country_leader = {
+	name = "Caspar Willard Weinberger "
+	desc = "Cap_Weinberger_DESC"
+	picture = "Portrait_CAL_Cap_Weinberger.tga"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		social_conservative
+		hos_atlas_standing
+	}
+}
+
+
+create_country_leader = {
+	name = "James Strom Thurmond"
+	desc = "Strom_Thurmond_DESC"
+	picture = "Portrait_CAL_Strom_Thurmond.tga"
+	expire = "1991.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		paternal_autocrat
+		
+	}
+}
 
 
 ###Field Commander####

@@ -94,52 +94,107 @@ set_stability = 0.6
 set_war_support = 0.5
 
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Youssef Darwish"
+	desc = "Youssef_Darwish_DESC"
+	picture = "Portrait_EGY_Youssef_Darwish.tga"
+	expire = "1991.1.1"
+	ideology = totalist_subtype
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Youssef Darwish"
+	desc = "Youssef_Darwish_DESC"
+	picture = "Portrait_EGY_Youssef_Darwish.tga"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Youssef Darwish"
+	desc = "Youssef_Darwish_DESC"
+	picture = "Portrait_EGY_Youssef_Darwish.tga"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Youssef Darwish"
+	desc = "Youssef_Darwish_DESC"
+	picture = "Portrait_EGY_Youssef_Darwish.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+	
+	}
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Fouad Pasha Serageldin"
+	desc = "Fouad_Pasha_Serageldin_DESC"
+	picture = "Portrait_EGY_Fouad_Pasha_Serageldin.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		
+	}
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Fouad Pasha Serageldin"
+	desc = "Fouad_Pasha_Serageldin_DESC"
+	picture = "Portrait_EGY_Fouad_Pasha_Serageldin.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		
+	}
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Fouad Pasha Serageldin"
+	desc = "Fouad_Pasha_Serageldin_DESC"
+	picture = "Portrait_EGY_Fouad_Pasha_Serageldin.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		
+	}
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Gamal Abdel Nasser Hussein"
+	desc = "Gamal_Abdel_Nasser_Hussein_DESC"
+	picture = "Portrait_EGY_Gamal_Abdel_Nasser_Hussein.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		hos_rising_hawk
+	}
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	name = "Fārūq I al-Awwal"
+	desc = "Sexking_DESC"
+	picture = "Portrait_EGY_Sexking.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
+}
+create_country_leader = {
+	name = "Umar al-Tilmisani "
+	desc = "Umar_al-Tilmisani_DESC"
+	picture = "Portrait_EGY_Umar_al-Tilmisani.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+		
+	}
 }
 
 add_ideas = {
