@@ -24,14 +24,14 @@ set_politics = {
 
 set_popularities = {
     totalist = 0
-    democratic_socialist = 0
+    democratic_socialist = 47
     syndicalist = 0
     social_democrat = 2
     social_liberal = 6
     market_liberal = 6
     social_conservative = 12
     authoritarian_democrat = 15
-    paternal_autocrat = 47
+    paternal_autocrat = 0
     ethnic_populist = 12
 }
 
