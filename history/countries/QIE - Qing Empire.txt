@@ -142,39 +142,51 @@ country_event = {
 set_country_flag = germany_support
 
 create_country_leader = {
-	name = "Puyi"
-	desc = "ANTE_PUYI_DESC"
+	name = "Aisin-gioro Pu-i"
+	desc = "Aisin-gioro_Pu-i_DESC"
 	picture = "Portrait_China_Puyi.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+	}
 }
 
 create_country_leader = {
-	name = "Puyi"
-	desc = "ANTE_PUYI_DESC"
+	name = "Aisin-gioro Pu-i"
+	desc = "Aisin-gioro_Pu-i_DESC"
 	picture = "Portrait_China_Puyi.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+	}
 }
 
 create_country_leader = {
-	name = "Puyi"
-	desc = "ANTE_PUYI_DESC"
+	name = "Aisin-gioro Pu-i"
+	desc = "Aisin-gioro_Pu-i_DESC"
 	picture = "Portrait_China_Puyi.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+	}
 }
 
 create_country_leader = {
-	name = "Puyi"
-	desc = "ANTE_PUYI_DESC"
+	name = "Aisin-gioro Pu-i"
+	desc = "Aisin-gioro_Pu-i_DESC"
 	picture = "Portrait_China_Puyi.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_phantom_of_past
+	}
 }
 
 ### Field Marshals

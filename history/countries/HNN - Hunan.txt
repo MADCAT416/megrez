@@ -23,7 +23,7 @@ set_research_slots = 3
 set_convoys = 10
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,19 +43,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Zhao Hengti"
-	desc = ""
-	picture = "Portrait_Hunan_Zhao_Hengti.tga"
+	name = "Táng Shēngzhì"
+	desc = "Tang_Shengzhi_DESC"
+	picture = "Portrait_HNN_Tang_Shengzai.tga"
 	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Zhang Jingyao"
-	desc = ""
-	picture = "Portrait_Hunan_Zhang_Jingyao.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = social_democrat_subtype
+	traits = {
+		social_democrat
+		hos_chinese_warlord
+	}
 }

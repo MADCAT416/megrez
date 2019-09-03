@@ -16,7 +16,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = democratic_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,8 +38,6 @@ set_popularities = {
 set_stability = 0.50
 set_war_support = 0.40
 
-add_opinion_modifier = { target = SQI modifier = embargo }
-
 add_ideas = {
 	### Head of Government
 	YUN_Long_Yun_hog_pau
@@ -57,12 +55,15 @@ country_event = {
 }
 
 create_country_leader = {
-	name = "Long Yun"
-	desc = "ANTE_LONG_YUN_DESC"
-	picture = "Portrait_Yunnan_Long_Yun.tga"
+	name = "Zhū Dé"
+	desc = "Zhu_De_DESC"
+	picture = "Portrait_YUN_Zhu_De.tga"
 	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+		hog_respected_war_hero
+	}
 }
 
 ### Field Marshal

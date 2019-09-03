@@ -17,7 +17,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,12 +39,15 @@ set_popularities = {
 add_opinion_modifier = { target = LEP modifier = embargo }
 
 create_country_leader = {
-	name = "Chen Tiaoyuan"
-	desc = ""
-	picture = "Portrait_LEP_Sun_Chuanfang.tga"
+	name = "Wèi Lìhuáng"
+	desc = "Wei_Lihuang_DESC"
+	picture = "Portrait_ANQ_Wei_Lihuang.tga"
 	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = social_liberal_subtype
+	traits = {
+		social_liberal
+		hos_resigned_generalissimo
+		}
 }
 
 ### Field Marshal

@@ -18,7 +18,7 @@ set_research_slots = 3
 set_convoys = 10
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,10 +38,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Yang Sen"
-	desc = ""
-	picture = "Portrait_SZC_Yang_Sen.tga"
+	name = "Liú Wénhuī"
+	desc = "Liu_Wenhui_DESC"
+	picture = "Portrait_SZC_Liu_Wenhui.tga"
 	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = social_conservative_subtype
+	traits = {
+		social_conservative
+		hos_chinese_warlord
+		}
 }
