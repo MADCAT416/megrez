@@ -30,20 +30,94 @@ set_popularities = {
 set_convoys = 10
 
 create_country_leader = {
-	name = "Yacine Diallo"
-	desc = "POLITICS_YACINE_DIALLO_DESC"
-	picture = "Portrait_GNE_Yacine.dds"
+	name = "Kwame Nkrumah"
+	desc = "GNE_Kwame_Nkrumah_DESC"
+	picture = "Portrait_GNE_Kwame_Nkrumah.dds"
 	expire = "1991.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
+	ideology = totalist_subtype
+	traits = {
+		totalist
+	}
 }
 create_country_leader = {
-	name = "Louis P. Blacher"
-	desc = "POLITICS_LOUIS_BLACHER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "Ahmed Sékou Touré"
+	desc = "GNE_Ahmed_Sekou_Toure_DESC"
+	picture = "Portrait_GNE_Ahmed_Sekou_Toure.dds"
 	expire = "1991.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+	}
+}
+create_country_leader = {
+	name = "Léopold Sédar Senghor"
+	desc = "GNE_Leopold_Sedar_Senghor_DESC"
+	picture = "Portrait_GNE_Leopold_Sedar_Senghor.dds"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+	}
+}
+create_country_leader = {
+	name = "Obafemi Awolowo"
+	desc = "GNE_Obafemi_Awolowo_DESC"
+	picture = "Portrait_GNE_Obafemi_Awolowo.dds"
+	expire = "1991.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		social_democrat
+	}
+}
+create_country_leader = {
+	name = "Ahmadu Bello"
+	desc = "GNE_Ahmadu_Bello_DESC"
+	picture = "Portrait_GNE_Ahmadu_Bello.dds"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		social_conservative
+	}
+}
+create_country_leader = {
+	name = "Félix Houphouët-Boigny"
+	desc = "GNE_Felix_Houphouet-Boigny_DESC"
+	picture = "Portrait_GNE_Felix_Houphouet-Boigny.dds"
+	expire = "1991.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		authoritarian_democrat
+	}
+}
+create_country_leader = {
+	name = "Gnassingbé Eyadéma"
+	desc = "GNE_Gnassingbe_Eyadema_DESC"
+	picture = "Portrait_GNE_Gnassingbe_Eyadema.dds"
+	expire = "1991.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		paternal_autocrat
+	}
+}
+create_country_leader = {
+	name = "Mohammad Marwa"
+	desc = "GNE_Mohammad_Marwa_DESC"
+	picture = "Portrait_GNE_Mohammad_Marwa.dds"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+	}
+}
+create_country_leader = {
+	name = "François Tombalbaye"
+	desc = "GNE_Francois_Tombalbaye_DESC"
+	picture = "Portrait_GNE_Francois_Tombalbaye.dds"
+	expire = "1991.1.1"
+	ideology = ethnic_populist_subtype
+	traits = {
+		ethnic_populist
+	}
 }
 
 ### Field Marshal

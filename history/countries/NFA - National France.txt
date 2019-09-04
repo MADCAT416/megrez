@@ -152,7 +152,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Vacancy"
-	desc = "French_vacancy_DESC"
+	desc = "NFA_French_vacancy_DESC"
 	picture = "Portrait_NFA_vacancy.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype

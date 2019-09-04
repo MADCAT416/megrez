@@ -121,7 +121,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "İsmet İnönü"
-	desc = "POLITICS_ISMET_INONU_DESC"
+	desc = "TUR_POLITICS_ISMET_INONU_DESC"
 	picture = "Portrait_TUR_Ismet_Inonu.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -129,30 +129,47 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nihâl Atsız"
-	desc = "POLITICS_NIHAL_ATSIZ_DESC"
-	picture = "gfx/leaders/TUR/Portrait_TUR_Nihal_Atsiz.tga"
+	name = "Alparslan Türkeş"
+	desc = "TUR_Alparslan_Tuerkes_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Alparslan_Tuerkes.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+	}
 }
 
 create_country_leader = {
-	name = "Şefik Hüsnü Deymer"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/TUR/Portrait_TUR_Sefik_Husnu.tga"
+	name = "Necmettin Erbakan"
+	desc = "TUR_Necmettin_Erbakan_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Necmettin_Erbakan.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+	}
+}
+
+create_country_leader = {
+	name = "Kemal Türkler"
+	desc = "TUR_Kemal_Türkler_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Kemal_Türkler.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
-	name = "Reşat Fuat Baraner"
-	desc = "POLITICS_RESAT_FUAT_DESC"
-	picture = "Portrait_TUR_Resad_Fuad.tga"
+	name = "Mirsaid Sultan-Galiev"
+	desc = "TUR_Mirsaid_Sultan-Galiev_DESC"
+	picture = "Portrait_TUR_Mirsaid_Sultan-Galiev.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 create_country_leader = {
@@ -183,12 +200,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adnan Menderes"
-	desc = "POLITICS_ADNAN_MENDERES_DESC"
-	picture = "Portrait_TUR_Adnan_Menderes.tga"
+	name = "Süleiman Demirel"
+	desc = "TUR_Süleiman_Demirel_DESC"
+	picture = "Portrait_TUR_Süleiman_Demirel.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+	}
 }
 
 create_country_leader = {
