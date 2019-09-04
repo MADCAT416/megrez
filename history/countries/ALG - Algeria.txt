@@ -80,7 +80,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ahmed Ben Bella"
-	desc = "Ahmed_Ben_Bella_DESC"
+	desc = "ARG_Ahmed_Ben_Bella_DESC"
 	picture = "Portrait_ARG_Ahmed_Ben_Bella.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
@@ -91,7 +91,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ferhat Abbas"
-	desc = "Ferhat_Abbas_DESC"
+	desc = "ARG_Ferhat_Abbas_DESC"
 	picture = "Portrait_ARG_Ferhat_Abbas.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -101,7 +101,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Mehdi Ben Barka"
-	desc = "Mehdi_Ben_Barka_DESC"
+	desc = "ARG_Mehdi_Ben_Barka_DESC"
 	picture = "Portrait_ARG_Mehdi_Ben_Barka.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -111,7 +111,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abdelrahman Yusufi"
-	desc = "Abdelrahman_Yusufi_DESC"
+	desc = "ARG_Abdelrahman_Yusufi_DESC"
 	picture = "Portrait_ARG_Abdelrahman_Yusufi.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -121,7 +121,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Habib Bourguiba"
-	desc = "Habib_Bourguiba_DESC"
+	desc = "ARG_Habib_Bourguiba_DESC"
 	picture = "Portrait_ARG_Habib_Bourguiba.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -131,7 +131,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abdelkrim al-Khatib"
-	desc = "Abdelkrim_al-Khatib_DESC"
+	desc = "ARG_Abdelkrim_al-Khatib_DESC"
 	picture = "Portrait_ARG_Abdelkrim_al-Khatib.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -141,7 +141,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Ahmed Balafrej"
-	desc = "Ahmed_Balafrej_DESC"
+	desc = "ARG_Ahmed_Balafrej_DESC"
 	picture = "Portrait_ARG_Ahmed_Balafrej.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
@@ -151,7 +151,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "al-Hasan I bin Muhamad"
-	desc = "al-Hasan_I_bin_Muhamad_DESC"
+	desc = "ARG_al-Hasan_I_bin_Muhamad_DESC"
 	picture = "Portrait_ARG_al-Hasan_I_bin_Muhamad.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abbasi Madani"
-	desc = "Abbasi_Madani_DESC"
+	desc = "ARG_Abbasi_Madani_DESC"
 	picture = "Portrait_ARG_Abbasi_Madani.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
