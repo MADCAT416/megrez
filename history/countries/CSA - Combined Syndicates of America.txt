@@ -212,7 +212,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gus Hall"
-	desc = "Gus_Hall_DESC"
+	desc = "CSA_Gus_Hall_DESC"
 	picture = "Portrait_CSA_Gus_Hall.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
@@ -223,7 +223,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Clara Lemlich"
-	desc = "Clara_Lemlich_DESC"
+	desc = "CSA_Clara_Lemlich_DESC"
 	picture = "Portrait_CSA_Clara_Lemlich.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -234,7 +234,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Walter Reuther"
-	desc = "Walter_Reuther_DESC"
+	desc = "CSA_Walter_Reuther_DESC"
 	picture = "Portrait_CSA_Walter_Reuther.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -245,7 +245,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "George Meany"
-	desc = "George Meany_DESC"
+	desc = "CSA_George Meany_DESC"
 	picture = "Portrait_CSA_George Meany.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -256,7 +256,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Hubert Humphrey"
-	desc = "Hubert_Humphrey_DESC"
+	desc = "CSA_Hubert_Humphrey_DESC"
 	picture = "Portrait_CSA_Hubert_Humphrey.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
@@ -268,7 +268,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Edmund Gerald Brown Sr."
-	desc = "Pat_Brown_DESC"
+	desc = "CAL_Pat_Brown_DESC"
 	picture = "Portrait_CAL_Pat_Brown.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -279,7 +279,7 @@ create_country_leader = {
 }
 create_country_leader = {# Mr-House
 	name = "Howard Robard Hughes, Jr."
-	desc = "Mr_House_DESC"
+	desc = "CAL_Mr_House_DESC"
 	picture = "Portrait_CAL_Mr_House.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -291,8 +291,8 @@ create_country_leader = {# Mr-House
 
 create_country_leader = {
 	name = "James Strom Thurmond"
-	desc = "Strom_Thurmond_DESC"
-	picture = "Portrait_CAL_Strom_Thurmond.tga"
+	desc = "CSA_Strom_Thurmond_DESC"
+	picture = "Portrait_CSA_Strom_Thurmond.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

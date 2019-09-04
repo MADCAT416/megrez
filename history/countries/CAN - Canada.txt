@@ -262,7 +262,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
@@ -273,7 +273,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII  Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -284,7 +284,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
@@ -295,7 +295,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -306,7 +306,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -317,7 +317,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -328,7 +328,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Edward VIII Windsor"
-	desc = "Edward_VIII_DESC"
+	desc = "CAN_Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
@@ -337,26 +337,7 @@ create_country_leader = {
 		hos_autocratic_charmer
 	}
 }
-create_country_leader = {
-	name = "Tim Buck"
-	picture = "Portrait_Canada_Tim_Buck.tga"
-	expire = "1991.1.1"
-	ideology = totalist_subtype
-	traits = {
-		totalist
-		
-	}
-}
-create_country_leader = {
-	name = "Humphrey Mitchell"
-	picture = "Portrait_Canada_Humphrey_Mitchell.tga"
-	expire = "1991.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {
-		democratic_socialist
-		
-	}
-}
+
 
 ### Field Marshal
 create_field_marshal = {# Bernard Montgomery

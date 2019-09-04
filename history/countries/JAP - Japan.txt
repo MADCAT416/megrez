@@ -217,7 +217,7 @@ set_country_flag = banned_democratic_socialist
 ### Head of States ###
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
@@ -228,7 +228,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -239,7 +239,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -250,7 +250,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -261,7 +261,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -272,7 +272,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -283,7 +283,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -294,7 +294,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
@@ -305,7 +305,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
@@ -316,7 +316,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tsugunomiya Akihito"
-	desc = "Tsugunomiya_Akihito_DESC"
+	desc = "JAP_Tsugunomiya_Akihito_DESC"
 	picture = "Portrait_JAP_Tsugunomiya_Akihito.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
