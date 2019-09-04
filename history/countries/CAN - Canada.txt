@@ -283,7 +283,7 @@ create_country_leader = {
 		}
 }
 create_country_leader = {
-	name = "Edward Ⅷ Windsor"
+	name = "Edward VIII Windsor"
 	desc = "Edward_VIII_DESC"
 	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1991.1.1"
