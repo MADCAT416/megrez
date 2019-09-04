@@ -151,67 +151,16 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
-	picture = "Portrait_NFA_Philippe_Petain.tga"
+	name = "Vacancy"
+	desc = "French_vacancy_DESC"
+	picture = "Portrait_NFA_vacancy.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		hos_exiled
+	}
 }
 
-create_country_leader = {
-	name = "Fernand Bouisson"
-	desc = "POLITICS_FERNAND_BOUISSON_DESC"
-	picture = "Portrait_NFA_Fernand_Bouisson.tga"
-	expire = "1991.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Edouard Herriot"
-	desc = "POLITICS_EDOUARD_HERRIOT_DESC"
-	picture = "" #not needed
-	expire = "1991.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "André Mallarmé"
-	desc = "POLITICS_ANDRE_MALLARME_DESC"
-	picture = "Portrait_NFA_Andre_Mallarme.tga"
-	expire = "1991.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Pierre Etienne Flandin"
-	desc = "POLITICS_PIERRE_FLANDIN_DESC"
-	picture = "Portrait_NFA_Pierre_Etienne_Flandin.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Charles Maurras"
-	desc = "POLITICS_CHARLES_MAURRAS_DESC"
-	picture = "Portrait_NFA_Charles_Maurras.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Pierre Taittinger"
-	desc = "POLITICS_MARCEL_BUCARD_DESC"
-	picture = "" #not needed
-	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
 
 ####
 #  Generals
