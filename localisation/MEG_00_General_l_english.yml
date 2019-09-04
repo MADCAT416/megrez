@@ -94,7 +94,7 @@
     leader_title_two_generic:0 "Head of Government"
     leader_title_two_none:0 ""
  SECOND_LEADER_NAME: "§H[This.HoG_name]§!"
- SECOND_LEADER_NAME_DIPLO_VIEW: "§H[This.HoG_name]§! \n[This.HoG_rank] of §Y[This.GetNameWithFlag]§!."
+ SECOND_LEADER_NAME_DIPLO_VIEW: "§H[This.HoG_name]§! \n[This.HoG_rank] of §Y[This.GetNameWithFlag]§!.\n §L[This.leader_desc_two]§!"
  SECOND_LEADER_DESC: "§L[This.leader_desc_two]§!"
  leader_name_two_generic:0 ""
  leader_desc_two_generic:0 ""

@@ -32,7 +32,7 @@ containerWindowType = {
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 180 y = 86 }		
 			allwaystransparent = yes
-						pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip = "SECOND_LEADER_NAME"
 			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
 		}
 		
@@ -69,5 +69,24 @@ containerWindowType = {
 			vertical_alignment = center
 			pdx_tooltip = "SECOND_LEADER_NAME"
 			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+		}
+containerWindowType = {
+	name = "politics_secondary_leader_diplo_gui"
+	position = { x = 0 y = 0 }
+	iconType = {
+				name = "HoG"
+				position = { x = 145 y = 65 }
+				spriteType = "GFX_leader_unknown"
+			pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_NAME_DIPLO_VIEW"
+				scale = 0.74
+			}
+			iconType = {
+				name = "HoG_leader_frame"
+				position = { x = 135 y = 54 }
+				spriteType = "GFX_HoG_diplo_frame"
+				allwaystransparent = yes
+			}	
 		}
 		}
