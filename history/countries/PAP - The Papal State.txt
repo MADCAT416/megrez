@@ -149,61 +149,116 @@ set_popularities = {
 }
 ### Political Leaders ###
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Junio Valerio Borghese"
+	picture = "Portrait_PAP_Junio_Valerio_Borghese.tga"
+	desc = "Junio_Valerio_Borghese_DESC"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Papa Paulus VI"
+	picture = "Portrait_PAP_Paulus_VI.tga"
+	desc = "Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Papa Paulus VI"
+	picture = "Portrait_PAP_Paulus_VI.tga"
+	desc = "Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Papa Paulus VI"
+	picture = "Portrait_PAP_Paulus_VI.tga"
+	desc = "Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Papa Paulus VI"
+	picture = "Portrait_PAP_Paulus_VI.tga"
+	desc = "Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Papa Paulus VI"
+	picture = "Portrait_PAP_Paulus_VI.tga"
+	desc = "Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Pius XI"
-	picture = "Portrait_PAP_Pius.tga"
-	desc = "POLITICS_PIUS_XI_DESC"
+	name = "Giuseppe Saragat"
+	picture = "Portrait_PAP_Giuseppe_Saragat.tga"
+	desc = "Giuseppe_Saragat_DESC"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
+create_country_leader = {
+	name = "Giacomo Mancini"
+	picture = "Portrait_PAP_Giacomo_Mancini.tga"
+	desc = "Giacomo_Mancini_DESC"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+		
+	}
+}
+create_country_leader = {
+	name = "Enrico Berlinguer"
+	picture = "Portrait_PAP_Enrico_Berlinguer.tga"
+	desc = "Enrico_Berlinguer_DESC"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+		
+	}
+}
+create_country_leader = {
+	name = "Giorgio Almirante"
+	picture = "Portrait_PAP_Giorgio_Almirante.tga"
+	desc = "Giorgio_Almirante_DESC"
+	expire = "1991.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+		
+	}
+}
+
 ### Generals ###
 create_field_marshal = {
 	name = "Angelo Cerica"
