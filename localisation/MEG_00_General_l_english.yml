@@ -64,10 +64,41 @@
     dd_tech:0 "Destroyer Tech"
     military_police_tech:0 "Military Police"
 
- ### Interface ###
-    HoS_rank:0 "Head of State"
-    HoG_rank:0 "Head of Government"
+##Title##
+ leader_title_one_none:0 "Leader"
+ leader_title_two_none:0 ""
+
+ leader_title_one_generic:0 "Head of State"
+ leader_title_two_generic:0 "Head of Government"
+
+ POSITION_GER_Reichsprasident:0 "Reichspräsident"
+ POSITION_GER_Reichskanzler:0 "Reichskanzler"
+ POSITION_GER_Fuhrer:0 "Führer"
+ POSITION_GER_Deputy_Fuhrer:0 "Deputy Führer"
+ POSITION_GER_Parteikanzlei:0 "Parteikanzlei"
  
+ POSITION_President:0 "President"
+ POSITION_Prime_Minister:0 "Prime Minister"
+ POSITION_Monarch:0 "Monarch"
+ POSITION_Emperor:0 "Emperor"
+ POSITION_Premier:0 "Premier"
+ POSITION_Chairman:0 "Chairman"
+ POSITION_General_Secretary:0 "General Secretary"
+ POSITION_Military_Governor:0 "Military Governor"
+ POSITION_Civil_Governor:0 "Civil Governor"
+ POSITION_Deputy_Commander:0 "Deputy Commander"
+ POSITION_Governor_General:0 "Governor-General"
+
+ ### Interface ###
+    leader_title_one_generic:0 "Head of State"
+    leader_title_two_generic:0 "Head of Government"
+    leader_title_two_none:0 ""
+ SECOND_LEADER_NAME: "§H[This.HoG_name]§!"
+ SECOND_LEADER_NAME_DIPLO_VIEW: "§H[This.HoG_name]§! \n[This.HoG_rank] of §Y[This.GetNameWithFlag]§!."
+ SECOND_LEADER_DESC: "§L[This.leader_desc_two]§!"
+ leader_name_two_generic:0 ""
+ leader_desc_two_generic:0 ""
+
     government:1 "Laws & Policies"
         mobilization_laws:0 "Military Service Law"
         KR_mobilization_laws:0 "Military Service Law"

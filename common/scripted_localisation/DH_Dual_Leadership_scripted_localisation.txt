@@ -266,7 +266,6 @@ defined_text = {
 ############################################
 defined_text = {
 	name = HoG_name
-	#### SOV - Soviet Union
 	text = {
 		trigger = {
 			has_idea = ENG_Oswald_Mosley_hog_rso
@@ -286,7 +285,7 @@ defined_text = {
 # Secondary Leader Descriptions
 ############################################
 defined_text = {
-	name = leader_desc_two
+	name = HoG_desc
 	#### HOL - Netherlands
 	text = {
 		trigger = {
@@ -299,7 +298,7 @@ defined_text = {
 # Secondary Leader Portraits
 ############################################
 defined_text = {
-	name = HoG
+	name = leader_two_portrait
 	#### For test
 	text = {
 		trigger = {
@@ -307,5 +306,10 @@ defined_text = {
 		}
 		localization_key = GFX_Oswald_Mosley
 	}
-	
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GFX_leader_unknown
+	}
 }

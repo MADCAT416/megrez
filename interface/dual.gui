@@ -1,0 +1,73 @@
+guiTypes = {
+containerWindowType = {
+	name = "politics_secondary_leader_gui"
+	position = { x = 0 y = 0 }
+		
+		instantTextboxType = {
+			name = "HoS_rank"
+			position = { x = 18 y = 60 }
+			font = "hoi_18mbs"
+			text = "[This.HoS_rank]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+		iconType = {
+			name = "HoG_rank_frame2"
+			spriteType = "GFX_pol_rank_frame"
+			position = { x = 180 y = 50 }		
+			allwaystransparent = yes
+		}
+		iconType = {
+			name = "HoG"
+			position = { x = 188 y = 100 }
+			spriteType = "GFX_leader_unknown"
+			pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+
+		iconType = {
+			name = "leader_frame21"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 180 y = 86 }		
+			allwaystransparent = yes
+						pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+		
+		iconType = {
+			name = "HoG_rank_frame2"
+			spriteType = "GFX_pol_rank_frame"
+			position = { x = 180 y = 50 }		
+			allwaystransparent = yes
+			pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+		
+		instantTextboxType = {
+			name = "HoG_name"
+			position = { x = 188 y = 312 }
+			font = "hoi_18mbs"
+			text = "[This.HoG_name]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+		
+		instantTextboxType = {
+			name = "HoG_rank"
+			position = { x = 188 y = 60 }
+			font = "hoi_18mbs"
+			text = "[This.HoG_rank]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			pdx_tooltip = "SECOND_LEADER_NAME"
+			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
+		}
+		}
