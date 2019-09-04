@@ -158,7 +158,7 @@ add_opinion_modifier = { target = BHC modifier = embargo }
 add_opinion_modifier = { target = GEO modifier = embargo }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = clerical_nationalist
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -168,14 +168,29 @@ set_popularities = {
     totalist = 0
     democratic_socialist = 0
     syndicalist = 0
-    social_democrat = 5
-    social_liberal = 10
-    market_liberal = 10
-    social_conservative = 20
-    authoritarian_democrat = 50
-    paternal_autocrat = 5
+    social_democrat = 0
+	social_progressive = 
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+	clerical_nationalist = 100
     ethnic_populist = 0
 }
+
+create_country_leader = {
+	name = "Georges Jean Raymond Pompidou"
+	desc = "Georges_Pompidou_DESC"
+	picture = "Portrait_FRP_Georges_Pompidou.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+		
+	}
+}
+
 
 ### Field Marshal
 ### Corps Commander
