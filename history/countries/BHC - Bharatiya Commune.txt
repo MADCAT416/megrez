@@ -166,28 +166,10 @@ set_popularities = {
     ethnic_populist = 0
 }
 
-create_country_leader = {
-	name = "Nawab Khwaja Habibullah"
-	desc = "POLITICS_NAWAB_KHWAJA_DESC"
-	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Nawab Khwaja Habibullah"
-	desc = "POLITICS_NAWAB_KHWAJA_DESC"
-	picture = "Portrait_BHC_Nawab_Khwaja_Habibullah.tga"
-	expire = "1991.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-
 
 create_country_leader = {
 	name = "Chakravarti Rajagopalachari"
-	desc = "Chakravarti_Rajagopalachari_DESC"
+	desc = "BHC_Chakravarti_Rajagopalachari_DESC"
 	picture = "Portrait_BHC_Chakravarti_Rajagopalachari.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -198,7 +180,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Morarji Ranchhodji Desai"
-	desc = "Morarji_Desai_DESC"
+	desc = "BHC_Morarji_Desai_DESC"
 	picture = "Portrait_BHC_Morarji_Desai.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -210,7 +192,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Yashwantrao Balwantrao Chavan"
-	desc = "Yashwantrao_Chavan_DESC"
+	desc = "BHC_Yashwantrao_Chavan_DESC"
 	picture = "Portrait_BHC_Yashwantrao_Chavan.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -222,7 +204,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Elamkulam Manakkal Sankaran Namboodiripad"
-	desc = "Elamkulam_Namboodiripad_DESC"
+	desc = "BHC_Elamkulam_Namboodiripad_DESC"
 	picture = "Portrait_BHC_Elamkulam_Namboodiripad.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -234,7 +216,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Indira Priyadarshini Nehru-Gandhi"
-	desc = "Indira_Gandhi_DESC"
+	desc = "BHC_Indira_Gandhi_DESC"
 	picture = "Portrait_BHC_Indira_Gandhi.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype

@@ -129,7 +129,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Zhōu Ēnlái"
-	desc = "Zhōu_Ēnlái_DESC"
+	desc = "CHI_Zhou_Enlai_DESC"
 	picture = "Portrait_CHI_Zhou_Enlai.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
@@ -141,7 +141,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Yan Xishan"
-	desc = "Yan_Xishan_DESC"
+	desc = "CHI_Yan_Xishan_DESC"
 	picture = "Portrait_CHI_Yan_Xishan.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -154,7 +154,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Chiang Chingkuo"
-	desc = "Chiang_Chingkuo_DESC"
+	desc = "CHI_Chiang_Chingkuo_DESC"
 	picture = "Portrait_CHI_Chiang_Chingkuo.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -167,7 +167,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Zhang Junmai"
-	desc = "Zhang_Junmai_DESC"
+	desc = "CHI_Zhang_Junmai_DESC"
 	picture = "Portrait_CHI_Zhang_Junmai.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -179,7 +179,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Chiang Weikuo"
-	desc = "Chiang_Weikuo_DESC"
+	desc = "CHI_Chiang_Weikuo_DESC"
 	picture = "Portrait_CHI_Chiang_Weikuo.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
