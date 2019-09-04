@@ -7,7 +7,7 @@
     GER_poli_temp_desc:0 "For too long people have battled over where power should lie in our great government. It is time to answer that question once and for all."
 
  ### Ideas ###
-    GER_Heilige_Liga:0 "Heilige Liga (Holy League)"
+    GER_Heilige_Liga:0 "Heilige Liga"
     GER_Heilige_Liga_desc:0 "2차 세계대전은 유럽을 피폐하게 만들었습니다. 유럽의 맹주인 독일은 이와같은 파괴와 혼란을 막기 위해서 유럽 국가들의 힘을 모아 신성동맹을 결성했습니다. 신성동맹은 평화와 번영을 약속하고 담보합니다."
     
     GER_acid_rain:0 "Acid rain"
@@ -23,137 +23,137 @@
     GER_imperial_pride_desc:0 "The German Empire rests at the very top of the world's pecking order, a place it has enjoyed since the end of the Weltkrieg. It would take a great deal for them to admit defeat in the coming war... Though there are some who suggest that Germany's resilience is more brittle than it appears. Should the unthinkable happen and Berlin falls, or Germany loses control of many of its major cities, the nation would likely capitulate long before most of its territory is actually occupied."
     GER_ready_to_surrender:0 "Submission"
 
-GER_black_monday:0 "Black Monday Effects"
-GER_black_monday_desc:0 "The stock market in Berlin has collapsed, and with it, Germany's already stagnant economy. If Germany is to retain its hegemonic position, the 'Black Monday' crisis must be addressed."
+    GER_black_monday:0 "Black Monday Effects"
+    GER_black_monday_desc:0 "The stock market in Berlin has collapsed, and with it, Germany's already stagnant economy. If Germany is to retain its hegemonic position, the 'Black Monday' crisis must be addressed."
 
-GER_black_monday1:0 "Schachtplan"
-GER_black_monday1_desc:0 "Hjalmer Schacht, president of the German state bank, has implemented a controversial economic stimulus programme. His efforts seem to have succeeded in at least partially alleviating the Black Monday crisis, and public markets have already begun to slowly trend upwards."
+    GER_black_monday1:0 "Schachtplan"
+    GER_black_monday1_desc:0 "Hjalmer Schacht, president of the German state bank, has implemented a controversial economic stimulus programme. His efforts seem to have succeeded in at least partially alleviating the Black Monday crisis, and public markets have already begun to slowly trend upwards."
 
-GER_black_monday2:0 "Grönerplan"
-GER_black_monday2_desc:0 "Statesman Wilhelm Gröner's proposal to allow conscripts to fulfil a year of military service through labour has been implemented, and the Black Monday crisis has been partially resolved by the extra employment boost."
+    GER_black_monday2:0 "Grönerplan"
+    GER_black_monday2_desc:0 "Statesman Wilhelm Gröner's proposal to allow conscripts to fulfil a year of military service through labour has been implemented, and the Black Monday crisis has been partially resolved by the extra employment boost."
 
-GER_address_reichstag:0 "Address the Reichstag"
-GER_address_reichstag_desc:0 "While we've implemented the preliminary steps to solve the Black Monday crisis, the situation is still dire. Despite his senility and failing health, Kaiser Wilhelm II has expressed in an address to the Reichstag that their first priority must be fixing the economy as soon as possible. Which proposals will be accepted, however, has yet to be seen..."
+    GER_address_reichstag:0 "Address the Reichstag"
+    GER_address_reichstag_desc:0 "While we've implemented the preliminary steps to solve the Black Monday crisis, the situation is still dire. Despite his senility and failing health, Kaiser Wilhelm II has expressed in an address to the Reichstag that their first priority must be fixing the economy as soon as possible. Which proposals will be accepted, however, has yet to be seen..."
 
-german_eco_finished:0 "Economic Resurgance"
-german_eco_finished_desc:0 "Our economy has received fresh incentives and again liquidity has begun to flow. While it will not hold forever, for a time we should have something of a boom on our hands."
+    german_eco_finished:0 "Economic Resurgance"
+    german_eco_finished_desc:0 "Our economy has received fresh incentives and again liquidity has begun to flow. While it will not hold forever, for a time we should have something of a boom on our hands."
 
-GER_bunkrupt_fact:0 "Major Company Collapses"
+    GER_bunkrupt_fact:0 "Major Company Collapses"
 
-GER_rhine_unrest:0 "Rhineland Workers' Strike"
-GER_rhine_unrest_desc:0 "We're experiencing massive strikes among the working class in the Rhineland."
+    GER_rhine_unrest:0 "Rhineland Workers' Strike"
+    GER_rhine_unrest_desc:0 "We're experiencing massive strikes among the working class in the Rhineland."
 
-GER_kill_workers:0 "Rhineland Workers Suppressed"
-GER_kill_workers_desc:0 "Our army knows how best how to deal with unruly reds."
+    GER_kill_workers:0 "Rhineland Workers Suppressed"
+    GER_kill_workers_desc:0 "Our army knows how best how to deal with unruly reds."
 
-GER_strike_negot:0 "Rhineland Strikers Deal"
-GER_strike_negot_desc:0 "We managed to come to terms with the strikers. It was the only way."
+    GER_strike_negot:0 "Rhineland Strikers Deal"
+    GER_strike_negot_desc:0 "We managed to come to terms with the strikers. It was the only way."
 
-GER_col:0 "Colonial Upkeep"
-GER_col_desc:0 "Once our colonies were profitable, but this is no longer the case. Now we must expend valuable resources to keep their administrations afloat."
+    GER_col:0 "Colonial Upkeep"
+    GER_col_desc:0 "Once our colonies were profitable, but this is no longer the case. Now we must expend valuable resources to keep their administrations afloat."
 
-GER_mil_mis:0 "German Military Mission"
+    GER_mil_mis:0 "German Military Mission"
 
-GER_quenched_militarism:0 "Quenched Militarism"
-GER_quenched_militarism_desc:0 "Victory always comes at a cost, and the Weltkrieg was unlike any war the world had ever seen. While we may have been victorious, that didn't bring our boys home. Our families still remember that pain clearly and are not eager to experience it again."
+    GER_quenched_militarism:0 "Quenched Militarism"
+    GER_quenched_militarism_desc:0 "Victory always comes at a cost, and the Weltkrieg was unlike any war the world had ever seen. While we may have been victorious, that didn't bring our boys home. Our families still remember that pain clearly and are not eager to experience it again."
 
-GER_quenched_militarism2:0 "Quenched Militarism"
-GER_quenched_militarism2_desc:0 "Victory always comes at a cost, and the Weltkrieg was unlike any war the world had ever seen. While we may have been victorious, that didn't bring our boys home. Our families still remember that pain clearly and are not eager to experience it again. Though we've increased our recruitment, many of the youth are unwilling and unready for a true war."
+    GER_quenched_militarism2:0 "Quenched Militarism"
+    GER_quenched_militarism2_desc:0 "Victory always comes at a cost, and the Weltkrieg was unlike any war the world had ever seen. While we may have been victorious, that didn't bring our boys home. Our families still remember that pain clearly and are not eager to experience it again. Though we've increased our recruitment, many of the youth are unwilling and unready for a true war."
 
-GER_renwed_militarism:0 "Renewed Militarism"
-GER_renwed_militarism_desc:0 "Though the German race has always been martial, the price we paid in blood during the Weltkrieg and the wars thereafter has been extortionate. Despite this, there is no more room for complacency. German patriotism is a virtue and the people will remember that fact."
+    GER_renwed_militarism:0 "Renewed Militarism"
+    GER_renwed_militarism_desc:0 "Though the German race has always been martial, the price we paid in blood during the Weltkrieg and the wars thereafter has been extortionate. Despite this, there is no more room for complacency. German patriotism is a virtue and the people will remember that fact."
 
-GER_research_boost:0 "Research Funding"
-GER_research_boost_desc:0 "The only way that we can get scientists out of their lecture halls and into the laboratories is by throwing money at them. Increased state funding will go some way to helping with this."
+    GER_research_boost:0 "Research Funding"
+    GER_research_boost_desc:0 "The only way that we can get scientists out of their lecture halls and into the laboratories is by throwing money at them. Increased state funding will go some way to helping with this."
 
-GER_victors_of_wwi:0 "Victors of the Weltkrieg"
-GER_victors_of_wwi_desc:0 "We were the undisputed victors of the Weltkrieg and our place in the sun all but guaranteed. Unfortunately that was 20 years ago and our arrogance may have got the better of us since then..."
+    GER_victors_of_wwi:0 "Victors of the Weltkrieg"
+    GER_victors_of_wwi_desc:0 "We were the undisputed victors of the Weltkrieg and our place in the sun all but guaranteed. Unfortunately that was 20 years ago and our arrogance may have got the better of us since then..."
 
-GER_tank_idea:0 "Investment in Panzers"
-GER_tank_idea_desc:0 "Some view the Panzer as the weapon with which all future wars will be decided. Further investment into the area is vital for German hegemony to continue."
+    GER_tank_idea:0 "Investment in Panzers"
+    GER_tank_idea_desc:0 "Some view the Panzer as the weapon with which all future wars will be decided. Further investment into the area is vital for German hegemony to continue."
 
-GER_tirpitz_idea:0 "Tirpitzprogramm"
-GER_tirpitz_idea_desc:0 "Großadmiral Tirpitz was the titan of his age, and his investment into the Kaiserliche Marine prior to the Weltkrieg ensured that we had a fleet capable of facing off against the Royal Navy. Such vision is needed again."
+    GER_tirpitz_idea:0 "Tirpitzprogramm"
+    GER_tirpitz_idea_desc:0 "Großadmiral Tirpitz was the titan of his age, and his investment into the Kaiserliche Marine prior to the Weltkrieg ensured that we had a fleet capable of facing off against the Royal Navy. Such vision is needed again."
 
-GER_junkers_lost_idea:0 "Problems with Grain Supply"
-GER_junkers_lost_idea_desc:0 "With Germany's population expanding after the Weltkrieg and during the Tirpitz golden age, we became reliant on grain from our Mitteleuropan partners. With there now being a hole in our eastern buffer, food supplies have dropped."
+    GER_junkers_lost_idea:0 "Problems with Grain Supply"
+    GER_junkers_lost_idea_desc:0 "With Germany's population expanding after the Weltkrieg and during the Tirpitz golden age, we became reliant on grain from our Mitteleuropan partners. With there now being a hole in our eastern buffer, food supplies have dropped."
 
-GER_easter_promises_idea:0 "Easter Promises"
-GER_easter_promises_idea_desc:0 "When Germany was at its nadir after the Turnip Winter of 1916-1917, the Kaiser promised constitutional reform after the Weltkrieg ended. Perhaps now, with our stagnancy becoming increasingly evident, things might change."
+    GER_easter_promises_idea:0 "Easter Promises"
+    GER_easter_promises_idea_desc:0 "When Germany was at its nadir after the Turnip Winter of 1916-1917, the Kaiser promised constitutional reform after the Weltkrieg ended. Perhaps now, with our stagnancy becoming increasingly evident, things might change."
 
-GER_bundesrat_idea:0 "Restored Bundesrat"
-GER_bundesrat_idea_desc:0 "The Ludendorff regime rode roughshod over many of the privileges that the German states had prior to the Weltkrieg, one of them being representation in the form of the Bundesrat. Restoring this ancient right is a great sign of things to come."
+    GER_bundesrat_idea:0 "Restored Bundesrat"
+    GER_bundesrat_idea_desc:0 "The Ludendorff regime rode roughshod over many of the privileges that the German states had prior to the Weltkrieg, one of them being representation in the form of the Bundesrat. Restoring this ancient right is a great sign of things to come."
 
-GER_post_idea:0 "German Post Office"
-GER_post_idea_desc:0 "Though it may seem laughable, one of the last bulwarks against complete federal integration under the Reich was the existence of separate postal services. With this rectified, Germany truly is united."
+    GER_post_idea:0 "German Post Office"
+    GER_post_idea_desc:0 "Though it may seem laughable, one of the last bulwarks against complete federal integration under the Reich was the existence of separate postal services. With this rectified, Germany truly is united."
 
-GER_embrace_FAUD_idea:0 "Freie Arbeiterunion Deutschlands"
-GER_embrace_FAUD_idea_desc:0 "The best way to disarm the Syndicalist menace is by working with less ideological leftists. Tolerating the main trade union should give less succour to the Reds in Germany."
+    GER_embrace_FAUD_idea:0 "Freie Arbeiterunion Deutschlands"
+    GER_embrace_FAUD_idea_desc:0 "The best way to disarm the Syndicalist menace is by working with less ideological leftists. Tolerating the main trade union should give less succour to the Reds in Germany."
 
-GER_dcgb_idea:0 "Deutscher Christlicher Gewerkschaftsbund"
-GER_dcgb_idea_desc:0 "A new state-sponsored union can channel the energies of our working class in the right direction."
+    GER_dcgb_idea:0 "Deutscher Christlicher Gewerkschaftsbund"
+    GER_dcgb_idea_desc:0 "A new state-sponsored union can channel the energies of our working class in the right direction."
 
-GER_institut_idea:0 "Institut für Luftfahrttechnik"
-GER_institut_idea_desc:0 "With a new aviation research institute Germany can modernise its air force and turn from the finest in Europe, to undisputed global powerhouse."
+    GER_institut_idea:0 "Institut für Luftfahrttechnik"
+    GER_institut_idea_desc:0 "With a new aviation research institute Germany can modernise its air force and turn from the finest in Europe, to undisputed global powerhouse."
 
-GER_cult_of_aviation_idea:0 "Cult of Aviation"
-GER_cult_of_aviation_idea_desc:0 "No longer is the sabre-wielding warrior the idol of Germany's youth. It is the dashing pilot, the duelist of the modern age, that inspires us all."
+    GER_cult_of_aviation_idea:0 "Cult of Aviation"
+    GER_cult_of_aviation_idea_desc:0 "No longer is the sabre-wielding warrior the idol of Germany's youth. It is the dashing pilot, the duelist of the modern age, that inspires us all."
 
-ZO_idea:0 "Mitteleuropa"
-ZO_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_idea:0 "Mitteleuropa"
+    ZO_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_zollverein_idea:0 "Mitteleuropa"
-ZO_zollverein_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_zollverein_idea:0 "Mitteleuropa"
+    ZO_zollverein_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_europarat_idea:0 "Mitteleuropa"
-ZO_europarat_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_europarat_idea:0 "Mitteleuropa"
+    ZO_europarat_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_EEP_idea:0 "Mitteleuropa"
-ZO_EEP_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_EEP_idea:0 "Mitteleuropa"
+    ZO_EEP_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_europakomm_idea:0 "Mitteleuropa"
-ZO_europakomm_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_europakomm_idea:0 "Mitteleuropa"
+    ZO_europakomm_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_europabrigad_idea:0 "Mitteleuropa"
-ZO_europabrigad_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_europabrigad_idea:0 "Mitteleuropa"
+    ZO_europabrigad_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-ZO_europamark_idea:0 "Mitteleuropa"
-ZO_europamark_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
+    ZO_europamark_idea:0 "Mitteleuropa"
+    ZO_europamark_idea_desc:0 "We are the leader of Mitteleuropa, an economic cooperation pact that helps us project power."
 
-GER_mil_support_idea:0 "Germany Military Support"
-GER_mil_support_idea_desc:0 "Under the terms of our hard-fought treaty with the German Reich they have promised us full military support."
+    GER_mil_support_idea:0 "Germany Military Support"
+    GER_mil_support_idea_desc:0 "Under the terms of our hard-fought treaty with the German Reich they have promised us full military support."
 
-GER_eco_support_idea:0 "German Economic Support"
-GER_eco_support_idea_desc:0 "Under the terms of our treaty with Germany we managed to agree an economic trade zone with them. This should help industrialise our nation."
+    GER_eco_support_idea:0 "German Economic Support"
+    GER_eco_support_idea_desc:0 "Under the terms of our treaty with Germany we managed to agree an economic trade zone with them. This should help industrialise our nation."
 
-GER_two_front_idea:0 "War on Two Fronts"
-GER_two-front_idea_desc:0 "We're at war with both France and Russia, a nightmarish situation that we strove to avoid at all costs. We won once, and we shall do so again!"
+    GER_two_front_idea:0 "War on Two Fronts"
+    GER_two-front_idea_desc:0 "We're at war with both France and Russia, a nightmarish situation that we strove to avoid at all costs. We won once, and we shall do so again!"
 
-AUS_Integration:0 "Austrian Integration"
-AUS_Integration_desc:0 "Austrian integration will take time. Until it is finished we won't be the unified fighting force we should be."
+    AUS_Integration:0 "Austrian Integration"
+    AUS_Integration_desc:0 "Austrian integration will take time. Until it is finished we won't be the unified fighting force we should be."
 
-GER_FVP1:0 "The Fourty Hour Work Week"
-GER_FVP1_desc:0 "The implementation of the fourty hour work week has created a situation where employers can no longer expect to succeed by making their workers labor endlessly. The result of this new regulation has been a race of innovation and productivity, one that we can capitalize on and benefit from by increasing infrastructure investments in parallel."
+    GER_FVP1:0 "The Fourty Hour Work Week"
+    GER_FVP1_desc:0 "The implementation of the fourty hour work week has created a situation where employers can no longer expect to succeed by making their workers labor endlessly. The result of this new regulation has been a race of innovation and productivity, one that we can capitalize on and benefit from by increasing infrastructure investments in parallel."
 
-GER_NLP2:0 "Easy Money Policy"
-GER_NLP2_desc:0 "Simple and low-risk access to credit for both the general populace and businesses is causing some economic growth within the private sector."
+    GER_NLP2:0 "Easy Money Policy"
+    GER_NLP2_desc:0 "Simple and low-risk access to credit for both the general populace and businesses is causing some economic growth within the private sector."
 
-GER_DKP2:0 "Agricultural Subsidies"
-GER_DKP2_desc:0 "Subsidising agriculture both makes farmers fond of our administration and increases food supply. What's not to love?"
+    GER_DKP2:0 "Agricultural Subsidies"
+    GER_DKP2_desc:0 "Subsidising agriculture both makes farmers fond of our administration and increases food supply. What's not to love?"
 
-GER_ZEN2:0 "The Shakeout"
-GER_ZEN2_desc:0 "Businesses are closing and consolidating together in the aftermath of Black Monday, causing some short-term chaos."
+    GER_ZEN2:0 "The Shakeout"
+    GER_ZEN2_desc:0 "Businesses are closing and consolidating together in the aftermath of Black Monday, causing some short-term chaos."
 
-GER_ZEN1:0 "German Austerity"
-GER_ZEN1_desc:0 "Waste not, want not. By cutting down on government expenditures wherever we can and securing budgetary confidence, our stability even in the face of crisis is guaranteed."
+    GER_ZEN1:0 "German Austerity"
+    GER_ZEN1_desc:0 "Waste not, want not. By cutting down on government expenditures wherever we can and securing budgetary confidence, our stability even in the face of crisis is guaranteed."
 
-GER_ZEN22:0 "Consolidated Industry"
-GER_ZEN22_desc:0 "Following Brüning's program of allowing German industry to settle with minimal intervention, it seems as though efficiency and output has increased as a result."
+    GER_ZEN22:0 "Consolidated Industry"
+    GER_ZEN22_desc:0 "Following Brüning's program of allowing German industry to settle with minimal intervention, it seems as though efficiency and output has increased as a result."
 
  ### Research Groups ###
     german_research_desc:0 "The Kaiser Wilhelm Society is the principle joint-research organisation of Mitteleuropa."
 
-### Tooltips ###
+ ### Tooltips ###
 GER_oil_imports:0 "§RWe import a significant percentage of our oil from outside our own economic sphere, potentially leading to shortages in times of war.§!"
 GER_oil_shortage_smaller:0 "§RWe shall try to mitigate the effects of the oil shortage, but a long term solution must be found.§!"
 GER_gulf_oil_not_wait:0 "§RWe shall demand our oil before the war is over, though our partners may not be happy about this.§!"
