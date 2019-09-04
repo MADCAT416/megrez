@@ -81,8 +81,8 @@ BFA = {
 	color_ui = rgb { 27 128 45 }
 }
 BHC = {
-	color = rgb { 186 0 0 }
-	color_ui = rgb { 186 0 0 }
+	color = rgb { 119 0 0 }
+	color_ui = rgb { 119 0 0 }
 }
 BHU = {
 	color = rgb { 172 122 88 }
@@ -145,8 +145,8 @@ CAM = {
 	color_ui = rgb { 0 0 255 }
 }
 CAN = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 254 160 158 }
+	color_ui = rgb { 254 160 158 }
 }
 CAR = {
 	color = rgb { 255 141 35 }
@@ -257,8 +257,8 @@ ECU = {
 	color_ui = rgb { 255 255 158 }
 }
 EGY = {
-	color = rgb { 188 190 42 }
-	color_ui = rgb { 188 190 42 }
+	color = rgb { 78 255 0 }
+	color_ui = rgb { 78 255 0 }
 }
 ELS = {
 	color = rgb { 96 154 151 }
