@@ -15,6 +15,7 @@ state = {		#Mugla
 			}
 		}
 		add_core_of = TUR
+		add_claim_by = GRE
 		victory_points = {
 			10122 3
 		}

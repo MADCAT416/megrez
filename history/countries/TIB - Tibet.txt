@@ -13,6 +13,11 @@ set_technology = {
 
 add_opinion_modifier = { target = BHC modifier = embargo }
 
+set_autonomy = {
+	target = BHU
+	autonomous_state = kr_integrated_puppet
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"

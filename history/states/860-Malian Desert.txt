@@ -16,5 +16,4 @@ state = {
 	}
 	manpower = 137733
 	state_category = wasteland
-	impassable = yes
 }
