@@ -21,24 +21,24 @@ guiTypes = {
 	}
 
 	### MAIN MENU PANEL (upperleft)
-	containerWindowType = {
-		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
-		show_position = { x=0 y =-1 }
-		animation_type = decelerated
-		animation_time = 1000
-		size = { width = 256 height = 768}
-		
-        ButtonType = {
-            name ="frontend_game_logo"
-            spriteType = "GFX_frontend_game_logo"
-            position = { x= 20 y = 20 }
-            clicksound = click_default
-            pdx_tooltip = "LOGO_MAIN_MENU_LINK"
-            web_link = "https://kaiserreich.wikia.com/wiki/KR4_Changelog"
-        }
-		
-	}
+	#containerWindowType = {
+	#	name  ="mainmenu_panel_upperleft"
+	#	position = { x=0 y =-200 }
+	#	show_position = { x=0 y =-1 }
+	#	animation_type = decelerated
+	#	animation_time = 1000
+	#	size = { width = 256 height = 768}
+	#	
+    #    ButtonType = {
+    #        name ="frontend_game_logo"
+    #        spriteType = "GFX_frontend_game_logo"
+    #        position = { x= 20 y = 20 }
+    #        clicksound = click_default
+    #        pdx_tooltip = "LOGO_MAIN_MENU_LINK"
+    #        web_link = "https://kaiserreich.wikia.com/wiki/KR4_Changelog"
+    #    }
+	#	
+	#}
 
 	#containerWindowType = {
 	#	name  ="frontend_alpha_stamp"
@@ -66,15 +66,15 @@ guiTypes = {
 		size = { width = 400 height = 800}
 		Orientation = upper_right
 
-		### KR Logo Button ###
-        ButtonType = {
-            name ="frontend_dev_logo"
-            spriteType = "GFX_frontend_dev_logo"
-            position = { x= -56 y = 18 }
-            clicksound = click_default
-            pdx_tooltip = "KR_MAIN_MENU_LINK"
-            web_link = "https://kaiserreich.wikia.com"
-        }
+	#	### KR Logo Button ###
+    #    ButtonType = {
+    #        name ="frontend_dev_logo"
+    #        spriteType = "GFX_frontend_dev_logo"
+    #        position = { x= -56 y = 18 }
+    #        clicksound = click_default
+    #        pdx_tooltip = "KR_MAIN_MENU_LINK"
+    #        web_link = "https://kaiserreich.wikia.com"
+    #    }
 
 		### Mod Coop Logo Button ###
         ButtonType = {
@@ -277,7 +277,7 @@ guiTypes = {
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "https://discord.gg/013cqzfpWMRLqnvHr"
+			web_link = "https://discord.gg/v4Rmdmw"
 		}
 		ButtonType = { #Actually Forum
 			name = "forum_button"
@@ -293,7 +293,7 @@ guiTypes = {
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=1521695605"
+			web_link = "https://steamcommunity.com/app/394360/workshop/"
 		}	
 		ButtonType = { #Actually Twitter
 			name = "twitter_button"
@@ -301,7 +301,7 @@ guiTypes = {
 			quadTextureSprite ="twitter"
 			clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/kaisermod"
+			web_link = "https://twitter.com/Megrez_"
 		}
 		ButtonType = { #Sent far far away because we don't want you
 			name = "privacy_policy_button"

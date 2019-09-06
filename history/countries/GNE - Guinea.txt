@@ -1,4 +1,7 @@
 ﻿capital = 806
+
+set_cosmetic_tag = WESTAFRIKA
+
 OOB = "empty"
 set_research_slots = 2
 set_technology = {
