@@ -106,99 +106,135 @@ add_ideas = {
 
 create_country_leader = {# Valentín Campa Salazar 
 	name = "Valentín Campa Salazar"
-	desc = "MEX_Valentin-Campa-Salazar_DESC"
-	picture = "Portrait_MEX_Valentin-Campa-Salazar.tga"
+	desc = "MEX_Valentin_Campa_Salazar_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Valentin_Campa_Salazar.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+		
+	}
 }
 create_country_leader = {# Arnoldo Martínez Verdugo 
 	name = "Arnoldo Martínez Verdugo"
-	desc = "MEX_Arnoldo-Martinez-Verdugo_DESC"
-	picture = "Portrait_MEX_Arnoldo-Martinez-Verdugo.tga"
+	desc = "MEX_Arnoldo_Martinez_Verdugo_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Arnoldo_Martinez_Verdugo.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	
+	}
 }
 create_country_leader = {# Jorge Cruickshank García 
 	name = "Jorge Cruickshank García"
-	desc = "MEX_Jorge-Cruickshank-Garcia_DESC"
-	picture = "Portrait_MEX_Jorge-Cruickshank-Garcia.tga"
+	desc = "MEX_Jorge_Cruickshank_Garcia_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Jorge_Cruickshank_Garcia.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 create_country_leader = {# Gustavo Díaz Ordaz 
 	name = "Gustavo Díaz Ordaz"
-	desc = "MEX_Gustavo-Diaz-Ordaz_DESC"
-	picture = "Portrait_MEX_Gustavo-Diaz-Ordaz.tga"
+	desc = "MEX_Gustavo_Diaz_Ordaz_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Gustavo_Diaz_Ordaz.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
 create_country_leader = {# Jorge González Torres  
 	name = "Jorge González Torres"
-	desc = "MEX_Jorge-Gonzalez-Torres_DESC"
-	picture = "Portrait_MEX_Jorge-Gonzalez-Torres.tga"
+	desc = "MEX_Jorge_Gonzalez_Torres_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Jorge_Gonzalez_Torres.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
-	traits = {}
+	traits = {
+		social_progressive
+	
+	}
 }
 create_country_leader = {# Cuauhtémoc Cárdenas Solórzano 
 	name = "Cuauhtémoc Cárdenas Solórzano"
-	desc = "MEX_Cuauhtemoc-Cardenas-Solorzano_DESC"
-	picture = "Portrait_MEX_Cuauhtemoc-Cardenas-Solorzano.tga"
+	desc = "MEX_Cuauhtemoc_Cardenas_Solorzano_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Cuauhtemoc_Cardenas_Solorzano.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+		
+	}
 }
 create_country_leader = {# Luis Héctor Álvarez  
 	name = "Luis Héctor Álvarez"
-	desc = "MEX_Luis-Hector-Alvarez_DESC"
-	picture = "Portrait_MEX_Luis-Hector-Alvarez.tga"
+	desc = "MEX_Luis_Hector_Alvarez_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Luis_Hector_Alvarez.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+	
+	}
 }
 create_country_leader = {# José López Portillo  
 	name = "José López Portillo"
-	desc = "MEX_Jose-Lopez-Portillo_DESC"
-	picture = "Portrait_MEX_Jose-Lopez-Portillo.tga"
+	desc = "MEX_Jose_Lopez_Portillo_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Jose_Lopez_Portillo.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+	
+	}
 }
 create_country_leader = {#  
 	name = ""
 	desc = "POLITICS__DESC"
-	picture = "Portrait_Mexico_.tga"
+	picture = "gfx/leaders/MEX/Portrait_Mexico_.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 create_country_leader = {# Maximiliano de Götzen-Iturbide 
 	name = "Maximiliano de Götzen-Iturbide"
-	desc = "MEX_Maximiliano-de-Götzen-Iturbide_DESC"
-	picture = "Portrait_MEX_Maximiliano-de-Götzen-Iturbide.tga"
+	desc = "MEX_Maximiliano_de_Götzen-Iturbide_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Maximiliano_de_Götzen-Iturbide.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	
+	}
 }
 create_country_leader = {# Salvador Abascal Infante 
 	name = "Salvador Abascal Infante"
-	desc = "MEX_Salvador-Abascal-Infante_DESC"
-	picture = "Portrait_MEX_Salvador-Abascal-Infante.tga"
+	desc = "MEX_Salvador_Abascal_Infante_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Salvador_Abascal_Infante.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
-	traits = {}
+	traits = {
+		clerical_nationalist
+	
+	}
 }
 create_country_leader = {# 
 	name = ""
 	desc = "POLITICS__DESC"
-	picture = "Portrait_Mexico_.tga"
+	picture = "gfx/leaders/MEX/Portrait_Mexico_.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		
+	}
 }
 
 ### Field Marshal
