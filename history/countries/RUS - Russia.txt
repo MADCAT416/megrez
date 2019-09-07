@@ -229,7 +229,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"
@@ -241,7 +241,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"
@@ -254,7 +254,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"
@@ -267,7 +267,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"
@@ -280,7 +280,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"
@@ -293,7 +293,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Vladimir I Kirillovich"
+	name = "Vladimir I"
 	desc = "RUS_Vladimir_I_Kirillovich_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_I_Kirillovich.tga"
 	expire = "1991.1.1"

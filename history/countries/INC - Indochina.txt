@@ -103,85 +103,90 @@ add_ideas = {
 
 ### Leader Spam ###
 create_country_leader = {
-	name = "Pham Van Dong"
-	desc = "POLITICS_PHAM_VAN_DONG_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Pham_Van_Dong.tga"
-	expire = "2000.4.29"
+	name = "Lê Duân"
+	desc = "INC_Le_Duan_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Le_Duan.tga"
+	expire = "1992.01.01"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 create_country_leader = {
-	name = "Ta Thu Thau"
-	desc = "POLITICS_TA_THU_THAO_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Ta_Thu_Thau.tga"
-	expire = "1991.9.12"
+	name = "Võ Nguyêngiáp"
+	desc = "INC_Vo_Nguyengiap_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Vo_Nguyengiap.tga"
+	expire = "1992.01.01"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 create_country_leader = {
-	name = "Nguyen An Ninh"
-	desc = "POLITICS_NGUYEN_AN_NINH_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Nguyen_An_Ninh.tga"
-	expire = "1991.8.25"
+	name = "Bùi Tín"
+	desc = "INC_Bui_Tin_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Bui_Tin.tga"
+	expire = "1992.01.01"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 create_country_leader = {
-	name = "Nguyen Tai Hoc"
-	desc = "POLITICS_NGUYEN_TAI_HOC_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Nguyen_Tai_Hoc.tga"
-	expire = "1991.6.19"
+	name = "Hoàng Minhchính"
+	desc = "INC_Hoang_Minhchinh_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Hoang_Minhchinh.tga"
+	expire = "1992.01.01"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Bui Quang Chieu"
-	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
-	expire = "1991.1.11"
+	name = "Vũ Hôngkhanh"
+	desc = "VIE_Vu_Hongkhanh_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Vu_Hongkhanh.tga"
+	expire = "1992.01.01"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+	}
 }
 create_country_leader = {
-	name = "Bui Quang Chieu"
-	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
-	expire = "1991.1.11"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Bui Quang Chieu"
-	desc = "POLITICS_BUI_QUANG_CHIEU_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Bui_Quang_Chieu.tga"
-	expire = "1991.1.11"
+	name = "Phan Huyquát"
+	desc = "VIE_Phan_Huyquat_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Phan_Huyquat.tga"
+	expire = "1992.01.01"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+	}
 }
 create_country_leader = {
-	name = "Truong Tu Anh"
-	desc = "POLITICS_TRUONG_TU_ANH_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
-	expire = "1991.12.5"
+	name = "Nguyên Vănthiêu"
+	desc = "VIE_Nguyen_Vanthieu_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Nguyen_Vanthieu.tga"
+	expire = "1992.01.01"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Truong Tu Anh"
-	desc = "POLITICS_TRUONG_TU_ANH_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
-	expire = "1991.12.5"
+	name = "Baođai Đê"
+	desc = "VIE_Baodai_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Baodai.tga"
+	expire = "1992.01.01"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
-create_country_leader = {
-	name = "Truong Tu Anh"
-	desc = "POLITICS_TRUONG_TU_ANH_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Truong_Tu_Anh.tga"
-	expire = "1991.12.5"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
+
 
 ### Corps Commande
 create_corps_commander = {

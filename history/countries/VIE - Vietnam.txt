@@ -23,7 +23,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,100 +44,88 @@ set_popularities = {
 
 ### Leader Spam ###
 create_country_leader = {
-	name = "Le Duc Tho"
-	desc = "POLITICS_LE_DUC_THO_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1991.10.13"
+	name = "Lê Duân"
+	desc = "INC_Le_Duan_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Le_Duan.tga"
+	expire = "1992.01.01"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 create_country_leader = {
-	name = "Le Duc Tho"
-	desc = "POLITICS_LE_DUC_THO_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1991.10.13"
+	name = "Võ Nguyêngiáp"
+	desc = "INC_Vo_Nguyengiap_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Vo_Nguyengiap.tga"
+	expire = "1992.01.01"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 create_country_leader = {
-	name = "Le Duc Tho"
-	desc = "POLITICS_LE_DUC_THO_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1991.10.13"
+	name = "Bùi Tín"
+	desc = "INC_Bui_Tin_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Bui_Tin.tga"
+	expire = "1992.01.01"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+		
+	}
 }
 create_country_leader = {
-	name = "Le Duc Tho"
-	desc = "POLITICS_LE_DUC_THO_DESC"
-	picture = "gfx/leaders/INC/Portrait_INC_Le_Duc_Tho.tga"
-	expire = "1991.10.13"
+	name = "Hoàng Minhchính"
+	desc = "INC_Hoang_Minhchinh_DESC"
+	picture = "gfx/leaders/INC/Portrait_INC_Hoang_Minhchinh.tga"
+	expire = "1992.01.01"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Bao Dai"
-	desc = "POLITICS_BAO_DAI_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Bao_Dai.tga"
-	expire = "1997.7.30"
+	name = "Vũ Hôngkhanh"
+	desc = "VIE_Vu_Hongkhanh_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Vu_Hongkhanh.tga"
+	expire = "1992.01.01"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+	}
 }
 create_country_leader = {
-	name = "Bao Dai"
-	desc = "POLITICS_BAO_DAI_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Bao_Dai.tga"
-	expire = "1997.7.30"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Bao Dai"
-	desc = "POLITICS_BAO_DAI_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Bao_Dai.tga"
-	expire = "1997.7.30"
+	name = "Phan Huyquát"
+	desc = "VIE_Phan_Huyquat_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Phan_Huyquat.tga"
+	expire = "1992.01.01"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+	}
 }
 create_country_leader = {
-	name = "Bao Dai"
-	desc = "POLITICS_BAO_DAI_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Bao_Dai.tga"
-	expire = "1997.7.30"
+	name = "Nguyên Vănthiêu"
+	desc = "VIE_Nguyen_Vanthieu_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Nguyen_Vanthieu.tga"
+	expire = "1992.01.01"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
 create_country_leader = {
-	name = "Ngo Din Diem"
-	desc = "POLITICS_MGO_DIN_DIEM_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Ngo_Din_Diem.tga"
-	expire = "1991.11.2"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Bao Dai"
-	desc = "POLITICS_BAO_DAI_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Bao_Dai.tga"
-	expire = "1997.7.30"
+	name = "Baođai Đê"
+	desc = "VIE_Baodai_DESC"
+	picture = "gfx/leaders/VIE/Portrait_VIE_Baodai.tga"
+	expire = "1992.01.01"
 	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Cuong De"
-	desc = "POLITICS_PRINCE_COUNG_DE_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Prinz_Cuong_De.tga"
-	expire = "1991.4.5"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Pham Cong Tac"
-	desc = "POLITICS_PHAM_CONG_TAC_DESC"
-	picture = "gfx/leaders/VIE/Portrait_Vietnam_Pham_Cong_Tac.tga"
-	expire = "1991.5.17"
-	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 
 ### Marshal

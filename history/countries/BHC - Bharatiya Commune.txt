@@ -203,7 +203,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Elamkulam Manakkal Sankaran Namboodiripad"
+	name = "Elamkulam Namboodiripad"
 	desc = "BHC_Elamkulam_Namboodiripad_DESC"
 	picture = "gfx/leaders/BHC/Portrait_BHC_Elamkulam_Namboodiripad.tga"
 	expire = "1991.1.1"
@@ -215,7 +215,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Indira Priyadarshini Nehru-Gandhi"
+	name = "Indira Nehru-Gandhi"
 	desc = "BHC_Indira_Gandhi_DESC"
 	picture = "gfx/leaders/BHC/Portrait_BHC_Indira_Gandhi.tga"
 	expire = "1991.1.1"

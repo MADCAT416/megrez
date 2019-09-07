@@ -66,102 +66,19 @@ set_popularities = {
     ethnic_populist = 6
 }
 
-create_country_leader = {
-	name = "Antoun Sadeh"
-	desc = "POLITICS_ANTOUN_SADEH_DESC"
-	picture = "Portrait_SYR_Antoun_Sadeh.tga"
-	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
 
 create_country_leader = {
-	name = "Fawzi al-Qawuqji"
-	desc = "POLITICS_FAWZI_QUWU_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_1.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Sami Al-Hinawi"
-	desc = "POLITICS_ADIB_BIN_HASSAN_SYR_DESC"
-	picture = "Portrait_SYR_Sami_Al_Hinawi.tga"
-	expire = "1991.1.1"
+	name = "Nureddin al-Atassi"
+	desc = "SYR_Nureddin_al-Atassi_DESC"
+	picture = "gfx/leaders/SYR/Portrait_SYR_Nureddin_al-Atassi.tga"
+	expire = "1992.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+	}
 }
 
-create_country_leader = {
-	name = "Shukri al-Quwatli"
-	desc = "POLITICS_SHUKRI_QUWATILI_DESC"
-	picture = "Portrait_SYR_Shukri.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
 
-create_country_leader = {
-	name = "Sultan al-Atrash"
-	desc = "POLITICS_SULTAN_ATRASH_DESC"
-	picture = "Portrait_SYR_Atrash.tga"
-	expire = "1991.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Nazik al-Abid"
-	desc = "POLITICS_NAZIK_AL_ABID_DESC"
-	picture = "Portrait_SYR_Nazik_Abid.tga"
-	expire = "1991.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Sabri Al-Asali"
-	desc = "POLITICS_SABRI_ASALI_DESC"
-	picture = "Portrait_SYR_Sabri.tga"
-	expire = "1991.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Nazik al-Abid"
-	desc = "POLITICS_NAZIK_ABID_DESC"
-	picture = "Portrait_SYR_Nazik_Abid.tga"
-	expire = "1991.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Muhammad al-Ashmar"
-	desc = "POLITICS_SYNDIE_JBS_DESC"
-	picture = "Portrait_SYR_Muhhamed.tga"
-	expire = "1991.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Michel Aflaq"
-	desc = "POLITICS_MICHEAL_AFLAQ_DESC"
-	picture = "Portrait_SYR_Aflaq.tga"
-	expire = "1991.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Michel Aflaq"
-	desc = "POLITICS_MICHEAL_AFLAQ_DESC"
-	picture = "Portrait_SYR_Aflaq.tga"
-	expire = "1991.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
 
 
 

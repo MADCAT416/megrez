@@ -75,47 +75,7 @@ add_ideas = {
 	CAM_Sisowath_Monireth_eco_sli
 	CAM_Sakiwat_Phirun_sec_ade
 }
-### Leaders Choice ###
-#create_country_leader = { # Sisowath Monireth - unlikely throne contender one
-#	name = "Sisowath Monireth"
-#	desc = "POLITICS_SISOWATH_MONIRETH_DESC"
-#	picture = "gfx/leaders/CAM/Portrait_Cambodia_Sisowath_Monireth.tga"
-#	expire = "1991.9.13"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
-#create_country_leader = { # Norodom Suramarit - Norodom Sihanouk's father, not sure why he's here anyway (Abdication events from OTL coming soon I guess)
-#	name = "Norodom Suramarit"
-#	desc = "POLITICS_NORODOM_SURAMARIT_DESC"
-#	picture = "gfx/leaders/CAM/Portrait_Cambodia_Norodom_Suramarit.tga"
-#	expire = "1991.4.3"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
-#create_country_leader = { # Siamese throne contender
-#	name = "Chau Ponhea Khuang Apheithipess"
-#	desc = "POLITICS_KHUANG_APHAIWONG_DESC"
-#	picture = "gfx/leaders/CAM/Portrait_Cambodia_Khuang_Aphaiwong.tga"
-#	expire = "1991.3.15"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
-#create_country_leader = { # Sisowath Monipong - throne contender one
-#	name = "Sisowath Monipong"
-#	desc = "POLITICS_SISOWATH_MONIPONG_DESC"
-#	picture = "gfx/leaders/CAM/Portrait_Cambodia_Sisowath_Monipong.tga"
-#	expire = "1991.8.31"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
-#create_country_leader = { # Norodom Sihanouk - rightful throne contender
-#	name = "Norodom Sihanouk"
-#	desc = "POLITICS_NORODOM_SIHANOUK_DESC"
-#	picture = "gfx/leaders/CAM/Portrait_Cambodia_Norodom_Sihanouk.tga"
-#	expire = "2012.10.15"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
+
 #### Leader Spam ###
 create_country_leader = { # Sisowath Monivong - currently wrong pic
 	name = "Lon Nol"
@@ -173,29 +133,35 @@ create_country_leader = { # Sisowath Monivong - currently wrong pic
 	ideology = social_democrat_subtype
 	traits = {}
 }
-create_country_leader = { # Tou Samouth
-	name = "Tou Samouth"
-	desc = "POLITICS_TOU_SAMOUTH_DESC"
-	picture = "gfx/leaders/CAM/Portrait_Cambodia_Tou_Samouth.tga"
+create_country_leader = { # Keo Meas 
+	name = "Keo Meas"
+	desc = "CAM_Keo_Meas_DESC"
+	picture = "gfx/leaders/CAM/Portrait_CAM_Keo_Meas.tga"
 	expire = "1991.7.8"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 create_country_leader = { # Tou Samouth
 	name = "Tou Samouth"
-	desc = "POLITICS_TOU_SAMOUTH_DESC"
-	picture = "gfx/leaders/CAM/Portrait_Cambodia_Tou_Samouth.tga"
+	desc = "CAM_Tou_Samouth_DESC"
+	picture = "gfx/leaders/CAM/Portrait_CAM_Tou_Samouth.tga"
 	expire = "1991.7.8"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
-create_country_leader = { # Tou Samouth
-	name = "Tou Samouth"
-	desc = "POLITICS_TOU_SAMOUTH_DESC"
-	picture = "gfx/leaders/CAM/Portrait_Cambodia_Tou_Samouth.tga"
+create_country_leader = { # Norodom Sihanouk 
+	name = "Norodom Sihanouk"
+	desc = "CAM_Norodom_Sihanouk_DESC"
+	picture = "gfx/leaders/CAM/Portrait_CAM_Norodom_Sihanouk.tga"
 	expire = "1991.7.8"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 ### Corps Commander
 ### Navy Leader
