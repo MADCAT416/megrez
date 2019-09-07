@@ -177,7 +177,7 @@ set_country_flag = LEC_profit_for_you
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = market_liberal
 	last_election = "1933.3.7"
 	election_frequency = 36
 	elections_allowed = yes
@@ -214,84 +214,16 @@ LEC = { give_military_access = AST }
 set_convoys = 60
 
 create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "Portrait_AST_Eric_Campbell.tga"
-	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
-create_country_leader = {
 	name = "Sir Paul Hasluck"
 	desc = "POLITICS_PERCY_STEPHENSEN_DESC"
-	picture = "Portrait_AST_Percy_Stephenson.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "William Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1991.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "William Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "William Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
+	picture = "gfx/leaders/AST/Portrait_AST_Paul_Hasluck.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+	}
 }
-create_country_leader = {
-	name = "William Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1991.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "William Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1991.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "John Garden"
-	picture = "Portrait_AST_John_Garden.tga"
-	expire = "1991.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Fred Paterson"
-	desc = "POLITICS_FRED_PATTERSON_DESC"
-	picture = "Portrait_AST_Fred_Paterson.tga"
-	expire = "1991.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "John B. Miles"
-	desc = "POLITICS_JOHN_MILES_DESC"
-	picture = "Portrait_AST_JB_Miles.tga"
-	expire = "1991.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
+
 
 ### Field Marshal
 create_field_marshal = {

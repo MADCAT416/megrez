@@ -1,5 +1,7 @@
 ﻿capital = 459
 
+set_cosmetic_tag = MAGHREB
+
 OOB = "empty"
 
 set_research_slots = 2

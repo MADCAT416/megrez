@@ -1,5 +1,7 @@
 ﻿capital = 47
 
+set_cosmetic_tag = GRE_kingdom
+
 oob = "empty"
 set_naval_oob = "GRE_naval"
 

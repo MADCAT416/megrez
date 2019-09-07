@@ -233,8 +233,8 @@ ethnic_populist = 0
 ### Starting Political Leaders ###
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_England_Oswald_Mosley.tga"
+	desc = "ENG_Oswald_Mosley_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Oswald_Mosley.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -245,8 +245,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gwynfor Evans"
-	desc = "POLITICS_Gwynfor_Evans_DESC"
-	picture = "Portrait_England_Gwynfor_Evans.tga"
+	desc = "ENG_Gwynfor_Evans_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Gwynfor_Evans.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -257,8 +257,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Harold Wilson"
-	desc = "POLITICS_Harold_Wilson_DESC"
-	picture = "Portrait_England_Harold_Wilson.tga"
+	desc = "ENGS_Harold_Wilson_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Harold_Wilson.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = { 
@@ -269,8 +269,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Roy Jenkins"
-	desc = "POLITICS_Roy_Jenkins_DESC"
-	picture = "Portrait_Roy_Jenkins.tga"
+	desc = "ENG_Roy_Jenkins_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Roy_Jenkins.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -281,8 +281,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "John Loverseed"
-	desc = "POLITICS_John_Loverseed_DESC"
-	picture = "Portrait_John_Loverseed.tga"
+	desc = "ENG_John_Loverseed_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_John_Loverseed.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
 	traits = {

@@ -64,7 +64,7 @@ guiTypes = {
 			quadTextureSprite = "homepage"
 			position = { x = 180 y = 11 }
 			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "https://discord.gg/013cqzfpWMRLqnvHr"		
+			web_link = "https://discord.gg/v4Rmdmw"		
 		}
 		buttonType =
 		{
@@ -88,7 +88,7 @@ guiTypes = {
 			quadTextureSprite = "twitter"
 			position = { x = 300 y = 11 }
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/kaisermod"		
+			web_link = "https://twitter.com/Megrez_"		
 		}
 		
 		buttonType =

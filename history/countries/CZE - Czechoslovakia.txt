@@ -2,8 +2,6 @@
 
 oob = "empty"
 
-set_cosmetic_tag = CZE_habsburg
-
 set_technology = {
 	### Tanks ###
 	gwtank = 1

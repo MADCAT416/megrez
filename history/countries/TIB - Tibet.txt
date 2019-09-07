@@ -18,6 +18,16 @@ set_autonomy = {
 	autonomous_state = kr_integrated_puppet
 }
 
+YUN = {
+	set_politics = {
+		ruling_party = paternal_autocrat
+		last_election = "1888.15.6"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
