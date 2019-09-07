@@ -897,6 +897,7 @@ guiTypes = {
 			name = "toggle_expand_all"
 			position = { x = 135 y = 53 }
 			quadTextureSprite ="GFX_expand_all_checkbox"
+			pdx_tooltip = "NAVAL_REPAIR_QUEUE_EXPAND_COLLAPSE_ALL"
 			clicksound = click_checkbox
 		}
 		
@@ -1172,6 +1173,8 @@ guiTypes = {
 			position = { x=-319 y = 15 }
 			spriteType = "GFX_generic_text_bg_203"
 			Orientation = "UPPER_RIGHT"			
+		}
+		
 		
 		instantTextboxType = {
 			name = "outdated_units"
@@ -1325,6 +1328,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "equipments"
+			position = { x=0 y=155 } 
 			size = { width=100%% height=100%% }
 			scroll_wheel_factor = 40
 			verticalScrollbar = "right_vertical_slider"
@@ -1367,6 +1371,7 @@ guiTypes = {
 			name = "outdated_units"
 			position = { x = -315 y = 19 }
 			textureFile = ""
+			font = "hoi_20b" 
 			borderSize = {x = 0 y = 0}
 			text = "OUTDATED_EQ"
 			maxWidth = 200
@@ -1375,6 +1380,39 @@ guiTypes = {
 			fixedsize = yes
 			Orientation = "UPPER_RIGHT"
 		}
+		
+		instantTextboxType = {
+			name = "naval_warning_decisions_1"
+			position = { x = 210 y = 45 }
+			textureFile = ""
+			font = "hoi_30header"
+			borderSize = {x = 0 y = 0}
+			text = "NAVAL_WARNING_EQ" 
+			maxWidth = 85
+			maxHeight = 35
+			format = left
+			fixedsize = yes
+			Orientation = "UPPER_CENTER"
+			pdx_tooltip = "NAVAL_WARNING_1_EQ"
+		}
+		
+		instantTextboxType = {
+			name = "naval_warning_decisions_2"
+			position = { x = 170 y = 70 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "NAVAL_WARNING_1_EQ"
+			maxWidth = 180
+			maxHeight = 30
+			format = left
+			fixedsize = yes
+			Orientation = "UPPER_CENTER"
+		}
+				
+		containerWindowType = {
+			name = "ship_filters"
+			position = { x = 12 y = 90 }
 			size = { width = 460 height = 64 }
 			margin = { top = 4 left = 4 bottom = 4 right = 4 }
 			clipping = no
@@ -1400,6 +1438,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "ship_type_grid"
 				position = { x=0 y=0 }
+				size = { width=303 height=57 }
 				slotsize = { width=88 height=27 }
 				max_slots_horizontal = 4
 				format = "UPPER_LEFT"
@@ -1421,6 +1460,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "production_deployment_window"
+		position = { x=-306 y=78}	
 		show_position = { x=540 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
@@ -2262,6 +2302,7 @@ guiTypes = {
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			smooth_scrolling = yes
+			margin = { top = 0 top=13 bottom = 12 left = 2}
 		
 			background = {
 				name = "Background"		
@@ -2270,6 +2311,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "name_list_grid"
+				position = { x = 12 y=0 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 335 height = 36 }
 				format = "UPPER_LEFT"
