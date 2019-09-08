@@ -21,13 +21,10 @@ state={
 
 			}
 			3737 = {
-				bunker = 1
+				bunker = 5
 
 			}
-			3931 = {
-				bunker = 1
-
-			}
+			
 
 		}
 		add_core_of = SPR
