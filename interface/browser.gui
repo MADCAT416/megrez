@@ -56,7 +56,7 @@ guiTypes = {
 			quadTextureSprite = "privacy"
 			position = { x = 140 y = 11 }
 			pdx_tooltip = "BROWSER_HOME"
-			web_link = "https://kaiserreich.wikia.com"			
+			web_link = "https://megrez.fandom.com/ko/wiki/%EB%A9%94%EA%B7%B8%EB%A0%88%EC%A6%88_%EC%9C%84%ED%82%A4"			
 		}
 		buttonType =
 		{

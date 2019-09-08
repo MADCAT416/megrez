@@ -21,24 +21,24 @@ guiTypes = {
 	}
 
 	### MAIN MENU PANEL (upperleft)
-	#containerWindowType = {
-	#	name  ="mainmenu_panel_upperleft"
-	#	position = { x=0 y =-200 }
-	#	show_position = { x=0 y =-1 }
-	#	animation_type = decelerated
-	#	animation_time = 1000
-	#	size = { width = 256 height = 768}
-	#	
-    #    ButtonType = {
-    #        name ="frontend_game_logo"
-    #        spriteType = "GFX_frontend_game_logo"
-    #        position = { x= 20 y = 20 }
-    #        clicksound = click_default
-    #        pdx_tooltip = "LOGO_MAIN_MENU_LINK"
-    #        web_link = "https://kaiserreich.wikia.com/wiki/KR4_Changelog"
-    #    }
-	#	
-	#}
+	containerWindowType = {
+		name  ="mainmenu_panel_upperleft"
+		position = { x=0 y =-200 }
+		show_position = { x=0 y =-1 }
+		animation_type = decelerated
+		animation_time = 1000
+	
+		
+        ButtonType = {
+            name ="frontend_game_logo"
+            spriteType = "GFX_frontend_dev_logo"
+            position = { x= 20 y = 20 }
+            clicksound = click_default
+            pdx_tooltip = "LOGO_MAIN_MENU_LINK"
+            web_link = "https://megrez.fandom.com/wiki/Changelog"
+        }
+		
+	}
 
 	#containerWindowType = {
 	#	name  ="frontend_alpha_stamp"
@@ -66,25 +66,25 @@ guiTypes = {
 		size = { width = 400 height = 800}
 		Orientation = upper_right
 
-	#	### KR Logo Button ###
-        ButtonType = {
-            name ="frontend_dev_logo"
-            spriteType = "GFX_frontend_dev_logo"
-            position = { x= -200 y = 6 }
-            clicksound = click_default
-            pdx_tooltip = "LOGO_MAIN_MENU_LINK"
-            web_link = "https://discord.gg/tU2rMcz"
-        }
+	#	### Logo Button ###
+    #    ButtonType = {
+    #        name ="frontend_dev_logo"
+    #        spriteType = ""
+    #        position = { x= -320 y = 6 }
+    #        clicksound = click_default
+    #        pdx_tooltip = "https://discord.gg/v4Rmdmw"
+    #        
+    #    }
 
 		### Mod Coop Logo Button ###
-       # ButtonType = {
-       #     name ="pdx_int_logo"
-       #     spriteType = "GFX_pdx_int_logo"
-       #     position = { x= 140 y = 18 }
-       #     clicksound = click_default
-       #     pdx_tooltip = "COOP_MAIN_MENU_LINK"
-       #     web_link = "https://discord.gg/fWY2sJT"
-       # }		
+        ButtonType = {
+            name ="pdx_int_logo"
+            spriteType = "GFX_pdx_int_logo"
+            position = { x= 140 y = 18 }
+            clicksound = click_default
+            pdx_tooltip = "COOP_MAIN_MENU_LINK"
+            web_link = "https://discord.gg/fWY2sJT"
+        }		
 			
 	}		
 
