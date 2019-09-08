@@ -8,7 +8,7 @@ state = {
 	history = {
 		owner = HUN
 		add_core_of = HUN
-		add_claim_by = RRM
+		add_claim_by = ROM
 
 		buildings = {
 			infrastructure = 4

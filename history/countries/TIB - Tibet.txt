@@ -18,7 +18,7 @@ set_autonomy = {
 	autonomous_state = kr_integrated_puppet
 }
 
-YUN = {
+BHU = {
 	set_politics = {
 		ruling_party = paternal_autocrat
 		last_election = "1888.15.6"
