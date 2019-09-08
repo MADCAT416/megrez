@@ -72,8 +72,8 @@ guiTypes = {
             spriteType = "GFX_frontend_dev_logo"
             position = { x= -200 y = 6 }
             clicksound = click_default
-            pdx_tooltip = "KR_MAIN_MENU_LINK"
-            web_link = "https://kaiserreich.wikia.com"
+            pdx_tooltip = "LOGO_MAIN_MENU_LINK"
+            web_link = "https://discord.gg/tU2rMcz"
         }
 
 		### Mod Coop Logo Button ###
