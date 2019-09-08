@@ -154,11 +154,6 @@ if = {
 
 set_convoys = 300
 
-set_autonomy = {
-	target = TRM
-	autonomous_state = kr_default_puppet
-}
-
 country_event = { id = japdom.1 days = 1 }
 country_event = { id = japdom.6 days = 135 }
 
@@ -178,7 +173,6 @@ add_ideas = {
 }
 
 add_opinion_modifier = { target = SQI modifier = embargo }
-add_opinion_modifier = { target = TRM modifier = vladivostok_puppet }
 add_opinion_modifier = { target = LEC modifier = LEC_member }
 LEC = { give_military_access = JAP }
 give_guarantee = LEC

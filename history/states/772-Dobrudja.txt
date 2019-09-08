@@ -22,7 +22,7 @@ state = {
 		}
 
 		add_core_of = BUL
-		add_core_of = RRM
+		add_core_of = ROM
 	}
 
 	provinces = {

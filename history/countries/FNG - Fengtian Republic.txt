@@ -81,8 +81,6 @@ add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = AOG modifier = embargo }
 add_opinion_modifier = { target = SQI modifier = embargo }
 add_opinion_modifier = { target = QIE modifier = embargo }
-add_opinion_modifier = { target = TRM modifier = FNG_COMMON_ALIGNMENT }
-diplomatic_relation = { country = TRM relation = non_aggression_pact }
 
 create_import = {
 	resource = tungsten

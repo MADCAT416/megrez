@@ -9,9 +9,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = RRM
+		owner = ROM
 		add_core_of = HUN
-		add_core_of = RRM
+		add_core_of = ROM
 
 		buildings = {
 			infrastructure = 4
