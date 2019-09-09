@@ -16,8 +16,10 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = BAT
+		
 		add_core_of = EST
+		add_claim_by = BAT
+		add_claim_by = RUS
 	}
 
 	provinces = {

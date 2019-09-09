@@ -3,8 +3,9 @@ state = {
 	name = "STATE_194"
 
 	history = {
-		owner = WHR
-		add_core_of = WHR
+		owner = UKR
+		add_core_of = UKR
+		
 		victory_points = {
 			6232 2
 		}
@@ -15,7 +16,7 @@ state = {
 	}
 
 	provinces = {
-		215 3203 3507 6232 6556 9249 9554 11453
+		6232 6556 9554 11453 9568 9466 11477 9493
 	}
 	manpower = 934632
 	state_category = three

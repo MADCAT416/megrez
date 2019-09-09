@@ -11,10 +11,11 @@ state = {
 			infrastructure = 5
 		}
 		add_core_of = WHR
+		add_core_of = RUS
 	}
 
 	provinces = {
-		535 560 3496 3556 6280 6579 11503
+		560 3556 6280 215 3203 3507 9249 
 	}
 	manpower = 1041084
 	state_category = three
