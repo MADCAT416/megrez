@@ -5228,7 +5228,7 @@
 5227;52;198;208;land;false;plains;4
 5228;52;201;173;land;true;desert;3
 5229;52;204;138;land;false;mountain;3
-5230;52;207;203;land;false;mountain;3
+5230;52;207;203;land;true;mountain;3
 5231;52;210;18;land;false;plains;5
 5232;52;210;168;land;false;jungle;3
 5233;53;0;244;sea;true;ocean;0
@@ -8223,7 +8223,7 @@
 8222;94;141;71;land;true;forest;3
 8223;94;144;36;land;false;plains;5
 8224;94;147;1;land;false;plains;3
-8225;94;150;66;land;false;mountain;3
+8225;94;150;66;land;true;mountain;3
 8226;94;150;171;land;false;mountain;3
 8227;94;153;31;land;false;hills;3
 8228;94;153;136;land;true;forest;4
@@ -13152,12 +13152,12 @@
 13151;24;228;183;lake;false;lakes;0
 13152;94;203;238;lake;false;lakes;0
 13153;208;66;253;lake;false;lakes;2
-13154;75;136;73;sea;true;lakes;0
-13155;59;79;63;sea;true;lakes;0
+13154;75;136;73;sea;false;lakes;0
+13155;59;79;63;sea;false;lakes;0
 13156;153;246;248;sea;false;lakes;2
-13157;148;93;16;sea;true;lakes;0
+13157;148;93;16;sea;false;lakes;0
 13158;45;241;190;lake;false;lakes;0
-13159;39;214;94;sea;true;lakes;0
+13159;39;214;94;sea;false;lakes;0
 13160;107;67;227;lake;false;lakes;0
 13161;138;95;191;lake;false;lakes;0
 13162;12;117;162;lake;false;lakes;0
@@ -13173,7 +13173,7 @@
 13172;229;61;74;lake;false;lakes;0
 13173;101;33;178;lake;false;lakes;0
 13174;15;170;21;lake;false;lakes;0
-13175;20;5;54;lake;false;lakes;0
+13175;20;5;54;sea;false;lakes;0
 13176;230;234;25;lake;false;lakes;0
 13177;174;155;69;lake;false;lakes;0
 13178;23;208;190;lake;false;lakes;0
@@ -13197,9 +13197,9 @@
 13196;11;82;182;land;true;plains;2
 13197;224;93;214;land;false;desert;6
 13198;168;248;79;sea;false;lakes;0
-13199;34;134;177;sea;true;lakes;0
+13199;34;134;177;sea;false;lakes;0
 13200;198;232;204;lake;false;lakes;0
-13201;188;96;100;sea;true;lakes;0
+13201;188;96;100;sea;false;lakes;0
 13202;138;235;160;land;true;mountain;2
 13203;211;241;202;land;true;mountain;2
 13204;95;65;145;land;true;plains;6
@@ -13607,9 +13607,9 @@
 13606;191;237;210;land;true;plains;2
 13607;36;187;74;land;true;plains;2
 13608;158;22;230;land;true;mountain;2
-13609;119;232;69;lake;false;lake;0
+13609;119;232;69;lake;false;lakes;0
 13610;106;219;89;land;true;mountain;2
-13611;242;114;223;sea;false;lake;0
+13611;242;114;223;sea;false;lakes;0
 13612;205;37;160;land;true;mountain;2
 13613;111;100;85;land;true;plains;2
 13614;51;111;220;land;false;forest;1
