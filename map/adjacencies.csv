@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7683;13613;sea;8642;-1;-1;-1;-1;;Canada
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
@@ -7,6 +8,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9498;9431;sea;8621;-1;-1;-1;-1;;Netherlands inlier
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;3231;3368;317;6257;6389;KAISER-WILHELM-KANAL;Kaiser-Wilhelm-Kanal
+
+13159;13199;sea;;-1;-1;-1;-1;STMARY_RIVER;
+13155;13199;sea;;-1;-1;-1;-1;MACKINAC;
+13199;13156;sea;;-1;-1;-1;-1;STCLAIR_RIVER;
+13156;13154;sea;;-1;-1;-1;-1;DITROIT_RIVER;
+13154;13157;sea;;-1;-1;-1;-1;WELLAND_CANAL;
+13157;8642;sea;4345;-1;-1;-1;-1;SAINTLAWRENCE;
 
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
