@@ -150,7 +150,7 @@ set_popularities = {
 ### Political Leaders ###
 create_country_leader = {
 	name = "Junio Valerio Borghese"
-	picture = "Portrait_PAP_Junio_Valerio_Borghese.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Junio_Valerio_Borghese.tga"
 	desc = "PAP_Junio_Valerio_Borghese_DESC"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Papa Paulus VI"
-	picture = "Portrait_PAP_Paulus_VI.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
@@ -172,7 +172,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Papa Paulus VI"
-	picture = "Portrait_PAP_Paulus_VI.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -183,7 +183,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Papa Paulus VI"
-	picture = "Portrait_PAP_Paulus_VI.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
@@ -194,7 +194,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Papa Paulus VI"
-	picture = "Portrait_PAP_Paulus_VI.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
@@ -205,7 +205,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Papa Paulus VI"
-	picture = "Portrait_PAP_Paulus_VI.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
@@ -216,7 +216,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Giuseppe Saragat"
-	picture = "Portrait_PAP_Giuseppe_Saragat.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Giuseppe_Saragat.tga"
 	desc = "PAP_Giuseppe_Saragat_DESC"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -227,7 +227,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Giacomo Mancini"
-	picture = "Portrait_PAP_Giacomo_Mancini.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Giacomo_Mancini.tga"
 	desc = "PAP_Giacomo_Mancini_DESC"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
@@ -238,7 +238,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Enrico Berlinguer"
-	picture = "Portrait_PAP_Enrico_Berlinguer.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Enrico_Berlinguer.tga"
 	desc = "PAP_Enrico_Berlinguer_DESC"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -249,7 +249,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Giorgio Almirante"
-	picture = "Portrait_PAP_Giorgio_Almirante.tga"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Giorgio_Almirante.tga"
 	desc = "PAP_Giorgio_Almirante_DESC"
 	expire = "1991.1.1"
 	ideology = totalist_subtype

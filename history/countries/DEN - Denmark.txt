@@ -114,11 +114,6 @@ set_popularities = {
     ethnic_populist = 0
 }
 
-set_autonomy = {
-	target = ICE
-	autonomous_state = kr_autonomous_puppet
-}
-
 set_convoys = 40
 
 create_country_leader = {
@@ -127,7 +122,9 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Olga_Eggers.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 create_country_leader = {
@@ -136,7 +133,9 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Christian_Christensen.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
@@ -145,61 +144,75 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Aksel_Larsen.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederik IX"
+	desc = "DEN_Frederik_IX_DESC"
+	picture = "gfx/leaders/DEN/Portrait_DEN_Frederik_IX.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
@@ -208,7 +221,9 @@ create_country_leader = {
 	picture = "Portrait_Denmark_Max_Arildskov.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+	}
 }
 
 add_ideas = {
