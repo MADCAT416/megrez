@@ -20,6 +20,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2332;2356;sea;6057;-1;-1;-1;-1;SVIR_RIVER;
 13194;209;sea;94;-1;-1;-1;-1;WHITE_SEA_CANAL;
 
+6801;5913;sea;3988;-1;-1;-1;-1;CORINTOS_CANAL;
+8340;3590;;;-1;-1;-1;-1;MINCH;
+8367;3590;;;-1;-1;-1;-1;MINCH;
+3785;3590;;;-1;-1;-1;-1;MINCH;
+2481;3590;;;-1;-1;-1;-1;MINCH;
+8454;3590;;;-1;-1;-1;-1;MINCH;
+8361;3590;;;-1;-1;-1;-1;MINCH;
+
+2800;2776;;;-1;-1;-1;-1;BAB_EL_MANDEB;
+2919;2943;;;-1;-1;-1;-1;HORMOZ;
+
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
