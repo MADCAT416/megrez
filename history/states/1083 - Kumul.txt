@@ -5,7 +5,6 @@ state = {
 	history = {
 		owner = ETS
 		add_core_of = TAN
-		add_core_of = SIK
 		add_core_of = ETS
 		add_claim_by = CHI
 		add_claim_by = FNG
