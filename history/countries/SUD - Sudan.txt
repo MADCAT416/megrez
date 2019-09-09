@@ -8,7 +8,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = market_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
