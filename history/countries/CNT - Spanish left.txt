@@ -114,84 +114,102 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Francesc Sureda i Blanes"
-	desc = "POLITICS_FRANCESC_SUREDA_DESC"
-	picture = "Portrait_CNT_Francesc_Sureda_i_Blanes.tga"
+	name = "Carlos Hugo I"
+	desc = "CAR_Carlos_Hugo_I_DESC"
+	picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_Hugo_I.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Juan III"
-	desc = "POLITICS_JUAN_BOURBON_DESC"
-	picture = "Portrait_SPR_Juan_III.tga"
+	name = "Juan Carlos I"
+	desc = "SPR_Juan_Carlos_I_DESC"
+	picture = "gfx/leaders/SPR/Portrait_SPR_Juan_Carlos_I.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Niceto Alcalá-Zamora"
-	desc = "POLITICS_NICETO_ALCALA_DESC"
-	picture = "Portrait_CNT_Niceto_Alcala_Zamora.tga"
+	name = "Adolfo Suárez González"
+	desc = "SPR_Adolfo_Suarez_Gonzalez_DESC"
+	picture = "gfx/leaders/SPR/Portrait_SPR_Adolfo_Suarez_Gonzalez.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+	}
 }
 
 create_country_leader = {
-	name = "Josep Tarradellas"
-	desc = "POLITICS_JOSEP_TARRADELLAS_DESC"
-	picture = "Portrait_CNT_Josep_Tarradellas.tga"
+	name = ""
+	desc = "SPR__DESC"
+	picture = "gfx/leaders/SPR/Portrait_CNT_.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+	}
 }
 
 create_country_leader = {
-	name = "Manuel Azaña Díaz"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_CNT_Manuel_Azana_Diaz.tga"
+	name = "José Maldonado González"
+	desc = "SPR_Jose_Maldonado_Gonzalez_DESC"
+	picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Maldonado_Gonzalez.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+	}
 }
 
 create_country_leader = {
-	name = "Augusto Barcia Trelles"
-	desc = "POLITICS_AUGUSTO_BARCIA_DESC"
-	picture = "Portrait_CNT_Augusto_Barcia_Trelles.tga"
+	name = ""
+	desc = "CNT__DESC"
+	picture = "gfx/leaders/CNT/Portrait_CNT_.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+	}
 }
 
 create_country_leader = {
-	name = "Comité Central de la C.N.T.-F.A.I."
-	desc = "POLITICS_CNTCOMITTEE_DESC"
-	picture = "Portrait_Switzerland_Council.tga"
+	name = "Joan Reventós i Carner"
+	desc = "CNT_Joan_Reventos_Carner_DESC"
+	picture = "gfx/leaders/CNT/Portrait_CNT_Joan_Reventos_Carner.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 
 create_country_leader = {
-	name = "Julián Besteiro Fernández"
-	desc = "POLITICS_JULIAN_BESTEIRO_DESC"
-	picture = "Portrait_CNT_Julian_Besteiro_Fernandez.tga"
+	name = "Frederica Montseny i Mañé"
+	desc = "CNT_Frederica_Montseny_Mane_DESC"
+	picture = "gfx/leaders/CNT/Portrait_CNT_Frederica_Montseny_Mane.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
-	name = "Dolores Ibáurri Gómez"
-	desc = "POLITICS_DOLORES_IBAURRI_DESC"
-	picture = "Portrait_CNT_Dolores_Ibaurri_Gomez.tga"
+	name = "Santiago Carrillo Solares"
+	desc = "CNT_Santiago_Carrillo_Solares_DESC"
+	picture = "gfx/leaders/CNT/Portrait_CNT_Santiago_Carrillo_Solares.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 add_ideas = {
