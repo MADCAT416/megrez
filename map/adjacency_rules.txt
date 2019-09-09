@@ -465,10 +465,10 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 3151 149 11068 79 6174 }
+	required_provinces = { 3151 149 }
 
-	icon = 2332
-	offset = { -5 0 -7 }
+	icon = 79
+	offset = { 0 0 0 }
 }
 
 
@@ -506,7 +506,7 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 11059 9190 9082 6106 3084 6057 11153 }
+	required_provinces = { 6106 3084 6057 11153 }
 
 	icon = 6057
 	offset = { 0 0 0 }
@@ -748,7 +748,7 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 749 11654  }
+	required_provinces = { 11654  }
 
 	icon = 749
 	offset = { 0 0 0 }
@@ -949,8 +949,8 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 11212 155 11175 3078 6021 9045 94 }
+	required_provinces = { 11212 3078 9045 }
 
 	icon = 3078
-	offset = { -7 0 4 }
+	offset = { 0 0 0 }
 }
