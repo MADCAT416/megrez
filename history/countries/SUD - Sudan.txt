@@ -26,37 +26,72 @@ set_popularities = {
     paternal_autocrat = 47
     ethnic_populist = 12
 }
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	desc = "POLITICS_SUDANMAHDI_DESC"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
-	expire = "1991.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
+
+create_country_leader = {# 
+	name = " "
+	desc = "SUD_ _DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_.tga"
+	expire = "2000.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+		
+	}
 }
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	desc = "POLITICS_SUDANMAHDI_DESC"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
-	expire = "1991.1.1"
+create_country_leader = {# 
+	name = "Abdel Khaliq Mahjub"
+	desc = "SUD_Abdel_Khaliq_Mahjub_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Abdel_Khaliq_Mahjub.tga"
+	expire = "2000.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+		
+	}
+}
+create_country_leader = {# 
+	name = "Toby Maduot Parek"
+	desc = "SUD_Toby_Maduot_Parek_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Toby_Maduot_Parek.tga"
+	expire = "2000.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		social_democrat
+		
+	}
+}
+create_country_leader = {# 
+	name = "Jaafar an-Nimeiry"
+	desc = "SUD_Jaafar_Muhammad_an-Nimeiry_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Jaafar_Muhammad_an-Nimeiry.tga"
+	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+		
+	}
 }
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	desc = "POLITICS_SUDANMAHDI_DESC"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
-	expire = "1991.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {# Abd al-Rahman al-Mahdi
-	name = "Abd al-Rahman al-Mahdi"
-	desc = "POLITICS_SUDANMAHDI_DESC"
-	picture = "Portrait_SUD_Abd_Mahdi.tga"
-	expire = "1991.1.1"
+create_country_leader = {# 
+	name = "Sadiq al-Mahdi"
+	desc = "SUD_Sadiq_al-Mahdi_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Sadiq_al-Mahdi.tga"
+	expire = "2000.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+		
+	}
+}
+create_country_leader = {# 
+	name = "Hassan al-Turabi"
+	desc = "SUD_Hassan_al-Turabi_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Hassan_al-Turabi.tga"
+	expire = "2000.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+		
+	}
 }
 
 
