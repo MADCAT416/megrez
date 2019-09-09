@@ -16,6 +16,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13154;13157;sea;;-1;-1;-1;-1;WELLAND_CANAL;
 13157;8642;sea;4345;-1;-1;-1;-1;SAINTLAWRENCE;
 
+1434;2332;sea;3151;-1;-1;-1;-1;NEVA_RIVER;
+2332;2356;sea;6057;-1;-1;-1;-1;SVIR_RIVER;
+13194;209;sea;94;-1;-1;-1;-1;WHITE_SEA_CANAL;
+
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
