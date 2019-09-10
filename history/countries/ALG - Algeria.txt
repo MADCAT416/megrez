@@ -163,8 +163,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abbasi Madani"
-	desc = "ARG_Abbasi_Madani_DESC"
-	picture = "gfx/leaders/ALG/Portrait_ARG_Abbasi_Madani.tga"
+	desc = "ALG_Abbasi_Madani_DESC"
+	picture = "gfx/leaders/ALG/Portrait_ALG_Abbasi_Madani.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
 	traits = {

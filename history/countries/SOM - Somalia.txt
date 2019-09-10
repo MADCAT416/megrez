@@ -57,7 +57,7 @@ if = {
 set_war_support = 0.15
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
