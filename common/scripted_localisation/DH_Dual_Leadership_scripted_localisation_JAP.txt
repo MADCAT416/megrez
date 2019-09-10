@@ -1,0 +1,42 @@
+defined_text = {
+	name = HoG_name
+	text = {
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = JAP_Kishi_Nobusuke_hog_aut
+	}
+
+	### Generic
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = leader_name_two_generic
+	}
+}
+defined_text = {
+	name = HoG_desc
+	text = {
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = JAP_Kishi_Nobusuke_DESC
+	}
+}
+defined_text = {
+	name = leader_two_portrait
+	#### For test
+	text = {
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = GFX_JAP_Kishi_Nobusuke
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GFX_leader_unknown
+	}
+}

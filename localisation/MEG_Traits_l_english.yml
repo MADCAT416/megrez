@@ -36,6 +36,7 @@
     hos_weary_stiff_neck:0 "Weary Stiff-neck" # 지친 고집쟁이
     
     ### 특정인 전용 ###
+        hos_arahitogami:0 "Arahitogami" # 현인신 (아키히토)
         hos_atlas_standing:0 "Atlas Standing" # 일어선 아틀라스 (하워드 휴즈)
         hos_hetman_forever:0 "Hetman Forever" # 영원한 헤트만 (바실 비시바니)
         hos_highway_without_tollgate:0 "Highway without Tollgate" # 대도무문 (김영삼)

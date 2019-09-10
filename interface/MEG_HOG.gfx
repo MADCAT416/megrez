@@ -1,6 +1,31 @@
+### CHI ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHI_Yan_Xishan"
+		textureFile = "gfx/leaders/CHI/Portrait_CHI_Yan_Xishan.tga"
+	}
+}
+
+### ENG ###
 spriteTypes = {
 	spriteType = {
 		name = "GFX_Oswald_Mosley"
 		textureFile = "gfx/leaders/ENG/Portrait_ENG_Oswald_Mosley.tga"
+	}
+}
+
+### FIN ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FIN_Urho_Kaleva_Kekkonen"
+		textureFile = "gfx/leaders/FIN/Portrait_FIN_Urho_Kaleva_Kekkonen.tga"
+	}
+}
+
+### JAP ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_JAP_Kishi_Nobusuke"
+		textureFile = "gfx/leaders/JAP/Portrait_JAP_Kishi_Nobusuke.tga"
 	}
 }

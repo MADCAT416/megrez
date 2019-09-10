@@ -353,8 +353,15 @@ leader_traits = {
 	hog_mononoke = { # Kishi Nobusuke
 
 		political_power_gain = 0.15
-		local_resources_factor = 0.1
-		consumer_goods_factor = 0.05
+		planning_speed = 0.1
+		production_speed_buildings_factor = 0.1
+		conversion_cost_civ_to_mil_factor = -0.2
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_factory_max_efficiency_factor = 0.1
+		stability_factor = -0.1
+		repair_speed_factor = 0.1
+		mobilization_speed = 0.1
 
 		random = no
 	}
@@ -363,8 +370,10 @@ leader_traits = {
 
 		stability_factor = 0.1
 		industrial_capacity_factory  = 0.1
+		industrial_capacity_dockyard  = 0.1
 		consumer_goods_factor = -0.05
 		local_resources_factor = 0.05
+		planning_speed = 0.1
 
 		random = no
 	}

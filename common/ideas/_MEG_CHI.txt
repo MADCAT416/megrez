@@ -1,0 +1,69 @@
+###########
+### FIN ###
+###########
+
+ideas = {
+
+	# 국민정신
+	#country = {
+	#	FIN_sisu_spirit = {
+	#		
+	#		allowed = {
+	#			always = yes
+	#		}
+	#
+	#		picture = FIN_sisu_spirit
+	#
+	#		allowed_civil_war = {
+	#			always = yes
+	#		}
+	#
+	#		removal_cost = -1
+	#		
+	#		modifier = {
+	#			army_morale_factor = 0.25
+	#			attrition = -0.1
+	#			army_core_attack_factor = 0.2
+	#			army_core_defence_factor = 0.2
+	#		
+	#		}
+	#		rule = {
+	#			
+	#		}
+	#	}
+	#
+	#}
+	
+	# 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		CHI_Yan_Xishan_hog_syn = { ### 염석산 ###
+			allowed = { original_tag = CHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Yan_Xishan_retired }
+					NOT = { has_country_leader = { name = "Yan Xishan" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Yan_Xishan_retired }
+				NOT = { has_country_leader = { name = "Yan Xishan" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CHI_Yan_Xishan_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hos_marcher_emperor
+			}
+			cancel_if_invalid = yes
+		}
+		
+	}
+
+}

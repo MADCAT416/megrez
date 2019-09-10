@@ -104,6 +104,10 @@ YUN = {
     }
 }
 
+add_ideas = {
+	CHI_Yan_Xishan_hog_syn
+	
+}
 
 set_cosmetic_tag = KMT
 

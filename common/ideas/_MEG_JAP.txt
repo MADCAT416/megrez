@@ -1,5 +1,10 @@
+###########
+### JAP ###
+###########
+
 ideas = {
 
+	### 국민정신 ###
 	country = {
 		JAP_unfinished_restoration = {
 			
@@ -52,6 +57,41 @@ ideas = {
 
 
 
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		JAP_Kishi_Nobusuke_hog_aut = { ### 키시 노부스케 ###
+			allowed = { original_tag = JAP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Kishi_Nobusuke_dead }
+					NOT = { has_country_leader = { name = "Kishi Nobusuke" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Kishi_Nobusuke_dead }
+				NOT = { has_country_leader = { name = "Kishi Nobusuke" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea JAP_Kishi_Nobusuke_hog_aut"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_mononoke
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
 	}
 
 }

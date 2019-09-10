@@ -30,11 +30,14 @@
     JAP_clerical_nationalist_party_long:0 "Seichōno-ie (House of Growth)"
     JAP_ethnic_populist_party_long:0 "Ishinkai (Restoration Association)"
     
-    ### Ideas ###
+ ### Ideas ###
     JAP_unfinished_restoration:0 "Unfinished Restoration"
     JAP_unfinished_restoration_desc:0 "헤이세이 유신의 총설계자 키타 잇키는 1957년 자신의 모든 구상을 실현시키지 못한 채 급서했습니다. 이후 세대가 만들어갈 일본의 모습이 키타의 이상과 얼마나 일치할지는 알 수 없습니다......"
     JAP_aftermath_of_navy_purge:0 "Aftermath of Navy Purge"
     JAP_aftermath_of_navy_purge_desc:0 "헤이세이 유신 직후 일어난 해군의 역쿠데타 시도를 진압하는 과정에서 군사총재 이시와라 간지 대장은 해군의 기존 고급장령들을 모조리 숙군하고 그 자리를 유신에 동조하는 해군 청년장교들로 채웠습니다. 스무 해가 넘었지만 이 때 발생한 인적 불연속은 아직 회복되지 않고 있습니다......"
+    
+ ### Ministers ###
+    JAP_Kishi_Nobusuke_hog_aut:0 "Kishi Nobusuke"
 
  ### Tooltips ###
     niigata_focus:0 "The following weeks will determine the course of Japanese history. Choose wisely..."

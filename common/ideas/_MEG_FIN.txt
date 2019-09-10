@@ -1,5 +1,10 @@
+###########
+### FIN ###
+###########
+
 ideas = {
 
+	# 국민정신
 	country = {
 		FIN_sisu_spirit = {
 			
@@ -50,7 +55,7 @@ ideas = {
 			}
 		}
 		
-	FIN_misgiving_military = {
+		FIN_misgiving_military = {
 			
 			allowed = {
 				always = yes
@@ -76,6 +81,38 @@ ideas = {
 			}
 		}
 
+	}
+	
+	# 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		FIN_Urho_Kaleva_Kekkonen_hog_lib = { ### 우르호 칼레바 케코넨 ###
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Urho_Kaleva_Kekkonen_dead }
+					NOT = { has_country_leader = { name = "Urho Kaleva Kekkonen" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Urho_Kaleva_Kekkonen_dead }
+				NOT = { has_country_leader = { name = "Urho Kaleva Kekkonen" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Urho_Kaleva_Kekkonen_hog_lib"
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = yes
+		}
+		
 	}
 
 }

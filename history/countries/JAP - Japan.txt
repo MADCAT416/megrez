@@ -158,7 +158,7 @@ country_event = { id = japdom.1 days = 1 }
 country_event = { id = japdom.6 days = 135 }
 
 add_ideas = {
-	JAP_Inukai_Tsuyoshi_hog_sco
+	JAP_Kishi_Nobusuke_hog_aut
 	JAP_Yoshizawa_Kenkichi_for_sco
 	JAP_Mitsuchi_Chuzo_eco_sco
 	JAP_Suzuki_Kisaburo_sec_sco
