@@ -81,9 +81,9 @@ set_popularities = {
 ### Leaders
 
 create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = "ARG_Ahmed_Ben_Bella_DESC"
-	picture = "Portrait_ARG_Ahmed_Ben_Bella.tga"
+	name = "Ahmad bin Billah"
+	desc = "ALG_Ahmad bin Billah_DESC"
+	picture = "gfx/leaders/ALG/Portrait_ALG_Ahmad_bin_Billah.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -92,9 +92,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferhat Abbas"
-	desc = "ARG_Ferhat_Abbas_DESC"
-	picture = "Portrait_ARG_Ferhat_Abbas.tga"
+	name = "Farhat Abbas"
+	desc = "ALG_Farhat_Abbas_DESC"
+	picture = "gfx/leaders/ALG/Portrait_ALG_Farhat_Abbas.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -102,9 +102,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mehdi Ben Barka"
-	desc = "ARG_Mehdi_Ben_Barka_DESC"
-	picture = "Portrait_ARG_Mehdi_Ben_Barka.tga"
+	name = "al-Mahdi bin Barakat"
+	desc = "MOR_al-Mahdi_bin_Barakat_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_al-Mahdi_bin_Barakat‎.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -112,9 +112,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Abdelrahman Yusufi"
-	desc = "ARG_Abdelrahman_Yusufi_DESC"
-	picture = "Portrait_ARG_Abdelrahman_Yusufi.tga"
+	name = "Abdel-Rahman al-Yusufi"
+	desc = "MOR_Abdel-Rahman_al-Yusufi_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_Abdel-Rahman_al-Yusufi.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -122,9 +122,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Habib Bourguiba"
-	desc = "ARG_Habib_Bourguiba_DESC"
-	picture = "Portrait_ARG_Habib_Bourguiba.tga"
+	name = "al-Habib Burqibah"
+	desc = "MOR_al-Habib_Burqibah_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_al-Habib_Burqibah.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -133,8 +133,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abdelkrim al-Khatib"
-	desc = "ARG_Abdelkrim_al-Khatib_DESC"
-	picture = "Portrait_ARG_Abdelkrim_al-Khatib.tga"
+	desc = "MOR_Abdelkrim_al-Khatib_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_Abdelkrim_al-Khatib.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -143,8 +143,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Ahmed Balafrej"
-	desc = "ARG_Ahmed_Balafrej_DESC"
-	picture = "Portrait_ARG_Ahmed_Balafrej.tga"
+	desc = "MOR_Ahmed_Balafrej_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_Ahmed_Balafrej.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -152,9 +152,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "al-Hasan I bin Muhamad"
-	desc = "ARG_al-Hasan_I_bin_Muhamad_DESC"
-	picture = "Portrait_ARG_al-Hasan_I_bin_Muhamad.tga"
+	name = "al-Hasan II at-Tâni"
+	desc = "MOR_al-Hasan_II_at-Tani_DESC"
+	picture = "gfx/leaders/MOR/Portrait_MOR_al-Hasan_II_at-Tani.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -164,7 +164,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abbasi Madani"
 	desc = "ARG_Abbasi_Madani_DESC"
-	picture = "Portrait_ARG_Abbasi_Madani.tga"
+	picture = "gfx/leaders/ALG/Portrait_ARG_Abbasi_Madani.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
 	traits = {
