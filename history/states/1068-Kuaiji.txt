@@ -5,8 +5,7 @@ state = {
 	state_category = four
 	history = {
 		
-		owner = LEP
-		add_core_of = LEP
+		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
 		buildings = {
