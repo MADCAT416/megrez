@@ -285,7 +285,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9603;611;impassable;-1;-1;-1;-1;-1;;Alps
 9618;13550;impassable;-1;-1;-1;-1;-1;;Alps
 3660;13636;impassable;-1;-1;-1;-1;-1;;Alps
-3672;13582;impassable;-1;-1;-1;-1;-1;;Alps
+3673;13582;impassable;-1;-1;-1;-1;-1;;Alps
+11612;13582;impassable;-1;-1;-1;-1;-1;;Alps
 
 6571;9425;impassable;-1;-1;-1;-1;-1;;Carpathians
 6571;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
