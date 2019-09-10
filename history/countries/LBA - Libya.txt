@@ -71,7 +71,7 @@ country_event = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -154,30 +154,25 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmed Sharif I Al Senoussi"
-	desc = "POLITICS_AHMED_SHARIF_DESC"
-	picture = "Portrait_LBA_Ahmed_Sharif.tga"
+	name = "Muammar al-Qadhafi"
+	desc = "LBA_Muammar_Qadhafi_DESC"
+	picture = "gfx/leaders/LBA/Portrait_LBA_Muammar_Qadhafi.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+	}
 }
 
 create_country_leader = {
-	name = "Idris I"
-	desc = "POLITICS_IDRIS_DESC"
-	picture = "Portrait_LBA_Idris.tga"
+	name = "Idris I as-Senussi"
+	desc = "LBA_Idris_I_DESC"
+	picture = "gfx/leaders/LBA/Portrait_LBA_Idris_I_as-Senussi.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Ahmed Sharif I Al Senoussi"
-	desc = "POLITICS_AHMED_SHARIF_DESC"
-	picture = "Portrait_LBA_Ahmed_Sharif.tga"
-	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 ### Field Marshal
