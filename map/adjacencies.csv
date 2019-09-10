@@ -280,6 +280,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3657;671;impassable;-1;-1;-1;-1;-1;;Alps
 3657;3673;impassable;-1;-1;-1;-1;-1;;Alps
 9613;3673;impassable;-1;-1;-1;-1;-1;;Alps
+6635;11601;impassable;-1;-1;-1;-1;-1;;Alps
+6635;636;impassable;-1;-1;-1;-1;-1;;Alps
+9603;611;impassable;-1;-1;-1;-1;-1;;Alps
+9618;13550;impassable;-1;-1;-1;-1;-1;;Alps
+3660;13636;impassable;-1;-1;-1;-1;-1;;Alps
+3672;13582;impassable;-1;-1;-1;-1;-1;;Alps
 
 6571;9425;impassable;-1;-1;-1;-1;-1;;Carpathians
 6571;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
