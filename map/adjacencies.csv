@@ -188,7 +188,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4900;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 2014;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-8010;4445;impassable;-1;-1;-1;-1;-1;;Himalayas
+8010;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 
 4558;10826;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
