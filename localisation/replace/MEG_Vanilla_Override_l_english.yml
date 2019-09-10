@@ -95,8 +95,10 @@ two:0 "Rural"
 one:0 "Pastoral"
 zero:0 "Enclave"
 wasteland:0 "Wasteland"
-one_island:0 "Small Island"
-zero_island:0 "Tiny Island"
+one_island:0 "Island"
+zero_island:0 "Islet"
+small_island:0 "Island"
+tiny_island:0 "Islet"
 
 ################
 ### Part Two ###

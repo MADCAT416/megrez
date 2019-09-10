@@ -9,7 +9,9 @@ state = {
 
 	history = {
 		owner = AST
-		add_core_of = AST
+		add_claim_by = AST
+		add_claim_by = FRP
+		add_claim_by = NFR
 
 		victory_points = {
 			4268 1

@@ -155,7 +155,7 @@ add_ideas = {
 
 create_country_leader = { # Start Leader 
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "1991.5.30"
 	ideology = social_democrat_subtype
@@ -165,7 +165,7 @@ create_country_leader = { # Start Leader
 }
 create_country_leader = { # Start Leader
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "2016.10.13"
 	ideology = social_liberal_subtype
@@ -175,7 +175,7 @@ create_country_leader = { # Start Leader
 }
 create_country_leader = { # Start Leader
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "2016.10.13"
 	ideology = market_liberal_subtype
@@ -185,7 +185,7 @@ create_country_leader = { # Start Leader
 }
 create_country_leader = { # Start Leader
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "2016.10.13"
 	ideology = social_conservative_subtype
@@ -195,7 +195,7 @@ create_country_leader = { # Start Leader
 }
 create_country_leader = { # Start Leader
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "2016.10.13"
 	ideology = authoritarian_democrat_subtype
@@ -205,7 +205,7 @@ create_country_leader = { # Start Leader
 }
 create_country_leader = { # Start Leader
 	name = "Rama IX Phumiphon Adunyadet"
-	desc = "POLITICS_Rama_IX_Phumiphon_Adunyadet_DESC"
+	desc = "SIA_Rama_IX_Phumiphon_Adunyadet_DESC"
 	picture = "gfx/leaders/SIA/Portrait_SIA_Rama_IX_Phumiphon_Adunyadet.tga"
 	expire = "2016.10.13"
 	ideology = paternal_autocrat_subtype
