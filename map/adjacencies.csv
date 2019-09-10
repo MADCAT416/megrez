@@ -189,6 +189,26 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2014;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
 8010;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
+
+8068;10911;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8068;1943;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8068;4973;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+5011;1943;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+5011;10315;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+2015;1766;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+2015;12119;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+2015;5087;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8042;4973;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8042;10911;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+10885;10911;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+10885;1943;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+12864;1943;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+12864;2074;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8112;5016;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+8112;7790;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+1970;7790;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
+2074;5736;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
 
 4558;10826;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains
@@ -339,6 +359,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3667;4534;impassable;-1;-1;-1;-1;-1;;Caucasus
 11617;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
 11617;6692;impassable;-1;-1;-1;-1;-1;;Caucasus
+6997;12450;impassable;-1;-1;-1;-1;-1;;Caucasus
+6642;12450;impassable;-1;-1;-1;-1;-1;;Caucasus
+1467;12450;impassable;-1;-1;-1;-1;-1;;Caucasus
+1539;12450;impassable;-1;-1;-1;-1;-1;;Caucasus
+12441;12380;impassable;-1;-1;-1;-1;-1;;Caucasus
+12441;9702;impassable;-1;-1;-1;-1;-1;;Caucasus
+6669;9702;impassable;-1;-1;-1;-1;-1;;Caucasus
+6669;6671;impassable;-1;-1;-1;-1;-1;;Caucasus
 
 4388;4275;impassable;-1;-1;-1;-1;-1;;Tenassarim Mountains
 4388;1296;impassable;-1;-1;-1;-1;-1;;Tenassarim Mountains
@@ -371,6 +399,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7163;11966;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
 7534;11966;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
 7534;3999;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+12256;7441;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+12256;4654;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+4626;4654;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+4626;1607;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+4585;1607;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
+4585;1566;impassable;-1;-1;-1;-1;-1;;Arakan Mountains
 
 10227;4310;impassable;-1;-1;-1;-1;-1;;Titiwangsa Mountains
 10227;1364;impassable;-1;-1;-1;-1;-1;;Titiwangsa Mountains
@@ -450,6 +484,38 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1783;7850;impassable;-1;-1;-1;-1;-1;;Dzungaria
 7850;10674;impassable;-1;-1;-1;-1;-1;;Dzungaria
 4709;10674;impassable;-1;-1;-1;-1;-1;;Dzungaria
+12656;10674;impassable;-1;-1;-1;-1;-1;;Dzungaria
+12656;4788;impassable;-1;-1;-1;-1;-1;;Dzungaria
+4828;7949;impassable;-1;-1;-1;-1;-1;;Dzungaria
+4828;4682;impassable;-1;-1;-1;-1;-1;;Dzungaria
+1703;4682;impassable;-1;-1;-1;-1;-1;;Dzungaria
+1703;7702;impassable;-1;-1;-1;-1;-1;;Dzungaria
+4770;7702;impassable;-1;-1;-1;-1;-1;;Dzungaria
+4770;10545;impassable;-1;-1;-1;-1;-1;;Dzungaria
+4709;10545;impassable;-1;-1;-1;-1;-1;;Dzungaria
+12656;10545;impassable;-1;-1;-1;-1;-1;;Dzungaria
+
+12544;10695;impassable;-1;-1;-1;-1;-1;;
+12544;10634;impassable;-1;-1;-1;-1;-1;;
+12614;10634;impassable;-1;-1;-1;-1;-1;;
+12579;10597;impassable;-1;-1;-1;-1;-1;;
+12649;10597;impassable;-1;-1;-1;-1;-1;;
+12649;1689;impassable;-1;-1;-1;-1;-1;;
+1725;1728;impassable;-1;-1;-1;-1;-1;;
+1725;7881;impassable;-1;-1;-1;-1;-1;;
+
+1919;1216;impassable;-1;-1;-1;-1;-1;;West Turkesten
+1919;1384;impassable;-1;-1;-1;-1;-1;;West Turkesten
+12430;1384;impassable;-1;-1;-1;-1;-1;;West Turkesten
+12430;12250;impassable;-1;-1;-1;-1;-1;;West Turkesten
+4545;8027;impassable;-1;-1;-1;-1;-1;;West Turkesten
+8027;4467;impassable;-1;-1;-1;-1;-1;;West Turkesten
+8027;4923;impassable;-1;-1;-1;-1;-1;;West Turkesten
+10408;10530;impassable;-1;-1;-1;-1;-1;;West Turkesten
+10408;1483;impassable;-1;-1;-1;-1;-1;;West Turkesten
+4316;1483;impassable;-1;-1;-1;-1;-1;;West Turkesten
+4316;12370;impassable;-1;-1;-1;-1;-1;;West Turkesten
+1675;12370;impassable;-1;-1;-1;-1;-1;;West Turkesten
 
 7519;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 4914;10315;impassable;-1;-1;-1;-1;-1;;Tibet
@@ -460,6 +526,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2053;5100;impassable;-1;-1;-1;-1;-1;;Qinghai
 2099;5100;impassable;-1;-1;-1;-1;-1;;Qinghai
 5076;7997;impassable;-1;-1;-1;-1;-1;;Qinghai
+12327;13587;impassable;-1;-1;-1;-1;-1;;Qinghai
+5057;12732;impassable;-1;-1;-1;-1;-1;;Qinghai
+12327;12732;impassable;-1;-1;-1;-1;-1;;Qinghai
+12596;7997;impassable;-1;-1;-1;-1;-1;;Qinghai
+10865;10834;impassable;-1;-1;-1;-1;-1;;Qinghai
+7940;10834;impassable;-1;-1;-1;-1;-1;;Qinghai
+7940;12846;impassable;-1;-1;-1;-1;-1;;Qinghai
+10490;12815;impassable;-1;-1;-1;-1;-1;;Qinghai
+10750;4536;impassable;-1;-1;-1;-1;-1;;Qinghai
+7270;10490;impassable;-1;-1;-1;-1;-1;;Qinghai
+7270;12815;impassable;-1;-1;-1;-1;-1;;Qinghai
+10490;4888;impassable;-1;-1;-1;-1;-1;;Qinghai
+12797;4313;impassable;-1;-1;-1;-1;-1;;Qinghai
+12797;7397;impassable;-1;-1;-1;-1;-1;;Qinghai
+10490;4536;impassable;-1;-1;-1;-1;-1;;Qinghai
+12846;8018;impassable;-1;-1;-1;-1;-1;;Qinghai
 
 4375;9966;impassable;-1;-1;-1;-1;-1;;Yunnan
 4375;10841;impassable;-1;-1;-1;-1;-1;;Yunnan
@@ -468,6 +550,30 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12819;10841;impassable;-1;-1;-1;-1;-1;;Yunnan
 2067;12819;impassable;-1;-1;-1;-1;-1;;Yunnan
 2067;5072;impassable;-1;-1;-1;-1;-1;;Yunnan
+4996;12789;impassable;-1;-1;-1;-1;-1;;Yunnan
+4996;12898;impassable;-1;-1;-1;-1;-1;;Yunnan
+4996;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+4996;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+4425;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+4996;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+12363;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+4210;10863;impassable;-1;-1;-1;-1;-1;;Yunnan
+4210;5009;impassable;-1;-1;-1;-1;-1;;Yunnan
+10819;12841;impassable;-1;-1;-1;-1;-1;;Yunnan
+4192;12841;impassable;-1;-1;-1;-1;-1;;Yunnan
+4192;1319;impassable;-1;-1;-1;-1;-1;;Yunnan
+4192;7446;impassable;-1;-1;-1;-1;-1;;Yunnan
+7606;7446;impassable;-1;-1;-1;-1;-1;;Yunnan
+12282;7446;impassable;-1;-1;-1;-1;-1;;Yunnan
+12898;7965;impassable;-1;-1;-1;-1;-1;;Yunnan
+7976;7965;impassable;-1;-1;-1;-1;-1;;Yunnan
+7976;8023;impassable;-1;-1;-1;-1;-1;;Yunnan
+7976;12262;impassable;-1;-1;-1;-1;-1;;Yunnan
+5009;12262;impassable;-1;-1;-1;-1;-1;;Yunnan
+8104;12837;impassable;-1;-1;-1;-1;-1;;Yunnan
+12724;12837;impassable;-1;-1;-1;-1;-1;;Yunnan
+12724;1999;impassable;-1;-1;-1;-1;-1;;Yunnan
+9966;1257;impassable;-1;-1;-1;-1;-1;;Yunnan
 
 10363;10499;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
 3978;10363;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
