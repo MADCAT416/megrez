@@ -82,6 +82,13 @@ guiTypes = {
 			pdx_tooltip_delayed = "paternal_autocrat_subtype_desc"
 		}
 		iconType = {
+			name ="clerical_nationalist_icon"
+			spriteType = "GFX_clerical_nationalist_small"
+			
+			pdx_tooltip = "clerical_nationalist_topbar_tooltip"
+			pdx_tooltip_delayed = "clerical_nationalist_subtype_desc"
+		}
+		iconType = {
 			name ="ethnic_populist_icon"
 			spriteType = "GFX_ethnic_populist_small"
 			
