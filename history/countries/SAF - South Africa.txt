@@ -136,87 +136,124 @@ add_opinion_modifier = { target = NFA modifier = embargo }
 country_event = { id = saf.1 days = 2 } # Introduction event
 
 create_country_leader = {
-	name = "Moses M. Kotane"
-	picture = "Moses_Kotane_I.tga"
-	expire = "1991.1.1"
+	name = "Robert Gabriel Mugabe"
+	desc = "ZIM_Robert_Mugabe_DESC"
+	picture = "gfx/leaders/ZIM/Portrait_ZIM_Robert_Gabriel_Mugabe.tga"
+	expire = "2019.9.6"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+		
+	}
 }
 
 create_country_leader = {
-	name = "Yusuf Mohamed Dadoo"
-	picture = "Yusuf_Dadoo_I.tga"
+	name = "Moses Mncane Mbheki Mabhida"
+	desc = "SAF_Moses_Mncane_Mbheki_Mabhida_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Moses_Mncane_Mbheki_Mabhida.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
-	name = "William Henry Andrews"
-	picture = "William_H._Andrews_I.tga"
+	name = "Robert Mangaliso Sobukwe"
+	desc = "SAF_Robert_Mangaliso_Sobukwe_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Robert_Mangaliso_Sobukwe.tga"
 	expire = "1991.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+	}
 }
 
 create_country_leader = {
-	name = "William Henry Andrews"
-	picture = "William_H._Andrews_I.tga"
+	name = "Nelson Rolihlahla Mandela"
+	desc = "SAF_Nelson_Rolihlahla_Mandela_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Nelson_Rolihlahla_Mandela.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+	}
 }
 
 create_country_leader = {
-	name = "Hubert Winthrop Young"
-	picture = "Hubert_Winthrop_Young_I.tga"
+	name = "Helenard "Allan" Hendrickse"
+	desc = "SAF_Helenard_Hendrickse_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Helenard_Hendrickse.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+		social_progressive
+	}
+}
+
+create_country_leader = {
+	name = "Colin Wells Eglin"
+	desc = "SAF_Colin_Wells_Eglin_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Colin_Wells_Eglin.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		social_liberal
+	}
 }
 create_country_leader = {
-	name = "James Hertzog"
-	desc = "POLITICS_JAMES_HERTZOG_DESC"
-	picture = "J._B._M._Hertzog_I.tga"
+	name = "Balthazar Johannes Vorster"
+	desc = "SAF_John_Vorster_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_John_Vorster.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		authoritarian_democrat
+	}
 }
 
 create_country_leader = {
-	name = "Jan Christiaan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "Portrait_SAF_Jan_Smuts.tga"
+	name = " "
+	desc = "SAF_ _DESC"
+	picture = "Portrait_SAF_.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		social_conservative
+	}
 }
 
 create_country_leader = {
-	name = "Nicolaas Havenga"
-	desc = "POLITICS_NICOLAAS_HAVENGA_DESC"
-	picture = "Portrait_SAF_Nicolaas_Havenga.tga"
+	name = "Wyatt Vause Raw"
+	desc = "SAF_Wyatt_Vause_Raw_DESC"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Wyatt_Vause_Raw.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		market_liberal
+	}
 }
 
 create_country_leader = {
-	name = "Daniel François Malan"
-	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "Daniel_Francois_Malan_I.tga"
+	name = " "
+	desc = "SAF_ _DESC"
+	picture = "Portrait_SAF_.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Daniel François Malan"
-	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "Daniel_Francois_Malan_I.tga"
+	name = " "
+	desc = "SAF_ _DESC"
+	picture = "Portrait_SAF_.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		ethnic_populist
+	}
 }
 
 ### Field Marshal
