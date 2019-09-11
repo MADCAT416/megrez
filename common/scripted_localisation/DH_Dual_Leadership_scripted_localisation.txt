@@ -262,15 +262,33 @@ defined_text = {
 	}
 }
 ############################################
-# Secondary Leader Name
+# HoG Name
 ############################################
 defined_text = {
 	name = HoG_name
-	text = {
+	
+	### CHI 
+	text = { ### 염석산
 		trigger = {
-			has_idea = ENG_Oswald_Mosley_hog_rso
+			has_idea = CHI_Yan_Xishan_hog_syn
 		}
-		localization_key = Oswald_Mosley
+		localization_key = CHI_Yan_Xishan_hog_syn
+	}
+	
+	### FIN
+	text = { ### 케코넨
+		trigger = {
+			has_idea = FIN_Urho_Kaleva_Kekkonen_hog_lib
+		}
+		localization_key = FIN_Urho_Kaleva_Kekkonen_hog_lib
+	}
+	
+	### JAP
+	text = { ### 키시 노부스케
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = JAP_Kishi_Nobusuke_hog_aut
 	}
 
 	### Generic
@@ -282,30 +300,67 @@ defined_text = {
 	}
 }
 ############################################
-# Secondary Leader Descriptions
+# HoG Descriptions
 ############################################
 defined_text = {
 	name = HoG_desc
-	#### HOL - Netherlands
-	text = {
+	
+	### CHI
+	text = { ### 염석산
 		trigger = {
-			has_idea = ENG_Oswald_Mosley_hog_rso
+			has_idea = CHI_Yan_Xishan_hog_syn
 		}
-		localization_key = Oswald_Mosley_desc
+		localization_key = CHI_Yan_Xishan_DESC
 	}
+	
+	### FIN
+	text = { ### 케코넨
+		trigger = {
+			has_idea = FIN_Urho_Kaleva_Kekkonen_hog_lib
+		}
+		localization_key = FIN_Urho_Kaleva_Kekkonen_DESC
+	}
+	
+	### JAP
+	text = { ### 키시 노부스케
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = JAP_Kishi_Nobusuke_DESC
+	}
+	
 }
 ############################################
-# Secondary Leader Portraits
+# HoG Portraits
 ############################################
 defined_text = {
 	name = leader_two_portrait
-	#### For test
-	text = {
+	
+	### CHI
+	text = { ### 염석산 
 		trigger = {
-			has_idea = ENG_Oswald_Mosley_hog_rso
+			has_idea = CHI_Yan_Xishan_hog_syn
 		}
-		localization_key = GFX_Oswald_Mosley
+		localization_key = GFX_CHI_Yan_Xishan
 	}
+	
+	### FIN
+	text = { ### 케코넨
+		trigger = {
+			has_idea = FIN_Urho_Kaleva_Kekkonen_hog_lib
+		}
+		localization_key = GFX_FIN_Urho_Kaleva_Kekkonen
+	}
+	
+	### JAP
+	text = { ### 키시 노부스케
+		trigger = {
+			has_idea = JAP_Kishi_Nobusuke_hog_aut
+		}
+		localization_key = GFX_JAP_Kishi_Nobusuke
+	}
+	
+	### Generic 
 	text = {
 		trigger = {
 			always = yes
