@@ -89,30 +89,36 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lázaro Peña González"
-	desc = "POLITICS_LAZARO_PENA_DESC"
-	picture = "Portrait_Cuba_Lazaro_Pena_Gonzalez.tga"
-	expire = "1991.1.1"
+	name = "Julio Antonio Mella"
+	desc = "CUB_Julio_Antonio_Mella_DESC"
+	picture = "gfx/leaders/CUB/Portrait_CUB_Julio_Antonio_Mella.tga"
+	expire = "1992.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 create_country_leader = {
-	name = "Antonio Guiteras Holmes"
-	desc = "POLITICS_ANTONIO_GUITERAS_DESC"
-	picture = "Portrait_Cuba_Antonio_Guiteras.tga"
-	expire = "1991.1.1"
+	name = "Blas Roca Calderio"
+	desc = "CUB_Blas_Roca_Calderio_DESC"
+	picture = "gfx/leaders/CUB/Portrait_CUB_Blas_Roca_Calderio.tga"
+	expire = "1992.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
-	name = "Juan Blas Hernández"
-	desc = "POLITICS_JUAN_HERNANDEZ_DESC"
-	picture = "Portrait_Cuba_Juan_Blas_Hernandez.tga"
-	expire = "1991.1.1"
+	name = "Faure Chomón Mediavilla"
+	desc = "CUB_Faure_Chomon_Mediavilla_DESC"
+	picture = "gfx/leaders/CUB/Portrait_CUB_Faure_Chomon_Mediavilla.tga"
+	expire = "1992.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 
 create_country_leader = {
@@ -121,7 +127,9 @@ create_country_leader = {
 	picture = "Portrait_Cuba_Rafael_Trejo.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		social_democrat
+	}
 }
 
 create_country_leader = {

@@ -190,6 +190,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
 8010;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
+5310;1656;impassable;-1;-1;-1;-1;-1;;Himalayas
+5310;10878;impassable;-1;-1;-1;-1;-1;;Himalayas
+4987;10878;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;10021;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+10825;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+10825;4386;impassable;-1;-1;-1;-1;-1;;Himalayas
 
 8068;10911;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains
 8068;1943;impassable;-1;-1;-1;-1;-1;;Kunrun Mouontains

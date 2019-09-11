@@ -113,7 +113,7 @@ country_event = { id = gre.1 days = 1 } #Intro event
 country_event = { id = gre.3 days = 85 } #Independence Day
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1934.1.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -133,82 +133,90 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Aris Velouchiotis"
-	desc = "POLITICS_ARIS_VELOUCHIOTIS_DESC"
-	picture = "Portrait_GRE_Athanasios_Klaras.tga"
-	expire = "1991.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-create_country_leader = {
 	name = "Nikos Zachariadis"
-	desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
-	picture = "Portrait_GRE_Nikos_Zachariadis.tga"
-	expire = "1991.1.1"
+	desc = "GRE_Nikos Zachariadis_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Nikos_Zachariadis.tga"
+	expire = "1992.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+	}
+}
+create_country_leader = {
+	name = "Charilaos Florakis"
+	desc = "GRE_Charilaos_Florakis_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Charilaos_Florakis.tga"
+	expire = "1992.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 create_country_leader = {
-	name = "Kostas Gavriilides"
-	desc = "POLITICS_KOSTAS_GAVRIILIDES_DESC"
-	picture = "Portrait_GRE_Kostas_Gavriilides.tga"
-	expire = "1991.1.1"
+	name = "Leonidas Kyrkos"
+	desc = "GRE_Leonidas_Kyrkos_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Leonidas_Kyrkos.tga"
+	expire = "1992.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 create_country_leader = {
-	name = "Alexandros Papanastasiou"
-	desc = "POLITICS_ALEXANDROS_PAPANASTASIOU_DESC"
-	picture = "Portrait_GRE_Alexandros_Papanastasiou.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Geórgios Papandreou"
-	desc = "POLITICS_GEORGIOS_PAPANDREOU_DESC"
-	picture = "Portrait_GRE_Georgios_Papandreou.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Themistoklis Sofoulis"
-	desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
-	picture = "Portrait_GRE_Themistoklis_Sofoulis.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Panagis Tsaldaris"
-	desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
-	picture = "Portrait_GRE_Pangalis_Tsaldaris.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_GRE_Ioannis_Metaxas_KR.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Aléxandros I"
-	desc = "POLITICS_KING_ALEXANDROS_DESC"
-	picture = "Portrait_GRE_Alexander.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Georgios Mercouris"
-	desc = "POLITICS_GEORGIOS_MERCOURIS_DESC"
-	picture = "Portrait_GRE_Georgios_Mercouris.tga"
-	expire = "1991.1.1"
+	name = "Konstantínos B."
+	desc = "GRE_Konstantinos_B_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_B.tga"
+	expire = "1992.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }

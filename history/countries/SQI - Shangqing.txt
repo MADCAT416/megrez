@@ -18,12 +18,12 @@ set_popularities = {
     democratic_socialist = 0
     syndicalist = 0
     social_democrat = 0
-    social_liberal = 3
-    market_liberal = 5
-    social_conservative = 11
-    authoritarian_democrat = 13
-    paternal_autocrat = 17
-    ethnic_populist = 51
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    ethnic_populist = 100
 }
 
 set_stability = 0.50

@@ -51,22 +51,135 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Amanullah Khan"
-	desc = "POLITICS_AMANULLAH_KHAN_DESC"
-	picture = "Portrait_Afghan_Amanullah_Khan.tga"
-	expire = "1991.1.1"
+	name = "Nur Muhammad Taraki"
+	desc = "AFG_Nur_Muhammad_Taraki_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Nur_Muhammad_Taraki.tga"
+	expire = "1992.1.1"
+	ideology = totalist_subtype
+	traits = {
+		totalist
+	}
+}
+create_country_leader = {
+	name = "Babrak Karmal"
+	desc = "AFG_Babrak_Karmal_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Babrak_Karmal.tga"
+	expire = "1992.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		democratic_socialist
+	}
+}
+create_country_leader = {
+	name = "Babrak Karmal"
+	desc = "AFG_Babrak_Karmal_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Babrak_Karmal.tga"
+	expire = "1992.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		democratic_socialist
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "AFG_Mohammed_Zahir_Shah_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Shah.tga"
+	expire = "1992.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		paternal_autocrat
+		hos_beloved_monarch
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "AFG_Mohammed_Zahir_Shah_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Shah.tga"
+	expire = "1992.1.1"
+	ideology = social_progressive_subtype
+	traits = {
+		paternal_autocrat
+		hos_beloved_monarch
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "AFG_Mohammed_Zahir_Shah_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Shah.tga"
+	expire = "1992.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		paternal_autocrat
+		hos_beloved_monarch
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "AFG_Mohammed_Zahir_Shah_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Shah.tga"
+	expire = "1992.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		paternal_autocrat
+		hos_beloved_monarch
+	}
+}
+create_country_leader = {
+	name = "Burhānuddin Rabbāni"
+	desc = "AFG_Burhanuddin_Rabbani_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Burhanuddin_Rabbani.tga"
+	expire = "1992.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		social_conservative
+		
+	}
+}
+create_country_leader = {
+	name = "Mohammed Daoud Khan"
+	desc = "AFG_Mohammed_Daoud_Khan_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Daoud_Khan.tga"
+	expire = "1992.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		authoritarian_democrat
+		hos_former_royal
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "AFG_Mohammed_Zahir_Shah_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Shah.tga"
+	expire = "1992.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		hos_beloved_monarch
+	}
+}
+create_country_leader = {
+	name = "Mawlawi Mohammad Yunus Khalis"
+	desc = "AFG_Mawlawi_Mohammad_Yunus_Khalis_DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_Mawlawi_Mohammad_Yunus_Khalis.tga"
+	expire = "1992.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+		clerical_nationalist
+		
+	}
+}
+create_country_leader = {
+	name = " "
+	desc = "AFG_ _DESC"
+	picture = "gfx/leaders/AFG/Portrait_AFG_ .tga"
+	expire = "1992.1.1"
+	ideology = ethnic_populist_subtype
+	traits = {
+		ethnic_populist
+		
+	}
 }
 
-create_country_leader = {
-	name = "Habibullah Kalakani"
-	desc = "POLITICS_HABIBULLAH_KALAKANI_DESC"
-	picture = "Portrait_Afghan_Habibullah_Kalakani.tga"
-	expire = "1991.1.1"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
 
 create_field_marshal = {
 	name = "Shah Wali Khan"

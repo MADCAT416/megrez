@@ -77,32 +77,6 @@ add_to_faction = ZHI # 직예
 QIE = { give_military_access = CHI }
 give_guarantee = QIE
 
-set_autonomy = {
-	target = YUN
-	autonomous_state = kr_integrated_puppet
-}
-
-YUN = {
-	set_politics = {
-		ruling_party = democratic_socialist
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
-}
-
-    set_popularities = {
-        totalist = 0
-        democratic_socialist = 41
-        syndicalist = 2
-        social_democrat = 4
-        social_liberal = 6
-        market_liberal = 8
-        social_conservative = 12
-        authoritarian_democrat = 19
-        paternal_autocrat = 0
-        ethnic_populist = 8
-    }
-}
 
 add_ideas = {
 	CHI_Yan_Xishan_hog_syn

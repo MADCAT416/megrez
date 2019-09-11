@@ -75,6 +75,7 @@ create_country_leader = {
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		authoritarian_democrat
+		hos_weary_stiff_neck
 	}
 }
 

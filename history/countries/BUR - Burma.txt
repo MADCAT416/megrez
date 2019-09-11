@@ -86,140 +86,78 @@ set_popularities = {
 }
 ######## Starting Leader Spam ########
 create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3" # No Info on his death date here - damn the Myanmese for keeping all info in Burmese language only
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Maung Gyi"
-	desc = "POLITICS_MAUNG_GYI_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Maung_Gyi.tga"
-	expire = "1991.6.3"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = authoritarian_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Myat Paya Lat"
-	desc = "POLITICS_MYAT_PAYA_LAT_DESC"
-	picture = "Portrait_Burma_Myat_Paya_Lat.tga"
-	expire = "1991.4.4"
-	ideology = ethnic_populist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Ba Cho"
-	desc = "POLITICS_BA_CHO_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1991.7.19" # Same fateful day as Aung San OTL
-	ideology = syndicalist_subtype
-	traits = {}
-}
-create_country_leader = {
-	name = "Ba Cho"
-	desc = "POLITICS_BA_CHO_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1991.7.19" # Same fateful day as Aung San OTL
+	name = "Thakin Soe"
+	desc = "BUR_Thakin_Soe_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Thakin_Soe.tga"
+	expire = "1992.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 create_country_leader = {
-	name = "Ba Cho"
-	desc = "POLITICS_BA_CHO_DESC"
-	picture = "gfx/leaders/BUR/Portrait_Burma_Ba_Cho.tga"
-	expire = "1991.7.19" # Same fateful day as Aung San OTL
+	name = "Thakin Ba Hein"
+	desc = "BUR_Thakin_Ba_Hein_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Thakin_Ba_Hein.tga"
+	expire = "1992.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+	}
+}
+create_country_leader = {
+	name = "Thakin Ba Hein"
+	desc = "BUR_Thakin_Ba_Hein_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Thakin_Ba_Hein.tga"
+	expire = "1992.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		syndicalist
+	}
+}
+create_country_leader = {
+	name = "Ba Swe"
+	desc = "BUR_Ba_Swe_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Ba_Swe.tga"
+	expire = "1992.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
+}
+create_country_leader = {
+	name = "U Nu"
+	desc = "BUR_U_Nu_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_U_Nu.tga"
+	expire = "1992.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		social_conservative
+		
+	}
+}
+create_country_leader = {
+	name = "Ba Maw"
+	desc = "BUR_Ba_Maw_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Ba_Maw.tga"
+	expire = "1992.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		authoritarian_democrat
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ne Win"
+	desc = "BUR_Ne_Win_DESC"
+	picture = "gfx/leaders/BUR/Portrait_BUR_Ne_Win.tga"
+	expire = "1992.1.1"
+	ideology = ethnic_populist_subtype
+	traits = {
+		ethnic_populist
+		
+	}
 }
 
 ### Corps Commander

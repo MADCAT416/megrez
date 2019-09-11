@@ -7,7 +7,7 @@ set_technology = {
 
 set_research_slots = 2
 set_politics = {
-	ruling_party = clerical_nationalist
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -17,13 +17,13 @@ set_popularities = {
     totalist = 0
     democratic_socialist = 0
     syndicalist = 0
-    social_democrat = 2
-    social_liberal = 6
-    market_liberal = 6
-    social_conservative = 12
-    authoritarian_democrat = 15
-    paternal_autocrat = 47
-    ethnic_populist = 12
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 100
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    ethnic_populist = 0
 }
 
 
@@ -32,9 +32,9 @@ create_country_leader = {
 	desc = "Feng_Hongda_DESC"
 	picture = "Portrait_SHX_Feng_Hongda.tga"
 	expire = "1991.1.1"
-	ideology = clerical_nationalist_subtype
+	ideology = social_conservative_subtype
 	traits = {
-		clerical_nationalist
+		social_conservative
 		hog_political_protege
 	}
 }

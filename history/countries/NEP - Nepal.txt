@@ -13,7 +13,7 @@ set_technology = {
 set_war_support = 0.25
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,93 +33,106 @@ set_popularities = {
 }
 
 ### Leaders ###
-#create_country_leader = {
-#	name = "Mahendra"
-#	picture = "gfx/leaders/NEP/Portrait_Nepal_Mahendra.tga"
-#	expire = "1991.1.31"
-#	ideology = authoritarian_democrat_subtype
-#	traits = {}
-#}
-
 create_country_leader = {
-	name = "Tribhuvana"
-	desc = "POLITICS_TRIBHUVANA_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1991.3.13"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+		
+	}
 }
 create_country_leader = {
-	name = "Tribhuvana"
-	desc = "POLITICS_TRIBHUVANA_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1991.3.13"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Tribhuvana"
-	desc = "POLITICS_TRIBHUVANA_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.tga"
-	expire = "1991.3.13"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	desc = "POLITICS_YOGBIR_SINGH_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1991.3.29"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	desc = "POLITICS_YOGBIR_SINGH_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1991.3.29"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Yogbir Singh Kansakar"
-	desc = "POLITICS_YOGBIR_SINGH_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Yogbir_Singh_Kansakar.tga"
-	expire = "1991.3.29"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1991.10.4"
+	name = "Mahendra Bir Bikram Shah"
+	desc = "NEP_Mahendra_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Mahendra.tga"
+	expire = "1992.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1991.10.4"
+	name = "Keshar Jung Rayamajhi"
+	desc = "NEP_Keshar_Jung_Rayamajhi_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Keshar_Jung_Rayamajhi.tga"
+	expire = "1992.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
-	expire = "1991.10.4"
+	name = "Keshar Jung Rayamajhi"
+	desc = "NEP_Keshar_Jung_Rayamajhi_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Keshar_Jung_Rayamajhi.tga"
+	expire = "1992.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 create_country_leader = {
-	name = "Kunwar Inderjit Singh"
-	desc = "POLITICS_KUNWAR_INDERJIT_DESC"
-	picture = "gfx/leaders/NEP/Portrait_Nepal_Kunwar_Inderjit_Singh.tga"
+	name = "Pushpa Lal Shrestha"
+	desc = "NEP_Pushpa_Lal_Shrestha_DESC"
+	picture = "gfx/leaders/NEP/Portrait_NEP_Pushpa_Lal_Shrestha.tga"
 	expire = "1991.10.4"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 add_ideas = {

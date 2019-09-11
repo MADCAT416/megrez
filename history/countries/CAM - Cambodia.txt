@@ -161,6 +161,7 @@ create_country_leader = { # Norodom Sihanouk
 	ideology = totalist_subtype
 	traits = {
 		totalist
+		hos_former_royal
 	}
 }
 ### Corps Commander

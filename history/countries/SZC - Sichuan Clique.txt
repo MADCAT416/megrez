@@ -18,7 +18,7 @@ set_research_slots = 3
 set_convoys = 10
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,13 +28,13 @@ set_popularities = {
     totalist = 0
     democratic_socialist = 0
     syndicalist = 0
-    social_democrat = 2
-    social_liberal = 6
-    market_liberal = 6
-    social_conservative = 12
-    authoritarian_democrat = 15
-    paternal_autocrat = 47
-    ethnic_populist = 12
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 100
+    ethnic_populist = 0
 }
 
 create_country_leader = {

@@ -100,6 +100,7 @@ create_country_leader = {
 	ideology = democratic_socialist_subtype
 	traits = {
 		democratic_socialist
+		hos_former_royal
 	}
 }
 create_country_leader = {
@@ -110,6 +111,7 @@ create_country_leader = {
 	ideology = syndicalist_subtype
 	traits = {
 		democratic_socialist
+		hos_former_royal
 	}
 }
 create_country_leader = {
@@ -120,6 +122,7 @@ create_country_leader = {
 	ideology = totalist_subtype
 	traits = {
 		democratic_socialist
+		hos_former_royal
 	}
 }
 ### Field Marshal

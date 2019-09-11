@@ -140,93 +140,113 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Valko Chervenkov"
-	desc = "POLITICS_VALKO_CHERENKOV_DESC"
-	picture = "Portrait_BUL_Valko_Chervenkov.tga"
+	name = "Todor Khristov Zhivkov"
+	desc = "BUL_Todor_Khristov_Zhivkov_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Todor_Khristov_Zhivkov.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
-	traits = {}
+	traits = {
+		totalist
+	}
 }
 
 create_country_leader = {
-	name = "Georgi Dimitrov"
-	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "Portrait_BUL_Georgi_Dimitrov.tga"
+	name = "Petar Antonov Dertliev"
+	desc = "BUL_Petar_Antonov_Dertliev_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Petar_Antonov_Dertliev.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
-	traits = {}
+	traits = {
+		syndicalist
+	}
 }
 
 create_country_leader = {
-	name = "Mihail Gerdzhikov"
-	desc = "POLITICS_MIHAIL_GERDZHIKOV_DESC"
-	picture = "Portrait_BUL_Mihail_Gerdzhikov.tga"
+	name = "Dr. Atanas Simeonov Moskov"
+	desc = "BUL_Atanas_Simeonov_Moskov_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Atanas_Simeonov_Moskov.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
-	traits = {}
+	traits = {
+		democratic_socialist
+	}
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Aleksandar Stamboliyski"
-	desc = "POLITICS_ALEKSANDAR_STAMBOLIYSKI_DESC"
-	picture = "Portrait_BUL_Aleksandar_Stamboliyski.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Kimon Georgiev Stoyanov"
-	desc = "POLITICS_KIMON_GEORGIEV_DESC"
-	picture = "Portrait_BUL_Kimon_Griogiev.tga"
-	expire = "1991.1.1"
+	name = "Simeon II"
+	desc = "BUL_Simeon II_DESC"
+	picture = "gfx/leaders/BUL/Portrait_BUL_Simeon_II.tga"
+	expire = "1992.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 ### Field Marshals ###
