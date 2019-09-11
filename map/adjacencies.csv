@@ -508,7 +508,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1919;1384;impassable;-1;-1;-1;-1;-1;;West Turkesten
 12430;1384;impassable;-1;-1;-1;-1;-1;;West Turkesten
 12430;12250;impassable;-1;-1;-1;-1;-1;;West Turkesten
-4545;8027;impassable;-1;-1;-1;-1;-1;;West Turkesten
+4542;8027;impassable;-1;-1;-1;-1;-1;;West Turkesten
 8027;4467;impassable;-1;-1;-1;-1;-1;;West Turkesten
 8027;4923;impassable;-1;-1;-1;-1;-1;;West Turkesten
 10408;10530;impassable;-1;-1;-1;-1;-1;;West Turkesten
