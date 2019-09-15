@@ -37,3 +37,11 @@ spriteTypes = {
 		textureFile = "gfx/leaders/JAP/Portrait_JAP_Kishi_Nobusuke.tga"
 	}
 }
+
+### NFA ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_NFA_vacancy"
+		textureFile = "gfx/leaders/NFA/Portrait_NFA_vacancy.tga"
+	}
+}
