@@ -1,0 +1,95 @@
+###########
+### JAP ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		FRP_eldest_daughter_of_europe = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = FRP_eldest_daughter_of_europe
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor  = 0.15
+				conscription_factor = 0.05
+				clerical_nationalist_drift = 0.1
+			
+			}
+			rule = {
+				
+			}
+		}
+		
+		FRP_resistance = {
+		
+			allowed = {
+				always = no
+			}
+
+			picture = FRP_resistance
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor  = -0.1
+				resistance_tick = 0.2
+			
+			}
+			rule = {
+				
+			}
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		FRP_Francois_Mitterrand_hog_cle = { ### 미테랑 ###
+			allowed = { original_tag = FRP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Francois_Mitterrand_dead }
+					NOT = { has_country_leader = { name = "Francois Mitterrand" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Francois_Mitterrand_dead }
+				NOT = { has_country_leader = { name = "Francois Mitterrand" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FRP_Francois_Mitterrand_hog_cle"
+			}
+			traits = {
+				head_of_government
+				clerical_nationalist
+				
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}

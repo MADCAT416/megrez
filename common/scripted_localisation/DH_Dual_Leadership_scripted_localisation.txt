@@ -283,6 +283,14 @@ defined_text = {
 		localization_key = FIN_Urho_Kaleva_Kekkonen_hog_lib
 	}
 	
+	### FRP
+	text = { ### 미테랑
+		trigger = {
+			has_idea = FRP_Francois_Mitterrand_hog_cle
+		}
+		localization_key = FRP_Francois_Mitterrand_hog_cle
+	}
+	
 	### JAP
 	text = { ### 키시 노부스케
 		trigger = {
@@ -321,6 +329,14 @@ defined_text = {
 		localization_key = FIN_Urho_Kaleva_Kekkonen_DESC
 	}
 	
+	### FRP
+	text = { ### 미테랑
+		trigger = {
+			has_idea = FRP_Francois_Mitterrand_hog_cle
+		}
+		localization_key = FRP_Francois_Mitterrand_DESC
+	}
+	
 	### JAP
 	text = { ### 키시 노부스케
 		trigger = {
@@ -350,6 +366,14 @@ defined_text = {
 			has_idea = FIN_Urho_Kaleva_Kekkonen_hog_lib
 		}
 		localization_key = GFX_FIN_Urho_Kaleva_Kekkonen
+	}
+	
+	### FRP
+	text = { ### 미테랑
+		trigger = {
+			has_idea = FRP_Francois_Mitterrand_hog_cle
+		}
+		localization_key = GFX_FRP_Francois_Mitterrand
 	}
 	
 	### JAP

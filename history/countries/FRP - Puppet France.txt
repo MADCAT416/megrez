@@ -179,6 +179,14 @@ set_popularities = {
     ethnic_populist = 0
 }
 
+add_ideas = {
+	FRP_Francois_Mitterrand_hog_cle
+	
+	limited_conscription
+	FRP_eldest_daughter_of_europe
+	FRP_resistance
+}
+
 create_country_leader = {
 	name = "Georges Jean Raymond Pompidou"
 	desc = "FRP_Georges_Pompidou_DESC"

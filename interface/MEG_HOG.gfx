@@ -22,6 +22,14 @@ spriteTypes = {
 	}
 }
 
+### FRP ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRP_Francois_Mitterrand"
+		textureFile = "gfx/leaders/FRP/Portrait_FRP_Francois_Mitterrand.tga"
+	}
+}
+
 ### JAP ###
 spriteTypes = {
 	spriteType = {

@@ -179,57 +179,69 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 create_country_leader = {
@@ -260,12 +272,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1991.1.1"
+	name = "Juliana"
+	desc = "HOL_Juliana_der_Nederlanden_DESC"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Juliana_der_Nederlanden.tga"
+	expire = "1992.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+		paternal_autocrat
+	}
 }
 
 ### Field Marshal
