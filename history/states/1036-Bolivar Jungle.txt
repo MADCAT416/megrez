@@ -12,6 +12,6 @@ state = {
 		10736 10879 13430 13432 13434
 	}
 	manpower = 16375
-	impassable = yes
+	
 	state_category = wasteland
 }
