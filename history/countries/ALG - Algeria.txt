@@ -99,6 +99,7 @@ create_country_leader = {
 	ideology = syndicalist_subtype
 	traits = {
 		syndicalist
+		hos_triumphant_revolutionary
 	}
 }
 create_country_leader = {
