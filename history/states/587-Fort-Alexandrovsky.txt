@@ -11,6 +11,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = ALO
+		add_claim_by = RUS
 	}
 
 	provinces = {

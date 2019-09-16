@@ -11,6 +11,8 @@ state = {
 	history = {
 		owner = RUS
 		add_core_of = RUS
+		add_claim_by = FNG
+		add_claim_by = CHI
 		 
 		victory_points = {
 			957 10 # Vladivostok

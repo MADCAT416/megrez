@@ -13,6 +13,8 @@ state = {
 		owner = RUS
 		 
 		add_core_of = RUS
+		add_claim_by = CHI
+		add_claim_by = FNG
 		victory_points = {
 			7763 2
 		}
