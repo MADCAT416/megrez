@@ -19,14 +19,14 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					social_liberal_allowed = yes
+					market_liberal_allowed = yes
 					NOT = { has_country_flag = John_Grey_Gorton_dead }
 					NOT = { has_country_leader = { name = "John Grey Gorton" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				social_liberal_allowed = yes
+				market_liberal_allowed = yes
 				NOT = { has_country_flag = John_Grey_Gorton_dead }
 				NOT = { has_country_leader = { name = "John Grey Gorton" } }
 			}

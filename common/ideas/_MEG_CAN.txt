@@ -1,0 +1,49 @@
+###########
+### CAN ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		 
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		CAN_Robert_Lorne_Stanfield_hog_con = { ### 로버트 론 스탠필드 ###
+			allowed = { original_tag = CAN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_conservative_allowed = yes
+					NOT = { has_country_flag = Robert_Lorne_Stanfield_dead }
+					NOT = { has_country_leader = { name = "Robert Lorne Stanfield" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = { has_country_flag = Robert_Lorne_Stanfield_dead }
+				NOT = { has_country_leader = { name = "Robert Lorne Stanfield" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CAN_Robert_Lorne_Stanfield_hog_con"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}

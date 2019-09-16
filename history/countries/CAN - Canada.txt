@@ -250,14 +250,11 @@ add_opinion_modifier = { target = ENG modifier = embargo }
 set_convoys = 250
 
 add_ideas = {
+	CAN_Robert_Lorne_Stanfield_hog_con
+
 	CAN_divided_nation
 	anglo_french_tensions
 	MINOR_PROFF_LEG_CITIES
-	# Starting Cabinet
-	CAN_Mackenzie_King_hog_mli
-	CAN_Lester_B_Pearson_for_mli
-	CAN_CD_Howe_eco_mli
-	CAN_Ernest_Lapointe_sec_mli
 }
 
 create_country_leader = {

@@ -1,0 +1,49 @@
+###########
+### MEX ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		 
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn = { ### 카를로스 알베르토 마드라소 베케라 ###
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Carlos_Alberto_Madrazo_Becerra_dead }
+					NOT = { has_country_leader = { name = "Carlos Alberto Madrazo Becerra" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Carlos_Alberto_Madrazo_Becerra_dead }
+				NOT = { has_country_leader = { name = "Carlos Alberto Madrazo Becerra" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}

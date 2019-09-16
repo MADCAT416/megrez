@@ -62,3 +62,41 @@ ideas = {
 			}
 		}
 	}
+
+
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		CAL_Barry_Morris_Goldwater_hog_mar = { ### 배리 모리스 골드워터 ###
+			allowed = { original_tag = CAL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					market_liberal_allowed = yes
+					NOT = { has_country_flag = Barry_Morris_Goldwater_dead }
+					NOT = { has_country_leader = { name = "Barry Morris Goldwater" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = { has_country_flag = Barry_Morris_Goldwater_dead }
+				NOT = { has_country_leader = { name = "Barry Morris Goldwater" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CAL_Barry_Morris_Goldwater_hog_mar"
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_corporate_suit
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+	
+}

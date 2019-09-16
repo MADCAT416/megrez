@@ -139,10 +139,8 @@ set_popularities = {
 add_opinion_modifier = { target = ENG modifier = embargo }
 
 add_ideas = {
-	NFA_Maurice_Janin_hog_ade
-	NFA_Paul_Baudouin_for_ade
-	NFA_Eugene_Schueller_eco_pau
-	NFA_Eugene_Deloncle_sec_pau
+	NFA_vacancy_hog_aut
+	
 
 	NFA_anti_communard
 	limited_conscription
@@ -157,6 +155,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
+		authoritarian_democrat
 		hos_exiled
 	}
 }

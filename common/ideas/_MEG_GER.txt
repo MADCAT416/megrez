@@ -1,6 +1,6 @@
-  ################################################################################################################################################################################################
-  ### GER
-  ################################################################################################################################################################################################
+###########
+### GER ###
+###########
 
 ideas = {
 
@@ -32,6 +32,7 @@ ideas = {
 
 ### 장관진
 	head_of_government = { ### 정부수반 ###
+			
 		GER_Hans_Vogel_hog_sde = {
 			allowed = { original_tag = GER }
 			available = {
@@ -53,6 +54,33 @@ ideas = {
 				head_of_government
 				social_progressive
 				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GER_Rainer_Candidus_Barzel_hog_aut = { ### 라이너 칸디두스 바르첼 ###
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					authoritarian_democrat_allowed = yes
+					NOT = { has_country_flag = Rainer_Candidus_Barzel_dead }
+					NOT = { has_country_leader = { name = "Rainer Candidus Barzel" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = { has_country_flag = Rainer_Candidus_Barzel_dead }
+				NOT = { has_country_leader = { name = "Rainer Candidus Barzel" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Rainer_Candidus_Barzel_hog_aut"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_backroom_backstabber
 			}
 			cancel_if_invalid = yes
 		}

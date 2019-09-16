@@ -1,3 +1,7 @@
+###########
+### ENG ###
+###########
+
 ideas = {
 
 	country = {
@@ -64,5 +68,42 @@ ideas = {
 		}
 
 	}
+
+
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		ENG_Barbara_Anne_Castle_hog_syn = { ### 바버라 앤 캐슬 ###
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Barbara_Anne_Castle_dead }
+					NOT = { has_country_leader = { name = "Barbara Anne Castle" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Barbara_Anne_Castle_dead }
+				NOT = { has_country_leader = { name = "Barbara Anne Castle" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Barbara_Anne_Castle_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
 
 }

@@ -132,14 +132,12 @@ set_convoys = 50
 add_political_power = -70
 
 add_ideas = {
+	BRA_Hermes_Lima_hog_dem
+
 	BRA_election_year
 	BRA_decentralization
 	BRA_wake_of_civil_war
 	BRA_state_armies
-	BRA_Joao_Neves_da_Fontoura_hog_sco
-	BRA_Felix_Pacheco_for_sli
-	BRA_Waldir_Pires_eco_sde
-	BRA_Ernesto_Simoes_Filho_sec_sco
 }
 
 

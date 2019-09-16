@@ -1,0 +1,49 @@
+###########
+### RUS ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		 
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		RUS_Alexei_Kosygin_hog_lib = { ### 코시긴 ###
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = Alexei_Kosygin_dead }
+					NOT = { has_country_leader = { name = "Alexei Kosygin" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = Alexei_Kosygin_dead }
+				NOT = { has_country_leader = { name = "Alexei Kosygin" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Alexei_Kosygin_hog_lib"
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}

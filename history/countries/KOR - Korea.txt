@@ -47,6 +47,12 @@ set_popularities = {
     ethnic_populist = 45
 }
 
+add_ideas = {
+	
+	KOR_Baek_Doojin_hog_aut
+	
+}
+
 set_country_flag = coalition_authoritarian_democrat
 set_country_flag = coalition_clerical_nationalist
 set_country_flag = banned_totalist

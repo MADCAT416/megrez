@@ -204,13 +204,9 @@ ALO = {
 }
 
 add_ideas = {
-	soviet_worker_soldier
-	rus_divided_staff
-	rus_divided_marine
-	RUS_Pavel_N_Milyukov_hog_mli
-	RUS_Pyetr_B_Struve_for_sli
-	RUS_Nikolay_A_Maklakov_eco_pau
-	RUS_Andrey_I_Shingarev_sec_mli
+	RUS_Alexei_Kosygin_hog_lib
+	
+	
 }
 
 

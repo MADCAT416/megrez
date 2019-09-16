@@ -1,0 +1,49 @@
+###########
+### CSA ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		 
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		CSA_Evelyn_Dubrow_hog_syn = { ### 에블린 던브로 ###
+			allowed = { original_tag = CSA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					syndicalist_allowed = yes
+					NOT = { has_country_flag = Evelyn_Dubrow_dead }
+					NOT = { has_country_leader = { name = "Evelyn Dubrow" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				syndicalist_allowed = yes
+				NOT = { has_country_flag = Evelyn_Dubrow_dead }
+				NOT = { has_country_leader = { name = "Evelyn Dubrow" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_Evelyn_Dubrow_hog_syn"
+			}
+			traits = {
+				head_of_government
+				syndicalist
+				hog_political_protege
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}

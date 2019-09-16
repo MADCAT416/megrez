@@ -182,7 +182,10 @@ set_popularities = {
     paternal_autocrat = 0
     ethnic_populist = 0
 }
+
 add_ideas = {
+	CAL_Barry_Morris_Goldwater_hog_mar
+
 	CAL_NAFTA
 	CAL_width_wall
 	CAL_length_wall

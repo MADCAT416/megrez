@@ -15,18 +15,18 @@ ideas = {
 	head_of_government = { ### 정부수반 ###
 		
 		BRA_Hermes_Lima_hog_dem = { ### 헤르메스 리마 ###
-			allowed = { original_tag = BHC }
+			allowed = { original_tag = BRA }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					totalist_allowed = yes
+					democratic_socialist_allowed = yes
 					NOT = { has_country_flag = Hermes_Lima_dead }
 					NOT = { has_country_leader = { name = "Parmeshwar Narayan Haksar" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				totalist_allowed = yes
+				democratic_socialist_allowed = yes
 				NOT = { has_country_flag = Hermes_Lima_dead }
 				NOT = { has_country_leader = { name = "Hermes Lima" } }
 			}
@@ -35,8 +35,8 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				totalist
-				hog_political_protege
+				democratic_socialist
+				hog_silent_workhorse
 			}
 			cancel_if_invalid = yes
 		}
