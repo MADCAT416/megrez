@@ -8,10 +8,9 @@ state = { # Shantou
 	}
 
 	history = {
-		owner = CHI
-		
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
-		add_core_of = AOG
 		add_claim_by = FNG
 		victory_points = {
 			9938 1
