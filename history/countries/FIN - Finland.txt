@@ -164,7 +164,7 @@ create_country_leader = { # Mauno Henrik Koivisto
 	ideology = syndicalist_subtype
 	traits = {
 		syndicalist 
-		hog_ambitious_union_boss
+		hos_die_hard_reformer
 		}
 }
 
@@ -176,7 +176,7 @@ create_country_leader = { # Mauno Henrik Koivisto
 	ideology = democratic_socialist_subtype
 	traits = {
 		syndicalist
-		hog_ambitious_union_boss
+		hos_die_hard_reformer
 		}
 }
 
