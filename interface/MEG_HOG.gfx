@@ -1,7 +1,7 @@
 ### AST ###
 spriteTypes = {
 	spriteType = {
-		name = "GFX_AST_John_Grey_Gorton
+		name = "GFX_AST_John_Grey_Gorton"
 		textureFile = "gfx/leaders/AST/Portrait_AST_John_Grey_Gorton.tga"
 	}
 }
