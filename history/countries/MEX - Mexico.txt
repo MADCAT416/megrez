@@ -121,7 +121,7 @@ create_country_leader = {# Arnoldo Martínez Verdugo
 	ideology = syndicalist_subtype
 	traits = {
 		syndicalist
-	
+		hos_autocratic_charmer
 	}
 }
 create_country_leader = {# Jorge Cruickshank García 
