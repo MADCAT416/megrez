@@ -1,3 +1,43 @@
+### AST ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_AST_John_Grey_Gorton
+		textureFile = "gfx/leaders/AST/Portrait_AST_John_Grey_Gorton.tga"
+	}
+}
+
+### BHC ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_BHC_Parmeshwar_Narayan_Haksar"
+		textureFile = "gfx/leaders/BHC/Portrait_BHC_Parmeshwar_Narayan_Haksar.tga"
+	}
+}
+
+### BRA ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_BRA_Hermes_Lima"
+		textureFile = "gfx/leaders/BRA/Portrait_BRA_Hermes_Lima.tga"
+	}
+}
+
+### CAL ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CAL_Barry_Morris_Goldwater"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Barry_Morris_Goldwater.tga"
+	}
+}
+
+### CAN ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CAN_Robert_Lorne_Stanfield"
+		textureFile = "gfx/leaders/CAN/Portrait_CAN_Robert_Lorne_Stanfield.tga"
+	}
+}
+
 ### CHI ###
 spriteTypes = {
 	spriteType = {
@@ -6,11 +46,27 @@ spriteTypes = {
 	}
 }
 
+### CSA ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CSA_Evelyn_Dubrow"
+		textureFile = "gfx/leaders/CSA/Portrait_CSA_Evelyn_Dubrow.tga"
+	}
+}
+
+### EGY ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EGY_Mohamed_Sedki_Sulayman"
+		textureFile = "gfx/leaders/EGY/Portrait_EGY_Mohamed_Sedki_Sulayman.tga"
+	}
+}
+
 ### ENG ###
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Oswald_Mosley"
-		textureFile = "gfx/leaders/ENG/Portrait_ENG_Oswald_Mosley.tga"
+		name = "GFX_ENG_Barbara_Anne_Castle"
+		textureFile = "gfx/leaders/ENG/Portrait_ENG_Barbara_Anne_Castle.tga"
 	}
 }
 
@@ -30,6 +86,14 @@ spriteTypes = {
 	}
 }
 
+### GER ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_Rainer_Candidus_Barzel"
+		textureFile = "gfx/leaders/ENG/Portrait_GER_Rainer_Candidus_Barzel.tga"
+	}
+}
+
 ### JAP ###
 spriteTypes = {
 	spriteType = {
@@ -38,10 +102,35 @@ spriteTypes = {
 	}
 }
 
+### KOR ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KOR_Baek_Doojin"
+		textureFile = "gfx/leaders/KOR/Portrait_KOR_Baek_Doojin.tga"
+	}
+}
+
+### MEX ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_MEX_Carlos_Alberto_Madrazo_Becerra"
+		textureFile = "gfx/leaders/MEX/Portrait_MEX_Carlos_Alberto_Madrazo_Becerra.tga"
+	}
+}
+
 ### NFA ###
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Portrait_NFA_vacancy"
+		name = "GFX_NFA_vacancy"
 		textureFile = "gfx/leaders/NFA/Portrait_NFA_vacancy.tga"
 	}
 }
+
+### RUS ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RUS_Alexei_Kosygin"
+		textureFile = "gfx/leaders/RUS/Portrait_RUS_Alexei_Kosygin.tga"
+	}
+}
+

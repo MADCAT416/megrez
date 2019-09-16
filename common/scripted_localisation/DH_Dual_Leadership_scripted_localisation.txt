@@ -267,12 +267,76 @@ defined_text = {
 defined_text = {
 	name = HoG_name
 	
+	### AST
+	text = { ### 존 그레이 고턴 
+		trigger = {
+			has_idea = AST_John_Grey_Gorton_hog_mar
+		}
+		localization_key = AST_John_Grey_Gorton_hog_mar
+	}
+	
+	### BHC
+	text = { ### 학사ㄹ
+		trigger = {
+			has_idea = BHC_Parmeshwar_Narayan_Haksar_hog_tot
+		}
+		localization_key = BHC_Parmeshwar_Narayan_Haksar_hog_tot
+	}
+	
+	### BRA
+	text = { ### 헤르메스 리마
+		trigger = {
+			has_idea = BRA_Hermes_Lima_hog_dem
+		}
+		localization_key = BRA_Hermes_Lima_hog_dem
+	}
+	
+	### CAL
+	text = { ### 베리 모리스 골드워터
+		trigger = {
+			has_idea = CAL_Barry_Morris_Goldwater_hog_mar
+		}
+		localization_key = CAL_Barry_Morris_Goldwater_hog_mar
+	}
+
+	### CAN
+	text = { ### 로버트 론 스탠필드 
+		trigger = {
+			has_idea = CAN_Robert_Lorne_Stanfield_hog_con
+		}
+		localization_key = CAN_Robert_Lorne_Stanfield_hog_con
+	}
+	
 	### CHI 
 	text = { ### 염석산
 		trigger = {
 			has_idea = CHI_Yan_Xishan_hog_syn
 		}
 		localization_key = CHI_Yan_Xishan_hog_syn
+	}
+	
+	### CSA
+	text = { ### 에블린 던브로
+		trigger = {
+			has_idea = CSA_Evelyn_Dubrow_hog_syn
+		}
+		localization_key = CSA_Evelyn_Dubrow_hog_syn
+	}
+	
+	### EGY
+	text = { ### 무하마드 세드키 술라이만
+		trigger = {
+			has_idea = EGY_Mohamed_Sedki_Sulayman_hog_aut
+		}
+		localization_key = EGY_Mohamed_Sedki_Sulayman_hog_aut
+	}
+	
+	### ENG
+	text = { ### 바바라 앤 캐슬
+		trigger = {
+			has_idea = ENG_Barbara_Anne_Castle_hog_syn
+		}
+		localization_key = ENG_Barbara_Anne_Castle_hog_syn
 	}
 	
 	### FIN
@@ -290,6 +354,14 @@ defined_text = {
 		}
 		localization_key = FRP_Francois_Mitterrand_hog_cle
 	}
+
+	### GER
+	text = { ### 라이너 칸디두스 바르첼
+		trigger = {
+			has_idea = GER_Rainer_Candidus_Barzel_hog_aut
+		}
+		localization_key = GER_Rainer_Candidus_Barzel_hog_aut
+	}
 	
 	### JAP
 	text = { ### 키시 노부스케
@@ -297,6 +369,38 @@ defined_text = {
 			has_idea = JAP_Kishi_Nobusuke_hog_aut
 		}
 		localization_key = JAP_Kishi_Nobusuke_hog_aut
+	}
+	
+	### KOR
+	text = { ### 백두진
+		trigger = {
+			has_idea = KOR_Baek_Doojin_hog_aut
+		}
+		localization_key = KOR_Baek_Doojin_hog_aut
+	}
+	
+	### MEX
+	text = { ### 카를로스 알베르토 마드라소 베케라
+		trigger = {
+			has_idea = MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn
+		}
+		localization_key = MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn
+	}
+
+	### NFA
+	text = { ### 공석
+		trigger = {
+			has_idea = NFA_vacancy_hog_aut
+		}
+		localization_key = NFA_vacancy_hog_aut
+	}
+
+	### RUS
+	text = { ### 코시긴
+		trigger = {
+			has_idea = RUS_Alexei_Kosygin_hog_lib
+		}
+		localization_key = RUS_Alexei_Kosygin_hog_lib
 	}
 
 	### Generic
@@ -313,12 +417,76 @@ defined_text = {
 defined_text = {
 	name = HoG_desc
 	
+	### AST
+	text = { ### 존 그레이 고턴 
+		trigger = {
+			has_idea = AST_John_Grey_Gorton_hog_mar
+		}
+		localization_key = AST_John_Grey_Gorton_DESC
+	}
+	
+	### BHC
+	text = { ### 학사ㄹ
+		trigger = {
+			has_idea = BHC_Parmeshwar_Narayan_Haksar_hog_tot
+		}
+		localization_key = BHC_Parmeshwar_Narayan_Haksar_DESC
+	}
+
+	### BRA
+	text = { ### 헤르메스 리마
+		trigger = {
+			has_idea = BRA_Hermes_Lima_hog_dem
+		}
+		localization_key = BRA_Hermes_Lima_DESC
+	}
+	
+	### CAL
+	text = { ### 베리 모리스 골드워터
+		trigger = {
+			has_idea = CAL_Barry_Morris_Goldwater_hog_mar
+		}
+		localization_key = CAL_Barry_Morris_Goldwater_DESC
+	}
+
+	### CAN
+	text = { ### 로버트 론 스탠필드 
+		trigger = {
+			has_idea = CAN_Robert_Lorne_Stanfield_hog_con
+		}
+		localization_key = CAN_Robert_Lorne_Stanfield_DESC
+	}
+	
 	### CHI
 	text = { ### 염석산
 		trigger = {
 			has_idea = CHI_Yan_Xishan_hog_syn
 		}
 		localization_key = CHI_Yan_Xishan_DESC
+	}
+	
+	### CSA
+	text = { ### 에블린 던브로
+		trigger = {
+			has_idea = CSA_Evelyn_Dubrow_hog_syn
+		}
+		localization_key = CSA_Evelyn_Dubrow_DESC
+	}
+	
+	### EGY
+	text = { ### 무하마드 세드키 술라이만
+		trigger = {
+			has_idea = EGY_Mohamed_Sedki_Sulayman_hog_aut
+		}
+		localization_key = EGY_Mohamed_Sedki_Sulayman_DESC
+	}
+	
+	### ENG
+	text = { ### 바바라 앤 캐슬
+		trigger = {
+			has_idea = ENG_Barbara_Anne_Castle_hog_syn
+		}
+		localization_key = ENG_Barbara_Anne_Castle_DESC
 	}
 	
 	### FIN
@@ -337,6 +505,14 @@ defined_text = {
 		localization_key = FRP_Francois_Mitterrand_DESC
 	}
 	
+	### GER
+	text = { ### 라이너 칸디두스 바르첼
+		trigger = {
+			has_idea = GER_Rainer_Candidus_Barzel_hog_aut
+		}
+		localization_key = GER_Rainer_Candidus_Barzel_DESC
+	}
+	
 	### JAP
 	text = { ### 키시 노부스케
 		trigger = {
@@ -345,6 +521,38 @@ defined_text = {
 		localization_key = JAP_Kishi_Nobusuke_DESC
 	}
 	
+	### KOR
+	text = { ### 백두진
+		trigger = {
+			has_idea = KOR_Baek_Doojin_hog_aut
+		}
+		localization_key = KOR_Baek_Doojin_DESC
+	}
+	
+	### MEX
+	text = { ### 카를로스 알베르토 마드라소 베케라
+		trigger = {
+			has_idea = MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn
+		}
+		localization_key = MEX_Carlos_Alberto_Madrazo_Becerra_DESC
+	}
+
+	### NFA
+	text = { ### 공석
+		trigger = {
+			has_idea = NFA_vacancy_hog_aut
+		}
+		localization_key = NFA_vacancy_DESC
+	}
+
+	### RUS
+	text = { ### 코시긴
+		trigger = {
+			has_idea = RUS_Alexei_Kosygin_hog_lib
+		}
+		localization_key = RUS_Alexei_Kosygin_DESC
+	}
+
 }
 ############################################
 # HoG Portraits
@@ -352,12 +560,76 @@ defined_text = {
 defined_text = {
 	name = leader_two_portrait
 	
+	### AST
+	text = { ### 존 그레이 고턴 
+		trigger = {
+			has_idea = AST_John_Grey_Gorton_hog_mar
+		}
+		localization_key = GFX_AST_John_Grey_Gorton
+	}
+	
+	### BHC
+	text = { ### 학사ㄹ
+		trigger = {
+			has_idea = BHC_Parmeshwar_Narayan_Haksar_hog_tot
+		}
+		localization_key = GFX_BHC_Parmeshwar_Narayan_Haksar
+	}
+	
+	### BRA
+	text = { ### 헤르메스 리마
+		trigger = {
+			has_idea = BRA_Hermes_Lima_hog_dem
+		}
+		localization_key = GFX_BRA_Hermes_Lima
+	}
+	
+	### CAL
+	text = { ### 베리 모리스 골드워터
+		trigger = {
+			has_idea = CAL_Barry_Morris_Goldwater_hog_mar
+		}
+		localization_key = GFX_CAL_Barry_Morris_Goldwater
+	}
+
+	### CAN
+	text = { ### 로버트 론 스탠필드 
+		trigger = {
+			has_idea = CAN_Robert_Lorne_Stanfield_hog_con
+		}
+		localization_key = GFX_CAN_Robert_Lorne_Stanfield
+	}
+	
 	### CHI
 	text = { ### 염석산 
 		trigger = {
 			has_idea = CHI_Yan_Xishan_hog_syn
 		}
 		localization_key = GFX_CHI_Yan_Xishan
+	}
+	
+	### CSA
+	text = { ### 에블린 던브로
+		trigger = {
+			has_idea = CSA_Evelyn_Dubrow_hog_syn
+		}
+		localization_key = GFX_CSA_Evelyn_Dubrow
+	}
+	
+	### EGY
+	text = { ### 무하마드 세드키 술라이만
+		trigger = {
+			has_idea = EGY_Mohamed_Sedki_Sulayman_hog_aut
+		}
+		localization_key = GFX_EGY_Mohamed_Sedki_Sulayman
+	}
+	
+	### ENG
+	text = { ### 바바라 앤 캐슬
+		trigger = {
+			has_idea = ENG_Barbara_Anne_Castle_hog_syn
+		}
+		localization_key = GFX_ENG_Barbara_Anne_Castle
 	}
 	
 	### FIN
@@ -376,12 +648,52 @@ defined_text = {
 		localization_key = GFX_FRP_Francois_Mitterrand
 	}
 	
+	### GER
+	text = { ### 라이너 칸디두스 바르첼
+		trigger = {
+			has_idea = GER_Rainer_Candidus_Barzel_hog_aut
+		}
+		localization_key = GFX_GER_Rainer_Candidus_Barzel
+	}
+	
 	### JAP
 	text = { ### 키시 노부스케
 		trigger = {
 			has_idea = JAP_Kishi_Nobusuke_hog_aut
 		}
 		localization_key = GFX_JAP_Kishi_Nobusuke
+	}
+	
+	### KOR
+	text = { ### 백두진
+		trigger = {
+			has_idea = KOR_Baek_Doojin_hog_aut
+		}
+		localization_key = GFX_KOR_Baek_Doojin
+	}
+	
+	### MEX
+	text = { ### 카를로스 알베르토 마드라소 베케라
+		trigger = {
+			has_idea = MEX_Carlos_Alberto_Madrazo_Becerra_hog_syn
+		}
+		localization_key = GFX_MEX_Carlos_Alberto_Madrazo_Becerra
+	}
+
+	### NFA
+	text = { ### 공석
+		trigger = {
+			has_idea = NFA_vacancy_hog_aut
+		}
+		localization_key = GFX_NFA_vacancy
+	}
+
+	### RUS
+	text = { ### 코시긴
+		trigger = {
+			has_idea = RUS_Alexei_Kosygin_hog_lib
+		}
+		localization_key = GFX_RUS_Alexei_Kosygin
 	}
 	
 	### Generic 

@@ -144,11 +144,8 @@ if = {
 }
 
 add_ideas = {
-	AST_William_M_Hughes_hog_ade
-	AST_Vernon_AH_Sturdee_for_ade
-	AST_James_Mitchell_eco_ade
-	AST_Thomas_W_White_sec_ade
-
+	AST_John_Grey_Gorton_hog_mar
+	
 	#starting modifiers
 	AST_oversized_fleet
 	AST_depression_1

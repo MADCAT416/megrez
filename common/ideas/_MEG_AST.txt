@@ -1,0 +1,49 @@
+###########
+### AST ###
+###########
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		 
+		}
+
+	}
+	
+	### 각료진
+	head_of_government = { ### 정부수반 ###
+		
+		AST_John_Grey_Gorton_hog_mar = { ### 존 그레이 고턴 ###
+			allowed = { original_tag = AST }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					social_liberal_allowed = yes
+					NOT = { has_country_flag = John_Grey_Gorton_dead }
+					NOT = { has_country_leader = { name = "John Grey Gorton" } }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = { has_country_flag = John_Grey_Gorton_dead }
+				NOT = { has_country_leader = { name = "John Grey Gorton" } }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AST_John_Grey_Gorton_hog_mar"
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+	
+	
+	}
+
+}
