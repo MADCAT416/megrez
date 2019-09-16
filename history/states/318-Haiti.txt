@@ -3,14 +3,14 @@ state = {
 	name = "STATE_318"
 	manpower = 2581000
 
-	state_category = four
+	state_category = three
 
 	resources = {
 
 		chromium = 3
 	}
 	history = {
-		owner = HAI
+		owner = CAF
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
