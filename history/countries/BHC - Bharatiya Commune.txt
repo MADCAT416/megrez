@@ -169,7 +169,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Chakravarti Rajagopalachari"
-	desc = "gfx/leaders/BHC/BHC_Chakravarti_Rajagopalachari_DESC"
+	desc = "BHC_Chakravarti_Rajagopalachari_DESC"
 	picture = "gfx/leaders/BHC/Portrait_BHC_Chakravarti_Rajagopalachari.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype

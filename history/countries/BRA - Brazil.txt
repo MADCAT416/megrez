@@ -149,7 +149,7 @@ create_country_leader = {
 	ideology = democratic_socialist_subtype
 	traits = {
 		democratic_socialist
-		
+		hos_popular_figurehead
 	}
 }
 

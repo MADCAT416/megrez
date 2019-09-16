@@ -212,12 +212,13 @@ set_convoys = 60
 
 create_country_leader = {
 	name = "Sir Paul Hasluck"
-	desc = "POLITICS_PERCY_STEPHENSEN_DESC"
+	desc = "AST_Paul_Hasluck_DESC"
 	picture = "gfx/leaders/AST/Portrait_AST_Paul_Hasluck.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
 		market_liberal
+		hos_insignificant_layman
 	}
 }
 

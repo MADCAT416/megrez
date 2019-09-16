@@ -206,7 +206,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Clara Lemlich"
-	desc = "gfx/leaders/CSA/CSA_Clara_Lemlich_DESC"
+	desc = "CSA_Clara_Lemlich_DESC"
 	picture = "Portrait_CSA_Clara_Lemlich.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -228,7 +228,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "George Meany"
-	desc = "CSA_George Meany_DESC"
+	desc = "CSA_George_Meany_DESC"
 	picture = "gfx/leaders/CSA/Portrait_CSA_George Meany.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
@@ -240,7 +240,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Glen Hearst Taylor"
 	desc = "CAL_Glen_Hearst_Taylor_DESC"
-	picture = "gfx/leaders/CAL/Portrait_CSA_Glen_Hearst_Taylor.tga"
+	picture = "gfx/leaders/CAL/Portrait_CAL_Glen_Hearst_Taylor.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
 	traits = {

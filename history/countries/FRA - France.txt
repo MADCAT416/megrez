@@ -214,8 +214,8 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Pierre Poujade"
-	desc = "FRA_Pierre Poujade_DESC"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Pierre Poujade.tga"
+	desc = "FRA_Pierre_Poujade_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Pierre_Poujade.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {

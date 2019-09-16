@@ -1,0 +1,138 @@
+﻿l_english:
+
+ ### AST ###
+    AST_Paul_Hasluck_DESC:0 ""
+    AST_John_Grey_Gorton_DESC:0 ""
+    
+ ### BHC ###
+    BHC_Indira_Gandhi_DESC:0 ""
+    BHC_Parmeshwar_Narayan_Haksar_DESC:0 ""
+    BHC_Elamkulam_Namboodiripad_DESC:0 ""
+    BHC_Yashwantrao_Chavan_DESC:0 ""
+    BHC_Morarji_Desai_DESC:0 ""
+    BHC_Chakravarti_Rajagopalachari_DESC:0 ""
+    
+ ### BRA ###
+    Jango_Goulart_DESC:0 ""
+    BRA_Hermes_Lima_DESC:0 ""
+    
+ ### CAL ###
+    CAL_Glen_Hearst_Taylor_DESC:0 ""
+    CAL_Pat_Brown_DESC:0 ""
+    CAL_Mr_House_DESC:0 ""
+    CAL_Barry_Morris_Goldwater_DESC:0 ""
+    CAL_Cap_Weinberger_DESC:0 ""
+    
+ ### CAN ###
+    CAN_Robert_Lorne_Stanfield_DESC:0 ""
+    CAN_Edward_VIII_DESC:0 ""
+    
+ ### CHI ###
+    CHI_Zhou_Enlai_DESC:0 ""
+    CHI_Yan_Xishan_DESC:0 ""
+    CHI_Chiang_Chingkuo_DESC:0 ""
+    CHI_Zhang_Junmai_DESC:0 ""
+    CHI_Chiang_Weikuo_DESC:0 ""
+    
+ ### CSA ###
+    CSA_Gus_Hall_DESC:0 ""
+    CSA_Clara_Lemlich_DESC:0 ""
+    CSA_Evelyn_Dubrow_DESC:0 ""
+    CSA_Walter_Reuther_DESC:0 ""
+    CSA_George_Meany_DESC:0 ""
+    CSA_Hubert_Humphrey_DESC:0 ""
+    CSA_Strom_Thurmond_DESC:0 ""
+    
+ ### EGY ###
+    EGY_Gamal_Abdel_Nasser_Hussein_DESC:0 ""
+    EGY_Mohamed_Sedki_Sulayman_DESC:0 ""
+    EGY_Sexking_DESC:0 ""
+    EGY_Umar_al-Tilmisani_DESC:0 ""
+    
+ ### ENG ###
+    ENG_Oswald_Mosley_DESC:0 ""
+    ENGS_Harold_Wilson_DESC:0 ""
+    ENG_Barbara_Anne_Castle_DESC:0 ""
+    ENG_Gwynfor_Evans_DESC:0 ""
+    ENG_Roy_Jenkins_DESC:0 ""
+    ENG_John_Loverseed_DESC:0 ""
+    
+ ### FIN ###
+    FIN_Hertta_Elina_Kuusinen_DESC:0 ""
+    FIN_Mauno_Henrik_Koivisto_DESC:0 ""
+    FIN_Taisto_Kalevi_Sorsa_DESC:0 ""
+    FIN_Mary_Moorhouse-Pekkala_DESC:0 ""
+    FIN_Urho_Kaleva_Kekkonen_DESC:0 ""
+    FIN_Pekka_Tarjanne_DESC:0 ""
+    FIN_Jussi_Jaakko_Saukkonen_DESC:0 ""
+    FIN_Jaakko_Sakari_Simelius_DESC:0 ""
+    FIN_Wolfgang_II_DESC:0 ""
+    FIN_Paavo_Oskar_Susitaival_DESC:0 ""
+    FIN_Veikko_Emil_Vennamo_DESC:0 ""
+    
+ ### FRA ###
+    FRA_Pierre_Poujade_DESC:0 ""
+    FRA_Gaston_Defferre_DESC:0 ""
+    FRA_Alain_Krivine_DESC:0 ""
+    FRA_Michel_Rocard_DESC:0 ""
+    FRA_Rene_Dumont_DESC:0 ""
+ 
+ ### FRP ###
+    FRP_Georges_Pompidou_DESC:0 ""
+    FRP_Francois_Mitterrand_DESC:0 ""
+ 
+ ### GER ###
+    GER_Ferdinand_I_DESC:0 ""
+    GER_Rainer_Candidus_Barzel_DESC:0 ""
+ 
+ ### IRE ###
+    IRE_Micheal_O_Riordain_DESC:0 ""
+    IRE_Padraigin_Ni_Mhurchu_DESC:0 ""
+    IRE_Breandan_Mac_Fheorais_DESC:0 ""
+    IRE_Gearoidin_Fitt_DESC:0 ""
+    IRE_Leaslaoi_Mearda_de_Barra_DESC:0 ""
+    IRE_Padraig_O_hIrighile_DESC:0 ""
+    IRE_Oilibhear_Napier_DESC:0 ""
+    IRE_Seosamh_O_Blatmaic_DESC:0 ""
+    IRE_Tom_O_hUiginn_DESC:0 ""
+    IRE_Wendy_Millar_DESC:0 ""
+    IRE_Gearoid_O_Cuinneagain_DESC:0 ""
+    IRE_Ned_O_Croinin_DESC:0 ""
+ 
+ ### JAP ###
+    JAP_Kishi_Nobusuke_DESC:0 ""
+    JAP_Tsugunomiya_Akihito_DESC:0 ""
+ 
+ ### KOR ### 
+    KOR_Seo_Mansul_DESC:0 ""
+    KOR_Yoon_Seju_DESC:0 ""
+    KOR_Heo_Jeongsuk_DESC:0 ""
+    KOR_Kim_Jongpil_DESC:0 ""
+    KOR_Kim_Daejung_DESC:0 ""
+    KOR_Kim_Youngsam_DESC:0 ""
+    KOR_Yi_Cheolseung_DESC:0 ""
+    KOR_Yi_Goo_DESC:0 ""
+    KOR_Baek_Doojin_DESC:0 ""
+    KOR_Ahn_Hosang_DESC:0 ""
+    KOR_Jang_Joonha_DESC:0 ""
+ 
+ ### MEX ###
+    MEX_Valentin_Campa_Salazar_DESC:0 ""
+    MEX_Arnoldo_Martinez_Verdugo_DESC:0 ""
+    MEX_Carlos_Alberto_Madrazo_Becerra_DESC:0 ""
+    MEX_Jorge_Cruickshank_Garcia_DESC:0 ""
+    MEX_Gustavo_Diaz_Ordaz_DESC:0 ""
+    MEX_Jorge_Gonzalez_Torres_DESC:0 ""
+    MEX_Cuauhtemoc_Cardenas_Solorzano_DESC:0 ""
+    MEX_Luis_Hector_Alvarez_DESC:0 ""
+    MEX_Jose_Lopez_Portillo_DESC:0 ""
+    MEX_Maximiliano_de_Götzen-Iturbide_DESC:0 ""
+    MEX_Salvador_Abascal_Infante_DESC:0 ""
+ 
+ ### NFA ###
+    NFA_vacancy_DESC:0 ""
+ 
+ ### RUS ###
+    RUS_Aleksandr_Solzhenitsyn_DESC:0 ""
+    RUS_Alexei_Kosygin_DESC:0 ""
+    RUS_Vladimir_I_Kirillovich_DESC:0 ""
