@@ -14,24 +14,24 @@ ideas = {
 	### 각료진
 	head_of_government = { ### 정부수반 ###
 		
-		BRA_Hermes_Lima_hog_dem = { ### 헤르메스 리마 ###
+		BHC_Parmeshwar_Narayan_Haksar_hog_tot = { ### 헤르메스 리마 ###
 			allowed = { original_tag = BHC }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					totalist_allowed = yes
-					NOT = { has_country_flag = Hermes_Lima_dead }
+					NOT = { has_country_flag = Parmeshwar_Narayan_Haksar_dead }
 					NOT = { has_country_leader = { name = "Parmeshwar Narayan Haksar" } }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 				totalist_allowed = yes
-				NOT = { has_country_flag = Hermes_Lima_dead }
-				NOT = { has_country_leader = { name = "Hermes Lima" } }
+				NOT = { has_country_flag = Parmeshwar_Narayan_Haksar_dead }
+				NOT = { has_country_leader = { name = "Parmeshwar Narayan Haksar" } }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRA_Hermes_Lima_hog_dem"
+				log = "[GetDateText]: [Root.GetName]: add idea BHC_Parmeshwar_Narayan_Haksar_hog_tot"
 			}
 			traits = {
 				head_of_government
