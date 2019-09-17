@@ -231,11 +231,11 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = GEA
-	autonomous_state = Reichskomissariat
+	autonomous_state = kr_autonomous_puppet
 }
 set_autonomy = {
 	target = DKB
-	autonomous_state = Reichskomissariat
+	autonomous_state = kr_autonomous_puppet
 }
 set_autonomy = {
 	target = PAP
