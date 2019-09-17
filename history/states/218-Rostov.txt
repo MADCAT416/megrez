@@ -6,7 +6,7 @@ state = {
 	state_category = six
 
 	history = {
-		owner = RUS
+		owner = DKB
 		victory_points = {
 			9417 15
 		}
@@ -22,6 +22,7 @@ state = {
 				bunker = 2
 			}
 		}
+		add_core_of = DKB
 		add_core_of = RUS
 	}
 

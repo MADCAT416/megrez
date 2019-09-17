@@ -16,6 +16,7 @@ state = {
 			9628 1
 		}
 		add_core_of = DKB
+		add_core_of = RUS
 	}
 
 	provinces = {

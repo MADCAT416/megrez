@@ -231,13 +231,12 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = GEA
-	autonomous_state = kr_autonomous_puppet
+	autonomous_state = Reichskomissariat
 }
 set_autonomy = {
-	target = MOR
-	autonomous_state = kr_autonomous_puppet
+	target = DKB
+	autonomous_state = Reichskomissariat
 }
-
 set_autonomy = {
 	target = PAP
 	autonomous_state = kr_autonomous_puppet
@@ -267,6 +266,12 @@ set_autonomy = {
 }
 
 # Resetting all puppet political setups which come earlier in the load order
+DKB = {
+	set_politics = {
+		ruling_party = ruling_party = authoritarian_democrat
+	}
+}
+
 BEL = {
 	set_politics = {
 		ruling_party = authoritarian_democrat
