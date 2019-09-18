@@ -227,3 +227,8 @@ KMT = {
 	color = rgb { 70 130 180 }
 	color_ui = rgb { 70 130 180 }
 }
+
+PAP_Italy = {
+	color = rgb { 37 159 0 }
+	color_ui = rgb { 37 159 0 }
+}
