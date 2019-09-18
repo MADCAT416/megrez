@@ -227,3 +227,13 @@ KMT = {
 	color = rgb { 70 130 180 }
 	color_ui = rgb { 70 130 180 }
 }
+
+MAGHREB = {
+	color = rgb { 244 164 96 }
+	color_ui = rgb { 244 164 96 }
+}
+
+WESTAFRIKA = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}

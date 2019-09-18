@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = TUR
+		owner = GRE
 		add_core_of = TUR
 		add_core_of = GRE
 		buildings = {

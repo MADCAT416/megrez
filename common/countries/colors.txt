@@ -45,8 +45,8 @@ AST = {
 	color_ui = rgb { 74 186 126 }
 }
 AUS = {
-	color = rgb { 220 220 220 }
-	color_ui = rgb { 220 220 220 }
+	color = rgb { 240 208 16 }
+	color_ui = rgb { 240 208 16 }
 }
 AZE = {
 	color = rgb { 247 223 69 }
@@ -81,8 +81,8 @@ BFA = {
 	color_ui = rgb { 27 128 45 }
 }
 BHC = {
-	color = rgb { 119 0 0 }
-	color_ui = rgb { 119 0 0 }
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
 }
 BHU = {
 	color = rgb { 172 122 88 }
@@ -101,8 +101,8 @@ BOR = {
 	color_ui = rgb { 106 175 113 }
 }
 BOS = {
-	color = rgb { 67 158 34 }
-	color_ui = rgb { 67 158 34 }
+	color = rgb { 0 35 149 }
+	color_ui = rgb { 0 35 149 }
 }
 BOT = {
 	color = rgb { 117 170 219 }
@@ -137,8 +137,8 @@ CAF = {
 	color_ui = rgb { 50 12 175 }
 }
 CAL = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
 }
 CAM = {
 	color = rgb { 0 0 255 }
@@ -201,12 +201,12 @@ COS = {
 	color_ui = rgb { 212 161 9 }
 }
 CRO = {
-	color = rgb { 255 240 40 }
-	color_ui = rgb { 255 240 40 }
+	color = rgb { 219 112 147 }
+	color_ui = rgb { 219 112 147 }
 }
 CSA = {
-	color = rgb { 178 34 52 }
-	color_ui = rgb { 178 34 52 }
+	color = rgb { 209 0 0 }
+	color_ui = rgb { 209 0 0 }
 }
 CUB = {
 	color = rgb { 140 65 166 }
@@ -257,8 +257,8 @@ ECU = {
 	color_ui = rgb { 255 255 158 }
 }
 EGY = {
-	color = rgb { 78 255 0 }
-	color_ui = rgb { 78 255 0 }
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
 }
 ELS = {
 	color = rgb { 96 154 151 }
@@ -673,8 +673,8 @@ PAR = {
 	color_ui = rgb { 74 147 255 }
 }
 PAP = {
-	color = rgb { 255 255 183 }
-	color_ui = rgb { 255 255 183 }
+	color = rgb { 255 255 240 }
+	color_ui = rgb { 255 255 240 }
 }
 PER = {
 	color = rgb { 71 113 97 }
