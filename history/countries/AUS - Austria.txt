@@ -499,6 +499,16 @@ create_navy_leader = {
 }
 
 ###Resetting puppets
+
+set_autonomy = {
+	target = CRO
+	autonomous_state = kr_autonomous_puppet
+}
+set_autonomy = {
+	target = BOS
+	autonomous_state = kr_autonomous_puppet
+}
+
 CRO = {
 	set_politics = {
 		ruling_party = social_liberal
@@ -521,7 +531,7 @@ CRO = {
     }
 }
 
-CZE = {
+BOS = {
 	set_politics = {
 		ruling_party = social_liberal
 		last_election = "1930.11.9"

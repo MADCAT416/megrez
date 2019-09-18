@@ -7,7 +7,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = HUN
+		owner = AUS
 		buildings = {
 			infrastructure = 7
 		}
@@ -16,6 +16,6 @@ state = {
 	}
 
 	provinces = {
-		11630 9661 3700
+		11630 9661 3700 6672
 	}
 }
