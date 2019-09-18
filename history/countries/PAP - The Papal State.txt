@@ -13,7 +13,7 @@ add_ideas = {
 
 	PAP_holy_see
 }
-
+set_cosmetic_tag = PAP_Italy
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
