@@ -3,8 +3,9 @@ state = {
 	name = "STATE_943"
 
 	history = {
-		owner = SWI
+		owner = FRP
 		add_core_of = FRA
+		add_core_of = FRP
 		add_claim_by = NFA
 		buildings = {
 			infrastructure = 4
