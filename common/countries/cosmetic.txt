@@ -234,6 +234,6 @@ MAGHREB = {
 }
 
 WESTAFRIKA = {
-	color = rgb { 105 105 105 }
-	color_ui = rgb { 105 105 105 }
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
 }
