@@ -1,4 +1,4 @@
-#Cosmetic Colours of Kaiserreich
+#Cosmetic Colours of MEGREZ
 
 ANT_1 = {
 	color = rgb { 156 126 159 }

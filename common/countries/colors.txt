@@ -1,4 +1,4 @@
-#Country Colours of Kaiserreich
+#Country Colours of MEGREZ
 
 AFG = {
 	color = rgb { 64 160 167 }
