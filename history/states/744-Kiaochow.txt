@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GEA
+		owner = SQI
 		add_core_of = GEA
 		add_core_of = CHI
 		add_core_of = SQI
