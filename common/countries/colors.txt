@@ -309,8 +309,8 @@ FRA = {
 	color_ui = rgb { 30 84 183 }
 }
 FRP = {
-	color = rgb { 0 123 154 }
-	color_ui = rgb { 0 123 154 }
+	color = rgb { 141 171 216 }
+	color_ui = rgb { 141 171 216 }
 }
 GAB = {
 	color = rgb { 87 164 87 }
