@@ -145,8 +145,8 @@ CAM = {
 	color_ui = rgb { 0 0 255 }
 }
 CAN = {
-	color = rgb { 250 128 114 }
-	color_ui = rgb { 250 128 114 }
+	color = rgb { 20 10 120 }
+	color_ui = rgb { 20 10 120 }
 }
 CAR = {
 	color = rgb { 255 141 35 }
