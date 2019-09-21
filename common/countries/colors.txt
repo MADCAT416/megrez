@@ -305,12 +305,12 @@ FOP = {
 	color_ui = rgb { 150 71 71 }
 }
 FRA = {
-	color = rgb { 178 34 34 }
-	color_ui = rgb { 178 34 34 }
+	color = rgb { 30 84 183 }
+	color_ui = rgb { 30 84 183 }
 }
 FRP = {
-	color = rgb { 16 78 139 }
-	color_ui = rgb { 16 78 139 }
+	color = rgb { 0 123 154 }
+	color_ui = rgb { 0 123 154 }
 }
 GAB = {
 	color = rgb { 87 164 87 }
