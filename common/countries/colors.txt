@@ -185,8 +185,8 @@ CNR = {
 	color_ui = rgb { 211 84 79 }
 }
 CNT = {
-	color = rgb { 255 70 0 }
-	color_ui = rgb { 255 70 0 }
+	color = rgb { 255 40 0 }
+	color_ui = rgb { 255 40 0 }
 }
 COG = {
 	color = rgb { 199 160 139 }
@@ -401,8 +401,8 @@ HNN = {
 	color_ui = rgb { 249 126 98 }
 }
 HOL = {
-	color = rgb { 255 80 0 }
-	color_ui = rgb { 255 80 0 }
+	color = rgb { 255 100 0 }
+	color_ui = rgb { 255 100 0 }
 }
 HON = {
 	color = rgb { 161 76 65 }
