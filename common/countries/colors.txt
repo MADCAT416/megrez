@@ -109,8 +109,8 @@ BOT = {
 	color_ui = rgb { 117 170 219 }
 }
 BRA = {
-	color = rgb { 100 180 0 }
-	color_ui = rgb { 100 180 0 }
+	color = rgb { 0 155 58 }
+	color_ui = rgb { 0 155 58 }
 }
 BRD = {
 	color = rgb { 21 191 16 }
@@ -401,8 +401,8 @@ HNN = {
 	color_ui = rgb { 249 126 98 }
 }
 HOL = {
-	color = rgb { 255 100 0 }
-	color_ui = rgb { 255 100 0 }
+	color = rgb { 255 165 0 }
+	color_ui = rgb { 255 165 0 }
 }
 HON = {
 	color = rgb { 161 76 65 }
@@ -761,8 +761,8 @@ SAR = {
 	color_ui = rgb { 40 40 225 }
 }
 SAU = {
-	color = rgb { 0 100 0 }
-	color_ui = rgb { 0 100 0 }
+	color = rgb { 0 200 0 }
+	color_ui = rgb { 0 200 0 }
 }
 SCA = {
 	color = rgb { 36 100 247 }
@@ -941,8 +941,8 @@ UGA = {
 	color_ui = rgb { 21 21 227 }
 }
 UKR = {
-	color = rgb { 255 140 0 }
-	color_ui = rgb { 255 140 0 }
+	color = rgb { 0 91 187 }
+	color_ui = rgb { 0 91 187 }
 }
 ULS = {
 	color = rgb { 255 108 0 }
