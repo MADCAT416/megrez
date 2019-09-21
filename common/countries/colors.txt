@@ -257,8 +257,8 @@ ECU = {
 	color_ui = rgb { 255 255 158 }
 }
 EGY = {
-	color = rgb { 154 205 50 }
-	color_ui = rgb { 154 205 50 }
+	color = rgb { 34 139 34  }
+	color_ui = rgb { 34 139 34  }
 }
 ELS = {
 	color = rgb { 96 154 151 }
@@ -761,8 +761,8 @@ SAR = {
 	color_ui = rgb { 40 40 225 }
 }
 SAU = {
-	color = rgb { 0 110 10 }
-	color_ui = rgb { 0 110 10 }
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
 SCA = {
 	color = rgb { 36 100 247 }
@@ -1104,8 +1104,8 @@ RYU = {
 	color_ui = rgb { 160 255 113 }
 }
 PKS = {
-	color = rgb { 0 80 0 }
-	color_ui = rgb { 0 80 0 }
+	color = rgb { 1 65 28 }
+	color_ui = rgb { 1 65 28 }
 }
 SUE = {
 	color = rgb { 0 221 125 }
