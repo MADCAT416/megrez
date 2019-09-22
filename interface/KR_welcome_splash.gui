@@ -11,18 +11,18 @@ guiTypes = {
 		background = {
 			name = "KR_logo"
 			spriteType ="GFX_KR_splash_intro"
-			position = { x = -4 y = 0 }
+			position = { x = -4 y = -57 }
 		}
 
 		background = {
 			name = "KR_logo_bg"
 			spriteType = "GFX_KR_splash_intro_box"
-			position = { x = 4 y = 357 }
+			position = { x = 4 y = 300 }
 		}
 
 		instantTextboxType = {
 			name = "tab_1_text_header_2"
-			position = { x=224 y=382 }
+			position = { x=224 y=325 }
 			font = "hoi_36header"
 			text = "KR_SPLASH_TITLE"
 			maxWidth = 700
@@ -30,7 +30,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tab_1_cont3_text"
-			position = { x=61 y=447 }
+			position = { x=61 y=390 }
 			font = "hoi_20bs"
 			text = "KR_SPLASH_CREDITS"
 			maxWidth = 690
@@ -38,7 +38,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "mod_options_button"
-			position = { x = 255 y = 589 }
+			position = { x = 255 y = 532 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Continue"
 			buttonFont = "hoi_24header"
