@@ -145,6 +145,8 @@ set_country_flag = no_LEC_profit_for_you
 
 country_event = { id = austria.1 days = 1 } # Intro event
 
+set_cosmetic_tag = AUS_MON
+
 set_war_support = 0.1
 
 set_politics = {
