@@ -673,8 +673,8 @@ PAR = {
 	color_ui = rgb { 74 147 255 }
 }
 PAP = {
-	color = rgb { 255 195 0 }
-	color_ui = rgb { 255 195 0 }
+	color = rgb { 255 255 183 }
+	color_ui = rgb { 255 255 183 }
 }
 PER = {
 	color = rgb { 100 100 100 }
