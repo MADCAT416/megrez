@@ -1,25 +1,22 @@
-state = {
-	id = 777 # Woiwodschaft Schlesien
+state = { # 북발루치스탄
+	id = 777 
 	name = "STATE_777"
 	manpower = 1533500
-	state_category = eight
+	state_category = one
 
 	history = {
-		owner = GER
+		owner = AFG
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 		}
-		add_core_of = GER
-		victory_points = {
-			6464 4
-		}
+		add_core_of = AFG
+		add_core_of = PKS
+		
 	}
 
-	resources = {
-		steel = 4
-	}
+	
 
 	provinces = {
-		506 6464
+		5075 12761 8013 5020 4949 2101
 	}
 }

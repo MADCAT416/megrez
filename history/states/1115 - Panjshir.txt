@@ -1,9 +1,9 @@
 state = {
-	id = 415
-	name = "STATE_415" # Herat
+	id = 1115
+	name = "STATE_1115" # 판지시르
 	manpower = 1632860
 
-	state_category = two
+	state_category = one
 
 	history = {
 		owner = AFG
@@ -11,14 +11,14 @@ state = {
 			industrial_complex = 1
 			infrastructure = 2
 		}
-		victory_points = {
-			4893 2
-		}
 		
+		victory_points = {
+			5064 2
+		}
 		add_core_of = AFG
 	}
 
 	provinces = {
-		1948 1995 2017 2062 2078 4893 8053 12788 12871 10476 10896 
+		7519 12653 12314 10826 10781
 	}
 }
