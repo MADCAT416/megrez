@@ -9,7 +9,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = HUN
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 			11679 = {

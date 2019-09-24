@@ -9,7 +9,7 @@ state = {
 	state_category = six
 
 	history = {
-		owner = CZE
+		owner = AUS
 		victory_points = {
 			3569 10
 		}
@@ -22,6 +22,7 @@ state = {
 			air_base = 5
 		}
 		add_core_of = CZE
+		
 	}
 
 	provinces = {

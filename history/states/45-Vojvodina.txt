@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = HUN
+		owner = AUS
 		victory_points = {
 			9621 1
 		}

@@ -9,7 +9,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = HUN
+		owner = ROM
 		add_claim_by = HUN
 		add_core_of = ROM
 

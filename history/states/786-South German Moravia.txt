@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = CZE
+		owner = AUS
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1

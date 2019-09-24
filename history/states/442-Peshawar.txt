@@ -6,9 +6,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = AFG
+		owner = PKS
 		add_core_of = AFG
-		add_claim_by = PKS
+		add_core_of = PKS
 		add_claim_by = BHC
 		
 		victory_points = { 12763 1 } #Peshawar

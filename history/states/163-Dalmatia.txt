@@ -6,7 +6,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = CRO
+		owner = AUS
 		victory_points = {
 			3924 5
 		}

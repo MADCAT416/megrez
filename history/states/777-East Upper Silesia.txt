@@ -5,11 +5,11 @@ state = { # 북발루치스탄
 	state_category = one
 
 	history = {
-		owner = AFG
+		owner = PKS
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = AFG
+		add_claim_by = AFG
 		add_core_of = PKS
 		
 	}

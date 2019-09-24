@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HUN
+		owner = ROM
 		add_core_of = ROM
 		add_claim_by = HUN
 
