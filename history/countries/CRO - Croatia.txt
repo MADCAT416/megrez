@@ -139,7 +139,7 @@ add_opinion_modifier = { target = SRI modifier = embargo }
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = clerical_nationalist
+	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
