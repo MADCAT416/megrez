@@ -15,8 +15,8 @@ state = {
 		victory_points = {
 			9627 8
 		}
-		add_core_of = AUS
-		add_core_of = GER
+		add_core_of = SLO
+		
 	}
 
 	provinces = {

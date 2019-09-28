@@ -15,7 +15,7 @@ state = {
 			}
 		}
 
-		add_core_of = CRO
+		add_claim_by = CRO
 		add_core_of = SER
 		add_claim_by = HUN
 	}
