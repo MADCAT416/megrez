@@ -1,0 +1,25 @@
+
+# Anthem
+
+music = {
+	name = "den_gang_jeg_drog_afsted"
+	file = "den_gang_jeg_drog_afsted.ogg"
+	volume = 0.8
+}
+
+
+# War Song
+
+music = {
+	name = "East-vs-West-Soundtrack-WW3"
+	file = "megrez/East-vs-West-Soundtrack-WW3.ogg"
+	volume = 0.8
+}
+
+# Peace Song
+
+music = {
+	name = "East-vs-West-Soundtrack-Allies-Peace-1"
+	file = "megrez/East-vs-West-Soundtrack-Allies-Peace-1.ogg"
+	volume = 0.8
+}

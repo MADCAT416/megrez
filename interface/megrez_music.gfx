@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_megrez_album_art"
+		texturefile = "gfx/megrez_album_art.dds"
+		noOfFrames = 2
+	}	
+
+}
