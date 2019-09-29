@@ -90,7 +90,7 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_Rainer_Candidus_Barzel"
-		textureFile = "gfx/leaders/ENG/Portrait_GER_Rainer_Candidus_Barzel.tga"
+		textureFile = "gfx/leaders/GER/Portrait_GER_Rainer_Candidus_Barzel.tga"
 	}
 }
 
