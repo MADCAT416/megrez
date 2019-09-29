@@ -7,10 +7,10 @@ music = {
 }
 
 music = {
-	song = "megrez"
+	song = "Nuclear-Mike-Oldfield"
 	chance = {
 		modifier = {
-			factor = 0.1
+			factor = 2
 		}
 	}
 }
@@ -41,15 +41,6 @@ music = {
 }
 music = {
 	song = "Scorpions-Wind-Of-Change"
-	chance = {
-		modifier = {
-			factor = 2
-			has_war = no
-		}
-	}
-}
-music = {
-	song = "Nuclear-Mike-Oldfield"
 	chance = {
 		modifier = {
 			factor = 2
