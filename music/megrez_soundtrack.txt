@@ -1,0 +1,50 @@
+music_station = "megrez"
+
+# Anthem
+
+music = {
+	song = "den_gang_jeg_drog_afsted"
+}
+
+music = {
+	song = "Nuclear-Mike-Oldfield"
+	chance = {
+		modifier = {
+			factor = 2
+		}
+	}
+}
+
+# War Song
+
+music = {
+	song = "East-vs-West-Soundtrack-WW3"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+
+
+# Peace Song
+
+music = {
+	song = "East-vs-West-Soundtrack-Allies-Peace-1"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "Scorpions-Wind-Of-Change"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
