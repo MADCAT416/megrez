@@ -27,10 +27,29 @@ music = {
 	}
 }
 
+
 # Peace Song
 
 music = {
 	song = "East-vs-West-Soundtrack-Allies-Peace-1"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "Scorpions-Wind-Of-Change"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "Nuclear-Mike-Oldfield"
 	chance = {
 		modifier = {
 			factor = 2

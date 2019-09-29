@@ -23,3 +23,13 @@ music = {
 	file = "megrez/East-vs-West-Soundtrack-Allies-Peace-1.ogg"
 	volume = 0.8
 }
+music = {
+	name = "Scorpions-Wind-Of-Change"
+	file = "megrez/Scorpions-Wind-Of-Change.ogg"
+	volume = 0.8
+}
+music = {
+	name = "Nuclear-Mike-Oldfield"
+	file = "megrez/Nuclear-Mike-Oldfield.ogg"
+	volume = 0.8
+}
