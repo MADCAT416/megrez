@@ -1,0 +1,28 @@
+state = {
+	id = 983
+	name = "STATE_983"
+
+	history = {
+		owner = ICE
+		
+		buildings = {
+			infrastructure = 1
+			radar_station = 4
+			
+			10636 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = ICE
+		add_claim_by = DEN
+
+	}
+
+	provinces = {
+		10636 12512 13066 13569 13592 13602 13610 13617
+	}
+	manpower = 17000
+	buildings_max_level_factor = 1
+	state_category = pastoral
+}

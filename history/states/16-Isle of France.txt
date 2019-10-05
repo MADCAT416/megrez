@@ -1,7 +1,7 @@
 state = {
 	id = 16
 	name = "STATE_16"
-	manpower = 6785913
+	manpower = 9248631
 
 	state_category = twelve
 
@@ -10,7 +10,8 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		
 		victory_points = {
 			11506 50
 		}

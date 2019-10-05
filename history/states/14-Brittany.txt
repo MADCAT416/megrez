@@ -1,21 +1,29 @@
 state = {
 	id = 14
 	name = "STATE_14"
-	manpower = 1767647
+	manpower = 2468227
 
-	state_category = six
+	state_category = seven
 
 	history = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		
 		victory_points = {
 			9495 3
 		}
 		victory_points = {
 			11465 10
 		}
+		victory_points = {
+			3552 5
+		}
+		victory_points = {
+			6536 1
+		}
+		
 		buildings = {
 			infrastructure = 6
 			dockyard = 2
@@ -28,6 +36,6 @@ add_core_of = FRP
 	}
 
 	provinces = {
-		527 9495 9510 9525 11465 11508 11616
+		527 9495 9510 9525 11465 11508 11616 542 3552 3758 6536 6548 6572
 	}
 }
