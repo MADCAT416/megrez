@@ -9,7 +9,7 @@ state = {
 		add_claim_by = DEN 
 
 		buildings = {
-			infrastructure = 1
+			
 		}
 	}
 
