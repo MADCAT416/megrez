@@ -15,6 +15,6 @@ state = {
 		128 9128 9191 11169 13630
 	}
 
-	manpower = 2290
+	manpower = 9003
 	state_category = wasteland
 }
