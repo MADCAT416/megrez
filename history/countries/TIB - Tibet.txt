@@ -26,6 +26,20 @@ BHU = {
 		elections_allowed = no
 }
 
+set_popularities = {
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 2
+    social_democrat = 4
+    social_liberal = 6
+    market_liberal = 8
+    social_conservative = 12
+    authoritarian_democrat = 19
+    paternal_autocrat = 41
+    ethnic_populist = 8
+}
+
+
 }
 
 set_politics = {
