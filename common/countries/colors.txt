@@ -605,8 +605,8 @@ NAM = {
 	color_ui = rgb { 99 160 239}
 }
 NEE = {
-	color = rgb { 0 139 139 }
-	color_ui = rgb { 0 139 139 }
+	color = rgb { 21 107 21 }
+	color_ui = rgb { 21 107 21 }
 }
 NEP = {
 	color = rgb { 137 183 124 }
