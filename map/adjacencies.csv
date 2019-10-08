@@ -8,7 +8,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9498;9431;sea;8621;-1;-1;-1;-1;;Netherlands inlier
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;3231;3368;317;6257;6389;KAISER-WILHELM-KANAL;Kaiser-Wilhelm-Kanal
-# 843;8282;sea;3529;3553;1429;3418;1459;DON_VOLGA_CANAL;Don-Volga Canal
 
 13159;13199;sea;;-1;-1;-1;-1;STMARY_RIVER;
 13155;13199;sea;;-1;-1;-1;-1;MACKINAC;
