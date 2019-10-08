@@ -102,7 +102,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Mindaugas III"
+	name = "Vytautas II"
 	desc = "POLITICS_MINDAUGAS_III_DESC"
 	picture = "Portrait_Lithuania_Mindaugas_III.tga"
 	expire = "1991.1.1"
