@@ -8,6 +8,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9498;9431;sea;8621;-1;-1;-1;-1;;Netherlands inlier
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;3231;3368;317;6257;6389;KAISER-WILHELM-KANAL;Kaiser-Wilhelm-Kanal
+# 843;8282;sea;3529;3553;1429;3418;1459;DON_VOLGA_CANAL;Don-Volga Canal
 
 13159;13199;sea;;-1;-1;-1;-1;STMARY_RIVER;
 13155;13199;sea;;-1;-1;-1;-1;MACKINAC;
@@ -16,9 +17,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13154;13157;sea;;-1;-1;-1;-1;WELLAND_CANAL;
 13157;8642;sea;4345;-1;-1;-1;-1;SAINTLAWRENCE;
 
-1434;2332;sea;3151;-1;-1;-1;-1;NEVA_RIVER;
-2332;2356;sea;6057;-1;-1;-1;-1;SVIR_RIVER;
-13194;209;sea;94;-1;-1;-1;-1;WHITE_SEA_CANAL;
+1434;2332;sea;3151;3277;1733;3291;1735;NEVA_RIVER;
+2332;2356;sea;6057;3318;1746;3359;1758;SVIR_RIVER;
+13194;209;sea;94;3335;1816;3354;1842;WHITE_SEA_CANAL;
 
 6801;5913;sea;3988;-1;-1;-1;-1;CORINTOS_CANAL;
 8340;3590;;;-1;-1;-1;-1;MINCH;
@@ -31,7 +32,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2800;2776;;;-1;-1;-1;-1;BAB_EL_MANDEB;
 2919;2943;;;-1;-1;-1;-1;HORMOZ;
 
-5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
+5388;803;sea;1155;3312;1139;3311;1164;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn

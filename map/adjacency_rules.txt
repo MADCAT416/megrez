@@ -954,3 +954,44 @@ adjacency_rule
 	icon = 3078
 	offset = { 0 0 0 }
 }
+
+
+#돈-볼가 운하 
+adjacency_rule
+{
+	name = "DON_VOLGA_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+
+	required_provinces = { 9504 3529 }
+
+	icon = 3529
+	offset = { 0 0 0 }
+}
