@@ -3,7 +3,7 @@ state = {
 	name = "STATE_147"
 	manpower = 4630
 
-	state_category = zero
+	state_category = pastoral
 
 	history = {
 		owner = ALO
@@ -12,12 +12,10 @@ state = {
 		}
 		add_core_of = ALO
 		
-		victory_points = {
-			1864 3
-		}		
+			
 	}
 
 	provinces = {
-		1818 1749 12427 1864 7890 12594 
+		4773 12385 4492 12658 10506 12487 7556 12397 10508 7597 12329 10452 7657 7600 7354 7243 4300 4374 10603 12640 12340 4686 10148 
 	}
 }
