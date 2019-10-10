@@ -10,7 +10,8 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		
 		victory_points = {
 			9737 20
 		}
@@ -24,11 +25,16 @@ add_core_of = FRP
 				coastal_bunker = 1
 				bunker = 1
 			}
+			743 = {
+				bunker = 1
+			}
 		}
 	}
 
 	provinces = {
-		929 3740 6621 6759 6762 6775 6777 9710 9717 9737 11565 11720
+		929 3740 6621 6759 6762 6775 6777 9710 9717 9737 11565 11720 743 9882 12169 3749 755 6962 
+		752 3754 11709 3751 
+		3598 6792 9751 9734 11718 
 	}
 	manpower = 1643215
 	state_category = six

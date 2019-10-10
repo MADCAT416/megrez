@@ -2,7 +2,7 @@ state = {
 	id = 980
 	name = "STATE_980"
 	provinces = {
-		11483 11606
+		11483 11606 575
 	}
 	manpower = 1723308
 
@@ -16,20 +16,25 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		add_core_of = WLL
+		add_core_of = FLN
+		
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 3
-			arms_factory = 1
-			11483 = {
-				bunker = 4
-			}
-			11606 = {
+			industrial_complex = 4
+			arms_factory = 2
+			
+			575 = {
+				naval_base = 2
 				bunker = 4
 			}
 		}
 		victory_points = {
 			11483 20
+		}
+		victory_points = {
+			575 1
 		}
 	}
 }

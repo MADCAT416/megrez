@@ -6,7 +6,8 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		
 		buildings = {
 			infrastructure = 5
 		}
@@ -16,7 +17,7 @@ add_core_of = FRP
 	}
 
 	provinces = {
-		620 651 3598 3621 3626 3771 6618 6648 6651 6792 9734 9751 11718
+		620 3621 3626 3771 6618 6648 9593 
 	}
 	manpower = 1188139
 	state_category = five

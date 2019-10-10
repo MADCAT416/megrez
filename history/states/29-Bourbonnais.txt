@@ -3,29 +3,22 @@ state = {
 	name = "STATE_29"
 
 	history = {
-		owner = FLN
-		add_core_of = BEL
+		owner = FRP
 		add_core_of = FRA
-		add_core_of = FLN
 		add_core_of = FRP
 		add_claim_by = NFA
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
-			575 = {
-				naval_base = 2
-				bunker = 4
-			}
+			
 		}
-		victory_points = {
-			575 1
-		}
+		
 	}
 
 	provinces = {
-		575
+		6644 9607 3594 9609 667 
 	}
 	manpower = 299690
-	state_category = two
+	state_category = four
 }

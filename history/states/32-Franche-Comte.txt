@@ -10,16 +10,23 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
-		victory_points = { 780 3}
+		add_core_of = FRP
+		
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
+			
+			3666 = {
+				bunker = 2
+			}
+			3646 = {
+				bunker = 2
+			}
 		}
 	}
 
 	provinces = {
-		780 9728 11713 11716
+		9658 6698 698 9642 3666 817 3646 6668 3650 
 	}
 	manpower = 540000
 	state_category = five

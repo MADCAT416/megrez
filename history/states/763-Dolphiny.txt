@@ -17,10 +17,11 @@ add_core_of = FRP
 		victory_points = {
 			3768 3
 		}
+		victory_points = { 780 3}
 	}
 
 	provinces = {
-		762 764 3762 3764 3768 6784 9736
+		762 764 3762 3764 3768 6784 9736 780 11713 3589 
 	}
 	manpower = 629000
 	state_category = four

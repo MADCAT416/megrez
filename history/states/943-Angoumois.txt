@@ -9,20 +9,13 @@ state = {
 		add_claim_by = NFA
 		buildings = {
 			infrastructure = 4
-			9603 = {
-				bunker = 3
-			}
-			778 = {
-				bunker = 3
-			}
+			
 		}
-		victory_points = {
-			778 1
-		}
+		
 	}
 
 	provinces = {
-		778 9603
+		6657 11582 625 595 9597 
 	}
 
 	manpower = 260000

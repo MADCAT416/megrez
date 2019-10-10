@@ -29,7 +29,7 @@ add_core_of = FRP
 	}
 
 	provinces = {
-		3589 6613 6786 9590 11593
+		6613 6786 11593
 	}
 	manpower = 1540000
 	state_category = eight

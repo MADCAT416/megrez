@@ -9,7 +9,8 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
+		add_core_of = FRP
+		
 		victory_points = {
 			9748 3
 		}
@@ -20,7 +21,7 @@ add_core_of = FRP
 	}
 
 	provinces = {
-		590 769 3594 3770 6644 6773 6789 9593 9607 9732 9748 11576
+		590 769 3770 6773 6789 9748 11576 
 	}
 	manpower = 1621067
 	state_category = four

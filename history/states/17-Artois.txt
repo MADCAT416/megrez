@@ -1,6 +1,6 @@
 state = {
 	id = 17
-	name = "STATE_17" # Lorraine
+	name = "STATE_17" # Artois
 	manpower = 1179634
 
 	state_category = six
@@ -13,10 +13,7 @@ state = {
 		owner = FRP
 		add_claim_by = NFA
 		add_core_of = FRA
-add_core_of = FRP
-		victory_points = {
-			11548 5
-		}
+		add_core_of = FRP
 
 		buildings = {
 			infrastructure = 7
@@ -24,22 +21,17 @@ add_core_of = FRP
 			arms_factory = 2
 			air_base = 5
 
-			11548 = {
-				bunker = 2
-			}
 			3536 = {
 				bunker = 4
 			}
 			6504 = {
 				bunker = 1
 			}
-			9500 = {
-				bunker = 1
-			}
+			
 		}
 	}
 
 	provinces = {
-		3476 3536 6504 9500 11548
+		3476 3536 6504 
 	}
 }
