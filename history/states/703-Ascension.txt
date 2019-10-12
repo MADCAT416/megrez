@@ -4,7 +4,8 @@ state = {
 	manpower = 458
 	state_category = zero_island
 	history = {
-		owner = MAF
+		owner = GER
+		add_core_of = GER
 
 		buildings = {
 			infrastructure = 2
