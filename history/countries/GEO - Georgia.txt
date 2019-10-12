@@ -1,5 +1,7 @@
 ﻿capital = 231
 
+set_cosmetic_tag = ZKDFR
+
 oob = "empty"
 set_naval_oob = "GEO_naval"
 
