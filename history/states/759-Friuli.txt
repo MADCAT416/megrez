@@ -23,6 +23,6 @@ add_core_of = PAP
 	provinces = {
 		628 3657 6656 9613 13582
 	}
-	manpower = 938000
+	manpower = 1211000
 	state_category = five
 }

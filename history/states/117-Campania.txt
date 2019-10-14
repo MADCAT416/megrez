@@ -1,7 +1,7 @@
 state = {
 	id = 117
 	name = "STATE_117" # Campania
-	manpower = 3696600
+	manpower = 4969600
 
 	state_category = seven
 	resources = {
