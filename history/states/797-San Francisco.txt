@@ -28,5 +28,5 @@ state = {
 	provinces = {
 		9671 3678 
 	}
-	manpower = 700000
+	manpower = 720602
 }

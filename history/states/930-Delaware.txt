@@ -22,6 +22,6 @@ state = {
 		3917 6892 9758 9786 13628
 	}
 
-	manpower = 495700
+	manpower = 527742
 	state_category = eight
 }

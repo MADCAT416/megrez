@@ -32,5 +32,5 @@ state = {
 		3878 859
 	}
 
-	manpower = 7750000
+	manpower = 7872286
 }
