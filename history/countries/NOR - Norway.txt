@@ -1,7 +1,7 @@
 ﻿capital = 110
 
 oob = "empty"
-set_naval_oob = "NOR_naval"
+empty_oob = "empty"
 
 add_ideas = {
 	NOR_divided_airforce_idea
@@ -37,7 +37,7 @@ if = {
 	}
 	set_technology = {
 		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
+		baempty_mines = 1
 		interwar_light_ship_hull = 1
 		improved_light_ship_hull = 1
 		weltkrieg_cruiser_hull = 1

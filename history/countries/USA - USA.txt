@@ -1,6 +1,6 @@
 ﻿capital = 361
 oob = "empty"
-set_naval_oob = "USA_naval"
+empty_oob = "empty"
 
 # Starting tech
 set_technology = {
@@ -25,7 +25,7 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
+empty_bomber1 = 1
 	cv_CAS1 = 1
 }
 
@@ -37,7 +37,7 @@ if = {
 	}
 	set_technology = {
 		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
+		baempty_mines = 1
 		interwar_light_ship_hull = 1
 		improved_light_ship_hull = 1
 		weltkrieg_cruiser_hull = 1

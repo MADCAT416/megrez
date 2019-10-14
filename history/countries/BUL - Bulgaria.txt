@@ -1,6 +1,6 @@
 ﻿capital = 48
 oob = "empty"
-set_naval_oob = "BUL_naval"
+empty_oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1
@@ -17,7 +17,7 @@ set_technology = {
 	cv_early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
-	cv_naval_bomber1 = 1
+empty_bomber1 = 1
 }
 
 ### Navy - MtG ###
@@ -27,7 +27,7 @@ if = {
 	}
 	set_technology = {
 		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
+		baempty_mines = 1
 		interwar_light_ship_hull = 1
 		improved_light_ship_hull = 1
 		weltkrieg_cruiser_hull = 1
