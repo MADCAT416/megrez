@@ -1,7 +1,7 @@
 state = { #Tianjin
 	id = 609
 	name = "STATE_609"
-	manpower = 2000000
+	manpower = 3238000
 
 	state_category = eight
 
