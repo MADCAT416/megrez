@@ -1,7 +1,7 @@
 state = {
 	id = 468
 	name = "STATE_468" # Saint Lawrence
-	manpower = 3832754
+	manpower = 5134659
 	state_category = eleven
 
 	resources = {

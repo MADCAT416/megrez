@@ -1,7 +1,7 @@
 state = {
 	id = 471
 	name = "STATE_471" # Northwestern Canada
-	manpower = 109681
+	manpower = 15985
 
 	state_category = one
 	
