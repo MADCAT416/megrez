@@ -1,5 +1,5 @@
 ﻿capital = 34
-OOB = WLL
+OOB = "empty"
 set_research_slots = 3
 
 set_stability = 0.30

@@ -1,6 +1,6 @@
 ﻿capital = 306
 oob = "empty"
-set_naval_oob = "COL_naval"
+empty_oob = "empty"
 set_research_slots = 3
 set_technology = {
 	### Tanks ###
@@ -23,7 +23,7 @@ if = {
 	}
 	set_technology = {
 		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
+		baempty_mines = 1
 		interwar_light_ship_hull = 1
 		improved_light_ship_hull = 1
 		weltkrieg_cruiser_hull = 1

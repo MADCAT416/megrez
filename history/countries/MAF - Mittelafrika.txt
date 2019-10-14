@@ -1,7 +1,7 @@
 ﻿capital = 965
 
 oob = "empty"
-set_naval_oob = "MAF_naval"
+empty_oob = "empty"
 
 set_technology = {
 	### MOD ###
@@ -30,7 +30,7 @@ set_technology = {
 	early_bomber = 1
 	cv_early_fighter = 1
 	cv_CAS1 = 1
-	cv_naval_bomber1 = 1
+empty_bomber1 = 1
 	fighter1 = 1
 	tactical_bomber1 = 1
 	CAS1 = 1
@@ -44,7 +44,7 @@ if = {
 	}
 	set_technology = {
 		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
+		baempty_mines = 1
 		interwar_light_ship_hull = 1
 		improved_light_ship_hull = 1
 		weltkrieg_cruiser_hull = 1
