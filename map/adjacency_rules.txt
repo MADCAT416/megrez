@@ -990,8 +990,88 @@ adjacency_rule
 		trade = no
 	}
 
-	required_provinces = { 9504 3529 }
+	required_provinces = { 3529 }
 
-	icon = 3529
+	icon = 9504
+	offset = { 0 0 0 }
+}
+
+#돈강 하류
+adjacency_rule
+{
+	name = "DON_DOWNSTREAM"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+
+	required_provinces = { 9417 11418 449 3478 3489 3505 533 11527 }
+
+	icon = 11418
+	offset = { 0 0 0 }
+}
+
+#볼가강 하류
+adjacency_rule
+{
+	name = "VOLGA_DOWNSTREAM"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+
+	required_provinces = { 757 9753 6620 11429 9455 6486 6516 520 }
+
+	icon = 757
 	offset = { 0 0 0 }
 }
