@@ -7,7 +7,7 @@ state = {
 	history = {
 		owner = FNG
 		add_core_of = QIE
-		add_core_of = SQI
+		add_core_of = CHI
 		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
@@ -17,5 +17,5 @@ state = {
 	provinces = {
 		1545 1571 1732 3815 4551 5427 6863 7569 9623 9798 10215 10368 10379 10463 10519 10521 12342 12443 12500
 	}
-	manpower = 1375000
+	manpower = 4981267
 }

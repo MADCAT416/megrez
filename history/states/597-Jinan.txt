@@ -1,7 +1,7 @@
 state = { #Jinan
 	id = 597
 	name = "STATE_597"
-	manpower = 38758200
+	manpower = 45757312
 	state_category = four
 
 	history = {

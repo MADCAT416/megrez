@@ -1,7 +1,7 @@
 state = {
 	id = 610
 	name = "STATE_610" # Jehol
-	manpower = 2316100
+	manpower = 3312259
 
 	state_category = two
 
