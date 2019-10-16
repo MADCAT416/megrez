@@ -21,6 +21,6 @@ state = { #Ningxia
 		8127 10724 8055 7803 12750 7511 12776 
 		
 	}
-	manpower = 1023100
+	manpower = 2640947
 	state_category = two
 }
