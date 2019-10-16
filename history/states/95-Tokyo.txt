@@ -1,0 +1,32 @@
+state={
+	id=95
+	name="STATE_95"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		
+		
+		buildings = {
+			infrastructure = 10
+			air_base = 3
+
+			9998 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			1182 50
+		}
+		victory_points = {
+			9998 10
+		}
+	}
+
+	provinces={
+		1182 9998 
+	}
+	manpower=1269400
+	buildings_max_level_factor=1.000
+	state_category = twelve
+}

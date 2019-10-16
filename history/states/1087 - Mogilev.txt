@@ -7,9 +7,7 @@ state = {
 		victory_points = {
 			9289 2
 		}
-		victory_points = {
-			331 3
-		}
+		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -20,7 +18,7 @@ state = {
 	}
 
 	provinces = {
-		304 331 386	3378 6292 3350 6373 3293 6319 342 9289
+		386	3378 6292 3350 342 9289 3331 11322 
 	}
 	manpower = 1226000
 	state_category = three

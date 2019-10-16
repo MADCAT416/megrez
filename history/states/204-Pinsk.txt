@@ -7,6 +7,9 @@ state = {
 		victory_points = {
 			560 1.0
 		}
+		victory_points = {
+			331 3
+		}
 		buildings = {
 			infrastructure = 5
 		}
@@ -15,7 +18,7 @@ state = {
 	}
 
 	provinces = {
-		560 3556 6280 215 3203 3507 9249 
+		215 3203 3507 9249 6319 6373 3293 304 331 11313 
 	}
 	manpower = 1041084
 	state_category = three
