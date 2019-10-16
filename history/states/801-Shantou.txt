@@ -1,7 +1,7 @@
 state = { # Shantou
 	id = 801
 	name = "STATE_801"
-	manpower = 196000
+	manpower = 346778
 	state_category = two
 	resources = {
 		steel = 2

@@ -1,7 +1,7 @@
 state = {
 	id = 1099
 	name = "STATE_1099" 
-	manpower = 32000
+	manpower = 61325
 	state_category = small_island
 	resources = {
 		

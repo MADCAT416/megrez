@@ -1,7 +1,7 @@
 state = {
 	id = 592
 	name = "STATE_592" # 광주 
-	manpower = 1074000
+	manpower = 1500444
 	state_category = six
 
 	history = {

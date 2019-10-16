@@ -21,5 +21,5 @@ state = { #Jinxi #Western Shanxi
 	provinces = {
 		1034 1531 4074 7041 10367 10507 12300 12432 
 	}
-	manpower = 453500
+	manpower = 1500484
 }

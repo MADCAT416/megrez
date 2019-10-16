@@ -1,7 +1,7 @@
 state = {
 	id = 1053
 	name = "STATE_1053" # 서남광서
-	manpower = 493000
+	manpower = 952584
 	state_category = two
 	history = {
 		owner = GXC

@@ -31,6 +31,6 @@ state = { #Southern Chahar
 	provinces = {
 		828 881 952 1590 3955 6904 9768 9776 10397
 	}
-	manpower = 1470000
+	manpower = 2834214
 	state_category = two
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 287
 	name = "STATE_287" # Taklamakan
-	manpower = 454000
+	manpower = 892806
 
 	state_category = wasteland
 

@@ -1,7 +1,7 @@
 state = { # 동광서
 	id = 594
 	name = "STATE_594" 
-	manpower = 3850000
+	manpower = 7430003
 	state_category = four
 	resources = {
 		tungsten = 14
