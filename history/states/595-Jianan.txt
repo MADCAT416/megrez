@@ -5,7 +5,6 @@ state = { #Jianan
 	history = {
 		owner = CHI
 		add_core_of = CHI
-		add_core_of = AOG
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2

@@ -7,8 +7,6 @@ state = { # Xiamen
 	history = {
 		owner = CHI
 		add_core_of = CHI
-		
-		add_core_of = AOG
 		add_claim_by = FNG
 		victory_points = {
 			7071 1
