@@ -17,8 +17,8 @@ state = { #Yushu
 	}
 
 	provinces = {
-		 4914 4964 12899
+		 4914 4964 8037 12899
 	}
-	manpower = 172593
+	manpower = 367173
 	state_category = one
 }

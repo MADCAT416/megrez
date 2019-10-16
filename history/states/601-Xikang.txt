@@ -1,7 +1,7 @@
 state = {
 	id = 601
 	name = "STATE_601" # Xikang
-	manpower = 568200
+	manpower = 732007
 
 	state_category = one
 
