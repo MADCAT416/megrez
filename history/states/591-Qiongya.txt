@@ -1,7 +1,7 @@
 state = { #Qiongya
 	id = 591
 	name = "STATE_591"
-	manpower = 4350000
+	manpower = 6134242
 	state_category = four
 	resources = {
 		steel = 6
