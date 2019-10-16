@@ -5,7 +5,6 @@ state = {
 	state_category = four
 	history = {
 		owner = CHI
-		add_claim_by = AOG
 		add_core_of = CHI
 		
 		add_claim_by = FNG
