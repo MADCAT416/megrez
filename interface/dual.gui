@@ -6,7 +6,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "HoS_rank"
 			position = { x = 18 y = 60 }
-			font = "hoi_22typewriter"
+			font = "hoi_20b"
 			text = "[This.HoS_rank]"
 			maxWidth = 155
 			maxHeight = 20
@@ -59,7 +59,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "HoG_rank"
 			position = { x = 188 y = 60 }
-			font = "hoi_22typewriter"
+			font = "hoi_20b"
 			text = "[This.HoG_rank]"
 			maxWidth = 155
 			maxHeight = 20
