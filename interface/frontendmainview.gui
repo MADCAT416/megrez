@@ -77,15 +77,25 @@ guiTypes = {
     #    }
 
 		### Mod Coop Logo Button ###
-        ButtonType = {
-            name ="pdx_int_logo"
-            spriteType = "GFX_pdx_int_logo"
-            position = { x= 140 y = 18 }
-            clicksound = click_default
-            pdx_tooltip = "COOP_MAIN_MENU_LINK"
-            web_link = "https://discord.gg/fWY2sJT"
-        }		
+    #    ButtonType = {
+    #        name ="pdx_int_logo"
+    #        spriteType = "GFX_pdx_int_logo"
+    #        position = { x= 140 y = 18 }
+    #        clicksound = click_default
+    #        pdx_tooltip = "COOP_MAIN_MENU_LINK"
+    #        web_link = "https://discord.gg/fWY2sJT"
+    #    }		
+		
 			
+		### Encyclopedia Logo Button ###
+        ButtonType = {
+            name ="GFX_frontend_tank_logo"
+            spriteType = "GFX_frontend_tank_logo"
+            position = { x= 120 y = 18 }
+            clicksound = click_default
+            pdx_tooltip = "TANK ENCYCLOPEDIA"
+            web_link = "http://www.tanks-encyclopedia.com"
+        }	
 	}		
 
 	### SINGLE PLAYER MENU
