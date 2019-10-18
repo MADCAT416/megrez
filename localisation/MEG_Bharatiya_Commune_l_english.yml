@@ -1,0 +1,37 @@
+﻿l_english:
+
+ # Crete stuff at the bottom
+
+ ### Temporary ###
+
+
+ ### Ideas ###
+
+
+ ### Research Groups ###
+
+### Parties ###
+BHC_totalist_party:0 "Maximists"
+BHC_totalist_party_long:0 "Maximist wing of Indian National Congress"
+BHC_syndicalist_party:0 "Laborists"
+BHC_syndicalist_party_long:0 "Labor wing of Indian National Congress"
+BHC_democratic_socialist_party:0 "Agarians"
+BHC_democratic_socialist_party_long:0 "Agarian wing of Indian National Congress"
+BHC_social_democrat_party:0 "Moderates"
+BHC_social_democrat_party_long:0 "Moderate wing of Indian National Congress"
+BHC_social_progressive_party:0 "Bahujan Samaj Party"
+BHC_social_progressive_party_long:0 "Bahujan Samaj Party (Party of Majority of Society)"
+BHC_social_liberal_party:0 "RPI"
+BHC_social_liberal_party_long:0 "Republican Party of India"
+BHC_market_liberal_party:0 "Swatantra Party"
+BHC_market_liberal_party_long:0 "Swatantra Party (Independence Party)"
+BHC_social_conservative_party:0 "Swatantra Party"
+BHC_social_conservative_party_long:0 "Swatantra Party (Independence Party)"
+BHC_authoritarian_democrat_party:0 "BJS"
+BHC_authoritarian_democrat_party_long:0 "Bharatiya Jana Sangh (Indian People Organization)"
+BHC_paternal_autocrat_party:0 "BJS"
+BHC_paternal_autocrat_party_long:0 "Bharatiya Jana Sangh (Indian People Organization)"
+BHC_clerical_nationalist_party:0 "VHP"
+BHC_clerical_nationalist_party_long:0 "Vishva Hindu Parishad (World Hindu Council)"
+BHC_ethnic_populist_party:0 "RSS"
+BHC_ethnic_populist_party_long:0 "Rashtriya Swayamsevak Sangh (National Volunteer Organisation)"

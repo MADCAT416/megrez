@@ -32,6 +32,13 @@ defined_text = {
 		}
 		localization_key = POSITION_Emperor
 	}
+	### Kaiser
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Kaiser
+		}
+		localization_key = POSITION_Kaiser
+	}
 	### Premier
 	text = {
 		trigger = {

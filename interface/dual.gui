@@ -6,7 +6,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "HoS_rank"
 			position = { x = 18 y = 60 }
-			font = "hoi_18mbs"
+			font = "hoi_22typewriter"
 			text = "[This.HoS_rank]"
 			maxWidth = 155
 			maxHeight = 20
@@ -41,8 +41,6 @@ containerWindowType = {
 			spriteType = "GFX_pol_rank_frame"
 			position = { x = 180 y = 50 }		
 			allwaystransparent = yes
-			pdx_tooltip = "SECOND_LEADER_NAME"
-			pdx_tooltip_delayed = "SECOND_LEADER_DESC"
 		}
 		
 		instantTextboxType = {
@@ -61,7 +59,7 @@ containerWindowType = {
 		instantTextboxType = {
 			name = "HoG_rank"
 			position = { x = 188 y = 60 }
-			font = "hoi_18mbs"
+			font = "hoi_22typewriter"
 			text = "[This.HoG_rank]"
 			maxWidth = 155
 			maxHeight = 20
