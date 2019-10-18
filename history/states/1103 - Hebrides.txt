@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		owner = ENG
-		add_core_of = SCT
+		add_claim_by = CAN
 		
 		buildings = {
 			infrastructure = 1
