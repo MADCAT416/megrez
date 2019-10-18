@@ -11,6 +11,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 843;11474;sea;9753;3560;1425;3505;1490;VOLGA_DOWNSTREAM;Volga river
 11474;9504;sea;3529;3505;1490;3490;1490;DON_VOLGA_CANAL;Don-Volga canal
 9504;8282;sea;6490;3490;1490;3410;1460;DON_DOWNSTREAM;Don river
+8282;8308;sea;;-1;-1;-1;-1;KERCH;Kerch Strait 
 
 13159;13199;sea;;-1;-1;-1;-1;STMARY_RIVER;
 13155;13199;sea;;-1;-1;-1;-1;MACKINAC;
