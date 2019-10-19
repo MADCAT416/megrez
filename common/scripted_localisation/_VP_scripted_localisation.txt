@@ -1,4 +1,16 @@
 defined_text = {
+	name = VP_53.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_53
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_53
+	}
+}
+
+defined_text = {
 	name = VP_94.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
@@ -67,6 +79,18 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_156
+	}
+}
+
+defined_text = {
+	name = VP_169.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_169
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_169
 	}
 }
 
@@ -2663,6 +2687,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = VP_3125.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_3125
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_3125
+	}
+}
+
+defined_text = {
 	name = VP_3134.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
@@ -5231,6 +5267,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = VP_6033.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_6033
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_6033
+	}
+}
+
+defined_text = {
 	name = VP_6039.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
@@ -5251,6 +5299,30 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_6050
+	}
+}
+
+defined_text = {
+	name = VP_6082.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_6082
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_6082
+	}
+}
+
+defined_text = {
+	name = VP_6087.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_6087
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_6087
 	}
 }
 
@@ -5299,6 +5371,18 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_6124
+	}
+}
+
+defined_text = {
+	name = VP_6175.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_6175
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_6175
 	}
 }
 
@@ -7879,6 +7963,18 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_9108
+	}
+}
+
+defined_text = {
+	name = VP_9160.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_9160
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_9160
 	}
 }
 
@@ -10583,6 +10679,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = VP_11121.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_11121
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_11121
+	}
+}
+
+defined_text = {
 	name = VP_11136.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
@@ -10595,6 +10703,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = VP_11141.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_11141
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_11141
+	}
+}
+
+defined_text = {
 	name = VP_11159.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
@@ -10603,6 +10723,18 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_11159
+	}
+}
+
+defined_text = {
+	name = VP_11164.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_11164
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_11164
 	}
 }
 
@@ -10627,6 +10759,18 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_11202
+	}
+}
+
+defined_text = {
+	name = VP_11211.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_11211
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_11211
 	}
 }
 
@@ -13795,6 +13939,30 @@ defined_text = {
 	text = {
 		trigger = { has_global_flag = endonyms }
 		localization_key = endo_vp_13551
+	}
+}
+
+defined_text = {
+	name = VP_13552.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_13552
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_13552
+	}
+}
+
+defined_text = {
+	name = VP_13570.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_13570
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_13570
 	}
 }
 
