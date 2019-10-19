@@ -14049,3 +14049,15 @@ defined_text = {
 		localization_key = endo_vp_13709
 	}
 }
+
+defined_text = {
+	name = VP_11445.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_11445
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_11445
+	}
+}
