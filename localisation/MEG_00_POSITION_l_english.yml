@@ -1,0 +1,28 @@
+﻿l_english:
+
+##Title##
+ leader_title_one_none:0 "Leader"
+ leader_title_two_none:0 ""
+
+ leader_title_one_generic:0 "Head of State"
+ leader_title_two_generic:0 "Head of Government"
+
+ POSITION_GER_Reichsprasident:0 "Reichspräsident"
+ POSITION_GER_Reichskanzler:0 "Reichskanzler"
+ POSITION_GER_Fuhrer:0 "Führer"
+ POSITION_GER_Deputy_Fuhrer:0 "Deputy Führer"
+ POSITION_GER_Parteikanzlei:0 "Parteikanzlei"
+ POSITION_GER_Kaiser:0 "Deutscher Kaiser"
+ POSITION_AUS_Kaiser:0 "Kaiser"
+
+ POSITION_President:0 "President"
+ POSITION_Prime_Minister:0 "Prime Minister"
+ POSITION_Monarch:0 "Monarch"
+ POSITION_Emperor:0 "Emperor"
+ POSITION_Premier:0 "Premier"
+ POSITION_Chairman:0 "Chairman"
+ POSITION_General_Secretary:0 "General Secretary"
+ POSITION_Military_Governor:0 "Military Governor"
+ POSITION_Civil_Governor:0 "Civil Governor"
+ POSITION_Deputy_Commander:0 "Deputy Commander"
+ POSITION_Governor_General:0 "Governor-General"

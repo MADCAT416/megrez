@@ -177,7 +177,7 @@ adjacency_rule
 		trade = yes
 	}
 
-	required_provinces = { 7617 }
+	required_provinces = { 13725 7617 }
 
 	is_disabled {
 		OR {
@@ -1073,5 +1073,45 @@ adjacency_rule
 	required_provinces = { 757 9753 6620 11429 9455 6486 6516 520 }
 
 	icon = 757
+	offset = { 0 0 0 }
+}
+
+# 케르치 해협
+adjacency_rule
+{
+	name = "KERCH"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+
+	required_provinces = { 9680 }
+
+	icon = 9680
 	offset = { 0 0 0 }
 }

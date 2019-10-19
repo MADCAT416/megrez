@@ -207,16 +207,16 @@ set_politics = {
 }
 
 set_popularities = {
-    totalist = 1
-    democratic_socialist = 3
-    syndicalist = 2
-    social_democrat = 22
-    social_liberal = 6
-    market_liberal = 3
-    social_conservative = 12
-    authoritarian_democrat = 42
-    paternal_autocrat = 7
-    ethnic_populist = 2
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 15
+    social_liberal = 5
+    market_liberal = 8
+    social_conservative = 25
+    authoritarian_democrat = 45
+    paternal_autocrat = 2
+    ethnic_populist = 0
 }
 
 set_autonomy = {
@@ -392,36 +392,41 @@ create_import = {
 }
 
 create_country_leader = {
-	name = "Rudolf Hess"
-	desc = "POLITICS_RUDOLF_HESS_DESC"
-	picture = "gfx/leaders/GER/Portrait_GER_Rudolf_Hess.tga"
+	name = "Ferdinand I"
+	desc = "GER_Ferdinand_I_DESC"
+	picture = "gfx/leaders/GER/Portrait_GER_Ferdinand_I.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {
+	POSITION_GER_Kaiser
+		authoritarian_democrat
+
+		
+	}
 }
 
 create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck_I.tga"
+	name = "Andreas Baader"
+	desc = "POLITICS_Andreas_Baader_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Andreas_Baader.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ernst Thälmann"
-	desc = "POLITICS_ERNST_THALMANN_DESC"
-	picture = "Portrait_Germany_Ernst_Thalmann_I.tga"
+	name = "Fritz Teufel"
+	desc = "POLITICS_Fritz_Teufel_DESC"
+	picture = "Portrait_Germany_Fritz_Teufel.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Rudolf Rocker"
-	desc = "POLITICS_RUDOLF_ROCKER_DESC"
-	picture = "Portrait_Germany_Rudolf_Rocker_I.tga"
+	name = "Kurt Bachmann"
+	desc = "POLITICS_Kurt_Bachmann_DESC"
+	picture = "Portrait_Germany_Kurt_Bachmann.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
@@ -434,6 +439,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
@@ -446,6 +452,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
@@ -458,11 +465,23 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
 }
-
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = "GER_Ferdinand_I_DESC"
+	picture = "gfx/leaders/GER/Portrait_GER_Ferdinand_I.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+	POSITION_GER_Kaiser
+		authoritarian_democrat
+		
+	}
+}
 create_country_leader = {
 	name = "Ferdinand I"
 	desc = "GER_Ferdinand_I_DESC"
@@ -470,6 +489,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
@@ -481,6 +501,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
@@ -493,6 +514,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}
@@ -505,6 +527,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
+	POSITION_GER_Kaiser
 		authoritarian_democrat
 		
 	}

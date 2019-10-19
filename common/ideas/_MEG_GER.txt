@@ -54,6 +54,7 @@ ideas = {
 				head_of_government
 				social_progressive
 				hog_ambitious_union_boss
+				POSITION_GER_Reichskanzler
 			}
 			cancel_if_invalid = yes
 		}
@@ -81,6 +82,7 @@ ideas = {
 				head_of_government
 				authoritarian_democrat
 				hog_backroom_backstabber
+				POSITION_GER_Reichskanzler
 			}
 			cancel_if_invalid = yes
 		}
