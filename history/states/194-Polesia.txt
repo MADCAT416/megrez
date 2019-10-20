@@ -5,19 +5,20 @@ state = {
 	history = {
 		owner = UKR
 		add_core_of = UKR
-		
 		victory_points = {
-			6232 2
+			9568 1
 		}
+		
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			
+			nuclear_reactor = 1
 		}
 	}
 
 	provinces = {
-		6232 6556 9554 11453 9568 9466 11477 9493
+		9568 9466 11477 9493 6520 
 	}
 	manpower = 934632
-	state_category = three
+	state_category = pastoral
 }

@@ -10,7 +10,7 @@ state = {
 			infrastructure = 4
 			air_base = 4
 		}
-		add_core_of = UKR
+		add_claim_by = POL
 		add_core_of = WHR
 		victory_points = {
 			3392 5
@@ -19,6 +19,7 @@ state = {
 
 	provinces = {
 		3256 3392 6415 6546 11528 560 6280 11341 11285 3556 
+		3496 11503 535 6579
 	}
 	manpower = 617530
 }

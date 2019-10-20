@@ -1170,6 +1170,10 @@ country_event = {
 			name = endo_vp_156
 		}
 		set_province_name = {
+			id = 169
+			name = endo_vp_169
+		}
+		set_province_name = {
 			id = 177
 			name = endo_vp_177
 		}
@@ -2962,6 +2966,10 @@ country_event = {
 			name = endo_vp_6124
 		}
 		set_province_name = {
+			id = 6175
+			name = endo_vp_6175
+		}
+		set_province_name = {
 			id = 6217
 			name = endo_vp_6217
 		}
@@ -4048,6 +4056,10 @@ country_event = {
 		set_province_name = {
 			id = 9567
 			name = endo_vp_9567
+		}
+		set_province_name = {
+			id = 9568
+			name = endo_vp_9568
 		}
 		set_province_name = {
 			id = 9570
@@ -5890,6 +5902,10 @@ country_event = {
 			name = endo_vp_13552
 		}
 		set_province_name = {
+			id = 13570
+			name = endo_vp_13570
+		}
+		set_province_name = {
 			id = 13575
 			name = endo_vp_13575
 		}
@@ -7164,6 +7180,7 @@ country_event = {
 		reset_province_name = 122
 		reset_province_name = 153
 		reset_province_name = 156
+		reset_province_name = 169
 		reset_province_name = 177
 		reset_province_name = 191
 		reset_province_name = 192
@@ -7611,6 +7628,7 @@ country_event = {
 		reset_province_name = 6103
 		reset_province_name = 6115
 		reset_province_name = 6124
+		reset_province_name = 6175
 		reset_province_name = 6217
 		reset_province_name = 6232
 		reset_province_name = 6237
@@ -7883,6 +7901,7 @@ country_event = {
 		reset_province_name = 9559
 		reset_province_name = 9560
 		reset_province_name = 9567
+		reset_province_name = 9568
 		reset_province_name = 9570
 		reset_province_name = 9600
 		reset_province_name = 9604
@@ -8342,6 +8361,7 @@ country_event = {
 		reset_province_name = 13548
 		reset_province_name = 13551
 		reset_province_name = 13552
+		reset_province_name = 13570
 		reset_province_name = 13575
 		reset_province_name = 13601
 		reset_province_name = 13604

@@ -1,4 +1,3 @@
-
 state={
 	id=94
 	name="STATE_94"
@@ -6,6 +5,7 @@ state={
 	history={
 		owner = WHR
 		add_core_of = WHR
+		add_claim_by = POL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

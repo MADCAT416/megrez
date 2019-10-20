@@ -8567,6 +8567,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = VP_9568.GetName
+	text = {
+		trigger = { has_global_flag = exonyms }
+		localization_key = VICTORY_POINTS_9568
+	}
+	text = {
+		trigger = { has_global_flag = endonyms }
+		localization_key = endo_vp_9568
+	}
+}
+
+defined_text = {
 	name = VP_9570.GetName
 	text = {
 		trigger = { has_global_flag = exonyms }
