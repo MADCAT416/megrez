@@ -96,6 +96,7 @@ ideas = {
 				head_of_government
 				syndicalist
 				hog_happy_amateur
+				POSITION_General_Secretary
 			}
 			cancel_if_invalid = yes
 		}

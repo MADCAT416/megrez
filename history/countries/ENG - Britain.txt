@@ -237,6 +237,7 @@ create_country_leader = {
 	ideology = totalist_subtype
 	traits = {
 		totalist
+		POSITION_Chairman_TUC
 		hos_mad_hatter
 		}
 }
@@ -249,6 +250,7 @@ create_country_leader = {
 	ideology = democratic_socialist_subtype
 	traits = {
 		democratic_socialist
+		POSITION_Chairman_TUC
 		hos_die_hard_reformer
 		}
 }
@@ -261,6 +263,7 @@ create_country_leader = {
 	ideology = syndicalist_subtype
 	traits = { 
 		syndicalist
+		POSITION_Chairman_TUC
 		hos_stern_imperialist
 		}
 }
