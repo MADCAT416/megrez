@@ -25,6 +25,12 @@ defined_text = {
 		}
 		localization_key = POSITION_Monarch
 	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_King
+		}
+		localization_key = POSITION_King
+	}
 	### Emperor
 	text = {
 		trigger = {

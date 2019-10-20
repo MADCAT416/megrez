@@ -8,12 +8,14 @@ leader_traits = {
 	POSITION_Prime_Minister = { random = no }
 	# Monarch
 	POSITION_Monarch = { random = no }
+	POSITION_King = { random = no }
 	# Emperor
 	POSITION_Emperor = { random = no }
 	# Premier
 	POSITION_Premier = { random = no }
 	# Chairman
 	POSITION_Chairman = { random = no }
+	POSITION_Chairman_TUC = { random = no }
 	# Kaiser
 	POSITION_GER_Kaiser = { random = no }
 	# Kaiser

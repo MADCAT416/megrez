@@ -37,6 +37,7 @@ ideas = {
 				head_of_government
 				social_conservative
 				hog_naive_optimist
+				POSITION_Prime_Minister
 			}
 			cancel_if_invalid = yes
 		}

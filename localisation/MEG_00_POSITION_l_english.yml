@@ -18,6 +18,7 @@
  POSITION_President:0 "President"
  POSITION_Prime_Minister:0 "Prime Minister"
  POSITION_Monarch:0 "Monarch"
+ POSITION_King:0 "King"
  POSITION_Emperor:0 "Emperor"
  POSITION_Premier:0 "Premier"
  POSITION_Chairman:0 "Chairman"
