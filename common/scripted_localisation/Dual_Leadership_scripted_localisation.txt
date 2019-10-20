@@ -165,6 +165,13 @@ defined_text = {
 		}
 		localization_key = POSITION_President
 	}
+	### Vice President
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Vice_President
+		}
+		localization_key = POSITION_Vice_President
+	}
 	### Prime Minister
 	text = {
 		trigger = {

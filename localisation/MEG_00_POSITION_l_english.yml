@@ -16,6 +16,7 @@
  POSITION_AUS_Kaiser:0 "Kaiser"
  POSITION_Chairman_TUC:0 "Chairman of Trade Union Congress"
  POSITION_President:0 "President"
+ POSITION_Vice_President:0 "Vice President"
  POSITION_Prime_Minister:0 "Prime Minister"
  POSITION_Monarch:0 "Monarch"
  POSITION_King:0 "King"

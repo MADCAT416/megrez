@@ -4,6 +4,7 @@ leader_traits = {
 ########################################
 	# Reichsprasident
 	POSITION_President = { random = no }
+	POSITION_Vice_President = { random = no }
 	# Prime Minister
 	POSITION_Prime_Minister = { random = no }
 	# Monarch

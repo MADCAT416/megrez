@@ -37,6 +37,7 @@ ideas = {
 				head_of_government
 				syndicalist
 				hog_political_protege
+				POSITION_Vice_President
 			}
 			cancel_if_invalid = yes
 		}

@@ -90,6 +90,7 @@ ideas = {
 				head_of_government
 				market_liberal
 				hog_corporate_suit
+				POSITION_Vice_President
 			}
 			cancel_if_invalid = yes
 		}

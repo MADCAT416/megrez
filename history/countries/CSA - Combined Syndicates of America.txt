@@ -217,6 +217,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
+	POSITION_President
 		totalist
 		
 	}
@@ -228,6 +229,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {
+	POSITION_President
 		syndicalist
 		hos_die_hard_reformer
 	}
@@ -239,6 +241,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
+	POSITION_President
 		democratic_socialist
 		
 	}
@@ -250,6 +253,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
+	POSITION_President
 		social_democrat
 		
 	}
@@ -261,6 +265,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
 	traits = {
+	POSITION_President
 		social_progressive
 		
 	}
