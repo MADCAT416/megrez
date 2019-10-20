@@ -102,6 +102,7 @@ create_country_leader = {
 	traits = {
 		authoritarian_democrat
 		hos_rising_hawk
+		POSITION_EGY_Nasser
 	}
 }
 create_country_leader = {

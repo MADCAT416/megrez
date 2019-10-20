@@ -10,6 +10,7 @@ leader_traits = {
 	# Monarch
 	POSITION_Monarch = { random = no }
 	POSITION_King = { random = no }
+	POSITION_Queen = { random = no }
 	# Emperor
 	POSITION_Emperor = { random = no }
 	# Premier
@@ -42,5 +43,7 @@ leader_traits = {
 	POSITION_GER_Deputy_Fuhrer = { random = no }
 	# Parteikanzlei
 	POSITION_GER_Parteikanzlei = { random = no }
+	
+	POSITION_EGY_Nasser = { random = no }
 
 	}

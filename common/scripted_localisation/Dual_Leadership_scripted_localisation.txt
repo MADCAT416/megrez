@@ -31,6 +31,13 @@ defined_text = {
 		}
 		localization_key = POSITION_King
 	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Queen
+		}
+		localization_key = POSITION_Queen
+	}
+	
 	### Emperor
 	text = {
 		trigger = {
@@ -65,12 +72,12 @@ defined_text = {
 		}
 		localization_key = POSITION_Chairman
 	}
-	text = {
-		trigger = {
-			has_country_leader_with_trait = POSITION_Chairman_TUC
+		text = {
+			trigger = {
+				has_country_leader_with_trait = POSITION_Chairman_TUC
+			}
+			localization_key = POSITION_Chairman_TUC
 		}
-		localization_key = POSITION_Chairman_TUC
-	}
 	### General-Secretary
 	text = {
 		trigger = {
@@ -142,6 +149,15 @@ defined_text = {
 			has_country_leader_with_trait = POSITION_GER_Parteikanzlei
 		}
 		localization_key = POSITION_GER_Parteikanzlei
+	}
+	
+	
+	### Nasser 
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_EGY_Nasser
+		}
+		localization_key = POSITION_EGY_Nasser
 	}
 
 	text = {
