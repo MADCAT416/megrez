@@ -1126,6 +1126,16 @@ country_event = {
 			}
 			every_country = {
 				limit = {
+					has_antirevolutionary_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = KR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
 					OR = {
 						has_communist_dictatorship_government = yes
 						has_socialist_government = yes
@@ -1259,6 +1269,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_government = clerical_nationalist
+			}
+			set_country_flag = opinion_set_clerical_nationalist
+		}
+		if = {
+			limit = {
 				has_government = national_populist
 			}
 			set_country_flag = opinion_set_national_populist
@@ -1316,6 +1332,10 @@ country_event = {
 				has_country_flag = opinion_set_paternal_autocrat
 			}
 			AND = {
+				NOT = { has_government = clerical_nationalist }
+				has_country_flag = opinion_set_clerical_nationalist
+			}
+			AND = {
 				NOT = { has_government = national_populist }
 				has_country_flag = opinion_set_national_populist
 			}
@@ -1329,6 +1349,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_social_conservative }
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
+				NOT = { has_country_flag = opinion_set_clerical_nationalist }
 				NOT = { has_country_flag = opinion_set_national_populist }
 			}
 		}
@@ -1348,6 +1369,7 @@ country_event = {
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
+		clr_country_flag = opinion_set_clerical_nationalist
 		clr_country_flag = opinion_set_national_populist
 		every_country = {
 			remove_opinion_modifier = {
@@ -1608,6 +1630,20 @@ country_event = {
 		if = {
 			limit = {
 				has_antirevolutionary_government = yes
+			}
+			every_country = {
+				limit = {
+					has_antirevolutionary_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = KR_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = KR_similar_ideology
+				}
 			}
 			every_country = {
 				limit = {

@@ -1,0 +1,35 @@
+﻿l_english:
+
+ # Crete stuff at the bottom
+
+ ### Temporary ###
+
+ ### Ideas ###
+
+ ### Research Groups ###
+
+### Parties ###
+PAP_totalist_party:0 "UN"
+PAP_totalist_party_long:0 "Unione Nazionalista (Nationalist Union)"
+PAP_democratic_socialist_party:0 "USC"
+PAP_democratic_socialist_party_long:0 "Unione Socialista Cristiana (Christian Socialist Union)"
+PAP_syndicalist_party:0 "US"
+PAP_syndicalist_party_long:0 "Unione Sindicale (Syndicalist Union)"
+PAP_social_democrat_party:0 "PSDI"
+PAP_social_democrat_party_long:0 "Partito Socialista Democratico Italiano (Italian Democratic Socialist Party)"
+PAP_social_progressive_party:0 "FdV"
+PAP_social_progressive_party_long:0 "Federazione dei Verdi (Federation of the Greens)"
+PAP_social_liberal_party:0 "PR"
+PAP_social_liberal_party_long:0 "Partito Radicale (Radical Party)"
+PAP_market_liberal_party:0 "PRI"
+PAP_market_liberal_party_long:0 "Partito Repubblicano Italiano (Italian Republican Party)"
+PAP_social_conservative_party:0 "PLI"
+PAP_social_conservative_party_long:0 "Partito Liberale Italiano (Italian Liberal Party)"
+PAP_authoritarian_democrat_party:0 "DC"
+PAP_authoritarian_democrat_party_long:0 "Democrazia Cristiana (Christian Democracy)"
+PAP_paternal_autocrat_party:0 "Sancta Sedes"
+PAP_paternal_autocrat_party_long:0 "Sancta Sedes (the Holy See)"
+PAP_clerical_nationalist_party:0 "AC"
+PAP_clerical_nationalist_party_long:0 "Azione Cattolica (Catholic Action)"
+PAP_ethnic_populist_party:0 "AN"
+PAP_ethnic_populist_party_long:0 "Avanguardia Nazionale (National Vanguard)"

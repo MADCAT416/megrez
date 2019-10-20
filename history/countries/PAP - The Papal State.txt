@@ -125,27 +125,30 @@ set_convoys = 50
 set_stability = 0.6
 set_war_support = 0.1
 
+set_country_flag = coalition_paternal_autocrat
+
 give_military_access = SIC
 give_guarantee = SIC
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    totalist = 0
-    syndicalist = 0
-    democratic_socialist = 6
-    social_democrat = 2
-    social_liberal = 10
-    market_liberal = 10
-    social_conservative = 12
-    authoritarian_democrat = 8
-    paternal_autocrat = 42
-    ethnic_populist = 10
+    totalist = 10
+    syndicalist = 5
+    democratic_socialist = 10
+    social_democrat = 10
+    social_liberal = 0
+    market_liberal = 2
+    social_conservative = 3
+    authoritarian_democrat = 45
+    paternal_autocrat = 5
+    clerical_nationalist = 5
+    ethnic_populist = 5
 }
 ### Political Leaders ###
 create_country_leader = {
@@ -164,8 +167,21 @@ create_country_leader = {
 	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
 	desc = "PAP_Papa_Paulus_VI_DESC"
 	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {
+	POSITION_President
+		paternal_autocrat
+		
+	}
+}
+create_country_leader = {
+	name = "Papa Paulus VI"
+	picture = "gfx/leaders/PAP/Portrait_PAP_Paulus_VI.tga"
+	desc = "PAP_Papa_Paulus_VI_DESC"
+	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
+	POSITION_President
 		paternal_autocrat
 		
 	}
@@ -177,6 +193,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
+	POSITION_President
 		paternal_autocrat
 		
 	}
@@ -188,6 +205,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {
+	POSITION_President
 		paternal_autocrat
 		
 	}
@@ -199,6 +217,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
+	POSITION_President
 		paternal_autocrat
 		
 	}
@@ -210,6 +229,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {
+	POSITION_President
 		paternal_autocrat
 		
 	}
