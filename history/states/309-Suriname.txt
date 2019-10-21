@@ -9,7 +9,10 @@ state = {
 		victory_points = {
 			10906 1
 		}
-		owner = HOL
+		owner = CAF
+		add_core_of = CAF
+		add_claim_by = HOL
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

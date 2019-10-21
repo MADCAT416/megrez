@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = NFA
+		owner = CAF
 		buildings = {
 			infrastructure = 3
 			12885 = {
@@ -17,7 +17,7 @@ state = {
 			12885 1
 		}
 		
-		add_core_of = NFA
+		add_core_of = CAF
 	}
 
 	provinces = {
