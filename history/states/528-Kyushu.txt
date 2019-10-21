@@ -1,7 +1,7 @@
 state = {
 	id = 528
 	name = "STATE_528" # Kyushu
-	manpower = 9069000
+	manpower = 12130058
 	state_category = eight
 	resources = {
 		chromium = 88
