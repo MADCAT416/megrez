@@ -10,8 +10,8 @@ state = {
 
 	history = {
 		owner = FLN
-		victory_points = { 516 30 }
-		victory_points = { 6598 20 }
+		victory_points = { 516 20 }
+		victory_points = { 6598 25 }
 		victory_points = { 6560 10 }
 		victory_points = { 13659 1 }
 		victory_points = { 13660 1 }
