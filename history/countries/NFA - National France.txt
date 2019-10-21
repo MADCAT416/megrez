@@ -1,4 +1,4 @@
-﻿capital = 459
+﻿capital = 730
 
 oob = "empty"
 empty_oob = "empty"
