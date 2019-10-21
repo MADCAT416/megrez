@@ -18,6 +18,6 @@ state = {
 		6657 11582 625 595 9597 
 	}
 
-	manpower = 260000
+	manpower = 814638
 	state_category = two
 }

@@ -10,7 +10,7 @@ state = {
 			infrastructure = 4
 			air_base = 4
 		}
-		add_claim_by = POL
+		add_core_of = POL
 		add_core_of = WHR
 		victory_points = {
 			3392 5
