@@ -617,8 +617,8 @@ NER = {
 	color_ui = rgb { 224 82 6 }
 }
 NFA = {
-	color = rgb { 0 18 127 }
-	color_ui = rgb { 0 18 127 }
+	color = rgb { 19 83 180 }
+	color_ui = rgb { 19 83 180 }
 }
 NGF = {
 	color = rgb { 125 0 6 }
