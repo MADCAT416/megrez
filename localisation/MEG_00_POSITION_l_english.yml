@@ -26,7 +26,7 @@
     POSITION_Monarch:0 "Monarch"
     POSITION_King:0 "King" # 국왕
     POSITION_Queen:0 "Queen" # 여왕
-    POSITION_Kommisariat:0 "Kommisariat" # 여왕
+    POSITION_Kommisariat:0 "Heilige Liga Hochkommissar" # 여왕
     POSITION_Emperor:0 "Emperor" # 황제
     POSITION_Premier:0 "Premier" # 수상
     POSITION_General_Secretary:0 "General Secretary" # 서기장
