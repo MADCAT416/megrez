@@ -1,0 +1,23 @@
+state = { # Wengzhou
+	id = 803
+	name = "STATE_803"
+	manpower = 1517919
+	state_category = two
+
+	history = {
+		
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			
+		}
+		
+		victory_points = {
+			12071 2
+		}
+	}
+	provinces = {
+		1151 12071 
+	}
+}

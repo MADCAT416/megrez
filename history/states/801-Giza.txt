@@ -1,7 +1,7 @@
 state = { # 
 	id = 801
 	name = "STATE_801"
-	manpower = 346778
+	manpower = 2779898
 	state_category = two
 	resources = {
 		
@@ -14,6 +14,10 @@ state = { #
 		buildings = {
 			infrastructure = 1
 			
+		}
+		
+		victory_points = {
+			3996 1
 		}
 	}
 	provinces = {

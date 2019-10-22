@@ -1,7 +1,7 @@
 state = {
 	id = 1068
 	name = "STATE_1068"
-	manpower = 7455821
+	manpower = 8190821
 	state_category = four
 	history = {
 		
@@ -10,10 +10,18 @@ state = {
 		add_core_of = CHI
 		add_claim_by = FNG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			
+			4013 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4013 1
 		}
 	}
 	provinces = {
-		1096 1168 7058 10058
+		1096 1168 7058 10058 4013
 	}
 }

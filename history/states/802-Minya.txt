@@ -1,7 +1,7 @@
 state = { # Xiamen
 	id = 802
 	name = "STATE_802"
-	manpower = 414556
+	manpower = 2740071
 	state_category = two
 
 	history = {
