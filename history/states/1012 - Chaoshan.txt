@@ -1,11 +1,11 @@
 state = {
 	id = 1012
 	name = "STATE_1012" # 동광동
-	manpower = 13143418
+	manpower = 13245567
 	state_category = four
 	resources = {
 		tungsten = 20
-		steel = 20
+		steel = 22
 		chromium = 4
 	}
 
@@ -14,15 +14,21 @@ state = {
 		add_core_of = GXC
 		add_core_of = CHI
 		add_claim_by = FNG
+		victory_points = {
+			9938 1
+		}
 		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
+			9938 = {
+				naval_base = 1
+			}
 		}
 	}
 
 	provinces = {
-		1078 1162 4050 4165 4207 7067 7141 7182 9978
+		1078 1162 4050 4165 4207 7067 7141 7182 9978 9938
 	}
 }

@@ -1,7 +1,7 @@
 state = { #Yuehai
 	id = 593
 	name = "STATE_593" # 서광동
-	manpower = 23621487
+	manpower = 23805069
 	state_category = five
 	resources = {
 		tungsten = 10

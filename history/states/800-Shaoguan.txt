@@ -1,7 +1,7 @@
 state = {
 	id = 800
 	name = "STATE_800" # 북광동
-	manpower = 7855026
+	manpower = 7916074
 	state_category = two
 
 	history = {
