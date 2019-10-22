@@ -16,6 +16,6 @@ state = {
 	provinces = {
 		317 3231
 	}
-	manpower = 49305
+	manpower = 76932
 	state_category = two
 }
