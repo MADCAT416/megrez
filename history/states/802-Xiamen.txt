@@ -5,23 +5,18 @@ state = { # Xiamen
 	state_category = two
 
 	history = {
-		owner = CHI
-		add_core_of = CHI
-		add_claim_by = FNG
+		owner = EGY
+		add_core_of = EGY
+		
 		victory_points = {
-			7071 1
+			1068 1
 		}
-
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			dockyard = 1
-			7071 = {
-				naval_base = 1
-			}
+			
+			
 		}
 	}
 	provinces = {
-		7071
+		7144 10031 1068 4055 
 	}
 }

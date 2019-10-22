@@ -18,6 +18,6 @@ state = { #Jianan
 	provinces = {
 		1138 1193 4070 4113 10012 10042 10084 12057
 	}
-	manpower = 7079315
+	manpower = 7454687
 	state_category = two
 }

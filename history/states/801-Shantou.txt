@@ -11,16 +11,12 @@ state = { #
 		owner = EGY
 		add_core_of = EGY
 		
-		victory_points = {
-			1068 1
-		}
-
 		buildings = {
 			infrastructure = 1
 			
 		}
 	}
 	provinces = {
-		992 1068 3996 4055 7117 7144 7216 10031 
+		992 3996 7117 7216 
 	}
 }
