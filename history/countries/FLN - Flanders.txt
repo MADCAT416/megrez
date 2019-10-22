@@ -136,7 +136,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.11.7"
 	election_frequency = 48
 	elections_allowed = no
@@ -145,15 +145,12 @@ set_politics = {
 set_popularities = {
     totalist = 0
     democratic_socialist = 0
-    syndicalist = 4
-    social_democrat = 12
-    social_liberal = 10
-    market_liberal = 8
-    social_conservative = 30
-    authoritarian_democrat = 15
-    paternal_autocrat = 13
-    ethnic_populist = 8
-}
+    syndicalist = 0    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 100
+    ethnic_populist = 0}
 
 add_ideas = {
 	BEL_Flemish_Lion
@@ -167,57 +164,66 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Staf De Clercq"
-	desc = "POLITICS_STAF_DE_CLERCQ_DESC"
-	picture = "Portrait_Belgium_Staf_De_Clercq.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {
-	name = "Joris Van Severen"
-	desc = "POLITICS_JORIS_SEVEREN_DESC"
-	picture = "Portrait_Belgium_Joris_Van_Severen.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {POSITION_Kommisariat}
+}
+
+create_country_leader = {
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {
-	name = "Raad van Vlaanderen"
-	desc = "POLITICS_FLEMISH_COUNCIL_DESC"
-	picture = "gfx/leaders/FLN/Portrait_Belgium_Flemish_Council.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {
-	name = "Frans van Cauwelaert"
-	desc = "POLITICS_FRANS_VAN_CAUWELAERT_DESC"
-	picture = "Portrait_Belgium_Frans_Van_Cauwelaert.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {
-	name = "Paul-Henri Spaak"
-	desc = "POLITICS_PAUL_HENRI_SPAAK_DESC"
-	picture = "Portrait_Belgium_Paul_Henri_Spaak.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {
-	name = "Camille Huysmans"
-	desc = "POLITICS_CAMILLE_HUYSMANSI_DESC"
-	picture = "Portrait_Belgium_Camille_Huysmans.tga"
+	name = "Kommisariat"
+	desc = "POLITICS_Kommisariat_DESC"
+	picture = "Portrait_FLN_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 create_country_leader = {

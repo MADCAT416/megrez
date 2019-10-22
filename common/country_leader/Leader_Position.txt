@@ -32,7 +32,7 @@ leader_traits = {
 	POSITION_Deputy_Commander = { random = no }
 	# Governor-General
 	POSITION_Governor_General = { random = no }
-
+	POSITION_Kommisariat = { random = no }
 	# Reichsprasident
 	POSITION_GER_Reichsprasident = { random = no }
 	# Reichskanzler
