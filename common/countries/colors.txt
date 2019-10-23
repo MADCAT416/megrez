@@ -145,8 +145,8 @@ CAM = {
 	color_ui = rgb { 0 0 255 }
 }
 CAN = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 255 205 205 }
+	color_ui = rgb { 255 205 205 }
 }
 CAR = {
 	color = rgb { 255 141 35 }
@@ -453,8 +453,8 @@ JAM = {
 	color_ui = rgb { 0 155 58 }
 }
 JAP = {
-	color = rgb { 252 201 185 }
-	color_ui = rgb { 252 201 185 }
+	color = rgb { 255 226 147 }
+	color_ui = rgb { 255 226 147 }
 }
 JOR = {
 	color = rgb { 105 32 128 }
