@@ -1,7 +1,7 @@
 state = {
 	id = 431
 	name = "STATE_431" # West Bengal
-	manpower = 18524100
+	manpower = 41496291
 
 	state_category = eight
 
