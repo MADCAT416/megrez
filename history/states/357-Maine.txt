@@ -16,7 +16,7 @@ state = {
 			dockyard = 1
 		}
 
-		add_core_of = USA
+		
 		add_core_of = NEE
 		add_core_of = CSA
 		victory_points = {

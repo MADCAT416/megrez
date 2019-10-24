@@ -9,7 +9,7 @@ state = {
 	history = {
 		owner = CAL
 		add_core_of = CAL
-		add_core_of = USA
+		 
 		add_claim_by = CSA
 		buildings = {
 			infrastructure = 3

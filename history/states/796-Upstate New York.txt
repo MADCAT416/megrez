@@ -15,7 +15,7 @@ state = {
 			arms_factory = 2
 			air_base = 10
 		}
-		add_core_of = USA
+		
 		add_core_of = CSA
 		add_core_of = NEE
 		victory_points = {
