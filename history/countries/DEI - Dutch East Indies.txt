@@ -18,13 +18,6 @@ set_country_flag = { flag = dei_insulindian_unity value = 7 }
 set_country_flag = { flag = dei_insulindian_strength value = 2 }
 set_convoys = 250
 
-HOL = {
-	set_autonomy = {
-		target = DEI
-		autonomous_state = kr_default_puppet
-	}
-}
-
 # Starting tech, clone of Holland
 set_technology = {
 	### MOD ###

@@ -192,52 +192,76 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Fernand Dehousse"
-	desc = "POLITICS_FERNAND_DEHOUSSE_DESC"
-	picture = "gfx/leaders/WLL/Portrait_Fernand_Dehousse.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 create_country_leader = {
-	name = "Auguste Buisseret"
-	desc = "POLITICS_AUGUSTE_BUISSERET_DESC"
-	picture = "gfx/leaders/WLL/Portrait_August_Buisseret.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {POSITION_Kommisariat}
+}
+create_country_leader = {
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
+	expire = "1991.1.1"
+	ideology = social_liberal_subtype
+	traits = {POSITION_Kommisariat}
+}
+create_country_leader = {
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 create_country_leader = {
-	name = "Hubert Pierlot"
-	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 create_country_leader = {
-	name = "Adelbert"
-	desc = "POLITICS_ADALBERT_I_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {POSITION_Kommisariat}
+}
+create_country_leader = {
+	name = "Heilige Liga Hochkommissar"
+	desc = "POLITICS_WLL_Kommisariat_DESC"
+	picture = "gfx/leaders/WLL/Portrait_WLL_Kommisariat.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
-	traits = {}
+	traits = {POSITION_Kommisariat}
 }
 
 ### Field Marshal

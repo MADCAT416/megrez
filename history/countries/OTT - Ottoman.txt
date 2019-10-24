@@ -169,10 +169,7 @@ set_popularities = {
     ethnic_populist = 2
 }
 
-set_autonomy = {
-	target = YEM
-	autonomous_state = kr_autonomous_puppet
-}
+
 
 YEM = {
 	set_politics = {
@@ -636,32 +633,6 @@ create_navy_leader = {
 	skill = 1
 }
 
-set_autonomy = {
-	target = LBA
-	autonomous_state = kr_default_puppet
-}
-
-"LBA" = {
-	set_politics = {
-		ruling_party = authoritarian_democrat
-		last_election = "1930.11.9"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-    set_popularities = {
-        totalist = 0
-        democratic_socialist = 0
-        syndicalist = 2
-        social_democrat = 4
-        social_liberal = 6
-        market_liberal = 8
-        social_conservative = 12
-        authoritarian_democrat = 41
-        paternal_autocrat = 19
-        ethnic_populist = 8
-    }
-}
 
 country_event = { id = afro.1 days = 29 hours = 1 }
 country_event = { id = afro.2 days = 1800 hours = 1 }

@@ -207,14 +207,6 @@ set_popularities = {
     ethnic_populist = 10
 }
 
-set_autonomy = {
-	target = PHI
-	autonomous_state = kr_default_puppet
-}
-set_autonomy = {
-	target = LIB
-	autonomous_state = kr_default_puppet
-}
 
 # Resetting politics for all puppets which come earlier in the load order
 "PHI" = {

@@ -188,7 +188,7 @@ guiTypes = {
 				pdx_tooltip = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-			}	
+			}		
 			
 			
 		}
@@ -197,10 +197,14 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 340 y = 230 }
+			position = { x = 5 y = 417 }
 			size = { width = 255 height = 60 }
 			clipping = no
-			scale = 0.75
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_subject_overlay"
+			}
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
@@ -278,8 +282,8 @@ guiTypes = {
 			
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 350 y = 50 }
-			size = { width = 380 height = 50 }
+			position = { x = 370 y = 50 }
+			size = { width = 500 height = 50 }
 			clipping = no
 						
 			background = {
@@ -471,8 +475,6 @@ guiTypes = {
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
-
-
 		}
 
 		iconType ={
@@ -499,12 +501,12 @@ guiTypes = {
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
-			position = { x =670 y = 7 }
+			position = { x = 670 y = 7 }
 		}
 		
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 570 y = 370 }
+			position = { x = 540 y = 560 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -512,7 +514,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 610 y = 378 }
+			position = { x = 580 y = 570 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			alwaystransparent = yes
@@ -520,7 +522,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "show_subjects_button"
-			position = { x = -180 y = 470 }
+			position = { x = -210 y = 660 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_RIGHT"
@@ -528,7 +530,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "show_subjects_button_text"
-			position = { x = -130 y = 480 }
+			position = { x = -160 y = 668 }
 			font = "hoi_16mbs"
 			text = "MANAGE_SUBJECTS"
 			Orientation = "UPPER_RIGHT"
@@ -537,7 +539,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_button"
-			position = { x = 570 y = 420 }
+			position = { x = 540 y = 610 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -548,24 +550,24 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 573 y = 421 }
+			position = { x = 543 y = 612 }
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 573 y = 372 }
+			position = { x = 543 y = 562 }
 		}
 
 		iconType = {
 			name = "icon_manage_subjects"
 			spriteType = "GFX_icon_manage_subjects"
-			position = { x = 573 y = 473 }
+			position = { x = 543 y = 660 }
 		}
 
 		instantTextboxType = {
 			name = "manage_exiled_governments"
-			position = { x = 603 y = 429 }
+			position = { x = 575 y = 618 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
