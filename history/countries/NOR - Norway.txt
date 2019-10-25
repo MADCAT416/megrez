@@ -121,16 +121,18 @@ set_politics = {
 }
 
 set_popularities = {
-    totalist = 9.6
-    syndicalist = 5
-    democratic_socialist = 27.4
-    social_democrat = 8
-    social_liberal = 9
-    market_liberal = 13
-    social_conservative = 11
-    authoritarian_democrat = 10
-    paternal_autocrat = 5.1
-    ethnic_populist = 1.9
+    totalist = 5
+    syndicalist = 55
+    democratic_socialist = 5
+    social_democrat = 5
+    social_progressive = 3
+    social_liberal = 6
+    market_liberal = 3
+    social_conservative = 6
+    authoritarian_democrat = 3
+    paternal_autocrat = 3
+    clerical_nationalist = 3
+    ethnic_populist = 3
 }
 
 create_country_leader = {
