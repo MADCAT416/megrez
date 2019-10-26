@@ -107,8 +107,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Fārūq I al-Awwal"
-	desc = "EGY_Sexking_DESC"
-	picture = "gfx/leaders/EGY/Portrait_EGY_Sexking.tga"
+	desc = "EGY_Farouk_DESC"
+	picture = "gfx/leaders/EGY/Portrait_EGY_Farouk.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
