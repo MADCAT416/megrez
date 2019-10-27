@@ -481,7 +481,6 @@ leader_traits = {
 		ai_focus_peaceful_factor = 0.5
 		drift_defence_factor = 0.5
 		social_liberal_drift = 0.1
-		democratic_acceptance = 75
 		
 		ai_will_do = {
 			factor = 1
