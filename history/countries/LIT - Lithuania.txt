@@ -68,8 +68,7 @@ add_opinion_modifier = { target = ENG modifier = embargo }
 
 set_research_slots = 3
 
-country_event = { id = lithuania.1 days = 1 } #Intro event
-country_event = { id = lithuania.4 days = 180 }
+
 
 set_war_support = 0.1
 

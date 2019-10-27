@@ -46,10 +46,7 @@ set_popularities = {
     ethnic_populist = 4
 }
 
-country_event = {
-	days = 2
-	id = par.1
-}
+
 
 create_country_leader = {
 	name = "Higenio Morinigo Martinez"

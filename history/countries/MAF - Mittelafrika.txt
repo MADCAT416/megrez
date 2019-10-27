@@ -156,8 +156,7 @@ add_opinion_modifier = { target = ENG modifier = embargo }
 add_opinion_modifier = { target = SRI modifier = embargo }
 add_opinion_modifier = { target = GEO modifier = embargo }
 
-country_event = { id = mittel.167 days = 1 } #Intro event
-country_event = { id = mittel.1 days = 5 }
+
 
 set_research_slots = 3
 set_convoys = 50

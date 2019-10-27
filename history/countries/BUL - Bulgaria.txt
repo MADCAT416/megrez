@@ -90,7 +90,7 @@ if = {
 	}
 }
 
-country_event = { id = bulgaria.1 days = 1 } #Intro event
+
 
 set_research_slots = 3
 set_convoys = 40

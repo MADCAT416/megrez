@@ -99,10 +99,7 @@ if = {
 	}
 }
 
-country_event = { id = bra.1 days = 1 } #Intro Event
-country_event = { id = bra.2 days = 4 } #Padre Cicero Passes Away
-country_event = { id = bra.3 days = 7 } #The Carlés Regime
-country_event = { id = bra.713 days = 70 } #Tenentist Uprising
+
 give_guarantee = URG
 give_guarantee = CEN
 

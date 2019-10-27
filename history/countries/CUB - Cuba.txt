@@ -57,9 +57,6 @@ if = {
 	}
 }
 
-country_event = { id = cuba.0 days = 1 }
-country_event = { id = cuba.1 days = 28 }
-news_event = { id = cuba.226 days = 139 }
 
 set_convoys = 25
 set_stability = 0.3

@@ -433,7 +433,7 @@ csa_helps_international = {
 		CSA = {
 			OR = {
 				has_idea = CSA_lead_revolution_idea
-				has_completed_focus = CSA_good_soldier
+				
 			}
 		}
 	}

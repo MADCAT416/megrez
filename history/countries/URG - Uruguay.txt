@@ -110,10 +110,7 @@ set_popularities = {
 }
 
 
-country_event = {
-	id = urg.1
-	days = 2
-}
+
 
 add_ideas = {
 	URG_neutrality_idea

@@ -48,10 +48,7 @@ add_ideas = {
 	SQI_Xie_Juezai_sec_npo
 }
 
-country_event = {
-	id = fengtian.new.0
-	days = 1
-}
+
 
 create_country_leader = {
 	name = "Zhang Tianran"

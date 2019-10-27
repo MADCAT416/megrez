@@ -56,18 +56,7 @@ set_popularities = {
 }
 
 activate_mission = SWI_peace_mission_ongoing
-country_event = {
-	days = 2 id = swiss.41
-}
-country_event = {
-	days = 70 id = swiss.143
-}
-country_event = {
-	months = 7 id = swiss.145
-}
-country_event = {
-	months = 10 id = swiss.146
-}
+
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 1500

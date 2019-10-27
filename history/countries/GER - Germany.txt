@@ -381,7 +381,7 @@ add_to_faction = BOS
 add_to_faction = LIT
 
 
-news_event = { id = gerfla.1 days = 238 }
+
 
 country_event = {
 	id = black.1

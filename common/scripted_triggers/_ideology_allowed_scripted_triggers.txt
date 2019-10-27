@@ -88,7 +88,7 @@ democratic_socialist_allowed = {
 						AND = {
 							tag = CUB
 							NOT = {
-								has_completed_focus = CUB_revdem_newparty
+								
 							}
 						}
 					}
@@ -97,7 +97,7 @@ democratic_socialist_allowed = {
 						AND = {
 							tag = CUB
 							NOT = {
-								has_completed_focus = CUB_revdem_newparty
+								
 							}
 						}
 					}

@@ -118,7 +118,7 @@ if = {
 
 set_research_slots = 2
 
-country_event = { id = LIB.1 days = 1 } #Intro event
+
 
 set_war_support = 0.1
 

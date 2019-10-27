@@ -118,7 +118,7 @@ add_ideas = {
 
 set_country_flag = ott_opda_flag
 
-country_event = { id = ott.1 days = 1 } # Intro event
+
 
 add_opinion_modifier = { target = EGY modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }
@@ -634,21 +634,6 @@ create_navy_leader = {
 }
 
 
-country_event = { id = afro.1 days = 29 hours = 1 }
-country_event = { id = afro.2 days = 1800 hours = 1 }
-country_event = { id = afro.5 days = 247 hours = 1 }
-country_event = { id = afro.6 days = 3158 hours = 1 }
-country_event = { id = afro.8 days = 1044 hours = 1 }
-### Eid-ul Fitr
-country_event = { id = afro.3 days = 348 hours = 1 }
-TRK = { country_event = { id = afro.3 days = 348 hours = 1 } }
-EGY = { country_event = { id = afro.3 days = 348 hours = 1 } }
-SAU = { country_event = { id = afro.3 days = 348 hours = 1 } }
-AFG = { country_event = { id = afro.3 days = 348 hours = 1 } }
-AZE = { country_event = { id = afro.3 days = 348 hours = 1 } }
-OMA = { country_event = { id = afro.3 days = 348 hours = 1 } }
-YEM = { country_event = { id = afro.3 days = 348 hours = 1 } }
-"LBA" = { country_event = { id = afro.3 days = 348 hours = 1 } }
 ###
 
 ### Ship Variants ###

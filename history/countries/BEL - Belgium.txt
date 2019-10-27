@@ -193,10 +193,7 @@ add_equipment_to_stockpile = {
 	producer = BEL
 }
 
-country_event = {
-	id = bel.1
-	days = 48
-}
+
 
 add_ideas = {
 	BEL_King_Exile

@@ -119,7 +119,7 @@ leader_traits = {
 
 	hog_old_air_marshal = {
 		production_speed_air_base_factor = 0.17
-		training_time_air_factor  = -0.05
+
 		experience_gain_air = 0.05
 		
 		equipment_bonus = {
@@ -153,7 +153,6 @@ leader_traits = {
 		max_planning = 0.1
 		training_time_army_factor  = -0.05
 		experience_gain_army = 0.13
-		training_time_army_factor  = 
 
 		random = no
 	}
@@ -335,7 +334,7 @@ leader_traits = {
 	hog_gentleman_politician = { #Muhammad Ali Jinnah
 
 		political_power_gain = 0.1
-		research_time_factor = -0.03
+		research_speed_factor = -0.03
 		consumer_goods_factor = -0.05
 
 		random = no
@@ -384,7 +383,7 @@ leader_traits = {
 
 	eco_administrative_genius = {
 		production_speed_buildings_factor = 0.07
-		research_time_factor = -0.02
+		research_speed_factor = -0.02
 		industrial_capacity_factory = 0.06
 
 		random = no
@@ -546,7 +545,7 @@ leader_traits = {
 		production_speed_rocket_site_factor = 0.2
 		production_speed_nuclear_reactor_factor = 0.2
 		production_speed_radar_station_factor = 0.2
-		research_time_factor = -0.04
+		research_speed_factor = -0.04
 		industrial_capacity_factory = -0.01
 
 		random = no
@@ -907,7 +906,7 @@ leader_traits = {
 
 	int_technical_specialist = {
 		decryption = 0.5
-		research_time_factor = -0.025
+		research_speed_factor = -0.025
 
 		random = no
 	}

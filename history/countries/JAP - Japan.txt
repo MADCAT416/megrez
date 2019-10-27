@@ -154,8 +154,7 @@ if = {
 
 set_convoys = 300
 
-country_event = { id = japdom.1 days = 1 }
-country_event = { id = japdom.6 days = 135 }
+
 
 add_ideas = {
 	JAP_Kishi_Nobusuke_hog_aut

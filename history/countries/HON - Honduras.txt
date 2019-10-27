@@ -85,9 +85,7 @@ add_ideas = {
 	HON_Juan_Manuel_Galvez_eco_sco
 	HON_Arturo_Martinez_Galindo_sec_tot
 }
-country_event = {
-	id = cafla.18 days = 258
-}
+
 create_country_leader = {
 	name = "José León Castro"
 	desc = "POLITICS_JOSE_LEON_CASTRO_DESC"

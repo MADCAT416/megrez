@@ -81,10 +81,7 @@ set_popularities = {
     ethnic_populist = 2
 }
 
-country_event = {
-	id = pers.1
-	days = 2
-}
+
 
 create_country_leader = {
 	name = "Bahram Ariana"

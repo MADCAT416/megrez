@@ -57,25 +57,7 @@ if = {
 	}
 }
 
-country_event = {
-	id = fengtian.new.151
-	days = 1
-}
 
-country_event = {
-	id = fengtian.new.124
-	days = 28
-}
-
-country_event = {
-	id = fengtian.new.173
-	days = 266
-}
-
-country_event = {
-	id = fngpolitic.0
-	days = 50
-}
 
 add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = AOG modifier = embargo }

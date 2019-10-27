@@ -146,15 +146,7 @@ add_ideas = {
 set_stability = 0.50
 set_war_support = 0.40
 
-country_event = {
-	id = allgost.1
-	days = 42
-}
 
-country_event = {
-	id = fengtian.new.0
-	days = 1
-}
 
 add_opinion_modifier = { target = FNG modifier = embargo }
 add_opinion_modifier = { target = FRA modifier = embargo }

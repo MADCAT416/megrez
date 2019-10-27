@@ -199,8 +199,8 @@ country_event = {
 				has_idea_with_trait = paternal_autocrat
 			}
 			AND = {
-				has_government = national_populist
-				has_idea_with_trait = national_populist
+				has_government = ethnic_populist
+				has_idea_with_trait = ethnic_populist
 			}
 			AND = {
 				has_government = social_progressive
@@ -302,9 +302,9 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { has_government = national_populist }
+			limit = { has_government = ethnic_populist }
 			add_popularity = {
-				ideology = national_populist
+				ideology = ethnic_populist
 				popularity = 0.03
 			}
 		}
@@ -397,7 +397,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
 					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
 					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
-					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.35 ethnic_populist > 0.199 }
 				}
 			}
 			modifier = {
@@ -410,7 +410,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.2 }
 					AND = { has_government = market_liberal market_liberal < 0.2 }
 					AND = { has_government = social_conservative social_conservative < 0.2 }
-					AND = { has_government = national_populist national_populist < 0.2 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.2 }
 				}
 			}
 			modifier = {
@@ -423,7 +423,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
 					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
 					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
-					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.75 ethnic_populist > 0.599 }
 				}
 			}
 			modifier = {
@@ -436,7 +436,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal > 0.749 }
 					AND = { has_government = market_liberal market_liberal > 0.749 }
 					AND = { has_government = social_conservative social_conservative > 0.749 }
-					AND = { has_government = national_populist national_populist > 0.749 }
+					AND = { has_government = ethnic_populist ethnic_populist > 0.749 }
 				}
 			}
 		}
@@ -466,7 +466,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
 					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
 					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
-					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.35 ethnic_populist > 0.199 }
 				}
 			}
 			modifier = {
@@ -479,7 +479,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.2 }
 					AND = { has_government = market_liberal market_liberal < 0.2 }
 					AND = { has_government = social_conservative social_conservative < 0.2 }
-					AND = { has_government = national_populist national_populist < 0.2 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.2 }
 				}
 			}
 			modifier = {
@@ -492,7 +492,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
 					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
 					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
-					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.75 ethnic_populist > 0.599 }
 				}
 			}
 			modifier = {
@@ -505,7 +505,7 @@ country_event = {
 					AND = { has_government = social_liberal social_liberal > 0.749 }
 					AND = { has_government = market_liberal market_liberal > 0.749 }
 					AND = { has_government = social_conservative social_conservative > 0.749 }
-					AND = { has_government = national_populist national_populist > 0.749 }
+					AND = { has_government = ethnic_populist ethnic_populist > 0.749 }
 				}
 			}
 		}
@@ -523,10 +523,10 @@ country_event = {
 	picture = GFX_report_event_generic_rally
 
 	trigger = {
-		has_idea_with_trait = national_populist
-		national_populist < 0.7
+		has_idea_with_trait = ethnic_populist
+		ethnic_populist < 0.7
 		NOT = {
-			has_government = national_populist
+			has_government = ethnic_populist
 		}
 	}
 
@@ -534,15 +534,15 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 2
-			has_idea_with_trait = national_populist
-			national_populist > 0.299
-			national_populist < 0.4
+			has_idea_with_trait = ethnic_populist
+			ethnic_populist > 0.299
+			ethnic_populist < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = national_populist
-			national_populist > 0.399
-			national_populist < 0.5
+			has_idea_with_trait = ethnic_populist
+			ethnic_populist > 0.399
+			ethnic_populist < 0.5
 		}
 	}
 
@@ -609,8 +609,8 @@ country_event = {
 		}
 
 		if = {
-			limit = { has_idea_with_trait = national_populist }
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			limit = { has_idea_with_trait = ethnic_populist }
+			add_popularity = { ideology = ethnic_populist popularity = 0.03 }
 		}
 	}
 
@@ -790,7 +790,7 @@ country_event = {
 					AND = { has_government = democratic_socialist democratic_socialist < 0.35 democratic_socialist > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
-					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.35 ethnic_populist > 0.199 }
 				}
 			}
 			modifier = {
@@ -801,7 +801,7 @@ country_event = {
 					AND = { has_government = democratic_socialist democratic_socialist < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
-					AND = { has_government = national_populist national_populist < 0.2 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.2 }
 				}
 			}
 			modifier = {
@@ -812,7 +812,7 @@ country_event = {
 					AND = { has_government = democratic_socialist democratic_socialist < 0.75 democratic_socialist > 0.599 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
 					AND = { has_government = paternal_autocrat paternal_autocrat < 0.75 paternal_autocrat > 0.599 }
-					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+					AND = { has_government = ethnic_populist ethnic_populist < 0.75 ethnic_populist > 0.599 }
 				}
 			}
 			modifier = {
@@ -823,7 +823,7 @@ country_event = {
 					AND = { has_government = democratic_socialist democratic_socialist > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
-					AND = { has_government = national_populist national_populist > 0.749 }
+					AND = { has_government = ethnic_populist ethnic_populist > 0.749 }
 				}
 			}
 		}
@@ -1083,7 +1083,7 @@ country_event = {
 					OR = {
 						has_communist_dictatorship_government = yes
 						has_socialist_government = yes
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				add_opinion_modifier = {
@@ -1168,7 +1168,7 @@ country_event = {
 				limit = {
 					OR = {
 						has_communist_dictatorship_government = yes
-						has_government = national_populist
+						has_government = ethnic_populist
 						has_government = paternal_autocrat
 					}
 				}
@@ -1275,9 +1275,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_ethnic_populist
 		}
 	}
 
@@ -1336,8 +1336,8 @@ country_event = {
 				has_country_flag = opinion_set_clerical_nationalist
 			}
 			AND = {
-				NOT = { has_government = national_populist }
-				has_country_flag = opinion_set_national_populist
+				NOT = { has_government = ethnic_populist }
+				has_country_flag = opinion_set_ethnic_populist
 			}
 			AND = {
 				NOT = { has_country_flag = opinion_set_totalist }
@@ -1350,7 +1350,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
 				NOT = { has_country_flag = opinion_set_clerical_nationalist }
-				NOT = { has_country_flag = opinion_set_national_populist }
+				NOT = { has_country_flag = opinion_set_ethnic_populist }
 			}
 		}
 	}
@@ -1370,7 +1370,7 @@ country_event = {
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
 		clr_country_flag = opinion_set_clerical_nationalist
-		clr_country_flag = opinion_set_national_populist
+		clr_country_flag = opinion_set_ethnic_populist
 		every_country = {
 			remove_opinion_modifier = {
 				target = ROOT
@@ -1575,7 +1575,7 @@ country_event = {
 					OR = {
 						has_communist_dictatorship_government = yes
 						has_socialist_government = yes
-						has_government = national_populist
+						has_government = ethnic_populist
 					}
 				}
 				add_opinion_modifier = {
@@ -1688,7 +1688,7 @@ country_event = {
 				limit = {
 					OR = {
 						has_communist_dictatorship_government = yes
-						has_government = national_populist
+						has_government = ethnic_populist
 						has_government = paternal_autocrat
 					}
 				}
@@ -1805,9 +1805,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = ethnic_populist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_ethnic_populist
 		}
 	}
 

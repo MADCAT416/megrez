@@ -97,10 +97,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-country_event = {
-	id = argcar.1
-	days = 1
-}
+
 
 set_stability = -0.10
 set_war_support = 0

@@ -131,10 +131,6 @@ set_convoys = 50
 set_stability = 0.5
 set_war_support = 0.20
 
-country_event = { id = socitaly.1 days = 1 }
-country_event = { id = socitaly.101 days = 90 }
-country_event = { id = socitaly.102 days = 360 }
-country_event = { id = socitaly.105 days = 3000 }
 
 set_politics = {
 	ruling_party = syndicalist

@@ -235,13 +235,7 @@ on_actions = {
 							tag = TEX
 							tag = CSA
 						}
-						OR = {
-							has_idea = USA_civil_war_aftermath_idea
-							has_idea = USA_civil_war_aftermath_idea2
-							has_idea = USA_civil_war_aftermath_idea3
-							has_idea = USA_civil_war_aftermath_idea4
-							has_idea = USA_civil_war_aftermath_idea5
-						}
+	
 						NOT = { has_country_flag = ACW_attacked_during_recovery }
 					}
 				}

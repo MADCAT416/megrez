@@ -1,7 +1,7 @@
 ﻿capital = 37
 oob = "empty"
 empty_oob = "empty"
-country_event = { id = den.71 days = 156 }
+
 set_research_slots = 3
 set_technology = {
 ### MOD ###

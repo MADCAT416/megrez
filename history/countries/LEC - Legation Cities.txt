@@ -71,7 +71,7 @@ if = {
 	}
 }
 
-country_event = { id = legcities.22 days = 2 }
+
 
 set_research_slots = 3
 set_convoys = 300

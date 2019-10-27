@@ -507,8 +507,8 @@ KR_delhi_ignore_BHC_claims = {
 		country_exists = BHC
 		NOT = {
 			has_war_with = BHC
-			has_completed_focus = DEH_invadeBHC
-			has_completed_focus = DEH_revoltBHC
+			
+			
 		}
 	}
 
@@ -516,8 +516,8 @@ KR_delhi_ignore_BHC_claims = {
 		OR = {
 			NOT = { country_exists = BHC }
 			has_war_with = BHC
-			has_completed_focus = DEH_invadeBHC
-			has_completed_focus = DEH_revoltBHC
+			
+			
 		}
 	}
 
@@ -534,8 +534,8 @@ KR_delhi_ignore_PRF_claims = {
 		country_exists = PRF
 		NOT = {
 			has_war_with = PRF
-			has_completed_focus = DEH_invadePRF
-			has_completed_focus = DEH_revoltPRF
+			
+			
 		}
 	}
 
@@ -543,8 +543,8 @@ KR_delhi_ignore_PRF_claims = {
 		OR = {
 			NOT = { country_exists = PRF }
 			has_war_with = PRF
-			has_completed_focus = DEH_invadePRF
-			has_completed_focus = DEH_revoltPRF
+			
+			
 		}
 	}
 
@@ -561,9 +561,9 @@ KR_prf_ignore_BHC_claims = {
 		country_exists = BHC
 		NOT = {
 			has_war_with = BHC
-			has_completed_focus = PRF_deal_with_devil
-			has_completed_focus = PRF_incite_orissa
-			has_completed_focus = PRF_attack_bhartiya
+			
+			
+			
 		}
 	}
 
@@ -571,9 +571,9 @@ KR_prf_ignore_BHC_claims = {
 		OR = {
 			NOT = { country_exists = BHC }
 			has_war_with = BHC
-			has_completed_focus = PRF_deal_with_devil
-			has_completed_focus = PRF_incite_orissa
-			has_completed_focus = PRF_attack_bhartiya
+			
+			
+			
 		}
 	}
 
@@ -590,8 +590,8 @@ KR_prf_ignore_DEH_claims = {
 		country_exists = DEH
 		NOT = {
 			has_war_with = DEH
-			has_completed_focus = PRF_incite_kashmir
-			has_completed_focus = PRF_attack_delhi
+			
+			
 		}
 	}
 
@@ -599,8 +599,8 @@ KR_prf_ignore_DEH_claims = {
 		OR = {
 			NOT = { country_exists = DEH }
 			has_war_with = DEH
-			has_completed_focus = PRF_incite_kashmir
-			has_completed_focus = PRF_attack_delhi
+			
+			
 		}
 	}
 
@@ -617,8 +617,8 @@ KR_bhc_ignore_DEH_claims = {
 		country_exists = DEH
 		NOT = {
 			has_war_with = DEH
-			has_completed_focus = BHC_attack_delhi
-			has_completed_focus = BHC_delhi_rebellion
+			
+			
 		}
 	}
 
@@ -626,8 +626,8 @@ KR_bhc_ignore_DEH_claims = {
 		OR = {
 			NOT = { country_exists = DEH }
 			has_war_with = DEH
-			has_completed_focus = BHC_attack_delhi
-			has_completed_focus = BHC_delhi_rebellion
+			
+			
 		}
 	}
 
@@ -644,8 +644,8 @@ KR_bhc_ignore_PRF_claims = {
 		country_exists = PRF
 		NOT = {
 			has_war_with = PRF
-			has_completed_focus = BHC_attack_prf
-			has_completed_focus = BHC_prf_rebellion
+			
+			
 		}
 	}
 
@@ -653,8 +653,8 @@ KR_bhc_ignore_PRF_claims = {
 		OR = {
 			NOT = { country_exists = PRF }
 			has_war_with = PRF
-			has_completed_focus = BHC_attack_prf
-			has_completed_focus = BHC_prf_rebellion
+			
+			
 		}
 	}
 
@@ -849,7 +849,7 @@ greece_is_our_enemy = {
 			tag = OTT
 			tag = TUR
 		}
-		GRE = { has_completed_focus = GRE_new_expansionism }
+		GRE = { 
 		any_owned_state = {
 			OR = {
 				is_claimed_by = GRE
@@ -882,7 +882,7 @@ greece_is_our_enemy = {
 egypt_hates_ottomans = {
 	enable = {
 		tag = EGY
-		EGY = { has_completed_focus = EGY_cairo_pact }
+		EGY = { 
 		OTT = {
 			any_owned_state = {
 				OR = {

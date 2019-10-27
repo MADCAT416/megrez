@@ -109,10 +109,7 @@ set_popularities = {
     ethnic_populist = 8
 }
 
-country_event = { id = pru.113 days = 400  }
-country_event = { id = pru.114 days = 208  }
-country_event = { id = pru.116 days = 168  }
-country_event = { id = pru.115 days = 2375 }
+
 
 
 add_ideas = {

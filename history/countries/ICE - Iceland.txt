@@ -2,12 +2,7 @@
 OOB = "empty"
 set_research_slots = 3
 
-ICE = {
-	country_event = { days = 2 id = ice.9996 }
-	country_event = { days = 8 id = ice.9997 }
-	country_event = { days = 17 id = ice.9998 }
-	country_event = { days = 27 id = ice.9999 }
-}
+
 
 set_cosmetic_tag = ICE_Arctic
 

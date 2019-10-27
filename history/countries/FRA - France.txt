@@ -149,8 +149,7 @@ if = {
 	}
 }
 
-country_event = { id = comfrance.1 days = 1 }
-country_event = { id = uob.363 days = 345 }
+
 set_convoys = 100
 set_stability = 0.5
 set_war_support = 0.4

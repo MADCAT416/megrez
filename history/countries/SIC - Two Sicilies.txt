@@ -107,8 +107,7 @@ diplomatic_relation = { country = PAP relation = non_aggression_pact }
 give_military_access = PAP
 give_guarantee = PAP
 
-country_event = { id = sic.61 days = 720 }
-country_event = { id = sic.64 days = 90 }
+
 
 add_ideas = {
 	SIC_shipyard_profits

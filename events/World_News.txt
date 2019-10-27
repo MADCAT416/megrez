@@ -6600,7 +6600,7 @@ news_event = {
 		text = worldnews.191.d.overthrowthesystem
 		trigger = {
 			HOL = {
-				has_completed_focus = HOL_overthrow_the_system
+				
 			}
 		}
 	}

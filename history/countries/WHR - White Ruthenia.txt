@@ -2,7 +2,7 @@
 
 oob = "empty"
 
-WHR = { country_event = { days = 2 id = whiteruthenia.67 }}
+
 
 set_technology = {
 	### Tanks ###

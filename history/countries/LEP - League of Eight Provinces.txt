@@ -84,10 +84,7 @@ add_opinion_modifier = { target = JAP modifier = embargo }
 
 add_ideas = {}
 
-country_event = {
-	id = fengtian.new.0
-	days = 1
-}
+
 
 create_country_leader = {
 	name = "Sun Chuanfang"

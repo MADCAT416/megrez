@@ -47,12 +47,7 @@ if = {
 	}
 }
 
-country_event = {
-	id = els.1 days = 1
-}
-country_event = {
-	id = cafla.18 days = 258
-}
+
 
 set_war_support = 0.15
 

@@ -168,8 +168,7 @@ set_country_flag = coalition_totalist
 set_country_flag = coalition_syndicalist
 set_country_flag = coalition_democratic_socialist
 
-country_event = { id = uob.0 days = 1 } #Intro event
-country_event = { id = uob.363 days = 345 }
+
 
 add_opinion_modifier = { target = GER modifier = embargo }
 add_opinion_modifier = { target = CAN modifier = embargo }

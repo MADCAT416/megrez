@@ -121,11 +121,7 @@ add_ideas = {
 	BAT_Kurt_Georg_Andersen_sec_ade
 }
 
-country_event = {
-	id = balticduchy.1
-	days = 10
-	random = 100
-}	
+	
 
 add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = ENG modifier = embargo }

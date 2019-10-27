@@ -68,13 +68,7 @@ set_popularities = {
     ethnic_populist = 0
 }
 
-country_event = {
-	id = cos.1
-	days = 2
-}
-country_event = {
-	id = cafla.18 days = 258
-}
+
 
 add_ideas = {
 	disarmed_nation

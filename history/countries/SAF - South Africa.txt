@@ -133,7 +133,7 @@ add_opinion_modifier = { target = AST modifier = embargo }
 add_opinion_modifier = { target = DEH modifier = embargo }
 add_opinion_modifier = { target = NFA modifier = embargo }
 
-country_event = { id = saf.1 days = 2 } # Introduction event
+
 
 create_country_leader = {
 	name = "Robert Gabriel Mugabe"

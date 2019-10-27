@@ -53,10 +53,7 @@ if = {
 	}
 }
 
-country_event = {
-	id = fop.1
-	days = 2
-}
+
 
 set_variable = { fop_im_factor = 100 }
 
@@ -82,18 +79,7 @@ set_popularities = {
     ethnic_populist = 0
 }
 
-### Events ###
 
-## the Guillermo Mac Hannaford idea
-country_event = {
-	id = fop.6
-	days = 60
-}
-## Immigration events
-country_event = {
-	id = fop.39
-	months = 13
-}
 
 add_ideas = {
 	partial_economic_mobilisation
