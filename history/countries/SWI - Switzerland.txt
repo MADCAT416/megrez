@@ -55,7 +55,6 @@ set_popularities = {
     ethnic_populist = 10
 }
 
-activate_mission = SWI_peace_mission_ongoing
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0

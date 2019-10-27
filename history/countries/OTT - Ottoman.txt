@@ -99,9 +99,7 @@ if = {
 
 set_research_slots = 3
 
-activate_mission = OTT_German_OPDA_mission
-activate_mission = OTT_Austrian_OPDA_mission
-activate_mission = OTT_Entente_OPDA_mission
+
 
 add_ideas = {
 	limited_conscription

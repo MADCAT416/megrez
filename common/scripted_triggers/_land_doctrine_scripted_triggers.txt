@@ -100,17 +100,11 @@ dont_research_mobile_warfare_if_choice_made = {
 		}
 		AND = {
 			tag = GER
-			OR = {
-				
-				NOT = {
-					has_idea = GER_Heinz_Guderian_cos_ade
-					has_idea = GER_Erich_von_Manstein_cos_ade
-				}
-			}
+
 		}
 		AND = {
 			tag = HOL
-			NOT = { has_country_flag = HOL_army_mobile }
+			NOT = {  }
 		}
 		AND = {
 			tag = IRE
@@ -142,7 +136,7 @@ dont_research_mobile_warfare_if_choice_made = {
 		AND = {
 			tag = SRI
 			OR = {
-				has_country_flag = SRI_red_guards_supported
+				
 				
 			}
 		}
@@ -296,7 +290,7 @@ dont_research_superior_firepower_if_choice_made = {
 		AND = {
 			tag = SRI
 			OR = {
-				has_country_flag = SRI_red_army_created
+				
 				
 			}
 		}
@@ -424,7 +418,7 @@ dont_research_grand_battleplan_if_choice_made = {
 		}
 		AND = {
 			tag = HOL
-			NOT = { has_country_flag = HOL_army_defensive }
+			NOT = {  }
 		}
 		AND = {
 			tag = ITA
@@ -467,7 +461,7 @@ dont_research_grand_battleplan_if_choice_made = {
 		AND = {
 			tag = SRI
 			OR = {
-				has_country_flag = SRI_red_guards_supported
+				
 				
 			}
 		}
@@ -600,7 +594,7 @@ dont_research_mass_assault_if_choice_made = {
 		AND = {
 			tag = SRI
 			OR = {
-				has_country_flag = SRI_red_army_created
+				
 				
 			}
 		}

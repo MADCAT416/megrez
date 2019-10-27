@@ -1262,459 +1262,6 @@ country_event = { #Serbian liberation
 	}
 }
 
-country_event = { #greek liberation
-	id = kr_annex.10
-	immediate = {log = "[GetDateText]: [Root.GetName]: event kr_annex.10"}
-	title = kr_annex.10.t
-	desc = kr_annex.10.d
-
-	is_triggered_only = yes
-
-
-	option = { #liberate
-		name = kr_annex.10.b #Liberate Greece as republic
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				OR = {
-					tag = GER
-					tag = AUS
-					is_in_faction_with = CAN
-					is_in_faction_with = GBR
-					AND = {
-						has_government = authoritarian_democrat
-						is_in_europe = yes
-					}
-				}
-			}
-		}
-		trigger = {
-			not_has_socialist_government = yes
-		}
-
-		every_owned_state = {
-			limit = {
-				OR = {
-					is_core_of = GRE
-					AND = {
-						state = 769
-						NOT = {
-							AND = {
-								769 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 184
-						NOT = {
-							AND = {
-								184 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 766
-						NOT = {
-							AND = {
-								766 = { is_core_of = ALB }
-								OR = {
-									ROOT = { owns_state = 44 }
-									ALB = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 187
-						NOT = {
-							AND = {
-								187 = { is_core_of = OTT }
-								OR = {
-									ROOT = { owns_state = 773 }
-									OTT = { is_in_faction_with = ROOT }
-								}
-							}
-							AND = {
-								187 = { is_core_of = TUR }
-								OR = {
-									ROOT = { owns_state = 773 }
-									TUR = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-				}
-				is_not_claim_or_core_of_ROOT = yes
-				NOT = {
-					AND = {
-						ROOT = { tag = BUL }
-						OR = {
-							state = 989 #Salonica
-							state = 1076 #Karaferia
-							state = 731 #Western Salonica
-							state = 769 #Eastern Salonica
-						}
-					}
-				}
-			}
-			GRE = {
-				transfer_state = PREV
-			}
-		}
-		GRE = {
-			if = {
-				limit = {
-					has_socialist_government = yes
-				}
-				GRE_stop_being_syndicalist = yes
-			}
-			if = {
-				limit = {
-					has_cosmetic_tag = GRE_kingdom
-				}
-				GRE_restore_republic = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = GRE_monarchists_win_referendum
-				}
-				clr_country_flag = GRE_monarchists_win_referendum
-				set_country_flag = GRE_republicans_win_referendum
-			}
-		}
-		puppet = GRE
-	}
-
-	option = { #liberate
-		name = kr_annex.10.c #Liberate Kingdom of Greece
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				NOT = {
-					tag = GER
-					tag = AUS
-					is_in_faction_with = CAN
-					is_in_faction_with = GBR
-					AND = {
-						has_government = authoritarian_democrat
-						is_in_europe = yes
-					}
-				}
-			}
-		}
-		trigger = {
-			not_has_socialist_government = yes
-		}
-
-		every_owned_state = {
-			limit = {
-				OR = {
-					is_core_of = GRE
-					AND = {
-						state = 769
-						NOT = {
-							AND = {
-								769 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 184
-						NOT = {
-							AND = {
-								184 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 766
-						NOT = {
-							AND = {
-								766 = { is_core_of = ALB }
-								OR = {
-									ROOT = { owns_state = 44 }
-									ALB = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 187
-						NOT = {
-							AND = {
-								187 = { is_core_of = OTT }
-								OR = {
-									ROOT = { owns_state = 773 }
-									OTT = { is_in_faction_with = ROOT }
-								}
-							}
-							AND = {
-								187 = { is_core_of = TUR }
-								OR = {
-									ROOT = { owns_state = 773 }
-									TUR = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-				}
-				is_not_claim_or_core_of_ROOT = yes
-				NOT = {
-					AND = {
-						ROOT = { tag = BUL }
-						OR = {
-							state = 989 #Salonica
-							state = 1076 #Karaferia
-							state = 731 #Western Salonica
-							state = 769 #Eastern Salonica
-						}
-					}
-				}
-			}
-			GRE = {
-				transfer_state = PREV
-			}
-		}
-		GRE = {
-			if = {
-				limit = { has_socialist_government = yes }
-				GRE_stop_being_syndicalist = yes
-			}
-			if = {
-				limit = { has_idea = GRE_memories_of_king }
-				remove_ideas = GRE_memories_of_king
-			}
-			if = {
-				limit = {
-					NOT = { has_cosmetic_tag = GRE_kingdom }
-				}
-				set_cosmetic_tag = GRE_kingdom
-			}
-
-			if = {
-				limit = {
-					
-				}
-				hidden_effect = {
-					country_event = gre.25
-				}
-			}
-			else_if = {
-				limit = {
-					
-				}
-				hidden_effect = {
-					country_event = gre.26
-				}
-			}
-			else_if = {
-				limit = {
-					
-				}
-				hidden_effect = {
-					country_event = gre.27
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						
-					}
-					ROOT = {
-						has_elected_government = yes
-					}
-				}
-				set_country_flag = GRE_monarchists_win_referendum
-			}
-			else_if = {
-				limit = {
-					
-					has_country_flag = GRE_republicans_win_referendum
-				}
-				set_country_flag = GRE_monarchists_win_referendum
-				clr_country_flag = GRE_republicans_win_referendum
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						has_dictatorship_government = yes
-					}
-				}
-				hidden_effect = {
-					country_event = gre.27
-				}
-			}
-			else = {
-				hidden_effect = {
-					country_event = gre.25
-				}
-			}
-		}
-		puppet = GRE
-	}
-
-
-	option = { #liberate
-		name = kr_annex.10.e #Liberate Hellenic Commune
-		ai_chance = {
-			factor = 100
-		}
-		trigger = {
-			has_socialist_government = yes
-		}
-
-		every_owned_state = {
-			limit = {
-				OR = {
-					is_core_of = GRE
-					AND = {
-						state = 769
-						NOT = {
-							AND = {
-								769 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 184
-						NOT = {
-							AND = {
-								184 = { is_core_of = BUL }
-								OR = {
-									ROOT = { owns_state = 48 }
-									BUL = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 766
-						NOT = {
-							AND = {
-								766 = { is_core_of = ALB }
-								OR = {
-									ROOT = { owns_state = 44 }
-									ALB = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-					AND = {
-						state = 187
-						NOT = {
-							AND = {
-								187 = { is_core_of = OTT }
-								OR = {
-									ROOT = { owns_state = 773 }
-									OTT = { is_in_faction_with = ROOT }
-								}
-							}
-							AND = {
-								187 = { is_core_of = TUR }
-								OR = {
-									ROOT = { owns_state = 773 }
-									TUR = { is_in_faction_with = ROOT }
-								}
-							}
-						}
-					}
-				}
-				is_not_claim_or_core_of_ROOT = yes
-				NOT = {
-					AND = {
-						ROOT = { tag = BUL }
-						OR = {
-							state = 989 #Salonica
-							state = 1076 #Karaferia
-							state = 731 #Western Salonica
-							state = 769 #Eastern Salonica
-						}
-					}
-				}
-			}
-			GRE = {
-				transfer_state = PREV
-			}
-		}
-		GRE = {
-			if = {
-				limit = {
-					has_cosmetic_tag = GRE_kingdom
-				}
-				GRE_restore_republic = yes
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_socialist_government = yes
-					}
-				}
-				GRE_become_syndicalist = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = GRE_monarchists_win_referendum
-				}
-				clr_country_flag = GRE_monarchists_win_referendum
-				set_country_flag = GRE_republicans_win_referendum
-			}
-		}
-		puppet = GRE
-
-		if = {
-			limit = {
-				has_government = social_democrat
-				has_country_flag = soc_dems_are_socialists
-			}
-			hidden_effect = {
-				GRE = {
-					set_politics = {
-						ruling_party = democratic_socialist
-						elections_allowed = no
-					}
-					add_popularity = {
-						ideology = democratic_socialist
-						popularity = 0.4
-					}
-				}
-			}
-		}
-	}
-
-	option = { #occupy
-		name = kr_annex.2.b
-		ai_chance = {
-			factor = 0
-		}
-		set_country_flag = GRE_CONQ
-		add_political_power = -50
-		add_stability = -0.05
-		add_war_support = -0.05
-	}
-}
-
 country_event = { #HUN liberation
 	id = kr_annex.12
 	immediate = {log = "[GetDateText]: [Root.GetName]: event kr_annex.12"}
@@ -4260,7 +3807,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Syndicalist_Revolution
+				
 			}
 		}
 		if = {
@@ -4280,7 +3827,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -4293,7 +3840,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -4306,7 +3853,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				c
 			}
 		}
 		if = {
@@ -4319,7 +3866,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4335,7 +3882,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4348,7 +3895,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4361,7 +3908,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -4374,7 +3921,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -4387,7 +3934,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Hold_On_To_The_Monarchy
+				
 			}
 		}
 	}
@@ -4550,7 +4097,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = syndicalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -4558,7 +4105,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = totalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -4566,7 +4113,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = democratic_socialist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -4574,7 +4121,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = market_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4582,7 +4129,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = social_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4593,7 +4140,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4602,7 +4149,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_country_flag = soc_dems_are_socialists
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -4610,7 +4157,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = social_conservative
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -4618,7 +4165,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = paternal_autocrat
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -4626,7 +4173,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = ethnic_populist
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -4634,7 +4181,7 @@ country_event = { #The kr_annexation of Flanders-Wallonia 2
 				has_government = authoritarian_democrat
 			}
 			WLL = {
-				complete_national_focus = WLL_Hold_On_To_The_Monarchy
+				
 			}
 		}
 
@@ -20816,7 +20363,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_1940_Elections
+				
 			}
 		}
 		if = {
@@ -20829,7 +20376,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_PLP_Victory
+				
 			}
 		}
 		if = {
@@ -20842,7 +20389,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_MNR_Victory
+				
 			}
 		}
 		if = {
@@ -20855,7 +20402,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_Syndicalism_in_Bolivia
+				
 			}
 		}
 		if = {
@@ -20868,7 +20415,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_PUR_Victory
+				
 			}
 		}
 		if = {
@@ -20881,7 +20428,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_Disband_Parliament
+				
 			}
 		}
 		if = {
@@ -20894,7 +20441,7 @@ country_event = { #Fate of Bolivia
 				}
 			}
 			BOL = {
-				complete_national_focus = BOL_Rewrite_the_Constitution
+				
 			}
 		}
 	}
@@ -25698,7 +25245,6 @@ country_event = { #Fate of Belgium
 				}
 			}
 			BEL = {
-				load_focus_tree = BEL_Independent_focus
 				set_cosmetic_tag = BELG
 			}
 		}
@@ -25750,9 +25296,6 @@ country_event = { #Fate of Belgium
 				}
 				drop_cosmetic_tag = yes
 				clr_country_flag = Belgium_Independent
-				load_focus_tree = BEL_focus
-				complete_national_focus = BEL_Evaluate_State_Budget
-				complete_national_focus = BEL_German_Investigation
 			}
 		}
 
@@ -25813,7 +25356,7 @@ country_event = { #Fate of Belgium
 					expire = "1965.1.1"
 					ideology = social_democrat_subtype
 				}
-				complete_national_focus = BEL_Elections
+				
 			}
 		}
 	}
@@ -25985,7 +25528,7 @@ country_event = { #Fate of Belgium
 				has_government = syndicalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -25993,7 +25536,7 @@ country_event = { #Fate of Belgium
 				has_government = totalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -26001,7 +25544,7 @@ country_event = { #Fate of Belgium
 				has_government = democratic_socialist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26009,7 +25552,7 @@ country_event = { #Fate of Belgium
 				has_government = market_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26017,7 +25560,7 @@ country_event = { #Fate of Belgium
 				has_government = social_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26028,7 +25571,7 @@ country_event = { #Fate of Belgium
 				}
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26037,7 +25580,7 @@ country_event = { #Fate of Belgium
 				has_country_flag = soc_dems_are_socialists
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -26045,7 +25588,7 @@ country_event = { #Fate of Belgium
 				has_government = social_conservative
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26053,7 +25596,7 @@ country_event = { #Fate of Belgium
 				has_government = paternal_autocrat
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26061,7 +25604,7 @@ country_event = { #Fate of Belgium
 				has_government = ethnic_populist
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26069,7 +25612,7 @@ country_event = { #Fate of Belgium
 				has_government = authoritarian_democrat
 			}
 			WLL = {
-				complete_national_focus = WLL_Hold_On_To_The_Monarchy
+				
 			}
 		}
 	}
@@ -26233,7 +25776,7 @@ country_event = { #Fate of Belgium
 				has_government = syndicalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26241,7 +25784,7 @@ country_event = { #Fate of Belgium
 				has_government = totalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -26249,7 +25792,7 @@ country_event = { #Fate of Belgium
 				has_government = democratic_socialist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26257,7 +25800,7 @@ country_event = { #Fate of Belgium
 				has_government = market_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26265,7 +25808,7 @@ country_event = { #Fate of Belgium
 				has_government = social_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26274,7 +25817,7 @@ country_event = { #Fate of Belgium
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26283,7 +25826,7 @@ country_event = { #Fate of Belgium
 				has_country_flag = soc_dems_are_socialists
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26291,7 +25834,7 @@ country_event = { #Fate of Belgium
 				has_government = social_conservative
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26299,7 +25842,7 @@ country_event = { #Fate of Belgium
 				has_government = paternal_autocrat
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26307,7 +25850,7 @@ country_event = { #Fate of Belgium
 				has_government = ethnic_populist
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26315,7 +25858,7 @@ country_event = { #Fate of Belgium
 				has_government = authoritarian_democrat
 			}
 			WLL = {
-				complete_national_focus = WLL_Hold_On_To_The_Monarchy
+				
 			}
 		}
 	}
@@ -26444,7 +25987,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = syndicalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26452,7 +25995,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = totalist
 			}
 			WLL = {
-				complete_national_focus = WLL_Revolution_By_Force
+				
 			}
 		}
 		if = {
@@ -26460,7 +26003,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = democratic_socialist
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26468,7 +26011,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = market_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26476,7 +26019,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = social_liberal
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26485,7 +26028,7 @@ country_event = { #Fate of Southern Wallonia
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26494,7 +26037,7 @@ country_event = { #Fate of Southern Wallonia
 				has_country_flag = soc_dems_are_socialists
 			}
 			WLL = {
-				complete_national_focus = WLL_Peacefull_Transition
+				
 			}
 		}
 		if = {
@@ -26502,7 +26045,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = social_conservative
 			}
 			WLL = {
-				complete_national_focus = WLL_Reform_Into_A_Republic
+				
 			}
 		}
 		if = {
@@ -26510,7 +26053,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = paternal_autocrat
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26518,7 +26061,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = ethnic_populist
 			}
 			WLL = {
-				complete_national_focus = WLL_The_Government_Has_Failed
+				
 			}
 		}
 		if = {
@@ -26526,7 +26069,7 @@ country_event = { #Fate of Southern Wallonia
 				has_government = authoritarian_democrat
 			}
 			WLL = {
-				complete_national_focus = WLL_Hold_On_To_The_Monarchy
+				
 			}
 		}
 	}
@@ -35854,7 +35397,6 @@ country_event = { # The fate of an unified central america
 							has_socialist_government = yes
 						}
 					}
-					load_focus_tree = Centroamerica_focus #Loads the Commie tree
 					set_country_flag = CEN_centro_released
 				}
 				else_if = {
@@ -35864,7 +35406,6 @@ country_event = { # The fate of an unified central america
 						}
 					}
 					log = "loading DEM focus tree"
-					load_focus_tree = CA_DEM_focus
 					set_cosmetic_tag = CEN_CON
 					set_party_name = {
 						ideology = social_democrat
@@ -35880,7 +35421,6 @@ country_event = { # The fate of an unified central america
 					}
 					log = "loading AUTH focus tree"
 					set_cosmetic_tag = CEN_REP
-					load_focus_tree = CA_military_focus
 				}
 
 				if = {
