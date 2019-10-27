@@ -3,7 +3,7 @@ state = {
 	name = "STATE_282" # Kanto
 	manpower = 16985050
 
-	state_category = large_city
+	state_category = ten
 
 	resources = {
 		aluminium = 2

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_163"
 	manpower = 331900
 
-	state_category = three
+	state_category = four
 
 	history = {
 		owner = AUS

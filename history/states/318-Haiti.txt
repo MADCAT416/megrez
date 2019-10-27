@@ -21,6 +21,7 @@ state = {
 			}
 		}
 		add_core_of = HAI
+		add_core_of = CAF
 		victory_points = {
 			4641 5
 		}
