@@ -1,6 +1,6 @@
 ﻿capital = 361
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 # Starting tech
 set_technology = {

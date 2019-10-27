@@ -1,6 +1,6 @@
 ﻿capital = 289
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 # Kaiserreich Siam
 

@@ -1,7 +1,7 @@
 ﻿capital = 64
 
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 add_ideas = {
 	GER_victors_of_wwi

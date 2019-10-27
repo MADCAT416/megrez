@@ -3,7 +3,7 @@
 set_cosmetic_tag = ZKDFR
 
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 set_technology = {
 	### MOD ###

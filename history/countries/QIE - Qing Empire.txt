@@ -1,7 +1,7 @@
 ﻿capital = 608
 
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 set_technology = {
 	### MOD ###

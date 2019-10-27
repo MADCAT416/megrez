@@ -3,7 +3,7 @@
 set_cosmetic_tag = GRE_kingdom
 
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 set_research_slots = 3
 

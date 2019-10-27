@@ -1,6 +1,6 @@
 ﻿capital = 95
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 set_stability = 0.3
 set_research_slots = 4
 

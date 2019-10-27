@@ -1,6 +1,6 @@
 ﻿capital = 773
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 set_stability = 0.5
 
 set_technology = {

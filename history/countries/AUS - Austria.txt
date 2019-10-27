@@ -3,7 +3,7 @@
 set_cosmetic_tag = AUS_united_states
 
 oob = "empty"
-empty_oob = "empty"
+oob = "empty"
 
 
 
