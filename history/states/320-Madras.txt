@@ -4,7 +4,7 @@ state = {
 	manpower = 14086410
 	resources = {
 		steel = 10
-		rubber = 12
+		rubber = 22
 	}
 
 	state_category = six
@@ -15,6 +15,8 @@ state = {
 		
 		victory_points = { 10278 3 } #Madras
 		victory_points = { 10149 1 } #Pondicherry
+		victory_points = { 1409 1 } #Madurai
+		victory_points = { 7402 1 } #Trivandrum
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -28,5 +30,9 @@ state = {
 		}
 	}
 
-	provinces = { 10149 10278 7436 4420 10808 8067 10246 12164 1268 }
+	provinces = { 
+		10149 10278 7436 4420 10808 8067 10246 12164 
+		1268 1381 1409 4327 4416 7265 12247 
+		7363 7402 
+		}
 }

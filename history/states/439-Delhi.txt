@@ -16,10 +16,10 @@ state = {
 			arms_factory = 2
 		}
 		victory_points = { 2086 15 } #Delhi
-		victory_points = { 4915 2 } #Agra
+		
 	}
 
 	provinces = {
-		2032 2054 2086 4915 7905 11955 12868
+		2086 
 	}
 }

@@ -6,14 +6,14 @@ state = {
 	state_category = two
 
 	resources = {
-		chromium = 3
+		
 	}
 
 	history = {
 		owner = BHC
 		add_core_of = BHC
 		
-		victory_points = { 4883 1 } #Nagpur
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,6 +21,6 @@ state = {
 	}
 
 	provinces = {
-		4883 4950 5019 7430 7619 10030 10311 10511 10872 12781
+		1497 12366 12395 
 	}
 }

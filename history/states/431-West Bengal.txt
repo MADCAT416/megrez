@@ -3,7 +3,7 @@ state = {
 	name = "STATE_431" # West Bengal
 	manpower = 41496291
 
-	state_category = eight
+	state_category = six
 
 	resources = {
 		steel = 20
@@ -14,20 +14,16 @@ state = {
 		owner = BHC
 		add_core_of = BHC
 
-		victory_points = { 4245 15 } #Calcutta
+		
 		victory_points = { 12338 1 } #Darjeeling
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 3
-			air_base = 2
-			4245 = {
-				naval_base = 6
-			}
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
 		}
 	}
 
 	provinces = {
-		1159 1444 1609 4062 4204 4245 4644 7220 7565 7662 10077 10389 12050 12338
+		1444 1609 4062 4204 4644 7220 7565 7662 10077 10389 12050 12338
 	}
 }

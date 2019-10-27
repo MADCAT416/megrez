@@ -6,14 +6,17 @@ state = {
 
 	resources = {
 		tungsten = 26
+		chromium = 3
 	}
 
 	history = {
 		owner = BHC
 		add_core_of = BHC
 		
-		victory_points = { 1349 5 } #Bombay
+		
 		victory_points = { 12182 1 } #Poona
+		victory_points = { 12295 1 } #Kolhapur
+		victory_points = { 4883 1 } #Nagpur
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -25,6 +28,7 @@ state = {
 	}
 
 	provinces = {
-		1349 1405 4072 4353 7013 7060 7119 7177 7232 10019 10210 10270 12142 12182 12269 4187 7150 7205 11993
+		1405 4072 4353 7013 7060 7119 7177 7232 10019 10210 10270 12142 12182 12269 7205 11993
+		4395 4883 4950 7430 7619 10030 10311 10872 12781 1359 5063 
 	}
 }

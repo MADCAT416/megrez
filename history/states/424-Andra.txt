@@ -4,12 +4,16 @@ state = {
 	manpower = 15791700
 	state_category = two
 
+	resources = {
+		chromium = 16
+	}
 
 	history = {
 		owner = BHC
 		add_core_of = BHC
 		
 		victory_points = { 7340 1 } #Yannam
+		victory_points = { 10001 1 } #Vizagapatnam
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -19,5 +23,6 @@ state = {
 
 	provinces = {
 		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779
+		4237 10001 10255 11978
 	}
 }

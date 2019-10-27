@@ -1,0 +1,31 @@
+state = {
+	id = 423
+	name = "STATE_423" # Madurai
+	manpower = 8587500
+
+	state_category = eight
+
+	resources = {
+		
+	}
+
+	history = {
+		owner = BHC
+		add_core_of = BHC
+		
+		victory_points = { 4245 15 } #Calcutta
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 2
+			4245 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		4245 1159 
+	}
+}

@@ -10,13 +10,15 @@ state = {
 		add_core_of = BHC
 
 		victory_points = { 12080 1 } #Indore
+		victory_points = { 4953 1 } #Jubbalpur
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			industrial_complex = 1
 		}
 	}
 
 	provinces = {
-		1949 2036 2092 2105 4106 7080 8076 10807 10816 11995 12080
+		1949 2092 2105 4106 7080 8076 10816 11995 12080
+		4410 4953 5096 10801 12799
 	}
 }
