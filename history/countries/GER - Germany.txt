@@ -383,16 +383,6 @@ add_to_faction = LIT
 
 
 
-country_event = {
-	id = black.1
-	days = 34
-}
-
-country_event = {
-	id = mittel.43
-	days = 90
-}
-
 add_namespace = {
 	name = "ger_unit_leader"
 	type = unit_leader

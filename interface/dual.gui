@@ -14,12 +14,6 @@ containerWindowType = {
 			vertical_alignment = center
 		}
 		iconType = {
-			name = "HoG_rank_frame2"
-			spriteType = "GFX_pol_rank_frame"
-			position = { x = 180 y = 50 }		
-			allwaystransparent = yes
-		}
-		iconType = {
 			name = "HoG"
 			position = { x = 188 y = 100 }
 			spriteType = "GFX_leader_unknown"
