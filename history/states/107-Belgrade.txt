@@ -3,13 +3,13 @@ state = {
 	name = "STATE_107" # Serbia
 	manpower = 1248300
 
-	state_category = six
+	state_category = eight
 	history = {
 		owner = AUS
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 5
 			11586 = {
 				bunker = 2
