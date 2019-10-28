@@ -1,7 +1,7 @@
 state = {
 	id = 443
 	name = "STATE_443" # Sind
-	manpower = 3887000
+	manpower = 12050875
 
 	state_category = three
 
