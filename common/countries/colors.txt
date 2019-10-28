@@ -832,9 +832,13 @@ SPO = {
 	color = rgb { 62 62 62 }
 	color_ui = rgb { 62 62 62 }
 }
-SPR = {
+SPA = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
+}
+SPR = {
+	color = rgb { 99 11 87 }
+	color_ui = rgb { 99 11 87 }
 }
 SQI = {
 	color = rgb { 181 66 26 }
