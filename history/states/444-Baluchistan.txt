@@ -1,7 +1,7 @@
 state = {
 	id = 444
 	name = "STATE_444" # Baluchistan
-	manpower = 463500
+	manpower = 709010
 
 	state_category = one
 
