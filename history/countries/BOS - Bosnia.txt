@@ -5,15 +5,7 @@ set_research_slots = 3
 oob = "empty"
 
 set_technology = {
-	### Tanks ###
-	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_mountaineers = 1
-	### AIR ###
-	early_fighter = 1
+
 }
 ### Navy - MtG ###
 
@@ -22,20 +14,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -48,18 +27,12 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
 add_ideas = {
-	BOS_Mehmed_Spaho_hog_sco
-	BOS_Dzafer_beg_Kulenovic_for_pau
-	BOS_Osman_Vilovic_eco_sco
-	BOS_Halid_beg_Hrasnica_sec_sco
+
 }
 
 set_politics = {

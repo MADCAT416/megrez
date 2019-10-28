@@ -6,8 +6,6 @@ set_technology = {
 	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	tech_mountaineers = 1
 	### AIR ###
 }
 ### Navy - MtG ###
@@ -17,20 +15,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
-
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -43,10 +27,6 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
 	}
 }
 
@@ -56,11 +36,6 @@ add_opinion_modifier = { target = SIA modifier = embargo }
 
 add_ideas = {
 	# Ministers + ideas
-	SIA_RPC_bad #Starter RPC results here from 1935
-	BUR_U_Chit_Hlaing_hog_ade
-	BUR_Maung_Gyi_for_ade
-	BUR_U_May_Aung_eco_sco
-	BUR_Saw_Durmay_sec_ade
 }
 
 set_war_support = 0.1

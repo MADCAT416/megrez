@@ -2,9 +2,7 @@
 oob = "empty"
 set_research_slots = 2
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
+
 }
 
 set_war_support = 0
@@ -66,10 +64,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	BHU_Sonam_Tobgay_Dorji_hog_ade
-	BHU_Sonam_Tobgay_Dorji_for_ade
-	BHU_Ahmad_Akhaz_eco_ade
-	BHU_Mang_pos_Bhur_ba'i_Rgyalpo_sec_ade
+
 }
 
 ### Field Marshal

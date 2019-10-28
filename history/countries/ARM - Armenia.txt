@@ -4,18 +4,11 @@ oob = "empty"
 
 set_research_slots = 2
 set_technology = {
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
+
 }
 
 add_ideas = {
-	ARM_Mehmed_Wehib_Pasha_hog_pau
-	ARM_Boghas_Nubar_Pasha_for_pau
-	ARM_Berch_Keresteciyan_eco_ade
-	ARM_Nikol_Aghbalian_sec_ade
+
 }
 
 set_war_support = 0.35

@@ -6,13 +6,6 @@ set_convoys = 20
 
 set_research_slots = 3
 set_technology = {
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	transport = 1
-	### AIR ###
-	early_fighter = 1
 }
 
 ### Navy - MtG ###
@@ -21,27 +14,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
-		weltkrieg_submarine_hull = 1
-		submarine_mine_laying = 1
-		interwar_submarine_hull = 1
-
-		## Modules##
-		torpedo_tech_one = 1
-		gunnery_tech_one = 1
-		ss_torpedo_module_one = 1
-		ss_utility_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		dd_torpedo_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -53,22 +25,10 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
-		weltkrieg_submarine_hull_nonmtg = 1
-		interwar_submarine_hull_nonmtg = 1
 	}
 }
 
 add_ideas = {
-	ALB_polarised_nation_idea
-	ALB_illiteracy
-	ALB_Ahmet_Zogu_hog_sco
-	ALB_Pandeli_Evangjeli_for_sco
-	ALB_Myfid_Libohova_eco_sco
-	ALB_Muharrem_Bajraktari_sec_sco
 }
 
 set_war_support = 0.1

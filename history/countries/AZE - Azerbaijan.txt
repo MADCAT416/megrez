@@ -3,20 +3,11 @@
 oob = "empty"
 
 set_technology = {
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
 }
 
 set_research_slots = 2
 
 add_ideas = {
-	AZE_Nasib_Yusifbeyli_hog_sco
-	AZE_Mammad_Yusif_Jafarov_for_sco
-	AZE_Abdulali_bey_Amirjanov_eco_sco
-	AZE_Behbud_Khan_Javanshir_sec_sco
 }
 
 set_war_support = 0.20
