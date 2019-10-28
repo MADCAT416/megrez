@@ -3,17 +3,12 @@ oob = "empty"
 oob = "empty"
 set_research_slots = 3
 set_technology = {
+	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	tech_support = 1
-	tech_recon = 1
-	gw_artillery = 1
 	### AIR ###
-	early_fighter = 1
-	naval_bomber1 = 1
 }
+
 
 ### Navy - MtG ###
 
@@ -112,10 +107,7 @@ set_popularities = {
 set_convoys = 30
 
 add_ideas = {
-	COL_Eduardo_Santos_Montejo_hog_sde
-	COL_Alfonso_Lopez_Michelsen_for_sde
-	COL_Francisco_Antonio_Barberi_Zamorano_eco_sde
-	COL_Felix_Restrepo_Mejia_S_J_sec_sde
+	
 }
 
 create_country_leader = {

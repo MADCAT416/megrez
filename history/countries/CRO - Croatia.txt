@@ -5,16 +5,12 @@ set_research_slots = 3
 oob = "empty"
 
 set_technology = {
+	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_mountaineers = 1
 	### AIR ###
-	early_fighter = 1
 }
+
 
 ### Navy - MtG ###
 
@@ -122,14 +118,7 @@ if = {
 }
 
 add_ideas = {
-	CRO_Vladko_Macek_hog_sli
-	CRO_Ivo_Krbek_for_sli
-	CRO_Barisa_Smoljan_eco_sli
-	CRO_Franjo_Gazi_sec_sli
-
-	AUS_part_of_the_Empire
-	ILL_croatian_command
-	ILL_federated_army
+	
 }
 
 add_opinion_modifier = { target = FRA modifier = embargo }

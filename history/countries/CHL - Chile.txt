@@ -3,20 +3,12 @@ oob = "empty"
 oob = "empty"
 
 set_technology = {
+	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	transport = 1
 	### AIR ###
-	early_fighter = 1
-	### Naval ###
-	
-	
 }
+
 
 ### Navy - MtG ###
 if = {
@@ -114,11 +106,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
-	CHL_Clotario_Blest_Riffo_hog_syn
-	CHL_Luis_Arteaga_Garcia_for_syn
-	CHL_Augustin_Edwards_eco_syn
-	CHL_Carlos_Gregorio_Davila_Espinoza_sec_syn
-	CHL_Julio_Allard_Pinto_int_syn
+	
 }
 
 create_country_leader = {

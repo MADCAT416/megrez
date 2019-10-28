@@ -5,10 +5,9 @@ set_technology = {
 	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	transport = 1
 	### AIR ###
 }
+
 
 ### Navy - MtG ###
 
@@ -71,10 +70,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	CYP_Eleutherios_Kosmatopoulos_hog_ade
-	CYP_Hayri_Inalcik_for_ade
-	CYP_Soames_Trevor_Ropkins_eco_ade
-	CYP_Palmer_McKinolty_sec_ade
+	
 }
 
 

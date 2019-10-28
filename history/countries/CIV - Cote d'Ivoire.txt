@@ -2,9 +2,12 @@
 OOB = "empty"
 
 set_technology = {
+	### MOD ###
+	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
+	### AIR ###
 }
+
 
 set_research_slots = 2
 set_politics = {

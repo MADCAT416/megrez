@@ -5,20 +5,7 @@ set_technology = {
 	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
 	### AIR ###
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-		### Naval ###
-	
-	
-	
 }
 
 ### Navy - MtG ###
@@ -171,11 +158,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	# Ministers
-	CAR_Manuel_Fal_Conde_hog_pau
-	CAR_Manuel_Fal_Conde_for_pau
-	CAR_Onesimo_Redondo_Ortega_eco_pau
-	CAR_Jose_Luis_Arrese_Magra_sec_pau
+	
 	
 	limited_conscription
 }

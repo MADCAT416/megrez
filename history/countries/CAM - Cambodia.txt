@@ -3,9 +3,11 @@ OOB = "empty"
 set_research_slots = 2
 set_technology = {
 	### MOD ###
+	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
+	### AIR ###
 }
+
 
 ### Navy - MtG ###
 
@@ -70,10 +72,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	CAM_Sisowath_Sirik_Matak_hog_ade
-	CAM_Phan_Sina_for_sco
-	CAM_Sisowath_Monireth_eco_sli
-	CAM_Sakiwat_Phirun_sec_ade
+
+
 }
 
 #### Leader Spam ###
