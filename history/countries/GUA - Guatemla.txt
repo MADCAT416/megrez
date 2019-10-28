@@ -2,12 +2,38 @@
 oob = "empty"
 set_research_slots = 2
 set_technology = {
+	### MOD ###
 	### Tanks ###
 	### INF ###
-	infantry_weapons = 1
-	gw_artillery = 1
 	### AIR ###
-	early_fighter = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		## Hull ##
+		
+
+		## Modules##
+		
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		
+	}
 }
 
 set_country_flag = soc_dems_are_socialists
@@ -74,16 +100,7 @@ set_popularities = {
 set_convoys = 20
 
 add_ideas = {
-	CEN_monroe_doctrine
-	GUA_socialist_compensation
-	GUA_united_fruit_start_clone
-	limited_conscription
-	GUA_illiteracy
-
-	GUA_Jorge_Ubico_hog_pau
-	GUA_Jose_Maria_Reina_for_ade
-	GUA_R_Felipe_Solares_eco_ade
-	GUA_Manuel_Maria_Orellana_Contreras_sec_ade
+	
 }
 
 create_country_leader = {
