@@ -8,7 +8,6 @@ set_technology = {
 	### AIR ###
 }
 
-
 ### Navy - MtG ###
 
 if = {
@@ -16,17 +15,11 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		basic_naval_mines = 1
-		weltkrieg_cruiser_hull = 1
+		## Hull ##
+		
 
 		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		transport = 1
+		
 	}
 }
 
@@ -39,9 +32,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		transport = 1
+		
 	}
 }
 

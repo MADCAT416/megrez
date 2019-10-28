@@ -1,6 +1,6 @@
-﻿capital = 361
+﻿capital = 378
 OOB = "empty"
-set_cosmetic_tag = CSA_commonwealth_america
+
 set_technology = {
 	### MOD ###
 	### Tanks ###
@@ -36,75 +36,58 @@ if = {
 	}
 }
 
-set_research_slots = 4
-set_convoys = 50
-set_stability = 0.55
-set_war_support = 0.65
+PAN = { give_military_access = CAL }
 
+give_guarantee = PAN
 
-add_opinion_modifier = { target = CAL modifier = embargo }
-add_opinion_modifier = { target = USA modifier = embargo }
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.5
+set_war_support = 0.5
+
+create_faction = faction_NAFTA
+add_to_faction = CAL
+add_to_faction = PHI
+add_to_faction = TAI
+add_to_faction = RYU
+
+add_opinion_modifier = { target = CSA modifier = embargo }
 add_opinion_modifier = { target = TEX modifier = embargo }
-add_opinion_modifier = { target = CAN modifier = embargo }
-add_opinion_modifier = { target = GER modifier = embargo }
-add_opinion_modifier = { target = AST modifier = embargo }
-add_opinion_modifier = { target = FRP modifier = embargo }
-add_opinion_modifier = { target = NEE modifier = embargo }
-add_opinion_modifier = { target = OTT modifier = embargo }
-add_opinion_modifier = { target = GBR modifier = embargo }
-
-set_country_flag = coalition_totalist
-set_country_flag = coalition_syndicalist
-set_country_flag = coalition_democratic_socialist
-set_country_flag = coalition_social_democrat
-set_country_flag = banned_social_liberal
-set_country_flag = banned_market_liberal
-set_country_flag = banned_social_conservative
-set_country_flag = banned_authoritarian_democrat
-set_country_flag = banned_paternal_autocrat
-set_country_flag = banned_clerical_nationalist
-set_country_flag = banned_ethnic_populist
-
-create_faction = faction_Third_International
-
-add_to_faction = FRA
-add_to_faction = ENG
-add_to_faction = CNT
-add_to_faction = IRE
-add_to_faction = NOR
-add_to_faction = SWE
-add_to_faction = ICE
-add_to_faction = MEX
-add_to_faction = IRE
-add_to_faction = ALG
-add_to_faction = GNE
-add_to_faction = CUB
-
-set_autonomy = {
-	target = MEX
-	autonomous_state = kr_occupied_puppet
-}
-
+add_opinion_modifier = { target = USA modifier = embargo }
 
 set_politics = {
-	ruling_party = syndicalist
+	ruling_party = market_liberal
 	last_election = "1936.11.08"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+set_country_flag = banned_totalist
+set_country_flag = banned_syndicalist
+set_country_flag = banned_democratic_socialist
+
 set_popularities = {
-    totalist = 12
-    democratic_socialist = 14
-    syndicalist = 62
-    social_democrat = 12
-    social_liberal = 0
-    market_liberal = 0
-    social_conservative = 0
+    totalist = 0
+    democratic_socialist = 0
+    syndicalist = 0
+    social_democrat = 17
+    social_liberal = 29
+    market_liberal = 24
+    social_conservative = 30
     authoritarian_democrat = 0
     paternal_autocrat = 0
     ethnic_populist = 0
 }
+
+add_ideas = {
+	CAL_Barry_Morris_Goldwater_hog_mar
+
+	CAL_NAFTA
+	CAL_width_wall
+	CAL_length_wall
+	extensive_conscription
+}
+
 
 create_country_leader = {
 	name = "Gus Hall"
@@ -113,7 +96,6 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {
-	POSITION_President
 		totalist
 		
 	}
@@ -121,11 +103,10 @@ create_country_leader = {
 create_country_leader = {
 	name = "Clara Lemlich"
 	desc = "CSA_Clara_Lemlich_DESC"
-	picture = "gfx/leaders/CSA/Portrait_CSA_Clara_Lemlich.tga"
+	picture = "Portrait_CSA_Clara_Lemlich.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
 	traits = {
-	POSITION_President
 		syndicalist
 		hos_die_hard_reformer
 	}
@@ -137,31 +118,28 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
-	POSITION_President
 		democratic_socialist
 		
 	}
 }
 create_country_leader = {
 	name = "George Meany"
-	desc = "CSA_George Meany_DESC"
-	picture = "gfx/leaders/CSA/Portrait_CSA_George_Meany.tga"
+	desc = "CSA_George_Meany_DESC"
+	picture = "gfx/leaders/CSA/Portrait_CSA_George Meany.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-	POSITION_President
 		social_democrat
 		
 	}
 }
 create_country_leader = {
-	name = "Hubert Humphrey"
-	desc = "CSA_Hubert_Humphrey_DESC"
-	picture = "gfx/leaders/CSA/Portrait_CSA_Hubert_Humphrey.tga"
+	name = "Glen Hearst Taylor"
+	desc = "CAL_Glen_Hearst_Taylor_DESC"
+	picture = "gfx/leaders/CAL/Portrait_CAL_Glen_Hearst_Taylor.tga"
 	expire = "1991.1.1"
 	ideology = social_progressive_subtype
 	traits = {
-	POSITION_President
 		social_progressive
 		
 	}
@@ -174,6 +152,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {
+	POSITION_President
 		social_liberal
 		
 	}
@@ -185,10 +164,25 @@ create_country_leader = {# Mr-House
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {
+	POSITION_President
 		market_liberal
 		hos_atlas_standing
 	}
 }
+
+create_country_leader = {
+	name = "Caspar Willard Weinberger "
+	desc = "CAL_Cap_Weinberger_DESC"
+	picture = "gfx/leaders/CAL/Portrait_CAL_Cap_Weinberger.tga"
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	POSITION_President
+		social_conservative
+		hos_atlas_standing
+	}
+}
+
 
 create_country_leader = {
 	name = "James Strom Thurmond"
@@ -202,242 +196,197 @@ create_country_leader = {
 	}
 }
 
-add_ideas = {
-	CSA_Evelyn_Dubrow_hog_syn
-	
-}
 
-### Field Marshal
-create_field_marshal = {# Smedley Butler
-	name = "Smedley Butler"
-	desc = "CSA_SMEDLEY_BUTLER_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_G.tga"
-	traits = {
-		war_hero
-		offensive_doctrine
-		inspirational_leader
-		commando
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-	id = 960
-}
-
-### Corps Commander
-create_corps_commander = {# Evans Carlson
-	name = "Evans Fordyce Carlson"
-	desc = "CSA_EVANS_CARLSON_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Evans_Carlson.tga"
-	traits = {
-		war_hero
-		commando
-	}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {# Maurice Rose
-	name = "Maurice Rose"
-	desc = "CSA_MAURICE_ROSE_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Maurice_Rose.tga"
-	traits = {
-		armor_officer
-		trait_reckless
-		brilliant_strategist
-	}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_corps_commander = {# Milton Wolff
-	name = "Milton Wolff"
-	desc = "CSA_MILTON_WOLFF_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_milton_wolff.tga"
+###Field Commander####
+create_field_marshal = {# Henry H. Arnold
+	name = "Henry H. Arnold"
+	desc = "CAL_HENRY_ARNOLD_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_Henry_Arnold.tga"
 	traits = {
 		career_officer
-		infantry_officer
-		trickster
+		politically_connected
+		inspirational_leader
+		organizer
 	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {# Edward A. Carter Jr
-	name = "Edward A. Carter Jr."
-	desc = "CSA_EDWARD_CARTER_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_edward_carter.tga"
-	traits = {
-		trait_reckless
-		armor_officer
-		panzer_leader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {# George H. Cannon
-	name = "George H. Cannon"
-	desc = "CSA_GEORGE_H_CANNON_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_cannon.tga"
-	traits = {
-		trait_reckless
-		trickster
-		commando
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {# Benjamin Katine
-	name = "Benjamin Katine"
-	desc = "CSA_BENJAMIN_KATINE_ARMY_DESC"
-	id = 962
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_benjamin_katine.tga"
-	traits = {}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {# James Patrick Murphy
-	name = "James Patrick Murphy"
-	desc = "CSA_JAMES_PATRICK_MURPHY_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_james_murphy.tga"
-	traits = {
-		trait_reckless
-		armor_officer
-		panzer_leader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {# John Tisa
-	name = "John Tisa"
-	desc = "CSA_JOHN_TISA_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_john_tisa.tga"
-	traits = {}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {# Herbert Holdridge
-	name = "Herbert Charles Heitke"
-	desc = "CSA_HERBERT_HOLDRIDGE_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_herbert_holdridge.tga"
-	traits = {
-		trickster
-		inflexible_strategist
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-create_corps_commander = {# Oliver Law
-	name = "Oliver Law"
-	desc = "CSA_OLIVER_LAW_ARMY_DESC"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Oliver_Law.tga"
-	traits = {
-		trickster
-		trait_reckless
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-### Navy Leader
-
-create_navy_leader = {# George Whelan Anderson Jr.
-	name = "George Whelan Anderson Jr."
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_anderson.tga"
-	traits = {superior_tactician air_controller}
 	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 938
 }
-create_navy_leader = {# Hyman G. Rickover
-	name = "Hyman G. Rickover"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_hyman_rickover.tga"
+create_field_marshal = {# George Marshall
+	name = "George Marshall"
+	desc = "CAL_DADDY_MARSHALL_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_george_marshall.tga"
 	traits = {
-		seawolf
-		superior_tactician
+		career_officer
+		politically_connected
+		offensive_doctrine
+		organizer
 	}
 	skill = 4
 	attack_skill = 3
 	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+	id = 937
 }
-create_navy_leader = {# Hugh Mulzac
-	name = "Hugh Mulzac"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_hugh_mulzac.tga"
-	traits = {blockade_runner}
+### Corps Commander
+create_corps_commander = {# Alexander Patch
+	name = "Alexander Patch"
+	desc = "CAL_ALEXANDER_PATCH_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_Alexander_Patch.tga"
+	traits = {
+		commando
+		infantry_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 980
+}
+create_corps_commander = {# Lewis H. Brereton
+	name = "Lewis H. Brereton"
+	desc = "CAL_LEWIS_BRERETON_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_lewis_brereton.tga"
+	traits = {
+		career_officer
+		politically_connected
+		infantry_leader
+	}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 981
 }
-create_navy_leader = {# Willard J. Smith
-	name = "Willard J. Smith"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_willard_smith.tga"
-	traits = {fly_swatter}
-	skill = 2
+create_corps_commander = {# Isaac D. White
+	name = "Isaac D. White"
+	desc = "CAL_ISAAC_WHITE_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_isaac_white.tga"
+	traits = {
+		career_officer
+		armor_officer
+		panzer_leader
+	}
+	skill = 3
 	attack_skill = 2
 	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+	id = 982
 }
-create_navy_leader = {# Youngblood Nance
-	name = "Youngblood Nance"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_youngblood_nance.tga"
-	traits = {seawolf}
+create_corps_commander = {# Albert Coady Wedemeyer
+	name = "Albert Coady Wedemeyer"
+	desc = "CAL_ALBERT_WEDEMEYER_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_albert_wedemeyer.tga"
+	traits = {
+		politically_connected
+		trait_cautious
+		infantry_leader
+	}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 936
 }
-create_navy_leader = {# Arthur S. Carpender
-	name = "Arthur S. Carpender"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_arthur_carpender.tga"
-	traits = {ironside}
+create_corps_commander = {# Alexander Vandegrift
+	name = "Alexander Vandegrift"
+	desc = "CAL_ALEXANDER_VANDEGRIFT_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_alexander_vandergrift.tga"
+	traits = {
+		career_officer
+		trait_cautious
+		commando
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 935
+}
+create_corps_commander = {# George Windle Read, Jr.
+	name = "George Windle Read, Jr."
+	desc = "CAL_GEORGE_WINDLE_READ_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_george_read.tga"
+	traits = {
+		politically_connected
+		armor_officer
+		panzer_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 985
+}
+create_corps_commander = {# Jimmy Doolittle
+	name = "James H. Doolittle"
+	desc = "CAL_JIMMY_DOOLITTLE_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_Jimmy_Doolittle.tga"
+	traits = {
+		politically_connected
+		career_officer
+		trickster
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+	id = 986
+}
+create_corps_commander = {# Herbert B. Powell
+	name = "Herbert B. Powell"
+	desc = "CAL_HERBERT_POWELL_ARMY_DESC"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_herbert_powell.tga"
+	traits = {
+		politically_connected
+		infantry_officer
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 987
+}
+### Navy Leader
+create_navy_leader = {# Chester W. Nimitz
+	name = "Chester W. Nimitz"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Chester_W_Nimitz.dds"
+	traits = {
+		superior_tactician
+		spotter
+	}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 5
+}
+create_navy_leader = {# Felix Stump
+	name = "Felix Stump"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_felix_stump.tga"
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
-create_navy_leader = {# William R. Furlong
-	name = "William R. Furlong"
-	portrait_path = "gfx/leaders/CSA/Portrait_CSA_william_furlong.tga"
+create_navy_leader = {# Harvey Overesch
+	name = "Harvey Overesch"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_harvey_overesch.tga"
 	traits = {}
 	skill = 2
 	attack_skill = 1
@@ -445,6 +394,47 @@ create_navy_leader = {# William R. Furlong
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
+create_navy_leader = {# Lloyd M. Mustin
+	name = "Lloyd M. Mustin"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_lloyd_mustin.tga"
+	traits = {fly_swatter}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader = {# Daniel E. Barbey
+	name = "Daniel E. Barbey"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_daniel_barbey.tga"
+	traits = {superior_tactician}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader = {# James H. Doyle
+	name = "James H. Doyle"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_james_doyle.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {# Harry W. Hill
+	name = "Harry W. Hill"
+	portrait_path = "gfx/leaders/CAL/Portrait_CAL_harry_hill.tga"
+	traits = {ironside}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
 ### Ship Variants ###
 create_equipment_variant = {
 	name = "Wyoming Class" #in service of GRE
