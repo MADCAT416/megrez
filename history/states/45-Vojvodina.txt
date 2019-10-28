@@ -1,7 +1,7 @@
 state = {
 	id = 45
 	name = "STATE_45" # Vojvodina
-	manpower = 1026200
+	manpower = 1923263
 
 	state_category = four
 

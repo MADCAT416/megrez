@@ -6,6 +6,7 @@ state = {
 		owner = AUS
 		add_core_of = AUS
 		add_core_of = GER
+		add_core_of = CRO
 
 		buildings = {
 			infrastructure = 6
@@ -21,6 +22,6 @@ state = {
 	provinces = {
 		599 11735 11595
 	}
-	manpower = 557500
+	manpower = 175691
 	state_category = four
 }

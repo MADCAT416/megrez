@@ -1,7 +1,7 @@
 state = {
 	id = 784
 	name = "STATE_784"
-	manpower = 437497
+	manpower = 271784
 
 
 	state_category = four
@@ -12,6 +12,7 @@ state = {
 			infrastructure = 7
 		}
 		add_core_of = AUS
+		add_core_of = GER
 		add_claim_by = HUN
 	}
 

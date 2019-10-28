@@ -1,7 +1,7 @@
 state = {
 	id = 43
 	name = "STATE_43" # Northern Hungary
-	manpower = 3750752
+	manpower = 4163831
 	resources = {
 		steel = 40
 		aluminium = 112
