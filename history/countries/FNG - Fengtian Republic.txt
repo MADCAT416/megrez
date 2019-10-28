@@ -3,20 +3,12 @@ oob = "empty"
 oob = "empty"
 set_research_slots = 3
 set_technology = {
-	#### MOD ####
-	#### Tanks ####
-	gwtank = 1
-	#### INF ####
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	tech_military_police = 1
-	gw_artillery = 1
-	#### AIR ####
-	early_fighter = 1
-	early_bomber = 1
+	### MOD ###
+	### Tanks ###
+	### INF ###
+	### AIR ###
 }
+
 ### Navy - MtG ###
 
 if = {
@@ -24,20 +16,11 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
+		## Hull ##
+		
 
 		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
+		
 	}
 }
 
@@ -50,13 +33,9 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+		
 	}
 }
-
 
 
 add_opinion_modifier = { target = GER modifier = embargo }
@@ -128,28 +107,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	### Conscription Law
-	limited_conscription
-	### Head of Government
-	FNG_Huang_Fu_hog_ade
-	### Foreign Minister
-	FNG_Wu_Jinglian_for_ade
-	### Eco minister
-	FNG_Pan_Fu_eco_ade
-	### Security Minister
-	FNG_Yuan_Jinkai_sec_pau
-	### Intel Minister
-	FNG_Zang_Shiyi_int_pau
-	### Backward Industry
-	FNG_Backward_Industry
-	### Unscrupulous_Governance
-	FNG_Unscrupulous_Governance
-	### Investment Dearth
-	FNG_Investment_Dearth
-	### Japanese Military Mission
-	FNG_Japanese_Military_Mission
-	### Preservation of the Xinhai Order
-	FNG_informal_empire_2
+	
 }
 
 create_country_leader = {
