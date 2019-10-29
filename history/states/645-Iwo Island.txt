@@ -1,10 +1,10 @@
 state = {
 	id = 645
 	name = "STATE_645"
-	manpower = 1018
-	state_category = zero_island
+	manpower = 743
+	state_category = small_island
 	history = {
-		owner = JAP
+		owner = RYU
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
