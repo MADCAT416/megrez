@@ -7,7 +7,7 @@ state = { #Chenyuan
 
 	history = {
 		owner = HNN
-		add_core_of = SHX
+		add_core_of = HNN
 		add_core_of = CHI
 		add_claim_by = FNG
 
