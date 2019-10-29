@@ -7,7 +7,7 @@ set_technology = {
 	### INF ###
 	### AIR ###
 }
-
+set_cosmetic_tag = GXC_Chen
 ### Navy - MtG ###
 
 if = {
