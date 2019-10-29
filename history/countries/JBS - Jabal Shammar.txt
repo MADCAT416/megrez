@@ -3,14 +3,7 @@ oob = "empty"
 set_convoys = 20
 set_research_slots = 2
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	### INF ###
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
+
 }
 
 add_opinion_modifier = { target = FRA modifier = embargo }
@@ -99,14 +92,8 @@ create_country_leader = {# Saūd bin Abd al-Azīz
 }
 
 add_ideas = {
-	JBS_backwards_economy
-	JBS_illiterate_populace
 	extensive_conscription
 	partial_economic_mobilisation
-	JBS_Talal_bin_Mohammed_Al_Rashid_hog_pau
-	JBS_Abdulaziz_bin_Saud_bin_Abdulaziz_Al_Rashid_for_npo
-	JBS_Prince_Sheikh_Rashid_Khuzaie_eco_pau
-	JBS_Saud_bin_Abdul_Aziz_Rashid_sec_pau
 }
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2000 producer = OTT }

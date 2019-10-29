@@ -22,20 +22,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1 
-		basic_naval_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -48,23 +35,12 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
 add_ideas = {
 	disarmed_nation
-	ICE_Personal_Union
-	ICE_ailing_economy
-	ICE_CWCS
-	ICE_Guttoslagurinn
-	ICE_Jon_Baldvinsson_hog_sde
-	ICE_Stefan_Johann_Stefansson_for_sde
-	ICE_Gisli_Gudmundsson_eco_sde
-	ICE_Bergur_Jonsson_sec_sde
 }
 
 set_stability = 0.15
