@@ -2,9 +2,7 @@
 OOB = "empty"
 
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
+
 }
 
 set_research_slots = 2
@@ -34,11 +32,6 @@ add_ideas = {
 	war_economy
 	limited_exports
 
-	KTG_Mwami_Kitanika_hog_pau
-	KTG_Francois_Laffut_for_sco
-	KTG_Camille_Camus_eco_sli
-	KTG_Emile_De_Wildeman_sec_sli
-	KTG_Marcel_Serruys_int_sco
 }
 
 create_country_leader = {

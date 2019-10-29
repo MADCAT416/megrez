@@ -6,15 +6,7 @@ set_stability = 0.5
 set_war_support = 0.2
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_fighter = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_heavy_tank = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_military_police = 1
+
 }
 
 ### Navy - MtG ###
@@ -24,20 +16,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -50,20 +29,13 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
 set_research_slots = 3
 
 add_ideas = {
-	IRE_Eoin_O'Duffy_hog_pau
-	IRE_Kevin_O'Higgins_for_ade
-	IRE_Ernest_Blythe_eco_ade
-	IRE_Gearoid_O_Cuinnegain_sec_pau
 	limited_conscription
 	
 	IRE_independent_united_people

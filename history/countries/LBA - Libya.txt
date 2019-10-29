@@ -5,7 +5,7 @@ oob = "empty"
 set_technology = {
 	### MOD ###
 	### INF ###
-	infantry_weapons = 1
+
 }
 ### Navy - MtG ###
 
@@ -14,20 +14,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1 
-		basic_naval_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -40,10 +27,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
@@ -51,10 +35,7 @@ set_research_slots = 2
 set_convoys = 20
 
 add_ideas = {
-	LBA_Wahbi_Ahmed_El_Bouri_hog_ade
-	LBA_Mahmoud_al_Montaser_for_ade
-	LBA_Abdel_Mawla_Lanki_eco_ade
-	LBA_Nuri_Killigil_sec_ade
+
 }
 
 
