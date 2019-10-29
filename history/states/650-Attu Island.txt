@@ -5,7 +5,7 @@ state = {
 	state_category = tiny_island
 
 	history = {
-		owner = CAL
+		owner = CAN
 		 
 		add_core_of = CAL
 		buildings = {
