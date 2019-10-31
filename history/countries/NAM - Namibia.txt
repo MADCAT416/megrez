@@ -2,16 +2,11 @@
 OOB = "empty"
 set_research_slots = 2
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
+
 }
 
 add_ideas = {
-	NAM_CJ_Langenhooven_hog_ade
-	NAM_Bettie_Conradie_for_ade
-	NAM_Christiaan_van_den_Heever_eco_ade
-	NAM_Nikolaus_J_de_Wet_sec_mli
+
 	extensive_conscription
 }
 

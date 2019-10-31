@@ -2,11 +2,7 @@
 oob = "empty"
 set_research_slots = 3
 set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
-	gw_artillery = 1
+
 }
 
 set_war_support = 0.7
@@ -32,13 +28,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	MON_Toegs_Ochiryn_Namnansueren_hog_ade
-	MON_Ferdynand_Ossendowski_for_ade
-	MON_Mikhail_Diterikhs_eco_pau
-	MON_The_7th_Changkya_Khutukhtu_sec_pau
 	partial_economic_mobilisation
 	limited_conscription
-	scourge_of_the_steppes
 	limited_exports
 }
 

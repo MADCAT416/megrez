@@ -4,31 +4,7 @@ oob = "empty"
 oob = "empty"
 
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	basic_light_tank = 1
-	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	marines = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	cv_early_fighter = 1
-empty_bomber1 = 1
-	tactical_bomber1 = 1
-	### Naval ###
-	
-	
-	
-	transport = 1
+
 }
 
 ### Navy - MtG ###
@@ -37,45 +13,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		improved_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
-		weltkrieg_submarine_hull = 1
-		submarine_mine_laying = 1
-		interwar_submarine_hull = 1
-		improved_submarine_hull = 1
-		weltkrieg_panzerschiff_hull = 1
-		interwar_panzerschiff_hull = 1
-		weltkrieg_dreadnought_hull = 1
 
-		## Modules##
-		torpedo_tech_one = 1
-		torpedo_tech_two = 1
-		gunnery_tech_one = 1
-		gunnery_tech_two = 1
-		ss_torpedo_module_one = 1
-		ss_torpedo_module_two = 1
-		ss_utility_one = 1
-		dd_gun_module_one = 1
-		dd_gun_module_two = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_torpedo_module_one = 1
-		dd_torpedo_module_two = 1
-		cruiser_gun_module_one = 1
-		cruiser_gun_module_two = 1
-		cruiser_specialisation_module_one = 1
-		cruiser_specialisation_module_two = 1
-		ps_gun_module_one = 1
-		ps_gun_module_two = 1
-		ps_hull_module_one = 1
-		ps_hull_module_two = 1
-		fbb_gunnery_tech_one = 1
-		dn_gunnery_tech_one = 1
-		dn_hull_module_one = 1
 	}
 }
 
@@ -87,17 +25,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		improved_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
-		weltkrieg_submarine_hull_nonmtg = 1
-		interwar_submarine_hull_nonmtg = 1
-		improved_submarine_hull_nonmtg = 1
-		weltkrieg_panzerschiff_hull_nonmtg = 1
-		interwar_panzerschiff_hull_nonmtg = 1
-		weltkrieg_dreadnought_hull_nonmtg = 1
+
 	}
 }
 
@@ -139,13 +67,9 @@ set_popularities = {
 add_opinion_modifier = { target = ENG modifier = embargo }
 
 add_ideas = {
-	NFA_vacancy_hog_aut
-	
 
-	NFA_anti_communard
 	limited_conscription
-	NFA_french_in_exile
-	NFA_political_unrest
+
 }
 
 create_country_leader = {
