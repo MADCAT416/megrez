@@ -4,17 +4,7 @@ oob = "empty"
 oob = "empty"
 
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
+
 }
 
 ### Navy - MtG ###
@@ -24,20 +14,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -50,10 +27,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
@@ -121,12 +95,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	PRF_Council_of_Princes_hog_ade
-	PRF_Maharaja_Kishen_Pershad_for_ade
-	PRF_Mokshagundam_Visveswaraiah_eco_ade
-	PRF_Albion_Rajkumar_Banerjee_sec_ade
-	PRF_rule_of_princes_1
-	PRF_backwards_economy_1
+
 }
 
 ### Field Marshal

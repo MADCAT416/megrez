@@ -4,29 +4,7 @@ oob = "empty"
 
 # Starting tech
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	basic_light_tank = 1
-	basic_heavy_tank = 1
-	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	marines = 1
-	### AIR ###
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	cv_early_fighter = 1
-empty_bomber1 = 1
-	cv_CAS1 = 1
+
 }
 
 ### Navy - MtG ###
@@ -36,77 +14,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		improved_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
-		improved_cruiser_hull = 1
-		weltkrieg_submarine_hull = 1
-		submarine_mine_laying = 1
-		interwar_submarine_hull = 1
-		improved_submarine_hull = 1
-		weltkrieg_carrier_hull = 1
-		interwar_carrier_hull = 1
-		weltkrieg_panzerschiff_hull = 1
-		interwar_panzerschiff_hull = 1
-		improved_panzerschiff_hull = 1
-		weltkrieg_fast_battleship_hull = 1
-		interwar_fast_battleship_hull = 1
-		improved_fast_battleship_hull = 1
-		weltkrieg_dreadnought_hull = 1
-		interwar_dreadnought_hull = 1
-		improved_dreadnought_hull = 1
-		interwar_heavy_carrier_hull = 1
 
-		## Modules##
-		torpedo_tech_one = 1
-		torpedo_tech_two = 1
-		torpedo_tech_three = 1
-		gunnery_tech_one = 1
-		gunnery_tech_two = 1
-		gunnery_tech_three = 1
-		ss_torpedo_module_one = 1
-		ss_torpedo_module_two = 1
-		ss_utility_one = 1
-		dd_gun_module_one = 1
-		dd_gun_module_two = 1
-		dd_asw_module_one = 1
-		dd_asw_module_two = 1
-		dd_utility_module_one = 1
-		dd_utility_module_two = 1
-		dd_torpedo_module_one = 1
-		dd_torpedo_module_two = 1
-		cruiser_gun_module_one = 1
-		cruiser_gun_module_two = 1
-		cruiser_specialisation_module_one = 1
-		cruiser_specialisation_module_two = 1
-		ps_gun_module_one = 1
-		ps_gun_module_two = 1
-		ps_hull_module_one = 1
-		ps_hull_module_two = 1
-		fbb_gunnery_tech_one = 1
-		fbb_gunnery_tech_two = 1
-		fbb_gunnery_tech_three = 1
-		fbb_hull_module_one = 1
-		fbb_hull_module_two = 1
-		fbb_gun_module_one = 1
-		fbb_gun_module_two = 1
-		fbb_sh_gun_module_one = 1
-		fbb_sh_gun_module_two = 1
-		dn_gunnery_tech_one = 1
-		dn_gunnery_tech_two = 1
-		dn_gunnery_tech_three = 1
-		dn_hull_module_one = 1
-		dn_hull_module_two = 1
-		dn_sh_gun_module_one = 1
-		dn_sh_gun_module_two = 1
-		catapult_plane_two = 1
-		carrier_armoured_deck = 1
-		heavy_secondaries = 1
-		heavy_carrier_armoured_deck = 1
-		transport = 1
 	}
 }
 
@@ -119,28 +27,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		improved_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
-		improved_cruiser_hull_nonmtg = 1
-		weltkrieg_submarine_hull_nonmtg = 1
-		interwar_submarine_hull_nonmtg = 1
-		improved_submarine_hull_nonmtg = 1
-		weltkrieg_carrier_hull_nonmtg = 1
-		interwar_carrier_hull_nonmtg = 1
-		weltkrieg_panzerschiff_hull_nonmtg = 1
-		interwar_panzerschiff_hull_nonmtg = 1
-		improved_panzerschiff_hull_nonmtg = 1
-		weltkrieg_fast_battleship_hull_nonmtg = 1
-		interwar_fast_battleship_hull_nonmtg = 1
-		improved_fast_battleship_hull_nonmtg = 1
-		weltkrieg_dreadnought_hull_nonmtg = 1
-		interwar_dreadnought_hull_nonmtg = 1
-		improved_dreadnought_hull_nonmtg = 1
-		interwar_heavy_carrier_hull_nonmtg = 1
-		transport = 1
+
 	}
 }
 
@@ -164,16 +51,7 @@ give_guarantee = "PAN"
 give_guarantee = LEC
 give_guarantee = DOM
 give_guarantee = HAI
-set_country_flag = LEC_profit_for_you
 
-### Hiding Long and Reed's Cabinet before the election ###
-set_country_flag = Charles_Coughlin_dead
-set_country_flag = Henry_Ford_dead
-set_country_flag = Gerald_K_Smith_dead
-
-set_country_flag = Eugene_Dennis_dead
-set_country_flag = Paul_Mattick_dead
-set_country_flag = John_Abt_dead
 
 set_variable = { AFP_strength = 0 }
 set_variable = { SPA_strength = 0 }
@@ -311,16 +189,9 @@ create_country_leader = {# Huey Long
 
 add_ideas = {
 	### cabinet ###
-	USA_Herbert_Hoover_hog_sli
-	USA_Henry_Lewis_Stimson_for_sli
-	USA_Roy_Dikeman_Chapin_Sr_eco_mli
-	USA_Charles_Evans_Hughes_Sr_sec_sli
-	# national ideas
-	USA_great_depression
-	USA_political_crisis
+
 	isolation
 	free_trade
-	PROFF_LEG_CITIES
 }
 
 ### Field Marshal

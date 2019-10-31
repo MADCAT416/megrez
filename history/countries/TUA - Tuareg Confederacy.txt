@@ -2,9 +2,7 @@
 OOB = "empty"
 
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
+
 }
 
 set_research_slots = 2
@@ -38,10 +36,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	TUA_Dassine_Oult_Yemma_hog_ade
-	TUA_Mokhtar_Kodogo_for_ade
-	TUA_Dassine_Oult_Yemma_eco_ade
-	TUA_Intalla_ag_Attaher_sec_ade
+
 }
 
 ### Field Marshal

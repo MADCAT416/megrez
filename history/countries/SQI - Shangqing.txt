@@ -38,14 +38,7 @@ add_opinion_modifier = { target = YUN modifier = embargo }
 add_opinion_modifier = { target = JAP modifier = embargo }
 
 add_ideas = {
-	### Head of Government
-	SQI_Sun_Suzhen_hog_npo
-	### Foreign Minister
-	SQI_Pan_Hua_Ling_for_npo
-	### Eco minister
-	SQI_Lin_Bojiu_eco_npo
-	### Security Minister
-	SQI_Xie_Juezai_sec_npo
+
 }
 
 

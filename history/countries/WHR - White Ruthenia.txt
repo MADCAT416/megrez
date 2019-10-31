@@ -5,19 +5,7 @@ oob = "empty"
 
 
 set_technology = {
-	### Tanks ###
-	gwtank = 1
 
-	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-
-	### AIR ###
-	early_fighter = 1
 }
 
 set_research_slots = 3
@@ -51,14 +39,7 @@ set_popularities = {
 set_country_flag = vladimir_I_HoS
 
 add_ideas = {
-	WHR_disunity
-	WHR_urbanisation_1
-	WHR_illiteracy
 	limited_conscription
-	WHR_Vasil_Zacharka_hog_ade
-	WHR_Iosif_Voronko_for_ade
-	WHR_Jan_Stankievic_eco_ade
-	WHR_Sigismund_von_Hohenzollern_sec_pau
 }
 
 create_country_leader = {

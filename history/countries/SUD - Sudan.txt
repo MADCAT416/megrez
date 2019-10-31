@@ -2,9 +2,7 @@
 OOB = "empty"
 set_research_slots = 2
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
+
 }
 
 set_politics = {
@@ -96,10 +94,7 @@ create_country_leader = {#
 
 
 add_ideas = {
-	SUD_Siddick_Sayed_el_Mahdi_hog_ade
-	SUD_Sayed_Abd_el_Rahman_el_Mahdi_for_ade
-	SUD_Slah_Elzubir_eco_sde
-	SUD_Farik_Ibrahim_Abboud_sec_sde
+
 }
 ### Generals
 create_field_marshal = {# Ali Abd al Latif

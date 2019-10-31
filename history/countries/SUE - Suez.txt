@@ -4,15 +4,7 @@ oob = "empty"
 set_research_slots = 3
 set_technology = {
 ### MOD ###
-	### Tanks ###
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
-	early_bomber = 1
+
 }
 ### Navy - MtG ###
 
@@ -21,20 +13,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -47,10 +26,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
@@ -133,14 +109,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	EGY_Aly_Maher_hog_sco
-	EGY_Hussein_Serry_for_sco
-	EGY_Mohamed_Ahmed_Farghaly_eco_sco
-	EGY_Abdelfattah_Amr_sec_sco
-	EGY_backwards_economy_1
-	EGY_illiterate_populace
-	EGY_inexperinced_officer_corps
-	EGY_iqta
+
 }
 
 ### Field Marshal

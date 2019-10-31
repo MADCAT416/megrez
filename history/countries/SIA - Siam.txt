@@ -5,24 +5,7 @@ oob = "empty"
 # Kaiserreich Siam
 
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1 #no tankettes for ya
-	### INF ###
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	marines = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	transport = 1
-	### AIR ###
-	early_fighter = 1 #Prajadhipok
-	early_bomber = 1 #Boripatr
-	CAS1 = 1
+
 }
 
 ### Navy - MtG ###
@@ -32,23 +15,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
-		weltkrieg_submarine_hull = 1
-		submarine_mine_laying = 1
-		interwar_submarine_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -61,12 +28,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
-		weltkrieg_submarine_hull_nonmtg = 1
-		interwar_submarine_hull_nonmtg = 1
+
 	}
 }
 
@@ -140,14 +102,9 @@ set_popularities = {
 
 add_ideas = {
 	# Ministers + ideas
-	SIA_King_Prajadhipok_hog_ade
-	SIA_Traitotphrapan_Tevakul_for_ade
-	SIA_Narisara_Nuwattiwong_eco_ade
-	SIA_Paribatra_Sukhumbhand_sec_ade
+
 	limited_conscription
 
-	SIA_RPC_neutral #Starter RPC results here from 1935
-	SIA_bloated_bureaucracy
 }
 
 

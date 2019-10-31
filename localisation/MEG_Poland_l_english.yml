@@ -1,0 +1,31 @@
+﻿l_english:
+
+ ### 국가원수 ###
+
+
+ ### 정당 ###
+    POL_totalist_party:0 "PPR"
+    POL_totalist_party_long:0 "Polska Partia Robotnicza (Polish Workers' Party)"
+    POL_syndicalist_party:0 "NSZZ Solidarność"
+    POL_syndicalist_party_long:0 "Niezależny Samorządny Związek Zawodowy \"Solidarność\" (Independent Self-governing Labour Union \"Solidarity\")"
+    POL_democratic_socialist_party:0 ""
+    POL_democratic_socialist_party_long:0 ""
+    POL_social_progressive_party:0 ""
+    POL_social_progressive_party_long:0 ""
+    POL_social_democrat_party:0 "PPS"
+    POL_social_democrat_party_long:0 "Polska Partia Socjalistyczna (Polish Socialist Party)"
+    POL_social_liberal_party:0 "LK"
+    POL_social_liberal_party_long:0 "Ludowa Koalicja (People's Coalition)"
+    POL_market_liberal_party:0 "PD"
+    POL_market_liberal_party_long:0 "Partia Demokratyczna (Democratic Party)"
+    POL_social_conservative_party:0 "SL"
+    POL_social_conservative_party_long:0 "Stronnictwo Ludowe (People's Party)"
+    POL_authoritarian_democrat_party:0 "BBWR"
+    POL_authoritarian_democrat_party_long:0 "Bezpartyjny Blok Współpracy z Rządem (Nonpartisan Bloc for Support the Regime)"
+    POL_paternal_autocrat_party:0 "Monarchista"
+    POL_paternal_autocrat_party_long:0 "Monarchista"
+    POL_clerical_nationalist_party:0 "ONR-F"
+    POL_clerical_nationalist_party_long:0 "Obóz Narodowo-Radykalny - Falanga (National Radical Camp - Polish Phalanx)"
+    POL_ethnic_populist_party:0 "ND"
+    POL_ethnic_populist_party_long:0 "Narodowa Demokracja (National Democracy)"
+

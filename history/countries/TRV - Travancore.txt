@@ -2,17 +2,7 @@
 oob = "empty"
 
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
+
 }
 
 set_research_slots = 2
@@ -65,10 +55,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	TRV_Muhammad_Habibullah_hog_sco
-	TRV_V_S_Subramanya_Iyer_for_sco
-	TRV_Damodaran_Asan_AS_eco_sco
-	TRV_MA_Chacko_sec_sco
+
 }
 
 ### Field Marshal

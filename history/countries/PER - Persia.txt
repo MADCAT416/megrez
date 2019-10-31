@@ -4,16 +4,7 @@ oob = "empty"
 set_convoys = 30
 set_research_slots = 2
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	### INF ###
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
-	early_bomber = 1
+
 }
 
 ### Navy - MtG ###
@@ -23,20 +14,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		baempty_mines = 1
-		interwar_light_ship_hull = 1
-		weltkrieg_cruiser_hull = 1
-		interwar_cruiser_hull = 1
 
-		## Modules##
-		gunnery_tech_one = 1
-		dd_gun_module_one = 1
-		dd_asw_module_one = 1
-		dd_utility_module_one = 1
-		dd_utility_module_one = 1
-		cruiser_gun_module_one = 1
-		cruiser_specialisation_module_one = 1
 	}
 }
 
@@ -49,10 +27,7 @@ if = {
 		}
 	}
 	set_technology = {
-		weltkrieg_light_ship_hull_nonmtg = 1
-		interwar_light_ship_hull_nonmtg = 1
-		weltkrieg_cruiser_hull_nonmtg = 1
-		interwar_cruiser_hull_nonmtg = 1
+
 	}
 }
 
@@ -174,18 +149,9 @@ create_country_leader = {
 }
 
 add_ideas = {
-	PER_Abdolhossein_Teymurtash_hog_mli
-	PER_Abdol_Hossein_Sardari_for_sde
-	PER_Mostowfi_ol_Mamalek_eco_sde
-	PER_Mohammad_Taqi_Khan_Pessian_sec_sde
+
 	limited_conscription
 
-	PER_political_upheaval
-	PER_bad_military
-	PER_semi_famine
-	PER_corrupt_aristocrats
-	PER_unruly_khans
-	PER_illiteracy
 }
 
 ### Field Marshal

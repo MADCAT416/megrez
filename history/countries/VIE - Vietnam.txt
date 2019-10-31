@@ -2,24 +2,11 @@
 OOB = "empty"
 set_research_slots = 3
 set_technology = {
-	### MOD ###
-	### Tanks ###
-	gwtank = 1
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	### AIR ###
+
 }
 
 add_ideas = {
-	VIE_Tran_Trong_Kim_hog_sco
-	VIE_Tran_Van_Huu_for_sco
-	VIE_Nguyen_Van_Vinh_sec_mli
-	VIE_Ho_Dac_Trung_eco_sco
-	VIE_Ineffective_Army_idea
-	VIE_Rural_Insurgency_idea
+
 }
 
 set_politics = {

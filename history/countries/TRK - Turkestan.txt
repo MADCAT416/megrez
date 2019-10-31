@@ -3,14 +3,7 @@
 oob = "empty"
 
 set_technology = {
-	### MOD ###
-	### INF ###
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	gw_artillery = 1
-	### AIR ###
-	early_fighter = 1
+
 }
 
 set_research_slots = 2
@@ -49,10 +42,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	TRK_Ibrahim_Bek_hog_pau
-	TRK_Mukhtar_Dzhangalin_for_ade
-	TRK_Adilet_Rustamov_eco_ade
-	TRK_Kush_Beggi_sec_pau
+
 }
 
 ### Field Marshal

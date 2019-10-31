@@ -30,14 +30,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	### Head of Government
-	XSM_Ma_Hongkui_hog_ade
-	### Foreign Minister
-	XSM_Ma_Hongkui_for_ade
-	### Eco minister
-	XSM_Ma_Shaowu_eco_ade
-	### Security Minister
-	XSM_Ma_Zhongying_sec_ade
+
 	limited_conscription
 }
 

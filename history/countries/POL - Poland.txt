@@ -6,19 +6,7 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	trench_warfare = 1
+
 }
 
 set_convoys = 40
@@ -47,81 +35,112 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	POL_eternal_regency
-	POL_german_industry
-	POL_Zdzislaw_Lubomirski_hog_ade
-	POL_Jan_hr_Szembek_for_ade
-	POL_Andrzej_Wierzbicki_eco_ade
-	POL_Stanislaw_Bukowiecki_sec_ade
+
 }
 
 create_country_leader = {
-	name = "Roman Dmowski"
-	desc = "POLITICS_ROMAN_DWOWSKI_DESC"
-	picture = "Portrait_Poland_Roman_Dmowski.tga"
+	name = "Jędrzej Giertych"
+	desc = "POLITICS_POL_Jedrzej_Giertych_DESC"
+	picture = "Portrait_Poland_Jedrzej_Giertych.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Sikorski.tga"
+	name = "Bolesław_Piasecki"
+	desc = "POLITICS_POL_Boleslaw_Piasecki_DESC"
+	picture = "Portrait_Poland_Bolesław_Piasecki.tga"
+	expire = "1991.1.1"
+	ideology = clerical_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_POL_REGENCY_DESC"
-	picture = "Portrait_Poland_Regency_Council.tga"
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "The Sejm"
-	desc = "POLITICS_POL_SEJM_DESC"
-	picture = "Portrait_Poland_Sejm.tga"
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "The Sejm"
-	desc = "POLITICS_POL_SEJM_DESC"
-	picture = "Portrait_Poland_Sejm.tga"
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = market_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "The Sejm"
-	desc = "POLITICS_POL_SEJM_DESC"
-	picture = "Portrait_Poland_Sejm.tga"
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "The Sejm"
-	desc = "POLITICS_POL_SEJM_DESC"
-	picture = "Portrait_Poland_Sejm.tga"
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
+	expire = "1991.1.1"
+	ideology = social_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Aleksander I"
+	desc = "POLITICS_POL_Aleksander_I_DESC"
+	picture = "Portrait_Poland_Aleksander_I.tga"
 	expire = "1991.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Feliks Dzierzynski"
-	desc = "POLITICS_FELIKIS_DZIERZYNSKI_DESC"
-	picture = "Portrait_Poland_Feliks_Dzierzynski.tga"
+	name = "Jerzy Andrzejewski"
+	desc = "POLITICS_Jerzy_Andrzejewski_DESC"
+	picture = "Portrait_Poland_Jerzy_Andrzejewski.tga"
+	expire = "1991.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Lech Wałęsa"
+	desc = "POLITICS_Lech_Walesa_DESC"
+	picture = "Portrait_Poland_Lech_Walesa.tga"
+	expire = "1991.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Mieczysław Moczar"
+	desc = "POLITICS_Mieczyslaw_Moczar_DESC"
+	picture = "Portrait_Poland_Mieczyslaw_Moczar.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
