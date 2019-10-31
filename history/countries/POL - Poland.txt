@@ -130,7 +130,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lech Wałęsa"
-	desc = "POLITICS_Lech_Walesa_DESC"
+	desc = "POLITICS_Lech Walesa_DESC"
 	picture = "Portrait_Poland_Lech_Walesa.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
