@@ -70,8 +70,7 @@ create_country_leader = {
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {
-		dictator
-		warmonger
+		
 	}
 }
 create_country_leader = { # Giovanni Gronchi

@@ -28,10 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	JOR_Jamil_al_Midfai_hog_pau
-	JOR_Sadqa_Hussein_for_mli
-	JOR_Ali_Jawdat_al_Ayubi_eco_ade
-	JOR_Taha_al_Hashimi_sec_ade
+
 }
 
 create_country_leader = {# Zeid I Hashmid
@@ -48,7 +45,7 @@ create_country_leader = {# Zeid I Hashmid
 	picture = "Portrait_JOR_Zeid_Hashmid.tga"
 	expire = "1991.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = { warmonger }
+	traits = {  }
 }
 create_country_leader = {# Zeid I Hashmid
 	name = "Zeid I Hashmid"

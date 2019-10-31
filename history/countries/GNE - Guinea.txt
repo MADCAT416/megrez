@@ -132,7 +132,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mohammad "Maitatsine" Marwa"
+	name = "Mohammad \"Maitatsine\" Marwa"
 	desc = "KAM_Mohammad_Marwa_DESC"
 	picture = "gfx/leaders/KAM/Portrait_KAM_Mohammad_Marwa.dds"
 	expire = "1991.1.1"

@@ -65,7 +65,7 @@ set_popularities = {
     social_liberal = 5    market_liberal = 20
     social_conservative = 50
     authoritarian_democrat = 3    paternal_autocrat = 
-2  clerical_nationalis = 0  ethnic_populist = 0
+2  clerical_nationalist = 0  ethnic_populist = 0
 }
 
 create_country_leader = {

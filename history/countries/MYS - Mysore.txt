@@ -64,10 +64,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	MYS_Mirza_Muhammad_Ismail_hog_sco
-	MYS_Albion_Rajkumar_Banerjee_for_sco
-	MYS_Mokshagundam_Visveswaraiah_eco_sco
-	MYS_Albion_Rajkumar_Banerjee_sec_sco
+
 }
 
 ### Field Marshal

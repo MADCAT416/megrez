@@ -6,7 +6,6 @@ oob = "empty"
 set_research_slots = 3
 
 add_ideas = {
-	PAP_Ludovico_Chigi_Albani_della_Rovere_hog_pau
 }
 set_cosmetic_tag = PAP_Italy
 # Starting tech

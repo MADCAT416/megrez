@@ -149,9 +149,9 @@ create_country_leader = {
 	desc = "FRA_Rene_Dumont_DESC"
 	picture = "gfx/leaders/FRA/Portrait_FRA_Rene_Dumont.tga"
 	expire = "1991.1.1"
-	ideology = social_progressvive_subtype
+	ideology = social_progressive_subtype
 	traits = {
-		social_progressvive
+		social_progressive
 		
 	}
 }

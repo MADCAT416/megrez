@@ -137,8 +137,6 @@ set_convoys = 250
 
 add_ideas = {
 	CAN_Robert_Lorne_Stanfield_hog_con
-
-	MINOR_PROFF_LEG_CITIES
 }
 
 create_country_leader = {

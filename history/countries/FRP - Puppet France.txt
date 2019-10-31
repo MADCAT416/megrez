@@ -62,13 +62,13 @@ set_popularities = {
     democratic_socialist = 0
     syndicalist = 0
     social_democrat = 0
-	social_progressive = 
+	social_progressive = 0
     social_liberal = 0
     market_liberal = 0
     social_conservative = 0
     authoritarian_democrat = 0
     paternal_autocrat = 0
-	clerical_nationalist = 100
+clerical_nationalist = 100
     ethnic_populist = 0
 }
 
