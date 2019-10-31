@@ -48,7 +48,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bolesław_Piasecki"
+	name = "Bolesław Piasecki"
 	desc = "POLITICS_POL_Boleslaw_Piasecki_DESC"
 	picture = "Portrait_Poland_Bolesław_Piasecki.tga"
 	expire = "1991.1.1"
