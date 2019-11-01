@@ -39,9 +39,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Jędrzej Giertych"
-	desc = "POLITICS_POL_Jedrzej_Giertych_DESC"
-	picture = "Portrait_Poland_Jedrzej_Giertych.tga"
+	name = "Karol Stefan Habsburg-Lotaryński"
+	desc = "POLITICS_POL_Karol_Stefan_Habsburg_DESC"
+	picture = "Portrait_Poland_Karol_Stefan_Habsburg.tga"
 	expire = "1991.1.1"
 	ideology = ethnic_populist_subtype
 	traits = {}
@@ -50,7 +50,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bolesław Piasecki"
 	desc = "POLITICS_POL_Boleslaw_Piasecki_DESC"
-	picture = "Portrait_Poland_Bolesław_Piasecki.tga"
+	picture = "Portrait_Poland_Boleslaw_Piasecki.tga"
 	expire = "1991.1.1"
 	ideology = clerical_nationalist_subtype
 	traits = {}
@@ -120,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jerzy Andrzejewski"
-	desc = "POLITICS_Jerzy_Andrzejewski_DESC"
-	picture = "Portrait_Poland_Jerzy_Andrzejewski.tga"
+	name = "Józef Cyrankiewicz"
+	desc = "POLITICS_Jozef_Cyrankiewicz_DESC"
+	picture = "Portrait_Poland_Jozef_Cyrankiewicz.tga"
 	expire = "1991.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
@@ -130,7 +130,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lech Wałęsa"
-	desc = "POLITICS_Lech Walesa_DESC"
+	desc = "POLITICS_Lech_Walesa_DESC"
 	picture = "Portrait_Poland_Lech_Walesa.tga"
 	expire = "1991.1.1"
 	ideology = syndicalist_subtype
@@ -138,9 +138,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mieczysław Moczar"
-	desc = "POLITICS_Mieczyslaw_Moczar_DESC"
-	picture = "Portrait_Poland_Mieczyslaw_Moczar.tga"
+	name = "Władysław Gomułka"
+	desc = "POLITICS_Wladyslaw_Gomulka_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Gomulka.tga"
 	expire = "1991.1.1"
 	ideology = totalist_subtype
 	traits = {}
