@@ -310,7 +310,7 @@ authoritarian_democrat_allowed = {
 			}
 			AND = {
 				tag = CUB
-				has_idea = CUB_mixed_regime
+
 			}
 		}
 	}
@@ -355,7 +355,7 @@ paternal_autocrat_allowed = {
 			}
 			AND = {
 				tag = CUB
-				has_idea = CUB_mixed_regime
+
 			}
 			AND = {
 				tag = CEN

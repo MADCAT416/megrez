@@ -63,19 +63,7 @@ on_actions = {
 				}
 				country_event = kr.political.54
 			}
-			GUA = {
-				set_variable = { var = UFC_power value = 50 }
-				CA_SET_UFC_VAR = yes
-				add_dynamic_modifier = {
-					modifier = CEN_united_fruit_land
-				}
-				remove_ideas = { GUA_united_fruit_start_clone }
-				add_ideas = { GUA_united_fruit }
-			}
-			CAF = {
-				set_variable = { var = CAF_socialist_anger value = 34 }
-				set_variable = { var = CAF_british_anger value = 21 }
-			}
+
 			GER = {
 				# limit = { NOT = { has_dlc = "Together for Victory" } }
 				GER = { country_event = { id = kr.political.56 days = 7 } }
@@ -1113,5 +1101,6 @@ on_actions = {
 		{
    			every_country = { country_event = mrz_gen_coalition.1 }
    }
+}
 }
 }

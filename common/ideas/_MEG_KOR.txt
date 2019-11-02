@@ -372,7 +372,7 @@ ideas = {
 			traits = {
 				head_of_government
 				authoritarian_democrat
-				hog_political_sdetege
+				#hog_political_sdetege
 			}
 			cancel_if_invalid = yes
 		}
@@ -399,7 +399,7 @@ ideas = {
 			traits = {
 				head_of_government
 				authoritarian_democrat
-				hoodlum
+				#hoodlum
 			}
 			cancel_if_invalid = yes
 		}
@@ -673,7 +673,7 @@ ideas = {
 			traits = {
 				head_of_government
 				syndicalist
-				union_chair
+				#union_chair
 			}
 			cancel_if_invalid = yes
 		}

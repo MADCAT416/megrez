@@ -76,29 +76,6 @@ ideas = {
 		}
 	}
 
-	temp_2 = {
-		law = yes
-
-		temp_2 = {
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
-
-			default = yes
-		}
-	}
-
-	temp_3 = {
-		law = yes
-
-		temp_3 = {
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
-
-			default = yes
-		}
-	}
 
 
 ### Law Ideas ###
@@ -365,11 +342,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 
-			allowed_to_remove = {
-				NOT = {
-					has_idea = HON_free_market
-				}
-			}
+
 
 			ai_will_do = {
 				factor = 8

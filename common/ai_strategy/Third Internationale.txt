@@ -429,14 +429,7 @@ international_leave_sweden = {
 csa_helps_international = {
 	reversed = yes
 
-	enable_reverse = {
-		CSA = {
-			OR = {
-				has_idea = CSA_lead_revolution_idea
-				
-			}
-		}
-	}
+
 	
 	enable = {
 		NOT = { tag = CSA }

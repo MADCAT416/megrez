@@ -1,4 +1,4 @@
-add_namespace = mrz_gen_coalition
+﻿add_namespace = mrz_gen_coalition
 
 country_event = {
 	id = mrz_gen_coalition.1
