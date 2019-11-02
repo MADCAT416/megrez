@@ -2,11 +2,10 @@
 
 country_event = {
 	id = mrz_gen_coalition.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.1"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_coalition.1"}
 
 	hidden = yes
 
-mean_time_to_happen = { days = 1 }
 
 immediate = {
 
@@ -114,20 +113,6 @@ immediate = {
 		add_to_variable = { goverment_popularity = ethnic_populist_popularity }
 			}
 	}
-	}
-	option = {}
-
-}
-
-#Event for Test
-country_event = {
-	id = mrz_gen_coalition.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_politic.2"}
-
-	hidden = yes
-
-	immediate = {
-		set_country_flag = coalition_clerical_nationalist
 	}
 	option = {}
 
