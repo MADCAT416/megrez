@@ -11,9 +11,7 @@ bookmarks = {
 			history = "BHC_KR_GATHERING_STORM_DESC"
 			ideology = totalist
 			ideas = {
-				BHC_fourth_International
-				
-				
+
 			}
 
 			focuses = {
@@ -27,8 +25,7 @@ bookmarks = {
 			history = "CSA_KR_GATHERING_STORM_DESC"
 			ideology = syndicalist
 			ideas = {
-				CSA_third_International
-				
+	
 			}
 
 			focuses = {
@@ -46,8 +43,7 @@ bookmarks = {
 			}
 
 			focuses = {
-				BRA_Foro_de_Sao_paulo
-				
+
 				
 			}
 		}
@@ -56,10 +52,7 @@ bookmarks = {
 			history = "RUS_KR_GATHERING_STORM_DESC"
 			ideology = social_liberal
 			ideas = {
-				RUS_Russkaya_Hegemony
-				RUS_vicious_antisemitism
-				RUS_Rasputitsa
-				
+
 			}
 
 			focuses = {
@@ -73,10 +66,7 @@ bookmarks = {
 			history = "CAL_KR_GATHERING_STORM_DESC"
 			ideology = market_liberal
 			ideas = {
-				CAL_NAFTA
-				CAL_width_wall
-				CAL_length_wall				
-				
+	
 			}
 			focuses = {
 				
@@ -89,10 +79,7 @@ bookmarks = {
 			history = "CAN_KR_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
-				CAN_Entente_Powers
-				CAN_Albertan_malcontents
-				CAN_or_lion
-				
+	
 			}
 
 			focuses = {
@@ -106,9 +93,7 @@ bookmarks = {
 			history = "GER_KR_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-				GER_Heilige_Liga
-				GER_acid_rain
-				
+	
 			}
 
 			focuses = {
@@ -120,98 +105,6 @@ bookmarks = {
 
 #### 여기까지 강대국 
 
-		"GEO" = {
-			minor = yes
-			history = "GEO_KR_GATHERING_STORM_DESC"
-			ideology = totalist
-			ideas = {
-				
-			}
-			focuses = {
-				
-				
-				
-			}
-		}
-
-		"MEX" = {
-			minor = yes
-			history = "MEX_KR_GATHERING_STORM_DESC"
-			ideology = syndicalist
-			ideas = {
-				
-				
-			}
-			focuses = {
-				MEX_Broken_Pinetree
-				
-				
-			}
-		}
-
-		"CHI" = {
-			minor = yes
-			history = "CHI_KR_GATHERING_STORM_DESC"
-			ideology = democratic_socialist
-			ideas = {
-				CHI_Republic_of_China
-				
-				
-			}
-			focuses = {
-				
-				
-				
-			}
-		}
-
-		"AST" = {
-			minor = yes
-			history = "AST_KR_GATHERING_STORM_DESC"
-			ideology = social_conservative
-			ideas = {
-				
-				
-				
-			}
-			focuses = {
-				
-				
-				
-			}
-		}
-
-		"EGY" = {
-			minor = yes
-			history = "EGY_KR_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-				EGY_Qawmiyyah
-				
-				
-			}
-			focuses = {
-				
-				
-				
-			}
-		}
-
-		"JAP" = {
-			minor = yes
-			history = "JAP_KR_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-				JAP_unfinished_restoration
-				JAP_aftermath_of_navy_purge
-				
-			}
-			focuses = {
-				
-				
-				
-			}
-		}
 
 		
 		"---" = {

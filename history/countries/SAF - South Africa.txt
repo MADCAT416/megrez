@@ -112,7 +112,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Helenard "Allan" Hendrickse"
+	name = "Helenard \"Allan\" Hendrickse"
 	desc = "SAF_Helenard_Hendrickse_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Helenard_Hendrickse.tga"
 	expire = "1991.1.1"

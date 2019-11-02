@@ -40,6 +40,6 @@ create_country_leader = {
 	ideology = social_conservative_subtype
 	traits = {
 		social_conservative
-		hos_chinese_warlord
+		#hos_chinese_warlord
 		}
 }

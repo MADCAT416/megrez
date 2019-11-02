@@ -71,6 +71,6 @@ create_country_leader = {
 	ideology = social_democrat_subtype
 	traits = {
 		social_democrat
-		hos_chinese_warlord
+		#hos_chinese_warlord
 	}
 }

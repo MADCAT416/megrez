@@ -148,7 +148,7 @@ set_autonomy = {
 # Resetting all puppet political setups which come earlier in the load order
 DKB = {
 	set_politics = {
-		ruling_party = ruling_party = authoritarian_democrat
+		ruling_party = authoritarian_democrat
 	}
 }
 

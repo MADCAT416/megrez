@@ -47,11 +47,12 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.07
 				political_power_gain = 0.1
+				experience_gain_navy_factor = -0.3
+				military_leader_cost_factor = 0.5
 			
 			}
 			rule = {
-				experience_gain_navy_factor = -0.3
-				military_leader_cost_factor = 0.5
+	
 			}
 		}
 
