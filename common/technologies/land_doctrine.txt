@@ -58,8 +58,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					never_research_mobile_warfare = yes
-					dont_research_mobile_warfare_if_choice_made = yes
+
 				}
 			}
 			modifier = {
@@ -1038,8 +1037,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					never_research_superior_firepower = yes
-					dont_research_superior_firepower_if_choice_made = yes
+
 				}
 			}
 			modifier = {
@@ -1972,8 +1970,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					never_research_grand_battle_plan = yes
-					dont_research_grand_battleplan_if_choice_made = yes
+
 				}
 			}
 			modifier = {
@@ -2893,8 +2890,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					never_research_mass_assault = yes
-					dont_research_mass_assault_if_choice_made = yes
+
 				}
 			}
 			modifier = {
