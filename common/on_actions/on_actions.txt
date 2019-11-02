@@ -36,11 +36,6 @@ on_actions = {
 				}
 			}
 
-			#Kill those cores
-			random_country = {
-				limit = { is_ai = yes }
-				country_event = kr.political.10
-			}
 			#Faction Opinion Modifiers
 			every_country = {
 				limit = {
