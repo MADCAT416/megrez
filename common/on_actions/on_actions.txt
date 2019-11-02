@@ -2,13 +2,13 @@ on_actions = {
 	on_startup = {
 		effect = {
 
-   			every_country = { country_event = mrz_gen_coalition.1 }
 
 			#Opinion Modifiers Setup
 			every_country = { country_event = kr.political.40 }
 			#Party Popularity Setup
 			every_country = { country_event = kr.political.11 }
  			#UI Setup
+			every_country = { country_event = mrz_gen_coalition.1 }
 			every_country = {
 				limit = {
 					is_ai = no
@@ -1095,12 +1095,5 @@ on_actions = {
 		}
 	}
   
-	  on_daily = 	{	
-		effect = {
 
-		{
-   			every_country = { country_event = mrz_gen_coalition.1 }
-   }
-}
-}
 }

@@ -747,10 +747,7 @@ germany_flees_to_africa = {
 
 germany_capitulates = {
 	# add the idea which lowers Germany's surrender level, so they'll go immediately
-	if = {
-		limit = { has_idea = GER_imperial_pride }
-		remove_ideas = GER_imperial_pride
-	}
+
 	add_timed_idea = {
 		idea = GER_ready_to_surrender
 		days = 30

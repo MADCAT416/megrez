@@ -1,4 +1,4 @@
-﻿capital = 622
+﻿capital = 597
 oob = "empty"
 set_cosmetic_tag = SQI_IKT
 set_technology = {

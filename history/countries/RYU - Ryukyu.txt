@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 526
 oob = "empty"
 oob = "empty"
 set_stability = 0.3
