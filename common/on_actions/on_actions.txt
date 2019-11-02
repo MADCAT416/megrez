@@ -1089,6 +1089,9 @@ on_actions = {
 			}
 		}
 	}
-  
-
+  on_daily = {
+  effect = {
+  every_country = { country_event = mrz_gen_coalition.1 }
+  }
+}
 }

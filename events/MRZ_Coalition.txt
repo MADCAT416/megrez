@@ -3,7 +3,6 @@
 country_event = {
 	id = mrz_gen_coalition.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_coalition.1"}
-
 	hidden = yes
 
 

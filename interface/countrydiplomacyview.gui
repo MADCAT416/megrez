@@ -296,7 +296,7 @@ guiTypes = {
 				
 				iconType = {
 					name = "progress"
-					spriteType = "GFX_activegoal_progress"
+					spriteType = "GFX_activegoal_diplo_view_progress"
 					position = { x=103 y = 57 }	
 					alwaystransparent = yes				
 				}

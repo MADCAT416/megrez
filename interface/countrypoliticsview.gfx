@@ -33,6 +33,17 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 
+	progressbartype = {
+		name = "GFX_activegoal_diplo_view_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx//interface//pol_goal_progress.dds"
+		textureFile2 = "gfx//interface//pol_goal_progress_bg.dds"
+		size = { x = 152 y = 6 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		horizontal = yes
+	}
+
 	spriteType = {
 		name = "GFX_pol_screens_bottom"
 		texturefile = "gfx/interface/politics_screens_bottom.dds"
