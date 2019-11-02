@@ -1,0 +1,11 @@
+scripted_gui = {
+	government_leader = {
+		context_type = player_context
+		window_name = "mrz_government_leader"
+		parent_window_token = politics_tab
+		
+		visible = {
+			has_idea = limited_conscription
+		}
+	}
+}

@@ -6,6 +6,8 @@ state = {
 	state_category = twelve
 	resources = {
 		steel = 28
+		coal=17
+		food=16
 	}
 
 	history = {

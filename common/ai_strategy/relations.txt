@@ -843,7 +843,83 @@ bulgaria_vs_ottomans = {
 	}
 }
 
+greece_is_our_enemy = {
+	enable = {
+		OR = {
+			tag = OTT
+			tag = TUR
+		}
+		GRE = { 
+		any_owned_state = {
+			OR = {
+				is_claimed_by = GRE
+				is_core_of = GRE
+			}
+		}
+	}
+	abort = {
+		NOT = {
+			any_owned_state = {
+				OR = {
+					is_claimed_by = GRE
+					is_core_of = GRE
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = contain
+		id = "GRE"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GRE"
+		value = 100
+	}
+}
 
+egypt_hates_ottomans = {
+	enable = {
+		tag = EGY
+		EGY = { 
+		OTT = {
+			any_owned_state = {
+				OR = {
+					is_claimed_by = EGY
+					is_core_of = EGY
+				}
+			}
+		}
+	}
+	abort = {
+		OTT = {
+			NOT = {
+				any_owned_state = {
+					OR = {
+						is_claimed_by = EGY
+						is_core_of = EGY
+					}
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = "OTT"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "OTT"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "OTT"
+		value = 100
+	}
+}
 
 send_help_to_bulgaria = {
 	enable = {

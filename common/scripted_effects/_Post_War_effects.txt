@@ -748,6 +748,11 @@ germany_flees_to_africa = {
 germany_capitulates = {
 	# add the idea which lowers Germany's surrender level, so they'll go immediately
 
+	add_timed_idea = {
+		idea = GER_ready_to_surrender
+		days = 30
+	}
+
 	# mark things GEX will have to do shortly
 	if = {
 		limit = { country_exists = GEX }
