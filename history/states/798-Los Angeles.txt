@@ -17,17 +17,13 @@ state = {
 				naval_base = 5
 			}
 
-			1562 = {
-				naval_base = 10
-			}
+			
 		}
 		add_core_of = CAL
 		 
 		add_claim_by = CSA
 
-		victory_points = {
-			1562 15
-		}
+		
 		victory_points = {
 			9814 30
 		}

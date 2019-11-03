@@ -14,6 +14,9 @@ state = {
 #			12131 = { # Pattani Landing Zone - currently disabled
 #				naval_base = 1
 #			}
+			7236 = { # Songkhla Landing Zone
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			7236 4 # Hat Yai - 5

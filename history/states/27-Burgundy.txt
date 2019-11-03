@@ -22,9 +22,7 @@ state = {
 			infrastructure = 6
 			industrial_complex = 1
 			air_base = 2
-			698 = {
-				bunker = 4
-			}
+			
 			6639 = {
 				bunker = 2
 			}
