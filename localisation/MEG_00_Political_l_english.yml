@@ -12,6 +12,8 @@ party_pop_0_70:0 "70-80% Party Popularity"
 party_pop_0_80:0 "80-90% Party Popularity"
 party_pop_0_90:0 "90-100% Party Popularity"
 
+revolutionary_rivalry:0 "Revolutionary Rivalry"
+
 ### Syndie Soc Dem Notice ###
 SYNDIE_SOC_DEM_NOTICE:0 "(Syndicalist-aligned)"
 

@@ -63,6 +63,10 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = social_democrat }
 		}
 		AND = {
+			has_government = social_progressive
+			ROOT = { has_government = social_progressive }
+		}
+		AND = {
 			has_government = social_liberal
 			ROOT = { has_government = social_liberal }
 		}
@@ -81,6 +85,10 @@ has_same_government_as_ROOT = {
 		AND = {
 			has_government = paternal_autocrat
 			ROOT = { has_government = paternal_autocrat }
+		}
+		AND = {
+			has_government = clerical_nationalist
+			ROOT = { has_government = clerical_nationalist }
 		}
 		AND = {
 			has_government = ethnic_populist
@@ -129,6 +137,7 @@ has_elected_government = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -144,6 +153,7 @@ not_has_elected_government = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -160,6 +170,7 @@ has_democratic_government = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -176,6 +187,7 @@ not_has_democratic_government = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }
 			}
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = market_liberal
 			has_government = social_conservative
@@ -191,6 +203,7 @@ has_authoritarian_government = {
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 			has_government = ethnic_populist
 		}
 	}
@@ -202,6 +215,7 @@ not_has_authoritarian_government = {
 		NOT = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 			has_government = ethnic_populist
 		}
 	}
@@ -213,6 +227,7 @@ has_dictatorship_government = {
 		tooltip = KR_is_dictatorship
 		OR = {
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 			has_government = ethnic_populist
 		}
 	}
@@ -223,6 +238,7 @@ not_has_dictatorship_government = {
 		tooltip = KR_is_not_dictatorship
 		NOT = {
 			has_government = paternal_autocrat
+			has_government = clerical_nationalist
 			has_government = ethnic_populist
 		}
 	}
@@ -242,6 +258,7 @@ has_left_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_left_wing_democracy
 		OR = {
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = social_democrat
 		}
@@ -262,6 +279,7 @@ not_has_left_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = KR_not_left_wing_democracy
 		NOT = {
+			has_government = social_progressive
 			has_government = social_liberal
 			has_government = social_democrat
 		}

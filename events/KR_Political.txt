@@ -949,44 +949,14 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				has_communist_dictatorship_government = yes
-			}
-			every_country = {
-				limit = {
-					has_communist_dictatorship_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_reformal_progressive_government = yes 
-						has_classic_liberal_government = yes
-						has_classic_conservative_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
-						has_democratic_government = yes
-						has_elected_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
 				has_socialist_government = yes
 			}
 			every_country = {
 				limit = {
 					has_socialist_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -996,10 +966,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_classic_liberal_government = yes
-						has_classic_conservative_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
+						has_democratic_government = yes
+						has_dictatorship_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1008,148 +976,6 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_reformal_progressive_government = yes
-			}
-			every_country = {
-				limit = {
-					has_reformal_progressive_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_classic_conservative_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_classic_liberal_government = yes
-			}
-			every_country = {
-				limit = {
-					has_classic_liberal_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_classic_conservative_government = yes
-			}
-			every_country = {
-				limit = {
-					has_classic_conservative_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_government = ethnic_populist
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_authoritarian_government = yes
-			}
-			every_country = {
-				limit = {
-					has_authoritarian_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_reformal_progressive_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_antirevolutionary_government = yes
-			}
-			every_country = {
-				limit = {
-					has_antirevolutionary_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_reformal_progressive_government = yes
-						has_classic_liberal_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-
 		if = {
 			limit = {
 				has_democratic_government = yes
@@ -1157,7 +983,9 @@ country_event = {
 			every_country = {
 				limit = {
 					has_democratic_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -1167,9 +995,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_communist_dictatorship_government = yes
-						has_government = ethnic_populist
-						has_government = paternal_autocrat
+						has_socialist_government = yes
+						has_dictatorship_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1180,12 +1007,14 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_elected_government = yes
+				has_dictatorship_government = yes
 			}
 			every_country = {
 				limit = {
-					has_elected_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					has_dictatorship_government = yes
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -1195,7 +1024,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						not_has_elected_government = yes
+						has_democratic_government = yes
+						has_socialist_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1403,15 +1233,16 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = {
-				has_communist_dictatorship_government = yes
+				has_socialist_government = yes
 			}
 			every_country = {
 				limit = {
-					has_communist_dictatorship_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					has_socialist_government = yes
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -1426,9 +1257,7 @@ country_event = {
 				limit = {
 					OR = {
 						has_democratic_government = yes
-						has_antirevolutionary_government = yes
-						has_elected_government = yes
-						has_government = paternal_autocrat
+						has_dictatorship_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1441,231 +1270,6 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_socialist_government = yes
-			}
-			every_country = {
-				limit = {
-					has_socialist_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_classic_liberal_government = yes
-						has_classic_conservative_government = yes
-						has_antirevolutionary_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_reformal_progressive_government = yes
-			}
-			every_country = {
-				limit = {
-					has_reformal_progressive_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_classic_conservative_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_classic_liberal_government = yes
-			}
-			every_country = {
-				limit = {
-					has_classic_liberal_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_authoritarian_government = yes
-						has_antirevolutionary_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-
-			}
-		}
-		if = {
-			limit = {
-				has_classic_conservative_government = yes
-			}
-			every_country = {
-				limit = {
-					has_classic_conservative_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_government = ethnic_populist
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-
-			}
-		}
-		if = {
-			limit = {
-				has_authoritarian_government = yes
-			}
-			every_country = {
-				limit = {
-					has_authoritarian_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_reformal_progressive_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-
-			}
-		}
-		if = {
-			limit = {
-				has_antirevolutionary_government = yes
-			}
-			every_country = {
-				limit = {
-					has_antirevolutionary_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_communist_dictatorship_government = yes
-						has_socialist_government = yes
-						has_reformal_progressive_government = yes
-						has_classic_liberal_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = KR_different_ideology
-				}
-
-			}
-		}
-		
 		if = {
 			limit = {
 				has_democratic_government = yes
@@ -1673,7 +1277,9 @@ country_event = {
 			every_country = {
 				limit = {
 					has_democratic_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -1687,9 +1293,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_communist_dictatorship_government = yes
-						has_government = ethnic_populist
-						has_government = paternal_autocrat
+						has_socialist_government = yes
+						has_dictatorship_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1704,12 +1309,14 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_elected_government = yes
+				has_dictatorship_government = yes
 			}
 			every_country = {
 				limit = {
-					has_elected_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
+					has_dictatorship_government = yes
+					NOT = {
+						has_same_government_as_ROOT = yes
+					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -1723,7 +1330,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						not_has_elected_government = yes
+						has_democratic_government = yes
+						has_socialist_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -1805,6 +1413,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_government = clerical_nationalist
+			}
+			set_country_flag = opinion_set_clerical_nationalist
+		}
+		if = {
+			limit = {
 				has_government = ethnic_populist
 			}
 			set_country_flag = opinion_set_ethnic_populist
@@ -1838,7 +1452,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -1848,6 +1462,15 @@ country_event = {
 		every_country = {
 			limit = {
 				is_in_faction_with = BHC
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = KR_factional_rivalry
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BRA
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -1891,7 +1514,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
 			}
 			remove_opinion_modifier = {
 				target = ROOT
@@ -1907,6 +1530,21 @@ country_event = {
 		every_country = {
 			limit = {
 				is_in_faction_with = BHC
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = KR_factional_rivalry
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = KR_factional_rivalry
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BRA
 			}
 			remove_opinion_modifier = {
 				target = ROOT
@@ -1946,7 +1584,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -1956,6 +1594,15 @@ country_event = {
 		every_country = {
 			limit = {
 				is_in_faction_with = BHC
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = KR_factional_rivalry
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BRA
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -2001,7 +1648,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
 			}
 			remove_opinion_modifier = {
 				target = ROOT
@@ -2017,6 +1664,21 @@ country_event = {
 		every_country = {
 			limit = {
 				is_in_faction_with = BHC
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = KR_factional_rivalry
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = KR_factional_rivalry
+				}
+			}
+		}
+			every_country = {
+			limit = {
+				is_in_faction_with = BRA
 			}
 			remove_opinion_modifier = {
 				target = ROOT
@@ -2081,7 +1743,7 @@ country_event = {
 				modifier = KR_factional_rivalry
 			}
 		}
-		set_country_flag = FRA_faction
+		set_country_flag = CSA_faction
 	}
 }
 
@@ -2091,8 +1753,8 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		has_country_flag = FRA_faction
-		NOT = { is_in_faction_with = FRA }
+		has_country_flag = CSA_faction
+		NOT = { is_in_faction_with = CSA }
 	}
 
 	mean_time_to_happen = {
@@ -2163,7 +1825,7 @@ country_event = {
 				}
 			}
 		}
-		clr_country_flag = FRA_faction
+		clr_country_flag = CSA_faction
 	}
 }
 
@@ -2188,7 +1850,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -2207,6 +1869,16 @@ country_event = {
 				modifier = KR_factional_rivalry
 			}
 		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BRA
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = revolutionary_rivalry
+			}
+		}
+
 		set_country_flag = BHC_faction
 	}
 }
@@ -2243,7 +1915,22 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = KR_factional_rivalry
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = revolutionary_rivalry
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BRA
 			}
 			remove_opinion_modifier = {
 				target = ROOT
@@ -2310,7 +1997,17 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = revolutionary_rivalry
+			}
+		}
+
+		every_country = {
+			limit = {
+				is_in_faction_with = BHC
 			}
 			add_opinion_modifier = {
 				target = ROOT
@@ -2352,7 +2049,22 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				is_in_faction_with = FRA
+				is_in_faction_with = CSA
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = revolutionary_rivalry
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = revolutionary_rivalry
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = BHC
 			}
 			remove_opinion_modifier = {
 				target = ROOT

@@ -54,15 +54,23 @@ on_actions = {
 			}
 			every_country = {
 				limit = {
-					is_in_faction_with = FRA
+					is_in_faction_with = CSA
 				}
 				country_event = kr.political.54
 			}
-
-			GER = {
-				# limit = { NOT = { has_dlc = "Together for Victory" } }
-				GER = { country_event = { id = kr.political.56 days = 7 } }
+			every_country = {
+				limit = {
+					is_in_faction_with = BHC
+				}
+				country_event = kr.political.56
 			}
+			every_country = {
+				limit = {
+					is_in_faction_with = BRA
+				}
+				country_event = kr.political.58
+			}
+
 
 			# Set up news events settings
 			if = {
