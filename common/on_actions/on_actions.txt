@@ -70,7 +70,12 @@ on_actions = {
 				}
 				country_event = kr.political.58
 			}
-
+			every_country = {
+				limit = {
+					is_in_faction_with = CAL
+				}
+				country_event = kr.political.60
+			}
 
 			# Set up news events settings
 			if = {
