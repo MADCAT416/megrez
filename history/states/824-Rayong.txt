@@ -13,9 +13,16 @@ state = {
 			4433 = { # Sattahip facilities
 				naval_base = 2
 			}
+			7292 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
 		}
 		victory_points = {
 			4433 1 # Sattahip - 3
+		}
+		victory_points = {
+			7292 1 # Roanapur
 		}
 		add_core_of = SIA
 	}

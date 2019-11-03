@@ -14,9 +14,8 @@ state = {
 		add_core_of = CAL
 		add_claim_by = CSA
 		
-		victory_points = {
-			13091 3
-		}
+		victory_points = { 13091 3 }
+		victory_points = { 7884 1 }
 	}
 
 	provinces = {
