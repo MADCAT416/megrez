@@ -2284,7 +2284,7 @@ country_event = {
 }
 
 country_event = {
-	id = kr.political.59
+	id = kr.political.61
 	hidden = yes
 
 	trigger = {
