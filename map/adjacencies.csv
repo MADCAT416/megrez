@@ -13,6 +13,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9504;8282;sea;6490;3490;1490;3410;1460;DON_DOWNSTREAM;Don river
 8282;8308;sea;;-1;-1;-1;-1;KERCH;Kerch Strait 
 
+2703;9125;sea;;-1;-1;-1;-1;;
+9125;5918;sea;;-1;-1;-1;-1;;
+5918;11827;sea;;-1;-1;-1;-1;;
+
 13159;13199;sea;;-1;-1;-1;-1;STMARY_RIVER;
 13155;13199;sea;;-1;-1;-1;-1;MACKINAC;
 13199;13156;sea;;-1;-1;-1;-1;STCLAIR_RIVER;

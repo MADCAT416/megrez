@@ -1,0 +1,24 @@
+state = {
+	id = 1118
+	name = "STATE_1118" # 
+	manpower = 43590
+
+	state_category = wasteland
+	
+
+	resources = {
+		
+	}
+
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 0
+		}
+		add_claim_by = RUS
+	}
+
+	provinces = {
+		11047 12530 
+	}
+}
