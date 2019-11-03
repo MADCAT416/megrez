@@ -12,8 +12,6 @@ party_pop_0_70:0 "70-80% Party Popularity"
 party_pop_0_80:0 "80-90% Party Popularity"
 party_pop_0_90:0 "90-100% Party Popularity"
 
-revolutionary_rivalry:0 "Revolutionary Rivalry"
-
 ### Syndie Soc Dem Notice ###
 SYNDIE_SOC_DEM_NOTICE:0 "(Syndicalist-aligned)"
 
@@ -75,13 +73,6 @@ kr.political.76.t:0 "[From.GetNameDefCap] Returns [Root.GetAdjective] Land"
 kr.political.76.d:0 "Our allies in [From.GetNameDefCap] have returned some of our proper lands to us!"
 kr.political.76.a:0 "Great!"
 
-KR_different_ideology:0 "Different Ideology"
-KR_similar_ideology:0 "Similar Ideology"
-KR_same_ideology:0 "Same Ideology"
-same_ruling_party:0 "Base"
-different_party_types:0 "Base"
-KR_ideology_allowed:0 "Minister permitted for the country's ideology"
-KR_factional_rivalry:0 "Factional Rivalry"
 minister_available:0 "Minister is available for this government type"
 KR_is_socialist:0 "Has a Totalist, Syndicalist, Radical Socialist or Syndicalist aligned Social-Democratic government"
 KR_is_not_socialist:0 "Does §Rnot§! have a Totalist, Syndicalist, Radical Socialist or Syndicalist aligned Social-Democratic government"

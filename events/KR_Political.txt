@@ -1612,7 +1612,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = KR_factional_rivalry
+				modifier = Entente_and_NAFTA
 			}
 		}
 		every_country = {
@@ -2235,7 +2235,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = KR_factional_rivalry
+				modifier = Entente_and_NAFTA
 			}
 		}
 		every_country = {
