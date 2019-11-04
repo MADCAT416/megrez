@@ -55,36 +55,7 @@ set_war_support = 0.45
 
 add_political_power = -20
 
-add_equipment_to_stockpile = {
-	type = gw_tank_equipment
-	amount = 64
-	producer = JAP
-}
-add_equipment_to_stockpile = {
-	type = infantry_equipment_0
-	amount = 7000
-	producer = FNG
-}
-add_equipment_to_stockpile = {
-	type = infantry_equipment_0
-	amount = 5000
-	producer = JAP
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 250
-	producer = FNG
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 150
-	producer = JAP
-}
-add_equipment_to_stockpile = {
-	type = support_equipment_1
-	amount = 200
-	producer = JAP
-}
+
 
 set_politics = {
 	ruling_party = authoritarian_democrat
