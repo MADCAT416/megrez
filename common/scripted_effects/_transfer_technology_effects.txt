@@ -599,61 +599,61 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = naval_bomber1
+					has_tech = maritime_helicopters1
 				}
 			}
 			set_technology = {
-				naval_bomber1 = 1
+				maritime_helicopters1 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_naval_bomber1
+					has_tech = maritime_helicopters1
 				}
 			}
 			set_technology = {
-				cv_naval_bomber1 = 1
+				maritime_helicopters1 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = naval_bomber2
+					has_tech = maritime_helicopters2
 				}
 			}
 			set_technology = {
-				naval_bomber2 = 1
+				maritime_helicopters2 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_naval_bomber2
+					has_tech = maritime_helicopters2
 				}
 			}
 			set_technology = {
-				cv_naval_bomber2 = 1
+				maritime_helicopters2 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = naval_bomber3
+					has_tech = maritime_helicopters3
 				}
 			}
 			set_technology = {
-				naval_bomber3 = 1
+				maritime_helicopters3 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_naval_bomber3
+					has_tech = maritime_helicopters3
 				}
 			}
 			set_technology = {
-				cv_naval_bomber3 = 1
+				maritime_helicopters3 = 1
 			}
 		}
 		if = {

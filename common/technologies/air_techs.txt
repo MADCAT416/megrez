@@ -710,7 +710,7 @@ technologies = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_patrol_aircraft1"}
 
 		enable_equipments = {
-			maritime_patrol_aircraft_1
+			maritime_patrol_aircraft_equipment_1
 		}
 
 		path = {
