@@ -1,10 +1,10 @@
 sub_units = {
-	air_superiority_fighter = {
+	fighter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { air_superiority_fighter_equipment = 1 }
+		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
 

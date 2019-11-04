@@ -459,11 +459,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = air_superiority_fighter1
+					has_tech = fighter1
 				}
 			}
 			set_technology = {
-				air_superiority_fighter1 = 1
+				fighter1 = 1
 			}
 		}
 		if = {
@@ -479,11 +479,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = air_superiority_fighter2
+					has_tech = fighter2
 				}
 			}
 			set_technology = {
-				air_superiority_fighter2 = 1
+				fighter2 = 1
 			}
 		}
 		if = {
@@ -499,11 +499,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = air_superiority_fighter3
+					has_tech = fighter3
 				}
 			}
 			set_technology = {
-				air_superiority_fighter3 = 1
+				fighter3 = 1
 			}
 		}
 		if = {

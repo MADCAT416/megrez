@@ -1,6 +1,6 @@
 technologies = {
 
-	early_air_superiority_fighter = {
+	early_fighter = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech early_fighter"}
 
 		enable_equipments = {
@@ -8,7 +8,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = air_superiority_fighter1
+			leads_to_tech = fighter1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -82,15 +82,15 @@ technologies = {
 		}
 	}
 
-	air_superiority_fighter1 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech air_superiority_fighter1"}
+	fighter1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter1"}
 
 		enable_equipments = {
-			air_superiority_fighter_equipment_1
+			fighter_equipment_1
 		}
 
 		path = {
-			leads_to_tech = air_superiority_fighter2
+			leads_to_tech = fighter2
 			research_cost_coeff = 1
 		}
 
@@ -179,15 +179,15 @@ technologies = {
 		}
 	}
 
-	air_superiority_fighter2 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech air_superiority_fighter2"}
+	fighter2 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter2"}
 
 		enable_equipments = {
-			air_superiority_fighter_equipment_2
+			fighter_equipment_2
 		}
 
 		path = {
-			leads_to_tech = air_superiority_fighter3
+			leads_to_tech = fighter3
 			research_cost_coeff = 1
 		}
 
@@ -294,11 +294,11 @@ technologies = {
 		}
 	}
 
-	air_superiority_fighter3 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech air_superiority_fighter3"}
+	fighter3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter3"}
 
 		enable_equipments = {
-			air_superiority_fighter_equipment_3
+			fighter_equipment_3
 		}
 
 		path = {
