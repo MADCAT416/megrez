@@ -184,7 +184,7 @@ equipments = {
 		year = 1940
 
 		archetype = fighter_bomber_equipment
-		parent = tac_bomber_equipment_1
+		parent = fighter_bomber_equipment_1
 		priority = 110
 
 		air_range = 2500
