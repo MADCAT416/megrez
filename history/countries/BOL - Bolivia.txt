@@ -271,7 +271,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-add_equipment_to_stockpile = { type = gw_tank_equipment amount = 3 producer = USA }
+
 ###navy
 create_equipment_variant = {
 	name = "Matador Class"

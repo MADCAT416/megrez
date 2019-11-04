@@ -54,31 +54,6 @@ set_popularities = {
 
 set_convoys = 30
 
-add_equipment_to_stockpile = {
-	type = gw_tank_equipment
-	amount = 48
-	producer = FRA
-}
-add_equipment_to_stockpile = {
-	type = infantry_equipment_1
-	amount = 4000
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 400
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-	amount = 150
-	producer = BEL
-}
-add_equipment_to_stockpile = {
-	type = light_tank_destroyer_equipment_1
-	amount = 50
-	producer = BEL
-}
 
 
 

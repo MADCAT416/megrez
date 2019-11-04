@@ -36,11 +36,7 @@ add_opinion_modifier = { target = CHI modifier = embargo }
 set_stability = 0.50
 set_war_support = 0.40
 
-add_equipment_to_stockpile = {
-	type = infantry_equipment_0
-	amount = 10000
-	producer = GER
-}
+
 
 set_research_slots = 3
 set_convoys = 70
