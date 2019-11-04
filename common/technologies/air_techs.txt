@@ -493,7 +493,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_CAS1
+			maritime_attack_helicopter1
 		}
 
 		categories = {
@@ -507,11 +507,11 @@ technologies = {
 		}
 	}
 
-	cv_CAS1 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_CAS1"}
+	maritime_attack_helicopter1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_attack_helicopter1"}
 
 		enable_equipments = {
-			cv_CAS_equipment_1
+			maritime_attack_helicopter_equipment_1
 		}
 
 		research_cost = 1.0 #Carrier Variant
@@ -572,7 +572,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_CAS2
+			maritime_attack_helicopter2
 		}
 
 		categories = {
@@ -590,8 +590,8 @@ technologies = {
 		}
 	}
 
-	cv_CAS2 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_CAS2"}
+	maritime_attack_helicopter2 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_attack_helicopter2"}
 
 		enable_equipments = {
 			cv_CAS_equipment_2
@@ -655,7 +655,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_CAS3
+			maritime_attack_helicopter3
 		}
 
 		categories = {
@@ -673,8 +673,8 @@ technologies = {
 		}
 	}
 
-	cv_CAS3 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_CAS3"}
+	maritime_attack_helicopter3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_attack_helicopter3"}
 
 		enable_equipments = {
 			cv_CAS_equipment_3

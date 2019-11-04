@@ -45,17 +45,17 @@ sub_units = {
 		categories = { category_cas }
 	}
 
-	cv_cas = {
+	maritime_attack_helicopter = {
 		sprite = light_plane
 		priority = 2
 		active = yes
 		type = { cas }
-		need = { cv_CAS_equipment = 1 }
+		need = { maritime_attack_helicopter_equipment = 1 }
 		categories = { category_cas }
 	}
 
 
-	nav_bomber = {
+	maritime_patrol_aircraft = {
 		sprite = light_plane
 		priority = 3
 		active = yes
@@ -64,7 +64,7 @@ sub_units = {
 		categories = { category_nav_bomber }
 	}
 
-	cv_nav_bomber = {
+	maritime_helicopters = {
 		sprite = light_plane
 		priority = 3
 		active = yes

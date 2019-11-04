@@ -549,11 +549,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_CAS1
+					has_tech = maritime_attack_helicopter1
 				}
 			}
 			set_technology = {
-				cv_CAS1 = 1
+				maritime_attack_helicopter1 = 1
 			}
 		}
 		if = {
@@ -569,11 +569,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_CAS2
+					has_tech = maritime_attack_helicopter2
 				}
 			}
 			set_technology = {
-				cv_CAS2 = 1
+				maritime_attack_helicopter2 = 1
 			}
 		}
 		if = {
@@ -589,11 +589,11 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = cv_CAS3
+					has_tech = maritime_attack_helicopter3
 				}
 			}
 			set_technology = {
-				cv_CAS3 = 1
+				maritime_attack_helicopter3 = 1
 			}
 		}
 		if = {

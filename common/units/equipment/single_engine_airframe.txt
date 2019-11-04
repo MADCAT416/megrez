@@ -137,7 +137,7 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	cv_CAS_equipment = {
+	maritime_attack_helicopter_equipment = {
 		year = 1933
 
 		is_archetype = yes
@@ -611,11 +611,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 
-	# Basic Carrier CAS
-	cv_CAS_equipment_1 = {
+	# Basic maritime_attack_helicopter
+	maritime_attack_helicopter_equipment_1 = {
 		year = 1936
 
-		archetype = cv_CAS_equipment
+		archetype = maritime_attack_helicopter_equipment
 		carrier_capable = yes
 		priority = 50
 
@@ -632,11 +632,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 	# Improved Carrier CAS
-	cv_CAS_equipment_2 = {
+	maritime_attack_helicopter_equipment_2 = {
 		year = 1940
 
-		archetype = cv_CAS_equipment
-		parent = cv_CAS_equipment_1
+		archetype = maritime_attack_helicopter_equipment
+		parent = maritime_attack_helicopter_equipment_1
 		carrier_capable = yes
 		priority = 50
 
@@ -658,11 +658,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 	# Advanced Carrier CAS
-	cv_CAS_equipment_3 = {
+	maritime_attack_helicopter_equipment_3 = {
 		year = 1944
 
-		archetype = cv_CAS_equipment
-		parent = cv_CAS_equipment_2
+		archetype = maritime_attack_helicopter_equipment
+		parent = maritime_attack_helicopter_equipment_2
 		carrier_capable = yes
 		priority = 50
 
