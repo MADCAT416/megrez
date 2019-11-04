@@ -594,7 +594,7 @@ technologies = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_attack_helicopter2"}
 
 		enable_equipments = {
-			cv_CAS_equipment_2
+			maritime_attack_helicopter_equipment_2
 		}
 
 		research_cost = 1.0 #Carrier Variant
@@ -677,7 +677,7 @@ technologies = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_attack_helicopter3"}
 
 		enable_equipments = {
-			cv_CAS_equipment_3
+			maritime_attack_helicopter_equipment_3
 		}
 
 		research_cost = 1.0 #Carrier Variant
