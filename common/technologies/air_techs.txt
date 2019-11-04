@@ -16,7 +16,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = naval_bomber1
+			leads_to_tech = maritime_patrol_aircraft1
 			research_cost_coeff = 1
 		}
 
@@ -706,15 +706,15 @@ technologies = {
 		}
 	}
 
-	naval_bomber1 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech naval_bomber1"}
+	maritime_patrol_aircraft1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_patrol_aircraft1"}
 
 		enable_equipments = {
-			nav_bomber_equipment_1
+			maritime_patrol_aircraft_1
 		}
 
 		path = {
-			leads_to_tech = naval_bomber2
+			leads_to_tech = maritime_patrol_aircraft2
 			research_cost_coeff = 1
 		}
 
@@ -727,7 +727,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_naval_bomber1
+			maritime_helicopters1
 		}
 
 		categories = {
@@ -741,11 +741,11 @@ technologies = {
 		}
 	}
 
-	cv_naval_bomber1 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_naval_bomber1"}
+	maritime_helicopters1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_helicopters1"}
 
 		enable_equipments = {
-			cv_nav_bomber_equipment_1
+			maritime_helicopters_equipment_1
 		}
 
 		research_cost = 1.0 #Carrier Variant
@@ -775,15 +775,15 @@ technologies = {
 		}
 	}
 
-	naval_bomber2 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech naval_bomber2"}
+	maritime_patrol_aircraft2 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_patrol_aircraft2"}
 
 		enable_equipments = {
-			nav_bomber_equipment_2
+			maritime_patrol_aircraft_equipment_2
 		}
 
 		path = {
-			leads_to_tech = naval_bomber3
+			leads_to_tech = maritime_patrol_aircraft3
 			research_cost_coeff = 1
 		}
 
@@ -796,7 +796,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_naval_bomber2
+			maritime_helicopters2
 		}
 
 		categories = {
@@ -814,11 +814,11 @@ technologies = {
 		}
 	}
 
-	cv_naval_bomber2 = {
+	maritime_helicopters2 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_naval_bomber2"}
 
 		enable_equipments = {
-			cv_nav_bomber_equipment_2
+			maritime_helicopters_equipment_2
 		}
 
 		research_cost = 1.0 #Carrier Variant
@@ -851,11 +851,11 @@ technologies = {
 		}
 	}
 
-	naval_bomber3 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech naval_bomber3"}
+	maritime_patrol_aircraft3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_patrol_aircraft3"}
 
 		enable_equipments = {
-			nav_bomber_equipment_3
+			maritime_patrol_aircraft_equipment_3
 		}
 
 		path = {
@@ -872,7 +872,7 @@ technologies = {
 		}
 
 		sub_technologies = {
-			cv_naval_bomber3
+			maritime_helicopters3
 		}
 
 		categories = {
@@ -890,11 +890,11 @@ technologies = {
 		}
 	}
 
-	cv_naval_bomber3 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech cv_naval_bomber3"}
+	maritime_helicopters3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech maritime_helicopters3"}
 
 		enable_equipments = {
-			cv_nav_bomber_equipment_3
+			maritime_helicopters_equipment_3
 		}
 
 		research_cost = 1.0 #Carrier Variant

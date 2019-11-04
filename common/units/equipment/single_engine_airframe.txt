@@ -183,7 +183,7 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	nav_bomber_equipment = {
+	maritime_patrol_aircraft_equipment = {
 		year = 1933
 
 		is_archetype = yes
@@ -217,7 +217,8 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 1
-			aluminium = 2
+		
+		aluminium = 2
 			rubber = 1
 		}
 
@@ -225,7 +226,7 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	cv_nav_bomber_equipment = {
+	maritime_helicopters_equipment = {
 		year = 1933
 
 		is_archetype = yes
@@ -683,11 +684,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 
-	# Basic nav_bomber
-	nav_bomber_equipment_1 = {
+	# Basic Maritime Patrol Aircraft
+	maritime_patrol_aircraft_equipment_1 = {
 		year = 1936
 
-		archetype = nav_bomber_equipment
+		archetype = maritime_patrol_aircraft_equipment
 		priority = 60
 
 		air_range = 850
@@ -698,11 +699,11 @@ equipments = {
 
 	}
 	# Improved nav_bomber
-	nav_bomber_equipment_2 = {
+	maritime_patrol_aircraft_equipment_2 = {
 		year = 1940
 
-		archetype = nav_bomber_equipment
-		parent = nav_bomber_equipment_1
+		archetype = maritime_patrol_aircraft_equipment
+		parent = maritime_patrol_aircraft_equipment_1
 		priority = 60
 
 		air_range = 930
@@ -722,11 +723,11 @@ equipments = {
 
 	}
 	# Advanced nav_bomber
-	nav_bomber_equipment_3 = {
+	maritime_patrol_aircraft_equipment_3 = {
 		year = 1944
 
-		archetype = nav_bomber_equipment
-		parent = nav_bomber_equipment_2
+		archetype = maritime_patrol_aircraft_equipment
+		parent = maritime_patrol_aircraft_equipment_2
 		priority = 60
 
 		air_range = 1100
@@ -746,10 +747,10 @@ equipments = {
 	}
 
 	# Basic Carrier nav_bomber
-	cv_nav_bomber_equipment_1 = {
+	maritime_helicopters_equipment_1 = {
 		year = 1936
 
-		archetype = cv_nav_bomber_equipment
+		archetype = maritime_helicopters_equipment
 		carrier_capable = yes
 		priority = 70
 
@@ -762,11 +763,11 @@ equipments = {
 		build_cost_ic = 31.2 # cv_version costs 20% more of base archetype
 	}
 	# Improved Carrier nav_bomber
-	cv_nav_bomber_equipment_2 = {
+	maritime_helicopters_equipment_2 = {
 		year = 1940
 
-		archetype = cv_nav_bomber_equipment
-		parent = cv_nav_bomber_equipment_1
+		archetype = maritime_helicopters_equipment
+		parent = maritime_helicopters_equipment_1
 		carrier_capable = yes
 		priority = 70
 
@@ -785,11 +786,11 @@ equipments = {
 		}
 	}
 	# Advanced Carrier nav_bomber
-	cv_nav_bomber_equipment_3 = {
+	maritime_helicopters_equipment_3 = {
 		year = 1944
 
-		archetype = cv_nav_bomber_equipment
-		parent = cv_nav_bomber_equipment_2
+		archetype = maritime_helicopters_equipment
+		parent = maritime_helicopters_equipment_2
 		carrier_capable = yes
 		priority = 70
 
