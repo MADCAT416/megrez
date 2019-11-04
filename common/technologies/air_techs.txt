@@ -923,19 +923,19 @@ technologies = {
 		}
 	}
 
-	early_bomber = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech early_bomber"}
+	early_fighter_bomber = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech early_fighter_bomber"}
 
 		enable_equipments = {
-			tac_bomber_equipment_0
+			fighter_bomber_equipment_0
 		}
 
 		path = {
-			leads_to_tech = heavy_fighter1
+			leads_to_tech = multirole_fighter1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tactical_bomber1
+			leads_to_tech = fighter_bomber1
 			research_cost_coeff = 1
 		}
 
@@ -990,7 +990,7 @@ technologies = {
 		}
 	}
 
-	heavy_fighter2 = {
+	multirole_fighter2 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech multirole_fighter2"}
 
 		enable_equipments = {
@@ -1026,7 +1026,7 @@ technologies = {
 		}
 	}
 
-	heavy_fighter3 = {
+	multirole_fighter3 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech multirole_fighter3"}
 
 		enable_equipments = {
@@ -1062,15 +1062,15 @@ technologies = {
 		}
 	}
 
-	tactical_bomber1 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tactical_bomber1"}
+	fighter_bomber1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter_bomber1"}
 
 		enable_equipments = {
-			tac_bomber_equipment_1
+			fighter_bomber_equipment_1
 		}
 
 		path = {
-			leads_to_tech = tactical_bomber2
+			leads_to_tech = fighter_bomber2
 			research_cost_coeff = 1
 		}
 
@@ -1112,15 +1112,15 @@ technologies = {
 		}
 	}
 
-	tactical_bomber2 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tactical_bomber2"}
+	fighter_bomber2 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter_bomber2"}
 
 		enable_equipments = {
-			tac_bomber_equipment_2
+			fighter_bomber_equipment_2
 		}
 
 		path = {
-			leads_to_tech = tactical_bomber3
+			leads_to_tech = fighter_bomber3
 			research_cost_coeff = 1
 		}
 
@@ -1165,11 +1165,11 @@ technologies = {
 		}
 	}
 
-	tactical_bomber3 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tactical_bomber3"}
+	fighter_bomber3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech fighter_bomber3"}
 
 		enable_equipments = {
-			tac_bomber_equipment_3
+			fighter_bomber_equipment_3
 		}
 
 		path = {
