@@ -1,10 +1,10 @@
 technologies = {
 
 	early_air_superiority_fighter = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech early_fighter"}
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech early_air_superiority_fighter"}
 
 		enable_equipments = {
-			fighter_equipment_0
+			air_superiority_fighter_equipment_0
 		}
 
 		path = {

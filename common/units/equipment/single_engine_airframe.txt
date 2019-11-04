@@ -313,11 +313,11 @@ equipments = {
 	}
 
 
-	# Early air_superiority_Fighter
+	# Early airsuperiorityFighter
 	air_superiority_fighter_equipment_0 = {
 		year = 1933
 
-		archetype = fighter_equipment
+		archetype = air_superiority_fighter_equipment
 		priority = 5
 
 		air_range = 570
