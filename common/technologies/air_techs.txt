@@ -69,7 +69,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_tech = air_superiority_fighter1
+				has_tech = fighter1
 			}
 			modifier = {
 				factor = 2
@@ -165,7 +165,7 @@ technologies = {
 
 			modifier = {
 				factor = 0
-				has_tech = air_superiority_fighter2
+				has_tech = fighter2
 			}
 
 			modifier = {
