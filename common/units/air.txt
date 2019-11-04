@@ -17,12 +17,12 @@ sub_units = {
 		categories = { category_fighter }
 	}
 
-	heavy_fighter = {
+	multirole_fighter = {
 		sprite = medium_plane
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { heavy_fighter_equipment = 1 }
+		need = { multirole_fighter_equipment = 1 }
 		categories = { category_heavy_fighter }
 	}
 
@@ -44,6 +44,8 @@ sub_units = {
 		need = { CAS_equipment = 1 }
 		categories = { category_cas }
 	}
+	
+	
 
 	maritime_attack_helicopter = {
 		sprite = light_plane
