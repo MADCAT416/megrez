@@ -60,7 +60,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { naval_bomber }
-		need = { nav_bomber_equipment = 1 }
+		need = { maritime_patrol_aircraft_equipment = 1 }
 		categories = { category_nav_bomber }
 	}
 
@@ -69,7 +69,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { naval_bomber }
-		need = { cv_nav_bomber_equipment = 1 }
+		need = { maritime_helicopters_equipment = 1 }
 		categories = { category_nav_bomber }
 	}
 
