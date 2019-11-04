@@ -659,7 +659,7 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = early_bomber
+					has_tech = early_fighter_bomber
 				}
 			}
 			set_technology = {
@@ -669,61 +669,61 @@ transfer_technology = {
 		if = {
 			limit = {
 				PREV = {
-					has_tech = heavy_fighter1
+					has_tech = multirole_fighter1
 				}
 			}
 			set_technology = {
-				heavy_fighter1 = 1
+				multirole_fighter1 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = heavy_fighter2
+					has_tech = multirole_fighter2
 				}
 			}
 			set_technology = {
-				heavy_fighter2 = 1
+				multirole_fighter2 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = heavy_fighter3
+					has_tech = multirole_fighter3
 				}
 			}
 			set_technology = {
-				heavy_fighter3 = 1
+				multirole_fighter3 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = tactical_bomber1
+					has_tech = fighter_bomber1
 				}
 			}
 			set_technology = {
-				tactical_bomber1 = 1
+				fighter_bomber1 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = tactical_bomber2
+					has_tech = fighter_bomber2
 				}
 			}
 			set_technology = {
-				tactical_bomber2 = 1
+				fighter_bomber2 = 1
 			}
 		}
 		if = {
 			limit = {
 				PREV = {
-					has_tech = tactical_bomber3
+					has_tech = fighter_bomber3
 				}
 			}
 			set_technology = {
-				tactical_bomber3 = 1
+				fighter_bomber3 = 1
 			}
 		}
 		if = {
