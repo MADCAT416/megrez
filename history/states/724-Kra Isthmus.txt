@@ -5,9 +5,7 @@ state = {
 
 	state_category = two
 
-	resources = {
-		rubber = 70
-	}
+
 
 
 	history = {

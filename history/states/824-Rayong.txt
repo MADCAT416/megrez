@@ -2,7 +2,6 @@ state = {
 	id = 824 # Rayong
 	name = "STATE_824"
 	resources = {
-		rubber = 10
 		tungsten = 4
 	}
 

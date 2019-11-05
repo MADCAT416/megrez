@@ -4,7 +4,6 @@ state = {
 	manpower = 38945400
 	resources = {
 		steel = 10
-		rubber = 22
 	}
 
 	state_category = six

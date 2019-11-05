@@ -5,9 +5,7 @@ state = {
 
 	state_category = two
 
-	resources = {
-		rubber = 18
-	}
+
 
 	history = {
 		owner = BHC

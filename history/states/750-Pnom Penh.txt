@@ -1,9 +1,7 @@
 state = {
 	id = 750 # Phnom Penh
 	name = "STATE_750"
-	resources = {
-		rubber = 15
-	}
+
 
 	history = {
 		owner = CAM

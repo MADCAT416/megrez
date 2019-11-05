@@ -5,9 +5,7 @@ state = {
 
 	state_category = four
 
-	resources = {
-		rubber = 2
-	}
+
 
 	history = {
 		owner = PHI
