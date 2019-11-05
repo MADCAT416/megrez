@@ -1,13 +1,13 @@
 equipments = {
 
-	ship_hull_cruiser = {
+	ship_hull_destroyer = {
 		year = 1900
 
 		is_archetype = yes
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		alias = light_cruiser
+		alias = destroyer
 		priority = 1900
 		upgrades = {
 			ship_reliability_upgrade
@@ -107,10 +107,10 @@ equipments = {
 		manpower = 600
 	}
 
-	ship_hull_cruiser_1 = {
+	ship_hull_destroyer_1 = {
 		year = 1900
 		visual_level = 0
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
 
 
@@ -122,10 +122,10 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_2 = {
+	ship_hull_destroyer_2 = {
 		year = 1916
 		visual_level = 1
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
 		parent = ship_hull_cruiser_1
 		manpower = 800
@@ -166,12 +166,12 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_3 = {
+	ship_hull_destroyer_3 = {
 		year = 1924
 		visual_level = 1
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
-		parent = ship_hull_cruiser_2
+		parent = ship_hull_destroyer_2
 		naval_speed = 35
 		build_cost_ic = 2000
 		max_strength = 120
@@ -211,12 +211,12 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_4 = {
+	ship_hull_destroyer_4 = {
 		year = 1933
 		visual_level = 1
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
-		parent = ship_hull_cruiser_3
+		parent = ship_hull_destroyer_3
 		naval_speed = 35
 		manpower = 1400
 		build_cost_ic = 2100
@@ -257,12 +257,12 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_5 = {
+	ship_hull_destroyer_5 = {
 		year = 1940
 		visual_level = 1
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
-		parent = ship_hull_cruiser_4
+		parent = ship_hull_destroyer_4
 		naval_speed = 36.5
 		manpower = 1500
 		build_cost_ic = 2200
@@ -303,12 +303,12 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_6 = {
+	ship_hull_destroyer_6 = {
 		year = 1944
 		visual_level = 1
-		archetype = ship_hull_cruiser
+		archetype = ship_hull_destroyer
 		priority = 1900
-		parent = ship_hull_cruiser_5
+		parent = ship_hull_destroyer_5
 		naval_speed = 36.5
 		manpower = 1600
 		build_cost_ic = 2300
