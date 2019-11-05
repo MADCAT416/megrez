@@ -5,7 +5,7 @@ state = {
 		1209 4306 4608 7654 10479 10491 12472
 	}
 	resources = {
-		8
+		rubber = 98
 	}
 	manpower = 15792996
 

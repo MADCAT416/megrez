@@ -2,7 +2,7 @@ state = {
 	id = 846 #Federated Malay States
 	name = "STATE_846"
 	resources = {
-		36
+		rubber = 736
 		steel = 28
 		tungsten = 230
 	}

@@ -8,7 +8,7 @@ state = {
 
 	resources = {
 		chromium = 7
-		
+		rubber = 5
 	}
 
 	history = {
