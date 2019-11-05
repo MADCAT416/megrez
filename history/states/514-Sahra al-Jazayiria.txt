@@ -1,6 +1,6 @@
 state = {
-	id = 860
-	name = "STATE_860" #Desert Malien
+	id = 514
+	name = "STATE_514"
 
 	history = {
 		owner = ALG
@@ -12,8 +12,9 @@ state = {
 	}
 
 	provinces = {
-		10725 2068
+		1095 12849
 	}
-	manpower = 137733
+	manpower = 75720
 	state_category = wasteland
+	
 }

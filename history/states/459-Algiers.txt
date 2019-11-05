@@ -1,7 +1,7 @@
 state = {
 	id = 459
 	name = "STATE_459" # Algiers
-	manpower = 3089944
+	manpower = 5416933
 	state_category = six
 
 	resources = {

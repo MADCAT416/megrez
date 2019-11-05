@@ -7,10 +7,10 @@ state = {
 		add_claim_by = NFA
 		add_core_of = ALG
 		victory_points = {
-			7992 1 #Port Etienne
+			7992 1 #Nawandhibu
 		}
 		victory_points = {
-			5034 1 #Saint Louis
+			5034 5 #Nwakcot
 		}
 		buildings = {
 			infrastructure = 2
@@ -20,6 +20,6 @@ state = {
 	provinces = {
 		5034 5077 7992 8058 10771
 	}
-	manpower = 296412
+	manpower = 824932
 	state_category = one
 }

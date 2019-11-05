@@ -1,4 +1,4 @@
-﻿capital = 806
+﻿capital = 556
 
 set_cosmetic_tag = WESTAFRIKA
 

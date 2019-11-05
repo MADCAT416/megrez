@@ -3780,6 +3780,10 @@ country_event = {
 			name = endo_vp_8011
 		}
 		set_province_name = {
+			id = 8035
+			name = endo_vp_8035
+		}
+		set_province_name = {
 			id = 8047
 			name = endo_vp_8047
 		}
@@ -7894,6 +7898,7 @@ country_event = {
 		reset_province_name = 7992
 		reset_province_name = 8010
 		reset_province_name = 8011
+		reset_province_name = 8035
 		reset_province_name = 8047
 		reset_province_name = 8049
 		reset_province_name = 8063

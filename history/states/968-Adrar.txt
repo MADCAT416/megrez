@@ -9,11 +9,12 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
+		victory_points = { 8035 1 }
 	}
 
 	provinces = {
 		8035 10779 10814
 	}
-	manpower = 53100
-	state_category = wasteland
+	manpower = 147769
+	state_category = pastoral
 }
