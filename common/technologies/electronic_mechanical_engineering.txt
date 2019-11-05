@@ -62,7 +62,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 11 y = 9 } # x = 12 y = 0
+			position = { x = 12 y = 1 } # x = 12 y = 0
 		}
 
 		ai_will_do = {
