@@ -74,6 +74,7 @@ technology_categories = {
 	maintenance_company_tech
 	concentrated_industry_category
 	dispersed_industry_category
+	helicopter_tech
 
 
 
