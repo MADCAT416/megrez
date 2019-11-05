@@ -3,6 +3,6 @@ supply_area = {
 	name = "SUPPLYAREA_33"
 	value = 10
 	states = {
-		103 104 163 793 1107 1116 1117
+		103 104 163 1107 1116 1117
 	}
 }

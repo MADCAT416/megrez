@@ -1,9 +1,7 @@
 state = {
 	id = 826
 	name = "STATE_826"
-	resources = {
-		rubber = 34
-	}
+
 	history = {
 		owner = CAM
 		add_core_of = GEA

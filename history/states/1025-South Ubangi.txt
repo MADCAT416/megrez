@@ -14,9 +14,7 @@ state = {
 		}
 	}
 
-	resources = {
-		rubber = 6
-	}
+
 
 	state_category = one
 }
