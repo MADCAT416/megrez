@@ -20,7 +20,7 @@ state = {
 	}
 
 	resources = {
-		rubber = 12
+		2
 	}
 
 	provinces = {
