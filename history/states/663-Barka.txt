@@ -8,11 +8,13 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
+		
+		victory_points = { 4151 1 }
 	}
 
 	provinces = {
-		1062 1186 4063 4133 7063 7139 7206 10049 10785 11951 12025 12079 13078
+		10123 12094 4151 1204 10049 1186 12079 1062 7139 4063 
 	}
-	manpower = 8808
-	state_category = wasteland
+	manpower = 132153
+	state_category = two
 }

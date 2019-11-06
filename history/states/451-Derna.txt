@@ -1,7 +1,7 @@
 state = {
 	id = 451
 	name = "STATE_451"
-	manpower = 45628
+	manpower = 122984
 
 	state_category = one
 
@@ -9,9 +9,8 @@ state = {
 		owner = LBA
 		add_core_of = LBA
 
-		victory_points = {
-			1130 1
-		}
+		victory_points = { 1130 1 }
+		victory_points = { 7082 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -22,6 +21,6 @@ state = {
 	}
 
 	provinces = {
-		1130 1204 4136 4151 7082 9992 10120 12094
+		10120 4136 1130 7206 13078 1060 7082 9992 12025
 	}
 }

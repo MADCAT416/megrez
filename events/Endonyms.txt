@@ -1544,6 +1544,10 @@ country_event = {
 			name = endo_vp_1048
 		}
 		set_province_name = {
+			id = 1057
+			name = endo_vp_1057
+		}
+		set_province_name = {
 			id = 1068
 			name = endo_vp_1068
 		}
@@ -1618,6 +1622,10 @@ country_event = {
 		set_province_name = {
 			id = 1188
 			name = endo_vp_1188
+		}
+		set_province_name = {
+			id = 1189
+			name = endo_vp_1189
 		}
 		set_province_name = {
 			id = 1208
@@ -2456,6 +2464,10 @@ country_event = {
 			name = endo_vp_4014
 		}
 		set_province_name = {
+			id = 4047
+			name = endo_vp_4047
+		}
+		set_province_name = {
 			id = 4050
 			name = endo_vp_4050
 		}
@@ -2502,6 +2514,10 @@ country_event = {
 		set_province_name = {
 			id = 4135
 			name = endo_vp_4135
+		}
+		set_province_name = {
+			id = 4151
+			name = endo_vp_4151
 		}
 		set_province_name = {
 			id = 4152
@@ -3406,6 +3422,10 @@ country_event = {
 		set_province_name = {
 			id = 7077
 			name = endo_vp_7077
+		}
+		set_province_name = {
+			id = 7082
+			name = endo_vp_7082
 		}
 		set_province_name = {
 			id = 7087
@@ -7340,6 +7360,7 @@ country_event = {
 		reset_province_name = 1025
 		reset_province_name = 1047
 		reset_province_name = 1048
+		reset_province_name = 1057
 		reset_province_name = 1068
 		reset_province_name = 1069
 		reset_province_name = 1070
@@ -7359,6 +7380,7 @@ country_event = {
 		reset_province_name = 1182
 		reset_province_name = 1184
 		reset_province_name = 1188
+		reset_province_name = 1189
 		reset_province_name = 1208
 		reset_province_name = 1221
 		reset_province_name = 1269
@@ -7567,6 +7589,7 @@ country_event = {
 		reset_province_name = 3996
 		reset_province_name = 3999
 		reset_province_name = 4014
+		reset_province_name = 4047
 		reset_province_name = 4050
 		reset_province_name = 4052
 		reset_province_name = 4056
@@ -7579,6 +7602,7 @@ country_event = {
 		reset_province_name = 4111
 		reset_province_name = 4112
 		reset_province_name = 4135
+		reset_province_name = 4151
 		reset_province_name = 4152
 		reset_province_name = 4159
 		reset_province_name = 4174
@@ -7805,6 +7829,7 @@ country_event = {
 		reset_province_name = 7071
 		reset_province_name = 7072
 		reset_province_name = 7077
+		reset_province_name = 7082
 		reset_province_name = 7087
 		reset_province_name = 7097
 		reset_province_name = 7101
