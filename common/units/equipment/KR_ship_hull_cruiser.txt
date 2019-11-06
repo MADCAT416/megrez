@@ -3,14 +3,14 @@ equipments = {
 ### Archetype	
 
 
-	ship_hull_panzerschiff = {
+	ship_hull_cruiser = {
 		year = 1900
 
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
 		interface_category = interface_category_capital_ships
-		alias = heavy_cruiser
+		alias = cruiser
 		priority = 1900
 
 		upgrades = {
@@ -117,20 +117,20 @@ equipments = {
 
 ## Panzerschiff
 
-	ship_hull_panzerschiff_1 = {
+	ship_hull_cruiser_1 = {
 		year = 1900
 		visual_level = 0
-		archetype = ship_hull_panzerschiff
+		archetype = ship_hull_cruiser
 		priority = 1850
 
 		module_slots = inherit
 	}
 
-	ship_hull_panzerschiff_2 = {
+	ship_hull_cruiser_2 = {
 		year = 1916
 		visual_level = 0
-		archetype = ship_hull_panzerschiff
-		parent = ship_hull_panzerschiff_1
+		archetype = ship_hull_cruiser
+		parent = ship_hull_cruiser_1
 		priority = 1850
 		build_cost_ic = 3100
 		max_strength = 260
@@ -155,7 +155,7 @@ equipments = {
 		}
 	}
 
-	ship_hull_panzerschiff_3 = {
+	ship_hull_cruiser_3 = {
 		year = 1924
 		visual_level = 0
 		archetype = ship_hull_panzerschiff
@@ -182,7 +182,7 @@ equipments = {
 
 ###Revived panzershiffs (can have heavy engines and guns)
 
-	ship_hull_panzerschiff_4 = {
+	ship_hull_cruiser_4 = {
 		year = 1933
 		visual_level = 0
 		archetype = ship_hull_panzerschiff

@@ -3,7 +3,7 @@ equipments = {
 ### Archetype
 
 
-	ship_hull_fast_battleship = {
+	ship_hull_battlecruiser = {
 		year = 1922
 
 		is_archetype = yes
@@ -109,11 +109,11 @@ equipments = {
 
 ## Fast Battleship
 
-	ship_hull_fast_battleship_1 = {
+	ship_hull_battlecruiser_1 = {
 		year = 1900
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship
+		parent = ship_hull_battlecruiser
 		visual_level = 0
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -135,9 +135,9 @@ equipments = {
 	ship_hull_fast_battleship_2 = {
 		year = 1916
 
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship_1
+		parent = ship_hull_battlecruiser_1
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -175,9 +175,9 @@ equipments = {
 	ship_hull_fast_battleship_3 = {
 		year = 1924
 
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship_2
+		parent = ship_hull_battlecruiser_2
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -232,12 +232,12 @@ equipments = {
 		manpower = 6000
 	}
 
-	ship_hull_fast_battleship_4= {
+	ship_hull_battlecruiser_4= {
 		year = 1933
 
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship_3
+		parent = ship_hull_battlecruiser_3
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -283,12 +283,12 @@ equipments = {
 		manpower = 6000
 	}
 
-	ship_hull_fast_battleship_5 = {
+	ship_hull_battlecruiser_5 = {
 		year = 1940
 
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship_4
+		parent = ship_hull_battlecruiser_4
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -332,12 +332,12 @@ equipments = {
 		manpower = 6000
 	}
 
-	ship_hull_fast_battleship_6 = {
+	ship_hull_battlecruiser_6 = {
 		year = 1940
 
-		archetype = ship_hull_fast_battleship
+		archetype = ship_hull_battlecruiser
 		priority = 1500
-		parent = ship_hull_fast_battleship_5
+		parent = ship_hull_battlecruiser_5
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit

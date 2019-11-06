@@ -330,7 +330,7 @@ equipments = {
 
 ### SHDN
 
-	ship_hull_super_dreadnought = {
+	ship_hull_gunfire_support = {
 		year = 1944
 		archetype = ship_hull_dreadnought
 		visual_level = 1
@@ -388,4 +388,6 @@ equipments = {
 		}
 		manpower = 7000
 	}
+	
+	
 }

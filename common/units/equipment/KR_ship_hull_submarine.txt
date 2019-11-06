@@ -261,7 +261,7 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_submarine = {
+	ship_hull_nuclear_submarine = {
 		year = 1930
 
 		archetype = ship_hull_submarine
