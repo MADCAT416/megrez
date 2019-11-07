@@ -1,0 +1,27 @@
+state = {
+	id = 1120
+	name = "STATE_1120"
+
+	state_category = two
+
+	history = {
+		owner = EST
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			
+		}
+		
+		add_core_of = EST
+		add_claim_by = BAT
+		add_claim_by = RUS
+		
+		victory_points = { 83 1 } # Haapsalu
+	}
+
+	provinces = {
+		567 83 3074 3174 6381 308 11291 6178
+	}
+	manpower = 308303
+}

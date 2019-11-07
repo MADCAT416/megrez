@@ -1141,12 +1141,18 @@ country_event = {
 		1117 = { set_state_name = endo_state_1117 }
 		1118 = { set_state_name = endo_state_1118 }
 		1119 = { set_state_name = endo_state_1119 }
+		1120 = { set_state_name = endo_state_1120 }
+		1121 = { set_state_name = endo_state_1121 }
 		
 		### set endo vps ###
 
 		set_province_name = {
 			id = 53
 			name = endo_vp_53
+		}
+		set_province_name = {
+			id = 83
+			name = endo_vp_83
 		}
 		set_province_name = {
 			id = 94
@@ -1179,6 +1185,10 @@ country_event = {
 		set_province_name = {
 			id = 177
 			name = endo_vp_177
+		}
+		set_province_name = {
+			id = 185
+			name = endo_vp_185
 		}
 		set_province_name = {
 			id = 191
@@ -2711,6 +2721,10 @@ country_event = {
 		set_province_name = {
 			id = 4637
 			name = endo_vp_4637
+		}
+		set_province_name = {
+			id = 4640
+			name = endo_vp_4640
 		}
 		set_province_name = {
 			id = 4641
@@ -7267,10 +7281,13 @@ country_event = {
 		1117 = { reset_state_name = yes }
 		1118 = { reset_state_name = yes }
 		1119 = { reset_state_name = yes }
+		1120 = { reset_state_name = yes }
+		1121 = { reset_state_name = yes }
 
 		### reset endo vps ###
 
 		reset_province_name = 53
+		reset_province_name = 83
 		reset_province_name = 94
 		reset_province_name = 117
 		reset_province_name = 121
@@ -7279,6 +7296,7 @@ country_event = {
 		reset_province_name = 156
 		reset_province_name = 169
 		reset_province_name = 177
+		reset_province_name = 185
 		reset_province_name = 191
 		reset_province_name = 192
 		reset_province_name = 221
@@ -7661,6 +7679,7 @@ country_event = {
 		reset_province_name = 4613
 		reset_province_name = 4619
 		reset_province_name = 4637
+		reset_province_name = 4640
 		reset_province_name = 4641
 		reset_province_name = 4652
 		reset_province_name = 4682

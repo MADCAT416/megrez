@@ -1,0 +1,26 @@
+state = {
+	id = 1121
+	name = "STATE_1121"
+
+	state_category = small_island
+
+	history = {
+		owner = EST
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+		
+		add_core_of = EST
+		add_claim_by = BAT
+		add_claim_by = RUS
+		
+		victory_points = { 185 1 } # Kuressaare
+	}
+
+	provinces = {
+		185 6201
+	}
+	manpower = 70372
+}
