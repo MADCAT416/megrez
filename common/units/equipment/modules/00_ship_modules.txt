@@ -114,6 +114,114 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 	}
+	
+	sub_ship_missile_1 = {
+		category = ship_light_battery
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_ship_missile_0
+
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 90
+			naval_speed = -1
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 60
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	sub_ship_missile_2 = {
+		category = ship_light_battery
+		parent = sub_ship_missile_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 1.5
+			build_cost_ic = 120
+			naval_speed = -1
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 2
+		}
+
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 75 #conversion cost from ANY ship_light_battery module
+		}
+
+		can_convert_from = {
+			module = sub_ship_missile_1
+			convert_cost_ic = 45 #conversion cost from that specific module
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	sub_ship_missile_3 = {
+		category = ship_light_battery
+		parent = sub_ship_missile_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 2
+			build_cost_ic = 150
+			naval_speed = -1
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 75
+		}
+
+		can_convert_from = {
+			module= sub_ship_missile_2
+			convert_cost_ic = 45
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	sub_ship_missile_4 = {
+		category = ship_light_battery
+		parent = sub_ship_missile_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 2.5
+			build_cost_ic = 175
+			naval_speed = -1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 180
+		}
+
+		can_convert_from = {
+			module = sub_ship_missile_3
+			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	
+	
 	dp_anti_missile_double = {
 		category = ship_light_battery
 		gfx = ship_anti_missile_double_5
@@ -283,6 +391,28 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 
+
+    	ship_super_heavy_battery_1 = {
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_1
+		add_equipment_type = capital_ship
+		parent = ship_heavy_vls_0
+
+		add_stats = {
+			hg_attack = 16
+			build_cost_ic = 1800
+			naval_speed = -3
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 50
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
 
 #   # ### ###  ### #  # #   #     ###   ##  ### ### ### ###  #   # 
 ## ## #   #  #  #  #  # ## ##     #  # #  #  #   #  #   #  #  # #  
@@ -1868,7 +1998,7 @@ equipment_modules = {
 #  # #  # #   # #  # #  #       # #  # #  # #   #   # #     # 
 #  # #  # #   #  ##  #  #     ##   ##  #  # ### #   # ### ##  
 
-	ship_armor_bb_1 = {
+	ship_bc_defence_system_1 = {
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_1
 
@@ -1887,7 +2017,7 @@ equipment_modules = {
 		dismantle_cost_ic = 5500
 
 	}
-	ship_armor_ps_1 = {
+	ship_cruiser_defence_system_1 = {
 		category = ship_ps_armor
 		gfx = ship_armor_1
 
@@ -1904,7 +2034,7 @@ equipment_modules = {
 		dismantle_cost_ic = 4500
 
 	}
-	ship_armor_bb_2 = {
+	ship_bc_defence_system_2 = {
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_2
 
@@ -1923,7 +2053,7 @@ equipment_modules = {
 		dismantle_cost_ic = 6000
 
 	}
-	ship_armor_ps_2 = {
+	ship_cruiser_defence_system_2 = {
 		category = ship_ps_armor
 		gfx = ship_armor_2
 
@@ -1941,7 +2071,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 5500
 	}
-	ship_armor_bb_3 = {
+	ship_bc_defence_system_3 = {
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_3
 
@@ -1961,7 +2091,7 @@ equipment_modules = {
 		dismantle_cost_ic = 7500
 
 	}
-	ship_armor_ps_3 = {
+	ship_cruiser_defence_system_3 = {
 		category = ship_ps_armor
 		gfx = ship_armor_3
 
@@ -1981,7 +2111,7 @@ equipment_modules = {
 		dismantle_cost_ic = 6200
 
 	}
-	ship_armor_shbb = {
+	ship_dn_defence_system = {
 		category = ship_super_heavy_armor
 		gfx = ship_armor_thick_3
 
@@ -2071,7 +2201,7 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-	ship_armor_carrier_deck = {
+	ship_carrier_defence_system = {
 		category = ship_carrier_armor
 		gfx = ship_cruiser_armor
 
@@ -2482,7 +2612,7 @@ equipment_modules = {
 	}
 
 
-	ship_ship_supersonic_cruise_missile_2 = {
+	ship_supersonic_cruise_missile_2 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_2
@@ -2563,6 +2693,117 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 
+    ship_super_heavy_battery_0 = {
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_0
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			hg_attack = 14
+			build_cost_ic = 1350
+			naval_speed = -3
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		
+		add_average_stats = {
+			hg_armor_piercing = 40
+		}
+		critical_parts = { damaged_heavy_guns }
+
+		can_convert_from = {
+			module = ship_super_heavy_battery_1
+			convert_cost_ic = 1000
+		}
+
+	}
+
+
+	ship_super_heavy_battery_2 = {
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_2
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			hg_attack = 21
+			build_cost_ic = 2000
+			naval_speed = -3
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 60
+		}
+		critical_parts = { damaged_heavy_guns }
+
+		can_convert_from = {
+			module = ship_ship_supersonic_cruise_missile_1
+			convert_cost_ic = 1250
+		}
+
+	}
+
+	ship_super_heavy_battery_3 = {
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_3
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			hg_attack = 28
+			build_cost_ic = 2400
+			naval_speed = -3
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 60
+		}
+
+		can_convert_from = {
+			module = ship_ship_supersonic_cruise_missile_2
+			convert_cost_ic = 1400
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_super_heavy_battery_4 = {
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_4
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			hg_attack = 31
+			build_cost_ic = 2600
+			naval_speed = -3
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 60
+		}
+
+		can_convert_from = {
+			module = ship_ship_supersonic_cruise_missile_3
+			convert_cost_ic = 1850
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+
+    
 ### Thongs belts....Cruiser armor (vanilla CL/CA armor)	
 
 	ship_armor_cruiser_5 = {
@@ -2587,7 +2828,7 @@ equipment_modules = {
 
 ### Tight belts....Panzershiff armor (vanilla BC armor)
 
-	ship_armor_ps_0 = {
+	ship_cruiser_defence_system_0 = {
 		category = ship_ps_armor
 		gfx = ship_armor
 
@@ -2606,7 +2847,7 @@ equipment_modules = {
 
 	}
 
-	ship_armor_ps_4 = {
+	ship_cruiser_defence_system_4 = {
 		category = ship_ps_armor
 		gfx = ship_armor_4
 
@@ -2629,7 +2870,7 @@ equipment_modules = {
 
 ### Intermediate belts ...Fast battleship armor (vanilla BB armor)
 
-	ship_armor_bb_0 = {
+	ship_bc_defence_system_0 = {
 		category = ship_heavy_armor
 		gfx = ship_armor_thick
 
@@ -2646,7 +2887,7 @@ equipment_modules = {
 		dismantle_cost_ic = 4000
 	}
 
-	ship_armor_bb_4 = {
+	ship_bc_defence_system_4 = {
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_4
 
@@ -2668,7 +2909,7 @@ equipment_modules = {
 
 ### Thick belts for thick girls owo...DN armour (vanilla HBB armor) NEEDS BALANCING
 
-	ship_armor_shbb_2 = {
+	ship_dn_defence_system_2 = {
 		category = ship_super_heavy_armor
 		gfx = ship_armor_thick_3
 
@@ -2689,7 +2930,7 @@ equipment_modules = {
 
 	}
 
-	ship_armor_shbb_3 = {
+	ship_dn_defence_system_3 = {
 		category = ship_super_heavy_armor
 		gfx = ship_armor_thick_3
 
@@ -2710,7 +2951,7 @@ equipment_modules = {
 
 	}
 
-	ship_armor_shbb_4 = {
+	ship_dn_defence_system_4 = {
 		category = ship_super_heavy_armor
 		gfx = ship_armor_thick_3
 
@@ -2731,7 +2972,7 @@ equipment_modules = {
 
 	}
 
-	ship_armor_shbb_5 = {
+	ship_dn_defence_system_5 = {
 		category = ship_super_heavy_armor
 		gfx = ship_armor_thick_3
 
