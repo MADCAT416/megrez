@@ -9,10 +9,10 @@ equipment_modules = {
 
 
 
-	ship_light_battery_1 = {
+	ship_anti_missile_double_1 = {
 		category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
-		parent = ship_light_battery_0
+		parent = ship_anti_missile_double_0
 
 		add_stats = {
 			lg_attack = 1
@@ -32,9 +32,9 @@ equipment_modules = {
 		critical_parts = { damaged_light_guns }
 	}
 
-	ship_light_battery_2 = {
+	ship_anti_missile_double_2 = {
 		category = ship_light_battery
-		parent = ship_light_battery_1
+		parent = ship_anti_missile_double_1
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -53,15 +53,15 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_light_battery_1
+			module = ship_anti_missile_double_1
 			convert_cost_ic = 45 #conversion cost from that specific module
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
-	ship_light_battery_3 = {
+	ship_anti_missile_double_3 = {
 		category = ship_light_battery
-		parent = ship_light_battery_2
+		parent = ship_anti_missile_double_2
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -80,15 +80,15 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module= ship_light_battery_2
+			module= ship_anti_missile_double_2
 			convert_cost_ic = 45
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
-	ship_light_battery_4 = {
+	ship_anti_missile_double_4 = {
 		category = ship_light_battery
-		parent = ship_light_battery_3
+		parent = ship_anti_missile_double_3
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -109,14 +109,14 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_light_battery_3
+			module = ship_anti_missile_double_3
 			convert_cost_ic = 120
 		}
 		critical_parts = { damaged_light_guns }
 	}
-	dp_light_battery = {
+	dp_anti_missile_double = {
 		category = ship_light_battery
-		gfx = ship_light_battery_5
+		gfx = ship_anti_missile_double_5
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -148,9 +148,9 @@ equipment_modules = {
 
 
 
-	ship_heavy_battery_1 = {
+	ship_heavy_vls_1 = {
 		category = ship_heavy_battery
-		parent = ship_heavy_battery_0
+		parent = ship_heavy_vls_0
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -167,15 +167,15 @@ equipment_modules = {
 			steel = 1
 		}
 		can_convert_from = {
-			module_category = ship_heavy_battery
+			module_category = ship_heavy_vls
 			convert_cost_ic = 700
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_heavy_battery_2 = {
+	ship_heavy_vls_2 = {
 		category = ship_heavy_battery
-		parent = ship_heavy_battery_1
+		parent = ship_heavy_vls_1
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -196,15 +196,15 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_heavy_battery_1
+			module = ship_heavy_vls_1
 			convert_cost_ic = 600
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_heavy_battery_3 = {
+	ship_heavy_vls_3 = {
 		category = ship_heavy_battery
-		parent = ship_heavy_battery_2
+		parent = ship_heavy_vls_2
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -225,15 +225,15 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_heavy_battery_2
+			module = ship_heavy_vls_2
 			convert_cost_ic = 600
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_heavy_battery_4 = {
+	ship_heavy_vls_4 = {
 		category = ship_heavy_battery
-		parent = ship_heavy_battery_3
+		parent = ship_heavy_vls_3
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -255,18 +255,18 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_heavy_battery_3
+			module = ship_heavy_vls_3
 			convert_cost_ic = 800
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_super_heavy_battery_1 = {
+	ship_supersonic_cruise_missile_1 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_1
 		add_equipment_type = capital_ship
-		parent = ship_heavy_battery_0
+		parent = ship_heavy_vls_0
 
 		add_stats = {
 			hg_attack = 16
@@ -291,10 +291,10 @@ equipment_modules = {
 #   # ### ###  ###  ##  #   #     ###  #  #  #   #  ### #  #   #   
 
 
-	ship_medium_battery_1 = {
+	ship_medium_vls_1 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
-		parent = ship_medium_battery_0
+		parent = ship_medium_vls_0
 
 		add_stats = {
 			hg_attack = 6.75
@@ -321,9 +321,9 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
-	ship_medium_battery_2 = {
+	ship_medium_vls_2 = {
 		category = ship_medium_battery
-		parent = ship_medium_battery_1
+		parent = ship_medium_vls_1
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			hg_attack = 7.25
@@ -345,14 +345,14 @@ equipment_modules = {
 			convert_cost_ic = 400
 		}
 		can_convert_from = {
-			module = ship_medium_battery_1
+			module = ship_medium_vls_1
 			convert_cost_ic = 300
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
-	ship_medium_battery_3 = {
+	ship_medium_vls_3 = {
 		category = ship_medium_battery
-		parent = ship_medium_battery_2
+		parent = ship_medium_vls_2
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -378,7 +378,7 @@ equipment_modules = {
 			}
 		}
 		can_convert_from = {
-			module = ship_medium_battery_2
+			module = ship_medium_vls_2
 			convert_cost_ic = 350
 			convert_cost_resources = {
 				steel = 1
@@ -386,9 +386,9 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
-	ship_medium_battery_4 = {
+	ship_medium_vls_4 = {
 		category = ship_medium_battery
-		parent = ship_medium_battery_3
+		parent = ship_medium_vls_3
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -415,12 +415,12 @@ equipment_modules = {
 			}
 		}
 		can_convert_from = {
-			module = ship_medium_battery_3
+			module = ship_medium_vls_3
 			convert_cost_ic = 400
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
-	ship_light_medium_battery_1 = {
+	ship_anti_missile_multiple_1 = {
 		category = ship_light_medium_battery
 		gui_category = ship_light_battery
 
@@ -441,10 +441,10 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 	}
-	ship_light_medium_battery_2 = {
+	ship_anti_missile_multiple_2 = {
 		category = ship_light_medium_battery
 		gui_category = ship_light_battery
-		parent = ship_light_medium_battery_1
+		parent = ship_anti_missile_multiple_1
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -464,15 +464,15 @@ equipment_modules = {
 			}
 		}
 		can_convert_from = {
-			module = ship_light_medium_battery_1
+			module = ship_anti_missile_multiple_1
 			convert_cost_ic = 300
 		}
 		critical_parts = { damaged_light_guns }
 	}
-	ship_light_medium_battery_3 = {
+	ship_anti_missile_multiple_3 = {
 		category = ship_light_medium_battery
 		gui_category = ship_light_battery
-		parent = ship_light_medium_battery_2
+		parent = ship_anti_missile_multiple_2
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -495,16 +495,16 @@ equipment_modules = {
 			}
 		}
 		can_convert_from = {
-			module = ship_light_medium_battery_2
+			module = ship_anti_missile_multiple_2
 			convert_cost_ic = 350
 		}
 		critical_parts = { damaged_light_guns }
 	}
-	ship_light_medium_battery_4 = {
+	ship_anti_missile_multiple_4 = {
 		category = ship_light_medium_battery
 		sfx = sfx_ui_sd_module_turret
 		gui_category = ship_light_battery
-		parent = ship_light_medium_battery_3
+		parent = ship_anti_missile_multiple_3
 		add_stats = {
 			lg_attack = 5.5
 			anti_air_attack = 2.5
@@ -527,7 +527,7 @@ equipment_modules = {
 			}
 		}
 		can_convert_from = {
-			module = ship_light_medium_battery_3
+			module = ship_anti_missile_multiple_3
 			convert_cost_ic = 400
 		}
 		critical_parts = { damaged_light_guns }
@@ -1101,7 +1101,7 @@ equipment_modules = {
 			convert_cost_ic = 230
 		}
 	}
-	cruiser_ship_engine_1 = {
+	destroyer_ship_engine_1 = {
 		category = cruiser_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
@@ -1121,9 +1121,9 @@ equipment_modules = {
 		}
 	}
 
-	cruiser_ship_engine_2 = {
+	destroyer_ship_engine_2 = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_1
+		parent = destroyer_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 
@@ -1148,9 +1148,9 @@ equipment_modules = {
 		}
 	}
 
-	cruiser_ship_engine_3 = {
+	destroyer_ship_engine_3 = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_2
+		parent = destroyer_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 
@@ -1170,13 +1170,13 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = cruiser_ship_engine_2
+			module = destroyer_ship_engine_2
 			convert_cost_ic = 2300
 		}
 	}
-	cruiser_ship_engine_4 = {
+	destroyer_ship_engine_4 = {
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_3
+		parent = destroyer_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 
@@ -1196,7 +1196,7 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = cruiser_ship_engine_3
+			module = destroyer_ship_engine_3
 			convert_cost_ic = 2300
 		}
 	}
@@ -1646,7 +1646,7 @@ equipment_modules = {
 
 
 
-	ship_depth_charge_1 = {
+	ship_asroc_1 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
@@ -1662,7 +1662,7 @@ equipment_modules = {
 		}
 	}
 
-	ship_depth_charge_2 = {
+	ship_asroc_2 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
@@ -1678,7 +1678,7 @@ equipment_modules = {
 		}
 	}
 
-	ship_depth_charge_3 = {
+	ship_asroc_3 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
@@ -1694,7 +1694,7 @@ equipment_modules = {
 		}
 	}
 
-	ship_depth_charge_4 = {
+	ship_asroc_4 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
@@ -1754,9 +1754,9 @@ equipment_modules = {
 ####  #  ###  #    ###  #### ##   #      #   #### #  # # ## #    #### ##  ###  
 #  #  #  #  # #  # #  # #  # #    #      #   #  # #  # #  # #  # #  # #   #  # 
 #  # ### #  #  ##  #  # #  # #    #      ### #  #  ##  #  #  ##  #  # ### #  # 
-	ship_airplane_launcher_1 = {
+	ship_helicopter_launcher_1 = {
 		category = ship_airplane_launcher
-		gfx = ship_airplane_launcher_1
+		gfx = ship_helicopter_launcher_1
 
 		add_stats = {
 			surface_detection = 7
@@ -1769,9 +1769,9 @@ equipment_modules = {
 			carrier_size = 0.05
 		}
 	}
-	ship_airplane_launcher_2 = {
+	ship_helicopter_launcher_2 = {
 		category = ship_airplane_launcher
-		gfx = ship_airplane_launcher_2
+		gfx = ship_helicopter_launcher_2
 
 		add_stats = {
 			surface_detection = 10
@@ -2098,7 +2098,7 @@ equipment_modules = {
 
 ### Cruiser unicorn stuff
 
-	plane_manipulation_space = {
+	helicopter_space = {
 		category = ship_cruiser_specialization
 		gfx = ship_deck_space
 
@@ -2170,31 +2170,13 @@ equipment_modules = {
 		}
 	}
 
-	pyramid_superstructure = {
-		category = ship_cruiser_specialization
-		gfx = ship_torpedo
-
-		add_stats = {
-			build_cost_ic = 750
-		}
-
-		multiply_stats = {
-			anti_air_attack = 0.75
-			max_strength = -0.1
-		}
-
-		can_convert_from = {
-			module_category = ship_cruiser_specialization
-			convert_cost_ic = 750
-		}
-
-	}
+	
 
 
 
 ### Engines
 
-	sub_ship_engine_AIP = {
+	sub_ship_engine_nuclear = {
 		category = sub_ship_engine
 		parent = sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
@@ -2273,9 +2255,9 @@ equipment_modules = {
 		}
 	}
 
-	cruiser_ship_engine_5 = { ##  better rel
+	destroyer_ship_engine_5 = { ##  better rel
 		category = cruiser_ship_engine
-		parent = cruiser_ship_engine_4
+		parent = destroyer_ship_engine_4
 		sfx = sfx_ui_sd_module_engine
 
 
@@ -2417,7 +2399,7 @@ equipment_modules = {
 
 ### STARTING GUNS
 
-	ship_medium_battery_0 = {
+	ship_medium_vls_0 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2445,7 +2427,7 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_heavy_battery_0 = {
+	ship_heavy_vls_0 = {
 		category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -2471,7 +2453,7 @@ equipment_modules = {
 
 ### Super heavy batteries for DNs
 
-	ship_super_heavy_battery_0 = {
+	ship_supersonic_cruise_missile_0 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_0
@@ -2500,7 +2482,7 @@ equipment_modules = {
 	}
 
 
-	ship_super_heavy_battery_2 = {
+	ship_ship_supersonic_cruise_missile_2 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_2
@@ -2521,13 +2503,13 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 
 		can_convert_from = {
-			module = ship_super_heavy_battery_1
+			module = ship_ship_supersonic_cruise_missile_1
 			convert_cost_ic = 1250
 		}
 
 	}
 
-	ship_super_heavy_battery_3 = {
+	ship_ship_supersonic_cruise_missile_3 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_3
@@ -2547,14 +2529,14 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_super_heavy_battery_2
+			module = ship_ship_supersonic_cruise_missile_2
 			convert_cost_ic = 1400
 		}
 
 		critical_parts = { damaged_heavy_guns }
 	}
 
-	ship_super_heavy_battery_4 = {
+	ship_ship_supersonic_cruise_missile_4 = {
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_4
@@ -2574,7 +2556,7 @@ equipment_modules = {
 		}
 
 		can_convert_from = {
-			module = ship_super_heavy_battery_3
+			module = ship_ship_supersonic_cruise_missile_3
 			convert_cost_ic = 1850
 		}
 
@@ -2775,9 +2757,9 @@ equipment_modules = {
 
 	### steam catapult
 
-	ship_airplane_launcher_3 = {
+	ship_helicopter_launcher_3 = {
 		category = ship_airplane_launcher
-		gfx = ship_airplane_launcher_3
+		gfx = ship_helicopter_launcher_3
 
 		add_stats = {
 			surface_detection = 15
