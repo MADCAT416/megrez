@@ -1,0 +1,25 @@
+state = {
+	id = 1119
+	name = "STATE_1119"
+	manpower = 358031
+
+	state_category = two
+
+	history = {
+		owner = LAT
+		victory_points = { 6342 1 } #Jelgava
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			
+		}
+		
+		add_core_of = LAT
+		add_claim_by = BAT
+		add_claim_by = RUS
+	}
+
+	provinces = {
+		265 3255 3525 6222 6342 11358
+	}
+}
