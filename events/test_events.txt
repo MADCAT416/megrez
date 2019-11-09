@@ -1,0 +1,62 @@
+add_namespace = dreadnought
+
+##Event: 1968y.dreadnought trigger
+country_event = {
+	id = dreadnought.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event dreadnought.1"}
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1936.1.10
+	}
+
+	immediate = {
+		GER = {
+			news_event = {
+				id = dreadnought.2
+			}
+		}
+		every_country = {
+			if = {
+				limit = {
+					NOT = {
+						tag = GER
+					}
+				}
+				news_event = {
+					days = 2
+					id = dreadnought.3
+				}
+			}
+		}
+	}
+}
+
+##Event: 1968년 드레드노트 논쟁 ger
+news_event = {
+	id = dreadnought.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event dreadnought.2"}
+	title = dreadnought.2.title
+	desc = dreadnought.2.desc
+	picture = GFX_/hoi4/event_gfx/report_event_usa_heavy_cruiser
+	is_triggered_only = yes
+
+	option = {
+		name = dreadnought.2.a
+		add_stability = -0.05
+	}
+}
+
+##Event: 1968년 드레드노트 논쟁 other
+news_event = {
+	id = dreadnought.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event dreadnought.3"}
+	title = dreadnought.3.title
+	desc = dreadnought.3.desc
+	picture = GFX_/hoi4/event_gfx/report_event_usa_heavy_cruiser
+	is_triggered_only = yes
+
+	option = {
+		name = dreadnought.3.a
+	}
+}
