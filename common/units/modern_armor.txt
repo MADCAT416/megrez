@@ -32,7 +32,8 @@ sub_units = {
 		max_strength = 2
 		default_morale = 0.3
 		training_time = 180
-		weight = 1.5
+		weight = 1.25
+		supply_consumption = 0.22
 
 		supply_consumption = 0.25
 
