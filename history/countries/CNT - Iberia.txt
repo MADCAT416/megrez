@@ -8,6 +8,12 @@ set_technology = {
 	### AIR ###
 }
 
+add_ideas = {
+	rush_hour_1
+	local_conflict_1
+	forced_military_first_politics_1
+}
+
 ### Navy - MtG ###
 
 if = {

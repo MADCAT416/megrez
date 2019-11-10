@@ -12,6 +12,14 @@ set_technology = {
 	### AIR ###
 }
 
+
+add_ideas = {
+	FRP_eldest_daughter_of_europe
+	FRP_resistance
+	FRP_Industrial_Management_Committee_1
+	FRP_Bread_basket_1
+}
+
 ### Navy - MtG ###
 
 if = {
