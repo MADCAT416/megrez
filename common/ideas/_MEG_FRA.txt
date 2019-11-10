@@ -1,0 +1,50 @@
+###############
+###   FRA   ###
+### by NIKA ###
+###############
+
+ideas = {
+
+	### 국민정신 ###
+	country = {
+		une_defaite_amere_1 = {
+		
+			allowed = {
+				always = no
+			}
+
+			picture = une_defaite_amere_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+	country = {
+		la_vengeance_1 = {
+		
+			allowed = {
+				always = no
+			}
+
+			picture = la_vengeance_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.50
+				war_support_factor = 0.50
+			}
+		}
+	}
+}

@@ -12,6 +12,12 @@ set_technology = {
 	### AIR ###
 }
 
+#national spirits
+add_ideas = {
+	une_defaite_amere_1
+	la_vengeance_1
+}
+
 ### Navy - MtG ###
 
 if = {

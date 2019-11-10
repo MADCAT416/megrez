@@ -1,5 +1,5 @@
 ###########
-### JAP ###
+### FRP ###
 ###########
 
 ideas = {
@@ -23,14 +23,15 @@ ideas = {
 			modifier = {
 				stability_factor  = 0.15
 				conscription_factor = 0.05
-				clerical_nationalist_drift = 0.1
+				clerical_nationalist_drift = 0.01
 			
 			}
 			rule = {
 				
 			}
 		}
-		
+	}
+	country = {
 		FRP_resistance = {
 		
 			allowed = {
@@ -46,17 +47,64 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor  = -0.1
-				resistance_tick = 0.2
+				stability_factor  = -0.10
+				resistance_tick = 0.20
 			
 			}
 			rule = {
 				
 			}
 		}
-
 	}
-	
+	country = {
+		FRP_Industrial_Management_Committee_1 = {
+		
+			allowed = {
+				always = no
+			}
+
+			picture = FRP_Industrial_Management_Committee_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+			}
+			
+			rule = {
+				
+			}
+		}
+	}
+	country = {
+		FRP_Bread_basket_1 = {
+		
+			allowed = {
+				always = no
+			}
+
+			picture = FRP_Bread_basket_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+			rule = {
+				
+			}
+		}
+	}
+}
 	### 각료진
 	head_of_government = { ### 정부수반 ###
 		
@@ -86,10 +134,6 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-	
-	
-	
-	
 	}
 
 }
