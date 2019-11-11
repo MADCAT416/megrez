@@ -13,10 +13,11 @@ state = {
 			2998 = { bunker = 5	}
 			157 = { bunker = 5 }
 			155 = { bunker = 5 }
-			11175 = { bunker = 5 }
-			6021 = { bunker = 5 }
+			11212 = { bunker = 5 }
+			3078 = { bunker = 5 }
+			9045 = { bunker = 5 }
+			
 			94 = { 
-				bunker = 5 
 				naval_base = 1
 			}
 		}
