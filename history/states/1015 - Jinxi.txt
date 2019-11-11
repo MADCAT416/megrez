@@ -9,6 +9,11 @@ state = { #Jinxi #Western Shanxi
 
 		buildings = {
 			infrastructure = 2
+			
+			10507 = { bunker = 5 }
+			4074 = { bunker = 5 }
+			7041 = { bunker = 5 }
+			12432 = { bunker = 5 }
 		}
 		
 		victory_points = {

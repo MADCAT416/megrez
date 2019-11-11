@@ -9,6 +9,10 @@ state = { # Jidong
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
+			
+			6969 = { bunker = 5 }
+			900 = { bunker = 5 }
+			1052 = { bunker = 5 }
 		}
 		victory_points = {
 			11886 3
