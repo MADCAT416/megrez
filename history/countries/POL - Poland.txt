@@ -35,7 +35,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-
+	POL_Madonna of Czestochowa
 }
 
 create_country_leader = {

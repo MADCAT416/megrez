@@ -81,7 +81,5 @@ ideas = {
 
 		}
 	}
-
-### Ministers
-	
 }
+### Ministers

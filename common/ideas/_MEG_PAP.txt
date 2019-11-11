@@ -1,0 +1,27 @@
+###############
+###   PAP   ###
+### by NIKA ###
+###############
+
+#national spirit
+ideas = {
+	country = {
+		PAP_north_south_divide = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PAP_north_south_divide"}
+
+			picture = PAP_north_south_divide
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_cost = 0.01
+				stability_weekly_factor = -0.01
+			}
+		}
+	}
+}

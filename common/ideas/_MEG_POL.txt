@@ -1,0 +1,26 @@
+###############
+###   POL   ###
+### by NIKA ###
+###############
+
+#national spirit
+ideas = {
+	country = {
+		POL_Madonna of Czestochowa = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_Madonna of Czestochowa"}
+
+			picture = POL_Madonna of Czestochowa
+
+			removal_cost = -1
+			
+			modifier = { 
+				clerical_nationalist_drift = 0.01
+			}
+		}
+	}
+}

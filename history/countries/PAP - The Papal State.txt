@@ -6,6 +6,7 @@ oob = "empty"
 set_research_slots = 3
 
 add_ideas = {
+	PAP_north_south_divide
 }
 set_cosmetic_tag = PAP_Italy
 # Starting tech
