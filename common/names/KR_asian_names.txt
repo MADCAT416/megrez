@@ -5341,6 +5341,7 @@ ETS = {
 			"Nurasyl"
 			"Nurislam"
 			"Nurzhan"
+			"Mergen"
 			"Ruslan"
 			"Rustam"
 			"Serik"
