@@ -13,6 +13,11 @@ state = {
 		add_claim_by = CSA
 		buildings = {
 			infrastructure = 3
+			anti_air_building = 5
+			
+			4820 = { bunker = 10 }
+			4794 = { bunker = 10 }
+			4723 = { bunker = 10 }
 		}
 		victory_points = {
 			4723 1
