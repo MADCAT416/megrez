@@ -34,7 +34,7 @@ diplomatic_relation = { country = AOG relation = non_aggression_pact }
 set_cosmetic_tag = LEP_LJ
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,13 +44,13 @@ set_popularities = {
     totalist = 0
     democratic_socialist = 0
     syndicalist = 0
-    social_democrat = 2
-    social_liberal = 6
-    market_liberal = 6
-    social_conservative = 12
-    authoritarian_democrat = 15
-    paternal_autocrat = 47
-    ethnic_populist = 12
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 100
+    paternal_autocrat = 0
+    ethnic_populist = 0
 }
 
 add_opinion_modifier = { target = FNG modifier = embargo }
