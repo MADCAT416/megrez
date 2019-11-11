@@ -18,9 +18,6 @@ state = { #Gansu
 			infrastructure = 2
 			arms_factory = 1
 		}
-		1938.10.25 = {
-			owner = CHI
-		}
 	}
 
 	provinces = {
