@@ -262,7 +262,7 @@ adjacency_rule
 		army = no
 		navy = no
 		submarine = no
-		trade = yes
+		trade = no
 	}
 
 	required_provinces = { 317 3231 3368 6257 6389 }
