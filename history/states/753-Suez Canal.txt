@@ -12,11 +12,13 @@ state = {
 				coastal_bunker = 2
 			}
 			4073 = {
-				bunker = 1
-				coastal_bunker = 2
+				bunker = 5
+				coastal_bunker = 5
 			}
 			12049 = {
 				naval_base = 2
+				bunker = 5
+				coastal_bunker = 5
 			}
 			air_base = 3
 		}

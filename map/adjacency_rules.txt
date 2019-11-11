@@ -43,9 +43,9 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
-		submarine = yes
+		army = no
+		navy = no
+		submarine = no
 		trade = yes
 	}
 
@@ -91,8 +91,8 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
 		trade = yes
 	}
@@ -131,10 +131,10 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
+		army = no
+		navy = no
+		submarine = no
+		trade = no
 	}
 
 	required_provinces = { 6287 3277 3325 3260 394 }
@@ -171,9 +171,9 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
-		submarine = yes
+		army = no
+		navy = no
+		submarine = no
 		trade = yes
 	}
 
@@ -379,8 +379,8 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
 		trade = yes
 	}
@@ -419,8 +419,8 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
 		trade = yes
 	}
@@ -454,7 +454,7 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = no
+		submarine = yes
 		trade = yes
 	}
 	neutral =
@@ -462,7 +462,7 @@ adjacency_rule
 		army = no
 		navy = no
 		submarine = no
-		trade = no
+		trade = yes
 	}
 
 	required_provinces = { 3151 149 }
@@ -495,7 +495,7 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = no
+		submarine = yes
 		trade = yes
 	}
 	neutral =
@@ -503,7 +503,7 @@ adjacency_rule
 		army = no
 		navy = no
 		submarine = no
-		trade = no
+		trade = yes
 	}
 
 	required_provinces = { 6106 3084 6057 11153 }
@@ -535,7 +535,7 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = no
+		submarine = yes
 		trade = yes
 	}
 	neutral =
@@ -562,14 +562,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	friend =
@@ -581,8 +581,8 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
 		trade = yes
 	}
@@ -603,14 +603,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	friend =
@@ -622,8 +622,8 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
 		trade = yes
 	}
@@ -643,14 +643,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	friend =
@@ -662,16 +662,16 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
-		trade = yes
+		trade = no
 	}
 
-	required_provinces = { 10904 }
+	required_provinces = { 1889 }
 
-	icon = 10904
-	offset = { 1 -2 6 }
+	icon = 2919
+	offset = { 0 0 0 }
 }
 
 # 오대호운하 1
@@ -938,7 +938,7 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = no
+		submarine = yes
 		trade = yes
 	}
 	neutral =
@@ -1085,14 +1085,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	friend =
@@ -1106,7 +1106,7 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 
