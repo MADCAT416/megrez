@@ -1,19 +1,5 @@
 ﻿l_english:
 
-### Ideologies ###
-totalist:0 "Totalists"
-syndicalist:0 "Syndicalists"
-democratic_socialist:0 "Democratic Socialists"
-social_progressive:0 "Social Progressives"
-social_democrat:0 "Social Democrats"
-market_liberal:0 "Market Liberals"
-social_conservative:0 "Social Conservatives"
-authoritarian_democrat:0 "Authoritarian Democrat"
-paternal_autocrat:0 "Paternal Autocrats"
-ethnic_populist:0 "Ethnic Populists"
-social_liberal:0 "Social Liberals"
-clerical_nationalist:0 "Clerical Nationalists"
-
 ### Drift ###
 totalist_drift:0 "Daily Totalist support"
 syndicalist_drift:0 "Daily Syndicalist support"

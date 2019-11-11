@@ -227,20 +227,6 @@
     expert:0 "" #(expert)
     blank:0 "" #\n
 
- ### Ideologies ###
-    totalist:0 "Totalists" # 전체주의자
-    syndicalist:0 "Syndicalists" # 생디칼리스트
-    democratic_socialist:0 "Democratic Socialist" # 민주사회주의자
-    social_democrat:0 "Social Democrats" # 사회민주주의자
-    social_progressive:0 "Social Progressives" # 사회진보주의자
-    market_liberal:0 "Market Liberals" # 시장자유주의자
-    social_liberal:0 "Social Liberals" # 사회자유주의자
-    social_conservative:0 "Social Conservatives" # 사회보수주의자
-    authoritarian_democrat:0 "Authoritarian Democrats" # 권위민주주의자
-    paternal_autocrat:0 "Paternal Autocrats" # 가부장전제정
-    clerical_nationalist:0 "Clerical Nationalists" # 교권국민주의자
-    ethnic_populist:0 "Ethnic Populists" # 민족대중주의자
-
  ### Drift ###
     totalist_drift:0 "Daily Totalist support"
     syndicalist_drift:0 "Daily Syndicalist support"
