@@ -106,8 +106,9 @@ ALO = {
 
 add_ideas = {
 	RUS_Alexei_Kosygin_hog_lib
-	
-	
+	RUS_incomplete_democracy
+	RUS_industrial_imbalance
+	RUS_rasputitsa
 }
 
 

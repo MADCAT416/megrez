@@ -6,11 +6,60 @@ ideas = {
 
 	### 국민정신 ###
 	country = {
-		 
-		
+		RUS_incomplete_democracy = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_incomplete_democracy"}
 
+			picture = RUS_incomplete_democracy
+
+			removal_cost = -1
+			
+			modifier = { 
+				social_liberal_drift = -0.01
+			}
+		}
 	}
-	
+	country = {
+		RUS_industrial_imbalance = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_industrial_imbalance"}
+
+			picture = RUS_industrial_imbalance
+
+			removal_cost = -1
+			
+			modifier = { 
+			}
+		}
+	}
+	country = {
+		RUS_rasputitsa = {
+			
+			allowed = {
+				always = no
+			}
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_rasputitsa"}
+
+			picture = RUS_rasputitsa
+
+			removal_cost = -1
+			
+			modifier = { 
+				local_building_slots = -3.00
+			}
+		}
+	}
+}
+
 	### 각료진
 	head_of_government = { ### 정부수반 ###
 		

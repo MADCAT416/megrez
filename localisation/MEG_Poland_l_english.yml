@@ -1,9 +1,12 @@
 ﻿l_english:
 
- ### 국가원수 ###
+### national spirit ###
+POL_Madonna_of_Czestochowa:0 "Madonna of Częstochowa"
+
+### 국가원수 ###
 
 
- ### 정당 ###
+### 정당 ###
     POL_totalist_party:0 "PPR"
     POL_totalist_party_long:0 "Polska Partia Robotnicza (Polish Workers' Party)"
     POL_syndicalist_party:0 "NSZZ Solidarność"
@@ -28,4 +31,3 @@
     POL_clerical_nationalist_party_long:0 "Obóz Narodowo-Radykalny - Falanga (National Radical Camp - Polish Phalanx)"
     POL_ethnic_populist_party:0 "ND"
     POL_ethnic_populist_party_long:0 "Narodowa Demokracja (National Democracy)"
-
