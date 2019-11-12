@@ -25,6 +25,14 @@ state = { #Shaanxi
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
+			
+			7659 = { bunker = 3 }
+			7314 = { bunker = 3 }
+			10880 = { bunker = 3 }
+			4939 = { bunker = 3 }
+			517 = { bunker = 3 }
+			1647 = { bunker = 3 }
+			10733 = { bunker = 3 }
 		}
 	}
 
