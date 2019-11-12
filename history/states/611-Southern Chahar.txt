@@ -9,18 +9,12 @@ state = { #Southern Chahar
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2
-			881 = {
-				bunker = 1
-			}
-			952 = {
-				bunker = 1
-			}
-			3955 = {
-				bunker = 1
-			}
-			9768 = {
-				bunker = 1
-			}
+			
+			9768 = { bunker = 5 }
+			881 = { bunker = 5 }
+			828 = { bunker = 5 }
+			10397 = { bunker = 5 }
+			952 = { bunker = 5 }
 		}
 
 		victory_points = {

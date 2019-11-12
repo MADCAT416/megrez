@@ -27,8 +27,8 @@ ideas = {
 				
 			}
 		}
-
 	}
+}
 
 ### 장관진
 	head_of_government = { ### 정부수반 ###

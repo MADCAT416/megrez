@@ -12,13 +12,12 @@ state = {
 			infrastructure = 5
 			industrial_complex = 2
 
-			#Mannerheim Line
-			9100 = {
-				bunker = 2
-			}
-			9105 = {
-				bunker = 2
-			}
+			9105 = { bunker = 5	}
+			9100 = { bunker = 5	}
+			6052 = { bunker = 5	}
+			11046 = { bunker = 5 }
+			11156 = { bunker = 5 }
+			
 			9206 = {
 				coastal_bunker = 1
 				naval_base = 1

@@ -10,6 +10,7 @@ add_ideas = {
 	
 	GER_Rainer_Candidus_Barzel_hog_aut
 	
+	GER_heilige_liga
 	
 }
 

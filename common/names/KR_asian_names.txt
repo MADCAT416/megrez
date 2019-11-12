@@ -2062,6 +2062,160 @@ JAP = {
 # Asia"
 ###############################################################
 
+RYU = {
+	male = {
+		names = {
+			"Aritomo"
+			"Goro"
+			"Gentaro"
+			"Gonnohyoe"
+			"Heihachiro"
+			"Hiroshi"
+			"Hikonojo"
+			"Hyoe"
+			"Hayao"
+			"Iwao"
+			"Jiro"
+			"Jinzaburo"
+			"Kiyotaka"
+			"Kuranosuke"
+			"Kozo"
+			"Kantaro"
+			"Koichiro"
+			"Kagenori"
+			"Kageaki"
+			"Kotohito"
+			"Keisuke"
+			"Kazushige"
+			"Kenkichi"
+			"Maresuke"
+			"Masujiro"
+			"Michisura"
+			"Masatake"
+			"Mitsuomi"
+			"Mitsue"
+			"Mineo"
+			"Nariaki"
+			"Nobuyoshi"
+			"Rokuro"
+			"Sukeyuki"
+			"Sukenori"
+			"Shoin"
+			"Sumiyoshi"
+			"Samata"
+			"Soroku"
+			"Shichiro"
+			"Shigeto"
+			"Sotokichi"
+			"Shigeru"
+			"Sadao"
+			"Shinsaku"
+			"Takayoshi"
+			"Takamori"
+			"Toshimichi"
+			"Tsugumichi"
+			"Tadakuni"
+			"Tomonosuke"
+			"Taro"
+			"Toshiyoshi"
+			"Tetsutaro"
+			"Taruhito"
+			"Takeaki"
+			"Tamemoto"
+			"Tomasaburo"
+			"Yoshika"
+			"Yoshinobu"
+			"Yoshimichi"
+			"Yoshida"
+			"Yasukata"
+			"Yahachi"
+			"Yusaku"
+			"Yoshifuru"
+			"Yoshinori"
+			"Yasuyoshi"
+		}
+	}
+	female = {
+		names = {
+			"Aimi"
+			"Asami"
+			"Asuka"
+		}
+	}
+	surnames = {
+		"Arisugawa"
+		"Arichi"
+		"Akiyama"
+		"Araki"
+		"Dewa"
+		"Enomoto"
+		"Hasegawa"
+		"Honjo"
+		"Ito"
+		"Inoue"
+		"Ichinohe"
+		"Itagaki"
+		"Kido"
+		"Kuroda"
+		"Katsura"
+		"Kodama"
+		"Kabayama"
+		"Kawamura"
+		"Kuroki"
+		"Kawakami"
+		"Kamimura"
+		"Kataoka"
+		"Kamio"
+		"Kato"
+		"Kanin"
+		"Katsu"
+		"Makino"
+		"Muto"
+		"Minami"
+		"Masaki"
+		"Matsudaira"
+		"Nakamuta"
+		"Nogi"
+		"Nire"
+		"Nozu"
+		"Okubo"
+		"Oyama"
+		"Omura"
+		"Oku"
+		"Okada"
+		"Osumi"
+		"Saigo"
+		"Suzuki"
+		"Sato"
+		"Sakura"
+		"Shibayama"
+		"Shimamura"
+		"Shirakawa"
+		"Togo"
+		"Takashima"
+		"Tsuboi"
+		"Tachibana"
+		"Terauchi"
+		"Tamon"
+		"Takasugi"
+		"Tokugawa"
+		"Uehara"
+		"Uryu"
+		"Ugaki"
+		"Ueda"
+		"Yamagata"
+		"Yamamoto"
+		"Yamakawa"
+		"Yashiro"
+		"Yui"
+		"Yamashita"
+		"Yamaya"
+	}
+	callsigns = {
+
+	}
+}
+
 AST = {
 	male = {
 		names = {
@@ -3837,6 +3991,226 @@ CHI = {
 	callsigns = {}
 }
 
+LEP = {
+	male = {
+		names = {
+			"Wang"
+			"Li"
+			"Zhang"
+			"Liu"
+			"Chen"
+			"Huang"
+			"Liang"
+			"Luo"
+			"Kwong"
+			"Hsia"
+			"Zhu"
+			"Mao"
+			"Hu"
+			"Liao"
+			"Tan"
+			"Deng"
+			"Cheng"
+			"Yang"
+			"Gao"
+			"Xie"
+			"Ma"
+			"Kong"
+			"Dong"
+			"Pan"
+			"Yu"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Zhao"
+		"Wu"
+		"Sun"
+		"Ma"
+		"Hu"
+		"Peng"
+		"Dong"
+		"Ye"
+		"Lü"
+		"Tian"
+		"Jiang"
+		"Wei"
+		"Ting"
+		"Shen"
+		"Fang"
+		"Jin"
+		"Qiu"
+	}
+	callsigns = {}
+}
+
+ANQ = {
+	male = {
+		names = {
+			"Wang"
+			"Li"
+			"Zhang"
+			"Liu"
+			"Chen"
+			"Huang"
+			"Liang"
+			"Luo"
+			"Kwong"
+			"Hsia"
+			"Zhu"
+			"Mao"
+			"Hu"
+			"Liao"
+			"Tan"
+			"Deng"
+			"Cheng"
+			"Yang"
+			"Gao"
+			"Xie"
+			"Ma"
+			"Kong"
+			"Dong"
+			"Pan"
+			"Yu"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Zhao"
+		"Wu"
+		"Sun"
+		"Ma"
+		"Hu"
+		"Peng"
+		"Dong"
+		"Ye"
+		"Lü"
+		"Tian"
+		"Jiang"
+		"Wei"
+		"Ting"
+		"Shen"
+		"Fang"
+		"Jin"
+		"Qiu"
+	}
+	callsigns = {}
+}
+
+HNN = {
+	male = {
+		names = {
+			"Wang"
+			"Li"
+			"Zhang"
+			"Liu"
+			"Chen"
+			"Huang"
+			"Liang"
+			"Luo"
+			"Kwong"
+			"Hsia"
+			"Zhu"
+			"Mao"
+			"Hu"
+			"Liao"
+			"Tan"
+			"Deng"
+			"Cheng"
+			"Yang"
+			"Gao"
+			"Xie"
+			"Ma"
+			"Kong"
+			"Dong"
+			"Pan"
+			"Yu"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Zhao"
+		"Wu"
+		"Sun"
+		"Ma"
+		"Hu"
+		"Peng"
+		"Dong"
+		"Ye"
+		"Lü"
+		"Tian"
+		"Jiang"
+		"Wei"
+		"Ting"
+		"Shen"
+		"Fang"
+		"Jin"
+		"Qiu"
+	}
+	callsigns = {}
+}
+
+SZC = {
+	male = {
+		names = {
+			"Wang"
+			"Li"
+			"Zhang"
+			"Liu"
+			"Chen"
+			"Huang"
+			"Liang"
+			"Luo"
+			"Kwong"
+			"Hsia"
+			"Zhu"
+			"Mao"
+			"Hu"
+			"Liao"
+			"Tan"
+			"Deng"
+			"Cheng"
+			"Yang"
+			"Gao"
+			"Xie"
+			"Ma"
+			"Kong"
+			"Dong"
+			"Pan"
+			"Yu"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Zhao"
+		"Wu"
+		"Sun"
+		"Ma"
+		"Hu"
+		"Peng"
+		"Dong"
+		"Ye"
+		"Lü"
+		"Tian"
+		"Jiang"
+		"Wei"
+		"Ting"
+		"Shen"
+		"Fang"
+		"Jin"
+		"Qiu"
+	}
+	callsigns = {}
+}
+
 GXC = {
 	male = {
 		names = {
@@ -3948,6 +4322,61 @@ PRC = {
 }
 
 SHX = {
+	male = {
+		names = {
+			"Wang"
+			"Li"
+			"Zhang"
+			"Liu"
+			"Chen"
+			"Huang"
+			"Liang"
+			"Luo"
+			"Kwong"
+			"Hsia"
+			"Zhu"
+			"Mao"
+			"Hu"
+			"Liao"
+			"Tan"
+			"Deng"
+			"Cheng"
+			"Yang"
+			"Gao"
+			"Xie"
+			"Ma"
+			"Kong"
+			"Dong"
+			"Pan"
+			"Yu"
+		}
+	}
+	female = {
+		names = {}
+	}
+	surnames = {
+		"Zhao"
+		"Wu"
+		"Sun"
+		"Ma"
+		"Hu"
+		"Peng"
+		"Dong"
+		"Ye"
+		"Lü"
+		"Tian"
+		"Jiang"
+		"Wei"
+		"Ting"
+		"Shen"
+		"Fang"
+		"Jin"
+		"Qiu"
+	}
+	callsigns = {}
+}
+
+TAI = {
 	male = {
 		names = {
 			"Wang"
@@ -4813,6 +5242,106 @@ ALO = {
 			"Nurasyl"
 			"Nurislam"
 			"Nurzhan"
+			"Ruslan"
+			"Rustam"
+			"Serik"
+			"Sukhrab"
+			"Talgat"
+			"Temir"
+			"Timur"
+		}
+	}
+	female = {
+		names = {
+			"Aiday"
+			"Aiman"
+			"Aliya"
+			"Anar"
+			"Anara"
+			"Anargul"
+			"Aruzhan"
+			"Bibigul"
+			"Gulnar"
+			"Gulnara"
+			"Gulnaz"
+			"Inkar"
+			"Inzhu"
+			"Saltanat"
+			"Sezim"
+			"Zhuldyz"
+		}
+	}
+	surnames = {
+		"Abdulayev"
+		"Abdulin"
+		"Adelzhanov"
+		"Aibekov"
+		"Aitmukhambetov"
+		"Akhmetov"
+		"Alikhanov"
+		"Aliyev"
+		"Almatyev"
+		"Amangeldiev"
+		"Aruzhanov"
+		"Astana"
+		"Asylmuratov"
+		"Aubakirova"
+		"Aybekov"
+		"Baizhanov"
+		"Bayzhanov"
+		"Bolatov"
+		"Erjanov"
+		"Kadyrov"
+		"Karimov"
+		"Khasanov"
+		"Kudaibergenov"
+		"Kudaybergenov"
+		"Maksatov"
+		"Mendygaliev"
+		"Nazarbayev"
+		"Niyazov"
+		"Niyazymbetov"
+		"Nurasylov"
+		"Nurgaliev"
+		"Nurislamov"
+		"Nurzhanov"
+		"Ospan"
+		"Ramadanov"
+		"Ramazanov"
+		"Sapiyev"
+		"Serikov"
+		"Shumenov"
+		"Sukhrabov"
+		"Sultanbekov"
+		"Talgatov"
+		"Terimov"
+		"Tursynbekov"
+		"Yusupov"
+		"Zhanibekov"
+		"Zhaparov"
+		"Zhumabekov"
+	}
+	callsigns = {}
+}
+
+ETS = {
+	male = {
+		names = {
+			"Aibek"
+			"Alikhan"
+			"Alisher"
+			"Arman"
+			"Aslan"
+			"Aybek"
+			"Azat"
+			"Bolat"
+			"Bulat"
+			"Erasyl"
+			"Makhmud"
+			"Nurasyl"
+			"Nurislam"
+			"Nurzhan"
+			"Mergen"
 			"Ruslan"
 			"Rustam"
 			"Serik"

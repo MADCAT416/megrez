@@ -3,15 +3,15 @@
  # Crete stuff at the bottom
 
  ### Temporary ###
-    GER_poli_temp:0 "Final Reforms"
-    GER_poli_temp_desc:0 "For too long people have battled over where power should lie in our great government. It is time to answer that question once and for all."
+GER_poli_temp:0 "Final Reforms"
+GER_poli_temp_desc:0 "For too long people have battled over where power should lie in our great government. It is time to answer that question once and for all."
 
  ### Ideas ###
-    GER_Heilige_Liga:0 "Heilige Liga"
-    GER_Heilige_Liga_desc:0 ""
+GER_heilige_liga:0 "Heilige Liga"
+GER_heilige_liga_desc:0 ""
     
-    GER_acid_rain:0 "Acid rain"
-    GER_acid_rain_desc:0 ""
+GER_acid_rain:0 "Acid rain"
+GER_acid_rain_desc:0 ""
 
  ### Research Groups ###
     german_research_desc:0 "The Kaiser Wilhelm Society is the principle joint-research organisation of Mitteleuropa."

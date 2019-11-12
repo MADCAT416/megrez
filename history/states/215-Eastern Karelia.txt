@@ -9,6 +9,17 @@ state = {
 		owner = FIN
 		buildings = {
 			infrastructure = 3
+			
+			2998 = { bunker = 5	}
+			157 = { bunker = 5 }
+			155 = { bunker = 5 }
+			11212 = { bunker = 5 }
+			3078 = { bunker = 5 }
+			9045 = { bunker = 5 }
+			
+			94 = { 
+				naval_base = 1
+			}
 		}
 		add_claim_by = RUS
 		add_core_of = FIN

@@ -16,6 +16,12 @@ state = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
+			anti_air_building = 5
+			
+			8115 = { bunker = 10 }
+			853 = { bunker = 10 }
+			7747 = { bunker = 10 }
+			4796 = { bunker = 10 }
 		}
 		add_core_of = CAL
 		
