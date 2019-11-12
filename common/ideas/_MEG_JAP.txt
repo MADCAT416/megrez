@@ -55,10 +55,8 @@ ideas = {
 	
 			}
 		}
-
-
-
 	}
+}
 	
 	### 각료진
 	head_of_government = { ### 정부수반 ###
