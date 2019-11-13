@@ -1,5 +1,5 @@
-﻿name="megrez beta"
-path="mod/megrez/"
+﻿name="megrez alpha"
+path="mod/megrez_alpha/"
 replace_path="common/abilities"
 replace_path="common/ai_areas"
 replace_path="common/ai_equipment"

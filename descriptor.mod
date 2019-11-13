@@ -1,8 +1,5 @@
-name="MEGREZ"
-path="mod/MEGREZ/"
-dependencies={
-	"한국어 모드(Korean Translation)"
-}
+name="Megrez alpha"
+path="mod/megrez_alpha/"
 tags={
 	"Alternative History"
 	"Map"
