@@ -1,4 +1,4 @@
-﻿name="megrez alpha"
+name="megrez alpha"
 path="mod/megrez_alpha/"
 replace_path="common/abilities"
 replace_path="common/ai_areas"
@@ -33,7 +33,9 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="gfx/loadingscreens"
 replace_path="gfx/flags"
-replace_path="localisation/replace"
 tags={
+	"Alternative History"
+	"Map"
+	"Fixes"
 }
-supported_version="1.7.*"
+supported_version="1.8.*"
