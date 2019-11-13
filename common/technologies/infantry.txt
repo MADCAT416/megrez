@@ -9,16 +9,18 @@ technologies = {
 
 
 
-	
+		
 	@1950 = 0
 	@1968 = 2
 	@1970 = 4
 	@1972 = 6
 	@1974 = 8
 	@1976 = 10
+	@1977 = 11
 	@1978 = 12
 	@1980 = 14
 	@1979 = 13
+	@1981 = 15
 	@1982 = 16
 	@1983 = 17
 	@1984 = 18
@@ -701,12 +703,17 @@ technologies = {
 		marine = {
 			max_organisation = 5
 		}
-
+        
+		path = {
+			leads_to_tech = marines4
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2.0
-		start_year = 1980
+		start_year = 1977
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1980 }
+			position = { x = 0 y = @1977 }
 		}
 
 
@@ -722,7 +729,103 @@ technologies = {
 			}
 		}
 	}
+	
+	marines4 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech marines4"}
 
+		marine = {
+			max_organisation = 5
+		}
+         path = {
+			leads_to_tech = marines5
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2.0
+		start_year = 1981
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1981 }
+		}
+
+
+		categories = {
+			marine_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1984.1.1"
+			}
+		}
+	}
+	
+	marines5 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech marines5"}
+
+		marine = {
+			max_organisation = 5
+		}
+        
+		path = {
+			leads_to_tech = marines6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1985
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1985 }
+		}
+
+
+		categories = {
+			marine_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1984.1.1"
+			}
+		}
+	}
+
+     marines6 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech marines6"}
+
+		marine = {
+			max_organisation = 5
+		}
+        
+		
+		
+		research_cost = 2.0
+		start_year = 1990
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1990 }
+		}
+
+
+		categories = {
+			marine_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1984.1.1"
+			}
+		}
+	}
+     
 	tech_mountaineers = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tech_mountaineers"}
 
