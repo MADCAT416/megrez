@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = BHC_national_congress
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_goal_INC_Congress
 		cost = 10.00
 		x = 10
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_totalism
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_goal_ideology_totalist
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -164,7 +164,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_syndicalism
-		icon = GFX_focus_prc_agrarian_socialism
+		icon = GFX_goal_ideology_syndicalist
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -180,7 +180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_democratic_socialism
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_goal_ideology_democratic_socialist
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -336,7 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_social_democratic
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_ideology_social_democrat
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
