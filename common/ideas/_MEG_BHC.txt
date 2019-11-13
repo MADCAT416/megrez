@@ -6,9 +6,49 @@ ideas = {
 
 	### 국민정신 ###
 	country = {
-		
-		
+		BHC_specter_of_the_past = {
+			
+			allowed = {
+				always = no
+			}
 
+			picture = BHC_specter_of_the_past
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain = -1.00
+			}
+			rule = {
+				
+			}
+		}
+		BHC_backward_equipment = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = BHC_backward_equipment
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+			}
+			rule = {
+				
+			}
+		}
 	}
 	
 	### 각료진
