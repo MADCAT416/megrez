@@ -604,13 +604,95 @@ technologies = {
 			max_organisation = 5
 		}
 
+        path = {
+			leads_to_tech = paratroopers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1977
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1977}
+		}
+
+		categories = {
+			para_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	paratroopers4= {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech paratroopers4}
+
+		paratrooper = {
+			max_organisation = 5
+		}
+
+        path = {
+			leads_to_tech = paratroopers5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1981
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1981 }
+		}
+
+		categories = {
+			para_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	paratroopers5{
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech paratroopers5}
+
+		paratrooper = {
+			max_organisation = 5
+		}
+
+       path = {
+			leads_to_tech = paratroopers6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1985
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1985 }
+		}
+
+		categories = {
+			para_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	paratroopers6= {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech paratroopers6}
+
+		paratrooper = {
+			max_organisation = 5
+		}
+
 
 
 		research_cost = 2.0
-		start_year = 1980
+		start_year = 1990
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1980 }
+			position = { x = 0 y = @1990}
 		}
 
 		categories = {
@@ -909,12 +991,17 @@ technologies = {
 		mountaineers = {
 			max_organisation = 5
 		}
-
+        
+        path = {
+			leads_to_tech = tech_mountaineers4
+			research_cost_coeff = 1
+		}
+          		
 		research_cost = 2.0
-		start_year = 1980
+		start_year = 1977
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1980 }
+			position = { x = 0 y = @1977 }
 		}
 
 
@@ -927,11 +1014,108 @@ technologies = {
 			factor = 0.7
 			modifier = {
 				factor = 0
-				date < "1980.1.1"
+				date < "1977.1.1"
 			}
 		}
 	}
+    
+	tech_mountaineers4 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tech_mountaineers4"}
 
+		mountaineers = {
+			max_organisation = 5
+		}
+        
+		path = {
+			leads_to_tech = tech_mountaineers5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1981
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1981 }
+		}
+
+
+		categories = {
+			infantry_tech
+			mountaineers_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1977.1.1"
+			}
+		}
+	}
+	
+	tech_mountaineers5 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tech_mountaineers5"}
+
+		mountaineers = {
+			max_organisation = 5
+		}
+         
+		 path = {
+			leads_to_tech = tech_mountaineers6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1985
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1985 }
+		}
+
+
+		categories = {
+			infantry_tech
+			mountaineers_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1985.1.1"
+			}
+		}
+	}
+	
+	tech_mountaineers6 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tech_mountaineers6"}
+
+		mountaineers = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1990
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1990 }
+		}
+
+
+		categories = {
+			infantry_tech
+			mountaineers_tech
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 0
+				date < "1990.1.1"
+			}
+		}
+	}
+	
 	tech_special_forces = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech tech_special_forces"}
 		category_special_forces = {
