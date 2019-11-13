@@ -2131,7 +2131,7 @@ equipment_modules = {
 		dismantle_cost_ic = 8200
 
 	}
-	ship_armor_cruiser_1 = {
+	ship_dd_defence_system_1 = {
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_1
 
@@ -2145,7 +2145,7 @@ equipment_modules = {
 			naval_speed = -3
 		}
 	}
-	ship_armor_cruiser_2 = {
+	ship_dd_defence_system_2 = {
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_2
 
@@ -2163,7 +2163,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	ship_armor_cruiser_3 = {
+	ship_dd_defence_system_3 = {
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_3
 
@@ -2182,7 +2182,7 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-	ship_armor_cruiser_4 = {
+	ship_dd_defence_system_4 = {
 		category = ship_cruiser_armor
 		gfx = ship_armor_thin_4
 
