@@ -37,6 +37,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ideology_ethnic_populist.dds"
 	}
 	SpriteType = {
+		name = "GFX_goal_ideology_clerical_nationalist"
+		texturefile = "gfx/interface/goals/goal_ideology_clerical_nationalist.dds"
+	}
+	SpriteType = {
 		name = "GFX_goal_ideology_paternal_autocrat"
 		texturefile = "gfx/interface/goals/goal_ideology_paternal_autocrat.dds"
 	}
@@ -55,6 +59,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_ideology_social_liberal"
 		texturefile = "gfx/interface/goals/goal_ideology_social_liberal.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_progressive"
+		texturefile = "gfx/interface/goals/goal_ideology_social_progressive.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_social_democrat"
@@ -2758,6 +2766,11 @@ spriteTypes = {
 	}
 
 	### India ###
+	SpriteType = {
+		name = "GFX_goal_INC_Congress"
+		texturefile = "gfx/interface/goals/BHC_INC_cong.tga"
+	}
+	
 	SpriteType = {
 		name = "GFX_goal_india_united"
 		texturefile = "gfx/interface/goals/goal_india_united.tga"
