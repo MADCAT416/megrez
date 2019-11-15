@@ -158,7 +158,7 @@ country_event = { #우리는 어떻게 하지?
 		name = lyon_situation.8.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.10
-
+		}
 	option = { #우리도 또한 책임이 있다
 		name = lyon_situation.8.b
 		ai_chance = { factor = 1 }
