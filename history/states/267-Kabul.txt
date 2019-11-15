@@ -1,7 +1,7 @@
 state = {
 	id = 267
 	name = "STATE_267" # Kabul
-	manpower = 4637140
+	manpower = 4407312
 
 	state_category = four
 

@@ -33,18 +33,11 @@ state = {
 				naval_base = 2
 				coastal_bunker = 1
 			}
-			13497 = {
-				bunker = 1
-			}
-
-			6975 = {
-				bunker = 1
-			}
 		}
 	}
 
 	provinces = {
-		911 956 958 3928 3961 6975 11834 11849 11875 13497
+		911 956 958 3928 3959 3961 6975 11834 11849 11875 13497
 	}
 	manpower = 2484976
 	state_category = six
