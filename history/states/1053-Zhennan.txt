@@ -11,10 +11,6 @@ state = {
 		
 		buildings = {
 			infrastructure = 2
-			
-			4656 = { bunker = 2 }
-			1469 = { bunker = 2 }
-			4121 = { bunker = 2 }
 		}
 	}
 	provinces = {

@@ -11,7 +11,7 @@ state = {
 		owner = AST
 		add_claim_by = AST
 		add_claim_by = FRP
-		add_claim_by = NFA
+		add_claim_by = NFR
 
 		victory_points = {
 			4268 1

@@ -19,7 +19,7 @@ state = {
 			anti_air_building = 5
 			
 			1562 = {
-				naval_base = 2
+				naval_base = 10
 				bunker = 10
 			}
 			12374 = {
@@ -28,9 +28,6 @@ state = {
 			7986 = {
 				bunker = 10
 			}
-			7517 = { bunker = 10 }
-			823 = { bunker = 10 }
-			4727 = { bunker = 10 }
 		}
 		add_core_of = CAL
 		 

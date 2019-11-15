@@ -18,7 +18,6 @@ state = {
 			infrastructure = 4
 			4189 = {
 				naval_base = 1
-				bunker = 5
 			}
 		}
 	}

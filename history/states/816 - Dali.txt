@@ -9,10 +9,6 @@ state = {
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1
-			
-			12789 = { bunker = 5 }
-			10413 = { bunker = 5 }
-			
 		}
 		victory_points = {
 			7965 3

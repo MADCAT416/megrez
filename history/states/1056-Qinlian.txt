@@ -11,11 +11,6 @@ state = {
 		
 		buildings = {
 			infrastructure = 1
-			
-			10004 = { 
-				bunker = 2
-				coastal_bunker = 1
-			}
 		}
 	}
 	provinces = {
