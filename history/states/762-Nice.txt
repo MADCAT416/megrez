@@ -21,16 +21,12 @@ state = {
 			9909 = {
 				naval_base = 2
 				coastal_bunker = 1
-				bunker = 1
-			}
-			3959 = {
-				bunker = 1
 			}
 		}
 	}
 
 	provinces = {
-		3959 9909
+		9909
 	}
 	manpower = 722070
 }

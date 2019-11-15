@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GRE
+		owner = BUL
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 4

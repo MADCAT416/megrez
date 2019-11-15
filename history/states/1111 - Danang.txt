@@ -30,6 +30,10 @@ state = {
 			10162 = { # Cam Ranh Naval Base
 				naval_base = 4
 			}
+			4379 = {
+				bunker = 5 
+				naval_base = 1
+			}
 		}
 	}
 
