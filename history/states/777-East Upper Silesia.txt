@@ -1,0 +1,22 @@
+state = { # 북발루치스탄
+	id = 777 
+	name = "STATE_777"
+	manpower = 709010
+	state_category = one
+
+	history = {
+		owner = PKS
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = AFG
+		add_core_of = PKS
+		
+	}
+
+	
+
+	provinces = {
+		5075 12761 8013 5020 4949 2101
+	}
+}
