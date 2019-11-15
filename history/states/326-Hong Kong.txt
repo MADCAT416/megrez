@@ -18,7 +18,6 @@ state = {
 			air_base = 1
 			10062 = {
 				naval_base = 6
-				bunker = 5
 			}
 		}
 	}
