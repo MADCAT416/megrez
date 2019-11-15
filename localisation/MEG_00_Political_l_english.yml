@@ -21,7 +21,7 @@ india:0 "India"
 
 ### Splash Screen ###
 KR_SPLASH_TITLE:0 "Welcome to Megrez"
-KR_SPLASH_CREDITS:0 "§RBased on Kaiserreich alpha 0.9.3§!\n§RBrought to you by the MEGREZ Team:§!\nSangchi, Great Mughal, Salamander724, plasenie, Mr hochang, Chaplis, slowbear, leeythe, PRW-8/32"
+KR_SPLASH_CREDITS:0 "MEGREZ is based on the Kaiserreich mode, focusing on the 'Cold War era without USA'. While World War II was reorganized by Kaiser's German Empire, the USA disappeared into history after a chaotic civil war. And the new day of 1968 was bright. How is the world different?\n\n§RBrought to you by the MEGREZ Team:§!\nSangchi, plasenie, Salamander724, Hochang, NIKA, Thrawn1049, Slowbear, Great Mughal, Chaplis, Choco Magarine, OldGlory, leeythe, PRW-8/32"
 
 ### Starting Events ###
 kr.political.24.t:0 "Kaiserreich Alpha 0.9.3"
