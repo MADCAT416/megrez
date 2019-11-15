@@ -13,9 +13,21 @@ state = {
 
 		buildings = {
 			infrastructure = 4
-			
-			9603 = { bunker = 3 }
-			778 = { bunker = 3 }
+			11573 = {
+				bunker = 1
+			}
+			9745 = {
+				bunker = 1
+			}
+			6609 = {
+				bunker = 1
+			}
+			9603 = {
+				bunker = 3
+			}
+			778 = {
+				bunker = 3
+			}
 		}
 		
 		victory_points = {

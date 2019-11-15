@@ -18,9 +18,6 @@ state = {
 
 		buildings = {
 			infrastructure = 1
-			
-			7988 = { bunker = 3 }
-			8126 = { bunker = 3 }
 		}
 	}
 

@@ -15,7 +15,6 @@ state = { # Fuzhou
 			industrial_complex = 1
 			4196 = {
 				naval_base = 1
-				bunker = 5
 			}
 		}
 		victory_points = {
