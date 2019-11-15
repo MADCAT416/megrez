@@ -20,6 +20,10 @@ state = { #Sichuan
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 2
+			
+			7256 = { bunker = 3 }
+			12767 = { bunker = 3 }
+			
 		}
 		victory_points = {
 			4925 10

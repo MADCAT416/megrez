@@ -16,16 +16,12 @@ state = {
 		add_core_of = VIE
 		add_core_of = INC
 		
-		victory_points = {
-			4397 1 # Vinh
-		}
-		
-		victory_points = {
-			1605 1 # Dalat
-		}
+		victory_points = { 4397 1 }	# Vinh		
+		victory_points = { 1605 1 }	# Dalat
 		buildings = {
 			infrastructure = 2
 			
+			1302 = { bunker = 5 }
 		}
 	}
 
