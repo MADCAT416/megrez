@@ -10,21 +10,22 @@ country_event = { #사태의 시작
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.1"}
 	title = lyon_situation.1.t
 	desc = lyon_situation.1.desc
-	picture = 
+	#picture = 
+	
 	trigger = {
 		tag = FRP
-		date > 1968.01.02
+		date > 1968.05.02
 	}
-	mean_time_to_happen = { 
-		days = 3 
-	}
-	is_triggered_only = yes
+	
 	fire_only_once = yes
 	
 	option = { #또 시위야?
 		name = lyon_situation.1.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.02
+		country_event= {
+			id = lyon_situation.2
+			days = 4
 	}
 }
 
@@ -33,21 +34,21 @@ country_event = { #격화
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.2"}
 	title = lyon_situation.2.t
 	desc = lyon_situation.2.desc
-	picture = 
+	#picture = 
+	
 	trigger = {
 		tag = FRP
-		date > 1968.05.06
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+	
 	fire_only_once = yes
 	
 	option = { #뭔가 심상치 않군
 		name = lyon_situation.2.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.03
+		country_event= {
+			id = lyon_situation.3
+			days = 1
 	}
 }
 country_event = { #서막
@@ -55,21 +56,22 @@ country_event = { #서막
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.3"}
 	title = lyon_situation.3.t
 	desc = lyon_situation.3.desc
-	picture = 
+	#picture = 
+	
 	trigger = {
 		tag = FRP
-		date > 1968.05.07
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+
 	fire_only_once = yes
 	
 	option = { #뭐? 난 그런일을 시킨 적이 없는데?
 		name = lyon_situation.3.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.10
+		country_event= {
+			id = lyon_situation.4
+			days = 1
+		}
 	}
 }
 country_event = { #한 대학생의 죽음
@@ -77,21 +79,21 @@ country_event = { #한 대학생의 죽음
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.4"}
 	title = lyon_situation.4.t
 	desc = lyon_situation.4.desc
-	picture = 
+	#picture = 
 	trigger = {
 		tag = FRP
-		date > 1968.05.08
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+
 	fire_only_once = yes
 	
 	option = { #엥?
 		name = lyon_situation.4.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.03
+		country_event= {
+			id = lyon_situation.5
+			days = 1
+		}
 	}
 }
 country_event = { #폭동!
@@ -99,21 +101,21 @@ country_event = { #폭동!
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.5"}
 	title = lyon_situation.5.t
 	desc = lyon_situation.5.desc
-	picture = 
+	#picture = 
 	trigger = {
 		tag = FRP
-		date > 1968.05.09
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+
 	fire_only_once = yes
 	
 	option = { #리옹에서 폭동이?
 		name = lyon_situation.5.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.10
+		country_event= {
+			id = lyon_situation.6
+			days = 1
+		}
 		20 = {set_demilitarized_zone= yes}
 		20 = { 
 			damage_building= { 
@@ -128,21 +130,21 @@ country_event = { #통제불능한 폭동!
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.6"}
 	title = lyon_situation.6.t
 	desc = lyon_situation.6.desc
-	picture = 
+	#picture = 
 	trigger = {
 		tag = FRP
-		date > 1968.05.10
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+
 	fire_only_once = yes
 	
 	option = { #오, 젠장할!
 		name = lyon_situation.6.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.20
+		country_event= {
+			id = lyon_situation.7
+			days = 3
+		}
 		every_owned_state = {
 			damage_building= { 
 			type = infrastructure
@@ -156,15 +158,11 @@ country_event = { # 폭동이 전 지역으로 퍼지다!
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.7"}
 	title = lyon_situation.7.t
 	desc = lyon_situation.7.desc
-	picture = 
+	#picture = 
 	trigger = {
 		tag = FRP
-		date > 1968.05.13
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
-	is_triggered_only = yes
+
 	fire_only_once = yes
 	
 	option = { #우리는 어떻게 해야 하지?
@@ -181,13 +179,11 @@ country_event = { #우리는 어떻게 하지?
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.8"}
 	title = lyon_situation.8.t
 	desc = lyon_situation.8.desc
-	picture = 
+	#picture = 
 	trigger = {
 		tag = FRP
 	}
-	mean_time_to_happen = { 
-		days = 13 
-	}
+	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
