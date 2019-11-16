@@ -1,12 +1,12 @@
 state = {
 	id = 733
 	name = "STATE_733"
-	manpower = 29500
+	manpower = 99658
 	state_category = tiny_island
 
 	history = {
 		owner = AST
-		
+		add_claim_by = AST
 		add_claim_by = BHC
 
 		buildings = {

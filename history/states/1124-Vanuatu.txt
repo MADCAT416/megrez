@@ -1,0 +1,31 @@
+state = {
+	id = 1124
+	name = "STATE_1124"
+	resources = {
+		
+	}
+
+	state_category = one_island
+
+	history = {
+		owner = AST
+		add_claim_by = AST
+		add_claim_by = CAN
+
+		buildings = {
+			infrastructure = 1
+			
+			1237 = {
+				naval_base = 1
+			}
+			4247 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1237 4247 12120 
+	}
+	manpower = 80505
+}
