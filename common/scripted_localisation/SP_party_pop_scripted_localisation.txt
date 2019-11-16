@@ -317,7 +317,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetCoalitionStarTooltipClerical_Nationalist
+	name = GetCoalitionStarTooltipClericalNationalist
 	text = {
 		trigger = {
 			has_government = clerical_nationalist
@@ -338,7 +338,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetCoalitionStarTooltipNationalPopulist
+	name = GetCoalitionStarTooltipEthnicPopulist
 	text = {
 		trigger = {
 			has_government = ethnic_populist
