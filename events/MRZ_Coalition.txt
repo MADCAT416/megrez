@@ -5,6 +5,9 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_coalition.1"}
 	hidden = yes
 
+	mean_time_to_happen = {
+		days = 1
+	}
 
 immediate = {
 
