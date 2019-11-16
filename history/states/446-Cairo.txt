@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		7011 12004 
+		7011 12004 4143 7188 
 	}
 	manpower = 4392893
 	state_category = eight

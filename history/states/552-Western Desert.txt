@@ -11,7 +11,7 @@ state = {
 	}
 
 	provinces = {
-		1028 2064 10097 10907 12099 12733 12816 7073 
+		2064 10097 10907 12099 12733 12816 
 	}
 	manpower = 64129
 	state_category = wasteland
