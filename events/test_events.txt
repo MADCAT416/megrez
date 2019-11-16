@@ -12,7 +12,9 @@ country_event = {
 		}
 		date > 1968.1.10
 	}
-
+	mean_time_to_happen = { 
+		days = 13 
+	}
 	immediate = {
 		GER = {
 			news_event = {
@@ -43,7 +45,9 @@ news_event = {
 	desc = dreadnought.2.desc
 	picture = GFX_/hoi4/event_gfx/report_event_usa_heavy_cruiser
 	is_triggered_only = yes
-
+	mean_time_to_happen = { 
+		days = 13 
+	}
 	option = {
 		name = dreadnought.2.a
 		add_stability = -0.05
@@ -58,7 +62,9 @@ news_event = {
 	desc = dreadnought.3.desc
 	picture = GFX_/hoi4/event_gfx/report_event_usa_heavy_cruiser
 	is_triggered_only = yes
-
+	mean_time_to_happen = { 
+		days = 13 
+	}
 	option = {
 		name = dreadnought.3.a
 	}

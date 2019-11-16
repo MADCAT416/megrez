@@ -17,6 +17,6 @@ state = {
 		7290
 	}
 
-	manpower = 55900
+	manpower = 137500
 	state_category = one_island
 }

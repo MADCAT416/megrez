@@ -1,8 +1,8 @@
 state = {
 	id = 270
 	name = "STATE_270"
-	manpower = 40
-	state_category = zero
+	manpower = 102
+	state_category = tiny_island
 
 	history = {
 		owner = AST
