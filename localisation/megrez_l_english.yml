@@ -1,14 +1,23 @@
 ﻿l_english:
 
  # MEGREZ Anthem Playlist
- den_gang_jeg_drog_afsted:0 "Udo Jürgens - Lieb Vaterland "
+ Lieb_Vaterland:0 "Udo Jürgens - Lieb Vaterland "
 
  # MEGREZ War Song Playlist
- East-vs-West-Soundtrack-WW3:0 "East vs West Soundtrack WW3 "
+ East-vs-West-Soundtrack-WW3:0 "East vs West Soundtrack - WW3 "
+ East-vs-West-Soundtrack-Defcon-2Weary-Situation:0 "East vs West Soundtrack - Defcon-2/Weary-Situation "
+ East_vs_West_Soundtrack_-_Democratic_Rebellion:0 "East vs West Soundtrack - Democratic Rebellion "
+ East-vs-West-Soundtrack-World-at-War:0 "East vs West Soundtrack - World at War "
+ East-vs-West-Soundtrack-Russia-Battle-1:0 "East vs West Soundtrack - Russia Battle 1 "
+ East-vs-West-Soundtrack-Allies-Battle-1:0 "East vs West Soundtrack - Allies Battle 1 "
  
  # MEGREZ Peace Song Playlist
- East-vs-West-Soundtrack-Allies-Peace-1:0 "East vs West Soundtrack Allies Peace 1 "
+ East-vs-West-Soundtrack-Allies-Peace-1:0 "East vs West Soundtrack - Allies Peace 1 "
  Scorpions-Wind-Of-Change:0 "Scorpions - Wind Of Change "
  Nuclear-Mike-Oldfield:0 "Mike Oldfield - Nuclear "
+ CCR-Fortunate_Son:0 "CCR - Fortunate_Son "
+ Bob-Dylan-Blowin-in-the-Wind:0 "Bob Dylan - Blowin' in the Wind "
+ CCR-Have-You-Ever-Seen-the-Rain:0 "CCR - Have You Ever Seen the Rain "
+
  
  megrez_TITLE:0 "MEGREZ Radio"

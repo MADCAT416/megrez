@@ -3,16 +3,7 @@ music_station = "megrez"
 # Anthem
 
 music = {
-	song = "den_gang_jeg_drog_afsted"
-}
-
-music = {
-	song = "Nuclear-Mike-Oldfield"
-	chance = {
-		modifier = {
-			factor = 2
-		}
-	}
+	song = "Lieb_Vaterland"
 }
 
 # War Song
@@ -26,6 +17,53 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "East-vs-West-Soundtrack-Defcon-2Weary-Situation"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "East_vs_West_Soundtrack_-_Democratic_Rebellion"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "East-vs-West-Soundtrack-World-at-War"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "East-vs-West-Soundtrack-Russia-Battle-1"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "East-vs-West-Soundtrack-Allies-Battle-1"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+
 
 
 # Peace Song
@@ -41,6 +79,46 @@ music = {
 }
 music = {
 	song = "Scorpions-Wind-Of-Change"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "Nuclear-Mike-Oldfield"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "CCR-Fortunate_Son"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "Bob-Dylan-Blowin-in-the-Wind"
+	chance = {
+		modifier = {
+			factor = 2
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "CCR-Have-You-Ever-Seen-the-Rain"
 	chance = {
 		modifier = {
 			factor = 2
