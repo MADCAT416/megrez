@@ -20,8 +20,8 @@ central_america:0 "Central America"
 india:0 "India"
 
 ### Splash Screen ###
-KR_SPLASH_TITLE:0 "Welcome to Megrez"
-KR_SPLASH_CREDITS:0 "MEGREZ is based on the Kaiserreich mode, focusing on the 'Cold War era without USA'. While World War II was reorganized by Kaiser's German Empire, the USA disappeared into history after a chaotic civil war. And the new day of 1968 was bright. How is the world different?\n\n§RBrought to you by the MEGREZ Team:§!\nSangchi, plasenie, Salamander724, Hochang, NIKA, Thrawn1049, Slowbear, Great Mughal, Chaplis, Choco Magarine, OldGlory, leeythe, PRW-8/32"
+KR_SPLASH_TITLE:0 "        WELCOME TO MEGREZ"
+KR_SPLASH_CREDITS:0 "MEGREZ is based on the Kaiserreich mode, focusing on the 'Cold War without Liberal Democracy'. During europe was resturcted by Kaiser's German Empire, the USA was disappeared into the dark of history after a chaotic civil war. After WWII, the world is divided by various blocks  and the new day of 1968 was bright. How the world become differently?\n\n§YBrought to you by the MEGREZ Team:§!\nSangchi, plasenie, Salamander724, Hochang, NIKA, Thrawn1049, Slowbear, Great Mughal, Chaplis, Choco Magarine, OldGlory, leeythe, PRW-8/32"
 
 ### Starting Events ###
 kr.political.24.t:0 "Kaiserreich Alpha 0.9.3"
