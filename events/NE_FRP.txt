@@ -12,8 +12,7 @@ country_event = { #사태의 시작
 	desc = lyon_situation.1.desc
 	picture = 
 	trigger = {
-		tag = FRP
-		date > 1968.05.02
+		date > 1968.01.02
 	}
 	mean_time_to_happen = { 
 		days = 13 
