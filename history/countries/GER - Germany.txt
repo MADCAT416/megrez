@@ -78,7 +78,6 @@ add_opinion_modifier = { target = SQI modifier = embargo }
 add_opinion_modifier = { target = CNT modifier = embargo }
 add_opinion_modifier = { target = LEC modifier = LEC_member }
 add_opinion_modifier = { target = MAF modifier = colonial_master }
-add_opinion_modifier = { target = AOG modifier = colonial_master }
 add_opinion_modifier = { target = GEA modifier = colonial_master }
 add_opinion_modifier = { target = HAI modifier = HAI_foreign_council }
 
@@ -104,10 +103,6 @@ set_popularities = {
 
 set_autonomy = {
 	target = MAF
-	autonomous_state = kr_autonomous_puppet
-}
-set_autonomy = {
-	target = AOG
 	autonomous_state = kr_autonomous_puppet
 }
 set_autonomy = {
@@ -171,27 +166,6 @@ BAT = {
         social_conservative = 12
         authoritarian_democrat = 15
         paternal_autocrat = 47
-        ethnic_populist = 12
-    }
-}
-AOG = {
-	set_politics = {
-		ruling_party = authoritarian_democrat
-		last_election = "1930.11.9"
-		election_frequency = 48
-		elections_allowed = no
-}
-
-    set_popularities = {
-        totalist = 0
-        democratic_socialist = 0
-        syndicalist = 0
-        social_democrat = 2
-        social_liberal = 6
-        market_liberal = 6
-        social_conservative = 12
-        authoritarian_democrat = 47
-        paternal_autocrat = 15
         ethnic_populist = 12
     }
 }
