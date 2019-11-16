@@ -12,6 +12,7 @@ country_event = { #사태의 시작
 	desc = lyon_situation.1.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.02
 	}
 	is_triggered_only = yes
@@ -31,6 +32,7 @@ country_event = { #격화
 	desc = lyon_situation.2.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.06
 	}
 	is_triggered_only = yes
@@ -49,6 +51,7 @@ country_event = { #서막
 	desc = lyon_situation.3.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.07
 	}
 	is_triggered_only = yes
@@ -67,6 +70,7 @@ country_event = { #한 대학생의 죽음
 	desc = lyon_situation.4.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.08
 	}
 	is_triggered_only = yes
@@ -85,6 +89,7 @@ country_event = { #폭동!
 	desc = lyon_situation.5.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.09
 	}
 	is_triggered_only = yes
@@ -110,6 +115,7 @@ country_event = { #통제불능한 폭동!
 	desc = lyon_situation.6.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.10
 	}
 	is_triggered_only = yes
@@ -134,6 +140,7 @@ country_event = { # 폭동이 전 지역으로 퍼지다!
 	desc = lyon_situation.7.desc
 	picture = 
 	trigger = {
+		tag = FRP
 		date > 1968.05.13
 	}
 	is_triggered_only = yes
@@ -142,8 +149,10 @@ country_event = { # 폭동이 전 지역으로 퍼지다!
 	option = { #우리는 어떻게 해야 하지?
 		name = lyon_situation.7.a
 		ai_chance = { factor = 1 }
-		id = 8
-		days = 0
+		country_event= {
+			id = lyon_situation.8
+			days = 0
+		}
 	}
 }
 country_event = { #우리는 어떻게 하지?
@@ -152,11 +161,15 @@ country_event = { #우리는 어떻게 하지?
 	title = lyon_situation.8.t
 	desc = lyon_situation.8.desc
 	picture = 
+	trigger = {
+		tag = FRP
+	}
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = { #헌병대와 군을 투입해라!
 		name = lyon_situation.8.a
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 99 }
 		add_stability = -0.10
 		}
 	option = { #우리도 또한 책임이 있다
