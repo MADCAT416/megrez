@@ -317,7 +317,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetCoalitionStarTooltipClerical_Nationalist
+	name = GetCoalitionStarTooltipClericalNationalist
 	text = {
 		trigger = {
 			has_government = clerical_nationalist
