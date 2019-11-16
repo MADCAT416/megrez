@@ -153,27 +153,6 @@ DKB = {
 	}
 }
 
-BEL = {
-	set_politics = {
-		ruling_party = authoritarian_democrat
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
-}
-
-    set_popularities = {
-        totalist = 0
-        democratic_socialist = 0
-        syndicalist = 2
-        social_democrat = 4
-        social_liberal = 6
-        market_liberal = 8
-        social_conservative = 12
-        authoritarian_democrat = 41
-        paternal_autocrat = 19
-        ethnic_populist = 8
-    }
-}
 BAT = {
 	set_politics = {
 		ruling_party = paternal_autocrat
