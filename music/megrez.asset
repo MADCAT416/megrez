@@ -2,13 +2,8 @@
 # Anthem
 
 music = {
-	name = "den_gang_jeg_drog_afsted"
-	file = "den_gang_jeg_drog_afsted.ogg"
-	volume = 0.8
-}
-music = {
-	name = "Nuclear-Mike-Oldfield"
-	file = "megrez/Nuclear-Mike-Oldfield.ogg"
+	name = "Lieb_Vaterland"
+	file = "Lieb_Vaterland.ogg"
 	volume = 0.8
 }
 
@@ -18,6 +13,31 @@ music = {
 music = {
 	name = "East-vs-West-Soundtrack-WW3"
 	file = "megrez/East-vs-West-Soundtrack-WW3.ogg"
+	volume = 0.8
+}
+music = {
+	name = "East-vs-West-Soundtrack-Defcon-2Weary-Situation"
+	file = "megrez/East-vs-West-Soundtrack-Defcon-2Weary-Situation.ogg"
+	volume = 0.8
+}
+music = {
+	name = "East_vs_West_Soundtrack_-_Democratic_Rebellion"
+	file = "megrez/East_vs_West_Soundtrack_-_Democratic_Rebellion.ogg"
+	volume = 0.8
+}
+music = {
+	name = "East-vs-West-Soundtrack-World-at-War"
+	file = "megrez/East-vs-West-Soundtrack-World-at-War.ogg"
+	volume = 0.8
+}
+music = {
+	name = "East-vs-West-Soundtrack-Russia-Battle-1"
+	file = "megrez/East-vs-West-Soundtrack-Russia-Battle-1.ogg"
+	volume = 0.8
+}
+music = {
+	name = "East-vs-West-Soundtrack-Allies-Battle-1"
+	file = "megrez/East-vs-West-Soundtrack-Allies-Battle-1.ogg"
 	volume = 0.8
 }
 
@@ -31,5 +51,25 @@ music = {
 music = {
 	name = "Scorpions-Wind-Of-Change"
 	file = "megrez/Scorpions-Wind-Of-Change.ogg"
+	volume = 0.8
+}
+music = {
+	name = "Nuclear-Mike-Oldfield"
+	file = "megrez/Nuclear-Mike-Oldfield.ogg"
+	volume = 0.8
+}
+music = {
+	name = "CCR-Fortunate_Son"
+	file = "megrez/CCR-Fortunate_Son.ogg"
+	volume = 0.8
+}
+music = {
+	name = "Bob-Dylan-Blowin-in-the-Wind"
+	file = "megrez/Bob-Dylan-Blowin-in-the-Wind.ogg"
+	volume = 0.8
+}
+music = {
+	name = "CCR-Have-You-Ever-Seen-the-Rain"
+	file = "megrez/CCR-Have-You-Ever-Seen-the-Rain.ogg"
 	volume = 0.8
 }
