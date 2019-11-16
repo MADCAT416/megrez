@@ -9,6 +9,7 @@ state = { #Gansu
 		owner = XSM
 		add_core_of = CHI
 		add_core_of = XSM
+		add_core_of = SHX
 		add_claim_by = FNG
 		
 		victory_points = {

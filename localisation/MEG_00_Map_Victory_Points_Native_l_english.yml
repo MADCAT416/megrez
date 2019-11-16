@@ -7,9 +7,9 @@
 ###################################################################################################################################
 
 endo_vp_53:0 "Stavanger"
+endo_vp_71:0 "Velikiye Novgorod"
 endo_vp_83:0 "Haapsalu"
 endo_vp_94:0 "Šuomua"
-endo_vp_117:0 "Velikiye Novgorod"
 endo_vp_121:0 "Yaroslavl"
 endo_vp_122:0 "Bergen"
 endo_vp_153:0 "Willemstad"
@@ -743,6 +743,7 @@ endo_vp_9417:0 "Rostov-na-Donu"
 endo_vp_9427:0 "Kraków"
 endo_vp_9431:0 "Middelburg"
 endo_vp_9434:0 "Le Havre"
+endo_vp_9438:0 "Panevėžys"
 endo_vp_9450:0 "Chicago"
 endo_vp_9458:0 "Portsmouth"
 endo_vp_9461:0 "Luhansk"

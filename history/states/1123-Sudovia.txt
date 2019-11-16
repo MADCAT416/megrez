@@ -1,0 +1,22 @@
+state = {
+	id = 1123
+	name = "STATE_1123"
+
+	history = {
+		owner = LIT
+		add_core_of = LIT
+		victory_points = {
+			6296 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		3254 3272 6281 6296 6407 11312 
+	}
+	manpower = 902103
+	state_category = four
+}
