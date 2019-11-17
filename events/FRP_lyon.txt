@@ -1,0 +1,526 @@
+#########################
+#  France State Events  #
+#########################
+#        By SPiCa       #
+#########################
+add_namespace = lyon_situation
+
+country_event = { #사태의 시작
+	id = lyon_situation.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.1"}
+	title = lyon_situation.1.t
+	desc = lyon_situation.1.desc
+	#picture = 
+	
+	trigger = {
+		tag = FRP
+		date > 1970.05.02
+	}
+	
+	fire_only_once = yes
+	
+	option = { #또 시위야?
+		name = lyon_situation.1.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.02
+		country_event= {
+			id = lyon_situation.2
+			days = 4
+		}
+	}
+}
+
+country_event = { #격화
+	id = lyon_situation.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.2"}
+	title = lyon_situation.2.t
+	desc = lyon_situation.2.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #뭔가 심상치 않군
+		name = lyon_situation.2.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.03
+		country_event= {
+			id = lyon_situation.3
+			days = 5
+		}
+	}
+}
+country_event = { #서막
+	id = lyon_situation.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.3"}
+	title = lyon_situation.3.t
+	desc = lyon_situation.3.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #뭐? 난 그런일을 시킨 적이 없는데?
+		name = lyon_situation.3.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.10
+		country_event= {
+			id = lyon_situation.4
+			days = 1
+		}
+	}
+}
+country_event = { #한 대학생의 죽음
+	id = lyon_situation.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.4"}
+	title = lyon_situation.4.t
+	desc = lyon_situation.4.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #엥?
+		name = lyon_situation.4.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.03
+		country_event= {
+			id = lyon_situation.5
+			days = 2
+		}
+	}
+}
+country_event = { #폭동!
+	id = lyon_situation.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.5"}
+	title = lyon_situation.5.t
+	desc = lyon_situation.5.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #리옹에서 폭동이?
+		name = lyon_situation.5.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.10
+		country_event= {
+			id = lyon_situation.6
+			days = 2
+		}
+		20 = {set_demilitarized_zone= yes}
+		20 = { 
+			damage_building= { 
+			type = industrial_complex 
+			damage = 0.3 
+			}
+		}
+	}
+}
+country_event = { #통제불능한 폭동!
+	id = lyon_situation.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.6"}
+	title = lyon_situation.6.t
+	desc = lyon_situation.6.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #오, 젠장할!
+		name = lyon_situation.6.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.20
+		country_event= {
+			id = lyon_situation.7
+			days = 3
+		}
+		every_owned_state = {
+			damage_building= { 
+			type = infrastructure
+			damage = 0.4 
+			}
+		}
+	}
+}
+country_event = { # 폭동이 전 지역으로 퍼지다!
+	id = lyon_situation.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.7"}
+	title = lyon_situation.7.t
+	desc = lyon_situation.7.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #우리는 어떻게 해야 하지?
+		name = lyon_situation.7.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.8
+			days = 0
+		}
+	}
+}
+country_event = { #우리는 어떻게 하지?
+	id = lyon_situation.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.8"}
+	title = lyon_situation.8.t
+	desc = lyon_situation.8.desc
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #헌병대와 군을 투입할 준비를 해라!
+		name = lyon_situation.8.a
+		ai_chance = { factor = 99 }
+		custom_effect_tooltip = FRP_lyon_situation_1
+		add_stability = -0.10
+			country_event= {
+				id = lyon_situation.9
+				days = 5
+			}
+		}
+	option = { #우리도 또한 책임이 있다
+		name = lyon_situation.8.b
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = FRP_lyon_situation_2
+		add_stability = 0.05
+			country_event= {
+				id = lyon_situation.10
+				days = 5
+		}
+	}
+}
+country_event = { # 국가헌병대 투입
+	id = lyon_situation.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.9"}
+	title = lyon_situation.9.t
+	desc = lyon_situation.9.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #폭도를 진압해라!
+		name = lyon_situation.9.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.11
+			days = 15
+			add_stability = -0.20
+		}
+	}
+}
+country_event = { # 이어지는 시위
+	id = lyon_situation.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.10"}
+	title = lyon_situation.10.t
+	desc = lyon_situation.10.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #어떻게 하지?
+		name = lyon_situation.10.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.11
+			days = 15
+		}
+	}
+}
+country_event = { # 독일의 개입 제의
+	id = lyon_situation.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.11"}
+	title = lyon_situation.11.t
+	desc = lyon_situation.11.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #아니, 그것만은 안된다!
+		name = lyon_situation.11.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.12
+			days = 10
+			add_idea = FRP_civilwar_1
+		}
+	}
+}
+country_event = { # 군병력 투입?
+	id = lyon_situation.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.12"}
+	title = lyon_situation.12.t
+	desc = lyon_situation.12.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #군대 투입!
+		name = lyon_situation.12.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.13
+			days = 0
+			20 = { 
+				set_demilitarized_zone = no
+			}
+		}
+	}
+	option = { #미테랑의 연설
+		name = lyon_situation.12.b
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.14
+			days = 0
+		}
+	}
+}
+country_event = { # 진압해라!
+	id = lyon_situation.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.13"}
+	title = lyon_situation.13.t
+	desc = lyon_situation.13.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 많은 사람들이 다치겠군...
+		name = lyon_situation.13.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.15
+			days = 7
+			add_stability = -0.05
+		}
+	}
+}
+country_event = { # 미테랑의 연설
+	id = lyon_situation.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.14"}
+	title = lyon_situation.14.t
+	desc = lyon_situation.14.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 시민 여러분 진정하십시오!
+		name = lyon_situation.14.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.16
+			days = 7
+		}
+	}
+}
+country_event = { # 군대 후속 투입
+	id = lyon_situation.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.15"}
+	title = lyon_situation.15.t
+	desc = lyon_situation.15.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation.15.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.17
+			days = 3
+			add_stability = -0.05
+		}
+	}
+}
+country_event = { # 시위는 멈추지 않고...
+	id = lyon_situation.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.16"}
+	title = lyon_situation.16.t
+	desc = lyon_situation.16.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 흐음...
+		name = lyon_situation.16.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 3
+		}
+	}
+}
+country_event = { # 시가전
+	id = lyon_situation.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.17"}
+	title = lyon_situation.17.t
+	desc = lyon_situation.17.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 오, 젠장!
+		name = lyon_situation.17.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.18
+			days = 1
+			add_stability = -0.20
+		}
+	}
+}
+country_event = { # 전 병력 동원
+	id = lyon_situation.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.18"}
+	title = lyon_situation.18.t
+	desc = lyon_situation.18.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 폭도들아 이제 끝이다!
+		name = lyon_situation.18.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.19
+			days = 12
+		}
+	}
+}
+country_event = { # 폭력사태의 끝
+	id = lyon_situation.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.19"}
+	title = lyon_situation.19.t
+	desc = lyon_situation.19.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 국가의 위대함은 살아남았다!
+		name = lyon_situation.19.a
+		ai_chance = { factor = 1 }
+		remove_idea = FRP_civilwar_1
+	}
+}
+country_event = { # 
+	id = lyon_situation.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.20"}
+	title = lyon_situation.20.t
+	desc = lyon_situation.20.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation.20.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
+country_event = { # 
+	id = lyon_situation.
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
+	title = lyon_situation..t
+	desc = lyon_situation..desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = lyon_situation..a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.
+			days = 
+		}
+	}
+}
