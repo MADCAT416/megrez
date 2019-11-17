@@ -23,6 +23,11 @@ spriteTypes = {
                 texturefile = "gfx/interface/pdx_dev_tanks.dds"
         }
 
+	spriteType = {
+                name = "GFX_frontend_Naval_logo"
+                texturefile = "gfx/interface/pdx_dev_Naval.dds"
+        }
+
         spriteType = {
                 name = "GFX_alpha_stamp"
                 texturefile = "gfx/interface/alpha_stamp.dds"
