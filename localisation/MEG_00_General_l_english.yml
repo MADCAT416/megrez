@@ -4,6 +4,8 @@
     COOP_MAIN_MENU_LINK:0 "Click here to go to the Coop Discord"
     KR_MAIN_MENU_LINK:0 "Click here to go to the Kaiserreich Wiki"
     LOGO_MAIN_MENU_LINK:0 "Click here to see the patch notes"
+    TANK_MAIN_MENU_LINK:0 "Tank picture source : TANK ENCYCLOPEDIA"
+    NAVAL_MAIN_MENU_LINK:0 "Navy hull picture source: NAVAL ENCYCLOPEDIA"
 
  ### Difficulty ###
     custom_diff_strong_ger:0 "Strengthen German Empire"
