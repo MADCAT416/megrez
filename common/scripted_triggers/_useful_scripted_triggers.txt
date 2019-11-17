@@ -704,6 +704,10 @@ ROOT_is_in_international = {
 			is_faction_leader = yes
 			is_in_faction_with = ROOT
 		}
+		CSA = {
+			is_faction_leader = yes
+			is_in_faction_with = ROOT
+		}
 	}
 }
 
@@ -1025,29 +1029,6 @@ has_no_african_interests = {
 	}
 }
 
-can_form_italy = {
-	2 = { is_owned_and_controlled_by = ROOT } #Rome
-	count_triggers = {
-		amount = 3
-		158 = { is_owned_and_controlled_by = ROOT } #Turin
-		159 = { is_owned_and_controlled_by = ROOT } #Milan
-		117 = { is_owned_and_controlled_by = ROOT } #Naples
-		162 = { is_owned_and_controlled_by = ROOT } #Florence
-	}
-	NOT = {
-		has_country_flag = KR_will_balkanize_italy
-		tag = ITA
-		tag = SRI
-		tag = SIC
-		tag = SRD
-		tag = PAP
-		tag = VNC
-		tag = EMI
-		tag = TUS
-		tag = LOM
-	}
-}
-
 has_war_with_china = {
 	OR = {
 		has_war_with = QIE
@@ -1068,453 +1049,254 @@ has_war_with_china = {
 	}
 }
 
-### Civil Wars
-
-russian_civil_war = {
-	OR = {
-		RUS = {
-			has_war_with = SOV
-		}
-		SIB = {
-			OR = {
-				has_war_with = SOV
-				has_war_with = RUS
-			}
+controls_all_owned_states = {
+	NOT = {
+		any_owned_state = {
+			NOT = { is_controlled_by = PREV }
 		}
 	}
 }
 
-spanish_civil_war = {
+has_coalition = {
 	OR = {
-		SPR = {
-			has_war_with = CNT
+		AND = {
+			has_country_flag = coalition_totalist
+			NOT = { has_government = totalist }
 		}
-		SPR = {
-			has_war_with = CAR
+		AND = {
+			has_country_flag = coalition_syndicalist
+			NOT = { has_government = syndicalist }
 		}
-		CNT = {
-			has_war_with = CAR
+		AND = {
+			has_country_flag = coalition_democratic_socialist
+			NOT = { has_government = democratic_socialist }
+		}
+		AND = {
+			has_country_flag = coalition_social_democrat
+			NOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_country_flag = coalition_social_progressive
+			NOT = { has_government = social_progressive }
+		}
+		AND = {
+			has_country_flag = coalition_social_liberal
+			NOT = { has_government = social_liberal }
+		}
+		AND = {
+			has_country_flag = coalition_market_liberal
+			NOT = { has_government = market_liberal }
+		}
+		AND = {
+			has_country_flag = coalition_social_conservative
+			NOT = { has_government = social_conservative }
+		}
+		AND = {
+			has_country_flag = coalition_authoritarian_democrat
+			NOT = { has_government = authoritarian_democrat }
+		}
+		AND = {
+			has_country_flag = coalition_paternal_autocrat
+			NOT = { has_government = paternal_autocrat }
+		}
+
+		AND = {
+			has_country_flag = coalition_clerical_nationalist
+			NOT = { has_government = clerical_nationalist }
+		}
+
+		AND = {
+			has_country_flag = coalition_ethnic_populist
+			NOT = { has_government = ethnic_populist }
 		}
 	}
 }
 
-american_civil_war = {
+has_head_of_government = {
 	OR = {
-		USA = {
-			has_war_with = CSA
-		}
-		USA = {
-			has_war_with = TEX
-		}
-		CSA = {
-			has_war_with = TEX
-		}
-		CAL = {
-			OR = {
-				has_war_with = TEX
-				has_war_with = USA
-				has_war_with = CSA
-			}
-		}
+		has_idea_with_trait = HoG_Silent_Workhorse
+		has_idea_with_trait = HoG_Naive_Optimist
+		has_idea_with_trait = HoG_Flamboyant_Tough_Guy
+		has_idea_with_trait = HoG_Happy_Amateur
+		has_idea_with_trait = HoG_Backroom_Backstabber
+		has_idea_with_trait = HoG_Smiling_Oilman
+		has_idea_with_trait = HoG_Old_General
+		has_idea_with_trait = HoG_Old_Admiral
+		has_idea_with_trait = HoG_Old_Airmarshal
+		has_idea_with_trait = HoG_Political_Protege
+		has_idea_with_trait = HoG_Ambitious_Union_Boss
+		has_idea_with_trait = HoG_Corporate_Suit
+		has_idea_with_trait = HoG_Local_Tyrant
+		has_idea_with_trait = HoG_Old_Lawyer
+		has_idea_with_trait = HoG_Bulldog
+		has_idea_with_trait = HoG_Imperialist_Buffoon
+		has_idea_with_trait = HoG_The_Tiger
+		has_idea_with_trait = HoG_Revolutionary_Leader
+		has_idea_with_trait = HoG_The_Brown_Eminence
+		has_idea_with_trait = HoG_Guilty_Man
+		has_idea_with_trait = HoG_The_Pacifier
+		has_idea_with_trait = HoG_Collectivizer
+		has_idea_with_trait = HoG_Razor
+		has_idea_with_trait = HoG_Zhou_enlai
+		has_idea_with_trait = HoG_Jiang_jieshi_1
+		has_idea_with_trait = HoG_Sun_Zhongshan_2
 	}
 }
 
-needs_cheap_infantry = {
+has_foreign_minsiter = {
 	OR = {
-		has_civil_war = yes
-		AND = {
-			tag = SOV
-			has_war_with = RUS
-		}
-		AND = {
-			tag = TEX
-			OR = {
-				has_war_with = USA
-				has_war_with = CSA
-			}
-		}
-		AND = {
-			tag = CAL
-			OR = {
-				has_war_with = USA
-				has_war_with = CSA
-				has_war_with = TEX
-			}
-		}
-		AND = {
-			tag = CSA
-			OR = {
-				has_war_with = USA
-				has_war_with = TEX
-			}
-		}
-		AND = {
-			tag = USA
-			OR = {
-				has_war_with = TEX
-				has_war_with = CSA
-			}
-		}
-		AND = {
-			tag = SPR
-			OR = {
-				has_war_with = CNT
-				has_war_with = CAR
-			}
-		}
-		AND = {
-			tag = CNT
-			OR = {
-				has_war_with = SPR
-				has_war_with = CAR
-			}
-		}
-		AND = {
-			tag = CAR
-			OR = {
-				has_war_with = CNT
-				has_war_with = SPR
-			}
-		}
-		AND = {
-			tag = INC
-			has_war = yes
-			NOT = { has_global_flag = INC_Indochinese_uprising_success }
-		}
-		AND = {
-			tag = ROM
-			has_war_with = RRM
-		}
-		AND = {
-			tag = RRM
-			has_war_with = ROM
-		}
+		has_idea_with_trait = FM_Biased_Intellectual
+		has_idea_with_trait = FM_Ideological_Crusader
+		has_idea_with_trait = FM_Apologetic_Clerk
+		has_idea_with_trait = FM_Iron_Fisted_Brute
+		has_idea_with_trait = FM_Great_Compromiser
+		has_idea_with_trait = FM_General_Staffer
+		has_idea_with_trait = FM_The_Cloak_N_Dagger_Schemer
+		has_idea_with_trait = FM_Respectable_Compromiser
+		has_idea_with_trait = FM_Salesman_Of_Deception
+		has_idea_with_trait = FM_The_Appeaser
+		has_idea_with_trait = FM_Fascist_Crusader
+		has_idea_with_trait = FM_Aggressive_Nationalist
+		has_idea_with_trait = FM_Persuader_Of_Democracies
+		has_idea_with_trait = FM_Father_Of_United_Nations
+		has_idea_with_trait = FM_Ambassador_To_UN
+		has_idea_with_trait = FM_Supporter_Of_Friendly_Relations
+		has_idea_with_trait = FM_Messianic_Zealot
+		has_idea_with_trait = FM_Traveling_Salesman
 	}
 }
 
-northern_hemisphere_spring = {
+has_minister_of_security = {
 	OR = {
-		AND = {
-			date > 1936.3.20
-			date < 1936.6.21
-		}
-		AND = {
-			date > 1937.3.20
-			date < 1937.6.21
-		}
-		AND = {
-			date > 1938.3.20
-			date < 1938.6.21
-		}
-		AND = {
-			date > 1939.3.20
-			date < 1939.6.21
-		}
-		AND = {
-			date > 1940.3.20
-			date < 1940.6.21
-		}
-		AND = {
-			date > 1941.3.20
-			date < 1941.6.21
-		}
-		AND = {
-			date > 1942.3.20
-			date < 1942.6.21
-		}
-		AND = {
-			date > 1943.3.20
-			date < 1943.6.21
-		}
-		AND = {
-			date > 1944.3.20
-			date < 1944.6.21
-		}
-		AND = {
-			date > 1945.3.20
-			date < 1945.6.21
-		}
-		AND = {
-			date > 1946.3.20
-			date < 1946.6.21
-		}
-		AND = {
-			date > 1947.3.20
-			date < 1947.6.21
-		}
-		AND = {
-			date > 1948.3.20
-			date < 1948.6.21
-		}
-		AND = {
-			date > 1949.3.20
-			date < 1949.6.21
-		}
-		AND = {
-			date > 1950.3.20
-			date < 1950.6.21
-		}
+		has_idea_with_trait = MoS_Silent_Lawyer
+		has_idea_with_trait = MoS_Compassionate_Gentleman
+		has_idea_with_trait = MoS_Crime_Fighter
+		has_idea_with_trait = MoS_Prince_Of_Terror
+		has_idea_with_trait = MoS_Back_Stabber
+		has_idea_with_trait = MoS_Man_Of_The_People
+		has_idea_with_trait = MoS_Efficient_Sociopath
+		has_idea_with_trait = MoS_Crooked_Kleptocrat
+		has_idea_with_trait = MoS_Media_Magnate
+		has_idea_with_trait = MoS_Health_And_Safety
+		has_idea_with_trait = MoS_Secret_Police_Chief
+		has_idea_with_trait = MoS_SS_Reichsfuhrer
+		has_idea_with_trait = MoS_Ruthless_Organizer
+		has_idea_with_trait = MoS_Master_Of_Propaganda
+		has_idea_with_trait = MoS_Purged_Purger
+		has_idea_with_trait = MoS_Director_Of_FBI
+		has_idea_with_trait = MoS_Opposer_Of_The_Far_Right
+		has_idea_with_trait = MoS_Culture_Warrior
+		has_idea_with_trait = MoS_Dai_li_1
 	}
 }
 
-northern_hemisphere_summer = {
+has_armaments_minister = {
 	OR = {
-		AND = {
-			date > 1936.6.21
-			date < 1936.9.22
-		}
-		AND = {
-			date > 1937.6.21
-			date < 1937.9.22
-		}
-		AND = {
-			date > 1938.6.21
-			date < 1938.9.22
-		}
-		AND = {
-			date > 1939.6.21
-			date < 1939.9.22
-		}
-		AND = {
-			date > 1940.6.21
-			date < 1940.9.22
-		}
-		AND = {
-			date > 1941.6.21
-			date < 1941.9.22
-		}
-		AND = {
-			date > 1942.6.21
-			date < 1942.9.22
-		}
-		AND = {
-			date > 1943.6.21
-			date < 1943.9.22
-		}
-		AND = {
-			date > 1944.6.21
-			date < 1944.9.22
-		}
-		AND = {
-			date > 1945.6.21
-			date < 1945.9.22
-		}
-		AND = {
-			date > 1946.6.21
-			date < 1946.9.22
-		}
-		AND = {
-			date > 1947.6.21
-			date < 1947.9.22
-		}
-		AND = {
-			date > 1948.6.21
-			date < 1948.9.22
-		}
-		AND = {
-			date > 1949.6.21
-			date < 1949.9.22
-		}
-		AND = {
-			date > 1950.6.21
-			date < 1950.9.22
-		}
+		has_idea_with_trait = AM_Administrative_Genius
+		has_idea_with_trait = AM_Resource_Industrialist
+		has_idea_with_trait = AM_Laissez-faire_Capitalist
+		has_idea_with_trait = AM_Theoretical_Scientist
+		has_idea_with_trait = AM_Military_Entrepreneur
+		has_idea_with_trait = AM_Corrupt_Kleptocrat
+		has_idea_with_trait = AM_Oil_Baron
+		has_idea_with_trait = AM_Steel_Magnate
+		has_idea_with_trait = AM_Industrial_Chemist
+		has_idea_with_trait = AM_Planned_Economy_Proponent
+		has_idea_with_trait = AM_Keynesian_Economy
+		has_idea_with_trait = AM_Reformer
+		has_idea_with_trait = AM_Construction_Magnate
+		has_idea_with_trait = AM_Balanced_Budget_Economy
+		has_idea_with_trait = AM_Mixed_Economy
+		has_idea_with_trait = AM_Battle_Fleet_Proponent
+		has_idea_with_trait = AM_Submarine_Proponent
+		has_idea_with_trait = AM_Tank_Proponent
+		has_idea_with_trait = AM_Infantry_Proponent
+		has_idea_with_trait = AM_Air_To_Ground_Proponent
+		has_idea_with_trait = AM_Air_To_Sea_Proponent
+		has_idea_with_trait = AM_Strategic_Air_Proponent
+		has_idea_with_trait = AM_Air_Superiority_Proponent
+		has_idea_with_trait = AM_Genius_Organizer
+		has_idea_with_trait = AM_Organization_todt
+		has_idea_with_trait = AM_Autarkic_Fascist
+		has_idea_with_trait = AM_Iron_Lazar
+		has_idea_with_trait = AM_Orthodox_Economist
+		has_idea_with_trait = AM_Secretary_Of_War
+		has_idea_with_trait = AM_Secretary_Of_The_Interior
+		has_idea_with_trait = AM_Supporter_Of_Devaluation
+		has_idea_with_trait = AM_Opposer_To_Military_Spending
+		has_idea_with_trait = AM_Mad_Man
+		has_idea_with_trait = AM_Space_Enthusiast
+		has_idea_with_trait = AM_Gosplan_Boss
 	}
 }
 
-northern_hemisphere_autumn = {
+has_head_of_intelligence = {
 	OR = {
-		AND = {
-			date > 1936.9.22
-			date < 1936.12.21
-		}
-		AND = {
-			date > 1937.9.22
-			date < 1937.12.21
-		}
-		AND = {
-			date > 1938.9.22
-			date < 1938.12.21
-		}
-		AND = {
-			date > 1939.9.22
-			date < 1939.12.21
-		}
-		AND = {
-			date > 1940.9.22
-			date < 1940.12.21
-		}
-		AND = {
-			date > 1941.9.22
-			date < 1941.12.21
-		}
-		AND = {
-			date > 1942.9.22
-			date < 1942.12.21
-		}
-		AND = {
-			date > 1943.9.22
-			date < 1943.12.21
-		}
-		AND = {
-			date > 1944.9.22
-			date < 1944.12.21
-		}
-		AND = {
-			date > 1945.9.22
-			date < 1945.12.21
-		}
-		AND = {
-			date > 1946.9.22
-			date < 1946.12.21
-		}
-		AND = {
-			date > 1947.9.22
-			date < 1947.12.21
-		}
-		AND = {
-			date > 1948.9.22
-			date < 1948.12.21
-		}
-		AND = {
-			date > 1949.9.22
-			date < 1949.12.21
-		}
-		AND = {
-			date > 1950.9.22
-			date < 1950.12.21
-		}
+		has_idea_with_trait = HoI_Technical_Specialist
+		has_idea_with_trait = HoI_Logistics_Specialist
+		has_idea_with_trait = HoI_Political_Specialist
+		has_idea_with_trait = HoI_Dismal_Enigma
+		has_idea_with_trait = HoI_Industrial_Specialist
+		has_idea_with_trait = HoI_Naval_Intelligence_Specialist
+		has_idea_with_trait = HoI_Brilliant_Spymaster
+		has_idea_with_trait = HoI_The_Hangman
+		has_idea_with_trait = HoI_Quex
+		has_idea_with_trait = HoI_Double_Agent
+		has_idea_with_trait = HoI_Cryptographer
+		has_idea_with_trait = HoI_Dai_li_2
 	}
 }
 
-northern_hemisphere_winter = {
+has_chief_of_staff = {
 	OR = {
-		AND = {
-			date > 1936.12.21
-			date < 1936.3.20
-		}
-		AND = {
-			date > 1937.12.21
-			date < 1937.3.20
-		}
-		AND = {
-			date > 1938.12.21
-			date < 1938.3.20
-		}
-		AND = {
-			date > 1939.12.21
-			date < 1939.3.20
-		}
-		AND = {
-			date > 1940.12.21
-			date < 1940.3.20
-		}
-		AND = {
-			date > 1941.12.21
-			date < 1941.3.20
-		}
-		AND = {
-			date > 1942.12.21
-			date < 1942.3.20
-		}
-		AND = {
-			date > 1943.12.21
-			date < 1943.3.20
-		}
-		AND = {
-			date > 1944.12.21
-			date < 1944.3.20
-		}
-		AND = {
-			date > 1945.12.21
-			date < 1945.3.20
-		}
-		AND = {
-			date > 1946.12.21
-			date < 1946.3.20
-		}
-		AND = {
-			date > 1947.12.21
-			date < 1947.3.20
-		}
-		AND = {
-			date > 1948.12.21
-			date < 1948.3.20
-		}
-		AND = {
-			date > 1949.12.21
-			date < 1949.3.20
-		}
-		AND = {
-			date > 1950.12.21
-			date < 1950.3.20
-		}
+		has_idea_with_trait = CoStaff_School_Of_Manoeuvre
+		has_idea_with_trait = CoStaff_School_Of_Fire_Support
+		has_idea_with_trait = CoStaff_School_Of_Mass_Combat
+		has_idea_with_trait = CoStaff_School_Of_Psychology
+		has_idea_with_trait = CoStaff_School_Of_Defence
+		has_idea_with_trait = CoStaff_Commando_Doctrine_Staff
+		has_idea_with_trait = CoStaff_Counterattack_Genius
+		has_idea_with_trait = CoStaff_Popular_Military_Leader
+		has_idea_with_trait = CoStaff_Stubborn_Disciplinarian
+		has_idea_with_trait = CoStaff_Deep_Battle_Proponent
+		has_idea_with_trait = CoStaff_Fortifications_Supporter
 	}
 }
 
-
-owns_sudan = {
-	owns_state = 551
-	owns_state = 1007
-	owns_state = 1011
-	owns_state = 549
-	owns_state = 1010
-}
-
-owns_ca_trigger = {
-	custom_trigger_tooltip = {
-		tooltip = owns_ca_trigger_tooltip
-		AND = {
-			313 = { is_owned_and_controlled_by = ROOT } # Guatemala
-			314 = { is_owned_and_controlled_by = ROOT } # El Salvador
-			312 = { is_owned_and_controlled_by = ROOT } # Honduras
-			842 = { is_owned_and_controlled_by = ROOT } # Honduras
-			317 = { is_owned_and_controlled_by = ROOT } # Nicaragua
-			1071 = { is_owned_and_controlled_by = ROOT } # Nicaragua
-		}
+has_chief_of_army = {
+	OR = {
+		has_idea_with_trait = CoArmy_Elastic_Defence_Doctrine
+		has_idea_with_trait = CoArmy_Static_Defence_Doctrine
+		has_idea_with_trait = CoArmy_Decisive_Battle_Doctrine
+		has_idea_with_trait = CoArmy_Armoured_Spearhead_Doctrine
+		has_idea_with_trait = CoArmy_Guns_And_Butter_Doctrine
+		has_idea_with_trait = CoArmy_Commando_Doctrine_Army
+		has_idea_with_trait = CoArmy_Doctrine_Of_Autonomy
+		has_idea_with_trait = CoArmy_Innovative_Offensive_General
+		has_idea_with_trait = CoArmy_Guerilla_Warfare_Doctrine
+		has_idea_with_trait = CoArmy_Undersecretary_Of_War
+		has_idea_with_trait = CoArmy_Static_Defense_Supporter
 	}
 }
 
-
-ai_air_doctrine_tier_1_trigger = {
+has_chief_of_navy = {
 	OR = {
-		has_tech = naval_strike_tactics
-		has_tech = direct_ground_support
-		has_tech = low_echelon_support
+		has_idea_with_trait = CoNavy_Open_Seas_Doctrine
+		has_idea_with_trait = CoNavy_Decisive_Naval_Battle_Doctrine
+		has_idea_with_trait = CoNavy_Power_Projection_Doctrine
+		has_idea_with_trait = CoNavy_Indirect_Approach_Doctrine
+		has_idea_with_trait = CoNavy_Base_Control_Doctrine
+		has_idea_with_trait = CoNavy_Old_School_Admiral
 	}
 }
 
-ai_air_doctrine_tier_2_trigger = {
+has_chief_of_air = {
 	OR = {
-		has_tech = multialtitude_flying
-		has_tech = hunt_and_destroy
-		has_tech = operational_destruction
-	}
-}
-ai_air_doctrine_tier_3_trigger = {
-	OR = {
-		has_tech = flying_fortress
-		has_tech = naval_strike_torpedo_tactics
-		has_tech = infiltration_bombing
-	}
-}
-
-ai_land_doctrine_tier_1_trigger = {
-	OR = {
-		has_tech = elastic_defence
-		has_tech = mobile_defence
-		has_tech = grand_assault
-		has_tech = defence_in_depth
-	}
-}
-
-ai_land_doctrine_tier_2_trigger = {
-	OR = {
-		has_tech = kampfgruppe
-		has_tech = mechanised_offensive
-		has_tech = branch_interoperation
-		has_tech = infiltration_assault
-		has_tech = vast_offensives
-		has_tech = large_front_offensive
+		has_idea_with_trait = CoAir_Air_Superiority_Doctrine
+		has_idea_with_trait = CoAir_Naval_Aviation_Doctrine
+		has_idea_with_trait = CoAir_Army_Aviation_Doctrine
+		has_idea_with_trait = CoAir_Carpet_Bombing_Doctrine
+		has_idea_with_trait = CoAir_Vertical_Envelopment_Doctrine
+		has_idea_with_trait = CoAir_The_Iron_Knight
 	}
 }
