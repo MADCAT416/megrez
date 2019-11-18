@@ -3,7 +3,7 @@ state = {
 	name = "STATE_404"
 
 	history = {
-		owner = ALO
+		owner = RUS
 		buildings = {
 			infrastructure = 2
 		}
@@ -17,6 +17,6 @@ state = {
 		1243 1312 1382 1402 4250 4277 4389 4595 7335 7392 7407 7425 10179 10220 10268 10275 10277 12111 12121 12177 12194 
 		10292 7405 1239 10161 10290 7332 
 	}
-	manpower = 667036
+	manpower = 1515735
 	state_category = two
 }

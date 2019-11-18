@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = ALO
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -23,6 +23,6 @@ state = {
 	provinces = {
 		1591 1840 4224 4651 4845 7711 7795 7856 10146 10547 10550 10619 12529 13148 13149 13197
 	}
-	manpower = 1235191
+	manpower = 1968090
 	state_category = four
 }
