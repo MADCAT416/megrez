@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = BHC_national_congress
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_goal_INC_Congress
 		cost = 10.00
 		x = 10
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_totalism
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_goal_totalism
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -164,7 +164,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_syndicalism
-		icon = GFX_focus_prc_agrarian_socialism
+		icon = GFX_goal_syndicalism
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -180,7 +180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_democratic_socialism
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_goal_autonomism
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -336,7 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_social_democratic
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_ideology_social_democrat
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_national_congress
@@ -434,7 +434,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_freedom_of_mind
-		icon = GFX_goal_unknown
+		icon = GFX_goal_brain
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_liberty_of_speech
@@ -487,7 +487,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_union_centered
-		icon = GFX_focus_yug_pan_slavic_congress
+		icon = GFX_goal_tblra_union_agreement
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_political_structure
@@ -501,7 +501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_committee_center
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_commune_politics
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_political_structure
