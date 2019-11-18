@@ -540,6 +540,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2099;5100;impassable;-1;-1;-1;-1;-1;;Qinghai
 5076;7997;impassable;-1;-1;-1;-1;-1;;Qinghai
 12327;13587;impassable;-1;-1;-1;-1;-1;;Qinghai
+5100;13587;impassable;-1;-1;-1;-1;-1;;Qinghai
 5057;12732;impassable;-1;-1;-1;-1;-1;;Qinghai
 12327;12732;impassable;-1;-1;-1;-1;-1;;Qinghai
 12596;7997;impassable;-1;-1;-1;-1;-1;;Qinghai
