@@ -1,0 +1,121 @@
+﻿add_namespace = mrz_gen_coalition
+
+country_event = {
+	id = mrz_gen_coalition.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event mrz_gen_coalition.1"}
+	hidden = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+immediate = {
+
+		set_variable = {
+  		 var = goverment_popularity
+   		 value = ROOT.party_popularity@ruling_party
+		}
+
+	if = {
+		limit = { ROOT = { NOT = { has_government = totalist } has_country_flag = coalition_totalist } }
+		ROOT = {
+		set_variable = { totalist_popularity = ROOT.party_popularity@totalist }
+		multiply_variable = { totalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = totalist_popularity } 
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = syndicalist } has_country_flag = coalition_syndicalist } }
+		ROOT = {
+		set_variable = { syndicalist_popularity = ROOT.party_popularity@syndicalist }
+		multiply_variable = { syndicalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = syndicalist_popularity }
+			}
+	}
+
+	if = {
+		limit = { ROOT = { NOT = { has_government = democratic_socialist } has_country_flag = coalition_democratic_socialist } }
+		ROOT = {
+		set_variable = { democratic_socialist_popularity = ROOT.party_popularity@democratic_socialist }
+		multiply_variable = { democratic_socialist_popularity = 100 }
+		add_to_variable = { goverment_popularity = democratic_socialist_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = social_democrat } has_country_flag = coalition_social_democrat } }
+		ROOT = {
+		set_variable = { social_democrat_popularity = ROOT.party_popularity@social_democrat }
+		multiply_variable = { social_democrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_democrat_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = social_progressive } has_country_flag = coalition_social_progressive } }
+		ROOT = {
+		set_variable = { social_progressive_popularity = ROOT.party_popularity@social_progressive }
+		multiply_variable = { social_progressive_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_progressive_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = social_liberal } has_country_flag = coalition_social_liberal } }
+		ROOT = {
+		set_variable = { social_liberal_popularity = ROOT.party_popularity@social_liberal }
+		multiply_variable = { social_liberal_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_liberal_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = market_liberal } has_country_flag = coalition_market_liberal } }
+		ROOT = {
+		set_variable = { market_liberal_popularity = ROOT.party_popularity@market_liberal }
+		multiply_variable = { market_liberal_popularity = 100 }
+		add_to_variable = { goverment_popularity = market_liberal_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = social_conservative } has_country_flag = coalition_social_conservative } }
+		ROOT = {
+		set_variable = { authoritarian_democra_popularity = ROOT.party_popularity@social_conservative }
+		multiply_variable = { social_conservative_popularity = 100 }
+		add_to_variable = { goverment_popularity = social_conservative_popularity }			
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = authoritarian_democrat } has_country_flag = coalition_authoritarian_democrat } }
+		ROOT = {
+		set_variable = { authoritarian_democrat_popularity = ROOT.party_popularity@authoritarian_democrat 
+					}
+		multiply_variable = { authoritarian_democrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = authoritarian_democrat_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = paternal_autocrat } has_country_flag = coalition_paternal_autocrat } }
+		ROOT = {
+		set_variable = { paternal_autocrat_popularity = ROOT.party_popularity@paternal_autocrat 
+					}
+		multiply_variable = { paternal_autocrat_popularity = 100 }
+		add_to_variable = { goverment_popularity = paternal_autocrat_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = clerical_nationalist } has_country_flag = coalition_clerical_nationalist } }
+		ROOT = {
+		set_variable = { clerical_nationalist_popularity = ROOT.party_popularity@clerical_nationalist }
+		multiply_variable = { clerical_nationalist_popularity = 100 }
+		add_to_variable = { goverment_popularity = clerical_nationalist_popularity }
+			}
+	}
+	if = {
+		limit = { ROOT = { NOT = { has_government = ethnic_populist } has_country_flag = coalition_ethnic_populist } }
+		ROOT = {
+		set_variable = { ethnic_populist_popularity = ROOT.party_popularity@ethnic_populist }
+		multiply_variable = { ethnic_populist_popularity = 100 }
+		add_to_variable = { goverment_popularity = ethnic_populist_popularity }
+			}
+	}
+	}
+	option = {}
+
+}
