@@ -160,54 +160,57 @@ country_event = { # 불만의 목소리
 	option = { # 흠...
 		name = oil_sau_per.6.a
 		ai_chance = { factor = 1 }
-		hidden_effect = { country_event= {
-			id = oil_sau_per.
-			days = 14
-			}
 		}
 		add_stability = -0.10
 		hidden_effect = { PER = {
 				country_event= {
-					days = 1 
-					id = finland.1 
+					days = 14
+					id = oil_sau_per.7
 				}
 			}
 		}
 	}
 }
-country_event = { # 
-	id = oil_sau_per.
-	immediate = {log = "[GetDateText]: [Root.GetName]: event oil_sau_per."}
-	title = oil_sau_per..t
-	desc = oil_sau_per..desc
+country_event = { # 알칼리 지역의 불만
+	id = oil_sau_per.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event oil_sau_per.7"}
+	title = oil_sau_per.7.t
+	desc = oil_sau_per.7.desc
 	#picture = 
     is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #
-		name = oil_sau_per..a
+	option = { #좋다, 불만을 고조시켜라!
+		name = oil_sau_per.7.a
+		ai_chance = { factor = 8 }
+		country_event= {
+			id = oil_sau_per.8
+			days = 14
+		}
+	}
+	option = { #아니, 우리와는 상관없다.
+		name = oil_sau_per.7.b
 		ai_chance = { factor = 1 }
 		country_event= {
-			id = oil_sau_per.
-			days = 
-		}
+			id = oil_sau_per.9
+			days = 14
 	}
 }
 country_event = { # 
-	id = oil_sau_per.
-	immediate = {log = "[GetDateText]: [Root.GetName]: event oil_sau_per."}
-	title = oil_sau_per..t
-	desc = oil_sau_per..desc
+	id = oil_sau_per.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event oil_sau_per.8"}
+	title = oil_sau_per.8.t
+	desc = oil_sau_per.8.desc
 	#picture = 
     is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = { #
-		name = oil_sau_per..a
+		name = oil_sau_per.8.a
 		ai_chance = { factor = 1 }
 		country_event= {
-			id = oil_sau_per.
-			days = 
+			id = oil_sau_per.10
+			days = 14
 		}
 	}
 }
