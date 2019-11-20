@@ -1146,6 +1146,7 @@ country_event = {
 		1122 = { set_state_name = endo_state_1122 }
 		1123 = { set_state_name = endo_state_1123 }
 		1124 = { set_state_name = endo_state_1124 }
+		1125 = { set_state_name = endo_state_1125 }
 		
 		### set endo vps ###
 
@@ -7293,6 +7294,7 @@ country_event = {
 		1122 = { reset_state_name = yes }
 		1123 = { reset_state_name = yes }
 		1124 = { reset_state_name = yes }
+		1125 = { reset_state_name = yes }
 		
 		### reset endo vps ###
 
