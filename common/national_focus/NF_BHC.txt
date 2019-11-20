@@ -196,7 +196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_preparation_for_reform
-		icon = GFX_focus_generic_treaty
+		icon = GFX_goal_BHC_preparation_reform
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_syndicalism
@@ -208,7 +208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BHC_relaxation_of_control
-		icon = GFX_focus_cze_german_puppet
+		icon = GFX_goal_BHC_relaxation_of_control
 		cost = 10.00
 		prerequisite = {
 			focus = BHC_democratic_socialism

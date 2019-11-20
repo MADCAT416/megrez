@@ -2770,6 +2770,14 @@ spriteTypes = {
 		name = "GFX_goal_INC_Congress"
 		texturefile = "gfx/interface/goals/BHC_INC_cong.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_BHC_preparation_reform"
+		texturefile = "gfx/interface/goals/BHC_preparation_reform.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BHC_relaxation_of_control"
+		texturefile = "gfx/interface/goals/BHC_relaxation_of_control.tga"
+	}
 	
 	SpriteType = {
 		name = "GFX_goal_india_united"
