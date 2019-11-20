@@ -1,4 +1,4 @@
-﻿capital = 140
+﻿capital = 110
 OOB = "empty"
 set_convoys = 150
 set_research_slots = 4
@@ -34,7 +34,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = syndicalist
 	last_election = "1934.4.10"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,12 +43,12 @@ set_politics = {
 set_popularities = {
     totalist = 0
     democratic_socialist = 1
-    syndicalist = 4
-    social_democrat = 30
+    syndicalist = 30
+    social_democrat = 19
     social_liberal = 14
     market_liberal = 24
     social_conservative = 6
-    authoritarian_democrat = 19
+    authoritarian_democrat = 4
     paternal_autocrat = 2
     ethnic_populist = 0
 }

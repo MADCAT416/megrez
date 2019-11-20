@@ -11,13 +11,13 @@ state = {
 
 	history = {
 		victory_points = {
-			6115 15
+			6115 20
 		}
 		victory_points = {
 			11151 1
 		}
 
-		owner = NOR
+		owner = SCA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -26,10 +26,10 @@ state = {
 			air_base = 4
 			6115 = {
 				naval_base = 6
-				coastal_bunker = 3
+				coastal_bunker = 7
 			}
 		}
-		add_core_of = NOR
+		add_core_of = SCA
 	}
 
 	provinces = {

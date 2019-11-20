@@ -6,7 +6,7 @@ state = {
 
 
 	history = {
-		owner = SWE
+		owner = SCA
 		victory_points = {
 			383 10
 		}
@@ -21,7 +21,7 @@ state = {
 				coastal_bunker = 5
 			}
 		}
-		add_core_of = SWE
+		add_core_of = SCA
 	}
 
 

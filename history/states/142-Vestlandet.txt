@@ -12,7 +12,7 @@ state = {
 	}
 
 	history = {
-		owner = NOR
+		owner = SCA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -36,7 +36,7 @@ state = {
 		victory_points = {
 			53 2
 		}
-		add_core_of = NOR
+		add_core_of = SCA
 	}
 
 	provinces = {
