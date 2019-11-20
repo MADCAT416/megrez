@@ -23,9 +23,11 @@ country_event = { #사태의 시작
 		name = lyon_situation.1.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.02
-		country_event= {
-			id = lyon_situation.2
-			days = 4
+		hidden_effect = { 
+			country_event= {
+				id = lyon_situation.2
+				days = 4
+			}
 		}
 	}
 }
@@ -43,9 +45,10 @@ country_event = { #격화
 		name = lyon_situation.2.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.03
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.3
 			days = 5
+			}
 		}
 	}
 }
@@ -62,7 +65,7 @@ country_event = { #서막
 		name = lyon_situation.3.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.10
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.4
 			days = 1
 		}
@@ -81,9 +84,10 @@ country_event = { #한 대학생의 죽음
 		name = lyon_situation.4.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.03
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.5
 			days = 2
+			}
 		}
 	}
 }
@@ -100,15 +104,16 @@ country_event = { #폭동!
 		name = lyon_situation.5.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.10
-		country_event= {
-			id = lyon_situation.6
-			days = 2
-		}
-		20 = {set_demilitarized_zone= yes}
+		20 = { set_demilitarized_zone= yes }
 		20 = { 
 			damage_building= { 
 			type = industrial_complex 
 			damage = 0.3 
+			hidden_effect = { country_event= {
+				id = lyon_situation.6
+				days = 2
+					}
+				}
 			}
 		}
 	}
@@ -126,9 +131,10 @@ country_event = { #통제불능한 폭동!
 		name = lyon_situation.6.a
 		ai_chance = { factor = 1 }
 		add_stability = -0.20
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.7
 			days = 3
+			}
 		}
 		every_owned_state = {
 			damage_building= { 
@@ -199,9 +205,10 @@ country_event = { # 국가헌병대 투입
 	option = { #폭도를 진압해라!
 		name = lyon_situation.9.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.11
 			days = 15
+			}
 			add_stability = -0.20
 		}
 	}
@@ -218,9 +225,10 @@ country_event = { # 이어지는 시위
 	option = { #어떻게 하지?
 		name = lyon_situation.10.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.11
 			days = 15
+			}
 		}
 	}
 }
@@ -236,9 +244,10 @@ country_event = { # 독일의 개입 제의
 	option = { #아니, 그것만은 안된다!
 		name = lyon_situation.11.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.12
 			days = 10
+			}
 			add_idea = FRP_civilwar_1
 		}
 	}
@@ -255,20 +264,22 @@ country_event = { # 군병력 투입?
 	option = { #군대 투입!
 		name = lyon_situation.12.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		20 = { 
+			set_demilitarized_zone = no
+		}
+		hidden_effect = { country_event= {
 			id = lyon_situation.13
-			days = 0
-			20 = { 
-				set_demilitarized_zone = no
+			days = 5
 			}
 		}
 	}
 	option = { #미테랑의 연설
 		name = lyon_situation.12.b
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.14
-			days = 0
+			days = 5
+			}
 		}
 	}
 }
@@ -284,9 +295,10 @@ country_event = { # 진압해라!
 	option = { # 많은 사람들이 다치겠군...
 		name = lyon_situation.13.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.15
 			days = 7
+			}
 			add_stability = -0.05
 		}
 	}
@@ -303,9 +315,13 @@ country_event = { # 미테랑의 연설
 	option = { # 시민 여러분 진정하십시오!
 		name = lyon_situation.14.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		20 = { 
+			set_demilitarized_zone = no
+		}
+		hidden_effect = { country_event= {
 			id = lyon_situation.16
 			days = 7
+			}
 		}
 	}
 }
@@ -321,9 +337,10 @@ country_event = { # 군대 후속 투입
 	option = { #
 		name = lyon_situation.15.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.17
 			days = 3
+			}
 			add_stability = -0.05
 		}
 	}
@@ -340,9 +357,10 @@ country_event = { # 시위는 멈추지 않고...
 	option = { # 흐음...
 		name = lyon_situation.16.a
 		ai_chance = { factor = 1 }
-		country_event= {
-			id = lyon_situation.
+		hidden_effect = { country_event= {
+			id = lyon_situation.20
 			days = 3
+			}
 		}
 	}
 }
@@ -358,9 +376,10 @@ country_event = { # 시가전
 	option = { # 오, 젠장!
 		name = lyon_situation.17.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.18
 			days = 1
+			}
 			add_stability = -0.20
 		}
 	}
@@ -377,9 +396,10 @@ country_event = { # 전 병력 동원
 	option = { # 폭도들아 이제 끝이다!
 		name = lyon_situation.18.a
 		ai_chance = { factor = 1 }
-		country_event= {
+		hidden_effect = { country_event= {
 			id = lyon_situation.19
 			days = 12
+			}
 		}
 	}
 }
@@ -398,7 +418,7 @@ country_event = { # 폭력사태의 끝
 		remove_idea = FRP_civilwar_1
 	}
 }
-country_event = { # 
+country_event = { # 내각 대책 회의
 	id = lyon_situation.20
 	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.20"}
 	title = lyon_situation.20.t
@@ -410,9 +430,72 @@ country_event = { #
 	option = { #
 		name = lyon_situation.20.a
 		ai_chance = { factor = 1 }
+		hidden_effect = { country_event= {
+			id = lyon_situation.21
+			days = 14
+			}
+		}
+	}
+}
+country_event = { # 또다른 연설
+	id = lyon_situation.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.21"}
+	title = lyon_situation.21.t
+	desc = lyon_situation.21.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 독일과의 재협상을 약속하겠습니다!
+		name = lyon_situation.21.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.22
+			days = 20
+		}
+	}
+}
+country_event = { # 프랑스의 재협상 요구
+	id = lyon_situation.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.22"}
+	title = lyon_situation.22.t
+	desc = lyon_situation.22.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 아니, 재협상은 없다!
+		name = lyon_situation.22.a
+		ai_chance = { factor = 9 }
+		country_event= {
+			id = lyon_situation.23
+			days = 0
+		}
+	}
+	option = { # 좋다, 받아들이지
+		name = lyon_situation.22.a
+		ai_chance = { factor = 5 }
 		country_event= {
 			id = lyon_situation.
-			days = 
+			days = 0
+		}
+	}
+}
+country_event = { # 독일의 거부!
+	id = lyon_situation.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation.23"}
+	title = lyon_situation.23.t
+	desc = lyon_situation.23.desc
+	#picture = 
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #이런 젠장...
+		name = lyon_situation.23.a
+		ai_chance = { factor = 1 }
+		country_event= {
+			id = lyon_situation.24
+			days = 14
 		}
 	}
 }
@@ -430,61 +513,7 @@ country_event = { #
 		ai_chance = { factor = 1 }
 		country_event= {
 			id = lyon_situation.
-			days = 
-		}
-	}
-}
-country_event = { # 
-	id = lyon_situation.
-	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
-	title = lyon_situation..t
-	desc = lyon_situation..desc
-	#picture = 
-    is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = { #
-		name = lyon_situation..a
-		ai_chance = { factor = 1 }
-		country_event= {
-			id = lyon_situation.
-			days = 
-		}
-	}
-}
-country_event = { # 
-	id = lyon_situation.
-	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
-	title = lyon_situation..t
-	desc = lyon_situation..desc
-	#picture = 
-    is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = { #
-		name = lyon_situation..a
-		ai_chance = { factor = 1 }
-		country_event= {
-			id = lyon_situation.
-			days = 
-		}
-	}
-}
-country_event = { # 
-	id = lyon_situation.
-	immediate = {log = "[GetDateText]: [Root.GetName]: event lyon_situation."}
-	title = lyon_situation..t
-	desc = lyon_situation..desc
-	#picture = 
-    is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = { #
-		name = lyon_situation..a
-		ai_chance = { factor = 1 }
-		country_event= {
-			id = lyon_situation.
-			days = 
+			days = 7
 		}
 	}
 }
