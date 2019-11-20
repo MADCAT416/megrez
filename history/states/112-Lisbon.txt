@@ -1,7 +1,7 @@
 state = {
 	id = 112
 	name = "STATE_112"
-	manpower = 2369100
+	manpower = 3311005
 	resources = {
 		tungsten = 76
 	}
@@ -31,7 +31,7 @@ state = {
 			}
 		}
 		add_core_of = POR
-add_core_of = CNT
+		add_core_of = CNT
 	}
 
 	provinces = {

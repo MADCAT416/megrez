@@ -1,7 +1,7 @@
 state = {
 	id = 167
 	name = "STATE_167"
-	manpower = 1979294
+	manpower = 2974546
 
 	state_category = five
 
@@ -23,7 +23,7 @@ state = {
 			}
 		}
 		add_core_of = SPR
-add_core_of = CNT
+		add_core_of = CNT
 	}
 
 	provinces = {

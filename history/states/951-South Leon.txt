@@ -12,7 +12,7 @@ state={
 			6907 1 
 		}
 		add_core_of = SPR
-add_core_of = CNT
+		add_core_of = CNT
 		
 		buildings = {
 			infrastructure = 6
@@ -34,7 +34,7 @@ add_core_of = CNT
 	provinces={
 		794 874 3874 6867 6907 9770 
 	}
-	manpower=866041
+	manpower=379132
 	buildings_max_level_factor=1.000
 	state_category=five
 }
