@@ -12,6 +12,9 @@ state = {
 		buildings = {
 			infrastructure = 4
 			
+			211 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = SCA
 		add_claim_by = DEN
