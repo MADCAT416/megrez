@@ -1,21 +1,29 @@
 state = {
 	id = 692
 	name = "STATE_692"
-	manpower = 365120
+	manpower = 842880
 	state_category = one_island
 
 	history = {
 		owner = CAF
 		buildings = {
 			infrastructure = 3
+			air_base = 1
+			
+			177 = {
+				naval_base = 3
+			}
 			11350 = {
 				naval_base = 1
 			}
+		}
+		victory_points = {
+			177 4
 		}
 		add_core_of = CAF
 	}
 
 	provinces = {
-		379 11106 11350 13009
+		177 379 11106 11350 13009
 	}
 }
