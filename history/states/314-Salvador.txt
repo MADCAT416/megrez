@@ -1,7 +1,7 @@
 state = {
 	id = 314
 	name = "STATE_314"
-	manpower = 1597611
+	manpower = 3478000
 	resources = {
 		chromium = 1
 	}
@@ -19,7 +19,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ELS
+		
 		add_core_of = CEN
 		victory_points = {
 			12823 6

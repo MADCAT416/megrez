@@ -1,0 +1,27 @@
+state = {
+	id = 1126
+	name = "STATE_1126"
+	resources = {
+		
+	}
+
+	history = {
+		owner = CEN
+		buildings = {
+			infrastructure = 2
+			
+			13085 = {
+				naval_base = 1
+			}
+		}
+		
+		add_core_of = CEN
+		
+	}
+
+	provinces = {
+		13085 13446 4991 
+	}
+	manpower = 183727
+	state_category = two
+}

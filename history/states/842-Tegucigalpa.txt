@@ -2,7 +2,7 @@ state = {
 	id = 842
 	name = "STATE_842"
 	state_category = three
-	manpower = 729761
+	manpower = 1936994
 
 	resources = {
 		chromium = 1
@@ -21,7 +21,7 @@ state = {
 		victory_points = {
 			13207 4
 		}
-		add_core_of = HON
+		
 		add_core_of = CEN
 	}
 

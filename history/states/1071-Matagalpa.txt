@@ -1,11 +1,11 @@
 state = {
 	id = 1071
 	name = "STATE_1071"
-	manpower = 212421
+	manpower = 126510
 	state_category = one
 	history = {
 		owner = CEN
-		add_claim_by = NIC
+		
 		add_core_of = CEN
 		buildings = {
 			infrastructure = 2

@@ -1,8 +1,8 @@
 state = {
 	id = 1070
 	name = "STATE_1070"
-	manpower = 15143
-	state_category = wasteland
+	manpower = 380843
+	state_category = two
 	history = {
 		owner = CEN
 		add_core_of = COS
@@ -10,9 +10,16 @@ state = {
 		add_core_of = PAN
 		buildings = {
 			infrastructure = 1
+			12878 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			12878 2
 		}
 	}
 	provinces = {
-		13676
+		12878 13680 13678 13676 
 	}
 }
