@@ -3,7 +3,10 @@ state = {
 	name = "STATE_1077"
 
 	history = {
-		owner = HOL
+		owner = CAF
+		add_core_of = CAF
+		add_claim_by = HOL
+		
 		buildings = {
 			infrastructure = 2
 			13606 = {
@@ -16,5 +19,5 @@ state = {
 		13606
 	}
 	manpower = 10476
-	state_category = wasteland
+	state_category = tiny_island
 }

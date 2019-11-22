@@ -7,7 +7,10 @@ state = {
 
 	history = {
 		victory_points = { 153 1 }
-		owner = HOL
+		owner = CAF
+		add_core_of = CAF
+		add_core_of = VEN
+		add_claim_by = HOL
 
 		buildings = {
 			infrastructure = 3

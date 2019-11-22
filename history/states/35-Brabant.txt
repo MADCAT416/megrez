@@ -1,7 +1,7 @@
 state = {
 	id = 35
 	name = "STATE_35" # Brabant
-	manpower = 2223670
+	manpower = 1936486
 
 	state_category = six
 
@@ -15,15 +15,6 @@ state = {
 
 			9498 = {
 				naval_base = 5
-			}
-			9431 = {
-				bunker = 1
-			}
-			6496 = {
-				bunker = 1
-			}
-			11456 = {
-				bunker = 2
 			}
 		}
 		victory_points = { 6496 5 }

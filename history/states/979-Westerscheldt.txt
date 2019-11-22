@@ -4,7 +4,7 @@ state = {
 	provinces = {
 		480
 	}
-	manpower = 95247
+	manpower = 100522
 
 	state_category = two
 
@@ -15,9 +15,7 @@ state = {
 
 		buildings = {
 			infrastructure = 5
-			480 = {
-				bunker = 1
-			}
+			
 		}
 	}
 }
