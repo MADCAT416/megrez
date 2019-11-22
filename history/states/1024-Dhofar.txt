@@ -4,7 +4,7 @@ state = {
 	provinces = {
 		2059 2103
 	}
-	manpower = 22103
+	manpower = 40589
 
 	history = {
 		owner = OMA
