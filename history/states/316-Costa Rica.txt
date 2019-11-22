@@ -21,8 +21,8 @@ state = {
 			}
 			
 		}
-		add_core_of = COS
 		add_core_of = CEN
+		
 		victory_points = {
 			13087 5
 		}

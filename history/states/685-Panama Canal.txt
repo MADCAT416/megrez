@@ -1,9 +1,9 @@
 state = {
 	id = 685
 	name = "STATE_685"
-	manpower = 39467
+	manpower = 94196
 
-	state_category = zero
+	state_category = enclave
 
 	history = {
 		owner = PAN
