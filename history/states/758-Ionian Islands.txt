@@ -15,6 +15,6 @@ state = {
 	provinces = {
 		1106
 	}
-	manpower = 103492
+	manpower = 96261
 	state_category = one_island
 }
